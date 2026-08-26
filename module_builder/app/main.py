@@ -184,13 +184,73 @@ def require_job(job_id: str):
 @app.get("/jobs/{job_id}", response_class=HTMLResponse)
 def job_page(request: Request, job_id: str):
     job = require_job(job_id)
+    status = JobStatus(job["status"])
+    if status in {JobStatus.INBOX, JobStatus.NORMALIZING, JobStatus.GENERATING}:
+        target = "progress"
+    elif status == JobStatus.REVIEW:
+        target = "plan"
+    elif status in {JobStatus.SUCCESS, JobStatus.FINISHED}:
+        target = "result"
+    else:
+        active_folder = job_dir(settings.data_root, job_id, status)
+        target = "manual/quality" if (active_folder / "refinement-prompt.txt").exists() else "mode"
+    return RedirectResponse(f"/jobs/{job_id}/{target}", status_code=303)
+
+
+def job_context(request: Request, job_id: str) -> dict:
+    job = require_job(job_id)
     plan = NormalizedSyllabus.model_validate_json(job["normalized_json"]) if job.get("normalized_json") else None
     stages = db.stages(job_id)
-    prompt = master_prompt(plan, settings.quiz_questions) if plan and JobStatus(job["status"]) not in {JobStatus.INBOX, JobStatus.NORMALIZING} else ""
     folder = job_dir(settings.data_root, job_id, JobStatus(job["status"])) / "modules"
     modules = sorted(p.name for p in folder.glob("*.docx")) if folder.exists() else []
-    refinement_path = job_dir(settings.data_root, job_id, JobStatus(job["status"])) / "refinement-prompt.txt"
-    return templates.TemplateResponse(request, "job.html", {"job": job, "plan": plan, "stages": stages, "modules": modules, "master_prompt": prompt, "refinement_prompt_ready": refinement_path.exists(), "call_estimate": len([w for w in plan.weeks if w.generate]) * 4 if plan else 0})
+    return {"request": request, "job": job, "plan": plan, "stages": stages, "modules": modules,
+            "call_estimate": len([w for w in plan.weeks if w.generate]) * 4 if plan else 0}
+
+
+@app.get("/jobs/{job_id}/plan", response_class=HTMLResponse)
+def plan_page(request: Request, job_id: str):
+    return templates.TemplateResponse(request, "job_plan.html", job_context(request, job_id))
+
+
+@app.get("/jobs/{job_id}/mode", response_class=HTMLResponse)
+def mode_page(request: Request, job_id: str):
+    return templates.TemplateResponse(request, "job_mode.html", job_context(request, job_id))
+
+
+@app.get("/jobs/{job_id}/manual/initial", response_class=HTMLResponse)
+def manual_initial_page(request: Request, job_id: str, import_error: str = ""):
+    context = job_context(request, job_id)
+    folder = job_dir(settings.data_root, job_id, JobStatus(context["job"]["status"]))
+    repair = folder / "repair-prompt.txt"
+    refinement = folder / "refinement-prompt.txt"
+    if refinement.exists():
+        return RedirectResponse(f"/jobs/{job_id}/manual/quality", 303)
+    context.update({"prompt": repair.read_text(encoding="utf-8") if repair.exists() else master_prompt(context["plan"], settings.quiz_questions),
+                    "is_repair": repair.exists(), "import_error": import_error})
+    return templates.TemplateResponse(request, "job_manual_initial.html", context)
+
+
+@app.get("/jobs/{job_id}/manual/quality", response_class=HTMLResponse)
+def manual_quality_page(request: Request, job_id: str, import_error: str = ""):
+    context = job_context(request, job_id)
+    folder = job_dir(settings.data_root, job_id, JobStatus(context["job"]["status"]))
+    refinement = folder / "refinement-prompt.txt"
+    if not refinement.exists():
+        return RedirectResponse(f"/jobs/{job_id}/manual/initial", 303)
+    repair = folder / "repair-prompt.txt"
+    context.update({"prompt": repair.read_text(encoding="utf-8") if repair.exists() else refinement.read_text(encoding="utf-8"),
+                    "is_repair": repair.exists(), "import_error": import_error})
+    return templates.TemplateResponse(request, "job_manual_quality.html", context)
+
+
+@app.get("/jobs/{job_id}/progress", response_class=HTMLResponse)
+def progress_page(request: Request, job_id: str):
+    return templates.TemplateResponse(request, "job_progress.html", job_context(request, job_id))
+
+
+@app.get("/jobs/{job_id}/result", response_class=HTMLResponse)
+def result_page(request: Request, job_id: str):
+    return templates.TemplateResponse(request, "job_result.html", job_context(request, job_id))
 
 
 @app.get("/api/jobs/{job_id}")
@@ -255,7 +315,7 @@ async def update_review(request: Request, job_id: str):
     serialized = plan.model_dump_json()
     (job_dir(settings.data_root, job_id, JobStatus.REVIEW) / "normalized-syllabus.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
     db.update_job(job_id, normalized_json=serialized, message="Review changes saved")
-    return RedirectResponse(f"/jobs/{job_id}", status_code=303)
+    return RedirectResponse(f"/jobs/{job_id}/plan", status_code=303)
 
 
 @app.post("/jobs/{job_id}/approve")
@@ -266,7 +326,7 @@ def approve(job_id: str):
         raise HTTPException(409, "Job is not awaiting review")
     transition(settings.data_root, job_id, status, JobStatus.APPROVED)
     db.update_job(job_id, status=JobStatus.APPROVED, message="Approved. Choose automatic or manual mode")
-    return RedirectResponse(f"/jobs/{job_id}", status_code=303)
+    return RedirectResponse(f"/jobs/{job_id}/mode", status_code=303)
 
 
 @app.post("/jobs/{job_id}/generate")
@@ -275,22 +335,22 @@ async def generate(job_id: str):
     if JobStatus(job["status"]) not in {JobStatus.APPROVED, JobStatus.FAILED, JobStatus.PAUSED, JobStatus.CANCELLED}:
         raise HTTPException(409, "This job cannot start automatic generation now")
     await dispatch_n8n("generate", job_id)
-    return RedirectResponse(f"/jobs/{job_id}", status_code=303)
+    return RedirectResponse(f"/jobs/{job_id}/progress", status_code=303)
 
 
 @app.post("/jobs/{job_id}/pause")
 def pause(job_id: str):
-    require_job(job_id); db.set_control(job_id, pause=True); return RedirectResponse(f"/jobs/{job_id}", 303)
+    require_job(job_id); db.set_control(job_id, pause=True); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
 @app.post("/jobs/{job_id}/cancel")
 def cancel(job_id: str):
-    require_job(job_id); db.set_control(job_id, cancel=True); return RedirectResponse(f"/jobs/{job_id}", 303)
+    require_job(job_id); db.set_control(job_id, cancel=True); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
 @app.post("/jobs/{job_id}/resume")
 async def resume(job_id: str):
-    require_job(job_id); await dispatch_n8n("generate", job_id); return RedirectResponse(f"/jobs/{job_id}", 303)
+    require_job(job_id); await dispatch_n8n("generate", job_id); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
 @app.post("/jobs/{job_id}/retry-module/{lesson_number}")
@@ -305,7 +365,7 @@ async def retry_module(job_id: str, lesson_number: int):
     for path in folder.glob(f"Week {week.actual_week:02d} - Lesson {lesson_number:02d} - *.docx") if folder.exists() else []:
         path.unlink()
     await dispatch_n8n("generate", job_id)
-    return RedirectResponse(f"/jobs/{job_id}", 303)
+    return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
 @app.post("/jobs/{job_id}/import")
@@ -317,7 +377,7 @@ async def import_json(job_id: str, pasted_json: str = Form(""), json_file: Uploa
     try:
         raw = json.loads(strip_markdown_fences(text))
     except json.JSONDecodeError as exc:
-        return RedirectResponse(f"/jobs/{job_id}?import_error=Invalid+JSON+at+line+{exc.lineno}", 303)
+        return RedirectResponse(f"/jobs/{job_id}/manual/initial?import_error=Invalid+JSON+at+line+{exc.lineno}", 303)
     bundles, errors = await asyncio.to_thread(validate_imported, settings, db, job_id, raw)
     if errors:
         repair = repair_prompt(errors, raw)
@@ -331,8 +391,10 @@ async def import_json(job_id: str, pasted_json: str = Form(""), json_file: Uploa
         folder = job_dir(settings.data_root, job_id, JobStatus(job["status"]))
         (folder / "pending-manual.json").write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
         (folder / "refinement-prompt.txt").write_text(manual_refinement_prompt(plan, bundles), encoding="utf-8")
+        (folder / "repair-prompt.txt").unlink(missing_ok=True)
+        (folder / "rejected-import.json").unlink(missing_ok=True)
         db.update_job(job_id, mode="manual", message="Initial JSON is valid. Run the refinement prompt, then import the refined JSON", error="")
-    return RedirectResponse(f"/jobs/{job_id}", 303)
+    return RedirectResponse(f"/jobs/{job_id}/manual/quality" if not errors else f"/jobs/{job_id}/manual/initial", 303)
 
 
 @app.post("/jobs/{job_id}/import-refined")
@@ -344,7 +406,7 @@ async def import_refined_json(job_id: str, pasted_json: str = Form(""), json_fil
     try:
         raw = json.loads(strip_markdown_fences(text))
     except json.JSONDecodeError as exc:
-        return RedirectResponse(f"/jobs/{job_id}?import_error=Invalid+JSON+at+line+{exc.lineno}", 303)
+        return RedirectResponse(f"/jobs/{job_id}/manual/quality?import_error=Invalid+JSON+at+line+{exc.lineno}", 303)
     ok, errors = await asyncio.to_thread(build_imported, settings, db, job_id, raw)
     if not ok:
         job = require_job(job_id)
@@ -352,7 +414,7 @@ async def import_refined_json(job_id: str, pasted_json: str = Form(""), json_fil
         (folder / "repair-prompt.txt").write_text(repair_prompt(errors, raw), encoding="utf-8")
         (folder / "rejected-import.json").write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
         db.update_job(job_id, message="Refined JSON needs correction", error="; ".join(errors))
-    return RedirectResponse(f"/jobs/{job_id}", 303)
+    return RedirectResponse(f"/jobs/{job_id}/result" if ok else f"/jobs/{job_id}/manual/quality", 303)
 
 
 @app.post("/jobs/{job_id}/repair-import")

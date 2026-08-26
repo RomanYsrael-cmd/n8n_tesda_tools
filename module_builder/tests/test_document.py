@@ -18,3 +18,14 @@ def test_build_preserves_tables_and_resolves_placeholders(tmp_path, bundle):
     assert unresolved_placeholders(output) == []
     assert audit_docx(output, expected_tables=len(source.tables))["valid"]
 
+
+def test_presentation_keep_with_next_applies_only_to_headings(tmp_path, bundle):
+    output = build_module(TEMPLATE, tmp_path, CourseMetadata(code="AE17", title="Accounting Information System", author="Trainer"), bundle)
+    paragraphs = Document(output).paragraphs
+    heading = next(p for p in paragraphs if p.text == "Core concepts")
+    body = paragraphs[paragraphs.index(heading) + 1]
+    example = paragraphs[paragraphs.index(heading) + 2]
+
+    assert heading.paragraph_format.keep_with_next is True
+    assert body.paragraph_format.keep_with_next is False
+    assert example.paragraph_format.keep_with_next is False

@@ -82,18 +82,28 @@ def _fill_list(paragraph: Paragraph, marker: str, items: list[str], numbered: bo
         current = _insert_after(current, item, numbered=numbered)
 
 
-def _set_rich_block(paragraph: Paragraph, block: PresentationBlock):
+def _set_rich_block(paragraph: Paragraph, block: PresentationBlock, previous_heading: str = ""):
     for run in paragraph.runs:
         run.text = ""
-    if block.type == "heading":
-        paragraph.paragraph_format.keep_with_next = True
+    # Inserted paragraphs inherit the preceding block's paragraph properties.
+    # Make pagination explicit so a heading stays with its first body paragraph
+    # without accidentally chaining the entire information sheet together.
+    paragraph.paragraph_format.keep_with_next = block.type == "heading"
+    spans = list(block.spans)
+    if previous_heading and block.type in {"paragraph", "bullet", "numbered"} and spans:
+        if spans[0].text.strip().rstrip(":").casefold() == previous_heading.strip().rstrip(":").casefold():
+            spans = spans[1:]
+    if spans and block.type in {"example", "note"}:
+        prefix_pattern = r"^\s*(?:example\s*:\s*(?:realistic\s+example\s*:\s*)?|realistic\s+example\s*:\s*|note\s*:\s*)"
+        cleaned = re.sub(prefix_pattern, "", spans[0].text, flags=re.IGNORECASE)
+        spans[0] = RichTextSpan(text=cleaned or " ", bold=spans[0].bold, italic=spans[0].italic)
     if block.type == "example":
         prefix = paragraph.add_run("Example: ")
         prefix.bold = True
     elif block.type == "note":
         prefix = paragraph.add_run("Note: ")
         prefix.bold = True
-    for span in block.spans:
+    for span in spans:
         run = paragraph.add_run(span.text)
         run.bold = span.bold or block.type == "heading"
         run.italic = span.italic or block.type == "note"
@@ -106,10 +116,12 @@ def _set_rich_block(paragraph: Paragraph, block: PresentationBlock):
 
 def _fill_rich_blocks(paragraph: Paragraph, blocks: list[PresentationBlock]):
     current = paragraph
+    previous_heading = ""
     for index, block in enumerate(blocks):
         if index:
             current = _insert_after(current, "")
-        _set_rich_block(current, block)
+        _set_rich_block(current, block, previous_heading)
+        previous_heading = block.plain_text if block.type == "heading" else ""
 
 
 def build_module(template: Path, output_dir: Path, course: CourseMetadata, bundle: ModuleBundle) -> Path:

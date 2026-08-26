@@ -32,7 +32,7 @@ def make_bundle(week: int = 2, lesson: int = 1, scope: str = "Introduction to AI
         qid = f"Q{i}"
         answer = answer_pattern[i - 1]
         choices = {letter: f"Distractor {letter} for item {i}" for letter in "ABCD"}
-        choices[answer] = "It processes useful business data"
+        choices[answer] = f"It processes useful business data for decision case {i}"
         questions.append(QuizQuestion(id=qid, question=f"Which AIS statement is correct for business data item {i}?", choices=[Choice(id=letter, text=choices[letter]) for letter in "ABCD"], answer=answer))
         key[qid] = answer
     practical = ApplyContent(

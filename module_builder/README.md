@@ -34,6 +34,7 @@ Stopping does not erase your work. Jobs and settings are kept in a Docker-manage
 The repaired `template/Module Template.docx` is selected automatically and checked for all required placeholders. API keys are encrypted using a secret created under the local data folder. Saved keys are masked in the browser and are excluded from JSON dumps and n8n payloads.
 
 Setup also lets you save default author, trainer, font family, and font size. Every syllabus review can override them. The document default is Times New Roman at 12 pt.
+Use **Load fonts from this computer** beside a font field to populate the picker from locally installed fonts when the browser supports Local Font Access and you grant permission. You may always type a font family manually. Word will request that font in the DOCX; the Docker PDF preview may substitute it when the same font is unavailable inside the container.
 
 Common compatible services include OpenRouter, Ollama, LM Studio, Groq, and Together. For Ollama or LM Studio, use the OpenAI-compatible URL they show and leave the API key blank if that local server does not require one.
 
@@ -64,7 +65,7 @@ Success/<job-id>/
 
 The data root also contains `Inbox`, `In Progress`, `Success`, `Finished`, `JSON Dump/Success`, and `JSON Dump/Failed`. Partial successful modules remain intact if a later module fails.
 
-Presentations use structured Word content: headings, paragraphs, bold and italic spans, bullets, numbered items, examples, notes, and references. The required refinement pass improves weak explanations, checks factual consistency, removes internal workflow language, adds a realistic example, and avoids unsupported claims that information is the latest. Quiz answers must use A, B, C, and D with a balanced, non-obvious distribution.
+Presentations use structured Word content: headings, paragraphs, bold and italic spans, bullets, numbered items, examples, notes, and references. The required refinement pass improves weak explanations, checks factual consistency, removes internal workflow language, adds a realistic example, avoids duplicated heading/label text, and avoids unsupported claims that information is the latest. Self-Checks must use varied stems and concise choices unique across the quiz, include application questions, and use A, B, C, and D with a balanced, non-obvious answer distribution.
 
 ## Useful checks and fixes
 

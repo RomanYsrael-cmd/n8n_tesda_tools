@@ -141,6 +141,17 @@ class PresentationContent(BaseModel):
             raise ValueError("Reader-facing presentation must not use internal workflow language: " + ", ".join(found))
         if not any(block.type == "example" for block in self.presentation):
             raise ValueError("Presentation must include at least one reader-friendly example")
+        for index, block in enumerate(self.presentation):
+            normalized = block.plain_text.strip().casefold()
+            if block.type == "example" and normalized.startswith(("example:", "realistic example:")):
+                raise ValueError("Example blocks must not repeat an Example label; the document renderer supplies it")
+            if block.type == "note" and normalized.startswith("note:"):
+                raise ValueError("Note blocks must not repeat a Note label; the document renderer supplies it")
+            if index and self.presentation[index - 1].type == "heading" and block.type in {"paragraph", "bullet", "numbered"}:
+                heading = self.presentation[index - 1].plain_text.strip().rstrip(":").casefold()
+                lead = block.spans[0].text.strip().rstrip(":").casefold() if block.spans else ""
+                if heading and lead == heading:
+                    raise ValueError(f"Content beneath heading '{heading}' must not repeat that heading as a bold lead-in")
         return self
 
 
@@ -160,6 +171,14 @@ class QuizContent(BaseModel):
         normalized = [q.question.strip().casefold() for q in self.questions]
         if len(normalized) != len(set(normalized)):
             raise ValueError("Quiz questions must not be duplicated")
+        generic_stems = ("which statement best captures the meaning", "which statement is correct for", "in this lesson, which")
+        if any(any(phrase in question.casefold() for phrase in generic_stems) for question in normalized):
+            raise ValueError("Quiz stems must be specific and varied, not generic definition templates")
+        choice_texts = [choice.text.strip().casefold() for question in self.questions for choice in question.choices]
+        if len(choice_texts) != len(set(choice_texts)):
+            raise ValueError("Quiz answer choices must not be reused across different questions")
+        if any(len(choice.text.split()) > 30 for question in self.questions for choice in question.choices):
+            raise ValueError("Quiz choices must be concise and contain no more than 30 words")
         answers = [self.answer_key[qid] for qid in ids]
         if len(answers) >= 4:
             counts = {letter: answers.count(letter) for letter in "ABCD"}

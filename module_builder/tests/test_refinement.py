@@ -30,6 +30,14 @@ def test_presentation_rejects_internal_workflow_language(bundle):
         type(bundle.presentation).model_validate(raw)
 
 
+def test_presentation_rejects_duplicate_renderer_labels(bundle):
+    raw = bundle.presentation.model_dump()
+    example = next(block for block in raw["presentation"] if block["type"] == "example")
+    example["spans"][0]["text"] = "Realistic example: A duplicated label"
+    with pytest.raises(ValidationError, match="must not repeat an Example label"):
+        type(bundle.presentation).model_validate(raw)
+
+
 def test_refinement_prompts_require_key_facts_and_complete_json():
     plan = _plan()
     bundle = make_bundle(proposed_title="Introduction to AIS")

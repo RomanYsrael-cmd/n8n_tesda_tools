@@ -113,7 +113,7 @@ class GenerationService:
             report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated), "expected_base_llm_calls_per_module": 4, "refinement_required": True})
             package_course(base)
             transition(self.settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
-            self.db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="All modules are ready")
+            self.db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="All modules are ready", error="")
         except Exception as exc:
             dump_json(self.settings.data_root, False, f"{job_id}-generation-error", {"error": str(exc), "traceback": traceback.format_exc()})
             self.db.update_job(job_id, status=JobStatus.FAILED, error=str(exc), message="Generation stopped at a failed stage")
@@ -168,6 +168,6 @@ def build_imported(settings: Settings, db: Database, job_id: str, raw: object) -
     report_json(base / "generation-report.json", {"mode": "manual", "module_count": len(bundles), "llm_generation_calls": 0, "manual_refinement_required": True})
     package_course(base)
     transition(settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
-    db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="Imported modules are ready")
+    db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="Imported modules are ready", error="")
     dump_json(settings.data_root, True, f"{job_id}-manual-import", raw)
     return True, []

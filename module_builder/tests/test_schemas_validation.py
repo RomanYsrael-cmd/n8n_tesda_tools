@@ -32,6 +32,17 @@ def test_quiz_rejects_generic_all_a_answer_key(bundle):
         QuizContent.model_validate(raw)
 
 
+def test_quiz_rejects_reused_choices_and_generic_stems(bundle):
+    raw = bundle.quiz.model_dump()
+    raw["questions"][1]["choices"][0]["text"] = raw["questions"][0]["choices"][0]["text"]
+    with pytest.raises(ValidationError, match="must not be reused"):
+        QuizContent.model_validate(raw)
+    raw = bundle.quiz.model_dump()
+    raw["questions"][0]["question"] = "Which statement best captures the meaning of AIS?"
+    with pytest.raises(ValidationError, match="specific and varied"):
+        QuizContent.model_validate(raw)
+
+
 def test_apply_requires_exactly_five_criteria():
     with pytest.raises(ValidationError):
         ApplyContent(title="x", performance_objective="x", supplies_materials=[], equipment=[], steps=["x"], assessment_method="x", performance_criteria=["one"])

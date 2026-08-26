@@ -24,7 +24,7 @@ def main(job_id: str, output: Path):
             qid = f"Q{i}"
             answer = answer_pattern[i - 1]
             choices = {letter: f"Incorrect alternative {letter} for item {i}" for letter in "ABCD"}
-            choices[answer] = "It supports accurate processing and decisions"
+            choices[answer] = f"It supports accurate processing and decisions in case {i}"
             questions.append(QuizQuestion(id=qid, question=f"Which business data statement is correct for AIS concept {i}?", choices=[Choice(id=letter, text=choices[letter]) for letter in "ABCD"], answer=answer))
             key[qid] = answer
         bundle = ModuleBundle(
