@@ -12,7 +12,7 @@ from docx.oxml.ns import qn
 from docx.shared import Pt
 from docx.text.paragraph import Paragraph
 
-from .schemas import CourseMetadata, ModuleBundle
+from .schemas import CourseMetadata, ModuleBundle, PresentationBlock, RichTextSpan
 from .storage import safe_module_filename
 
 PLACEHOLDERS = {
@@ -82,6 +82,36 @@ def _fill_list(paragraph: Paragraph, marker: str, items: list[str], numbered: bo
         current = _insert_after(current, item, numbered=numbered)
 
 
+def _set_rich_block(paragraph: Paragraph, block: PresentationBlock):
+    for run in paragraph.runs:
+        run.text = ""
+    if block.type == "heading":
+        paragraph.paragraph_format.keep_with_next = True
+    if block.type == "example":
+        prefix = paragraph.add_run("Example: ")
+        prefix.bold = True
+    elif block.type == "note":
+        prefix = paragraph.add_run("Note: ")
+        prefix.bold = True
+    for span in block.spans:
+        run = paragraph.add_run(span.text)
+        run.bold = span.bold or block.type == "heading"
+        run.italic = span.italic or block.type == "note"
+    if block.type in {"bullet", "numbered"}:
+        try:
+            paragraph.style = "List Bullet" if block.type == "bullet" else "List Number"
+        except KeyError:
+            pass
+
+
+def _fill_rich_blocks(paragraph: Paragraph, blocks: list[PresentationBlock]):
+    current = paragraph
+    for index, block in enumerate(blocks):
+        if index:
+            current = _insert_after(current, "")
+        _set_rich_block(current, block)
+
+
 def build_module(template: Path, output_dir: Path, course: CourseMetadata, bundle: ModuleBundle) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
     title = bundle.presentation.lesson_title
@@ -103,10 +133,16 @@ def build_module(template: Path, output_dir: Path, course: CourseMetadata, bundl
     }
     for i, criterion in enumerate(bundle.practical_activity.performance_criteria, 1):
         replacements[f"{{{{la_pc{i}}}}}"] = criterion
+    reference_blocks = []
+    if bundle.presentation.references:
+        reference_blocks.append(PresentationBlock(type="heading", spans=[RichTextSpan(text="References")]))
+        for ref in bundle.presentation.references:
+            details = ". ".join(part for part in [ref.author_or_organization, ref.year, ref.title, ref.url] if part)
+            reference_blocks.append(PresentationBlock(type="bullet", spans=[RichTextSpan(text=details)]))
+    presentation_blocks = [PresentationBlock(type="heading", spans=[RichTextSpan(text=bundle.presentation.information_sheet_title)]), PresentationBlock(type="paragraph", spans=[RichTextSpan(text=bundle.presentation.introduction)]), *bundle.presentation.presentation, *reference_blocks]
     list_slots = {
         "{{list_of_LO}}": bundle.presentation.measurable_objectives,
         "{{preassessment}}": bundle.presentation.pre_assessment,
-        "{{presentation}}": [bundle.presentation.information_sheet_title, bundle.presentation.introduction, *bundle.presentation.presentation],
         "{{contents_mc}}": qlines,
         "{{LE_answer_key}}": answer_lines,
         "{{la_sup_mat}}": bundle.practical_activity.supplies_materials or ["None required"],
@@ -114,6 +150,9 @@ def build_module(template: Path, output_dir: Path, course: CourseMetadata, bundl
         "{{la_steps_list}}": bundle.practical_activity.steps,
     }
     for paragraph in list(iter_paragraphs(doc)):
+        if "{{presentation}}" in paragraph.text:
+            _fill_rich_blocks(paragraph, presentation_blocks)
+            continue
         for marker, items in list_slots.items():
             if marker in paragraph.text:
                 _fill_list(paragraph, marker, items, numbered=marker in {"{{la_steps_list}}"})

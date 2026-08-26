@@ -95,22 +95,52 @@ class QuizQuestion(BaseModel):
         return self
 
 
+class RichTextSpan(BaseModel):
+    text: str = Field(min_length=1)
+    bold: bool = False
+    italic: bool = False
+
+
+class PresentationBlock(BaseModel):
+    type: Literal["heading", "paragraph", "bullet", "numbered", "example", "note"]
+    spans: list[RichTextSpan] = Field(min_length=1)
+
+    @property
+    def plain_text(self) -> str:
+        return "".join(span.text for span in self.spans)
+
+
+class ContentReference(BaseModel):
+    title: str = Field(min_length=1)
+    author_or_organization: str = ""
+    year: str = ""
+    url: str = ""
+
+
 class PresentationContent(BaseModel):
     lesson_title: str
     information_sheet_title: str
     measurable_objectives: list[str] = Field(min_length=1)
     pre_assessment: list[str] = Field(min_length=1)
     introduction: str
-    presentation: list[str] = Field(min_length=1)
+    presentation: list[PresentationBlock] = Field(min_length=1)
+    references: list[ContentReference] = Field(default_factory=list)
 
     @model_validator(mode="after")
     def instructional_length(self):
         intro_words = len(self.introduction.split())
         if not 60 <= intro_words <= 100:
             raise ValueError(f"Introduction must contain 60-100 words; received {intro_words}")
-        total_words = len((self.introduction + " " + " ".join(self.presentation)).split())
+        presentation_text = " ".join(block.plain_text for block in self.presentation)
+        total_words = len((self.introduction + " " + presentation_text).split())
         if not 800 <= total_words <= 2000:
             raise ValueError(f"Presentation must contain 800-2000 words including the introduction; received {total_words}")
+        forbidden = ["approved topic", "approved topics", "approved scope", "supplied json", "generated presentation"]
+        found = [phrase for phrase in forbidden if phrase in presentation_text.casefold() or phrase in self.introduction.casefold()]
+        if found:
+            raise ValueError("Reader-facing presentation must not use internal workflow language: " + ", ".join(found))
+        if not any(block.type == "example" for block in self.presentation):
+            raise ValueError("Presentation must include at least one reader-friendly example")
         return self
 
 
@@ -130,6 +160,15 @@ class QuizContent(BaseModel):
         normalized = [q.question.strip().casefold() for q in self.questions]
         if len(normalized) != len(set(normalized)):
             raise ValueError("Quiz questions must not be duplicated")
+        answers = [self.answer_key[qid] for qid in ids]
+        if len(answers) >= 4:
+            counts = {letter: answers.count(letter) for letter in "ABCD"}
+            if any(count == 0 for count in counts.values()):
+                raise ValueError("Quiz answers must use A, B, C, and D")
+            if max(counts.values()) - min(counts.values()) > 1:
+                raise ValueError("Quiz answer positions must be reasonably balanced across A, B, C, and D")
+        if len(answers) >= 8 and all(answers[i] == "ABCD"[i % 4] for i in range(len(answers))):
+            raise ValueError("Quiz answers must not use an obvious repeating A-B-C-D pattern")
         return self
 
 
@@ -146,6 +185,9 @@ class ApplyContent(BaseModel):
     def exactly_five_criteria(self):
         if len(self.performance_criteria) != 5:
             raise ValueError("Let's Apply must have exactly five observable performance criteria")
+        learner_text = " ".join([self.title, self.performance_objective, *self.steps, *self.performance_criteria]).casefold()
+        if any(phrase in learner_text for phrase in ["approved scope", "approved topic", "supplied json", "generated presentation"]):
+            raise ValueError("Let's Apply must not expose internal workflow language to learners")
         return self
 
 

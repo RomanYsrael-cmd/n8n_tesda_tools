@@ -22,7 +22,7 @@ def validate_bundle(raw: object, quiz_count: int) -> tuple[ModuleBundle | None, 
     errors = []
     if len(bundle.quiz.questions) != quiz_count:
         errors.append(f"quiz.questions: expected exactly {quiz_count}, received {len(bundle.quiz.questions)}")
-    presentation = " ".join(bundle.presentation.presentation).casefold()
+    presentation = " ".join(block.plain_text for block in bundle.presentation.presentation).casefold()
     for question in bundle.quiz.questions:
         keywords = [w.casefold().strip(".,?!:;()") for w in question.question.split() if len(w) > 5]
         if keywords and not any(k in presentation for k in keywords):

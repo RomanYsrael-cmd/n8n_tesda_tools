@@ -1,5 +1,6 @@
 from docx import Document
 from pydantic import ValidationError
+import pytest
 
 from app.docx_engine import build_module
 from app.prompts import manual_refinement_prompt, refinement_prompt
@@ -22,6 +23,13 @@ def test_presentation_enforces_introduction_and_total_word_counts(bundle):
         assert "60-100 words" in str(exc)
 
 
+def test_presentation_rejects_internal_workflow_language(bundle):
+    raw = bundle.presentation.model_dump()
+    raw["presentation"][1]["spans"][0]["text"] += " The approved scope is complete."
+    with pytest.raises(ValidationError, match="internal workflow language"):
+        type(bundle.presentation).model_validate(raw)
+
+
 def test_refinement_prompts_require_key_facts_and_complete_json():
     plan = _plan()
     bundle = make_bundle(proposed_title="Introduction to AIS")
@@ -39,3 +47,5 @@ def test_docx_uses_selected_font(tmp_path):
     runs = [run for paragraph in doc.paragraphs for run in paragraph.runs if run.text.strip()]
     assert runs
     assert all(run.font.name == "Arial" and run.font.size.pt == 11 for run in runs)
+    assert any(run.bold and "Core concepts" in run.text for run in runs)
+    assert any(run.italic and "retail business" in run.text for run in runs)

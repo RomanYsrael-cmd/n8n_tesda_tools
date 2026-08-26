@@ -23,7 +23,15 @@ def test_quiz_rejects_key_mismatch(bundle):
         QuizContent.model_validate(raw)
 
 
+def test_quiz_rejects_generic_all_a_answer_key(bundle):
+    raw = bundle.quiz.model_dump()
+    for question in raw["questions"]:
+        question["answer"] = "A"
+        raw["answer_key"][question["id"]] = "A"
+    with pytest.raises(ValidationError, match="must use A, B, C, and D"):
+        QuizContent.model_validate(raw)
+
+
 def test_apply_requires_exactly_five_criteria():
     with pytest.raises(ValidationError):
         ApplyContent(title="x", performance_objective="x", supplies_materials=[], equipment=[], steps=["x"], assessment_method="x", performance_criteria=["one"])
-

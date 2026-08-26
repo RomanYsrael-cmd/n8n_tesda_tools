@@ -6,7 +6,7 @@ import sqlite3
 import sys
 from pathlib import Path
 
-from app.schemas import ApplyContent, Choice, ModuleBundle, NormalizedSyllabus, PresentationContent, QuizContent, QuizQuestion
+from app.schemas import ApplyContent, Choice, ModuleBundle, NormalizedSyllabus, PresentationBlock, PresentationContent, QuizContent, QuizQuestion, RichTextSpan
 
 
 def main(job_id: str, output: Path):
@@ -19,10 +19,14 @@ def main(job_id: str, output: Path):
     for week in [w for w in plan.weeks if w.generate]:
         questions = []
         key = {}
+        answer_pattern = ["A", "B", "D", "C", "B", "A", "C", "D", "A", "B"]
         for i in range(1, 11):
             qid = f"Q{i}"
-            questions.append(QuizQuestion(id=qid, question=f"Which business data statement is correct for approved AIS concept {i}?", choices=[Choice(id="A", text="It supports accurate processing and decisions"), Choice(id="B", text="It removes all source documents"), Choice(id="C", text="It guarantees that no error can occur"), Choice(id="D", text="It replaces every management decision")], answer="A"))
-            key[qid] = "A"
+            answer = answer_pattern[i - 1]
+            choices = {letter: f"Incorrect alternative {letter} for item {i}" for letter in "ABCD"}
+            choices[answer] = "It supports accurate processing and decisions"
+            questions.append(QuizQuestion(id=qid, question=f"Which business data statement is correct for AIS concept {i}?", choices=[Choice(id=letter, text=choices[letter]) for letter in "ABCD"], answer=answer))
+            key[qid] = answer
         bundle = ModuleBundle(
             actual_week=week.actual_week,
             lesson_number=week.lesson_number,
@@ -30,20 +34,21 @@ def main(job_id: str, output: Path):
             presentation=PresentationContent(
                 lesson_title=week.proposed_title.replace(" |", "").strip(),
                 information_sheet_title=f"Key Facts {week.lesson_number}.1 – {week.proposed_title}",
-                measurable_objectives=["Explain the approved concepts accurately", "Apply the approved concepts to a realistic business case"],
-                pre_assessment=["What do you already know about this lesson's approved scope?"],
+                measurable_objectives=["Explain the essential concepts accurately", "Apply the concepts to a realistic business case"],
+                pre_assessment=["What do you already know about this lesson's main ideas?"],
                 introduction=" ".join(["This information sheet introduces the approved weekly concepts through clear explanations and realistic accounting information system examples for beginning learners."] * 4),
-                presentation=[f"The approved scope is {week.topic_scope}. " + " ".join(["Accounting information systems support accurate processing informed decisions reliable records and responsible organizational operations in realistic workplace situations."] * 55)],
+                presentation=[PresentationBlock(type="heading", spans=[RichTextSpan(text="Core concepts")]), PresentationBlock(type="paragraph", spans=[RichTextSpan(text=f"This lesson examines {week.topic_scope}. " + " ".join(["Accounting information systems support accurate processing informed decisions reliable records and responsible organizational operations in realistic workplace situations."] * 55))]), PresentationBlock(type="example", spans=[RichTextSpan(text="A small business records a transaction, checks the source document, updates the ledger, and reviews the resulting report.", italic=True)])],
+                references=[],
             ),
             quiz=QuizContent(questions=questions, answer_key=key),
             practical_activity=ApplyContent(
-                title="Produce an approved-scope AIS output",
-                performance_objective="Create a complete and accurate output that demonstrates the approved weekly scope.",
+                title="Produce a practical AIS output",
+                performance_objective="Create a complete and accurate output that demonstrates the lesson concepts.",
                 supplies_materials=["Case worksheet", "Reference data"],
                 equipment=["Computer"],
-                steps=["Read the case and approved scope", "Identify the required inputs", "Perform the required processing", "Prepare the expected output", "Check and submit the completed output"],
+                steps=["Read the business case", "Identify the required inputs", "Perform the required processing", "Prepare the expected output", "Check and submit the completed output"],
                 assessment_method="Direct observation and review of the completed output",
-                performance_criteria=["Identifies all required inputs", "Uses the correct processing sequence", "Produces an accurate output", "Keeps the output aligned to the approved scope", "Submits a complete and readable final result"],
+                performance_criteria=["Identifies all required inputs", "Uses the correct processing sequence", "Produces an accurate output", "Keeps the output aligned to the business case", "Submits a complete and readable final result"],
             ),
         )
         modules.append(bundle.model_dump())

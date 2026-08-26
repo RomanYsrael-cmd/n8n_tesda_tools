@@ -47,6 +47,7 @@ Common compatible services include OpenRouter, Ollama, LM Studio, Groq, and Toge
 6. Choose a mode:
    - **Automatic API:** about four model requests for each module: presentation, quiz, practical activity, and a required whole-module validation/refinement pass. Bounded repairs apply when returned JSON is invalid.
    - **Manual ChatGPT JSON:** use the deterministic creation prompt and import its JSON. The app then produces a second required validation/refinement prompt; import that refined JSON to build the documents. This mode makes no API calls from the app.
+     For higher usage limits and potentially stronger results, consider ChatGPT Go or Plus. Enable ChatGPT Search for time-sensitive material and ask it to retain genuine references; availability and limits vary by account and region.
 7. Watch each module and stage. You may pause after the current module, cancel remaining work, or retry/resume a failed job.
 8. Download the ZIP when the job moves to **Success**. Archive it when you want it moved to **Finished**.
 
@@ -62,6 +63,8 @@ Success/<job-id>/
 ```
 
 The data root also contains `Inbox`, `In Progress`, `Success`, `Finished`, `JSON Dump/Success`, and `JSON Dump/Failed`. Partial successful modules remain intact if a later module fails.
+
+Presentations use structured Word content: headings, paragraphs, bold and italic spans, bullets, numbered items, examples, notes, and references. The required refinement pass improves weak explanations, checks factual consistency, removes internal workflow language, adds a realistic example, and avoids unsupported claims that information is the latest. Quiz answers must use A, B, C, and D with a balanced, non-obvious distribution.
 
 ## Useful checks and fixes
 
