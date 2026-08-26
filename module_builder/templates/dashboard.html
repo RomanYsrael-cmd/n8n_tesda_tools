@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block content %}
+<section class="hero"><h1>Turn a syllabus into ready-to-use learning modules</h1><p>Upload one or more Word syllabi. You can review every week before anything is generated.</p>{% if not configured %}<p class="warning"><strong>First time here?</strong> Complete <a href="/setup">the short setup wizard</a> first.</p>{% endif %}<form action="/upload" method="post" enctype="multipart/form-data"><label><strong>Choose DOCX syllabus files</strong></label><input type="file" name="files" accept=".docx" multiple required><button>Upload and read syllabus</button></form></section>
+<section class="grid">{% for name,jobs in groups.items() %}<article class="card"><h2>{{name}}</h2><p class="muted">{{jobs|length}} course{{'' if jobs|length==1 else 's'}}</p>{% for job in jobs %}<div class="job"><a href="/jobs/{{job.id}}"><strong>{{job.filename}}</strong></a><br><span class="badge">{{job.status}}</span> <span class="muted">{{job.message}}</span></div>{% else %}<p class="muted">Nothing here yet.</p>{% endfor %}</article>{% endfor %}</section>
+{% endblock %}
+

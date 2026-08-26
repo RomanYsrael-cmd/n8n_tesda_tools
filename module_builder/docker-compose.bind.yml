@@ -1,0 +1,12 @@
+# Optional override for Docker installations where host folder sharing is enabled.
+# Start with: docker compose -f docker-compose.yml -f docker-compose.bind.yml up -d --build
+services:
+  module-builder:
+    volumes:
+      - ${MODULE_BUILDER_DATA_ROOT:-./data}:/data
+  n8n-init:
+    volumes:
+      - ${MODULE_BUILDER_DATA_ROOT:-./data}/n8n:/home/node/.n8n
+  n8n:
+    volumes:
+      - ${MODULE_BUILDER_DATA_ROOT:-./data}/n8n:/home/node/.n8n

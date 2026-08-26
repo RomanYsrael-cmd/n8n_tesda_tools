@@ -1,0 +1,70 @@
+services:
+  n8n-init:
+    build:
+      context: .
+      dockerfile: Dockerfile.n8n
+    image: tesda-module-builder-n8n:2.36.7
+    container_name: tesda-n8n-init
+    restart: "no"
+    user: "0:0"
+    environment:
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_PERSONALIZATION_ENABLED: "false"
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "false"
+      N8N_USER_FOLDER: /home/node
+    entrypoint: ["/bin/sh", "/scripts/import-workflows.sh"]
+    volumes:
+      - n8n-data:/home/node/.n8n
+    networks: [tesda-tools]
+
+  module-builder:
+    build: .
+    container_name: tesda-module-builder
+    restart: unless-stopped
+    environment:
+      MODULE_BUILDER_DATA_ROOT: /data
+      MODULE_BUILDER_TEMPLATE: /templates/Module Template.docx
+      MODULE_BUILDER_BASE_URL: http://module-builder:8080
+      MODULE_BUILDER_N8N_WEBHOOK_BASE: http://n8n:5678/webhook
+      MODULE_BUILDER_USE_N8N: "true"
+    ports:
+      - "${MODULE_BUILDER_HOST:-127.0.0.1}:${MODULE_BUILDER_PORT:-8080}:8080"
+    volumes:
+      - module-builder-data:/data
+    networks: [tesda-tools]
+
+  n8n:
+    image: tesda-module-builder-n8n:2.36.7
+    container_name: tesda-n8n
+    restart: unless-stopped
+    user: "0:0"
+    depends_on:
+      n8n-init:
+        condition: service_completed_successfully
+    environment:
+      N8N_HOST: 127.0.0.1
+      N8N_PORT: 5678
+      N8N_PROTOCOL: http
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:-change-this-before-real-use}
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_PERSONALIZATION_ENABLED: "false"
+      N8N_SECURE_COOKIE: "false"
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "false"
+      N8N_USER_FOLDER: /home/node
+      TZ: ${TZ:-Asia/Manila}
+    ports:
+      - "127.0.0.1:${N8N_PORT:-5678}:5678"
+    volumes:
+      - n8n-data:/home/node/.n8n
+    networks: [tesda-tools]
+
+networks:
+  tesda-tools:
+    name: tesda-tools
+
+volumes:
+  module-builder-data:
+    name: tesda-module-builder-data
+  n8n-data:
+    name: tesda-module-builder-n8n-data
