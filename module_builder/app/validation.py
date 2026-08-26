@@ -39,6 +39,9 @@ def validate_bundle_against_plan(bundle: ModuleBundle, plan: NormalizedSyllabus)
         errors.append(f"Week {bundle.actual_week} must be Lesson {match.lesson_number}")
     if bundle.approved_scope.strip().casefold() != match.topic_scope.strip().casefold():
         errors.append("approved_scope must exactly match the approved normalized plan")
+    expected_title = f"Key Facts {bundle.lesson_number}.1 – {match.proposed_title}"
+    if bundle.presentation.information_sheet_title.strip() != expected_title.strip():
+        errors.append(f"information_sheet_title must be exactly: {expected_title}")
     return errors
 
 
@@ -85,4 +88,3 @@ def render_verify(path: Path, output_dir: Path) -> dict:
 
 def report_json(path: Path, report: dict):
     path.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
-

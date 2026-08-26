@@ -12,12 +12,17 @@ TEMPLATE = ROOT / "template" / "Module Template.docx"
 SYLLABUS = ROOT / "sample syllabus" / "AE17 Accounting Information System.docx"
 
 
-def make_bundle(week: int = 2, lesson: int = 1, scope: str = "Introduction to AIS", count: int = 10) -> ModuleBundle:
+def make_bundle(week: int = 2, lesson: int = 1, scope: str = "Introduction to AIS", count: int = 10, proposed_title: str | None = None) -> ModuleBundle:
+    proposed_title = proposed_title or f"AIS Lesson {lesson}"
+    introduction = " ".join(["This lesson introduces approved accounting information system concepts through clear workplace examples and guided explanations for beginning learners."] * 4)
+    content = f"The approved scope is {scope}. " + " ".join(["Accounting information systems collect process store and report business data for accurate workplace decisions and reliable organizational operations."] * 55)
     presentation = PresentationContent(
         lesson_title=f"AIS Lesson {lesson}",
+        information_sheet_title=f"Key Facts {lesson}.1 – {proposed_title}",
         measurable_objectives=["Explain the approved AIS concepts", "Apply the concepts to a business case"],
         pre_assessment=["What information does an accounting system process?"],
-        presentation=[f"The approved scope is {scope}.", "Accounting information systems collect, process, store, and report business data for decisions."],
+        introduction=introduction,
+        presentation=[content],
     )
     questions = []
     key = {}
@@ -39,4 +44,3 @@ def make_bundle(week: int = 2, lesson: int = 1, scope: str = "Introduction to AI
 @pytest.fixture
 def bundle():
     return make_bundle()
-

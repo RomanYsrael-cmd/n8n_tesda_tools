@@ -25,6 +25,8 @@ class CourseMetadata(BaseModel):
     description: str = ""
     author: str = ""
     trainer: str = ""
+    font_family: str = "Times New Roman"
+    font_size: float = Field(default=12, ge=8, le=24)
     outcomes: list[str] = Field(default_factory=list)
     references: list[str] = Field(default_factory=list)
 
@@ -95,9 +97,21 @@ class QuizQuestion(BaseModel):
 
 class PresentationContent(BaseModel):
     lesson_title: str
+    information_sheet_title: str
     measurable_objectives: list[str] = Field(min_length=1)
     pre_assessment: list[str] = Field(min_length=1)
+    introduction: str
     presentation: list[str] = Field(min_length=1)
+
+    @model_validator(mode="after")
+    def instructional_length(self):
+        intro_words = len(self.introduction.split())
+        if not 60 <= intro_words <= 100:
+            raise ValueError(f"Introduction must contain 60-100 words; received {intro_words}")
+        total_words = len((self.introduction + " " + " ".join(self.presentation)).split())
+        if not 800 <= total_words <= 2000:
+            raise ValueError(f"Presentation must contain 800-2000 words including the introduction; received {total_words}")
+        return self
 
 
 class QuizContent(BaseModel):
@@ -160,3 +174,7 @@ class ProviderConfig(BaseModel):
     model: str = "openrouter/free"
     api_key: str = ""
     semantic_validation: bool = False
+    default_author: str = ""
+    default_trainer: str = ""
+    font_family: str = "Times New Roman"
+    font_size: float = Field(default=12, ge=8, le=24)

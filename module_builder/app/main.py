@@ -15,10 +15,10 @@ from fastapi.templating import Jinja2Templates
 from .config import ensure_secret, settings
 from .database import Database
 from .extraction import extract_syllabus, renumber
-from .prompts import master_prompt, repair_prompt
+from .prompts import manual_refinement_prompt, master_prompt, repair_prompt
 from .providers import OpenAICompatibleProvider, strip_markdown_fences
 from .schemas import JobStatus, NormalizedSyllabus, ProviderConfig, WeekPlan
-from .services import GenerationService, build_imported
+from .services import GenerationService, build_imported, validate_imported
 from .storage import ensure_layout, job_dir, new_job_id, sanitize_filename, transition
 from .validation import template_compatibility
 
@@ -85,11 +85,11 @@ def setup_page(request: Request):
 
 
 @app.post("/setup")
-async def save_setup(provider: str = Form("openrouter"), base_url: str = Form(...), model: str = Form(...), api_key: str = Form(""), semantic_validation: bool = Form(False), template_file: UploadFile | None = File(None)):
+async def save_setup(provider: str = Form("openrouter"), base_url: str = Form(...), model: str = Form(...), api_key: str = Form(""), semantic_validation: bool = Form(False), default_author: str = Form(""), default_trainer: str = Form(""), font_family: str = Form("Times New Roman"), font_size: float = Form(12), template_file: UploadFile | None = File(None)):
     existing = provider_config()
     if api_key.startswith("••••"):
         api_key = existing.api_key
-    config = ProviderConfig(provider=provider, base_url=base_url, model=model, api_key=api_key, semantic_validation=semantic_validation)
+    config = ProviderConfig(provider=provider, base_url=base_url, model=model, api_key=api_key, semantic_validation=semantic_validation, default_author=default_author, default_trainer=default_trainer, font_family=font_family, font_size=font_size)
     stored = config.model_dump()
     stored["api_key"] = fernet.encrypt(api_key.encode()).decode() if api_key else ""
     db.set_setting("provider", json.dumps(stored))
@@ -122,6 +122,13 @@ async def normalize_job(job_id: str, path: Path):
     try:
         db.update_job(job_id, status=JobStatus.NORMALIZING, progress=10, message="Reading syllabus structure")
         plan = await asyncio.to_thread(extract_syllabus, path)
+        defaults = provider_config()
+        if defaults.default_author:
+            plan.course.author = defaults.default_author
+        if defaults.default_trainer:
+            plan.course.trainer = defaults.default_trainer
+        plan.course.font_family = defaults.font_family
+        plan.course.font_size = defaults.font_size
         out = job_dir(settings.data_root, job_id, JobStatus.INBOX) / "normalized-syllabus.json"
         out.write_text(plan.model_dump_json(indent=2), encoding="utf-8")
         db.update_job(job_id, status=JobStatus.REVIEW, progress=100, message="Ready for your review", normalized_json=plan.model_dump_json())
@@ -182,7 +189,8 @@ def job_page(request: Request, job_id: str):
     prompt = master_prompt(plan, settings.quiz_questions) if plan and JobStatus(job["status"]) not in {JobStatus.INBOX, JobStatus.NORMALIZING} else ""
     folder = job_dir(settings.data_root, job_id, JobStatus(job["status"])) / "modules"
     modules = sorted(p.name for p in folder.glob("*.docx")) if folder.exists() else []
-    return templates.TemplateResponse(request, "job.html", {"job": job, "plan": plan, "stages": stages, "modules": modules, "master_prompt": prompt, "call_estimate": len([w for w in plan.weeks if w.generate]) * 3 if plan else 0})
+    refinement_path = job_dir(settings.data_root, job_id, JobStatus(job["status"])) / "refinement-prompt.txt"
+    return templates.TemplateResponse(request, "job.html", {"job": job, "plan": plan, "stages": stages, "modules": modules, "master_prompt": prompt, "refinement_prompt_ready": refinement_path.exists(), "call_estimate": len([w for w in plan.weeks if w.generate]) * 4 if plan else 0})
 
 
 @app.get("/api/jobs/{job_id}")
@@ -234,6 +242,8 @@ async def update_review(request: Request, job_id: str):
     plan.course.title = str(form.get("course_title", plan.course.title))
     plan.course.author = str(form.get("author", plan.course.author))
     plan.course.trainer = str(form.get("trainer", plan.course.trainer))
+    plan.course.font_family = str(form.get("font_family", plan.course.font_family))
+    plan.course.font_size = float(form.get("font_size", plan.course.font_size))
     for week in plan.weeks:
         prefix = f"week_{week.actual_week}_"
         week.generate = form.get(prefix + "generate") == "on"
@@ -308,13 +318,40 @@ async def import_json(job_id: str, pasted_json: str = Form(""), json_file: Uploa
         raw = json.loads(strip_markdown_fences(text))
     except json.JSONDecodeError as exc:
         return RedirectResponse(f"/jobs/{job_id}?import_error=Invalid+JSON+at+line+{exc.lineno}", 303)
-    ok, errors = await asyncio.to_thread(build_imported, settings, db, job_id, raw)
-    if not ok:
+    bundles, errors = await asyncio.to_thread(validate_imported, settings, db, job_id, raw)
+    if errors:
         repair = repair_prompt(errors, raw)
         folder = job_dir(settings.data_root, job_id, JobStatus(db.get_job(job_id)["status"]))
         (folder / "repair-prompt.txt").write_text(repair, encoding="utf-8")
         (folder / "rejected-import.json").write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
         db.update_job(job_id, message="Imported JSON needs correction", error="; ".join(errors))
+    else:
+        job = require_job(job_id)
+        plan = NormalizedSyllabus.model_validate_json(job["normalized_json"])
+        folder = job_dir(settings.data_root, job_id, JobStatus(job["status"]))
+        (folder / "pending-manual.json").write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
+        (folder / "refinement-prompt.txt").write_text(manual_refinement_prompt(plan, bundles), encoding="utf-8")
+        db.update_job(job_id, mode="manual", message="Initial JSON is valid. Run the refinement prompt, then import the refined JSON", error="")
+    return RedirectResponse(f"/jobs/{job_id}", 303)
+
+
+@app.post("/jobs/{job_id}/import-refined")
+async def import_refined_json(job_id: str, pasted_json: str = Form(""), json_file: UploadFile | None = File(None)):
+    require_job(job_id)
+    text = pasted_json
+    if json_file and json_file.filename:
+        text = (await json_file.read()).decode("utf-8-sig")
+    try:
+        raw = json.loads(strip_markdown_fences(text))
+    except json.JSONDecodeError as exc:
+        return RedirectResponse(f"/jobs/{job_id}?import_error=Invalid+JSON+at+line+{exc.lineno}", 303)
+    ok, errors = await asyncio.to_thread(build_imported, settings, db, job_id, raw)
+    if not ok:
+        job = require_job(job_id)
+        folder = job_dir(settings.data_root, job_id, JobStatus(job["status"]))
+        (folder / "repair-prompt.txt").write_text(repair_prompt(errors, raw), encoding="utf-8")
+        (folder / "rejected-import.json").write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
+        db.update_job(job_id, message="Refined JSON needs correction", error="; ".join(errors))
     return RedirectResponse(f"/jobs/{job_id}", 303)
 
 
@@ -347,7 +384,7 @@ def prompt_download(job_id: str):
 @app.get("/jobs/{job_id}/download/{name}")
 def download(job_id: str, name: str):
     job = require_job(job_id)
-    if name not in {"course-modules.zip", "normalized-syllabus.json", "validation-report.json", "generation-report.json", "repair-prompt.txt"}:
+    if name not in {"course-modules.zip", "normalized-syllabus.json", "validation-report.json", "generation-report.json", "repair-prompt.txt", "refinement-prompt.txt"}:
         raise HTTPException(400, "Unsupported download")
     path = job_dir(settings.data_root, job_id, JobStatus(job["status"])) / name
     if not path.exists():

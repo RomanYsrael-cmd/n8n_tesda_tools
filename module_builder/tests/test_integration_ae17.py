@@ -15,7 +15,7 @@ def test_ae17_manual_mock_smoke(tmp_path):
     inbox = job_dir(root, "ae17test", JobStatus.INBOX); inbox.mkdir()
     plan = extract_syllabus(SYLLABUS)
     db.update_job("ae17test", status=JobStatus.REVIEW, normalized_json=plan.model_dump_json())
-    modules = [make_bundle(w.actual_week, w.lesson_number, w.topic_scope).model_dump() for w in plan.weeks if w.generate]
+    modules = [make_bundle(w.actual_week, w.lesson_number, w.topic_scope, proposed_title=w.proposed_title).model_dump() for w in plan.weeks if w.generate]
     config = Settings(data_root=root, template=TEMPLATE).resolved()
     ok, errors = build_imported(config, db, "ae17test", {"modules": modules})
     assert ok, errors
@@ -23,4 +23,3 @@ def test_ae17_manual_mock_smoke(tmp_path):
     assert len(list((success / "modules").glob("*.docx"))) == 13
     assert (success / "course-modules.zip").exists()
     assert json.loads((success / "generation-report.json").read_text())["llm_generation_calls"] == 0
-

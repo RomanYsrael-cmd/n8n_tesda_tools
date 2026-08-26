@@ -10,7 +10,7 @@ from pydantic import ValidationError
 from .config import Settings
 from .database import Database
 from .docx_engine import build_module, package_course
-from .prompts import repair_prompt, semantic_validation_prompt, stage_prompt
+from .prompts import refinement_prompt, repair_prompt, semantic_validation_prompt, stage_prompt
 from .providers import OpenAICompatibleProvider
 from .schemas import ApplyContent, JobStatus, ModuleBundle, NormalizedSyllabus, PresentationContent, QuizContent, SemanticReview
 from .storage import dump_json, job_dir, transition
@@ -87,6 +87,7 @@ class GenerationService:
                 apply_task = self._validated_call(job_id, lesson, week.actual_week, "practical_activity", stage_prompt(plan, week, "practical_activity", presentation.model_dump()), ApplyContent)
                 quiz, practical = await asyncio.gather(quiz_task, apply_task)
                 bundle = ModuleBundle(actual_week=week.actual_week, lesson_number=lesson, approved_scope=week.topic_scope, presentation=presentation, quiz=quiz, practical_activity=practical)
+                bundle = await self._validated_call(job_id, lesson, week.actual_week, "content_refinement", refinement_prompt(plan, bundle), ModuleBundle)
                 validated, errors = validate_bundle(bundle.model_dump(), self.settings.quiz_questions)
                 errors += validate_bundle_against_plan(bundle, plan)
                 if errors:
@@ -109,7 +110,7 @@ class GenerationService:
                 self.db.update_job(job_id, progress=int((index + 1) / len(weeks) * 100), message=f"Completed Lesson {lesson} of {len(weeks)}")
             (base / "normalized-syllabus.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
             report_json(base / "validation-report.json", {"valid": True, "modules": generated})
-            report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated)})
+            report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated), "expected_base_llm_calls_per_module": 4, "refinement_required": True})
             package_course(base)
             transition(self.settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
             self.db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="All modules are ready")
@@ -118,7 +119,7 @@ class GenerationService:
             self.db.update_job(job_id, status=JobStatus.FAILED, error=str(exc), message="Generation stopped at a failed stage")
 
 
-def build_imported(settings: Settings, db: Database, job_id: str, raw: object) -> tuple[bool, list[str]]:
+def validate_imported(settings: Settings, db: Database, job_id: str, raw: object) -> tuple[list[ModuleBundle], list[str]]:
     row = db.get_job(job_id)
     plan = NormalizedSyllabus.model_validate_json(row["normalized_json"])
     modules_raw = raw.get("modules", []) if isinstance(raw, dict) else []
@@ -135,6 +136,13 @@ def build_imported(settings: Settings, db: Database, job_id: str, raw: object) -
     expected = len([w for w in plan.weeks if w.generate])
     if len(modules_raw) != expected:
         errors.append(f"Expected {expected} modules, received {len(modules_raw)}")
+    return bundles, errors
+
+
+def build_imported(settings: Settings, db: Database, job_id: str, raw: object) -> tuple[bool, list[str]]:
+    row = db.get_job(job_id)
+    plan = NormalizedSyllabus.model_validate_json(row["normalized_json"])
+    bundles, errors = validate_imported(settings, db, job_id, raw)
     if errors:
         dump_json(settings.data_root, False, f"{job_id}-manual-import", {"errors": errors, "rejected": raw})
         return False, errors
@@ -157,7 +165,7 @@ def build_imported(settings: Settings, db: Database, job_id: str, raw: object) -
         return False, errors
     (base / "normalized-syllabus.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
     report_json(base / "validation-report.json", {"valid": True, "modules": reports})
-    report_json(base / "generation-report.json", {"mode": "manual", "module_count": len(bundles), "llm_generation_calls": 0})
+    report_json(base / "generation-report.json", {"mode": "manual", "module_count": len(bundles), "llm_generation_calls": 0, "manual_refinement_required": True})
     package_course(base)
     transition(settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
     db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="Imported modules are ready")

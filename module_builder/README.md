@@ -33,6 +33,8 @@ Stopping does not erase your work. Jobs and settings are kept in a Docker-manage
 
 The repaired `template/Module Template.docx` is selected automatically and checked for all required placeholders. API keys are encrypted using a secret created under the local data folder. Saved keys are masked in the browser and are excluded from JSON dumps and n8n payloads.
 
+Setup also lets you save default author, trainer, font family, and font size. Every syllabus review can override them. The document default is Times New Roman at 12 pt.
+
 Common compatible services include OpenRouter, Ollama, LM Studio, Groq, and Together. For Ollama or LM Studio, use the OpenAI-compatible URL they show and leave the API key blank if that local server does not require one.
 
 ## Build a course
@@ -43,8 +45,8 @@ Common compatible services include OpenRouter, Ollama, LM Studio, Groq, and Toge
 4. Orientation and examination weeks begin turned off. Generated lessons are numbered continuously across skipped weeks.
 5. Choose **Approve this plan**.
 6. Choose a mode:
-   - **Automatic API:** about three model requests for each module, plus bounded repairs when returned JSON is invalid. A request estimate is shown first.
-   - **Manual ChatGPT JSON:** copy or download the deterministic prompt, use it in ChatGPT, then paste or upload the JSON. This mode makes no generation calls. Invalid JSON produces an exact repair prompt you can use repeatedly.
+   - **Automatic API:** about four model requests for each module: presentation, quiz, practical activity, and a required whole-module validation/refinement pass. Bounded repairs apply when returned JSON is invalid.
+   - **Manual ChatGPT JSON:** use the deterministic creation prompt and import its JSON. The app then produces a second required validation/refinement prompt; import that refined JSON to build the documents. This mode makes no API calls from the app.
 7. Watch each module and stage. You may pause after the current module, cancel remaining work, or retry/resume a failed job.
 8. Download the ZIP when the job moves to **Success**. Archive it when you want it moved to **Finished**.
 

@@ -8,6 +8,8 @@ from pathlib import Path
 
 from docx import Document
 from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+from docx.shared import Pt
 from docx.text.paragraph import Paragraph
 
 from .schemas import CourseMetadata, ModuleBundle
@@ -104,7 +106,7 @@ def build_module(template: Path, output_dir: Path, course: CourseMetadata, bundl
     list_slots = {
         "{{list_of_LO}}": bundle.presentation.measurable_objectives,
         "{{preassessment}}": bundle.presentation.pre_assessment,
-        "{{presentation}}": bundle.presentation.presentation,
+        "{{presentation}}": [bundle.presentation.information_sheet_title, bundle.presentation.introduction, *bundle.presentation.presentation],
         "{{contents_mc}}": qlines,
         "{{LE_answer_key}}": answer_lines,
         "{{la_sup_mat}}": bundle.practical_activity.supplies_materials or ["None required"],
@@ -117,6 +119,11 @@ def build_module(template: Path, output_dir: Path, course: CourseMetadata, bundl
                 _fill_list(paragraph, marker, items, numbered=marker in {"{{la_steps_list}}"})
                 break
         _replace_text(paragraph, replacements)
+    for paragraph in iter_paragraphs(doc):
+        for run in paragraph.runs:
+            run.font.name = course.font_family
+            run.font.size = Pt(course.font_size)
+            run._element.get_or_add_rPr().rFonts.set(qn("w:eastAsia"), course.font_family)
     doc.save(output)
     return output
 

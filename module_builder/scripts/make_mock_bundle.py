@@ -29,9 +29,11 @@ def main(job_id: str, output: Path):
             approved_scope=week.topic_scope,
             presentation=PresentationContent(
                 lesson_title=week.proposed_title.replace(" |", "").strip(),
+                information_sheet_title=f"Key Facts {week.lesson_number}.1 – {week.proposed_title}",
                 measurable_objectives=["Explain the approved concepts accurately", "Apply the approved concepts to a realistic business case"],
                 pre_assessment=["What do you already know about this lesson's approved scope?"],
-                presentation=[f"This lesson covers {week.topic_scope}.", "Accounting information systems collect, process, store, and report business data for accurate operations and informed decision-making.", "Learners apply the concepts only within the approved weekly scope and preserve the stated learning outcome."],
+                introduction=" ".join(["This information sheet introduces the approved weekly concepts through clear explanations and realistic accounting information system examples for beginning learners."] * 4),
+                presentation=[f"The approved scope is {week.topic_scope}. " + " ".join(["Accounting information systems support accurate processing informed decisions reliable records and responsible organizational operations in realistic workplace situations."] * 55)],
             ),
             quiz=QuizContent(questions=questions, answer_key=key),
             practical_activity=ApplyContent(
