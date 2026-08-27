@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import json
 import shutil
+from datetime import datetime, UTC
 from pathlib import Path
 
 import httpx
@@ -81,7 +82,8 @@ def dashboard(request: Request):
 
 @app.get("/setup", response_class=HTMLResponse)
 def setup_page(request: Request):
-    return templates.TemplateResponse(request, "setup.html", {"config": provider_config(masked=True), "template": settings.template, "data_root": settings.data_root, "template_errors": template_compatibility(settings.template) if settings.template.exists() else ["File not found"]})
+    config = provider_config(masked=True)
+    return templates.TemplateResponse(request, "setup.html", {"config": config, "has_saved_key": bool(config.api_key), "key_deleted": request.query_params.get("key_deleted") == "1", "template": settings.template, "data_root": settings.data_root, "template_errors": template_compatibility(settings.template) if settings.template.exists() else ["File not found"]})
 
 
 @app.post("/setup")
@@ -108,6 +110,15 @@ async def save_setup(provider: str = Form("openrouter"), base_url: str = Form(..
         db.set_setting("template_path", str(selected))
     db.set_setting("setup_complete", "true")
     return RedirectResponse("/", status_code=303)
+
+
+@app.post("/setup/delete-api-key")
+def delete_api_key():
+    config = provider_config()
+    stored = config.model_dump()
+    stored["api_key"] = ""
+    db.set_setting("provider", json.dumps(stored))
+    return RedirectResponse("/setup?key_deleted=1", status_code=303)
 
 
 @app.post("/api/provider/test")
@@ -204,7 +215,7 @@ def job_context(request: Request, job_id: str) -> dict:
     folder = job_dir(settings.data_root, job_id, JobStatus(job["status"])) / "modules"
     modules = sorted(p.name for p in folder.glob("*.docx")) if folder.exists() else []
     return {"request": request, "job": job, "plan": plan, "stages": stages, "modules": modules,
-            "call_estimate": len([w for w in plan.weeks if w.generate]) * 4 if plan else 0}
+            "call_estimate": len([w for w in plan.weeks if w.generate]) * 3 if plan else 0}
 
 
 @app.get("/jobs/{job_id}/plan", response_class=HTMLResponse)
@@ -214,7 +225,15 @@ def plan_page(request: Request, job_id: str):
 
 @app.get("/jobs/{job_id}/mode", response_class=HTMLResponse)
 def mode_page(request: Request, job_id: str):
-    return templates.TemplateResponse(request, "job_mode.html", job_context(request, job_id))
+    context = job_context(request, job_id)
+    status = JobStatus(context["job"]["status"])
+    if status == JobStatus.GENERATING:
+        return RedirectResponse(f"/jobs/{job_id}/progress", 303)
+    if status in {JobStatus.SUCCESS, JobStatus.FINISHED}:
+        return RedirectResponse(f"/jobs/{job_id}/result", 303)
+    if status == JobStatus.REVIEW:
+        return RedirectResponse(f"/jobs/{job_id}/plan", 303)
+    return templates.TemplateResponse(request, "job_mode.html", context)
 
 
 @app.get("/jobs/{job_id}/manual/initial", response_class=HTMLResponse)
@@ -245,7 +264,18 @@ def manual_quality_page(request: Request, job_id: str, import_error: str = ""):
 
 @app.get("/jobs/{job_id}/progress", response_class=HTMLResponse)
 def progress_page(request: Request, job_id: str):
-    return templates.TemplateResponse(request, "job_progress.html", job_context(request, job_id))
+    context = job_context(request, job_id)
+    status = JobStatus(context["job"]["status"])
+    # The browser polls this URL while normalization is running. Once the
+    # background task changes state, send the user to the matching next step
+    # instead of rendering the automatic-generation view for any existing plan.
+    if status == JobStatus.REVIEW:
+        return RedirectResponse(f"/jobs/{job_id}/plan", 303)
+    if status == JobStatus.APPROVED:
+        return RedirectResponse(f"/jobs/{job_id}/mode", 303)
+    if status in {JobStatus.SUCCESS, JobStatus.FINISHED}:
+        return RedirectResponse(f"/jobs/{job_id}/result", 303)
+    return templates.TemplateResponse(request, "job_progress.html", context)
 
 
 @app.get("/jobs/{job_id}/result", response_class=HTMLResponse)
@@ -256,6 +286,44 @@ def result_page(request: Request, job_id: str):
 @app.get("/api/jobs/{job_id}")
 def job_status(job_id: str):
     return {"job": require_job(job_id), "stages": db.stages(job_id)}
+
+
+def _llm_log_files(job_id: str):
+    results = []
+    for bucket in ("Success", "Failed"):
+        folder = settings.data_root / "JSON Dump" / bucket
+        for path in folder.glob(f"{job_id}-*.json"):
+            name = path.name
+            if "-request-" in name:
+                kind = "request"
+            elif "-response-" in name:
+                kind = "response"
+            elif "-invalid-" in name:
+                kind = "rejected"
+            else:
+                kind = "diagnostic"
+            stat = path.stat()
+            results.append({"name": name, "bucket": bucket.lower(), "kind": kind, "size": stat.st_size,
+                            "updated_at": datetime.fromtimestamp(stat.st_mtime, UTC).isoformat()})
+    return sorted(results, key=lambda item: item["updated_at"], reverse=True)[:100]
+
+
+@app.get("/api/jobs/{job_id}/llm-logs")
+def llm_logs(job_id: str):
+    job = require_job(job_id)
+    return {"job": {"status": job["status"], "progress": job["progress"], "message": job["message"], "error": job["error"]},
+            "stages": db.stages(job_id), "entries": _llm_log_files(job_id)}
+
+
+@app.get("/api/jobs/{job_id}/llm-logs/{bucket}/{filename}")
+def llm_log_detail(job_id: str, bucket: str, filename: str):
+    require_job(job_id)
+    if bucket not in {"success", "failed"} or Path(filename).name != filename or not filename.startswith(f"{job_id}-") or not filename.endswith(".json"):
+        raise HTTPException(400, "Invalid log file")
+    path = settings.data_root / "JSON Dump" / bucket.title() / filename
+    if not path.exists():
+        raise HTTPException(404, "Log entry not found")
+    return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
 
 
 @app.post("/api/n8n/dispatch/{action}/{job_id}")
@@ -332,9 +400,19 @@ def approve(job_id: str):
 @app.post("/jobs/{job_id}/generate")
 async def generate(job_id: str):
     job = require_job(job_id)
-    if JobStatus(job["status"]) not in {JobStatus.APPROVED, JobStatus.FAILED, JobStatus.PAUSED, JobStatus.CANCELLED}:
-        raise HTTPException(409, "This job cannot start automatic generation now")
-    await dispatch_n8n("generate", job_id)
+    status = JobStatus(job["status"])
+    if status == JobStatus.GENERATING:
+        return RedirectResponse(f"/jobs/{job_id}/progress", status_code=303)
+    if status in {JobStatus.SUCCESS, JobStatus.FINISHED}:
+        return RedirectResponse(f"/jobs/{job_id}/result", status_code=303)
+    if status not in {JobStatus.APPROVED, JobStatus.FAILED, JobStatus.PAUSED, JobStatus.CANCELLED}:
+        return RedirectResponse(f"/jobs/{job_id}", status_code=303)
+    db.update_job(job_id, status=JobStatus.GENERATING, mode="automatic", message="Starting automatic generation", error="")
+    try:
+        await dispatch_n8n("generate", job_id)
+    except Exception as exc:
+        db.update_job(job_id, status=JobStatus.FAILED, message="Could not start automatic generation", error=str(exc))
+        return RedirectResponse(f"/jobs/{job_id}/mode", status_code=303)
     return RedirectResponse(f"/jobs/{job_id}/progress", status_code=303)
 
 

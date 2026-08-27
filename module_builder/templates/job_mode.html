@@ -1,1 +1,15 @@
-{% extends "base.html" %}{% block title %}Choose Method - {{job.filename}}{% endblock %}{% block content %}{% include "_job_header.html" %}<section class="panel"><h2>Step 3: Choose how to generate</h2><div class="warning"><strong>Automatic estimate:</strong> about {{call_estimate}} requests, plus bounded repairs. Free models can be slow or unreliable.</div><div class="choice-grid"><article class="choice"><h3>Automatic API</h3><p>The app uses your configured provider and continues automatically.</p><form action="/jobs/{{job.id}}/generate" method="post"><button>Start automatic generation</button></form></article><article class="choice"><h3>ChatGPT / manual</h3><p>Copy prompts to ChatGPT, then paste or upload each complete JSON response.</p><a class="btn" href="/jobs/{{job.id}}/manual/initial">Continue with ChatGPT</a></article></div><p class="muted">For stronger results and higher limits, consider ChatGPT Go or Plus. If available, enable Search for current facts and genuine references.</p></section>{% endblock %}
+{% extends "base.html" %}
+{% block title %}Choose Method - {{job.filename}}{% endblock %}
+{% block content %}
+{% include "_job_header.html" %}
+<section class="panel">
+  <h2>Step 3: Choose how to generate</h2>
+  {% if stages %}<div class="warning"><strong>This job has previous automatic-generation activity.</strong> You can inspect its calls, responses, validation errors, and attempts before resuming.</div><p><a class="btn secondary" href="/jobs/{{job.id}}/progress">View detailed LLM activity</a></p>{% endif %}
+  <div class="warning"><strong>Automatic estimate:</strong> about {{call_estimate}} requests, plus bounded repairs. Free models can be slow or unreliable.</div>
+  <div class="choice-grid">
+    <article class="choice"><h3>Automatic API</h3><p>The app uses your configured provider and continues automatically.</p><form action="/jobs/{{job.id}}/generate" method="post"><button>{% if job.status in ['paused','failed','cancelled'] %}Resume automatic generation{% else %}Start automatic generation{% endif %}</button></form></article>
+    <article class="choice"><h3>ChatGPT / manual</h3><p>Copy prompts to ChatGPT, then paste or upload each complete JSON response.</p><a class="btn" href="/jobs/{{job.id}}/manual/initial">Continue with ChatGPT</a></article>
+  </div>
+  <p class="muted">For stronger results and higher limits, consider ChatGPT Go or Plus. If available, enable Search for current facts and genuine references.</p>
+</section>
+{% endblock %}

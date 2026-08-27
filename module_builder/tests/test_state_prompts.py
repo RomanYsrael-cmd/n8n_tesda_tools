@@ -1,7 +1,7 @@
 import json
 
 from app.database import Database
-from app.prompts import master_prompt, repair_prompt
+from app.prompts import master_prompt, repair_prompt, stage_prompt
 from app.schemas import JobStatus
 from app.storage import ensure_layout, job_dir, transition
 from app.extraction import extract_syllabus
@@ -35,3 +35,17 @@ def test_prompt_generation_is_deterministic_and_safe():
     repair = repair_prompt(["quiz: wrong count"], {"bad": True})
     assert "quiz: wrong count" in repair and '"bad": true' in repair
 
+
+def test_automatic_prompts_are_stage_scoped_and_schema_guided():
+    plan = extract_syllabus(SYLLABUS)
+    week = next(item for item in plan.weeks if item.generate)
+    presentation_prompt = stage_prompt(plan, week, "presentation")
+    assert "PresentationContent" in presentation_prompt
+    assert "practical_activity" not in presentation_prompt
+    assert '"course":{' in presentation_prompt
+
+    sample = {"lesson_title": "Test", "measurable_objectives": ["Explain"], "introduction": "Intro", "presentation": [{"type": "paragraph", "spans": [{"text": "Useful content", "bold": False, "italic": False}]}]}
+    quiz_prompt = stage_prompt(plan, week, "quiz", sample)
+    assert "QuizContent" in quiz_prompt
+    assert '"text":"Useful content"' in quiz_prompt
+    assert '"bold"' not in quiz_prompt

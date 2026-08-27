@@ -10,7 +10,7 @@ from pydantic import ValidationError
 from .config import Settings
 from .database import Database
 from .docx_engine import build_module, package_course
-from .prompts import refinement_prompt, repair_prompt, semantic_validation_prompt, stage_prompt
+from .prompts import repair_prompt, semantic_validation_prompt, stage_prompt
 from .providers import OpenAICompatibleProvider
 from .schemas import ApplyContent, JobStatus, ModuleBundle, NormalizedSyllabus, PresentationContent, QuizContent, SemanticReview
 from .storage import dump_json, job_dir, transition
@@ -87,7 +87,6 @@ class GenerationService:
                 apply_task = self._validated_call(job_id, lesson, week.actual_week, "practical_activity", stage_prompt(plan, week, "practical_activity", presentation.model_dump()), ApplyContent)
                 quiz, practical = await asyncio.gather(quiz_task, apply_task)
                 bundle = ModuleBundle(actual_week=week.actual_week, lesson_number=lesson, approved_scope=week.topic_scope, presentation=presentation, quiz=quiz, practical_activity=practical)
-                bundle = await self._validated_call(job_id, lesson, week.actual_week, "content_refinement", refinement_prompt(plan, bundle), ModuleBundle)
                 validated, errors = validate_bundle(bundle.model_dump(), self.settings.quiz_questions)
                 errors += validate_bundle_against_plan(bundle, plan)
                 if errors:
@@ -110,7 +109,7 @@ class GenerationService:
                 self.db.update_job(job_id, progress=int((index + 1) / len(weeks) * 100), message=f"Completed Lesson {lesson} of {len(weeks)}")
             (base / "normalized-syllabus.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
             report_json(base / "validation-report.json", {"valid": True, "modules": generated})
-            report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated), "expected_base_llm_calls_per_module": 4, "refinement_required": True})
+            report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated), "expected_base_llm_calls_per_module": 3, "python_compiles_stage_json": True, "full_bundle_refinement": False})
             package_course(base)
             transition(self.settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
             self.db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="All modules are ready", error="")
