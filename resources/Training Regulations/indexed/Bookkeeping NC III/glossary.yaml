@@ -1,10 +1,13 @@
 schema: tesda-tr-glossary
-schema_version: "1.0"
+schema_version: "1.1"
 qualification_id: tesda:tr:bookkeeping-nc-iii:2007
-content_status: complete
+coverage_status: complete
+representation_type: semantic_normalized
+verbatim_transcription: false
 source:
   heading: DEFINITION OF TERMS
   printed_pages: "63-67"
+  pdf_pages: "65-69"
 
 terms:
   - {term: Account, definition: "Formal record representing resources, claims, transactions or events and resulting changes, expressed in money or another unit of measurement."}
@@ -71,7 +74,13 @@ terms:
   - {term: Routine journal entries, definition: "Recurring financial activities recorded in the normal course of business."}
   - {term: Salaries/wages expense, definition: "Account recording salaries, wages and benefits received by employees from an employer."}
   - {term: Sales Journal, definition: "Journal in a receivables system in which outgoing customer invoices are recorded."}
-  - {term: Sales invoice, definition: "Document issued by a vendor for goods/services; from the buyer's perspective it is a purchase invoice."}
+  - term: Sales invoice
+    definition: "Document issued by a vendor for goods/services; from the buyer's perspective it is a purchase invoice."
+    source_excerpt: "It is called purchase invoice from the point of view of the seller."
+    source_note: >-
+      The source wording is logically reversed. The normalized definition retains the accounting interpretation;
+      see source-fidelity.yaml for the anomaly record.
+    fidelity_ref: tesda:glossary:sales-invoice
   - {term: Sole Proprietorship, definition: "Entity with one owner; the simplest business form."}
   - {term: Statement of Cash Flow, definition: "Financial statement reporting cash sources/uses by operating, investing and financing activities and reconciling beginning and ending cash/cash equivalents."}
   - {term: Statement of Changes in Equity, definition: "Statement explaining changes in contributed capital and retained earnings during a period."}
@@ -81,3 +90,5 @@ terms:
   - {term: Utilities expense, definition: "Account for costs such as heat, light, water and power."}
   - {term: Vouchers, definition: "Written record of expenditure, disbursement or completed transaction."}
   - {term: Worksheet, definition: "Document or schedule used by a bookkeeper to gather information substantiating an account balance."}
+
+source_fidelity_file: source-fidelity.yaml
