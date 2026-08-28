@@ -1,14 +1,18 @@
 {
   "schema": "tesda-indexed-training-regulation-manifest",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "document_id": "tesda:tr:bookkeeping-nc-iii:2007",
   "qualification": "Bookkeeping NC III",
   "promulgated": "2007-11",
-  "content_status": "complete",
+  "coverage_status": "complete",
+  "representation_type": "semantic_normalized",
+  "verbatim_transcription": false,
   "source": {
     "authority": "Technical Education and Skills Development Authority (TESDA)",
     "official_url": "https://tesda.gov.ph/Downloadables/TR%20BOOKKEEPING%20NC%20III.pdf",
-    "printed_pages": 69
+    "printed_pages": 69,
+    "pdf_pages": 71,
+    "authoritative": true
   },
   "coverage": {
     "qualification": true,
@@ -37,6 +41,27 @@
     "glossary": true,
     "acknowledgements": true
   },
+  "fidelity": {
+    "qualification": "high",
+    "competency_units": "high",
+    "elements": "high",
+    "performance_criteria": "normalized_semantic",
+    "range_of_variables": "normalized_semantic",
+    "evidence_guides": "summarized_with_fidelity_overrides",
+    "training_standards": "high",
+    "assessment_certification": "normalized_with_source_anomaly_notes",
+    "competency_map": "semantic_relationship_representation",
+    "glossary": "normalized_with_source_anomaly_notes",
+    "acknowledgements": "normalized_entities"
+  },
+  "source_policy": {
+    "official_pdf_is_authoritative": true,
+    "preserve_historical_terminology": true,
+    "do_not_silently_modernize_regulatory_terms": true,
+    "allow_normalized_semantic_text": true,
+    "record_known_source_anomalies": true,
+    "source_fidelity_layer": "source-fidelity.yaml"
+  },
   "files": {
     "human_entrypoint": "tr.md",
     "competency_source": "competencies.yaml",
@@ -45,12 +70,15 @@
     "competency_map": "competency-map.yaml",
     "glossary_source": "glossary.yaml",
     "acknowledgements": "acknowledgements.yaml",
+    "source_fidelity": "source-fidelity.yaml",
     "retrieval_index": "semantic-index.jsonl"
   },
   "retrieval": {
     "preferred_lookup_key": "unit_code",
     "index_format": "jsonl",
     "canonical_formats": ["markdown", "yaml"],
-    "whole_pdf_required_for_normal_lookup": false
+    "selector_contract": "semantic-index-v1",
+    "whole_pdf_required_for_normal_lookup": false,
+    "official_pdf_required_for_regulatory_verification": true
   }
 }
