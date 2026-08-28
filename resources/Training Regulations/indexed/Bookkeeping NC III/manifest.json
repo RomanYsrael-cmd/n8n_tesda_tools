@@ -35,14 +35,16 @@
     "assessment_and_certification": true,
     "competency_map": true,
     "glossary": true,
-    "acknowledgements_referenced": true
+    "acknowledgements": true
   },
   "files": {
     "human_entrypoint": "tr.md",
     "competency_source": "competencies.yaml",
     "training_source": "training-standards.yaml",
     "assessment_source": "assessment-certification.yaml",
+    "competency_map": "competency-map.yaml",
     "glossary_source": "glossary.yaml",
+    "acknowledgements": "acknowledgements.yaml",
     "retrieval_index": "semantic-index.jsonl"
   },
   "retrieval": {

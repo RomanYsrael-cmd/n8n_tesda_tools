@@ -1,0 +1,50 @@
+schema: tesda-competency-map
+schema_version: "1.0"
+qualification_id: tesda:tr:bookkeeping-nc-iii:2007
+qualification: Bookkeeping NC III
+content_status: complete
+source:
+  heading: COMPETENCY MAP
+  printed_page: 62
+
+groups:
+  basic_competencies:
+    - unit_code: "500311109"
+      title: Lead workplace communication
+    - unit_code: "500311110"
+      title: Lead small teams
+    - unit_code: "500311111"
+      title: Develop and practice negotiation skills
+    - unit_code: "500311112"
+      title: Solve problems related to work activities
+    - unit_code: "500311113"
+      title: Use mathematical concepts and techniques
+    - unit_code: "500311114"
+      title: Use relevant technologies
+  common_competencies:
+    - unit_code: HCS315202
+      title: Apply quality standards
+    - unit_code: HCS311201
+      title: Perform computer operations
+    - unit_code: HCS913201
+      title: Maintain an effective relationship with clients and customers
+    - unit_code: HCS913202
+      title: Manage own performance
+  core_competencies:
+    - unit_code: HCS412301
+      title: Journalize transactions
+    - unit_code: HCS412302
+      title: Post transactions
+    - unit_code: HCS412303
+      title: Prepare trial balance
+    - unit_code: HCS412304
+      title: Prepare financial reports
+    - unit_code: HCS412305
+      title: Review internal control system
+
+relationships:
+  qualification_requires_all_listed_units: true
+  basic_count: 6
+  common_count: 4
+  core_count: 5
+  total_count: 15
