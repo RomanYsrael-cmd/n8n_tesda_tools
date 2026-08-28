@@ -1,0 +1,100 @@
+schema: tesda-tr-source-fidelity
+schema_version: "1.0"
+qualification_id: tesda:tr:bookkeeping-nc-iii:2007
+representation: fidelity_overrides_and_source_anomalies
+verbatim_transcription: false
+
+policy:
+  purpose: >-
+    Preserve fidelity-sensitive source facts, omitted regulatory detail, and known source anomalies
+    separately from the normalized semantic files used for retrieval and module generation.
+  authority: The official TESDA PDF remains authoritative.
+  precedence:
+    - For semantic retrieval, use the normalized canonical file.
+    - For regulatory verification or source-sensitive generation, merge any matching entry in this file.
+    - If normalized interpretation and source wording conflict, expose both; never silently replace the source.
+
+fidelity_overrides:
+  - id: tesda:unit:500311112:evidence-guide
+    type: evidence_guide_expansion
+    unit_code: "500311112"
+    title: Solve problems related to work activities
+    canonical_file: competencies.yaml
+    canonical_selector:
+      field: unit_code
+      value: "500311112"
+    provenance:
+      printed_pages: "14-15"
+      pdf_pages: "16-17"
+      source_section: EVIDENCE GUIDE
+    normalized_expansion:
+      critical_aspects_assessment_design:
+        - Assess the critical aspects using a range of scenarios, case studies, and what-if situations rather than a single routine case.
+        - Include a walkthrough as part of the candidate response where appropriate.
+        - Include problems that are new, unusual, or improbable, not only routine operating problems.
+      resource_implications:
+        - Provide access to an operating plant over an extended period, or another suitable way to gather evidence across a range of operating situations.
+        - Maintain a bank of scenarios/case studies/what-if situations.
+        - Maintain a bank of questions that probes the reasoning behind observable actions.
+      methods_of_assessment:
+        - Case studies on solving workplace problems.
+        - Observation.
+        - Assess holistically where practical and integrate with other relevant competency units when appropriate.
+        - Gather evidence across multiple situations, including disruptions to normal smooth operation.
+        - Use simulation when needed for timely assessment of parts of the unit.
+        - Base simulation on the actual workplace and include walkthroughs of relevant competency components.
+      context_of_assessment:
+        - Concurrent assessment with relevant teamwork or operation units may be appropriate in the workplace.
+    source_excerpts:
+      - "including new, unusual and improbable situations that may have happened."
+      - "Simulation should be based on the actual workplace"
+    source_note: >-
+      The canonical competencies.yaml record is a semantic summary. This override preserves assessment-design
+      instructions that materially affect scenario design, evidence collection, disruption coverage, and simulation.
+
+source_anomalies:
+  - id: tesda:assessment:4.7
+    type: probable_source_typo
+    canonical_file: assessment-certification.yaml
+    selector:
+      field: number
+      value: "4.7"
+    provenance:
+      printed_page: 61
+      pdf_page: 63
+    source_excerpt: "trainees who are accredited competency assessors are not allowed to assess their trainees."
+    normalized_interpretation: >-
+      An accredited competency assessor may conduct assessment, but an assessor who trained the candidates
+      should not assess those same trainees.
+    source_note: >-
+      The source appears to use "trainees" where "trainers" was likely intended. The normalized interpretation
+      is retained for practical use, but the source anomaly is explicitly recorded.
+
+  - id: tesda:glossary:sales-invoice
+    type: probable_source_wording_error
+    canonical_file: glossary.yaml
+    selector:
+      field: term
+      value: Sales invoice
+    provenance:
+      printed_page: 67
+      pdf_page: 69
+    source_excerpt: "It is called purchase invoice from the point of view of the seller."
+    normalized_interpretation: >-
+      A sales invoice issued by the seller is a purchase invoice from the buyer's perspective.
+    source_note: >-
+      The source wording is logically reversed. The canonical glossary uses the accounting interpretation
+      while this record preserves the source anomaly.
+
+normalization_notes:
+  acknowledgements:
+    canonical_file: acknowledgements.yaml
+    fidelity: normalized_entities
+    note: >-
+      People, organizations, roles, and validation participation are represented semantically; presentation details
+      such as some full postal addresses are not treated as a verbatim transcription layer.
+  competency_map:
+    canonical_file: competency-map.yaml
+    fidelity: semantic_relationship_representation
+    note: >-
+      The printed visual layout is normalized into Basic, Common, and Core competency relationships and codes.
