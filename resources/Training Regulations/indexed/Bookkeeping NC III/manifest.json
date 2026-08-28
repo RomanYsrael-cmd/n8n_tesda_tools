@@ -1,0 +1,54 @@
+{
+  "schema": "tesda-indexed-training-regulation-manifest",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:bookkeeping-nc-iii:2007",
+  "qualification": "Bookkeeping NC III",
+  "promulgated": "2007-11",
+  "content_status": "complete",
+  "source": {
+    "authority": "Technical Education and Skills Development Authority (TESDA)",
+    "official_url": "https://tesda.gov.ph/Downloadables/TR%20BOOKKEEPING%20NC%20III.pdf",
+    "printed_pages": 69
+  },
+  "coverage": {
+    "qualification": true,
+    "competency_standards": {
+      "basic_units": 6,
+      "common_units": 4,
+      "core_units": 5,
+      "total_units": 15,
+      "descriptors": true,
+      "elements": true,
+      "performance_criteria": true,
+      "range_of_variables": true,
+      "evidence_guides": true
+    },
+    "training_standards": {
+      "curriculum_design": true,
+      "training_delivery": true,
+      "trainee_entry_requirements": true,
+      "tools_equipment_materials": true,
+      "training_facilities": true,
+      "trainer_qualifications": true,
+      "institutional_assessment": true
+    },
+    "assessment_and_certification": true,
+    "competency_map": true,
+    "glossary": true,
+    "acknowledgements_referenced": true
+  },
+  "files": {
+    "human_entrypoint": "tr.md",
+    "competency_source": "competencies.yaml",
+    "training_source": "training-standards.yaml",
+    "assessment_source": "assessment-certification.yaml",
+    "glossary_source": "glossary.yaml",
+    "retrieval_index": "semantic-index.jsonl"
+  },
+  "retrieval": {
+    "preferred_lookup_key": "unit_code",
+    "index_format": "jsonl",
+    "canonical_formats": ["markdown", "yaml"],
+    "whole_pdf_required_for_normal_lookup": false
+  }
+}

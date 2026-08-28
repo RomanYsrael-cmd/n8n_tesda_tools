@@ -3,159 +3,196 @@ schema: tesda-trmd
 schema_version: "1.0"
 document_id: tesda:tr:bookkeeping-nc-iii:2007
 title: Bookkeeping NC III
-qualification_code: null
-sector: null
+sector: Health, Social, and Other Community Development Services Sector
 credential:
   system: NC
   level: 3
   label: NC III
-lifecycle:
-  status: unverified
 promulgated: "2007-11"
-extraction:
-  status: prototype_partial
-  coverage: structure-and-indexing-example
+content_status: complete
 source:
   authority: Technical Education and Skills Development Authority (TESDA)
-  url: "https://tesda.gov.ph/Downloadables/TR%20BOOKKEEPING%20NC%20III.pdf"
-  source_heading_training: "TRAINING STANDARDS"
-  source_heading_assessment: "NATIONAL ASSESSMENT AND CERTIFICATION ARRANGEMENTS"
+  original_document: Bookkeeping NC III Training Regulations
+  official_url: "https://tesda.gov.ph/Downloadables/TR%20BOOKKEEPING%20NC%20III.pdf"
+  printed_pages: 1-69
 ---
 
-# Bookkeeping NC III
+# Bookkeeping NC III — Indexed Training Regulation
 
-> [!NOTE]
-> TRMD v1 working prototype. The original TESDA Training Regulation PDF remains the authoritative source. Sections not yet transcribed are explicitly marked rather than inferred.
+This directory is a complete semantic transcription of the TESDA **Bookkeeping NC III** Training Regulations promulgated in **November 2007**. The original PDF remains the authoritative regulatory document; this indexed representation preserves its qualification structure while making the contents addressable by humans, scripts, n8n workflows, retrieval systems, and LLMs.
 
 ## 1. Qualification
 
-### 1.1 Qualification Description
+The qualification covers the competencies required to journalize transactions, post transactions, prepare a trial balance, prepare financial reports, and review an internal control system.
 
-<!-- extraction_status: pending_full_transcription -->
-
-The qualification description is intentionally not reproduced in this prototype. Production conversion should transcribe it from the authoritative PDF with page-level provenance.
-
-### 1.2 Occupational Outcomes
-
-<!-- id: tesda:tr:bookkeeping-nc-iii:2007:occupational-outcomes -->
+### Occupational outcomes
 
 - Bookkeeper
 - Accounting Clerk
 
-### 1.3 Competency Requirements
+### Competency requirements
 
-#### Core Competencies
+#### Basic competencies
 
-- `HCS412301` — Journalize Transactions
-- `HCS412302` — Post Transactions
-- `HCS412303` — Prepare Trial Balance
-- `HCS412304` — Prepare Financial Reports
-- `HCS412305` — Review Internal Control System
+| Unit code | Unit of competency |
+|---|---|
+| `500311109` | Lead workplace communication |
+| `500311110` | Lead small team |
+| `500311111` | Develop and practice negotiation skills |
+| `500311112` | Solve problems related to work activities |
+| `500311113` | Use mathematical concepts and techniques |
+| `500311114` | Use relevant technologies |
+
+#### Common competencies
+
+| Unit code | Unit of competency |
+|---|---|
+| `HCS315202` | Apply quality standards |
+| `HCS311201` | Perform computer operations |
+| `HCS913201` | Maintain an effective relationship with clients and customers |
+| `HCS913202` | Manage own performance |
+
+#### Core competencies
+
+| Unit code | Unit of competency |
+|---|---|
+| `HCS412301` | Journalize transactions |
+| `HCS412302` | Post transactions |
+| `HCS412303` | Prepare trial balance |
+| `HCS412304` | Prepare financial reports |
+| `HCS412305` | Review internal control system |
+
+The complete unit descriptors, elements, performance criteria, range of variables, and evidence guides for all 15 units are in [`competencies.yaml`](./competencies.yaml).
 
 ## 2. Competency Standards
 
-### 2.1 Core Competencies
+TESDA organizes the competency standards into **Basic**, **Common**, and **Core** competencies. Every indexed unit in `competencies.yaml` contains:
 
-<!-- id: HCS412301 -->
-#### HCS412301 — Journalize Transactions
+- unit code and title;
+- unit descriptor;
+- elements;
+- performance criteria grouped under their element;
+- range of variables;
+- evidence guide containing critical aspects of competency, underpinning knowledge, underpinning skills, resource implications, assessment method, and assessment context; and
+- printed-page provenance.
 
-**Unit Code:** `HCS412301`  
-**Competency Group:** Core
+The five core units form the bookkeeping work sequence:
 
-<!-- extraction_status: pending_full_unit_transcription -->
+1. `HCS412301` — Journalize Transactions
+   - Prepare chart of accounts
+   - Analyze documents
+   - Prepare journal entry
+2. `HCS412302` — Post Transactions
+   - Prepare ledger
+   - Transfer journal entries
+   - Summarize ledger
+3. `HCS412303` — Prepare Trial Balance
+   - List account titles
+   - Transfer balances from the ledger
+   - Summarize trial balance
+4. `HCS412304` — Prepare Financial Reports
+   - Prepare financial statements
+   - Analyze financial statements
+5. `HCS412305` — Review Internal Control System
+   - Check policy compliance
+   - Prepare policy compliance report
 
-Elements, performance criteria, range of variables, and evidence guide will be transcribed from the authoritative PDF before production use.
+## 3. Training Standards
 
-<!-- id: HCS412302 -->
-#### HCS412302 — Post Transactions
+The original 2007 document calls Section 3 **TRAINING STANDARDS**. Its complete normalized contents are in [`training-standards.yaml`](./training-standards.yaml).
 
-**Unit Code:** `HCS412302`  
-**Competency Group:** Core
+### 3.1 Curriculum design
 
-<!-- extraction_status: pending_full_unit_transcription -->
+- Course title: **Bookkeeping**
+- NC level: **NC III**
+- Basic competencies: **20 hours**
+- Common competencies: **24 hours**
+- Core competencies: **248 hours**
+- Total nominal duration: **292 hours**
 
-<!-- id: HCS412303 -->
-#### HCS412303 — Prepare Trial Balance
+The course is intended to enhance the knowledge, skills and attitudes of bookkeepers according to industry standards and covers all competencies prescribed for the qualification.
 
-**Unit Code:** `HCS412303`  
-**Competency Group:** Core
+### 3.2 Training delivery
 
-<!-- extraction_status: pending_full_unit_transcription -->
+Training is governed by the competency-based TVET principles stated in the source, including modular learning, individualized/self-paced delivery, work-based competency, evidence-based assessment, on- and off-the-job components, recognition of prior learning/current competency, multiple entry and exit, and national accreditation of approved programs.
 
-<!-- id: HCS412304 -->
-#### HCS412304 — Prepare Financial Reports
+Permitted delivery modalities described by the source include dualized training, modular/self-paced learning, peer teaching/mentoring, supervised industry training/OJT, distance learning, and project-based instruction.
 
-**Unit Code:** `HCS412304`  
-**Competency Group:** Core
+### 3.3 Trainee entry requirements
 
-<!-- extraction_status: pending_full_unit_transcription -->
+A trainee must:
 
-<!-- id: HCS412305 -->
-#### HCS412305 — Review Internal Control System
+- be able to communicate effectively orally and in writing;
+- be physically, emotionally, psychologically and mentally fit; and
+- be able to perform basic mathematical computations.
 
-**Unit Code:** `HCS412305`  
-**Competency Group:** Core
+### 3.4 Tools, equipment and materials
 
-<!-- extraction_status: pending_full_unit_transcription -->
+The source specifies requirements for a minimum class of 25 trainees. The complete quantity list is preserved in `training-standards.yaml`, including the historically stated computer/laptop, calculators, LCD projector, classroom furniture, journals, ledgers, worksheets, stationery and 2007-era storage media.
 
-## 3. Training Arrangements
+### 3.5 Training facilities
 
-<!-- source_heading: TRAINING STANDARDS -->
+For 25 trainees the source specifies a total area of **104 sq. m.**:
 
-### 3.1 Curriculum Design
+| Space | Size | Total area |
+|---|---:|---:|
+| Student/trainee working space | 1 m × 1 m per trainee | 25 sq. m. |
+| Lecture/demo room | 8 m × 5 m | 40 sq. m. |
+| Learning resource center | 3 m × 5 m | 15 sq. m. |
+| Facilities/equipment/circulation area | 6 m × 4 m | 24 sq. m. |
 
-| Competency Group | Nominal Duration |
-| --- | ---: |
-| Basic Competencies | 20 hours |
-| Common Competencies | 24 hours |
-| Core Competencies | 248 hours |
-| **Total** | **292 hours** |
+The source also states that the course may be conducted in hotels or similarly situated locations and may be conducted online/internet-based. These are retained as source-era requirements without modernization.
 
-### 3.2 Training Delivery
+### 3.6 Trainer qualifications
 
-<!-- extraction_status: pending_full_transcription -->
+The source requires the trainer to:
 
-### 3.3 Trainee Entry Requirements
+- hold Bookkeeping NC III or be a Certified Public Accountant;
+- be a graduate of B.S. Accounting or equivalent;
+- have completed Training Methodology III or equivalent;
+- communicate effectively orally and in writing;
+- have at least three years of industry experience as a bookkeeper; and
+- possess good moral character.
 
-<!-- extraction_status: pending_full_transcription -->
+### 3.7 Institutional assessment
 
-### 3.4 Tools, Equipment and Materials
+Institutional assessment is undertaken by trainees to determine achievement of units of competency. A certificate of achievement is issued for each unit of competency.
 
-<!-- source_heading: LIST OF TOOLS, EQUIPMENT AND MATERIALS -->
-<!-- extraction_status: pending_full_transcription -->
+## 4. National Assessment and Certification Arrangements
 
-### 3.5 Training Facilities
+The complete nine provisions are preserved in [`assessment-certification.yaml`](./assessment-certification.yaml). In summary:
 
-<!-- extraction_status: pending_full_transcription -->
+- national certification requires project-type assessment covering the qualification units;
+- assessment focuses on core units, with basic/common units integrated or assessed concurrently;
+- graduates of formal/non-formal/informal or enterprise-based training and experienced workers may apply;
+- reassessment is permitted after one month and covers unsuccessful task/s;
+- two consecutive failures require a refresher course before another assessment;
+- certified individuals may be nominated by industry for assessor accreditation;
+- only accredited competency assessors may conduct assessment, and trainers who are assessors may not assess their own trainees;
+- assessment must be undertaken through a TESDA-accredited assessment center, while performance demonstration may occur at a duly designated venue/workplace; and
+- detailed procedures are governed by the TESDA assessment/certification manuals cited by the source.
 
-### 3.6 Trainers' Qualifications
+## 5. Competency Map
 
-<!-- extraction_status: pending_full_transcription -->
+The competency map consists of the same 15 units grouped into Basic, Common and Core competency bands. Machine-readable grouping is included in `competencies.yaml` and `semantic-index.jsonl`.
 
-### 3.7 Institutional Assessment
+## 6. Definition of Terms
 
-<!-- extraction_status: pending_full_transcription -->
+The complete source glossary is normalized in [`glossary.yaml`](./glossary.yaml), covering accounting/bookkeeping concepts such as accounts, accounting equation, chart of accounts, journals, ledgers, trial balances, financial statements, internal control, PFRS, receivables/payables, and source documents.
 
-## 4. Assessment and Certification
+## 7. Acknowledgements
 
-<!-- source_heading: NATIONAL ASSESSMENT AND CERTIFICATION ARRANGEMENTS -->
-<!-- extraction_status: pending_full_transcription -->
+TESDA acknowledges the Professional Bookkeepers Association of the Philippines, Inc. (PBAPI), technical/industry experts, participants in the national validation, members of the TESDA Board, TESDA EXCOM, and the management and staff of the TESDA Secretariat. The original PDF pages 68–69 remain the authoritative presentation of individual affiliations and addresses.
 
-## Competency Map
+## Retrieval contract
 
-<!-- extraction_status: pending_structured_transcription -->
+Use [`semantic-index.jsonl`](./semantic-index.jsonl) to locate a semantic record and then load the referenced canonical file. Example:
 
-## Definition of Terms
+```text
+query unit_code=HCS412304
+→ semantic-index.jsonl
+→ competencies.yaml#HCS412304
+→ Prepare Financial Reports
+```
 
-<!-- extraction_status: pending_structured_transcription -->
-
-## Provenance
-
-- **Authority:** Technical Education and Skills Development Authority (TESDA)
-- **Qualification:** Bookkeeping NC III
-- **Promulgated:** November 2007
-- **Authoritative source:** TESDA Training Regulation PDF
-- **Representation:** TRMD v1 prototype
-- **Index companion:** `semantic-index.jsonl`
-
-This Markdown is an indexed representation for discovery, retrieval, and module-building workflows. It does not replace the authoritative TESDA document.
+No section in this indexed package is represented by a placeholder or pending-transcription marker.

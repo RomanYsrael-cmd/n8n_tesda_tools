@@ -1,0 +1,189 @@
+schema: tesda-training-standards
+schema_version: "1.0"
+qualification_id: tesda:tr:bookkeeping-nc-iii:2007
+content_status: complete
+source:
+  section_heading: SECTION 3 TRAINING STANDARDS
+  printed_pages: "52-60"
+
+curriculum_design:
+  course_title: Bookkeeping
+  nc_level: NC III
+  nominal_duration:
+    basic_hours: 20
+    common_hours: 24
+    core_hours: 248
+    total_hours: 292
+  course_description: Enhance the knowledge, skills and attitudes of bookkeepers according to industry standards, covering all basic, common and core competencies prescribed for Bookkeeping NC III.
+  curriculum:
+    basic:
+      suggested_hours: 20
+      units:
+        - unit_code: "500311109"
+          title: Lead workplace communication
+          learning_outcomes: [Communicate information about workplace processes, Lead workplace discussions, Identify and communicate issues arising in the workplace]
+          methodology: [Group discussion, Role play, Brainstorming]
+          assessment: [Observation, Interviews]
+        - unit_code: "500311110"
+          title: Lead small team
+          learning_outcomes: [Provide team leadership, Assign responsibilities among members, Set performance expectations for team members, Supervise team performance]
+          methodology: [Lecture, Demonstration, Self-paced/modular]
+          assessment: [Demonstration, Case studies]
+        - unit_code: "500311111"
+          title: Develop and practice negotiation skills
+          learning_outcomes: [Identify relevant information in planning negotiations, Participate in negotiations, Document areas for agreement]
+          methodology: [Direct observation, Simulation/role playing, Case studies]
+          assessment: [Written test, Practical/performance test]
+        - unit_code: "500311112"
+          title: Solve problems related to work activities
+          learning_outcomes: [Explain analytical techniques, Identify the problem, Determine possible causes of the problem]
+          methodology: [Direct observation, Simulation/role playing, Case studies]
+          assessment: [Written test, Practical/performance test]
+        - unit_code: "500311113"
+          title: Use mathematical concepts and techniques
+          learning_outcomes: [Explain analytical techniques, Identify mathematical tools and techniques to solve problem, Apply mathematical procedures/solution, Analyze results]
+          methodology: [Direct observation, Simulation/role playing, Case studies]
+          assessment: [Written test, Practical/performance test]
+        - unit_code: "500311114"
+          title: Use relevant technologies
+          learning_outcomes: [Identify appropriate technology, Apply relevant technology, Maintain/enhance relevant technology]
+          methodology: [Direct observation, Simulation/role playing, Case studies]
+          assessment: [Written test, Practical/performance test]
+    common:
+      suggested_hours: 24
+      units:
+        - unit_code: HCS913201
+          title: Maintain an effective relationship with clients/customers
+          learning_outcomes: [Maintain a professional image, Meet client/customer requirements, Build credibility with customers/clients]
+          methodology: [Group discussion, PowerPoint presentation, Demonstration]
+          assessment: [Observation, Interviews/questioning]
+        - unit_code: HCS913202
+          title: Manage own performance
+          learning_outcomes: [Identify tasks accurately, Allocate priority to each task, Allocate timelines, Meet deadlines, Comply with work schedules, Develop work plans, Monitor personal performance, Obtain management advice/guidance, Apply management guidance, Clarify work standards]
+          methodology: [Group discussion, PowerPoint presentation, Demonstration]
+          assessment: [Observation, Interviews/questioning]
+        - unit_code: HCS315202
+          title: Apply quality standards
+          learning_outcomes_source: [Assess clients needs, Assess own work, Engage in quality improvement]
+          source_note: The first learning-outcome wording is preserved as it appears in the 2007 curriculum table.
+          methodology: [Group discussion, Interaction, Demonstration]
+          assessment: [Observation, Interviews/questioning]
+        - unit_code: HCS311201
+          title: Perform computer operations
+          learning_outcomes: [Identify and explain functions/features/capabilities of hardware and software, Prepare/use hardware and software for task requirements, Transfer files/data using appropriate devices/procedures, Produce accurate and complete data]
+          methodology: [Lecture, Group discussion, Tutorial/self-paced]
+          assessment: [Interviews/questioning, Demonstration, Observation]
+    core:
+      suggested_hours: 248
+      units:
+        - unit_code: HCS412301
+          title: Journalize transactions
+          learning_outcomes: [Prepare chart of accounts, Analyze documents, Prepare journal entry]
+          methodology: [Lecture/demonstration, OJT]
+          assessment: [Written examination, Demonstration, Observation]
+        - unit_code: HCS412302
+          title: Post transactions
+          learning_outcomes: [Prepare ledger, Transfer journal entries, Summarize ledger]
+          methodology: [Lecture/demonstration, OJT]
+          assessment: [Written examination, Demonstration, Observation]
+        - unit_code: HCS412303
+          title: Prepare trial balance
+          learning_outcomes: [List account titles, Transfer balances from the ledger, Summarize trial balance]
+          methodology: [Lecture/demonstration, OJT]
+          assessment: [Written examination, Demonstration, Observation]
+        - unit_code: HCS412304
+          title: Prepare financial reports
+          learning_outcomes: [Prepare financial statements, Analyze financial statements]
+          methodology: [Lecture/demonstration, OJT]
+          assessment: [Written examination, Demonstration, Observation]
+        - unit_code: HCS412305
+          title: Review internal control system
+          learning_outcomes: [Check policy compliance, Prepare policy compliance report]
+          methodology: [Lecture/demonstration, OJT]
+          assessment: [Written examination, Demonstration, Observation]
+
+training_delivery:
+  competency_based_tvet_principles:
+    - Training is based on curriculum developed from competency standards.
+    - Learning is modular.
+    - Delivery is individualized and self-paced.
+    - Training is based on work that must be performed.
+    - Training materials relate directly to competency standards and curriculum modules.
+    - Assessment is based on evidence of work performance to industry standard.
+    - Training uses both on- and off-the-job components.
+    - Recognition of prior learning/current competencies is allowed.
+    - Multiple entry and exit are allowed.
+    - Approved training programs are nationally accredited.
+  modalities:
+    - name: Dualized mode
+      description: In-school plus in-industry training/fieldwork; source refers to DTS implementing rules and regulations.
+    - name: Modular/self-paced learning
+      description: Trainee progresses at own pace while trainer facilitates delivery.
+    - name: Peer teaching/mentoring
+      description: Faster learners may assist slower learners.
+    - name: Supervised industry training/OJT
+      description: Workplace experience used to acquire competencies prescribed by the training regulations.
+    - name: Distance learning
+      description: Instruction largely occurs with learner and instructor in different places using correspondence, audio, video or computer technologies.
+    - name: Project-based instruction
+      description: Learners plan, implement and evaluate projects with real-world applications.
+
+trainee_entry_requirements:
+  - Communicate effectively orally and in written form.
+  - Be physically, emotionally, psychologically and mentally fit.
+  - Perform basic mathematical computations.
+
+tools_equipment_materials:
+  class_size_basis: 25
+  tools:
+    - {quantity: 1, unit: pc, item: Stapler}
+    - {quantity: 25, unit: pcs, item: Calculators}
+  equipment:
+    - {quantity: 1, unit: unit, item: Computer/Laptop}
+    - {quantity: 1, unit: unit, item: Air-conditioning unit}
+    - {quantity: 1, unit: unit, item: LCD projector}
+    - {quantity: 1, unit: unit, item: Teacher table/chair}
+    - {quantity: 25, unit: pcs, item: Arm chairs}
+    - {quantity: 1, unit: pc, item: White board}
+  materials:
+    - {quantity: 25, unit: pcs, item: Pencils}
+    - {quantity: 25, unit: pcs, item: Pencil erasers}
+    - {quantity: 25, unit: pcs, item: Ballpens}
+    - {quantity: 25, unit: pcs, item: Rulers}
+    - {quantity: 25, unit: pcs, item: Journals, specification: Assorted columns}
+    - {quantity: 25, unit: pcs, item: Ledger}
+    - {quantity: 25, unit: pcs, item: Worksheets, specification: Assorted}
+    - {quantity: 1, unit: box, item: Acetate}
+    - {quantity: 3, unit: pcs, item: Marker}
+    - {quantity: null, unit: null, item: Diskettes/CD, source_quantity_not_clear_in_extracted_table: true}
+    - {quantity: 25, unit: pcs, item: Envelopes, specification: Long}
+    - {quantity: 25, unit: pcs, item: Registration forms}
+    - {quantity: 1, unit: pc, item: Teacher's record book}
+    - {quantity: 50, unit: pcs, item: Worksheets, specification: Assorted}
+    - {quantity: 1, unit: pc, item: Marker ink}
+    - {quantity: 25, unit: pcs, item: Ledger book}
+    - {quantity: 1, unit: box, item: Staple wire}
+
+training_facilities:
+  class_size_basis: 25
+  spaces:
+    - {space: Student/trainee working space, size: "1 m x 1 m per trainee", total_area_sq_m: 25}
+    - {space: Lecture/demo room, size: "8 m x 5 m", total_area_sq_m: 40}
+    - {space: Learning resource center, size: "3 m x 5 m", total_area_sq_m: 15}
+    - {space: Facilities/equipment/circulation area, size: "6 m x 4 m", total_area_sq_m: 24}
+  total_area_sq_m: 104
+  source_notes:
+    - Course may be held/conducted in hotels and similarly situated locations.
+    - Course may be conducted online or through internet-based training.
+
+trainer_qualifications:
+  - Holder of Bookkeeping NC III or a Certified Public Accountant.
+  - Graduate of B.S. Accounting or equivalent.
+  - Completed Training Methodology III or equivalent.
+  - Able to communicate effectively orally and in written form.
+  - At least three years of industry experience as a bookkeeper.
+  - Possess good moral character.
+
+institutional_assessment:
+  purpose: Determine trainee achievement of units of competency.
+  award: Certificate of achievement for each unit of competency.

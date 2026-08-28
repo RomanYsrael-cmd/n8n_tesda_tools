@@ -1,75 +1,48 @@
-# Bookkeeping NC III — Indexed TR Prototype
+# Bookkeeping NC III — Complete Indexed TESDA Training Regulation
 
-This folder is a working proof of concept for converting a TESDA Training Regulation into a representation that humans, scripts, n8n workflows, and lightweight LLMs can consume reliably.
+This folder is the machine-, AI-, and human-readable indexed representation of the TESDA **Bookkeeping NC III** Training Regulations promulgated in November 2007.
 
 ## Files
 
-- `tr.md` — canonical TRMD v1 Markdown representation.
-- `semantic-index.jsonl` — retrieval-ready semantic records derived from the structure of `tr.md`.
+| File | Purpose |
+|---|---|
+| `tr.md` | Human-readable entry point and complete section map |
+| `competencies.yaml` | Canonical structured competency standards for all 15 Basic/Common/Core units |
+| `training-standards.yaml` | Complete normalized Section 3 training standards and curriculum |
+| `assessment-certification.yaml` | Complete Section 4 national assessment/certification provisions |
+| `glossary.yaml` | Complete normalized Definition of Terms |
+| `semantic-index.jsonl` | Small retrieval index for scripts, n8n and LLM/RAG lookup |
+| `manifest.json` | Coverage declaration and machine-readable package metadata |
 
-The authoritative source remains the original TESDA Training Regulation PDF. This prototype is deliberately partial: missing regulatory text is marked as pending instead of being guessed.
+## Retrieval pattern
 
-## Retrieval model
+Do not send the entire Training Regulation to an LLM for ordinary module-generation tasks.
 
-Do not chunk `tr.md` by arbitrary token count. Retrieve by semantic IDs and record types such as:
+1. Search `semantic-index.jsonl` by unit code, title, group or section.
+2. Read the `canonical` field returned by the matching record.
+3. Load only the matching object from the canonical YAML file.
+4. Use the original TESDA PDF when regulatory/source verification is required.
 
-- training regulation
-- occupational outcome
-- competency unit
-- element
-- performance criterion
-- required knowledge
-- required skill
-- range of variable
-- evidence guide item
-- training duration
-
-As the full transcription is added, each semantic unit should receive a stable ID and its own JSONL record.
-
-## Python example
-
-```python
-import json
-from pathlib import Path
-
-records = [
-    json.loads(line)
-    for line in Path("semantic-index.jsonl").read_text(encoding="utf-8").splitlines()
-    if line.strip()
-]
-
-journalize = [
-    item for item in records
-    if item.get("unit_code") == "HCS412301"
-]
-
-print(journalize)
-```
-
-## Lightweight-LLM usage
-
-A Module Builder should first query the index and then provide only the matching Markdown section to the model. For example, a request involving `HCS412301` should retrieve the Journalize Transactions section instead of sending the entire Training Regulation to the model.
-
-A typical flow is:
+Example:
 
 ```text
-Module Builder request
-        ↓
-semantic-index.jsonl
-        ↓
-find matching semantic IDs
-        ↓
-retrieve matching section from tr.md
-        ↓
-small/local LLM
-        ↓
-generated module with TESDA basis
+Need: Prepare Financial Reports
+Lookup: unit_code == HCS412304
+Index: semantic-index.jsonl
+Canonical source: competencies.yaml -> HCS412304
+Relevant elements:
+  - Prepare financial statements
+  - Analyze financial statements
 ```
 
-## Prototype status
+For module generation, `training-standards.yaml` supplies the official learning outcomes, methodologies and assessment approaches while `competencies.yaml` supplies the competency standard and evidence requirements.
 
-`prototype_partial` means the structure and indexing approach are ready to test, but the full TESDA source has not yet been transcribed.
+## Source fidelity
 
-`unit_identity_only` means the unit code and title have been indexed, while the unit's elements, performance criteria, range of variables, and evidence guide are still pending transcription.
+The indexed files preserve the 2007 Training Regulation as a historical regulatory source. Old terminology and requirements are not silently replaced by newer TESDA practices. Examples include Training Methodology III, 2007-era computer/storage-media references, the stated 292-hour nominal duration, and the original assessment arrangements.
 
-Production ingestion should preserve TESDA source wording and add page-level provenance and review status for every important semantic record.
+Where the source contains wording that appears unusual, the indexed data retains or explicitly notes the source wording instead of guessing a correction.
+
+## Completeness
+
+`manifest.json` records coverage. This package contains no placeholder or pending-transcription sections. All 15 competency units include their descriptor, elements, performance criteria, range of variables and evidence guide, and all regulatory sections needed for qualification, training and assessment retrieval are represented.

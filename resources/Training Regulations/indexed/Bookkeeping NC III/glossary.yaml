@@ -1,0 +1,83 @@
+schema: tesda-tr-glossary
+schema_version: "1.0"
+qualification_id: tesda:tr:bookkeeping-nc-iii:2007
+content_status: complete
+source:
+  heading: DEFINITION OF TERMS
+  printed_pages: "63-67"
+
+terms:
+  - {term: Account, definition: "Formal record representing resources, claims, transactions or events and resulting changes, expressed in money or another unit of measurement."}
+  - {term: Accounting, definition: "Recording and reporting financial transactions from origination and recognition through processing and summarization in financial statements."}
+  - {term: Accounting equation, definition: "Assets equal liabilities plus equity (A = L + E)."}
+  - {term: Accounting period/year, definition: "Twelve consecutive months chosen by an entity as its accounting period; it need not be a calendar year."}
+  - {term: Accounts Payable, definition: "Amount owed to a creditor for delivered goods or completed services."}
+  - {term: Accounts Receivable, definition: "Amounts collectible from customers; claims against debtors for uncollected sales or services."}
+  - {term: Adjusting journal entries, definition: "Entries used to record period changes, omissions or other financial data that must be reported in the books."}
+  - {term: Adjusted Trial Balance, definition: "Trial balance reflecting totals after adjusting entries have been posted to the general ledger."}
+  - {term: Asset, definition: "Resource representing a reliably measurable future benefit to the company."}
+  - {term: Accounting Manual, definition: "Document providing bookkeepers direction and guidance on an entity's bookkeeping requirements."}
+  - {term: Balance, definition: "Difference between debit and credit entries in an account; positive is a debit balance and negative a credit balance."}
+  - {term: Balance Sheet, definition: "Report of financial position at a point in time, such as quarter-end or year-end."}
+  - {term: Bookkeeping, definition: "Recording all financial transactions of a business or individual; a bookkeeper/accounting clerk keeps an organization's books."}
+  - {term: Business, definition: "Organization of people and resources toward productive goals, usually profit generation."}
+  - {term: Capital, definition: "Equity."}
+  - {term: Cash, definition: "Liquid currency such as banknotes or coins."}
+  - {term: Cash Payments Journal, definition: "Book for recording cash payments such as payables, merchandise purchases and operating expenses; also called cash disbursements journal."}
+  - {term: Cash Receipts Journal, definition: "Book for recording cash collections such as receivables, cash sales and interest income."}
+  - {term: Chart of Accounts, definition: "Systematic listing of all accounts used by an entity."}
+  - {term: Closing entries, definition: "Entries prepared after financial statements have been completed to close the books for the period."}
+  - {term: Corporation, definition: "Form of business conducted pursuant to a government-granted charter."}
+  - {term: Credit, definition: "Entry on the right side of an account; in double-entry bookkeeping it may reduce an asset/expense or increase a liability/revenue."}
+  - {term: Debit, definition: "Entry on the left side of an account; in double-entry bookkeeping it may increase an asset/expense or reduce a liability/revenue."}
+  - {term: Depreciation, definition: "Allocation of the cost of property, plant and equipment to periods benefiting from their use."}
+  - {term: Dividend income, definition: "Income from ownership shares in a corporation, commonly distributed to stockholders in cash."}
+  - {term: Documents, definition: "Source bases for recording bookkeeping transactions, such as sales invoices and official receipts."}
+  - {term: Drawing, definition: "Money withdrawn by a business proprietor for personal needs."}
+  - {term: Equity, definition: "Residual claims of owners."}
+  - {term: Expenses, definition: "Outflow of assets or increase in liabilities arising from operating activities."}
+  - {term: Financial statements, definition: "Reports communicating business activity, results of operations and financial condition, including balance sheet, income statement, cash-flow statement and supporting statements."}
+  - {term: Generally Accepted Accounting Principles/Standards, definition: "Rules and procedures defining accepted accounting practice, including what, when and how much to record."}
+  - {term: General Journal, definition: "Chronological journal of transactions."}
+  - {term: General Ledger, definition: "Collection of asset, liability, owners' equity, revenue and expense accounts to which journal transactions are posted, classified and summarized."}
+  - {term: Income, definition: "Inflow of revenue during a period, including earnings from work or investments."}
+  - {term: Income Statement, definition: "Statement showing components of net income and the effect of revenues and expenses over a period."}
+  - {term: Income Taxes Payable, definition: "Income taxes due, including the current portion of deferred taxes."}
+  - {term: Interest Income, definition: "Income from interest-bearing deposits and accounts."}
+  - {term: Internal Control, definition: "Process designed to provide reasonable assurance regarding management objectives such as reliability of financial reports."}
+  - {term: Inventories, definition: "Products held for sale to customers."}
+  - {term: Journal, definition: "Book in which transactions are initially recorded."}
+  - {term: Journal entry, definition: "Recording a business transaction and its monetary value as debits and credits, normally supported by source documentation."}
+  - {term: Journalize transactions, definition: "Process of recording a business transaction in a journal."}
+  - {term: Ledger, definition: "Tool for classifying and summarizing increases, decreases and balances of chart-of-accounts items."}
+  - {term: Liability, definition: "Obligation, payable or debt owed to another entity, payable in money, goods or services."}
+  - {term: Loans Payable, definition: "Account for amounts owed on borrowed money; the source notes this may also be called Notes Payable."}
+  - {term: Notes Payable, definition: "Account for borrowed amounts evidenced by a promissory note; the source notes this may also be called Loans Payable."}
+  - {term: Official receipt, definition: "Document issued to acknowledge receipt of cash."}
+  - {term: Partnership, definition: "Entity with two or more owners who agree to carry on a trade/business for profit and share resulting profits."}
+  - {term: Philippine Financial Reporting Standards, definition: "Accounting standards issued by the Financial Reporting Standards Council (FRSC), commonly abbreviated PFRS."}
+  - {term: Post-Closing Trial Balance, definition: "Balance-sheet accounts presented in trial-balance form after closing."}
+  - {term: Preliminary Trial Balance, definition: "Listing of general-ledger accounts and balances as of a date, commonly used at period-end to identify whether adjustments are needed."}
+  - {term: Posting, definition: "Process of transferring figures from journal to ledger accounts."}
+  - {term: Property Plant and Equipment, definition: "Assets used in producing goods and services."}
+  - {term: Purchase invoice, definition: "Vendor bill for materials/supplies or services; from the seller's perspective it is a sales invoice."}
+  - {term: Purchases Journal, definition: "Journal in a payable system in which incoming merchandise invoices are recorded."}
+  - {term: Ratio Analysis, definition: "Comparison of actual/projected company data with other company or industry data to analyze trends and relationships."}
+  - {term: Receivables, definition: "Amounts of money due from customers or other debtors."}
+  - {term: Rent expense, definition: "Expenditure incurred for rental of premises."}
+  - {term: Rent income, definition: "Income received from rental of premises or other assets."}
+  - {term: Retained Earnings, definition: "Business profits not paid out to owners as of the balance-sheet date."}
+  - {term: Revenue, definition: "Inflow of assets or decrease in liabilities from operating activities, including sales/services and earnings from interest, dividends or rent."}
+  - {term: Routine journal entries, definition: "Recurring financial activities recorded in the normal course of business."}
+  - {term: Salaries/wages expense, definition: "Account recording salaries, wages and benefits received by employees from an employer."}
+  - {term: Sales Journal, definition: "Journal in a receivables system in which outgoing customer invoices are recorded."}
+  - {term: Sales invoice, definition: "Document issued by a vendor for goods/services; from the buyer's perspective it is a purchase invoice."}
+  - {term: Sole Proprietorship, definition: "Entity with one owner; the simplest business form."}
+  - {term: Statement of Cash Flow, definition: "Financial statement reporting cash sources/uses by operating, investing and financing activities and reconciling beginning and ending cash/cash equivalents."}
+  - {term: Statement of Changes in Equity, definition: "Statement explaining changes in contributed capital and retained earnings during a period."}
+  - {term: Subsidiary Ledger, definition: "Group of subsidiary accounts whose balances sum to the related control-account balance in the general ledger."}
+  - {term: Transactions and events, definition: "Economic occurrences recorded as they happen and affecting the accounting equation even when cash is not received or paid."}
+  - {term: Trial balance, definition: "Listing used to confirm that accounts remain in balance."}
+  - {term: Utilities expense, definition: "Account for costs such as heat, light, water and power."}
+  - {term: Vouchers, definition: "Written record of expenditure, disbursement or completed transaction."}
+  - {term: Worksheet, definition: "Document or schedule used by a bookkeeper to gather information substantiating an account balance."}

@@ -1,0 +1,621 @@
+schema: tesda-competency-standards
+schema_version: "1.0"
+qualification_id: tesda:tr:bookkeeping-nc-iii:2007
+qualification: Bookkeeping NC III
+content_status: complete
+source:
+  authority: TESDA
+  promulgated: "2007-11"
+  printed_pages: 2-51
+
+groups:
+  basic:
+    - unit_code: "500311109"
+      title: Lead workplace communication
+      printed_pages: "2-4"
+      descriptor: Lead dissemination and discussion of workplace ideas, information and issues.
+      elements:
+        - number: 1
+          title: Communicate information about workplace processes
+          performance_criteria:
+            - {number: "1.1", text: "Select an appropriate communication method."}
+            - {number: "1.2", text: "Communicate multiple operations involving several topic areas accordingly."}
+            - {number: "1.3", text: "Use questions to gain additional information."}
+            - {number: "1.4", text: "Identify correct sources of information."}
+            - {number: "1.5", text: "Select and organize information correctly."}
+            - {number: "1.6", text: "Undertake verbal and written reporting when required."}
+            - {number: "1.7", text: "Maintain communication skills in all situations."}
+        - number: 2
+          title: Lead workplace discussions
+          performance_criteria:
+            - {number: "2.1", text: "Seek responses to workplace issues."}
+            - {number: "2.2", text: "Provide immediate responses to workplace issues."}
+            - {number: "2.3", text: "Make constructive contributions to discussions on production, quality and safety."}
+            - {number: "2.4", text: "Communicate workplace goals/objectives and action plans."}
+        - number: 3
+          title: Identify and communicate issues arising in the workplace
+          performance_criteria:
+            - {number: "3.1", text: "Identify issues and problems as they arise."}
+            - {number: "3.2", text: "Organize information about problems/issues coherently for clear and effective communication."}
+            - {number: "3.3", text: "Initiate dialogue with appropriate personnel."}
+            - {number: "3.4", text: "Raise communication problems and issues as they arise."}
+      range_of_variables:
+        - variable: Methods of communication
+          values: [Non-verbal gestures, Verbal, Face-to-face, Two-way radio, Speaking to groups, Telephone, Written, Internet]
+      evidence_guide:
+        critical_aspects:
+          - Deal with a range of communication/information at one time.
+          - Make constructive contributions on workplace issues.
+          - Seek and respond to workplace issues effectively and promptly.
+          - Present information clearly and effectively in written form.
+          - Use appropriate information sources, questions and accurate information.
+        underpinning_knowledge:
+          - Organization requirements for written and electronic communication methods.
+          - Effective verbal communication methods.
+        underpinning_skills:
+          - Organize information.
+          - Understand and convey intended meaning.
+          - Participate in workplace discussions.
+          - Comply with organization requirements for written/electronic communication.
+        resource_implications: [Variety of information, Communication tools, Simulated workplace]
+        methods_of_assessment: [Direct observation, Interview]
+        context_of_assessment:
+          - Workplace or simulated workplace environment.
+          - Tasks observed individually or in a group.
+
+    - unit_code: "500311110"
+      title: Lead small team
+      printed_pages: "5-8"
+      descriptor: Lead small teams, including setting and maintaining team and individual performance standards.
+      elements:
+        - number: 1
+          title: Provide team leadership
+          performance_criteria:
+            - {number: "1.1", text: "Identify and present work requirements to team members."}
+            - {number: "1.2", text: "Communicate reasons for instructions and requirements."}
+            - {number: "1.3", text: "Recognize, discuss and deal with team members' queries and concerns."}
+        - number: 2
+          title: Assign responsibilities
+          performance_criteria:
+            - {number: "2.1", text: "Allocate duties and responsibilities according to required skills, knowledge, aptitude and company policy."}
+            - {number: "2.2", text: "Consider individual preference and personal circumstances where possible."}
+        - number: 3
+          title: Set performance expectations for team members
+          performance_criteria:
+            - {number: "3.1", text: "Establish performance expectations from client needs and assignment requirements."}
+            - {number: "3.2", text: "Base expectations on individual duties and responsibility areas."}
+            - {number: "3.3", text: "Discuss and disseminate expectations to individual team members."}
+        - number: 4
+          title: Supervise team performance
+          performance_criteria:
+            - {number: "4.1", text: "Monitor performance against defined criteria/instructions and take corrective action when required."}
+            - {number: "4.2", text: "Provide feedback, positive support and advice for deficiencies."}
+            - {number: "4.3", text: "Refer unresolved performance issues to appropriate personnel under employer policy."}
+            - {number: "4.4", text: "Keep team members informed of priority changes affecting client/customer needs."}
+            - {number: "4.5", text: "Monitor operations to ensure employer/client requirements are met."}
+            - {number: "4.6", text: "Provide follow-up communication on issues affecting the team."}
+            - {number: "4.7", text: "Complete relevant documentation according to company procedures."}
+      range_of_variables:
+        - {variable: Work requirements, values: [Client profile, Assignment instructions]}
+        - {variable: Team member concerns, values: [Roster/shift details]}
+        - {variable: Monitor performance, values: [Formal process, Informal process]}
+        - {variable: Feedback, values: [Formal process, Informal process]}
+        - {variable: Performance issues, values: [Work output, Work quality, Team participation, Workplace-protocol compliance, Safety, Customer service]}
+      evidence_guide:
+        critical_aspects:
+          - Maintain or improve individual/team performance across scenarios.
+          - Assess and monitor team/individual performance against criteria.
+          - Represent team/individual concerns to the appropriate management/specialist level.
+          - Allocate duties according to knowledge, skills, aptitude and task needs.
+          - Set and communicate expectations and provide feedback.
+        underpinning_knowledge: [Company policies and procedures, Relevant legal requirements, Setting performance expectations, Performance monitoring methods, Client expectations, Team duties and responsibilities]
+        underpinning_skills: [Team-leadership communication, Informal performance counseling, Team building, Negotiation]
+        resource_implications: [Relevant workplace or simulated environment, Materials relevant to the activity/task]
+        methods_of_assessment: [Direct observation of group-related work activities, Simulation and/or role play, Case studies and scenarios]
+        context_of_assessment: [Workplace or appropriately simulated environment, Tasks observed individually or in a group]
+
+    - unit_code: "500311111"
+      title: Develop and practice negotiation skills
+      printed_pages: "9-11"
+      descriptor: Collect information for negotiation and participate in negotiation toward an agreed outcome.
+      elements:
+        - number: 1
+          title: Plan negotiations
+          performance_criteria:
+            - {number: "1.1", text: "Identify and include information needed to prepare for negotiation."}
+            - {number: "1.2", text: "Identify and include information for creating a positive non-verbal negotiating environment."}
+            - {number: "1.3", text: "Identify and include information on active listening."}
+            - {number: "1.4", text: "Identify and include information on questioning techniques."}
+            - {number: "1.5", text: "Check information for correctness and currency."}
+        - number: 2
+          title: Participate in negotiations
+          performance_criteria:
+            - {number: "2.1", text: "Agree on criteria for a successful outcome with all parties."}
+            - {number: "2.2", text: "Consider the desired outcomes of all parties."}
+            - {number: "2.3", text: "Use appropriate language throughout negotiation."}
+            - {number: "2.4", text: "Use a variety of questioning techniques."}
+            - {number: "2.5", text: "Document and agree on issues and processes."}
+            - {number: "2.6", text: "Discuss possible solutions and assess their viability."}
+            - {number: "2.7", text: "Confirm and record areas of agreement and agree follow-up action."}
+      range_of_variables:
+        - variable: Preparing for negotiation
+          values: [Background information on parties, Understanding the topic, Desired outcomes, Self-awareness, Self-esteem, Objectivity, Empathy, Respect for others, Listening/reflecting, Non-verbal communication, Assertiveness, Behavior labeling, Testing understanding, Seeking information, Self-disclosing, Process/content observation, Bargaining information, Process management, Negotiating steps, Conflict-management strategies, Internal/external conflict-resolution options]
+        - {variable: Non-verbal environment, values: [Friendly reception, Warm welcoming room, Refreshments, Lead-in conversation]}
+        - {variable: Active listening, values: [Attentive listening, Avoid interrupting, Good posture, Eye contact, Reflective listening]}
+        - {variable: Questioning techniques, values: [Direct, Indirect, Open-ended]}
+      evidence_guide:
+        critical_aspects: [Demonstrate knowledge of factors influencing negotiation, Participate in negotiation with at least one person to achieve an agreed outcome]
+        underpinning_knowledge: [Codes of practice and organizational guidelines, Negotiation policies/procedures, Decision-making and conflict-resolution strategies, Problem-solving for unexpected questions/attitudes, Flexibility, Empathy]
+        underpinning_skills: [Interpersonal rapport, Verbal/listening communication, Observation, Negotiation]
+        resource_implications: [Room/facilities for negotiation, Human resources/negotiators]
+        methods_of_assessment: [Observation/demonstration and questioning, Portfolio assessment, Oral and written questioning, Third-party report]
+        context_of_assessment: [Real work environment or simulated workplace]
+
+    - unit_code: "500311112"
+      title: Solve problems related to work activities
+      printed_pages: "12-15"
+      descriptor: Apply problem-solving techniques to determine and resolve root causes of workplace problems.
+      elements:
+        - number: 1
+          title: Identify the problem
+          performance_criteria:
+            - {number: "1.1", text: "Identify variances from normal operating parameters and product quality."}
+            - {number: "1.2", text: "Define problem extent, cause and nature through observation, investigation and analytical techniques."}
+            - {number: "1.3", text: "State and specify problems clearly."}
+        - number: 2
+          title: Determine fundamental causes of the problem
+          performance_criteria:
+            - {number: "2.1", text: "Identify possible causes from experience and problem-solving/analytical tools."}
+            - {number: "2.2", text: "Develop possible-cause statements from findings."}
+            - {number: "2.3", text: "Identify fundamental causes from investigation results."}
+        - number: 3
+          title: Determine corrective action
+          performance_criteria:
+            - {number: "3.1", text: "Consider all possible resolution options."}
+            - {number: "3.2", text: "Consider strengths and weaknesses of possible options."}
+            - {number: "3.3", text: "Determine corrective actions for the problem and possible future causes."}
+            - {number: "3.4", text: "Develop action plans with measurable objectives, resource needs and timelines consistent with safety/operating procedures."}
+        - number: 4
+          title: Provide recommendations to manager
+          performance_criteria:
+            - {number: "4.1", text: "Prepare a report on recommendations."}
+            - {number: "4.2", text: "Present recommendations to appropriate personnel."}
+            - {number: "4.3", text: "Follow up recommendations when required."}
+      range_of_variables:
+        - {variable: Analytical techniques, values: [Brainstorming, Intuition/logic, Cause-and-effect diagrams, Pareto analysis, SWOT analysis, Gantt chart/Pert CPM/graphs, Scattergrams]}
+        - {variable: Problems, values: [Non-routine process and quality problems, Equipment selection/availability/failure, Teamwork/work allocation, Safety/emergency situations/incidents]}
+        - {variable: Action plans, values: [Priority requirements, Measurable objectives, Resource requirements, Timelines, Coordination/feedback requirements, Safety requirements, Risk assessment, Environmental requirements]}
+      evidence_guide:
+        critical_aspects: [Identify the problem, Determine fundamental causes, Determine corrective/preventive action, Provide recommendation to manager]
+        underpinning_knowledge: [Process and normal operating parameters, Product quality and non-standard situations, Relevant equipment/processes, Enterprise goals/targets/measures, Quality/OHS/environmental requirements, Decision-making strategies, Information systems/data collation, Industry codes and standards]
+        underpinning_skills: [Formal problem-solving techniques, Problem identification/clarification, Solution design, Solution evaluation, Implementing a rectification plan]
+        resource_implications: [Operating plant over time or equivalent evidence-gathering method, Scenario/case-study bank, Question bank]
+        methods_of_assessment: [Workplace problem-solving case studies, Observation, Holistic/integrated assessment where practical]
+        context_of_assessment: [May be assessed concurrently with relevant teamwork or operation units]
+
+    - unit_code: "500311113"
+      title: Use mathematical concepts and techniques
+      printed_pages: "16-18"
+      descriptor: Apply mathematical concepts and techniques to workplace problems.
+      elements:
+        - number: 1
+          title: Identify mathematical tools and techniques to solve problem
+          performance_criteria:
+            - {number: "1.1", text: "Identify problem areas from the given condition."}
+            - {number: "1.2", text: "Select mathematical techniques based on the problem."}
+        - number: 2
+          title: Apply mathematical procedure/solution
+          performance_criteria:
+            - {number: "2.1", text: "Apply selected mathematical techniques to the identified problem."}
+            - {number: "2.2", text: "Perform computations to the accuracy required."}
+            - {number: "2.3", text: "Determine and verify results against job requirements."}
+        - number: 3
+          title: Analyze results
+          performance_criteria:
+            - {number: "3.1", text: "Review application results against expected specifications/outcomes."}
+            - {number: "3.2", text: "Apply appropriate action in case of error."}
+      range_of_variables:
+        - {variable: Mathematical techniques, values: [Four fundamental operations, Measurements, Unit conversion, Standard formulas]}
+        - {variable: Appropriate action, values: [Review/recalculation/remodeling, Report error to immediate superior]}
+      evidence_guide:
+        critical_aspects: [Identify, apply and review mathematical concepts/techniques for workplace problems]
+        underpinning_knowledge: [Fundamental operations, Measurement systems, Precision and accuracy, Basic measuring tools/devices]
+        underpinning_skills: [Mathematical computation, Calculator use, Measuring-tool use]
+        resource_implications: [Calculator, Basic measuring tools, Case problems]
+        methods_of_assessment: [Authenticated portfolio, Written test, Interview/oral questioning, Demonstration]
+        context_of_assessment: [Workplace or simulated workplace]
+
+    - unit_code: "500311114"
+      title: Use relevant technologies
+      printed_pages: "19-21"
+      descriptor: Select, source, apply and maintain appropriate and affordable workplace technologies.
+      elements:
+        - number: 1
+          title: Study/select appropriate technology
+          performance_criteria:
+            - {number: "1.1", text: "Determine use of different technologies from job requirements."}
+            - {number: "1.2", text: "Select appropriate technology according to work specification."}
+        - number: 2
+          title: Apply relevant technology
+          performance_criteria:
+            - {number: "2.1", text: "Use relevant technology effectively in carrying out functions."}
+            - {number: "2.2", text: "Use applicable software/hardware according to task requirement."}
+            - {number: "2.3", text: "Observe management concepts according to industry practice."}
+        - number: 3
+          title: Maintain/enhance relevant technology
+          performance_criteria:
+            - {number: "3.1", text: "Maintain technology according to industry SOP, manufacturer guidance and OHS procedures."}
+            - {number: "3.2", text: "Maintain technology currency through continuing education/training."}
+            - {number: "3.3", text: "Report technology failure/defect immediately to the responsible person/section."}
+      range_of_variables:
+        - {variable: Technology, values: [Office technology, Industrial technology, System technology, Information technology, Training technology]}
+        - {variable: Management concepts, values: [Real Time Management, Kaizen/continuous improvement, 5S, Total Quality Management, Other management/productivity tools]}
+        - {variable: Industry standard operating procedure, values: [Written technology/equipment guidelines, Verbal advice/instruction from co-worker]}
+        - {variable: Manufacturer operating guidance, values: [Specific manuals/instructions, General instruction manual, Verbal manufacturer advice]}
+        - {variable: OHS procedure, values: [Relevant OHS statutes, Company technology/equipment guidelines]}
+        - {variable: Appropriate action, values: [Preventive-maintenance schedule, Coordination with manufacturer's technician]}
+      evidence_guide:
+        critical_aspects: [Study/select appropriate technology, Apply relevant technology, Maintain/enhance operative ability]
+        underpinning_knowledge: [Technology and its function, Repair/maintenance procedure, Operating instructions, Applicable software, Communication techniques, Health and safety procedure, Company technology policy, Management concepts, Technology adaptability]
+        underpinning_skills: [Technology application/implementation, Basic communication, Software applications, Basic troubleshooting]
+        resource_implications: [Relevant technology, Interview/demonstration questionnaires, Assessment packages]
+        methods_of_assessment: [Interview, Actual demonstration, Authenticated portfolio of related training/seminars]
+        context_of_assessment: [Actual workplace or simulated environment]
+
+  common:
+    - unit_code: HCS315202
+      title: Apply quality standards
+      printed_pages: "22-24"
+      descriptor: Apply workplace quality standards, relevant safety procedures/regulations, organization procedures and customer requirements.
+      elements:
+        - number: 1
+          title: Assess quality of received materials
+          performance_criteria:
+            - {number: "1.1", text: "Obtain work instructions and perform work according to standard operating procedures."}
+            - {number: "1.2", text: "Check received materials against workplace standards/specifications."}
+            - {number: "1.3", text: "Identify and isolate faulty work-related materials."}
+            - {number: "1.4", text: "Record/report faults and identified causes according to workplace procedures."}
+            - {number: "1.5", text: "Replace faulty materials according to workplace procedures."}
+        - number: 2
+          title: Assess own work
+          performance_criteria:
+            - {number: "2.1", text: "Identify and use company quality documentation."}
+            - {number: "2.2", text: "Check completed work against relevant workplace standards."}
+            - {number: "2.3", text: "Identify and isolate errors."}
+            - {number: "2.4", text: "Record quality/production indicators according to procedures."}
+            - {number: "2.5", text: "Document and report causes of deviations from quality standards."}
+        - number: 3
+          title: Engage in quality improvement
+          performance_criteria:
+            - {number: "3.1", text: "Participate in process-improvement procedures related to assignment."}
+            - {number: "3.2", text: "Carry out work according to process-improvement procedures."}
+            - {number: "3.3", text: "Monitor operation/product/service quality for customer satisfaction."}
+      range_of_variables:
+        - {variable: Materials, values: [Manuals, Job orders, Instructional videos]}
+        - {variable: Faults, values: [Materials not to specification, Incorrect/outdated information, Hardware defects, Regulatory non-conformance]}
+        - {variable: Documentation, values: [Organization work procedures, Manufacturer instruction manual, Customer requirements, Forms]}
+        - {variable: Errors, values: [Deviation from client requirements, Deviation from organization requirements]}
+        - {variable: Quality standards, values: [Materials, Hardware, Final product, Production processes, Customer service]}
+        - {variable: Customer, values: [Co-worker, Supplier/vendor, Client, Organization receiving product/service]}
+      evidence_guide:
+        critical_aspects: [Work according to company SOPs, Perform task to specifications, Report defects according to SOPs, Follow process-improvement procedures]
+        underpinning_knowledge: [Production processes/materials/products, Material/software/hardware characteristics, Quality checking, Workplace procedures, Safety/environmental aspects, Fault reporting, Quality improvement]
+        underpinning_skills: [Interpret work instructions, Communication for defined procedures, Work to OHS policies/procedures, Critical thinking, Solution providing and decision-making]
+        resource_implications: [Materials/software/hardware for a real or simulated situation]
+        methods_of_assessment: [Observation and oral questioning, Third-party report, Portfolio, Practical demonstration]
+        assessment_rule: Assessor selects two listed methods.
+        context_of_assessment: [Workplace or simulated environment]
+
+    - unit_code: HCS311201
+      title: Perform computer operations
+      printed_pages: "25-29"
+      descriptor: Input, access, produce and transfer data using appropriate computer hardware and software.
+      elements:
+        - number: 1
+          title: Plan and prepare for task
+          performance_criteria:
+            - {number: "1.1", text: "Determine task requirements from required output."}
+            - {number: "1.2", text: "Select appropriate hardware/software for task and outcome."}
+            - {number: "1.3", text: "Plan task to follow OHS guidelines/procedures."}
+            - {number: "1.4", text: "Follow client-specific guidelines/procedures."}
+            - {number: "1.5", text: "Apply required data-security guidelines."}
+        - number: 2
+          title: Input data into computer
+          performance_criteria:
+            - {number: "2.1", text: "Enter data using the appropriate program/application according to company procedures."}
+            - {number: "2.2", text: "Check accuracy and save information according to SOPs."}
+            - {number: "2.3", text: "Store input data in required storage media."}
+            - {number: "2.4", text: "Perform work within ergonomic guidelines."}
+        - number: 3
+          title: Access information using computer
+          performance_criteria:
+            - {number: "3.1", text: "Select correct program/application for the job."}
+            - {number: "3.2", text: "Access the program/application containing required information according to company procedures."}
+            - {number: "3.3", text: "Use desktop icons correctly for navigation."}
+            - {number: "3.4", text: "Use keyboard techniques consistent with OHS requirements."}
+        - number: 4
+          title: Produce output/data using computer system
+          performance_criteria:
+            - {number: "4.1", text: "Process entered data using appropriate software commands."}
+            - {number: "4.2", text: "Print data using appropriate hardware/peripherals according to SOPs."}
+            - {number: "4.3", text: "Transfer files/data between compatible systems according to SOPs."}
+        - number: 5
+          title: Use basic WWW-browser functions to locate information
+          performance_criteria:
+            - {number: "5.1", text: "Establish information requirements for internet search."}
+            - {number: "5.2", text: "Launch browser."}
+            - {number: "5.3", text: "Load search engine."}
+            - {number: "5.4", text: "Enter appropriate search criteria or URL."}
+            - {number: "5.5", text: "Follow relevant links to locate information."}
+            - {number: "5.6", text: "Bookmark or print useful pages as required."}
+        - number: 6
+          title: Maintain computer equipment and systems
+          performance_criteria:
+            - {number: "6.1", text: "Implement data-security procedures including backups and virus checks."}
+            - {number: "6.2", text: "Implement basic file-maintenance procedures according to SOPs."}
+      range_of_variables:
+        - {variable: Hardware/peripherals, values: [Personal computers, Networked systems, Communication equipment, Printers, Scanners, Keyboard, Mouse, Voice/data logger]}
+        - {variable: Software, values: [Word processing, Database, Internet, Spreadsheets, Client-specific software]}
+        - {variable: OHS guidelines, values: [OHS guidelines, Enterprise procedures]}
+        - {variable: Storage media, values: [Diskettes, CDs, Zip disks, Local/remote hard drives, Optical drives]}
+        - {variable: Ergonomics, values: [Equipment type, Furniture, Seating posture, Lifting posture, Display brightness]}
+        - {variable: Desktop icons, values: [Directories/folders, Files, Network devices, Recycle bin, Program icons]}
+        - {variable: Maintenance, values: [Manage disk space, Review programs, Delete unwanted files, Back up files, Check drive errors, Current anti-virus, Clean internal/external surfaces]}
+      evidence_guide:
+        critical_aspects: [Select/use hardware correctly, Use basic software to create files/documents, Produce accurate/complete data, Transfer files/data correctly, Use browser functions to locate information]
+        underpinning_knowledge: [Computer ergonomics, Computer/OS types, Main computer parts, Storage/memory, Software types, Security/privacy/copyright, Viruses, OHS, Capacity calculation, Productivity applications, Business applications, System software]
+        underpinning_skills: [Read/interpret instructions and user manuals, Communication for instructions/feedback, Safe technology and keyboard skills]
+        resource_implications: [Computer hardware/peripherals, Appropriate software]
+        methods_of_assessment: [Direct observation and oral questioning, Practical demonstration]
+        assessment_rule: Assessor may select two listed methods.
+        context_of_assessment: [Workplace or simulated environment]
+
+    - unit_code: HCS913201
+      title: Maintain an effective relationship with clients and customers
+      printed_pages: "30-32"
+      descriptor: Build and maintain effective relationships with clients, customers and the public.
+      elements:
+        - number: 1
+          title: Maintain a clean and hygienic environment
+          performance_criteria:
+            - {number: "1.1", text: "Maintain uniform and grooming to assignment requirements."}
+            - {number: "1.2", text: "Maintain personal presence according to employer standards."}
+            - {number: "1.3", text: "Keep visible work area tidy and uncluttered."}
+            - {number: "1.4", text: "Store equipment according to assignment requirements."}
+        - number: 2
+          title: Meet client/customer requirements
+          performance_criteria:
+            - {number: "2.1", text: "Identify and understand requirements from assignment instructions."}
+            - {number: "2.2", text: "Meet client requirements according to assignment instructions."}
+            - {number: "2.3", text: "Monitor changes to needs/requirements and take appropriate action."}
+            - {number: "2.4", text: "Communicate clearly and comply with assignment requirements."}
+        - number: 3
+          title: Build credibility with customers/clients
+          performance_criteria:
+            - {number: "3.1", text: "Meet expectations for reliability, punctuality and appearance."}
+            - {number: "3.2", text: "Identify/deal with/record causes of dissatisfaction according to employer policy."}
+            - {number: "3.3", text: "Inform client of relevant security matters according to reporting procedures."}
+      range_of_variables:
+        - {variable: Personal presence, values: [Stance, Posture, Body language, Demeanor, Grooming]}
+        - {variable: Employer standards, values: [Standing orders]}
+        - {variable: Client requirements, values: [Assignment instructions, Post orders, Scope to modify instructions/orders as situations change]}
+        - {variable: Assignment instructions, values: [Written, Verbal, Electronic]}
+        - {variable: Detecting client needs, values: [Review client brief/assignment instructions, Discussion with client/customer]}
+        - {variable: Appropriate action, values: [Implement required changes, Refer to employer personnel, Clarify client needs/instructions]}
+        - {variable: Customers, values: [All members of the public]}
+      evidence_guide:
+        critical_aspects: [Maintain professional image, Interpret client/customer requirements, Deal with varied interactions, Monitor changing needs, Meet requirements, Build credibility]
+        underpinning_knowledge: [Uniform/grooming requirements, OHS requirements for assignment, Assignment instructions]
+        underpinning_skills: [Attention to documentation detail, Interpersonal/communication, Customer service, Punctuality, Telephone technique, Problem solving/negotiation, Record maintenance]
+        resource_implications: [Assessment center/venue, Accredited assessors, Assessment modes, Evaluation reports, Venue/equipment/materials, Assignment instructions, Logbooks, Operational manuals/customer instructions, Assessment instruments]
+        methods_of_assessment: [Written test, Demonstration with questioning, Observation with questioning]
+        context_of_assessment: [Workplace or simulated environment]
+
+    - unit_code: HCS913202
+      title: Manage own performance
+      printed_pages: "33-35"
+      descriptor: Effectively manage own workload and quality of work.
+      elements:
+        - number: 1
+          title: Plan for completion of own workload
+          performance_criteria:
+            - {number: "1.1", text: "Identify tasks accurately."}
+            - {number: "1.2", text: "Allocate priority to each task."}
+            - {number: "1.3", text: "Allocate timelines to each task or series of tasks."}
+            - {number: "1.4", text: "Know and comply with task deadlines where possible."}
+            - {number: "1.5", text: "Know and complete work schedules within agreed timeframes."}
+            - {number: "1.6", text: "Develop work plans according to assignment requirements and employer policy."}
+            - {number: "1.7", text: "Detail uncompleted work and pass completion responsibility appropriately."}
+        - number: 2
+          title: Maintain quality of performance
+          performance_criteria:
+            - {number: "2.1", text: "Continuously monitor personal performance against agreed standards."}
+            - {number: "2.2", text: "Seek advice/guidance when necessary."}
+            - {number: "2.3", text: "Apply management guidance to achieve/maintain standards."}
+            - {number: "2.4", text: "Clarify and agree work standards according to employer policy/procedures."}
+        - number: 3
+          title: Build credibility with customers/clients
+          source_note: This element title and its criteria are retained from the 2007 source text.
+          performance_criteria:
+            - {number: "3.1", text: "Adhere to client expectations for reliability, punctuality and appearance."}
+            - {number: "3.2", text: "Identify/deal with/record possible causes of dissatisfaction according to employer policy."}
+            - {number: "3.3", text: "Inform client of relevant security matters in a timely manner."}
+      range_of_variables:
+        - {variable: Tasks, values: [Assignment instructions, Verbal instructions by senior staff, Policy documents, Duty statements, Self-assessment, Daily tasks, Weekly tasks, Regular/irregular tasks]}
+        - {variable: Performance standards, values: [Assignment instructions, Procedures established in policy documents]}
+      evidence_guide:
+        critical_aspects: [Plan completion of own workload, Assess work plan against site/employer requirements, Complete tasks within specified timeframe, Maintain quality of own performance]
+        underpinning_knowledge: [Site and assignment requirements, Employer performance-management policy, Performance indicators, Steps to improve/maintain performance]
+        underpinning_skills: [Plan/prioritize workloads and requirements, Time and task management]
+        resource_implications: [Assessment center/venue, Accredited assessors, Assessment modes, Evaluation reports, Venue/equipment/materials, Assignment instructions, Logbooks, Operational manuals/customer instructions, Assessment instruments]
+        methods_of_assessment: [Written test, Demonstration, Observation, Questioning]
+        context_of_assessment: [Workplace or simulated work setting]
+
+  core:
+    - unit_code: HCS412301
+      title: Journalize transactions
+      printed_pages: "36-39"
+      descriptor: Log/record business transactions in an accounting journal.
+      elements:
+        - number: 1
+          title: Prepare chart of accounts
+          performance_criteria:
+            - {number: "1.1", text: "Determine nature of business from client information."}
+            - {number: "1.2", text: "Prepare asset, liability, equity, income and expense account titles according to industry practice."}
+            - {number: "1.3", text: "Prepare accounting manual according to industry practice."}
+        - number: 2
+          title: Analyze documents
+          performance_criteria:
+            - {number: "2.1", text: "Gather, check and verify documents under verification/validation processes."}
+            - {number: "2.2", text: "Select account titles using standard selection processes."}
+        - number: 3
+          title: Prepare journal entry
+          performance_criteria:
+            - {number: "3.1", text: "Prepare journals according to industry practice and GAAP/PFRS for transactions/events."}
+            - {number: "3.2", text: "Determine debit account titles according to chart of accounts."}
+            - {number: "3.3", text: "Determine credit account titles according to chart of accounts."}
+            - {number: "3.4", text: "Prepare explanation for journal entry according to transaction nature."}
+            - {number: "3.5", text: "Prepare journal entries with 100% accuracy."}
+      range_of_variables:
+        - {variable: Business nature, values: [Manufacturing, Trading, Services]}
+        - {variable: Forms of organization, values: [Single proprietorship, Partnership, Corporation]}
+        - {variable: Assets, values: [Cash and cash equivalents, Receivables, Inventories, Prepayments, Property plant and equipment, Other assets]}
+        - {variable: Liabilities, values: [Accounts payable, Loans payable, Notes payable, Income tax payable, Accrued expenses, Other liabilities]}
+        - {variable: Equity, values: [Capital, Drawing, Retained earnings]}
+        - {variable: Income, values: [Sales, Interest income, Dividend income, Rent income, Service income, Other income]}
+        - {variable: Expenses, values: [Salaries/wages, Rent expense, Utilities expense, Depreciation, Supplies, Repairs and maintenance, Transportation]}
+        - {variable: Documents, values: [Sales invoice, Vouchers, Official receipts, Purchase invoice]}
+        - {variable: Account titles, values: [Assets, Liabilities, Equities, Income, Expense]}
+        - {variable: Journals/books, values: [General journal, Cash receipts journal, Cash payments journal, Sales journal, Purchase journal, General ledger]}
+        - {variable: Transactions/events, values: [Routine/daily, End-of-month updating, End-of-year closing]}
+        - {variable: Debit account titles, values: [Cash, Receivables, Expenses, Inventories, Property plant and equipment]}
+        - {variable: Credit account titles, values: [Sales, Loans payable, Interest income, Cash]}
+      evidence_guide:
+        critical_aspects: [Prepare chart of accounts, Analyze documents, Prepare journal entry]
+        underpinning_knowledge: [Accounting principles/PFRS, Accounting equation]
+        underpinning_skills: [Four fundamental mathematical operations, Reading/comprehension, Communication, Computer operation]
+        resource_implications: [Real/simulated workplace, Appropriate tools/equipment, Relevant materials/supplies]
+        methods_of_assessment: [Written examination, Work-related project]
+        context_of_assessment: [Workplace or simulated work setting]
+
+    - unit_code: HCS412302
+      title: Post transactions
+      printed_pages: "40-42"
+      descriptor: Post accounting transactions manually.
+      elements:
+        - number: 1
+          title: Prepare ledger
+          performance_criteria:
+            - {number: "1.1", text: "Prepare ledgers for asset, liability and equity account titles according to the chart of accounts."}
+            - {number: "1.2", text: "Prepare ledgers for income and expense account titles according to the chart of accounts."}
+        - number: 2
+          title: Transfer journal entries
+          performance_criteria:
+            - {number: "2.1", text: "Transfer journal entries in chronological order."}
+            - {number: "2.2", text: "Complete postings with 100% accuracy."}
+        - number: 3
+          title: Summarize ledger
+          performance_criteria:
+            - {number: "3.1", text: "Add debits and credits correctly for each ledger account."}
+            - {number: "3.2", text: "Extract balances with 100% accuracy."}
+      range_of_variables:
+        - {variable: Ledger, values: [General ledger, Subsidiary ledger - accounts receivable, Subsidiary ledger - accounts payable, Subsidiary ledger - property plant and equipment, Subsidiary ledger - payroll]}
+        - {variable: Asset/liability/equity titles, values: [Cash, Receivables, Inventories, Property plant and equipment, Accounts payable]}
+        - {variable: Income/expense titles, values: [Sales, Salaries, Rent income, Rent expense, Purchases, Taxes and licenses, Utilities, Stationery and supplies, Insurance and bonds, Transportation and travel]}
+        - {variable: Journal entries, values: [Routine journal entries, Adjusting journal entries, Closing entries]}
+      evidence_guide:
+        critical_aspects: [Prepare ledger, Transfer journal entries, Summarize each ledger account]
+        underpinning_knowledge: [Accounting principles/PFRS, Accounting equation]
+        underpinning_skills: [Four fundamental mathematical operations, Reading/comprehension, Communication, Computer operation]
+        resource_implications: [Real/simulated workplace, Appropriate tools/equipment, Relevant materials/supplies]
+        methods_of_assessment: [Written examination, Work-related project]
+        context_of_assessment: [Workplace or simulated work setting]
+
+    - unit_code: HCS412303
+      title: Prepare trial balance
+      printed_pages: "43-45"
+      descriptor: List accounts, transfer ledger balances and summarize trial balances.
+      elements:
+        - number: 1
+          title: List account titles
+          performance_criteria:
+            - {number: "1.1", text: "List asset, liability and equity titles according to chart of accounts."}
+            - {number: "1.2", text: "List income and expense titles according to chart of accounts."}
+        - number: 2
+          title: Transfer balances from the ledger
+          performance_criteria:
+            - {number: "2.1", text: "Transfer asset, liability and equity balances according to chart of accounts."}
+            - {number: "2.2", text: "Transfer income and expense balances according to chart of accounts."}
+        - number: 3
+          title: Summarize trial balance
+          performance_criteria:
+            - {number: "3.1", text: "Total debits and credits with 100% accuracy."}
+            - {number: "3.2", text: "Extract trial balances with 100% accuracy."}
+      range_of_variables:
+        - {variable: Asset/liability/equity titles, values: [Cash, Receivables, Inventories, Loans payable]}
+        - {variable: Income/expense titles, values: [Sales, Rent income, Rent expense, Depreciation]}
+        - {variable: Trial balances, values: [Preliminary trial balance, Adjusted trial balance, Post-closing trial balance]}
+      evidence_guide:
+        critical_aspects: [Transfer ledger balances, Summarize trial balance, Prepare trial balance]
+        underpinning_knowledge: [Accounting principles/PFRS, Accounting equation]
+        underpinning_skills: [Four fundamental mathematical operations, Reading/comprehension, Communication, Computer operation]
+        resource_implications: [Real/simulated workplace, Appropriate tools/equipment, Relevant materials/supplies]
+        methods_of_assessment: [Written examination, Work-related project]
+        context_of_assessment: [Workplace or simulated work setting]
+
+    - unit_code: HCS412304
+      title: Prepare financial reports
+      printed_pages: "46-48"
+      descriptor: Prepare financial reports manually.
+      elements:
+        - number: 1
+          title: Prepare financial statements
+          performance_criteria:
+            - {number: "1.1", text: "Prepare worksheet using the prescribed format."}
+            - {number: "1.2", text: "Prepare income statement according to GAAP/PFRS."}
+            - {number: "1.3", text: "Prepare Statement of Changes in Equity according to GAAP/PFRS."}
+            - {number: "1.4", text: "Prepare Balance Sheet according to GAAP/PFRS."}
+            - {number: "1.5", text: "Prepare Statement of Cash Flow according to GAAP/PFRS."}
+            - {number: "1.6", text: "Prepare financial statements according to GAAP/PFRS."}
+        - number: 2
+          title: Analyze financial statements
+          performance_criteria:
+            - {number: "2.1", text: "Analyze financial statements according to prescribed format."}
+            - {number: "2.2", text: "Prepare financial-analysis report according to industry requirements."}
+      range_of_variables:
+        - {variable: Financial statements, values: [Balance sheet, Income statement, Cash flow statement]}
+        - {variable: Report frequency, values: [Monthly, Quarterly, Annually]}
+      evidence_guide:
+        critical_aspects: [Prepare financial statements, Analyze financial statements, Prepare financial-analysis report]
+        underpinning_knowledge: [Accounting principles/PFRS, Financial analysis]
+        underpinning_skills: [Four fundamental mathematical operations, Reading/comprehension, Communication, Computer operation]
+        resource_implications: [Real/simulated workplace, Appropriate tools/equipment, Relevant materials/supplies]
+        methods_of_assessment: [Written examination, Work-related project]
+        context_of_assessment: [Workplace or simulated work setting]
+
+    - unit_code: HCS412305
+      title: Review internal control system
+      printed_pages: "49-51"
+      descriptor: Review and determine extent of compliance with a firm's internal control manual.
+      elements:
+        - number: 1
+          title: Check policy compliance
+          performance_criteria:
+            - {number: "1.1", text: "Prepare/update internal control manual according to industry practice."}
+            - {number: "1.2", text: "Check and validate compliance according to the internal control system."}
+        - number: 2
+          title: Prepare policy compliance report
+          performance_criteria:
+            - {number: "2.1", text: "Prepare policy-compliance reports according to the internal control system."}
+            - {number: "2.2", text: "Submit policy-compliance reports to management for validation."}
+            - {number: "2.3", text: "File policy-compliance reports for future reference."}
+      range_of_variables:
+        - {variable: Accounting reports, values: [Monthly reports, Quarterly compliance reports, Annual compliance reports]}
+        - {variable: Policy compliance, values: [Sales policy, HR policies]}
+      evidence_guide:
+        critical_aspects: [Prepare internal control manual, Prepare compliance reports]
+        underpinning_knowledge: [Internal-control principles, Management policies]
+        underpinning_skills: [Four fundamental mathematical operations, Reading/comprehension, Communication, Computer/calculator operation]
+        resource_implications: [Real/simulated workplace, Appropriate tools/equipment, Relevant materials/supplies]
+        methods_of_assessment: [Written examination, Work-related project]
+        context_of_assessment: [Workplace or simulated work setting]
