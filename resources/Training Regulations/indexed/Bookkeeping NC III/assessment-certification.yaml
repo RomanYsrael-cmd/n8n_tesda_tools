@@ -1,27 +1,38 @@
 schema: tesda-assessment-certification
-schema_version: "1.0"
+schema_version: "1.1"
 qualification_id: tesda:tr:bookkeeping-nc-iii:2007
-content_status: complete
+coverage_status: complete
+representation_type: semantic_normalized
+verbatim_transcription: false
 source:
   heading: SECTION 4 NATIONAL ASSESSMENT AND CERTIFICATION ARRANGEMENTS
   printed_page: 61
+  pdf_page: 63
+  authority: TESDA
 
 provisions:
   - number: "4.1"
-    rule: Candidate must demonstrate competence through project-type assessment covering all units listed for the qualification; successful candidates receive a National Certificate signed by the TESDA Director General.
+    normalized_text: Candidate must demonstrate competence through project-type assessment covering all units listed for the qualification; successful candidates receive a National Certificate signed by the TESDA Director General.
   - number: "4.2"
-    rule: Assessment focuses on core units. Basic and common units are integrated or assessed concurrently with core units.
+    normalized_text: Assessment focuses on core units. Basic and common units are integrated or assessed concurrently with core units.
   - number: "4.3"
-    rule: Eligible applicants include graduates of formal, non-formal and informal/enterprise-based training programs and experienced workers, whether wage-employed or self-employed.
+    normalized_text: Eligible applicants include graduates of formal, non-formal and informal/enterprise-based training programs and experienced workers, whether wage-employed or self-employed.
   - number: "4.4"
-    rule: Reassessment is allowed only after one month from the assessment date; for National Certificate reassessment, only unsuccessful task/s are reassessed.
+    normalized_text: Reassessment is allowed only after one month from the assessment date; for National Certificate reassessment, only unsuccessful task/s are reassessed.
   - number: "4.5"
-    rule: A candidate who fails assessment twice consecutively must undergo a refresher course before another assessment.
+    normalized_text: A candidate who fails assessment twice consecutively must undergo a refresher course before another assessment.
   - number: "4.6"
-    rule: Only certified individuals in the qualification may be nominated by the industry sector for accreditation as competency assessor.
+    normalized_text: Only certified individuals in the qualification may be nominated by the industry sector for accreditation as competency assessor.
   - number: "4.7"
-    rule: Only accredited competency assessors may conduct assessment. A trainer who is also an accredited assessor may not assess that trainer's own trainees.
+    normalized_text: An accredited competency assessor may conduct assessment, but an assessor who trained the candidates should not assess those same trainees.
+    source_excerpt: "trainees who are accredited competency assessors are not allowed to assess their trainees."
+    source_note: >-
+      The source appears to use "trainees" where "trainers" was likely intended. The normalized interpretation is
+      retained for practical retrieval, while the source wording is preserved in source-fidelity.yaml.
+    fidelity_ref: tesda:assessment:4.7
   - number: "4.8"
-    rule: Competency assessment must be undertaken through a TESDA-accredited assessment center; performance demonstration may be conducted in a venue/workplace duly designated by an accredited assessment center.
+    normalized_text: Competency assessment must be undertaken through a TESDA-accredited assessment center; performance demonstration may be conducted in a venue/workplace duly designated by an accredited assessment center.
   - number: "4.9"
-    rule: Detailed guidelines are contained in TESDA's Procedures Manual on Assessment and Certification and Guidelines on the Implementation of the Philippine TVET Qualification and Certification System (PTQCS).
+    normalized_text: Detailed guidelines are contained in TESDA's Procedures Manual on Assessment and Certification and Guidelines on the Implementation of the Philippine TVET Qualification and Certification System (PTQCS).
+
+source_fidelity_file: source-fidelity.yaml
