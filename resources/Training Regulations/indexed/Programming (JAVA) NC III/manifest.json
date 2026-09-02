@@ -1,0 +1,70 @@
+{
+  "schema": "tesda-indexed-training-regulation-manifest",
+  "schema_version": "1.1",
+  "document_id": "tesda:tr:programming-java-nc-iii:2021-06-08",
+  "qualification": "PROGRAMMING (JAVA) NC III",
+  "qualification_code": null,
+  "qualification_code_status": "not_present_in_source",
+  "credential_level": "National Certificate Level III",
+  "nc_level": "NC III",
+  "sector": "INFORMATION AND COMMUNICATION TECHNOLOGY (ICT) SECTOR",
+  "promulgated": "2021-06-08",
+  "coverage_status": "complete",
+  "representation_type": "semantic_normalized",
+  "verbatim_transcription": false,
+  "module_builder_usable": true,
+  "rag_usable": true,
+  "small_llm_usable": true,
+  "n8n_python_usable": true,
+  "official_tesda_pdf_authoritative": true,
+  "lifecycle": {
+    "status": "current",
+    "verified_on": "2026-09-01",
+    "verification_basis": "TESDA Training Regulations portal lists Programming (JAVA) NC III and separately Programming (JAVA) NC III (Superseded); the current source is the June 8, 2021 Version 2 TR.",
+    "verification_sources": [
+      "https://www.tesda.gov.ph/Download/Training_Regulations?page=32",
+      "TESDA Board Resolution 2021-27",
+      "TESDA Circular 068-2021"
+    ]
+  },
+  "source": {
+    "authority": "Technical Education and Skills Development Authority (TESDA)",
+    "official_url": "https://www.tesda.gov.ph/Downloadables/TRs/TR%20-%20Programming%20%28JAVA%29%20NC%20III%20ver%202.pdf",
+    "repository_pdf": "resources/Training Regulations/Programming (JAVA) NC III.pdf",
+    "repository_pdf_blob_sha": "60f30e9f6396ae78d3e411ab8d169c7a06e07a82",
+    "local_audit_sha256": "672a225580065b7f452a4b8573d6c31db120ef391e4498425ee48e4ac575c5d8",
+    "printed_pages": 54,
+    "pdf_pages": 56,
+    "authoritative": true
+  },
+  "counts": {
+    "basic_units": 6,
+    "common_units": 2,
+    "core_units": 2,
+    "total_units": 10,
+    "elements": 43,
+    "parsed_performance_criteria": 183,
+    "glossary_terms": 74
+  },
+  "nominal_duration": {
+    "basic_hours": 64,
+    "common_hours": 16,
+    "core_hours": 160,
+    "supervised_industry_learning_hours": null,
+    "total_hours": 240,
+    "per_unit_allocation_in_source": false
+  },
+  "files": {
+    "readme": "README.md",
+    "human_entry_point": "tr.md",
+    "competencies": "competencies.yaml",
+    "training_standards": "training-standards.yaml",
+    "assessment_certification": "assessment-certification.yaml",
+    "competency_map": "competency-map.yaml",
+    "glossary": "glossary.yaml",
+    "acknowledgements": "acknowledgements.yaml",
+    "source_fidelity": "source-fidelity.yaml",
+    "semantic_index": "semantic-index.jsonl"
+  },
+  "package_rebuild_note": "Export rebuilt from the authoritative source PDF and previously validated package metadata after the GitHub connector could not reliably transfer every large blob. Full cleaned source blocks are retained in structured files to avoid information loss."
+}

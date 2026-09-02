@@ -1,0 +1,54 @@
+schema: tesda-assessment-certification
+schema_version: '1.1'
+qualification_id: tesda:tr:programming-java-nc-iii:2021-06-08
+qualification: PROGRAMMING (JAVA) NC III
+coverage_status: complete
+representation_type: semantic_normalized
+verbatim_transcription: false
+source:
+  heading: SECTION 4 NATIONAL ASSESSMENT AND CERTIFICATION ARRANGEMENTS
+  printed_page: 46
+  pdf_page: 48
+source_section_text: "SECTION 4 NATIONAL ASSESSMENT AND CERTIFICATION ARRANGEMENTS\n    4.1    To attain the National Qualification\
+  \ of Programming (Java) NC III, the\n           candidate must demonstrate competency in all the units listed in Section\
+  \ 1.\n           Successful candidates shall be awarded a National Certificate level III\n           signed by the TESDA\
+  \ Director General.\n    4.2    The qualification Programming (Java) NC III may be attained by passing the\n           Oracle\
+  \ Certified Associate Java SE 8 Programmer or Java SE 8\n           Programmer I Certification Exam.\n    4.3    Upon submission\
+  \ of the Oracle Certified Associate Java SE 8\n           Programmer or Java SE 8 Programmer I (OCAJP 8) Certificate, an\n\
+  \           individual shall be issued the corresponding National Certificate.\n    4.4    The following are qualified to\
+  \ apply for certification, as long as they are\n           holders of Oracle Certified Associate Java SE 8 Programmer or\
+  \ Java SE\n           8 Programmer I (OCAJP 8) Certificate:\n           4.4.1.   Graduate of formal, non-formal, and informal,\
+  \ including enterprise-\n                    based, training programs.\n           4.4.2.   Experienced workers (wage employed\
+  \ or self-employed)\n    4.5    Individuals who already possess National Certificate in Programming (Java)\n           NC\
+  \ III are required to take the certification for this TR on or before the\n           expiration of their NC.\n    4.6 \
+  \   The guidelines on assessment and certification are discussed in detail in the\n           “Procedures Manual on Assessment\
+  \ and Certification” and “Guidelines on\n           the Implementation of the Philippine TVET Competency Assessment and\n\
+  \           Certification System (PTCACS)”."
+provisions:
+- id: tesda:tr:programming-java-nc-iii:2021-06-08:assessment:4.1
+  number: '4.1'
+  source_text: 4.1 To attain the National Qualification of Programming (Java) NC III, the candidate must demonstrate competency
+    in all the units listed in Section 1. Successful candidates shall be awarded a National Certificate level III signed by
+    the TESDA Director General.
+- id: tesda:tr:programming-java-nc-iii:2021-06-08:assessment:4.2
+  number: '4.2'
+  source_text: 4.2 The qualification Programming (Java) NC III may be attained by passing the Oracle Certified Associate Java
+    SE 8 Programmer or Java SE 8 Programmer I Certification Exam.
+- id: tesda:tr:programming-java-nc-iii:2021-06-08:assessment:4.3
+  number: '4.3'
+  source_text: 4.3 Upon submission of the Oracle Certified Associate Java SE 8 Programmer or Java SE 8 Programmer I (OCAJP
+    8) Certificate, an individual shall be issued the corresponding National Certificate.
+- id: tesda:tr:programming-java-nc-iii:2021-06-08:assessment:4.4
+  number: '4.4'
+  source_text: '4.4 The following are qualified to apply for certification, as long as they are holders of Oracle Certified
+    Associate Java SE 8 Programmer or Java SE 8 Programmer I (OCAJP 8) Certificate: 4.4.1. Graduate of formal, non-formal,
+    and informal, including enterprise- based, training programs. 4.4.2. Experienced workers (wage employed or self-employed)'
+- id: tesda:tr:programming-java-nc-iii:2021-06-08:assessment:4.5
+  number: '4.5'
+  source_text: 4.5 Individuals who already possess National Certificate in Programming (Java) NC III are required to take
+    the certification for this TR on or before the expiration of their NC.
+- id: tesda:tr:programming-java-nc-iii:2021-06-08:assessment:4.6
+  number: '4.6'
+  source_text: 4.6 The guidelines on assessment and certification are discussed in detail in the “Procedures Manual on Assessment
+    and Certification” and “Guidelines on the Implementation of the Philippine TVET Competency Assessment and Certification
+    System (PTCACS)”.

@@ -1,0 +1,1974 @@
+schema: tesda-competency-standards
+schema_version: '1.1'
+qualification_id: tesda:tr:programming-java-nc-iii:2021-06-08
+qualification: PROGRAMMING (JAVA) NC III
+coverage_status: complete
+representation_type: semantic_normalized_with_source_blocks
+verbatim_transcription: false
+source:
+  authority: Technical Education and Skills Development Authority (TESDA)
+  promulgated: '2021-06-08'
+  printed_pages: 4-39
+  pdf_pages: 6-41
+  official_pdf_authoritative: true
+legacy_structure_note: This TR places knowledge and skills in Evidence Guides as Underpinning Knowledge and Underpinning Skills
+  rather than separate element-level Required Knowledge/Required Skills fields.
+groups:
+  basic:
+  - unit_code: '500311109'
+    title: Lead workplace communication
+    printed_pages: 4-6
+    pdf_pages: 6-8
+    descriptor: This unit covers the knowledge, skills and attitudes required to lead in the dissemination and discussion
+      of ideas, information and issues in the workplace.
+    elements:
+    - number: 1
+      title: Communicate information about workplace processes
+      performance_criteria:
+      - number: '1.1'
+        text: Appropriate communication method is selected
+      - number: '1.2'
+        text: Multiple operations involving several topics areas are communicated accordingly
+      - number: '1.3'
+        text: Questions are used to gain extra information
+      - number: '1.4'
+        text: Correct sources of information are identified
+      - number: '1.5'
+        text: Information is selected and organized correctly
+      - number: '1.6'
+        text: Verbal and written reporting is undertaken when required
+      - number: '1.7'
+        text: Communication skills are maintained in all situations
+    - number: 2
+      title: Lead workplace discussions
+      performance_criteria:
+      - number: '2.1'
+        text: Response to workplace issues are sought
+      - number: '2.2'
+        text: Response to workplace issues are provided immediately
+      - number: '2.3'
+        text: Constructive contributions are made to workplace discussions on such issues as production, quality and safety
+      - number: '2.4'
+        text: Goals/objectives and action plan undertaken in the workplace are communicated
+    - number: 3
+      title: Identify and communicate issues arising in the workplace
+      performance_criteria:
+      - number: '3.1'
+        text: Issues and problems are identified as they arise
+      - number: '3.2'
+        text: Information regarding problems and issues are organized coherently to ensure clear and effective communication
+      - number: '3.3'
+        text: Dialogue is initiated with appropriate personnel
+      - number: '3.4'
+        text: Communication problems and issues are raised as they arise
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n          ELEMENT\n                                  Italicized\
+      \ terms are elaborated in the Range of Variables\n   1. Communicate              1.1. Appropriate communication method\
+      \ is selected\n      information about        1.2. Multiple operations involving several topics areas\n      workplace\
+      \                     are communicated accordingly\n      processes\n                               1.3. Questions are\
+      \ used to gain extra information\n                               1.4. Correct sources of information are identified\n\
+      \                               1.5. Information is selected and organized correctly\n                             \
+      \  1.6. Verbal and written reporting is undertaken when\n                                    required\n            \
+      \                   1.7. Communication skills are maintained in all situations\n   2. Lead workplace           2.1.\
+      \ Response to workplace issues are sought\n      discussions              2.2. Response to workplace issues are provided\n\
+      \                                    immediately\n                               2.3. Constructive contributions are\
+      \ made to workplace\n                                    discussions on such issues as production, quality\n       \
+      \                             and safety\n                               2.4. Goals/objectives and action plan undertaken\
+      \ in the\n                                    workplace are communicated\n   3. Identify and             3.1. Issues\
+      \ and problems are identified as they arise\n      communicate              3.2. Information regarding problems and\
+      \ issues are\n      issues arising in the         organized coherently to ensure clear and effective\n      workplace\
+      \                     communication\n                               3.3. Dialogue is initiated with appropriate personnel\n\
+      \                               3.4. Communication problems and issues are raised as\n                             \
+      \       they arise"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n          VARIABLE                                    RANGE\n   1. Methods of       \
+        \        1.1. Non-verbal gestures\n      communication\n                               1.2. Verbal\n             \
+        \                  1.3. Face to face\n                               1.4. Two-way radio\n                        \
+        \       1.5. Speaking to groups\n                               1.6. Using telephone\n                           \
+        \    1.7. Written\n                               1.8. Internet"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n  1. Critical aspects of   Assessment requires evidence that the candidate:\n     Competency\
+        \            1.1. Dealt with a range of communication/information at\n                                 one time\n\
+        \                           1.2. Made constructive contributions in workplace\n                                 issues\n\
+        \                           1.3. Sought workplace issues effectively\n                           1.4. Responded to\
+        \ workplace issues promptly\n                           1.5. Presented information clearly and effectively\n     \
+        \                            written form\n                           1.6. Used appropriate sources of information\n\
+        \                           1.7. Asked appropriate questions\n                           1.8. Provided accurate information\n\
+        \  2. Underpinning          2.1.   Organization requirements for written        and\n     knowledge              \
+        \      electronic communication methods\n                           2.2.   Effective verbal communication methods\n\
+        \  3. Underpinning Skills   3.1.   Organize information\n                           3.2.   Understand and convey intended\
+        \ meaning\n                           3.3.   Participate in variety of workplace discussions\n                   \
+        \        3.4.   Comply with organization requirements for the use\n                                  of written and\
+        \ electronic communication methods\n  4. Resource              The following resources MUST be provided:\n     Implications\
+        \          4.1. Variety of Information\n                           4.2. Communication tools\n                    \
+        \       4.3. Simulated workplace\n  5. Methods of            Competency may be assessed through:\n     Assessment\
+        \            5.1. Competency in this unit must be assessed through\n                           5.2. Direct Observation\n\
+        \                           5.3. Interview\n  6. Context for           6.1.   Competency may be assessed in the workplace\
+        \ or\n     Assessment                   in simulated workplace environment"
+    source_block: "UNIT OF COMPETENCY: LEAD WORKPLACE COMMUNICATION\n  UNIT CODE                   : 500311109\n  UNIT DESCRIPTOR\
+      \              : This unit covers the knowledge, skills and attitudes\n                                 required to\
+      \ lead in the dissemination and discussion of\n                                 ideas, information and issues in the\
+      \ workplace.\n                                              PERFORMANCE CRITERIA\n          ELEMENT\n              \
+      \                    Italicized terms are elaborated in the Range of Variables\n   1. Communicate              1.1.\
+      \ Appropriate communication method is selected\n      information about        1.2. Multiple operations involving several\
+      \ topics areas\n      workplace                     are communicated accordingly\n      processes\n                \
+      \               1.3. Questions are used to gain extra information\n                               1.4. Correct sources\
+      \ of information are identified\n                               1.5. Information is selected and organized correctly\n\
+      \                               1.6. Verbal and written reporting is undertaken when\n                             \
+      \       required\n                               1.7. Communication skills are maintained in all situations\n   2. Lead\
+      \ workplace           2.1. Response to workplace issues are sought\n      discussions              2.2. Response to\
+      \ workplace issues are provided\n                                    immediately\n                               2.3.\
+      \ Constructive contributions are made to workplace\n                                    discussions on such issues as\
+      \ production, quality\n                                    and safety\n                               2.4. Goals/objectives\
+      \ and action plan undertaken in the\n                                    workplace are communicated\n   3. Identify\
+      \ and             3.1. Issues and problems are identified as they arise\n      communicate              3.2. Information\
+      \ regarding problems and issues are\n      issues arising in the         organized coherently to ensure clear and effective\n\
+      \      workplace                     communication\n                               3.3. Dialogue is initiated with appropriate\
+      \ personnel\n                               3.4. Communication problems and issues are raised as\n                 \
+      \                   they arise\n  RANGE OF VARIABLES\n          VARIABLE                                    RANGE\n\
+      \   1. Methods of               1.1. Non-verbal gestures\n      communication\n                               1.2. Verbal\n\
+      \                               1.3. Face to face\n                               1.4. Two-way radio\n             \
+      \                  1.5. Speaking to groups\n                               1.6. Using telephone\n                  \
+      \             1.7. Written\n                               1.8. Internet\n  EVIDENCE GUIDE\n  1. Critical aspects of\
+      \   Assessment requires evidence that the candidate:\n     Competency            1.1. Dealt with a range of communication/information\
+      \ at\n                                 one time\n                           1.2. Made constructive contributions in\
+      \ workplace\n                                 issues\n                           1.3. Sought workplace issues effectively\n\
+      \                           1.4. Responded to workplace issues promptly\n                           1.5. Presented information\
+      \ clearly and effectively\n                                 written form\n                           1.6. Used appropriate\
+      \ sources of information\n                           1.7. Asked appropriate questions\n                           1.8.\
+      \ Provided accurate information\n  2. Underpinning          2.1.   Organization requirements for written        and\n\
+      \     knowledge                    electronic communication methods\n                           2.2.   Effective verbal\
+      \ communication methods\n  3. Underpinning Skills   3.1.   Organize information\n                           3.2.   Understand\
+      \ and convey intended meaning\n                           3.3.   Participate in variety of workplace discussions\n \
+      \                          3.4.   Comply with organization requirements for the use\n                              \
+      \    of written and electronic communication methods\n  4. Resource              The following resources MUST be provided:\n\
+      \     Implications          4.1. Variety of Information\n                           4.2. Communication tools\n     \
+      \                      4.3. Simulated workplace\n  5. Methods of            Competency may be assessed through:\n  \
+      \   Assessment            5.1. Competency in this unit must be assessed through\n                           5.2. Direct\
+      \ Observation\n                           5.3. Interview\n  6. Context for           6.1.   Competency may be assessed\
+      \ in the workplace or\n     Assessment                   in simulated workplace environment"
+    fidelity_refs:
+    - tesda:unit:500311109:evidence-method-5.1-incomplete
+  - unit_code: '500311110'
+    title: Lead small teams
+    printed_pages: 7-9
+    pdf_pages: 9-11
+    descriptor: This unit covers the knowledge, skills and attitudes to lead small teams including setting and maintaining
+      team and individual performance standards.
+    elements:
+    - number: 1
+      title: Provide team leadership
+      performance_criteria:
+      - number: '1.1'
+        text: Work requirements are identified and presented to team members
+      - number: '1.2'
+        text: Reasons for instructions and requirements are communicated to team members
+      - number: '1.3'
+        text: Team members’ queries and concerns are recognized, discussed and dealt with
+    - number: 2
+      title: Assign responsibilities among members
+      performance_criteria:
+      - number: '2.1'
+        text: Duties, and responsibilities are allocated having regard to the skills, knowledge and aptitude required to properly
+          undertake the assigned task and according to company policy
+      - number: '2.2'
+        text: Duties are allocated having regard to individual preference, domestic and personal considerations, whenever
+          possible
+    - number: 3
+      title: Set performance expectations for team members
+      performance_criteria:
+      - number: '3.1'
+        text: Performance expectations are established based on client needs and according to assignment requirements
+      - number: '3.2'
+        text: Performance expectations are based on individual team members duties and area of responsibility
+      - number: '3.3'
+        text: Performance expectations are discussed and disseminated to individual team members
+    - number: 4
+      title: Supervise team performance
+      performance_criteria:
+      - number: '4.1'
+        text: Monitoring of performance takes place against defined performance criteria and/or assignment instructions and
+          corrective action taken if required
+      - number: '4.2'
+        text: Team members are provided with feedback, positive support and advice on strategies to overcome any deficiencies
+      - number: '4.3'
+        text: Performance issues which cannot be rectified or addressed within the team are referenced to appropriate personnel
+          according to employer policy
+      - number: '4.4'
+        text: Team members are kept informed of any changes in the priority allocated to assignments or tasks which might
+          impact on client/customer needs and satisfaction
+      - number: '4.5'
+        text: Team operations are monitored to ensure that employer/client needs and requirements are met
+      - number: '4.6'
+        text: Follow-up communication is provided on all issues affecting the team
+      - number: '4.7'
+        text: All relevant documentation is completed in accordance with company procedures
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n                                 Italicized terms are elaborated\
+      \ in the Range of Variables\n   1. Provide team        1.1. Work requirements are identified and presented to\n    \
+      \  leadership               team members\n                          1.2. Reasons for instructions and requirements are\n\
+      \                               communicated to team members\n                          1.3. Team members’ queries and\
+      \ concerns are\n                               recognized, discussed and dealt with\n   2. Assign              2.1.\
+      \ Duties, and responsibilities are allocated having regard\n      responsibilities         to the skills, knowledge\
+      \ and aptitude required to\n                               properly undertake the assigned task and according to\n \
+      \                              company policy\n                          2.2. Duties are allocated having regard to\
+      \ individual\n                               preference, domestic and personal considerations,\n                   \
+      \            whenever possible\n   3. Set performance     3.1. Performance expectations are established based on\n \
+      \     expectations for         client needs and according to assignment requirements\n      team members        3.2.\
+      \ Performance expectations are based on individual team\n                               members duties and area of responsibility\n\
+      \                          3.3. Performance expectations are discussed and\n                               disseminated\
+      \ to individual team members\n   4. Supervise team      4.1. Monitoring of performance takes place against\n      performance\
+      \              defined performance criteria and/or assignment\n                               instructions and corrective\
+      \ action taken if required\n                          4.2. Team members are provided with feedback, positive\n     \
+      \                          support and advice on strategies to overcome any\n                               deficiencies\n\
+      \                          4.3. Performance issues which cannot be rectified or\n                               addressed\
+      \ within the team are referenced to appropriate\n                               personnel according to employer policy\n\
+      \                          4.4. Team members are kept informed of any changes in the\n                             \
+      \  priority allocated to assignments or tasks which might\n                               impact on client/customer\
+      \ needs and satisfaction\n                          4.5. Team operations are monitored to ensure that\n            \
+      \                   employer/client needs and requirements are met\n                          4.6. Follow-up communication\
+      \ is provided on all issues\n                               affecting the team\n                          4.7. All relevant\
+      \ documentation is completed in accordance\n                               with company procedures"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n           VARIABLE                                    RANGE\n   1. Work requirements\
+        \        1.1. Client Profile\n                               1.2. Assignment instructions\n   2. Team member’s   \
+        \         2.1. Roster/shift details\n      concerns\n   3. Monitor performance      3.1. Formal process\n        \
+        \                       3.2. Informal process\n   4. Feedback                 4.1. Formal process\n              \
+        \                 4.2. Informal process\n   5. Performance issues       5.1. Work output\n                       \
+        \        5.2. Work quality\n                               5.3. Team participation\n                             \
+        \  5.4. Compliance with workplace protocols\n                               5.5. Safety\n                        \
+        \       5.6. Customer service"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n  1. Critical Aspects   Assessment requires evidence that the candidate:\n     of Competency\
+        \      1.1. Maintained or improved individuals and/or team\n                             performance given a variety\
+        \ of possible scenario\n                        1.2. Assessed and monitored team and individual\n                \
+        \             performance against set criteria\n                        1.3. Represented concerns of a team and individual\
+        \ to next\n                             level of management or appropriate specialist and to\n                   \
+        \          negotiate on their behalf\n                        1.4. Allocated duties and responsibilities, having regard\
+        \ to\n                             individual’s knowledge, skills and aptitude and the needs\n                   \
+        \          of the tasks to be performed\n                        1.5. Set and communicated performance expectations\
+        \ for a\n                             range of tasks and duties within the team and provided\n                   \
+        \          feedback to team members\n  2. Underpinning       2.1.   Company policies and procedures\n     Knowledge\
+        \          2.2.   Relevant legal requirements\n                        2.3.   How performance expectations are set\n\
+        \                        2.4.   Methods of Monitoring Performance\n                        2.5.   Client expectations\n\
+        \                        2.6.   Team member’s duties and responsibilities\n  3. Underpinning       3.1.   Communication\
+        \ skills required for leading teams\n     Skills             3.2.   Informal performance counseling skills\n     \
+        \                   3.3.   Team building skills\n                        3.4.   Negotiating skills\n  4. Resource\
+        \           The following resources MUST be provided:\n     Implications       4.1. Access to relevant workplace or\
+        \ appropriately simulated\n                              environment where assessment can take place\n           \
+        \             4.2. Materials relevant to the proposed activity or task\n  5. Methods of         Competency may be\
+        \ assessed through:\n     Assessment         5.1. Direct observations of work activities of the individual\n     \
+        \                        member in relation to the work activities of the group\n                        5.2. Observation\
+        \ of simulation and/or role play involving the\n                             participation of individual member to\
+        \ the attainment of\n                             organizational goal\n                        5.3. Case studies and\
+        \ scenarios as a basis for discussion of\n                             issues and strategies in teamwork\n  6. Context\
+        \ of         6.1. Competency assessment may occur in workplace or any\n     Assessment              appropriately\
+        \ simulated environment\n                        6.2. Assessment shall be observed while task are being\n        \
+        \                     undertaken whether individually or in-group"
+    source_block: "UNIT OF COMPETENCY: LEAD SMALL TEAMS\n  UNIT CODE               :   500311110\n  UNIT DESCRIPTOR      \
+      \   : This unit covers the knowledge, skills and attitudes to lead\n                            small teams including\
+      \ setting and maintaining team and\n                            individual performance standards.\n        ELEMENT \
+      \                            PERFORMANCE CRITERIA\n                                 Italicized terms are elaborated\
+      \ in the Range of Variables\n   1. Provide team        1.1. Work requirements are identified and presented to\n    \
+      \  leadership               team members\n                          1.2. Reasons for instructions and requirements are\n\
+      \                               communicated to team members\n                          1.3. Team members’ queries and\
+      \ concerns are\n                               recognized, discussed and dealt with\n   2. Assign              2.1.\
+      \ Duties, and responsibilities are allocated having regard\n      responsibilities         to the skills, knowledge\
+      \ and aptitude required to\n                               properly undertake the assigned task and according to\n \
+      \                              company policy\n                          2.2. Duties are allocated having regard to\
+      \ individual\n                               preference, domestic and personal considerations,\n                   \
+      \            whenever possible\n   3. Set performance     3.1. Performance expectations are established based on\n \
+      \     expectations for         client needs and according to assignment requirements\n      team members        3.2.\
+      \ Performance expectations are based on individual team\n                               members duties and area of responsibility\n\
+      \                          3.3. Performance expectations are discussed and\n                               disseminated\
+      \ to individual team members\n   4. Supervise team      4.1. Monitoring of performance takes place against\n      performance\
+      \              defined performance criteria and/or assignment\n                               instructions and corrective\
+      \ action taken if required\n                          4.2. Team members are provided with feedback, positive\n     \
+      \                          support and advice on strategies to overcome any\n                               deficiencies\n\
+      \                          4.3. Performance issues which cannot be rectified or\n                               addressed\
+      \ within the team are referenced to appropriate\n                               personnel according to employer policy\n\
+      \                          4.4. Team members are kept informed of any changes in the\n                             \
+      \  priority allocated to assignments or tasks which might\n                               impact on client/customer\
+      \ needs and satisfaction\n                          4.5. Team operations are monitored to ensure that\n            \
+      \                   employer/client needs and requirements are met\n                          4.6. Follow-up communication\
+      \ is provided on all issues\n                               affecting the team\n                          4.7. All relevant\
+      \ documentation is completed in accordance\n                               with company procedures\n     RANGE OF VARIABLES\n\
+      \           VARIABLE                                    RANGE\n   1. Work requirements        1.1. Client Profile\n\
+      \                               1.2. Assignment instructions\n   2. Team member’s            2.1. Roster/shift details\n\
+      \      concerns\n   3. Monitor performance      3.1. Formal process\n                               3.2. Informal process\n\
+      \   4. Feedback                 4.1. Formal process\n                               4.2. Informal process\n   5. Performance\
+      \ issues       5.1. Work output\n                               5.2. Work quality\n                               5.3.\
+      \ Team participation\n                               5.4. Compliance with workplace protocols\n                    \
+      \           5.5. Safety\n                               5.6. Customer service\n  EVIDENCE GUIDE\n  1. Critical Aspects\
+      \   Assessment requires evidence that the candidate:\n     of Competency      1.1. Maintained or improved individuals\
+      \ and/or team\n                             performance given a variety of possible scenario\n                     \
+      \   1.2. Assessed and monitored team and individual\n                             performance against set criteria\n\
+      \                        1.3. Represented concerns of a team and individual to next\n                             level\
+      \ of management or appropriate specialist and to\n                             negotiate on their behalf\n         \
+      \               1.4. Allocated duties and responsibilities, having regard to\n                             individual’s\
+      \ knowledge, skills and aptitude and the needs\n                             of the tasks to be performed\n        \
+      \                1.5. Set and communicated performance expectations for a\n                             range of tasks\
+      \ and duties within the team and provided\n                             feedback to team members\n  2. Underpinning\
+      \       2.1.   Company policies and procedures\n     Knowledge          2.2.   Relevant legal requirements\n       \
+      \                 2.3.   How performance expectations are set\n                        2.4.   Methods of Monitoring\
+      \ Performance\n                        2.5.   Client expectations\n                        2.6.   Team member’s duties\
+      \ and responsibilities\n  3. Underpinning       3.1.   Communication skills required for leading teams\n     Skills\
+      \             3.2.   Informal performance counseling skills\n                        3.3.   Team building skills\n \
+      \                       3.4.   Negotiating skills\n  4. Resource           The following resources MUST be provided:\n\
+      \     Implications       4.1. Access to relevant workplace or appropriately simulated\n                            \
+      \  environment where assessment can take place\n                        4.2. Materials relevant to the proposed activity\
+      \ or task\n  5. Methods of         Competency may be assessed through:\n     Assessment         5.1. Direct observations\
+      \ of work activities of the individual\n                             member in relation to the work activities of the\
+      \ group\n                        5.2. Observation of simulation and/or role play involving the\n                   \
+      \          participation of individual member to the attainment of\n                             organizational goal\n\
+      \                        5.3. Case studies and scenarios as a basis for discussion of\n                            \
+      \ issues and strategies in teamwork\n  6. Context of         6.1. Competency assessment may occur in workplace or any\n\
+      \     Assessment              appropriately simulated environment\n                        6.2. Assessment shall be\
+      \ observed while task are being\n                             undertaken whether individually or in-group"
+  - unit_code: '500311111'
+    title: Develop and practice negotiation skills
+    printed_pages: 10-12
+    pdf_pages: 12-14
+    descriptor: This unit covers the skills, knowledge and attitudes required to collect information in order to negotiate
+      to a desired outcome and participate in the negotiation.
+    elements:
+    - number: 1
+      title: Plan negotiations
+      performance_criteria:
+      - number: '1.1'
+        text: Information on preparing for negotiation is identified and included in the plan
+      - number: '1.2'
+        text: Information on creating non verbal environments for positive negotiating is identified and included in the plan
+      - number: '1.3'
+        text: Information on active listening is identified and included in the plan
+      - number: '1.4'
+        text: Information on different questioning techniques is identified and included in the plan
+      - number: '1.5'
+        text: Information is checked to ensure it is correct and up- to- date
+    - number: 2
+      title: Participate in negotiations
+      performance_criteria:
+      - number: '2.1'
+        text: Criteria for successful outcome are agreed upon by all parties
+      - number: '2.2'
+        text: Desired outcome of all parties are considered
+      - number: '2.3'
+        text: Appropriate language is used throughout the negotiation
+      - number: '2.4'
+        text: A variety of questioning techniques are used
+      - number: '2.5'
+        text: The issues and processes are documented and agreed upon by all parties
+      - number: '2.6'
+        text: Possible solutions are discussed and their viability assessed
+      - number: '2.7'
+        text: Areas for agreement are confirmed and recorded
+      - number: '2.8'
+        text: Follow-up action is agreed upon by all parties
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n         ELEMENT                 Italicized terms are elaborated\
+      \ in the Range of Variables\n    1. Plan negotiations   1.1    Information on preparing for negotiation is\n       \
+      \                           identified and included in the plan\n                           1.2    Information on creating\
+      \ non verbal environments\n                                  for positive negotiating is identified and included in\n\
+      \                                  the plan\n                           1.3    Information on active listening is identified\
+      \ and\n                                  included in the plan\n                           1.4    Information on different\
+      \ questioning techniques is\n                                  identified and included in the plan\n               \
+      \            1.5    Information is checked to ensure it is correct and up-\n                                  to- date\n\
+      \    2. Participate in      2.1    Criteria for successful outcome are agreed upon by\n       negotiations         \
+      \      all parties\n                           2.2    Desired outcome of all parties are considered\n              \
+      \             2.3    Appropriate language is used throughout the\n                                  negotiation\n  \
+      \                         2.4    A variety of questioning techniques are used\n                           2.5    The\
+      \ issues and processes are documented and\n                                  agreed upon by all parties\n          \
+      \                 2.6    Possible solutions are discussed and their viability\n                                  assessed\n\
+      \                           2.7    Areas for agreement are confirmed and recorded\n                           2.8  \
+      \  Follow-up action is agreed upon by all parties"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n           VARIABLE                                  RANGE\n    1. Preparing for    \
+        \       1.1   Background information on other parties to the\n       negotiation                   negotiation\n \
+        \                              1.2   Good understanding of topic to be negotiated\n                              \
+        \ 1.3   Clear understanding of desired outcome/s\n                               1.4   Personal attributes\n     \
+        \                                1.4.1 self awareness\n                                     1.4.2 self esteem\n  \
+        \                                   1.4.3 objectivity\n                                     1.4.4 empathy\n      \
+        \                               1.4.5 respect for others\n                               1.5   Interpersonal skills\n\
+        \                                     1.5.1 listening/reflecting\n                                     1.5.2 non verbal\
+        \ communication\n                                     1.5.3 assertiveness\n                                     1.5.4\
+        \ behavior labeling\n                                     1.5.5 testing understanding\n                          \
+        \           1.5.6 seeking information\n                                     1.5.7 self disclosing\n              \
+        \                 1.6   Analytic skills\n                                     1.6.1 observing differences between\
+        \ content\n                                            and process\n                                     1.6.2 identifying\
+        \ bargaining information\n                                     1.6.3 applying strategies to manage process\n     \
+        \                                1.6.4 applying steps in negotiating process\n                                   \
+        \  1.6.5 strategies to manage conflict\n                                     1.6.6 steps in negotiating process\n\
+        \                                     1.6.7 options within organization and\n                                    \
+        \        externally for resolving conflict\n    2. Non-verbal              2.1   Friendly reception\n       environments\
+        \            2.2   Warm and welcoming room\n                               2.3   Refreshments offered\n          \
+        \                     2.4   Lead in conversation before negotiation begins\n    3. Active listening        3.1   Attentive\n\
+        \                               3.2   Don’t interrupt\n                               3.3   Good posture\n       \
+        \                        3.4   Maintain eye contact\n                               3.5   Reflective listening\n \
+        \   4. Questioning             4.1   Direct\n       techniques              4.2   Indirect\n                     \
+        \          4.3   Open-ended"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n    1. Critical Aspects of   Assessment requires evidence that the candidate:\n       Competency\
+        \            1.1 Demonstrated sufficient knowledge of the factors\n                                 influencing negotiation\
+        \ to achieve agreed outcome\n                             1.2 Participated in negotiation with at least one person\n\
+        \                                 to achieve an agreed outcome\n    2. Underpinning          2.1 Codes of practice\
+        \ and guidelines for the\n       Knowledge and             organization\n       Attitude              2.2 Organizations\
+        \ policy and procedures for\n                                 negotiations\n                             2.3 Decision\
+        \ making and conflict resolution strategies\n                                 procedures\n                       \
+        \      2.4 Problem solving strategies on how to deal with\n                                 unexpected questions and\
+        \ attitudes during\n                                 negotiation\n                             2.5 Flexibility\n \
+        \                            2.6 Empathy\n    3. Underpinning Skills   3.1 Interpersonal skills to develop rapport\
+        \ with other\n                                 parties\n                             3.2 Communication skills (verbal\
+        \ and listening)\n                             3.3 Observation skills\n                             3.1 Negotiation\
+        \ skills\n    4. Resource              The following resources MUST be provided:\n       Implications          4.1\
+        \ Room with facilities necessary for the negotiation\n                                  process\n                \
+        \             4.2 Human resources (negotiators)\n    5. Methods of            Competency may be assessed through:\n\
+        \       Assessment            5.1 Observation/demonstration and questioning\n                             5.2 Portfolio\
+        \ assessment\n                             5.3 Oral and written questioning\n                             5.4 Third\
+        \ party report\n    6. Context for           6.1 Competency to be assessed in real work\n       Assessment       \
+        \         environment or in a simulated workplace setting."
+    source_block: "UNIT OF COMPETENCY: DEVELOP AND PRACTICE NEGOTIATION SKILLS\n   UNIT CODE               :      500311111\n\
+      \   UNIT DESCRIPTOR          :    This unit covers the skills, knowledge and attitudes\n                           \
+      \      required to collect information in order to negotiate to a\n                                 desired outcome\
+      \ and participate in the negotiation.\n                                            PERFORMANCE CRITERIA\n         ELEMENT\
+      \                 Italicized terms are elaborated in the Range of Variables\n    1. Plan negotiations   1.1    Information\
+      \ on preparing for negotiation is\n                                  identified and included in the plan\n         \
+      \                  1.2    Information on creating non verbal environments\n                                  for positive\
+      \ negotiating is identified and included in\n                                  the plan\n                          \
+      \ 1.3    Information on active listening is identified and\n                                  included in the plan\n\
+      \                           1.4    Information on different questioning techniques is\n                            \
+      \      identified and included in the plan\n                           1.5    Information is checked to ensure it is\
+      \ correct and up-\n                                  to- date\n    2. Participate in      2.1    Criteria for successful\
+      \ outcome are agreed upon by\n       negotiations               all parties\n                           2.2    Desired\
+      \ outcome of all parties are considered\n                           2.3    Appropriate language is used throughout the\n\
+      \                                  negotiation\n                           2.4    A variety of questioning techniques\
+      \ are used\n                           2.5    The issues and processes are documented and\n                        \
+      \          agreed upon by all parties\n                           2.6    Possible solutions are discussed and their\
+      \ viability\n                                  assessed\n                           2.7    Areas for agreement are confirmed\
+      \ and recorded\n                           2.8    Follow-up action is agreed upon by all parties\n   RANGE OF VARIABLES\n\
+      \           VARIABLE                                  RANGE\n    1. Preparing for           1.1   Background information\
+      \ on other parties to the\n       negotiation                   negotiation\n                               1.2   Good\
+      \ understanding of topic to be negotiated\n                               1.3   Clear understanding of desired outcome/s\n\
+      \                               1.4   Personal attributes\n                                     1.4.1 self awareness\n\
+      \                                     1.4.2 self esteem\n                                     1.4.3 objectivity\n  \
+      \                                   1.4.4 empathy\n                                     1.4.5 respect for others\n \
+      \                              1.5   Interpersonal skills\n                                     1.5.1 listening/reflecting\n\
+      \                                     1.5.2 non verbal communication\n                                     1.5.3 assertiveness\n\
+      \                                     1.5.4 behavior labeling\n                                     1.5.5 testing understanding\n\
+      \                                     1.5.6 seeking information\n                                     1.5.7 self disclosing\n\
+      \                               1.6   Analytic skills\n                                     1.6.1 observing differences\
+      \ between content\n                                            and process\n                                     1.6.2\
+      \ identifying bargaining information\n                                     1.6.3 applying strategies to manage process\n\
+      \                                     1.6.4 applying steps in negotiating process\n                                \
+      \     1.6.5 strategies to manage conflict\n                                     1.6.6 steps in negotiating process\n\
+      \                                     1.6.7 options within organization and\n                                      \
+      \      externally for resolving conflict\n    2. Non-verbal              2.1   Friendly reception\n       environments\
+      \            2.2   Warm and welcoming room\n                               2.3   Refreshments offered\n            \
+      \                   2.4   Lead in conversation before negotiation begins\n    3. Active listening        3.1   Attentive\n\
+      \                               3.2   Don’t interrupt\n                               3.3   Good posture\n         \
+      \                      3.4   Maintain eye contact\n                               3.5   Reflective listening\n    4.\
+      \ Questioning             4.1   Direct\n       techniques              4.2   Indirect\n                            \
+      \   4.3   Open-ended\n    EVIDENCE GUIDE\n    1. Critical Aspects of   Assessment requires evidence that the candidate:\n\
+      \       Competency            1.1 Demonstrated sufficient knowledge of the factors\n                               \
+      \  influencing negotiation to achieve agreed outcome\n                             1.2 Participated in negotiation with\
+      \ at least one person\n                                 to achieve an agreed outcome\n    2. Underpinning          2.1\
+      \ Codes of practice and guidelines for the\n       Knowledge and             organization\n       Attitude         \
+      \     2.2 Organizations policy and procedures for\n                                 negotiations\n                 \
+      \            2.3 Decision making and conflict resolution strategies\n                                 procedures\n \
+      \                            2.4 Problem solving strategies on how to deal with\n                                 unexpected\
+      \ questions and attitudes during\n                                 negotiation\n                             2.5 Flexibility\n\
+      \                             2.6 Empathy\n    3. Underpinning Skills   3.1 Interpersonal skills to develop rapport\
+      \ with other\n                                 parties\n                             3.2 Communication skills (verbal\
+      \ and listening)\n                             3.3 Observation skills\n                             3.1 Negotiation\
+      \ skills\n    4. Resource              The following resources MUST be provided:\n       Implications          4.1 Room\
+      \ with facilities necessary for the negotiation\n                                  process\n                       \
+      \      4.2 Human resources (negotiators)\n    5. Methods of            Competency may be assessed through:\n       Assessment\
+      \            5.1 Observation/demonstration and questioning\n                             5.2 Portfolio assessment\n\
+      \                             5.3 Oral and written questioning\n                             5.4 Third party report\n\
+      \    6. Context for           6.1 Competency to be assessed in real work\n       Assessment                environment\
+      \ or in a simulated workplace setting."
+    fidelity_refs:
+    - tesda:unit:500311111:evidence-numbering
+  - unit_code: '500311112'
+    title: Solve problems related to work activities
+    printed_pages: 13-16
+    pdf_pages: 15-18
+    descriptor: This unit of covers the knowledge, skills and attitudes required to solve problems in the workplace including
+      the application of problem solving techniques and to determine and resolve the root cause of problems.
+    elements:
+    - number: 1
+      title: Identify the problem
+      performance_criteria:
+      - number: '1.1'
+        text: Variances are identified from normal operating parameters; and product quality
+      - number: '1.2'
+        text: Extent, cause and nature are of the problem are defined through observation, investigation and analytical techniques
+      - number: '1.3'
+        text: Problems are clearly stated and specified
+    - number: 2
+      title: Determine fundamental causes of the problem
+      performance_criteria:
+      - number: '2.1'
+        text: Possible causes are identified based on experience and the use of problem solving tools / analytical techniques.
+      - number: '2.2'
+        text: Possible cause statements are developed based on findings
+      - number: '2.3'
+        text: Fundamental causes are identified per results of investigation conducted
+    - number: 3
+      title: Determine corrective action
+      performance_criteria:
+      - number: '3.1'
+        text: All possible options are considered for resolution of the problem
+      - number: '3.2'
+        text: Strengths and weaknesses of possible options are considered
+      - number: '3.3'
+        text: Corrective actions are determined to resolve the problem and possible future causes
+      - number: '3.4'
+        text: Action plans are developed identifying measurable objectives, resource needs and timelines in accordance with
+          safety and operating procedures
+    - number: 4
+      title: Provide recommendations to manager
+      performance_criteria:
+      - number: '4.1'
+        text: Report on recommendations are prepared
+      - number: '4.2'
+        text: Recommendations are presented to appropriate personnel.
+      - number: '4.3'
+        text: Recommendations are followed-up, if required
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n                                       Italicized terms are\
+      \ elaborated in the Range of Variables\n    1.   Identify the problem       1.1.   Variances are identified from normal\
+      \ operating\n                                           parameters; and product quality\n                          \
+      \          1.2.   Extent, cause and nature are of the problem\n                                           are defined\
+      \ through observation, investigation\n                                           and analytical techniques\n       \
+      \                             1.3.   Problems are clearly stated and specified\n    2.   Determine                 \
+      \ 2.1.   Possible causes are identified based on\n         fundamental causes                experience and the use\
+      \ of problem solving\n         of the problem                    tools / analytical techniques.\n                  \
+      \                  2.2.   Possible cause statements are developed\n                                           based\
+      \ on findings\n                                    2.3.   Fundamental causes are identified per results\n          \
+      \                                 of investigation conducted\n    3.   Determine corrective       3.1.   All possible\
+      \ options are considered for\n         action                            resolution of the problem\n               \
+      \                     3.2.   Strengths and weaknesses of possible options\n                                        \
+      \   are considered\n                                    3.3.   Corrective actions are determined to resolve\n      \
+      \                                     the problem and possible future causes\n                                    3.4.\
+      \   Action plans are developed identifying\n                                           measurable objectives, resource\
+      \ needs and\n                                           timelines in accordance with safety and\n                  \
+      \                         operating procedures\n    4.   Provide                    4.1.   Report on recommendations\
+      \ are prepared\n         recommendation/s to        4.2.   Recommendations are presented to\n         manager      \
+      \                     appropriate personnel.\n                                    4.3.   Recommendations are followed-up,\
+      \ if required"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n           VARIABLE                                    RANGE\n   1. Analytical techniques\
+        \     1.1.   Brainstorming\n                                1.2.   Intuitions/Logic\n                            \
+        \    1.3.   Cause and effect diagrams\n                                1.4.   Pareto analysis\n                  \
+        \              1.5.   SWOT analysis\n                                1.6.   Gant chart, Pert CPM and graphs\n    \
+        \                            1.7.   Scatter grams\n   2. Problem                   2.1.   Non – routine process and\
+        \ quality problems\n                                2.2.   Equipment selection, availability and failure\n       \
+        \                         2.3.   Teamwork and work allocation problem\n                                2.4.   Safety\
+        \ and emergency situations and\n                                       incidents\n   3. Action plans             \
+        \ 3.1.   Priority requirements\n                                3.2.   Measurable objectives\n                   \
+        \             3.3.   Resource requirements\n                                3.4.   Timelines\n                   \
+        \             3.5.   Co-ordination and feedback requirements\n                                3.6.   Safety requirements\n\
+        \                                3.7.   Risk assessment\n                                3.8.   Environmental requirements"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n  1. Critical Aspects of   Assessment requires evidence that the candidate:\n     Competency\n\
+        \                           1.1. Identified the problem\n                           1.2. Determined the fundamental\
+        \ causes of the problem\n                           1.3. Determined the correct / preventive action\n            \
+        \               1.4. Provided recommendation to manager\n                           These aspects may be best assessed\
+        \ using a range of\n                           scenarios / case studies / what ifs as a stimulus with a\n        \
+        \                   walk through forming part of the response. These\n                           assessment activities\
+        \ should include a range of problems,\n                           including new, unusual and improbable situations\
+        \ that may\n                           have happened.\n   2. Underpinning         2.1.   Competence includes a thorough\
+        \ knowledge and\n      Knowledge                   understanding of the process, normal operating\n              \
+        \                    parameters, and product quality to recognize non-\n                                  standard\
+        \ situations\n                           2.2.   Competence to include the ability to apply and\n                 \
+        \                 explain, sufficient for the identification of\n                                  fundamental cause,\
+        \ determining the corrective\n                                  action and provision of recommendations\n        \
+        \                          2.2.1.Relevant equipment and operational\n                                        processes\n\
+        \                                  2.2.2.Enterprise goals, targets and measures\n                                \
+        \  2.2.3.Enterprise quality, OHS and environmental\n                                        requirement\n        \
+        \                          2.2.4.Principles of decision making strategies and\n                                  \
+        \      techniques\n                                  2.2.5.Enterprise information systems and data\n             \
+        \                           collation\n                                  2.2.6.Industry codes and standards\n   3.\
+        \ Underpinning         3.1.   Using range of formal problem solving techniques\n      Skills               3.2.  \
+        \ Identifying and clarifying the nature of the problem\n                           3.3.   Devising the best solution\n\
+        \                           3.4.   Evaluating the solution\n                           3.5.   Implementation of a\
+        \ developed plan to rectify the\n                                  problem\n   4. Resource             4.1.   Assessment\
+        \ will require access to an operating\n      Implications                plant over an extended period of time, or\
+        \ a suitable\n                                  method of gathering evidence of operating ability\n              \
+        \                    over a range of situations. A bank of scenarios /\n                                  case studies\
+        \ / what ifs will be required as well as\n                                  bank of questions which will be used to\
+        \ probe the\n                                  reason behind the observable action.\n   5. Methods of           Competency\
+        \ may be assessed through:\n      Assessment\n                           5.1. Case studies on solving problems in\
+        \ the workplace\n                           5.2. Observation\n                           The unit will be assessed\
+        \ in a holistic manner as is\n                           practical and may be integrated with the assessment of\n\
+        \                           other relevant units of competency. Assessment will occur\n                          \
+        \ over a range of situations, which will include disruptions to\n                           normal, smooth operation.\
+        \ Simulation may be required to\n                           allow for timely assessment of parts of this unit of\n\
+        \                           competency. Simulation should be based on the actual\n                           workplace\
+        \ and will include walk through of the relevant\n                           competency components.\n   6. Context\
+        \ of           6.1.   In all workplace, it may be appropriate to assess\n      Assessment                  this unit\
+        \ concurrently with relevant teamwork or\n                                  operation units."
+    source_block: "UNIT OF COMPETENCY:              SOLVE PROBLEMS RELATED TO WORK\n                                    ACTIVITIES\n\
+      \   UNIT CODE                    :   500311112\n   UNIT DESCRIPTOR              :   This unit of covers the knowledge,\
+      \ skills and attitudes\n                                    required to solve problems in the workplace including\n\
+      \                                    the application of problem solving techniques and to\n                        \
+      \            determine and resolve the root cause of problems.\n            ELEMENT                               PERFORMANCE\
+      \ CRITERIA\n                                       Italicized terms are elaborated in the Range of Variables\n    1.\
+      \   Identify the problem       1.1.   Variances are identified from normal operating\n                             \
+      \              parameters; and product quality\n                                    1.2.   Extent, cause and nature\
+      \ are of the problem\n                                           are defined through observation, investigation\n  \
+      \                                         and analytical techniques\n                                    1.3.   Problems\
+      \ are clearly stated and specified\n    2.   Determine                  2.1.   Possible causes are identified based\
+      \ on\n         fundamental causes                experience and the use of problem solving\n         of the problem\
+      \                    tools / analytical techniques.\n                                    2.2.   Possible cause statements\
+      \ are developed\n                                           based on findings\n                                    2.3.\
+      \   Fundamental causes are identified per results\n                                           of investigation conducted\n\
+      \    3.   Determine corrective       3.1.   All possible options are considered for\n         action               \
+      \             resolution of the problem\n                                    3.2.   Strengths and weaknesses of possible\
+      \ options\n                                           are considered\n                                    3.3.   Corrective\
+      \ actions are determined to resolve\n                                           the problem and possible future causes\n\
+      \                                    3.4.   Action plans are developed identifying\n                               \
+      \            measurable objectives, resource needs and\n                                           timelines in accordance\
+      \ with safety and\n                                           operating procedures\n    4.   Provide               \
+      \     4.1.   Report on recommendations are prepared\n         recommendation/s to        4.2.   Recommendations are\
+      \ presented to\n         manager                           appropriate personnel.\n                                \
+      \    4.3.   Recommendations are followed-up, if required\n  RANGE OF VARIABLES\n           VARIABLE                \
+      \                    RANGE\n   1. Analytical techniques     1.1.   Brainstorming\n                                1.2.\
+      \   Intuitions/Logic\n                                1.3.   Cause and effect diagrams\n                           \
+      \     1.4.   Pareto analysis\n                                1.5.   SWOT analysis\n                               \
+      \ 1.6.   Gant chart, Pert CPM and graphs\n                                1.7.   Scatter grams\n   2. Problem      \
+      \             2.1.   Non – routine process and quality problems\n                                2.2.   Equipment selection,\
+      \ availability and failure\n                                2.3.   Teamwork and work allocation problem\n          \
+      \                      2.4.   Safety and emergency situations and\n                                       incidents\n\
+      \   3. Action plans              3.1.   Priority requirements\n                                3.2.   Measurable objectives\n\
+      \                                3.3.   Resource requirements\n                                3.4.   Timelines\n  \
+      \                              3.5.   Co-ordination and feedback requirements\n                                3.6.\
+      \   Safety requirements\n                                3.7.   Risk assessment\n                                3.8.\
+      \   Environmental requirements\n  EVIDENCE GUIDE\n  1. Critical Aspects of   Assessment requires evidence that the candidate:\n\
+      \     Competency\n                           1.1. Identified the problem\n                           1.2. Determined\
+      \ the fundamental causes of the problem\n                           1.3. Determined the correct / preventive action\n\
+      \                           1.4. Provided recommendation to manager\n                           These aspects may be\
+      \ best assessed using a range of\n                           scenarios / case studies / what ifs as a stimulus with\
+      \ a\n                           walk through forming part of the response. These\n                           assessment\
+      \ activities should include a range of problems,\n                           including new, unusual and improbable situations\
+      \ that may\n                           have happened.\n   2. Underpinning         2.1.   Competence includes a thorough\
+      \ knowledge and\n      Knowledge                   understanding of the process, normal operating\n                \
+      \                  parameters, and product quality to recognize non-\n                                  standard situations\n\
+      \                           2.2.   Competence to include the ability to apply and\n                                \
+      \  explain, sufficient for the identification of\n                                  fundamental cause, determining the\
+      \ corrective\n                                  action and provision of recommendations\n                          \
+      \        2.2.1.Relevant equipment and operational\n                                        processes\n             \
+      \                     2.2.2.Enterprise goals, targets and measures\n                                  2.2.3.Enterprise\
+      \ quality, OHS and environmental\n                                        requirement\n                            \
+      \      2.2.4.Principles of decision making strategies and\n                                        techniques\n    \
+      \                              2.2.5.Enterprise information systems and data\n                                     \
+      \   collation\n                                  2.2.6.Industry codes and standards\n   3. Underpinning         3.1.\
+      \   Using range of formal problem solving techniques\n      Skills               3.2.   Identifying and clarifying the\
+      \ nature of the problem\n                           3.3.   Devising the best solution\n                           3.4.\
+      \   Evaluating the solution\n                           3.5.   Implementation of a developed plan to rectify the\n \
+      \                                 problem\n   4. Resource             4.1.   Assessment will require access to an operating\n\
+      \      Implications                plant over an extended period of time, or a suitable\n                          \
+      \        method of gathering evidence of operating ability\n                                  over a range of situations.\
+      \ A bank of scenarios /\n                                  case studies / what ifs will be required as well as\n   \
+      \                               bank of questions which will be used to probe the\n                                \
+      \  reason behind the observable action.\n   5. Methods of           Competency may be assessed through:\n      Assessment\n\
+      \                           5.1. Case studies on solving problems in the workplace\n                           5.2.\
+      \ Observation\n                           The unit will be assessed in a holistic manner as is\n                   \
+      \        practical and may be integrated with the assessment of\n                           other relevant units of\
+      \ competency. Assessment will occur\n                           over a range of situations, which will include disruptions\
+      \ to\n                           normal, smooth operation. Simulation may be required to\n                         \
+      \  allow for timely assessment of parts of this unit of\n                           competency. Simulation should be\
+      \ based on the actual\n                           workplace and will include walk through of the relevant\n        \
+      \                   competency components.\n   6. Context of           6.1.   In all workplace, it may be appropriate\
+      \ to assess\n      Assessment                  this unit concurrently with relevant teamwork or\n                  \
+      \                operation units."
+    fidelity_refs:
+    - tesda:unit:500311112:evidence-guide
+  - unit_code: '500311113'
+    title: Use mathematical concepts and techniques
+    printed_pages: 17-19
+    pdf_pages: 19-21
+    descriptor: This unit covers the knowledge, skills and attitudes required in the application of mathematical concepts
+      and techniques.
+    elements:
+    - number: 1
+      title: Identify mathematical tools and techniques to solve problem
+      performance_criteria:
+      - number: '1.1'
+        text: Problem areas are identified based on given condition
+      - number: '1.2'
+        text: Mathematical techniques are selected based on the given problem
+    - number: 2
+      title: Apply mathematical procedure/solution
+      performance_criteria:
+      - number: '2.1'
+        text: Mathematical techniques are applied based on the problem identified
+      - number: '2.2'
+        text: Mathematical computations are performed to the level of accuracy required for the problem
+      - number: '2.3'
+        text: Results of mathematical computation is determined and verified based on job requirements
+    - number: 3
+      title: Analyze results
+      performance_criteria:
+      - number: '3.1'
+        text: Result of application is reviewed based on expected and required specifications and outcome
+      - number: '3.2'
+        text: Appropriate action is applied in case of error
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n            ELEMENT                  Italicized terms are elaborated\
+      \ in the Range of Variables\n    1. Identify mathematical      1.1 Problem areas are identified based on given\n   \
+      \    tools and techniques to       condition\n       solve problem              1.2 Mathematical techniques are selected\
+      \ based\n                                     on the given problem\n    2. Apply mathematical         2.1 Mathematical\
+      \ techniques are applied based on\n       procedure/solution             the problem identified\n                  \
+      \                2.2 Mathematical computations are performed to the\n                                      level of\
+      \ accuracy required for the problem\n                                  2.3 Results of mathematical computation is\n\
+      \                                      determined and verified based on job\n                                      requirements\n\
+      \    3. Analyze results            3.1 Result of application is reviewed based on\n                                \
+      \      expected and required specifications and\n                                      outcome\n                   \
+      \               3.2 Appropriate action is applied in case of error"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n             VARIABLE                                 RANGE\n     1. Mathematical   \
+        \           May include but are not limited to:\n        techniques                1.1 Four fundamental operations\n\
+        \                                  1.2 Measurements\n                                  1.3 Use/Conversion of units\
+        \ of measurements\n                                  1.4 Use of standard formulas\n     2. Appropriate action    \
+        \    2.1 Review in the use of mathematical\n                                      techniques (e.g. recalculation,\
+        \ re-modeling)\n                                  2.2 Report error to immediate superior for proper\n            \
+        \                          action"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n   1. Critical Aspects of   Assessment requires evidence that the candidate:\n      Competency\
+        \            1.1 Identified, applied and reviewed the use of\n                                mathematical concepts\
+        \ and techniques to workplace\n                                problems\n   2. Underpinning          2.1 Fundamental\
+        \ operation (addition, subtraction,\n      Knowledge                 division, multiplication)\n                 \
+        \           2.2 Measurement system\n                            2.3 Precision and accuracy\n                     \
+        \       2.4 Basic measuring tools/devices\n   3. Underpinning Skills   3.1 Applying mathematical computations\n  \
+        \                          3.2 Using calculator\n                            3.3 Using different measuring tools\n\
+        \   4. Resource              The following resources MUST be provided:\n      Implications          4.1 Calculator\n\
+        \                            4.2 Basic measuring tools\n                            4.3 Case Problems\n   5. Methods\
+        \ of            Competency may be assessed through:\n      Assessment            5.1 Authenticated portfolio\n   \
+        \                         5.2 Written Test\n                            5.3 Interview/Oral Questioning\n         \
+        \                   5.4 Demonstration\n   6. Context of            6.1 Competency may be assessed in the work place\
+        \ or\n      Assessment                in a simulated work place setting"
+    source_block: "UNIT OF COMPETENCY:           USE MATHEMATICAL CONCEPTS AND\n                                 TECHNIQUES\n\
+      \   UNIT CODE                :     500311113\n   UNIT DESCRIPTOR          :    This unit covers the knowledge, skills\
+      \ and attitudes\n                                 required in the application of mathematical concepts\n           \
+      \                      and techniques.\n                                                PERFORMANCE CRITERIA\n     \
+      \       ELEMENT                  Italicized terms are elaborated in the Range of Variables\n    1. Identify mathematical\
+      \      1.1 Problem areas are identified based on given\n       tools and techniques to       condition\n       solve\
+      \ problem              1.2 Mathematical techniques are selected based\n                                     on the given\
+      \ problem\n    2. Apply mathematical         2.1 Mathematical techniques are applied based on\n       procedure/solution\
+      \             the problem identified\n                                  2.2 Mathematical computations are performed\
+      \ to the\n                                      level of accuracy required for the problem\n                       \
+      \           2.3 Results of mathematical computation is\n                                      determined and verified\
+      \ based on job\n                                      requirements\n    3. Analyze results            3.1 Result of\
+      \ application is reviewed based on\n                                      expected and required specifications and\n\
+      \                                      outcome\n                                  3.2 Appropriate action is applied\
+      \ in case of error\n     RANGE OF VARIABLES\n             VARIABLE                                 RANGE\n     1. Mathematical\
+      \              May include but are not limited to:\n        techniques                1.1 Four fundamental operations\n\
+      \                                  1.2 Measurements\n                                  1.3 Use/Conversion of units of\
+      \ measurements\n                                  1.4 Use of standard formulas\n     2. Appropriate action        2.1\
+      \ Review in the use of mathematical\n                                      techniques (e.g. recalculation, re-modeling)\n\
+      \                                  2.2 Report error to immediate superior for proper\n                             \
+      \         action\n  EVIDENCE GUIDE\n   1. Critical Aspects of   Assessment requires evidence that the candidate:\n \
+      \     Competency            1.1 Identified, applied and reviewed the use of\n                                mathematical\
+      \ concepts and techniques to workplace\n                                problems\n   2. Underpinning          2.1 Fundamental\
+      \ operation (addition, subtraction,\n      Knowledge                 division, multiplication)\n                   \
+      \         2.2 Measurement system\n                            2.3 Precision and accuracy\n                         \
+      \   2.4 Basic measuring tools/devices\n   3. Underpinning Skills   3.1 Applying mathematical computations\n        \
+      \                    3.2 Using calculator\n                            3.3 Using different measuring tools\n   4. Resource\
+      \              The following resources MUST be provided:\n      Implications          4.1 Calculator\n             \
+      \               4.2 Basic measuring tools\n                            4.3 Case Problems\n   5. Methods of         \
+      \   Competency may be assessed through:\n      Assessment            5.1 Authenticated portfolio\n                 \
+      \           5.2 Written Test\n                            5.3 Interview/Oral Questioning\n                         \
+      \   5.4 Demonstration\n   6. Context of            6.1 Competency may be assessed in the work place or\n      Assessment\
+      \                in a simulated work place setting"
+  - unit_code: '500311114'
+    title: Use relevant technologies
+    printed_pages: 20-22
+    pdf_pages: 22-24
+    descriptor: This unit of competency covers the knowledge, skills, and attitude required in selecting, sourcing and applying
+      appropriate and affordable technologies in the workplace.
+    elements:
+    - number: 1
+      title: Study/select appropriate technology
+      performance_criteria:
+      - number: '1.1'
+        text: Usage of different technologies is determined based on job requirements
+      - number: '1.2'
+        text: Appropriate technology is selected as per work specification
+    - number: 2
+      title: Apply relevant technology
+      performance_criteria:
+      - number: '2.1'
+        text: Relevant technology is effectively used in carrying out function
+      - number: '2.2'
+        text: Applicable software and hardware are used as per task requirement
+      - number: '2.3'
+        text: Management concepts are observed and practiced as per established industry practices
+    - number: 3
+      title: Maintain/enhance relevant technology
+      performance_criteria:
+      - number: '3.1'
+        text: Maintenance of technology is applied in accordance with the industry standard operating procedure, manufacturer’s
+          operating guidelines and occupational health and safety procedure to ensure its operative ability
+      - number: '3.2'
+        text: Updating of technology is maintained through continuing education or training in accordance with job requirement
+      - number: '3.3'
+        text: Technology failure/ defect is immediately reported to the concern/responsible person or section for appropriate
+          action
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n       ELEMENT               Italicized terms are elaborated\
+      \ in the Range of Variables\n1. Study/select              1.1 Usage of different technologies is determined based on\n\
+      \   appropriate                   job requirements\n   technology                1.2 Appropriate technology is selected\
+      \ as per work\n                                  specification\n2. Apply relevant            2.1 Relevant technology\
+      \ is effectively used in carrying\n   technology                    out function\n                             2.2 Applicable\
+      \ software and hardware are used as per\n                                 task requirement\n                       \
+      \      2.3 Management concepts are observed and practiced as\n                                per established industry\
+      \ practices\n3. Maintain/enhance          3.1 Maintenance of technology is applied in accordance with\n   relevant technology\
+      \           the industry standard operating procedure,\n                                 manufacturer’s operating guidelines\
+      \ and\n                                 occupational health and safety procedure to ensure\n                       \
+      \          its operative ability\n                             3.2 Updating of technology is maintained through continuing\n\
+      \                                 education or training in accordance with job requirement\n                       \
+      \      3.3 Technology failure/ defect is immediately reported to the\n                                 concern/responsible\
+      \ person or section for appropriate\n                                 action"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n             VARIABLE                                    RANGE\n   1. Technology    \
+        \                May include but are not limited to:\n                                    1.1 Office technology\n\
+        \                                    1.2 Industrial technology\n                                    1.3 System technology\n\
+        \                                    1.4 Information technology\n                                    1.5 Training\
+        \ technology\n   2. Management concepts           May include but not limited to:\n                              \
+        \      2.1 Real Time Management\n                                    2.2 KAIZEN or continuous improvement\n      \
+        \                              2.3 5s\n                                    2.4 Total Quality Management\n        \
+        \                            2.5 Other management/productivity tools\n   3. Industry standard operating   3.1 Written\
+        \ guidelines relative to the usage of\n      procedure                         office technology/equipment\n     \
+        \                               3.2 Verbal advise/instruction from the co-worker\n   4. Manufacturer’s operating \
+        \     4.1 Written instruction/manuals of specific\n      guidelines/ instructions          technology/ equipment\n\
+        \                                    4.2 General instruction manual\n                                    4.3 Verbal\
+        \ advise from manufacturer relative to\n                                        the operation of equipment\n   5.\
+        \ Occupational health and       5.1 Relevant statutes on OHS\n      safety procedure              5.2 Company guidelines\
+        \ in using\n                                        technology/equipment\n   6. Appropriate action            6.1\
+        \ Implementing preventive maintenance\n                                        schedule\n                        \
+        \            6.2 Coordinating with manufacturer’s technician"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n   1. Critical Aspects of Assessment requires evidence that the candidate:\n      Competency\
+        \          1.1 Studied and selected appropriate technology\n                              consistent with work requirements\n\
+        \                          1.2 Applied relevant technology\n                          1.3 Maintained and enhanced\
+        \ operative ability of\n                              relevant technology\n   2. Underpinning          2.1 Awareness\
+        \ on technology and its function\n      Knowledge             2.2 Repair and maintenance procedure\n             \
+        \               2.3 Operating instructions\n                            2.4 Applicable software\n                \
+        \            2.5 Communication techniques\n                            2.6 Health and safety procedure\n         \
+        \                   2.7 Company policy in relation to relevant technology\n                            2.8 Different\
+        \ management concepts\n                            2.9 Technology adaptability\n   3. Underpinning Skills   3.1 Relevant\
+        \ technology application/implementation\n                            3.2 Basic communication skills\n            \
+        \                3.3 Software applications skills\n                            3.4 Basic troubleshooting skills\n\
+        \   4. Resource              The following resources MUST be provided:\n      Implications          4.1 Relevant technology\n\
+        \                            4.2 Interview and demonstration questionnaires\n                            4.3 Assessment\
+        \ packages\n   5. Methods of            Competency must be assessed through:\n      Assessment            5.1 Interview\n\
+        \                            5.2 Actual demonstration\n                            5.3 Authenticated portfolio (related\
+        \ certificates of\n                                training/seminar)\n   6. Context of            6.1 Competency may\
+        \ be assessed in actual workplace or\n      Assessment                simulated environment\n                    \
+        \        COMMON COMPETENCIES"
+    source_block: "UNIT OF COMPETENCY:           USE RELEVANT TECHNOLOGIES\nUNIT CODE                :    500311114\nUNIT\
+      \ DESCRIPTOR          :   This unit of competency covers the knowledge, skills, and\n                             attitude\
+      \ required in selecting, sourcing and applying\n                             appropriate and affordable technologies\
+      \ in the workplace.\n                                                PERFORMANCE CRITERIA\n       ELEMENT          \
+      \     Italicized terms are elaborated in the Range of Variables\n1. Study/select              1.1 Usage of different\
+      \ technologies is determined based on\n   appropriate                   job requirements\n   technology            \
+      \    1.2 Appropriate technology is selected as per work\n                                  specification\n2. Apply relevant\
+      \            2.1 Relevant technology is effectively used in carrying\n   technology                    out function\n\
+      \                             2.2 Applicable software and hardware are used as per\n                               \
+      \  task requirement\n                             2.3 Management concepts are observed and practiced as\n          \
+      \                      per established industry practices\n3. Maintain/enhance          3.1 Maintenance of technology\
+      \ is applied in accordance with\n   relevant technology           the industry standard operating procedure,\n     \
+      \                            manufacturer’s operating guidelines and\n                                 occupational\
+      \ health and safety procedure to ensure\n                                 its operative ability\n                  \
+      \           3.2 Updating of technology is maintained through continuing\n                                 education\
+      \ or training in accordance with job requirement\n                             3.3 Technology failure/ defect is immediately\
+      \ reported to the\n                                 concern/responsible person or section for appropriate\n        \
+      \                         action\n  RANGE OF VARIABLES\n             VARIABLE                                    RANGE\n\
+      \   1. Technology                    May include but are not limited to:\n                                    1.1 Office\
+      \ technology\n                                    1.2 Industrial technology\n                                    1.3\
+      \ System technology\n                                    1.4 Information technology\n                              \
+      \      1.5 Training technology\n   2. Management concepts           May include but not limited to:\n              \
+      \                      2.1 Real Time Management\n                                    2.2 KAIZEN or continuous improvement\n\
+      \                                    2.3 5s\n                                    2.4 Total Quality Management\n    \
+      \                                2.5 Other management/productivity tools\n   3. Industry standard operating   3.1 Written\
+      \ guidelines relative to the usage of\n      procedure                         office technology/equipment\n       \
+      \                             3.2 Verbal advise/instruction from the co-worker\n   4. Manufacturer’s operating     \
+      \ 4.1 Written instruction/manuals of specific\n      guidelines/ instructions          technology/ equipment\n     \
+      \                               4.2 General instruction manual\n                                    4.3 Verbal advise\
+      \ from manufacturer relative to\n                                        the operation of equipment\n   5. Occupational\
+      \ health and       5.1 Relevant statutes on OHS\n      safety procedure              5.2 Company guidelines in using\n\
+      \                                        technology/equipment\n   6. Appropriate action            6.1 Implementing\
+      \ preventive maintenance\n                                        schedule\n                                    6.2\
+      \ Coordinating with manufacturer’s technician\n  EVIDENCE GUIDE\n   1. Critical Aspects of Assessment requires evidence\
+      \ that the candidate:\n      Competency          1.1 Studied and selected appropriate technology\n                 \
+      \             consistent with work requirements\n                          1.2 Applied relevant technology\n       \
+      \                   1.3 Maintained and enhanced operative ability of\n                              relevant technology\n\
+      \   2. Underpinning          2.1 Awareness on technology and its function\n      Knowledge             2.2 Repair and\
+      \ maintenance procedure\n                            2.3 Operating instructions\n                            2.4 Applicable\
+      \ software\n                            2.5 Communication techniques\n                            2.6 Health and safety\
+      \ procedure\n                            2.7 Company policy in relation to relevant technology\n                   \
+      \         2.8 Different management concepts\n                            2.9 Technology adaptability\n   3. Underpinning\
+      \ Skills   3.1 Relevant technology application/implementation\n                            3.2 Basic communication skills\n\
+      \                            3.3 Software applications skills\n                            3.4 Basic troubleshooting\
+      \ skills\n   4. Resource              The following resources MUST be provided:\n      Implications          4.1 Relevant\
+      \ technology\n                            4.2 Interview and demonstration questionnaires\n                         \
+      \   4.3 Assessment packages\n   5. Methods of            Competency must be assessed through:\n      Assessment    \
+      \        5.1 Interview\n                            5.2 Actual demonstration\n                            5.3 Authenticated\
+      \ portfolio (related certificates of\n                                training/seminar)\n   6. Context of          \
+      \  6.1 Competency may be assessed in actual workplace or\n      Assessment                simulated environment\n  \
+      \                          COMMON COMPETENCIES"
+  common:
+  - unit_code: '506315202'
+    title: Apply quality standards
+    printed_pages: 23-25
+    pdf_pages: 25-27
+    descriptor: This unit covers the knowledge, skills, attitudes and values needed to apply quality standards in the workplace.
+      The unit also includes the application of relevant safety procedures and regulations, organization procedures and customer
+      requirements.
+    elements:
+    - number: 1
+      title: Assess quality of received materials
+      performance_criteria:
+      - number: '1.1'
+        text: Work instruction is obtained and work is carried out in accordance with standard operating procedures.
+      - number: '1.2'
+        text: Received materials are checked against workplace standards and specifications.
+      - number: '1.3'
+        text: Faulty materials related to work are identified and isolated.
+      - number: '1.4'
+        text: Faults and any identified causes are recorded and/or reported to the supervisor concerned in accordance with
+          workplace procedures.
+      - number: '1.5'
+        text: Faulty materials are replaced in accordance with workplace procedures.
+    - number: 2
+      title: Assess own work
+      performance_criteria:
+      - number: '2.1'
+        text: Documentation relative to quality within the company is identified and used.
+      - number: '2.2'
+        text: Completed work is checked against workplace standards relevant to the task undertaken.
+      - number: '2.3'
+        text: Errors are identified and isolated.
+      - number: '2.4'
+        text: Information on the quality and other indicators of production performance are recorded in accordance with workplace
+          procedures.
+      - number: '2.5'
+        text: In cases of deviations from specific quality standards, causes are documented and reported in accordance with
+          the workplace’ s standards operating procedures.
+    - number: 3
+      title: Engage in quality improvement
+      performance_criteria:
+      - number: '3.1'
+        text: Process improvement procedures are participated in relative to workplace assignment.
+      - number: '3.2'
+        text: Work is carried out in accordance with process improvement procedures.
+      - number: '3.3'
+        text: Performance of operation or quality of product of service to ensure customer satisfaction is monitored.
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n                                    Italicized terms are elaborated\
+      \ in the Range of Variables\n1. Assess quality of          1.1. Work instruction is obtained and work is carried out\n\
+      \   received materials              in accordance with standard operating procedures.\n                            \
+      \  1.2. Received materials are checked against workplace\n                                   standards and specifications.\n\
+      \                              1.3. Faulty materials related to work are identified and\n                          \
+      \         isolated.\n                              1.4. Faults and any identified causes are recorded and/or\n     \
+      \                              reported to the supervisor concerned in accordance\n                                \
+      \   with workplace procedures.\n                              1.5. Faulty materials are replaced in accordance with\n\
+      \                                   workplace procedures.\n2. Assess own work            2.1. Documentation relative\
+      \ to quality within the\n                                   company is identified and used.\n                      \
+      \        2.2. Completed work is checked against workplace\n                                   standards relevant to\
+      \ the task undertaken.\n                              2.3. Errors are identified and isolated.\n                   \
+      \           2.4. Information on the quality and other indicators of\n                                   production performance\
+      \ are recorded in accordance\n                                   with workplace procedures.\n                      \
+      \        2.5. In cases of deviations from specific quality\n                                   standards, causes are\
+      \ documented and reported in\n                                   accordance with the workplace’ s standards\n      \
+      \                             operating procedures.\n3. Engage in quality          3.1. Process improvement procedures\
+      \ are participated in\n   improvement                     relative to workplace assignment.\n                      \
+      \        3.2. Work is carried out in accordance with process\n                                   improvement procedures.\n\
+      \                              3.3. Performance of operation or quality of product of\n                            \
+      \       service to ensure customer satisfaction is\n                                   monitored."
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n    VARIABLE                                          RANGE\n1 Materials            \
+        \    1.1 Materials may include but not limited to:\n                               1.1.1. Manuals\n              \
+        \                 1.1.2. Job orders\n                               1.1.3. Instructional videos\n2 Faults        \
+        \           2.1 Faults may include but not limited to:\n                               2.1.1. Materials not to specification\n\
+        \                               2.1.2. Materials contain incorrect/outdated\n                                    \
+        \  information\n                               2.1.3. Hardware defects\n                               2.1.4. Materials\
+        \ that do not conform with any\n                                      regulatory agencies\n3 Documentation       \
+        \     3.1   Organization work procedures\n                           3.2   Manufacturer’s instruction manual\n   \
+        \                        3.3   Customer requirements\n                           3.4   Forms\n4 Errors           \
+        \        4.1 Errors may be related but not limited to the following:\n                               4.1.1. Deviation\
+        \ from the requirements of the Client\n                               4.1.2. Deviation from the requirement of the\n\
+        \                                       organization\n5 Quality standards        5.1 Quality standards may be related\
+        \ but not limited to the\n                               following:\n                               5.1.1. Materials\n\
+        \                               5.1.2. Hardware\n                               5.1.3. Final product\n           \
+        \                    5.1.4. Production processes\n                               5.1.5. Customer service\n6 Customer\
+        \                 6.1   Co-worker\n                           6.2   Supplier/Vendor\n                           6.3\
+        \   Client\n                           6.4   Organization receiving the product or service"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n1 Critical aspect of        Assessment must show that the candidate:\n  competency      \
+        \          1.1 Carried out work in accordance with the company’s\n                                 standard operating\
+        \ procedures\n                            1.2 Performed task according to specifications\n                       \
+        \     1.3 Reported defects detected in accordance with\n                                 standard operating procedures\n\
+        \                            1.4 Carried out work in accordance with the process\n                               \
+        \  improvement procedures\n2 Underpinning              2.1 Relevant production processes, materials and\n  knowledge\
+        \                      products\n                            2.2 Characteristics of materials, software and hardware\n\
+        \                                 used in production processes\n                            2.3 Quality checking procedures\n\
+        \                            2.4 Workplace procedures\n                            2.5 Safety and environmental aspects\
+        \ of production\n                                 processes\n                            2.6 Fault identification\
+        \ and reporting\n                            2.7 Quality improvement processes\n3 Underpinning skills       3.1 Reading\
+        \ skills required to interpret work instruction\n                            3.2 Communication skills needed to interpret\
+        \ and apply\n                                 defined work procedures\n                            3.3 Carry out work\
+        \ in accordance with OHS policies and\n                                 procedures\n                            3.4\
+        \ Critical thinking\n                            3.5 Solution providing and decision-making\n4 Method of         \
+        \       The assessor must select two of the following to\n  assessment               objectively evaluate the candidate:\n\
+        \                            4.1 Observation and oral questioning\n                            4.2 Third party report\n\
+        \                            4.3 Portfolio\n                            4.4 Practical demonstration\n5 Resource implication\
+        \      Materials, software and hardware to be used in a real or\n                            simulated situation\n\
+        6 Context of                Assessment may be conducted in the workplace or in a\n  Assessment                simulated\
+        \ environment"
+    source_block: "UNIT TITLE              :    APPLY QUALITY STANDARDS\nUNIT CODE               :    506315202\nUNIT DESCRIPTOR\
+      \         :    This unit covers the knowledge, skills, attitudes and values\n                             needed to\
+      \ apply quality standards in the workplace. The unit\n                             also includes the application of\
+      \ relevant safety procedures\n                             and regulations, organization procedures and customer\n \
+      \                            requirements.\n       ELEMENT                                 PERFORMANCE CRITERIA\n  \
+      \                                  Italicized terms are elaborated in the Range of Variables\n1. Assess quality of \
+      \         1.1. Work instruction is obtained and work is carried out\n   received materials              in accordance\
+      \ with standard operating procedures.\n                              1.2. Received materials are checked against workplace\n\
+      \                                   standards and specifications.\n                              1.3. Faulty materials\
+      \ related to work are identified and\n                                   isolated.\n                              1.4.\
+      \ Faults and any identified causes are recorded and/or\n                                   reported to the supervisor\
+      \ concerned in accordance\n                                   with workplace procedures.\n                         \
+      \     1.5. Faulty materials are replaced in accordance with\n                                   workplace procedures.\n\
+      2. Assess own work            2.1. Documentation relative to quality within the\n                                  \
+      \ company is identified and used.\n                              2.2. Completed work is checked against workplace\n\
+      \                                   standards relevant to the task undertaken.\n                              2.3. Errors\
+      \ are identified and isolated.\n                              2.4. Information on the quality and other indicators of\n\
+      \                                   production performance are recorded in accordance\n                            \
+      \       with workplace procedures.\n                              2.5. In cases of deviations from specific quality\n\
+      \                                   standards, causes are documented and reported in\n                             \
+      \      accordance with the workplace’ s standards\n                                   operating procedures.\n3. Engage\
+      \ in quality          3.1. Process improvement procedures are participated in\n   improvement                     relative\
+      \ to workplace assignment.\n                              3.2. Work is carried out in accordance with process\n    \
+      \                               improvement procedures.\n                              3.3. Performance of operation\
+      \ or quality of product of\n                                   service to ensure customer satisfaction is\n        \
+      \                           monitored.\nRANGE OF VARIABLES\n    VARIABLE                                          RANGE\n\
+      1 Materials                1.1 Materials may include but not limited to:\n                               1.1.1. Manuals\n\
+      \                               1.1.2. Job orders\n                               1.1.3. Instructional videos\n2 Faults\
+      \                   2.1 Faults may include but not limited to:\n                               2.1.1. Materials not\
+      \ to specification\n                               2.1.2. Materials contain incorrect/outdated\n                   \
+      \                   information\n                               2.1.3. Hardware defects\n                          \
+      \     2.1.4. Materials that do not conform with any\n                                      regulatory agencies\n3 Documentation\
+      \            3.1   Organization work procedures\n                           3.2   Manufacturer’s instruction manual\n\
+      \                           3.3   Customer requirements\n                           3.4   Forms\n4 Errors          \
+      \         4.1 Errors may be related but not limited to the following:\n                               4.1.1. Deviation\
+      \ from the requirements of the Client\n                               4.1.2. Deviation from the requirement of the\n\
+      \                                       organization\n5 Quality standards        5.1 Quality standards may be related\
+      \ but not limited to the\n                               following:\n                               5.1.1. Materials\n\
+      \                               5.1.2. Hardware\n                               5.1.3. Final product\n             \
+      \                  5.1.4. Production processes\n                               5.1.5. Customer service\n6 Customer \
+      \                6.1   Co-worker\n                           6.2   Supplier/Vendor\n                           6.3 \
+      \  Client\n                           6.4   Organization receiving the product or service\nEVIDENCE GUIDE\n1 Critical\
+      \ aspect of        Assessment must show that the candidate:\n  competency                1.1 Carried out work in accordance\
+      \ with the company’s\n                                 standard operating procedures\n                            1.2\
+      \ Performed task according to specifications\n                            1.3 Reported defects detected in accordance\
+      \ with\n                                 standard operating procedures\n                            1.4 Carried out\
+      \ work in accordance with the process\n                                 improvement procedures\n2 Underpinning     \
+      \         2.1 Relevant production processes, materials and\n  knowledge                      products\n            \
+      \                2.2 Characteristics of materials, software and hardware\n                                 used in production\
+      \ processes\n                            2.3 Quality checking procedures\n                            2.4 Workplace\
+      \ procedures\n                            2.5 Safety and environmental aspects of production\n                     \
+      \            processes\n                            2.6 Fault identification and reporting\n                       \
+      \     2.7 Quality improvement processes\n3 Underpinning skills       3.1 Reading skills required to interpret work instruction\n\
+      \                            3.2 Communication skills needed to interpret and apply\n                              \
+      \   defined work procedures\n                            3.3 Carry out work in accordance with OHS policies and\n  \
+      \                               procedures\n                            3.4 Critical thinking\n                    \
+      \        3.5 Solution providing and decision-making\n4 Method of                The assessor must select two of the\
+      \ following to\n  assessment               objectively evaluate the candidate:\n                            4.1 Observation\
+      \ and oral questioning\n                            4.2 Third party report\n                            4.3 Portfolio\n\
+      \                            4.4 Practical demonstration\n5 Resource implication      Materials, software and hardware\
+      \ to be used in a real or\n                            simulated situation\n6 Context of                Assessment may\
+      \ be conducted in the workplace or in a\n  Assessment                simulated environment"
+    fidelity_refs:
+    - tesda:qualification:common-unit-code-mismatch:apply-quality-standards
+  - unit_code: '506311203'
+    title: Perform computer operations
+    printed_pages: 26-29
+    pdf_pages: 28-31
+    descriptor: This unit covers the knowledge, skills, attitudes and values needed to perform computer operations which include
+      inputting, accessing, producing and transferring data using the appropriate hardware and software.
+    elements:
+    - number: 1
+      title: Plan and prepare for task to be undertaken
+      performance_criteria:
+      - number: '1.1'
+        text: Requirements of task are determined in accordance with the required output.
+      - number: '1.2'
+        text: Appropriate hardware and software are selected according to task assigned and required outcome.
+      - number: '1.3'
+        text: Task is planned to ensure that OH & S guidelines and procedures are followed.
+      - number: '1.4'
+        text: Client -specific guidelines and procedures are followed.
+      - number: '1.5'
+        text: Required data security guidelines are applied in accordance with existing procedures.
+    - number: 2
+      title: Input data into computer
+      performance_criteria:
+      - number: '2.1'
+        text: Data are entered into the computer using appropriate program/application in accordance with company procedures.
+      - number: '2.2'
+        text: Accuracy of information is checked and information is saved in accordance with standard operating procedures.
+      - number: '2.3'
+        text: Inputted data is stored in storage media according to requirements.
+      - number: '2.4'
+        text: Work is performed within ergonomic guidelines.
+    - number: 3
+      title: Access information using computer
+      performance_criteria:
+      - number: '3.1'
+        text: Correct program/application is selected based on job requirements.
+      - number: '3.2'
+        text: Program/application containing the information required is accessed according to company procedures.
+      - number: '3.3'
+        text: Desktop icons are correctly selected, opened and closed for navigation purposes.
+      - number: '3.4'
+        text: Keyboard techniques are carried out in line with OH & S requirements for safe use of keyboards.
+    - number: 4
+      title: Produce output/data using computer system
+      performance_criteria:
+      - number: '4.1'
+        text: Entered data are processed using appropriate software commands.
+      - number: '4.2'
+        text: Data are printed out as required using computer hardware /peripheral devices in accordance with standard operating
+          procedures.
+      - number: '4.3'
+        text: Files and data are transferred between compatible systems using computer software, hardware/peripheral devices
+          in accordance with standard operating procedures.
+    - number: 5
+      title: Use basic functions of a www-browser to locate information
+      performance_criteria:
+      - number: '5.1'
+        text: Information requirements for internet search are established.
+      - number: '5.2'
+        text: Browser is launched.
+      - number: '5.3'
+        text: Search engine is loaded.
+      - number: '5.4'
+        text: Appropriate search criteria/or URL of site is entered.
+      - number: '5.5'
+        text: Relevant links are followed to locate required information.
+      - number: '5.6'
+        text: Useful pages are bookmarked or printed as required.
+    - number: 6
+      title: Maintain computer equipment and systems
+      performance_criteria:
+      - number: '6.1'
+        text: Procedures for ensuring security of data, including regular back-ups and virus checks are implemented in accordance
+          with standard operating procedures.
+      - number: '6.2'
+        text: Basic file maintenance procedures are implemented in line with the standards operating procedures.
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n                                   Italicized terms are elaborated\
+      \ in the Range of Variables\n1. Plan and prepare for        1.1. Requirements of task are determined in\n   task to\
+      \ be taken                 accordance with the required output.\n   undertaken                  1.2. Appropriate hardware\
+      \ and software are selected\n                                    according to task assigned and required outcome.\n\
+      \                               1.3. Task is planned to ensure that OH & S guidelines\n                            \
+      \        and procedures are followed.\n                               1.4. Client -specific guidelines and procedures\
+      \ are\n                                    followed.\n                               1.5. Required data security guidelines\
+      \ are applied in\n                                    accordance with existing procedures.\n2. Input data into     \
+      \        2.1. Data are entered into the computer using\n   computer                         appropriate program/application\
+      \ in accordance with\n                                    company procedures.\n                               2.2. Accuracy\
+      \ of information is checked and information\n                                    is saved in accordance with standard\
+      \ operating\n                                    procedures.\n                               2.3. Inputted data is stored\
+      \ in storage media according\n                                    to requirements.\n                               2.4.\
+      \ Work is performed within ergonomic guidelines.\n3. Access information          3.1. Correct program/application is\
+      \ selected based on\n   using computer                   job requirements.\n                               3.2. Program/application\
+      \ containing the information\n                                    required is accessed according to company\n      \
+      \                              procedures.\n                               3.3. Desktop icons are correctly selected,\
+      \ opened and\n                                    closed for navigation purposes.\n                               3.4.\
+      \ Keyboard techniques are carried out in line with OH\n                                    & S requirements for safe\
+      \ use of keyboards.\n4. Produce output/ data      4.1. Entered data are processed using appropriate\n   using computer\
+      \ system          software commands.\n                             4.2. Data are printed out as required using computer\n\
+      \                                  hardware /peripheral devices in accordance with\n                               \
+      \   standard operating procedures.\n                             4.3. Files and data are transferred between compatible\n\
+      \                                  systems using computer software,\n                                  hardware/peripheral\
+      \ devices in accordance with\n                                  standard operating procedures.\n5. Use basic functions\
+      \ of    5.1. Information requirements for internet search are\n   a www-browser to               established.\n   locate\
+      \ information        5.2. Browser is launched.\n                             5.3. Search engine is loaded.\n       \
+      \                      5.4. Appropriate search criteria/or URL of site is\n                                  entered.\n\
+      \                             5.5. Relevant links are followed to locate required\n                                \
+      \  information.\n                             5.6. Useful pages are bookmarked or printed as\n                     \
+      \             required.\n6. Maintain computer         6.1. Procedures for ensuring security of data, including\n   equipment\
+      \ and                  regular back-ups and virus checks are\n   systems                        implemented in accordance\
+      \ with standard\n                                  operating procedures.\n                             6.2. Basic file\
+      \ maintenance procedures are\n                                  implemented in line with the standards operating\n \
+      \                                 procedures."
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n       VARIABLE                                     RANGE\n1 Hardware and           \
+        \  1.1 Personal computers\n  peripheral devices       1.2 Networked systems\n                           1.3 Communication\
+        \ equipment\n                           1.4 Printers\n                           1.5 Scanners\n                  \
+        \         1.6 Keyboard\n                           1.7 Mouse\n                           1.8 Voice/Data logger\n2\
+        \ Software                 Software includes the following but not limited to:\n                           2.1 Word\
+        \ processing packages\n                           2.2 Database packages\n                           2.3 Internet\n\
+        \                           2.4 Spreadsheets\n                           2.5 Client Specific Software\n3 OH & S guidelines\
+        \        3.1 OHS guidelines\n                           3.2 Enterprise procedures\n4 Storage media            Storage\
+        \ media include the following but not limited to:\n                           4.1 Diskettes\n                    \
+        \       4.2 CDs\n                           4.3 Zip disks\n                           4.4 hard disk drives, local\
+        \ and remote\n                           4.5 Optical drives\n5 Ergonomic guidelines     5.1 Types of equipment used\n\
+        \                           5.2 Appropriate furniture\n                           5.3 Seating posture\n          \
+        \                 5.4 Lifting posture\n                           5.5 Visual display unit screen brightness\n6 Desktop\
+        \ icons            6.1 Icons include the following but not limited to:\n                           6.2 Directories/folders\n\
+        \                           6.3 Files\n                           6.4 Network devices\n                          \
+        \ 6.5 Recycle bin\n                           6.6 Program icons\n7 Maintenance              7.1 Creating and managing\
+        \ more space in the hard disk\n                                and other peripherals\n                           7.2\
+        \ Reviewing programs\n                           7.3 Deleting unwanted files\n                           7.4 Backing\
+        \ up files\n                           7.5 Checking hard drive for errors\n                           7.6 Using up\
+        \ to date anti-virus programs\n                           7.7 Cleaning dust from internal and external surfaces"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n1 Critical aspects of    Assessment must show that the candidate:\n  competency         \
+        \   1.1 Selected and used hardware components correctly and\n                            according to the task requirement\n\
+        \                        1.2 used basic software applications to create new files and\n                          \
+        \  documents\n                        1.3 Produced accurate and complete data in accordance with\n               \
+        \             the requirements\n                        1.4 Used appropriate devices and procedures to transfer\n\
+        \                            files/data accurately\n                        1.5 Used basic functions of a www-browser\
+        \ to locate\n                            information.\n2 Underpinning          2.1 Basic ergonomics of keyboard and\
+        \ computer user\n  knowledge             2.2 Main types of computers and basic features of different\n           \
+        \                  operating systems\n                        2.3 Main parts of a computer\n                     \
+        \   2.4 Storage devices and basic categories of memory\n                        2.5 Relevant types of software\n \
+        \                       2.6 General security, privacy legislation and copyright\n                        2.7 Viruses\n\
+        \                        2.8 OH & S principles and responsibilities\n                        2.9 Calculating computer\
+        \ capacity\n                        2.10 Productivity Application\n                        2.11 Business Application\n\
+        \                        2.12 System Software\n3 Underpinning          3.1 Reading and comprehension skills required\
+        \ to interpret\n  skills                     work instruction and to interpret basic user manuals.\n             \
+        \           3.2 Communication skills to identify lines of communication,\n                             request advice,\
+        \ follow instructions and receive feedback.\n                        3.3 Technology skills to use equipment safely\
+        \ including\n                             keyboard skills.\n4 Method of             The assessor may select two of\
+        \ the following assessment\n  assessment            methods to objectively assess the candidate:\n               \
+        \         4.1 Direct Observation and Oral Questioning\n                        4.2 Practical demonstration\n5 Resource\
+        \              5.1 Computer hardware with peripherals\n  implication           5.2 Appropriate software\n6 Context\
+        \ of            6.1 Assessment may be conducted in the workplace or in a\n  Assessment                simulated environment\n\
+        \                              CORE COMPETENCIES"
+    source_block: "UNIT TITLE              :   PERFORM COMPUTER OPERATIONS\nUNIT CODE               :   506311203\nUNIT DESCRIPTOR\
+      \         :   This unit covers the knowledge, skills, attitudes and values\n                            needed to perform\
+      \ computer operations which include\n                            inputting, accessing, producing and transferring data\
+      \ using\n                            the appropriate hardware and software.\n        ELEMENT                       \
+      \        PERFORMANCE CRITERIA\n                                   Italicized terms are elaborated in the Range of Variables\n\
+      1. Plan and prepare for        1.1. Requirements of task are determined in\n   task to be taken                 accordance\
+      \ with the required output.\n   undertaken                  1.2. Appropriate hardware and software are selected\n  \
+      \                                  according to task assigned and required outcome.\n                              \
+      \ 1.3. Task is planned to ensure that OH & S guidelines\n                                    and procedures are followed.\n\
+      \                               1.4. Client -specific guidelines and procedures are\n                              \
+      \      followed.\n                               1.5. Required data security guidelines are applied in\n           \
+      \                         accordance with existing procedures.\n2. Input data into             2.1. Data are entered\
+      \ into the computer using\n   computer                         appropriate program/application in accordance with\n\
+      \                                    company procedures.\n                               2.2. Accuracy of information\
+      \ is checked and information\n                                    is saved in accordance with standard operating\n \
+      \                                   procedures.\n                               2.3. Inputted data is stored in storage\
+      \ media according\n                                    to requirements.\n                               2.4. Work is\
+      \ performed within ergonomic guidelines.\n3. Access information          3.1. Correct program/application is selected\
+      \ based on\n   using computer                   job requirements.\n                               3.2. Program/application\
+      \ containing the information\n                                    required is accessed according to company\n      \
+      \                              procedures.\n                               3.3. Desktop icons are correctly selected,\
+      \ opened and\n                                    closed for navigation purposes.\n                               3.4.\
+      \ Keyboard techniques are carried out in line with OH\n                                    & S requirements for safe\
+      \ use of keyboards.\n4. Produce output/ data      4.1. Entered data are processed using appropriate\n   using computer\
+      \ system          software commands.\n                             4.2. Data are printed out as required using computer\n\
+      \                                  hardware /peripheral devices in accordance with\n                               \
+      \   standard operating procedures.\n                             4.3. Files and data are transferred between compatible\n\
+      \                                  systems using computer software,\n                                  hardware/peripheral\
+      \ devices in accordance with\n                                  standard operating procedures.\n5. Use basic functions\
+      \ of    5.1. Information requirements for internet search are\n   a www-browser to               established.\n   locate\
+      \ information        5.2. Browser is launched.\n                             5.3. Search engine is loaded.\n       \
+      \                      5.4. Appropriate search criteria/or URL of site is\n                                  entered.\n\
+      \                             5.5. Relevant links are followed to locate required\n                                \
+      \  information.\n                             5.6. Useful pages are bookmarked or printed as\n                     \
+      \             required.\n6. Maintain computer         6.1. Procedures for ensuring security of data, including\n   equipment\
+      \ and                  regular back-ups and virus checks are\n   systems                        implemented in accordance\
+      \ with standard\n                                  operating procedures.\n                             6.2. Basic file\
+      \ maintenance procedures are\n                                  implemented in line with the standards operating\n \
+      \                                 procedures.\nRANGE OF VARIABLES\n       VARIABLE                                 \
+      \    RANGE\n1 Hardware and             1.1 Personal computers\n  peripheral devices       1.2 Networked systems\n  \
+      \                         1.3 Communication equipment\n                           1.4 Printers\n                   \
+      \        1.5 Scanners\n                           1.6 Keyboard\n                           1.7 Mouse\n             \
+      \              1.8 Voice/Data logger\n2 Software                 Software includes the following but not limited to:\n\
+      \                           2.1 Word processing packages\n                           2.2 Database packages\n       \
+      \                    2.3 Internet\n                           2.4 Spreadsheets\n                           2.5 Client\
+      \ Specific Software\n3 OH & S guidelines        3.1 OHS guidelines\n                           3.2 Enterprise procedures\n\
+      4 Storage media            Storage media include the following but not limited to:\n                           4.1 Diskettes\n\
+      \                           4.2 CDs\n                           4.3 Zip disks\n                           4.4 hard disk\
+      \ drives, local and remote\n                           4.5 Optical drives\n5 Ergonomic guidelines     5.1 Types of equipment\
+      \ used\n                           5.2 Appropriate furniture\n                           5.3 Seating posture\n     \
+      \                      5.4 Lifting posture\n                           5.5 Visual display unit screen brightness\n6\
+      \ Desktop icons            6.1 Icons include the following but not limited to:\n                           6.2 Directories/folders\n\
+      \                           6.3 Files\n                           6.4 Network devices\n                           6.5\
+      \ Recycle bin\n                           6.6 Program icons\n7 Maintenance              7.1 Creating and managing more\
+      \ space in the hard disk\n                                and other peripherals\n                           7.2 Reviewing\
+      \ programs\n                           7.3 Deleting unwanted files\n                           7.4 Backing up files\n\
+      \                           7.5 Checking hard drive for errors\n                           7.6 Using up to date anti-virus\
+      \ programs\n                           7.7 Cleaning dust from internal and external surfaces\nEVIDENCE GUIDE\n1 Critical\
+      \ aspects of    Assessment must show that the candidate:\n  competency            1.1 Selected and used hardware components\
+      \ correctly and\n                            according to the task requirement\n                        1.2 used basic\
+      \ software applications to create new files and\n                            documents\n                        1.3\
+      \ Produced accurate and complete data in accordance with\n                            the requirements\n           \
+      \             1.4 Used appropriate devices and procedures to transfer\n                            files/data accurately\n\
+      \                        1.5 Used basic functions of a www-browser to locate\n                            information.\n\
+      2 Underpinning          2.1 Basic ergonomics of keyboard and computer user\n  knowledge             2.2 Main types of\
+      \ computers and basic features of different\n                             operating systems\n                      \
+      \  2.3 Main parts of a computer\n                        2.4 Storage devices and basic categories of memory\n      \
+      \                  2.5 Relevant types of software\n                        2.6 General security, privacy legislation\
+      \ and copyright\n                        2.7 Viruses\n                        2.8 OH & S principles and responsibilities\n\
+      \                        2.9 Calculating computer capacity\n                        2.10 Productivity Application\n\
+      \                        2.11 Business Application\n                        2.12 System Software\n3 Underpinning   \
+      \       3.1 Reading and comprehension skills required to interpret\n  skills                     work instruction and\
+      \ to interpret basic user manuals.\n                        3.2 Communication skills to identify lines of communication,\n\
+      \                             request advice, follow instructions and receive feedback.\n                        3.3\
+      \ Technology skills to use equipment safely including\n                             keyboard skills.\n4 Method of  \
+      \           The assessor may select two of the following assessment\n  assessment            methods to objectively\
+      \ assess the candidate:\n                        4.1 Direct Observation and Oral Questioning\n                     \
+      \   4.2 Practical demonstration\n5 Resource              5.1 Computer hardware with peripherals\n  implication     \
+      \      5.2 Appropriate software\n6 Context of            6.1 Assessment may be conducted in the workplace or in a\n\
+      \  Assessment                simulated environment\n                              CORE COMPETENCIES"
+    fidelity_refs:
+    - tesda:qualification:common-unit-code-mismatch:perform-computer-operations
+  core:
+  - unit_code: ICT313359
+    title: Perform object-oriented analysis and design in Java technology
+    printed_pages: 30-34
+    pdf_pages: 32-36
+    descriptor: This unit covers the knowledge, skills and attitude needed to use various Java programming language constructs
+      to create several Java technology applications. Specifically, it consist of competencies in applying basics of Java
+      language, working with methods and encapsulation, and working with inheritance and handling exceptions. It also focuses
+      on effectively using object-oriented technologies and the use of software modeling, as applied to a software development
+      process. Students will learn to present one practical & complete object-oriented analysis and design (OOAD) roadmap,
+      and will get hands-on experience, from requirements gathering to system design.
+    elements:
+    - number: 1
+      title: Apply basics of Java language
+      performance_criteria:
+      - number: '1.1'
+        text: Executable Java applications are created in accordance with Java framework
+      - number: '1.2'
+        text: Java packages are imported to make them accessible in the code
+      - number: '1.3'
+        text: Working with Java Data types is demonstrated in accordance with Java framework
+      - number: '1.4'
+        text: Using Operators and Decision Constructs is demonstrated in accordance with Java framework
+      - number: '1.5'
+        text: Creating and Using Arrays is demonstrated in accordance with Java framework
+      - number: '1.6'
+        text: Using Loop Constructs is demonstrated in accordance with Java framework
+    - number: 2
+      title: Work with methods and encapsulation
+      performance_criteria:
+      - number: '2.1'
+        text: Methods with arguments and return values are created in accordance with Java framework
+      - number: '2.2'
+        text: Static keywords are applied to methods and fields in accordance with Java framework
+      - number: '2.3'
+        text: Overloaded method is created in accordance with Java framework
+      - number: '2.4'
+        text: Access modifiers are applied in accordance with Java framework
+      - number: '2.5'
+        text: Encapsulation principled are applied to a class in accordance with Java framework
+    - number: 3
+      title: Work with inheritance and handling exceptions
+      performance_criteria:
+      - number: '3.1'
+        text: Inheritance is implemented in accordance with Java framework
+      - number: '3.2'
+        text: Code that demonstrates the use of polymorphism is developed in accordance with Java framework
+      - number: '3.3'
+        text: Super and this syntax are used to access objects and constructors in accordance with Java framework
+      - number: '3.4'
+        text: Abstract classes and interfaces are used in accordance with Java framework
+      - number: '3.5'
+        text: How exceptions alter normal program flow are determined by creating a try-catch block.
+    - number: 4
+      title: Examine object-oriented concepts and terminology
+      performance_criteria:
+      - number: '4.1'
+        text: Important object-oriented (OO) concepts are described in accordance with Java framework
+      - number: '4.2'
+        text: Fundamental OO terminology are defined in accordance with Java framework
+    - number: 5
+      title: Explain modeling and software development process
+      performance_criteria:
+      - number: '5.1'
+        text: Object-Oriented Software Development (OOSD) process is explained in accordance with Java framework
+      - number: '5.2'
+        text: Benefits of modeling software are explained in accordance with Java framework
+      - number: '5.3'
+        text: Purpose, activities, and artifacts of the following OOSD workflows (disciplines) are explained
+    - number: 6
+      title: Create Use Case Diagrams and Use Case Scenarios
+      performance_criteria:
+      - number: '6.1'
+        text: The need for a Use Case Diagram is justified in accordance with Java framework
+      - number: '6.2'
+        text: Use Case Diagram for a software system is developed based on the goals of the business owner
+      - number: '6.3'
+        text: Use Case Diagrams is developed based on the goals of all the stakeholders
+      - number: '6.4'
+        text: Use Case form is created describing a summary of the scenarios in the main and alternate flows
+    - number: 7
+      title: Transition analysis to design using Interaction Diagrams
+      performance_criteria:
+      - number: '7.1'
+        text: Purpose and elements of the Design model are explained in accordance with Java framework
+      - number: '7.2'
+        text: Essential elements of a UML Communication diagram are identified in accordance with Java framework
+      - number: '7.3'
+        text: Communication diagram view of the Design model is created in accordance with Java framework
+      - number: '7.4'
+        text: Sequence diagram view of the Design model is created in accordance with Java framework
+    - number: 8
+      title: Introduce Architectural Concepts and Architecture Tiers Diagrams
+      performance_criteria:
+      - number: '8.1'
+        text: Difference between architecture and design is distinguished in accordance with Java framework
+      - number: '8.2'
+        text: Tiers, layers, and systemic qualities are described in accordance with Java framework
+      - number: '8.3'
+        text: Architecture workflow is described in accordance with Java framework
+      - number: '8.4'
+        text: Architecture Tiers are defined in accordance with Java framework
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n                                Italicized terms are elaborated\
+      \ in the Range of Variables\n1 Apply Basics of Java    1.1 Executable Java applications are created in\n  language \
+      \                   accordance with Java framework\n                          1.2 Java packages are imported to make\
+      \ them accessible in\n                              the code\n                          1.3 Working with Java Data types\
+      \ is demonstrated in\n                              accordance with Java framework\n                          1.4 Using\
+      \ Operators and Decision Constructs is\n                              demonstrated in accordance with Java framework\n\
+      \                          1.5 Creating and Using Arrays is demonstrated in\n                              accordance\
+      \ with Java framework\n                          1.6 Using Loop Constructs is demonstrated in accordance\n         \
+      \                     with Java framework\n2 Work with Methods       2.1 Methods with arguments and return values are\
+      \ created\n  and Encapsulation           in accordance with Java framework\n                          2.2 Static keywords\
+      \ are applied to methods and fields in\n                              accordance with Java framework\n             \
+      \             2.3 Overloaded method is created in accordance with Java\n                              framework\n  \
+      \                        2.4 Access modifiers are applied in accordance with Java\n                              framework\n\
+      \                          2.5 Encapsulation principled are applied to a class in\n                              accordance\
+      \ with Java framework\n3 Work with Inheritance 3.1 Inheritance is implemented in accordance with Java\n    and Handling\
+      \               framework\n    Exceptions             3.2 Code that demonstrates the use of polymorphism is\n      \
+      \                         developed in accordance with Java framework\n                           3.3 Super and this\
+      \ syntax are used to access objects and\n                               constructors in accordance with Java framework\n\
+      \                           3.4 Abstract classes and interfaces are used in accordance\n                           \
+      \    with Java framework\n                           3.5 How exceptions alter normal program flow are\n            \
+      \                   determined by creating a try-catch block.\n4. Examine Object-         4.1 Important object-oriented\
+      \ (OO) concepts are described\n   Oriented Concepts           in accordance with Java framework\n   and Terminology\
+      \         4.2 Fundamental OO terminology are defined in accordance\n                               with Java framework\n\
+      5. Explain Modeling and 5.1 Object-Oriented Software Development (OOSD) process\n   Software                    is explained\
+      \ in accordance with Java framework\n   Development Process 5.2 Benefits of modeling software are explained in\n   \
+      \                            accordance with Java framework\n                           5.3 Purpose, activities, and\
+      \ artifacts of the following OOSD\n                               workflows (disciplines) are explained\n6. Create Use\
+      \ Case         6.1 The need for a Use Case Diagram is justified in\n   Diagrams and Use            accordance with Java\
+      \ framework\n   Case Scenarios          6.2 Use Case Diagram for a software system is developed\n                  \
+      \             based on the goals of the business owner\n                           6.3 Use Case Diagrams is developed\
+      \ based on the goals of\n                               all the stakeholders\n                           6.4 Use Case\
+      \ form is created describing a summary of the\n                               scenarios in the main and alternate flows\n\
+      7. Transition Analysis to 7.1 Purpose and elements of the Design model are\n   Design using                explained\
+      \ in accordance with Java framework\n   Interaction Diagrams    7.2 Essential elements of a UML Communication diagram\n\
+      \                               are identified in accordance with Java framework\n                           7.3 Communication\
+      \ diagram view of the Design model is\n                               created in accordance with Java framework\n  \
+      \                         7.4 Sequence diagram view of the Design model is created\n                               in\
+      \ accordance with Java framework\n8. Introduce Architectural 8.1 Difference between architecture and design is\n   Concepts\
+      \ and                distinguished in accordance with Java framework\n   Architecture Tiers      8.2 Tiers, layers,\
+      \ and systemic qualities are described in\n   Diagrams                    accordance with Java framework\n         \
+      \                  8.3 Architecture workflow is described in accordance with\n                               Java framework\n\
+      \                           8.4 Architecture Tiers are defined in accordance with Java\n                           \
+      \    framework"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES:\n      VARIABLE                                                RANGE\n1. Executable Java\
+        \         •       Hello World\n   applications            •       Hello with name\n                           •  \
+        \     Hello with name and date\n2. Working with Java       •       Declare and initialize variables\n   Data Types\
+        \              •       Differentiate between object references and primitive\n                                   variables\n\
+        \                           •       Read and write to object fields\n                           •       Explain an\
+        \ object’s lifecycle (creation, dereference, and\n                                   garbage collection)\n       \
+        \                    •       Call methods on objects\n                           •       Manipulate data using StringBuilder\
+        \ class and its\n                                   methods\n                           •       Create and manipulate\
+        \ Strings\n3. Using Operators and     •       Use Java operators\n   Decision Constructs     •       Use parenthesis\
+        \ to override operator precedence\n                           •       Test equality between strings and other objects\
+        \ using ==\n                                   and equals()\n                           •       Create and use if-else\
+        \ constructs\n                           •       Use a switch statement\n4. Creating and Using      •       Declare,\
+        \ initialize, and use a one-dimensional array\n   Arrays                  •       Declare, initialize, and use a multi-dimensional\
+        \ array\n                           •       Declare and use an ArrayList\n5. Using Loop              •       Create\
+        \ and use while loops\n   Constructs              •       Create and use for loops including the enhanced for\n  \
+        \                                 loop\n                           •       Create and use do-while loops\n       \
+        \                    •       Compare loop constructs\n                           •       Use break and continue\n\
+        6. OOSD Workflows              •    Requirements Gathering\n                               •    Requirements Analysis,\n\
+        \                               •     Architecture and Design, Implementation\n                               •  \
+        \  Testing & Deployment\n7. Defining Architecture       •    Describe the concepts of the Client and Presentation\n\
+        \   Tiers                            tiers\n                               •    Describe the concepts of the Business\
+        \ tier\n                               •    Describe the concepts of the Resource and Integration\n              \
+        \                      tiers\n                               •    Describe the concepts of the Solution model"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n1.Critical aspect Assessment requires evidence that the candidate:\n  of competency 1.1 Applied\
+        \ Basics of Java language\n                  1.2 Worked with Methods and Encapsulation\n                  1.3 Worked\
+        \ with Inheritance and Handling Exceptions\n                  1.4 Use object-oriented technologies and perform object-oriented\n\
+        \                      analysis and design.\n                  1.5 Follow a software development process using an\
+        \ OO software\n                      project.\n                  1.6 Use the widely adopted graphical modeling language\
+        \ - the\n                      Unified Modeling Language (UML) version 2.2.\n                  1.7 Manage complexity\
+        \ of artifacts; describe the problem and\n                      proposed solution.\n2. Underpinning    2.1. Uses of\
+        \ various Java programming language constructs to create\n   Knowledge            several Java technology applications\n\
+        \                           o    Define the scope of variables\n                           o    Define the structure\
+        \ of a Java class\n                           o    Differentiate between default and user-defined constructors\n \
+        \                  2.2. Uses of decision and looping constructs and methods to dictate\n                        program\
+        \ flow\n                   2.3. Basic error handling for your Java technology programs\n                   2.4. Intermediate\
+        \ Java programming and object-oriented (OO) concepts\n                        in Java technology programs\n      \
+        \                     o Determine the effect upon object references and primitive\n                              \
+        \  values when they are passed into methods that change the\n                                values\n            \
+        \               o Differentiate between the type of a reference and the type of\n                                an\
+        \ object Determine when casting is necessary\n                   2.5. Java technology and the Java programming language\n\
+        \                   2.6. Understanding of basic object oriented concepts such as\n                        inheritance,\
+        \ encapsulation, and abstraction\n                   2.7. Uses and manipulation of object references to write simple\
+        \ error\n                        handling code\n                               o Differentiate among checked exceptions,\n\
+        \                                   RuntimeExceptions, and Error\n                               o Describe what exceptions\
+        \ are used for in Java\n                               o Invoke a method that throws an Exception\n              \
+        \                 o Recognize common exception classes and categories\n                   2.8 Recognize and document\
+        \ use case dependencies using UML notation\n                       for extends, includes, and generalization\n   \
+        \                2.9 Describe how to manage the complexity of Use Case Diagrams by\n                       creating\
+        \ UML packaged views Identify and document scenarios for a\n                       use case\n                   2.10\
+        \ Describe how to reference included and extending use cases\n                   2.11 Identify and document non-functional\
+        \ requirements (NFRs), business\n                       rules, risks, and priorities for a use case\n            \
+        \       2.12 Identify the purpose of a Supplementary Specification Document\n                   2.13 Identify the\
+        \ essential elements in an Activity diagram\n3. Underpinning    3.1. Basic computer operation skills\n   skills  \
+        \        3.2. Logic analysis\n                   3.3. Communication skills\n                   3.4. Code writing and\
+        \ debugging skills\n4. Method of       4.1 The assessor will assess candidate with-\n   assessment\n             \
+        \         •  Portfolio\n                            o Result of Oracle Vendor Examinations\n                     \
+        \       o Sample codes\n                      • Interview\n5.Resource         7.1 Computer with:\n  implication  \
+        \          7.1.1. UML tools\n                         7.1.2. Integrated Development Environment for Java\n       \
+        \            7.2 Access to internet\n                   7.3 Conducive testing environment\n6.Context of       Assessment\
+        \ may take place in an accredited Oracle testing center\n  assessment"
+    source_block: "UNIT OF COMPETENCY:        PERFORM OBJECT-ORIENTED ANALYSIS AND\n                           DESIGN IN JAVA\
+      \ TECHNOLOGY\nUNIT CODE:               ICT313359\nUNIT DESCRIPTOR:      This unit covers the knowledge, skills and attitude\
+      \ needed to use\n                      various Java programming language constructs to create several\n            \
+      \          Java technology applications. Specifically, it consist of\n                      competencies in applying\
+      \ basics of Java language, working with\n                      methods and encapsulation, and working with inheritance\
+      \ and\n                      handling exceptions.\n                      It also focuses on effectively using object-oriented\
+      \ technologies\n                      and the use of software modeling, as applied to a software\n                 \
+      \     development process. Students will learn to present one practical\n                      & complete object-oriented\
+      \ analysis and design (OOAD)\n                      roadmap, and will get hands-on experience, from requirements\n \
+      \                     gathering to system design.\n      ELEMENT                              PERFORMANCE CRITERIA\n\
+      \                                Italicized terms are elaborated in the Range of Variables\n1 Apply Basics of Java \
+      \   1.1 Executable Java applications are created in\n  language                    accordance with Java framework\n\
+      \                          1.2 Java packages are imported to make them accessible in\n                             \
+      \ the code\n                          1.3 Working with Java Data types is demonstrated in\n                        \
+      \      accordance with Java framework\n                          1.4 Using Operators and Decision Constructs is\n  \
+      \                            demonstrated in accordance with Java framework\n                          1.5 Creating\
+      \ and Using Arrays is demonstrated in\n                              accordance with Java framework\n              \
+      \            1.6 Using Loop Constructs is demonstrated in accordance\n                              with Java framework\n\
+      2 Work with Methods       2.1 Methods with arguments and return values are created\n  and Encapsulation           in\
+      \ accordance with Java framework\n                          2.2 Static keywords are applied to methods and fields in\n\
+      \                              accordance with Java framework\n                          2.3 Overloaded method is created\
+      \ in accordance with Java\n                              framework\n                          2.4 Access modifiers are\
+      \ applied in accordance with Java\n                              framework\n                          2.5 Encapsulation\
+      \ principled are applied to a class in\n                              accordance with Java framework\n3 Work with Inheritance\
+      \ 3.1 Inheritance is implemented in accordance with Java\n    and Handling               framework\n    Exceptions \
+      \            3.2 Code that demonstrates the use of polymorphism is\n                               developed in accordance\
+      \ with Java framework\n                           3.3 Super and this syntax are used to access objects and\n       \
+      \                        constructors in accordance with Java framework\n                           3.4 Abstract classes\
+      \ and interfaces are used in accordance\n                               with Java framework\n                      \
+      \     3.5 How exceptions alter normal program flow are\n                               determined by creating a try-catch\
+      \ block.\n4. Examine Object-         4.1 Important object-oriented (OO) concepts are described\n   Oriented Concepts\
+      \           in accordance with Java framework\n   and Terminology         4.2 Fundamental OO terminology are defined\
+      \ in accordance\n                               with Java framework\n5. Explain Modeling and 5.1 Object-Oriented Software\
+      \ Development (OOSD) process\n   Software                    is explained in accordance with Java framework\n   Development\
+      \ Process 5.2 Benefits of modeling software are explained in\n                               accordance with Java framework\n\
+      \                           5.3 Purpose, activities, and artifacts of the following OOSD\n                         \
+      \      workflows (disciplines) are explained\n6. Create Use Case         6.1 The need for a Use Case Diagram is justified\
+      \ in\n   Diagrams and Use            accordance with Java framework\n   Case Scenarios          6.2 Use Case Diagram\
+      \ for a software system is developed\n                               based on the goals of the business owner\n    \
+      \                       6.3 Use Case Diagrams is developed based on the goals of\n                               all\
+      \ the stakeholders\n                           6.4 Use Case form is created describing a summary of the\n          \
+      \                     scenarios in the main and alternate flows\n7. Transition Analysis to 7.1 Purpose and elements\
+      \ of the Design model are\n   Design using                explained in accordance with Java framework\n   Interaction\
+      \ Diagrams    7.2 Essential elements of a UML Communication diagram\n                               are identified in\
+      \ accordance with Java framework\n                           7.3 Communication diagram view of the Design model is\n\
+      \                               created in accordance with Java framework\n                           7.4 Sequence diagram\
+      \ view of the Design model is created\n                               in accordance with Java framework\n8. Introduce\
+      \ Architectural 8.1 Difference between architecture and design is\n   Concepts and                distinguished in accordance\
+      \ with Java framework\n   Architecture Tiers      8.2 Tiers, layers, and systemic qualities are described in\n   Diagrams\
+      \                    accordance with Java framework\n                           8.3 Architecture workflow is described\
+      \ in accordance with\n                               Java framework\n                           8.4 Architecture Tiers\
+      \ are defined in accordance with Java\n                               framework\nRANGE OF VARIABLES:\n      VARIABLE\
+      \                                                RANGE\n1. Executable Java         •       Hello World\n   applications\
+      \            •       Hello with name\n                           •       Hello with name and date\n2. Working with Java\
+      \       •       Declare and initialize variables\n   Data Types              •       Differentiate between object references\
+      \ and primitive\n                                   variables\n                           •       Read and write to\
+      \ object fields\n                           •       Explain an object’s lifecycle (creation, dereference, and\n    \
+      \                               garbage collection)\n                           •       Call methods on objects\n  \
+      \                         •       Manipulate data using StringBuilder class and its\n                              \
+      \     methods\n                           •       Create and manipulate Strings\n3. Using Operators and     •      \
+      \ Use Java operators\n   Decision Constructs     •       Use parenthesis to override operator precedence\n         \
+      \                  •       Test equality between strings and other objects using ==\n                              \
+      \     and equals()\n                           •       Create and use if-else constructs\n                         \
+      \  •       Use a switch statement\n4. Creating and Using      •       Declare, initialize, and use a one-dimensional\
+      \ array\n   Arrays                  •       Declare, initialize, and use a multi-dimensional array\n               \
+      \            •       Declare and use an ArrayList\n5. Using Loop              •       Create and use while loops\n \
+      \  Constructs              •       Create and use for loops including the enhanced for\n                           \
+      \        loop\n                           •       Create and use do-while loops\n                           •      \
+      \ Compare loop constructs\n                           •       Use break and continue\n6. OOSD Workflows            \
+      \  •    Requirements Gathering\n                               •    Requirements Analysis,\n                       \
+      \        •     Architecture and Design, Implementation\n                               •    Testing & Deployment\n7.\
+      \ Defining Architecture       •    Describe the concepts of the Client and Presentation\n   Tiers                  \
+      \          tiers\n                               •    Describe the concepts of the Business tier\n                 \
+      \              •    Describe the concepts of the Resource and Integration\n                                    tiers\n\
+      \                               •    Describe the concepts of the Solution model\nEVIDENCE GUIDE\n1.Critical aspect\
+      \ Assessment requires evidence that the candidate:\n  of competency 1.1 Applied Basics of Java language\n          \
+      \        1.2 Worked with Methods and Encapsulation\n                  1.3 Worked with Inheritance and Handling Exceptions\n\
+      \                  1.4 Use object-oriented technologies and perform object-oriented\n                      analysis\
+      \ and design.\n                  1.5 Follow a software development process using an OO software\n                  \
+      \    project.\n                  1.6 Use the widely adopted graphical modeling language - the\n                    \
+      \  Unified Modeling Language (UML) version 2.2.\n                  1.7 Manage complexity of artifacts; describe the\
+      \ problem and\n                      proposed solution.\n2. Underpinning    2.1. Uses of various Java programming language\
+      \ constructs to create\n   Knowledge            several Java technology applications\n                           o \
+      \   Define the scope of variables\n                           o    Define the structure of a Java class\n          \
+      \                 o    Differentiate between default and user-defined constructors\n                   2.2. Uses of\
+      \ decision and looping constructs and methods to dictate\n                        program flow\n                   2.3.\
+      \ Basic error handling for your Java technology programs\n                   2.4. Intermediate Java programming and\
+      \ object-oriented (OO) concepts\n                        in Java technology programs\n                           o Determine\
+      \ the effect upon object references and primitive\n                                values when they are passed into\
+      \ methods that change the\n                                values\n                           o Differentiate between\
+      \ the type of a reference and the type of\n                                an object Determine when casting is necessary\n\
+      \                   2.5. Java technology and the Java programming language\n                   2.6. Understanding of\
+      \ basic object oriented concepts such as\n                        inheritance, encapsulation, and abstraction\n    \
+      \               2.7. Uses and manipulation of object references to write simple error\n                        handling\
+      \ code\n                               o Differentiate among checked exceptions,\n                                 \
+      \  RuntimeExceptions, and Error\n                               o Describe what exceptions are used for in Java\n  \
+      \                             o Invoke a method that throws an Exception\n                               o Recognize\
+      \ common exception classes and categories\n                   2.8 Recognize and document use case dependencies using\
+      \ UML notation\n                       for extends, includes, and generalization\n                   2.9 Describe how\
+      \ to manage the complexity of Use Case Diagrams by\n                       creating UML packaged views Identify and\
+      \ document scenarios for a\n                       use case\n                   2.10 Describe how to reference included\
+      \ and extending use cases\n                   2.11 Identify and document non-functional requirements (NFRs), business\n\
+      \                       rules, risks, and priorities for a use case\n                   2.12 Identify the purpose of\
+      \ a Supplementary Specification Document\n                   2.13 Identify the essential elements in an Activity diagram\n\
+      3. Underpinning    3.1. Basic computer operation skills\n   skills          3.2. Logic analysis\n                  \
+      \ 3.3. Communication skills\n                   3.4. Code writing and debugging skills\n4. Method of       4.1 The assessor\
+      \ will assess candidate with-\n   assessment\n                      •  Portfolio\n                            o Result\
+      \ of Oracle Vendor Examinations\n                            o Sample codes\n                      • Interview\n5.Resource\
+      \         7.1 Computer with:\n  implication            7.1.1. UML tools\n                         7.1.2. Integrated\
+      \ Development Environment for Java\n                   7.2 Access to internet\n                   7.3 Conducive testing\
+      \ environment\n6.Context of       Assessment may take place in an accredited Oracle testing center\n  assessment"
+    fidelity_refs:
+    - tesda:unit:ICT313359:evidence-resource-numbering
+  - unit_code: ICT313360
+    title: Create and fine tune Java technology applications using object-oriented programming concept
+    printed_pages: 35-39
+    pdf_pages: 37-41
+    descriptor: ''
+    elements:
+    - number: 1
+      title: Apply Basics of Java Class Design
+      performance_criteria:
+      - number: '1.1'
+        text: Access modifiers are used in accordance with Java framework
+      - number: '1.2'
+        text: Instance of operator and casting are used in accordance with Java framework
+      - number: '1.3'
+        text: Virtual method invocation is used in accordance with Java framework
+      - number: '1.4'
+        text: Override methods from the Object class are used to improve the functionality of class
+      - number: '1.5'
+        text: Package and import statements are used in accordance with Java framework
+    - number: 2
+      title: Apply Java Advanced Class Design and Object Oriented Design Principles
+      performance_criteria:
+      - number: '2.1'
+        text: Proper use of when and how to apply abstract classes is identified
+      - number: '2.2'
+        text: Abstract Java classes and subclasses are constructed in accordance with Java framework
+      - number: '2.3'
+        text: Static and final keywords are used in accordance with Java framework
+      - number: '2.4'
+        text: Top-level and nested classes are created in accordance with Java framework
+      - number: '2.5'
+        text: Enumerated types are used in accordance with Java framework
+      - number: '2.6'
+        text: Write code that declares, implements, and/or extends interfaces
+      - number: '2.7'
+        text: Object Oriented Design Principles are applied in accordance with Java framework
+      - number: '2.8'
+        text: Generics and Collections Principles are used in accordance with Java framework
+    - number: 3
+      title: Apply String Processing, Exceptions and Assertions
+      performance_criteria:
+      - number: '3.1'
+        text: Search, parse, and build strings are used in accordance with Java framework
+      - number: '3.2'
+        text: String formatting is used in accordance with Java framework
+      - number: '3.3'
+        text: Throw and throws statements are used in accordance with Java framework
+      - number: '3.4'
+        text: Try statement with multi-catch is used in accordance with Java framework
+      - number: '3.5'
+        text: Autoclose features with a try-with-resources statement are used in accordance with Java framework
+      - number: '3.6'
+        text: Custom exceptions are created in accordance with Java framework
+      - number: '3.7'
+        text: Invariants by using assertions are tested in accordance with Java framework
+    - number: 4
+      title: Build Database Applications with JDBC
+      performance_criteria:
+      - number: '4.1'
+        text: Layout of the JDBC API is defined in accordance with Java framework
+      - number: '4.2'
+        text: JDBC driver is used to connect to database in accordance with Java framework
+      - number: '4.3'
+        text: JDBC RowSetProvider, RowSetFactory, and RowSet interfaces are used in accordance with Java framework
+      - number: '4.4'
+        text: PreparedStatement and CallableStatement objects are created and used
+    - number: 5
+      title: Monitor Operating System Performance
+      performance_criteria:
+      - number: '5.1'
+        text: Monitoring CPU Usage is demonstrated in accordance with Java framework
+      - number: '5.2'
+        text: Monitoring Network I/O is demonstrated in accordance with Java framework
+      - number: '5.3'
+        text: Monitoring Disk I/O is demonstrated in accordance with Java framework
+      - number: '5.4'
+        text: Monitoring Virtual Memory Usage is Demonstrated in accordance with Java framework
+      - number: '5.5'
+        text: Monitoring Java Virtual Machine is demonstrated in accordance with Java framework
+      - number: '5.6'
+        text: Garbage Collection Tuning is demonstrated in accordance with Java framework
+    - number: 6
+      title: Work with Language Level Concerns and Garbage Collection
+      performance_criteria:
+      - number: '6.1'
+        text: Garbage Collection Algorithms are created in accordance with Java framework
+      - number: '6.2'
+        text: Types of Garbage Collectors are demonstrated in accordance with Java framework
+      - number: '6.3'
+        text: JVM Ergonomics are demonstrated in accordance with Java framework
+      - number: '6.4'
+        text: Garbage Collection is tuned in accordance with Java framework
+      - number: '6.5'
+        text: Correct Garbage Collector is selected in accordance with Java framework
+      - number: '6.6'
+        text: Garbage Collection Output is interpreted in accordance with Java framework
+    - number: 7
+      title: Work with Performance Tuning at the Language Level
+      performance_criteria:
+      - number: '7.1'
+        text: Reference Types in Java are demonstrated in accordance with Java framework
+      - number: '7.2'
+        text: The use of Finalizers is demonstrated in accordance with Java framework
+      - number: '7.3'
+        text: String-efficient Java Applications are demonstrated in accordance with Java framework
+      - number: '7.4'
+        text: Collection Classes are demonstrated in accordance with Java framework
+      - number: '7.5'
+        text: Threads are used in accordance with Java framework
+      - number: '7.6'
+        text: I/O is efficiently used in accordance with Java framework
+    performance_criteria_source_table: "PERFORMANCE CRITERIA\n                               Italicized terms are elaborated\
+      \ in the Range of Variables\n1. Apply Basics of     1.1 Access modifiers are used in accordance with Java\n   Java Class\
+      \ Design       framework\n                       1.2 Instance of operator and casting are used in accordance\n     \
+      \                      with Java framework\n                       1.3 Virtual method invocation is used in accordance\
+      \ with Java\n                           framework\n                       1.4 Override methods from the Object class\
+      \ are used to\n                           improve the functionality of class\n                       1.5 Package and\
+      \ import statements are used in accordance\n                           with Java framework\n2. Apply Java          2.1\
+      \ Proper use of when and how to apply abstract classes is\n   Advanced Class          identified\n   Design and Object\
+      \   2.2 Abstract Java classes and subclasses are constructed in\n   Oriented Design         accordance with Java framework\n\
+      \   Principles          2.3 Static and final keywords are used in accordance with Java\n                           framework\n\
+      \                       2.4 Top-level and nested classes are created in accordance\n                           with\
+      \ Java framework\n                       2.5 Enumerated types are used in accordance with Java\n                   \
+      \        framework\n                       2.6 Write code that declares, implements, and/or extends\n              \
+      \             interfaces\n                       2.7 Object Oriented Design Principles are applied in\n            \
+      \               accordance with Java framework\n                       2.8 Generics and Collections Principles are used\
+      \ in\n                           accordance with Java framework\n3. Apply String        3.1 Search, parse, and build\
+      \ strings are used in accordance\n   Processing,             with Java framework\n   Exceptions and      3.2 String\
+      \ formatting is used in accordance with Java framework\n   Assertions          3.3 Throw and throws statements are used\
+      \ in accordance with\n                           Java framework\n                       3.4 Try statement with multi-catch\
+      \ is used in accordance with\n                           Java framework\n                       3.5 Autoclose features\
+      \ with a try-with-resources statement are\n                           used in accordance with Java framework\n     \
+      \                  3.6 Custom exceptions are created in accordance with Java\n                           framework\n\
+      \                       3.7 Invariants by using assertions are tested in accordance with\n                         \
+      \  Java framework\n4. Build Database      4.1 Layout of the JDBC API is defined in accordance with Java\n   Applications\
+      \ with       framework\n   JDBC                4.2 JDBC driver is used to connect to database in accordance\n      \
+      \                     with Java framework\n                       4.3 JDBC RowSetProvider, RowSetFactory, and RowSet\n\
+      \                           interfaces are used in accordance with Java framework\n                       4.4 PreparedStatement\
+      \ and CallableStatement objects are\n                           created and used\n5. Monitor Operating   5.1 Monitoring\
+      \ CPU Usage is demonstrated in accordance with\n   System                  Java framework\n   Performance         5.2\
+      \ Monitoring Network I/O is demonstrated in accordance with\n                           Java framework\n           \
+      \            5.3 Monitoring Disk I/O is demonstrated in accordance with\n                           Java framework\n\
+      \                       5.4 Monitoring Virtual Memory Usage is Demonstrated in\n                           accordance\
+      \ with Java framework\n                       5.5 Monitoring Java Virtual Machine is demonstrated in\n             \
+      \              accordance with Java framework\n                       5.6 Garbage Collection Tuning is demonstrated\
+      \ in accordance\n                           with Java framework\n6. Work with           6.1 Garbage Collection Algorithms\
+      \ are created in accordance\n   Language Level          with Java framework\n   Concerns and        6.2 Types of Garbage\
+      \ Collectors are demonstrated in\n   Garbage                 accordance with Java framework\n   Collection         \
+      \ 6.3 JVM Ergonomics are demonstrated in accordance with Java\n                           framework\n              \
+      \         6.4 Garbage Collection is tuned in accordance with Java\n                           framework\n          \
+      \             6.5 Correct Garbage Collector is selected in accordance with\n                           Java framework\n\
+      \                       6.6 Garbage Collection Output is interpreted in accordance with\n                          \
+      \ Java framework\n7. Work with           7.1 Reference Types in Java are demonstrated in accordance\n   Performance\
+      \             with Java framework\n   Tuning at the       7.2 The use of Finalizers is demonstrated in accordance with\n\
+      \   Language Level          Java framework\n                       7.3 String-efficient Java Applications are demonstrated\
+      \ in\n                           accordance with Java framework\n                       7.4 Collection Classes are demonstrated\
+      \ in accordance with\n                           Java framework\n                       7.5 Threads are used in accordance\
+      \ with Java framework\n                       7.6 I/O is efficiently used in accordance with Java framework"
+    range_of_variables:
+      raw_text: "RANGE OF VARIABLES\n     VARIABLE                                          RANGE\n1. Access Modifiers   \
+        \  • private,\n                        • protected,\n                        • public\n2. Object Class         • (hashCode(),\n\
+        \                        • equals(),\n                        • toString())\n3 Object Oriented       • Choose between\
+        \ interface inheritance and class inheritance\n                        • Develop code that implements IS-A and/or\
+        \ HAS-A\n  Design Principles       relationships (apply high cohesion and low coupling\n                         \
+        \ principles)\n                        • Apply object composition principles (including HAS-A\n                  \
+        \        relationships)\n                        • Design a class using the Singleton design pattern\n           \
+        \             • Write code to implement the Data Access Object (DAO)\n                          pattern\n        \
+        \                • Design and create objects using a Factory, and use factories\n                          from the\
+        \ API\n4. Generics and         • Use the diamond syntax to create a collection and for type\n   Collections      \
+        \      inference\n   Principles           • Analyze the interoperability of collections that use raw types\n     \
+        \                     and generic types\n                        • Use wrapper classes, autoboxing and unboxing\n\
+        \                        • Create and use List, Set, and Deque implementations\n                        • Create and\
+        \ use a Map\n                        • Use java.util.Comparator and java.lang.Comparable\n                       \
+        \ • Sort and search arrays and lists\n5. Build Strings        • Scanner\n                        • StringTokenizer\n\
+        \                        • StringBuilder\n                        • String\n                        • Formatter\n\
+        6. Java Virtual         • HotSpot Generational Garbage Collector\n   Machine              • Monitor the Garbage Collector\
+        \ with Command Line Tools\n                        • Monitor the Garbage Collector with VisualVM\n               \
+        \         • Monitor the JIT Compiler\n                        • Throughput and Responsiveness\n7. Garbage Collection\
+        \   • Find Memory Leaks\n   Tuning               • Identify Lock Contention\n                        • Heap Profiling\
+        \ Anti-patterns\n                        • Method Profiling Anti-patterns\n                        • Garbage Collection\n\
+        \                        • Generational Garbage Collection\n                        • GC Performance Metrics"
+    evidence_guide:
+      raw_text: "EVIDENCE GUIDE\n1. Critical Aspect of     1.1 Performed multiple operations on database tables,\n   Competency\
+        \                  including creating, reading, updating and deleting using\n                               JDBC technology\n\
+        \                          1.2 Process strings using a variety of regular expressions\n                          \
+        \     and create high-performing multi-threaded applications\n                               that avoid deadlock\n\
+        \                          1.3 Implement input/output (I/O) functionality to read from\n                         \
+        \      and write to data and text files and understand\n                               advanced I/O streams\n    \
+        \                      1.4 Create Java technology applications that leverage the\n                               object-oriented\
+        \ features of the Java language, such as\n                               encapsulation, inheritance, and polymorphism\n\
+        \                          1.5 Set up a performance-tuning environment\n                          1.6 Monitor Java\
+        \ applications\n                          1.7 Apply rigor to the task of performance tuning\n                    \
+        \      1.8 Use various tools and mechanisms for monitoring,\n                              profiling and tuning Java\
+        \ applications\n2. Underpinning           2.1 Knowledge of Java I/O Fundamentals\n   Knowledge                 • Read\
+        \ and write data from the console\n                             • Use streams to read and write files\n          \
+        \                2.2 Knowledge Java File I/O (NIO.2)\n                             • Use the Path class to operate\
+        \ on file and directory\n                                 paths\n                             • Use the Files class\
+        \ to check, delete, copy, or move a\n                                 file or directory\n                        \
+        \     • Read and change file and directory attributes\n                             • Recursively access a directory\
+        \ tree using the\n                                 DirectoryStream and FileVisitor interfaces\n                  \
+        \           • Find a class using the PathMatcher class\n                             • Watch a directory for changes\
+        \ by using\n                                 WatcherService\n                          2.3 Understand fundamentals\
+        \ of Java Virtual Machine\n                             • Performance Principles\n                             • Common\
+        \ Performance Problems\n                             • Performance Methodology\n                             • Development\
+        \ and Performance\n                          2.4 Apply basic performance tuning principles to a Java\n           \
+        \                   application\n                          2.5 Profile the performance of a Java Application and tune\n\
+        \                              the performance of a Java application at the language\n                           \
+        \   level\n3. Underpinning Skills    3.1 Basic computer operation skills\n                          3.2 Logic analysis\n\
+        \                          3.3 Communication skills\n                          3.4 Code writing and debugging skills\n\
+        4. Method of              The assessor will assess candidate with-\n   Assessment\n                          4.1 Portfolio\n\
+        \                                    o     Result of Oracle Vendor Examinations\n                                \
+        \    o     Sample codes\n                          4.2 Interview\n5. Resource Implication   5.1 Computer with:\n \
+        \                            •  UML tools\n                             •  Integrated Development Environment for\
+        \ Java\n                          5.2 Access to internet\n                          5.3 Conducive testing environment\n\
+        6. Context of             Assessment may take place in an accredited Oracle testing\n   Assessment             center"
+    source_block: "UNIT OF COMPETENCY: CREATE AND FINE TUNE JAVA TECHNOLOGY\n                    APPLICATIONS USING OBJECT-ORIENTED\n\
+      \                    PROGRAMMING CONCEPT\nUNIT CODE              :   ICT313360\nUNIT DESCRIPTION : This unit covers\
+      \ the core Application Programming Interfaces\n                   (API) used to design object-oriented applications\
+      \ with Java.\n                   Students will learn how to write database programs with JDBC.\n                   This\
+      \ unit also covers performance-tuning methodologies,\n                   performance tuning theories and practical tips\
+      \ on solving difficult\n                   performance problems for Java applications. It also covers how\n        \
+      \           to implement interfaces and handle Java programming\n                   exceptions, while using object-oriented\
+      \ programming techniques.\n     ELEMENT                              PERFORMANCE CRITERIA\n                        \
+      \       Italicized terms are elaborated in the Range of Variables\n1. Apply Basics of     1.1 Access modifiers are used\
+      \ in accordance with Java\n   Java Class Design       framework\n                       1.2 Instance of operator and\
+      \ casting are used in accordance\n                           with Java framework\n                       1.3 Virtual\
+      \ method invocation is used in accordance with Java\n                           framework\n                       1.4\
+      \ Override methods from the Object class are used to\n                           improve the functionality of class\n\
+      \                       1.5 Package and import statements are used in accordance\n                           with Java\
+      \ framework\n2. Apply Java          2.1 Proper use of when and how to apply abstract classes is\n   Advanced Class \
+      \         identified\n   Design and Object   2.2 Abstract Java classes and subclasses are constructed in\n   Oriented\
+      \ Design         accordance with Java framework\n   Principles          2.3 Static and final keywords are used in accordance\
+      \ with Java\n                           framework\n                       2.4 Top-level and nested classes are created\
+      \ in accordance\n                           with Java framework\n                       2.5 Enumerated types are used\
+      \ in accordance with Java\n                           framework\n                       2.6 Write code that declares,\
+      \ implements, and/or extends\n                           interfaces\n                       2.7 Object Oriented Design\
+      \ Principles are applied in\n                           accordance with Java framework\n                       2.8 Generics\
+      \ and Collections Principles are used in\n                           accordance with Java framework\n3. Apply String\
+      \        3.1 Search, parse, and build strings are used in accordance\n   Processing,             with Java framework\n\
+      \   Exceptions and      3.2 String formatting is used in accordance with Java framework\n   Assertions          3.3\
+      \ Throw and throws statements are used in accordance with\n                           Java framework\n             \
+      \          3.4 Try statement with multi-catch is used in accordance with\n                           Java framework\n\
+      \                       3.5 Autoclose features with a try-with-resources statement are\n                           used\
+      \ in accordance with Java framework\n                       3.6 Custom exceptions are created in accordance with Java\n\
+      \                           framework\n                       3.7 Invariants by using assertions are tested in accordance\
+      \ with\n                           Java framework\n4. Build Database      4.1 Layout of the JDBC API is defined in accordance\
+      \ with Java\n   Applications with       framework\n   JDBC                4.2 JDBC driver is used to connect to database\
+      \ in accordance\n                           with Java framework\n                       4.3 JDBC RowSetProvider, RowSetFactory,\
+      \ and RowSet\n                           interfaces are used in accordance with Java framework\n                   \
+      \    4.4 PreparedStatement and CallableStatement objects are\n                           created and used\n5. Monitor\
+      \ Operating   5.1 Monitoring CPU Usage is demonstrated in accordance with\n   System                  Java framework\n\
+      \   Performance         5.2 Monitoring Network I/O is demonstrated in accordance with\n                           Java\
+      \ framework\n                       5.3 Monitoring Disk I/O is demonstrated in accordance with\n                   \
+      \        Java framework\n                       5.4 Monitoring Virtual Memory Usage is Demonstrated in\n           \
+      \                accordance with Java framework\n                       5.5 Monitoring Java Virtual Machine is demonstrated\
+      \ in\n                           accordance with Java framework\n                       5.6 Garbage Collection Tuning\
+      \ is demonstrated in accordance\n                           with Java framework\n6. Work with           6.1 Garbage\
+      \ Collection Algorithms are created in accordance\n   Language Level          with Java framework\n   Concerns and \
+      \       6.2 Types of Garbage Collectors are demonstrated in\n   Garbage                 accordance with Java framework\n\
+      \   Collection          6.3 JVM Ergonomics are demonstrated in accordance with Java\n                           framework\n\
+      \                       6.4 Garbage Collection is tuned in accordance with Java\n                           framework\n\
+      \                       6.5 Correct Garbage Collector is selected in accordance with\n                           Java\
+      \ framework\n                       6.6 Garbage Collection Output is interpreted in accordance with\n              \
+      \             Java framework\n7. Work with           7.1 Reference Types in Java are demonstrated in accordance\n  \
+      \ Performance             with Java framework\n   Tuning at the       7.2 The use of Finalizers is demonstrated in accordance\
+      \ with\n   Language Level          Java framework\n                       7.3 String-efficient Java Applications are\
+      \ demonstrated in\n                           accordance with Java framework\n                       7.4 Collection\
+      \ Classes are demonstrated in accordance with\n                           Java framework\n                       7.5\
+      \ Threads are used in accordance with Java framework\n                       7.6 I/O is efficiently used in accordance\
+      \ with Java framework\nRANGE OF VARIABLES\n     VARIABLE                                          RANGE\n1. Access Modifiers\
+      \     • private,\n                        • protected,\n                        • public\n2. Object Class         •\
+      \ (hashCode(),\n                        • equals(),\n                        • toString())\n3 Object Oriented      \
+      \ • Choose between interface inheritance and class inheritance\n                        • Develop code that implements\
+      \ IS-A and/or HAS-A\n  Design Principles       relationships (apply high cohesion and low coupling\n               \
+      \           principles)\n                        • Apply object composition principles (including HAS-A\n          \
+      \                relationships)\n                        • Design a class using the Singleton design pattern\n     \
+      \                   • Write code to implement the Data Access Object (DAO)\n                          pattern\n    \
+      \                    • Design and create objects using a Factory, and use factories\n                          from\
+      \ the API\n4. Generics and         • Use the diamond syntax to create a collection and for type\n   Collections    \
+      \        inference\n   Principles           • Analyze the interoperability of collections that use raw types\n     \
+      \                     and generic types\n                        • Use wrapper classes, autoboxing and unboxing\n  \
+      \                      • Create and use List, Set, and Deque implementations\n                        • Create and use\
+      \ a Map\n                        • Use java.util.Comparator and java.lang.Comparable\n                        • Sort\
+      \ and search arrays and lists\n5. Build Strings        • Scanner\n                        • StringTokenizer\n      \
+      \                  • StringBuilder\n                        • String\n                        • Formatter\n6. Java Virtual\
+      \         • HotSpot Generational Garbage Collector\n   Machine              • Monitor the Garbage Collector with Command\
+      \ Line Tools\n                        • Monitor the Garbage Collector with VisualVM\n                        • Monitor\
+      \ the JIT Compiler\n                        • Throughput and Responsiveness\n7. Garbage Collection   • Find Memory Leaks\n\
+      \   Tuning               • Identify Lock Contention\n                        • Heap Profiling Anti-patterns\n      \
+      \                  • Method Profiling Anti-patterns\n                        • Garbage Collection\n                \
+      \        • Generational Garbage Collection\n                        • GC Performance Metrics\nEVIDENCE GUIDE\n1. Critical\
+      \ Aspect of     1.1 Performed multiple operations on database tables,\n   Competency                  including creating,\
+      \ reading, updating and deleting using\n                               JDBC technology\n                          1.2\
+      \ Process strings using a variety of regular expressions\n                               and create high-performing\
+      \ multi-threaded applications\n                               that avoid deadlock\n                          1.3 Implement\
+      \ input/output (I/O) functionality to read from\n                               and write to data and text files and\
+      \ understand\n                               advanced I/O streams\n                          1.4 Create Java technology\
+      \ applications that leverage the\n                               object-oriented features of the Java language, such\
+      \ as\n                               encapsulation, inheritance, and polymorphism\n                          1.5 Set\
+      \ up a performance-tuning environment\n                          1.6 Monitor Java applications\n                   \
+      \       1.7 Apply rigor to the task of performance tuning\n                          1.8 Use various tools and mechanisms\
+      \ for monitoring,\n                              profiling and tuning Java applications\n2. Underpinning           2.1\
+      \ Knowledge of Java I/O Fundamentals\n   Knowledge                 • Read and write data from the console\n        \
+      \                     • Use streams to read and write files\n                          2.2 Knowledge Java File I/O (NIO.2)\n\
+      \                             • Use the Path class to operate on file and directory\n                              \
+      \   paths\n                             • Use the Files class to check, delete, copy, or move a\n                  \
+      \               file or directory\n                             • Read and change file and directory attributes\n  \
+      \                           • Recursively access a directory tree using the\n                                 DirectoryStream\
+      \ and FileVisitor interfaces\n                             • Find a class using the PathMatcher class\n            \
+      \                 • Watch a directory for changes by using\n                                 WatcherService\n      \
+      \                    2.3 Understand fundamentals of Java Virtual Machine\n                             • Performance\
+      \ Principles\n                             • Common Performance Problems\n                             • Performance\
+      \ Methodology\n                             • Development and Performance\n                          2.4 Apply basic\
+      \ performance tuning principles to a Java\n                              application\n                          2.5\
+      \ Profile the performance of a Java Application and tune\n                              the performance of a Java application\
+      \ at the language\n                              level\n3. Underpinning Skills    3.1 Basic computer operation skills\n\
+      \                          3.2 Logic analysis\n                          3.3 Communication skills\n                \
+      \          3.4 Code writing and debugging skills\n4. Method of              The assessor will assess candidate with-\n\
+      \   Assessment\n                          4.1 Portfolio\n                                    o     Result of Oracle\
+      \ Vendor Examinations\n                                    o     Sample codes\n                          4.2 Interview\n\
+      5. Resource Implication   5.1 Computer with:\n                             •  UML tools\n                          \
+      \   •  Integrated Development Environment for Java\n                          5.2 Access to internet\n             \
+      \             5.3 Conducive testing environment\n6. Context of             Assessment may take place in an accredited\
+      \ Oracle testing\n   Assessment             center"
+counts:
+  units: 10
+  elements: 43
+  parsed_performance_criteria: 183
+parsing_note: Each unit retains the full cleaned source block and full performance-criteria table so source content remains
+  available even where PDF table layout complicates field parsing.

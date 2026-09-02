@@ -1,0 +1,513 @@
+schema: tesda-tr-glossary
+schema_version: '1.1'
+qualification_id: tesda:tr:programming-java-nc-iii:2021-06-08
+qualification: PROGRAMMING (JAVA) NC III
+coverage_status: complete
+representation_type: semantic_normalized
+verbatim_transcription: false
+source:
+  heading: DEFINITION OF TERMS
+  printed_pages: 48-53
+  pdf_pages: 50-55
+groups:
+  general:
+  - number: 1
+    term: Certification
+    definition: is the process of verifying and validating the competencies of a person through assessment
+  - number: 2
+    term: Certificate of Competency (COC)
+    definition: is a certification issued to individuals who pass the assessment for a single unit or cluster of units of
+      competency
+  - number: 3
+    term: Common Competencies
+    definition: are the skills and knowledge needed by all people working in a particular industry
+  - number: 4
+    term: Competency
+    definition: is the possession and application of knowledge, skills and attitudes to perform work activities to the standard
+      expected in the workplace
+  - number: 5
+    term: Competency Assessment
+    definition: is the process of collecting evidence and making judgments on whether competency has been achieved
+  - number: 6
+    term: Competency Standard (CS)
+    definition: is the industry-determined specification of competencies required for effective work performance
+  - number: 7
+    term: Context of Assessment
+    definition: refers to the place where assessment is to be conducted or carried out
+  - number: 8
+    term: Core Competencies
+    definition: are the specific skills and knowledge needed in a particular area of work - industry sector/occupation/job
+      role
+  - number: 9
+    term: Critical aspects of competency
+    definition: refers to the evidence that is essential for successful performance of the unit of competency
+  - number: 10
+    term: Elective Competencies
+    definition: are the additional skills and knowledge required by the individual or enterprise for work
+  - number: 11
+    term: Elements
+    definition: are the building blocks of a unit of competency. They describe in outcome terms the functions that a person
+      perform in the workplace
+  - number: 12
+    term: Evidence Guide
+    definition: is a component of the unit of competency that defines or identifies the evidences required to determine the
+      competence of the individual. It provides information on critical aspects of competency, underpinning knowledge, underpinning
+      skills, resource implications, assessment method and context of assessment
+  - number: 13
+    term: Level
+    definition: refers to the category of skills and knowledge required to do a job
+  - number: 14
+    term: Method of Assessment
+    definition: refers to the ways of collecting evidence and when evidence should be collected
+  - number: 15
+    term: National Certificate (NC)
+    definition: is a certification issued to individuals who achieve all the required units of competency for a national qualification
+      defined under the Training Regulations. NCs are aligned to specific levels within the PTQF
+  - number: 16
+    term: Performance Criteria
+    definition: are evaluative statements that specify what is to be assessed and the required level of performance
+  - number: 17
+    term: Qualification
+    definition: is a cluster of units of competencies that meets job roles and is significant in the workplace. It is also
+      a certification awarded to a person on successful completion of a course in recognition of having demonstrated competencies
+      in an industry sector
+  - number: 18
+    term: Range of Variables
+    definition: describes the circumstances or context in which the work is to be performed
+  - number: 19
+    term: Recognition of Prior Learning (RPL)
+    definition: is the acknowledgement of an individual’s skills, knowledge and attitudes gained from life and work experiences
+      outside registered training programs
+  - number: 20
+    term: Resource Implications
+    definition: refers to the resources needed for the successful performance of the work activity described in the unit of
+      competency. It includes work environment and conditions, materials, tools and equipment
+  - number: 21
+    term: Basic Competencies
+    definition: are the skills and knowledge that everyone needs for work
+  - number: 22
+    term: Training Regulations (TR)
+    definition: refers to the document promulgated and issued by TESDA consisting of competency standards, national qualifications
+      and training guidelines for specific sectors/occupations. The TR serves as basis for establishment of qualification
+      and certification under the PTQF. It also serves as guide for development of competency-based curricula and instructional
+      materials including registration of TVET programs offered by TVET providers
+  - number: 23
+    term: Underpinning Knowledge
+    definition: refers to the competency that involves in applying knowledge to perform work activities. It includes specific
+      knowledge that is essential to the performance of the competency
+  - number: 24
+    term: Underpinning Skills
+    definition: refers to the list of the skills needed to achieve the elements and performance criteria in the unit of competency.
+      It includes generic and industry specific skills
+  - number: 25
+    term: Unit of Competency
+    definition: is a component of the competency standards stating a specific key function or role in a particular job or
+      occupation; it is the smallest component of achievement that can be assessed and certified under the PTQF
+  sector_specific:
+  - number: 1
+    term: ADO.NET
+    definition: is a set of computer software components that programmers can use to access data and data services. It is
+      a part of the base class library that is included with the Microsoft .NET Framework. It is commonly used by programmers
+      to access and modify data stored in relational database systems, though it can also access data in non- relational sources.
+      ADO.NET is sometimes considered an evolution of ActiveX Data Objects (ADO) technology, but was changed so extensively
+      that it can be considered an entirely new product.
+  - number: 2
+    term: ASP.NET
+    definition: is a web application framework developed and marketed by Microsoft to allow programmers to build dynamic web
+      sites, web applications and web services. ASP.NET is built on the Common Language Runtime (CLR), allowing programmers
+      to write ASP.NET code using any supported .NET language.
+  - number: 3
+    term: Algorithm
+    definition: is a type of effective method in which a list of well-defined instructions for completing a task will, when
+      given an initial state, proceed through a well-defined series of successive states, eventually terminating in an end-state.
+      The transition from one state to the next is not necessarily deterministic; some algorithms, known as probabilistic
+      algorithms, incorporate randomness.
+  - number: 4
+    term: Artificial intelligence programmer
+    definition: develops the logic the game uses to carry out a large number of actions. An AI programmer may program pathfinding,
+      strategy and enemy tactic systems. This is one of the most challenging aspects of game programming and its sophistication
+      is developing rapidly.
+  - number: 5
+    term: Browser
+    definition: a software package that provides the user interface for accessing Internet, intranet and extranet Web sites.
+  - number: 6
+    term: COBOL
+    definition: is one of the oldest programming languages. Its name is an acronym for COmmon Business-Oriented Language,
+      defining its primary domain in business, finance, and administrative systems for companies and governments.
+  - number: 7
+    term: Compiler
+    definition: is a computer program (or set of programs) that transforms source code written in a programming language (the
+      source language) into another computer language (the target language, often having a binary form known as object code).
+      The most common reason for wanting to transform source code is to create an executable program.
+  - number: 8
+    term: Computer
+    definition: a device that has the ability to accept data; internally store and execute a program of instructions; perform
+      mathematical, logical, and manipulative operations on data; and report the results.
+  - number: 9
+    term: Computer program
+    definition: also a software program, or just a program, is a sequence of instructions written to perform a specified task
+      for a computer. A computer requires programs to function, typically executing the program's instructions in a central
+      processor. The program has an executable form that the computer can use directly to execute the instructions. The same
+      program in its human-readable source code form, from which executable programs are derived (e.g., compiled), enables
+      a programmer to study and develop its algorithms.
+  - number: 10
+    term: Computer programming
+    definition: is the iterative process of writing or editing source code. Editing source code involves testing, analyzing,
+      and refining, and sometimes coordinating with other programmers on a jointly developed program. A person who practices
+      this skill is referred to as a computer programmer, software developer or coder. The sometimes lengthy process of computer
+      programming is usually referred to as software development.
+  - number: 11
+    term: Computer Terminal
+    definition: any input/output device connected by telecommunications links to a computer.
+  - number: 12
+    term: C language
+    definition: is an imperative (procedural) systems implementation language. It was designed to be compiled using a relatively
+      straightforward compiler, to provide low-level access to memory, to provide language constructs that map efficiently
+      to machine instructions, and to require minimal run-time support. C was therefore useful for many applications that
+      had formerly been coded in assembly language.
+  - number: 13
+    term: C++ language
+    definition: is a statically typed, free-form, multi-paradigm, compiled, general- purpose programming language. It comprises
+      a combination of both high-level and low- level language features. Some of its application domains include systems software,
+      application software, device drivers, embedded software, high-performance server and client applications, and entertainment
+      software such as video games.
+  - number: 14
+    term: Data
+    definition: objective measurements of the attributes (characteristics) of entities such as people, places, things, and
+      events.
+  - number: 15
+    term: Data access
+    definition: typically refers to software and activities related to storing, retrieving, or acting on data housed in a
+      database or other repository. Historically, different methods and languages were required for every repository, including
+      each different database, file system, etc., and many of these repositories stored their content in different and incompatible
+      formats.
+  - number: 16
+    term: Decompiler
+    definition: is the name given to a computer program that performs the reverse operation to that of a compiler. That is,
+      it translates a file containing information at a relatively low level of abstraction (usually designed to be computer
+      readable rather than human readable) into a form having a higher level of abstraction (usually designed to be human
+      readable)
+  - number: 17
+    term: Documentation
+    definition: a collection of documents or information.
+  - number: 18
+    term: Edit
+    definition: to modify the form or format of data
+  - number: 19
+    term: End user
+    definition: anyone who uses an information system or the information it produces.
+  - number: 20
+    term: Ergonomics
+    definition: 'the science and technology emphasizing the safety, comfort, and ease of use of human-operated machines. The
+      goal of ergonomics is to produce systems that are user-friendly: safe, comfortable and easy to use.'
+  - number: 21
+    term: HTML, which stands for HyperText Markup Language
+    definition: is the predominant markup language for web pages. It is written in the form of HTML elements consisting of
+      "tags" surrounded by angle brackets within the web page content. It is the building blocks of all basic websites.
+  - number: 22
+    term: Information
+    definition: data placed in a meaningful and useful context for an end user.
+  - number: 23
+    term: Information and Communication Technology (ICT)
+    definition: refers to technologies associated with the transmission and exchange of data in the form of sound, text, visual
+      images, signals or any combination of those forms through the use of digital technology. It encompasses such services
+      as telecommunications, posts, multimedia, electronic commerce, broadcasting, and information technology.
+  - number: 24
+    term: Integrated development environment (IDE)
+    definition: is a software application that provides comprehensive facilities to computer programmers for software development.
+      An IDE normally consists of a source code editor, a compiler and/or interpreter, build automation tools, and (usually)
+      a debugger. Typically an IDE is dedicated to a specific programming language, so as to provide a feature set which most
+      closely matches the programming paradigms of the language. However, some multiple-language IDEs are in use, such as
+      Eclipse, ActiveState Komodo, recent versions of NetBeans, and Microsoft Visual Studio.
+  - number: 25
+    term: Java
+    definition: is a general-purpose, concurrent, class-based, object-oriented language that is specifically designed to have
+      as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere".
+      Java is currently one of the most popular programming languages in use, and is widely used from application software
+      to web applications
+  - number: 26
+    term: Java applications
+    definition: are typically compiled to bytecode (class file) that can run on any Java Virtual Machine (JVM) regardless
+      of computer architecture.
+  - number: 27
+    term: Local Area Network (LAN)
+    definition: a communications network that typically connects computers, terminals, and other computerized devices within
+      a limited physical area such as an office, building, manufacturing plant and other work sites.
+  - number: 28
+    term: Microsoft .NET Framework
+    definition: is a software framework that can be installed on computers running Microsoft Windows operating systems. It
+      includes a large library of coded solutions to common programming problems and a common language infrastructure that
+      manages the execution of programs written specifically for the framework. The .NET Framework supports multiple programming
+      languages in a manner that allows language interoperability, whereby each language can utilize code written in other
+      languages; in particular, the .NET library is available to all the programming languages that .NET encompasses.
+  - number: 29
+    term: Microsoft SQL Server
+    definition: is a relational model database server produced by Microsoft. Its primary query languages are T-SQL and ANSI
+      SQL
+  - number: 30
+    term: Object code
+    definition: or an object file, is the representation of code that a compiler or assembler generates by processing a source
+      code file. Object files contain compact code, often called "binaries". A linker is typically used to generate an executable
+      or library by linking object files together. The only essential element in an object file is machine code (code directly
+      executed by a computer's CPU). Object files for embedded systems might contain nothing but machine code. However, object
+      files often also contain data for use by the code at runtime, relocation information, program symbols (names of variables
+      and functions) for linking and/or debugging purposes, and other debugging information.
+  - number: 31
+    term: Oracle
+    definition: the Oracle Database (commonly referred to as Oracle RDBMS or simply as Oracle) is an object-relational database
+      management system [2] produced and marketed by Oracle Corporation.
+  - number: 32
+    term: Oracle Forms
+    definition: is a software product for creating screens that interact with an Oracle database. It has a typical IDE including
+      an object navigator, property sheet and code editor that uses PL/SQL. It was originally developed to run server-side
+      in character mode terminal sessions. It was ported to other platforms, including Windows, to function in a client–server
+      environment. Later versions were ported to Java where it runs in a Java EE container and can integrate with Java and
+      web services. The primary focus of Forms is to create data entry systems that access an Oracle database.
+  - number: 33
+    term: Oracle Reports
+    definition: is a tool for developing reports against data stored in an Oracle database. Oracle Reports consists of Oracle
+      Reports Developer (a component of the Oracle Developer Suite) and Oracle Application Server Reports Services (a component
+      of the Oracle Application Server).
+  - number: 34
+    term: Outsourcing
+    definition: turning over all or part of an organization’s information systems operation to outside contractors, known
+      as systems integrators or facilities management companies.
+  - number: 35
+    term: Programming language
+    definition: is an artificial language designed to express computations that can be performed by a machine, particularly
+      a computer. Programming languages can be used to create programs that control the behavior of a machine, to express
+      algorithms precisely, or as a mode of human communication.
+  - number: 36
+    term: Quality Assurance
+    definition: methods for ensuring that information systems are free from errors and fraud and provide information products
+      of high quality.
+  - number: 37
+    term: Relational database management system (RDBMS)
+    definition: is a database management system (DBMS) that is based on the relational model as introduced by E. F. Codd.
+      Most popular commercial and open source databases currently in use are based on the relational database model. A short
+      definition of an RDBMS may be a DBMS in which data is stored in the form of tables and the relationship among the data
+      is also stored in the form of tables.
+  - number: 38
+    term: Service-oriented programming (SOP)
+    definition: is a programming paradigm that uses "services" as the unit of computer work, to design and implement integrated
+      business applications and mission critical software programs. Services can represent steps of business processes and
+      thus one of the main applications of this paradigm is the cost- effective delivery of standalone or composite business
+      applications that can “integrate from the inside-out.”
+  - number: 39
+    term: Software
+    definition: computer programs and procedures concerned with the operation of an information system.
+  - number: 40
+    term: Source code
+    definition: is any collection of statements or declarations written in some human- readable computer programming language.
+      Source code is the means most often used by programmers to specify the actions to be performed by a computer.
+  - number: 41
+    term: SQL, often referred to as Structured Query Language
+    definition: is a database computer language designed for managing data in relational database management systems (RDBMS),
+      and originally based upon relational algebra. Its scope includes data insert, query, update and delete, schema creation
+      and modification, and data access control.
+  - number: 42
+    term: Standards
+    definition: measures of performance developed to evaluate the progress of a system toward its objectives
+  - number: 43
+    term: System
+    definition: an assembly of methods, procedures, or techniques unified by regulated interaction to form an organized whole
+  - number: 44
+    term: User- friendly
+    definition: a characteristic of human-operated equipment and systems that makes them safe, comfortable, and easy to use.
+  - number: 45
+    term: User interface
+    definition: 'is the system by which people (users) interact with a machine. The user interface includes hardware (physical)
+      and software (logical) components. User interfaces exist for various systems, and provide a means of: 1) Input, allowing
+      the users to manipulate a system, and/or 2) Output, allowing the system to indicate the effects of the users'' manipulation.'
+  - number: 46
+    term: VB.NET
+    definition: is a redesigned, object-oriented dialect of Visual Basic.
+  - number: 47
+    term: Web application
+    definition: is an application that is accessed over a network such as the Internet or an intranet. The term may also mean
+      a computer software application that is hosted in a browser-controlled environment (e.g. a Java applet) or coded in
+      a browser-supported language (such as JavaScript, combined with a browser-rendered markup language like HTML) and reliant
+      on a common web browser to render the application executable.
+  - number: 48
+    term: Windows Forms
+    definition: is the name given to the graphical application programming interface (API) included as a part of Microsoft's
+      .NET Framework, providing access to the native Microsoft Windows interface elements by wrapping the existing Windows
+      API in managed code. While it is seen as a replacement for the earlier and more complex C++ based Microsoft Foundation
+      Class Library, it does not offer a paradigm comparable to model–view–controller.
+  - number: 49
+    term: Windows Forms application
+    definition: is an event-driven application supported by Microsoft's .NET Framework. Unlike a batch program, it spends
+      most of its time simply waiting for the user to do something, such as fill in a text box or click a button.
+counts:
+  general: 25
+  sector_specific: 49
+  total: 74
+source_section_text: "DEFINITION OF TERMS\n   GENERAL\n   1) Certification - is the process of verifying and validating the\
+  \ competencies of a person\n      through assessment\n   2) Certificate of Competency (COC) – is a certification issued\
+  \ to individuals who pass the\n      assessment for a single unit or cluster of units of competency\n   3) Common Competencies\
+  \ - are the skills and knowledge needed by all people working in\n      a particular industry\n   4) Competency - is the\
+  \ possession and application of knowledge, skills and attitudes to\n      perform work activities to the standard expected\
+  \ in the workplace\n   5) Competency Assessment - is the process of collecting evidence and making judgments\n      on whether\
+  \ competency has been achieved\n   6) Competency Standard (CS) - is the industry-determined specification of competencies\n\
+  \      required for effective work performance\n   7) Context of Assessment - refers to the place where assessment is to\
+  \ be conducted or\n      carried out\n   8) Core Competencies - are the specific skills and knowledge needed in a particular\
+  \ area of\n      work - industry sector/occupation/job role\n   9) Critical aspects of competency - refers to the evidence\
+  \ that is essential for successful\n      performance of the unit of competency\n   10) Elective Competencies - are the\
+  \ additional skills and knowledge required by the\n       individual or enterprise for work\n   11) Elements - are the building\
+  \ blocks of a unit of competency. They describe in\n       outcome terms the functions that a person perform in the workplace\n\
+  \   12) Evidence Guide - is a component of the unit of competency that defines or identifies the\n       evidences required\
+  \ to determine the competence of the individual. It provides\n       information on critical aspects of competency, underpinning\
+  \ knowledge, underpinning\n       skills, resource implications, assessment method and context of assessment\n   13) Level\
+  \ - refers to the category of skills and knowledge required to do a job\n   14) Method of Assessment - refers to the ways\
+  \ of collecting evidence and when evidence\n       should be collected\n   15) National Certificate (NC) – is a certification\
+  \ issued to individuals who achieve all the\n       required units of competency for a national qualification defined under\
+  \ the Training\n       Regulations. NCs are aligned to specific levels within the PTQF\n   16) Performance Criteria - are\
+  \ evaluative statements that specify what is to be           assessed\n       and the required level of performance\n  \
+  \ 17) Qualification - is a cluster of units of competencies that meets job roles and is significant\n       in the workplace.\
+  \ It is also a certification awarded to a person on successful completion\n       of a course in recognition of having demonstrated\
+  \ competencies in an industry sector\n   18) Range of Variables - describes the circumstances or context in which the work\
+  \ is to be\n       performed\n   19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s skills,\n\
+  \       knowledge and attitudes gained from life and work experiences outside registered\n       training programs\n   20)\
+  \ Resource Implications - refers to the resources needed for the successful performance\n       of the work activity described\
+  \ in the unit of competency. It includes work environment\n       and conditions, materials, tools and equipment\n   21)\
+  \ Basic Competencies - are the skills and knowledge that everyone needs for work\n   22) Training Regulations (TR) – refers\
+  \ to the document promulgated and issued by TESDA\n       consisting of competency standards, national qualifications and\
+  \ training guidelines for\n       specific sectors/occupations. The TR serves as basis for establishment of qualification\n\
+  \       and certification under the PTQF. It also serves as guide for development of\n       competency-based curricula\
+  \ and instructional materials including registration of TVET\n       programs offered by TVET providers\n   23) Underpinning\
+  \ Knowledge - refers to the competency that involves in applying\n       knowledge to perform work activities. It includes\
+  \ specific knowledge that is essential to\n       the performance of the competency\n   24) Underpinning Skills - refers\
+  \ to the list of the skills needed to achieve the elements and\n       performance criteria in the unit of competency. It\
+  \ includes generic and industry specific\n       skills\n   25) Unit of Competency – is a component of the competency standards\
+  \ stating a specific\n       key function or role in a particular job or occupation; it is the smallest component of\n \
+  \      achievement that can be assessed and certified under the PTQF\n   SECTOR SPECIFIC\n   1.    ADO.NET - is a set of\
+  \ computer software components that programmers can use to\n         access data and data services. It is a part of the\
+  \ base class library that is included with\n         the Microsoft .NET Framework. It is commonly used by programmers to\
+  \ access and\n         modify data stored in relational database systems, though it can also access data in non-\n     \
+  \    relational sources. ADO.NET is sometimes considered an evolution of ActiveX Data\n         Objects (ADO) technology,\
+  \ but was changed so extensively that it can be considered an\n         entirely new product.\n   2.    ASP.NET - is a web\
+  \ application framework developed and marketed by Microsoft to\n         allow programmers to build dynamic web sites, web\
+  \ applications and web services.\n         ASP.NET is built on the Common Language Runtime (CLR), allowing programmers to\n\
+  \         write ASP.NET code using any supported .NET language.\n   3.    Algorithm - is a type of effective method in which\
+  \ a list of well-defined instructions for\n         completing a task will, when given an initial state, proceed through\
+  \ a well-defined series\n         of successive states, eventually terminating in an end-state. The transition from one\n\
+  \         state to the next is not necessarily deterministic; some algorithms, known as probabilistic\n         algorithms,\
+  \ incorporate randomness.\n   4.    Artificial intelligence programmer - develops the logic the game uses to carry out a\n\
+  \         large number of actions. An AI programmer may program pathfinding, strategy and\n         enemy tactic systems.\
+  \ This is one of the most challenging aspects of game programming\n         and its sophistication is developing rapidly.\n\
+  \   5.  Browser – a software package that provides the user interface for accessing Internet,\n       intranet and extranet\
+  \ Web sites.\n   6. COBOL - is one of the oldest programming languages. Its name is an acronym for\n       COmmon Business-Oriented\
+  \ Language, defining its primary domain in business,\n       finance, and administrative systems for companies and governments.\n\
+  \   7. Compiler - is a computer program (or set of programs) that transforms source code\n       written in a programming\
+  \ language (the source language) into another computer\n       language (the target language, often having a binary form\
+  \ known as object code). The\n       most common reason for wanting to transform source code is to create an executable\n\
+  \       program.\n   8. Computer – a device that has the ability to accept data; internally store and execute a\n      \
+  \ program of instructions; perform mathematical, logical, and manipulative operations on\n       data; and report the results.\n\
+  \   9. Computer program - also a software program, or just a program, is a sequence of\n       instructions written to perform\
+  \ a specified task for a computer. A computer requires\n       programs to function, typically executing the program's instructions\
+  \ in a central\n       processor. The program has an executable form that the computer can use directly to\n       execute\
+  \ the instructions. The same program in its human-readable source code form,\n       from which executable programs are\
+  \ derived (e.g., compiled), enables a programmer to\n       study and develop its algorithms.\n   10. Computer programming\
+  \ - is the iterative process of writing or editing source code.\n       Editing source code involves testing, analyzing,\
+  \ and refining, and sometimes\n       coordinating with other programmers on a jointly developed program. A person who\n\
+  \       practices this skill is referred to as a computer programmer, software developer or coder.\n       The sometimes\
+  \ lengthy process of computer programming is usually referred to as\n       software development.\n   11. Computer Terminal\
+  \ – any input/output device connected by telecommunications links to\n       a computer.\n   12. C language - is an imperative\
+  \ (procedural) systems implementation language. It was\n       designed to be compiled using a relatively straightforward\
+  \ compiler, to provide low-level\n       access to memory, to provide language constructs that map efficiently to machine\n\
+  \       instructions, and to require minimal run-time support. C was therefore useful for many\n       applications that\
+  \ had formerly been coded in assembly language.\n   13. C++ language - is a statically typed, free-form, multi-paradigm,\
+  \ compiled, general-\n       purpose programming language. It comprises a combination of both high-level and low-\n    \
+  \   level language features. Some of its application domains include systems software,\n       application software, device\
+  \ drivers, embedded software, high-performance server and\n       client applications, and entertainment software such as\
+  \ video games.\n   14. Data - objective measurements of the attributes (characteristics) of entities such as\n       people,\
+  \ places, things, and events.\n   15. Data access - typically refers to software and activities related to storing, retrieving,\
+  \ or\n       acting on data housed in a database or other repository. Historically, different methods\n       and languages\
+  \ were required for every repository, including each different database, file\n       system, etc., and many of these repositories\
+  \ stored their content in different and\n       incompatible formats.\n   16. Decompiler - is the name given to a computer\
+  \ program that performs the reverse\n       operation to that of a compiler. That is, it translates a file containing information\
+  \ at a\n       relatively low level of abstraction (usually designed to be computer readable rather than\n       human readable)\
+  \ into a form having a higher level of abstraction (usually designed to be\n       human readable)\n   17. Documentation\
+  \ – a collection of documents or information.\n   18. Edit – to modify the form or format of data\n   19. End user – anyone\
+  \ who uses an information system or the information it produces.\n   20. Ergonomics - the science and technology emphasizing\
+  \ the safety, comfort, and ease of\n       use of human-operated machines. The goal of ergonomics is to produce systems\
+  \ that\n       are user-friendly: safe, comfortable and easy to use.\n   21. HTML, which stands for HyperText Markup Language\
+  \ - is the predominant markup\n       language for web pages. It is written in the form of HTML elements consisting of \"\
+  tags\"\n       surrounded by angle brackets within the web page content. It is the building blocks of all\n       basic\
+  \ websites.\n   22. Information – data placed in a meaningful and useful context for an end user.\n   23. Information and\
+  \ Communication Technology (ICT) - refers to technologies associated\n       with the transmission and exchange of data\
+  \ in the form of sound, text, visual images,\n       signals or any combination of those forms through the use of digital\
+  \ technology. It\n       encompasses such services as telecommunications, posts, multimedia, electronic\n       commerce,\
+  \ broadcasting, and information technology.\n   24. Integrated development environment (IDE) - is a software application\
+  \ that provides\n       comprehensive facilities to computer programmers for software development. An IDE\n       normally\
+  \ consists of a source code editor, a compiler and/or interpreter, build automation\n       tools, and (usually) a debugger.\
+  \ Typically an IDE is dedicated to a specific programming\n       language, so as to provide a feature set which most closely\
+  \ matches the programming\n       paradigms of the language. However, some multiple-language IDEs are in use, such as\n\
+  \       Eclipse, ActiveState Komodo, recent versions of NetBeans, and Microsoft Visual Studio.\n   25. Java - is a general-purpose,\
+  \ concurrent, class-based, object-oriented language that is\n       specifically designed to have as few implementation\
+  \ dependencies as possible. It is\n       intended to let application developers \"write once, run anywhere\". Java is currently\
+  \ one\n       of the most popular programming languages in use, and is widely used from application\n       software to\
+  \ web applications\n   26. Java applications - are typically compiled to bytecode (class file) that can run on any\n   \
+  \    Java Virtual Machine (JVM) regardless of computer architecture.\n   27. Local Area Network (LAN) – a communications\
+  \ network that typically connects\n       computers, terminals, and other computerized devices within a limited physical\
+  \ area\n       such as an office, building, manufacturing plant and other work sites.\n   28. Microsoft .NET Framework -\
+  \ is a software framework that can be installed on\n       computers running Microsoft Windows operating systems. It includes\
+  \ a large library of\n       coded solutions to common programming problems and a common language\n       infrastructure\
+  \ that manages the execution of programs written specifically for the\n       framework. The .NET Framework supports multiple\
+  \ programming languages in a manner\n       that allows language interoperability, whereby each language can utilize code\
+  \ written in\n       other languages; in particular, the .NET library is available to all the programming\n       languages\
+  \ that .NET encompasses.\n   29. Microsoft SQL Server - is a relational model database server produced by Microsoft. Its\n\
+  \       primary query languages are T-SQL and ANSI SQL\n   30. Object code - or an object file, is the representation of\
+  \ code that a compiler or\n       assembler generates by processing a source code file. Object files contain compact\n \
+  \      code, often called \"binaries\". A linker is typically used to generate an executable or\n       library by linking\
+  \ object files together. The only essential element in an object file is\n       machine code (code directly executed by\
+  \ a computer's CPU). Object files for embedded\n       systems might contain nothing but machine code. However, object files\
+  \ often also\n       contain data for use by the code at runtime, relocation information, program symbols\n       (names\
+  \ of variables and functions) for linking and/or debugging purposes, and other\n       debugging information.\n   31. Oracle\
+  \ - the Oracle Database (commonly referred to as Oracle RDBMS or simply\n       as Oracle) is an object-relational database\
+  \ management system [2] produced and\n       marketed by Oracle Corporation.\n   32. Oracle Forms - is a software product\
+  \ for creating screens that interact with an Oracle\n       database. It has a typical IDE including an object navigator,\
+  \ property sheet and code\n       editor that uses PL/SQL. It was originally developed to run server-side in character mode\n\
+  \       terminal sessions. It was ported to other platforms, including Windows, to function in a\n       client–server environment.\
+  \ Later versions were ported to Java where it runs in a Java EE\n       container and can integrate with Java and web services.\
+  \ The primary focus of Forms is\n       to create data entry systems that access an Oracle database.\n   33. Oracle Reports\
+  \ - is a tool for developing reports against data stored in an Oracle\n       database. Oracle Reports consists of Oracle\
+  \ Reports Developer (a component of the\n       Oracle Developer Suite) and Oracle Application Server Reports Services (a\
+  \ component\n       of the Oracle Application Server).\n   34. Outsourcing – turning over all or part of an organization’s\
+  \ information systems operation\n       to outside contractors, known as systems integrators or facilities management\n\
+  \       companies.\n   35. Programming language - is an artificial language designed to express computations\n       that\
+  \ can be performed by a machine, particularly a computer. Programming languages\n       can be used to create programs that\
+  \ control the behavior of a machine, to express\n       algorithms precisely, or as a mode of human communication.\n   36.\
+  \ Quality Assurance – methods for ensuring that information systems are free from errors\n       and fraud and provide information\
+  \ products of high quality.\n   37. Relational database management system (RDBMS) - is a database management\n       system\
+  \ (DBMS) that is based on the relational model as introduced by E. F. Codd. Most\n       popular commercial and open source\
+  \ databases currently in use are based on the\n       relational database model. A short definition of an RDBMS may be a\
+  \ DBMS in which\n       data is stored in the form of tables and the relationship among the data is also stored in\n   \
+  \    the form of tables.\n   38. Service-oriented programming (SOP) - is a programming paradigm that uses\n       \"services\"\
+  \ as the unit of computer work, to design and implement integrated business\n       applications and mission critical software\
+  \ programs. Services can represent steps of\n       business processes and thus one of the main applications of this paradigm\
+  \ is the cost-\n       effective delivery of standalone or composite business applications that can “integrate\n       from\
+  \ the inside-out.”\n   39. Software – computer programs and procedures concerned with the operation of an\n       information\
+  \ system.\n   40. Source code - is any collection of statements or declarations written in some human-\n       readable\
+  \ computer programming language. Source code is the means most often used\n       by programmers to specify the actions\
+  \ to be performed by a computer.\n   41. SQL, often referred to as Structured Query Language - is a database computer\n\
+  \       language designed for managing data in relational database management systems\n       (RDBMS), and originally based\
+  \ upon relational algebra. Its scope includes data insert,\n       query, update and delete, schema creation and modification,\
+  \ and data access control.\n   42. Standards – measures of performance developed to evaluate the progress of a system\n\
+  \       toward its objectives\n   43. System – an assembly of methods, procedures, or techniques unified by regulated\n\
+  \       interaction to form an organized whole\n   44. User- friendly – a characteristic of human-operated equipment and\
+  \ systems that makes\n       them safe, comfortable, and easy to use.\n   45. User interface - is the system by which people\
+  \ (users) interact with a machine. The user\n       interface includes hardware (physical) and software (logical) components.\
+  \ User\n       interfaces exist for various systems, and provide a means of: 1) Input, allowing the users\n       to manipulate\
+  \ a system, and/or 2) Output, allowing the system to indicate the effects of\n       the users' manipulation.\n   46. VB.NET\
+  \ – is a redesigned, object-oriented dialect of Visual Basic.\n   47. Web application - is an application that is accessed\
+  \ over a network such as the Internet\n       or an intranet. The term may also mean a computer software application that\
+  \ is hosted in\n       a browser-controlled environment (e.g. a Java applet) or coded in a browser-supported\n       language\
+  \ (such as JavaScript, combined with a browser-rendered markup language like\n       HTML) and reliant on a common web browser\
+  \ to render the application executable.\n   48. Windows Forms - is the name given to the graphical application programming\
+  \ interface\n       (API) included as a part of Microsoft's .NET Framework, providing access to the native\n       Microsoft\
+  \ Windows interface elements by wrapping the existing Windows API in\n       managed code. While it is seen as a replacement\
+  \ for the earlier and more complex C++\n       based Microsoft Foundation Class Library, it does not offer a paradigm comparable\
+  \ to\n       model–view–controller.\n   49. Windows Forms application - is an event-driven application supported by Microsoft's\n\
+  \       .NET Framework. Unlike a batch program, it spends most of its time simply waiting for\n       the user to do something,\
+  \ such as fill in a text box or click a button."

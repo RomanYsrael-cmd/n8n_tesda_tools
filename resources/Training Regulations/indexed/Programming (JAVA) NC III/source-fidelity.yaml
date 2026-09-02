@@ -1,0 +1,48 @@
+schema: tesda-tr-source-fidelity
+schema_version: '1.0'
+qualification_id: tesda:tr:programming-java-nc-iii:2021-06-08
+qualification: PROGRAMMING (JAVA) NC III
+representation: fidelity_overrides_and_source_anomalies
+verbatim_transcription: false
+policy:
+  authority: The official TESDA PDF remains authoritative.
+  normalization: Semantic files join line wraps and regularize structure without silently changing regulatory meaning.
+records:
+- id: tesda:qualification:common-unit-code-mismatch:apply-quality-standards
+  type: source_internal_code_mismatch
+  source_excerpt: Section 1 lists ICT315202 for Apply quality standards; the detailed Common Competencies unit prints 506315202.
+  normalized_interpretation: Canonical detailed unit uses 506315202.
+- id: tesda:qualification:common-unit-code-mismatch:perform-computer-operations
+  type: source_internal_code_mismatch
+  source_excerpt: Section 1 lists ICT311203 for Perform computer operations; the detailed Common Competencies unit prints
+    506311203.
+  normalized_interpretation: Canonical detailed unit uses 506311203.
+- id: tesda:unit:500311109:evidence-method-5.1-incomplete
+  type: probable_source_incomplete_line
+  source_excerpt: Evidence Guide Method of Assessment item 5.1 reads “Competency in this unit must be assessed through” without
+    a method following that item.
+  source_note: No missing method is inferred.
+- id: tesda:unit:500311111:evidence-numbering
+  type: probable_source_numbering_error
+  source_excerpt: Underpinning Skills are numbered 3.1, 3.2, 3.3, then 3.1 again for Negotiation skills.
+- id: tesda:unit:500311112:evidence-guide
+  type: evidence_guide_expansion
+  source_note: Assessment requirements include scenarios/case studies/what-ifs, walkthroughs, unusual situations, operating
+    plant evidence, question banks, holistic/integrated assessment, disruptions, simulation based on actual workplace, and
+    concurrent teamwork/operation assessment.
+- id: tesda:unit:ICT313359:evidence-resource-numbering
+  type: probable_source_numbering_error
+  source_excerpt: Evidence Guide item 5 Resource implication contains subitems numbered 7.1, 7.2 and 7.3.
+- id: tesda:training:entry-requirement-duplicate
+  type: probable_source_text_duplication
+  source_note: The first trainee entry requirement sentence is duplicated consecutively in the source.
+- id: tesda:training:curriculum-common-title-variant
+  type: source_title_variant
+  source_note: Curriculum says “Operate a Personal Computer” while detailed unit is “PERFORM COMPUTER OPERATIONS”.
+- id: tesda:acknowledgements:orange-bronze-sofware
+  type: probable_source_typo
+  source_excerpt: Orange and Bronze Sofware Labs
+  source_note: Preserved as printed.
+- id: tesda:competencies:required-knowledge-skills-structure
+  type: legacy_structure
+  source_note: No separate element-level Required Knowledge/Required Skills fields; knowledge and skills are in Evidence Guides.

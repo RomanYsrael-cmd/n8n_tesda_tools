@@ -1,0 +1,275 @@
+schema: tesda-training-standards
+schema_version: '1.1'
+qualification_id: tesda:tr:programming-java-nc-iii:2021-06-08
+qualification: PROGRAMMING (JAVA) NC III
+coverage_status: complete
+representation_type: semantic_normalized
+verbatim_transcription: false
+source:
+  heading: SECTION 3 TRAINING STANDARDS
+  printed_pages: 40-45
+  pdf_pages: 42-47
+curriculum_design:
+  section: '3.1'
+  source_course_title: Java Programming
+  nc_level: NC III
+  nominal_duration:
+    basic_hours: 64
+    common_hours: 16
+    core_hours: 160
+    supervised_industry_learning_hours: null
+    total_hours: 240
+    per_unit_allocation_in_source: false
+  groups:
+    basic:
+    - unit_code: '500311109'
+      title: Lead workplace communication
+      elements:
+      - Communicate information about workplace processes
+      - Lead workplace discussions
+      - Identify and communicate issues arising in the workplace
+      nominal_hours: null
+    - unit_code: '500311110'
+      title: Lead small teams
+      elements:
+      - Provide team leadership
+      - Assign responsibilities among members
+      - Set performance expectations for team members
+      - Supervise team performance
+      nominal_hours: null
+    - unit_code: '500311111'
+      title: Develop and practice negotiation skills
+      elements:
+      - Plan negotiations
+      - Participate in negotiations
+      nominal_hours: null
+    - unit_code: '500311112'
+      title: Solve problems related to work activities
+      elements:
+      - Identify the problem
+      - Determine fundamental causes of the problem
+      - Determine corrective action
+      - Provide recommendations to manager
+      nominal_hours: null
+    - unit_code: '500311113'
+      title: Use mathematical concepts and techniques
+      elements:
+      - Identify mathematical tools and techniques to solve problem
+      - Apply mathematical procedure/solution
+      - Analyze results
+      nominal_hours: null
+    - unit_code: '500311114'
+      title: Use relevant technologies
+      elements:
+      - Study/select appropriate technology
+      - Apply relevant technology
+      - Maintain/enhance relevant technology
+      nominal_hours: null
+    common:
+    - unit_code: '506315202'
+      title: Apply quality standards
+      elements:
+      - Assess quality of received materials
+      - Assess own work
+      - Engage in quality improvement
+      nominal_hours: null
+    - unit_code: '506311203'
+      title: Perform computer operations
+      elements:
+      - Plan and prepare for task to be undertaken
+      - Input data into computer
+      - Access information using computer
+      - Produce output/data using computer system
+      - Use basic functions of a www-browser to locate information
+      - Maintain computer equipment and systems
+      nominal_hours: null
+    core:
+    - unit_code: ICT313359
+      title: Perform object-oriented analysis and design in Java technology
+      elements:
+      - Apply basics of Java language
+      - Work with methods and encapsulation
+      - Work with inheritance and handling exceptions
+      - Examine object-oriented concepts and terminology
+      - Explain modeling and software development process
+      - Create Use Case Diagrams and Use Case Scenarios
+      - Transition analysis to design using Interaction Diagrams
+      - Introduce Architectural Concepts and Architecture Tiers Diagrams
+      nominal_hours: null
+    - unit_code: ICT313360
+      title: Create and fine tune Java technology applications using object-oriented programming concept
+      elements:
+      - Apply Basics of Java Class Design
+      - Apply Java Advanced Class Design and Object Oriented Design Principles
+      - Apply String Processing, Exceptions and Assertions
+      - Build Database Applications with JDBC
+      - Monitor Operating System Performance
+      - Work with Language Level Concerns and Garbage Collection
+      - Work with Performance Tuning at the Language Level
+      nominal_hours: null
+training_delivery:
+  section: '3.2'
+  raw_text: ''
+trainee_entry_requirements:
+  section: '3.3'
+  raw_text: ''
+tools_equipment_materials:
+  section: '3.4'
+  raw_text: ''
+training_facilities:
+  section: '3.5'
+  class_size_basis: 15
+  teaching_learning_total_sq_m: 128
+  facilities_equipment_circulation_sq_m: 38
+  total_area_sq_m: 166
+  raw_text: ''
+trainers_qualification:
+  section: '3.6'
+  requirements:
+  - Must be Oracle Certified Associate Java SE 8 Programmer or Java SE 8 Programmer I (OCAJP 8)
+  - Must be a holder of National TVET Trainer’s Certificate (NTTC) Level 1 in Programming (Java) NC III
+  - Must be physically & mentally fit.
+  raw_text: ''
+institutional_assessment:
+  section: '3.7'
+  raw_text: ''
+source_section_text: "SECTION 3 TRAINING STANDARDS\n        These guidelines are set to provide the Technical and Vocational\
+  \ Education and\n Training (TVET) providers with information and other important requirements to consider\n when designing\
+  \ training programs for Programming (Java) NC III.\n 3.1   CURRICULUM DESIGN\n Course Title:   Java Programming        \
+  \                   NC Level:    NC III\n Nominal Training Duration:         64 hrs – Basic Competencies\n             \
+  \                       16 hrs – Common Competencies\n                                  160 hrs – Core Competencies\n  \
+  \                              ---------------------\n                                  240 hours\n Course Description:\n\
+  \ This course is designed to develop & enhance the knowledge, skills, & attitudes of a\n programmer in accordance with industry\
+  \ standards. It covers the basic, common & core\n competencies on programming language, specifically Java. The nominal duration\
+  \ of 240\n hours covers the required units at Java Programming NC III. TVET providers can\n however, offer a longer, ladderized\
+  \ course covering the basic, common and core plus\n specialized competency unit/s.\n                               BASIC\
+  \ COMPETENCIES\n                                      64 hrs\n      Unit of                                            \
+  \                Assessment\n                     Learning Outcomes              Methodology\n   Competency            \
+  \                                                 Approach\n1. Lead workplace 1.1 Communicate                • Group discussion\
+  \   • Observation\n   communication      information about          • Role Play          • Interviews\n                \
+  \      workplace processes.       • Brainstorming\n                  1.2 Lead workplace\n                      discussions.\n\
+  \                  1.3 Identify and\n                      communicate issues\n                      arising in the\n  \
+  \                    workplace\n2. Lead small     2.1 Provide team               • Lecture            • Demonstration\n\
+  \   teams              leadership.                • Demonstration      • Case studies\n                  2.2 Assign responsibilities\
+  \    • Self-paced\n                      among members.               (modular)\n                  2.3 Set performance\n\
+  \                      expectation for team\n                      members.\n                  2.4 Supervise team\n    \
+  \                  performance\n3. Develop and       3.1 Identify relevant         • Direct                • Written test\n\
+  \   practice               information in             observation           • Practical/\n   negotiation            planning\
+  \ negotiations    • Simulation/role         performance\n   skills            3.2 Participate in              playing  \
+  \               test\n                          negotiations             • Case studies\n                     3.3 Document\
+  \ areas for\n                          agreement\n4. Solve             4.1 Explain the analytical    • Direct observation\
+  \    • Written test\n   workplace             techniques.               • Simulation/role       • Practical/\n   problem\
+  \ related   4.2 Identify the problem.       playing                 performance\n   to work           4.3 Determine the\
+  \             • Case studies            test\n   activities            possible cause/s of the\n                       \
+  \  problem.\n5. Use               5.1 Identify mathematical     • Direct observation    • Written test\n   mathematical\
+  \           tools and techniques     • Simulation/role       • Practical/\n   concepts and           to solve problem  \
+  \         playing                 performance\n   techniques        5.2 Apply mathematical        • Case studies       \
+  \     test\n                          procedures/solution\n                     5.3 Analyze results\n6. Use relevant   \
+  \   6.1 Identify appropriate      • Direct observation    • Written test\n   technologies          technology          \
+  \      • Simulation/role       • Practical/\n                     6.2 Apply relevant              playing              \
+  \   performance\n                         technology                • Case studies            test\n                   \
+  \  6.3 Maintain/enhance\n                         relevant technology\n                               COMMON COMPETENCIES\n\
+  \                                      16 hrs.\n    Unit of             Learning Outcomes            Methodology       \
+  \      Assessment\n  Competency                                                                  Approach\n1. Apply    \
+  \      1.1 Asses quality of            ▪ Field trip            ▪ Demonstration &\n   Quality            received materials\
+  \          ▪ Symposium               questioning\n   Standards      1.2 Assess own work             ▪ Film showing     \
+  \     ▪ Observation &\n                  1.3 Engage in quality           ▪ Simulation              questioning\n       \
+  \               improvement                 ▪ On the job            ▪ Third party\n                                    \
+  \                training                report\n2. Operate a      2.1   Plan and prepare for task • Modular           \
+  \    • Demonstration &\n   Personal             to be undertaken          • Film showing            questioning\n   Computer\
+  \       2.2   Input data into computer  • Computer based        • Observation &\n                  2.3   Access information\
+  \ using                            questioning\n                                                    training (e-\n     \
+  \                   computer                                          • Third party report\n                           \
+  \                         learning)\n                  2.4   Produce output/data using                         • Assessment\
+  \ of\n                        computer system           • Project method          output product\n                  2.5\
+  \   Use basic functions of a  • On the job            • Portfolio\n                        web browser to locate       training\
+  \              • Computer- based\n                      information                                           assessment\n\
+  \                  2.6 Maintain computer\n                      equipment and systems\n                                \
+  \ CORE COMPETENCIES\n                                       160 hrs.\n                                                 \
+  \                          Assessment\nUnit of Competency          Learning Outcome            Methodology\n           \
+  \                                                                  Approach\n1. Perform object-      1.1 Apply basics of\
+  \ Java       • Lecture/        • Practical exam\n   oriented analysis        language                     Discussion   \
+  \   • Interviews/\n   and design in        1.2 Work with methods and      • Hands on          questioning\n   Java technology\
+  \          encapsulation              • Exercises\n                        1.3 Work with inheritance      • Demonstration\n\
+  \                            and handling exceptions.\n                        1.4 Examine object-oriented\n           \
+  \                 concepts and\n                            terminology\n                        1.5 Explain modeling and\n\
+  \                            software development\n                            process\n                        1.6 Create\
+  \ Use Case\n                            Diagrams and Use Case\n                            Scenarios\n                 \
+  \       1.7 Transition analysis to\n                            design using Interaction\n                            Diagrams\n\
+  \                        1.8 Introduce Architectural\n                            Concepts and\n                       \
+  \     Architecture Tiers\n                            Diagrams\n2. Create and fine      2.1 Apply Basics of Java       •\
+  \ Lecture/        • Practical exam\n   tune Java                Class Design                 Discussion      • Interviews/\n\
+  \   technology           2.2 Apply Java Advance         • Hands on          questioning\n   applications using       Class\
+  \ Design and           • Exercises\n   object-oriented          Object Oriented Design     • Demonstration\n   programming\
+  \              Principles\n   concept              2.3 Apply string processing,\n                            exceptions\
+  \ and\n                            assertions\n                        2.4 Build database\n                            applications\
+  \ with JDBC\n                        2.5 Monitor operating\n                            system performance\n           \
+  \             2.6 Work with language\n                            level concerns and\n                            garbage\
+  \ collection\n                        2.7 Work with performance\n                            tuning at the language\n  \
+  \                          level\n3.2.   TRAINING DELIVERY\n          The delivery of training should adhere to the design\
+  \ of the curriculum. Delivery\n       should be guided by the 10 basic principles of the competency-based TVET.\n      \
+  \    • The training is based on curriculum developed from the competency\n             standards;\n          • Learning\
+  \ is modular in its structure;\n          • Training delivery is individualized and self-paced;\n          • Training is\
+  \ based on work that must be performed;\n          • Training materials are directly related to the competency standards\
+  \ and the\n             curriculum modules;\n          • Assessment is based in the collection of evidence of the performance\
+  \ of\n             work to the industry required standard;\n          • Training is based both on and off-the-job components;\n\
+  \          • Allows for recognition of prior learning (RPL) or current competencies;\n          • Training allows for multiple\
+  \ entry and exit; and\n          • Approved training programs are nationally accredited.\n          The competency-based\
+  \ TVET system recognizes various types of delivery\n       modes, both on and off-the-job as long as the learning is driven\
+  \ by the\n       competency standards specified by the industry. The following training modalities\n       may be adopted\
+  \ when designing training programs:\n          • The dualized mode of training delivery is preferred and recommended.\n\
+  \             Thus programs would contain both in-school and in-industry training or\n             fieldwork components.\
+  \ Details can be referred to the Dual Training System\n             (DTS) Implementing Rules and Regulations.\n        \
+  \  • Modular/self-paced learning is a competency-based training modality\n             wherein the trainee is allowed to\
+  \ progress at his own pace. The trainer\n             facilities the training delivery.\n          • Peer teaching/mentoring\
+  \ is a training modality wherein fast learners are\n             given the opportunity to assist the slow learners.\n  \
+  \        • Supervised industry training or on-the-job training is an approach in training\n             designed to enhance\
+  \ the knowledge and skills of the trainee through actual\n             experience in the workplace to acquire a specific\
+  \ competencies prescribed\n             in the training regulations.\n          • Distance learning is a formal education\
+  \ process in which majority of the\n             instruction occurs when the students and instructors are not in the same\n\
+  \             place. Distance learning may employ correspondence study, or audio,\n             video or computer technologies.\n\
+  3.3.                 TRAINEE ENTRY REQUIREMENTS\n                        Trainees or students should possess the following\
+  \ requirements:\n                           • Must have completed at least 10 yrs. basic education or an ALS grade\n   \
+  \                           10 certificate of rating holder Must have completed at least 10 yrs. basic\n               \
+  \               education or an ALS grade 10 certificate of rating holder\n                           • can communicate\
+  \ either oral or written;\n                           • with basic computer skills\n                        This list does\
+  \ not include specific institutional requirements such as\n                     educational attainment, appropriate work\
+  \ experience, and others that may be\n                     required of the trainees by the school or training center delivering\
+  \ the TVET\n                     program.\n3.4.                 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n               \
+  \      Recommended list of tools, equipment and materials for the conduct of training in\n                         TOOLS\
+  \                       EQUIPMENT                     MATERIALS\n   Qty                     Description       Qty      \
+  \    Description           Qty               Description\n                                                   Network Computer\
+  \ with                       Learning materials/\n                      Computer Software     15\n                     \
+  \                              peripherals                                 guide\n       As required\n                 \
+  \                                                                As required\n                      e.g.               \
+  \   1      Server                                      Practice materials\n                         - IDE\n            \
+  \                                1      Printer                                     Hand-outs\n                        \
+  \ - Libraries\n                                            1      White board                                 Reference\
+  \ books\n  1                   Internet access       1      LCD Projector and screen\n                      Application\
+  \ servers\n   required\n                                                   Ergonomic computer\n      As\n              \
+  \        e.g. - database       15\n                                                   tables and chairs\n              \
+  \             - web\n        The quantity of tools and equipment to be used for the conduct of training for this\nqualification\
+  \ shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration\
+  \ is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools,\
+  \ equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based\
+  \ Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n   \
+  \    Due to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are\
+  \ reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate\
+  \ and\napplicable.\n       In cases where there are specialized tools, equipment and facilities that are\nnot generally\
+  \ considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide\
+  \ guidelines or specific advice on such\nmatters.\n3.5.   TRAINING FACILITIES\n       The Programming workshop must be of\
+  \ concrete structure. Based on class size of\n       15 student/trainees the space requirements for the teaching/learning\
+  \ and\n       circulation areas are as follows:\n    TEACHING/LEARNING                 SIZE IN        AREA IN SQ.      \
+  \ QTY       TOTAL AREA\n          AREAS                       METERS          METERS                    IN SQ. METERS\n\
+  \ Lecture Area                            5x8               40            1           40\n Computer laboratory         \
+  \            6x8               48            1           48\n Learning Resource Area                  4x5              \
+  \ 20            1           20\n Wash ,Toilet & Locker Room              2x5               10            2           20\n\
+  \                       Total                                                         128\n Facilities / Equipment /   \
+  \                                                         38\n Circulation**\n                                Total Area\
+  \                                           166\n** Area requirement is equivalent to 30% of the total teaching/learning\
+  \ areas\n3.6.   TRAINERS QUALIFICATION\n       •       Must be Oracle Certified Associate Java SE 8 Programmer or Java SE\
+  \ 8\n               Programmer I (OCAJP 8)\n       •       Must be a holder of National TVET Trainer’s Certificate (NTTC)\
+  \ Level 1 in\n       •       Must be physically & mentally fit.\n3.7.   INSTITUTIONAL ASSESSMENT\n               Institutional\
+  \ Assessment is undertaken by trainees to determine their\n       achievement of units of competency. A certificate of achievement\
+  \ is issued for\n       each unit of competency. The institutional assessment is administered by the\n       trainer/assessor.\n\
+  \             The result of the institutional assessment may be considered as an\n       evidence for national assessment."
