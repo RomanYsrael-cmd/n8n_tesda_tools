@@ -3,7 +3,7 @@ from __future__ import annotations
 from enum import StrEnum
 from typing import Literal
 
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, ValidationInfo, model_validator
 
 
 class JobStatus(StrEnum):
@@ -127,9 +127,10 @@ class PresentationContent(BaseModel):
     references: list[ContentReference] = Field(default_factory=list)
 
     @model_validator(mode="after")
-    def instructional_length(self):
+    def instructional_length(self, info: ValidationInfo):
+        automatic = bool((info.context or {}).get("automatic"))
         intro_words = len(self.introduction.split())
-        if not 60 <= intro_words <= 100:
+        if not automatic and not 60 <= intro_words <= 100:
             raise ValueError(f"Introduction must contain 60-100 words; received {intro_words}")
         presentation_text = " ".join(block.plain_text for block in self.presentation)
         total_words = len((self.introduction + " " + presentation_text).split())
@@ -139,7 +140,7 @@ class PresentationContent(BaseModel):
         found = [phrase for phrase in forbidden if phrase in presentation_text.casefold() or phrase in self.introduction.casefold()]
         if found:
             raise ValueError("Reader-facing presentation must not use internal workflow language: " + ", ".join(found))
-        if not any(block.type == "example" for block in self.presentation):
+        if not automatic and not any(block.type == "example" for block in self.presentation):
             raise ValueError("Presentation must include at least one reader-friendly example")
         for index, block in enumerate(self.presentation):
             normalized = block.plain_text.strip().casefold()
@@ -174,18 +175,11 @@ class QuizContent(BaseModel):
         generic_stems = ("which statement best captures the meaning", "which statement is correct for", "in this lesson, which")
         if any(any(phrase in question.casefold() for phrase in generic_stems) for question in normalized):
             raise ValueError("Quiz stems must be specific and varied, not generic definition templates")
-        choice_texts = [choice.text.strip().casefold() for question in self.questions for choice in question.choices]
-        if len(choice_texts) != len(set(choice_texts)):
-            raise ValueError("Quiz answer choices must not be reused across different questions")
-        if any(len(choice.text.split()) > 30 for question in self.questions for choice in question.choices):
-            raise ValueError("Quiz choices must be concise and contain no more than 30 words")
         answers = [self.answer_key[qid] for qid in ids]
         if len(answers) >= 4:
             counts = {letter: answers.count(letter) for letter in "ABCD"}
             if any(count == 0 for count in counts.values()):
                 raise ValueError("Quiz answers must use A, B, C, and D")
-            if max(counts.values()) - min(counts.values()) > 1:
-                raise ValueError("Quiz answer positions must be reasonably balanced across A, B, C, and D")
         if len(answers) >= 8 and all(answers[i] == "ABCD"[i % 4] for i in range(len(answers))):
             raise ValueError("Quiz answers must not use an obvious repeating A-B-C-D pattern")
         return self

@@ -19,9 +19,65 @@ class OpenAICompatibleProvider:
     model: str
     timeout: float = 120
 
-    async def complete_json(self, prompt: str, max_attempts: int = 4) -> dict:
+    @staticmethod
+    def _error_text(exc: Exception) -> str:
+        message = str(exc).strip()
+        return message or type(exc).__name__
+
+    async def _complete_stream(self, prompt: str, max_attempts: int, on_token=None, request_options: dict | None = None) -> str:
+        """Assemble an OpenAI-compatible SSE response without a generation timeout."""
         headers = {"Authorization": f"Bearer {self.api_key}"} if self.api_key else {}
-        payload = {"model": self.model, "messages": [{"role": "user", "content": prompt}], "response_format": {"type": "json_object"}, "temperature": 0.2}
+        payload = {"model": self.model, "messages": [{"role": "user", "content": prompt}],
+                   "temperature": 0.2, "stream": True}
+        if request_options:
+            allowed = {"web_search", "enable_thinking"}
+            payload.update({key: value for key, value in request_options.items() if key in allowed})
+        last = ""
+        timeout = httpx.Timeout(connect=20, read=None, write=60, pool=20)
+        async with httpx.AsyncClient(timeout=timeout) as client:
+            for attempt in range(max_attempts):
+                pieces: list[str] = []
+                try:
+                    async with client.stream("POST", self.base_url.rstrip("/") + "/chat/completions",
+                                             headers=headers, json=payload) as response:
+                        if response.status_code == 429:
+                            retry = min(float(response.headers.get("retry-after", 2 ** attempt)), 60)
+                            await response.aread()
+                            await asyncio.sleep(retry)
+                            last = "HTTP 429: provider rate limit"
+                            continue
+                        response.raise_for_status()
+                        async for line in response.aiter_lines():
+                            if not line.startswith("data:"):
+                                continue
+                            data = line[5:].strip()
+                            if not data or data == "[DONE]":
+                                continue
+                            try:
+                                event = json.loads(data)
+                                delta = event.get("choices", [{}])[0].get("delta", {})
+                                token = delta.get("content")
+                                if token:
+                                    pieces.append(token)
+                                    if on_token:
+                                        on_token(token)
+                            except (json.JSONDecodeError, IndexError, AttributeError):
+                                # One malformed SSE event must not discard already received tokens.
+                                continue
+                    if pieces:
+                        return "".join(pieces)
+                    last = "Provider stream completed without content"
+                except httpx.HTTPError as exc:
+                    last = self._error_text(exc)
+                if attempt + 1 < max_attempts:
+                    await asyncio.sleep(min(2 ** attempt + random.random(), 20))
+        raise ProviderError(last or "Provider stream did not return content")
+
+    async def _complete(self, prompt: str, max_attempts: int, json_mode: bool) -> str:
+        headers = {"Authorization": f"Bearer {self.api_key}"} if self.api_key else {}
+        payload = {"model": self.model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.2}
+        if json_mode:
+            payload["response_format"] = {"type": "json_object"}
         last = ""
         async with httpx.AsyncClient(timeout=self.timeout) as client:
             for attempt in range(max_attempts):
@@ -32,13 +88,22 @@ class OpenAICompatibleProvider:
                         await asyncio.sleep(retry)
                         continue
                     response.raise_for_status()
-                    content = response.json()["choices"][0]["message"]["content"]
-                    return json.loads(strip_markdown_fences(content))
-                except (httpx.HTTPError, KeyError, ValueError, json.JSONDecodeError) as exc:
-                    last = str(exc)
+                    return response.json()["choices"][0]["message"]["content"]
+                except (httpx.HTTPError, KeyError, ValueError) as exc:
+                    last = self._error_text(exc)
                     if attempt + 1 < max_attempts:
                         await asyncio.sleep(min(2 ** attempt + random.random(), 20))
         raise ProviderError(last or "Provider did not return valid JSON")
+
+    async def complete_text(self, prompt: str, max_attempts: int = 4, on_token=None, request_options: dict | None = None) -> str:
+        return (await self._complete_stream(prompt, max_attempts, on_token=on_token, request_options=request_options)).strip()
+
+    async def complete_json(self, prompt: str, max_attempts: int = 4) -> dict:
+        content = await self._complete(prompt, max_attempts, json_mode=True)
+        try:
+            return json.loads(strip_markdown_fences(content))
+        except json.JSONDecodeError as exc:
+            raise ProviderError(f"Provider returned invalid JSON: {exc}") from exc
 
     async def test(self) -> tuple[bool, str]:
         try:
@@ -55,4 +120,3 @@ def strip_markdown_fences(value: str) -> str:
         if text.rstrip().endswith("```"):
             text = text.rstrip()[:-3]
     return text.strip()
-

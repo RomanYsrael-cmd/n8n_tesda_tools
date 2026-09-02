@@ -148,18 +148,37 @@ async def normalize_job(job_id: str, path: Path):
 
 
 async def dispatch_n8n(action: str, job_id: str):
-    if not settings.use_n8n or not settings.n8n_webhook_base:
+    async def dispatch_directly():
         if action == "normalize":
             row = require_job(job_id)
-            source = next(job_dir(settings.data_root, job_id, JobStatus(row["status"])).glob("*.docx"))
+            source = next(job_dir(settings.data_root, job_id, JobStatus(row["status"])).glob("*.docx"), None)
+            if not source:
+                db.update_job(job_id, status=JobStatus.FAILED, message="Uploaded syllabus could not be found", error="The DOCX file is missing from the job folder")
+                return
             await normalize_job(job_id, source)
         else:
             generation.start(job_id)
+
+    if not settings.use_n8n or not settings.n8n_webhook_base:
+        await dispatch_directly()
         return
     url = settings.n8n_webhook_base.rstrip("/") + f"/tesda-module-builder/{action}"
-    async with httpx.AsyncClient(timeout=15) as client:
-        response = await client.post(url, json={"job_id": job_id})
-        response.raise_for_status()
+    last_error = ""
+    async with httpx.AsyncClient(timeout=5) as client:
+        for attempt in range(4):
+            try:
+                response = await client.post(url, json={"job_id": job_id})
+                response.raise_for_status()
+                return
+            except httpx.HTTPError as exc:
+                last_error = str(exc)
+                if attempt < 3:
+                    await asyncio.sleep(attempt + 1)
+    # n8n may still be starting after Docker or laptop restart. It is an
+    # orchestration layer, so its temporary unavailability must not strand a
+    # local job. The direct path invokes exactly the same idempotent workers.
+    db.update_job(job_id, message=f"n8n was temporarily unavailable; continuing locally ({last_error[:120]})")
+    await dispatch_directly()
 
 
 @app.post("/upload")
@@ -215,7 +234,7 @@ def job_context(request: Request, job_id: str) -> dict:
     folder = job_dir(settings.data_root, job_id, JobStatus(job["status"])) / "modules"
     modules = sorted(p.name for p in folder.glob("*.docx")) if folder.exists() else []
     return {"request": request, "job": job, "plan": plan, "stages": stages, "modules": modules,
-            "call_estimate": len([w for w in plan.weeks if w.generate]) * 3 if plan else 0}
+            "call_estimate": len([w for w in plan.weeks if w.generate]) * 5 if plan else 0}
 
 
 @app.get("/jobs/{job_id}/plan", response_class=HTMLResponse)
@@ -312,7 +331,7 @@ def _llm_log_files(job_id: str):
 def llm_logs(job_id: str):
     job = require_job(job_id)
     return {"job": {"status": job["status"], "progress": job["progress"], "message": job["message"], "error": job["error"]},
-            "stages": db.stages(job_id), "entries": _llm_log_files(job_id)}
+            "stages": db.stages(job_id), "live": generation.live_for(job_id), "entries": _llm_log_files(job_id)}
 
 
 @app.get("/api/jobs/{job_id}/llm-logs/{bucket}/{filename}")
@@ -398,7 +417,7 @@ def approve(job_id: str):
 
 
 @app.post("/jobs/{job_id}/generate")
-async def generate(job_id: str):
+async def generate(job_id: str, post_call_concurrency: int = Form(1)):
     job = require_job(job_id)
     status = JobStatus(job["status"])
     if status == JobStatus.GENERATING:
@@ -407,7 +426,11 @@ async def generate(job_id: str):
         return RedirectResponse(f"/jobs/{job_id}/result", status_code=303)
     if status not in {JobStatus.APPROVED, JobStatus.FAILED, JobStatus.PAUSED, JobStatus.CANCELLED}:
         return RedirectResponse(f"/jobs/{job_id}", status_code=303)
-    db.update_job(job_id, status=JobStatus.GENERATING, mode="automatic", message="Starting automatic generation", error="")
+    if post_call_concurrency not in {1, 2, 3, 4}:
+        raise HTTPException(400, "Call concurrency must be between 1 and 4")
+    db.set_control(job_id, post_call_concurrency=post_call_concurrency)
+    mode_note = "one call at a time" if post_call_concurrency == 1 else f"up to {post_call_concurrency} calls at a time"
+    db.update_job(job_id, status=JobStatus.GENERATING, mode="automatic", message=f"Starting automatic generation ({mode_note})", error="")
     try:
         await dispatch_n8n("generate", job_id)
     except Exception as exc:
@@ -424,6 +447,48 @@ def pause(job_id: str):
 @app.post("/jobs/{job_id}/cancel")
 def cancel(job_id: str):
     require_job(job_id); db.set_control(job_id, cancel=True); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
+
+
+def _delete_llm_logs(job_id: str):
+    for bucket in ("Success", "Failed"):
+        for path in (settings.data_root / "JSON Dump" / bucket).glob(f"{job_id}-*.json"):
+            path.unlink(missing_ok=True)
+
+
+@app.post("/jobs/{job_id}/back-to-planning")
+async def back_to_planning(job_id: str):
+    job = require_job(job_id)
+    status = JobStatus(job["status"])
+    allowed = {JobStatus.APPROVED, JobStatus.GENERATING, JobStatus.PAUSED, JobStatus.FAILED, JobStatus.CANCELLED}
+    if status not in allowed:
+        raise HTTPException(409, "This job cannot return to planning from its current state")
+    await generation.stop(job_id)
+    source = job_dir(settings.data_root, job_id, status)
+    for name in ("modules", "render"):
+        shutil.rmtree(source / name, ignore_errors=True)
+    for name in ("course-modules.zip", "validation-report.json", "generation-report.json", "pending-manual.json", "refinement-prompt.txt", "repair-prompt.txt", "rejected-import.json"):
+        (source / name).unlink(missing_ok=True)
+    transition(settings.data_root, job_id, status, JobStatus.REVIEW)
+    db.clear_stages(job_id)
+    db.set_control(job_id, pause=False, cancel=False)
+    db.update_job(job_id, status=JobStatus.REVIEW, mode=None, progress=100, message="Returned to planning. Review and approve the plan again.", error="")
+    _delete_llm_logs(job_id)
+    return RedirectResponse(f"/jobs/{job_id}/plan", 303)
+
+
+@app.post("/jobs/{job_id}/delete")
+async def delete_job(job_id: str):
+    job = require_job(job_id)
+    status = JobStatus(job["status"])
+    if status == JobStatus.NORMALIZING:
+        raise HTTPException(409, "Please wait until syllabus reading finishes before deleting this course")
+    await generation.stop(job_id)
+    folder = job_dir(settings.data_root, job_id, status)
+    if folder.exists():
+        shutil.rmtree(folder)
+    _delete_llm_logs(job_id)
+    db.delete_job(job_id)
+    return RedirectResponse("/", 303)
 
 
 @app.post("/jobs/{job_id}/resume")

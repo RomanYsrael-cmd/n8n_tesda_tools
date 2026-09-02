@@ -7,10 +7,13 @@ from pathlib import Path
 
 from pydantic import ValidationError
 
+from .content_parsers import extract_marked_response, parse_aiken_quiz, parse_apply_markdown, parse_introduction, parse_preassessment, parse_presentation_markdown
 from .config import Settings
 from .database import Database
 from .docx_engine import build_module, package_course
-from .prompts import repair_prompt, semantic_validation_prompt, stage_prompt
+from .prompts import (automatic_apply_prompt, automatic_introduction_prompt, automatic_preassessment_prompt,
+                      automatic_presentation_prompt, automatic_self_check_prompt, repair_prompt,
+                      semantic_validation_prompt, text_repair_prompt)
 from .providers import OpenAICompatibleProvider
 from .schemas import ApplyContent, JobStatus, ModuleBundle, NormalizedSyllabus, PresentationContent, QuizContent, SemanticReview
 from .storage import dump_json, job_dir, transition
@@ -24,6 +27,10 @@ class GenerationService:
         self.provider_factory = provider_factory
         self.semantic_enabled = semantic_enabled
         self.tasks: dict[str, asyncio.Task] = {}
+        self.live_activity: dict[str, dict[str, dict]] = {}
+
+    def live_for(self, job_id: str) -> list[dict]:
+        return list(self.live_activity.get(job_id, {}).values())
 
     def start(self, job_id: str):
         current = self.tasks.get(job_id)
@@ -31,6 +38,17 @@ class GenerationService:
             return
         self.db.set_control(job_id, pause=False, cancel=False)
         self.tasks[job_id] = asyncio.create_task(self.run_auto(job_id))
+
+    async def stop(self, job_id: str):
+        task = self.tasks.get(job_id)
+        if task and not task.done():
+            task.cancel()
+            try:
+                await task
+            except asyncio.CancelledError:
+                pass
+        self.tasks.pop(job_id, None)
+        self.live_activity.pop(job_id, None)
 
     async def _validated_call(self, job_id: str, lesson: int, week: int, stage: str, prompt: str, model_type):
         provider: OpenAICompatibleProvider = self.provider_factory()
@@ -58,6 +76,58 @@ class GenerationService:
         self.db.upsert_stage(job_id, lesson, week, stage, "failed", "Validation failed after two repair attempts")
         raise ValueError(f"{stage} failed validation after two repair attempts")
 
+    async def _validated_text(self, job_id: str, lesson: int, week: int, stage: str, prompt: str, parser, format_name: str):
+        provider: OpenAICompatibleProvider = self.provider_factory()
+        current_prompt = prompt
+        request_options = {
+            "presentation": {"web_search": True, "enable_thinking": False},
+            "quiz": {"web_search": False, "enable_thinking": False},
+            "introduction": {"web_search": "auto", "enable_thinking": False},
+            "pre_assessment": {"web_search": "auto", "enable_thinking": False},
+            "practical_activity": {"web_search": "auto", "enable_thinking": False},
+        }.get(stage, {})
+        for repair in range(3):
+            self.db.upsert_stage(job_id, lesson, week, stage, "running", f"Request attempt {repair + 1}", increment=True)
+            dump_json(self.settings.data_root, True, f"{job_id}-lesson-{lesson}-{stage}-request-{repair+1}", {"prompt": current_prompt, "model": provider.model, "base_url": provider.base_url, "response_format": "text", "request_options": request_options})
+            live_key = f"lesson-{lesson}-{stage}-{repair + 1}"
+            live = {"id": live_key, "lesson": lesson, "week": week, "stage": stage,
+                    "attempt": repair + 1, "status": "receiving", "content": ""}
+            job_live = self.live_activity.setdefault(job_id, {})
+            job_live[live_key] = live
+
+            def receive_token(token: str):
+                live["content"] += token
+
+            try:
+                raw = await provider.complete_text(current_prompt, on_token=receive_token, request_options=request_options)
+                live["status"] = "validating"
+            except Exception:
+                live["status"] = "failed"
+                raise
+            try:
+                extracted = extract_marked_response(raw)
+                value = parser(extracted)
+                dump_json(self.settings.data_root, True, f"{job_id}-lesson-{lesson}-{stage}-response-{repair+1}", {"raw_text": raw, "extracted_text": extracted})
+                self.db.upsert_stage(job_id, lesson, week, stage, "success", "Parsed and validated response accepted")
+                live["status"] = "accepted"
+                job_live.pop(live_key, None)
+                return value, extracted
+            except (ValueError, ValidationError) as exc:
+                errors = [str(exc)]
+                if isinstance(exc, ValidationError):
+                    errors = [f"{'.'.join(map(str, e['loc']))}: {e['msg']}" for e in exc.errors()]
+                dump_json(self.settings.data_root, False, f"{job_id}-lesson-{lesson}-{stage}-invalid-{repair+1}", {"errors": errors, "rejected_text": raw})
+                live["status"] = "rejected"
+                job_live.pop(live_key, None)
+                # A malformed quiz is more reliably replaced than patched,
+                # especially with smaller local models. Each quiz retry uses
+                # the complete original generation prompt and receives no
+                # rejected response or correction instructions.
+                current_prompt = prompt if stage == "quiz" else text_repair_prompt(format_name, errors, raw)
+        failure_message = "Validation failed after three fresh generation attempts" if stage == "quiz" else "Validation failed after two repair attempts"
+        self.db.upsert_stage(job_id, lesson, week, stage, "failed", failure_message)
+        raise ValueError(f"{stage} {failure_message.casefold()}")
+
     async def run_auto(self, job_id: str):
         row = self.db.get_job(job_id)
         try:
@@ -82,13 +152,41 @@ class GenerationService:
                     generated.append({"lesson": lesson, "week": week.actual_week, "file": existing[0].name, "resumed": True})
                     self.db.update_job(job_id, progress=int((index + 1) / len(weeks) * 100), message=f"Kept completed Lesson {lesson}")
                     continue
-                presentation = await self._validated_call(job_id, lesson, week.actual_week, "presentation", stage_prompt(plan, week, "presentation"), PresentationContent)
-                quiz_task = self._validated_call(job_id, lesson, week.actual_week, "quiz", stage_prompt(plan, week, "quiz", presentation.model_dump(), self.settings.quiz_questions), QuizContent)
-                apply_task = self._validated_call(job_id, lesson, week.actual_week, "practical_activity", stage_prompt(plan, week, "practical_activity", presentation.model_dump()), ApplyContent)
-                quiz, practical = await asyncio.gather(quiz_task, apply_task)
-                bundle = ModuleBundle(actual_week=week.actual_week, lesson_number=lesson, approved_scope=week.topic_scope, presentation=presentation, quiz=quiz, practical_activity=practical)
-                validated, errors = validate_bundle(bundle.model_dump(), self.settings.quiz_questions)
-                errors += validate_bundle_against_plan(bundle, plan)
+                draft, presentation_markdown = await self._validated_text(job_id, lesson, week.actual_week, "presentation", automatic_presentation_prompt(plan, week), parse_presentation_markdown, "Markdown presentation")
+                stage_calls = [
+                    ("introduction", automatic_introduction_prompt(presentation_markdown), parse_introduction, "plain-text introduction"),
+                    ("pre_assessment", automatic_preassessment_prompt(presentation_markdown), parse_preassessment, "Markdown pre-assessment"),
+                    ("quiz", automatic_self_check_prompt(presentation_markdown), parse_aiken_quiz, "Aiken-style Self Check"),
+                    ("practical_activity", automatic_apply_prompt(presentation_markdown), parse_apply_markdown, "Markdown Let's Apply activity"),
+                ]
+                control = json.loads(self.db.get_job(job_id)["control_json"] or "{}")
+                concurrency = max(1, min(4, int(control.get("post_call_concurrency", 1))))
+                semaphore = asyncio.Semaphore(concurrency)
+
+                async def run_stage(stage, prompt, parser, format_name):
+                    async with semaphore:
+                        return await self._validated_text(job_id, lesson, week.actual_week, stage, prompt, parser, format_name)
+
+                results = await asyncio.gather(*[
+                    run_stage(stage, prompt, parser, format_name)
+                    for stage, prompt, parser, format_name in stage_calls
+                ])
+                (introduction, _), (pre_assessment, _), (quiz, _), (practical, _) = results
+                objectives = draft.objectives or ([week.learning_outcome] if week.learning_outcome.strip() else [f"Study {week.proposed_title}"])
+                presentation = PresentationContent.model_validate({"lesson_title": week.proposed_title, "information_sheet_title": f"Key Facts {lesson}.1 – {week.proposed_title}", "measurable_objectives": objectives, "pre_assessment": pre_assessment, "introduction": introduction, "presentation": draft.blocks, "references": draft.references}, context={"automatic": True})
+                bundle = ModuleBundle.model_validate(
+                    {
+                        "actual_week": week.actual_week,
+                        "lesson_number": lesson,
+                        "approved_scope": week.topic_scope,
+                        "presentation": presentation.model_dump(),
+                        "quiz": quiz.model_dump(),
+                        "practical_activity": practical.model_dump(),
+                    },
+                    context={"automatic": True},
+                )
+                validated, errors = validate_bundle(bundle.model_dump(), self.settings.quiz_questions, automatic=True)
+                errors += validate_bundle_against_plan(bundle, plan, automatic=True)
                 if errors:
                     raise ValueError("; ".join(errors))
                 if self.semantic_enabled():
@@ -109,7 +207,7 @@ class GenerationService:
                 self.db.update_job(job_id, progress=int((index + 1) / len(weeks) * 100), message=f"Completed Lesson {lesson} of {len(weeks)}")
             (base / "normalized-syllabus.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
             report_json(base / "validation-report.json", {"valid": True, "modules": generated})
-            report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated), "expected_base_llm_calls_per_module": 3, "python_compiles_stage_json": True, "full_bundle_refinement": False})
+            report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated), "expected_base_llm_calls_per_module": 5, "presentation_format": "markdown", "quiz_format": "aiken-style text", "activity_format": "markdown", "python_compiles_stage_json": True, "full_bundle_refinement": False})
             package_course(base)
             transition(self.settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
             self.db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="All modules are ready", error="")

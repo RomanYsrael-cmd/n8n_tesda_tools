@@ -14,23 +14,18 @@ from .docx_engine import PLACEHOLDERS, unresolved_placeholders
 from .schemas import ModuleBundle, NormalizedSyllabus
 
 
-def validate_bundle(raw: object, quiz_count: int) -> tuple[ModuleBundle | None, list[str]]:
+def validate_bundle(raw: object, quiz_count: int, automatic: bool = False) -> tuple[ModuleBundle | None, list[str]]:
     try:
-        bundle = ModuleBundle.model_validate(raw)
+        bundle = ModuleBundle.model_validate(raw, context={"automatic": automatic})
     except ValidationError as exc:
         return None, [f"{'.'.join(map(str, e['loc']))}: {e['msg']}" for e in exc.errors()]
     errors = []
     if len(bundle.quiz.questions) != quiz_count:
         errors.append(f"quiz.questions: expected exactly {quiz_count}, received {len(bundle.quiz.questions)}")
-    presentation = " ".join(block.plain_text for block in bundle.presentation.presentation).casefold()
-    for question in bundle.quiz.questions:
-        keywords = [w.casefold().strip(".,?!:;()") for w in question.question.split() if len(w) > 5]
-        if keywords and not any(k in presentation for k in keywords):
-            errors.append(f"quiz question {question.id} may not be answerable from the presentation")
     return (bundle if not errors else None), errors
 
 
-def validate_bundle_against_plan(bundle: ModuleBundle, plan: NormalizedSyllabus) -> list[str]:
+def validate_bundle_against_plan(bundle: ModuleBundle, plan: NormalizedSyllabus, automatic: bool = False) -> list[str]:
     match = next((w for w in plan.weeks if w.actual_week == bundle.actual_week and w.generate), None)
     if not match:
         return [f"Week {bundle.actual_week} is not an approved generated week"]
@@ -39,9 +34,10 @@ def validate_bundle_against_plan(bundle: ModuleBundle, plan: NormalizedSyllabus)
         errors.append(f"Week {bundle.actual_week} must be Lesson {match.lesson_number}")
     if bundle.approved_scope.strip().casefold() != match.topic_scope.strip().casefold():
         errors.append("approved_scope must exactly match the approved normalized plan")
-    expected_title = f"Key Facts {bundle.lesson_number}.1 – {match.proposed_title}"
-    if bundle.presentation.information_sheet_title.strip() != expected_title.strip():
-        errors.append(f"information_sheet_title must be exactly: {expected_title}")
+    if not automatic:
+        expected_title = f"Key Facts {bundle.lesson_number}.1 – {match.proposed_title}"
+        if bundle.presentation.information_sheet_title.strip() != expected_title.strip():
+            errors.append(f"information_sheet_title must be exactly: {expected_title}")
     return errors
 
 

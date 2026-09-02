@@ -92,6 +92,14 @@ class Database:
         with self.connect() as con:
             con.execute("DELETE FROM stages WHERE job_id=? AND lesson_number=?", (job_id, lesson_number))
 
+    def clear_stages(self, job_id: str):
+        with self.connect() as con:
+            con.execute("DELETE FROM stages WHERE job_id=?", (job_id,))
+
+    def delete_job(self, job_id: str):
+        with self.connect() as con:
+            con.execute("DELETE FROM jobs WHERE id=?", (job_id,))
+
     def recover_interrupted(self):
         """Convert abandoned in-memory work into explicit resumable states on startup."""
         with self.connect() as con:

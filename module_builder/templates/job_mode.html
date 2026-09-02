@@ -7,9 +7,10 @@
   {% if stages %}<div class="warning"><strong>This job has previous automatic-generation activity.</strong> You can inspect its calls, responses, validation errors, and attempts before resuming.</div><p><a class="btn secondary" href="/jobs/{{job.id}}/progress">View detailed LLM activity</a></p>{% endif %}
   <div class="warning"><strong>Automatic estimate:</strong> about {{call_estimate}} requests, plus bounded repairs. Free models can be slow or unreliable.</div>
   <div class="choice-grid">
-    <article class="choice"><h3>Automatic API</h3><p>The app uses your configured provider and continues automatically.</p><form action="/jobs/{{job.id}}/generate" method="post"><button>{% if job.status in ['paused','failed','cancelled'] %}Resume automatic generation{% else %}Start automatic generation{% endif %}</button></form></article>
+    <article class="choice"><h3>Automatic API</h3><p>The presentation is generated first. Choose how many of the four remaining calls may run together.</p><form action="/jobs/{{job.id}}/generate" method="post"><label>Simultaneous API calls<select name="post_call_concurrency"><option value="1">1 — One at a time (recommended for local models)</option><option value="2">2 calls at a time</option><option value="3">3 calls at a time</option><option value="4">4 calls at a time (fastest)</option></select></label><button>{% if job.status in ['paused','failed','cancelled'] %}Resume automatic generation{% else %}Start automatic generation{% endif %}</button></form></article>
     <article class="choice"><h3>ChatGPT / manual</h3><p>Copy prompts to ChatGPT, then paste or upload each complete JSON response.</p><a class="btn" href="/jobs/{{job.id}}/manual/initial">Continue with ChatGPT</a></article>
   </div>
   <p class="muted">For stronger results and higher limits, consider ChatGPT Go or Plus. If available, enable Search for current facts and genuine references.</p>
+  <div class="actions"><form action="/jobs/{{job.id}}/back-to-planning" method="post" data-confirm="Stop work and return to planning? Generated partial files for this course will be removed."><button class="secondary">Back to planning</button></form><form action="/jobs/{{job.id}}/delete" method="post" data-confirm="Permanently delete this course and its generated files?"><button class="danger">Delete course</button></form></div>
 </section>
 {% endblock %}
