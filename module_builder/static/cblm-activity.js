@@ -1,0 +1,15 @@
+(() => {
+  const script=document.currentScript, jobId=script.dataset.jobId;
+  const drawer=document.getElementById('activity-drawer'), backdrop=document.getElementById('drawer-backdrop');
+  const entries=document.getElementById('activity-entries'), summary=document.getElementById('activity-summary'), live=document.getElementById('live-streams');
+  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const open=value=>{drawer.classList.toggle('open',value);backdrop.classList.toggle('open',value);drawer.setAttribute('aria-hidden',String(!value));};
+  document.getElementById('activity-toggle').onclick=()=>open(true); document.getElementById('activity-close').onclick=()=>open(false); backdrop.onclick=()=>open(false);
+  const readable=v=>v.prompt!==undefined?`PROMPT SENT TO THE LLM\n\n${v.prompt}\n\nMODEL\n${v.model||''}\n\nBASE URL\n${v.base_url||''}`:v.response!==undefined?`LLM RESPONSE\n\n${v.response}`:v.rejected_text!==undefined?`VALIDATION ERRORS\n${(v.errors||[]).map(e=>'• '+e).join('\n')}\n\nREJECTED LLM RESPONSE\n${v.rejected_text}`:JSON.stringify(v,null,2);
+  async function detail(button){let box=button.parentElement,pre=box.querySelector('pre');if(pre){pre.hidden=!pre.hidden;return}button.disabled=true;try{const v=await fetch(button.dataset.url).then(r=>r.json());pre=document.createElement('pre');pre.className='log-detail';pre.textContent=readable(v);box.appendChild(pre)}finally{button.disabled=false}}
+  async function refresh(){try{const d=await fetch(`/cblm/jobs/${jobId}/llm-logs`,{cache:'no-store'}).then(r=>r.json());
+    live.innerHTML=d.live.map(x=>`<div class="log-entry response"><div class="log-meta"><strong>LIVE · LO ${x.lo} · Topic ${x.topic} · ${esc(x.stage)}</strong> · attempt ${x.attempt}</div><pre class="log-detail">${esc(x.content||'Waiting for the first token…')}</pre></div>`).join('');
+    summary.innerHTML=d.stages.length?d.stages.map(s=>`<div class="stage-line"><strong>LO${s.lo_number}.${s.topic_number}</strong><span>${esc(s.stage)}</span><span>${esc(s.status)}</span><span>×${s.attempts}</span></div>`).join(''):'<div class="activity-empty">Waiting for the first call…</div>';
+    const known=new Set([...entries.children].map(e=>e.dataset.name));d.entries.slice().reverse().forEach(x=>{if(known.has(x.name))return;const box=document.createElement('div');box.className=`log-entry ${x.kind}`;box.dataset.name=x.name;const b=document.createElement('button');b.type='button';b.dataset.url=`/cblm/jobs/${jobId}/llm-logs/${x.bucket}/${encodeURIComponent(x.name)}`;b.innerHTML=`<span>${esc(x.kind.toUpperCase())}</span><span>${esc(x.name.replace(jobId+'-',''))}</span>`;b.onclick=()=>detail(b);box.appendChild(b);entries.prepend(box)});
+  }catch(e){summary.textContent='Live update temporarily unavailable. Retrying…'}setTimeout(refresh,1000)}refresh();
+})();

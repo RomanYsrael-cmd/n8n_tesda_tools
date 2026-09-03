@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="card"><h1>{{job.filename}}</h1><p>{{job.message}}</p><progress value="{{job.progress}}" max="100"></progress></section><script>setTimeout(()=>location.reload(),2000)</script>{% endblock %}

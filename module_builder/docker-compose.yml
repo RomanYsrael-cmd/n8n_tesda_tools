@@ -19,7 +19,9 @@ services:
     networks: [tesda-tools]
 
   module-builder:
-    build: .
+    build:
+      context: ..
+      dockerfile: module_builder/Dockerfile
     container_name: tesda-module-builder
     restart: unless-stopped
     environment:
@@ -28,6 +30,7 @@ services:
       MODULE_BUILDER_BASE_URL: http://module-builder:8080
       MODULE_BUILDER_N8N_WEBHOOK_BASE: http://n8n:5678/webhook
       MODULE_BUILDER_USE_N8N: "true"
+      CBLM_BUILDER_DATA_ROOT: /data/CBLM Builder
     ports:
       - "${MODULE_BUILDER_HOST:-127.0.0.1}:${MODULE_BUILDER_PORT:-8080}:8080"
     volumes:

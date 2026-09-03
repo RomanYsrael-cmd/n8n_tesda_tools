@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import asyncio
 import json
+import os
 import shutil
+import sys
 from datetime import datetime, UTC
 from pathlib import Path
 
@@ -56,6 +58,17 @@ app = FastAPI(title="TESDA Module Builder", version="0.1.0")
 app.mount("/static", StaticFiles(directory=BASE / "static"), name="static")
 templates = Jinja2Templates(directory=BASE / "templates")
 
+CBLM_PACKAGE_ROOT = Path(__file__).resolve().parents[2] / "CBLM_builder(non-quali)"
+if not CBLM_PACKAGE_ROOT.exists():
+    CBLM_PACKAGE_ROOT = Path("/cblm")
+if CBLM_PACKAGE_ROOT.exists():
+    sys.path.insert(0, str(CBLM_PACKAGE_ROOT))
+    from cblm_app.router import create_router
+    app.include_router(create_router(
+        Path(os.getenv("CBLM_BUILDER_DATA_ROOT", str(settings.data_root / "CBLM Builder"))),
+        CBLM_PACKAGE_ROOT / "Templates", CBLM_PACKAGE_ROOT / "Prompts.xlsx", make_provider,
+    ))
+
 
 @app.get("/health")
 def health():
@@ -64,6 +77,11 @@ def health():
 
 
 @app.get("/", response_class=HTMLResponse)
+def tool_selector(request: Request):
+    return templates.TemplateResponse(request, "tool-selector.html", {})
+
+
+@app.get("/module-builder", response_class=HTMLResponse)
 def dashboard(request: Request):
     jobs = db.list_jobs()
     grouped = {"Inbox": [], "In Progress": [], "Success": [], "Finished": []}

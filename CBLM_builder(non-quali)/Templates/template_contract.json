@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "placeholder_syntax": "{{field_name}}",
+  "rules": {
+    "placeholders_are_single_word_runs": true,
+    "scalar_placeholders_may_repeat_across_documents": true,
+    "array_placeholders_are_single_expansion_anchors": true
+  },
+  "aliases_removed": [
+    "qualification_title",
+    "subject_title"
+  ],
+  "scalar_fields": [
+    "sector",
+    "course_title",
+    "course_code",
+    "module_title",
+    "name",
+    "learning_outcome",
+    "x",
+    "next_learning_outcome",
+    "module_descriptor",
+    "y",
+    "location",
+    "duration",
+    "introduction",
+    "keyfacts_content",
+    "quiz_instructions",
+    "quiz",
+    "answer_key",
+    "activity_title",
+    "activity_objectives",
+    "activity_supplies",
+    "activity_equipment",
+    "activity_steps",
+    "activity_method"
+  ],
+  "array_fields": {
+    "competencies": {
+      "template": "00_front_matter.docx",
+      "repeat_region": "List of Competencies table template row",
+      "item_fields": [
+        "learning_outcome",
+        "module_title",
+        "course_code"
+      ],
+      "generated_fields": [
+        "sequence_number"
+      ]
+    },
+    "learning_outcome_specific": {
+      "template": "00_front_matter.docx",
+      "repeat_region": "numbered paragraph containing {{learning_outcome_specific}}"
+    },
+    "assessment_criteria": {
+      "templates": [
+        "00_front_matter.docx",
+        "10_lo_intro.docx"
+      ],
+      "repeat_region": "numbered paragraph containing {{assessment_criteria}}"
+    },
+    "syllabus_topic": {
+      "templates": [
+        "10_lo_intro.docx",
+        "20_learning_experience.docx"
+      ],
+      "repeat_regions": [
+        "numbered paragraph containing {{syllabus_topic}}",
+        "three-row Learning Activities group"
+      ]
+    },
+    "training_materials": {
+      "template": "10_lo_intro.docx",
+      "repeat_region": "bulleted paragraph containing {{training_materials}}"
+    },
+    "assessment_methods": {
+      "template": "10_lo_intro.docx",
+      "repeat_region": "bulleted paragraph containing {{assessment_methods}}"
+    },
+    "lesson_objectives": {
+      "template": "30_key_facts.docx",
+      "repeat_region": "rich-content anchor {{lesson_objectives}}"
+    },
+    "activity_criteria": {
+      "template": "50_lets_apply.docx",
+      "repeat_region": "Performance Criteria Checklist template row"
+    }
+  }
+}
