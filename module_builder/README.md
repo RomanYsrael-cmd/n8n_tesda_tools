@@ -8,11 +8,11 @@ You need **Docker Desktop**. Install it, open it, and wait until it says it is r
 
 ### Windows
 
-Double-click `start.bat`. When the browser opens, use **Setup** and follow the page.
+From the repository root, double-click `start.bat`. When the browser opens, use **Setup** and follow the page.
 
 ### macOS or Linux
 
-Open a terminal in this folder once, run `chmod +x start.sh`, then run `./start.sh`. Open <http://localhost:8080> if the browser does not open automatically.
+Open a terminal at the repository root once, run `chmod +x start.sh`, then run `./start.sh`. Open <http://localhost:8080> if the browser does not open automatically.
 
 To stop the tool, run:
 
@@ -74,7 +74,7 @@ Presentations use structured Word content: headings, paragraphs, bold and italic
 - n8n logs: `docker compose logs n8n`
 - If the page does not open, confirm Docker Desktop is running and ports 8080 and 5679 are free.
 - The safest cross-platform default uses Docker volumes named `tesda-module-builder-data` and `tesda-module-builder-n8n-data`.
-- To expose the data as ordinary folders on your computer, copy `.env.example` to `.env`, change `MODULE_BUILDER_DATA_ROOT`, and start with `docker compose -f docker-compose.yml -f docker-compose.bind.yml up -d --build`. Docker Desktop must be allowed to share that drive/folder.
+- To expose the data as ordinary folders on your computer, copy the repository-root `.env.example` to `.env`, change `MODULE_BUILDER_DATA_ROOT`, and start from the repository root with `docker compose -f docker-compose.yml -f docker-compose.bind.yml up -d --build`. Docker Desktop must be allowed to share that drive/folder.
 - Never put a real API key in `.env.example`, workflow JSON, or a file you plan to share.
 
 LibreOffice is installed inside the application image. Each generated DOCX is structurally audited and converted headlessly to PDF as a render check. This detects conversion and page-generation failures; it does not claim human or pixel-perfect semantic review.
@@ -94,7 +94,7 @@ The app sends only job identifiers and callback URLs to n8n. Provider API keys r
 
 ## Developer architecture
 
-`app/main.py` owns HTTP/UI routes; `database.py` and `001_initial.sql` define the SQLite WAL job store and initial migration; `storage.py` owns lifecycle folders; `extraction.py` converts varied DOCX layouts into stable source-traceable plans; `schemas.py` is the Pydantic contract; `providers.py` is the OpenAI-compatible adapter; `prompts.py` contains deterministic prompts; `services.py` runs restart-safe generation/import jobs; `docx_engine.py` fills the repaired template deterministically; and `validation.py` owns schema, cross-field, package, placeholder, and LibreOffice checks.
+The repository-level `launcher/main.py` owns application assembly and tool registration. `app/main.py` exports the Module Builder router and owns its HTTP/UI routes; `database.py` and `001_initial.sql` define the SQLite WAL job store and initial migration; `storage.py` owns lifecycle folders; `extraction.py` converts varied DOCX layouts into stable source-traceable plans; `schemas.py` is the Pydantic contract; `providers.py` is the OpenAI-compatible adapter; `prompts.py` contains deterministic prompts; `services.py` runs restart-safe generation/import jobs; `docx_engine.py` fills the repaired template deterministically; and `validation.py` owns schema, cross-field, package, placeholder, and LibreOffice checks.
 
 The boundaries are intentionally reusable without creating a shared monolith. A future academic tool can copy the small patterns for encrypted local settings, SQLite job/stage records, lifecycle folders, provider adapters, and Docker launch helpers, while keeping its own schemas, prompts, UI, and workflows. Do not import Module Builder domain models into another tool.
 

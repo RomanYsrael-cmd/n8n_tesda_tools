@@ -1,25 +1,14 @@
-{% extends "base.html" %}
-{% block title %}Setup - Module Builder{% endblock %}
-{% block content %}
-<section class="panel">
-  <h1>Setup</h1>
-  <p>Your API key is encrypted on this computer and is never sent back to the browser after saving.</p>
-  {% if key_deleted %}<p class="good"><strong>Saved API key deleted.</strong> Automatic API generation will remain unavailable until you save another key.</p>{% endif %}
-  <p><strong>Data folder:</strong> {{data_root}}<br><strong>Template:</strong> {{template}} {% if template_errors %}<span class="bad">Needs attention: {{template_errors|join(', ')}}</span>{% else %}<span class="good">Verified</span>{% endif %}</p>
-  <form action="/setup" method="post" enctype="multipart/form-data">
-    <label>Provider</label><select name="provider"><option value="openrouter" {% if config.provider == 'openrouter' %}selected{% endif %}>OpenRouter</option><option value="openai-compatible" {% if config.provider == 'openai-compatible' %}selected{% endif %}>Other OpenAI-compatible provider</option></select>
-    <label>Base URL</label><input name="base_url" value="{{config.base_url}}" required>
-    <label>Model ID</label><input name="model" value="{{config.model}}" required>
-    <label>API key</label><input type="password" name="api_key" value="{{config.api_key}}" autocomplete="off">
-    <label>Default author</label><input name="default_author" value="{{config.default_author}}">
-    <label>Default trainer</label><input name="default_trainer" value="{{config.default_trainer}}">
-    <label>Document font</label><input name="font_family" value="{{config.font_family}}" required>
-    <label>Font size</label><input name="font_size" type="number" min="8" max="24" step="0.5" value="{{config.font_size}}" required>
-    <label>Use another verified Module Template.docx (optional)</label><input type="file" name="template_file" accept=".docx">
-    <label><input type="checkbox" name="semantic_validation" {% if config.semantic_validation %}checked{% endif %}> Allow one additional read-only semantic review call</label>
-    <div class="actions"><button type="button" class="secondary" onclick="testConnection(this)">Test connection</button><button>Save setup</button></div><p id="test-result"></p>
-  </form>
+{% extends "base.html" %}{% block title %}Setup - Module Builder{% endblock %}{% block content %}
+<div class="page-heading"><h1>Setup</h1><p>Configure the provider and document defaults shared by your local academic tools.</p></div>
+{% if key_deleted %}<p class="good" role="status"><strong>Saved API key deleted.</strong> Automatic API generation is unavailable until you save another key.</p>{% endif %}
+<section class="panel"><div class="section-heading"><div><h2>Connection and document defaults</h2><p class="muted">Your API key is encrypted on this computer and is never sent back to the browser after saving.</p></div><span class="badge">Local settings</span></div>
+  <div class="notice"><strong>Data folder:</strong> {{data_root}}<br><strong>Template:</strong> {{template}} {% if template_errors %}<span class="bad">Needs attention: {{template_errors|join(', ')}}</span>{% else %}<span class="good">Verified</span>{% endif %}</div>
+  <form action="/setup" method="post" enctype="multipart/form-data"><div class="form-grid">
+    <label>Provider<select name="provider"><option value="openrouter" {% if config.provider == 'openrouter' %}selected{% endif %}>OpenRouter</option><option value="openai-compatible" {% if config.provider == 'openai-compatible' %}selected{% endif %}>Other OpenAI-compatible provider</option></select></label>
+    <label>Base URL<input name="base_url" value="{{config.base_url}}" required></label><label>Model ID<input name="model" value="{{config.model}}" required></label><label>API key<input type="password" name="api_key" value="{{config.api_key}}" autocomplete="off"></label>
+    <label>Default author<input name="default_author" value="{{config.default_author}}"></label><label>Default trainer<input name="default_trainer" value="{{config.default_trainer}}"></label><label>Document font<input name="font_family" value="{{config.font_family}}" required></label><label>Font size<input name="font_size" type="number" min="8" max="24" step="0.5" value="{{config.font_size}}" required></label>
+  </div><label>Use another verified Module Template.docx (optional)<input type="file" name="template_file" accept=".docx"></label><label><input type="checkbox" name="semantic_validation" {% if config.semantic_validation %}checked{% endif %}> Allow one additional read-only semantic review call</label>
+  <div class="actions"><button type="button" class="secondary" onclick="testConnection(this)">Test connection</button><button data-busy-text="Saving setup…">Save setup</button></div><p id="test-result" role="status" aria-live="polite"></p></form>
 </section>
-{% if has_saved_key %}<section class="panel"><h2>Saved API key</h2><p>Deleting the key does not delete your syllabi, plans, modules, provider URL, or model selection. Any automatic generation currently running may fail.</p><form action="/setup/delete-api-key" method="post" onsubmit="return confirm('Delete the saved API key from Module Builder?')"><button class="danger">Delete saved API key</button></form></section>{% endif %}
-{% endblock %}
-{% block scripts %}<script>async function testConnection(btn){let f=btn.form,d=new FormData(f),p=document.querySelector('#test-result');p.textContent='Testing…';let r=await fetch('/api/provider/test',{method:'POST',body:d});let j=await r.json();p.textContent=j.message;p.className=j.ok?'good':'bad'}</script>{% endblock %}
+{% if has_saved_key %}<section class="panel"><h2>Saved API key</h2><p class="muted">Deleting the key keeps syllabi, plans, modules, provider URL, and model selection. Automatic work already running may fail.</p><form action="/setup/delete-api-key" method="post" data-confirm="Delete the saved API key from Module Builder?"><button class="danger">Delete saved API key</button></form></section>{% endif %}
+{% endblock %}{% block scripts %}<script>async function testConnection(btn){const f=btn.form,p=document.querySelector('#test-result'),old=btn.textContent;btn.disabled=true;btn.textContent='Testing connection…';p.textContent='Contacting the provider…';p.className='notice';try{const r=await fetch('/api/provider/test',{method:'POST',body:new FormData(f)}),j=await r.json();p.textContent=j.message;p.className=j.ok?'good':'bad'}catch(_){p.textContent='The connection test could not be completed. Check the base URL and try again.';p.className='bad'}finally{btn.disabled=false;btn.textContent=old}}</script>{% endblock %}

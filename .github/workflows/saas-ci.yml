@@ -1,0 +1,35 @@
+name: SaaS CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+  packages: write
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - name: Validate Compose files
+        run: TESDA_FIREBASE_CREDENTIALS_PATH=.secrets/firebase.json docker compose -f docker-compose.saas.yml config --quiet
+      - name: Build application image
+        run: docker build -f launcher/Dockerfile -t tesda-tools:test .
+      - name: Compile Python sources
+        run: docker run --rm --entrypoint python tesda-tools:test -m compileall -q /app/app /app/launcher /app/saas /cblm/cblm_app
+      - name: Log in to GHCR
+        if: github.event_name == 'push'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish image
+        if: github.event_name == 'push'
+        run: |
+          IMAGE=ghcr.io/${GITHUB_REPOSITORY,,}:${GITHUB_SHA}
+          docker tag tesda-tools:test "$IMAGE"
+          docker push "$IMAGE"
+          docker tag tesda-tools:test "ghcr.io/${GITHUB_REPOSITORY,,}:latest"
+          docker push "ghcr.io/${GITHUB_REPOSITORY,,}:latest"

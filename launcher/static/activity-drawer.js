@@ -9,9 +9,10 @@
   const liveStreams = document.getElementById('live-streams');
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const setOpen = (open) => { drawer.classList.toggle('open', open); backdrop.classList.toggle('open', open); drawer.setAttribute('aria-hidden', String(!open)); document.getElementById('activity-toggle').setAttribute('aria-expanded', String(open)); localStorage.setItem('module-builder-activity-open', open ? '1' : '0'); };
-  document.getElementById('activity-toggle').addEventListener('click', () => setOpen(true));
+  document.getElementById('activity-toggle').addEventListener('click', () => { setOpen(true); document.getElementById('activity-close').focus(); });
   document.getElementById('activity-close').addEventListener('click', () => setOpen(false));
   backdrop.addEventListener('click', () => setOpen(false));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && drawer.classList.contains('open')) setOpen(false); });
   if (localStorage.getItem('module-builder-activity-open') === '1') setOpen(true);
 
   function readableLog(value) {

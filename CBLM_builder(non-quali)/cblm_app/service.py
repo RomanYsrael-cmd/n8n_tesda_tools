@@ -166,6 +166,7 @@ class CBLMGenerationService:
             modules = base_dir / "CBLMs"
             reports = []
             for lo in plan.learning_outcomes:
+                self.db.update_job(job_id, message=f"Assembling CBLM for learning outcome {lo.number}")
                 path = await asyncio.to_thread(build_cblm, self.templates, modules, plan, lo)
                 audit = audit_docx(path)
                 render = await asyncio.to_thread(render_verify, path, base_dir / "render" / f"lo-{lo.number}")
@@ -174,6 +175,7 @@ class CBLMGenerationService:
                     raise ValueError(f"DOCX validation failed for learning outcome {lo.number}")
             (base_dir / "cblm-plan.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
             (base_dir / "validation-report.json").write_text(json.dumps(reports, indent=2), encoding="utf-8")
+            self.db.update_job(job_id, message="Validating and packaging CBLM documents")
             package_outputs(base_dir)
             transition(self.root, job_id, "generating", "success")
             self.db.update_job(job_id, status="success", progress=100, message="CBLMs are ready", error=None, plan_json=plan.model_dump_json())

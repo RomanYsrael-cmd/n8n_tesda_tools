@@ -1,10 +1,10 @@
 # CBLM Builder (Non-Qualification)
 
-This is a separate local TESDA tool that shares the Module Builder launcher and saved OpenAI-compatible provider settings.
+This is a separate local TESDA tool registered by the repository-level launcher. It shares the saved OpenAI-compatible provider settings without importing Module Builder domain models.
 
 ## Use it
 
-1. Double-click the existing Module Builder launcher and wait for the browser.
+1. From the repository root, double-click `start.bat` and wait for the browser.
 2. Open `http://localhost:8080/` and choose **CBLM Builder**.
 3. Upload a DOCX syllabus.
 4. Review the detected course, learning outcomes, topics, duration, location, and laboratory/workshop values.

@@ -1,0 +1,42 @@
+name: tesda-saas
+
+x-saas: &saas
+  image: ${TESDA_IMAGE:-ghcr.io/roman/n8n-tesda-tools:latest}
+  build:
+    context: .
+    dockerfile: launcher/Dockerfile
+  restart: unless-stopped
+  environment:
+    TESDA_DEPLOYMENT_MODE: saas
+    TESDA_SAAS_CONFIG: /run/secrets/saas.json
+    GOOGLE_APPLICATION_CREDENTIALS: /run/secrets/firebase.json
+    MODULE_BUILDER_DATA_ROOT: /var/lib/tesda/runtime
+    MODULE_BUILDER_USE_N8N: "false"
+  volumes:
+    - ${TESDA_SAAS_CONFIG_PATH:-./.secrets/saas.json}:/run/secrets/saas.json:ro
+    - ${TESDA_FIREBASE_CREDENTIALS_PATH:-./.secrets/firebase.json}:/run/secrets/firebase.json:ro
+  networks: [tesda-saas]
+
+services:
+  web:
+    <<: *saas
+    container_name: tesda-saas-web
+    command: ["uvicorn","launcher.main:app","--host","0.0.0.0","--port","8080","--proxy-headers","--forwarded-allow-ips=127.0.0.1"]
+    ports: ["127.0.0.1:${TESDA_SAAS_PORT:-7080}:8080"]
+    healthcheck:
+      test: ["CMD","curl","-fsS","http://localhost:8080/health/saas"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+  worker:
+    <<: *saas
+    container_name: tesda-saas-worker
+    command: ["python","-m","saas.worker"]
+    stop_grace_period: 45s
+    healthcheck:
+      disable: true
+
+networks:
+  tesda-saas:
+    name: tesda-saas

@@ -1,0 +1,8 @@
+.steps { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .45rem; margin: 0 0 var(--space-5); padding: 0; list-style: none; }
+.steps span { display: grid; place-items: center; min-height: 48px; padding: .5rem; border: 1px solid var(--color-border); border-radius: var(--radius-sm); color: var(--color-muted); background: #edf2f7; font-size: .78rem; text-align: center; }
+.steps span.complete { color: #185b4a; background: #e9f8f1; border-color: #c4e8d7; }
+.steps span.active { color: white; background: var(--color-primary); border-color: var(--color-primary); font-weight: 800; box-shadow: 0 4px 12px rgb(20 93 160 / 20%); }
+.choice-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: var(--space-4); margin-top: var(--space-4); }
+.choice { display: flex; flex-direction: column; padding: var(--space-5); border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface-muted); }
+.choice h3 { margin-top: 0; } .choice form, .choice > .btn { margin-top: auto; }
+@media (max-width: 700px) { .steps { display: flex; overflow-x: auto; padding-bottom: .35rem; scroll-snap-type: x proximity; } .steps span { flex: 0 0 132px; scroll-snap-align: start; } }

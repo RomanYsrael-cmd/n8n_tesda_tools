@@ -1,8 +1,10 @@
+name: module_builder
+
 services:
   n8n-init:
     build:
       context: .
-      dockerfile: Dockerfile.n8n
+      dockerfile: launcher/Dockerfile.n8n
     image: tesda-module-builder-n8n:2.36.7
     container_name: tesda-n8n-init
     restart: "no"
@@ -20,8 +22,8 @@ services:
 
   module-builder:
     build:
-      context: ..
-      dockerfile: module_builder/Dockerfile
+      context: .
+      dockerfile: launcher/Dockerfile
     container_name: tesda-module-builder
     restart: unless-stopped
     environment:

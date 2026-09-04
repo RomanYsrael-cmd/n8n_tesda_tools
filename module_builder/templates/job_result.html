@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Results - {{job.filename}}{% endblock %}
 {% block content %}
-<link rel="stylesheet" href="/static/activity-drawer.css">
+<link rel="stylesheet" href="/static/activity-drawer.css?v=2">
 {% include "_job_header.html" %}
 <section class="panel">
   <div class="actions">
@@ -15,8 +15,8 @@
     <a class="btn secondary" href="/jobs/{{job.id}}/download/generation-report.json">Generation report</a>
     {% if job.status == 'success' %}<form action="/jobs/{{job.id}}/archive" method="post"><button class="secondary">Archive to Finished</button></form>{% endif %}
   </div>
-  <h3>Individual modules</h3>
-  {% for filename in modules %}<p><a href="/jobs/{{job.id}}/modules/{{filename}}">{{filename}}</a></p>{% endfor %}
+  <h3>Individual modules</h3><div class="file-list">
+  {% for filename in modules %}<a class="file-link" href="/jobs/{{job.id}}/modules/{{filename}}">{{filename}}</a>{% else %}<div class="empty-state">No individual module files are available.</div>{% endfor %}</div>
 </section>
 <aside id="activity-drawer" class="activity-drawer" aria-hidden="true">
   <div class="drawer-head"><div><h2>LLM activity</h2><p>Requests, responses, validation, and repairs from this completed job</p></div><button type="button" class="secondary" id="activity-close">Close</button></div>
@@ -27,4 +27,4 @@
 </aside>
 <div id="drawer-backdrop" class="drawer-backdrop"></div>
 {% endblock %}
-{% block scripts %}<script src="/static/activity-drawer.js" data-job-id="{{job.id}}" data-redirect-on-success="false"></script>{% endblock %}
+{% block scripts %}<script src="/static/activity-drawer.js?v=2" data-job-id="{{job.id}}" data-redirect-on-success="false"></script>{% endblock %}

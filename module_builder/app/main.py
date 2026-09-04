@@ -2,17 +2,14 @@ from __future__ import annotations
 
 import asyncio
 import json
-import os
 import shutil
-import sys
 from datetime import datetime, UTC
 from pathlib import Path
 
 import httpx
 from cryptography.fernet import Fernet
-from fastapi import BackgroundTasks, FastAPI, File, Form, HTTPException, Request, UploadFile
+from fastapi import APIRouter, BackgroundTasks, File, Form, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
-from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from .config import ensure_secret, settings
@@ -54,34 +51,17 @@ def make_provider() -> OpenAICompatibleProvider:
 
 
 generation = GenerationService(settings, db, make_provider, lambda: provider_config().semantic_validation)
-app = FastAPI(title="TESDA Module Builder", version="0.1.0")
-app.mount("/static", StaticFiles(directory=BASE / "static"), name="static")
+router = APIRouter()
 templates = Jinja2Templates(directory=BASE / "templates")
 
-CBLM_PACKAGE_ROOT = Path(__file__).resolve().parents[2] / "CBLM_builder(non-quali)"
-if not CBLM_PACKAGE_ROOT.exists():
-    CBLM_PACKAGE_ROOT = Path("/cblm")
-if CBLM_PACKAGE_ROOT.exists():
-    sys.path.insert(0, str(CBLM_PACKAGE_ROOT))
-    from cblm_app.router import create_router
-    app.include_router(create_router(
-        Path(os.getenv("CBLM_BUILDER_DATA_ROOT", str(settings.data_root / "CBLM Builder"))),
-        CBLM_PACKAGE_ROOT / "Templates", CBLM_PACKAGE_ROOT / "Prompts.xlsx", make_provider,
-    ))
 
-
-@app.get("/health")
+@router.get("/health")
 def health():
     template_errors = template_compatibility(settings.template) if settings.template.exists() else ["Template file not found"]
     return {"status": "ok" if not template_errors else "needs_setup", "database": "ok", "template": "ok" if not template_errors else template_errors, "data_root": str(settings.data_root)}
 
 
-@app.get("/", response_class=HTMLResponse)
-def tool_selector(request: Request):
-    return templates.TemplateResponse(request, "tool-selector.html", {})
-
-
-@app.get("/module-builder", response_class=HTMLResponse)
+@router.get("/module-builder", response_class=HTMLResponse)
 def dashboard(request: Request):
     jobs = db.list_jobs()
     grouped = {"Inbox": [], "In Progress": [], "Success": [], "Finished": []}
@@ -98,13 +78,13 @@ def dashboard(request: Request):
     return templates.TemplateResponse(request, "dashboard.html", {"groups": grouped, "configured": bool(db.get_setting("setup_complete"))})
 
 
-@app.get("/setup", response_class=HTMLResponse)
+@router.get("/setup", response_class=HTMLResponse)
 def setup_page(request: Request):
     config = provider_config(masked=True)
     return templates.TemplateResponse(request, "setup.html", {"config": config, "has_saved_key": bool(config.api_key), "key_deleted": request.query_params.get("key_deleted") == "1", "template": settings.template, "data_root": settings.data_root, "template_errors": template_compatibility(settings.template) if settings.template.exists() else ["File not found"]})
 
 
-@app.post("/setup")
+@router.post("/setup")
 async def save_setup(provider: str = Form("openrouter"), base_url: str = Form(...), model: str = Form(...), api_key: str = Form(""), semantic_validation: bool = Form(False), default_author: str = Form(""), default_trainer: str = Form(""), font_family: str = Form("Times New Roman"), font_size: float = Form(12), template_file: UploadFile | None = File(None)):
     existing = provider_config()
     if api_key.startswith("••••"):
@@ -130,7 +110,7 @@ async def save_setup(provider: str = Form("openrouter"), base_url: str = Form(..
     return RedirectResponse("/", status_code=303)
 
 
-@app.post("/setup/delete-api-key")
+@router.post("/setup/delete-api-key")
 def delete_api_key():
     config = provider_config()
     stored = config.model_dump()
@@ -139,7 +119,7 @@ def delete_api_key():
     return RedirectResponse("/setup?key_deleted=1", status_code=303)
 
 
-@app.post("/api/provider/test")
+@router.post("/api/provider/test")
 async def test_provider(base_url: str = Form(...), model: str = Form(...), api_key: str = Form("")):
     if api_key.startswith("••••"):
         api_key = provider_config().api_key
@@ -199,7 +179,7 @@ async def dispatch_n8n(action: str, job_id: str):
     await dispatch_directly()
 
 
-@app.post("/upload")
+@router.post("/upload")
 async def upload(background: BackgroundTasks, files: list[UploadFile] = File(...)):
     ids = []
     for file in files:
@@ -229,7 +209,7 @@ def require_job(job_id: str):
     return row
 
 
-@app.get("/jobs/{job_id}", response_class=HTMLResponse)
+@router.get("/jobs/{job_id}", response_class=HTMLResponse)
 def job_page(request: Request, job_id: str):
     job = require_job(job_id)
     status = JobStatus(job["status"])
@@ -255,12 +235,12 @@ def job_context(request: Request, job_id: str) -> dict:
             "call_estimate": len([w for w in plan.weeks if w.generate]) * 5 if plan else 0}
 
 
-@app.get("/jobs/{job_id}/plan", response_class=HTMLResponse)
+@router.get("/jobs/{job_id}/plan", response_class=HTMLResponse)
 def plan_page(request: Request, job_id: str):
     return templates.TemplateResponse(request, "job_plan.html", job_context(request, job_id))
 
 
-@app.get("/jobs/{job_id}/mode", response_class=HTMLResponse)
+@router.get("/jobs/{job_id}/mode", response_class=HTMLResponse)
 def mode_page(request: Request, job_id: str):
     context = job_context(request, job_id)
     status = JobStatus(context["job"]["status"])
@@ -273,7 +253,7 @@ def mode_page(request: Request, job_id: str):
     return templates.TemplateResponse(request, "job_mode.html", context)
 
 
-@app.get("/jobs/{job_id}/manual/initial", response_class=HTMLResponse)
+@router.get("/jobs/{job_id}/manual/initial", response_class=HTMLResponse)
 def manual_initial_page(request: Request, job_id: str, import_error: str = ""):
     context = job_context(request, job_id)
     folder = job_dir(settings.data_root, job_id, JobStatus(context["job"]["status"]))
@@ -286,7 +266,7 @@ def manual_initial_page(request: Request, job_id: str, import_error: str = ""):
     return templates.TemplateResponse(request, "job_manual_initial.html", context)
 
 
-@app.get("/jobs/{job_id}/manual/quality", response_class=HTMLResponse)
+@router.get("/jobs/{job_id}/manual/quality", response_class=HTMLResponse)
 def manual_quality_page(request: Request, job_id: str, import_error: str = ""):
     context = job_context(request, job_id)
     folder = job_dir(settings.data_root, job_id, JobStatus(context["job"]["status"]))
@@ -299,7 +279,7 @@ def manual_quality_page(request: Request, job_id: str, import_error: str = ""):
     return templates.TemplateResponse(request, "job_manual_quality.html", context)
 
 
-@app.get("/jobs/{job_id}/progress", response_class=HTMLResponse)
+@router.get("/jobs/{job_id}/progress", response_class=HTMLResponse)
 def progress_page(request: Request, job_id: str):
     context = job_context(request, job_id)
     status = JobStatus(context["job"]["status"])
@@ -315,12 +295,12 @@ def progress_page(request: Request, job_id: str):
     return templates.TemplateResponse(request, "job_progress.html", context)
 
 
-@app.get("/jobs/{job_id}/result", response_class=HTMLResponse)
+@router.get("/jobs/{job_id}/result", response_class=HTMLResponse)
 def result_page(request: Request, job_id: str):
     return templates.TemplateResponse(request, "job_result.html", job_context(request, job_id))
 
 
-@app.get("/api/jobs/{job_id}")
+@router.get("/api/jobs/{job_id}")
 def job_status(job_id: str):
     return {"job": require_job(job_id), "stages": db.stages(job_id)}
 
@@ -345,14 +325,14 @@ def _llm_log_files(job_id: str):
     return sorted(results, key=lambda item: item["updated_at"], reverse=True)[:100]
 
 
-@app.get("/api/jobs/{job_id}/llm-logs")
+@router.get("/api/jobs/{job_id}/llm-logs")
 def llm_logs(job_id: str):
     job = require_job(job_id)
     return {"job": {"status": job["status"], "progress": job["progress"], "message": job["message"], "error": job["error"]},
             "stages": db.stages(job_id), "live": generation.live_for(job_id), "entries": _llm_log_files(job_id)}
 
 
-@app.get("/api/jobs/{job_id}/llm-logs/{bucket}/{filename}")
+@router.get("/api/jobs/{job_id}/llm-logs/{bucket}/{filename}")
 def llm_log_detail(job_id: str, bucket: str, filename: str):
     require_job(job_id)
     if bucket not in {"success", "failed"} or Path(filename).name != filename or not filename.startswith(f"{job_id}-") or not filename.endswith(".json"):
@@ -363,7 +343,7 @@ def llm_log_detail(job_id: str, bucket: str, filename: str):
     return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
 
 
-@app.post("/api/n8n/dispatch/{action}/{job_id}")
+@router.post("/api/n8n/dispatch/{action}/{job_id}")
 async def n8n_dispatch(action: str, job_id: str):
     """Internal Docker-network callback used by the versioned n8n workflows."""
     job = require_job(job_id)
@@ -381,7 +361,7 @@ async def n8n_dispatch(action: str, job_id: str):
     return {"accepted": True, "job_id": job_id, "action": action}
 
 
-@app.post("/api/n8n/error/{job_id}")
+@router.post("/api/n8n/error/{job_id}")
 async def n8n_error(job_id: str, request: Request):
     require_job(job_id)
     payload = await request.json()
@@ -390,7 +370,7 @@ async def n8n_error(job_id: str, request: Request):
     return {"received": True}
 
 
-@app.post("/api/n8n/build-import/{job_id}")
+@router.post("/api/n8n/build-import/{job_id}")
 async def n8n_build_import(job_id: str, request: Request):
     require_job(job_id)
     raw = await request.json()
@@ -398,7 +378,7 @@ async def n8n_build_import(job_id: str, request: Request):
     return JSONResponse({"ok": ok, "errors": errors}, status_code=200 if ok else 422)
 
 
-@app.post("/jobs/{job_id}/review")
+@router.post("/jobs/{job_id}/review")
 async def update_review(request: Request, job_id: str):
     job = require_job(job_id)
     plan = NormalizedSyllabus.model_validate_json(job["normalized_json"])
@@ -423,7 +403,7 @@ async def update_review(request: Request, job_id: str):
     return RedirectResponse(f"/jobs/{job_id}/plan", status_code=303)
 
 
-@app.post("/jobs/{job_id}/approve")
+@router.post("/jobs/{job_id}/approve")
 def approve(job_id: str):
     job = require_job(job_id)
     status = JobStatus(job["status"])
@@ -434,7 +414,7 @@ def approve(job_id: str):
     return RedirectResponse(f"/jobs/{job_id}/mode", status_code=303)
 
 
-@app.post("/jobs/{job_id}/generate")
+@router.post("/jobs/{job_id}/generate")
 async def generate(job_id: str, post_call_concurrency: int = Form(1)):
     job = require_job(job_id)
     status = JobStatus(job["status"])
@@ -457,12 +437,12 @@ async def generate(job_id: str, post_call_concurrency: int = Form(1)):
     return RedirectResponse(f"/jobs/{job_id}/progress", status_code=303)
 
 
-@app.post("/jobs/{job_id}/pause")
+@router.post("/jobs/{job_id}/pause")
 def pause(job_id: str):
     require_job(job_id); db.set_control(job_id, pause=True); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
-@app.post("/jobs/{job_id}/cancel")
+@router.post("/jobs/{job_id}/cancel")
 def cancel(job_id: str):
     require_job(job_id); db.set_control(job_id, cancel=True); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
@@ -473,7 +453,7 @@ def _delete_llm_logs(job_id: str):
             path.unlink(missing_ok=True)
 
 
-@app.post("/jobs/{job_id}/back-to-planning")
+@router.post("/jobs/{job_id}/back-to-planning")
 async def back_to_planning(job_id: str):
     job = require_job(job_id)
     status = JobStatus(job["status"])
@@ -494,7 +474,7 @@ async def back_to_planning(job_id: str):
     return RedirectResponse(f"/jobs/{job_id}/plan", 303)
 
 
-@app.post("/jobs/{job_id}/delete")
+@router.post("/jobs/{job_id}/delete")
 async def delete_job(job_id: str):
     job = require_job(job_id)
     status = JobStatus(job["status"])
@@ -508,13 +488,12 @@ async def delete_job(job_id: str):
     db.delete_job(job_id)
     return RedirectResponse("/", 303)
 
-
-@app.post("/jobs/{job_id}/resume")
+@router.post("/jobs/{job_id}/resume")
 async def resume(job_id: str):
     require_job(job_id); await dispatch_n8n("generate", job_id); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
-@app.post("/jobs/{job_id}/retry-module/{lesson_number}")
+@router.post("/jobs/{job_id}/retry-module/{lesson_number}")
 async def retry_module(job_id: str, lesson_number: int):
     job = require_job(job_id)
     plan = NormalizedSyllabus.model_validate_json(job["normalized_json"])
@@ -529,7 +508,7 @@ async def retry_module(job_id: str, lesson_number: int):
     return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
-@app.post("/jobs/{job_id}/import")
+@router.post("/jobs/{job_id}/import")
 async def import_json(job_id: str, pasted_json: str = Form(""), json_file: UploadFile | None = File(None)):
     require_job(job_id)
     text = pasted_json
@@ -558,7 +537,7 @@ async def import_json(job_id: str, pasted_json: str = Form(""), json_file: Uploa
     return RedirectResponse(f"/jobs/{job_id}/manual/quality" if not errors else f"/jobs/{job_id}/manual/initial", 303)
 
 
-@app.post("/jobs/{job_id}/import-refined")
+@router.post("/jobs/{job_id}/import-refined")
 async def import_refined_json(job_id: str, pasted_json: str = Form(""), json_file: UploadFile | None = File(None)):
     require_job(job_id)
     text = pasted_json
@@ -578,7 +557,7 @@ async def import_refined_json(job_id: str, pasted_json: str = Form(""), json_fil
     return RedirectResponse(f"/jobs/{job_id}/result" if ok else f"/jobs/{job_id}/manual/quality", 303)
 
 
-@app.post("/jobs/{job_id}/repair-import")
+@router.post("/jobs/{job_id}/repair-import")
 async def repair_import(job_id: str):
     job = require_job(job_id)
     folder = job_dir(settings.data_root, job_id, JobStatus(job["status"]))
@@ -595,7 +574,7 @@ async def repair_import(job_id: str):
     return RedirectResponse(f"/jobs/{job_id}", 303)
 
 
-@app.get("/jobs/{job_id}/prompt.txt")
+@router.get("/jobs/{job_id}/prompt.txt")
 def prompt_download(job_id: str):
     job = require_job(job_id)
     plan = NormalizedSyllabus.model_validate_json(job["normalized_json"])
@@ -604,7 +583,7 @@ def prompt_download(job_id: str):
     return FileResponse(path, filename=f"{job_id}-ChatGPT-prompt.txt")
 
 
-@app.get("/jobs/{job_id}/download/{name}")
+@router.get("/jobs/{job_id}/download/{name}")
 def download(job_id: str, name: str):
     job = require_job(job_id)
     if name not in {"course-modules.zip", "normalized-syllabus.json", "validation-report.json", "generation-report.json", "repair-prompt.txt", "refinement-prompt.txt"}:
@@ -615,7 +594,7 @@ def download(job_id: str, name: str):
     return FileResponse(path, filename=path.name)
 
 
-@app.get("/jobs/{job_id}/modules/{filename}")
+@router.get("/jobs/{job_id}/modules/{filename}")
 def download_module(job_id: str, filename: str):
     job = require_job(job_id)
     if Path(filename).name != filename or not filename.lower().endswith(".docx"):
@@ -626,7 +605,7 @@ def download_module(job_id: str, filename: str):
     return FileResponse(path, filename=filename)
 
 
-@app.post("/jobs/{job_id}/archive")
+@router.post("/jobs/{job_id}/archive")
 def archive(job_id: str):
     job = require_job(job_id)
     if JobStatus(job["status"]) != JobStatus.SUCCESS:

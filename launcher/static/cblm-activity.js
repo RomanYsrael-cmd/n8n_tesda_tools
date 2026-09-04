@@ -3,8 +3,8 @@
   const drawer=document.getElementById('activity-drawer'), backdrop=document.getElementById('drawer-backdrop');
   const entries=document.getElementById('activity-entries'), summary=document.getElementById('activity-summary'), live=document.getElementById('live-streams');
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const open=value=>{drawer.classList.toggle('open',value);backdrop.classList.toggle('open',value);drawer.setAttribute('aria-hidden',String(!value));};
-  document.getElementById('activity-toggle').onclick=()=>open(true); document.getElementById('activity-close').onclick=()=>open(false); backdrop.onclick=()=>open(false);
+  const open=value=>{drawer.classList.toggle('open',value);backdrop.classList.toggle('open',value);drawer.setAttribute('aria-hidden',String(!value));document.getElementById('activity-toggle').setAttribute('aria-expanded',String(value));if(value)document.getElementById('activity-close').focus();};
+  document.getElementById('activity-toggle').onclick=()=>open(true); document.getElementById('activity-close').onclick=()=>open(false); backdrop.onclick=()=>open(false); document.addEventListener('keydown',e=>{if(e.key==='Escape'&&drawer.classList.contains('open'))open(false)});
   const readable=v=>v.prompt!==undefined?`PROMPT SENT TO THE LLM\n\n${v.prompt}\n\nMODEL\n${v.model||''}\n\nBASE URL\n${v.base_url||''}`:v.response!==undefined?`LLM RESPONSE\n\n${v.response}`:v.rejected_text!==undefined?`VALIDATION ERRORS\n${(v.errors||[]).map(e=>'• '+e).join('\n')}\n\nREJECTED LLM RESPONSE\n${v.rejected_text}`:JSON.stringify(v,null,2);
   async function detail(button){let box=button.parentElement,pre=box.querySelector('pre');if(pre){pre.hidden=!pre.hidden;return}button.disabled=true;try{const v=await fetch(button.dataset.url).then(r=>r.json());pre=document.createElement('pre');pre.className='log-detail';pre.textContent=readable(v);box.appendChild(pre)}finally{button.disabled=false}}
   async function refresh(){try{const d=await fetch(`/cblm/jobs/${jobId}/llm-logs`,{cache:'no-store'}).then(r=>r.json());

@@ -1,0 +1,13 @@
+services:
+  web:
+    network_mode: host
+    networks: !reset []
+    ports: !reset []
+    env_file: [/opt/tesda-saas/secrets/postgres.env]
+    command: ["uvicorn","launcher.main:app","--host","127.0.0.1","--port","7080","--proxy-headers","--forwarded-allow-ips=127.0.0.1"]
+    healthcheck:
+      test: ["CMD","curl","-fsS","http://127.0.0.1:7080/health/saas"]
+  worker:
+    network_mode: host
+    networks: !reset []
+    env_file: [/opt/tesda-saas/secrets/postgres.env]

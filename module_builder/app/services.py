@@ -195,6 +195,7 @@ class GenerationService:
                         semantic_errors = review.alignment_errors + review.coverage_errors + review.quiz_answerability_errors + review.activity_relevance_errors + review.split_progression_errors
                         raise ValueError("Semantic validation failed: " + "; ".join(semantic_errors or ["provider marked the module invalid"]))
                 self.db.upsert_stage(job_id, lesson, week.actual_week, "docx_build", "running")
+                self.db.update_job(job_id, message=f"Assembling and validating Lesson {lesson}")
                 output = build_module(self.settings.template, modules_dir, plan.course, bundle)
                 self.db.upsert_stage(job_id, lesson, week.actual_week, "docx_build", "success")
                 self.db.upsert_stage(job_id, lesson, week.actual_week, "validation", "running")
@@ -208,6 +209,7 @@ class GenerationService:
             (base / "normalized-syllabus.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
             report_json(base / "validation-report.json", {"valid": True, "modules": generated})
             report_json(base / "generation-report.json", {"mode": "automatic", "module_count": len(generated), "expected_base_llm_calls_per_module": 5, "presentation_format": "markdown", "quiz_format": "aiken-style text", "activity_format": "markdown", "python_compiles_stage_json": True, "full_bundle_refinement": False})
+            self.db.update_job(job_id, message="Validating and packaging module documents")
             package_course(base)
             transition(self.settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
             self.db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="All modules are ready", error="")
