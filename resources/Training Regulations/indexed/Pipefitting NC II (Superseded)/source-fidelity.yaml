@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:pipefitting-nc-ii:695a0b7c56",
+  "qualification": "Pipefitting NC II",
+  "official_source": {
+    "source_file": "Superseded/Pipefitting NC II (Superseded).pdf",
+    "sha256": "695a0b7c56bce21874d5e23e224c2bf59d1f3abda4a10a1f80df07f0897bb2c6",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Superseded/Pipefitting NC II (Superseded).pdf",
+    "pdf_pages": 75,
+    "printed_pages": null
+  }
+}

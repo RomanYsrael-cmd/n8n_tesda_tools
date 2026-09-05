@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 359,
+    "complete": 369,
     "blocked": 1,
-    "pending": 24
+    "pending": 14
   },
   "records": [
     {
@@ -19091,8 +19091,14 @@
         "ELC724303"
       ],
       "indexed_path": "Instrumentation and Control Servicing NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-ii:c69919fe85",
       "processing_order": 361
@@ -19136,8 +19142,14 @@
         "ELC724305"
       ],
       "indexed_path": "Instrumentation and Control Servicing NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-iii:5c3ffb4e56",
       "processing_order": 362
@@ -19181,8 +19193,14 @@
         "ELC724307"
       ],
       "indexed_path": "Instrumentation and Control Servicing NC IV (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-iv:5db84cd3fd",
       "processing_order": 363
@@ -19224,8 +19242,14 @@
         "UTL724605"
       ],
       "indexed_path": "Line Construction (Electric Power Distribution) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:line-construction-electric-power-distribution-nc-ii:64684811e2",
       "processing_order": 364
@@ -19270,8 +19294,14 @@
         "MEE722304"
       ],
       "indexed_path": "Machining NC I (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:machining-nc-i:1eacee0211",
       "processing_order": 365
@@ -19310,8 +19340,14 @@
         "CON712302"
       ],
       "indexed_path": "Masonry NC I (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 9,
+        "selector_count": 25,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:masonry-nc-i:5428124e03",
       "processing_order": 366
@@ -19354,8 +19390,14 @@
         "CON712305"
       ],
       "indexed_path": "Masonry NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:masonry-nc-ii:227099632b",
       "processing_order": 367
@@ -19403,8 +19445,14 @@
         "CON712307"
       ],
       "indexed_path": "Masonry NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:masonry-nc-iii:a6881904f2",
       "processing_order": 368
@@ -19447,8 +19495,14 @@
         "CON713343"
       ],
       "indexed_path": "Pipefitting NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pipefitting-nc-ii:695a0b7c56",
       "processing_order": 369
@@ -19488,8 +19542,14 @@
         "ICT313360"
       ],
       "indexed_path": "Programming (JAVA) NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:programming-java-nc-iii:2013-12",
       "processing_order": 370

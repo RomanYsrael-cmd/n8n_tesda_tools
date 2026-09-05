@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-iii:5c3ffb4e56",
+  "qualification": "Instrumentation and Control Servicing NC III",
+  "official_source": {
+    "source_file": "Superseded/Instrumentation and Control Servicing NC III (Superseded).pdf",
+    "sha256": "5c3ffb4e56feaa8e493be489071d7e3a859f156f5621475c8dfc8875b98df144",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Superseded/Instrumentation and Control Servicing NC III (Superseded).pdf",
+    "pdf_pages": 64,
+    "printed_pages": null
+  }
+}
