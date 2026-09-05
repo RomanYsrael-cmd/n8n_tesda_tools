@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 349,
+    "complete": 359,
     "blocked": 1,
-    "pending": 34
+    "pending": 24
   },
   "records": [
     {
@@ -18596,8 +18596,14 @@
         "HCS515314"
       ],
       "indexed_path": "Hairdressing NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:hairdressing-nc-ii:b79de59adc",
       "processing_order": 351
@@ -18645,8 +18651,14 @@
         "HCS515403"
       ],
       "indexed_path": "Hairdressing NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:hairdressing-nc-iii:8ae49b7320",
       "processing_order": 352
@@ -18688,8 +18700,14 @@
         "505833315"
       ],
       "indexed_path": "Heavy Equipment Operation (Forklift) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-forklift-nc-ii:2004-12",
       "processing_order": 353
@@ -18730,8 +18748,14 @@
         "CON833330"
       ],
       "indexed_path": "Heavy Equipment Operation (Gantry Crane) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-gantry-crane-nc-ii:d0b87925ed",
       "processing_order": 354
@@ -18773,8 +18797,14 @@
         "CON833303"
       ],
       "indexed_path": "Heavy Equipment Operation (Hydraulic Excavator) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-hydraulic-excavator-nc-ii:2007-07",
       "processing_order": 355
@@ -18816,8 +18846,14 @@
         "CON833318"
       ],
       "indexed_path": "Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-rigid-on-highway-dump-truck-nc-ii:b9fb6110ea",
       "processing_order": 356
@@ -18859,8 +18895,14 @@
         "CON833311"
       ],
       "indexed_path": "Heavy Equipment Operation (Rough-Terrain Crane) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-rough-terrain-crane-nc-ii:2007-07",
       "processing_order": 357
@@ -18902,8 +18944,14 @@
         "CON833313"
       ],
       "indexed_path": "Heavy Equipment Operation (Crawler Crane) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-crawler-crane-nc-ii:2004-12",
       "processing_order": 358
@@ -18944,8 +18992,14 @@
         "CON833314"
       ],
       "indexed_path": "Heavy Equipment Operation (Tower Crane) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-tower-crane-nc-ii:2004-12",
       "processing_order": 359
@@ -18987,8 +19041,14 @@
         "CON833312"
       ],
       "indexed_path": "Heavy Equipment Operation (Truck Mounted Crane) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-truck-mounted-crane-nc-ii:2004-12",
       "processing_order": 360
