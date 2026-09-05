@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:automotive-servicing-chassis-repair-nc-ii:a3be38756a",
+  "qualification": "AUTOMOTIVE SERVICING (CHASSIS REPAIR) NC II",
+  "official_source": {
+    "source_file": "Automotive Servicing (Chassis Repair) NC II.pdf",
+    "sha256": "a3be38756a9fb02d4db849c16f7174901162f0b867c7831cf6aaf1f0c38874da",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Automotive Servicing (Chassis Repair) NC II.pdf",
+    "pdf_pages": 199,
+    "printed_pages": null
+  }
+}

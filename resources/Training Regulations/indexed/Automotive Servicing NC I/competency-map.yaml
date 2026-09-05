@@ -1,0 +1,86 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:automotive-servicing-nc-i:2018-02-27",
+  "qualification": "AUTOMOTIVE SERVICING NC I",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311101",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311104",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723211",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723379",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "ALT723376",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311102",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311103",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT832212",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723214",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723215",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723216",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723217",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723218",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723377",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723378",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723380",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT723381",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n105",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

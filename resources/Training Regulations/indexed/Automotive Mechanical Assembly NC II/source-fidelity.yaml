@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:automotive-mechanical-assembly-nc-ii:befe8dd86c",
+  "qualification": "Automotive Mechanical Assembly NC II",
+  "official_source": {
+    "source_file": "Automotive Mechanical Assembly NC II.pdf",
+    "sha256": "befe8dd86c37efc89b0cf1592ee16f42a54ee305c924b8f6f3d035cc0a0c09a6",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Automotive Mechanical Assembly NC II.pdf",
+    "pdf_pages": 70,
+    "printed_pages": null
+  }
+}

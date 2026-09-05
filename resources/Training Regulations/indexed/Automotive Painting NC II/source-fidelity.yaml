@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:automotive-painting-nc-ii:7610d88769",
+  "qualification": "AUTOMOTIVE PAINTING NC II",
+  "official_source": {
+    "source_file": "Automotive Painting NC II.pdf",
+    "sha256": "7610d887690b13b7df5202793df4edaa51ea4e14aaf0d4b722647700c8046a64",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Automotive Painting NC II.pdf",
+    "pdf_pages": 190,
+    "printed_pages": null
+  }
+}
