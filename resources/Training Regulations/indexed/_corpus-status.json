@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 209,
-    "pending": 174,
+    "complete": 219,
+    "pending": 164,
     "blocked": 1
   },
   "records": [
@@ -11297,8 +11297,14 @@
         "CRE343304"
       ],
       "indexed_path": "Lighting for Live Performances NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:lighting-for-live-performances-nc-ii:6bc9f57274",
       "processing_order": 210
@@ -11340,8 +11346,14 @@
         "TRS5113118"
       ],
       "indexed_path": "Local Guiding Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:local-guiding-services-nc-ii:2013-12",
       "processing_order": 211
@@ -11393,8 +11405,14 @@
         "MEE722316"
       ],
       "indexed_path": "Machining NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:machining-nc-i:98468ec98e",
       "processing_order": 212
@@ -11443,8 +11461,14 @@
         "MEE722308"
       ],
       "indexed_path": "Machining NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:machining-nc-ii:2005-03",
       "processing_order": 213
@@ -11501,8 +11525,14 @@
         "MEE722308"
       ],
       "indexed_path": "Machining NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 27,
+        "selector_count": 61,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:machining-nc-iii:0d06e7dc60",
       "processing_order": 214
@@ -11549,8 +11579,14 @@
         "MEE721301"
       ],
       "indexed_path": "Manual Metal Arc Welding (MMAW) NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:manual-metal-arc-welding-mmaw-nc-i:5582af41c3",
       "processing_order": 215
@@ -11597,8 +11633,14 @@
         "MEE721324"
       ],
       "indexed_path": "Manual Metal Arc Welding (MMAW) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:manual-metal-arc-welding-mmaw-nc-ii:dee3e28373",
       "processing_order": 216
@@ -11645,8 +11687,14 @@
         "MEE721325"
       ],
       "indexed_path": "Manual Metal Arc Welding (MMAW) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:manual-metal-arc-welding-mmaw-nc-iii:c1fda4da23",
       "processing_order": 217
@@ -11693,8 +11741,14 @@
         "MEE721326"
       ],
       "indexed_path": "Manual Metal Arc Welding (MMAW) NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:manual-metal-arc-welding-mmaw-nc-iv:445b8f5120",
       "processing_order": 218
@@ -11742,8 +11796,14 @@
         "MTM311307"
       ],
       "indexed_path": "Marine Electricity NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:marine-electricity-nc-ii:2008-09",
       "processing_order": 219

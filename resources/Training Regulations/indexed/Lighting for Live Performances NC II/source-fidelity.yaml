@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:lighting-for-live-performances-nc-ii:6bc9f57274",
+  "qualification": "Lighting for Live Performances NC II",
+  "official_source": {
+    "source_file": "Lighting for Live Performances NC II.pdf",
+    "sha256": "6bc9f57274a06f59ddbf1ec94d727fd6b438102e4c00f9637199d45dc46a42d4",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Lighting for Live Performances NC II.pdf",
+    "pdf_pages": 112,
+    "printed_pages": null
+  }
+}

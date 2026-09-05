@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:local-guiding-services-nc-ii:2013-12",
+  "qualification": "LOCAL GUIDING SERVICES NC II",
+  "official_source": {
+    "source_file": "Local Guiding Services NC II.pdf",
+    "sha256": "1c2269cb6701827a3af47c376161981634d819638486f2c701da542779bac4ef",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Local Guiding Services NC II.pdf",
+    "pdf_pages": 52,
+    "printed_pages": null
+  }
+}
