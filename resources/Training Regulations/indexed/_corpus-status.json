@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 199,
-    "pending": 184,
+    "complete": 209,
+    "pending": 174,
     "blocked": 1
   },
   "records": [
@@ -10769,8 +10769,14 @@
         "VSA245305"
       ],
       "indexed_path": "Illustration NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:illustration-nc-ii:71dae07bb1",
       "processing_order": 200
@@ -10813,8 +10819,14 @@
         "DCJ731304"
       ],
       "indexed_path": "Jewelry Making (Fine Jewelry) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:jewelry-making-fine-jewelry-nc-ii:4853eed7b7",
       "processing_order": 201
@@ -10861,8 +10873,14 @@
         "DCJ731310"
       ],
       "indexed_path": "Jewelry Making (Fine Jewelry) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:jewelry-making-fine-jewelry-nc-iii:616f4a9df8",
       "processing_order": 202
@@ -10903,8 +10921,14 @@
         "ALT315307"
       ],
       "indexed_path": "Laboratory and Metrology Calibration Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:laboratory-and-metrology-calibration-services-nc-ii:72ba5c49c1",
       "processing_order": 203
@@ -10947,8 +10971,14 @@
         "ALT315313"
       ],
       "indexed_path": "Laboratory and Metrology Calibration Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:laboratory-and-metrology-calibration-services-nc-iii:dceb72ecf3",
       "processing_order": 204
@@ -10998,8 +11028,14 @@
         "HVC723350"
       ],
       "indexed_path": "Land-Based Transport Mobile Air-conditioning (MAC) Servicing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:land-based-transport-mobile-air-conditioning-mac-servicing-nc-ii:2021-06-08",
       "processing_order": 205
@@ -11044,8 +11080,14 @@
         "HVC712306"
       ],
       "indexed_path": "Land-Based Transport Refrigeration Servicing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:land-based-transport-refrigeration-servicing-nc-ii:2015-12-16",
       "processing_order": 206
@@ -11096,8 +11138,14 @@
         "AGR611384"
       ],
       "indexed_path": "Landscape Installation and Maintenance (Softscape) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:landscape-installation-and-maintenance-softscape-nc-ii:8a5cbc36a8",
       "processing_order": 207
@@ -11140,8 +11188,14 @@
         "SOC541305"
       ],
       "indexed_path": "Lifeguard Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:lifeguard-services-nc-ii:2015-12-16",
       "processing_order": 208
@@ -11187,8 +11241,14 @@
         "SOC541312"
       ],
       "indexed_path": "Lifeguard Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:lifeguard-services-nc-iii:2015-12-16",
       "processing_order": 209

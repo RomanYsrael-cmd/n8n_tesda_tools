@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:lifeguard-services-nc-iii:2015-12-16",
+  "qualification": "LIFEGUARD SERVICES NC III",
+  "official_source": {
+    "source_file": "Lifeguard Services NC III.pdf",
+    "sha256": "112f98a75356192d11463668e3c89ff295fa89c1fc43ad8291d0ac55a07cb730",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Lifeguard Services NC III.pdf",
+    "pdf_pages": 173,
+    "printed_pages": null
+  }
+}

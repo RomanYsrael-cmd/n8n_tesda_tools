@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:land-based-transport-refrigeration-servicing-nc-ii:2015-12-16",
+  "qualification": "LAND-BASED TRANSPORT REFRIGERATION SERVICING NC II",
+  "official_source": {
+    "source_file": "Land-Based Transport Refrigeration Servicing NC II.pdf",
+    "sha256": "b1401aca7819e377203dfeac3f2dcf74fcbb9ca5d9bdfdf798995dbe5a58ce1a",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Land-Based Transport Refrigeration Servicing NC II.pdf",
+    "pdf_pages": 99,
+    "printed_pages": null
+  }
+}
