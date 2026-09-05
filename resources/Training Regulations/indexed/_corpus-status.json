@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 299,
+    "complete": 309,
     "blocked": 1,
-    "pending": 84
+    "pending": 74
   },
   "records": [
     {
@@ -15957,8 +15957,14 @@
         "GRM743316"
       ],
       "indexed_path": "Tailoring NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tailoring-nc-ii:2005-03",
       "processing_order": 301
@@ -16002,8 +16008,14 @@
         "CON311306"
       ],
       "indexed_path": "Technical Drafting NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:technical-drafting-nc-ii:2008-05",
       "processing_order": 302
@@ -16045,8 +16057,14 @@
         "ICT724610"
       ],
       "indexed_path": "Telecom OSP and Subscriber Line Installation (Copper Cable POTS and DSL) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:telecom-osp-and-subscriber-line-installation-copper-cable-pots-and-dsl-nc-ii:2011-10",
       "processing_order": 303
@@ -16084,8 +16102,14 @@
         "ICT724612"
       ],
       "indexed_path": "Telecom OSP Installation (Fiber Optic Cable) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 8,
+        "selector_count": 23,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:telecom-osp-installation-fiber-optic-cable-nc-ii:2011-10",
       "processing_order": 304
@@ -16130,8 +16154,14 @@
         "CON712306"
       ],
       "indexed_path": "Tile Setting NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tile-setting-nc-ii:733b2f9228",
       "processing_order": 305
@@ -16171,8 +16201,14 @@
         "ALT827314"
       ],
       "indexed_path": "Tinsmithing (Automotive Manufacturing) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tinsmithing-automotive-manufacturing-nc-ii:e651ccedc8",
       "processing_order": 306
@@ -16212,8 +16248,14 @@
         "MEE722303"
       ],
       "indexed_path": "Tool and Die Making NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tool-and-die-making-nc-ii:ec489a1f55",
       "processing_order": 307
@@ -16259,8 +16301,14 @@
         "TRS511309"
       ],
       "indexed_path": "Tour Guiding Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tour-guiding-services-nc-iii:dff9d9c7d4",
       "processing_order": 308
@@ -16307,8 +16355,14 @@
         "TRS422307"
       ],
       "indexed_path": "Tour Packaging (Fit Ad Hoc Domestic) Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tour-packaging-fit-ad-hoc-domestic-services-nc-ii:e49fdf0731",
       "processing_order": 309
@@ -16350,8 +16404,14 @@
         "TRS5113125"
       ],
       "indexed_path": "Tourism Promotion Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tourism-promotion-services-nc-ii:2015-06-16",
       "processing_order": 310

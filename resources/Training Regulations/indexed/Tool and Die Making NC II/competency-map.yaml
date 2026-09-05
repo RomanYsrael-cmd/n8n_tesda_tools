@@ -1,0 +1,60 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:tool-and-die-making-nc-ii:ec489a1f55",
+  "qualification": "TOOL AND DIE MAKING NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": "required to gather, interpret and convey information in"
+      },
+      {
+        "unit_code": "500311106",
+        "title": ":"
+      },
+      {
+        "unit_code": "MEE722303",
+        "title": "MEE722 303"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "MEE722204",
+        "title": ": This unit covers the competencies required to perform basic"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "MEE722301",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": "promoting career growth and advancement."
+      },
+      {
+        "unit_code": "500311108",
+        "title": "This unit covers the outcomes required to comply"
+      },
+      {
+        "unit_code": "MEE722205",
+        "title": ": This unit covers the competencies required to measure"
+      },
+      {
+        "unit_code": "MEE722207",
+        "title": ":"
+      },
+      {
+        "unit_code": "MEE722302",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n44",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

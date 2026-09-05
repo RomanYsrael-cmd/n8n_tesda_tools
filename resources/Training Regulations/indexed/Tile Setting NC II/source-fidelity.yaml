@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:tile-setting-nc-ii:733b2f9228",
+  "qualification": "TILE SETTING NC II",
+  "official_source": {
+    "source_file": "Tile Setting NC II.pdf",
+    "sha256": "733b2f922811f76a0a1c3434459b410db7034e3ee39978bbde6082f540c9c10c",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Tile Setting NC II.pdf",
+    "pdf_pages": 103,
+    "printed_pages": null
+  }
+}
