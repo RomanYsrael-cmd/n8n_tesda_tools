@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 30,
-    "pending": 353,
+    "complete": 40,
+    "pending": 343,
     "blocked": 1
   },
   "records": [
@@ -1651,8 +1651,14 @@
         "CRE352102"
       ],
       "indexed_path": "Audio Production Services NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:audio-production-services-nc-i:ef435ae904",
       "processing_order": 31
@@ -1702,8 +1708,14 @@
         "ALT723334"
       ],
       "indexed_path": "Auto Engine Rebuilding NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:auto-engine-rebuilding-nc-ii:2004-12",
       "processing_order": 32
@@ -1747,8 +1759,14 @@
         "ALT714304"
       ],
       "indexed_path": "Automotive Body Painting Finishing NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-body-painting-finishing-nc-i:50b0a85b01",
       "processing_order": 33
@@ -1794,8 +1812,14 @@
         "ALT714312"
       ],
       "indexed_path": "Automotive Body Painting Finishing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-body-painting-finishing-nc-iii:8099d584db",
       "processing_order": 34
@@ -1844,8 +1868,14 @@
         "ALT213306"
       ],
       "indexed_path": "Automotive Body Repairing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-body-repairing-nc-ii:2914b9bbe3",
       "processing_order": 35
@@ -1897,8 +1927,14 @@
         "ALT723368"
       ],
       "indexed_path": "Automotive Diagnosis (Chassis) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-diagnosis-chassis-nc-iii:136200b84b",
       "processing_order": 36
@@ -1950,8 +1986,14 @@
         "ALT723380"
       ],
       "indexed_path": "Automotive Diagnosis (Electrical) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-diagnosis-electrical-nc-iii:aa46484c2c",
       "processing_order": 37
@@ -2002,8 +2044,14 @@
         "ALT7233102"
       ],
       "indexed_path": "Automotive Diagnosis (Engine) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-diagnosis-engine-nc-iii:7aebe0aefc",
       "processing_order": 38
@@ -2048,8 +2096,14 @@
         "ALT827306"
       ],
       "indexed_path": "Automotive Electrical Assembly NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-electrical-assembly-nc-ii:3d21c4e395",
       "processing_order": 39
@@ -2095,8 +2149,14 @@
         "ALT827318"
       ],
       "indexed_path": "Automotive Electrical Assembly NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-electrical-assembly-nc-iii:27f2c4035f",
       "processing_order": 40
