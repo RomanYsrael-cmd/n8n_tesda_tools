@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:pest-management-vegetables-nc-ii:2007-07",
+  "qualification": "PEST MANAGEMENT (VEGETABLES) NC II",
+  "official_source": {
+    "source_file": "Pest Management (Vegetables) NC II.pdf",
+    "sha256": "d930a788c70af5d9656155678184a77fc9acb25bf1715e1f947e25cd6682ab54",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Pest Management (Vegetables) NC II.pdf",
+    "pdf_pages": 79,
+    "printed_pages": null
+  }
+}

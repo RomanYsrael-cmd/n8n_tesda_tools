@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 239,
-    "pending": 144,
-    "blocked": 1
+    "complete": 249,
+    "blocked": 1,
+    "pending": 134
   },
   "records": [
     {
@@ -12893,8 +12893,14 @@
         "MTO432307"
       ],
       "indexed_path": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:multimodal-transport-operations-and-logistics-seafreight-import-services-nc-ii:a104c009dd",
       "processing_order": 240
@@ -12942,8 +12948,14 @@
         "MTO333304"
       ],
       "indexed_path": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:multimodal-transport-operations-and-logistics-seafreight-import-services-nc-iii:37ca41d2a8",
       "processing_order": 241
@@ -12993,8 +13005,14 @@
         "MTO132306"
       ],
       "indexed_path": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:multimodal-transport-operations-and-logistics-seafreight-import-services-nc-iv:bedcecab6f",
       "processing_order": 242
@@ -13036,8 +13054,14 @@
         "HSC222303"
       ],
       "indexed_path": "Ophthalmic Lens Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:ophthalmic-lens-services-nc-ii:c70fea4862",
       "processing_order": 243
@@ -13081,8 +13105,14 @@
         "AGR612303"
       ],
       "indexed_path": "Organic Agriculture Production NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:organic-agriculture-production-nc-ii:6e3a1933dd",
       "processing_order": 244
@@ -13124,8 +13154,14 @@
         "ALT827318"
       ],
       "indexed_path": "Painting Machine Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:painting-machine-operation-nc-ii:50bb99f7b0",
       "processing_order": 245
@@ -13164,8 +13200,14 @@
         "HCS245303"
       ],
       "indexed_path": "Performing Arts (Ballroom Dancing) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 9,
+        "selector_count": 25,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:performing-arts-ballroom-dancing-nc-ii:4bcb014bcc",
       "processing_order": 246
@@ -13205,8 +13247,14 @@
         "HCS245304"
       ],
       "indexed_path": "Performing Arts (Dance) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:performing-arts-dance-nc-ii:4091dda117",
       "processing_order": 247
@@ -13271,8 +13319,14 @@
         "HCS245304"
       ],
       "indexed_path": "Performing Arts (Song) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:performing-arts-song-nc-ii:3462745df4",
       "processing_order": 249
@@ -13314,8 +13368,14 @@
         "AGR321325"
       ],
       "indexed_path": "Pest Management (Vegetables) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pest-management-vegetables-nc-ii:2007-07",
       "processing_order": 250
