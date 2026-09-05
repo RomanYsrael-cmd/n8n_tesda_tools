@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 69,
-    "pending": 314,
+    "complete": 79,
+    "pending": 304,
     "blocked": 1
   },
   "records": [
@@ -3809,8 +3809,14 @@
         "HCS323311"
       ],
       "indexed_path": "Caregiving NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:caregiving-nc-ii:2b1ffebaed",
       "processing_order": 70
@@ -3861,8 +3867,14 @@
         "CON711308"
       ],
       "indexed_path": "Carpentry NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:carpentry-nc-ii:96eb178f8a",
       "processing_order": 71
@@ -3912,8 +3924,14 @@
         "CON711314"
       ],
       "indexed_path": "Carpentry NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:carpentry-nc-iii:755782f034",
       "processing_order": 72
@@ -3961,8 +3979,14 @@
         "CPP313306"
       ],
       "indexed_path": "Chemical Process Operations NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:chemical-process-operations-nc-iii:2016-03",
       "processing_order": 73
@@ -4016,8 +4040,14 @@
         "MEE821320"
       ],
       "indexed_path": "CNC Electric Discharge Machine (EDM) Wire Cut Operation NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 24,
+        "selector_count": 55,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cnc-electric-discharge-machine-edm-wire-cut-operation-nc-iii:f96fdecad9",
       "processing_order": 74
@@ -4061,8 +4091,14 @@
         "MEE821303"
       ],
       "indexed_path": "CNC Lathe Machine Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cnc-lathe-machine-operation-nc-ii:bc27cb01aa",
       "processing_order": 75
@@ -4112,8 +4148,14 @@
         "MEE821306"
       ],
       "indexed_path": "CNC Lathe Machine Operation NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cnc-lathe-machine-operation-nc-iii:4126f70770",
       "processing_order": 76
@@ -4157,8 +4199,14 @@
         "MEE821309"
       ],
       "indexed_path": "CNC Milling Machine Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cnc-milling-machine-operation-nc-ii:dd8906a775",
       "processing_order": 77
@@ -4208,8 +4256,14 @@
         "MEE821312"
       ],
       "indexed_path": "CNC Milling Machine Operation NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cnc-milling-machine-operation-nc-iii:f3483ca1d7",
       "processing_order": 78
@@ -4260,8 +4314,14 @@
         "HVC723346"
       ],
       "indexed_path": "Commercial Air-conditioning Installation and Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:commercial-air-conditioning-installation-and-servicing-nc-iii:2021-06-08",
       "processing_order": 79

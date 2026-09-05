@@ -1,0 +1,92 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:chemical-process-operations-nc-iii:2016-03",
+  "qualification": "CHEMICAL PROCESS OPERATIONS NC III",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311109",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311114",
+        "title": ":"
+      },
+      {
+        "unit_code": "ISO170254",
+        "title": "ISO 17025"
+      },
+      {
+        "unit_code": "CPP313302",
+        "title": "CPP 313302"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "CPP313201",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "CPP313301",
+        "title": ": This unit covers the knowledge, skills and attitudes in"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311110",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311111",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311112",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311113",
+        "title": ":"
+      },
+      {
+        "unit_code": "CPP313202",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC724201",
+        "title": ": This unit covers the knowledge, skills and attitudes in preparing,"
+      },
+      {
+        "unit_code": "ELC311201",
+        "title": ": This unit covers the knowledge, skills, attitudes and values"
+      },
+      {
+        "unit_code": "CPP313203",
+        "title": "This unit covers the knowledge, skills, attitudes and values to"
+      },
+      {
+        "unit_code": "CPP313303",
+        "title": ": This unit covers the knowledge, skills and attitudes in conducting"
+      },
+      {
+        "unit_code": "CPP313304",
+        "title": ": This unit covers the knowledge, skills and attitudes in verifying"
+      },
+      {
+        "unit_code": "CPP313305",
+        "title": ": This unit covers the knowledge, skills and attitudes collecting"
+      },
+      {
+        "unit_code": "CPP313306",
+        "title": ": This unit covers the knowledge, skills and attitudes in preparing"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n\n115\nGLOSSARY OF TERMS\n\n116",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

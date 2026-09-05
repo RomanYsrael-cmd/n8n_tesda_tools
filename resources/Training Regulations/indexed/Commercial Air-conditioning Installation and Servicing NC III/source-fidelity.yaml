@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:commercial-air-conditioning-installation-and-servicing-nc-iii:2021-06-08",
+  "qualification": "Commercial Air-conditioning Installation and Servicing NC III",
+  "official_source": {
+    "source_file": "Commercial Air-conditioning Installation and Servicing NC III.pdf",
+    "sha256": "19b93da68e0ebe0aaaf24cd826d2e0b8524dfb5c6f2c36a0f2b2ff00581f0a2a",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Commercial Air-conditioning Installation and Servicing NC III.pdf",
+    "pdf_pages": 133,
+    "printed_pages": null
+  }
+}
