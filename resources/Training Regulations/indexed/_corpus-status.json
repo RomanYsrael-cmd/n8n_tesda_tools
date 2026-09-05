@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 369,
+    "complete": 379,
     "blocked": 1,
-    "pending": 14
+    "pending": 4
   },
   "records": [
     {
@@ -19594,8 +19594,14 @@
         "HVC723339"
       ],
       "indexed_path": "RAC Servicing (DomRAC) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rac-servicing-domrac-nc-ii:583bdcfc22",
       "processing_order": 371
@@ -19647,8 +19653,14 @@
         "HVC723347"
       ],
       "indexed_path": "RAC Servicing (PACU-CRE) NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rac-servicing-pacu-cre-nc-iii:02b9ef35aa",
       "processing_order": 372
@@ -19689,8 +19701,14 @@
         "AGR612204"
       ],
       "indexed_path": "Rubber Production NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rubber-production-nc-ii:d49fec8259",
       "processing_order": 373
@@ -19731,8 +19749,14 @@
         "CON713340"
       ],
       "indexed_path": "Scaffold Erection NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:scaffold-erection-nc-ii:2007-07",
       "processing_order": 374
@@ -19776,8 +19800,14 @@
         "MEE721301"
       ],
       "indexed_path": "Shielded Metal Arc Welding (SMAW) NC I (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:shielded-metal-arc-welding-smaw-nc-i:76b37ba962",
       "processing_order": 375
@@ -19821,8 +19851,14 @@
         "MEE721306"
       ],
       "indexed_path": "Shielded Metal Arc Welding (SMAW) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:shielded-metal-arc-welding-smaw-nc-ii:580b0316c1",
       "processing_order": 376
@@ -19867,8 +19903,14 @@
         "MEE721113"
       ],
       "indexed_path": "Shielded Metal Arc Welding (SMAW) NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:shielded-metal-arc-welding-smaw-nc-iii:1185ec3adc",
       "processing_order": 377
@@ -19912,8 +19954,14 @@
         "MEE721317"
       ],
       "indexed_path": "Shielded Metal Arc Welding (SMAW) NC IV (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:shielded-metal-arc-welding-smaw-nc-iv:cc7a87cb3b",
       "processing_order": 378
@@ -19955,8 +20003,14 @@
         "CON713334"
       ],
       "indexed_path": "Tile Setting NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:tile-setting-nc-ii:1323690afc",
       "processing_order": 379
@@ -20000,8 +20054,14 @@
         "UTL724602"
       ],
       "indexed_path": "Transmission Line Installation and Maintenance NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-ii:37b58f5bef",
       "processing_order": 380

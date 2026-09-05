@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:shielded-metal-arc-welding-smaw-nc-iii:1185ec3adc",
+  "qualification": "Shielded Metal Arc Welding (SMAW) NC III",
+  "official_source": {
+    "source_file": "Superseded/Shielded Metal Arc Welding (SMAW) NC III (Superseded).pdf",
+    "sha256": "1185ec3adc5d4cde689f62c7bad1cc7e1cbb8e59aad857d4f5e809c5ee85aa7b",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Superseded/Shielded Metal Arc Welding (SMAW) NC III (Superseded).pdf",
+    "pdf_pages": 64,
+    "printed_pages": null
+  }
+}
