@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:furniture-making-finishing-nc-ii:b5fb0a77e6",
+  "qualification": "FURNITURE MAKING (FINISHING) NC II",
+  "official_source": {
+    "source_file": "Furniture Making (Finishing) NC II.pdf",
+    "sha256": "b5fb0a77e644559e540d1ecffc7d20b9a929cdeeb70a0a7d58834826010c16b8",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Furniture Making (Finishing) NC II.pdf",
+    "pdf_pages": 68,
+    "printed_pages": null
+  }
+}

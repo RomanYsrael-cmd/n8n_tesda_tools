@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 149,
-    "pending": 234,
+    "complete": 159,
+    "pending": 224,
     "blocked": 1
   },
   "records": [
@@ -8169,8 +8169,14 @@
         "ALT821303"
       ],
       "indexed_path": "Foundry Pattern Making NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:foundry-patternmaking-nc-ii:bcf8028149",
       "processing_order": 150
@@ -8213,8 +8219,14 @@
         "ALT742308"
       ],
       "indexed_path": "Foundry Pattern Making NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:foundry-patternmaking-nc-iii:14c4efed0d",
       "processing_order": 151
@@ -8260,8 +8272,14 @@
         "TRS5123110"
       ],
       "indexed_path": "Front Office Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:front-office-services-nc-ii:2013-12",
       "processing_order": 152
@@ -8311,8 +8329,14 @@
         "TRS122304"
       ],
       "indexed_path": "Front Office Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:front-office-services-nc-iii:b6076680df",
       "processing_order": 153
@@ -8362,8 +8386,14 @@
         "TRS122308"
       ],
       "indexed_path": "Front Office Services NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:front-office-services-nc-iv:aa36144766",
       "processing_order": 154
@@ -8407,8 +8437,14 @@
         "FUR714303"
       ],
       "indexed_path": "Furniture Making (Finishing) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:furniture-making-finishing-nc-ii:b5fb0a77e6",
       "processing_order": 155
@@ -8450,8 +8486,14 @@
         "ICT313353"
       ],
       "indexed_path": "Game Programming NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:game-programming-nc-iii:8482b4f387",
       "processing_order": 156
@@ -8490,8 +8532,14 @@
         "UTL961302"
       ],
       "indexed_path": "Garbage Collection NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 9,
+        "selector_count": 25,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:garbage-collection-nc-i:2015-06-16",
       "processing_order": 157
@@ -8535,8 +8583,14 @@
         "MEE721104"
       ],
       "indexed_path": "Gas Metal Arc Welding (GMAW) NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:gas-metal-arc-welding-gmaw-nc-i:d5c40ee006",
       "processing_order": 158
@@ -8580,8 +8634,14 @@
         "MEE721109"
       ],
       "indexed_path": "Gas Metal Arc Welding (GMAW) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:gas-metal-arc-welding-gmaw-nc-ii:b92f3cc8fc",
       "processing_order": 159
