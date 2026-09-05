@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:diesel-power-plant-maintenance-nc-iii:b08c68f28f",
+  "qualification": "Diesel Power Plant Maintenance NC III",
+  "official_source": {
+    "source_file": "Diesel Power Plant Maintenance NC III.pdf",
+    "sha256": "b08c68f28f69d5fb1ddee4c2a95d60774b72fb11b3d49ef12f915be4df288248",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Diesel Power Plant Maintenance NC III.pdf",
+    "pdf_pages": 66,
+    "printed_pages": null
+  }
+}

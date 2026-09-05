@@ -1,0 +1,62 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:diesel-power-plant-operation-and-maintenance-nc-ii:0738bf0101",
+  "qualification": "Diesel Power Plant Operation and Maintenance NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311106",
+        "title": ":"
+      },
+      {
+        "unit_code": "UTL713202",
+        "title": "materials, tools and equipment, lay-outing dimensions and"
+      },
+      {
+        "unit_code": "UTL724201",
+        "title": "materials, tools and equipment, testing electrical components and"
+      },
+      {
+        "unit_code": "UTL723206",
+        "title": "preparation and tending of diesel engine and its auxiliary"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "UTL311202",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311108",
+        "title": ":"
+      },
+      {
+        "unit_code": "UTL723203",
+        "title": ":"
+      },
+      {
+        "unit_code": "UTL723205",
+        "title": ":"
+      },
+      {
+        "unit_code": "UTL723208",
+        "title": "service the diesel engine systems and alternator. This includes"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n43",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

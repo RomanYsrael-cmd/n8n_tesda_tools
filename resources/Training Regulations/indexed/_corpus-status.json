@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 99,
-    "pending": 284,
+    "complete": 109,
+    "pending": 274,
     "blocked": 1
   },
   "records": [
@@ -5453,8 +5453,14 @@
         "MEE722325"
       ],
       "indexed_path": "Die Designing NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 25,
+        "selector_count": 57,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:die-designing-nc-iv:edc5e777bf",
       "processing_order": 100
@@ -5499,8 +5505,14 @@
         "UTL723212"
       ],
       "indexed_path": "Diesel Power Plant Maintenance NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:diesel-power-plant-maintenance-nc-iii:b08c68f28f",
       "processing_order": 101
@@ -5541,8 +5553,14 @@
         "UTL723208"
       ],
       "indexed_path": "Diesel Power Plant Operation and Maintenance NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:diesel-power-plant-operation-and-maintenance-nc-ii:0738bf0101",
       "processing_order": 102
@@ -5586,8 +5604,14 @@
         "UTL723208"
       ],
       "indexed_path": "Diesel Power Plant Operation and Maintenance NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:diesel-power-plant-operation-and-maintenance-nc-iii:053dcac353",
       "processing_order": 103
@@ -5638,8 +5662,14 @@
         "AGR611380"
       ],
       "indexed_path": "Domestic Work NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:domestic-work-nc-ii:bc3bd4e9c2",
       "processing_order": 104
@@ -5681,8 +5711,14 @@
         "GRM743304"
       ],
       "indexed_path": "Dressmaking NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:dressmaking-nc-ii:2005-03-18",
       "processing_order": 105
@@ -5731,8 +5767,14 @@
         "ALT832304"
       ],
       "indexed_path": "Driving (Articulated Vehicle) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:driving-articulated-vehicle-nc-iii:2011-01-14",
       "processing_order": 106
@@ -5783,8 +5825,14 @@
         "ALT832307"
       ],
       "indexed_path": "Driving (Passenger Bus Straight Truck) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:driving-passenger-bus-straight-truck-nc-iii:2011-01-14",
       "processing_order": 107
@@ -5828,8 +5876,14 @@
         "ALT832304"
       ],
       "indexed_path": "Driving NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:driving-nc-ii:2004-12",
       "processing_order": 108
@@ -5871,8 +5925,14 @@
         "AFF723303"
       ],
       "indexed_path": "Drying and Milling Plant Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:drying-and-milling-plant-servicing-nc-iii:2017-02-03",
       "processing_order": 109
