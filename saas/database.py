@@ -118,8 +118,8 @@ class SaaSDatabase:
                 if mode == "fresh":
                     conn.execute(
                         "DELETE FROM saas_job_events "
-                        "WHERE job_id=%s AND (stage IN ('llm', 'stage') "
-                        "OR detail->>'kind' IN ('llm', 'stage'))",
+                        "WHERE job_id=%s AND (stage IN ('llm', 'llm_progress', 'stage') "
+                        "OR detail->>'kind' IN ('llm', 'llm_progress', 'stage'))",
                         (job_id,),
                     )
                 conn.execute("INSERT INTO saas_job_events(job_id,stage,message,detail) VALUES(%s,'generation',%s,%s)",

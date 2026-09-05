@@ -1,0 +1,1265 @@
+schema: tesda-training-standards
+schema_version: '1.1'
+qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
+qualification: Housekeeping NC II
+source_heading: SECTION 3 TRAINING STANDARDS
+representation_type: semantic_normalized
+verbatim_transcription: false
+provenance:
+  printed_pages: 52-59
+  pdf_pages: 56-63
+curriculum_design:
+  source_heading: 3.1 CURRICULUM DESIGN
+  provenance:
+    printed_pages: 52-55
+    pdf_pages: 56-59
+  course_title: HOUSEKEEPING
+  nc_level: NC II
+  nominal_duration:
+    basic_hours: 18
+    common_hours: 18
+    core_hours: 400
+    supervised_industry_learning_hours: null
+    total_hours: 436
+    source_text:
+    - 18 Hrs. (Basic)
+    - 18 Hrs. (Common)
+    - 400 Hrs. (Core)
+    calculation_note: 436 is the arithmetic sum of the three explicit source durations; the source does not print a grand
+      total.
+  course_description: This course is designed to enhance the knowledge, skills and attitude of housekeeping staff in housekeeping
+    services, preparing guest’s rooms, providing valet/butler service, laundering linen and guest’s clothes, cleaning premises
+    and equipment in accordance with industry standards. It covers the basic, core and common competencies in HOUSEKEEPING
+    NC II.
+  per_unit_nominal_duration_provided: false
+  entries:
+  - curriculum_id: 500311105:curriculum
+    unit_code: '500311105'
+    unit_of_competency: Participate in workplace communication
+    learning_outcomes:
+    - lo_id: 500311105:lo:1
+      number: '1.1'
+      text: Obtain and convey workplace information
+    - lo_id: 500311105:lo:2
+      number: '1.2'
+      text: Speak English at a basic operational level
+    - lo_id: 500311105:lo:3
+      number: '1.3'
+      text: Participate in workplace meeting and discussion
+    - lo_id: 500311105:lo:4
+      number: '1.4'
+      text: Complete relevant work related documents
+    methodology:
+    - Group discussion
+    - Interaction
+    - Practice session
+    assessment_approach:
+    - Demonstration
+    - Observation
+    - Interviews/questioning
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 52
+      pdf_page: 56
+  - curriculum_id: 500311106:curriculum
+    unit_code: '500311106'
+    unit_of_competency: Work in team environment
+    learning_outcomes:
+    - lo_id: 500311106:lo:1
+      number: '2.1'
+      text: Describe and identify team role and responsibility in a team
+    - lo_id: 500311106:lo:2
+      number: '2.2'
+      text: Describe work as a team member
+    - lo_id: 500311106:lo:3
+      number: '2.3'
+      text: Work effectively with colleagues
+    - lo_id: 500311106:lo:4
+      number: '2.4'
+      text: Work in socially diverse environment
+    methodology:
+    - Discussion
+    - Interaction
+    - Simulation games
+    assessment_approach:
+    - Demonstration
+    - Observation
+    - Interviews/questioning
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 52
+      pdf_page: 56
+  - curriculum_id: 500311107:curriculum
+    unit_code: '500311107'
+    unit_of_competency: Practice career professionalism
+    learning_outcomes:
+    - lo_id: 500311107:lo:1
+      number: '3.1'
+      text: Integrate personal objectives with organizational goals
+    - lo_id: 500311107:lo:2
+      number: '3.2'
+      text: Set and meet work priorities
+    - lo_id: 500311107:lo:3
+      number: '3.3'
+      text: Maintain professional growth and development
+    methodology:
+    - Discussion
+    - Interaction
+    - Role play
+    assessment_approach:
+    - Demonstration
+    - Observation
+    - Interviews/questioning
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 52
+      pdf_page: 56
+  - curriculum_id: 500311108:curriculum
+    unit_code: '500311108'
+    unit_of_competency: Practice occupational health and safety procedures
+    learning_outcomes:
+    - lo_id: 500311108:lo:1
+      number: '4.1'
+      text: Evaluate hazard and risks
+    - lo_id: 500311108:lo:2
+      number: '4.2'
+      text: Control hazards and risks
+    - lo_id: 500311108:lo:3
+      number: '4.3'
+      text: Maintain occupational health and safety awareness
+    - lo_id: 500311108:lo:4
+      number: '4.4'
+      text: Perform basic first-aid procedures
+    methodology:
+    - Lecture-Discussion
+    - Case study
+    - Plant tour
+    - Symposium
+    assessment_approach:
+    - Observation
+    - Interview
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 53
+      pdf_page: 57
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:curriculum-ohs-learning-outcomes
+  - curriculum_id: TRS311201:curriculum
+    unit_code: TRS311201
+    unit_of_competency: Develop and update industry knowledge
+    learning_outcomes:
+    - lo_id: TRS311201:lo:1
+      number: '1.1'
+      text: Seek information on the industry
+    - lo_id: TRS311201:lo:2
+      number: '1.2'
+      text: Update continuously relevant industry knowledge
+    - lo_id: TRS311201:lo:3
+      number: '1.3'
+      text: Develop and update local knowledge
+    - lo_id: TRS311201:lo:4
+      number: '1.4'
+      text: Promote products and services to customers
+    methodology:
+    - Lecture
+    - Group Discussion
+    - Individual/Group Assignment
+    - Field visit
+    - Video presentation
+    assessment_approach:
+    - Interviews/Questioning
+    - Individual/Group Project or Report
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 53
+      pdf_page: 57
+  - curriculum_id: TRS311202:curriculum
+    unit_code: TRS311202
+    unit_of_competency: Observe workplace hygiene procedures
+    learning_outcomes:
+    - lo_id: TRS311202:lo:1
+      number: '2.1'
+      text: Follow hygiene procedures
+    - lo_id: TRS311202:lo:2
+      number: '2.2'
+      text: Identify and prevent hygiene risk
+    methodology:
+    - Lecture
+    - Demonstration
+    - Role-play
+    - Case study
+    assessment_approach:
+    - Demonstration
+    - Written Examination
+    - Interviews/Questioning
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 53
+      pdf_page: 57
+  - curriculum_id: TRS311203:curriculum
+    unit_code: TRS311203
+    unit_of_competency: Perform computer operations
+    learning_outcomes:
+    - lo_id: TRS311203:lo:1
+      number: '3.1'
+      text: Plan and prepare task to be undertaken
+    - lo_id: TRS311203:lo:2
+      number: '3.2'
+      text: Input data into a computer
+    - lo_id: TRS311203:lo:3
+      number: '3.3'
+      text: Assess information using computer
+    - lo_id: TRS311203:lo:4
+      number: '3.4'
+      text: Produce/ output data using computer system
+    - lo_id: TRS311203:lo:5
+      number: '3.5'
+      text: Maintain computer system
+    methodology:
+    - Lecture
+    - Group Discussion
+    - Tutorial or self-pace
+    - Demonstration
+    - Practice session
+    assessment_approach:
+    - Interviews/Questioning
+    - Practical Demonstration
+    - Observation
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 53
+      pdf_page: 57
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:curriculum-assess-vs-access
+  - curriculum_id: TRS311204:curriculum
+    unit_code: TRS311204
+    unit_of_competency: Perform workplace and safety practices
+    learning_outcomes:
+    - lo_id: TRS311204:lo:1
+      number: '4.1'
+      text: Practice workplace procedures for health, safety and security practices
+    - lo_id: TRS311204:lo:2
+      number: '4.2'
+      text: Perform child protection duties relevant to the tourism industry
+    - lo_id: TRS311204:lo:3
+      number: '4.3'
+      text: Observe and monitor people
+    - lo_id: TRS311204:lo:4
+      number: '4.4'
+      text: Deal with emergency situations
+    - lo_id: TRS311204:lo:5
+      number: '4.5'
+      text: Maintain safe personal presentation standards
+    - lo_id: TRS311204:lo:6
+      number: '4.6'
+      text: Maintain a safe and secure workplace
+    methodology:
+    - Lecture
+    - Demonstration
+    - Role-play
+    - Simulation
+    assessment_approach:
+    - Demonstration
+    - Interviews/Questioning
+    - Written Examination
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 53
+      pdf_page: 57
+  - curriculum_id: TRS311205:curriculum
+    unit_code: TRS311205
+    unit_of_competency: Provide effective customer service
+    learning_outcomes:
+    - lo_id: TRS311205:lo:1
+      number: '5.1'
+      text: Greet customers
+    - lo_id: TRS311205:lo:2
+      number: '5.2'
+      text: Identify customer needs
+    - lo_id: TRS311205:lo:3
+      number: '5.3'
+      text: Deliver service to customer
+    - lo_id: TRS311205:lo:4
+      number: '5.6'
+      text: Handle queries through use of common business tools and technology
+    - lo_id: TRS311205:lo:5
+      number: '5.5'
+      text: Handle complaints/conflict situations, evaluation and recommendations
+    methodology:
+    - Lecture
+    - Demonstration
+    - Role-play
+    - Simulation
+    assessment_approach:
+    - Demonstration
+    - Interviews/Questioning
+    - Observation
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 54
+      pdf_page: 58
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:curriculum-customer-service-numbering
+  - curriculum_id: TRS5123111:curriculum
+    unit_code: TRS5123111
+    unit_of_competency: Provide Housekeeping Services to Guests
+    learning_outcomes:
+    - lo_id: TRS5123111:lo:1
+      number: '1.1'
+      text: Receive housekeeping requests
+    - lo_id: TRS5123111:lo:2
+      number: '1.2'
+      text: Provide/Service housekeeping requests
+    - lo_id: TRS5123111:lo:3
+      number: '1.3'
+      text: Provide advice to guest
+    - lo_id: TRS5123111:lo:4
+      number: '1.4'
+      text: Liaise with other departments
+    methodology:
+    - Lecture – Discussion
+    - Interaction
+    - Demonstration
+    assessment_approach:
+    - Interviews/questioning
+    - Demonstration
+    - Observation
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 54
+      pdf_page: 58
+  - curriculum_id: TRS5123112:curriculum
+    unit_code: TRS5123112
+    unit_of_competency: Clean and Prepare rooms for incoming guests
+    learning_outcomes:
+    - lo_id: TRS5123112:lo:1
+      number: '2.1'
+      text: Set up equipment and trolleys
+    - lo_id: TRS5123112:lo:2
+      number: '2.2'
+      text: Access rooms for servicing
+    - lo_id: TRS5123112:lo:3
+      number: '2.3'
+      text: Make up beds
+    - lo_id: TRS5123112:lo:4
+      number: '2.4'
+      text: Clean and clear rooms
+    - lo_id: TRS5123112:lo:5
+      number: '2.5'
+      text: Clean and store trolleys and equipment
+    methodology:
+    - Lecture – Discussion
+    - Interaction
+    - Demonstration
+    assessment_approach:
+    - Demonstration
+    - Observation
+    - Inspection
+    - Written examination (optional)
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 54
+      pdf_page: 58
+  - curriculum_id: TRS5123113:curriculum
+    unit_code: TRS5123113
+    unit_of_competency: Provide Valet/Butler Service
+    learning_outcomes:
+    - lo_id: TRS5123113:lo:1
+      number: '3.1'
+      text: Provide valet services to guests
+    - lo_id: TRS5123113:lo:2
+      number: '3.2'
+      text: Display professional valet standards
+    - lo_id: TRS5123113:lo:3
+      number: '3.3'
+      text: Care for guest property
+    methodology:
+    - Lecture – Discussion
+    - Interaction
+    - OJT
+    assessment_approach:
+    - Demonstration
+    - Observation
+    - Written examination (optional)
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 54
+      pdf_page: 58
+  - curriculum_id: TRS5123114:curriculum
+    unit_code: TRS5123114
+    unit_of_competency: Laundry Linen and Guest Clothes
+    learning_outcomes:
+    - lo_id: TRS5123114:lo:1
+      number: '4.1'
+      text: Collect laundry for laundering functions
+    - lo_id: TRS5123114:lo:2
+      number: '4.2'
+      text: Perform laundering functions
+    - lo_id: TRS5123114:lo:3
+      number: '4.3'
+      text: Process laundered item
+    - lo_id: TRS5123114:lo:4
+      number: '4.4'
+      text: Return laundered item
+    methodology:
+    - Lecture – Discussion
+    - Interaction
+    - Demonstration
+    - Simulation
+    assessment_approach:
+    - Demonstration
+    - Interview/Questioning
+    - Observation
+    - Written examination (optional)
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 55
+      pdf_page: 59
+  - curriculum_id: TRS5123115:curriculum
+    unit_code: TRS5123115
+    unit_of_competency: Clean public areas, facilities and equipment
+    learning_outcomes:
+    - lo_id: TRS5123115:lo:1
+      number: '5.1'
+      text: Select and set up equipment and materials
+    - lo_id: TRS5123115:lo:2
+      number: '5.2'
+      text: Apply cleaning technique
+    - lo_id: TRS5123115:lo:3
+      number: '5.3'
+      text: Clean dry and wet areas
+    - lo_id: TRS5123115:lo:4
+      number: '5.4'
+      text: Maintain and store cleaning equipment and chemicals
+    methodology:
+    - Lecture – Discussion
+    - Interaction
+    - Demonstration
+    assessment_approach:
+    - Demonstration
+    - Interviews/questioning
+    - Observation
+    - Written examination (optional)
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 55
+      pdf_page: 59
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:clean-public-areas-unit-code
+  - curriculum_id: TRS5123122:curriculum
+    unit_code: TRS5123122
+    unit_of_competency: Deal with/handle intoxicated guests
+    learning_outcomes:
+    - lo_id: TRS5123122:lo:1
+      number: '6.1'
+      text: Determine the level of intoxication
+    - lo_id: TRS5123122:lo:2
+      number: '6.2'
+      text: Apply appropriate procedures
+    - lo_id: TRS5123122:lo:3
+      number: '6.3'
+      text: Comply with legislation
+    methodology:
+    - Lecture – Discussion
+    - Interaction
+    - Demonstration
+    - Simulation
+    assessment_approach:
+    - Oral questions
+    - Written questions
+    - Work projects
+    - Workplace observation of practical skills
+    - Practical exercises/Role Play/Demonstration
+    - Formal report from supervisor
+    nominal_hours: null
+    duration_source_note: No per-unit nominal duration is provided in the source curriculum table.
+    provenance:
+      printed_page: 55
+      pdf_page: 59
+training_delivery:
+  source_heading: 3.2 TRAINING DELIVERY
+  provenance:
+    printed_page: 56
+    pdf_page: 60
+  principles:
+  - The training is based on curriculum developed from the competency standards;
+  - Learning is modular in its structure;
+  - Training delivery is individualized and self-paced;
+  - Training is based on work that must be performed;
+  - Training materials are directly related to the competency standards and the curriculum modules;
+  - Assessment is based on the collection of evidence of the performance of work to the industry required standard;
+  - Training is based on both on and off-the-job components;
+  - Allows for recognition of prior learning (RPL) or current competencies;
+  - Training allows for multiple entry and exit; and
+  - Approved training programs are Nationally Accredited
+  modalities:
+  - name: Dual-mode training delivery
+    source_text: The dual- mode of training delivery is preferred and recommended. Thus programs would contain both in-school
+      and in-industry training or fieldwork components. Details can be referred to the Dual Training System (DTS) Implementing
+      Rules and Regulations.
+  - name: Modular/self-paced learning
+    source_text: Modular/self-paced learning is a competency-based training modality wherein the trainee is allowed to progress
+      at his/her own pace. The trainer only facilitates the training delivery.
+  - name: Peer teaching/mentoring
+    source_text: Peer teaching/mentoring is a training modality wherein fast learners are given the opportunity to assist
+      the slow learners.
+  - name: Supervised industry training or on-the-job training
+    source_text: Supervised industry training or on-the-job training is an approach in training designed to enhance the knowledge
+      and skills of the trainee through actual experience in the workplace to acquire specific competencies prescribed in
+      the training regulations.
+  - name: Distance learning
+    source_text: Distance learning is a formal education process in which majority of the instruction occurs when the students
+      and instructor are not in the same place. Distance learning may employ correspondence study, audio, video or computer
+      technologies.
+trainee_entry_requirements:
+  source_heading: 3.3 TRAINEE ENTRY REQUIREMENTS
+  provenance:
+    printed_page: 57
+    pdf_page: 61
+  requirements:
+  - can communicate in English both oral and written;
+  - can perform basic mathematical computation.
+  institutional_caveat: This list does not include specific institutional requirements such as educational attainment, appropriate
+    work experience and others that may be required of the trainees by the school or training center delivering the TVET program.
+tools_equipment_materials:
+  source_heading: 3.4 LIST OF TOOLS AND EQUIPMENT
+  provenance:
+    printed_pages: 57-58
+    pdf_pages: 61-62
+  class_size_basis: 25
+  source_intro: 'Recommended list of tools, equipment and materials for the training of a maximum of 25 trainees for Housekeeping
+    NC II are as follows:'
+  tools:
+  - quantity: 5
+    unit: pcs.
+    item: Mops
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Brushes
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Brooms
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Buckets
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Dust Pans
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: pcs.
+    item: Garbage Receptacles
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Sorting Baskets/ Laundry Baskets
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: Step Ladder
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: pcs.
+    item: Squeegee
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: pcs.
+    item: Water Hoses
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 10
+    unit: pcs.
+    item: Lint Free Cleaning Cloths
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 10
+    unit: pcs
+    item: Scrubbing Foam
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 10
+    unit: pcs.
+    item: Dish Sponges
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Spray Bottles
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Anti-Static Dusters
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 25
+    unit: pcs.
+    item: Gloves
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 5
+    unit: pcs.
+    item: Caution Signs
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: pcs.
+    item: Mop Squeezer
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  materials:
+  - quantity: 2
+    unit: reams
+    item: Bond paper
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 25
+    unit: pcs.
+    item: Folders
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: Logbook
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: box
+    item: Transparency acetate
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: pcs.
+    item: White Board
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Whiteboard Markers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: pcs.
+    item: Whiteboard Eraser
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Marking Pen
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: pcs.
+    item: Stationery
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: sets
+    item: Linen (for single bed
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: sets
+    item: Linen (for double bed)
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: set
+    item: Glassware
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: set
+    item: Cutlery
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pack
+    item: Tea
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pack
+    item: Coffee
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pack
+    item: Sugar
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pack
+    item: Powdered Milk
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pack
+    item: Biscuits
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Bed (Single )
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Bed (Queen)
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pc
+    item: Holy Bible
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: pairs
+    item: Slippers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Flashlight
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: set
+    item: Light fittings
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pc.
+    item: Mirrors
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Wardrobes
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Hangers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: pcs.
+    item: Ashtrays
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: for each items
+    item: Variety of linen and clothing items and fabrics
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  equipment:
+  - quantity: 1
+    unit: unit
+    item: Projector Screen
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit
+    item: Overhead Projector
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: unit
+    item: Electric Fan
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: First Aid Cabinet
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: Instructor’s desk chairs
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 3
+    unit: pcs.
+    item: Fire Extinguisher
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: pcs.
+    item: Emergency Light
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: pcs.
+    item: Directional Signage
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 2
+    unit: units.
+    item: Air condition
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 25
+    unit: pcs.
+    item: Armed Chairs
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit
+    item: Telephone
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit
+    item: Computer
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: TV
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: Video player
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: Fax machine
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: Refrigerator
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: Hairdryer
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: Alarm clock
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: Shelving
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: Cart
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: pc.
+    item: Trolley
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: Coffee Maker
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: Electric kettle
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit.
+    item: Electric jug
+    provenance:
+      printed_page: 57
+      pdf_page: 61
+  - quantity: 1
+    unit: unit
+    item: Toilet Caddy
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Carpet sweeper
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Vacuum cleaner (dry and wet )
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Polisher (electric with complete accessories)
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Washers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Dryer
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Flat iron
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pc.
+    item: Ironing Board
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pc.
+    item: Steam pressers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: pc.
+    item: Sorting shelves
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 1
+    unit: unit
+    item: Drying cleaning machine
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: units
+    item: Furniture and floor polishers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  cleaning_agents:
+  - quantity: 5
+    unit: liters
+    item: Cleaning Detergent
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: Liquid Detergent
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: Cleaning Solution
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: Sanitizing Agents
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: Fabric Softener
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: Chlorine Bleach
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: All-Purpose Detergent
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: Stain Removing Agents
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: cans
+    item: Air Freshener
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: cans
+    item: Pesticides
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Deodorizers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: liters
+    item: Toilet Disinfectant
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  protective_clothing:
+  - quantity: 5
+    unit: pcs
+    item: Overalls
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Jackets
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 25
+    unit: pcs.
+    item: Aprons
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 15
+    unit: pcs.
+    item: Goggles
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 25
+    unit: pcs.
+    item: Masks
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 25
+    unit: pcs.
+    item: Headwear
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 10
+    unit: pcs.
+    item: Waterproof clothing and footwear
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  discretionary_supplies:
+  - quantity: 5
+    unit: null
+    item: Fruits(assorted)
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: cans
+    item: Beverages (assorted)
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Chocolates (assorted)
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  training_resources_materials:
+  - quantity: 25
+    unit: pcs.
+    item: Enterprise promotional materials
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 25
+    unit: pcs.
+    item: Local tourist information
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Magazines
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 5
+    unit: pcs.
+    item: Newspapers
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: 2
+    unit: pcs.
+    item: Lodging agreement
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  - quantity: null
+    unit: null
+    item: Housekeeping textbooks/references
+    provenance:
+      printed_page: 58
+      pdf_page: 62
+  implementation_note: Implementation of the training program can be made possible through a MOA between the Training school
+    and Industry to defray the high cost of equipment and facilitates which the school cannot afford.
+  fidelity_refs:
+  - tesda:housekeeping-nc-ii:anomaly:drying-cleaning-machine
+  - tesda:housekeeping-nc-ii:anomaly:resources-table-subheading-alignment
+  - tesda:housekeeping-nc-ii:anomaly:implementation-note-facilitates
+training_facilities:
+  source_heading: 3.5 TRAINING FACILITIES
+  provenance:
+    printed_page: 59
+    pdf_page: 63
+  class_size_basis: 25
+  requirements:
+  - space_requirement: Lecture
+    size_in_meters: 8 x 5 m.
+    area_sq_m: 40
+    total_area_sq_m: 40
+  - space_requirement: Demo/Mock/ Room
+    size_in_meters: 4 x 6 m.
+    area_sq_m: 24
+    total_area_sq_m: 24
+  - space_requirement: Learning Resource Center
+    size_in_meters: 3 x 5 m.
+    area_sq_m: 15
+    total_area_sq_m: 15
+  - space_requirement: Facilities/Equipment/Circulation Area
+    size_in_meters: null
+    area_sq_m: null
+    total_area_sq_m: 24
+  total_workshop_area_sq_m: 114
+trainer_qualifications:
+  source_heading: 3.6 TRAINER’S QUALIFICATIONS FOR TOURISM SECTOR (HOTEL AND RESTAURANT)
+  provenance:
+    printed_page: 59
+    pdf_page: 63
+  qualification_context: HOUSEKEEPING – NC II
+  requirements:
+  - Must be a holder of National TVET Trainer Certificate I (TM I and NC)
+  - Must be physically and mentally fit
+  - Have at least 2 years relevant job/industry experience
+institutional_assessment:
+  source_heading: 3.7 INSTITUTIONAL ASSESSMENT
+  provenance:
+    printed_page: 59
+    pdf_page: 63
+  rule: Institutional assessment is undertaken by trainees to determine their achievement of units of competency. A certificate
+    of achievement is issued for each unit of competency.

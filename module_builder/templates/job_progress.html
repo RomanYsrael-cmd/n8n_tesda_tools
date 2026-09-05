@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Progress - {{job.filename}}{% endblock %}
 {% block content %}
-<link rel="stylesheet" href="/static/activity-drawer.css?v=2">
+<link rel="stylesheet" href="/static/activity-drawer.css?v=3">
 {% include "_job_header.html" %}
 <section class="panel">
   <div class="actions"><h2 style="margin-right:auto">{% if not plan %}Step 1: Reading the syllabus…{% else %}Automatic generation progress{% endif %}</h2>{% if plan %}<button type="button" class="secondary" id="activity-toggle" aria-controls="activity-drawer" aria-expanded="false">Show LLM activity</button>{% endif %}</div>
@@ -13,5 +13,5 @@
 {% if plan %}<aside id="activity-drawer" class="activity-drawer" aria-hidden="true"><div class="drawer-head"><div><h2>LLM activity</h2><p>Live requests, responses, validation, and repairs</p></div><button type="button" class="secondary" id="activity-close">Close</button></div><div class="privacy-note">API keys are never included. Prompts and responses may contain syllabus and generated course content.</div><div id="live-streams"></div><div id="activity-summary" class="activity-summary">Loading…</div><div id="activity-entries" class="activity-entries"></div></aside><div id="drawer-backdrop" class="drawer-backdrop"></div>{% endif %}
 {% endblock %}
 {% block scripts %}
-{% if plan %}<script src="/static/activity-drawer.js?v=2" data-job-id="{{job.id}}" data-redirect-on-success="true"></script>{% elif job.status in ['inbox','normalizing'] %}<script>setTimeout(()=>location.reload(),4000)</script>{% endif %}
+{% if plan %}<script src="/static/activity-drawer.js?v=3" data-job-id="{{job.id}}" data-redirect-on-success="true"></script>{% elif job.status in ['inbox','normalizing'] %}<script>setTimeout(()=>location.reload(),4000)</script>{% endif %}
 {% endblock %}

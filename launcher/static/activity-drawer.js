@@ -17,14 +17,15 @@
 
   function readableLog(value) {
     if (!value || typeof value !== 'object') return String(value ?? '');
+    const telemetry = formatTelemetry(value.telemetry || value.usage);
     if (value.rejected_text !== undefined) {
       const errors = Array.isArray(value.errors) ? value.errors.map(e => `• ${e}`).join('\n') : String(value.errors || 'Unknown validation error');
-      return `VALIDATION ERRORS\n${errors}\n\nREJECTED LLM RESPONSE\n${value.rejected_text}`;
+      return `${telemetry ? telemetry + '\n\n' : ''}VALIDATION ERRORS\n${errors}\n\nREJECTED LLM RESPONSE\n${value.rejected_text}`;
     }
     if (value.extracted_text !== undefined) {
-      return `ACCEPTED CONTENT\n${value.extracted_text}\n\nRAW LLM RESPONSE\n${value.raw_text || ''}`;
+      return `${telemetry ? telemetry + '\n\n' : ''}ACCEPTED CONTENT\n${value.extracted_text}\n\nRAW LLM RESPONSE\n${value.raw_text || ''}`;
     }
-    if (value.text !== undefined) return `LLM RESPONSE\n${value.text}`;
+    if (value.text !== undefined) return `${telemetry ? telemetry + '\n\n' : ''}LLM RESPONSE\n${value.text}`;
     if (value.prompt !== undefined) {
       const details = [`PROMPT SENT TO THE LLM`, value.prompt];
       if (value.model) details.push(`MODEL\n${value.model}`);
@@ -36,6 +37,25 @@
       return `ERROR\n${value.error}${value.traceback ? `\n\nTECHNICAL DETAILS\n${value.traceback}` : ''}`;
     }
     return JSON.stringify(value, null, 2);
+  }
+
+  function formatTelemetry(value) {
+    if (!value || typeof value !== 'object') return '';
+    const exact = Number.isFinite(Number(value.completion_tokens)) ? Number(value.completion_tokens) : null;
+    const estimated = Number(value.output_tokens_estimate || value.completion_tokens_estimate || 0);
+    const tokens = exact !== null ? `${exact} output tokens` : `~${estimated} output tokens`;
+    const chars = Number(value.output_characters || value.content_characters || 0);
+    const elapsed = Number(value.elapsed_seconds || 0).toFixed(1);
+    const speed = Number(value.tokens_per_second || 0).toFixed(1);
+    const prompt = Number.isFinite(Number(value.prompt_tokens)) ? `${Number(value.prompt_tokens)} prompt tokens` : `~${Number(value.prompt_tokens_estimate || 0)} prompt tokens`;
+    return `TOKEN USAGE\n${tokens} · ${chars} characters · ${elapsed}s · ${speed} tokens/s · ${prompt}`;
+  }
+
+  function liveTelemetry(item) {
+    const usage = item.usage || {};
+    const exact = Number.isFinite(Number(usage.completion_tokens)) ? `${Number(usage.completion_tokens)} output tokens` : `~${Number(item.output_tokens_estimate || 0)} output tokens`;
+    const prompt = Number.isFinite(Number(usage.prompt_tokens)) ? `${Number(usage.prompt_tokens)} prompt tokens` : `~${Number(item.prompt_tokens_estimate || 0)} prompt tokens`;
+    return `${exact} · ${Number(item.output_characters || 0)} characters · ${Number(item.elapsed_seconds || 0).toFixed(1)}s · ${Number(item.tokens_per_second || 0).toFixed(1)} tokens/s · ${prompt}`;
   }
 
   async function openEntry(button) {
@@ -54,7 +74,7 @@
       document.getElementById('job-message').textContent = data.job.message || '';
       document.getElementById('job-progress').style.width = `${data.job.progress || 0}%`;
       const error = document.getElementById('job-error'); error.hidden = !data.job.error; error.querySelector('span').textContent = data.job.error || '';
-      liveStreams.innerHTML = (data.live || []).map(item => `<div class="log-entry response"><div style="display:flex;justify-content:space-between;gap:.5rem;padding:.65rem .8rem;background:#ecfdf3;font-size:.78rem"><strong>LIVE · Lesson ${item.lesson} · ${escapeHtml(item.stage)}</strong><span>${escapeHtml(item.status)} · attempt ${item.attempt}</span></div><pre class="log-detail" style="max-height:34vh">${escapeHtml(item.content || 'Waiting for the first token…')}</pre></div>`).join('');
+      liveStreams.innerHTML = (data.live || []).map(item => `<div class="log-entry response live-entry"><div style="display:flex;justify-content:space-between;gap:.5rem;padding:.65rem .8rem;background:#ecfdf3;font-size:.78rem"><strong>LIVE · Lesson ${item.lesson} · ${escapeHtml(item.stage)}</strong><span>${escapeHtml(item.status)} · attempt ${item.attempt}</span></div><div class="live-stats">${escapeHtml(liveTelemetry(item))}</div><pre class="log-detail" style="max-height:34vh">${escapeHtml(item.content || 'Waiting for the first token…')}</pre></div>`).join('');
       const stageRows = document.getElementById('stage-rows');
       if (stageRows) stageRows.innerHTML = data.stages.map(s => `<tr><td>${s.lesson_number}</td><td>${s.actual_week}</td><td>${escapeHtml(s.stage)}</td><td>${escapeHtml(s.status)}</td><td>${s.attempts}</td><td>${escapeHtml(s.message)}</td></tr>`).join('');
       summary.innerHTML = data.stages.length ? data.stages.map(s => `<div class="stage-line"><strong>L${s.lesson_number}</strong><span>${escapeHtml(s.stage)}</span><span>${escapeHtml(s.status)}</span><span>×${s.attempts}</span></div>`).join('') : '<div class="activity-empty">Waiting for the first stage…</div>';

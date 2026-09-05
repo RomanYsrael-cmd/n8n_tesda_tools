@@ -1,0 +1,2790 @@
+schema: tesda-competency-standards
+schema_version: '1.1'
+qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
+qualification: Housekeeping NC II
+representation_type: semantic_normalized
+verbatim_transcription: false
+source:
+  authority: Technical Education and Skills Development Authority (TESDA)
+  source_heading: SECTION 2 COMPETENCY STANDARDS
+  promulgated: 2013-12
+  revision_status: Amended
+  printed_pages: 2-51
+  pdf_pages: 6-55
+groups:
+  basic:
+  - unit_code: '500311105'
+    title: Participate in workplace communication
+    descriptor: This unit covers the knowledge, skills and attitudes required to gather, interpret and convey information
+      in response to workplace requirements.
+    provenance:
+      printed_pages: 2-4
+      pdf_pages: 6-8
+    elements:
+    - element_id: 500311105:element:1
+      number: 1
+      title: Obtain and convey workplace information
+      performance_criteria:
+      - pc_id: 500311105:pc:1.1:1
+        number: '1.1'
+        text: Specific and  relevant information is accessed from appropriate sources
+      - pc_id: 500311105:pc:1.2:1
+        number: '1.2'
+        text: Effective questioning , active listening and speaking skills are used to gather and convey information
+      - pc_id: 500311105:pc:1.3:1
+        number: '1.3'
+        text: Appropriate medium is used to transfer information and ideas
+      - pc_id: 500311105:pc:1.4:1
+        number: '1.4'
+        text: Appropriate non- verbal communication is used
+      - pc_id: 500311105:pc:1.5:1
+        number: '1.5'
+        text: Appropriate lines of communication with supervisors and colleagues are identified and followed
+      - pc_id: 500311105:pc:1.6:1
+        number: '1.6'
+        text: Defined workplace procedures for the location and storage of information are used
+      - pc_id: 500311105:pc:1.7:1
+        number: '1.7'
+        text: Personal interaction is carried out clearly and concisely
+    - element_id: 500311105:element:2
+      number: 2
+      title: Speak English at a basic operational level
+      performance_criteria:
+      - pc_id: 500311105:pc:2.1:1
+        number: '2.1'
+        text: Simple conversations on familiar topics with work colleagues is participated
+      - pc_id: 500311105:pc:2.2:1
+        number: '2.2'
+        text: Simple verbal instructions or requests are responded to
+      - pc_id: 500311105:pc:2.3:1
+        number: '2.3'
+        text: Simple requests are made
+      - pc_id: 500311105:pc:2.4:1
+        number: '2.4'
+        text: Routine procedures are described
+      - pc_id: 500311105:pc:2.5:1
+        number: '2.5'
+        text: Likes, dislikes and preferences are expressed
+      - pc_id: 500311105:pc:2.6:1
+        number: '2.6'
+        text: Different forms of expression in English is identified
+    - element_id: 500311105:element:3
+      number: 3
+      title: Participate in workplace meetings and discussions
+      performance_criteria:
+      - pc_id: 500311105:pc:3.1:1
+        number: '3.1'
+        text: Team meetings are attended on time
+      - pc_id: 500311105:pc:3.2:1
+        number: '3.2'
+        text: Own opinions are clearly expressed and those of others are listened to without interruption
+      - pc_id: 500311105:pc:3.3:1
+        number: '3.3'
+        text: Meeting inputs are consistent with the meeting purpose and established protocols
+      - pc_id: 500311105:pc:3.4:1
+        number: '3.4'
+        text: Workplace interactions are conducted in a courteous manner
+      - pc_id: 500311105:pc:3.5:1
+        number: '3.5'
+        text: Questions about simple routine workplace procedures and maters concerning working conditions of employment are
+          asked and responded to
+      - pc_id: 500311105:pc:3.6:1
+        number: '3.6'
+        text: Meetings outcomes are interpreted and implemented
+    - element_id: 500311105:element:4
+      number: 4
+      title: Complete relevant work related documents
+      performance_criteria:
+      - pc_id: 500311105:pc:4.1:1
+        number: '4.1'
+        text: Range of forms relating to conditions of employment are completed accurately and legibly
+      - pc_id: 500311105:pc:4.2:1
+        number: '4.2'
+        text: Workplace data is recorded on standard workplace forms and documents
+      - pc_id: 500311105:pc:4.3:1
+        number: '4.3'
+        text: Basic mathematical processes are used for routine calculations
+      - pc_id: 500311105:pc:4.4:1
+        number: '4.4'
+        text: Errors in recording information on forms/ documents are identified and properly acted upon
+      - pc_id: 500311105:pc:4.5:1
+        number: '4.5'
+        text: Reporting requirements to supervisor are completed according to organizational guidelines
+    range_of_variables:
+    - range_id: 500311105:range:1
+      number: '1'
+      variable: Appropriate sources 1.1 Team members 1.2 Suppliers 1.3 Trade personnel 1.4 Local government 1.5 Industry bodies
+      values: []
+    - range_id: 500311105:range:2
+      number: '2'
+      variable: Medium 2.1 Memorandum 2.2 Circular 2.3 Notice 2.4 Information discussion 2.5 Follow-up or verbal  instructions
+        2.6 Face to face communication
+      values: []
+    - range_id: 500311105:range:3
+      number: '3'
+      variable: Storage 3.1 Manual filing system 3.2 Computer-based filing system
+      values: []
+    - range_id: 500311105:range:4
+      number: '4'
+      variable: Forms 4.1 Personnel forms, telephone message forms, safety reports
+      values: []
+    - range_id: 500311105:range:5
+      number: '5'
+      variable: Workplace interactions 5.1 Face to face 5.2 Telephone 5.3 Electronic and two way radio 5.4 Written including
+        electronic, memos, instruction and forms, non-verbal including gestures, signals, signs and diagrams
+      values: []
+    - range_id: 500311105:range:6
+      number: '6'
+      variable: Protocols 6.1 Observing meeting 6.2 Compliance with meeting decisions 6.3 Obeying meeting instructions
+      values: []
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Prepared written communication following standard format of the organization
+        - number: '1.2'
+          text: Accessed information using communication equipment
+        - number: '1.3'
+          text: Spoken English at a basic operational level
+        - number: '1.4'
+          text: Made use of relevant terms as an aid to transfer information effectively
+        - number: '1.5'
+          text: Conveyed information effectively adopting the formal or informal communication
+      underpinning_knowledge:
+        intro: Knowledge
+        items:
+        - number: '2.1'
+          text: Effective communication
+        - number: '2.2'
+          text: Different modes of communication
+        - number: '2.3'
+          text: Written communication
+        - number: '2.4'
+          text: Organizational policies
+        - number: '2.5'
+          text: Communication procedures and systems
+        - number: '2.6'
+          text: Technology relevant to the enterprise and the individual’s work responsibilities
+      underpinning_skills:
+        items:
+        - number: '3.1'
+          text: Follow simple spoken language
+        - number: '3.2'
+          text: Perform routine workplace duties following simple written notices
+        - number: '3.3'
+          text: Participate in workplace meetings and discussions
+        - number: '3.4'
+          text: Complete work related documents
+        - number: '3.5'
+          text: Estimate, calculate and record routine workplace measures
+        - number: '3.6'
+          text: Basic mathematical processes of addition, subtraction, division and multiplication
+        - number: '3.7'
+          text: Ability to relate to people of social range in the workplace
+        - number: '3.8'
+          text: Gather and provide information in response to workplace requirements
+      resource_implications:
+        intro: Implications
+        items:
+        - number: '4.1'
+          text: Fax machine
+        - number: '4.2'
+          text: Telephone
+        - number: '4.3'
+          text: Writing materials
+        - number: '4.4'
+          text: Internet
+      methods_of_assessment:
+        intro: Assessment
+        items:
+        - number: '5.1'
+          text: Direct Observation
+        - number: '5.2'
+          text: Oral interview and written test
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Competency may be assessed individually in the actual workplace or through accredited institution
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      underpinning_knowledge: Underpinning Knowledge
+      underpinning_skills: Underpinning Skills
+      resource_implications: Resource Implications
+      methods_of_assessment: Methods of Assessment
+      context_of_assessment: Context of Assessment
+  - unit_code: '500311106'
+    title: Work in team environment
+    descriptor: This unit covers the skills, knowledge and attitudes to identify role and responsibility as a member of a
+      team.
+    provenance:
+      printed_pages: 5-7
+      pdf_pages: 9-11
+    elements:
+    - element_id: 500311106:element:1
+      number: 1
+      title: Describe team role and scope
+      performance_criteria:
+      - pc_id: 500311106:pc:1.1:1
+        number: '1.1'
+        text: The role and objective of the team is identified from available sources of information
+      - pc_id: 500311106:pc:1.2:1
+        number: '1.2'
+        text: Team parameters, reporting relationships and responsibilities are identified from team discussions and appropriate
+          external sources
+    - element_id: 500311106:element:2
+      number: 2
+      title: Identify own role and responsibility within team
+      performance_criteria:
+      - pc_id: 500311106:pc:2.1:1
+        number: '2.1'
+        text: Individual role and responsibilities within the team environment are identified
+      - pc_id: 500311106:pc:2.2:1
+        number: '2.2'
+        text: Roles and responsibility of other team members are identified and recognized
+      - pc_id: 500311106:pc:2.3:1
+        number: '2.3'
+        text: Reporting relationships within team and external to team are identified
+    - element_id: 500311106:element:3
+      number: 3
+      title: Work as a team member
+      performance_criteria:
+      - pc_id: 500311106:pc:3.1:1
+        number: '3.1'
+        text: Effective and appropriate forms of communications used and interactions undertaken with team members who contribute
+          to known team activities and objectives
+      - pc_id: 500311106:pc:3.2:1
+        number: '3.2'
+        text: Effective and appropriate contributions made to complement team activities and objectives, based on individual
+          skills and competencies and workplace context
+      - pc_id: 500311106:pc:3.3:1
+        number: '3.3'
+        text: Observed protocols in reporting using standard operating procedures
+      - pc_id: 500311106:pc:3.4:1
+        number: '3.4'
+        text: Contribute to the development of team work plans based on an understanding of team’s role and objectives and
+          individual competencies of the members.
+    - element_id: 500311106:element:4
+      number: 4
+      title: Work effectively with colleagues
+      performance_criteria:
+      - pc_id: 500311106:pc:4.1:1
+        number: '4.1'
+        text: Information is communicated clearly and in concise manner using appropriate communication techniques
+      - pc_id: 500311106:pc:4.2:1
+        number: '4.2'
+        text: Relationships are established and maintained effectively with colleagues
+      - pc_id: 500311106:pc:4.3:1
+        number: '4.3'
+        text: Work activities are performed within the team to ensure achievement of team goals
+    - element_id: 500311106:element:5
+      number: 5
+      title: Work in socially diverse environment
+      performance_criteria:
+      - pc_id: 500311106:pc:5.1:1
+        number: '5.1'
+        text: Customers and colleagues from diverse backgrounds are communicated with, in all verbal and non-verbal forms
+      - pc_id: 500311106:pc:5.2:1
+        number: '5.2'
+        text: Cross cultural misunderstandings are dealt with, taking account of cultural consideration
+    range_of_variables:
+    - range_id: 500311106:range:1
+      number: '1'
+      variable: Role and objective of team 1.1 Work activities in a team environment with enterprise or specific sector 1.2
+        Limited discretion, initiative and judgement maybe demonstrated on the job, either individually or in a team environment
+      values: []
+    - range_id: 500311106:range:2
+      number: '2'
+      variable: Sources of information 2.1 Standard operating and/or other workplace procedures 2.2 Job procedures 2.3 Machine/equipment
+        manufacturer’s specifications and instructions 2.4 Organizational or external personnel 2.5 Client/supplier instructions
+        2.6 Quality standards 2.7 OHS and environmental standards
+      values: []
+    - range_id: 500311106:range:3
+      number: '3'
+      variable: Workplace context 3.1 Work procedures and practices 3.2 Conditions of work environments 3.3 Legislation and
+        industrial agreements 3.4 Standard work practice including the storage, safe handling and disposal of chemicals 3.5
+        Safety, environmental, housekeeping and quality guidelines
+      values: []
+    - range_id: 500311106:range:4
+      number: '4'
+      variable: Appropriate communication techniques
+      values:
+      - number: '4.1'
+        text: Use of active listening
+      - number: '4.2'
+        text: Use of both open and closed questions
+      - number: '4.3'
+        text: Speaking clearly and concisely
+      - number: '4.4'
+        text: Using appropriate language and tone of voice
+      - number: '4.6'
+        text: Being attentive
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Operated in a team to complete workplace activity
+        - number: '1.2'
+          text: Worked effectively with others
+        - number: '1.3'
+          text: Worked in socially diverse environment
+        - number: '1.4'
+          text: Conveyed information in written or oral form
+        - number: '1.5'
+          text: Selected and used appropriate workplace language
+        - number: '1.6'
+          text: Followed designated work plan for the job
+        - number: '1.7'
+          text: Reported outcomes
+      underpinning_knowledge:
+        intro: Knowledge
+        items:
+        - number: '2.1'
+          text: Communication process
+        - number: '2.2'
+          text: Team structure
+        - number: '2.3'
+          text: Team roles
+        - number: '2.4'
+          text: Group planning and decision making
+        - number: '2.5'
+          text: Specific diversity issues
+      underpinning_skills:
+        items:
+        - number: '3.1'
+          text: Communicate appropriately, consistent with the culture of the workplace
+      resource_implications:
+        intro: 'The following resources MUST be provided:'
+        items:
+        - number: '4.1'
+          text: Access to relevant workplace or appropriately simulated environment where assessment can take place
+        - number: '4.2'
+          text: Materials relevant to the proposed activity or tasks
+      methods_of_assessment:
+        intro: 'Assessment Competency may be assessed through:'
+        items:
+        - number: '5.1'
+          text: Observation   of the individual member in relation to the work activities of the group
+        - number: '5.2'
+          text: Observation of simulation and or role play involving the participation of individual member to the attainment
+            of organizational goal
+        - number: '5.3'
+          text: Case studies and scenarios as a basis for discussion of issues and strategies in teamwork
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Competency may be assessed in workplace or in a simulated workplace setting
+        - number: '6.2'
+          text: Assessment shall be observed while task are being undertaken whether individually or in group
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      underpinning_knowledge: Underpinning Knowledge
+      underpinning_skills: Underpinning Skills
+      resource_implications: 'Resource Implications The following resources MUST be provided:'
+      methods_of_assessment: 'Methods of Assessment Competency may be assessed through:'
+      context_of_assessment: Context for Assessment
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:range-numbering-500311106
+  - unit_code: '500311107'
+    title: Practice career professionalism
+    descriptor: This unit covers the knowledge, skills and attitudes in promoting career growth and advancement.
+    provenance:
+      printed_pages: 8-10
+      pdf_pages: 12-14
+    elements:
+    - element_id: 500311107:element:1
+      number: 1
+      title: Integrate personal objectives with organizational goals
+      performance_criteria:
+      - pc_id: 500311107:pc:1.1:1
+        number: '1.1'
+        text: Personal growth and work plans are pursued towards improving the qualifications set for the profession
+      - pc_id: 500311107:pc:1.2:1
+        number: '1.2'
+        text: Intra- and interpersonal relationships are maintained in the course of managing oneself based on performance
+          evaluation
+      - pc_id: 500311107:pc:1.3:1
+        number: '1.3'
+        text: Commitment to the organization and its goal is demonstrated in the performance of duties
+    - element_id: 500311107:element:2
+      number: 2
+      title: Set and meet work priorities
+      performance_criteria:
+      - pc_id: 500311107:pc:2.1:1
+        number: '2.1'
+        text: Competing demands are prioritized to achieve personal, team and organizational goals and objectives.
+      - pc_id: 500311107:pc:2.2:1
+        number: '2.2'
+        text: Resources are utilized efficiently and effectively to manage work priorities and commitments
+      - pc_id: 500311107:pc:2.3:1
+        number: '2.3'
+        text: Practices along economic use and maintenance of equipment and facilities are followed  as per established procedures
+    - element_id: 500311107:element:3
+      number: 3
+      title: Maintain professional growth and development
+      performance_criteria:
+      - pc_id: 500311107:pc:3.1:1
+        number: '3.1'
+        text: Trainings and career opportunities are identified and availed of  based on job requirements
+      - pc_id: 500311107:pc:3.2:1
+        number: '3.2'
+        text: Recognitions are sought/received and demonstrated as proof of career advancement
+      - pc_id: 500311107:pc:3.3:1
+        number: '3.3'
+        text: Licenses and/or certifications relevant to job and career are obtained and renewed
+    range_of_variables:
+    - range_id: 500311107:range:1
+      number: '1'
+      variable: Evaluation 1.1 Performance Appraisal 1.2 Psychological Profile 1.3 Aptitude Tests
+      values: []
+    - range_id: 500311107:range:2
+      number: '2'
+      variable: Resources 2.1 Human 2.2 Financial 2.3 Technology
+      values:
+      - number: 2.3.1
+        text: Hardware
+      - number: 2.3.2
+        text: Software
+    - range_id: 500311107:range:3
+      number: '3'
+      variable: Trainings and career opportunities 3.1 Participation in training programs
+      values:
+      - number: 3.1.1
+        text: Technical
+      - number: 3.1.2
+        text: Supervisory
+      - number: 3.1.3
+        text: Managerial
+      - number: 3.1.4
+        text: Continuing Education 3.2 Serving as Resource Persons in conferences and workshops
+    - range_id: 500311107:range:4
+      number: '4'
+      variable: Recognitions 4.1 Recommendations 4.2 Citations 4.3 Certificate of Appreciations 4.4 Commendations 4.5 Awards
+        4.6 Tangible and Intangible Rewards
+      values: []
+    - range_id: 500311107:range:5
+      number: '5'
+      variable: Licenses and/or certifications 5.1 National Certificates 5.2 Certificate of Competency 5.3 Support Level Licenses
+        5.4 Professional Licenses
+      values: []
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Attained job targets within key result areas (KRAs)
+        - number: '1.2'
+          text: Maintained intra - and interpersonal relationship in the course of managing oneself based on performance evaluation
+        - number: '1.3'
+          text: Completed trainings and career opportunities which are based on the requirements of the industries
+        - number: '1.4'
+          text: Acquired and maintained licenses and/or certifications according to the requirement of the qualification
+      underpinning_knowledge:
+        intro: Knowledge
+        items:
+        - number: '2.1'
+          text: Work values and ethics (Code of Conduct, Code of Ethics, etc.)
+        - number: '2.2'
+          text: Company policies
+        - number: '2.3'
+          text: Company operations, procedures and standards
+        - number: '2.4'
+          text: Fundamental rights at work including gender sensitivity
+        - number: '2.5'
+          text: Personal hygiene practices
+      underpinning_skills:
+        items:
+        - number: '3.1'
+          text: Appropriate practice of personal hygiene
+        - number: '3.2'
+          text: Intra and Interpersonal skills
+        - number: '3.3'
+          text: Communication skills
+      resource_implications:
+        intro: 'The following resources MUST be provided:'
+        items:
+        - number: '4.1'
+          text: Workplace or assessment location
+        - number: '4.2'
+          text: Case studies/scenarios
+      methods_of_assessment:
+        intro: 'Assessment Competency may be assessed through:'
+        items:
+        - number: '5.1'
+          text: Portfolio Assessment
+        - number: '5.2'
+          text: Interview
+        - number: '5.3'
+          text: Simulation/Role-plays
+        - number: '5.4'
+          text: Observation
+        - number: '5.5'
+          text: Third Party Reports
+        - number: '5.6'
+          text: Exams and Tests
+      context_of_assessment:
+        items:
+        - number: '6.1'
+          text: Competency may be assessed in the work place or in a simulated work place setting
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      underpinning_knowledge: Underpinning Knowledge
+      underpinning_skills: Underpinning Skills
+      resource_implications: 'Resource Implications The following resources MUST be provided:'
+      methods_of_assessment: 'Methods of Assessment Competency may be assessed through:'
+      context_of_assessment: Context of Assessment
+  - unit_code: '500311108'
+    title: Practice occupational health and safety procedures
+    descriptor: This unit covers the outcomes required to comply with regulatory and organizational requirements for occupational
+      health and safety.
+    provenance:
+      printed_pages: 11-13
+      pdf_pages: 15-17
+    elements:
+    - element_id: 500311108:element:1
+      number: 1
+      title: Identify hazards and risks
+      performance_criteria:
+      - pc_id: 500311108:pc:1.1:1
+        number: '1.1'
+        text: Safety regulations and workplace safety and hazard control practices and procedures are clarified and explained
+          based on organization procedures
+      - pc_id: 500311108:pc:1.2:1
+        number: '1.2'
+        text: Hazards/risks in the workplace and their corresponding indicators are identified to minimize or eliminate risk
+          to co-workers, workplace and environment in accordance with organization procedures
+      - pc_id: 500311108:pc:1.3:1
+        number: '1.3'
+        text: Contingency measures during workplace accidents, fire and other emergencies are recognized and established in
+          accordance with organization procedures
+    - element_id: 500311108:element:2
+      number: 2
+      title: Evaluate hazards and risks
+      performance_criteria:
+      - pc_id: 500311108:pc:2.1:1
+        number: '2.1'
+        text: Terms of maximum tolerable limits which when exceeded will result in harm or damage are identified based on
+          threshold limit values (TLV)
+      - pc_id: 500311108:pc:2.2:1
+        number: '2.2'
+        text: Effects of the hazards are determined
+      - pc_id: 500311108:pc:2.3:1
+        number: '2.3'
+        text: OHS issues and/or concerns and identified safety hazards are reported to designated personnel in accordance
+          with workplace requirements and relevant workplace OHS legislation
+    - element_id: 500311108:element:3
+      number: 3
+      title: Control hazards and risks
+      performance_criteria:
+      - pc_id: 500311108:pc:3.1:1
+        number: '3.1'
+        text: Occupational Health and Safety (OHS) procedures for controlling hazards/risks in workplace are consistently
+          followed
+      - pc_id: 500311108:pc:3.2:1
+        number: '3.2'
+        text: Procedures for dealing with workplace accidents, fire and emergencies are followed in accordance with organization
+          OHS policies
+      - pc_id: 500311108:pc:3.3:1
+        number: '3.3'
+        text: Personal protective equipment (PPE) is correctly used in accordance with organization OHS procedures and practices
+      - pc_id: 500311108:pc:3.4:1
+        number: '3.4'
+        text: Appropriate assistance is provided in the event of a workplace emergency in accordance with established organization
+          protocol
+    - element_id: 500311108:element:4
+      number: 4
+      title: Maintain OHS awareness
+      performance_criteria:
+      - pc_id: 500311108:pc:4.1:1
+        number: '4.1'
+        text: Emergency-related drills and trainings are participated in as per established organization guidelines and procedures
+      - pc_id: 500311108:pc:4.2:1
+        number: '4.2'
+        text: OHS personal records are completed and updated in accordance with workplace requirements
+    - element_id: 500311108:element:5
+      number: 5
+      title: Perform basic first-aid procedures
+      performance_criteria:
+      - pc_id: 500311108:pc:5.1:1
+        number: '5.1'
+        text: Situation is assessed in accordance with accepted practice
+      - pc_id: 500311108:pc:5.2:1
+        number: '5.2'
+        text: Basic first-aid techniques is applied in accordance with established first-aid procedures and enterprise policy
+      - pc_id: 500311108:pc:5.3:1
+        number: '5.3'
+        text: Details of the incident is communicated in a timely manner according to enterprise policy
+    range_of_variables:
+    - range_id: 500311108:range:1
+      number: '1'
+      variable: Safety regulations 1.1 Clean Air Act 1.2 Building code 1.3 National Electrical and Fire Safety Codes 1.4 Waste
+        management statutes and rules 1.5 Philippine Occupational Safety and Health Standards 1.6 DOLE regulations on safety
+        legal requirements 1.7 ECC regulations
+      values: []
+      qualifier: May include
+    - range_id: 500311108:range:2
+      number: '2'
+      variable: Hazards/Risks 2.1 Physical hazards – impact, illumination, pressure, noise, vibration, temperature, radiation
+        2.2 Biological hazards- bacteria, viruses, plants, parasites, mites, molds, fungi, insects 2.3 Chemical hazards –
+        dusts, fibers, mists, fumes, smoke, gasses, vapors 2.4 Ergonomics
+      values:
+      - number: 2.4.1
+        text: Psychological factors – over exertion/ excessive force, awkward/static positions, fatigue, direct pressure,
+          varying metabolic cycles
+      - number: 2.4.2
+        text: Physiological factors – monotony, personal relationship, work out cycle
+      qualifier: May include
+    - range_id: 500311108:range:3
+      number: '3'
+      variable: Contingency measures 3.1 Evacuation 3.2 Isolation 3.3 Decontamination 3.4 Calling emergency personnel 3.5
+        First Aid Application
+      values: []
+      qualifier: May include
+    - range_id: 500311108:range:4
+      number: '4'
+      variable: PPE 4.1 Mask 4.2 Gloves 4.3 Goggles 4.4 Hair Net/cap/bonnet 4.5 Face mask/shield 4.6 Ear muffs 4.7 Apron/Gown/coverall/jump
+        suit 4.8 Anti-static suits
+      values: []
+      qualifier: May include
+    - range_id: 500311108:range:5
+      number: '5'
+      variable: Emergency-related drills and training 5.1 Fire drill 5.2 Earthquake drill 5.3 Basic life support/CPR 5.4 First
+        aid 5.5 Spillage control 5.6 Decontamination of chemical and toxic 5.7 Disaster preparedness/management
+      values: []
+    - range_id: 500311108:range:6
+      number: '6'
+      variable: OHS personal records 6.1 Medical/Health records 6.2 Incident reports 6.3 Accident reports 6.4 OHS-related
+        training completed
+      values: []
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Explained clearly established workplace safety and hazard control practices and procedures
+        - number: '1.2'
+          text: Identified hazards/risks in the workplace and its corresponding indicators in accordance with  company procedures
+        - number: '1.3'
+          text: Recognized contingency measures during workplace accidents, fire and other emergencies
+        - number: '1.4'
+          text: Identified terms of maximum tolerable limits based on threshold limit value- TLV.
+        - number: '1.5'
+          text: Applied basic first-aid procedures
+        - number: '1.6'
+          text: Followed Occupational Health and Safety (OHS) procedures for controlling hazards/risks in workplace
+        - number: '1.7'
+          text: Used Personal Protective Equipment (PPE) in accordance with company OHS procedures and practices
+        - number: '1.8'
+          text: Completed and updated OHS personal records in accordance with workplace requirements
+      underpinning_knowledge:
+        intro: Knowledge and
+        items:
+        - number: '2.1'
+          text: OHS procedures and practices and regulations
+        - number: '2.2'
+          text: PPE types and uses
+        - number: '2.3'
+          text: Personal hygiene practices
+        - number: '2.4'
+          text: Hazards/risks identification and control
+        - number: '2.5'
+          text: Threshold Limit Value -TLV
+        - number: '2.6'
+          text: OHS indicators
+        - number: '2.7'
+          text: Organization safety and health protocol
+        - number: '2.8'
+          text: Safety consciousness
+        - number: '2.9'
+          text: Health consciousness
+        - number: '2.10'
+          text: First-aid procedures and practices
+      underpinning_skills:
+        items:
+        - number: '3.1'
+          text: Practice of personal hygiene
+        - number: '3.2'
+          text: Hazards/risks identification and control skills
+        - number: '3.3'
+          text: Interpersonal skills
+        - number: '3.4'
+          text: Communication skills
+        - number: '3.5'
+          text: Safe manual handling of casualty
+      resource_implications:
+        intro: 'The following resources must be provided:'
+        items:
+        - number: '4.1'
+          text: Workplace or assessment location
+        - number: '4.2'
+          text: OHS personal records
+        - number: '4.3'
+          text: PPE
+        - number: '4.4'
+          text: Health records
+      methods_of_assessment:
+        intro: 'Assessment Competency may be assessed through:'
+        items:
+        - number: '5.1'
+          text: Portfolio Assessment
+        - number: '5.2'
+          text: Interview
+        - number: '5.3'
+          text: Case Study/Situation
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Competency may be assessed in the work place or in a simulated work place setting
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      underpinning_knowledge: Underpinning Knowledge and
+      underpinning_skills: Underpinning Skills
+      resource_implications: 'Resource Implications The following resources must be provided:'
+      methods_of_assessment: 'Methods of Assessment Competency may be assessed through:'
+      context_of_assessment: Context for Assessment
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:evidence-heading-500311108
+  common:
+  - unit_code: TRS311201
+    title: Develop and update industry knowledge
+    descriptor: This unit of competency deals with the knowledge, skills and attitude required to access, increase and update
+      industry knowledge.  It includes information on the industry and update industry knowledge
+    provenance:
+      printed_pages: 14-17
+      pdf_pages: 18-21
+    elements:
+    - element_id: TRS311201:element:1
+      number: 1
+      title: Seek information on the industry
+      performance_criteria:
+      - pc_id: TRS311201:pc:1.1:1
+        number: '1.1'
+        text: Sources of information on the industry are correctly identified and accessed
+      - pc_id: TRS311201:pc:1.2:1
+        number: '1.2'
+        text: Information to assist effective work performance is obtained in line with job requirements
+      - pc_id: TRS311201:pc:1.3:1
+        number: '1.3'
+        text: Specific information on sector of work is accessed and updated
+      - pc_id: TRS311201:pc:1.4:1
+        number: '1.4'
+        text: Industry information is correctly applied to day-to-day work activities
+    - element_id: TRS311201:element:2
+      number: 2
+      title: Update industry knowledge
+      performance_criteria:
+      - pc_id: TRS311201:pc:2.1:1
+        number: '2.1'
+        text: Informal  and/or formal research is used to update general knowledge of the industry
+      - pc_id: TRS311201:pc:2.2:1
+        number: '2.2'
+        text: Updated knowledge is shared with customers and colleagues as appropriate and incorporated into day-to- day working
+          activities
+    - element_id: TRS311201:element:3
+      number: 3
+      title: Develop and update local knowledge
+      performance_criteria:
+      - pc_id: TRS311201:pc:3.1:1
+        number: '3.1'
+        text: Local knowledge is developed  to assist queries on local/national tourism industry
+      - pc_id: TRS311201:pc:3.2:1
+        number: '3.2'
+        text: Local knowledge is updated using informal and/or formal research
+      - pc_id: TRS311201:pc:3.3:1
+        number: '3.3'
+        text: Contact with local communities is maintained
+    - element_id: TRS311201:element:4
+      number: 4
+      title: Promote  products and services to customers
+      performance_criteria:
+      - pc_id: TRS311201:pc:4.1:1
+        number: '4.1'
+        text: Promotional initiatives are described that may be used to promote products and services
+      - pc_id: TRS311201:pc:4.2:1
+        number: '4.2'
+        text: Selling skills are applied according to customer needs
+    range_of_variables:
+    - range_id: TRS311201:range:1
+      number: '1'
+      variable: Information sources 1.1 media 1.2 reference books 1.3 libraries 1.4 unions 1.5 industry associations 1.6 industry
+        journals 1.7 internet 1.8 personal observation and experience
+      values: []
+      qualifier: May include
+    - range_id: TRS311201:range:2
+      number: '2'
+      variable: Information to assist effective work performance 2.1 Different sectors of the industry and the services available
+        in each sector 2.2 Relationship between tourism and hospitality 2.3 Relationship between the industry and other industries
+        2.4 Industry working conditions 2.5 Legislation that affects the industry
+      values:
+      - number: 2.5.1
+        text: liquor
+      - number: 2.5.2
+        text: health and safety
+      - number: 2.5.3
+        text: hygiene
+      - number: 2.5.4
+        text: gaming
+      - number: 2.5.5
+        text: workers compensation
+      - number: 2.5.6
+        text: consumer protection
+      - number: 2.5.7
+        text: duty of care
+      - number: 2.5.8
+        text: building regulations 2.6 Trade unions environmental issues and requirements 2.7 Industrial relations issues
+          and major organizations 2.8 Career opportunities within the industry 2.9 Work ethic required to work in the industry
+          and industry expectations of staff
+      - number: '2.10'
+        text: Quality assurance
+      qualifier: May include
+    - range_id: TRS311201:range:3
+      number: '3'
+      variable: Informal and formal research
+      values:
+      - number: '3.1'
+        text: Discussions with colleagues, management and customers
+      - number: '3.2'
+        text: Reading internal enterprise material about products and services
+      - number: '3.3'
+        text: Familiarity with customer comments including complaints
+      - number: '3.4'
+        text: Reading and researching product data and information
+      - number: '3.5'
+        text: Conducting internal testing to determine quality and differentials
+      - number: '3.6'
+        text: General media research
+      - number: '3.7'
+        text: Developing and analyzing responses to questionnaires
+      - number: '3.8'
+        text: Reading surveys and ratings
+      qualifier: May include
+    - range_id: TRS311201:range:4
+      number: '4'
+      variable: Promotional initiatives
+      values:
+      - number: '4.1'
+        text: Media campaigns
+      - number: '4.2'
+        text: Internal promotions, including static displays, demonstrations, tastings, videos, competitions, packages, events
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate/ trainee :'
+        items:
+        - number: '1.1'
+          text: Knew key sources of information on the industry
+        - number: '1.2'
+          text: Updated industry knowledge
+        - number: '1.3'
+          text: Accessed and used industry information
+        - number: '1.4'
+          text: Developed and updated local knowledge
+        - number: '1.5'
+          text: Promoted products and services
+      required_skills:
+        items:
+        - number: '2.1'
+          text: Time management
+        - number: '2.2'
+          text: Ready skills needed to access industry information
+        - number: '2.3'
+          text: Basic competency skills needed to access the internet
+      required_knowledge:
+        items:
+        - number: '3.1'
+          text: Overview of quality assurance in the industry
+        - number: '3.2'
+          text: Role of individual staff members
+        - number: '3.3'
+          text: Industry information sources
+      underpinning_knowledge:
+        items:
+        - number: '4.1'
+          text: Sources of information on the industry
+        - number: '4.2'
+          text: Industry knowledge
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Interview/questions
+        - number: '5.2'
+          text: Practical demonstration
+        - number: '5.3'
+          text: Portfolio of industry information related to trainee’s work
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        - number: '6.2'
+          text: Assessment activities are carried out through TESDA's accredited assessment center
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate/ trainee :'
+      required_skills: Required Skills
+      required_knowledge: Required Knowledge
+      underpinning_knowledge: Resource Implications
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of Assessment
+  - unit_code: TRS311202
+    title: Observe workplace hygiene procedures
+    descriptor: This unit of competency deals with the knowledge, skills and attitudes in observing workplace hygiene procedures.
+      It includes following hygiene procedures and identifying and preventing hygiene risks.
+    provenance:
+      printed_pages: 18-20
+      pdf_pages: 22-24
+    elements:
+    - element_id: TRS311202:element:1
+      number: 1
+      title: Follow hygiene procedures
+      performance_criteria:
+      - pc_id: TRS311202:pc:1.1:1
+        number: '1.1'
+        text: Workplace hygiene procedures are implemented in line with enterprise and legal requirements
+      - pc_id: TRS311202:pc:1.2:1
+        number: '1.2'
+        text: Handling and storage of items are undertaken in line with enterprise and legal requirements
+    - element_id: TRS311202:element:2
+      number: 2
+      title: Identify and prevent hygiene risks
+      performance_criteria:
+      - pc_id: TRS311202:pc:2.1:1
+        number: '2.1'
+        text: Potential hygiene risks are identified in line with enterprise procedures
+      - pc_id: TRS311202:pc:2.2:1
+        number: '2.2'
+        text: Action to minimize  and remove  risks are taken within scope of individual responsibility of enterprise/legal
+          requirements
+      - pc_id: TRS311202:pc:2.3:1
+        number: '2.3'
+        text: Hygiene risks beyond the control of individual staff members are reported to the appropriate person for follow
+          up
+    range_of_variables:
+    - range_id: TRS311202:range:1
+      number: '1'
+      variable: Hygiene procedures 1.1 safe and hygienic handling of food and beverage 1.2 regular hand washing 1.3 correct
+        food storage 1.4 appropriate and clean clothing 1.5 avoidance of cross-contamination 1.6 safe handling disposal of
+        linen and laundry 1.7 appropriate handling and disposal of garbage 1.8 cleaning and sanitizing procedures 1.9 personal
+        hygiene
+      values: []
+      qualifier: May include
+    - range_id: TRS311202:range:2
+      number: '2'
+      variable: Hygiene risk 2.1 Bacterial and other contamination arising from poor handling of food 2.2 Inappropriate storage
+        of foods 2.3 Storage at incorrect temperatures 2.4 Foods left uncovered 2.5 Poor personal hygiene practices 2.6 Poor
+        work practices
+      values:
+      - number: 2.6.1
+        text: cleaning
+      - number: 2.6.2
+        text: housekeeping
+      - number: 2.6.3
+        text: food handling
+      - number: 2.6.4
+        text: vermin
+      - number: 2.6.5
+        text: airborne dust 2.7 Cross-contamination through cleaning with inappropriate cleaning practices 2.8 Inappropriate
+          handling of potentially infectious linen 2.9 Contaminated wastes such as blood and body secretions
+      - number: '2.10'
+        text: Disposal of garbage and contaminated or potentially contaminated wastes
+      qualifier: May include
+    - range_id: TRS311202:range:3
+      number: '3'
+      variable: Minimizing or removing risk 3.1 Auditing staff skills and providing training 3.2 Ensuring policies and procedures
+        are followed strictly 3.3 Audits of incidents with follow up actions
+      values: []
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment required evidence that the candidate :'
+        items:
+        - number: '1.1'
+          text: Followed hygiene procedures
+        - number: '1.2'
+          text: Identified and responded to hygiene risk
+        - number: '1.3'
+          text: Practiced personal grooming and hygiene
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Typical hygiene and control procedures in the hospitality and tourism industries
+        - number: '2.2'
+          text: Overview of legislation and regulation in relation to food handling, personal and general hygiene
+        - number: '2.3'
+          text: Knowledge on factors which contribute to workplace hygiene problems
+        - number: '2.4'
+          text: General hazards in handling of food, linen and laundry and garbage, including major causes of contamination
+            and cross-infection
+        - number: '2.5'
+          text: Sources of and reasons for food poisoning
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Ability to follow correct procedures and instructions
+        - number: '3.2'
+          text: Ability to handle operating tools/ equipment
+        - number: '3.3'
+          text: Application to hygiene principles
+        - number: '3.4'
+          text: Ability to detect dirt and unhygienic practices
+      resource_implications:
+        intro: The following resources should be provided
+        items:
+        - number: '4.1'
+          text: Hygiene procedures, actual or simulated workplace, products used in hotel/restaurant /tourism workplace
+      methods_of_assessment:
+        intro: Assessment Competency in this unit r must be assessed through
+        items:
+        - number: '5.1'
+          text: Written examination
+        - number: '5.2'
+          text: Practical demonstration
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        - number: '6.2'
+          text: Assessment activities are carried out through TESDA's accredited assessment center
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment required evidence that the candidate :'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources should be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit r must be assessed through
+      context_of_assessment: Context of Assessment
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:evidence-intro-trs311202
+  - unit_code: TRS311203
+    title: Perform computer operations
+    descriptor: This unit covers the knowledge, skills and attitudes and values needed to perform computer operations which
+      includes inputting, accessing, producing and transferring data using the appropriate hardware and software
+    provenance:
+      printed_pages: 21-23
+      pdf_pages: 25-27
+    elements:
+    - element_id: TRS311203:element:1
+      number: 1
+      title: Plan and prepare for task to be undertaken
+      performance_criteria:
+      - pc_id: TRS311203:pc:1.1:1
+        number: '1.1'
+        text: Requirements of task are determined
+      - pc_id: TRS311203:pc:1.2:1
+        number: '1.2'
+        text: Appropriate hardware and software is selected according to task assigned and required outcome
+      - pc_id: TRS311203:pc:1.3:1
+        number: '1.3'
+        text: Task is planned to ensure OHS guidelines and procedures are followed
+    - element_id: TRS311203:element:2
+      number: 2
+      title: Input data into computer
+      performance_criteria:
+      - pc_id: TRS311203:pc:2.1:1
+        number: '2.1'
+        text: Data are entered into the computer using appropriate program/application in accordance with company procedures
+      - pc_id: TRS311203:pc:2.2:1
+        number: '2.2'
+        text: Accuracy of information is checked and information is saved in accordance with standard operating procedures
+      - pc_id: TRS311203:pc:2.3:1
+        number: '2.3'
+        text: Inputted data are stored in storage media according to requirements
+      - pc_id: TRS311203:pc:2.4:1
+        number: '2.4'
+        text: Work is performed within ergonomic guidelines
+    - element_id: TRS311203:element:3
+      number: 3
+      title: Access information using computer
+      performance_criteria:
+      - pc_id: TRS311203:pc:3.1:1
+        number: '3.1'
+        text: Correct program/application is selected based on job requirements
+      - pc_id: TRS311203:pc:3.2:1
+        number: '3.2'
+        text: Program/application containing the information required is accessed according to company procedures
+      - pc_id: TRS311203:pc:3.3:1
+        number: '3.3'
+        text: Desktop icons are correctly selected, opened and closed for navigation purposes
+      - pc_id: TRS311203:pc:3.4:1
+        number: '3.4'
+        text: Keyboard techniques are carried out in line with OHS requirements for safe use of keyboards
+    - element_id: TRS311203:element:4
+      number: 4
+      title: Produce/output data using computer system
+      performance_criteria:
+      - pc_id: TRS311203:pc:4.1:1
+        number: '4.1'
+        text: Entered data are processed using appropriate software commands
+      - pc_id: TRS311203:pc:4.2:1
+        number: '4.2'
+        text: Data are printed out as required using computer hardware/peripheral devices in accordance with standard operating
+          procedures
+      - pc_id: TRS311203:pc:4.3:1
+        number: '4.3'
+        text: Files and data are transferred between compatible systems using computer software, hardware/ peripheral devices
+          in accordance with standard operating procedures
+    - element_id: TRS311203:element:5
+      number: 5
+      title: Maintain computer equipment and systems
+      performance_criteria:
+      - pc_id: TRS311203:pc:5.1:1
+        number: '5.1'
+        text: Systems for cleaning, minor maintenance and replacement of consumables are implemented
+      - pc_id: TRS311203:pc:5.2:1
+        number: '5.2'
+        text: Procedures for ensuring security of data, including regular back-ups and virus checks are implemented in accordance
+          with standard operating procedures
+      - pc_id: TRS311203:pc:5.3:1
+        number: '5.3'
+        text: Basic file maintenance procedures are implemented in line with the standard operating procedures
+      - pc_id: TRS311203:pc:5.4:1
+        number: '5.4'
+        text: Document systems are maintained
+    range_of_variables:
+    - range_id: TRS311203:range:1
+      number: '1'
+      variable: Hardware and peripheral devices 1.1 Personal computers 1.2 Networked systems 1.3 Communication equipment 1.4
+        Printers 1.5 Scanners 1.6 Keyboard 1.7 Mouse
+      values: []
+      qualifier: May include
+    - range_id: TRS311203:range:2
+      number: '2'
+      variable: Software 2.1 Word processing packages 2.2 Data base packages 2.3 Internet 2.4 Spreadsheets
+      values: []
+      qualifier: May include
+    - range_id: TRS311203:range:3
+      number: '3'
+      variable: OHS guidelines 3.1 OHS guidelines 3.2 Enterprise procedures
+      values: []
+      qualifier: May include
+    - range_id: TRS311203:range:4
+      number: '4'
+      variable: Storage media 4.1 diskettes 4.2 CDs 4.3 zip disks 4.4 hard disk drives, local and remote
+      values: []
+      qualifier: May include
+    - range_id: TRS311203:range:5
+      number: '5'
+      variable: Ergonomic guidelines 5.1 Types of equipment used 5.2 Appropriate furniture 5.3 Seating posture 5.4 Lifting
+        posture 5.5 Visual display unit screen brightness
+      values: []
+      qualifier: May include
+    - range_id: TRS311203:range:6
+      number: '6'
+      variable: Desktop icons 6.1 directories/folders 6.2 files 6.3 network devices 6.4 recycle bin
+      values: []
+      qualifier: May include
+    - range_id: TRS311203:range:7
+      number: '7'
+      variable: Maintenance 7.1 Creating more spaces in the hard disk 7.2 Reviewing programs 7.3 Deleting unwanted files 7.4
+        Backing up files 7.5 Checking hard drive for errors 7.6 Using up to date anti-virus programs 7.7 Cleaning dust from
+        internal and external surfaces
+      values: []
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment must show that the candidate:'
+        items:
+        - number: '1.1'
+          text: Selected and used hardware components correctly and according to the task requirement
+        - number: '1.2'
+          text: Identified and explain the functions of both hardware and software used, their general features and capabilities
+        - number: '1.3'
+          text: Produced accurate and complete data in accordance with the requirements
+        - number: '1.4'
+          text: Used appropriate devices and procedures to transfer files/data accurately
+        - number: '1.5'
+          text: Maintained computer system
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Basic ergonomics of keyboard and computer use
+        - number: '2.2'
+          text: Main types of computers and basic features of different operating systems
+        - number: '2.3'
+          text: Main parts of a computer
+        - number: '2.4'
+          text: Storage devices and basic categories of memory
+        - number: '2.5'
+          text: Relevant types of software
+        - number: '2.6'
+          text: General security
+        - number: '2.7'
+          text: Viruses
+        - number: '2.8'
+          text: OHS principles and responsibilities
+        - number: '2.9'
+          text: Calculating computer capacity
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Reading skills required to interpret work instruction
+        - number: '3.2'
+          text: Communication skills
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '4.1'
+          text: Observation
+        - number: '4.2'
+          text: Questioning
+        - number: '4.3'
+          text: Practical demonstration
+      resource_implications:
+        intro: The following resources should be provided
+        items:
+        - number: '5.1'
+          text: Computer hardware   with peripherals
+        - number: '5.2'
+          text: Appropriate software
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Assessment may be conducted in the workplace or in a simulated environment
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspect of Competency Assessment must show that the candidate:'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      resource_implications: Resource implications The following resources should be provided
+      context_of_assessment: Context of Assessment
+  - unit_code: TRS311204
+    title: Perform workplace and safety practices
+    descriptor: This unit of competency deals with the knowledge, skills and attitudes in following health, safety and security
+      practices. It includes dealing with emergency situations and maintaining safe personal presentation standards.
+    provenance:
+      printed_pages: 24-28
+      pdf_pages: 28-32
+    elements:
+    - element_id: TRS311204:element:1
+      number: 1
+      title: Follow workplace procedures for health, safety and security practices
+      performance_criteria:
+      - pc_id: TRS311204:pc:1.1:1
+        number: '1.1'
+        text: Correct health, safety and security procedures are followed in line with legislation, regulations and enterprise
+          procedures
+      - pc_id: TRS311204:pc:1.2:1
+        number: '1.2'
+        text: Breaches of health, safety and security procedures are identified and reported in line with enterprise procedure
+      - pc_id: TRS311204:pc:1.3:1
+        number: '1.3'
+        text: Suspicious behavior or unusual occurrence are reported in line with enterprise procedure
+    - element_id: TRS311204:element:2
+      number: 2
+      title: Perform child protection duties relevant to the tourism industry
+      performance_criteria:
+      - pc_id: TRS311204:pc:2.1:1
+        number: '2.1'
+        text: Issue of sexual exploitation of children is identified
+      - pc_id: TRS311204:pc:2.2:1
+        number: '2.2'
+        text: National, regional and international actions are described to prevent the sexual exploitation of children
+      - pc_id: TRS311204:pc:2.3:1
+        number: '2.3'
+        text: Actions that can be taken in the workplace are described to protect children from sexual exploitation
+    - element_id: TRS311204:element:3
+      number: 3
+      title: Observe and monitor people
+      performance_criteria:
+      - pc_id: TRS311204:pc:3.1:1
+        number: '3.1'
+        text: Areas and people who require observation and monitoring is prepared
+      - pc_id: TRS311204:pc:3.2:1
+        number: '3.2'
+        text: Observation and monitoring activities are implemented
+      - pc_id: TRS311204:pc:3.3:1
+        number: '3.3'
+        text: Apprehension of offenders are determined
+      - pc_id: TRS311204:pc:3.4:1
+        number: '3.4'
+        text: Offenders are arrested according to enterprise procedures
+      - pc_id: TRS311204:pc:3.5:1
+        number: '3.5'
+        text: Administrative responsibilities are fulfilled
+    - element_id: TRS311204:element:4
+      number: 4
+      title: Deal with emergency situations
+      performance_criteria:
+      - pc_id: TRS311204:pc:4.1:1
+        number: '4.1'
+        text: Emergency and potential emergency situations are recognized and appropriate action are taken within individual’s
+          scope of responsibility
+      - pc_id: TRS311204:pc:4.2:1
+        number: '4.2'
+        text: Emergency procedures are followed in line with enterprise procedures
+      - pc_id: TRS311204:pc:4.3:1
+        number: '4.3'
+        text: Assistance is sought from colleagues to resolve or respond to emergency situations
+      - pc_id: TRS311204:pc:4.4:1
+        number: '4.4'
+        text: Details of emergency situations are reported in line with enterprise procedures
+    - element_id: TRS311204:element:5
+      number: 5
+      title: Maintain safe personal presentation standards
+      performance_criteria:
+      - pc_id: TRS311204:pc:5.1:1
+        number: '5.1'
+        text: Safe personal standards are identified and followed in line with enterprise requirements ELEMENT
+    - element_id: TRS311204:element:6
+      number: 6
+      title: Maintain a safe and secure workplace
+      performance_criteria:
+      - pc_id: TRS311204:pc:6.1:1
+        number: '6.1'
+        text: Workplace health, safety and security responsibilities are identified
+      - pc_id: TRS311204:pc:6.2:1
+        number: '6.2'
+        text: Framework to maintain workplace health, safety and security are maintained
+      - pc_id: TRS311204:pc:6.3:1
+        number: '6.3'
+        text: Procedures for identifying and assessing health, safety and security hazards and risks are implemented
+      - pc_id: TRS311204:pc:6.4:1
+        number: '6.4'
+        text: Injuries, illnesses and incidents are investigated
+      - pc_id: TRS311204:pc:6.5:1
+        number: '6.5'
+        text: Organization's health, safety and security effectiveness are evaluated
+    range_of_variables:
+    - range_id: TRS311204:range:1
+      number: '1'
+      variable: Health, safety and security procedures 1.1 Use of personal protective clothing and equipment 1.2 Safe posture
+        including sitting, standing, bending 1.3 Manual handling including lifting, transferring 1.4 Safe work techniques
+        including knives and equipment, handling hot surfaces, computers and electronic equipment 1.5 Safe handling of chemicals,
+        poisons and dangerous materials 1.6 Ergonomically sound furniture and work stations 1.7 Emergency fire and accident
+        1.8 Hazard identification and control 1.9 Security of documents, cash, equipment, people
+      values:
+      - number: '1.10'
+        text: Key control systems
+      qualifier: May include
+    - range_id: TRS311204:range:2
+      number: '2'
+      variable: Breaches of procedure 2.1 Loss of keys 2.2 Strange or suspicious persons 2.3 Broken or malfunctioning equipment
+        2.4 Loss of property, goods or materials 2.5 Damaged property or fittings 2.6 Lack of suitable signage when required
+        2.7 Lack of training on health and safety issues 2.8 Unsafe work practices
+      values: []
+      qualifier: May include
+    - range_id: TRS311204:range:3
+      number: '3'
+      variable: Emergency 3.1 Personal injuries 3.2 Fire 3.3 Electrocution 3.4 Natural calamity i.e. earthquake/flood 3.5
+        Criminal acts i.e. robbery
+      values: []
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate :'
+        items:
+        - number: '1.1'
+          text: Complied with industry practices and procedures
+        - number: '1.2'
+          text: Used interactive communication with others
+        - number: '1.3'
+          text: Complied with workplace safety, security and hygiene practices
+        - number: '1.4'
+          text: Identified faults and problems and the necessary corrective action
+        - number: '1.5'
+          text: Demonstrated ability to perform child protection duties relevant to the tourism industry
+        - number: '1.6'
+          text: Demonstrated ability to prepare for observation and monitoring activities relevant to designated situations
+        - number: '1.7'
+          text: Promoted public relation among others
+        - number: '1.8'
+          text: Complied with quality standards
+        - number: '1.9'
+          text: Responded to emergency situations in line with enterprise guidelines
+        - number: '1.10'
+          text: Complied with proper dress code
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Communication
+        - number: 2.1.1
+          text: Interactive communication with others
+        - number: 2.1.2
+          text: Interpersonal skills
+        - number: 2.1.3
+          text: Good working attitude
+        - number: 2.1.4
+          text: Ability to work quietly; with cooperation; patience, carefulness, cleanliness and aesthetic values
+        - number: 2.1.5
+          text: Ability to focus on task at hand
+        - number: '2.2'
+          text: Systems, Processes and Operations
+        - number: 2.2.1
+          text: Workplace health, safety and security procedures
+        - number: 2.2.2
+          text: Emergency procedures
+        - number: 2.2.3
+          text: Personal presentation
+        - number: '2.3'
+          text: Safety Practices
+        - number: 2.3.1
+          text: Proper disposal of garbage
+        - number: 2.3.2
+          text: Practice safety measures
+        - number: 2.3.3
+          text: 5S Implementation
+        - number: '2.4'
+          text: Child protection duties relevant to tourism industry
+        - number: 2.4.1
+          text: Rules, regulations, policies and laws
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Ability to make decision
+        - number: '3.2'
+          text: Time management
+        - number: '3.3'
+          text: Ability to offer alternative steps
+        - number: '3.4'
+          text: Care in handling and operating equipment
+        - number: '3.5'
+          text: Ability to use observation and monitoring techniques
+      resource_implications:
+        intro: The following resources should be provided
+        items:
+        - number: '4.1'
+          text: Procedures Manual on safety, security, health and emergency
+        - number: '4.2'
+          text: Availability of tools, equipment, supplies and materials
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Written examination
+        - number: '5.2'
+          text: Practical demonstration
+        - number: '5.3'
+          text: Interview
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        - number: '6.2'
+          text: Assessment activities are carried out through TESDA's accredited assessment center
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate :'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources should be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of Assessment
+  - unit_code: TRS311205
+    title: Provide effective customer service
+    descriptor: This unit of competency deals with the knowledge, skills and attitudes in providing effective customer service.
+      It includes greeting customer, identifying customer needs, delivering service to customer, handling queries through
+      use of common business tools and technology and handling complaints/conflict situation, evaluation and recommendation.
+    provenance:
+      printed_pages: 29-33
+      pdf_pages: 33-37
+    elements:
+    - element_id: TRS311205:element:1
+      number: 1
+      title: Greet customer
+      performance_criteria:
+      - pc_id: TRS311205:pc:1.1:1
+        number: '1.1'
+        text: Customers are greeted according to enterprise procedure
+      - pc_id: TRS311205:pc:1.2:1
+        number: '1.2'
+        text: Verbal and non-verbal communications are appropriate to the given situation
+      - pc_id: TRS311205:pc:1.3:1
+        number: '1.3'
+        text: Non verbal communication are observed when responding to customers
+      - pc_id: TRS311205:pc:1.4:1
+        number: '1.4'
+        text: Sensitivity to cultural and social differences is demonstrated
+    - element_id: TRS311205:element:2
+      number: 2
+      title: Identify needs of customers
+      performance_criteria:
+      - pc_id: TRS311205:pc:2.1:1
+        number: '2.1'
+        text: Appropriate interpersonal skills are used to ensure that customer needs are accurately identified
+      - pc_id: TRS311205:pc:2.2:1
+        number: '2.2'
+        text: Customer needs are assessed for urgency so that priority for service delivery can be identified
+      - pc_id: TRS311205:pc:2.3:1
+        number: '2.3'
+        text: Customers are provided with information
+      - pc_id: TRS311205:pc:2.4:1
+        number: '2.4'
+        text: Personal limitation in addressing customer and colleague needs is identified and where appropriate, assistance
+          is sought from supervisor
+    - element_id: TRS311205:element:3
+      number: 3
+      title: Deliver service to customer
+      performance_criteria:
+      - pc_id: TRS311205:pc:3.1:1
+        number: '3.1'
+        text: Customer needs are promptly attended to in line with enterprise procedure
+      - pc_id: TRS311205:pc:3.2:1
+        number: '3.2'
+        text: Appropriate rapport is maintained with customer to enable high quality service delivery
+      - pc_id: TRS311205:pc:3.3:1
+        number: '3.3'
+        text: Opportunity to enhance the quality of service and products are taken wherever possible ELEMENT
+    - element_id: TRS311205:element:4
+      number: 4
+      title: Handle queries through use of common business tools and technology
+      performance_criteria:
+      - pc_id: TRS311205:pc:4.1:1
+        number: '4.1'
+        text: Common business tools and technology are used efficiently to determine customer requirements
+      - pc_id: TRS311205:pc:4.2:1
+        number: '4.2'
+        text: Queries/ information are recorded in line with enterprise procedure
+      - pc_id: TRS311205:pc:4.3:1
+        number: '4.3'
+        text: Queries are acted upon promptly and correctly in line with enterprise procedure
+    - element_id: TRS311205:element:5
+      number: 5
+      title: Handle complaints/ conflict situations, evaluation and recommendations
+      performance_criteria:
+      - pc_id: TRS311205:pc:5.1:1
+        number: '5.1'
+        text: Guests are greeted with a smile and eye-to-eye contact
+      - pc_id: TRS311205:pc:5.2:1
+        number: '5.2'
+        text: Responsibility for resolving the complaint is taken within limit of responsibility and according to enterprise
+          policy
+      - pc_id: TRS311205:pc:5.3:1
+        number: '5.3'
+        text: Nature and details of complaint are established and agreed with the customer
+      - pc_id: TRS311205:pc:5.4:1
+        number: '5.4'
+        text: Threats to personal safety are identified and managed to personal safety of customers or colleagues and appropriate
+          assistance is organized
+      - pc_id: TRS311205:pc:5.4:2
+        number: '5.4'
+        text: Appropriate action is taken to resolve the complaint to the customers satisfaction wherever possible
+      - pc_id: TRS311205:pc:5.5:1
+        number: '5.5'
+        text: Conflict situations are resolved within scope of individual responsibility by applying effective communication
+          skills and according to enterprise policy
+    range_of_variables:
+    - range_id: TRS311205:range:1
+      number: '1'
+      variable: Customer
+      values:
+      - number: '1.1'
+        text: internal
+      - number: '1.2'
+        text: external
+      qualifier: May include
+    - range_id: TRS311205:range:2
+      number: '2'
+      variable: Non-verbal communication 2.1 body language 2.2 dress and accessories 2.3 gestures and mannerisms 2.4 voice
+        tonality and volume 2.5 use of space 2.6 culturally specific communication customs and practices
+      values: []
+      qualifier: May include
+    - range_id: TRS311205:range:3
+      number: '3'
+      variable: Cultural and social differences 3.1 modes of greeting, farewell and conversation 3.2 body language/  use of
+        body gestures 3.3 formality of language
+      values: []
+      qualifier: May include
+    - range_id: TRS311205:range:4
+      number: '4'
+      variable: Interpersonal skills 4.1 interactive communication 4.2 public relation 4.3 good working attitude 4.4 sincerity
+        4.5 pleasant disposition 4.6 effective communication skills
+      values: []
+      qualifier: May include
+    - range_id: TRS311205:range:5
+      number: '5'
+      variable: Customer and colleagues needs 5.1 those with a disability 5.2 those with special cultural or language needs
+        5.3 unaccompanied children 5.4 parents with young children 5.5 pregnant women 5.6 single women
+      values: []
+      qualifier: May include
+    - range_id: TRS311205:range:6
+      number: '6'
+      variable: Enterprise procedure 6.1 modes of greeting and farewell 6.2 addressing the person by name 6.3 time-lapse before
+        a response 6.4 style manual requirements 6.5 standard letters and format
+      values: []
+      qualifier: May include
+    - range_id: TRS311205:range:7
+      number: '7'
+      variable: Business tools and technology 7.1 telephone 7.2 fax machine 7.3 computer equipment 7.4 internet, email
+      values: []
+      qualifier: May include
+    - range_id: TRS311205:range:8
+      number: '8'
+      variable: Complaint 8.1 level of service 8.2 product standards 8.3 processes 8.4 information given 8.5 charges and fees
+      values: []
+      qualifier: May include
+    - range_id: TRS311205:range:9
+      number: '9'
+      variable: Threats to personal safety 9.1 violent customers 9.2 drug and alcohol affected customers 9.3 customers fighting
+        amongst themselves
+      values: []
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate :'
+        items:
+        - number: '1.1'
+          text: Complied with industry practices and procedures
+        - number: '1.2'
+          text: Used interactive communication with others
+        - number: '1.3'
+          text: Complied with occupational, health and safety practices
+        - number: '1.4'
+          text: Promoted public relation among others
+        - number: '1.5'
+          text: Complied with service manual standards
+        - number: '1.6'
+          text: Demonstrated familiarity with company facilities, products and services
+        - number: '1.7'
+          text: Demonstrated ability to work effectively with others
+        - number: '1.8'
+          text: Applied company rules and standards
+        - number: '1.9'
+          text: Applied telephone ethics
+        - number: '1.10'
+          text: Applied correct procedure in using telephone, fax machine, internet
+        - number: '1.11'
+          text: Handled customer complaints within limit of individual responsibility
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Communication
+        - number: 2.1.1
+          text: Interactive communication with others
+        - number: 2.1.2
+          text: Interpersonal skills/ social graces with sincerity
+        - number: '2.2'
+          text: Safety Practices
+        - number: 2.2.1
+          text: Safe work practices
+        - number: 2.2.2
+          text: Personal hygiene
+        - number: '2.3'
+          text: Attitude
+        - number: 2.3.1
+          text: Attentive, patient and cordial
+        - number: 2.3.2
+          text: Eye-to-eye contact
+        - number: 2.3.3
+          text: Maintain teamwork and cooperation
+        - number: '2.4'
+          text: Theory
+        - number: 2.4.1
+          text: Selling/up selling techniques
+        - number: 2.4.2
+          text: Interview techniques
+        - number: 2.4.3
+          text: Conflict resolution
+        - number: 2.4.4
+          text: Communication process
+        - number: 2.4.5
+          text: Communication barriers
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Effective communication skills
+        - number: '3.2'
+          text: Non-verbal communication - body language
+        - number: '3.3'
+          text: Good time management
+        - number: '3.4'
+          text: Ability to work calmly and unobtrusively effectively
+        - number: '3.5'
+          text: Ability to handle telephone inquiries and conversations
+        - number: '3.6'
+          text: Correct procedure in handling telephone inquiries
+        - number: '3.7'
+          text: Proper way of handling complaints
+        - number: '3.8'
+          text: Ability to apply basic principles of conflict resolution and respond to complaints
+      resource_implications:
+        intro: The following resources should be provided
+        items:
+        - number: '4.1'
+          text: Availability of telephone, fax machine, internet, etc.
+        - number: '4.2'
+          text: Availability of data on projects and services; tariff and rates, promotional activities in place etc.
+        - number: '4.3'
+          text: Availability of office supplies
+      methods_of_assessment:
+        intro: Assessment Competency in this unit must be assessed through
+        items:
+        - number: '5.1'
+          text: Written examination
+        - number: '5.2'
+          text: Practical demonstration
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        - number: '6.2'
+          text: Assessment activities are carried out through TESDA's accredited assessment center
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate :'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources should be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit must be assessed through
+      context_of_assessment: Context of Assessment
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:duplicate-pc-5.4
+  core:
+  - unit_code: TRS5123111
+    title: Provide housekeeping services to guests
+    descriptor: This unit of competency deals with the skills and knowledge required to provide a range of general housekeeping
+      services to guests.
+    provenance:
+      printed_pages: 34-36
+      pdf_pages: 38-40
+    elements:
+    - element_id: TRS5123111:element:1
+      number: 1
+      title: Receive housekeeping requests
+      performance_criteria:
+      - pc_id: TRS5123111:pc:1.1:1
+        number: '1.1'
+        text: Guest/staff housekeeping requests and service delivery are accepted and recorded in accordance to enterprise
+          policies and procedure.
+      - pc_id: TRS5123111:pc:1.2:1
+        number: '1.2'
+        text: Details of requests made are confirmed and noted in accordance with enterprise procedures
+      - pc_id: TRS5123111:pc:1.3:1
+        number: '1.3'
+        text: Apologies are made when a request has arisen from a delayed delivery of  service
+      - pc_id: TRS5123111:pc:1.4:1
+        number: '1.4'
+        text: Request not related to housekeeping are referred to appropriate department.
+    - element_id: TRS5123111:element:2
+      number: 2
+      title: Provide/ Service housekeeping requests
+      performance_criteria:
+      - pc_id: TRS5123111:pc:2.1:1
+        number: '2.1'
+        text: Identified service/item is obtained through liaison with other staff in accordance with enterprise procedures
+      - pc_id: TRS5123111:pc:2.2:1
+        number: '2.2'
+        text: Required items are located and delivered to guest room in accordance with enterprise procedures
+      - pc_id: TRS5123111:pc:2.3:1
+        number: '2.3'
+        text: Equipment is set up in guest room in accordance with the request of the guest
+      - pc_id: TRS5123111:pc:2.4:1
+        number: '2.4'
+        text: Requested items are removed from guest rooms in accordance with enterprise procedures.
+    - element_id: TRS5123111:element:3
+      number: 3
+      title: Provide advice to guest
+      performance_criteria:
+      - pc_id: TRS5123111:pc:3.1:1
+        number: '3.1'
+        text: Guest is advised on services and items available through housekeeping department
+      - pc_id: TRS5123111:pc:3.2:1
+        number: '3.2'
+        text: Guest is advised on use of items delivered to guest room
+      - pc_id: TRS5123111:pc:3.3:1
+        number: '3.3'
+        text: The proper use of delivered item to the guest room is demonstrated to guest
+      - pc_id: TRS5123111:pc:3.4:1
+        number: '3.4'
+        text: Liaise with other staff and department to provide support services
+    - element_id: TRS5123111:element:4
+      number: 4
+      title: Liaise with other departments
+      performance_criteria:
+      - pc_id: TRS5123111:pc:4.1:1
+        number: '4.1'
+        text: Equipment malfunction is reported to appropriate personnel in accordance with enterprise procedures
+      - pc_id: TRS5123111:pc:4.2:1
+        number: '4.2'
+        text: Management is advised on dangerous or suspicious circumstances in accordance with enterprise procedures.
+      - pc_id: TRS5123111:pc:4.3:1
+        number: '4.3'
+        text: Other departments are updated on the status of service requests
+    range_of_variables:
+    - range_id: TRS5123111:range:1
+      number: '1'
+      variable: Requests 1.1 Range of services and products offered by the establishment 1.2 Availability, hours and location
+        of meals, services, equipment 1.3 Various types of equipment work
+      values: []
+      qualifier: May include
+    - range_id: TRS5123111:range:2
+      number: '2'
+      variable: Equipment 2.1 electric kettles 2.2 Transformers (step up- step down) 2.3 computers 2.4 video player 2.5 console
+        2.6 hairdryer 2.7 irons and ironing board 2.8 adaptors, wires and cables
+      values: []
+      qualifier: May include
+    - range_id: TRS5123111:range:3
+      number: '3'
+      variable: Requested items 3.1 Roll away beds 3.2 additional pillows and blankets & towels 3.3 additional room supplies
+        3.4 follow-up cleaning 3.5 cleaning up spills 3.6 repairs and maintenance 3.7 lost property inquiries 3.8 change of
+        linen 3.9 first aid kit
+      values:
+      - number: '3.10'
+        text: baby sitting
+      - number: '3.11'
+        text: baby crib
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Demonstrated ability to offer courteous, prompt and friendly service to guest
+        - number: '1.2'
+          text: Demonstrated knowledge and skills of a range of housekeeping services/materials/solutions and equipment
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Knowledge on typical housekeeping services and procedures
+        - number: '2.2'
+          text: Knowledge on materials/solutions and equipment
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Security and safety procedures as they apply to housekeeping services and guests
+        - number: '3.2'
+          text: Demonstrate responding to multiple and various types of guests
+        - number: '3.3'
+          text: Time management skills
+      resource_implications:
+        intro: The following resources MUST be provided
+        items:
+        - number: '4.1'
+          text: Fully operational equipment in an accommodation environment, including guests rooms and various housekeeping
+            equipment and solutions
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Questioning
+        - number: '5.2'
+          text: Practical demonstration/direct observation
+        - number: '5.3'
+          text: Portfolio evidence
+        - number: '5.4'
+          text: Interview
+      context_of_assessment:
+        intro: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        items:
+        - number: '6.2'
+          text: Assessment activities are carried out through TESDA’s accredited assessment center
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources MUST be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of  Assessment 6.1 Assessment may be done in the workplace or in a simulated workplace
+        setting (assessment centers)
+  - unit_code: TRS5123112
+    title: Clean and prepare rooms for incoming guests
+    descriptor: The unit deals with the skills and knowledge required from housekeeping attendants to clean and prepare rooms
+      for incoming guests in a commercial accommodation establishment.
+    provenance:
+      printed_pages: 37-39
+      pdf_pages: 41-43
+    elements:
+    - element_id: TRS5123112:element:1
+      number: 1
+      title: Set up equipment and trolleys
+      performance_criteria:
+      - pc_id: TRS5123112:pc:1.1:1
+        number: '1.1'
+        text: Cleaning, supplies and equipment required for servicing rooms are correctly selected and prepared for use
+      - pc_id: TRS5123112:pc:1.2:1
+        number: '1.2'
+        text: Supplies for trolleys are accurately identified and selected or ordered in sufficient numbers in accordance
+          with enterprise procedures
+      - pc_id: TRS5123112:pc:1.3:1
+        number: '1.3'
+        text: Trolleys are safely loaded with adequate supplies in accordance with enterprise procedures
+    - element_id: TRS5123112:element:2
+      number: 2
+      title: Access rooms for servicing
+      performance_criteria:
+      - pc_id: TRS5123112:pc:2.1:1
+        number: '2.1'
+        text: Rooms requiring service are correctly identified based on information supplied to housekeeping staff
+      - pc_id: TRS5123112:pc:2.2:1
+        number: '2.2'
+        text: Rooms are accessed in accordance with the establishment’s customer service and security procedures
+    - element_id: TRS5123112:element:3
+      number: 3
+      title: Make up beds
+      performance_criteria:
+      - pc_id: TRS5123112:pc:3.1:1
+        number: '3.1'
+        text: Beds and mattresses are stripped,  pillows and   linen are checked for stains and damage rooms are checked whether
+          guests left any valuables
+      - pc_id: TRS5123112:pc:3.2:1
+        number: '3.2'
+        text: Items with stains are immediately segregated and  forwarded to the Laundry Department  for proper processing
+      - pc_id: TRS5123112:pc:3.3:1
+        number: '3.3'
+        text: Bed linens are replaced in accordance with enterprise standards and procedures
+    - element_id: TRS5123112:element:4
+      number: 4
+      title: Clean and clear rooms
+      performance_criteria:
+      - pc_id: TRS5123112:pc:4.1:1
+        number: '4.1'
+        text: Rooms are cleaned in correct order and with minimum disruption to guests
+      - pc_id: TRS5123112:pc:4.2:1
+        number: '4.2'
+        text: All furniture, fixtures and fittings are cleaned and checked in accordance with enterprise procedures and hygiene/safety
+          guidelines
+      - pc_id: TRS5123112:pc:4.3:1
+        number: '4.3'
+        text: Room supplies are checked, replenished or replaced in accordance with enterprise standards and procedures
+      - pc_id: TRS5123112:pc:4.4:1
+        number: '4.4'
+        text: Pests are promptly identified and appropriate action is taken in accordance with safety and enterprise procedures
+      - pc_id: TRS5123112:pc:4.5:1
+        number: '4.5'
+        text: Rooms are checked for any defects and  are accurately reported in accordance with enterprise procedures
+      - pc_id: TRS5123112:pc:4.6:1
+        number: '4.6'
+        text: Damaged items are recorded in accordance with enterprise procedures
+      - pc_id: TRS5123112:pc:4.7:1
+        number: '4.7'
+        text: Any unusual or suspicious person, item or occurrence is promptly reported in accordance with enterprise procedures
+      - pc_id: TRS5123112:pc:4.8:1
+        number: '4.8'
+        text: Guest’s belongings left in vacated rooms  are collected and stored in accordance with lost and found enterprise
+          procedures
+    - element_id: TRS5123112:element:5
+      number: 5
+      title: Clean and store trolleys and equipment
+      performance_criteria:
+      - pc_id: TRS5123112:pc:5.1:1
+        number: '5.1'
+        text: Trolleys and equipment are cleaned after use in accordance with safety and enterprise procedures
+      - pc_id: TRS5123112:pc:5.2:1
+        number: '5.2'
+        text: All items are correctly stored in accordance with enterprise procedures
+      - pc_id: TRS5123112:pc:5.3:1
+        number: '5.3'
+        text: Supplies and items are checked and replenished or re- ordered in accordance with enterprise procedures
+      - pc_id: TRS5123112:pc:5.4:1
+        number: '5.4'
+        text: Additional housekeeping services is provided as requested in accordance with enterprise procedures
+      - pc_id: TRS5123112:pc:5.5:1
+        number: '5.5'
+        text: Turn over procedure for next shift is carried out in accordance with enterprise procedures
+    range_of_variables:
+    - range_id: TRS5123112:range:1
+      number: '1'
+      variable: Cleaning supplies and equipment 1.1 Cleaning agents, disinfectant and chemicals 1.2 Vacuum cleaner 1.3 Mops
+        1.4 Brushes 1.5 Buckets 1.6 Caddy 1.7 Carpet sweeper 1.8 Cleaning and polishing cloths 1.9 Protective clothing
+      values:
+      - number: '1.10'
+        text: Brooms
+      - number: '1.11'
+        text: Dust pans
+      - number: '1.12'
+        text: Squeegee
+      qualifier: May include
+    - range_id: TRS5123112:range:2
+      number: '2'
+      variable: Furniture, fixtures and fittings 2.1 floor surfaces 2.2 mirrors and glassware 2.3 wardrobes and luggage rack
+        2.4 desks and chairs 2.5 coffee table and sofa 2.6 light fittings and table lamp 2.7 bedside table 2.8 telephones
+        2.9 televisions
+      values:
+      - number: '2.10'
+        text: mini fridge
+      - number: '2.11'
+        text: shelving
+      - number: '2.12'
+        text: air conditioning controls
+      - number: '2.13'
+        text: safety deposit box
+      qualifier: May include
+    - range_id: TRS5123112:range:3
+      number: '3'
+      variable: Room supplies 3.1 stationery and compendium 3.2 bed and bathroom linen 3.3 enterprise promotional materials
+        3.4 local tourist information 3.5 magazines and newspapers 3.6 mini-bar supplies 3.7 glass ware and cutlery 3.8 tea,
+        coffee, sugar, milk and water 3.9 discretionary supplies and gifts such as fruit, beverages, chocolates, flowers
+      values:
+      - number: '3.10'
+        text: slippers
+      - number: '3.11'
+        text: flashlight
+      - number: '3.12'
+        text: laundry bags and list
+      - number: '3.13'
+        text: shoe shine kit and basket/sewing kit
+      - number: '3.14'
+        text: personal hygiene kit (e.g. toothbrush, toothpaste, cotton buds, shampoo, etc.)
+      - number: '3.15'
+        text: emergency exit plan
+      - number: '3.16'
+        text: hanger
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Demonstrated ability to organize and carry out the complete guest room services
+        - number: '1.2'
+          text: Demonstrated ability to provide room service within the timeframe required by a commercial accommodation establishment
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Roles of Room Attendant
+        - number: '2.2'
+          text: Types and uses of correct cleaning chemicals, equipment and  procedures for cleaning various surfaces and
+            materials
+        - number: '2.3'
+          text: Enterprise procedures and standards in relation to presentation of guest room
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Safe work practices relating to use of cleaning chemicals and equipment, bending and manual handling (OHS
+            compliance)
+        - number: '3.2'
+          text: Cleaning and preparation of multiple rooms within industry-realistic timeframes
+      resource_implications:
+        intro: The following resources MUST be provided
+        items:
+        - number: '4.1'
+          text: Fully equipped guest rooms
+        - number: '4.2'
+          text: Housekeeping storage areas and all housekeeping equipment required for room cleaning
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Practical demonstration/direct observation
+        - number: '5.2'
+          text: Portfolio and third party report
+      context_of_assessment:
+        intro: simulated workplace setting (assessment centers)
+        items:
+        - number: '6.2'
+          text: Assessment activities are carried out in TESDA’s accredited assessment centers
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical Aspects of Competency Assessment requires evidence that the candidate:'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources MUST be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of Assessment 6.1 Assessment may be done in the workplace or in a simulated workplace
+        setting (assessment centers)
+  - unit_code: TRS5123113
+    title: Provide valet/butler service
+    descriptor: This unit of competency deals with the skills and knowledge required to provide valet/butler services in a
+      commercial accommodation establishment.  This role would generally be undertaken by staff members with sound organizational
+      and interpersonal skills within limit of responsibility.
+    provenance:
+      printed_pages: 40-42
+      pdf_pages: 44-46
+    elements:
+    - element_id: TRS5123113:element:1
+      number: 1
+      title: Provide valet services to guests
+      performance_criteria:
+      - pc_id: TRS5123113:pc:1.1:1
+        number: '1.1'
+        text: Role of valet is defined in accordance with enterprise policy
+      - pc_id: TRS5123113:pc:1.2:1
+        number: '1.2'
+        text: Valet services are prepared to be delivered
+      - pc_id: TRS5123113:pc:1.3:1
+        number: '1.3'
+        text: Valet services is delivered within limit of responsibility
+      - pc_id: TRS5123113:pc:1.4:1
+        number: '1.4'
+        text: Valet services is recorded
+    - element_id: TRS5123113:element:2
+      number: 2
+      title: Display professional standards
+      performance_criteria:
+      - pc_id: TRS5123113:pc:2.1:1
+        number: '2.1'
+        text: Rapport is established and feelings of goodwill are enhanced between the guest within limit of responsibility
+      - pc_id: TRS5123113:pc:2.2:1
+        number: '2.2'
+        text: Knowledge of individual guest’s records is accessed and utilized to provide personalized and quality services
+          based on guest instructions and enterprise policy
+      - pc_id: TRS5123113:pc:2.3:1
+        number: '2.3'
+        text: Valet grooming and communication standards are followed, in accordance with enterprise policy
+    - element_id: TRS5123113:element:3
+      number: 3
+      title: Care for guest property 3.1   Luggage is set  in room based on guest  instructions and enterprise policy
+      performance_criteria:
+      - pc_id: TRS5123113:pc:3.2:1
+        number: '3.2'
+        text: Guest clothes may be processed based on guest instructions and enterprise policy
+      - pc_id: TRS5123113:pc:3.3:1
+        number: '3.3'
+        text: Shoes are cleaned based on guest instructions
+      - pc_id: TRS5123113:pc:3.4:1
+        number: '3.4'
+        text: Repairs are made or organized based on guest instructions, in accordance with enterprise policy
+      - pc_id: TRS5123113:pc:3.5:1
+        number: '3.5'
+        text: Confidentiality of guest’s property and activities is maintained in accordance with legal and ethical requirements
+    range_of_variables:
+    - range_id: TRS5123113:range:1
+      number: '1'
+      variable: Guest records 1.1 Basic contact lists and details, as provided by the establishment 1.2 Basic customer preference
+        profiles, as provided by the establishment
+      values: []
+      qualifier: May include
+    - range_id: TRS5123113:range:2
+      number: '2'
+      variable: Services 2.1 Packing and unpacking service 2.2 Shoe cleaning 2.3 Pressing
+      values: []
+      qualifier: May include
+    - range_id: TRS5123113:range:3
+      number: '3'
+      variable: Repairs 3.1 Servicing of buttons 3.2 Zipper repairs
+      values: []
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Demonstrated ability to explain the current role of valet service within the hospitality industry
+        - number: '1.2'
+          text: Demonstrated ability to care for guest property
+        - number: '1.3'
+          text: Demonstrated exemplary personal presentation and communication standards
+      required_knowledge:
+        intro: Trade Theory
+        items:
+        - number: 2.1.1
+          text: Valet service and its current role in the hospitality industry
+        - number: 2.1.2
+          text: Oral and written communication on building guest rapport
+        - number: 2.1.3
+          text: Protocols for ensuring optimum privacy and confidentiality for all guests
+        - number: '2.2'
+          text: Roles of valet
+      required_skills:
+        intro: Skills
+        items:
+        - number: '3.1'
+          text: Oral & written communication skills
+        - number: '3.2'
+          text: Special protocols for dealing with VIP guests
+      resource_implications:
+        intro: The following resources/situations MUST be provided
+        items:
+        - number: '4.1'
+          text: Workplace location
+        - number: '4.2'
+          text: Interaction with others to demonstrate appropriate interpersonal skills and ability to organize services
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Practical demonstration/direct observation
+        - number: '5.2'
+          text: Third party report
+        - number: '5.3'
+          text: Oral questioning
+      context_of_assessment:
+        intro: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        items:
+        - number: '6.2'
+          text: Assessment activities are carried out in TESDA’s accredited assessment centers
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      required_knowledge: Required Knowledge      2.1 Trade Theory
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources/situations MUST be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of Assessment 6.1 Assessment may be done in the workplace or in a simulated workplace
+        setting (assessment centers)
+  - unit_code: TRS5123114
+    title: Laundry linen and guest clothes
+    descriptor: This unit of competency deals with the skills and knowledge required to work in an “on-premise” laundry section
+      in a commercial accommodation establishment applied to guest laundry, and in-house linen and uniforms.
+    provenance:
+      printed_pages: 43-45
+      pdf_pages: 47-49
+    elements:
+    - element_id: TRS5123114:element:1
+      number: 1
+      title: Collect laundry for laundering functions
+      performance_criteria:
+      - pc_id: TRS5123114:pc:1.1:1
+        number: '1.1'
+        text: The role of an on-premise laundry is identified according to enterprise policy
+      - pc_id: TRS5123114:pc:1.2:1
+        number: '1.2'
+        text: Guest clothes are picked up in accordance with enterprise policy
+      - pc_id: TRS5123114:pc:1.3:1
+        number: '1.3'
+        text: In-house items are picked up in accordance with enterprise policy
+    - element_id: TRS5123114:element:2
+      number: 2
+      title: Perform  laundering functions
+      performance_criteria:
+      - pc_id: TRS5123114:pc:2.1:1
+        number: '2.1'
+        text: Items are correctly sorted and counted according to cleaning process required and  urgency of the item
+      - pc_id: TRS5123114:pc:2.2:1
+        number: '2.2'
+        text: Items for laundering  are checked for stains and are treated using the correct process
+      - pc_id: TRS5123114:pc:2.3:1
+        number: '2.3'
+        text: Laundry methods are selected in accordance with textile labeling codes and based on fiber and fabric, dye fastness,
+          degree of spoilage and washing instructions
+      - pc_id: TRS5123114:pc:2.4:1
+        number: '2.4'
+        text: Laundry equipment is operated in accordance with manufacturer’s instructions
+      - pc_id: TRS5123114:pc:2.5:1
+        number: '2.5'
+        text: Any damage arising from the laundering process is recorded and appropriate person(s) is/are notified in accordance
+          with enterprise procedures
+      - pc_id: TRS5123114:pc:2.6:1
+        number: '2.6'
+        text: Cleaning agents and chemicals are used in accordance with manufacturer’s instructions and specific laundry equipment
+      - pc_id: TRS5123114:pc:2.7:1
+        number: '2.7'
+        text: Items are checked after the laundering process to ensure quality cleaning
+      - pc_id: TRS5123114:pc:2.8:1
+        number: '2.8'
+        text: Pressing and finishing processes are correctly completed in accordance with textile characteristics and client
+          requirements
+    - element_id: TRS5123114:element:3
+      number: 3
+      title: Process laundered item
+      performance_criteria:
+      - pc_id: TRS5123114:pc:3.1:1
+        number: '3.1'
+        text: Post cleaning laundry activity are performed in accordance with enterprise policy
+      - pc_id: TRS5123114:pc:3.2:1
+        number: '3.2'
+        text: Results of cleaning are checked and appropriate additional action is taken.
+      - pc_id: TRS5123114:pc:3.3:1
+        number: '3.3'
+        text: Internal record and billing instructions are processed in accordance with enterprise procedures
+      - pc_id: TRS5123114:pc:3.4:1
+        number: '3.4'
+        text: Necessary internal laundry reports are produced
+    - element_id: TRS5123114:element:4
+      number: 4
+      title: Return laundered item
+      performance_criteria:
+      - pc_id: TRS5123114:pc:4.1:1
+        number: '4.1'
+        text: Guest clothes are delivered in accordance with enterprise policy
+      - pc_id: TRS5123114:pc:4.2:1
+        number: '4.2'
+        text: In-house items are delivered in accordance with enterprise policy
+    range_of_variables:
+    - range_id: TRS5123114:range:1
+      number: '1'
+      variable: Cleaning process
+      values:
+      - number: '1.1'
+        text: Dry clean
+      - number: '1.2'
+        text: Hand wash
+      - number: '1.3'
+        text: Machine wash
+      qualifier: May include
+    - range_id: TRS5123114:range:2
+      number: '2'
+      variable: Laundry equipment 2.1 Washers 2.2 Dryers 2.3 Irons 2.4 Steam pressers 2.5 Sorting baskets and shelves 2.6
+        Hangers 2.7 Drying cleaning machine 2.8 Labeler
+      values: []
+      qualifier: May include
+    - range_id: TRS5123114:range:3
+      number: '3'
+      variable: Laundering process
+      values:
+      - number: '3.1'
+        text: Sorting
+      - number: '3.2'
+        text: Washing
+      - number: '3.3'
+        text: Stain treatment
+      - number: '3.4'
+        text: Drying
+      - number: '3.5'
+        text: Folding
+      - number: '3.6'
+        text: Ironing
+      - number: '3.7'
+        text: Steam pressing
+      - number: '3.8'
+        text: Mending
+      - number: '3.9'
+        text: Minor repairs such as buttons and zippers
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Demonstrated ability to correctly identify the process required for different types of laundry
+        - number: '1.2'
+          text: Demonstrated ability to operate laundry equipment safely
+        - number: '1.3'
+          text: Demonstrated ability to complete the full laundering process
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Theory
+        - number: 2.1.1
+          text: Types of fabric and laundry equipment
+        - number: 2.1.2
+          text: Meaning of laundry and dry cleaning labels on clothing
+        - number: 2.1.3
+          text: Key laundry terms
+        - number: 2.1.4
+          text: Common guest laundry issues
+        - number: '2.2'
+          text: Safety Practices
+        - number: 2.2.1
+          text: Hygiene, health and safety issues on laundry operations
+        - number: '2.3'
+          text: Laundry Chemicals/Solutions
+        - number: '2.4'
+          text: Role of an “on premise” laundry
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Operating laundry equipment
+        - number: '3.2'
+          text: Ability to complete the full laundering process
+        - number: '3.3'
+          text: Establishment linen handling procedures
+        - number: '3.4'
+          text: Use of specific laundry chemicals
+        - number: '3.5'
+          text: Communication skills
+      resource_implications:
+        intro: The following resources MUST be provided
+        items:
+        - number: '4.1'
+          text: Variety of linen, clothing items and fabrics
+        - number: '4.2'
+          text: Industry laundry equipment
+        - number: '4.3'
+          text: Laundry Chemicals/ Solutions
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Oral questioning
+        - number: '5.2'
+          text: Practical demonstration/direct observation
+        - number: '5.3'
+          text: Portfolio
+      context_of_assessment:
+        intro: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        items:
+        - number: '6.2'
+          text: Assessment activities are carried out in TESDA’s accredited assessment center
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources MUST be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of Assessment 6.1 Assessment may be done in the workplace or in a simulated workplace
+        setting (assessment centers)
+  - unit_code: TRS5123115
+    title: Clean public areas, facilities and equipment
+    descriptor: This unit of competency deals with the knowledge and skills required in cleaning public areas, facilities
+      and equipment.  It includes selecting and setting up of equipment and materials; cleaning dry and wet areas; and, maintaining
+      and storing cleaning equipment and materials.
+    provenance:
+      printed_pages: 46-49
+      pdf_pages: 50-53
+    elements:
+    - element_id: TRS5123115:element:1
+      number: 1
+      title: Select and set up equipment and materials
+      performance_criteria:
+      - pc_id: TRS5123115:pc:1.1:1
+        number: '1.1'
+        text: Equipment are selected according to type of cleaning to be done
+      - pc_id: TRS5123115:pc:1.2:1
+        number: '1.2'
+        text: All equipment are checked if clean and in safe working condition prior to use
+      - pc_id: TRS5123115:pc:1.3:1
+        number: '1.3'
+        text: Suitable dry and wet cleaning agents and chemicals are selected and prepared in accordance with manufacturer’s
+          and relevant occupational health and safety requirements
+      - pc_id: TRS5123115:pc:1.4:1
+        number: '1.4'
+        text: Protective clothing are selected and used where necessary
+    - element_id: TRS5123115:element:2
+      number: 2
+      title: Apply cleaning technique
+      performance_criteria:
+      - pc_id: TRS5123115:pc:2.1:1
+        number: '2.1'
+        text: Furniture, fixtures, ceilings and wallings are assessed for cleaning
+      - pc_id: TRS5123115:pc:2.2:1
+        number: '2.2'
+        text: Appropriate cleaning equipment and chemicals are selected in accordance with the type of material used
+      - pc_id: TRS5123115:pc:2.3:1
+        number: '2.3'
+        text: Cleaning technique is applied on furniture and  walling materials in accordance with type of material used
+      - pc_id: TRS5123115:pc:2.4:1
+        number: '2.4'
+        text: Appropriate procedures is applied in accordance with the technique
+      - pc_id: TRS5123115:pc:2.5:1
+        number: '2.5'
+        text: Equipment and chemicals are properly cleaned and stored in accordance with manufacturer’s specifications and
+          requirements
+    - element_id: TRS5123115:element:3
+      number: 3
+      title: Clean dry and wet areas
+      performance_criteria:
+      - pc_id: TRS5123115:pc:3.1:1
+        number: '3.1'
+        text: Wet and dry areas are prepared for cleaning and hazards are identified and assessed
+      - pc_id: TRS5123115:pc:3.2:1
+        number: '3.2'
+        text: The work area is barricaded or warning signs are placed, as appropriate, to reduce risk to colleagues and customers
+      - pc_id: TRS5123115:pc:3.3:1
+        number: '3.3'
+        text: Cleaning agents or chemicals are selected and applied on specific areas in accordance with manufacturer’s recommendations,
+          safety procedures and enterprise policies and procedures
+      - pc_id: TRS5123115:pc:3.4:1
+        number: '3.4'
+        text: Equipment are used safely in accordance with manufacturer's recommendations
+      - pc_id: TRS5123115:pc:3.5:1
+        number: '3.5'
+        text: Garbage and used chemicals are disposed off in accordance with hygiene, safety and environmental legislation
+          requirements
+    - element_id: TRS5123115:element:4
+      number: 4
+      title: Maintain and store cleaning equipment and chemicals
+      performance_criteria:
+      - pc_id: TRS5123115:pc:4.1:1
+        number: '4.1'
+        text: Equipment are cleaned after use in accordance with enterprise requirements and manufacturer’s instructions
+      - pc_id: TRS5123115:pc:4.2:1
+        number: '4.2'
+        text: Routine preventive maintenance is carried out or arranged in accordance with enterprise procedures
+      - pc_id: TRS5123115:pc:4.3:1
+        number: '4.3'
+        text: Defects are identified and reported in accordance with enterprise procedures
+      - pc_id: TRS5123115:pc:4.4:1
+        number: '4.4'
+        text: Equipment are stored in the designated area and in a condition ready for re-use.
+      - pc_id: TRS5123115:pc:4.5:1
+        number: '4.5'
+        text: Chemicals are stored and controlled in accordance with health and safety requirements.
+    range_of_variables:
+    - range_id: TRS5123115:range:1
+      number: '1'
+      variable: Occupational health, safety and environment requirements 1.1 Establishment policies and procedures related
+        to cleaning operations and disposal of used chemicals 1.2 Laws on  general workplace safety, hazardous substances,
+        and manual handling and storage requirements 1.3 Establishment security procedures
+      values: []
+      qualifier: May include
+    - range_id: TRS5123115:range:2
+      number: '2'
+      variable: Protective clothing 2.1 overalls 2.2 jackets 2.3 aprons 2.4 goggles and masks 2.5 waterproof clothing and
+        footwear 2.6 headwear
+      values: []
+      qualifier: May include
+    - range_id: TRS5123115:range:3
+      number: '3'
+      variable: Materials 3.1 glass 3.2 leather 3.3 fabrics 3.4 brass/steel 3.5 wood 3.6 carpet 3.7 hard floors
+      values: []
+      qualifier: May include
+    - range_id: TRS5123115:range:4
+      number: '4'
+      variable: Dry and wet areas 4.1 bathrooms 4.2 bedrooms 4.3 kitchens 4.4 balconies 4.5 private lounge areas 4.6 public
+        areas (both internal and external) 4.7 function rooms 4.8 storage areas 4.9 swimming pool
+      values: []
+      qualifier: May include
+    - range_id: TRS5123115:range:5
+      number: '5'
+      variable: Hazards 5.1 spillages 5.2 breakages 5.3 wet or slippery surfaces 5.4 broken or damaged furniture 5.5 fumes
+        5.6 blood 5.7 needles and syringes 5.8 used condoms 5.9 sharp objects including knives and skewers
+      values:
+      - number: '5.10'
+        text: human waste
+      - number: '5.11'
+        text: surgical dressings
+      - number: '5.12'
+        text: broken glass
+      - number: '5.13'
+        text: fat and oil
+      - number: '5.14'
+        text: heated utensils and surfaces
+      - number: '5.15'
+        text: sharp food scraps including bones and crustacean shells
+      qualifier: May include
+    - range_id: TRS5123115:range:6
+      number: '6'
+      variable: Chemicals 6.1 general and spot cleaning agents 6.2 cleaning agents for specialized surfaces including window
+        and glass cleaners 6.3 disinfectants 6.4 pesticides 6.5 deodorizers 6.6 furniture and floor polishers
+      values: []
+      qualifier: May include
+    - range_id: TRS5123115:range:7
+      number: '7'
+      variable: Equipment
+      values:
+      - number: '7.1'
+        text: Scrubbers
+      - number: '7.2'
+        text: Polishers
+      - number: '7.3'
+        text: Vacuum cleaners
+      qualifier: May include
+    - range_id: TRS5123115:range:8
+      number: '8'
+      variable: Manufacturer instructions
+      values:
+      - number: '8.1'
+        text: cleaning and maintenance guidelines
+      - number: '8.2'
+        text: dosage and dilution of chemicals
+      - number: '8.3'
+        text: safety requirements
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate:'
+        items:
+        - number: '1.1'
+          text: Demonstrated ability to understand the importance of cleaning services to the overall quality of service provided
+            by the establishment/workplace
+        - number: '1.2'
+          text: Demonstrated ability to safely and efficiently select and use relevant equipment and cleaning agents in accordance
+            with acceptable establishment/workplace procedures
+      required_knowledge:
+        items:
+        - number: '2.1'
+          text: Communication
+        - number: 2.1.1
+          text: Communication skills, oral and written
+        - number: 2.1.2
+          text: Management skills
+        - number: 2.1.3
+          text: Staff supervision and handling
+        - number: '2.2'
+          text: Safety Practices
+        - number: 2.2.1
+          text: Practice hygienic preparation and teamwork to colleagues
+        - number: 2.2.2
+          text: National/City/Municipality Occupational health and safety  legislation
+        - number: '2.3'
+          text: Cleaning operations
+        - number: '2.4'
+          text: Common cleaning chemicals
+        - number: '2.5'
+          text: Treatment of common hazards
+      required_skills:
+        items:
+        - number: '3.1'
+          text: Cleaning technique
+        - number: '3.2'
+          text: Safe handling of  cleaning equipment, chemicals and agents/tools
+        - number: '3.3'
+          text: Time management skills
+        - number: '3.4'
+          text: Communication skills
+        - number: '3.5'
+          text: Basic mathematical computation skills
+        - number: '3.6'
+          text: Analytical skills
+      resource_implications:
+        intro: The following resources MUST be provided
+        items:
+        - number: '4.1'
+          text: Workplace location
+        - number: '4.2'
+          text: Cleaning agents, equipment and tools
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Oral questioning
+        - number: '5.2'
+          text: Direct observation/Practical demonstration
+        - number: '5.3'
+          text: Portfolio
+      context_of_assessment:
+        intro: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        items:
+        - number: '6.2'
+          text: Assessment activities are carried out in TESDA’s accredited assessment centers
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate:'
+      required_knowledge: Required Knowledge
+      required_skills: Required Skills
+      resource_implications: Resource Implications The following resources MUST be provided
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of Assessment 6.1 Assessment may be done in the workplace or in a simulated workplace
+        setting (assessment centers)
+    source_unit_header_code: TRS512309115
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:anomaly:clean-public-areas-unit-code
+  - unit_code: TRS5123122
+    title: Deal with/Handle intoxicated guests
+    descriptor: This unit of competency deals with the knowledge, skills and attitude in handling or dealing with intoxicated
+      guests at the workplace. It includes the knowledge and skills on how to determine the level of intoxication, proper
+      approach, application of appropriate procedure and the knowledge on legislation for alcoholic drinks.
+    provenance:
+      printed_pages: 50-51
+      pdf_pages: 54-55
+    elements:
+    - element_id: TRS5123122:element:1
+      number: 1
+      title: Determine the level of intoxication
+      performance_criteria:
+      - pc_id: TRS5123122:pc:1.1:1
+        number: '1.1'
+        text: Level of intoxication of guest is assessed in accordance with industry procedure.
+      - pc_id: TRS5123122:pc:1.2:1
+        number: '1.2'
+        text: Offered assistance politely to intoxicated guest in line with enterprise procedure.
+      - pc_id: TRS5123122:pc:1.3:1
+        number: '1.3'
+        text: Urgently referred difficult situation to immediate boss as per enterprise regulations.
+      - pc_id: TRS5123122:pc:1.4:1
+        number: '1.4'
+        text: Intoxicated guest lying on the floor is not touched but is carefully watched in line with industry practice.
+      - pc_id: TRS5123122:pc:1.5:1
+        number: '1.5'
+        text: Sought immediate assistance from hotel security personnel for the situations that posing a threat to safety
+          and security according to enterprise procedure.
+    - element_id: TRS5123122:element:2
+      number: 2
+      title: Apply appropriate procedures
+      performance_criteria:
+      - pc_id: TRS5123122:pc:2.1:1
+        number: '2.1'
+        text: Analyzed the situation carefully
+        subcriteria:
+        - label: a
+          text: Applied procedures appropriate to the situation and in accordance with organizational policy
+        - label: b
+          text: Explained politely  the position to the guest  using appropriate communication skills
+      - pc_id: TRS5123122:pc:2.2:1
+        number: '2.2'
+        text: Assisted the guest to leave the premises when necessary in accordance with enterprise procedure.
+    - element_id: TRS5123122:element:3
+      number: 3
+      title: Comply with legislation
+      performance_criteria:
+      - pc_id: TRS5123122:pc:3.1:1
+        number: '3.1'
+        text: Dealt with intoxicated persons in line with industry practice
+      - pc_id: TRS5123122:pc:3.2:1
+        number: '3.2'
+        text: Dealt with underage drinkers with caution and care in compliance with legal regulations
+      - pc_id: TRS5123122:pc:3.3:1
+        number: '3.3'
+        text: Complied with legislative requirements as per alcoholic regulations
+    range_of_variables:
+    - range_id: TRS5123122:range:1
+      number: '1'
+      variable: Assess intoxication levels
+      values:
+      - number: '1.1'
+        text: Changes in behavior
+      - number: '1.2'
+        text: Monitoring noise level
+      - number: '1.3'
+        text: Monitoring drink orders
+      - number: '1.4'
+        text: Slowing service.
+      qualifier: May include
+    - range_id: TRS5123122:range:2
+      number: '2'
+      variable: Assistance
+      values:
+      - number: '2.1'
+        text: Organizing transport for guest wishing to leave
+      - number: '2.2'
+        text: Suggesting staying in a room in the hotel
+      - number: '2.3'
+        text: Assisting guest to leave the premises
+      qualifier: May include
+    evidence_guide:
+      critical_aspects:
+        intro: 'Competency Assessment requires evidence that the candidate/ trainee :'
+        items:
+        - number: '1.1'
+          text: Demonstrated full knowledge of the effects of alcohol and factors which influence guest’s actions.
+        - number: '1.2'
+          text: Demonstrated knowledge of legal requirements for alcohol service and consumption
+        - number: '1.3'
+          text: Demonstrated knowledge of the benefits in creating a responsible licensed drinking environment to self, colleagues
+            and customer/guests
+        - number: '1.4'
+          text: Demonstrated knowledge of ways of assessing intoxication of guests.
+      required_skills:
+        items:
+        - number: '2.1'
+          text: Dealt diplomatically on the disruptive intoxicated guests.
+        - number: '2.2'
+          text: Ability to communicate to make the guest understand the position.
+        - number: '2.3'
+          text: Ability to demonstrate  respect and concern in handling intoxicated guest
+      required_knowledge:
+        items:
+        - number: '3.1'
+          text: Manifested full understanding of legal requirements for alcohol service and consumption.
+        - number: '3.2'
+          text: Demonstrated ability to manage intoxicated persons using appropriate communication, conflict resolution and
+            anger management techniques
+        - number: '3.3'
+          text: Exhibited the ability to offer appropriate guests assistance.
+        - number: '3.4'
+          text: Manifested full knowledge of the effects of alcohol and factors which influence effects.
+        - number: '3.5'
+          text: Discussed the knowledge of the benefits in creating a responsible licensed drinking environment to self, colleagues
+            and guests
+        - number: '3.6'
+          text: Demonstrated knowledge of ways of assessing intoxicated guests.
+      underpinning_knowledge:
+        items:
+        - number: '4.1'
+          text: Sources of information on the industry
+        - number: '4.2'
+          text: Industry knowledge about alcohol
+      methods_of_assessment:
+        intro: Assessment Competency in this unit may or must be assessed through
+        items:
+        - number: '5.1'
+          text: Oral questions
+        - number: '5.2'
+          text: Written questions
+        - number: '5.3'
+          text: Work projects
+        - number: '5.4'
+          text: Workplace observation of practical skills
+        - number: '5.5'
+          text: Practical exercises/Role Play/Demonstration
+        - number: '5.6'
+          text: Formal report from supervisor
+      context_of_assessment:
+        intro: Assessment
+        items:
+        - number: '6.1'
+          text: Assessment may be done in the workplace or in a simulated workplace setting (assessment centers)
+        - number: '6.2'
+          text: Assessment activities are carried out through TESDA's accredited assessment center.
+    evidence_guide_source_labels:
+      critical_aspects: 'Critical aspects of Competency Assessment requires evidence that the candidate/ trainee :'
+      required_skills: Required Skills
+      required_knowledge: Required Knowledge
+      underpinning_knowledge: Resource Implications
+      methods_of_assessment: Methods of Assessment Competency in this unit may or must be assessed through
+      context_of_assessment: Context of Assessment
+    fidelity_refs:
+    - tesda:housekeeping-nc-ii:fidelity:intoxicated-pc-2.1-subcriteria

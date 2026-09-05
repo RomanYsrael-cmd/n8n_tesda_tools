@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import asyncio
 import json
+import math
+import time
 import traceback
 from pathlib import Path
 
@@ -20,6 +22,11 @@ from .storage import dump_json, job_dir, transition
 from .validation import audit_docx, render_verify, report_json, validate_bundle, validate_bundle_against_plan
 
 
+def _token_estimate(characters: int) -> int:
+    """Conservative display estimate for providers that omit tokenizer usage."""
+    return math.ceil(max(0, characters) / 4)
+
+
 class GenerationService:
     def __init__(self, settings: Settings, db: Database, provider_factory, semantic_enabled=lambda: False):
         self.settings = settings
@@ -28,9 +35,21 @@ class GenerationService:
         self.semantic_enabled = semantic_enabled
         self.tasks: dict[str, asyncio.Task] = {}
         self.live_activity: dict[str, dict[str, dict]] = {}
+        self._live_started: dict[str, float] = {}
         self._active_providers: dict[str, dict[int, OpenAICompatibleProvider]] = {}
 
     def live_for(self, job_id: str) -> list[dict]:
+        # Refresh elapsed/speed on every poll so the counter keeps moving
+        # while a provider is thinking and has not emitted another SSE event.
+        now = time.monotonic()
+        for item in self.live_activity.get(job_id, {}).values():
+            started = self._live_started.get(f"{job_id}:{item.get('id')}")
+            if started is None:
+                continue
+            elapsed = max(now - started, 0.001)
+            output_tokens = _token_estimate(int(item.get("output_characters") or len(item.get("content") or "")))
+            item["elapsed_seconds"] = round(elapsed, 2)
+            item["tokens_per_second"] = round(output_tokens / elapsed, 2)
         return list(self.live_activity.get(job_id, {}).values())
 
     def start(self, job_id: str):
@@ -51,6 +70,7 @@ class GenerationService:
                 pass
         self.tasks.pop(job_id, None)
         self.live_activity.pop(job_id, None)
+        self._live_started = {key: value for key, value in self._live_started.items() if not key.startswith(f"{job_id}:")}
 
     def _track_provider(self, job_id: str, provider: OpenAICompatibleProvider) -> None:
         self._active_providers.setdefault(job_id, {})[id(provider)] = provider
@@ -115,43 +135,76 @@ class GenerationService:
             self.db.upsert_stage(job_id, lesson, week, stage, "running", f"Request attempt {repair + 1}", increment=True)
             dump_json(self.settings.data_root, True, f"{job_id}-lesson-{lesson}-{stage}-request-{repair+1}", {"prompt": current_prompt, "model": provider.model, "base_url": provider.base_url, "response_format": "text", "request_options": request_options})
             live_key = f"lesson-{lesson}-{stage}-{repair + 1}"
+            started = time.monotonic()
             live = {"id": live_key, "lesson": lesson, "week": week, "stage": stage,
-                    "attempt": repair + 1, "status": "receiving", "content": ""}
+                    "attempt": repair + 1, "status": "connecting", "content": "",
+                    "prompt_characters": len(current_prompt),
+                    "prompt_tokens_estimate": _token_estimate(len(current_prompt)),
+                    "output_characters": 0, "output_tokens_estimate": 0,
+                    "reasoning_characters": 0, "elapsed_seconds": 0.0,
+                    "tokens_per_second": 0.0, "request_id": "", "usage": None}
             job_live = self.live_activity.setdefault(job_id, {})
             job_live[live_key] = live
+            self._live_started[f"{job_id}:{live_key}"] = started
+
+            def update_telemetry():
+                elapsed = max(time.monotonic() - started, 0.001)
+                output_characters = len(live["content"])
+                output_tokens = _token_estimate(output_characters)
+                live["elapsed_seconds"] = round(elapsed, 2)
+                live["output_characters"] = output_characters
+                live["output_tokens_estimate"] = output_tokens
+                live["tokens_per_second"] = round(output_tokens / elapsed, 2)
 
             def receive_token(token: str):
+                live["status"] = "receiving"
                 live["content"] += token
+                update_telemetry()
+
+            def receive_progress(info: dict):
+                if info.get("qwen_request_id"):
+                    live["request_id"] = info["qwen_request_id"]
+                if info.get("reasoning_characters") is not None:
+                    live["reasoning_characters"] = int(info.get("reasoning_characters") or 0)
+                if info.get("usage"):
+                    live["usage"] = dict(info["usage"])
+                update_telemetry()
 
             try:
                 self._track_provider(job_id, provider)
                 try:
-                    raw = await provider.complete_text(current_prompt, on_token=receive_token, request_options=request_options)
+                    raw = await provider.complete_text(current_prompt, on_token=receive_token,
+                                                       on_progress=receive_progress, request_options=request_options)
                 finally:
                     self._untrack_provider(job_id, provider)
+                update_telemetry()
                 live["status"] = "validating"
             except ProviderCancelled:
                 live["status"] = "cancelled"
                 job_live.pop(live_key, None)
+                self._live_started.pop(f"{job_id}:{live_key}", None)
                 raise
             except Exception:
                 live["status"] = "failed"
+                self._live_started.pop(f"{job_id}:{live_key}", None)
                 raise
             try:
                 extracted = extract_marked_response(raw)
                 value = parser(extracted)
-                dump_json(self.settings.data_root, True, f"{job_id}-lesson-{lesson}-{stage}-response-{repair+1}", {"raw_text": raw, "extracted_text": extracted})
+                dump_json(self.settings.data_root, True, f"{job_id}-lesson-{lesson}-{stage}-response-{repair+1}", {"raw_text": raw, "extracted_text": extracted, "telemetry": dict(live) | {"content": ""}})
                 self.db.upsert_stage(job_id, lesson, week, stage, "success", "Parsed and validated response accepted")
                 live["status"] = "accepted"
                 job_live.pop(live_key, None)
+                self._live_started.pop(f"{job_id}:{live_key}", None)
                 return value, extracted
             except (ValueError, ValidationError) as exc:
                 errors = [str(exc)]
                 if isinstance(exc, ValidationError):
                     errors = [f"{'.'.join(map(str, e['loc']))}: {e['msg']}" for e in exc.errors()]
-                dump_json(self.settings.data_root, False, f"{job_id}-lesson-{lesson}-{stage}-invalid-{repair+1}", {"errors": errors, "rejected_text": raw})
+                dump_json(self.settings.data_root, False, f"{job_id}-lesson-{lesson}-{stage}-invalid-{repair+1}", {"errors": errors, "rejected_text": raw, "telemetry": dict(live) | {"content": ""}})
                 live["status"] = "rejected"
                 job_live.pop(live_key, None)
+                self._live_started.pop(f"{job_id}:{live_key}", None)
                 # A malformed quiz is more reliably replaced than patched,
                 # especially with smaller local models. Each quiz retry uses
                 # the complete original generation prompt and receives no

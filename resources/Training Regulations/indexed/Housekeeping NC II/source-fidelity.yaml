@@ -1,0 +1,126 @@
+schema: tesda-tr-source-fidelity
+schema_version: '1.0'
+qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
+qualification: Housekeeping NC II
+representation: fidelity_overrides_and_source_anomalies
+verbatim_transcription: false
+policy:
+  authority: The official TESDA PDF remains authoritative.
+  normalization: Semantic files normalize layout and selected interpretation while this file records source-sensitive discrepancies
+    and probable source errors.
+source_anomalies:
+- id: tesda:housekeeping-nc-ii:anomaly:clean-public-areas-unit-code
+  type: source_internal_code_inconsistency
+  provenance:
+  - printed_page: 1
+    pdf_page: 5
+    location: Section 1 core competency list
+  - printed_page: 46
+    pdf_page: 50
+    location: Detailed unit header
+  source_excerpt: Section 1 lists TRS5123115; the detailed unit header prints TRS512309115.
+  normalized_interpretation: Use TRS5123115 as the qualification membership/canonical retrieval code, while retaining TRS512309115
+    as source_unit_header_code.
+- id: tesda:housekeeping-nc-ii:anomaly:range-numbering-500311106
+  type: source_numbering_gap
+  unit_code: '500311106'
+  provenance:
+    printed_page: 6
+    pdf_page: 10
+  source_excerpt: The range entries under Appropriate communication techniques run 4.1, 4.2, 4.3, 4.4, then 4.6.
+  normalized_interpretation: Preserve 4.6 exactly; do not invent a 4.5 entry.
+- id: tesda:housekeeping-nc-ii:anomaly:evidence-heading-500311108
+  type: probable_source_heading_typo
+  unit_code: '500311108'
+  provenance:
+    printed_page: 13
+    pdf_page: 17
+  source_excerpt: The Evidence Guide heading reads “Underpinning Knowledge and”.
+  normalized_interpretation: Treat the category semantically as underpinning knowledge while retaining the source label.
+- id: tesda:housekeeping-nc-ii:anomaly:evidence-intro-trs311202
+  type: probable_source_typo
+  unit_code: TRS311202
+  provenance:
+    printed_page: 20
+    pdf_page: 24
+  source_excerpt: The Methods of Assessment line includes “Competency in this unit r must be assessed through”.
+  normalized_interpretation: The stray “r” appears typographical; methods themselves are preserved.
+- id: tesda:housekeeping-nc-ii:anomaly:duplicate-pc-5.4
+  type: source_duplicate_numbering
+  unit_code: TRS311205
+  provenance:
+    printed_page: 30
+    pdf_page: 34
+  source_excerpt: Element 5 contains two separate performance criteria both numbered 5.4, followed by 5.5.
+  normalized_interpretation: Retain both 5.4 criteria and distinguish them by occurrence-specific pc_id values; do not renumber
+    silently.
+- id: tesda:housekeeping-nc-ii:anomaly:curriculum-customer-service-numbering
+  type: source_curriculum_numbering_inconsistency
+  unit_code: TRS311205
+  provenance:
+    printed_page: 54
+    pdf_page: 58
+  source_excerpt: The curriculum lists “5.6 Handle queries…” then “5.5 Handle complaints…”.
+  normalized_interpretation: Preserve the source learning-outcome numbers in training-standards.yaml.
+- id: tesda:housekeeping-nc-ii:anomaly:curriculum-assess-vs-access
+  type: probable_source_word_typo
+  unit_code: TRS311203
+  provenance:
+    printed_page: 53
+    pdf_page: 57
+  source_excerpt: The curriculum says “Assess information using computer”; the competency-standard element says “Access information
+    using computer”.
+  normalized_interpretation: Preserve each source wording in its own section.
+- id: tesda:housekeeping-nc-ii:anomaly:curriculum-ohs-learning-outcomes
+  type: source_curriculum_scope_difference
+  unit_code: '500311108'
+  provenance:
+    printed_page: 53
+    pdf_page: 57
+  source_excerpt: The curriculum row begins with “Evaluate hazard and risks” and does not list the competency-standard element
+    “Identify hazards and risks”.
+  normalized_interpretation: Preserve the four curriculum learning outcomes exactly as printed while the competency record
+    retains all five source elements.
+- id: tesda:housekeeping-nc-ii:anomaly:drying-cleaning-machine
+  type: probable_source_typo
+  provenance:
+    printed_page: 58
+    pdf_page: 62
+  source_excerpt: The resource table prints “Drying cleaning machine”.
+  normalized_interpretation: Preserve the printed item text; do not silently replace it with dry-cleaning machine.
+- id: tesda:housekeeping-nc-ii:anomaly:resources-table-subheading-alignment
+  type: visual_table_alignment_interpretation
+  provenance:
+    printed_page: 58
+    pdf_page: 62
+  source_note: The “Cleaning agents” and “Protective clothing” labels are visually embedded in the right-hand resource table.
+    The normalized file groups chemical products and wearable PPE semantically; consult the PDF for literal placement.
+- id: tesda:housekeeping-nc-ii:anomaly:implementation-note-facilitates
+  type: probable_source_typo
+  provenance:
+    printed_page: 58
+    pdf_page: 62
+  source_excerpt: The implementation note says “high cost of equipment and facilitates”.
+  normalized_interpretation: Likely “facilities”; source wording is retained.
+- id: tesda:housekeeping-nc-ii:anomaly:section-4.1-section-l
+  type: probable_source_typo
+  provenance:
+    printed_page: 60
+    pdf_page: 64
+  source_excerpt: Provision 4.1 refers to “Section l”.
+  normalized_interpretation: Interpret the reference as Section 1 based on document structure; source_text remains unchanged.
+fidelity_overrides:
+- id: tesda:housekeeping-nc-ii:fidelity:intoxicated-pc-2.1-subcriteria
+  type: structural_preservation
+  unit_code: TRS5123122
+  canonical_file: competencies.yaml
+  canonical_selector:
+    field: unit_code
+    value: TRS5123122
+  provenance:
+    printed_page: 50
+    pdf_page: 54
+  normalized_expansion:
+    performance_criterion: '2.1'
+    structure: The source places lettered subpoints a and b beneath PC 2.1; competencies.yaml preserves them as subcriteria
+      rather than flattening them into separate numbered PCs.

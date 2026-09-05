@@ -1,0 +1,103 @@
+schema: tesda-assessment-certification
+schema_version: '1.1'
+qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
+qualification: Housekeeping NC II
+source_heading: SECTION 4 NATIONAL ASSESSMENT AND CERTIFICATION ARRANGEMENTS
+provenance:
+  printed_page: 60
+  pdf_page: 64
+representation_type: semantic_normalized
+verbatim_transcription: false
+provisions:
+- provision_id: assessment:4.1
+  number: '4.1'
+  source_text: To attain the National Qualification of HOUSEKEEPING NC II, the candidate must demonstrate competence in all
+    the units of competency listed in Section l. Successful candidates shall be awarded a National Certificate signed by the
+    TESDA Director General.
+  normalized_rule: National Certificate requires competence in all units listed in Section 1; successful candidates receive
+    a National Certificate signed by the TESDA Director General.
+  fidelity_ref: tesda:housekeeping-nc-ii:anomaly:section-4.1-section-l
+- provision_id: assessment:4.2
+  number: '4.2'
+  source_text: 'The qualification of HOUSEKEEPING NC II may be attained through:'
+  normalized_rule: The qualification may be attained by either full demonstration of required core competencies or accumulation
+    of all specified Certificates of Competency.
+- provision_id: assessment:4.2.1
+  number: 4.2.1
+  source_text: Demonstration of competencies covering all the required core units of qualifications
+  normalized_rule: Demonstrate competencies covering all required core units of the qualification.
+- provision_id: assessment:4.2.2
+  number: 4.2.2
+  source_text: 'Accumulation of Certificates of Competency (COCs) in all the following areas:'
+  normalized_rule: Accumulate COCs in all four specified areas.
+- provision_id: assessment:4.2.2.1
+  number: 4.2.2.1
+  title: Providing Butler Service
+  included_units:
+  - Provide Valet/Butler Service
+  - Deal with/Handle intoxicated guests
+  included_unit_codes:
+  - TRS5123113
+  - TRS5123122
+- provision_id: assessment:4.2.2.2
+  number: 4.2.2.2
+  title: Providing Housekeeping to Guests
+  included_units:
+  - Provide Housekeeping Services to Guests
+  - Clean and Prepare Rooms for Incoming Guests
+  - Deal with/Handle intoxicated guests
+  included_unit_codes:
+  - TRS5123111
+  - TRS5123112
+  - TRS5123122
+- provision_id: assessment:4.2.2.3
+  number: 4.2.2.3
+  title: Cleaning public areas
+  included_units:
+  - Clean Public Areas, Facilities & Equipment
+  - Deal with/Handle intoxicated guests
+  included_unit_codes:
+  - TRS5123115
+  - TRS5123122
+  fidelity_ref: tesda:housekeeping-nc-ii:anomaly:clean-public-areas-unit-code
+- provision_id: assessment:4.2.2.4
+  number: 4.2.2.4
+  title: Providing laundry service
+  included_units:
+  - Laundry linen and guest clothes
+  - Deal with/handle intoxicated guests
+  included_unit_codes:
+  - TRS5123114
+  - TRS5123122
+- provision_id: assessment:4.3
+  number: '4.3'
+  source_text: Assessment shall focus on the core units of competency. The basic and common units shall be integrated or assessed
+    concurrently with the core units.
+  normalized_rule: Assessment focuses on core units; basic and common units are integrated or assessed concurrently with core
+    units.
+- provision_id: assessment:4.4
+  number: '4.4'
+  source_text: 'The following are qualified to apply for assessment and certification:'
+  normalized_rule: Eligibility is defined by subprovisions 4.4.1 and 4.4.2.
+- provision_id: assessment:4.4.1
+  number: 4.4.1
+  source_text: Graduates of formal, non-formal and informal including enterprise-based training programs.
+  normalized_rule: Graduates of formal, non-formal, informal, and enterprise-based training programs may apply.
+- provision_id: assessment:4.4.2
+  number: 4.4.2
+  source_text: Experienced Workers (wage employed or self-employed)
+  normalized_rule: Experienced workers, whether wage-employed or self-employed, may apply.
+- provision_id: assessment:4.5
+  number: '4.5'
+  source_text: The guidelines on assessment and certification are discussed in detail in the "Procedures Manual on Assessment
+    and Certification" and "Guidelines on the Implementation of the Philippine TVET Qualification and Certification System
+    (PTQCS)".
+  normalized_rule: Detailed assessment and certification procedures are governed by the named TESDA manuals/guidelines.
+assessment_focus:
+  core_units: true
+  basic_common_integration: integrated or assessed concurrently with core units
+coc_pathways:
+- 4.2.2.1
+- 4.2.2.2
+- 4.2.2.3
+- 4.2.2.4

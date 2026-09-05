@@ -1,0 +1,141 @@
+{
+  "schema": "tesda-indexed-training-regulation-manifest",
+  "schema_version": "1.1",
+  "document_id": "tesda:tr:trshsk319:revision-01",
+  "qualification": "Housekeeping NC III",
+  "qualification_code": "TRSHSK319",
+  "credential_level": "NC III",
+  "sector": "Tourism Sector (Hotel and Restaurant)",
+  "revision": "01",
+  "promulgated": "2019-10-15",
+  "tesda_board_resolution": "2019-56",
+  "coverage_status": "complete",
+  "representation_type": "semantic_normalized",
+  "verbatim_transcription": false,
+  "revision_history": [
+    {
+      "revision": "00",
+      "document_type": "Document Created",
+      "qualification_title": "Housekeeping NC III",
+      "board_resolution": "2007-41",
+      "date": "2007-11-22",
+      "deployment": "N/A"
+    },
+    {
+      "revision": "01",
+      "document_type": "Document Amended",
+      "qualification_title": "Housekeeping NC III",
+      "board_resolution": "2019-56",
+      "date": "2019-10-15",
+      "source_date_cell": "1015/2019",
+      "deployment": null
+    }
+  ],
+  "lifecycle": {
+    "status": "current",
+    "verified_on": "2026-09-02",
+    "verification_basis": "TESDA Training Regulations portal lists Housekeeping NC III as a current entry; a separate Housekeeping NC III (Superseded) entry is available in TESDA downloads, supporting this 2019 Revision 01 as the current TR."
+  },
+  "source": {
+    "authority": "Technical Education and Skills Development Authority (TESDA)",
+    "official_url": "https://www.tesda.gov.ph/Downloadables/TRs/TR_HOUSEKEEPING_NC%20III.pdf",
+    "training_regulations_portal": "https://www.tesda.gov.ph/Download/Training_Regulations",
+    "repository_path": "resources/Training Regulations/Housekeeping NC III.pdf",
+    "source_sha256": "a20f4d612329d8a17be479648cbdde85baa0f6726ecc6023434d25970df0849c",
+    "printed_pages": 139,
+    "pdf_pages": 143,
+    "authoritative": true
+  },
+  "coverage": {
+    "qualification": true,
+    "occupational_outcomes": true,
+    "competency_standards": {
+      "basic_units": 9,
+      "common_units": 7,
+      "core_units": 4,
+      "total_units": 20,
+      "descriptors": true,
+      "elements": true,
+      "performance_criteria": true,
+      "required_knowledge": true,
+      "required_skills": true,
+      "range_of_variables": true,
+      "evidence_guides": true
+    },
+    "training_standards": {
+      "curriculum_design": true,
+      "learning_outcomes": true,
+      "learning_activities": true,
+      "methodologies": true,
+      "assessment_approaches": true,
+      "nominal_durations": true,
+      "training_delivery": true,
+      "trainee_entry_requirements": true,
+      "tools_equipment_materials": true,
+      "training_facilities": true,
+      "trainer_qualifications": true,
+      "institutional_assessment": true,
+      "supervised_industry_learning": true
+    },
+    "assessment_and_certification": true,
+    "competency_map": true,
+    "glossary": true,
+    "revision_history": true,
+    "acknowledgements": true,
+    "source_anomalies": true
+  },
+  "fidelity": {
+    "qualification": "high",
+    "competency_units": "high",
+    "elements": "high",
+    "performance_criteria": "normalized_semantic",
+    "required_knowledge": "normalized_semantic",
+    "required_skills": "normalized_semantic",
+    "range_of_variables": "normalized_semantic",
+    "evidence_guides": "full_source_normalized_with_fidelity_overrides",
+    "training_standards": "high",
+    "assessment_certification": "normalized_with_source_anomaly_notes",
+    "competency_map": "semantic_relationship_representation",
+    "glossary": "normalized_with_source_anomaly_notes",
+    "acknowledgements": "normalized_entities"
+  },
+  "source_policy": {
+    "official_pdf_is_authoritative": true,
+    "preserve_historical_terminology": true,
+    "do_not_silently_modernize_regulatory_terms": true,
+    "allow_normalized_semantic_text": true,
+    "record_known_source_anomalies": true,
+    "source_fidelity_layer": "source-fidelity.yaml"
+  },
+  "files": {
+    "human_entrypoint": "tr.md",
+    "competency_source": "competencies.yaml",
+    "training_source": "training-standards.yaml",
+    "assessment_source": "assessment-certification.yaml",
+    "competency_map": "competency-map.yaml",
+    "glossary_source": "glossary.yaml",
+    "acknowledgements": "acknowledgements.yaml",
+    "source_fidelity": "source-fidelity.yaml",
+    "retrieval_index": "semantic-index.jsonl"
+  },
+  "retrieval": {
+    "preferred_lookup_key": "unit_code",
+    "index_format": "jsonl",
+    "canonical_formats": [
+      "markdown",
+      "yaml"
+    ],
+    "selector_contract": "semantic-index-v1",
+    "whole_pdf_required_for_normal_lookup": false,
+    "official_pdf_required_for_regulatory_verification": true
+  },
+  "quality_status": {
+    "semantic_coverage_complete": true,
+    "selectors_deterministic": true,
+    "known_source_anomalies_explicit": true,
+    "source_audited": true,
+    "placeholders": false,
+    "pending_transcription": false,
+    "verbatim_transcription": false
+  }
+}

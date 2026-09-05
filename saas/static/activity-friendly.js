@@ -26,9 +26,39 @@
   const stageSummary = make('p', '', 'activity-stage-summary');
   entries.before(tools, status, stageSummary); entries.replaceChildren();
   const empty = make('p', 'No activity yet. Requests will appear when generation begins.', 'muted'); entries.append(empty);
-  const records = [], stages = new Map(), seen = new Set(); let cursor = 0;
-  function applyFilter() { let count = 0; for (const r of records) { r.node.hidden = !((filter.value === 'all' || r.kind === filter.value) && r.search.includes(search.value.toLowerCase())); if (!r.node.hidden) count++; } empty.hidden = count > 0; empty.textContent = records.length ? 'No matching entries. Try another search or filter.' : 'No activity yet. Requests will appear when generation begins.'; }
+  const records = [], liveRecords = new Map(), stages = new Map(), seen = new Set(); let cursor = 0;
+  function formatTelemetry(value) {
+    if (!value || typeof value !== 'object') return '';
+    const exact = Number.isFinite(Number(value.completion_tokens)) ? `${Number(value.completion_tokens)} output tokens` : `~${Number(value.output_tokens_estimate || 0)} output tokens`;
+    const prompt = Number.isFinite(Number(value.prompt_tokens)) ? `${Number(value.prompt_tokens)} prompt tokens` : `~${Number(value.prompt_tokens_estimate || 0)} prompt tokens`;
+    return `${exact} · ${Number(value.output_characters || value.content_characters || 0)} characters · ${Number(value.elapsed_seconds || 0).toFixed(1)}s · ${Number(value.tokens_per_second || 0).toFixed(1)} tokens/s · ${prompt}`;
+  }
+  function applyFilter() { let count = 0; for (const r of [...records, ...liveRecords.values()]) { r.node.hidden = !((filter.value === 'all' || r.kind === filter.value) && r.search.includes(search.value.toLowerCase())); if (!r.node.hidden) count++; } empty.hidden = count > 0; empty.textContent = records.length || liveRecords.size ? 'No matching entries. Try another search or filter.' : 'No activity yet. Requests will appear when generation begins.'; }
   search.addEventListener('input', applyFilter); filter.addEventListener('change', applyFilter);
+  function addLive(event) {
+    const d = event.detail || {}, id = String(d.id || '');
+    if (!id) return;
+    let record = liveRecords.get(id);
+    if (!record) {
+      const box = make('details', undefined, 'llm-entry response live-entry'); box.open = true;
+      const summary = make('summary');
+      summary.append(make('span', 'Live output', 'activity-kind'), make('strong'), make('small'));
+      const stats = make('div', '', 'live-stats');
+      const pre = make('pre', 'Waiting for the first token…', 'activity-readable');
+      box.append(summary, stats, pre); entries.prepend(box);
+      record = {node: box, summary, stats, pre, content: '', kind: 'response', search: ''};
+      liveRecords.set(id, record);
+    }
+    if (d.content_delta) record.content += String(d.content_delta);
+    const location = card.dataset.tool === 'cblm' ? `LO ${d.lo || '?'} · Topic ${d.topic || '?'}` : `Lesson ${d.lesson || '?'} · Week ${d.week || '?'}`;
+    const title = `${location} · ${friendly(d.stage || 'request')} · Attempt ${d.attempt || '?'}`;
+    record.summary.querySelector('strong').textContent = title;
+    record.summary.querySelector('small').textContent = `${friendly(d.status || 'receiving')} · ${new Date(event.created_at).toLocaleString()}`;
+    record.stats.textContent = formatTelemetry(d);
+    record.pre.textContent = record.content || 'Waiting for the first token…';
+    record.search = `${title} ${record.content}`.toLowerCase();
+  }
+
   function add(event) {
     const d = event.detail || {}; if (d.kind !== 'llm') return;
     const identity = `${d.label}:${d.filename}:${d.content}`; if (seen.has(identity)) return; seen.add(identity);
@@ -41,6 +71,7 @@
     summary.append(make('span', {request:'Prompt sent',response:'Response received',diagnostic:'Needs attention'}[kind], 'activity-kind'), make('strong', title), make('small', new Date(event.created_at).toLocaleString())); box.append(summary);
     const content = make('div', undefined, 'activity-content');
     if (value.errors || value.error) { const error = make('div', undefined, 'activity-error'); error.append(make('strong', 'What needs attention')); const list = make('ul'); for (const item of [].concat(value.errors || value.error)) list.append(make('li', typeof item === 'string' ? item : JSON.stringify(item))); error.append(list); content.append(error); }
+    const telemetry = formatTelemetry(value.telemetry || value.usage); if (telemetry) content.append(make('p', telemetry, 'live-stats'));
     const text = value.rejected_text ?? value.extracted_text ?? value.response ?? value.raw_text ?? value.text ?? value.prompt ?? (typeof parsed === 'string' ? parsed : d.content);
     const readable = typeof text === 'string' ? text : JSON.stringify(text, null, 2);
     const copy = make('button', 'Copy '+(kind === 'request' ? 'prompt' : 'response'), 'button secondary'); copy.type = 'button';
@@ -55,7 +86,7 @@
     try {
       const response = await fetch(`${card.dataset.activity}?after=${cursor}`, {cache:'no-store'}); if (!response.ok) throw Error();
       const data = await response.json();
-      for (const event of data.events) { const d = event.detail || {}; if (d.kind === 'stage') { const first = card.dataset.tool === 'cblm' ? d.lo_number : d.lesson_number, second = card.dataset.tool === 'cblm' ? d.topic_number : d.actual_week; stages.set(`${first}:${second}:${d.stage}`, {first,second,...d}); } else add(event); }
+      for (const event of data.events) { const d = event.detail || {}; if (d.kind === 'stage') { const first = card.dataset.tool === 'cblm' ? d.lo_number : d.lesson_number, second = card.dataset.tool === 'cblm' ? d.topic_number : d.actual_week; stages.set(`${first}:${second}:${d.stage}`, {first,second,...d}); } else if (d.kind === 'llm_progress') addLive(event); else add(event); }
       cursor = data.next;
       const rows = document.querySelector('#stage-rows');
       if (stages.size && rows) rows.replaceChildren(...[...stages.values()].map(s => { const row = make('tr'); for (const v of [s.first,s.second,friendly(s.stage),friendly(s.status),s.attempts,s.message]) row.append(make('td', v)); return row; }));
@@ -64,7 +95,7 @@
       applyFilter();
       const stateResponse = await fetch(card.dataset.events.replace('/events','/status'), {cache:'no-store'}); if (!stateResponse.ok) throw Error(); const state = await stateResponse.json();
       const done = ['success','finished','failed','cancelled','paused','review'].includes(state.status);
-      status.textContent = `${records.length} entries · ${done ? 'Saved activity · '+friendly(state.status) : 'Updating automatically'}`;
+      status.textContent = `${records.length + liveRecords.size} entries · ${done ? 'Saved activity · '+friendly(state.status) : 'Updating automatically'}`;
       if (done) return;
     } catch { status.textContent = 'Activity could not refresh. Retrying shortly…'; }
     setTimeout(refresh, 2000);

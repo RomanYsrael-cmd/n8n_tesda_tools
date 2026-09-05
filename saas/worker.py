@@ -27,9 +27,9 @@ if "/cblm" not in sys.path:
     sys.path.insert(0, "/cblm")
 
 
-async def run_with_live_sync(coro, db: SaaSDatabase, local_db, job_id: str, runtime: Path, tool: str, cancel_active=None) -> None:
+async def run_with_live_sync(coro, db: SaaSDatabase, local_db, job_id: str, runtime: Path, tool: str, cancel_active=None, live_for=None) -> None:
     """Run a local engine while copying its safe progress and JSON logs to SaaS."""
-    task = asyncio.create_task(coro); stage_state: dict[str, tuple] = {}; seen_logs: set[str] = set(); cancel_sent = False
+    task = asyncio.create_task(coro); stage_state: dict[str, tuple] = {}; seen_logs: set[str] = set(); live_state: dict[str, dict] = {}; cancel_sent = False
     while not task.done():
         local_job = local_db.get_job(job_id) or {}; stages = local_db.stages(job_id)
         local_message = local_job.get("message") or "Generating documents"
@@ -53,6 +53,41 @@ async def run_with_live_sync(coro, db: SaaSDatabase, local_db, job_id: str, runt
             value = (stage.get("status"), stage.get("attempts"), stage.get("message"))
             if stage_state.get(key) != value:
                 stage_state[key] = value; db.event(job_id, "stage", stage.get("message") or stage.get("stage", "Stage updated"), detail={"kind":"stage","tool":tool, **stage})
+        # Relay compact streaming telemetry while a request is active. Store
+        # only new text since the previous tick so the SaaS event log does not
+        # repeatedly persist the complete response body.
+        if live_for:
+            active_ids: set[str] = set()
+            for live in live_for(job_id):
+                live_id = str(live.get("id") or "")
+                if not live_id:
+                    continue
+                active_ids.add(live_id)
+                previous = live_state.get(live_id, {})
+                content = str(live.get("content") or "")
+                previous_length = int(previous.get("content_length", 0))
+                delta = content[previous_length:] if previous_length <= len(content) else content
+                snapshot = {
+                    "kind": "llm_progress", "id": live_id,
+                    "label": "response", "status": live.get("status", "receiving"),
+                    "lesson": live.get("lesson"), "week": live.get("week"),
+                    "lo": live.get("lo"), "topic": live.get("topic"),
+                    "stage": live.get("stage"), "attempt": live.get("attempt"),
+                    "request_id": live.get("request_id", ""),
+                    "content_delta": delta,
+                    "output_characters": live.get("output_characters", len(content)),
+                    "output_tokens_estimate": live.get("output_tokens_estimate", 0),
+                    "prompt_characters": live.get("prompt_characters", 0),
+                    "prompt_tokens_estimate": live.get("prompt_tokens_estimate", 0),
+                    "reasoning_characters": live.get("reasoning_characters", 0),
+                    "elapsed_seconds": live.get("elapsed_seconds", 0),
+                    "tokens_per_second": live.get("tokens_per_second", 0),
+                    "usage": live.get("usage"),
+                }
+                signature = tuple(snapshot.get(key) for key in ("status", "output_characters", "output_tokens_estimate", "elapsed_seconds", "tokens_per_second", "request_id", "usage"))
+                if delta or signature != previous.get("signature"):
+                    db.event(job_id, "llm_progress", f"Live LLM output: {live.get('stage', 'request')}", detail=snapshot)
+                live_state[live_id] = {"content_length": len(content), "signature": signature}
         for folder in (runtime / "JSON Dump" / "Success", runtime / "JSON Dump" / "Failed"):
             if not folder.exists(): continue
             for path in folder.glob(f"{job_id}*.json"):
@@ -134,7 +169,7 @@ def generate(db: SaaSDatabase, store: ObjectStore, cfg, job: dict, source: Path,
         if not (folder / source.name).exists(): shutil.copy2(source, folder / source.name)
         settings = Settings(data_root=runtime, template=Path("/templates/Module Template.docx"), use_n8n=False).resolved()
         service = GenerationService(settings, local_db, provider)
-        asyncio.run(run_with_live_sync(service.run_auto(job_id), db, local_db, job_id, runtime, "module", lambda: service.cancel_active_requests(job_id)))
+        asyncio.run(run_with_live_sync(service.run_auto(job_id), db, local_db, job_id, runtime, "module", lambda: service.cancel_active_requests(job_id), service.live_for))
         result = local_db.get_job(job_id)
         if result["status"] in {JobStatus.CANCELLED, JobStatus.PAUSED}:
             db_status = "cancelled" if result["status"] == JobStatus.CANCELLED else "paused"
@@ -157,7 +192,7 @@ def generate(db: SaaSDatabase, store: ObjectStore, cfg, job: dict, source: Path,
         folder=cblm_dir(runtime,job_id,"approved"); folder.mkdir(parents=True, exist_ok=True)
         if not (folder/source.name).exists(): shutil.copy2(source,folder/source.name)
         service=CBLMGenerationService(runtime,Path("/cblm/Templates"),Path("/cblm/Prompts.xlsx"),local_db,provider)
-        asyncio.run(run_with_live_sync(service.run(job_id), db, local_db, job_id, runtime, "cblm", lambda: service.cancel_active_requests(job_id))); result=local_db.get_job(job_id)
+        asyncio.run(run_with_live_sync(service.run(job_id), db, local_db, job_id, runtime, "cblm", lambda: service.cancel_active_requests(job_id), service.live_for)); result=local_db.get_job(job_id)
         if result["status"] in {"paused", "cancelled"}:
             db_status = result["status"]
             db.update(job_id, status=db_status, stage="generation", message="Stopped after the current request; completed work was preserved", error=None)

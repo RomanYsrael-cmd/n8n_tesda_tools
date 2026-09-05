@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import asyncio
 import json
+import math
+import time
 from pathlib import Path
 
 from app.validation import render_verify
@@ -14,15 +16,31 @@ from .schemas import CBLMPlan
 from .storage import dump, job_dir, transition
 
 
+def _token_estimate(characters: int) -> int:
+    """Conservative display estimate for providers that omit tokenizer usage."""
+    return math.ceil(max(0, characters) / 4)
+
+
 class CBLMGenerationService:
     def __init__(self, root: Path, templates: Path, prompts: Path, db, provider_factory):
         self.root, self.templates, self.db, self.provider_factory = root, templates, db, provider_factory
         self.catalog = PromptCatalog.load(prompts)
         self.tasks: dict[str, asyncio.Task] = {}
         self.live_activity: dict[str, dict[str, dict]] = {}
+        self._live_started: dict[str, float] = {}
         self._active_providers: dict[str, dict[int, object]] = {}
 
     def live_for(self, job_id: str):
+        # Keep elapsed time moving during quiet provider/thinking periods.
+        now = time.monotonic()
+        for item in self.live_activity.get(job_id, {}).values():
+            started = self._live_started.get(f"{job_id}:{item.get('id')}")
+            if started is None:
+                continue
+            elapsed = max(now - started, 0.001)
+            output_tokens = _token_estimate(int(item.get("output_characters") or len(item.get("content") or "")))
+            item["elapsed_seconds"] = round(elapsed, 2)
+            item["tokens_per_second"] = round(output_tokens / elapsed, 2)
         return list(self.live_activity.get(job_id, {}).values())
 
     def _track_provider(self, job_id: str, provider) -> None:
@@ -103,37 +121,69 @@ class CBLMGenerationService:
             })
             try:
                 live_key = f"lo-{lo}-topic-{topic}-{stage}-{attempt}"
+                started = time.monotonic()
                 live = {"id": live_key, "lo": lo, "topic": topic, "stage": stage,
-                        "attempt": attempt, "status": "receiving", "content": ""}
+                        "attempt": attempt, "status": "connecting", "content": "",
+                        "prompt_characters": len(prompt),
+                        "prompt_tokens_estimate": _token_estimate(len(prompt)),
+                        "output_characters": 0, "output_tokens_estimate": 0,
+                        "reasoning_characters": 0, "elapsed_seconds": 0.0,
+                        "tokens_per_second": 0.0, "request_id": "", "usage": None}
                 job_live = self.live_activity.setdefault(job_id, {})
                 job_live[live_key] = live
+                self._live_started[f"{job_id}:{live_key}"] = started
+
+                def update_telemetry():
+                    elapsed = max(time.monotonic() - started, 0.001)
+                    output_characters = len(live["content"])
+                    output_tokens = _token_estimate(output_characters)
+                    live["elapsed_seconds"] = round(elapsed, 2)
+                    live["output_characters"] = output_characters
+                    live["output_tokens_estimate"] = output_tokens
+                    live["tokens_per_second"] = round(output_tokens / elapsed, 2)
 
                 def receive_token(token: str):
+                    live["status"] = "receiving"
                     live["content"] += token
+                    update_telemetry()
+
+                def receive_progress(info: dict):
+                    if info.get("qwen_request_id"):
+                        live["request_id"] = info["qwen_request_id"]
+                    if info.get("reasoning_characters") is not None:
+                        live["reasoning_characters"] = int(info.get("reasoning_characters") or 0)
+                    if info.get("usage"):
+                        live["usage"] = dict(info["usage"])
+                    update_telemetry()
 
                 self._track_provider(job_id, provider)
                 try:
-                    raw = await provider.complete_text(prompt, max_attempts=1, on_token=receive_token)
+                    raw = await provider.complete_text(prompt, max_attempts=1, on_token=receive_token,
+                                                       on_progress=receive_progress)
                 finally:
                     self._untrack_provider(job_id, provider)
+                update_telemetry()
                 live["status"] = "validating"
-                dump(self.root, True, f"{job_id}-lo{lo}-topic{topic}-{stage}-response-{attempt}", {"response": raw})
+                dump(self.root, True, f"{job_id}-lo{lo}-topic{topic}-{stage}-response-{attempt}", {"response": raw, "telemetry": dict(live) | {"content": ""}})
                 value = parser(raw) if parser else clean_response(raw)
                 if not value:
                     raise ValueError("The provider returned empty content")
                 self.db.upsert_stage(job_id, lo, topic, stage, "success", "Complete")
                 job_live.pop(live_key, None)
+                self._live_started.pop(f"{job_id}:{live_key}", None)
                 return value
             except ProviderCancelled:
                 if 'live' in locals():
                     live["status"] = "cancelled"
                     job_live.pop(live_key, None)
+                    self._live_started.pop(f"{job_id}:{live_key}", None)
                 raise
             except Exception as exc:
                 if 'live' in locals():
                     live["status"] = "rejected"
                     job_live.pop(live_key, None)
-                dump(self.root, False, f"{job_id}-lo{lo}-topic{topic}-{stage}-failed-{attempt}", {"errors": [str(exc)], "rejected_text": raw, "prompt": prompt})
+                    self._live_started.pop(f"{job_id}:{live_key}", None)
+                dump(self.root, False, f"{job_id}-lo{lo}-topic{topic}-{stage}-failed-{attempt}", {"errors": [str(exc)], "rejected_text": raw, "prompt": prompt, "telemetry": dict(live) | {"content": ""} if 'live' in locals() else {}})
                 self.db.upsert_stage(job_id, lo, topic, stage, "retrying" if attempt < 3 else "failed", str(exc))
                 if attempt == 3:
                     raise

@@ -1,0 +1,150 @@
+{
+  "schema": "tesda-indexed-training-regulation-manifest",
+  "schema_version": "1.1",
+  "document_id": "tesda:tr:housekeeping-nc-ii:2013-12-amended",
+  "qualification": "Housekeeping NC II",
+  "qualification_code": null,
+  "qualification_code_source_note": "No qualification-level code is printed in this Training Regulation; unit-of-competency codes are provided.",
+  "credential_level": "NC II",
+  "sector": "Tourism Sector (Hotel and Restaurant)",
+  "promulgated": "2013-12",
+  "revision_status": "Amended",
+  "revision_history": [
+    {
+      "status": "Amended",
+      "promulgated": "2013-12",
+      "prior_revision_details": null,
+      "source_note": "The document identifies itself as Amended and promulgated December 2013; it does not print a chronology of prior revisions."
+    }
+  ],
+  "coverage_status": "complete",
+  "representation_type": "semantic_normalized",
+  "verbatim_transcription": false,
+  "lifecycle": {
+    "status": "current",
+    "verified_on": "2026-09-02",
+    "verification_basis": "TESDA’s current Training Regulations portal lists Housekeeping NC II without a “Superseded” label, and the portal links the December 2013 amended official PDF.",
+    "portal_url": "https://www.tesda.gov.ph/Download/Training_Regulations"
+  },
+  "source": {
+    "authority": "Technical Education and Skills Development Authority (TESDA)",
+    "official_url": "https://www.tesda.gov.ph/Downloadables/TR%20Housekeeping%20NC%20II.pdf",
+    "repository_path": "resources/Training Regulations/Housekeeping NC II.pdf",
+    "repository_blob_sha": "853866dcef6b8aa67d1bf63a8ea89dae1e1b6baf",
+    "sha256": "4c1b23cdbed2f1d170e6d6de23d283f9a606a8959b2591386be84084a40fe970",
+    "printed_pages": 63,
+    "pdf_pages_physical": 70,
+    "pdf_pages_content": 67,
+    "front_matter_pdf_pages": 4,
+    "trailing_blank_pdf_pages": 3,
+    "authoritative": true,
+    "repository_source_matches_uploaded_source": true
+  },
+  "coverage": {
+    "qualification": {
+      "covered": true,
+      "occupational_outcomes": true,
+      "qualification_code": "absent_in_source",
+      "sector": true,
+      "credential_level": true,
+      "promulgation_revision": true
+    },
+    "competency_standards": {
+      "covered": true,
+      "basic_units": 4,
+      "common_units": 5,
+      "core_units": 6,
+      "total_units": 15,
+      "unit_descriptors": true,
+      "elements": true,
+      "performance_criteria": true,
+      "required_knowledge": "covered_in_evidence_guides_where present",
+      "required_skills": "covered_in_evidence_guides_where_present",
+      "range_of_variables": true,
+      "evidence_guides": true
+    },
+    "training_standards": {
+      "covered": true,
+      "curriculum_design": true,
+      "all_competency_curriculum_entries": 15,
+      "training_delivery": true,
+      "trainee_entry_requirements": true,
+      "tools_equipment_materials": true,
+      "training_facilities": true,
+      "trainer_qualifications": true,
+      "institutional_assessment": true,
+      "supervised_industry_learning": "present_as delivery modality not separate required duration"
+    },
+    "assessment_and_certification": {
+      "covered": true,
+      "all_numbered_provisions": true,
+      "coc_pathways": true
+    },
+    "competency_map": true,
+    "glossary": {
+      "covered": true,
+      "term_count": 8
+    },
+    "revision_history": {
+      "covered": true,
+      "source_limit": "Document is labeled Amended and promulgated December 2013; no prior revision chronology is printed."
+    },
+    "acknowledgements": true,
+    "source_anomalies": true
+  },
+  "fidelity": {
+    "qualification": "high",
+    "competency_units": "high",
+    "elements": "high",
+    "performance_criteria": "source_wording_with_layout_normalization",
+    "range_of_variables": "source_wording_structured",
+    "evidence_guides": "complete_source_semantics_structured",
+    "training_standards": "high",
+    "assessment_certification": "source_text_plus_normalized_rules",
+    "competency_map": "semantic_relationship_representation",
+    "glossary": "source_wording_with_layout_normalization",
+    "acknowledgements": "normalized_entities_with_postal_addresses_omitted"
+  },
+  "source_policy": {
+    "official_pdf_is_authoritative": true,
+    "preserve_historical_terminology": true,
+    "do_not_silently_modernize_regulatory_terms": true,
+    "allow_normalized_semantic_text": true,
+    "record_known_source_anomalies": true,
+    "source_fidelity_layer": "source-fidelity.yaml"
+  },
+  "files": {
+    "readme": "README.md",
+    "human_entrypoint": "tr.md",
+    "competency_source": "competencies.yaml",
+    "training_source": "training-standards.yaml",
+    "assessment_source": "assessment-certification.yaml",
+    "competency_map": "competency-map.yaml",
+    "glossary_source": "glossary.yaml",
+    "acknowledgements": "acknowledgements.yaml",
+    "source_fidelity": "source-fidelity.yaml",
+    "retrieval_index": "semantic-index.jsonl"
+  },
+  "retrieval": {
+    "preferred_lookup_key": "unit_code",
+    "index_format": "jsonl",
+    "canonical_formats": [
+      "markdown",
+      "yaml",
+      "jsonl",
+      "json"
+    ],
+    "selector_contract": "semantic-index-v1",
+    "whole_pdf_required_for_normal_lookup": false,
+    "official_pdf_required_for_regulatory_verification": true
+  },
+  "quality_status": {
+    "complete_semantic_coverage": true,
+    "placeholders": false,
+    "pending_transcription": false,
+    "module_builder_usable": true,
+    "small_llm_rag_usable": true,
+    "n8n_python_deterministic_retrieval": true,
+    "official_pdf_still_authoritative": true
+  }
+}

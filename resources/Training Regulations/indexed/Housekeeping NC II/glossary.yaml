@@ -1,0 +1,38 @@
+schema: tesda-glossary
+schema_version: '1.0'
+qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
+qualification: Housekeeping NC II
+source_heading: DEFINITION OF TERMS
+provenance:
+  printed_page: 62
+  pdf_page: 66
+representation_type: semantic_normalized
+verbatim_transcription: false
+terms:
+- term_id: glossary:protective-clothing
+  term: Protective Clothing
+  definition: used to safeguard a worker from harmful chemicals and other cleaning supplies and equipment; examples include
+    gloves, face masks, aprons and rubber boots
+- term_id: glossary:caddy
+  term: Caddy
+  definition: used to carry different kinds of cleaning materials
+- term_id: glossary:carpet-sweeper
+  term: Carpet Sweeper
+  definition: A handy type of sweeper used to pick-up dirt and foreign matters from the carpet surface
+- term_id: glossary:disinfectant
+  term: Disinfectant
+  definition: Chemical used to eliminate the growth of disease and odor-causing germs and bacteria
+- term_id: glossary:squeegee
+  term: Squeegee
+  definition: Hand-held tool used to clean glass windows and doors
+- term_id: glossary:lodging-agreement
+  term: Lodging Agreement
+  definition: House rules as defined by the establishments
+- term_id: glossary:contact-list
+  term: Contact List
+  definition: Directory of establishments and services around the area such as churches, restaurants, hospitals, and jogging
+    routes
+- term_id: glossary:customer-preference-profiles
+  term: Customer Preference Profiles
+  definition: Information pertaining to guest and his/her preferences such as dietary requirements, birthday, religion, and
+    contact details

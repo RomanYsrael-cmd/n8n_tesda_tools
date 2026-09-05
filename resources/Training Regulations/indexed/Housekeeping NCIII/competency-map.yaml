@@ -1,0 +1,174 @@
+schema: tesda-competency-map
+schema_version: '1.1'
+document_id: tesda:tr:trshsk319:revision-01
+qualification: Housekeeping NC III
+source_heading: COMPETENCY MAP - TOURISM Sector (Hotel and Restaurant) HOUSEKEEPING NC III
+representation_type: semantic_relationship_representation
+provenance:
+  printed_pages:
+  - 132
+  - 134
+  pdf_pages:
+  - 136
+  - 138
+basic:
+  qualification_units:
+  - unit_code: '400311319'
+    title: Lead workplace communication
+  - unit_code: '400311320'
+    title: Lead small teams
+  - unit_code: '400311321'
+    title: Apply critical thinking and problem-solving techniques in the workplace
+  - unit_code: '400311322'
+    title: Work in a diverse environment
+  - unit_code: '400311323'
+    title: Propose methods of applying learning and innovation in the organization
+  - unit_code: '400311324'
+    title: Use information systematically
+  - unit_code: '400311325'
+    title: Evaluate occupational safety and health work practices
+  - unit_code: '400311326'
+    title: Evaluate environmental work practices
+  - unit_code: '400311327'
+    title: Facilitate entrepreneurial skills for micro-small-medium enterprises (MSMEs)
+  progression_rows:
+  - relationship: adjacent_higher_row_1
+    competencies:
+    - Utilize specialize specialized communication skill
+    - Develop and lead teams
+    - Perform higher order thinking processes and apply techniques in the workplace
+    - Contribute to the practice of social justice in the workplace
+    - Manage innovative work instructions
+    - Manage and evaluate usage of information
+    - Lead in improvement of Occupational Safety and Health Program, Policies and Procedures
+    - Lead towards improvement of environmental work programs, policies and procedures
+    - Sustain entrepreneurial skills
+    source_printed_page: 133
+  - relationship: adjacent_higher_row_2
+    competencies:
+    - Manage and sustain effective communication strategies
+    - Manage and sustain high performing teams
+    - Evaluate higher order thinking skills and adjust problem solving techniques
+    - Advocate strategic thinking for global citizenship
+    - Incorporate innovation into work procedures
+    - Develop systems in managing, and maintaining information
+    - Manage implementation of OSH programs in the workplace
+    - Manage implementation of environmental program in the workplace
+    - Develop and sustain a high-performing enterprise
+    source_printed_page: 133
+  - relationship: qualification_row
+    competencies:
+    - Lead workplace communication
+    - Lead small teams
+    - Apply critical thinking and problem-solving techniques in the workplace
+    - Work in a diverse environment
+    - Propose methods of applying learning and innovation in the organization
+    - Use information systematically
+    - Evaluate occupational safety and health work practices
+    - Evaluate environmental work practices
+    - Facilitate entrepreneurial skills for micro-small-medium enterprises (MSMEs)
+    source_printed_page: 132
+  - relationship: adjacent_lower_row_1
+    competencies:
+    - Receive and respond to workplace communication
+    - Work with others
+    - Solve/address routine problems
+    - Enhance self-management skills
+    - Support Innovation
+    - Access and maintain information
+    - Follow occupational safety and health policies and procedures
+    - Apply environmental work standards
+    - Adopt entrepreneurial mindset in the workplace
+    source_printed_page: 132
+  - relationship: adjacent_lower_row_2
+    competencies:
+    - Participate in workplace communication
+    - Work in Team Environment
+    - Solve/address general workplace problems
+    - Develop career and life decisions
+    - Contribute to workplace innovation
+    - Present relevant information
+    - Practice occupational safety and health policies and procedures
+    - Exercise efficient and effective sustainable practices in the workplace
+    - Practice entrepreneurial skills in the workplace
+    source_printed_page: 132
+  fidelity_ref: tesda:tr:trshsk319:revision-01:fidelity:competency-map:basic-duplicate-wording
+common:
+  qualification_units:
+  - unit_code: TRS141201
+    title: Receive and resolve customer complaints
+  - unit_code: TRS141202
+    title: Work cooperatively in a general administration environment
+  - unit_code: TRS141203
+    title: Maintain quality customer/guest service
+  - unit_code: TRS141204
+    title: Roster staff
+  - unit_code: TRS141205
+    title: Control and order stock
+  - unit_code: TRS141206
+    title: Prepare and deliver training sessions
+  - unit_code: TRS141207
+    title: Plan, conduct and evaluate staff performance assessment
+  progression_rows:
+  - relationship: qualification_row
+    competencies:
+    - Receive and resolve customer complaints
+    - Work cooperatively in a general administration environment
+    - Maintain quality customer/guest service
+    - Roster staff
+    - Control and order stock
+    - Prepare and deliver training sessions
+    - Plan, conduct and evaluate staff performance assessment
+  - relationship: adjacent_row_1
+    competencies:
+    - Maintain hospitality industry knowledge
+    - Perform child protection duties relevant to the tourism industry
+    - Develop and supervise operational approaches
+    - Manage quality customer service
+    - Manage finances within a budget
+    - Plan and implement a series of training events
+    - Use the assessment system for training outcomes
+  - relationship: adjacent_row_2
+    competencies:
+    - Develop and update tourism industry knowledge
+    - Develop protective environments for children in tourism destinations
+    - Establish and maintain a business relationship
+    - Gather and present product information
+    - Maintain quality customer/guest service
+    - Manage and resolve conflict situations
+    - Manage financial performance within a budget
+    - Monitor and evaluate the effectiveness of training outcome
+    - Evaluate the effectiveness of assessment system
+core:
+  qualification_units:
+  - unit_code: TRS515301
+    title: Supervise room cleaning and maintenance requirement
+  - unit_code: TRS515302
+    title: Supervise housekeeping services to guests
+  - unit_code: TRS515303
+    title: Implement lost and found procedures
+  - unit_code: TRS515304
+    title: Supervise laundry of linen, uniform and guest clothes
+  progression_rows:
+  - relationship: adjacent_row_1
+    competencies:
+    - Provide housekeeping services to guests
+    - Clean and prepare rooms for incoming guests
+    - Provide valet/butler service
+    - Laundry linen and guest clothes
+    - Clean public areas, facilities and equipment
+  - relationship: qualification_row
+    competencies:
+    - Supervise room cleaning and maintenance requirement
+    - Supervise housekeeping services to guests
+    - Implement lost and found procedures
+    - Supervise laundry of linen, uniform and guest clothes
+  - relationship: adjacent_row_2
+    competencies:
+    - Plan and schedule routine maintenance, repairs of physical assets
+    - Plan and manage housekeeping services for guests
+    - Manage lost and found procedures
+    - Manage inventory, storage and issuance of linen and uniforms
+    - Manage laundry/valet Service
+note: The printed competency map is a visual matrix. This file preserves qualification membership and meaningful
+  adjacent/progression groupings semantically rather than attempting a visual transcription.

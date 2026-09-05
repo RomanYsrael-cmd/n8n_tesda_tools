@@ -33,3 +33,40 @@ jobs:
           docker push "$IMAGE"
           docker tag tesda-tools:test "ghcr.io/${GITHUB_REPOSITORY,,}:latest"
           docker push "ghcr.io/${GITHUB_REPOSITORY,,}:latest"
+
+  deploy-production:
+    name: Deploy SaaS production
+    needs: test-build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: tesda-saas-production
+      cancel-in-progress: false
+    steps:
+      - name: Configure deployment SSH
+        env:
+          TESDA_DEPLOY_HOST: ${{ secrets.TESDA_DEPLOY_HOST }}
+          TESDA_DEPLOY_PORT: ${{ secrets.TESDA_DEPLOY_PORT || '22' }}
+          TESDA_DEPLOY_SSH_KEY: ${{ secrets.TESDA_DEPLOY_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          test -n "$TESDA_DEPLOY_HOST" || { echo 'Missing TESDA_DEPLOY_HOST repository secret.' >&2; exit 1; }
+          test -n "$TESDA_DEPLOY_SSH_KEY" || { echo 'Missing TESDA_DEPLOY_SSH_KEY repository secret.' >&2; exit 1; }
+          mkdir -p "$HOME/.ssh"
+          chmod 700 "$HOME/.ssh"
+          printf '%s\n' "$TESDA_DEPLOY_SSH_KEY" > "$HOME/.ssh/id_ed25519"
+          chmod 600 "$HOME/.ssh/id_ed25519"
+          ssh-keyscan -T 10 -p "$TESDA_DEPLOY_PORT" -H "$TESDA_DEPLOY_HOST" >> "$HOME/.ssh/known_hosts"
+          chmod 644 "$HOME/.ssh/known_hosts"
+
+      - name: Pull and restart SaaS services
+        env:
+          TESDA_DEPLOY_HOST: ${{ secrets.TESDA_DEPLOY_HOST }}
+          TESDA_DEPLOY_PORT: ${{ secrets.TESDA_DEPLOY_PORT || '22' }}
+          TESDA_DEPLOY_USER: ${{ secrets.TESDA_DEPLOY_USER }}
+        run: |
+          set -euo pipefail
+          test -n "$TESDA_DEPLOY_USER" || { echo 'Missing TESDA_DEPLOY_USER repository secret.' >&2; exit 1; }
+          IMAGE="ghcr.io/${GITHUB_REPOSITORY,,}:${GITHUB_SHA}"
+          ssh -o BatchMode=yes -o StrictHostKeyChecking=yes -p "$TESDA_DEPLOY_PORT" "$TESDA_DEPLOY_USER@$TESDA_DEPLOY_HOST" \
+            "cd /opt/tesda-saas/app && TESDA_IMAGE='$IMAGE' sh launcher/scripts/deploy-saas.sh"

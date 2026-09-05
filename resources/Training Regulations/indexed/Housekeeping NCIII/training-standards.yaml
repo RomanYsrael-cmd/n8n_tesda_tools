@@ -1,0 +1,2651 @@
+schema: tesda-training-standards
+schema_version: '1.1'
+document_id: tesda:tr:trshsk319:revision-01
+qualification: Housekeeping NC III
+section: SECTION 3 TRAINING ARRANGEMENTS
+representation_type: semantic_normalized
+curriculum_design:
+  record_id: tesda:tr:trshsk319:revision-01:training:curriculum-design
+  provenance:
+    printed_pages:
+    - 103
+    - 125
+    pdf_pages:
+    - 107
+    - 129
+  course_title_source: HOUSEKEEPING NC
+  course_level: III
+  normalized_course_title: Housekeeping NC III
+  contextual_learning_matrix:
+    required: true
+    source_text_normalized: Delivery of knowledge requirements for the basic, common and core units of competency
+      specifically in the areas of mathematics, science/technology, communication/language and other academic subjects
+      shall be contextualized. TVET providers shall develop a Contextual Learning Matrix (CLM) to accompany their
+      curricula.
+  nominal_duration:
+    basic_hours: 40.0
+    common_hours: 96.0
+    core_hours: 64.0
+    sub_total_hours: 200.0
+    supervised_industry_learning_hours: 64.0
+    total_hours: 264.0
+    source_text: 40 Hours (Basic); 96 Hours (Common); 64 Hours (Core); 200 Hours + 64 Hours - Supervised Industry
+      Learning (SIL); 264 Hours
+  course_description_source: This course is designed to enhance the knowledge, skills, and attitudes in accordance
+    with industry standards. This covers competencies that a person must achieve in performing tasks such as supervising
+    room cleaning and maintenance requirement, housekeeping services to guests, laundry guests’ clothes and lines
+    as well as implementing lost and found procedures.
+  course_description_normalized: This course is designed to enhance the knowledge, skills, and attitudes in accordance
+    with industry standards. This covers competencies that a person must achieve in performing tasks such as supervising
+    room cleaning and maintenance requirement, housekeeping services to guests, laundry guests’ clothes and linens
+    as well as implementing lost and found procedures.
+  course_description_fidelity_ref: tesda:tr:trshsk319:revision-01:fidelity:training:course-description
+  completion_expectation: Upon completion of the course, the learners are expected to demonstrate the above-mentioned
+    competencies to be employed. To obtain this, all units prescribed for this qualification must be achieved.
+  units:
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311319
+    group: basic
+    unit_code: '400311319'
+    unit_title: Lead workplace communication
+    source_unit_title: 1. Lead workplace communication
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311319:lo:1.1
+      source_number: '1.1'
+      title: Communicate information about workplace processes
+      learning_activities_source: • Read o Effective verbal communication methods o Sources of information • Practice
+        organizing information • Identify organization requirements for written and electronic communication methods
+        • Follow organization requirements for the use of written and electronic communication methods • Perform
+        exercises on understanding and conveying intended meaning scenario
+      methodologies_source: • Lecture • Demonstration • Practical exercises • Role Play
+      assessment_approach_source: • Written Test • Observation
+      source_duration: 2 Hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 104
+        - 104
+        pdf_pages:
+        - 108
+        - 108
+      learning_activities:
+      - Read o Effective verbal communication methods o Sources of information
+      - Practice organizing information
+      - Identify organization requirements for written and electronic communication methods
+      - Follow organization requirements for the use of written and electronic communication methods
+      - Perform exercises on understanding and conveying intended meaning scenario
+      methodologies:
+      - Lecture
+      - Demonstration
+      - Practical exercises
+      - Role Play
+      assessment_methods:
+      - Written Test
+      - Observation
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311319:lo:1.2
+      source_number: '1.2'
+      title: Lead workplace discussions
+      learning_activities_source: '• Describe: o Organizational policy on production, quality and safety o Goals/
+        objectives and action plan setting • Read o Effective verbal communication methods • Prepare/set action
+        plans based on organizational goals and objectives'
+      methodologies_source: • Group discussion • Lecture • Demonstration
+      assessment_approach_source: • Oral evaluation • Written Test • Observation
+      source_duration: 2 Hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 104
+        - 104
+        pdf_pages:
+        - 108
+        - 108
+      learning_activities:
+      - 'Describe: o Organizational policy on production, quality and safety o Goals/ objectives and action plan
+        setting'
+      - Read o Effective verbal communication methods
+      - Prepare/set action plans based on organizational goals and objectives
+      methodologies:
+      - Group discussion
+      - Lecture
+      - Demonstration
+      assessment_methods:
+      - Oral evaluation
+      - Written Test
+      - Observation
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311319:lo:1.3
+      source_number: '1.3'
+      title: Identify and communicate issues arising in the workplace
+      learning_activities_source: '• Describe: o Organizational policy in dealing with issues and problems • Read
+        • Effective verbal communication methods'
+      methodologies_source: • Group discussion • Lecture
+      assessment_approach_source: • Oral evaluation • Written Test
+      source_duration: 2 Hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 104
+        - 104
+        pdf_pages:
+        - 108
+        - 108
+      learning_activities:
+      - 'Describe: o Organizational policy in dealing with issues and problems'
+      - Read
+      - Effective verbal communication methods
+      methodologies:
+      - Group discussion
+      - Lecture
+      assessment_methods:
+      - Oral evaluation
+      - Written Test
+    provenance:
+      printed_pages:
+      - 104
+      - 104
+      pdf_pages:
+      - 108
+      - 108
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311320
+    group: basic
+    unit_code: '400311320'
+    unit_title: Lead small teams
+    source_unit_title: 2. Lead small teams
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311320:lo:2.1
+      source_number: '2.1'
+      title: Provide team leadership
+      learning_activities_source: • Discussion of Company policies and procedures • Read web pages on situational
+        leadership • Role play on situational leadership
+      methodologies_source: • Group work • Role Play • Lecture/ Discussion • Individual Work
+      assessment_approach_source: • Role Play • Written Test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 105
+        - 105
+        pdf_pages:
+        - 109
+        - 109
+      learning_activities:
+      - Discussion of Company policies and procedures
+      - Read web pages on situational leadership
+      - Role play on situational leadership
+      methodologies:
+      - Group work
+      - Role Play
+      - Lecture/ Discussion
+      - Individual Work
+      assessment_methods:
+      - Role Play
+      - Written Test
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311320:lo:2.2
+      source_number: '2.2'
+      title: Assign responsibilities
+      learning_activities_source: • Read web pages on performance management • Case study on allocating roles and
+        responsibilities based on competencies of current staff
+      methodologies_source: • Individual Work • Case Study
+      assessment_approach_source: • Role Play • Written Test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 105
+        - 105
+        pdf_pages:
+        - 109
+        - 109
+      learning_activities:
+      - Read web pages on performance management
+      - Case study on allocating roles and responsibilities based on competencies of current staff
+      methodologies:
+      - Individual Work
+      - Case Study
+      assessment_methods:
+      - Role Play
+      - Written Test
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311320:lo:2.3
+      source_number: '2.3'
+      title: Set performance expectations for team members
+      learning_activities_source: • Role play to communicate performance expectations with staff • Discussion on
+        performance issues
+      methodologies_source: • Lecture/ Discussion • Role Play
+      assessment_approach_source: • Role Play • Written Test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 105
+        - 105
+        pdf_pages:
+        - 109
+        - 109
+      learning_activities:
+      - Role play to communicate performance expectations with staff
+      - Discussion on performance issues
+      methodologies:
+      - Lecture/ Discussion
+      - Role Play
+      assessment_methods:
+      - Role Play
+      - Written Test
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311320:lo:2.4
+      source_number: '2.4'
+      title: Supervise team performance
+      learning_activities_source: • Discussion on performance monitoring • Role play on providing feedback on performance
+        • Role play on performance coaching • Discussion on keeping the team informed of team performance • Case
+        study on Team performance monitoring and feedback
+      methodologies_source: • Lecture/ Discussion • Role Play • Case Study
+      assessment_approach_source: • Role Play • Written Test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 105
+        - 105
+        pdf_pages:
+        - 109
+        - 109
+      learning_activities:
+      - Discussion on performance monitoring
+      - Role play on providing feedback on performance
+      - Role play on performance coaching
+      - Discussion on keeping the team informed of team performance
+      - Case study on Team performance monitoring and feedback
+      methodologies:
+      - Lecture/ Discussion
+      - Role Play
+      - Case Study
+      assessment_methods:
+      - Role Play
+      - Written Test
+    provenance:
+      printed_pages:
+      - 105
+      - 105
+      pdf_pages:
+      - 109
+      - 109
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311321
+    group: basic
+    unit_code: '400311321'
+    unit_title: Apply critical thinking and problem-solving techniques in the workplace
+    source_unit_title: 3. Apply critical thinking and problem-solving techniques in the workplace
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311321:lo:3.1
+      source_number: '3.1'
+      title: Examine specific workplace strategies
+      learning_activities_source: • Show thorough knowledge and understanding of the process, normal operating parameters,
+        and product quality to recognize non-standard situations • Show mastery of the current industry hardware
+        and software products and services • Discuss process of identification of fundamental causes of specific
+        workplace challenges • Show mastery of knowledge and understanding of the process, normal operating parameters,
+        and product quality to recognize non-standard situations - Relevant equipment and operational processes
+        - Enterprise goals, targets and measures - Enterprise quality OHS and environmental requirement - Enterprise
+        information systems and data collation - Industry codes and standards
+      methodologies_source: • Group discussion • Lecture • Demonstration • Role playing
+      assessment_approach_source: • Case Formulation • Life Narrative Inquiry (Interview) • Standardized test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 105
+        - 106
+        pdf_pages:
+        - 109
+        - 110
+      learning_activities:
+      - Show thorough knowledge and understanding of the process, normal operating parameters, and product quality
+        to recognize non-standard situations
+      - Show mastery of the current industry hardware and software products and services
+      - Discuss process of identification of fundamental causes of specific workplace challenges
+      - Show mastery of knowledge and understanding of the process, normal operating parameters, and product quality
+        to recognize non-standard situations - Relevant equipment and operational processes - Enterprise goals,
+        targets and measures - Enterprise quality OHS and environmental requirement - Enterprise information systems
+        and data collation - Industry codes and standards
+      methodologies:
+      - Group discussion
+      - Lecture
+      - Demonstration
+      - Role playing
+      assessment_methods:
+      - Case Formulation
+      - Life Narrative Inquiry (Interview)
+      - Standardized test
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311321:lo:3.2
+      source_number: '3.2'
+      title: Analyze the causes of specific workplace challenges
+      learning_activities_source: • Show thorough knowledge and understanding of the process, normal operating parameters,
+        and product quality to recognize non-standard situations • Show mastery of the current industry hardware
+        and software products and services • Discuss process of identification of fundamental causes of specific
+        workplace challenges • Show mastery of knowledge and understanding of the process, normal operating parameters,
+        and product quality to recognize non-standard situations - Relevant equipment and operational processes
+        - Enterprise goals, targets and measures - Enterprise quality OHS and environmental requirement - Enterprise
+        information systems and data collation - Industry codes and standards • Identify extent and causes of specific
+        challenges in the workplace • Use of range of analytical problem-solving techniques • Formulate clear-cut
+        findings on the nature of each identified workplace challenges
+      methodologies_source: • Group discussion • Lecture • Demonstration • Role playing
+      assessment_approach_source: • Case Formulation • Life Narrative Inquiry (Interview) • Standardized test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 106
+        - 107
+        pdf_pages:
+        - 110
+        - 111
+      learning_activities:
+      - Show thorough knowledge and understanding of the process, normal operating parameters, and product quality
+        to recognize non-standard situations
+      - Show mastery of the current industry hardware and software products and services
+      - Discuss process of identification of fundamental causes of specific workplace challenges
+      - Show mastery of knowledge and understanding of the process, normal operating parameters, and product quality
+        to recognize non-standard situations - Relevant equipment and operational processes - Enterprise goals,
+        targets and measures - Enterprise quality OHS and environmental requirement - Enterprise information systems
+        and data collation - Industry codes and standards
+      - Identify extent and causes of specific challenges in the workplace
+      - Use of range of analytical problem-solving techniques
+      - Formulate clear-cut findings on the nature of each identified workplace challenges
+      methodologies:
+      - Group discussion
+      - Lecture
+      - Demonstration
+      - Role playing
+      assessment_methods:
+      - Case Formulation
+      - Life Narrative Inquiry (Interview)
+      - Standardized test
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311321:lo:3.3
+      source_number: '3.3'
+      title: Formulate resolutions to specific workplace challenges
+      learning_activities_source: • Show thorough knowledge and understanding of the process, normal operating parameters,
+        and product quality to recognize non-standard situations • Show mastery of the current industry hardware
+        and software products and services • Discuss process of identification of fundamental causes of specific
+        workplace challenges • Show mastery of knowledge and understanding of the process, normal operating parameters,
+        and product quality to recognize non-standard situations - Relevant equipment and operational processes
+        - Enterprise goals, targets and measures - Enterprise quality OHS and environmental requirement - Enterprise
+        information systems and data collation - Industry codes and standards • Identify extent and causes of specific
+        challenges in the workplace • Use of range of analytical problem-solving techniques • Formulate clear-cut
+        findings on the nature of each identified workplace challenges • Discus strategies on devising, communicating,
+        implementing and evaluating strategies and techniques in addressing specific workplace challenges
+      methodologies_source: • Group discussion • Lecture • Demonstration • Role playing
+      assessment_approach_source: • Case Formulation • Life Narrative Inquiry (Interview) • Standardized test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 107
+        - 108
+        pdf_pages:
+        - 111
+        - 112
+      fidelity_ref: tesda:tr:trshsk319:revision-01:fidelity:curriculum:400311321:lo:3.3
+      learning_activities:
+      - Show thorough knowledge and understanding of the process, normal operating parameters, and product quality
+        to recognize non-standard situations
+      - Show mastery of the current industry hardware and software products and services
+      - Discuss process of identification of fundamental causes of specific workplace challenges
+      - Show mastery of knowledge and understanding of the process, normal operating parameters, and product quality
+        to recognize non-standard situations - Relevant equipment and operational processes - Enterprise goals,
+        targets and measures - Enterprise quality OHS and environmental requirement - Enterprise information systems
+        and data collation - Industry codes and standards
+      - Identify extent and causes of specific challenges in the workplace
+      - Use of range of analytical problem-solving techniques
+      - Formulate clear-cut findings on the nature of each identified workplace challenges
+      - Discus strategies on devising, communicating, implementing and evaluating strategies and techniques in addressing
+        specific workplace challenges
+      methodologies:
+      - Group discussion
+      - Lecture
+      - Demonstration
+      - Role playing
+      assessment_methods:
+      - Case Formulation
+      - Life Narrative Inquiry (Interview)
+      - Standardized test
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311321:lo:3.4
+      source_number: '3.4'
+      title: Implement action plans and communicate results
+      learning_activities_source: • Identify extent and causes of specific challenges in the workplace • Use of
+        range of analytical problem-solving techniques • Formulate clear-cut findings on the nature of each identified
+        workplace challenges • Discus strategies on devising, communicating, implementing and evaluating strategies
+        and techniques in addressing specific workplace challenges
+      methodologies_source: • Group discussion • Lecture • Demonstration • Role playing
+      assessment_approach_source: • Case Formulation • Life Narrative Inquiry (Interview) • Standardized test
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 108
+        - 108
+        pdf_pages:
+        - 112
+        - 112
+      learning_activities:
+      - Identify extent and causes of specific challenges in the workplace
+      - Use of range of analytical problem-solving techniques
+      - Formulate clear-cut findings on the nature of each identified workplace challenges
+      - Discus strategies on devising, communicating, implementing and evaluating strategies and techniques in addressing
+        specific workplace challenges
+      methodologies:
+      - Group discussion
+      - Lecture
+      - Demonstration
+      - Role playing
+      assessment_methods:
+      - Case Formulation
+      - Life Narrative Inquiry (Interview)
+      - Standardized test
+    provenance:
+      printed_pages:
+      - 105
+      - 105
+      pdf_pages:
+      - 109
+      - 109
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311322
+    group: basic
+    unit_code: '400311322'
+    unit_title: Work in a diverse environment
+    source_unit_title: 4. Work in a diverse environment
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311322:lo:4.1
+      source_number: '4.1'
+      title: Develop an individual’s cultural awareness and sensitivity
+      learning_activities_source: • Show understanding of cultural diversity in the workplace • Recognize norms
+        of behavior for interacting and dialogue with specific groups (e. g., Muslims and other non- Christians,
+        non-Catholics, tribes/ethnic groups, foreigners) • Demonstrate different methods of verbal and non-verbal
+        communication in a multicultural setting • Apply cross-cultural communication skills (i.e. different business
+        customs, beliefs, communication strategies) • Show affective skills - establishing rapport and empathy,
+        understanding, etc. • Demonstrate openness and flexibility in communication • Recognize diverse groups in
+        the workplace and community as defined by divergent culture, religion, traditions and practices
+      methodologies_source: • Small Group Discussion • Interactive Lecture • Brainstorming • Demonstration • Role-playing
+      assessment_approach_source: • Demonstration or simulation with oral questioning • Group discussions and interactive
+        activities • Case studies/ problems involving workplace diversity issues • Written examination • Role Playing
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 108
+        - 109
+        pdf_pages:
+        - 112
+        - 113
+      learning_activities:
+      - Show understanding of cultural diversity in the workplace
+      - Recognize norms of behavior for interacting and dialogue with specific groups (e. g., Muslims and other
+        non- Christians, non-Catholics, tribes/ethnic groups, foreigners)
+      - Demonstrate different methods of verbal and non-verbal communication in a multicultural setting
+      - Apply cross-cultural communication skills (i.e. different business customs, beliefs, communication strategies)
+      - Show affective skills - establishing rapport and empathy, understanding, etc.
+      - Demonstrate openness and flexibility in communication
+      - Recognize diverse groups in the workplace and community as defined by divergent culture, religion, traditions
+        and practices
+      methodologies:
+      - Small Group Discussion
+      - Interactive Lecture
+      - Brainstorming
+      - Demonstration
+      - Role-playing
+      assessment_methods:
+      - Demonstration or simulation with oral questioning
+      - Group discussions and interactive activities
+      - Case studies/ problems involving workplace diversity issues
+      - Written examination
+      - Role Playing
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311322:lo:4.2
+      source_number: '4.2'
+      title: Work effectively in an environment that acknowledge s and values cultural diversity
+      learning_activities_source: • Explain the value of diversity in the economy and society in terms of Workforce
+        development • Discuss the importance of inclusiveness in a diverse environment • Discuss the importance
+        of shared vision and understanding of and commitment to team, departmental, and organizational goals and
+        objectives • Identify and exhibit strategies for customer service excellence • Demonstrate cross-cultural
+        communication skills and active listening • Recognize diverse groups in the workplace and community as defined
+        by divergent culture, religion, traditions and practices • Demonstrate collaboration skills
+      methodologies_source: • Small Group Discussion • Interactive Lecture • Brainstorming • Demonstration • Role-playing
+      assessment_approach_source: • Demonstration or simulation with oral questioning • Group discussions and interactive
+        activities • Case studies/ problems involving workplace diversity issues • Written examination • Role Playing
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 109
+        - 110
+        pdf_pages:
+        - 113
+        - 114
+      learning_activities:
+      - Explain the value of diversity in the economy and society in terms of Workforce development
+      - Discuss the importance of inclusiveness in a diverse environment
+      - Discuss the importance of shared vision and understanding of and commitment to team, departmental, and organizational
+        goals and objectives
+      - Identify and exhibit strategies for customer service excellence
+      - Demonstrate cross-cultural communication skills and active listening
+      - Recognize diverse groups in the workplace and community as defined by divergent culture, religion, traditions
+        and practices
+      - Demonstrate collaboration skills
+      methodologies:
+      - Small Group Discussion
+      - Interactive Lecture
+      - Brainstorming
+      - Demonstration
+      - Role-playing
+      assessment_methods:
+      - Demonstration or simulation with oral questioning
+      - Group discussions and interactive activities
+      - Case studies/ problems involving workplace diversity issues
+      - Written examination
+      - Role Playing
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311322:lo:4.3
+      source_number: '4.3'
+      title: Identify common issues in a multicultural and diverse environment
+      learning_activities_source: • Explain the value, and leverage of cultural diversity • Discuss the inclusivity
+        and conflict resolution • Describe the workplace harassment • Explain the change management and cite ways
+        to overcome resistance to change • Demonstrate advanced strategies for customer service excellence • Address
+        diversity-related conflicts in the workplace • Eliminate discriminatory behavior towards customers and co-workers
+        • Utilize change management policies in the workplace
+      methodologies_source: • Small Group Discussion • Interactive Lecture • Brainstorming • Demonstration • Role-playing
+      assessment_approach_source: • Demonstration or simulation with oral questioning • Group discussions and interactive
+        activities • Case studies/ problems involving workplace diversity issues • Written examination • Role Playing
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 110
+        - 110
+        pdf_pages:
+        - 114
+        - 114
+      learning_activities:
+      - Explain the value, and leverage of cultural diversity
+      - Discuss the inclusivity and conflict resolution
+      - Describe the workplace harassment
+      - Explain the change management and cite ways to overcome resistance to change
+      - Demonstrate advanced strategies for customer service excellence
+      - Address diversity-related conflicts in the workplace
+      - Eliminate discriminatory behavior towards customers and co-workers
+      - Utilize change management policies in the workplace
+      methodologies:
+      - Small Group Discussion
+      - Interactive Lecture
+      - Brainstorming
+      - Demonstration
+      - Role-playing
+      assessment_methods:
+      - Demonstration or simulation with oral questioning
+      - Group discussions and interactive activities
+      - Case studies/ problems involving workplace diversity issues
+      - Written examination
+      - Role Playing
+    provenance:
+      printed_pages:
+      - 108
+      - 108
+      pdf_pages:
+      - 112
+      - 112
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311323
+    group: basic
+    unit_code: '400311323'
+    unit_title: Propose methods of applying learning and innovation in the organization
+    source_unit_title: 5. Propose methods of applying learning and innovation in the organization
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311323:lo:5.1
+      source_number: '5.1'
+      title: Assess work procedures, processes and systems in terms of innovative practices
+      learning_activities_source: • Show mastery of the following practical concepts (e.g., 7 habits of highly effective
+        people, character strengths that foster learning and innovation, five minds of the future, adaptation concepts
+        and transtheoretical model of behavior change) • Demonstrate collaboration and networking skills • Show
+        basic skills in research • Generate practical insights on how to improve organizational procedures, processes
+        and systems
+      methodologies_source: • Interactive Lecture • Appreciative Inquiry • Demonstration • Group work
+      assessment_approach_source: • Psychological and behavioral Interviews • Performance Evaluation • Life Narrative
+        Inquiry • Review of portfolios of evidence and third- party workplace reports of on-the- job performance.
+        • Standardized assessment of character strengths and virtues applied
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 110
+        - 111
+        pdf_pages:
+        - 114
+        - 115
+      learning_activities:
+      - Show mastery of the following practical concepts (e.g., 7 habits of highly effective people, character strengths
+        that foster learning and innovation, five minds of the future, adaptation concepts and transtheoretical
+        model of behavior change)
+      - Demonstrate collaboration and networking skills
+      - Show basic skills in research
+      - Generate practical insights on how to improve organizational procedures, processes and systems
+      methodologies:
+      - Interactive Lecture
+      - Appreciative Inquiry
+      - Demonstration
+      - Group work
+      assessment_methods:
+      - Psychological and behavioral Interviews
+      - Performance Evaluation
+      - Life Narrative Inquiry
+      - Review of portfolios of evidence and third- party workplace reports of on-the- job performance.
+      - Standardized assessment of character strengths and virtues applied
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311323:lo:5.2
+      source_number: '5.2'
+      title: Generate practical action plans for improving work procedures, processes
+      learning_activities_source: • Show mastery of the following practical concepts (e.g., 7 habits of highly effective
+        people, character strengths that foster learning and innovation, five minds of the future, adaptation concepts
+        and transtheoretical model of behavior change) • Demonstrate collaboration and networking skills • Show
+        basic skills in research • Generate practical insights on how to improve organizational procedures, processes
+        and systems • Set up action plans on how to apply innovative procedures in the organization • Set up action
+        plans on how to apply innovative procedures in the organization • Generate practical insights on how to
+        improve organizational procedures, processes and systems
+      methodologies_source: • Interactive Lecture • Appreciative Inquiry • Demonstration • Group work
+      assessment_approach_source: • Psychological and behavioral Interviews • Performance Evaluation • Life Narrative
+        Inquiry • Review of portfolios of evidence and third- party workplace reports of on-the- job performance.
+        • Standardized assessment of character strengths and virtues applied
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 111
+        - 111
+        pdf_pages:
+        - 115
+        - 115
+      learning_activities:
+      - Show mastery of the following practical concepts (e.g., 7 habits of highly effective people, character strengths
+        that foster learning and innovation, five minds of the future, adaptation concepts and transtheoretical
+        model of behavior change)
+      - Demonstrate collaboration and networking skills
+      - Show basic skills in research
+      - Generate practical insights on how to improve organizational procedures, processes and systems
+      - Set up action plans on how to apply innovative procedures in the organization
+      - Set up action plans on how to apply innovative procedures in the organization
+      - Generate practical insights on how to improve organizational procedures, processes and systems
+      methodologies:
+      - Interactive Lecture
+      - Appreciative Inquiry
+      - Demonstration
+      - Group work
+      assessment_methods:
+      - Psychological and behavioral Interviews
+      - Performance Evaluation
+      - Life Narrative Inquiry
+      - Review of portfolios of evidence and third- party workplace reports of on-the- job performance.
+      - Standardized assessment of character strengths and virtues applied
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311323:lo:5.3
+      source_number: '5.3'
+      title: Evaluate the effectiveness of the proposed action plans
+      learning_activities_source: • Show mastery of the following practical concepts (e.g., 7 habits of highly effective
+        people, character strengths that foster learning and innovation, five minds of the future, adaptation concepts
+        and transtheoretical model of behavior change) • Demonstrate collaboration and networking skills • Show
+        basic skills in research • Generate practical insights on continuous improvement
+      methodologies_source: • Interactive Lecture • Appreciative Inquiry • Demonstration • Group work
+      assessment_approach_source: • Psychological and behavioral Interviews • Performance Evaluation • Life Narrative
+        Inquiry • Review of portfolios of evidence and third- party workplace reports of on-the- job performance.
+        • Standardized assessment of character strengths and virtues applied
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 111
+        - 112
+        pdf_pages:
+        - 115
+        - 116
+      learning_activities:
+      - Show mastery of the following practical concepts (e.g., 7 habits of highly effective people, character strengths
+        that foster learning and innovation, five minds of the future, adaptation concepts and transtheoretical
+        model of behavior change)
+      - Demonstrate collaboration and networking skills
+      - Show basic skills in research
+      - Generate practical insights on continuous improvement
+      methodologies:
+      - Interactive Lecture
+      - Appreciative Inquiry
+      - Demonstration
+      - Group work
+      assessment_methods:
+      - Psychological and behavioral Interviews
+      - Performance Evaluation
+      - Life Narrative Inquiry
+      - Review of portfolios of evidence and third- party workplace reports of on-the- job performance.
+      - Standardized assessment of character strengths and virtues applied
+    provenance:
+      printed_pages:
+      - 110
+      - 110
+      pdf_pages:
+      - 114
+      - 114
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311324
+    group: basic
+    unit_code: '400311324'
+    unit_title: Use information systematically
+    source_unit_title: 6. Use information systematically
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311324:lo:6.1
+      source_number: '6.1'
+      title: Use technical information
+      learning_activities_source: '• Lecture and discussion on: - Application in collating information - Procedures
+        for inputting, maintaining and archiving information - Guidance to people who need to find and use information
+        • Organizing information into a suitable form for reference and use • Classify stored information for identification
+        and retrieval • Operate the technical information system by using agreed procedures'
+      methodologies_source: • Lecture • Group Discussion • Hands on • Demonstration
+      assessment_approach_source: • Oral evaluation • Written Test • Observation • Presentation
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 112
+        - 112
+        pdf_pages:
+        - 116
+        - 116
+      learning_activities:
+      - 'Lecture and discussion on: - Application in collating information - Procedures for inputting, maintaining
+        and archiving information - Guidance to people who need to find and use information'
+      - Organizing information into a suitable form for reference and use
+      - Classify stored information for identification and retrieval
+      - Operate the technical information system by using agreed procedures
+      methodologies:
+      - Lecture
+      - Group Discussion
+      - Hands on
+      - Demonstration
+      assessment_methods:
+      - Oral evaluation
+      - Written Test
+      - Observation
+      - Presentation
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311324:lo:6.2
+      source_number: '6.2'
+      title: Apply information technology (IT)
+      learning_activities_source: '• Lecture and discussion on: - Attributes and limitations of available software
+        tool - Procedures and work instructions for the use of IT - Operational requirements for IT systems - Sources
+        and flow paths of data - Security systems and measures that can be used - Methods of entering and processing
+        information • Use procedures and work instructions for the use of IT • Extract data and format reports •
+        Use WWW applications'
+      methodologies_source: • Lecture • Group Discussion • Self-paced handout/ module • Hands on • Demonstration
+      assessment_approach_source: • Oral evaluation • Written Test • Observation • Presentation
+      source_duration: 2 Hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 112
+        - 113
+        pdf_pages:
+        - 116
+        - 117
+      learning_activities:
+      - 'Lecture and discussion on: - Attributes and limitations of available software tool - Procedures and work
+        instructions for the use of IT - Operational requirements for IT systems - Sources and flow paths of data
+        - Security systems and measures that can be used - Methods of entering and processing information'
+      - Use procedures and work instructions for the use of IT
+      - Extract data and format reports
+      - Use WWW applications
+      methodologies:
+      - Lecture
+      - Group Discussion
+      - Self-paced handout/ module
+      - Hands on
+      - Demonstration
+      assessment_methods:
+      - Oral evaluation
+      - Written Test
+      - Observation
+      - Presentation
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311324:lo:6.3
+      source_number: '6.3'
+      title: Edit, format and check information
+      learning_activities_source: '• Lecture and discussion on: - Basic file-handling techniques - Techniques in
+        checking documents - Techniques in editing and formatting - Proof reading techniques • Use different techniques
+        in checking documents • Edit and format information applying different techniques • Proof read information
+        applying different techniques'
+      methodologies_source: • Lecture • Group Discussion • Self-paced handout/ module • Hands on • Demonstration
+      assessment_approach_source: • Oral evaluation • Written Test • Observation • Presentation
+      source_duration: 2 Hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 113
+        - 113
+        pdf_pages:
+        - 117
+        - 117
+      learning_activities:
+      - 'Lecture and discussion on: - Basic file-handling techniques - Techniques in checking documents - Techniques
+        in editing and formatting - Proof reading techniques'
+      - Use different techniques in checking documents
+      - Edit and format information applying different techniques
+      - Proof read information applying different techniques
+      methodologies:
+      - Lecture
+      - Group Discussion
+      - Self-paced handout/ module
+      - Hands on
+      - Demonstration
+      assessment_methods:
+      - Oral evaluation
+      - Written Test
+      - Observation
+      - Presentation
+    provenance:
+      printed_pages:
+      - 112
+      - 112
+      pdf_pages:
+      - 116
+      - 116
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311325
+    group: basic
+    unit_code: '400311325'
+    unit_title: Evaluate occupational safety and health work practices
+    source_unit_title: 7. Evaluate Occupational Safety And Health Work Practices
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311325:lo:7.1
+      source_number: '7.1'
+      title: Interpret Occupational Safety and Health practices
+      learning_activities_source: • Discuss the OSH standards, principles and legislations • Identify OSH work practices
+        issues • Discuss standard safety requirements
+      methodologies_source: • Lecture • Group Discussion
+      assessment_approach_source: • Written Exam • Demonstration • Observation • Interviews / Questioning
+      source_duration: 1.5 Hours
+      duration_hours: 1.5
+      provenance:
+        printed_pages:
+        - 113
+        - 113
+        pdf_pages:
+        - 117
+        - 117
+      learning_activities:
+      - Discuss the OSH standards, principles and legislations
+      - Identify OSH work practices issues
+      - Discuss standard safety requirements
+      methodologies:
+      - Lecture
+      - Group Discussion
+      assessment_methods:
+      - Written Exam
+      - Demonstration
+      - Observation
+      - Interviews / Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311325:lo:7.2
+      source_number: '7.2'
+      title: Set OSH work targets
+      learning_activities_source: • Discussion in actions plans that are necessary in achieving the OSH target
+      methodologies_source: • Lecture • Group Discussion
+      assessment_approach_source: • Written Exam • Demonstration • Observation • Interviews / Questioning
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 113
+        - 113
+        pdf_pages:
+        - 117
+        - 117
+      learning_activities:
+      - Discussion in actions plans that are necessary in achieving the OSH target
+      methodologies:
+      - Lecture
+      - Group Discussion
+      assessment_methods:
+      - Written Exam
+      - Demonstration
+      - Observation
+      - Interviews / Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311325:lo:7.3
+      source_number: '7.3'
+      title: Evaluate effectiveness of Occupational Safety and Health work instructions
+      learning_activities_source: • Practice evaluating safety data (Historical or Simulated)
+      methodologies_source: • Lecture • Group Discussion
+      assessment_approach_source: • Written Exam • Demonstration • Observation • Interviews / Questioning
+      source_duration: 1.5 Hours
+      duration_hours: 1.5
+      provenance:
+        printed_pages:
+        - 113
+        - 113
+        pdf_pages:
+        - 117
+        - 117
+      learning_activities:
+      - Practice evaluating safety data (Historical or Simulated)
+      methodologies:
+      - Lecture
+      - Group Discussion
+      assessment_methods:
+      - Written Exam
+      - Demonstration
+      - Observation
+      - Interviews / Questioning
+    provenance:
+      printed_pages:
+      - 113
+      - 113
+      pdf_pages:
+      - 117
+      - 117
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311326
+    group: basic
+    unit_code: '400311326'
+    unit_title: Evaluate environmental work practices
+    source_unit_title: 8. Evaluate Environmenta l Work Practices
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311326:lo:8.1
+      source_number: '8.1'
+      title: Interpret environmental practices, policies and procedures
+      learning_activities_source: • Discussion Environmental Issues regarding - Water Quality - National and Local
+        Government Issues - Safety - Endangered Species - Noise - Air Quality - Historic - Waste - Cultural • Updating
+        of existing occupation practices
+      methodologies_source: • Lecture • Group Discussion • Demonstration
+      assessment_approach_source: • Written Exam • Demonstration • Observation • Interviews / Questioning
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 114
+        - 114
+        pdf_pages:
+        - 118
+        - 118
+      learning_activities:
+      - Discussion Environmental Issues regarding - Water Quality - National and Local Government Issues - Safety
+        - Endangered Species - Noise - Air Quality - Historic - Waste - Cultural
+      - Updating of existing occupation practices
+      methodologies:
+      - Lecture
+      - Group Discussion
+      - Demonstration
+      assessment_methods:
+      - Written Exam
+      - Demonstration
+      - Observation
+      - Interviews / Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311326:lo:8.2
+      source_number: '8.2'
+      title: Establish targets to evaluate environmental practices
+      learning_activities_source: • Discussion on - lower production costs and energy consumption - Environmentally
+        Sound Processes - Resource Efficient - Recycling and Waste Management • Simple case study regarding energy
+        efficiency
+      methodologies_source: • Lecture • Group Discussion • Demonstration
+      assessment_approach_source: • Written Exam • Demonstration • Observation • Interviews / Questioning
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 114
+        - 114
+        pdf_pages:
+        - 118
+        - 118
+      learning_activities:
+      - Discussion on - lower production costs and energy consumption - Environmentally Sound Processes - Resource
+        Efficient - Recycling and Waste Management
+      - Simple case study regarding energy efficiency
+      methodologies:
+      - Lecture
+      - Group Discussion
+      - Demonstration
+      assessment_methods:
+      - Written Exam
+      - Demonstration
+      - Observation
+      - Interviews / Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311326:lo:8.3
+      source_number: '8.3'
+      title: Evaluate effectiveness of environmental practices
+      learning_activities_source: • Identifying effective environmental practices relevant to the industry/occupation
+        - Implementation of energy efficiency
+      methodologies_source: • Lecture • Group Discussion • Demonstration • Case Study
+      assessment_approach_source: • Written Exam • Demonstration • Observation • Interviews / Questioning • Third
+        Party Reports
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 114
+        - 114
+        pdf_pages:
+        - 118
+        - 118
+      learning_activities:
+      - Identifying effective environmental practices relevant to the industry/occupation - Implementation of energy
+        efficiency
+      methodologies:
+      - Lecture
+      - Group Discussion
+      - Demonstration
+      - Case Study
+      assessment_methods:
+      - Written Exam
+      - Demonstration
+      - Observation
+      - Interviews / Questioning
+      - Third Party Reports
+    provenance:
+      printed_pages:
+      - 114
+      - 114
+      pdf_pages:
+      - 118
+      - 118
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311327
+    group: basic
+    unit_code: '400311327'
+    unit_title: Facilitate entrepreneurial skills for micro-small-medium enterprises (MSMEs)
+    source_unit_title: 9. Facilitate Entrepreneuri al Skills For Micro-Small- Medium Enterprises (MSMEs)
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311327:lo:9.1
+      source_number: '9.1'
+      title: Develop and maintain micro-small- medium enterprise (MSMEs) skills in the organization
+      learning_activities_source: • Discussions on business models and strategies • Discussion on Types and categories
+        of businesses and business internal control • Discussion on Relevant National and local legislations affecting
+        businesses • Prepare promotional materials • Practice basic bookkeeping
+      methodologies_source: • Lecture/ Discussion • Case Study • Demonstration
+      assessment_approach_source: • Written Test • Portfolio • Work Related Project
+      source_duration: 2 Hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 114
+        - 115
+        pdf_pages:
+        - 118
+        - 119
+      learning_activities:
+      - Discussions on business models and strategies
+      - Discussion on Types and categories of businesses and business internal control
+      - Discussion on Relevant National and local legislations affecting businesses
+      - Prepare promotional materials
+      - Practice basic bookkeeping
+      methodologies:
+      - Lecture/ Discussion
+      - Case Study
+      - Demonstration
+      assessment_methods:
+      - Written Test
+      - Portfolio
+      - Work Related Project
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311327:lo:9.2
+      source_number: '9.2'
+      title: Establish and maintain client- base/market
+      learning_activities_source: • Role play on customer and employee relations • Discussion on Basic product promotion
+        strategies • Preparation of Basic Feasibility study • Case studies on Basic Business ethics • Prepare basic
+        advertising materials
+      methodologies_source: • Role Play • Lecture Discussion • Case study
+      assessment_approach_source: • Case problem • Written Test
+      source_duration: 2 Hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 115
+        - 115
+        pdf_pages:
+        - 119
+        - 119
+      learning_activities:
+      - Role play on customer and employee relations
+      - Discussion on Basic product promotion strategies
+      - Preparation of Basic Feasibility study
+      - Case studies on Basic Business ethics
+      - Prepare basic advertising materials
+      methodologies:
+      - Role Play
+      - Lecture Discussion
+      - Case study
+      assessment_methods:
+      - Case problem
+      - Written Test
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:400311327:lo:9.3
+      source_number: '9.3'
+      title: Apply budgeting and financial management skills
+      learning_activities_source: '• Discussion on: - Basic cost-benefit analysis - Basic financial management -
+        Basic financial accounting - Business internal controls'
+      methodologies_source: • Role Play • Lecture Discussion • Group work
+      assessment_approach_source: • Written Test • Case problem
+      source_duration: 1 Hour
+      duration_hours: 1.0
+      provenance:
+        printed_pages:
+        - 115
+        - 115
+        pdf_pages:
+        - 119
+        - 119
+      learning_activities:
+      - 'Discussion on: - Basic cost-benefit analysis - Basic financial management - Basic financial accounting
+        - Business internal controls'
+      methodologies:
+      - Role Play
+      - Lecture Discussion
+      - Group work
+      assessment_methods:
+      - Written Test
+      - Case problem
+    provenance:
+      printed_pages:
+      - 114
+      - 115
+      pdf_pages:
+      - 118
+      - 119
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141201
+    group: common
+    unit_code: TRS141201
+    unit_title: Receive and resolve customer complaints
+    source_unit_title: 1. Receive and resolve customer complaints
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141201:lo:1.1
+      source_number: '1.1'
+      title: Identify and analyse the complaint
+      learning_activities_source: • Explain how to received verbal complaint using active listening and empathy
+        techniques • Identify through appropriate communication techniques the exact nature of the customer complaint
+        • Identify steps in maintain register or complaint file/s in accordance with the requirements of the enterprise
+        information system
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 116
+        - 116
+        pdf_pages:
+        - 120
+        - 120
+      learning_activities:
+      - Explain how to received verbal complaint using active listening and empathy techniques
+      - Identify through appropriate communication techniques the exact nature of the customer complaint
+      - Identify steps in maintain register or complaint file/s in accordance with the requirements of the enterprise
+        information system
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141201:lo:1.2
+      source_number: '1.2'
+      title: Respond to complaints
+      learning_activities_source: • Explain how to process complaints in accordance with organizational standards,
+        policies and procedures • Explain how to obtain and review documentation in relation to complaints • Identify
+        steps in updating register of complaints/disputes
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 116
+        - 116
+        pdf_pages:
+        - 120
+        - 120
+      learning_activities:
+      - Explain how to process complaints in accordance with organizational standards, policies and procedures
+      - Explain how to obtain and review documentation in relation to complaints
+      - Identify steps in updating register of complaints/disputes
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141201:lo:1.3
+      source_number: '1.3'
+      title: Determine and agree upon appropriate action to resolve complaint
+      learning_activities_source: • Identify procedures and guidelines on how to resolve the complaint • Demonstrate
+        a commitment to the customer to resolve the complaint
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 116
+        - 116
+        pdf_pages:
+        - 120
+        - 120
+      learning_activities:
+      - Identify procedures and guidelines on how to resolve the complaint
+      - Demonstrate a commitment to the customer to resolve the complaint
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141201:lo:1.4
+      source_number: '1.4'
+      title: Refer complaints
+      learning_activities_source: • Identify complaints that require referral to other personnel or external bodies
+        • Explain how to forward all necessary documentation including investigation reports to appropriate personnel
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview • Oral Questioning
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 116
+        - 116
+        pdf_pages:
+        - 120
+        - 120
+      learning_activities:
+      - Identify complaints that require referral to other personnel or external bodies
+      - Explain how to forward all necessary documentation including investigation reports to appropriate personnel
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+      - Oral Questioning
+    provenance:
+      printed_pages:
+      - 116
+      - 116
+      pdf_pages:
+      - 120
+      - 120
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141202
+    group: common
+    unit_code: TRS141202
+    unit_title: Work cooperatively in a general administration environment
+    source_unit_title: 2. Work cooperatively In a general administration environment
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141202:lo:2.1
+      source_number: '2.1'
+      title: Develop effective team relationships
+      learning_activities_source: • Explain how to develop and maintain relationships with team members and promote
+        benefits of cooperative work consistent with organizational goals and objectives • Identify communication
+        techniques to relay information in a clear and concise manner
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 117
+        - 117
+        pdf_pages:
+        - 121
+        - 121
+      learning_activities:
+      - Explain how to develop and maintain relationships with team members and promote benefits of cooperative
+        work consistent with organizational goals and objectives
+      - Identify communication techniques to relay information in a clear and concise manner
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141202:lo:2.2
+      source_number: '2.2'
+      title: Participate in team assignments
+      learning_activities_source: • Identify individual responsibilities within the workgroup in accordance with
+        organisational requirements • How to recognize and accommodate cultural differences within the team
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 117
+        - 117
+        pdf_pages:
+        - 121
+        - 121
+      learning_activities:
+      - Identify individual responsibilities within the workgroup in accordance with organisational requirements
+      - How to recognize and accommodate cultural differences within the team
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141202:lo:2.3
+      source_number: '2.3'
+      title: Contribute to team development
+      learning_activities_source: • Identify the internal and external customer needs and expectations • Explain
+        how to seek formal feedback and informal feedback on individual and team performance regularly from colleagues
+        and supervisors • Identify the non-discriminatory attitudes and language when interacting with customers,
+        staff and management
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 117
+        - 117
+        pdf_pages:
+        - 121
+        - 121
+      learning_activities:
+      - Identify the internal and external customer needs and expectations
+      - Explain how to seek formal feedback and informal feedback on individual and team performance regularly from
+        colleagues and supervisors
+      - Identify the non-discriminatory attitudes and language when interacting with customers, staff and management
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    provenance:
+      printed_pages:
+      - 117
+      - 117
+      pdf_pages:
+      - 121
+      - 121
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141203
+    group: common
+    unit_code: TRS141203
+    unit_title: Maintain quality customer/guest service
+    source_unit_title: 3. Maintain quality customer/guest service
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141203:lo:3.1
+      source_number: '3.1'
+      title: Identify customer/ guest requirements
+      learning_activities_source: • Identify options to improve service • Explain how to assess needs of customers/or
+        guests • Identify and conduct data analysis on deficiencies in service delivery
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 117
+        - 117
+        pdf_pages:
+        - 121
+        - 121
+      learning_activities:
+      - Identify options to improve service
+      - Explain how to assess needs of customers/or guests
+      - Identify and conduct data analysis on deficiencies in service delivery
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141203:lo:3.2
+      source_number: '3.2'
+      title: Ensure delivery of quality products/servi ces
+      learning_activities_source: • Explain how to ensure products/services meet customers’ needs and reflect enterprise
+        standards and improve on service levels • Explain how to ensure team performance consistently meets enterprise
+        standards • Explain to colleagues how to meet and exceed customer service standards by providing appropriate
+        professional development
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 118
+        - 118
+        pdf_pages:
+        - 122
+        - 122
+      learning_activities:
+      - Explain how to ensure products/services meet customers’ needs and reflect enterprise standards and improve
+        on service levels
+      - Explain how to ensure team performance consistently meets enterprise standards
+      - Explain to colleagues how to meet and exceed customer service standards by providing appropriate professional
+        development
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141203:lo:3.3
+      source_number: '3.3'
+      title: Evaluate customer service
+      learning_activities_source: • Explain how to review customer/guest satisfaction with service delivery using
+        appropriate methods that produce verifiable data • Identify steps on how to evaluate customer service evaluation
+        outcomes • Obtain agreements on appropriate action to overcome problems
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 118
+        - 118
+        pdf_pages:
+        - 122
+        - 122
+      learning_activities:
+      - Explain how to review customer/guest satisfaction with service delivery using appropriate methods that produce
+        verifiable data
+      - Identify steps on how to evaluate customer service evaluation outcomes
+      - Obtain agreements on appropriate action to overcome problems
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    provenance:
+      printed_pages:
+      - 117
+      - 117
+      pdf_pages:
+      - 121
+      - 121
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141204
+    group: common
+    unit_code: TRS141204
+    unit_title: Roster staff
+    source_unit_title: 4. Roster Staff
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141204:lo:4.1
+      source_number: '4.1'
+      title: Develop and implement staff rosters
+      learning_activities_source: • Explain how to developed rosters in accordance with company agreements and wage
+        budgets • Identify the role of rosters and their importance in controlling staff costs • Explain how to
+        present roster in required formats to ensure clarity of information in accordance with company standards
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 6 Hours
+      duration_hours: 6.0
+      provenance:
+        printed_pages:
+        - 118
+        - 118
+        pdf_pages:
+        - 122
+        - 122
+      learning_activities:
+      - Explain how to developed rosters in accordance with company agreements and wage budgets
+      - Identify the role of rosters and their importance in controlling staff costs
+      - Explain how to present roster in required formats to ensure clarity of information in accordance with company
+        standards
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141204:lo:4.2
+      source_number: '4.2'
+      title: Maintain staff records
+      learning_activities_source: • Explain how to complete time sheets and other documentation within designated
+        timelines • Explain procedures in updating, maintaining and storing staff records
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 118
+        - 118
+        pdf_pages:
+        - 122
+        - 122
+      learning_activities:
+      - Explain how to complete time sheets and other documentation within designated timelines
+      - Explain procedures in updating, maintaining and storing staff records
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    provenance:
+      printed_pages:
+      - 118
+      - 118
+      pdf_pages:
+      - 122
+      - 122
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141205
+    group: common
+    unit_code: TRS141205
+    unit_title: Control and order stock
+    source_unit_title: 5. Control And Order Stock
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141205:lo:5.1
+      source_number: '5.1'
+      title: Maintain stock levels and records
+      learning_activities_source: • Explain how to monitor and maintain stock levels and performance • Identify
+        the steps in monitoring stock security and adjusting systems • Explain how to maintain records of stock
+        storage and movement
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 6 Hours
+      duration_hours: 6.0
+      provenance:
+        printed_pages:
+        - 119
+        - 119
+        pdf_pages:
+        - 123
+        - 123
+      learning_activities:
+      - Explain how to monitor and maintain stock levels and performance
+      - Identify the steps in monitoring stock security and adjusting systems
+      - Explain how to maintain records of stock storage and movement
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141205:lo:5.2
+      source_number: '5.2'
+      title: Process stock orders
+      learning_activities_source: • Explain how to process orders for stock in accordance with company procedures
+        • Identify steps in maintaining and recording stock levels
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 119
+        - 119
+        pdf_pages:
+        - 123
+        - 123
+      learning_activities:
+      - Explain how to process orders for stock in accordance with company procedures
+      - Identify steps in maintaining and recording stock levels
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141205:lo:5.3
+      source_number: '5.3'
+      title: Minimize stock losses
+      learning_activities_source: • Identify reasons for stock loss and damage • Explain how to identify stock losses
+        • Identify the recommended related procedures and solutions to loss situations to prevent future avoidable
+        losses
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 119
+        - 119
+        pdf_pages:
+        - 123
+        - 123
+      learning_activities:
+      - Identify reasons for stock loss and damage
+      - Explain how to identify stock losses
+      - Identify the recommended related procedures and solutions to loss situations to prevent future avoidable
+        losses
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141205:lo:5.4
+      source_number: '5.4'
+      title: Follow-up orders
+      learning_activities_source: • Explain how to monitor delivery process and ensure continuity of supply • Identify
+        routine supply problems • Explain how to distribute stock to agreed locations.
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 119
+        - 119
+        pdf_pages:
+        - 123
+        - 123
+      learning_activities:
+      - Explain how to monitor delivery process and ensure continuity of supply
+      - Identify routine supply problems
+      - Explain how to distribute stock to agreed locations.
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141205:lo:5.5
+      source_number: '5.5'
+      title: Organize and administer stocks
+      learning_activities_source: • Explain how to organize stocks • Identify the stocktaking responsibilities •
+        Demonstrate how to produce accurate stock reports
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 119
+        - 119
+        pdf_pages:
+        - 123
+        - 123
+      learning_activities:
+      - Explain how to organize stocks
+      - Identify the stocktaking responsibilities
+      - Demonstrate how to produce accurate stock reports
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    provenance:
+      printed_pages:
+      - 119
+      - 119
+      pdf_pages:
+      - 123
+      - 123
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141206
+    group: common
+    unit_code: TRS141206
+    unit_title: Prepare and deliver training sessions
+    source_unit_title: 6. Prepare And Deliver Training Sessions
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141206:lo:6.1
+      source_number: '6.1'
+      title: Determine training requirements
+      learning_activities_source: • Identify required competencies for learners • Describe the training gap for
+        learners • Explain the identified training gaps and recommendation for training
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 120
+        - 120
+        pdf_pages:
+        - 124
+        - 124
+      learning_activities:
+      - Identify required competencies for learners
+      - Describe the training gap for learners
+      - Explain the identified training gaps and recommendation for training
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141206:lo:6.2
+      source_number: '6.2'
+      title: Prepare training plan
+      learning_activities_source: • Explain how to develop session outlines, training content, training resources
+        and materials and individual training session
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 120
+        - 120
+        pdf_pages:
+        - 124
+        - 124
+      learning_activities:
+      - Explain how to develop session outlines, training content, training resources and materials and individual
+        training session
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141206:lo:6.3
+      source_number: '6.3'
+      title: Deliver training sessions
+      learning_activities_source: • Explain the training and assessment activities involved in the training session
+        • Identify steps in preparing training venue for the training session • Identify safety of learners during
+        training delivery and practice
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 120
+        - 120
+        pdf_pages:
+        - 124
+        - 124
+      learning_activities:
+      - Explain the training and assessment activities involved in the training session
+      - Identify steps in preparing training venue for the training session
+      - Identify safety of learners during training delivery and practice
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    provenance:
+      printed_pages:
+      - 120
+      - 120
+      pdf_pages:
+      - 124
+      - 124
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141207
+    group: common
+    unit_code: TRS141207
+    unit_title: Plan, conduct and evaluate staff performance assessment
+    source_unit_title: 7. Plan, conduct and evaluate staff performance assessment
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141207:lo:7.1
+      source_number: '7.1'
+      title: Plan a staff performance assessment
+      learning_activities_source: • Identify context for staff performance assessment • Determine the initial focus
+        of the staff performance assessment for each staff member • Prepare Documents to record identified staff
+        performance assessment statistics and performance data • Design action plan to guide the conduct of staff
+        performance assessment
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 120
+        - 120
+        pdf_pages:
+        - 124
+        - 124
+      learning_activities:
+      - Identify context for staff performance assessment
+      - Determine the initial focus of the staff performance assessment for each staff member
+      - Prepare Documents to record identified staff performance assessment statistics and performance data
+      - Design action plan to guide the conduct of staff performance assessment
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141207:lo:7.2
+      source_number: '7.2'
+      title: Conduct a staff performance assessment
+      learning_activities_source: • Identify steps in gathering workplace-based evidence of staff performance •
+        Explain how to interpret employee performance data
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 121
+        - 121
+        pdf_pages:
+        - 125
+        - 125
+      learning_activities:
+      - Identify steps in gathering workplace-based evidence of staff performance
+      - Explain how to interpret employee performance data
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs141207:lo:7.3
+      source_number: '7.3'
+      title: Evaluate a staff performance assessment
+      learning_activities_source: • Prepare staff performance assessment interview • Identify steps in reviewing
+        individual staff performance • Explain how to prepare staff performance assessment targets for next period
+      methodologies_source: • Discussion • Demonstration • Lecture • Group discussion • Simulation
+      assessment_approach_source: • Observation • Demonstration • Written examination • Interview
+      source_duration: 4 Hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 121
+        - 121
+        pdf_pages:
+        - 125
+        - 125
+      learning_activities:
+      - Prepare staff performance assessment interview
+      - Identify steps in reviewing individual staff performance
+      - Explain how to prepare staff performance assessment targets for next period
+      methodologies:
+      - Discussion
+      - Demonstration
+      - Lecture
+      - Group discussion
+      - Simulation
+      assessment_methods:
+      - Observation
+      - Demonstration
+      - Written examination
+      - Interview
+    provenance:
+      printed_pages:
+      - 120
+      - 120
+      pdf_pages:
+      - 124
+      - 124
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515301
+    group: core
+    unit_code: TRS515301
+    unit_title: Supervise room cleaning and maintenance requirement
+    source_unit_title: 1. Supervise room cleaning and maintenance requirement
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515301:lo:1.1
+      source_number: '1.1'
+      title: Monitor housekeeping requirement procedures and resources
+      learning_activities_source: • Recognize external regulations • Identify tools, equipment and supplies • Report
+        accidents, injuries, and unsafe work conditions to supervisor/manager • Assimilate workplace procedures
+        and policies for housekeeping • Apply BOSH and green practices
+      methodologies_source: • Individual learning • Lecture/ Discussion • Presentation • Role playing
+      assessment_approach_source: • Written examination • Oral Demonstration • Questioning • Case Study
+      source_duration: 6 hours
+      duration_hours: 6.0
+      provenance:
+        printed_pages:
+        - 122
+        - 122
+        pdf_pages:
+        - 126
+        - 126
+      learning_activities:
+      - Recognize external regulations
+      - Identify tools, equipment and supplies
+      - Report accidents, injuries, and unsafe work conditions to supervisor/manager
+      - Assimilate workplace procedures and policies for housekeeping
+      - Apply BOSH and green practices
+      methodologies:
+      - Individual learning
+      - Lecture/ Discussion
+      - Presentation
+      - Role playing
+      assessment_methods:
+      - Written examination
+      - Oral Demonstration
+      - Questioning
+      - Case Study
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515301:lo:1.2
+      source_number: '1.2'
+      title: Monitor cleanliness and safety in the workplace
+      learning_activities_source: • Monitor cleanliness and tidiness of the workplace • Identify housekeeping issues
+        • Maintain and store housekeeping equipment and supplies • Maintain stored records
+      methodologies_source: • Individual learning • Group Discussion • Case Study • Role playing
+      assessment_approach_source: • Written Report • Oral Questioning • Demonstration
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 122
+        - 122
+        pdf_pages:
+        - 126
+        - 126
+      learning_activities:
+      - Monitor cleanliness and tidiness of the workplace
+      - Identify housekeeping issues
+      - Maintain and store housekeeping equipment and supplies
+      - Maintain stored records
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Case Study
+      - Role playing
+      assessment_methods:
+      - Written Report
+      - Oral Questioning
+      - Demonstration
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515301:lo:1.3
+      source_number: '1.3'
+      title: Assess and evaluate assigned tasks
+      learning_activities_source: • • • •
+      methodologies_source: • Individual learning • Group Discussion • Case Study • Role playing
+      assessment_approach_source: • Written Report • Oral Questioning • Demonstration
+      source_duration: 6 hours
+      duration_hours: 6.0
+      provenance:
+        printed_pages:
+        - 122
+        - 122
+        pdf_pages:
+        - 126
+        - 126
+      learning_activities: []
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Case Study
+      - Role playing
+      assessment_methods:
+      - Written Report
+      - Oral Questioning
+      - Demonstration
+    provenance:
+      printed_pages:
+      - 122
+      - 122
+      pdf_pages:
+      - 126
+      - 126
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515302
+    group: core
+    unit_code: TRS515302
+    unit_title: Supervise housekeeping services to guests
+    source_unit_title: 2. Supervise housekeeping services to guests
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515302:lo:2.1
+      source_number: '2.1'
+      title: Monitor housekeeping team
+      learning_activities_source: • Recognize regulatory requirements including Health & Safety • Follow housekeeping
+        standard operational procedures • Implement waste management and disposal • Monitor application of HACCP
+        and BOSH
+      methodologies_source: • Individual learning • Lecture/ Discussion • Presentation • Role playing
+      assessment_approach_source: • Written examination • Oral Demonstration • Questioning • Case Study
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 122
+        - 122
+        pdf_pages:
+        - 126
+        - 126
+      learning_activities:
+      - Recognize regulatory requirements including Health & Safety
+      - Follow housekeeping standard operational procedures
+      - Implement waste management and disposal
+      - Monitor application of HACCP and BOSH
+      methodologies:
+      - Individual learning
+      - Lecture/ Discussion
+      - Presentation
+      - Role playing
+      assessment_methods:
+      - Written examination
+      - Oral Demonstration
+      - Questioning
+      - Case Study
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515302:lo:2.2
+      source_number: '2.2'
+      title: Update current practices in housekeeping
+      learning_activities_source: • Implement latest developments in the housekeeping industry • Apply related technology
+        for health, safety, employment and green practices
+      methodologies_source: • Individual learning • Lecture/ Discussion • Presentation • Case Study • Role playing
+      assessment_approach_source: • Written examination • Oral Demonstration • Questioning
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 123
+        - 123
+        pdf_pages:
+        - 127
+        - 127
+      learning_activities:
+      - Implement latest developments in the housekeeping industry
+      - Apply related technology for health, safety, employment and green practices
+      methodologies:
+      - Individual learning
+      - Lecture/ Discussion
+      - Presentation
+      - Case Study
+      - Role playing
+      assessment_methods:
+      - Written examination
+      - Oral Demonstration
+      - Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515302:lo:2.3
+      source_number: '2.3'
+      title: Evaluate housekeeping team’s performance vs. organizational standards
+      learning_activities_source: • Measure team’s performance in terms of rooms per day against the organizational
+        standard • Set room target per day according to organizational needs • Monitor roster staffing against the
+        room target allocation • Measure performance against guest feedback
+      methodologies_source: • Individual learning • Lecture/ Discussion • Presentation • Role playing
+      assessment_approach_source: • Written examination • Oral Demonstration • Questioning • Case Study
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 123
+        - 123
+        pdf_pages:
+        - 127
+        - 127
+      learning_activities:
+      - Measure team’s performance in terms of rooms per day against the organizational standard
+      - Set room target per day according to organizational needs
+      - Monitor roster staffing against the room target allocation
+      - Measure performance against guest feedback
+      methodologies:
+      - Individual learning
+      - Lecture/ Discussion
+      - Presentation
+      - Role playing
+      assessment_methods:
+      - Written examination
+      - Oral Demonstration
+      - Questioning
+      - Case Study
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515302:lo:2.4
+      source_number: '2.4'
+      title: Monitor usage of tools, equipment and supplies
+      learning_activities_source: • Conduct inventory of tools, equipment and supplies • Understand inventory control
+        and maintenance • Review practices against establishment’s manual
+      methodologies_source: • Individual learning • Lecture/ Discussion • Presentation • Role playing
+      assessment_approach_source: • Written examination • Oral Demonstration • Questioning • Case Study
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 123
+        - 123
+        pdf_pages:
+        - 127
+        - 127
+      learning_activities:
+      - Conduct inventory of tools, equipment and supplies
+      - Understand inventory control and maintenance
+      - Review practices against establishment’s manual
+      methodologies:
+      - Individual learning
+      - Lecture/ Discussion
+      - Presentation
+      - Role playing
+      assessment_methods:
+      - Written examination
+      - Oral Demonstration
+      - Questioning
+      - Case Study
+    provenance:
+      printed_pages:
+      - 122
+      - 122
+      pdf_pages:
+      - 126
+      - 126
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515303
+    group: core
+    unit_code: TRS515303
+    unit_title: Implement lost and found procedures
+    source_unit_title: 3. Implement lost and found procedures
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515303:lo:3.1
+      source_number: '3.1'
+      title: Monitor lost and found facility
+      learning_activities_source: • Monitor lost and found facility • Evaluate compliance of lost and found policies
+        and procedures • Monitor the maintenance of lost and found facility • Recognize application of legal requirements
+        for lost and found facility
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 123
+        - 123
+        pdf_pages:
+        - 127
+        - 127
+      learning_activities:
+      - Monitor lost and found facility
+      - Evaluate compliance of lost and found policies and procedures
+      - Monitor the maintenance of lost and found facility
+      - Recognize application of legal requirements for lost and found facility
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515303:lo:3.2
+      source_number: '3.2'
+      title: Deal with lost and found items
+      learning_activities_source: • Check items for safety and legality and take appropriate action • Record found
+        items in lost and found register • Record items reported lost in lost and found register • Tag the found
+        item • Store the found item appropriately • Notify owner, if known
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 124
+        - 124
+        pdf_pages:
+        - 128
+        - 128
+      learning_activities:
+      - Check items for safety and legality and take appropriate action
+      - Record found items in lost and found register
+      - Record items reported lost in lost and found register
+      - Tag the found item
+      - Store the found item appropriately
+      - Notify owner, if known
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515303:lo:3.3
+      source_number: '3.3'
+      title: Deal with claims for lost items
+      learning_activities_source: • Assist claimant to identify lost property • Verify ownership of property claimed
+        • Obtain identification from owner • Complete lost and found register • Assist claimants who contact the
+        establishment from another country, or distant area, to claim lost items
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 124
+        - 124
+        pdf_pages:
+        - 128
+        - 128
+      learning_activities:
+      - Assist claimant to identify lost property
+      - Verify ownership of property claimed
+      - Obtain identification from owner
+      - Complete lost and found register
+      - Assist claimants who contact the establishment from another country, or distant area, to claim lost items
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515303:lo:3.4
+      source_number: '3.4'
+      title: Deal with unclaimed items
+      learning_activities_source: • Comply with establishment policies • Comply with legal obligations • Remove
+        items from storage and complete lost and found register to record movement and disposal of items
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 124
+        - 124
+        pdf_pages:
+        - 128
+        - 128
+      learning_activities:
+      - Comply with establishment policies
+      - Comply with legal obligations
+      - Remove items from storage and complete lost and found register to record movement and disposal of items
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    provenance:
+      printed_pages:
+      - 123
+      - 123
+      pdf_pages:
+      - 127
+      - 127
+  - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515304
+    group: core
+    unit_code: TRS515304
+    unit_title: Supervise laundry of linen, uniform and guest clothes
+    source_unit_title: 4. Supervise laundry of linen, uniform and guest clothes
+    learning_outcomes:
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515304:lo:4.1
+      source_number: '4.1'
+      title: Evaluate the role and responsibilities of a laundry services
+      learning_activities_source: • Monitor documentation of laundered items • Assign laundry staff based on establishment’s
+        needs • Control costing of laundry services • Check laundry tools, equipment and supplies used • services
+        • Monitor laundry equipment working condition
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 124
+        - 124
+        pdf_pages:
+        - 128
+        - 128
+      learning_activities:
+      - Monitor documentation of laundered items
+      - Assign laundry staff based on establishment’s needs
+      - Control costing of laundry services
+      - Check laundry tools, equipment and supplies used
+      - services
+      - Monitor laundry equipment working condition
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515304:lo:4.2
+      source_number: '4.2'
+      title: Monitor laundry procedure
+      learning_activities_source: • Monitor the receiving and checking of picked-up guest clothes in accordance
+        with enterprise requirements • Supervise received and laundered used in-house items and those with unremoved
+        stains • Monitor the segregation of guest clothes and linens for laundry • Check the usage of laundry tools,
+        equipment and chemicals
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 2 hours
+      duration_hours: 2.0
+      provenance:
+        printed_pages:
+        - 125
+        - 125
+        pdf_pages:
+        - 129
+        - 129
+      learning_activities:
+      - Monitor the receiving and checking of picked-up guest clothes in accordance with enterprise requirements
+      - Supervise received and laundered used in-house items and those with unremoved stains
+      - Monitor the segregation of guest clothes and linens for laundry
+      - Check the usage of laundry tools, equipment and chemicals
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515304:lo:4.3
+      source_number: '4.3'
+      title: Supervise the costing, packaging and delivery of laundered items
+      learning_activities_source: • Verify the costing of laundered guest clothes • Monitor packaging and delivery
+        of laundered items
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 6 hours
+      duration_hours: 6.0
+      provenance:
+        printed_pages:
+        - 125
+        - 125
+        pdf_pages:
+        - 129
+        - 129
+      learning_activities:
+      - Verify the costing of laundered guest clothes
+      - Monitor packaging and delivery of laundered items
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    - record_id: tesda:tr:trshsk319:revision-01:curriculum:trs515304:lo:4.4
+      source_number: '4.4'
+      title: Supervise laundry facility maintenance
+      learning_activities_source: • Monitor post-cleaning laundry activities • Check the cleaning and maintenance
+        of laundry tools and equipment • Evaluate daily internal laundry report and documentation
+      methodologies_source: • Individual learning • Group Discussion • Presentation
+      assessment_approach_source: • Written Examination • Oral Questioning
+      source_duration: 4 hours
+      duration_hours: 4.0
+      provenance:
+        printed_pages:
+        - 125
+        - 125
+        pdf_pages:
+        - 129
+        - 129
+      learning_activities:
+      - Monitor post-cleaning laundry activities
+      - Check the cleaning and maintenance of laundry tools and equipment
+      - Evaluate daily internal laundry report and documentation
+      methodologies:
+      - Individual learning
+      - Group Discussion
+      - Presentation
+      assessment_methods:
+      - Written Examination
+      - Oral Questioning
+    provenance:
+      printed_pages:
+      - 124
+      - 124
+      pdf_pages:
+      - 128
+      - 128
+training_delivery:
+  record_id: tesda:tr:trshsk319:revision-01:training:delivery
+  provenance:
+    printed_pages:
+    - 126
+    - 127
+    pdf_pages:
+    - 130
+    - 131
+  source_heading: 3.2 TRAINING DELIVERY
+  overarching_provisions:
+  - number: '1'
+    text: The delivery of training shall adhere to the design of the curriculum. Delivery shall be guided by the
+      principles of competency-based TVET.
+  - number: '2'
+    text: The competency-based TVET system recognizes various types of delivery modes, both on-and off-the-job as
+      long as the learning is driven by the competency standards specified by the industry. The training modalities
+      and their variations/components may be adopted singly or in combination with other modalities when designing
+      and delivering training programs.
+  cbtvet_principles:
+  - source_number: a
+    text: Course design is based on competency standards set by the industry or recognized industry sector; learning
+      system is driven by competencies written to industry standards.
+  - source_number: b
+    text: Training delivery is learner-centered and should accommodate individualized and self-paced learning strategies.
+  - source_number: c
+    text: Training can be done on an actual workplace setting, simulation of a workplace and/or through adoption
+      of modern technology.
+  - source_number: d
+    text: Assessment is based in the collection of evidence of the performance of work to the industry required
+      standards.
+  - source_number: e
+    text: Assessment of competency takes the trainee’s knowledge and attitude into account but requires evidence
+      of actual performance of the competency as the primary source of evidence.
+  - source_number: f
+    text: Training program allows for recognition of prior learning (RPL) or current competencies.
+  - source_number: g
+    text: Training completion is based on satisfactory performance of all specified competencies.
+  modalities:
+    institution_based:
+    - name: Dual Training System (DTS)/Dualized Training Program (DTP)
+      text: Contains both in-school and in-industry training or fieldwork components; details refer to the Implementing
+        Rules and Regulations of the DTS Law and TESDA Guidelines on the DTP.
+    - name: Distance Learning
+      text: A formal education process in which the majority of instruction occurs when students and instructor
+        are not in the same place; may employ correspondence study, audio, video, computer technologies or other
+        modern technology for formal and non-formal training. Specific guidelines are to be issued by the TESDA
+        Secretariat.
+    - name: Classroom-based / in-center instruction
+      text: Uses learner-centered methods as well as laboratory or field-work components.
+    enterprise_based:
+    - name: Formal Apprenticeship
+      text: Training within employment involving a contract between an apprentice and an enterprise on an approved
+        apprenticeable occupation.
+    - name: Informal Apprenticeship
+      text: Based on a training and working agreement, written or oral, between an apprentice and a master craftsperson.
+        The master craftsperson commits to training the apprentice in all skills relevant to the trade over a significant
+        period, usually one to four years, while the apprentice contributes productively to the business. Training
+        is integrated into production and learning occurs alongside the experienced craftsperson.
+    - name: Enterprise-based Training
+      text: Training implemented within the company in accordance with requirements of the specific company; specific
+        guidelines are to be issued by the TESDA Secretariat.
+    community_based:
+    - name: Community-Based
+      text: Short-term programs conducted by NGOs, LGUs, training centers and other TVET providers to address specific
+        community needs; may be conducted in informal settings such as barangay halls or basketball courts and may
+        also be delivered as a mobile training program (MTP).
+trainee_entry_requirements:
+  record_id: tesda:tr:trshsk319:revision-01:training:trainee-entry
+  provenance:
+    printed_pages:
+    - 127
+    - 127
+    pdf_pages:
+    - 131
+    - 131
+  requirements:
+  - Must have completed the 10-year basic education or an Alternative Learning System (ALS) Certificate of Completion
+    with grade 10 equivalent holder
+  - Can communicate in basic English in both oral and written form
+  - Must be computer literate
+  - Can perform basic mathematical computation
+  - Must be competent in Housekeeping NC II qualification gained through training or experience or certification
+tools_equipment_materials:
+  record_id: tesda:tr:trshsk319:revision-01:training:tools-equipment-materials
+  provenance:
+    printed_pages:
+    - 128
+    - 128
+    pdf_pages:
+    - 132
+    - 132
+  minimum_trainees: 25
+  supplies:
+  - quantity: 2 rims
+    item: A4 paper
+  - quantity: 2 rims
+    item: Legal Bond paper
+  - quantity: 2 sets
+    item: printer ink
+  equipment:
+  - quantity: 25 units
+    item: Computer with internet connection
+  - quantity: 1 unit
+    item: LCD projector
+  - quantity: 2 units
+    item: Printer
+  reference_materials:
+  - quantity: '25'
+    item: Inventory forms for tools, equipment and supplies
+  - quantity: '1'
+    item: HACCP
+  - quantity: '1'
+    item: BOSH
+  - quantity: '1'
+    item: Internal policies on green practices
+  - quantity: '50'
+    item: Guest feedback form
+  - quantity: '25'
+    item: Staff roster worksheet
+  - quantity: '25'
+    item: Monitoring sheet for waste management and disposal
+  - quantity: '25'
+    item: Evaluation forms for Housekeeping staff
+  - quantity: '1'
+    item: GAD Manual/handbook
+  - quantity: '25'
+    item: Lost and found inventory forms
+  - quantity: '25'
+    item: Return/Release Lost and Found forms
+  - quantity: '25'
+    item: Unclaimed Lost and found inventory forms
+  - quantity: '25'
+    item: Maintenance Checklist for Lost and Found Facilities
+  - quantity: '25'
+    item: Laundry Service forms
+  - quantity: '25'
+    item: Laundry Service inventory forms
+  - quantity: '25'
+    item: Monitoring Sheet for Laundry service
+  - quantity: '25'
+    item: Price list of laundry items
+  - quantity: '25'
+    item: Maintenance Checklist for Laundry Facilities
+  facility_use_note: Implementation of the training program can be facilitated through a MOA between the training
+    provider and industry partner/s for the use of the facilities. This is in response to the high cost of facilities
+    and equipment.
+training_facilities:
+  record_id: tesda:tr:trshsk319:revision-01:training:facilities
+  provenance:
+    printed_pages:
+    - 129
+    - 129
+    pdf_pages:
+    - 133
+    - 133
+  class_intake: 25
+  spaces:
+  - space_requirement: Practical Work Area per Trainee
+    size: 1 x 1 m
+    area_per_unit: 1 sq. m.
+    total_area: 25 sq. m
+  - space_requirement: Contextual Learning Area
+    size: 5 x 5 m
+    area_per_unit: 25 sq. m.
+    total_area: 25 sq. m
+  - space_requirement: Distance Learning /Computer Center
+    size: 6.8 x 5 m.
+    area_per_unit: 34 sq. m.
+    total_area: 34 sq. m.
+  - space_requirement: Learning Resource Area
+    size: 2 x 5 m
+    area_per_unit: 10 sq. m.
+    total_area: 10 sq. m
+  - space_requirement: Storage Area
+    size: 2 x 5 m
+    area_per_unit: 10 sq. m.
+    total_area: 10 sq. m.
+  total_workshop_area_sq_m: 104.0
+trainer_qualifications:
+  record_id: tesda:tr:trshsk319:revision-01:training:trainer-qualifications
+  provenance:
+    printed_pages:
+    - 129
+    - 129
+    pdf_pages:
+    - 133
+    - 133
+  requirements:
+  - Holder of National TVET Trainer Certificate (NTTC) Level I in Housekeeping NC III
+  - Must have at least two (2) years industry experience as Housekeeping Supervisor
+institutional_assessment:
+  record_id: tesda:tr:trshsk319:revision-01:training:institutional-assessment
+  provenance:
+    printed_pages:
+    - 129
+    - 129
+    pdf_pages:
+    - 133
+    - 133
+  text: Institutional assessment is undertaken by trainees to determine their achievement of units of competency.
+    A certificate of achievement is issued for each unit of competency.
+supervised_industry_learning:
+  record_id: tesda:tr:trshsk319:revision-01:training:supervised-industry-learning
+  hours: 64.0
+  basis: Included explicitly in the nominal training duration in Section 3.1.

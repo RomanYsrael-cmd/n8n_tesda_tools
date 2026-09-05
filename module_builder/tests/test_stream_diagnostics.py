@@ -39,6 +39,20 @@ class StreamDiagnosticsTests(unittest.IsolatedAsyncioTestCase):
     async def test_success_content_unchanged(self):
         self.assertEqual(await self.run_stream(': ping\n\ndata: {"choices":[{"delta":{"content":"Hello"}}]}\n\ndata: [DONE]\n\n'), 'Hello')
 
+    async def test_progress_callback_reports_usage_and_output_stats(self):
+        progress = []
+        body = 'data: {"choices":[{"delta":{"content":"Hello"}}],"usage":{"prompt_tokens":10,"completion_tokens":2,"total_tokens":12}}\n\ndata: [DONE]\n\n'
+        transport = httpx.MockTransport(lambda request: httpx.Response(
+            200, text=body, headers={'content-type': 'text/event-stream'}))
+        real_client = httpx.AsyncClient
+        with patch('app.providers.httpx.AsyncClient', side_effect=lambda **kw: real_client(transport=transport, **kw)):
+            result = await OpenAICompatibleProvider('https://example.test/v1', '', 'test').complete_text(
+                'test', max_attempts=1, on_progress=progress.append)
+        self.assertEqual(result, 'Hello')
+        self.assertTrue(progress)
+        self.assertEqual(progress[-1]['usage']['completion_tokens'], 2)
+        self.assertEqual(progress[-1]['content_characters'], 5)
+
 
 if __name__ == '__main__':
     unittest.main()

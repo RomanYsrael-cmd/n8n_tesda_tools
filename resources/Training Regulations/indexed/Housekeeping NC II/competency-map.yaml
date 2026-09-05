@@ -1,0 +1,53 @@
+schema: tesda-competency-map
+schema_version: '1.1'
+qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
+qualification: Housekeeping NC II
+source_heading: ANNEX A — COMPETENCY MAP - TOURISM Sector (Hotel and Restaurant) — HOUSEKEEPING NC II
+provenance:
+  printed_page: 61
+  pdf_page: 65
+representation_type: semantic_relationship_representation
+verbatim_visual_transcription: false
+groups:
+  basic_competencies:
+  - unit_code: '500311105'
+    title: Participate in workplace communication
+  - unit_code: '500311106'
+    title: Work in team environment
+  - unit_code: '500311107'
+    title: Practice career professionalism
+  - unit_code: '500311108'
+    title: Practice occupational health and safety procedures
+  common_competencies:
+  - unit_code: TRS311201
+    title: Develop and update industry knowledge
+  - unit_code: TRS311202
+    title: Observe workplace hygiene procedures
+  - unit_code: TRS311203
+    title: Perform computer operations
+  - unit_code: TRS311204
+    title: Perform workplace and safety practices
+  - unit_code: TRS311205
+    title: Provide effective customer service
+  core_competencies:
+  - unit_code: TRS5123111
+    title: Provide housekeeping services to guests
+  - unit_code: TRS5123112
+    title: Clean and prepare rooms for incoming guests
+  - unit_code: TRS5123113
+    title: Provide valet/butler service
+  - unit_code: TRS5123114
+    title: Laundry linen and guest clothes
+  - unit_code: TRS5123115
+    title: Clean public areas, facilities and equipment
+    fidelity_ref: tesda:housekeeping-nc-ii:anomaly:clean-public-areas-unit-code
+  - unit_code: TRS5123122
+    title: Deal with/Handle intoxicated guests
+relationships:
+  qualification_requires_all_listed_units: true
+  basic_count: 4
+  common_count: 5
+  core_count: 6
+  total_count: 15
+  map_context: The printed Annex A places Housekeeping units within the broader Tourism Sector competency map; this file preserves
+    qualification membership semantically rather than recreating the visual layout.

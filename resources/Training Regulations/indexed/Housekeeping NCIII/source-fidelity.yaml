@@ -1,0 +1,143 @@
+schema: tesda-source-fidelity
+schema_version: '1.1'
+document_id: tesda:tr:trshsk319:revision-01
+qualification: Housekeeping NC III
+policy:
+  official_pdf_is_authoritative: true
+  representation_is_semantic_normalized: true
+  verbatim_transcription: false
+  known_source_anomalies_are_explicit: true
+source:
+  repository_path: resources/Training Regulations/Housekeeping NC III.pdf
+  official_url: https://www.tesda.gov.ph/Downloadables/TRs/TR_HOUSEKEEPING_NC%20III.pdf
+  pdf_pages: 143
+  printed_pages: 139
+anomalies:
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:400311320-element2-rk-duplicate-2.2
+  location: 400311320 element 2 Required Knowledge
+  source_detail: The source uses number 2.2 twice.
+  handling: Both source-numbered items are retained with occurrence-qualified record IDs.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:400311321-element4-pc-duplicate-4.2
+  location: 400311321 element 4 Performance Criteria
+  source_detail: The source uses number 4.2 twice.
+  handling: Both source-numbered criteria are retained with occurrence-qualified record IDs.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:400311327-element3-rk-duplicate-3.1
+  location: 400311327 element 3 Required Knowledge
+  source_detail: The source uses number 3.1 twice.
+  handling: Both items are retained.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:trs141202-element2-pc-duplicate-2.1
+  location: TRS141202 element 2 Performance Criteria
+  source_detail: The source uses number 2.1 twice.
+  handling: Both criteria are retained.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:trs141201-element2-rk-numbering
+  location: TRS141201 element 2 Required Knowledge
+  source_detail: The printed Required Knowledge entries use 4.1-4.5 numbering although they appear in element 2.
+  handling: Source numbering is preserved; no silent renumbering.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:trs141203-range-number-offset
+  location: TRS141203 Range of Variables
+  source_detail: Range variable 3 subitems are numbered 4.x and range variable 4 subitems are numbered 5.x in the
+    source.
+  handling: Source numbering is preserved under the semantic variable grouping.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:trs515304-element4-pc-duplicate-4.3
+  location: TRS515304 element 4 Performance Criteria
+  source_detail: The source uses number 4.3 twice.
+  handling: Both criteria are retained.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:400311325-unit-header-artifact
+  location: 400311325 unit header
+  source_detail: A source/table extraction artifact appears as “UNIT C” in the unit header area.
+  handling: Canonical unit code/title come from the qualification list and unit code field; artifact is not promoted
+    into semantic content.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:revision-history-date
+  location: TR document revision history, Revision 01
+  source_detail: The source cell prints “2019-56/ 1015/2019”.
+  handling: Normalized promulgation date is 2019-10-15, supported by the repeated page footer “Promulgated (10/15/2019)”;
+    raw cell detail is recorded.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:toc-section3-3-pagination
+  location: Table of Contents / Section 3.3
+  source_detail: The TOC lists Trainee Entry Requirements on printed page 128, but the 3.3 heading begins on printed
+    page 127.
+  handling: Provenance uses the actual printed page 127; TOC discrepancy is documented.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:course-description-lines
+  location: Section 3.1 Course Description
+  source_detail: The source says “laundry guests’ clothes and lines”.
+  handling: course_description_source preserves the source-normalized wording; course_description_normalized interprets
+    “lines” as “linens” for semantic use.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:assessment-4.2.1-grave-accent
+  location: Section 4.2.1
+  source_detail: A trailing grave-accent-like mark appears after “prior” in the final subitem.
+  handling: source_text retains normalized content while the mark is documented as a presentation/source artifact.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:competency-map-specialize-duplicate
+  location: Competency Map, Basic Competencies, printed page 133
+  source_detail: The source cell reads “Utilize specialize specialized communication skill”.
+  handling: The competency-map semantic representation preserves that source wording and flags the apparent duplication
+    rather than silently correcting it.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:400311326-table-boundary-extraction
+  location: 400311326 element 2
+  source_detail: PDF text extraction truncates “environmental work targets” to “environmental wo targets” and injects
+    “rk” into “Relevant Environmental Trainings and Seminars” where text crosses table boundaries.
+  handling: Canonical semantic text restores “work” and removes the injected extraction fragment based on visual
+    inspection of the source table.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:trs141206-range-variable-14-missing
+  location: TRS141206 Range of Variables
+  source_detail: The printed Range of Variables numbering proceeds from variable 13 (Training venue) directly to
+    variable 15 (Training topic); no variable 14 is printed.
+  handling: The source numbering is preserved without inventing a variable 14.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:glossary-6-source-wording
+  location: Glossary entry 6 — Computer Room/Laboratory
+  source_detail: The source definition contains the wording “may be prescribe” and “holed to an ISP”.
+  handling: The glossary preserves the source wording; no silent grammatical correction is made.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:anomaly:glossary-33-unmatched-quote
+  location: Glossary entry 33 — OSH
+  source_detail: The source reads “OSH refers to ‘Occupational Safety and Health.” with an unmatched opening quotation
+    mark.
+  handling: The glossary preserves the source-normalized wording and this anomaly records the punctuation issue.
+fidelity_records:
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:unit:400311321
+  type: evidence_guide_expansion
+  canonical_selector:
+    file: competencies.yaml
+    field: unit_code
+    value: '400311321'
+  detail: For assessment-sensitive use, preserve the full Evidence Guide source_text_normalized fields. The source
+    requires evidence involving operating plant over an extended period or equivalent scenarios, banks of scenarios/case
+    studies/what-ifs and questions, holistic/integrated assessment, disruptions to normal operation, simulations
+    based on actual workplace, walkthroughs, new/unusual/improbable problems, and concurrent assessment context.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:unit:trs141206
+  type: evidence_guide_expansion
+  canonical_selector:
+    file: competencies.yaml
+    field: unit_code
+    value: TRS141206
+  detail: The source Evidence Guide includes preparation of a practical training/delivery plan for a defined group
+    of at least six learners and delivery of a training session. Retain the unit Evidence Guide source_text_normalized
+    for assessment-sensitive retrieval.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:acknowledgements:presentation
+  type: presentation_normalization
+  canonical_selector:
+    file: acknowledgements.yaml
+  detail: The source uses a two-column acknowledgement layout that can interleave names, roles and organizations
+    in plain-text extraction. Entities are normalized using the visual/source layout without claiming verbatim transcription.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:curriculum:400311321:lo:3.3
+  type: visual_table_recovery
+  canonical_selector:
+    file: training-standards.yaml
+    field: record_id
+    value: tesda:tr:trshsk319:revision-01:curriculum:400311321:lo:3.3
+  detail: The nominal-duration cell is visually present as “1 Hour” on printed page 107/PDF page 111 but is omitted
+    by pdfplumber text extraction. Duration is restored from visual inspection.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:training:course-description
+  type: source_normalization
+  canonical_selector:
+    file: training-standards.yaml
+    kind: yaml_path
+    value: curriculum_design.course_description_source
+  detail: Source wording “laundry guests’ clothes and lines” is retained separately from the semantic normalization
+    using “linens”.
+- record_id: tesda:tr:trshsk319:revision-01:fidelity:competency-map:basic-duplicate-wording
+  type: source_anomaly
+  canonical_selector:
+    file: competency-map.yaml
+    kind: yaml_path
+    value: basic.progression_rows
+  detail: Printed page 133 contains “Utilize specialize specialized communication skill”; this is preserved in the
+    semantic map and identified as a source wording anomaly.

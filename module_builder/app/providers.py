@@ -70,7 +70,7 @@ class OpenAICompatibleProvider:
             return []
         return list(await asyncio.gather(*(self.cancel_request(request_id) for request_id in request_ids)))
 
-    async def _complete_stream(self, prompt: str, max_attempts: int, on_token=None, request_options: dict | None = None) -> str:
+    async def _complete_stream(self, prompt: str, max_attempts: int, on_token=None, on_progress=None, request_options: dict | None = None) -> str:
         """Assemble an OpenAI-compatible SSE response without a generation timeout."""
         headers = {"Authorization": f"Bearer {self.api_key}"} if self.api_key else {}
         payload = {"model": self.model, "messages": [{"role": "user", "content": prompt}],
@@ -98,6 +98,8 @@ class OpenAICompatibleProvider:
                         if active_request_id:
                             self.active_request_ids.add(active_request_id)
                             info["qwen_request_id"] = active_request_id
+                        if on_progress:
+                            on_progress(dict(info))
                         info["http_status"] = response.status_code
                         info["response_headers"] = {
                             name: value.replace(self.api_key, "[redacted]")[:200] if self.api_key else value[:200]
@@ -143,7 +145,14 @@ class OpenAICompatibleProvider:
                                     reason = choices[0].get("finish_reason")
                                     if reason in ("stop", "length", "content_filter", "tool_calls", "function_call") and reason not in info["finish_reasons"]:
                                         info["finish_reasons"].append(reason)
-                                delta = event.get("choices", [{}])[0].get("delta", {})
+                                usage = event.get("usage") if isinstance(event, dict) else None
+                                if isinstance(usage, dict):
+                                    info["usage"] = {
+                                        key: value for key, value in usage.items()
+                                        if key in {"prompt_tokens", "completion_tokens", "total_tokens"}
+                                        and isinstance(value, (int, float))
+                                    }
+                                delta = choices[0].get("delta", {}) if choices and isinstance(choices[0], dict) else {}
                                 if isinstance(delta, dict):
                                     info["reasoning_characters"] += sum(len(delta.get(k) or "") for k in ("reasoning_content", "reasoning") if isinstance(delta.get(k), str))
                                 token = delta.get("content")
@@ -153,6 +162,8 @@ class OpenAICompatibleProvider:
                                     pieces.append(token)
                                     if on_token:
                                         on_token(token)
+                                if on_progress:
+                                    on_progress(dict(info))
                             except (json.JSONDecodeError, IndexError, AttributeError):
                                 info["malformed_events"] += 1
                                 # One malformed SSE event must not discard already received tokens.
@@ -211,8 +222,8 @@ class OpenAICompatibleProvider:
                         self.active_request_ids.discard(active_request_id)
         raise ProviderError(last or "Provider did not return valid JSON")
 
-    async def complete_text(self, prompt: str, max_attempts: int = 4, on_token=None, request_options: dict | None = None) -> str:
-        return (await self._complete_stream(prompt, max_attempts, on_token=on_token, request_options=request_options)).strip()
+    async def complete_text(self, prompt: str, max_attempts: int = 4, on_token=None, on_progress=None, request_options: dict | None = None) -> str:
+        return (await self._complete_stream(prompt, max_attempts, on_token=on_token, on_progress=on_progress, request_options=request_options)).strip()
 
     async def complete_json(self, prompt: str, max_attempts: int = 4) -> dict:
         content = await self._complete(prompt, max_attempts, json_mode=True)
