@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:food-processing-nc-i:0995234ad9",
+  "qualification": "FOOD PROCESSING NC I",
+  "official_source": {
+    "source_file": "Superseded/Food Processing NC I (Superseded).pdf",
+    "sha256": "0995234ad9f963c8e29eb0edbb0282db2cb7862def65e75bbcb3cded713c86b5",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Superseded/Food Processing NC I (Superseded).pdf",
+    "pdf_pages": 95,
+    "printed_pages": null
+  }
+}

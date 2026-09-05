@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 339,
+    "complete": 349,
     "blocked": 1,
-    "pending": 44
+    "pending": 34
   },
   "records": [
     {
@@ -18050,8 +18050,14 @@
         "TRS512354"
       ],
       "indexed_path": "Commercial Cooking NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:commercial-cooking-nc-iii:2007-04",
       "processing_order": 341
@@ -18100,8 +18106,14 @@
         "TRS512363"
       ],
       "indexed_path": "Commercial Cooking NC IV (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:commercial-cooking-nc-iv:2007-04",
       "processing_order": 342
@@ -18151,8 +18163,14 @@
         "HCS322349"
       ],
       "indexed_path": "Dental Hygiene Level IV (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:dental-hygiene-level-iv:c804425b4c",
       "processing_order": 343
@@ -18202,8 +18220,14 @@
         "AGR611380"
       ],
       "indexed_path": "Domestic Work NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:domestic-work-nc-ii:2017-02",
       "processing_order": 344
@@ -18248,8 +18272,14 @@
         "TRS512392"
       ],
       "indexed_path": "Food and Beverage Services NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-and-beverage-services-nc-ii:2013-12",
       "processing_order": 345
@@ -18292,8 +18322,14 @@
         "TRS512395"
       ],
       "indexed_path": "Food and Beverage Services NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-and-beverage-services-nc-iii:2013-12",
       "processing_order": 346
@@ -18337,8 +18373,14 @@
         "TRS512370"
       ],
       "indexed_path": "Food and Beverage Services NC IV (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-and-beverage-services-nc-iv:2007-04",
       "processing_order": 347
@@ -18383,8 +18425,14 @@
         "AGR741311"
       ],
       "indexed_path": "Food Processing NC I (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-processing-nc-i:0995234ad9",
       "processing_order": 348
@@ -18428,8 +18476,14 @@
         "AGR741304"
       ],
       "indexed_path": "Food Processing NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-processing-nc-ii:79d040c791",
       "processing_order": 349
@@ -18489,8 +18543,14 @@
         "FWR744326"
       ],
       "indexed_path": "Footwear Making NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 30,
+        "selector_count": 67,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:footwear-making-nc-ii:de2a60ace4",
       "processing_order": 350

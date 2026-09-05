@@ -1,0 +1,76 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:food-and-beverage-services-nc-ii:2013-12",
+  "qualification": "Food and Beverage Services NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311106",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS311201",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS311202",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS311204",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS512387",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS512388",
+        "title": "providing pre-meal services to the dining guests as soon as"
+      },
+      {
+        "unit_code": "TRS512389",
+        "title": "providing advice to customers on food and beverage"
+      },
+      {
+        "unit_code": "TRS512390",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311108",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS311203",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS311205",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS512391",
+        "title": ":"
+      },
+      {
+        "unit_code": "TRS512392",
+        "title": "This unit deals with the knowledge and skills required in"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP 70 - 71",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

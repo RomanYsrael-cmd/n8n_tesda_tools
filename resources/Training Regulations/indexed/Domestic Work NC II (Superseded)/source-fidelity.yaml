@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:domestic-work-nc-ii:2017-02",
+  "qualification": "DOMESTIC WORK NC II",
+  "official_source": {
+    "source_file": "Superseded/Domestic Work NC II (Superseded).pdf",
+    "sha256": "ca3de5d070e3be3b6ee68ca5c870acf87a330c4df7f3f8c9881b98190df5a27c",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Superseded/Domestic Work NC II (Superseded).pdf",
+    "pdf_pages": 110,
+    "printed_pages": null
+  }
+}
