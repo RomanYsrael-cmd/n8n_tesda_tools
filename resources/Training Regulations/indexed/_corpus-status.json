@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 309,
+    "complete": 319,
     "blocked": 1,
-    "pending": 74
+    "pending": 64
   },
   "records": [
     {
@@ -16457,8 +16457,14 @@
         "TVT232317"
       ],
       "indexed_path": "Trainers Methodology Level I (In-Company Trainer)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:trainers-methodology-level-i-in-company-trainer:a17d1851df",
       "processing_order": 311
@@ -16506,8 +16512,14 @@
         "TVT232306"
       ],
       "indexed_path": "Trainers Methodology Level I (Trainer Assessor)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:trainers-methodology-level-i-trainer-assessor:cd8516d76a",
       "processing_order": 312
@@ -16556,8 +16568,14 @@
         "TVT232313"
       ],
       "indexed_path": "Trainers Methodology Level II (Training Designer Developer)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:trainers-methodology-level-ii-training-designer-developer:7cae465de3",
       "processing_order": 313
@@ -16599,8 +16617,14 @@
         "UTL741303"
       ],
       "indexed_path": "Transmission Line Installation and Maintenance NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-ii:b869d5cb46",
       "processing_order": 314
@@ -16646,8 +16670,14 @@
         "UTL741308"
       ],
       "indexed_path": "Transmission Line Installation and Maintenance NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-iii:545bb82ade",
       "processing_order": 315
@@ -16691,8 +16721,14 @@
         "UTL741311"
       ],
       "indexed_path": "Transmission Line Installation and Maintenance NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-iv:2017-12-18",
       "processing_order": 316
@@ -16740,8 +16776,14 @@
         "TRS422304"
       ],
       "indexed_path": "Travel Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:travel-services-nc-ii:2bf690268b",
       "processing_order": 317
@@ -16788,8 +16830,14 @@
         "ICT216318"
       ],
       "indexed_path": "Visual Graphic Design NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:visual-graphic-design-nc-iii:8203027b92",
       "processing_order": 318
@@ -16836,8 +16884,14 @@
         "LOG432306"
       ],
       "indexed_path": "Warehousing Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:warehousing-services-nc-ii:e647e22e60",
       "processing_order": 319
@@ -16888,8 +16942,14 @@
         "LOG432311"
       ],
       "indexed_path": "Warehousing Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:warehousing-services-nc-iii:7bff060249",
       "processing_order": 320

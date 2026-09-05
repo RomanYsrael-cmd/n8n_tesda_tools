@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:visual-graphic-design-nc-iii:8203027b92",
+  "qualification": "Visual Graphic Design NC III",
+  "official_source": {
+    "source_file": "Visual Graphic Design NC III.pdf",
+    "sha256": "8203027b927b7f570fa52fce28966f47379741cd9ec8d125d693a8175296813e",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Visual Graphic Design NC III.pdf",
+    "pdf_pages": 118,
+    "printed_pages": null
+  }
+}

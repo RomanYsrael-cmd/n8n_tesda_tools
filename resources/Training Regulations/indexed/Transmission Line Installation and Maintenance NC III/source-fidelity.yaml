@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-iii:545bb82ade",
+  "qualification": "Transmission Line Installation and Maintenance NC III",
+  "official_source": {
+    "source_file": "Transmission Line Installation and Maintenance NC III.pdf",
+    "sha256": "545bb82ade0b76e96c65d2cb8ccc30e05b54d05fbceffe7717a2a781c7b42f60",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Transmission Line Installation and Maintenance NC III.pdf",
+    "pdf_pages": 113,
+    "printed_pages": null
+  }
+}
