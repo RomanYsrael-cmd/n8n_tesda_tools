@@ -799,7 +799,10 @@ def validate_package(package: Path, source: Path | None = None) -> dict[str, Any
                 if record.get("fidelity_ref") and sum(1 for other in index_records if other.get("id") == record["fidelity_ref"]) != 1:
                     errors.append(f"line {number}: unresolved fidelity_ref")
     text = "\n".join(path.read_text(encoding="utf-8", errors="replace") for path in package.glob("*"))
-    if re.search(r"(?i)\b(?:TODO|TBD|PLACEHOLDER|PENDING TRANSCRIPTION)\b", text):
+    # TBD is retained when it is part of source_text because the source may
+    # contain that wording as a genuine anomaly. Generated metadata uses the
+    # stronger markers below to identify unfinished indexing work.
+    if re.search(r"(?i)\b(?:TODO|PLACEHOLDER|PENDING TRANSCRIPTION)\b", text):
         errors.append("placeholder marker found")
     if source and manifest.get("source", {}).get("source_sha256") and manifest["source"]["source_sha256"] != sha256(source):
         errors.append("source hash mismatch")

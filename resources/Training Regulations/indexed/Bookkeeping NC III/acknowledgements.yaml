@@ -1,122 +1,79 @@
-schema: tesda-tr-acknowledgements
-schema_version: "1.0"
-qualification_id: tesda:tr:bookkeeping-nc-iii:2007
-content_status: complete
-source:
-  heading: ACKNOWLEDGEMENTS
-  printed_pages: "68-69"
-
-acknowledged_organization:
-  name: Professional Bookkeepers Association of the Philippines, Inc.
-  abbreviation: PBAPI
-
-technical_industry_experts:
-  - name: Dr. Rosalinda D. Evangelista
-    role: President
-    organization: Professional Bookkeepers Association of the Philippines, Inc.
-    location: Legaspi Village, Makati City
-  - name: Mr. Faustino D. Evangelista
-    role: President
-    organization: Asian Institute of Certified Bookkeepers, Inc.
-    location: Makati City
-  - name: Ms. Ana Maria D. De Castro
-    role: Director
-    organization: Professional Bookkeepers Association of the Philippines, Inc.
-    location: Legaspi Village, Makati City
-  - name: Ms. Loida Nery-Lao
-    role: Admission Officer/Registrar
-    organization: Asian Institute of Certified Bookkeepers, Inc.
-    location: Makati City
-
-national_validation_participants:
-  - name: Ms. Divinia Z. Jugueta
-    role: President (FY 2006-2007)
-    organization: PICPA-North
-  - name: Dr. Ramon E. Woo, Jr.
-    role: School Director
-    organization: ACSAT Center
-    location: Cubao, Quezon City
-  - name: Mr. Henry L. Koa
-    role: Liaison Officer
-    organization: Debbie Karen Koa-Lim & Associates
-  - name: Ms. Felisa C. Lim
-    role: Owner
-    organization: Security Business Agency
-  - name: Ms. Jacqueline T. Lim
-    role: Secretary
-    organization: Marcos T. Lim, CPA
-  - name: Mr. Marcos T. Lim
-    role: Operations Manager
-    organization: PBCOM Finance Corp.
-  - name: Mr. Josue M. Lorenzo
-    role: Comptroller
-    organization: PBCOM Finance Corp.
-  - name: Mr. William Que
-    role: Owner
-    organization: William Que, CPA
-  - name: Ms. Anita V. Ogena
-    role: Owner
-    organization: A.V. Ogena & Associates
-  - name: Ms. Eden D. Sarne
-    role: Accountant
-    organization: ELEKTRO WERK, INC.
-  - name: Ms. Katherine U. Sobremonte
-    role: CPA, Public Practitioner
-  - name: Ms. Lolita P. Tang
-    role: CPA
-    organization: Lolita C. Po, CPAs
-  - name: Ms. Jeannette D. Tolentino
-    role: Practitioner
-    organization: Jeannette D. Tolentino, CPA
-  - name: Ms. Merilyn S. Torre
-    role: CPA, Public Practitioner
-  - name: Ms. Josephine B. Velasco
-    role: CPA, Public Practitioner
-  - name: Ms. Amelia T. Uy
-    role: Owner
-    organization: Amelia T. Uy, CPA
-  - name: Ms. Alma Cecilia G. Abesamis
-    role: Secretary
-    organization: Lolita C. Po, CPAs
-  - name: Ms. Joan O. Agino
-    role: Sales Administration Staff
-    organization: Goldwast Marine Export, Inc.
-  - name: Ms. Angeles S. Aragon
-    role: Auditor
-    organization: E.E. Atienza & Associates
-  - name: Ms. Evelyn E. Atienza
-    role: Owner
-    organization: E.E. Atienza & Associates
-  - name: Ms. Donabel T. Chua
-    role: CPA
-    organization: Chua, Medina and Associates
-  - name: Ms. Manolito B. dela Cruz
-    role: Auditor
-    organization: Triple A Car Rental Services
-  - name: Ms. Virginia R. Delatina
-    role: Liaison Officer
-    organization: RSA Dilino Accounting Office
-  - name: Ms. Melinda C. De Vera
-    role: Bookkeeper
-    organization: Jetco Business Management Services
-  - name: Ms. Georgina N. Fungo
-    role: Bookkeeper
-    organization: DZJ Jugueta & Associates
-  - name: Ms. Eralyn A. Hintay
-    role: Bookkeeper
-    organization: Ayson Accounting & Business Center
-  - name: Ms. Lorna Inductivo
-    role: Bookkeeper
-    organization: Foundation for Development Alternatives, Inc.
-  - name: Ms. Marie Grace R. Jaluague
-    role: Bookkeeper
-    organization: Ocampo, Mendoza & Co., CPAs
-  - name: Ms. Cynthia V. Jose
-    organization: Jose, Jose & Company, CPAs
-
-institutional_acknowledgements:
-  - Members of the TESDA Board
-  - TESDA EXCOM
-  - The management and staff of the TESDA Secretariat
-  - QSO
-  - TESDA Regional Offices
+{
+  "present": true,
+  "entities": [
+    {
+      "source_text": "ACKNOWLEDGEMENTS"
+    },
+    {
+      "source_text": "The Technical Education and Skills Development Authority (TESDA) wishes to extend thanks and appreciation to the Professional Bookkeepers Association of the Philippines, Inc. (PBAPI) and the many representatives of business, industry, academe and government agencies who rendered their time and expertise to the development and validation of these Training Regulations."
+    },
+    {
+      "source_text": "THE TECHNICAL/INDUSTRY EXPERTS:"
+    },
+    {
+      "source_text": "DR. ROSALINDA D. EVANGELISTA President Professional Bookkeepers Association of the Philippines, Inc. Unit 310, BSA Mansion, Benavidez St. Legaspi Village, Makati City"
+    },
+    {
+      "source_text": "MR. FAUSTINO D. EVANGELISTA President Asian Institute of Certified Bookkeepers, Inc. 2343 Onyx St., Bgy. La Paz Makati City"
+    },
+    {
+      "source_text": "MS. ANA MARIA D. DE CASTRO Director Professional Bookkeepers Association of the Philippines, Inc. Unit 310, BSA Mansion, Benavidez St. Legaspi Village, Makati City"
+    },
+    {
+      "source_text": "MS. LOIDA NERY- LAO Admission Officer/Registrar Asian Institute of Certified Bookkeepers, Inc. 2343 Onyx St., Bgy. La Paz, Makati City"
+    },
+    {
+      "source_text": "The PARTICIPANTS in the National Validation of these Training Regulations"
+    },
+    {
+      "source_text": "Ms. Divinia Z. Jugueta President (FY 2006-2007) PICPA- North Dr. Ramon E. Woo, Jr. School Director ACSAT Center, Cubao, Quezon City"
+    },
+    {
+      "source_text": "Mr. Henry L. Koa Liaison Officer, Debbie Karen Koa-Lim & Associates Ms. Felisa C. Lim Owner Security Business Agency Ms. Jacqueline T. Lim Secretary, Marcos T. Lim, CPA Mr. Marcos T. Lim Operations Mgr., PBCOM Finance Corp. Mr. Josue M. Lorenzo Comptroller, PBCOM Finance Corp. Mr. William Que Owner, William Que, CPA"
+    },
+    {
+      "source_text": "Ms. Anita V. Ogena Owner, A.V. Ogena & Associates Ms. Eden D. Sarne Accountant, ELEKTRO WERK, INC."
+    },
+    {
+      "source_text": "Ms. Katherine U. Sobremonte CPA, Public Practitioner Ms. Lolita P. Tang CPA, Lolita C. Po, CPAs"
+    },
+    {
+      "source_text": "Ms. Jeannette D. Tolentino Practitioner, Jeannette D. Tolentino, CPA Ms. Merilyn S. Torre CPA, Public Practitioner Ms. Josephine B. Velasco CPA, Public Practitioner Ms. Amelia T. Uy Owner, Amelia T. Uy, CPA Ms. Alma Cecilia G. Abesamis Secretary, Lolita C. Po, CPAs Ms. Joan O. Agino Sales Admin. Staff, Goldwast Marine Export, Inc."
+    },
+    {
+      "source_text": "Ms. Angeles S. Aragon Auditor, E.E. Atienza & Associates Ms. Evelyn E. Atienza Owner, E.E. Atienza & Associates"
+    },
+    {
+      "source_text": "-- PDF PAGE 71 ---"
+    },
+    {
+      "source_text": "------------------------------------------------------------------------------------------------------ TR – Bookkeeping NC III Promulgated November 2007 69 Ms. Donabel T. Chua CPA- Chua, Medina and Associates Ms. Manolito B. dela Cruz Auditor, Triple A Car Rental Services"
+    },
+    {
+      "source_text": "Ms. Virginia R. Delatina Liaison Officer, RSA Dilino Acct’g. Office Ms. Melinda C. De Vera Bookkeeper, Jetco Bus. Mgn’t. Services"
+    },
+    {
+      "source_text": "Ms. Georgina N. Fungo Bookkeeper, DZJ Jugueta & Associates Ms. Eralyn A. Hintay Bookkeeper, Ayson Acct’g. & Bus. Center Ms. Lorna Inductivo Bookkeeper, Foundation for Dev’t. Alternatives, Inc. Ms. Marie Grace R. Jaluague Bookkeeper, Ocampo, Mendoza & Co., CPAs"
+    },
+    {
+      "source_text": "Ms. Cynthia V. Jose Jose, Jose & Company, CPAs"
+    },
+    {
+      "source_text": "Members of the TESDA Board"
+    },
+    {
+      "source_text": "TESDA EXCOM"
+    },
+    {
+      "source_text": "The MANAGEMENT and STAFF of the TESDA Secretariat"
+    },
+    {
+      "source_text": "QSO"
+    },
+    {
+      "source_text": "TESDA Regional Offices"
+    }
+  ],
+  "source_text": "ACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the Professional Bookkeepers Association of the Philippines, Inc.\n(PBAPI) and the many representatives of business, industry, academe and government\nagencies who rendered their time and expertise to the development and validation of these\nTraining Regulations.\n\nTHE TECHNICAL/INDUSTRY EXPERTS:\n\nDR. ROSALINDA D. EVANGELISTA\nPresident\nProfessional Bookkeepers Association\n of the Philippines, Inc.\nUnit 310, BSA Mansion, Benavidez St.\nLegaspi Village, Makati City\n\nMR. FAUSTINO D. EVANGELISTA\nPresident\nAsian Institute of Certified Bookkeepers, Inc.\n2343 Onyx St., Bgy. La Paz\nMakati City\n\nMS. ANA MARIA D. DE CASTRO\nDirector\nProfessional Bookkeepers Association\n of the Philippines, Inc.\nUnit 310, BSA Mansion, Benavidez St.\nLegaspi Village, Makati City\n\nMS. LOIDA NERY- LAO\nAdmission Officer/Registrar\nAsian Institute of Certified Bookkeepers, Inc.\n2343 Onyx St., Bgy. La Paz, Makati City\n\nThe PARTICIPANTS in the National Validation of these Training Regulations\n\nMs. Divinia Z. Jugueta\nPresident (FY 2006-2007)\nPICPA- North\nDr. Ramon E. Woo, Jr.\nSchool Director\nACSAT Center, Cubao, Quezon City\n\nMr. Henry L. Koa\nLiaison Officer,\nDebbie Karen Koa-Lim & Associates\nMs. Felisa C. Lim\nOwner\nSecurity Business Agency\nMs. Jacqueline T. Lim\nSecretary, Marcos T. Lim, CPA\nMr. Marcos T. Lim\nOperations Mgr., PBCOM Finance Corp.\nMr. Josue M. Lorenzo\nComptroller, PBCOM Finance Corp.\nMr. William Que\nOwner, William Que, CPA\n\nMs. Anita V. Ogena\nOwner, A.V. Ogena & Associates\nMs. Eden D. Sarne\nAccountant, ELEKTRO WERK, INC.\n\nMs. Katherine U. Sobremonte\nCPA, Public Practitioner\nMs. Lolita P. Tang\nCPA, Lolita C. Po, CPAs\n\nMs. Jeannette D. Tolentino\nPractitioner, Jeannette D. Tolentino, CPA\nMs. Merilyn S. Torre\nCPA, Public Practitioner\nMs. Josephine B. Velasco\nCPA, Public Practitioner\nMs. Amelia T. Uy\nOwner, Amelia T. Uy, CPA\nMs. Alma Cecilia G. Abesamis\nSecretary, Lolita C. Po, CPAs\nMs. Joan O. Agino\nSales Admin. Staff, Goldwast Marine Export, Inc.\n\nMs. Angeles S. Aragon\nAuditor, E.E. Atienza & Associates\nMs. Evelyn E. Atienza\nOwner, E.E. Atienza & Associates\n\n--- PDF PAGE 71 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n69\nMs. Donabel T. Chua\nCPA- Chua, Medina and Associates\nMs. Manolito B. dela Cruz\nAuditor, Triple A Car Rental Services\n\nMs. Virginia R. Delatina\nLiaison Officer, RSA Dilino Acct’g. Office\nMs. Melinda C. De Vera\nBookkeeper, Jetco Bus. Mgn’t. Services\n\nMs. Georgina N. Fungo\nBookkeeper, DZJ Jugueta & Associates\nMs. Eralyn A. Hintay\nBookkeeper, Ayson Acct’g. & Bus. Center\nMs. Lorna Inductivo\nBookkeeper, Foundation for Dev’t.\nAlternatives, Inc.\nMs. Marie Grace R. Jaluague\nBookkeeper, Ocampo, Mendoza & Co., CPAs\n\nMs. Cynthia V. Jose\nJose, Jose & Company, CPAs\n\nMembers of the TESDA Board\n\nTESDA EXCOM\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n•\nQSO\n•\nTESDA Regional Offices",
+  "normalization_note": "Entities are normalized from the source acknowledgement section; visual layout and postal-address formatting are not claimed verbatim."
+}

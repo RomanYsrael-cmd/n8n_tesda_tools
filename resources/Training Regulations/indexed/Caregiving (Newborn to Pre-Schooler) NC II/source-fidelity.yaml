@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:caregiving-newborn-to-pre-schooler-nc-ii:d6126a9ecb",
+  "qualification": "CAREGIVING (NEWBORN TO PRE-SCHOOLER) NC II",
+  "official_source": {
+    "source_file": "Caregiving (Newborn to Pre-Schooler) NC II.pdf",
+    "sha256": "d6126a9ecb792aa0a73161b6f63fc2c9e18dd93e20f592129436500af71d01cc",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Caregiving (Newborn to Pre-Schooler) NC II.pdf",
+    "pdf_pages": 209,
+    "printed_pages": null
+  }
+}

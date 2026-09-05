@@ -1,189 +1,61 @@
-schema: tesda-training-standards
-schema_version: "1.0"
-qualification_id: tesda:tr:bookkeeping-nc-iii:2007
-content_status: complete
-source:
-  section_heading: SECTION 3 TRAINING STANDARDS
-  printed_pages: "52-60"
-
-curriculum_design:
-  course_title: Bookkeeping
-  nc_level: NC III
-  nominal_duration:
-    basic_hours: 20
-    common_hours: 24
-    core_hours: 248
-    total_hours: 292
-  course_description: Enhance the knowledge, skills and attitudes of bookkeepers according to industry standards, covering all basic, common and core competencies prescribed for Bookkeeping NC III.
-  curriculum:
-    basic:
-      suggested_hours: 20
-      units:
-        - unit_code: "500311109"
-          title: Lead workplace communication
-          learning_outcomes: [Communicate information about workplace processes, Lead workplace discussions, Identify and communicate issues arising in the workplace]
-          methodology: [Group discussion, Role play, Brainstorming]
-          assessment: [Observation, Interviews]
-        - unit_code: "500311110"
-          title: Lead small team
-          learning_outcomes: [Provide team leadership, Assign responsibilities among members, Set performance expectations for team members, Supervise team performance]
-          methodology: [Lecture, Demonstration, Self-paced/modular]
-          assessment: [Demonstration, Case studies]
-        - unit_code: "500311111"
-          title: Develop and practice negotiation skills
-          learning_outcomes: [Identify relevant information in planning negotiations, Participate in negotiations, Document areas for agreement]
-          methodology: [Direct observation, Simulation/role playing, Case studies]
-          assessment: [Written test, Practical/performance test]
-        - unit_code: "500311112"
-          title: Solve problems related to work activities
-          learning_outcomes: [Explain analytical techniques, Identify the problem, Determine possible causes of the problem]
-          methodology: [Direct observation, Simulation/role playing, Case studies]
-          assessment: [Written test, Practical/performance test]
-        - unit_code: "500311113"
-          title: Use mathematical concepts and techniques
-          learning_outcomes: [Explain analytical techniques, Identify mathematical tools and techniques to solve problem, Apply mathematical procedures/solution, Analyze results]
-          methodology: [Direct observation, Simulation/role playing, Case studies]
-          assessment: [Written test, Practical/performance test]
-        - unit_code: "500311114"
-          title: Use relevant technologies
-          learning_outcomes: [Identify appropriate technology, Apply relevant technology, Maintain/enhance relevant technology]
-          methodology: [Direct observation, Simulation/role playing, Case studies]
-          assessment: [Written test, Practical/performance test]
-    common:
-      suggested_hours: 24
-      units:
-        - unit_code: HCS913201
-          title: Maintain an effective relationship with clients/customers
-          learning_outcomes: [Maintain a professional image, Meet client/customer requirements, Build credibility with customers/clients]
-          methodology: [Group discussion, PowerPoint presentation, Demonstration]
-          assessment: [Observation, Interviews/questioning]
-        - unit_code: HCS913202
-          title: Manage own performance
-          learning_outcomes: [Identify tasks accurately, Allocate priority to each task, Allocate timelines, Meet deadlines, Comply with work schedules, Develop work plans, Monitor personal performance, Obtain management advice/guidance, Apply management guidance, Clarify work standards]
-          methodology: [Group discussion, PowerPoint presentation, Demonstration]
-          assessment: [Observation, Interviews/questioning]
-        - unit_code: HCS315202
-          title: Apply quality standards
-          learning_outcomes_source: [Assess clients needs, Assess own work, Engage in quality improvement]
-          source_note: The first learning-outcome wording is preserved as it appears in the 2007 curriculum table.
-          methodology: [Group discussion, Interaction, Demonstration]
-          assessment: [Observation, Interviews/questioning]
-        - unit_code: HCS311201
-          title: Perform computer operations
-          learning_outcomes: [Identify and explain functions/features/capabilities of hardware and software, Prepare/use hardware and software for task requirements, Transfer files/data using appropriate devices/procedures, Produce accurate and complete data]
-          methodology: [Lecture, Group discussion, Tutorial/self-paced]
-          assessment: [Interviews/questioning, Demonstration, Observation]
-    core:
-      suggested_hours: 248
-      units:
-        - unit_code: HCS412301
-          title: Journalize transactions
-          learning_outcomes: [Prepare chart of accounts, Analyze documents, Prepare journal entry]
-          methodology: [Lecture/demonstration, OJT]
-          assessment: [Written examination, Demonstration, Observation]
-        - unit_code: HCS412302
-          title: Post transactions
-          learning_outcomes: [Prepare ledger, Transfer journal entries, Summarize ledger]
-          methodology: [Lecture/demonstration, OJT]
-          assessment: [Written examination, Demonstration, Observation]
-        - unit_code: HCS412303
-          title: Prepare trial balance
-          learning_outcomes: [List account titles, Transfer balances from the ledger, Summarize trial balance]
-          methodology: [Lecture/demonstration, OJT]
-          assessment: [Written examination, Demonstration, Observation]
-        - unit_code: HCS412304
-          title: Prepare financial reports
-          learning_outcomes: [Prepare financial statements, Analyze financial statements]
-          methodology: [Lecture/demonstration, OJT]
-          assessment: [Written examination, Demonstration, Observation]
-        - unit_code: HCS412305
-          title: Review internal control system
-          learning_outcomes: [Check policy compliance, Prepare policy compliance report]
-          methodology: [Lecture/demonstration, OJT]
-          assessment: [Written examination, Demonstration, Observation]
-
-training_delivery:
-  competency_based_tvet_principles:
-    - Training is based on curriculum developed from competency standards.
-    - Learning is modular.
-    - Delivery is individualized and self-paced.
-    - Training is based on work that must be performed.
-    - Training materials relate directly to competency standards and curriculum modules.
-    - Assessment is based on evidence of work performance to industry standard.
-    - Training uses both on- and off-the-job components.
-    - Recognition of prior learning/current competencies is allowed.
-    - Multiple entry and exit are allowed.
-    - Approved training programs are nationally accredited.
-  modalities:
-    - name: Dualized mode
-      description: In-school plus in-industry training/fieldwork; source refers to DTS implementing rules and regulations.
-    - name: Modular/self-paced learning
-      description: Trainee progresses at own pace while trainer facilitates delivery.
-    - name: Peer teaching/mentoring
-      description: Faster learners may assist slower learners.
-    - name: Supervised industry training/OJT
-      description: Workplace experience used to acquire competencies prescribed by the training regulations.
-    - name: Distance learning
-      description: Instruction largely occurs with learner and instructor in different places using correspondence, audio, video or computer technologies.
-    - name: Project-based instruction
-      description: Learners plan, implement and evaluate projects with real-world applications.
-
-trainee_entry_requirements:
-  - Communicate effectively orally and in written form.
-  - Be physically, emotionally, psychologically and mentally fit.
-  - Perform basic mathematical computations.
-
-tools_equipment_materials:
-  class_size_basis: 25
-  tools:
-    - {quantity: 1, unit: pc, item: Stapler}
-    - {quantity: 25, unit: pcs, item: Calculators}
-  equipment:
-    - {quantity: 1, unit: unit, item: Computer/Laptop}
-    - {quantity: 1, unit: unit, item: Air-conditioning unit}
-    - {quantity: 1, unit: unit, item: LCD projector}
-    - {quantity: 1, unit: unit, item: Teacher table/chair}
-    - {quantity: 25, unit: pcs, item: Arm chairs}
-    - {quantity: 1, unit: pc, item: White board}
-  materials:
-    - {quantity: 25, unit: pcs, item: Pencils}
-    - {quantity: 25, unit: pcs, item: Pencil erasers}
-    - {quantity: 25, unit: pcs, item: Ballpens}
-    - {quantity: 25, unit: pcs, item: Rulers}
-    - {quantity: 25, unit: pcs, item: Journals, specification: Assorted columns}
-    - {quantity: 25, unit: pcs, item: Ledger}
-    - {quantity: 25, unit: pcs, item: Worksheets, specification: Assorted}
-    - {quantity: 1, unit: box, item: Acetate}
-    - {quantity: 3, unit: pcs, item: Marker}
-    - {quantity: null, unit: null, item: Diskettes/CD, source_quantity_not_clear_in_extracted_table: true}
-    - {quantity: 25, unit: pcs, item: Envelopes, specification: Long}
-    - {quantity: 25, unit: pcs, item: Registration forms}
-    - {quantity: 1, unit: pc, item: Teacher's record book}
-    - {quantity: 50, unit: pcs, item: Worksheets, specification: Assorted}
-    - {quantity: 1, unit: pc, item: Marker ink}
-    - {quantity: 25, unit: pcs, item: Ledger book}
-    - {quantity: 1, unit: box, item: Staple wire}
-
-training_facilities:
-  class_size_basis: 25
-  spaces:
-    - {space: Student/trainee working space, size: "1 m x 1 m per trainee", total_area_sq_m: 25}
-    - {space: Lecture/demo room, size: "8 m x 5 m", total_area_sq_m: 40}
-    - {space: Learning resource center, size: "3 m x 5 m", total_area_sq_m: 15}
-    - {space: Facilities/equipment/circulation area, size: "6 m x 4 m", total_area_sq_m: 24}
-  total_area_sq_m: 104
-  source_notes:
-    - Course may be held/conducted in hotels and similarly situated locations.
-    - Course may be conducted online or through internet-based training.
-
-trainer_qualifications:
-  - Holder of Bookkeeping NC III or a Certified Public Accountant.
-  - Graduate of B.S. Accounting or equivalent.
-  - Completed Training Methodology III or equivalent.
-  - Able to communicate effectively orally and in written form.
-  - At least three years of industry experience as a bookkeeper.
-  - Possess good moral character.
-
-institutional_assessment:
-  purpose: Determine trainee achievement of units of competency.
-  award: Certificate of achievement for each unit of competency.
+{
+  "schema": "tesda-training-arrangements",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:bookkeeping-nc-iii:2007-11",
+  "qualification": "BOOKKEEPING NC III",
+  "content_status": "complete",
+  "source": {
+    "source_file": "Bookkeeping NC III.pdf",
+    "pdf_pages": 71
+  },
+  "curriculum_design": {
+    "present": true,
+    "entries": [],
+    "source_text": "SECTION 3 TRAINING STANDARDS\n\nThis set of standards provides Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Bookkeeping NC III.\n\nThis includes information on curriculum design, training delivery, trainee\nentry requirements, tools and equipment, training facilities, and trainers\nqualification.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: Bookkeeping\nNC Level: NC III\nNominal Training Duration: 20 HOURS (Basic Competencies)\n 24 HOURS (Common Competencies)\n 248 HOURS (Core Competencies)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of\nBookkeepers in accordance with industry standards. It covers the basic, common\nand core competencies on journalizing transactions, posting transactions,\npreparing trial balance, preparing financial reports and reviewing internal control\nsystem.\n\nTo obtain this, all units prescribed for this qualification must be achieved.\n\nBASIC COMPETENCIES\n\nSuggested Nominal Training Duration: 20 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1\nCommunicate\ninformation about\nworkplace\nprocesses.\n1.2\nLead workplace\ndiscussions.\n1.3\nIdentify and\ncommunicate\nissues arising in\nthe workplace\n• Group\ndiscussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n\n--- PDF PAGE 55 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n53\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n2. Lead small\nteams\n2.1\nProvide team\nleadership.\n2.2\nAssign\nresponsibilities\namong members\n2.3\nSet performance\nexpectation for\nteam members\n2.4\nSupervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n3. Develop and\npractice\nnegotiation skills\n3.1\nIdentify relevant\ninformation in\nplanning\nnegotiations\n3.2\nParticipate in\nnegotiations\n3.3\nDocument areas\nfor agreement\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n\n4.1\nExplain the\nanalytical\ntechniques\n4.2\nIdentify the\nproblem.\n4.3\nDetermine the\npossible cause/s of\nthe problem.\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1\nExplain the\nanalytical\ntechniques\n5.2\nIdentify\nmathematical tools\nand techniques to\nsolve problem\n5.3\nApply\nmathematical\nprocedures/\nsolution\n5.4\nAnalyze results\n\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify appropriate\ntechnology\n6.2\nApply relevant\ntechnology\n6.3\nMaintain/\nenhance relevant\ntechnology\n\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n54\nCOMMON COMPETENCIES\n\nSuggested Nominal Training Duration: 24 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/customers\n\n1.1 Maintain a\nprofessional image\n1.2 Meet client/customer\nrequirements\n1.3 Build credibility with\ncustomers/clients\n\n• Group\nDiscussion\n• Power Point\nPresentation\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n2. Manage own\nperformance\n2.1 Identify tasks\naccurately\n2.2 Allocate priority to\neach task\n2.3 Allocate time lines to\neach task\n2.4 Meet and comply\ndeadlines\n2.5 Know and comply\nwith work schedules\n2.6 Develop work plans\n2.7 Monitor personal\nperformance\n2.8 Get advice and\nguidance from\nmanagement\n2.9 Apply guidance from\nmanagement\n2.10 Clarify standard of\nwork\n• Group\nDiscussion\n• Power Point\nPresentation\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n3. Apply quality\nstandards\n3.1 Assess clients\nneeds\n3.2 Assess own work\n3.3 Engage in quality\nimprovement\n• Group\nDiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n55\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n4. Perform\ncomputer\noperations\n4.1 Identify and explain\nthe functions, general\nfeatures and\ncapabilities of both\nhardware and\nsoftware\n4.2 Prepare and use\nappropriate hardware\nand software\naccording to task\nrequirement\n4.3 Use appropriate\ndevices and\nprocedures to\ntransfer files/data\n4.4 Produce accurate\nand complete data\naccording to the\nrequirements\n\n• Lecture\n• Group\nDiscussion\n• Tutorial or\nself-pace\n\n• Interviews/\nQuestioning\n• Demonstration\n• Observation\n\nCORE COMPETENCIES\n\nCourse Title: BOOKKEEPING\nNC Level: NC III\n\nSuggested Nominal Training Duration: 248 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Journalize\ntransactions\n\n1.1 Prepare chart of\naccounts\n\n1.2 Analyze\ndocuments\n\n1.3 Prepare journal\nentry\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n56\n\n2. Post\ntransactions\n\n2.1 Prepare ledger\n\n2.2 Transfer journal\nentries\n\n2.3 Summarize\nledger\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n3. Prepare trial\nbalance\n\n3.1 List account titles\n\n3.2 Transfer\nbalances from\nthe ledger\n\n3.3 Summarize trial\nbalance\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n4. Prepare financial\nreports\n\n4.1 Prepare financial\nstatements\n\n4.2 Analyze financial\nstatements\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n5. Review internal\ncontrol system\n\n5.1 Check policy\ncompliance\n\n5.2 Prepare policy\ncompliance\nreport\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n57\n• Assessment is based in the collection of evidence of the\nperformance of work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n• Project-based instruction is an authentic instructional model strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into these qualifications should\npossess the following requirements:\n\n•\nMust be able to communicate effectively both orally and in written form\n•\nMust be physically, emotionally, psychologically and mentally fit\n•\nMust be able to perform basic mathematical computations\n\n--- PDF PAGE 60 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n58\n3.4 TOOLS AND EQUIPMENT\n\nLIST OF TOOL, EQUIPMENT AND MATERIALS\nBOOKKEEPING – NC III\n\nRecommended list of tools, equipment and materials for the training of a\nminimum of 25 trainees for Bookkeeping NC III are as follows:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nSPECIFICATION/\nDESCRIPTION\nQTY\nSPECIFICATION/\nDESCRIPTION\n\nQTY\nSPECIFICATION/\nDESCRIPTION\n1 pc.\nStapler\n1 unit\nComputer/Laptop\n25 pcs.\nPencils\n25 pcs Calculators\n1 unit\nAircon unit\n25 pcs.\nPencil Erasers\n\n1 unit\nLCD Projector\n25 pcs.\nBallpens\n\n1 unit\nTeacher’s\nTable/Chair\n25 pcs.\nRuler\n\n25 pcs.\nArm Chairs\n25 pcs.\nJournals (assorted\ncolumns)\n\n1 pc.\nWhite Board\n25 pcs.\nLedger\n\n25 pcs.\nWorksheets\n(assorted)\n\n1 box\nAcetate\n\n3 pcs.\nMarker\n\nDiskettes/CD\n\n25 pcs.\nEnvelopes ( Long)\n\n25 pcs.\nRegistration Forms\n\n1 pc.\nTeacher’s Record\nBook\n\n50 pcs\nWorksheets\n(Asstd.)\n\n1 pc.\nMarker Ink\n\n25 pcs.\nLedger Book\n\n1 box\nStaple Wire\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n59\n3.5 TRAINING FACILITIES*\n\nBased on a class intake of 25 students/trainees\n\nSpace Requirement\n\nSize in Meters\n\nArea in Sq.\nMeters\n\nTotal Area in Sq.\nMeters\n\nStudent/Trainee\nWorking Space\n\n1 x 1 m.\n\n1 sq. m.\n\n25 sq. m\n\nLecture/Demo Room\n\n8 x 5 m.\n\n40 sq. m.\n\n40 sq. m.\n\nLearning Resource\nCenter\n\n3 x 5 m.\n\n15 sq. m.\n\n15 sq. m.\n\nFacilities/Equipment/\nCirculation Area\n\n6 x 4 m.\n\n24 sq. m.\n\n24 sq. m.\nTotal :\n104 sq. m.\n\nNote:\n* The course may be held or conducted in hotels and similarly situated\nlocations.\n* The course may be conducted on-line or internet-based training.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n60\n3.6\nTRAINER’S QUALIFICATIONS FOR BOOKKEEPING NC III\n\nBOOKKEEPING – NC III\nTRAINER QUALIFICATION\n\nThe trainer must:\n\n•\nbe a holder of Bookkeeping NC III or a Certified Public Accountant\n•\na graduate of B.S. Accounting or its equivalent\n•\nhave completed Training Methodology III or its equivalent\n•\nbe able to communicate effectively both orally and in written form\n•\nhave at least three (3) years experience in the industry as a\nbookkeeper\n•\npossess good moral character\n\n3.7 INSTITUTIONAL ASSESSMENT\n\n Institutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 63 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n61"
+  },
+  "subsections": {
+    "curriculum_design": {
+      "present": true,
+      "source_text": "Course Title: Bookkeeping\nNC Level: NC III\nNominal Training Duration: 20 HOURS (Basic Competencies)\n 24 HOURS (Common Competencies)\n 248 HOURS (Core Competencies)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of\nBookkeepers in accordance with industry standards. It covers the basic, common\nand core competencies on journalizing transactions, posting transactions,\npreparing trial balance, preparing financial reports and reviewing internal control\nsystem.\n\nTo obtain this, all units prescribed for this qualification must be achieved.\n\nBASIC COMPETENCIES\n\nSuggested Nominal Training Duration: 20 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1\nCommunicate\ninformation about\nworkplace\nprocesses.\n1.2\nLead workplace\ndiscussions.\n1.3\nIdentify and\ncommunicate\nissues arising in\nthe workplace\n• Group\ndiscussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n\n--- PDF PAGE 55 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n53\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n2. Lead small\nteams\n2.1\nProvide team\nleadership.\n2.2\nAssign\nresponsibilities\namong members\n2.3\nSet performance\nexpectation for\nteam members\n2.4\nSupervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n3. Develop and\npractice\nnegotiation skills\n3.1\nIdentify relevant\ninformation in\nplanning\nnegotiations\n3.2\nParticipate in\nnegotiations\n3.3\nDocument areas\nfor agreement\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n\n4.1\nExplain the\nanalytical\ntechniques\n4.2\nIdentify the\nproblem.\n4.3\nDetermine the\npossible cause/s of\nthe problem.\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1\nExplain the\nanalytical\ntechniques\n5.2\nIdentify\nmathematical tools\nand techniques to\nsolve problem\n5.3\nApply\nmathematical\nprocedures/\nsolution\n5.4\nAnalyze results\n\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify appropriate\ntechnology\n6.2\nApply relevant\ntechnology\n6.3\nMaintain/\nenhance relevant\ntechnology\n\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n54\nCOMMON COMPETENCIES\n\nSuggested Nominal Training Duration: 24 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/customers\n\n1.1 Maintain a\nprofessional image\n1.2 Meet client/customer\nrequirements\n1.3 Build credibility with\ncustomers/clients\n\n• Group\nDiscussion\n• Power Point\nPresentation\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n2. Manage own\nperformance\n2.1 Identify tasks\naccurately\n2.2 Allocate priority to\neach task\n2.3 Allocate time lines to\neach task\n2.4 Meet and comply\ndeadlines\n2.5 Know and comply\nwith work schedules\n2.6 Develop work plans\n2.7 Monitor personal\nperformance\n2.8 Get advice and\nguidance from\nmanagement\n2.9 Apply guidance from\nmanagement\n2.10 Clarify standard of\nwork\n• Group\nDiscussion\n• Power Point\nPresentation\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n3. Apply quality\nstandards\n3.1 Assess clients\nneeds\n3.2 Assess own work\n3.3 Engage in quality\nimprovement\n• Group\nDiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n55\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n4. Perform\ncomputer\noperations\n4.1 Identify and explain\nthe functions, general\nfeatures and\ncapabilities of both\nhardware and\nsoftware\n4.2 Prepare and use\nappropriate hardware\nand software\naccording to task\nrequirement\n4.3 Use appropriate\ndevices and\nprocedures to\ntransfer files/data\n4.4 Produce accurate\nand complete data\naccording to the\nrequirements\n\n• Lecture\n• Group\nDiscussion\n• Tutorial or\nself-pace\n\n• Interviews/\nQuestioning\n• Demonstration\n• Observation\n\nCORE COMPETENCIES\n\nCourse Title: BOOKKEEPING\nNC Level: NC III\n\nSuggested Nominal Training Duration: 248 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Journalize\ntransactions\n\n1.1 Prepare chart of\naccounts\n\n1.2 Analyze\ndocuments\n\n1.3 Prepare journal\nentry\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n56\n\n2. Post\ntransactions\n\n2.1 Prepare ledger\n\n2.2 Transfer journal\nentries\n\n2.3 Summarize\nledger\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n3. Prepare trial\nbalance\n\n3.1 List account titles\n\n3.2 Transfer\nbalances from\nthe ledger\n\n3.3 Summarize trial\nbalance\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n4. Prepare financial\nreports\n\n4.1 Prepare financial\nstatements\n\n4.2 Analyze financial\nstatements\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n5. Review internal\ncontrol system\n\n5.1 Check policy\ncompliance\n\n5.2 Prepare policy\ncompliance\nreport\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation",
+      "pdf_pages": []
+    },
+    "training_delivery": {
+      "present": true,
+      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n57\n• Assessment is based in the collection of evidence of the\nperformance of work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n• Project-based instruction is an authentic instructional model strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.",
+      "pdf_pages": []
+    },
+    "trainee_entry_requirements": {
+      "present": true,
+      "source_text": "Trainees or students wishing to gain entry into these qualifications should\npossess the following requirements:\n\n•\nMust be able to communicate effectively both orally and in written form\n•\nMust be physically, emotionally, psychologically and mentally fit\n•\nMust be able to perform basic mathematical computations\n\n--- PDF PAGE 60 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n58",
+      "pdf_pages": []
+    },
+    "tools_equipment_materials": {
+      "present": true,
+      "source_text": "AND EQUIPMENT\n\nLIST OF TOOL, EQUIPMENT AND MATERIALS\nBOOKKEEPING – NC III\n\nRecommended list of tools, equipment and materials for the training of a\nminimum of 25 trainees for Bookkeeping NC III are as follows:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nSPECIFICATION/\nDESCRIPTION\nQTY\nSPECIFICATION/\nDESCRIPTION\n\nQTY\nSPECIFICATION/\nDESCRIPTION\n1 pc.\nStapler\n1 unit\nComputer/Laptop\n25 pcs.\nPencils\n25 pcs Calculators\n1 unit\nAircon unit\n25 pcs.\nPencil Erasers\n\n1 unit\nLCD Projector\n25 pcs.\nBallpens\n\n1 unit\nTeacher’s\nTable/Chair\n25 pcs.\nRuler\n\n25 pcs.\nArm Chairs\n25 pcs.\nJournals (assorted\ncolumns)\n\n1 pc.\nWhite Board\n25 pcs.\nLedger\n\n25 pcs.\nWorksheets\n(assorted)\n\n1 box\nAcetate\n\n3 pcs.\nMarker\n\nDiskettes/CD\n\n25 pcs.\nEnvelopes ( Long)\n\n25 pcs.\nRegistration Forms\n\n1 pc.\nTeacher’s Record\nBook\n\n50 pcs\nWorksheets\n(Asstd.)\n\n1 pc.\nMarker Ink\n\n25 pcs.\nLedger Book\n\n1 box\nStaple Wire\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n59",
+      "pdf_pages": []
+    },
+    "training_facilities": {
+      "present": true,
+      "source_text": "*\n\nBased on a class intake of 25 students/trainees\n\nSpace Requirement\n\nSize in Meters\n\nArea in Sq.\nMeters\n\nTotal Area in Sq.\nMeters\n\nStudent/Trainee\nWorking Space\n\n1 x 1 m.\n\n1 sq. m.\n\n25 sq. m\n\nLecture/Demo Room\n\n8 x 5 m.\n\n40 sq. m.\n\n40 sq. m.\n\nLearning Resource\nCenter\n\n3 x 5 m.\n\n15 sq. m.\n\n15 sq. m.\n\nFacilities/Equipment/\nCirculation Area\n\n6 x 4 m.\n\n24 sq. m.\n\n24 sq. m.\nTotal :\n104 sq. m.\n\nNote:\n* The course may be held or conducted in hotels and similarly situated\nlocations.\n* The course may be conducted on-line or internet-based training.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n60\n3.6\nTRAINER’S QUALIFICATIONS FOR BOOKKEEPING NC III\n\nBOOKKEEPING – NC III\nTRAINER QUALIFICATION\n\nThe trainer must:\n\n•\nbe a holder of Bookkeeping NC III or a Certified Public Accountant\n•\na graduate of B.S. Accounting or its equivalent\n•\nhave completed Training Methodology III or its equivalent\n•\nbe able to communicate effectively both orally and in written form\n•\nhave at least three (3) years experience in the industry as a\nbookkeeper\n•\npossess good moral character",
+      "pdf_pages": []
+    },
+    "institutional_assessment": {
+      "present": true,
+      "source_text": "Institutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 63 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n61",
+      "pdf_pages": []
+    }
+  },
+  "nominal_duration": {
+    "source_expressions": [
+      "20 HOURS",
+      "24 HOURS",
+      "248 HOURS",
+      "20 Hrs",
+      "24 Hrs",
+      "248 Hrs"
+    ],
+    "explicit_total_hours": [],
+    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
+  },
+  "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThis set of standards provides Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Bookkeeping NC III.\n\nThis includes information on curriculum design, training delivery, trainee\nentry requirements, tools and equipment, training facilities, and trainers\nqualification.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: Bookkeeping\nNC Level: NC III\nNominal Training Duration: 20 HOURS (Basic Competencies)\n 24 HOURS (Common Competencies)\n 248 HOURS (Core Competencies)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of\nBookkeepers in accordance with industry standards. It covers the basic, common\nand core competencies on journalizing transactions, posting transactions,\npreparing trial balance, preparing financial reports and reviewing internal control\nsystem.\n\nTo obtain this, all units prescribed for this qualification must be achieved.\n\nBASIC COMPETENCIES\n\nSuggested Nominal Training Duration: 20 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1\nCommunicate\ninformation about\nworkplace\nprocesses.\n1.2\nLead workplace\ndiscussions.\n1.3\nIdentify and\ncommunicate\nissues arising in\nthe workplace\n• Group\ndiscussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n\n--- PDF PAGE 55 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n53\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n2. Lead small\nteams\n2.1\nProvide team\nleadership.\n2.2\nAssign\nresponsibilities\namong members\n2.3\nSet performance\nexpectation for\nteam members\n2.4\nSupervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n3. Develop and\npractice\nnegotiation skills\n3.1\nIdentify relevant\ninformation in\nplanning\nnegotiations\n3.2\nParticipate in\nnegotiations\n3.3\nDocument areas\nfor agreement\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n\n4.1\nExplain the\nanalytical\ntechniques\n4.2\nIdentify the\nproblem.\n4.3\nDetermine the\npossible cause/s of\nthe problem.\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1\nExplain the\nanalytical\ntechniques\n5.2\nIdentify\nmathematical tools\nand techniques to\nsolve problem\n5.3\nApply\nmathematical\nprocedures/\nsolution\n5.4\nAnalyze results\n\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify appropriate\ntechnology\n6.2\nApply relevant\ntechnology\n6.3\nMaintain/\nenhance relevant\ntechnology\n\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n54\nCOMMON COMPETENCIES\n\nSuggested Nominal Training Duration: 24 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/customers\n\n1.1 Maintain a\nprofessional image\n1.2 Meet client/customer\nrequirements\n1.3 Build credibility with\ncustomers/clients\n\n• Group\nDiscussion\n• Power Point\nPresentation\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n2. Manage own\nperformance\n2.1 Identify tasks\naccurately\n2.2 Allocate priority to\neach task\n2.3 Allocate time lines to\neach task\n2.4 Meet and comply\ndeadlines\n2.5 Know and comply\nwith work schedules\n2.6 Develop work plans\n2.7 Monitor personal\nperformance\n2.8 Get advice and\nguidance from\nmanagement\n2.9 Apply guidance from\nmanagement\n2.10 Clarify standard of\nwork\n• Group\nDiscussion\n• Power Point\nPresentation\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n3. Apply quality\nstandards\n3.1 Assess clients\nneeds\n3.2 Assess own work\n3.3 Engage in quality\nimprovement\n• Group\nDiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nQuestioning\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n55\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n4. Perform\ncomputer\noperations\n4.1 Identify and explain\nthe functions, general\nfeatures and\ncapabilities of both\nhardware and\nsoftware\n4.2 Prepare and use\nappropriate hardware\nand software\naccording to task\nrequirement\n4.3 Use appropriate\ndevices and\nprocedures to\ntransfer files/data\n4.4 Produce accurate\nand complete data\naccording to the\nrequirements\n\n• Lecture\n• Group\nDiscussion\n• Tutorial or\nself-pace\n\n• Interviews/\nQuestioning\n• Demonstration\n• Observation\n\nCORE COMPETENCIES\n\nCourse Title: BOOKKEEPING\nNC Level: NC III\n\nSuggested Nominal Training Duration: 248 Hrs.\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Journalize\ntransactions\n\n1.1 Prepare chart of\naccounts\n\n1.2 Analyze\ndocuments\n\n1.3 Prepare journal\nentry\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n56\n\n2. Post\ntransactions\n\n2.1 Prepare ledger\n\n2.2 Transfer journal\nentries\n\n2.3 Summarize\nledger\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n3. Prepare trial\nbalance\n\n3.1 List account titles\n\n3.2 Transfer\nbalances from\nthe ledger\n\n3.3 Summarize trial\nbalance\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n4. Prepare financial\nreports\n\n4.1 Prepare financial\nstatements\n\n4.2 Analyze financial\nstatements\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n5. Review internal\ncontrol system\n\n5.1 Check policy\ncompliance\n\n5.2 Prepare policy\ncompliance\nreport\n\n• Lecture/\nDemonstration\n• OJT\n\n• Written\nExamination\n• Demonstration\n• Observation\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n57\n• Assessment is based in the collection of evidence of the\nperformance of work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n• Project-based instruction is an authentic instructional model strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into these qualifications should\npossess the following requirements:\n\n•\nMust be able to communicate effectively both orally and in written form\n•\nMust be physically, emotionally, psychologically and mentally fit\n•\nMust be able to perform basic mathematical computations\n\n--- PDF PAGE 60 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n58\n3.4 TOOLS AND EQUIPMENT\n\nLIST OF TOOL, EQUIPMENT AND MATERIALS\nBOOKKEEPING – NC III\n\nRecommended list of tools, equipment and materials for the training of a\nminimum of 25 trainees for Bookkeeping NC III are as follows:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nSPECIFICATION/\nDESCRIPTION\nQTY\nSPECIFICATION/\nDESCRIPTION\n\nQTY\nSPECIFICATION/\nDESCRIPTION\n1 pc.\nStapler\n1 unit\nComputer/Laptop\n25 pcs.\nPencils\n25 pcs Calculators\n1 unit\nAircon unit\n25 pcs.\nPencil Erasers\n\n1 unit\nLCD Projector\n25 pcs.\nBallpens\n\n1 unit\nTeacher’s\nTable/Chair\n25 pcs.\nRuler\n\n25 pcs.\nArm Chairs\n25 pcs.\nJournals (assorted\ncolumns)\n\n1 pc.\nWhite Board\n25 pcs.\nLedger\n\n25 pcs.\nWorksheets\n(assorted)\n\n1 box\nAcetate\n\n3 pcs.\nMarker\n\nDiskettes/CD\n\n25 pcs.\nEnvelopes ( Long)\n\n25 pcs.\nRegistration Forms\n\n1 pc.\nTeacher’s Record\nBook\n\n50 pcs\nWorksheets\n(Asstd.)\n\n1 pc.\nMarker Ink\n\n25 pcs.\nLedger Book\n\n1 box\nStaple Wire\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n59\n3.5 TRAINING FACILITIES*\n\nBased on a class intake of 25 students/trainees\n\nSpace Requirement\n\nSize in Meters\n\nArea in Sq.\nMeters\n\nTotal Area in Sq.\nMeters\n\nStudent/Trainee\nWorking Space\n\n1 x 1 m.\n\n1 sq. m.\n\n25 sq. m\n\nLecture/Demo Room\n\n8 x 5 m.\n\n40 sq. m.\n\n40 sq. m.\n\nLearning Resource\nCenter\n\n3 x 5 m.\n\n15 sq. m.\n\n15 sq. m.\n\nFacilities/Equipment/\nCirculation Area\n\n6 x 4 m.\n\n24 sq. m.\n\n24 sq. m.\nTotal :\n104 sq. m.\n\nNote:\n* The course may be held or conducted in hotels and similarly situated\nlocations.\n* The course may be conducted on-line or internet-based training.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n60\n3.6\nTRAINER’S QUALIFICATIONS FOR BOOKKEEPING NC III\n\nBOOKKEEPING – NC III\nTRAINER QUALIFICATION\n\nThe trainer must:\n\n•\nbe a holder of Bookkeeping NC III or a Certified Public Accountant\n•\na graduate of B.S. Accounting or its equivalent\n•\nhave completed Training Methodology III or its equivalent\n•\nbe able to communicate effectively both orally and in written form\n•\nhave at least three (3) years experience in the industry as a\nbookkeeper\n•\npossess good moral character\n\n3.7 INSTITUTIONAL ASSESSMENT\n\n Institutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 63 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n61"
+}

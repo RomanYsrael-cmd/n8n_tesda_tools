@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:barista-nc-ii:2013-12",
+  "qualification": "BARISTA NC II",
+  "official_source": {
+    "source_file": "Barista NC II.pdf",
+    "sha256": "b822dcfad901f251c38b84d978aac0b59d14773cc60181b4138b0d38556788f3",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Barista NC II.pdf",
+    "pdf_pages": 54,
+    "printed_pages": null
+  }
+}

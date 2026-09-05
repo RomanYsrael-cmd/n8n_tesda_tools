@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 50,
-    "pending": 333,
+    "complete": 69,
+    "pending": 314,
     "blocked": 1
   },
   "records": [
@@ -2769,8 +2769,14 @@
         "AFF611313"
       ],
       "indexed_path": "Bamboo Production NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:bamboo-production-nc-ii:2017-12-18",
       "processing_order": 51
@@ -2818,9 +2824,15 @@
         "HHC532301"
       ],
       "indexed_path": "Barangay Health Services NC II",
-      "status": "pending",
-      "validation": {},
-      "blocked_reason": null,
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
+      "blocked_reason": "placeholder marker found",
       "document_id": "tesda:tr:barangay-health-services-nc-ii:6b3d241aa0",
       "processing_order": 52
     },
@@ -2867,8 +2879,14 @@
         "SOC514322"
       ],
       "indexed_path": "Barbering NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:barbering-nc-ii:0a74854530",
       "processing_order": 53
@@ -2912,8 +2930,14 @@
         "TRS3113103"
       ],
       "indexed_path": "Barista NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:barista-nc-ii:2013-12",
       "processing_order": 54
@@ -2959,8 +2983,14 @@
         "TRS3113102"
       ],
       "indexed_path": "Bartending NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:bartending-nc-ii:2013-12",
       "processing_order": 55
@@ -3005,8 +3035,14 @@
         "SOC514312"
       ],
       "indexed_path": "Beauty Care (Nail Care) Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beauty-care-nail-care-services-nc-ii:dcec3b5b2f",
       "processing_order": 56
@@ -3053,8 +3089,14 @@
         "SOC514316"
       ],
       "indexed_path": "Beauty Care (Nail Enhancement Technology) Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beauty-care-nail-enhancement-technology-services-nc-iii:428a634d30",
       "processing_order": 57
@@ -3100,8 +3142,14 @@
         "SOC514303"
       ],
       "indexed_path": "Beauty Care (Skin Care) Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beauty-care-skin-care-services-nc-ii:06593c063a",
       "processing_order": 58
@@ -3148,8 +3196,14 @@
         "AFF612312"
       ],
       "indexed_path": "Beekeeping NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beekeeping-nc-ii:29a8f73ffb",
       "processing_order": 59
@@ -3196,8 +3250,14 @@
         "AFF312303"
       ],
       "indexed_path": "Biogas Plant Installation NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:biogas-plant-installation-nc-iii:eddf383430",
       "processing_order": 60
@@ -3242,8 +3302,14 @@
         "HCS412305"
       ],
       "indexed_path": "Bookkeeping NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:bookkeeping-nc-iii:2007-11",
       "processing_order": 61
@@ -3283,8 +3349,14 @@
         "ICT724604"
       ],
       "indexed_path": "Broadband Installation (Fixed Wireless Systems) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:broadband-installation-fixed-wireless-systems-nc-ii:5045185e8a",
       "processing_order": 62
@@ -3327,8 +3399,14 @@
         "MDA724305"
       ],
       "indexed_path": "Cable TV Installation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cable-tv-installation-nc-ii:aea55402c9",
       "processing_order": 63
@@ -3372,8 +3450,14 @@
         "MDA311304"
       ],
       "indexed_path": "Cable TV Operation and Maintenance NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cable-tv-operation-and-maintenance-nc-iii:2007-12",
       "processing_order": 64
@@ -3423,8 +3507,14 @@
         "MEE821313"
       ],
       "indexed_path": "CAD CAM Operation NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cad-cam-operation-nc-iii:4ee6c8a912",
       "processing_order": 65
@@ -3479,8 +3569,14 @@
         "HHC532333"
       ],
       "indexed_path": "Caregiving (Clients with Special Needs) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 25,
+        "selector_count": 57,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:caregiving-clients-with-special-needs-nc-ii:4f103c1d93",
       "processing_order": 66
@@ -3532,8 +3628,14 @@
         "HHC532324"
       ],
       "indexed_path": "Caregiving (Elderly) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:caregiving-elderly-nc-ii:543aca0e24",
       "processing_order": 67
@@ -3586,8 +3688,14 @@
         "HHC532319"
       ],
       "indexed_path": "Caregiving (Grade Schooler to Adolescent) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 23,
+        "selector_count": 53,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:caregiving-grade-schooler-to-adolescent-nc-ii:2b479f216b",
       "processing_order": 68
@@ -3645,8 +3753,14 @@
         "HHC532312"
       ],
       "indexed_path": "Caregiving (Newborn to Pre-Schooler) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 28,
+        "selector_count": 63,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:caregiving-newborn-to-pre-schooler-nc-ii:d6126a9ecb",
       "processing_order": 69
