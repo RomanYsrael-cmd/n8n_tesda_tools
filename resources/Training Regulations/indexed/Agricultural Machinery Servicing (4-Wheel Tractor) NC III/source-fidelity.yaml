@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:agricultural-machinery-servicing-4-wheel-tractor-nc-iii:302aa3b1dd",
+  "qualification": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III",
+  "official_source": {
+    "source_file": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III.pdf",
+    "sha256": "302aa3b1ddc5c855a2b3ebdda04bfad87163168337eee7009f0e5adce7c5688e",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III.pdf",
+    "pdf_pages": 179,
+    "printed_pages": null
+  }
+}

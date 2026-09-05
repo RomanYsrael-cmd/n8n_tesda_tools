@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:animal-health-care-and-management-nc-iii:3d7496d215",
+  "qualification": "ANIMAL HEALTH CARE AND MANAGEMENT NC III",
+  "official_source": {
+    "source_file": "Animal Health Care and Management NC III.pdf",
+    "sha256": "3d7496d215a278632859893315044a8b3d001971175ec08d622a375633a7f32b",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Animal Health Care and Management NC III.pdf",
+    "pdf_pages": 67,
+    "printed_pages": null
+  }
+}

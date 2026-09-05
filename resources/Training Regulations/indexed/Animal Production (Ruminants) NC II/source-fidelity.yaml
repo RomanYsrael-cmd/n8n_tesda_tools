@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:animal-production-ruminants-nc-ii:2013-12",
+  "qualification": "ANIMAL PRODUCTION (Ruminants) NC II",
+  "official_source": {
+    "source_file": "Animal Production (Ruminants) NC II.pdf",
+    "sha256": "40640ec7d52168f40d554105362decd9ec4f6d223ba3f62e3851adb3daef37ac",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Animal Production (Ruminants) NC II.pdf",
+    "pdf_pages": 78,
+    "printed_pages": null
+  }
+}
