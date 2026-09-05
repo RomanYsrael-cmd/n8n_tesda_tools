@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 289,
+    "complete": 299,
     "blocked": 1,
-    "pending": 94
+    "pending": 84
   },
   "records": [
     {
@@ -15452,8 +15452,14 @@
         "MTM512334"
       ],
       "indexed_path": "Ships' Catering NC III (Ships' Cooks)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:ships-catering-nc-iii-ships-cooks:2014-10",
       "processing_order": 291
@@ -15495,8 +15501,14 @@
         "MTM512315"
       ],
       "indexed_path": "Ship's Catering Services NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:ship-s-catering-services-nc-i:2013-05",
       "processing_order": 292
@@ -15541,8 +15553,14 @@
         "PFB751338"
       ],
       "indexed_path": "Slaughtering Operations (Large Animal) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:slaughtering-operations-large-animal-nc-ii:2016-03",
       "processing_order": 293
@@ -15586,8 +15604,14 @@
         "PFB751341"
       ],
       "indexed_path": "Slaughtering Operations (Swine) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:slaughtering-operations-swine-nc-ii:2016-03",
       "processing_order": 294
@@ -15635,8 +15659,14 @@
         "ALT723384"
       ],
       "indexed_path": "Speed Limitation Device Servicing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:speed-limitation-device-servicing-nc-ii:e1b9e8668f",
       "processing_order": 295
@@ -15679,8 +15709,14 @@
         "CON713347"
       ],
       "indexed_path": "Structural Erection NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:structural-erection-nc-ii:5984310e28",
       "processing_order": 296
@@ -15724,8 +15760,14 @@
         "MEE721103"
       ],
       "indexed_path": "Submerged Arc Welding (SAW) NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:submerged-arc-welding-saw-nc-i:043983491b",
       "processing_order": 297
@@ -15769,8 +15811,14 @@
         "MEE721108"
       ],
       "indexed_path": "Submerged Arc Welding (SAW) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:submerged-arc-welding-saw-nc-ii:a248668e1a",
       "processing_order": 298
@@ -15811,8 +15859,14 @@
         "AFF611313"
       ],
       "indexed_path": "Sugarcane Production NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:sugarcane-production-nc-ii:2015-12-16",
       "processing_order": 299
@@ -15854,8 +15908,14 @@
         "CON712323"
       ],
       "indexed_path": "System Formworks Installation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:system-formworks-installation-nc-ii:49025e6b0f",
       "processing_order": 300

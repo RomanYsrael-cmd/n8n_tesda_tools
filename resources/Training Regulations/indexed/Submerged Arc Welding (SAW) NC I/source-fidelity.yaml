@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:submerged-arc-welding-saw-nc-i:043983491b",
+  "qualification": "SUBMERGED ARC WELDING (SAW) NC I",
+  "official_source": {
+    "source_file": "Submerged Arc Welding (SAW) NC I.pdf",
+    "sha256": "043983491b58753422992915ad91dccdf08d5c7e12b946a82ce19971ba382b8e",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Submerged Arc Welding (SAW) NC I.pdf",
+    "pdf_pages": 59,
+    "printed_pages": null
+  }
+}

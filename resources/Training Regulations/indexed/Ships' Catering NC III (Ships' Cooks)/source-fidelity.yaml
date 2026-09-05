@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:ships-catering-nc-iii-ships-cooks:2014-10",
+  "qualification": "SHIPS’ CATERING NC III (SHIPS’ COOKS)",
+  "official_source": {
+    "source_file": "Ships' Catering NC III (Ships' Cooks).pdf",
+    "sha256": "0f0177e86d0f8bf7f803697f202f0a4d817f5d569883fdbe4804fa6fc9f26d7a",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Ships' Catering NC III (Ships' Cooks).pdf",
+    "pdf_pages": 145,
+    "printed_pages": null
+  }
+}
