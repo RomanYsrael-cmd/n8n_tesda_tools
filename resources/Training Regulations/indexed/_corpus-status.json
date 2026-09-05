@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 119,
-    "pending": 264,
+    "complete": 129,
+    "pending": 254,
     "blocked": 1
   },
   "records": [
@@ -6507,8 +6507,14 @@
         "ELC313306"
       ],
       "indexed_path": "Electronics Front-of-line Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electronics-front-of-line-operation-nc-ii:23cd3c7f6f",
       "processing_order": 120
@@ -6557,8 +6563,14 @@
         "ELC724367"
       ],
       "indexed_path": "Electronics Semiconductor Production Line Machine Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electronics-semiconductor-production-line-machine-servicing-nc-iii:2017-12-18",
       "processing_order": 121
@@ -6612,8 +6624,14 @@
         "HCS322316"
       ],
       "indexed_path": "Emergency Medical Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 24,
+        "selector_count": 55,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:emergency-medical-services-nc-ii:2013-12",
       "processing_order": 122
@@ -6671,8 +6689,14 @@
         "HHC325311"
       ],
       "indexed_path": "Emergency Medical Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 28,
+        "selector_count": 63,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:emergency-medical-services-nc-iii:54d11a9567",
       "processing_order": 123
@@ -6720,8 +6744,14 @@
         "TRS342322"
       ],
       "indexed_path": "Events Management Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:events-management-services-nc-iii:2007-11",
       "processing_order": 124
@@ -6769,8 +6799,14 @@
         "GRM743322"
       ],
       "indexed_path": "Fashion Design (Apparel) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:fashion-design-apparel-nc-iii:560b24327f",
       "processing_order": 125
@@ -6820,8 +6856,14 @@
         "CRE343308"
       ],
       "indexed_path": "Film and Video Postproduction NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:film-and-video-postproduction-nc-iii:38ba31cfb1",
       "processing_order": 126
@@ -6866,8 +6908,14 @@
         "AGR642303"
       ],
       "indexed_path": "Fish Capture NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:fish-capture-nc-i:6b9785ff91",
       "processing_order": 127
@@ -6935,8 +6983,14 @@
         "AGR641328"
       ],
       "indexed_path": "Fish Capture NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 38,
+        "selector_count": 83,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:fish-capture-nc-ii:3799467186",
       "processing_order": 128
@@ -6979,8 +7033,14 @@
         "AGR826303"
       ],
       "indexed_path": "Fish Products Packaging NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:fish-products-packaging-nc-ii:2007-07",
       "processing_order": 129
