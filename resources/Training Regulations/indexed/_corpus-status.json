@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 229,
-    "pending": 154,
+    "complete": 239,
+    "pending": 144,
     "blocked": 1
   },
   "records": [
@@ -12352,8 +12352,14 @@
         "ALT722310"
       ],
       "indexed_path": "Metal Stamping NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:metal-stamping-nc-ii:26919bc07d",
       "processing_order": 230
@@ -12397,8 +12403,14 @@
         "HCS341307"
       ],
       "indexed_path": "Microfinance Technology NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:microfinance-technology-nc-ii:9c6c3275d7",
       "processing_order": 231
@@ -12441,8 +12453,14 @@
         "HCS341304"
       ],
       "indexed_path": "Microfinance Technology NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:microfinance-technology-nc-iv:6be858339c",
       "processing_order": 232
@@ -12487,8 +12505,14 @@
         "SOC332303"
       ],
       "indexed_path": "Microinsurance Services (Mutual Benefit) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:microinsurance-services-mutual-benefit-nc-ii:79ea06dd12",
       "processing_order": 233
@@ -12530,8 +12554,14 @@
         "AFF751303"
       ],
       "indexed_path": "Milking Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:milking-operation-nc-ii:2017-02-03",
       "processing_order": 234
@@ -12581,8 +12611,14 @@
         "ELC742304"
       ],
       "indexed_path": "Mobile Phones and Handheld Gadgets Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:mobile-phones-and-handheld-gadgets-servicing-nc-iii:2021-02-09",
       "processing_order": 235
@@ -12637,8 +12673,14 @@
         "MEE722330"
       ],
       "indexed_path": "Mold Designing NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 25,
+        "selector_count": 57,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:mold-designing-nc-iv:17fcf333f3",
       "processing_order": 236
@@ -12692,8 +12734,14 @@
         "MEE722320"
       ],
       "indexed_path": "Mold Making NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 24,
+        "selector_count": 55,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:mold-making-nc-iii:d705ec5fa4",
       "processing_order": 237
@@ -12733,8 +12781,14 @@
         "ALT722308"
       ],
       "indexed_path": "Moldmaking NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:moldmaking-nc-ii:978b011ee7",
       "processing_order": 238
@@ -12781,8 +12835,14 @@
         "ALT723375"
       ],
       "indexed_path": "Motorcycle Small Engine Servicing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:motorcycle-small-engine-servicing-nc-ii:2015-12",
       "processing_order": 239

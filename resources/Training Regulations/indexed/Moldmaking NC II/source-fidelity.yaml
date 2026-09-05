@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:moldmaking-nc-ii:978b011ee7",
+  "qualification": "MOLDMAKING NC II",
+  "official_source": {
+    "source_file": "Moldmaking NC II.pdf",
+    "sha256": "978b011ee75d92ea461b3ac6d63b8d61e30eea366f777fcf5c43599d5895f37e",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Moldmaking NC II.pdf",
+    "pdf_pages": 49,
+    "printed_pages": null
+  }
+}
