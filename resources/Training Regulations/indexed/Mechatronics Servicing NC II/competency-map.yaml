@@ -1,0 +1,80 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:mechatronics-servicing-nc-ii:2015-06-16",
+  "qualification": "MECHATRONICS SERVICING NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": "to gather, interpret and convey information in response to"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "ELC311205",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "ELC311301",
+        "title": "This unit covers the knowledge, skills and attitudes necessary to"
+      },
+      {
+        "unit_code": "ELC724308",
+        "title": "(Install mechatronics devices)"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311106",
+        "title": "This unit covers the skills, knowledge and attitudes to identify"
+      },
+      {
+        "unit_code": "500311107",
+        "title": "promoting career growth and advancement."
+      },
+      {
+        "unit_code": "500311108",
+        "title": "and organizational requirements for occupational health and"
+      },
+      {
+        "unit_code": "ELC311201",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC311202",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC311204",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC311203",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC311206",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC311209",
+        "title": "DESCRIPTON : This unit covers the knowledge, skills and attitudes required to"
+      },
+      {
+        "unit_code": "ELC311302",
+        "title": "This unit covers the knowledge, skills and attitudes needed to"
+      },
+      {
+        "unit_code": "ELC724309",
+        "title": "(Configure and adjusts mechatronics devices)"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n\n80",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

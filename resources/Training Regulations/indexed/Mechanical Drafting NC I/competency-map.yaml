@@ -1,0 +1,56 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:mechanical-drafting-nc-i:0881c6b3eb",
+  "qualification": "MECHANICAL DRAFTING NC I",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311101",
+        "title": "required to receive, respond and act on verbal and"
+      },
+      {
+        "unit_code": "MEE722201",
+        "title": ": This unit covers the competencies required to apply safety"
+      },
+      {
+        "unit_code": "MEE722204",
+        "title": ": This unit covers the competencies required to perform"
+      },
+      {
+        "unit_code": "MEE722205",
+        "title": ": This unit covers the competencies required to measure"
+      },
+      {
+        "unit_code": "MEE311301",
+        "title": ": This unit covers the knowledge, skills and attitudes"
+      },
+      {
+        "unit_code": "MEE311302",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311102",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311103",
+        "title": "This unit covers the knowledge, skills, and attitude in"
+      },
+      {
+        "unit_code": "500311104",
+        "title": ": This unit covers the knowledge, skills and attitudes"
+      },
+      {
+        "unit_code": "MEE722202",
+        "title": ": This unit covers the competencies required to read and"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n43",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

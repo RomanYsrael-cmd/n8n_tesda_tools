@@ -1,0 +1,64 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:medical-coding-and-claims-processing-nc-iii:2015-06-16",
+  "qualification": "Medical Coding and Claims Processing NC III",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311109",
+        "title": "to lead in the dissemination and discussion of ideas,"
+      },
+      {
+        "unit_code": "500311114",
+        "title": "attitude"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "ELC315202",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "ICT325301",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311110",
+        "title": "small teams including setting and maintaining team and"
+      },
+      {
+        "unit_code": "500311111",
+        "title": "collect information in order to negotiate to a desired outcome"
+      },
+      {
+        "unit_code": "500311112",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311113",
+        "title": "in the application of mathematical concepts and techniques."
+      },
+      {
+        "unit_code": "ELC311203",
+        "title": ":"
+      },
+      {
+        "unit_code": "ICT325302",
+        "title": "This unit covers the skills, knowledge and attitude necessary to"
+      },
+      {
+        "unit_code": "ICT325303",
+        "title": "This unit covers the skills, knowledge and attitude necessary to"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n\n59",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

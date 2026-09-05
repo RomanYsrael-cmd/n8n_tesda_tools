@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 219,
-    "pending": 164,
+    "complete": 229,
+    "pending": 154,
     "blocked": 1
   },
   "records": [
@@ -11849,8 +11849,14 @@
         "CON711317"
       ],
       "indexed_path": "Masonry NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:masonry-nc-i:20ad536c4c",
       "processing_order": 220
@@ -11895,8 +11901,14 @@
         "CON711319"
       ],
       "indexed_path": "Masonry NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:masonry-nc-ii:536aee0220",
       "processing_order": 221
@@ -11943,8 +11955,14 @@
         "CON711322"
       ],
       "indexed_path": "Masonry NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:masonry-nc-iii:ad689848cf",
       "processing_order": 222
@@ -11987,8 +12005,14 @@
         "HHC322304"
       ],
       "indexed_path": "Massage Therapy NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:massage-therapy-nc-ii:2017-02",
       "processing_order": 223
@@ -12028,8 +12052,14 @@
         "MEE311302"
       ],
       "indexed_path": "Mechanical Drafting NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:mechanical-drafting-nc-i:0881c6b3eb",
       "processing_order": 224
@@ -12074,8 +12104,14 @@
         "ELC724309"
       ],
       "indexed_path": "Mechatronics Servicing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:mechatronics-servicing-nc-ii:2015-06-16",
       "processing_order": 225
@@ -12121,8 +12157,14 @@
         "ELC311305"
       ],
       "indexed_path": "Mechatronics Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:mechatronics-servicing-nc-iii:2015-06-16",
       "processing_order": 226
@@ -12168,8 +12210,14 @@
         "ELC311308"
       ],
       "indexed_path": "Mechatronics Servicing NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:mechatronics-servicing-nc-iv:b423bf80a4",
       "processing_order": 227
@@ -12210,8 +12258,14 @@
         "ICT325303"
       ],
       "indexed_path": "Medical Coding and Claims Processing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:medical-coding-and-claims-processing-nc-iii:2015-06-16",
       "processing_order": 228
@@ -12250,8 +12304,14 @@
         "ICT313309"
       ],
       "indexed_path": "Medical Transcription NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 9,
+        "selector_count": 25,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:medical-transcription-nc-ii:2004-02",
       "processing_order": 229
