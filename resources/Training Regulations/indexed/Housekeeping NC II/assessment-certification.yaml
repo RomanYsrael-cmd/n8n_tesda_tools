@@ -1,103 +1,98 @@
-schema: tesda-assessment-certification
-schema_version: '1.1'
-qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
-qualification: Housekeeping NC II
-source_heading: SECTION 4 NATIONAL ASSESSMENT AND CERTIFICATION ARRANGEMENTS
-provenance:
-  printed_page: 60
-  pdf_page: 64
-representation_type: semantic_normalized
-verbatim_transcription: false
-provisions:
-- provision_id: assessment:4.1
-  number: '4.1'
-  source_text: To attain the National Qualification of HOUSEKEEPING NC II, the candidate must demonstrate competence in all
-    the units of competency listed in Section l. Successful candidates shall be awarded a National Certificate signed by the
-    TESDA Director General.
-  normalized_rule: National Certificate requires competence in all units listed in Section 1; successful candidates receive
-    a National Certificate signed by the TESDA Director General.
-  fidelity_ref: tesda:housekeeping-nc-ii:anomaly:section-4.1-section-l
-- provision_id: assessment:4.2
-  number: '4.2'
-  source_text: 'The qualification of HOUSEKEEPING NC II may be attained through:'
-  normalized_rule: The qualification may be attained by either full demonstration of required core competencies or accumulation
-    of all specified Certificates of Competency.
-- provision_id: assessment:4.2.1
-  number: 4.2.1
-  source_text: Demonstration of competencies covering all the required core units of qualifications
-  normalized_rule: Demonstrate competencies covering all required core units of the qualification.
-- provision_id: assessment:4.2.2
-  number: 4.2.2
-  source_text: 'Accumulation of Certificates of Competency (COCs) in all the following areas:'
-  normalized_rule: Accumulate COCs in all four specified areas.
-- provision_id: assessment:4.2.2.1
-  number: 4.2.2.1
-  title: Providing Butler Service
-  included_units:
-  - Provide Valet/Butler Service
-  - Deal with/Handle intoxicated guests
-  included_unit_codes:
-  - TRS5123113
-  - TRS5123122
-- provision_id: assessment:4.2.2.2
-  number: 4.2.2.2
-  title: Providing Housekeeping to Guests
-  included_units:
-  - Provide Housekeeping Services to Guests
-  - Clean and Prepare Rooms for Incoming Guests
-  - Deal with/Handle intoxicated guests
-  included_unit_codes:
-  - TRS5123111
-  - TRS5123112
-  - TRS5123122
-- provision_id: assessment:4.2.2.3
-  number: 4.2.2.3
-  title: Cleaning public areas
-  included_units:
-  - Clean Public Areas, Facilities & Equipment
-  - Deal with/Handle intoxicated guests
-  included_unit_codes:
-  - TRS5123115
-  - TRS5123122
-  fidelity_ref: tesda:housekeeping-nc-ii:anomaly:clean-public-areas-unit-code
-- provision_id: assessment:4.2.2.4
-  number: 4.2.2.4
-  title: Providing laundry service
-  included_units:
-  - Laundry linen and guest clothes
-  - Deal with/handle intoxicated guests
-  included_unit_codes:
-  - TRS5123114
-  - TRS5123122
-- provision_id: assessment:4.3
-  number: '4.3'
-  source_text: Assessment shall focus on the core units of competency. The basic and common units shall be integrated or assessed
-    concurrently with the core units.
-  normalized_rule: Assessment focuses on core units; basic and common units are integrated or assessed concurrently with core
-    units.
-- provision_id: assessment:4.4
-  number: '4.4'
-  source_text: 'The following are qualified to apply for assessment and certification:'
-  normalized_rule: Eligibility is defined by subprovisions 4.4.1 and 4.4.2.
-- provision_id: assessment:4.4.1
-  number: 4.4.1
-  source_text: Graduates of formal, non-formal and informal including enterprise-based training programs.
-  normalized_rule: Graduates of formal, non-formal, informal, and enterprise-based training programs may apply.
-- provision_id: assessment:4.4.2
-  number: 4.4.2
-  source_text: Experienced Workers (wage employed or self-employed)
-  normalized_rule: Experienced workers, whether wage-employed or self-employed, may apply.
-- provision_id: assessment:4.5
-  number: '4.5'
-  source_text: The guidelines on assessment and certification are discussed in detail in the "Procedures Manual on Assessment
-    and Certification" and "Guidelines on the Implementation of the Philippine TVET Qualification and Certification System
-    (PTQCS)".
-  normalized_rule: Detailed assessment and certification procedures are governed by the named TESDA manuals/guidelines.
-assessment_focus:
-  core_units: true
-  basic_common_integration: integrated or assessed concurrently with core units
-coc_pathways:
-- 4.2.2.1
-- 4.2.2.2
-- 4.2.2.3
-- 4.2.2.4
+{
+  "schema": "tesda-assessment-certification-arrangements",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:housekeeping-nc-ii:2013-12",
+  "qualification": "HOUSEKEEPING NC II",
+  "content_status": "complete",
+  "source": {
+    "source_file": "Housekeeping NC II.pdf",
+    "pdf_pages": 70
+  },
+  "arrangements": [
+    {
+      "number": "4",
+      "text": "1 To attain the National Qualification of HOUSEKEEPING NC II, the candidate must demonstrate competence in all the units of competency listed in Section l. Successful candidates shall be awarded a National Certificate signed by the TESDA Director General."
+    },
+    {
+      "number": "4",
+      "text": "2 The qualification of HOUSEKEEPING NC II may be attained through:"
+    },
+    {
+      "number": "4.2",
+      "text": "1 Demonstration of competencies covering all the required core units of qualifications"
+    },
+    {
+      "number": "4.2",
+      "text": "2 Accumulation of Certificates of Competency (COCs) in all the following areas:"
+    },
+    {
+      "number": "4.2",
+      "text": "2.1 Providing Butler Service  Provide Valet/Butler Service  Deal with/Handle intoxicated guests"
+    },
+    {
+      "number": "4.2",
+      "text": "2.2 Providing Housekeeping to Guests  Provide Housekeeping Services to Guests  Clean and Prepare Rooms for Incoming Guests  Deal with/Handle intoxicated guests"
+    },
+    {
+      "number": "4.2",
+      "text": "2.3 Cleaning public areas  Clean Public Areas, Facilities & Equipment  Deal with/Handle intoxicated guests"
+    },
+    {
+      "number": "4.2",
+      "text": "2.4 Providing laundry service - Laundry linen and guest clothes - Deal with/handle intoxicated guests"
+    },
+    {
+      "number": "4",
+      "text": "3 Assessment shall focus on the core units of competency. The basic and common units shall be integrated or assessed concurrently with the core units."
+    },
+    {
+      "number": "4",
+      "text": "4 The following are qualified to apply for assessment and certification:"
+    },
+    {
+      "number": "4.4",
+      "text": "1 Graduates of formal, non-formal and informal including enterprise-based training programs."
+    },
+    {
+      "number": "4.4",
+      "text": "2 Experienced Workers (wage employed or self-employed)"
+    },
+    {
+      "number": "4",
+      "text": "5 The guidelines on assessment and certification are discussed in detail in the \"Procedures Manual on Assessment and Certification\" and \"Guidelines on the Implementation of the Philippine TVET Qualification and Certification System (PTQCS)\". --- PDF PAGE 65 --- TR - HOUSEKEEPING NC II (Amended) Promulgated December 2013 61 COMPETENCY MAP - TOURISM Sector (Hotel and Restaurant) Develop and update industry knowledge Perform computer operations Provide effective customer service Observe workplace hygiene procedures Perform workplace safety practices Prepare sandwiches Organize and prepare food Plan and control menu based on catering Select, prepare and cook meat Package prepare foodstuffs Establish and maintain quality control Manage facilities associated with commercial catering Apply cook-freeze production process Organize bulk cooking operations Prepare hot and cold desserts Develop food safety program Prepare chocolate and chocolate confectionery Receive and store kitchen supplies Develop menus to meet special dietary and cultural needs Prepare pastry, cakes and yeast-based products Prepare vegetables, eggs and starch products Prepare cook and serve food for menus Select, prepare and serve specialized food item Select catering systems Operate fast food outlet Prepare and cook poultry and game Clean and maintain kitchen premises Plan, prepare and display buffet Plan and prepare food for buffets Plan catering for an event or function Select, prepare and serve specialist cuisines Present food Apply Cook, chill operation processes Prepare and cook seafood Prepare appetizers and salads Prepare portion controlled meat cuts Implement food safety procedures Prepare food according to dietary and cultural needs Monitor catering revenue and costs Apply catering control principles Provide housekeeping services to guests Handle and serve cheese Prepare stocks, sauces and soups Transport and store food in a safe and hygienic manner Prepare pates and terrines Laundry linen and guest clothes Provide Valet/Butler service Clean public areas, facilities and equipment Clean and prepare rooms for incoming guest Dem onstrate work values Practice housekeeping procedures (5S) Participate in workplace com m unication Work in team environm ent Practice career professionalism Work with others Develop and practice negotiation skills Use m athem atical concepts and techniques Use relevant technologies Solve problem s related to work activities Receive and respond to workplace com m unication Develop team s and individuals Utilize specialized com m unication skills Practice occupational health and safety procedures Lead workplace com m unication Collect, analyze and organize inform ation Plan and organize work Apply problem - solving techniques in the workplace Lead sm all team s Prom ote environm ental protection Deal with/Handle Intoxicated guests --- PDF PAGE 66 --- TR - HOUSEKEEPING NC II (Amended) Promulgated December 2013 62"
+    },
+    {
+      "number": "1",
+      "text": "Protective Clothing – used to safeguard a worker from harmful chemicals and other cleaning supplies and equipment; examples include gloves, face masks, aprons and rubber boots"
+    },
+    {
+      "number": "2",
+      "text": "Caddy – used to carry different kinds of cleaning materials"
+    },
+    {
+      "number": "3",
+      "text": "Carpet Sweeper – A handy type of sweeper used to pick-up dirt and foreign matters from the carpet surface"
+    },
+    {
+      "number": "4",
+      "text": "Disinfectant – Chemical used to eliminate the growth of disease and odor- causing germs and bacteria"
+    },
+    {
+      "number": "5",
+      "text": "Squeegee – Hand-held tool used to clean glass windows and doors"
+    },
+    {
+      "number": "6",
+      "text": "Lodging Agreement – House rules as defined by the establishments"
+    },
+    {
+      "number": "7",
+      "text": "Contact List – Directory of establishments and services around the area such as churches, restaurants, hospitals, and jogging routes"
+    },
+    {
+      "number": "8",
+      "text": "Customer Preference Profiles – Information pertaining to guest and his/her preferences such as dietary requirements, birthday, religion, and contact details --- PDF PAGE 67 --- TR - HOUSEKEEPING NC II (Amended) Promulgated December 2013 63 The Technical Education and Skills Development Authority (TESDA) wishes to extend thanks and appreciation to the many representatives of business, industry, academe and government agencies who donated their time and expertise to the development and validation of these Training Regulations. ANABELLE O. MORENO Chair, Tourism Industry Board Foundation, Inc. (TIBFI) Former President, Association of Human Resource Managers for Hotels and Restaurants (AHRM) ASEAN Master Trainer Lyceum of the Philippines University Intramuros, Manila ASEAN Master Trainer DR. GLORIA BAKEN WONG-SIY Immediate Past President, AAHRMEI ASEAN Master Trainer MA. CHRISTINA G. AQUINO TIBFI – Board Secretary Immediate Past President, COHREP, Lyceum of the Philippines University Intramuros, Manila ASEAN Master Assessor IRENE P. MENDOZA Sr. TESD Specialist-Trainer TESDA IV-A – PO Rizal ASEAN Master Assessor The Participants in the Validation of these Training Regulations MERLIN T. ONGTECO Trainer/Assessor- Housekeeping c/o 620 Gochangco Bldg., Room 303 Kalaw St., Ermita, Manila ROWENA P. SAGAYSAY Director/Auditor, COHREP Dean College of Hospitality Management Lyceum of the Philippines University, Intramuros, Manila ELEANOR L. NILO Past President Executive Helpers Association of the Phil. (EHAP) Executive Housekeeper -Heritage Hotel, Manila Cor Roxas Blvd., EDSA Extension Pasay City ASEAN Master Assessor Senior Faculty- Housekeeping Lyceum of the Philippines Intramuros, Manila ABREGALE JOSEPH L. MONZON Senior Faculty - Housekeeping Lyceum of the Philippines University Intramuros, Manila DANIEL L. EDRALIN Board Member Tourism Industry Board Foundation, Inc. (TIBFI) National Union of Workers in Hotels and Restaurant and Allied Industries (NUWHRAIN-APL) The TESDA Board Members and Secretariat The Management and Staff of the TESDA Secretariat Qualifications and Standards Office (QSO) --- PDF PAGE 68 --- --- PDF PAGE 69 --- --- PDF PAGE 70 ---"
+    }
+  ],
+  "source_text": "SECTION 4 NATIONAL ASSESSMENT AND CERTIFICATION\nARRANGEMENTS\n\n4.1\nTo attain the National Qualification of HOUSEKEEPING NC II, the\ncandidate must demonstrate competence in all the units of competency\nlisted in Section l. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n\n4.2\nThe qualification of HOUSEKEEPING NC II may be attained through:\n\n4.2.1 Demonstration of competencies covering all the required core units\nof qualifications\n\n4.2.2 Accumulation of Certificates of Competency (COCs) in all the\nfollowing areas:\n\n4.2.2.1\nProviding Butler Service\n Provide Valet/Butler Service\n Deal with/Handle intoxicated guests\n\n4.2.2.2\nProviding Housekeeping to Guests\n Provide Housekeeping Services to Guests\n Clean and Prepare Rooms for Incoming Guests\n Deal with/Handle intoxicated guests\n\n4.2.2.3\nCleaning public areas\n Clean Public Areas, Facilities & Equipment\n Deal with/Handle intoxicated guests\n\n4.2.2.4\nProviding laundry service\n- Laundry linen and guest clothes\n- Deal with/handle intoxicated guests\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1\nGraduates\nof\nformal,\nnon-formal\nand\ninformal\nincluding\nenterprise-based training programs.\n4.4.2\nExperienced Workers (wage employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in\nthe \"Procedures Manual on Assessment and Certification\" and\n\"Guidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS)\".\n\n--- PDF PAGE 65 ---\nTR - HOUSEKEEPING NC II (Amended)\n Promulgated December 2013 61\n\nBASIC\nCOMPETENCIES\nCOMPETENCY MAP - TOURISM Sector\n(Hotel and Restaurant)\nHOUSEKEEPING NC II\nDevelop and\nupdate industry\nknowledge\n\nPerform computer\noperations\n\nProvide effective\ncustomer service\n\nObserve\nworkplace\n hygiene\nprocedures\nPerform\n workplace\nsafety\npractices\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\n\nPrepare\nsandwiches\n\nANNEX A\n\nOrganize\nand prepare\nfood\n\nPlan and control\nmenu based on\ncatering\n\nSelect, prepare\nand cook meat\n\nPackage prepare\nfoodstuffs\nEstablish and\nmaintain quality\ncontrol\n\n Manage facilities\nassociated with\ncommercial\ncatering\nApply\ncook-freeze\n production\nprocess\nOrganize\nbulk cooking\noperations\n\nPrepare\nhot and cold\ndesserts\n\nDevelop\n food safety\nprogram\nPrepare\nchocolate and\nchocolate\nconfectionery\nReceive and\nstore kitchen\nsupplies\n\nDevelop menus\nto meet special\ndietary and\ncultural needs\nPrepare\npastry, cakes\nand yeast-based\nproducts\nPrepare\nvegetables, eggs\nand starch\nproducts\nPrepare\ncook and serve\nfood for menus\n\nSelect, prepare\nand serve\nspecialized food\nitem\nSelect\ncatering\nsystems\n\nOperate\nfast food\noutlet\n\nPrepare\nand cook\npoultry and game\n\nClean\nand maintain\nkitchen premises\n\n Plan, prepare\nand display\nbuffet\n\n Plan\nand prepare food\nfor buffets\n\n Plan\ncatering for an\nevent or function\n\n Select, prepare\nand serve\nspecialist\ncuisines\n\nPresent food\n\nApply\nCook, chill\noperation\nprocesses\nPrepare\nand cook\nseafood\n\nPrepare\nappetizers and\nsalads\nPrepare\nportion controlled\nmeat cuts\n\nImplement\nfood safety\nprocedures\n\n Prepare food\naccording to\ndietary and\ncultural needs\n\nMonitor\ncatering revenue\nand costs\nApply\ncatering control\nprinciples\n\nProvide\nhousekeeping\nservices\nto guests\nHandle and\nserve cheese\n\nPrepare\nstocks, sauces\nand soups\nTransport and\nstore food in a\nsafe and hygienic\nmanner\nPrepare\npates and\nterrines\n\nLaundry linen\nand guest clothes\nProvide\nValet/Butler\nservice\nClean public\nareas, facilities\nand equipment\nClean and prepare\nrooms for incoming\nguest\nDem onstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncom m unication\nWork\n in team\nenvironm ent\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nm athem atical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problem s\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncom m unication\nDevelop\nteam s and\nindividuals\nUtilize\nspecialized\ncom m unication\nskills\nPractice\noccupational\nhealth and\nsafety procedures\nLead\nworkplace\n com m unication\nCollect,\nanalyze and\norganize\ninform ation\nPlan\nand organize\nwork\nApply\nproblem -\nsolving\ntechniques in\nthe workplace\nLead\nsm all team s\nProm ote\nenvironm ental\nprotection\n\nDeal with/Handle\nIntoxicated guests\n\n--- PDF PAGE 66 ---\nTR - HOUSEKEEPING NC II (Amended)\nPromulgated December 2013\n62\nDEFINITION OF TERMS\n\n1. Protective Clothing – used to safeguard a worker from harmful chemicals\nand other cleaning supplies and equipment; examples include gloves, face\nmasks, aprons and rubber boots\n\n2. Caddy – used to carry different kinds of cleaning materials\n\n3. Carpet Sweeper – A handy type of sweeper used to pick-up dirt and foreign\nmatters from the carpet surface\n\n4. Disinfectant – Chemical used to eliminate the growth of disease and odor-\ncausing germs and bacteria\n\n5. Squeegee – Hand-held tool used to clean glass windows and doors\n\n6. Lodging Agreement – House rules as defined by the establishments\n\n7. Contact List – Directory of establishments and services around the area\nsuch as churches, restaurants, hospitals, and jogging routes\n\n8. Customer Preference Profiles – Information pertaining to guest and his/her\npreferences such as dietary requirements, birthday, religion, and contact\ndetails\n\n--- PDF PAGE 67 ---\nTR - HOUSEKEEPING NC II (Amended)\nPromulgated December 2013\n63\nACKNOWLEDGMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\nREVIEW PANEL\n\nANABELLE O. MORENO\nChair,\nTourism Industry Board Foundation, Inc.\n(TIBFI)\nFormer President, Association of Human\nResource\nManagers for Hotels and Restaurants\n(AHRM)\nASEAN Master Trainer\n\nLILIBETH ARAGON\nLyceum of the Philippines University\nIntramuros, Manila\nASEAN Master Trainer\n\nDR. GLORIA BAKEN WONG-SIY\n\nImmediate Past President, AAHRMEI\n ASEAN Master Trainer\n\n MA. CHRISTINA G. AQUINO\n TIBFI – Board Secretary\n Immediate Past President, COHREP,\n Lyceum of the Philippines University\n Intramuros, Manila\nASEAN Master Assessor\n\n IRENE P. MENDOZA\n Sr. TESD Specialist-Trainer\n TESDA IV-A – PO Rizal\nASEAN Master Assessor\nThe Participants in the Validation of these Training Regulations\nMERLIN T. ONGTECO\nTrainer/Assessor- Housekeeping\nAAHRMEI\nc/o 620 Gochangco Bldg., Room 303\nKalaw St., Ermita, Manila\n\n ROWENA P. SAGAYSAY\n Director/Auditor, COHREP\n Dean\n College of Hospitality Management\n Lyceum of the Philippines\n University, Intramuros, Manila\nELEANOR L. NILO\nPast President\nExecutive Helpers Association of the\nPhil. (EHAP)\nExecutive Housekeeper -Heritage Hotel,\nManila\nCor Roxas Blvd., EDSA Extension\nPasay City\nASEAN Master Assessor\n CHESTER MAGSINO\n Senior Faculty- Housekeeping\n Lyceum of the Philippines\n Intramuros, Manila\n\nABREGALE JOSEPH L. MONZON\nSenior Faculty - Housekeeping\nLyceum of the Philippines University\nIntramuros, Manila\nDANIEL L. EDRALIN\n Board Member\nTourism Industry Board Foundation,\nInc. (TIBFI)\nNational Union of Workers in Hotels\nand Restaurant and Allied Industries\n(NUWHRAIN-APL)\n\nThe TESDA Board Members and Secretariat\nThe Management and Staff of the TESDA Secretariat\nQualifications and Standards Office (QSO)\n\n--- PDF PAGE 68 ---\n\n--- PDF PAGE 69 ---\n\n--- PDF PAGE 70 ---"
+}

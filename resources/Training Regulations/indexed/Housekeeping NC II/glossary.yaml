@@ -1,38 +1,70 @@
-schema: tesda-glossary
-schema_version: '1.0'
-qualification_id: tesda:tr:housekeeping-nc-ii:2013-12-amended
-qualification: Housekeeping NC II
-source_heading: DEFINITION OF TERMS
-provenance:
-  printed_page: 62
-  pdf_page: 66
-representation_type: semantic_normalized
-verbatim_transcription: false
-terms:
-- term_id: glossary:protective-clothing
-  term: Protective Clothing
-  definition: used to safeguard a worker from harmful chemicals and other cleaning supplies and equipment; examples include
-    gloves, face masks, aprons and rubber boots
-- term_id: glossary:caddy
-  term: Caddy
-  definition: used to carry different kinds of cleaning materials
-- term_id: glossary:carpet-sweeper
-  term: Carpet Sweeper
-  definition: A handy type of sweeper used to pick-up dirt and foreign matters from the carpet surface
-- term_id: glossary:disinfectant
-  term: Disinfectant
-  definition: Chemical used to eliminate the growth of disease and odor-causing germs and bacteria
-- term_id: glossary:squeegee
-  term: Squeegee
-  definition: Hand-held tool used to clean glass windows and doors
-- term_id: glossary:lodging-agreement
-  term: Lodging Agreement
-  definition: House rules as defined by the establishments
-- term_id: glossary:contact-list
-  term: Contact List
-  definition: Directory of establishments and services around the area such as churches, restaurants, hospitals, and jogging
-    routes
-- term_id: glossary:customer-preference-profiles
-  term: Customer Preference Profiles
-  definition: Information pertaining to guest and his/her preferences such as dietary requirements, birthday, religion, and
-    contact details
+{
+  "present": true,
+  "entries": [
+    {
+      "term": "1. Protective Clothing – used to safeguard a worker from harmful chemicals",
+      "definition": "and other cleaning supplies and equipment; examples include gloves, face masks, aprons and rubber boots"
+    },
+    {
+      "term": "3. Carpet Sweeper – A handy type of sweeper used to pick-up dirt and foreign",
+      "definition": "matters from the carpet surface"
+    },
+    {
+      "term": "4. Disinfectant – Chemical used to eliminate the growth of disease and odor-",
+      "definition": "causing germs and bacteria"
+    },
+    {
+      "term": "7. Contact List – Directory of establishments and services around the area",
+      "definition": "such as churches, restaurants, hospitals, and jogging routes"
+    },
+    {
+      "term": "8. Customer Preference Profiles – Information pertaining to guest and his/her",
+      "definition": "preferences such as dietary requirements, birthday, religion, and contact details"
+    },
+    {
+      "term": "--- PDF PAGE 67 ---",
+      "definition": "TR - HOUSEKEEPING NC II (Amended) Promulgated December 2013 63 ACKNOWLEDGMENTS"
+    },
+    {
+      "term": "The Technical Education and Skills Development Authority (TESDA) wishes to",
+      "definition": "extend thanks and appreciation to the many representatives of business, industry, academe and government agencies who donated their time and expertise to the development and validation of these Training Regulations."
+    },
+    {
+      "term": "ANABELLE O. MORENO",
+      "definition": "Chair, Tourism Industry Board Foundation, Inc. (TIBFI) Former President, Association of Human Resource Managers for Hotels and Restaurants (AHRM) ASEAN Master Trainer"
+    },
+    {
+      "term": "LILIBETH ARAGON",
+      "definition": "Lyceum of the Philippines University Intramuros, Manila ASEAN Master Trainer"
+    },
+    {
+      "term": "DR. GLORIA BAKEN WONG",
+      "definition": "SIY"
+    },
+    {
+      "term": "Immediate Past President, AAHRMEI",
+      "definition": "ASEAN Master Trainer"
+    },
+    {
+      "term": "MA. CHRISTINA G. AQUINO",
+      "definition": "TIBFI – Board Secretary Immediate Past President, COHREP, Lyceum of the Philippines University Intramuros, Manila ASEAN Master Assessor"
+    },
+    {
+      "term": "IRENE P. MENDOZA",
+      "definition": "Sr. TESD Specialist-Trainer TESDA IV-A – PO Rizal ASEAN Master Assessor The Participants in the Validation of these Training Regulations MERLIN T. ONGTECO Trainer/Assessor- Housekeeping AAHRMEI c/o 620 Gochangco Bldg., Room 303 Kalaw St., Ermita, Manila"
+    },
+    {
+      "term": "ROWENA P. SAGAYSAY",
+      "definition": "Director/Auditor, COHREP Dean College of Hospitality Management Lyceum of the Philippines University, Intramuros, Manila ELEANOR L. NILO Past President Executive Helpers Association of the Phil. (EHAP) Executive Housekeeper -Heritage Hotel, Manila Cor Roxas Blvd., EDSA Extension Pasay City ASEAN Master Assessor CHESTER MAGSINO Senior Faculty- Housekeeping Lyceum of the Philippines Intramuros, Manila"
+    },
+    {
+      "term": "ABREGALE JOSEPH L. MONZON",
+      "definition": "Senior Faculty - Housekeeping Lyceum of the Philippines University Intramuros, Manila DANIEL L. EDRALIN Board Member Tourism Industry Board Foundation, Inc. (TIBFI) National Union of Workers in Hotels and Restaurant and Allied Industries (NUWHRAIN-APL)"
+    },
+    {
+      "term": "The TESDA Board Members and Secretariat",
+      "definition": "The Management and Staff of the TESDA Secretariat Qualifications and Standards Office (QSO)"
+    }
+  ],
+  "source_text": "DEFINITION OF TERMS\n\n1. Protective Clothing – used to safeguard a worker from harmful chemicals\nand other cleaning supplies and equipment; examples include gloves, face\nmasks, aprons and rubber boots\n\n2. Caddy – used to carry different kinds of cleaning materials\n\n3. Carpet Sweeper – A handy type of sweeper used to pick-up dirt and foreign\nmatters from the carpet surface\n\n4. Disinfectant – Chemical used to eliminate the growth of disease and odor-\ncausing germs and bacteria\n\n5. Squeegee – Hand-held tool used to clean glass windows and doors\n\n6. Lodging Agreement – House rules as defined by the establishments\n\n7. Contact List – Directory of establishments and services around the area\nsuch as churches, restaurants, hospitals, and jogging routes\n\n8. Customer Preference Profiles – Information pertaining to guest and his/her\npreferences such as dietary requirements, birthday, religion, and contact\ndetails\n\n--- PDF PAGE 67 ---\nTR - HOUSEKEEPING NC II (Amended)\nPromulgated December 2013\n63\nACKNOWLEDGMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\nREVIEW PANEL\n\nANABELLE O. MORENO\nChair,\nTourism Industry Board Foundation, Inc.\n(TIBFI)\nFormer President, Association of Human\nResource\nManagers for Hotels and Restaurants\n(AHRM)\nASEAN Master Trainer\n\nLILIBETH ARAGON\nLyceum of the Philippines University\nIntramuros, Manila\nASEAN Master Trainer\n\nDR. GLORIA BAKEN WONG-SIY\n\nImmediate Past President, AAHRMEI\n ASEAN Master Trainer\n\n MA. CHRISTINA G. AQUINO\n TIBFI – Board Secretary\n Immediate Past President, COHREP,\n Lyceum of the Philippines University\n Intramuros, Manila\nASEAN Master Assessor\n\n IRENE P. MENDOZA\n Sr. TESD Specialist-Trainer\n TESDA IV-A – PO Rizal\nASEAN Master Assessor\nThe Participants in the Validation of these Training Regulations\nMERLIN T. ONGTECO\nTrainer/Assessor- Housekeeping\nAAHRMEI\nc/o 620 Gochangco Bldg., Room 303\nKalaw St., Ermita, Manila\n\n ROWENA P. SAGAYSAY\n Director/Auditor, COHREP\n Dean\n College of Hospitality Management\n Lyceum of the Philippines\n University, Intramuros, Manila\nELEANOR L. NILO\nPast President\nExecutive Helpers Association of the\nPhil. (EHAP)\nExecutive Housekeeper -Heritage Hotel,\nManila\nCor Roxas Blvd., EDSA Extension\nPasay City\nASEAN Master Assessor\n CHESTER MAGSINO\n Senior Faculty- Housekeeping\n Lyceum of the Philippines\n Intramuros, Manila\n\nABREGALE JOSEPH L. MONZON\nSenior Faculty - Housekeeping\nLyceum of the Philippines University\nIntramuros, Manila\nDANIEL L. EDRALIN\n Board Member\nTourism Industry Board Foundation,\nInc. (TIBFI)\nNational Union of Workers in Hotels\nand Restaurant and Allied Industries\n(NUWHRAIN-APL)\n\nThe TESDA Board Members and Secretariat\nThe Management and Staff of the TESDA Secretariat\nQualifications and Standards Office (QSO)\n\n--- PDF PAGE 68 ---\n\n--- PDF PAGE 69 ---\n\n--- PDF PAGE 70 ---"
+}

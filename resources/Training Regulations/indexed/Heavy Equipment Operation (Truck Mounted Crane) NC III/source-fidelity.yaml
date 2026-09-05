@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:heavy-equipment-operation-truck-mounted-crane-nc-iii:1c5c8372cc",
+  "qualification": "HEAVY EQUIPMENT OPERATION (TRUCK MOUNTED CRANE) NC III",
+  "official_source": {
+    "source_file": "Heavy Equipment Operation (Truck Mounted Crane) NC III.pdf",
+    "sha256": "1c5c8372cccbb7dd897bd995b6cf65503abf016ed29b2cfd0851cb68f3d18893",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Heavy Equipment Operation (Truck Mounted Crane) NC III.pdf",
+    "pdf_pages": 122,
+    "printed_pages": null
+  }
+}

@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 189,
-    "pending": 194,
+    "complete": 199,
+    "pending": 184,
     "blocked": 1
   },
   "records": [
@@ -10225,8 +10225,14 @@
         "CON833323"
       ],
       "indexed_path": "Heavy Equipment Operation (Transit Mixer) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-transit-mixer-nc-ii:18697ec5df",
       "processing_order": 190
@@ -10273,8 +10279,14 @@
         "CON834303"
       ],
       "indexed_path": "Heavy Equipment Operation (Truck Mounted Crane) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-truck-mounted-crane-nc-iii:1c5c8372cc",
       "processing_order": 191
@@ -10317,8 +10329,14 @@
         "CON723308"
       ],
       "indexed_path": "Heavy Equipment Servicing (Mechanical) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-servicing-mechanical-nc-ii:f8c23d3f64",
       "processing_order": 192
@@ -10360,8 +10378,14 @@
         "CON833304"
       ],
       "indexed_path": "Heavy Equipment Operation (Wheel Loader) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-wheel-loader-nc-ii:2004-12",
       "processing_order": 193
@@ -10403,8 +10427,14 @@
         "HCS311304"
       ],
       "indexed_path": "Hilot (Wellness Massage) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:hilot-wellness-massage-nc-ii:7eeb158d01",
       "processing_order": 194
@@ -10462,8 +10492,14 @@
         "AGR611333"
       ],
       "indexed_path": "Horticulture NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 28,
+        "selector_count": 63,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:horticulture-nc-iii:2558928f07",
       "processing_order": 195
@@ -10508,8 +10544,14 @@
         "TRS5123122"
       ],
       "indexed_path": "Housekeeping NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:housekeeping-nc-ii:2013-12",
       "processing_order": 196
@@ -10559,8 +10601,14 @@
         "TRS515304"
       ],
       "indexed_path": "Housekeeping NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:housekeeping-nc-iii:a20f4d6123",
       "processing_order": 197
@@ -10611,8 +10659,14 @@
         "TRS515309"
       ],
       "indexed_path": "Housekeeping NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:housekeeping-nc-iv:7561fddf12",
       "processing_order": 198
@@ -10665,8 +10719,14 @@
         "HVC723330"
       ],
       "indexed_path": "Ice Plant Refrigeration Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 23,
+        "selector_count": 53,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:ice-plant-refrigeration-servicing-nc-iii:ba27d4e65b",
       "processing_order": 199
