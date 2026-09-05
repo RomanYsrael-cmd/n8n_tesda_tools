@@ -1,0 +1,66 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:plant-maintenance-nc-i:0a54d4c2e8",
+  "qualification": "PLANT MAINTENANCE NC I",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311101",
+        "title": "required to receive, respond and act on verbal and written"
+      },
+      {
+        "unit_code": "CODE500311103",
+        "title": "500311103"
+      },
+      {
+        "unit_code": "MEE722201",
+        "title": ": This unit covers the competencies required to apply safety"
+      },
+      {
+        "unit_code": "MEE722204",
+        "title": ": This unit covers the competencies required to perform"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "MEE723301",
+        "title": "in the prevention or delay of breakdown through routine"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311102",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311104",
+        "title": "to apply the basic housekeeping procedures."
+      },
+      {
+        "unit_code": "MEE722202",
+        "title": ": This unit covers the competencies required to read and"
+      },
+      {
+        "unit_code": "MEE722205",
+        "title": ": This unit covers the competencies required to measure"
+      },
+      {
+        "unit_code": "MEE723302",
+        "title": "This unit covers the knowledge, skills and attitude"
+      },
+      {
+        "unit_code": "MEE723303",
+        "title": ": This unit covers the knowledge, skills and attitude required"
+      },
+      {
+        "unit_code": "MEE723304",
+        "title": "move and install machineries."
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n49",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 249,
+    "complete": 259,
     "blocked": 1,
-    "pending": 134
+    "pending": 124
   },
   "records": [
     {
@@ -13425,8 +13425,14 @@
         "HHC532309"
       ],
       "indexed_path": "Pharmacy Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pharmacy-services-nc-iii:74e2984496",
       "processing_order": 251
@@ -13469,8 +13475,14 @@
         "VSA313304"
       ],
       "indexed_path": "Photography NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:photography-nc-ii:2292d15af7",
       "processing_order": 252
@@ -13517,8 +13529,14 @@
         "CON712304"
       ],
       "indexed_path": "Pipefitting (Metallic) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pipefitting-metallic-nc-ii:6b5bd4b76f",
       "processing_order": 253
@@ -13560,8 +13578,14 @@
         "MEE723304"
       ],
       "indexed_path": "Plant Maintenance NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:plant-maintenance-nc-i:0a54d4c2e8",
       "processing_order": 254
@@ -13606,8 +13630,14 @@
         "ALT823307"
       ],
       "indexed_path": "Plastic Machine Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:plastic-machine-operation-nc-ii:66f7644395",
       "processing_order": 255
@@ -13651,8 +13681,14 @@
         "ALT823311"
       ],
       "indexed_path": "Plastic Machine Operation NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:plastic-machine-operation-nc-iii:0b9e61eb8e",
       "processing_order": 256
@@ -13694,8 +13730,14 @@
         "CON712347"
       ],
       "indexed_path": "Plumbing NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:plumbing-nc-i:2014-10",
       "processing_order": 257
@@ -13737,8 +13779,14 @@
         "CON712351"
       ],
       "indexed_path": "Plumbing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:plumbing-nc-ii:2014-10",
       "processing_order": 258
@@ -13784,8 +13832,14 @@
         "CON712356"
       ],
       "indexed_path": "Plumbing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:plumbing-nc-iii:2014-10",
       "processing_order": 259
@@ -13827,8 +13881,14 @@
         "MEE722302"
       ],
       "indexed_path": "Press Machine Operation NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:press-machine-operation-nc-i:b40a1e4567",
       "processing_order": 260
