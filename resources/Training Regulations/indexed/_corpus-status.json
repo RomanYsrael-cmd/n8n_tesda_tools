@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 129,
-    "pending": 254,
+    "complete": 139,
+    "pending": 244,
     "blocked": 1
   },
   "records": [
@@ -7080,8 +7080,14 @@
         "AGR921302"
       ],
       "indexed_path": "Fishport Wharf Operation NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:fishport-wharf-operation-nc-i:8cc461ae79",
       "processing_order": 130
@@ -7125,8 +7131,14 @@
         "MEE721305"
       ],
       "indexed_path": "Flux-Cored Arc Welding (FCAW) NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:flux-cored-arc-welding-fcaw-nc-i:2cc4b09c7c",
       "processing_order": 131
@@ -7170,8 +7182,14 @@
         "MEE721310"
       ],
       "indexed_path": "Flux-Cored Arc Welding (FCAW) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:flux-cored-arc-welding-fcaw-nc-ii:ee1f5ec961",
       "processing_order": 132
@@ -7218,8 +7236,14 @@
         "MEE7721119"
       ],
       "indexed_path": "Flux-Cored Arc Welding (FCAW) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:flux-cored-arc-welding-fcaw-nc-iii:ed4b35354c",
       "processing_order": 133
@@ -7267,8 +7291,14 @@
         "TRS513313"
       ],
       "indexed_path": "Food and Beverage Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-and-beverage-services-nc-ii:2023-11-13",
       "processing_order": 134
@@ -7319,8 +7349,14 @@
         "TRS513305"
       ],
       "indexed_path": "Food and Beverage Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-and-beverage-services-nc-iii:f6da455247",
       "processing_order": 135
@@ -7370,8 +7406,14 @@
         "TRS513309"
       ],
       "indexed_path": "Food and Beverage Services NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-and-beverage-services-nc-iv:c9ea8b5bd2",
       "processing_order": 136
@@ -7420,8 +7462,14 @@
         "PFB751347"
       ],
       "indexed_path": "Food Processing NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-processing-nc-i:2019-01-11",
       "processing_order": 137
@@ -7466,8 +7514,14 @@
         "PFB751334"
       ],
       "indexed_path": "Food Processing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-processing-nc-ii:2015-06-16",
       "processing_order": 138
@@ -7517,8 +7571,14 @@
         "AGR741322"
       ],
       "indexed_path": "Food Processing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-processing-nc-iii:c3331b42d0",
       "processing_order": 139
