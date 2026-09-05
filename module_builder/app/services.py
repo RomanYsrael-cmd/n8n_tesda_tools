@@ -14,7 +14,7 @@ from .docx_engine import build_module, package_course
 from .prompts import (automatic_apply_prompt, automatic_introduction_prompt, automatic_preassessment_prompt,
                       automatic_presentation_prompt, automatic_self_check_prompt, repair_prompt,
                       semantic_validation_prompt, text_repair_prompt)
-from .providers import OpenAICompatibleProvider
+from .providers import OpenAICompatibleProvider, ProviderCancelled
 from .schemas import ApplyContent, JobStatus, ModuleBundle, NormalizedSyllabus, PresentationContent, QuizContent, SemanticReview
 from .storage import dump_json, job_dir, transition
 from .validation import audit_docx, render_verify, report_json, validate_bundle, validate_bundle_against_plan
@@ -28,6 +28,7 @@ class GenerationService:
         self.semantic_enabled = semantic_enabled
         self.tasks: dict[str, asyncio.Task] = {}
         self.live_activity: dict[str, dict[str, dict]] = {}
+        self._active_providers: dict[str, dict[int, OpenAICompatibleProvider]] = {}
 
     def live_for(self, job_id: str) -> list[dict]:
         return list(self.live_activity.get(job_id, {}).values())
@@ -40,6 +41,7 @@ class GenerationService:
         self.tasks[job_id] = asyncio.create_task(self.run_auto(job_id))
 
     async def stop(self, job_id: str):
+        await self.cancel_active_requests(job_id)
         task = self.tasks.get(job_id)
         if task and not task.done():
             task.cancel()
@@ -50,13 +52,36 @@ class GenerationService:
         self.tasks.pop(job_id, None)
         self.live_activity.pop(job_id, None)
 
+    def _track_provider(self, job_id: str, provider: OpenAICompatibleProvider) -> None:
+        self._active_providers.setdefault(job_id, {})[id(provider)] = provider
+
+    def _untrack_provider(self, job_id: str, provider: OpenAICompatibleProvider) -> None:
+        providers = self._active_providers.get(job_id)
+        if not providers:
+            return
+        providers.pop(id(provider), None)
+        if not providers:
+            self._active_providers.pop(job_id, None)
+
+    async def cancel_active_requests(self, job_id: str) -> list[dict]:
+        """Cancel all provider requests currently running for this job."""
+        providers = list((self._active_providers.get(job_id) or {}).values())
+        if not providers:
+            return []
+        batches = await asyncio.gather(*(provider.cancel_active_requests() for provider in providers))
+        return [result for batch in batches for result in batch]
+
     async def _validated_call(self, job_id: str, lesson: int, week: int, stage: str, prompt: str, model_type):
         provider: OpenAICompatibleProvider = self.provider_factory()
         current_prompt = prompt
         for repair in range(3):
             self.db.upsert_stage(job_id, lesson, week, stage, "running", f"Request attempt {repair + 1}", increment=True)
             request_path = dump_json(self.settings.data_root, True, f"{job_id}-lesson-{lesson}-{stage}-request-{repair+1}", {"prompt": current_prompt, "model": provider.model, "base_url": provider.base_url})
-            raw = await provider.complete_json(current_prompt)
+            self._track_provider(job_id, provider)
+            try:
+                raw = await provider.complete_json(current_prompt)
+            finally:
+                self._untrack_provider(job_id, provider)
             try:
                 value = model_type.model_validate(raw)
                 errors = []
@@ -99,8 +124,16 @@ class GenerationService:
                 live["content"] += token
 
             try:
-                raw = await provider.complete_text(current_prompt, on_token=receive_token, request_options=request_options)
+                self._track_provider(job_id, provider)
+                try:
+                    raw = await provider.complete_text(current_prompt, on_token=receive_token, request_options=request_options)
+                finally:
+                    self._untrack_provider(job_id, provider)
                 live["status"] = "validating"
+            except ProviderCancelled:
+                live["status"] = "cancelled"
+                job_live.pop(live_key, None)
+                raise
             except Exception:
                 live["status"] = "failed"
                 raise
@@ -213,6 +246,8 @@ class GenerationService:
             package_course(base)
             transition(self.settings.data_root, job_id, JobStatus.GENERATING, JobStatus.SUCCESS)
             self.db.update_job(job_id, status=JobStatus.SUCCESS, progress=100, message="All modules are ready", error="")
+        except ProviderCancelled as exc:
+            self.db.update_job(job_id, status=JobStatus.CANCELLED, error="", message="Stopped by user; completed work was preserved")
         except Exception as exc:
             dump_json(self.settings.data_root, False, f"{job_id}-generation-error", {"error": str(exc), "traceback": traceback.format_exc()})
             self.db.update_job(job_id, status=JobStatus.FAILED, error=str(exc), message="Generation stopped at a failed stage")

@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 from app.validation import render_verify
+from app.providers import ProviderCancelled
 
 from .documents import audit_docx, build_cblm, package_outputs
 from .parsers import clean_response, parse_self_check, parse_task_sheet
@@ -19,9 +20,29 @@ class CBLMGenerationService:
         self.catalog = PromptCatalog.load(prompts)
         self.tasks: dict[str, asyncio.Task] = {}
         self.live_activity: dict[str, dict[str, dict]] = {}
+        self._active_providers: dict[str, dict[int, object]] = {}
 
     def live_for(self, job_id: str):
         return list(self.live_activity.get(job_id, {}).values())
+
+    def _track_provider(self, job_id: str, provider) -> None:
+        self._active_providers.setdefault(job_id, {})[id(provider)] = provider
+
+    def _untrack_provider(self, job_id: str, provider) -> None:
+        providers = self._active_providers.get(job_id)
+        if not providers:
+            return
+        providers.pop(id(provider), None)
+        if not providers:
+            self._active_providers.pop(job_id, None)
+
+    async def cancel_active_requests(self, job_id: str) -> list[dict]:
+        providers = list((self._active_providers.get(job_id) or {}).values())
+        if not providers:
+            return []
+        calls = [provider.cancel_active_requests() for provider in providers if getattr(provider, "cancel_active_requests", None)]
+        batches = await asyncio.gather(*calls)
+        return [result for batch in batches for result in batch]
 
     def _latest_payload(self, job_id: str, lo: int, topic: int, stage: str, failed: bool = False):
         bucket = self.root / "JSON Dump" / ("Failed" if failed else "Success")
@@ -90,7 +111,11 @@ class CBLMGenerationService:
                 def receive_token(token: str):
                     live["content"] += token
 
-                raw = await provider.complete_text(prompt, max_attempts=1, on_token=receive_token)
+                self._track_provider(job_id, provider)
+                try:
+                    raw = await provider.complete_text(prompt, max_attempts=1, on_token=receive_token)
+                finally:
+                    self._untrack_provider(job_id, provider)
                 live["status"] = "validating"
                 dump(self.root, True, f"{job_id}-lo{lo}-topic{topic}-{stage}-response-{attempt}", {"response": raw})
                 value = parser(raw) if parser else clean_response(raw)
@@ -99,6 +124,11 @@ class CBLMGenerationService:
                 self.db.upsert_stage(job_id, lo, topic, stage, "success", "Complete")
                 job_live.pop(live_key, None)
                 return value
+            except ProviderCancelled:
+                if 'live' in locals():
+                    live["status"] = "cancelled"
+                    job_live.pop(live_key, None)
+                raise
             except Exception as exc:
                 if 'live' in locals():
                     live["status"] = "rejected"
@@ -146,18 +176,36 @@ class CBLMGenerationService:
                 limit = max(1, min(4, int(json.loads((self.db.get_job(job_id) or {}).get("control_json") or "{}").get("concurrency", 1))))
                 semaphore = asyncio.Semaphore(limit)
                 async def finish_topic(topic):
-                    async with semaphore:
-                        values = self._values(plan, lo, topic)
-                        quiz_prompt = self.catalog.render("self_check", values)
-                        task_prompt = self.catalog.render("task_sheet", values)
-                        if not (topic.quiz and topic.answer_key):
-                            quiz = await self._call(job_id, lo.number, topic.number, "self_check", quiz_prompt, parse_self_check)
-                            topic.quiz_instructions, topic.quiz, topic.answer_key = quiz.quiz_instructions, quiz.quiz, quiz.answer_key
-                        if not (topic.activity_title and topic.activity_criteria):
-                            task = await self._call(job_id, lo.number, topic.number, "task_sheet", task_prompt, parse_task_sheet)
-                            topic.activity_title, topic.activity_objectives = task.activity_title, task.activity_objectives
-                            topic.activity_supplies, topic.activity_equipment = task.activity_supplies, task.activity_equipment
-                            topic.activity_steps, topic.activity_method, topic.activity_criteria = task.activity_steps, task.activity_method, task.activity_criteria
+                    values = self._values(plan, lo, topic)
+                    quiz_prompt = self.catalog.render("self_check", values)
+                    task_prompt = self.catalog.render("task_sheet", values)
+
+                    # Both calls use the same completed Key Facts content and
+                    # are independent of one another. Acquire the semaphore
+                    # per request (rather than around the whole topic) so a
+                    # Self Check and Task Sheet can run in parallel while the
+                    # configured global concurrency limit is still respected.
+                    async def generate_quiz():
+                        async with semaphore:
+                            return await self._call(job_id, lo.number, topic.number, "self_check", quiz_prompt, parse_self_check)
+
+                    async def generate_task():
+                        async with semaphore:
+                            return await self._call(job_id, lo.number, topic.number, "task_sheet", task_prompt, parse_task_sheet)
+
+                    calls = []
+                    if not (topic.quiz and topic.answer_key):
+                        calls.append(("quiz", generate_quiz()))
+                    if not (topic.activity_title and topic.activity_criteria):
+                        calls.append(("task", generate_task()))
+                    results = await asyncio.gather(*(call for _, call in calls))
+                    for (kind, _), value in zip(calls, results):
+                        if kind == "quiz":
+                            topic.quiz_instructions, topic.quiz, topic.answer_key = value.quiz_instructions, value.quiz, value.answer_key
+                        else:
+                            topic.activity_title, topic.activity_objectives = value.activity_title, value.activity_objectives
+                            topic.activity_supplies, topic.activity_equipment = value.activity_supplies, value.activity_equipment
+                            topic.activity_steps, topic.activity_method, topic.activity_criteria = value.activity_steps, value.activity_method, value.activity_criteria
                 await asyncio.gather(*(finish_topic(t) for t in lo.topics))
                 self.db.update_job(job_id, plan_json=plan.model_dump_json())
                 completed += len(lo.topics)
@@ -179,6 +227,8 @@ class CBLMGenerationService:
             package_outputs(base_dir)
             transition(self.root, job_id, "generating", "success")
             self.db.update_job(job_id, status="success", progress=100, message="CBLMs are ready", error=None, plan_json=plan.model_dump_json())
+        except ProviderCancelled:
+            self.db.update_job(job_id, status="paused", message="Stopped by user; completed work was preserved", error=None)
         except Exception as exc:
             self.db.update_job(job_id, status="failed", message="Generation stopped", error=str(exc))
 

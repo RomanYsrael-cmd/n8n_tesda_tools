@@ -102,10 +102,29 @@ class SaaSDatabase:
         with self.connection() as conn:
             return bool(conn.execute("DELETE FROM saas_jobs WHERE id=%s AND user_id=%s RETURNING id",(job_id,user_id)).fetchone())
 
-    def resume(self, job_id: str, user_id: int) -> bool:
+    def resume(self, job_id: str, user_id: int, mode: str = "saved") -> bool:
+        if mode not in {"saved", "fresh"}:
+            return False
+        message = "Queued to resume from the saved checkpoint" if mode == "saved" else "Queued to regenerate everything from the approved plan"
         with self.connection() as conn:
-            return bool(conn.execute("""UPDATE saas_jobs SET status='queued',cancel_requested=false,message='Queued to resume generation',updated_at=now()
-              WHERE id=%s AND user_id=%s AND status IN ('paused','failed','cancelled') AND stage='generation' RETURNING id""",(job_id,user_id)).fetchone())
+            row = conn.execute("""UPDATE saas_jobs SET status='queued',cancel_requested=false,message=%s,error=NULL,finished_at=NULL,
+              payload=jsonb_set(COALESCE(payload,'{}'::jsonb),'{generation_mode}',to_jsonb(%s::text),true),updated_at=now()
+              WHERE id=%s AND user_id=%s AND status IN ('paused','failed','cancelled') AND stage='generation' RETURNING id""",(message,mode,job_id,user_id)).fetchone()
+            if row:
+                # A fresh regeneration starts a new activity timeline. Remove the
+                # prior LLM request/response/diagnostic events and detailed stage
+                # snapshots; keep upload, planning, and generation history so the
+                # job remains auditable.
+                if mode == "fresh":
+                    conn.execute(
+                        "DELETE FROM saas_job_events "
+                        "WHERE job_id=%s AND (stage IN ('llm', 'stage') "
+                        "OR detail->>'kind' IN ('llm', 'stage'))",
+                        (job_id,),
+                    )
+                conn.execute("INSERT INTO saas_job_events(job_id,stage,message,detail) VALUES(%s,'generation',%s,%s)",
+                             (job_id, message, json.dumps({"mode": mode})))
+            return bool(row)
 
     def return_to_plan(self, job_id: str, user_id: int) -> bool:
         with self.connection() as conn:
@@ -123,7 +142,7 @@ class SaaSDatabase:
     def approve(self, job_id: str, user_id: int, payload: dict) -> bool:
         with self.connection() as conn:
             row = conn.execute("""UPDATE saas_jobs SET status='queued',stage='generation',progress=25,
-              message='Approved and queued for generation',payload=%s,updated_at=now()
+              message='Approved and queued for generation',payload=%s,cancel_requested=false,error=NULL,finished_at=NULL,updated_at=now()
               WHERE id=%s AND user_id=%s AND status='review' RETURNING id""",
               (json.dumps(payload), job_id, user_id)).fetchone()
             if row: conn.execute("INSERT INTO saas_job_events(job_id,stage,message) VALUES(%s,'generation','Plan approved; generation queued')", (job_id,))

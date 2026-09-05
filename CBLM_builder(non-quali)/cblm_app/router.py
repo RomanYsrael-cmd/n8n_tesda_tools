@@ -117,7 +117,10 @@ def create_router(root: Path, template_dir: Path, prompt_file: Path, provider_fa
         return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
 
     @router.post("/jobs/{job_id}/stop")
-    def stop(job_id:str): db.set_control(job_id,cancel=True); return RedirectResponse(f"/cblm/jobs/{job_id}/progress",303)
+    async def stop(job_id:str):
+        db.set_control(job_id,cancel=True)
+        await service.cancel_active_requests(job_id)
+        return RedirectResponse(f"/cblm/jobs/{job_id}/progress",303)
 
     @router.post("/jobs/{job_id}/back")
     def back(job_id:str):

@@ -200,9 +200,11 @@ def install_saas(app: FastAPI) -> None:
         return RedirectResponse("/app",303)
 
     @router.post("/app/jobs/{job_id}/resume")
-    def resume(request: Request, job_id: str):
+    async def resume(request: Request, job_id: str):
         user=auth_service.current(request)
-        if not db.resume(job_id,user.id): raise HTTPException(409,"This course cannot resume from its current state")
+        form = await request.form()
+        mode = str(form.get("mode", "saved"))
+        if not db.resume(job_id,user.id,mode): raise HTTPException(409,"This course cannot resume from its current state")
         return RedirectResponse(f"/app/jobs/{job_id}",303)
 
     @router.post("/app/jobs/{job_id}/back-to-planning")

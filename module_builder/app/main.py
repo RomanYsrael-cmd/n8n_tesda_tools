@@ -443,8 +443,10 @@ def pause(job_id: str):
 
 
 @router.post("/jobs/{job_id}/cancel")
-def cancel(job_id: str):
-    require_job(job_id); db.set_control(job_id, cancel=True); return RedirectResponse(f"/jobs/{job_id}/progress", 303)
+async def cancel(job_id: str):
+    require_job(job_id); db.set_control(job_id, cancel=True)
+    await generation.cancel_active_requests(job_id)
+    return RedirectResponse(f"/jobs/{job_id}/progress", 303)
 
 
 def _delete_llm_logs(job_id: str):

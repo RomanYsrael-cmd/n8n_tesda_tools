@@ -27,9 +27,9 @@ if "/cblm" not in sys.path:
     sys.path.insert(0, "/cblm")
 
 
-async def run_with_live_sync(coro, db: SaaSDatabase, local_db, job_id: str, runtime: Path, tool: str) -> None:
+async def run_with_live_sync(coro, db: SaaSDatabase, local_db, job_id: str, runtime: Path, tool: str, cancel_active=None) -> None:
     """Run a local engine while copying its safe progress and JSON logs to SaaS."""
-    task = asyncio.create_task(coro); stage_state: dict[str, tuple] = {}; seen_logs: set[str] = set()
+    task = asyncio.create_task(coro); stage_state: dict[str, tuple] = {}; seen_logs: set[str] = set(); cancel_sent = False
     while not task.done():
         local_job = local_db.get_job(job_id) or {}; stages = local_db.stages(job_id)
         local_message = local_job.get("message") or "Generating documents"
@@ -39,7 +39,15 @@ async def run_with_live_sync(coro, db: SaaSDatabase, local_db, job_id: str, runt
         cloud_stage = "assembly" if any(word in local_message.lower() for word in assembly_words) else "generation"
         db.update(job_id, stage=cloud_stage, progress=max(25, int(local_job.get("progress") or 0)), message=local_message)
         cloud_job = db.job(job_id)
-        if not cloud_job or cloud_job.get("cancel_requested"): local_db.set_control(job_id, cancel=True)
+        if not cloud_job or cloud_job.get("cancel_requested"):
+            local_db.set_control(job_id, cancel=True)
+            if not cancel_sent and cancel_active:
+                cancel_sent = True
+                try:
+                    results = await cancel_active()
+                    db.event(job_id, "generation", "Cancellation requested for active provider requests", detail={"kind": "cancellation", "results": results})
+                except Exception as exc:
+                    db.event(job_id, "generation", f"Provider cancellation request failed: {exc}", "warning")
         for stage in stages:
             key = ":".join(str(stage.get(k, 0)) for k in (("lesson_number","lo_number")[tool=="cblm"], ("actual_week","topic_number")[tool=="cblm"], "stage"))
             value = (stage.get("status"), stage.get("attempts"), stage.get("message"))
@@ -61,14 +69,23 @@ async def run_with_live_sync(coro, db: SaaSDatabase, local_db, job_id: str, runt
 
 def process(db: SaaSDatabase, store: ObjectStore, cfg, job: dict) -> None:
     job_id, user_id = str(job["id"]), job["user_id"]
-    work = Path(tempfile.mkdtemp(prefix=f"tesda-{job_id[:8]}-"))
+    # Keep generation checkpoints on the persistent worker volume so a failed
+    # job can continue from its local SQLite/stage state after a retry.
+    checkpoint_root = Path(os.getenv("TESDA_CHECKPOINT_ROOT", "/var/lib/tesda/checkpoints"))
+    work = checkpoint_root / job_id
+    work.mkdir(parents=True, exist_ok=True)
+    successful = False
     try:
+        generation_mode = (job.get("payload") or {}).get("generation_mode", "saved")
+        if job["stage"] == "generation" and generation_mode == "fresh":
+            shutil.rmtree(work, ignore_errors=True)
+            work.mkdir(parents=True, exist_ok=True)
         source = work / job["filename"]
         store.download(job["input_key"], source)
         if db.job(job_id)["cancel_requested"]:
             db.update(job_id, status="cancelled", stage="cancelled", message="Cancelled", finished_at=datetime.now(UTC)); return
         if job["stage"] == "generation":
-            generate(db, store, cfg, job, source, work)
+            successful = generate(db, store, cfg, job, source, work)
             return
         if job["tool"] == "cblm":
             from cblm_app.extraction import extract_cblm_plan
@@ -93,24 +110,37 @@ def process(db: SaaSDatabase, store: ObjectStore, cfg, job: dict) -> None:
             try: send_completed(cfg, recipient, job["filename"], f"{cfg.public_url}/app/jobs/{job_id}", False)
             except Exception as mail_error: db.event(job_id, "notification", f"Email notification failed: {mail_error}", "warning")
     finally:
-        shutil.rmtree(work, ignore_errors=True)
+        # Normalization is disposable; successful generation checkpoints are
+        # also no longer needed. Failed generation checkpoints are retained.
+        if successful or job["stage"] != "generation":
+            shutil.rmtree(work, ignore_errors=True)
 
 
-def generate(db: SaaSDatabase, store: ObjectStore, cfg, job: dict, source: Path, work: Path) -> None:
+def generate(db: SaaSDatabase, store: ObjectStore, cfg, job: dict, source: Path, work: Path) -> bool:
     if not cfg.llm_base_url or not cfg.llm_model:
         raise RuntimeError("The platform-managed LLM is not configured")
     job_id, user_id = str(job["id"]), job["user_id"]
+    checkpoint_payload = dict(job.get("payload") or {})
+    checkpoint_payload["checkpoint_available"] = True
+    db.update(job_id, payload=checkpoint_payload)
     runtime = work / "runtime"; provider = lambda: OpenAICompatibleProvider(cfg.llm_base_url, cfg.llm_api_key, cfg.llm_model)
     if job["tool"] == "module":
         ensure_layout(runtime); local_db = Database(runtime / "module-builder.sqlite3"); local_db.migrate()
-        local_db.create_job(job_id, job["filename"])
+        if not local_db.get_job(job_id):
+            local_db.create_job(job_id, job["filename"])
         plan = NormalizedSyllabus.model_validate(job["payload"]["normalized"])
         local_db.update_job(job_id, status=JobStatus.APPROVED, normalized_json=plan.model_dump_json(), control_json='{"post_call_concurrency":1}')
-        folder = job_dir(runtime, job_id, JobStatus.APPROVED); folder.mkdir(parents=True); shutil.copy2(source, folder / source.name)
+        folder = job_dir(runtime, job_id, JobStatus.APPROVED); folder.mkdir(parents=True, exist_ok=True)
+        if not (folder / source.name).exists(): shutil.copy2(source, folder / source.name)
         settings = Settings(data_root=runtime, template=Path("/templates/Module Template.docx"), use_n8n=False).resolved()
         service = GenerationService(settings, local_db, provider)
-        asyncio.run(run_with_live_sync(service.run_auto(job_id), db, local_db, job_id, runtime, "module"))
+        asyncio.run(run_with_live_sync(service.run_auto(job_id), db, local_db, job_id, runtime, "module", lambda: service.cancel_active_requests(job_id)))
         result = local_db.get_job(job_id)
+        if result["status"] in {JobStatus.CANCELLED, JobStatus.PAUSED}:
+            db_status = "cancelled" if result["status"] == JobStatus.CANCELLED else "paused"
+            db.update(job_id, status=db_status, stage="generation", message="Stopped after the current request; completed work was preserved", error=None)
+            db.event(job_id, "generation", "Generation stopped by the user; completed work was preserved", detail={"status": db_status})
+            return False
         if result["status"] != JobStatus.SUCCESS: raise RuntimeError(result.get("error") or "Module generation failed")
         result_dir = job_dir(runtime, job_id, JobStatus.SUCCESS)
     else:
@@ -118,11 +148,21 @@ def generate(db: SaaSDatabase, store: ObjectStore, cfg, job: dict, source: Path,
         from cblm_app.schemas import CBLMPlan
         from cblm_app.service import CBLMGenerationService
         from cblm_app.storage import ensure_layout as ensure_cblm, job_dir as cblm_dir
-        ensure_cblm(runtime); local_db=CBLMDatabase(runtime / "cblm.sqlite3"); local_db.migrate(); local_db.create_job(job_id,job["filename"])
-        plan=CBLMPlan.model_validate(job["payload"]["normalized"]); local_db.update_job(job_id,status="approved",plan_json=plan.model_dump_json(),control_json='{"concurrency":1}')
-        folder=cblm_dir(runtime,job_id,"approved"); folder.mkdir(parents=True); shutil.copy2(source,folder/source.name)
+        ensure_cblm(runtime); local_db=CBLMDatabase(runtime / "cblm.sqlite3"); local_db.migrate()
+        if not local_db.get_job(job_id): local_db.create_job(job_id,job["filename"])
+        # Key Facts is complete before the topic follow-up calls begin. Allow
+        # the independent Self Check and Task Sheet requests to overlap, with
+        # a bounded global limit of four provider calls.
+        plan=CBLMPlan.model_validate(job["payload"]["normalized"]); local_db.update_job(job_id,status="approved",plan_json=plan.model_dump_json(),control_json='{"concurrency":4}')
+        folder=cblm_dir(runtime,job_id,"approved"); folder.mkdir(parents=True, exist_ok=True)
+        if not (folder/source.name).exists(): shutil.copy2(source,folder/source.name)
         service=CBLMGenerationService(runtime,Path("/cblm/Templates"),Path("/cblm/Prompts.xlsx"),local_db,provider)
-        asyncio.run(run_with_live_sync(service.run(job_id), db, local_db, job_id, runtime, "cblm")); result=local_db.get_job(job_id)
+        asyncio.run(run_with_live_sync(service.run(job_id), db, local_db, job_id, runtime, "cblm", lambda: service.cancel_active_requests(job_id))); result=local_db.get_job(job_id)
+        if result["status"] in {"paused", "cancelled"}:
+            db_status = result["status"]
+            db.update(job_id, status=db_status, stage="generation", message="Stopped after the current request; completed work was preserved", error=None)
+            db.event(job_id, "generation", "Generation stopped by the user; completed work was preserved", detail={"status": db_status})
+            return False
         if result["status"] != "success": raise RuntimeError(result.get("error") or "CBLM generation failed")
         result_dir=cblm_dir(runtime,job_id,"success")
     archives=list(result_dir.glob("*.zip"))
@@ -135,6 +175,7 @@ def generate(db: SaaSDatabase, store: ObjectStore, cfg, job: dict, source: Path,
     if recipient:
         try: send_completed(cfg, recipient, job["filename"], f"{cfg.public_url}/app/jobs/{job_id}", True)
         except Exception as exc: db.event(job_id, "notification", f"Email notification failed: {exc}", "warning")
+    return True
 
 
 def run() -> None:
