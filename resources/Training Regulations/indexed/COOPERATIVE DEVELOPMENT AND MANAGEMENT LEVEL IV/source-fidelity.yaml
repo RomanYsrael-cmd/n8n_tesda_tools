@@ -1,0 +1,34 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:cooperative-development-and-management-level-iv:17de9d92ea",
+  "qualification": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV",
+  "official_source": {
+    "source_file": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV.pdf",
+    "sha256": "17de9d92ea20b890ea4ca9b3268746c2dd9195453b8b815b82b09fcf9fbfaa99",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [
+    {
+      "kind": "missing_section",
+      "detail": "Section 4 was not detected by heading extraction."
+    }
+  ],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV.pdf",
+    "pdf_pages": 128,
+    "printed_pages": null
+  }
+}

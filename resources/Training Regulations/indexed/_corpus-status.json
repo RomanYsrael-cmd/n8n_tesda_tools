@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 89,
-    "pending": 294,
+    "complete": 99,
+    "pending": 284,
     "blocked": 1
   },
   "records": [
@@ -4896,8 +4896,14 @@
         "TRS512340"
       ],
       "indexed_path": "Cookery NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cookery-nc-ii:2014-10",
       "processing_order": 90
@@ -4938,8 +4944,14 @@
         "SOC941203"
       ],
       "indexed_path": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cooperative-development-and-management-level-iv:17de9d92ea",
       "processing_order": 91
@@ -4984,8 +4996,14 @@
         "WRT522308"
       ],
       "indexed_path": "Customer Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:customer-services-nc-ii:2008-12",
       "processing_order": 92
@@ -5029,8 +5047,14 @@
         "IEC197702"
       ],
       "indexed_path": "Cyber Threat Mitigation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cyber-threat-mitigation-nc-ii:2024-11-13",
       "processing_order": 93
@@ -5073,8 +5097,14 @@
         "ICT251313"
       ],
       "indexed_path": "Cyber Threat Monitoring NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:cyber-threat-monitoring-nc-i:2024-11-13",
       "processing_order": 94
@@ -5127,8 +5157,14 @@
         "HHC325307"
       ],
       "indexed_path": "Dental Hygiene Level IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 23,
+        "selector_count": 53,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:dental-hygiene-level-iv:c520d0b2be",
       "processing_order": 95
@@ -5171,8 +5207,14 @@
         "HCS322338"
       ],
       "indexed_path": "Dental Laboratory Technology Services (Fixed Dentures Restorations) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:dental-laboratory-technology-services-fixed-dentures-restorations-nc-ii:7073c8cfdc",
       "processing_order": 96
@@ -5219,8 +5261,14 @@
         "HCS322331"
       ],
       "indexed_path": "Dental Laboratory Technology Services (Removable Dentures Appliances) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:dental-laboratory-technology-services-removable-dentures-appliances-nc-ii:617f40190b",
       "processing_order": 97
@@ -5263,8 +5311,14 @@
         "HCS322327"
       ],
       "indexed_path": "Dental Laboratory Technology Services NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:dental-laboratory-technology-services-nc-i:2008-04",
       "processing_order": 98
@@ -5337,8 +5391,14 @@
         "HCS322342"
       ],
       "indexed_path": "Dental Technology NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 43,
+        "selector_count": 93,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:dental-technology-nc-iv:e5adf4d75d",
       "processing_order": 99
