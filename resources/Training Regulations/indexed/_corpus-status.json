@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 79,
-    "pending": 304,
+    "complete": 89,
+    "pending": 294,
     "blocked": 1
   },
   "records": [
@@ -4372,8 +4372,14 @@
         "HVC723347"
       ],
       "indexed_path": "Commercial Refrigeration Installation and Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:commercial-refrigeration-installation-and-servicing-nc-iii:2021-06-08",
       "processing_order": 80
@@ -4424,8 +4430,14 @@
         "HHC226305"
       ],
       "indexed_path": "Community Nutrition Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:community-nutrition-services-nc-ii:a429753c32",
       "processing_order": 81
@@ -4470,8 +4482,14 @@
         "ELC724334"
       ],
       "indexed_path": "Computer Systems Servicing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:computer-systems-servicing-nc-ii:42d85dad87",
       "processing_order": 82
@@ -4511,8 +4529,14 @@
         "CON833301"
       ],
       "indexed_path": "Construction Lift Passenger Material Elevator Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:construction-lift-passenger-material-elevator-operation-nc-ii:2c5170ef46",
       "processing_order": 83
@@ -4554,8 +4578,14 @@
         "CON713360"
       ],
       "indexed_path": "Construction Painting NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:construction-painting-nc-ii:2015-06-16",
       "processing_order": 84
@@ -4602,8 +4632,14 @@
         "CON712331"
       ],
       "indexed_path": "Construction Painting NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:construction-painting-nc-iii:8548fb54e8",
       "processing_order": 85
@@ -4648,8 +4684,14 @@
         "ELC724328"
       ],
       "indexed_path": "Consumer Electronics Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:consumer-electronics-servicing-nc-iii:4c7af42039",
       "processing_order": 86
@@ -4693,8 +4735,14 @@
         "ELC724330"
       ],
       "indexed_path": "Consumer Electronics Servicing NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:consumer-electronics-servicing-nc-iv:fa3cea6ec3",
       "processing_order": 87
@@ -4733,8 +4781,14 @@
         "ICT313367"
       ],
       "indexed_path": "Contact Center Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 9,
+        "selector_count": 25,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:contact-center-services-nc-ii:9206633efe",
       "processing_order": 88
@@ -4786,8 +4840,14 @@
         "HHC532339"
       ],
       "indexed_path": "Contact Tracing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:contact-tracing-nc-ii:64214fbe17",
       "processing_order": 89

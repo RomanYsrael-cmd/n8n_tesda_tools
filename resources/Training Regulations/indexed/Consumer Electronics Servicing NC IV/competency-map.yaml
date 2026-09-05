@@ -1,0 +1,76 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:consumer-electronics-servicing-nc-iv:fa3cea6ec3",
+  "qualification": "Consumer Electronics Servicing NC IV",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311115",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC724202",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC724330",
+        "title": "DESCRIPTOR :"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "ELC724201",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC311201",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "ELC724329",
+        "title": "DESCRIPTOR :"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311116",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311117",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311118",
+        "title": "analyze, interpret and organize workplace information and"
+      },
+      {
+        "unit_code": "500311119",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311120",
+        "title": "required in adhering to environmental protection principles,"
+      },
+      {
+        "unit_code": "ELC311202",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC315202",
+        "title": ":"
+      },
+      {
+        "unit_code": "ELC311203",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n\n65",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}
