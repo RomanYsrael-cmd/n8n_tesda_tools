@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 269,
+    "complete": 279,
     "blocked": 1,
-    "pending": 114
+    "pending": 104
   },
   "records": [
     {
@@ -14442,8 +14442,14 @@
         "CON724328"
       ],
       "indexed_path": "PV Systems Installation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pv-systems-installation-nc-ii:10ca0a6ded",
       "processing_order": 271
@@ -14487,8 +14493,14 @@
         "CON724331"
       ],
       "indexed_path": "PV Systems Servicing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pv-systems-servicing-nc-iii:6566dcc3a0",
       "processing_order": 272
@@ -14533,8 +14545,14 @@
         "PYR311306"
       ],
       "indexed_path": "Pyrotechnics NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pyrotechnics-nc-ii:356b96d79e",
       "processing_order": 273
@@ -14584,8 +14602,14 @@
         "HVC723339"
       ],
       "indexed_path": "RAC Servicing (DomRAC) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rac-servicing-domrac-nc-ii:2021-06-08",
       "processing_order": 274
@@ -14631,8 +14655,14 @@
         "MTM834316"
       ],
       "indexed_path": "Rating Forming Part of a Navigational Watch NC II (II-4)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rating-forming-part-of-a-navigational-watch-nc-ii-ii-4:89e661630a",
       "processing_order": 275
@@ -14677,8 +14707,14 @@
         "MTM816313"
       ],
       "indexed_path": "Rating Forming Part of an Engineering Watch NC II (III-4)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rating-forming-part-of-an-engineering-watch-nc-ii-iii-4:a77d1e98b3",
       "processing_order": 276
@@ -14728,8 +14764,14 @@
         "SOC333304"
       ],
       "indexed_path": "Real Estate Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:real-estate-services-nc-ii:6aeeaaf6a6",
       "processing_order": 277
@@ -14770,8 +14812,14 @@
         "CON713338"
       ],
       "indexed_path": "Reinforcing Steel Works NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:reinforcing-steel-works-nc-ii:2013-12",
       "processing_order": 278
@@ -14814,8 +14862,14 @@
         "AGR611366"
       ],
       "indexed_path": "Rice Machinery Operations NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rice-machinery-operations-nc-ii:ea789b3f7b",
       "processing_order": 279
@@ -14855,8 +14909,14 @@
         "CON721303"
       ],
       "indexed_path": "Rigging NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rigging-nc-i:566e86cea6",
       "processing_order": 280

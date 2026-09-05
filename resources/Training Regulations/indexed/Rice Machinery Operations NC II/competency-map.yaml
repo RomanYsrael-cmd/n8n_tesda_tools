@@ -1,0 +1,70 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:rice-machinery-operations-nc-ii:ea789b3f7b",
+  "qualification": "RICE MACHINERY OPERATIONS NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": "required to gather, interpret and convey information in"
+      },
+      {
+        "unit_code": "500311106",
+        "title": "This unit covers the skills, knowledge and attitudes to"
+      },
+      {
+        "unit_code": "AGR321202",
+        "title": "required to use farm tools and equipment. It includes"
+      },
+      {
+        "unit_code": "AGR321203",
+        "title": "required to perform basic workplace calculations."
+      },
+      {
+        "unit_code": "AGR611361",
+        "title": "required to operate rice land preparation machinery and"
+      },
+      {
+        "unit_code": "AGR611365",
+        "title": "required in operating rice drying machinery and"
+      },
+      {
+        "unit_code": "AGR611366",
+        "title": "required to operate rice milling machinery and"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "AGR321201",
+        "title": "required to perform safety measures effectively and"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": "promoting career growth and advancement."
+      },
+      {
+        "unit_code": "500311108",
+        "title": "This unit covers the outcomes required to comply with"
+      },
+      {
+        "unit_code": "AGR611362",
+        "title": "required to operate rice crop establishment machinery"
+      },
+      {
+        "unit_code": "AGR611363",
+        "title": "required to operate rice crop care machinery and"
+      },
+      {
+        "unit_code": "AGR611364",
+        "title": "required to operate rice harvesting and threshing"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n\n59",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

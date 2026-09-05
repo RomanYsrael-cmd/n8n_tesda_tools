@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:pv-systems-servicing-nc-iii:6566dcc3a0",
+  "qualification": "PV SYSTEMS SERVICING NC III",
+  "official_source": {
+    "source_file": "PV Systems Servicing NC III.pdf",
+    "sha256": "6566dcc3a077cff5539d8eae03deba8e932d18884a48e28b9d763848d677d32a",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "PV Systems Servicing NC III.pdf",
+    "pdf_pages": 63,
+    "printed_pages": null
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:rating-forming-part-of-a-navigational-watch-nc-ii-ii-4:89e661630a",
+  "qualification": "Rating Forming Part of a Navigational Watch NC II (II-4)",
+  "official_source": {
+    "source_file": "Rating Forming Part of a Navigational Watch NC II (II-4).pdf",
+    "sha256": "89e661630a36c3d93dee72b6f67c69f7185b98a0f313b7a94f7bd72787b4cbb4",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Rating Forming Part of a Navigational Watch NC II (II-4).pdf",
+    "pdf_pages": 72,
+    "printed_pages": null
+  }
+}
