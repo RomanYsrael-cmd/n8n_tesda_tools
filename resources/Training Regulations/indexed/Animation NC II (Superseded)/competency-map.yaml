@@ -1,0 +1,46 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:animation-nc-ii:2007-07-20",
+  "qualification": "ANIMATION NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": "to gather, interpret and convey information in response to"
+      },
+      {
+        "unit_code": "500311106",
+        "title": "This unit covers the skills, knowledge and attitudes to identify"
+      },
+      {
+        "unit_code": "ICT311203",
+        "title": "ICT 311203"
+      },
+      {
+        "unit_code": "ICT313313",
+        "title": "ICT 313313"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "506315202",
+        "title": "This unit covers the knowledge, skills, attitudes and values"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": "promoting career growth and advancement."
+      },
+      {
+        "unit_code": "500311108",
+        "title": "This unit covers the knowledge, skills and attitudes"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n\n32\n\nGLOSSARY OF TERMS\n\n33 - 35",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

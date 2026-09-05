@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 319,
+    "complete": 329,
     "blocked": 1,
-    "pending": 64
+    "pending": 54
   },
   "records": [
     {
@@ -16999,8 +16999,14 @@
         "LOG333315"
       ],
       "indexed_path": "Warehousing Services NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:warehousing-services-nc-iv:47c3d34d51",
       "processing_order": 321
@@ -17045,8 +17051,14 @@
         "ICT251304"
       ],
       "indexed_path": "Web Development NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:web-development-nc-iii:2018-02-27",
       "processing_order": 322
@@ -17089,8 +17101,14 @@
         "AGR642332"
       ],
       "indexed_path": "Fishing Gear Repair and Maintenance NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:fishing-gear-repair-and-maintenance-nc-iii:059f5e79f5",
       "processing_order": 323
@@ -17132,8 +17150,14 @@
         "ICT313323"
       ],
       "indexed_path": "2D Animation NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:2d-animation-nc-iii:2007-07-27",
       "processing_order": 324
@@ -17174,8 +17198,14 @@
         "ICT313323"
       ],
       "indexed_path": "3D Animation NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:3d-animation-nc-iii:2007-07-27",
       "processing_order": 325
@@ -17212,8 +17242,14 @@
         "ICT313313"
       ],
       "indexed_path": "Animation NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 7,
+        "selector_count": 21,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:animation-nc-ii:2007-07-20",
       "processing_order": 326
@@ -17251,8 +17287,14 @@
         "AGR641304"
       ],
       "indexed_path": "Aquaculture NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 8,
+        "selector_count": 23,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:aquaculture-nc-ii:2004-12",
       "processing_order": 327
@@ -17305,8 +17347,14 @@
         "ALT723357"
       ],
       "indexed_path": "Automotive Servicing NC I (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 23,
+        "selector_count": 53,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-servicing-nc-i:2013-12",
       "processing_order": 328
@@ -17365,8 +17413,14 @@
         "ALT723313"
       ],
       "indexed_path": "Automotive Servicing NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 29,
+        "selector_count": 65,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-servicing-nc-ii:2013-12",
       "processing_order": 329
@@ -17428,8 +17482,14 @@
         "ALT723352"
       ],
       "indexed_path": "Automotive Servicing NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 32,
+        "selector_count": 71,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:automotive-servicing-nc-iii:2013-12",
       "processing_order": 330
