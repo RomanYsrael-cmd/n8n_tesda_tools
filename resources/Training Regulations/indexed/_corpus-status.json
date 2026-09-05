@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 169,
-    "pending": 214,
+    "complete": 179,
+    "pending": 204,
     "blocked": 1
   },
   "records": [
@@ -9213,8 +9213,14 @@
         "ELC313318"
       ],
       "indexed_path": "Hard Disk Drive (HDD) Front-of-line (FOL) Operations NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:hard-disk-drive-hdd-front-of-line-fol-operations-nc-ii:7d30aecb30",
       "processing_order": 170
@@ -9258,8 +9264,14 @@
         "HCS323319"
       ],
       "indexed_path": "Health Care Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:health-care-services-nc-ii:1381268670",
       "processing_order": 171
@@ -9299,8 +9311,14 @@
         "ALT812319"
       ],
       "indexed_path": "Heat Treatment NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heat-treatment-nc-ii:f19f0a6e3e",
       "processing_order": 172
@@ -9342,8 +9360,14 @@
         "CON833320"
       ],
       "indexed_path": "Heavy Equipment Operation (Articulated Off-Highway Dump Truck) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-articulated-off-highway-dump-truck-nc-ii:8bbd8a339b",
       "processing_order": 173
@@ -9385,8 +9409,14 @@
         "CON833303"
       ],
       "indexed_path": "Heavy Equipment Operation (Backhoe Loader) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-backhoe-loader-nc-ii:b70e98127f",
       "processing_order": 174
@@ -9428,8 +9458,14 @@
         "CON833305"
       ],
       "indexed_path": "Heavy Equipment Operation (Bulldozer) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-bulldozer-nc-ii:2007-07",
       "processing_order": 175
@@ -9471,8 +9507,14 @@
         "CON833324"
       ],
       "indexed_path": "Heavy Equipment Operation (Concrete Pump) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-concrete-pump-nc-ii:e5bf5fb124",
       "processing_order": 176
@@ -9514,8 +9556,14 @@
         "CON833331"
       ],
       "indexed_path": "Heavy Equipment Operation (Container Stacker) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-container-stacker-nc-ii:86c521f5c4",
       "processing_order": 177
@@ -9562,8 +9610,14 @@
         "CON834309"
       ],
       "indexed_path": "Heavy Equipment Operation (Crawler Crane) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-crawler-crane-nc-iii:2a26ce30ad",
       "processing_order": 178
@@ -9610,8 +9664,14 @@
         "CON834218"
       ],
       "indexed_path": "Heavy Equipment Operation (Forklift) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-forklift-nc-ii:17fb6d218d",
       "processing_order": 179

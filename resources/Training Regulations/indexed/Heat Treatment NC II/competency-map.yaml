@@ -1,0 +1,60 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:heat-treatment-nc-ii:f19f0a6e3e",
+  "qualification": "HEAT TREATMENT NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": "gather, interpret and convey information in response to"
+      },
+      {
+        "unit_code": "500311106",
+        "title": "This unit covers the skills, knowledge and attitudes to identify"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "ALT742201",
+        "title": "from engineering blue prints or drawings that provides the"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "ALT812318",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": "career growth and advancement."
+      },
+      {
+        "unit_code": "500311108",
+        "title": "This unit covers the outcomes required to comply with"
+      },
+      {
+        "unit_code": "ALT311202",
+        "title": "This unit includes identifying, caring for, handling, using and"
+      },
+      {
+        "unit_code": "ALT723203",
+        "title": "specification manuals, maintenance procedure manuals and periodic"
+      },
+      {
+        "unit_code": "ALT723205",
+        "title": ":"
+      },
+      {
+        "unit_code": "ALT812319",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\nAUTOMOTIVE PARTS MANUFACTURING\nMachine parts\nPerform precision\nassembly\nSelect Heat\nTreatment Process\nPerform Heat\nTreatment Process\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________________________________________\nTR - HEAT TREATMENT NC II Promulgated\n\n43",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}
