@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:heavy-equipment-operation-motor-grader-nc-ii:2007-07",
+  "qualification": "Heavy Equipment Operation (Motor Grader) NC II",
+  "official_source": {
+    "source_file": "Heavy Equipment Operation (Motor Grader) NC II.pdf",
+    "sha256": "2f2636885c9b5e18da14daf4e797a70fa0b0bf732cad9b2c36b31b5cbf37b19d",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Heavy Equipment Operation (Motor Grader) NC II.pdf",
+    "pdf_pages": 83,
+    "printed_pages": null
+  }
+}

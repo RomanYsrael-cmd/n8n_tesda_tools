@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 179,
-    "pending": 204,
+    "complete": 189,
+    "pending": 194,
     "blocked": 1
   },
   "records": [
@@ -9718,8 +9718,14 @@
         "CON834221"
       ],
       "indexed_path": "Heavy Equipment Operation (Hydraulic Excavator) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-hydraulic-excavator-nc-ii:33e37f22b4",
       "processing_order": 180
@@ -9761,8 +9767,14 @@
         "CON833306"
       ],
       "indexed_path": "Heavy Equipment Operation (Motor Grader) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-motor-grader-nc-ii:2007-07",
       "processing_order": 181
@@ -9809,8 +9821,14 @@
         "CON834315"
       ],
       "indexed_path": "Heavy Equipment Operation (Overhead and Gantry Crane) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-overhead-and-gantry-crane-nc-iii:7208f5928c",
       "processing_order": 182
@@ -9852,8 +9870,14 @@
         "CON833325"
       ],
       "indexed_path": "Heavy Equipment Operation (Paver) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-paver-nc-ii:ad75397546",
       "processing_order": 183
@@ -9895,8 +9919,14 @@
         "CON833318"
       ],
       "indexed_path": "Heavy Equipment Operation (Rigid Off-Highway Dump Truck) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-rigid-off-highway-dump-truck-nc-ii:648a23694a",
       "processing_order": 184
@@ -9943,8 +9973,14 @@
         "CON834224"
       ],
       "indexed_path": "Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-rigid-on-highway-dump-truck-nc-ii:319096d620",
       "processing_order": 185
@@ -9986,8 +10022,14 @@
         "CON5833308"
       ],
       "indexed_path": "Heavy Equipment Operation (Road Roller) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-road-roller-nc-ii:6183cacbc4",
       "processing_order": 186
@@ -10034,8 +10076,14 @@
         "CON834306"
       ],
       "indexed_path": "Heavy Equipment Operation (Rough Terrain Crane) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-rough-terrain-crane-nc-iii:0dae212824",
       "processing_order": 187
@@ -10074,8 +10122,14 @@
         "CON833327"
       ],
       "indexed_path": "Heavy Equipment Operation (Screed) NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 9,
+        "selector_count": 25,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-screed-nc-i:0dc6b42caf",
       "processing_order": 188
@@ -10122,8 +10176,14 @@
         "CON834312"
       ],
       "indexed_path": "Heavy Equipment Operation (Tower Crane) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:heavy-equipment-operation-tower-crane-nc-iii:45670458f4",
       "processing_order": 189

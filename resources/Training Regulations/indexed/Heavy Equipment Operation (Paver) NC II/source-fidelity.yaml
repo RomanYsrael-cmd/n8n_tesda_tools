@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:heavy-equipment-operation-paver-nc-ii:ad75397546",
+  "qualification": "HEAVY EQUIPMENT OPERATION (PAVER) NC II",
+  "official_source": {
+    "source_file": "Heavy Equipment Operation (Paver) NC II.pdf",
+    "sha256": "ad753975461f2b7b8daedb4b4f8aeb2f10e184e55e339b03b4213ac38e16c22c",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Heavy Equipment Operation (Paver) NC II.pdf",
+    "pdf_pages": 83,
+    "printed_pages": null
+  }
+}
