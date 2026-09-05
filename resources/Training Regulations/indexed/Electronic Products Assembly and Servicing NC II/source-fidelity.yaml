@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:electronic-products-assembly-and-servicing-nc-ii:03c8d7942e",
+  "qualification": "Electronic Products Assembly and Servicing NC II",
+  "official_source": {
+    "source_file": "Electronic Products Assembly and Servicing NC II.pdf",
+    "sha256": "03c8d7942ec487aca457ab36747894a5f90e69b4bf85e8012e940bdfbaaf289b",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Electronic Products Assembly and Servicing NC II.pdf",
+    "pdf_pages": 74,
+    "printed_pages": null
+  }
+}

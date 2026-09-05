@@ -1,0 +1,120 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:electrical-installation-and-maintenance-nc-iv:1a6552cef6",
+  "qualification": "Electrical Installation and Maintenance NC IV",
+  "content_status": "absent_or_unreadable",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311115",
+        "title": ": This unit of Basic Worker Competency"
+      },
+      {
+        "unit_code": "CON311203",
+        "title": "Industry"
+      },
+      {
+        "unit_code": "TS169499",
+        "title": "9.3 TS 16949"
+      },
+      {
+        "unit_code": "ISO140009",
+        "title": "9.4 ISO 14000"
+      },
+      {
+        "unit_code": "ISO1400110",
+        "title": "9.5 ISO14001"
+      },
+      {
+        "unit_code": "CON724324",
+        "title": "the knowledge, skill and attitudes necessary to"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "CON724201",
+        "title": "This unit of Common Construction"
+      },
+      {
+        "unit_code": "CON724309",
+        "title": "This unit of Core Electrical Competencies"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "CON724308",
+        "title": "This"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311116",
+        "title": ": This unit of Basic Worker Competency covers"
+      },
+      {
+        "unit_code": "500311117",
+        "title": ": This Unit of Basic Worker Competency"
+      },
+      {
+        "unit_code": "500311118",
+        "title": ": This unit of Basic Worker Competency covers"
+      },
+      {
+        "unit_code": "500311119",
+        "title": ": This unit of Basic Worker Competency"
+      },
+      {
+        "unit_code": "500311120",
+        "title": "the knowledge, skills and attitudes required in"
+      },
+      {
+        "unit_code": "CON311201",
+        "title": "This unit of Common Construction"
+      },
+      {
+        "unit_code": "CON311202",
+        "title": "Industry"
+      },
+      {
+        "unit_code": "CON311204",
+        "title": "Industry"
+      },
+      {
+        "unit_code": "CON724310",
+        "title": "unit"
+      },
+      {
+        "unit_code": "CON724311",
+        "title": "This"
+      },
+      {
+        "unit_code": "CON724312",
+        "title": "This"
+      },
+      {
+        "unit_code": "CON724319",
+        "title": "This unit of Core Electrical Competency"
+      },
+      {
+        "unit_code": "504724320",
+        "title": "This unit of Core Electrical Competency"
+      },
+      {
+        "unit_code": "502724321",
+        "title": "This unit of Core Electrical Competency"
+      },
+      {
+        "unit_code": "CON724322",
+        "title": "covers the knowledge, skill and attitudes in"
+      },
+      {
+        "unit_code": "CON724323",
+        "title": "This module of Core Electrical"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": null,
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 109,
-    "pending": 274,
+    "complete": 119,
+    "pending": 264,
     "blocked": 1
   },
   "records": [
@@ -5977,8 +5977,14 @@
         "SOC234303"
       ],
       "indexed_path": "Early Childhood Care and Development Services NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:early-childhood-care-and-development-services-nc-iii:36cf3f3386",
       "processing_order": 110
@@ -6030,8 +6036,14 @@
         "MEE821316"
       ],
       "indexed_path": "Electric Discharge Machine (EDM) Sinking Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electric-discharge-machine-edm-sinking-operation-nc-ii:4633ba4c9b",
       "processing_order": 111
@@ -6076,8 +6088,14 @@
         "UTL741315"
       ],
       "indexed_path": "Electric Power Distribution Line Construction NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electric-power-distribution-line-construction-nc-ii:8215375aa0",
       "processing_order": 112
@@ -6124,8 +6142,14 @@
         "UTL741319"
       ],
       "indexed_path": "Electric Power Distribution Operation and Maintenance NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electric-power-distribution-operation-and-maintenance-nc-iii:2018-06-27",
       "processing_order": 113
@@ -6172,8 +6196,14 @@
         "UTL741322"
       ],
       "indexed_path": "Electric Power Distribution Operation and Maintenance NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electric-power-distribution-operation-and-maintenance-nc-iv:2018-06-27",
       "processing_order": 114
@@ -6215,8 +6245,14 @@
         "ELC741303"
       ],
       "indexed_path": "Electrical Installation and Maintenance NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electrical-installation-and-maintenance-nc-ii:934257799b",
       "processing_order": 115
@@ -6265,8 +6301,14 @@
         "ISO1400015"
       ],
       "indexed_path": "Electrical Installation and Maintenance NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 19,
+        "selector_count": 45,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electrical-installation-and-maintenance-nc-iii:2015-12-16",
       "processing_order": 116
@@ -6321,8 +6363,14 @@
         "CON724324"
       ],
       "indexed_path": "Electrical Installation and Maintenance NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 25,
+        "selector_count": 57,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electrical-installation-and-maintenance-nc-iv:1a6552cef6",
       "processing_order": 117
@@ -6365,8 +6413,14 @@
         "ELC724337"
       ],
       "indexed_path": "Electronic Products Assembly and Servicing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electronic-products-assembly-and-servicing-nc-ii:03c8d7942e",
       "processing_order": 118
@@ -6406,8 +6460,14 @@
         "ELC313303"
       ],
       "indexed_path": "Electronics Back-end Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:electronics-back-end-operation-nc-ii:7ce7a8617a",
       "processing_order": 119
