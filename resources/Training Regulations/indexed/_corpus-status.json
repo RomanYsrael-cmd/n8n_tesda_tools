@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 329,
+    "complete": 339,
     "blocked": 1,
-    "pending": 54
+    "pending": 44
   },
   "records": [
     {
@@ -17535,8 +17535,14 @@
         "HCS346309"
       ],
       "indexed_path": "Barangay Health Services NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:barangay-health-services-nc-ii:80b502e181",
       "processing_order": 331
@@ -17583,8 +17589,14 @@
         "HCS515406"
       ],
       "indexed_path": "Barbering NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:barbering-nc-ii:2010-11",
       "processing_order": 332
@@ -17630,8 +17642,14 @@
         "HCS515314"
       ],
       "indexed_path": "Beauty Care NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beauty-care-nc-ii:2005-08",
       "processing_order": 333
@@ -17674,8 +17692,14 @@
         "HCS515310"
       ],
       "indexed_path": "Beauty Care NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beauty-care-nc-iii:2005-08",
       "processing_order": 334
@@ -17716,8 +17740,14 @@
         "HCS515330"
       ],
       "indexed_path": "Beauty Care Services (Nail Care) NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beauty-care-services-nail-care-nc-ii:92542143f4",
       "processing_order": 335
@@ -17759,8 +17789,14 @@
         "HCS515332"
       ],
       "indexed_path": "Beauty Care Services (Nail Care) NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:beauty-care-services-nail-care-nc-iii:2166e8b32a",
       "processing_order": 336
@@ -17803,8 +17839,14 @@
         "HCS311305"
       ],
       "indexed_path": "Biomedical Equipment Servicing NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:biomedical-equipment-servicing-nc-ii:14c272c1ff",
       "processing_order": 337
@@ -17848,8 +17890,14 @@
         "TRS741343"
       ],
       "indexed_path": "Bread and Pastry Production NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:bread-and-pastry-production-nc-ii:2009-07",
       "processing_order": 338
@@ -17892,8 +17940,14 @@
         "CON712321"
       ],
       "indexed_path": "Carpentry NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:carpentry-nc-ii:e6642993e1",
       "processing_order": 339
@@ -17938,8 +17992,14 @@
         "CON712325"
       ],
       "indexed_path": "Carpentry NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:carpentry-nc-iii:b526855ea6",
       "processing_order": 340

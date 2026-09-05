@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:carpentry-nc-ii:e6642993e1",
+  "qualification": "CARPENTRY NC II",
+  "official_source": {
+    "source_file": "Superseded/Carpentry NC II (Superseded).pdf",
+    "sha256": "e6642993e199d89d6424d1a62c1447061d2f1f67f07f8a06f25bd4bf42458bd0",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Superseded/Carpentry NC II (Superseded).pdf",
+    "pdf_pages": 75,
+    "printed_pages": null
+  }
+}

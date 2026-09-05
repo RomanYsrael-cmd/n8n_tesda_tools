@@ -1,0 +1,88 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:barbering-nc-ii:2010-11",
+  "qualification": "BARBERING NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311106",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515304",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515327",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515303",
+        "title": "This unit covers the knowledge, skills and attitude in"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "HCS516201",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "HCS515301",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311108",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS516202",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515204",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515205",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515302",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515328",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515329",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515405",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS515406",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n65",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}
