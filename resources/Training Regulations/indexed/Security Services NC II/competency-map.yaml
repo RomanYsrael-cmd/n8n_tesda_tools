@@ -1,0 +1,64 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:security-services-nc-ii:94d268740f",
+  "qualification": "Security Services NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311106",
+        "title": ":"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "HCS516201",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "HCS516307",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311107",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311108",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS516202",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS516308",
+        "title": ": This unit covers the knowledge, skills and attitudes in enforcing"
+      },
+      {
+        "unit_code": "HCS516309",
+        "title": "UNIT DESCRIPTION"
+      },
+      {
+        "unit_code": "HCS516310",
+        "title": ":"
+      },
+      {
+        "unit_code": "HCS516311",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP\n50",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

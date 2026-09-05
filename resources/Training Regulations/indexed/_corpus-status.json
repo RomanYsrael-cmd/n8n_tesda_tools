@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 279,
+    "complete": 289,
     "blocked": 1,
-    "pending": 104
+    "pending": 94
   },
   "records": [
     {
@@ -14956,8 +14956,14 @@
         "AGR612207"
       ],
       "indexed_path": "Rubber Processing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rubber-processing-nc-ii:2ff7dcac16",
       "processing_order": 281
@@ -15004,8 +15010,14 @@
         "AFF611318"
       ],
       "indexed_path": "Rubber Production NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:rubber-production-nc-ii:7fcae6ec69",
       "processing_order": 282
@@ -15044,8 +15056,14 @@
         "UTL541302"
       ],
       "indexed_path": "Sanitary Landfill Operations NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 9,
+        "selector_count": 25,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:sanitary-landfill-operations-nc-ii:7394322e90",
       "processing_order": 283
@@ -15086,8 +15104,14 @@
         "UTL325302"
       ],
       "indexed_path": "Sanitary Landfill Operations NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:sanitary-landfill-operations-nc-iii:2015-06-16",
       "processing_order": 284
@@ -15133,8 +15157,14 @@
         "CON711324"
       ],
       "indexed_path": "Scaffolding Works NC II (Supported Type Scaffold)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:scaffolding-works-nc-ii-supported-type-scaffold:9cc7d3bcec",
       "processing_order": 285
@@ -15175,8 +15205,14 @@
         "AFF622308"
       ],
       "indexed_path": "Seaweed Production NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:seaweed-production-nc-ii:2015-12-16",
       "processing_order": 286
@@ -15217,8 +15253,14 @@
         "HCS516305"
       ],
       "indexed_path": "Security Services NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:security-services-nc-i:2005-05-31",
       "processing_order": 287
@@ -15259,8 +15301,14 @@
         "HCS516311"
       ],
       "indexed_path": "Security Services NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:security-services-nc-ii:94d268740f",
       "processing_order": 288
@@ -15300,8 +15348,14 @@
         "ELC313309"
       ],
       "indexed_path": "Semiconductor Back-End Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:semiconductor-back-end-operation-nc-ii:862590a88a",
       "processing_order": 289
@@ -15341,8 +15395,14 @@
         "ELC313312"
       ],
       "indexed_path": "Semiconductor Front-of-Line Operation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:semiconductor-front-of-line-operation-nc-ii:70ac05246e",
       "processing_order": 290

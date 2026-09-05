@@ -1,0 +1,56 @@
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:sanitary-landfill-operations-nc-ii:7394322e90",
+  "qualification": "SANITARY LANDFILL OPERATIONS NC II",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311105",
+        "title": ":"
+      }
+    ],
+    "common": [
+      {
+        "unit_code": "TRS311201",
+        "title": ":"
+      }
+    ],
+    "core": [
+      {
+        "unit_code": "UTL541301",
+        "title": ":"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311106",
+        "title": ":"
+      },
+      {
+        "unit_code": "500311107",
+        "title": ": This unit covers the knowledge, skills and attitudes in"
+      },
+      {
+        "unit_code": "500311108",
+        "title": ": This unit covers the outcomes required to comply with"
+      },
+      {
+        "unit_code": "TRS311204",
+        "title": ": This unit of competency deals with the knowledge, skills and"
+      },
+      {
+        "unit_code": "UTL532201",
+        "title": ": This unit of competency deals with the knowledge, skills and"
+      },
+      {
+        "unit_code": "UTL541302",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP 67",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:rubber-production-nc-ii:7fcae6ec69",
+  "qualification": "RUBBER PRODUCTION NC II",
+  "official_source": {
+    "source_file": "Rubber Production NC II.pdf",
+    "sha256": "7fcae6ec6972d6399086e412d6ea65a6691bf020e757447711a20bd64086bb9d",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Rubber Production NC II.pdf",
+    "pdf_pages": 140,
+    "printed_pages": null
+  }
+}
