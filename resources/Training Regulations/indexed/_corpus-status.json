@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 139,
-    "pending": 244,
+    "complete": 149,
+    "pending": 234,
     "blocked": 1
   },
   "records": [
@@ -7628,8 +7628,14 @@
         "AGR741329"
       ],
       "indexed_path": "Food Processing NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-processing-nc-iv:cd1976e1df",
       "processing_order": 140
@@ -7685,8 +7691,14 @@
         "TRS751309"
       ],
       "indexed_path": "Food Production (Bread and Patisserie) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 26,
+        "selector_count": 59,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-production-bread-and-patisserie-nc-ii:fd7d13c0c1",
       "processing_order": 141
@@ -7742,8 +7754,14 @@
         "TRS512310"
       ],
       "indexed_path": "Food Production (Professional Cookery) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 26,
+        "selector_count": 59,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-production-professional-cookery-nc-iii:f546571e3b",
       "processing_order": 142
@@ -7799,8 +7817,14 @@
         "TRS512320"
       ],
       "indexed_path": "Food Production (Professional Cookery) NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 26,
+        "selector_count": 59,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:food-production-professional-cookery-nc-iv:0c7eed6c27",
       "processing_order": 143
@@ -7841,8 +7865,14 @@
         "ALT722303"
       ],
       "indexed_path": "Forging NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:forging-nc-ii:13b567d64c",
       "processing_order": 144
@@ -7885,8 +7915,14 @@
         "ALT722306"
       ],
       "indexed_path": "Forging NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:forging-nc-iii:d823ee691d",
       "processing_order": 145
@@ -7930,8 +7966,14 @@
         "ALT821303"
       ],
       "indexed_path": "Foundry Melting Casting NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:foundry-melting-casting-nc-ii:2fc3834941",
       "processing_order": 146
@@ -7974,8 +8016,14 @@
         "ALT812317"
       ],
       "indexed_path": "Foundry Melting Casting NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:foundry-melting-casting-nc-iii:3474746b0b",
       "processing_order": 147
@@ -8020,8 +8068,14 @@
         "ALT821303"
       ],
       "indexed_path": "Foundry Molding NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:foundry-molding-nc-ii:d8a8ab48f1",
       "processing_order": 148
@@ -8064,8 +8118,14 @@
         "ALT812314"
       ],
       "indexed_path": "Foundry Molding NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:foundry-molding-nc-iii:9943d3de2c",
       "processing_order": 149

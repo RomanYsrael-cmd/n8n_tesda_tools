@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:foundry-melting-casting-nc-ii:2fc3834941",
+  "qualification": "FOUNDRY MELTING/CASTING NC II",
+  "official_source": {
+    "source_file": "Foundry Melting Casting NC II.pdf",
+    "sha256": "2fc3834941d9c57f4545e3f4a9d07159ab9a6b85b800ffacf9547c3f8fd8517a",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Foundry Melting Casting NC II.pdf",
+    "pdf_pages": 66,
+    "printed_pages": null
+  }
+}
