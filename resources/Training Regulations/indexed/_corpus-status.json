@@ -6,9 +6,9 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 259,
+    "complete": 269,
     "blocked": 1,
-    "pending": 124
+    "pending": 114
   },
   "records": [
     {
@@ -13934,8 +13934,14 @@
         "AFF712259"
       ],
       "indexed_path": "Pressurized Irrigation System Installation and Maintenance NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pressurized-irrigation-system-installation-and-maintenance-nc-ii:ac661454a1",
       "processing_order": 261
@@ -13983,8 +13989,14 @@
         "SOC732305"
       ],
       "indexed_path": "Printing Services (Prepress Technical Operations) NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:printing-services-prepress-technical-operations-nc-i:3f377ba42e",
       "processing_order": 262
@@ -14032,8 +14044,14 @@
         "SOC532310"
       ],
       "indexed_path": "Printing Services (Prepress Technical Operations) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:printing-services-prepress-technical-operations-nc-ii:06d6858c5a",
       "processing_order": 263
@@ -14075,8 +14093,14 @@
         "ALT315304"
       ],
       "indexed_path": "Process Inspection NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:process-inspection-nc-ii:ebdc6bf11a",
       "processing_order": 264
@@ -14119,8 +14143,14 @@
         "ALT315310"
       ],
       "indexed_path": "Process Inspection NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:process-inspection-nc-iii:7624e9773d",
       "processing_order": 265
@@ -14160,8 +14190,14 @@
         "ICT313358"
       ],
       "indexed_path": "Programming (.Net Technology) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:programming-net-technology-nc-iii:24120134a1",
       "processing_order": 266
@@ -14201,8 +14237,14 @@
         "ICT313360"
       ],
       "indexed_path": "Programming (JAVA) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 10,
+        "selector_count": 27,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:programming-java-nc-iii:2021-06-08",
       "processing_order": 267
@@ -14243,8 +14285,14 @@
         "ICT313364"
       ],
       "indexed_path": "Programming (Oracle Database) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 11,
+        "selector_count": 29,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:programming-oracle-database-nc-iii:2013-12",
       "processing_order": 268
@@ -14292,8 +14340,14 @@
         "SOC341306"
       ],
       "indexed_path": "Public Employment Services NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:public-employment-services-nc-iv:aa3cc1e88c",
       "processing_order": 269
@@ -14338,8 +14392,14 @@
         "CON311304"
       ],
       "indexed_path": "PV System Design NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:pv-system-design-nc-iii:7719dc15e3",
       "processing_order": 270

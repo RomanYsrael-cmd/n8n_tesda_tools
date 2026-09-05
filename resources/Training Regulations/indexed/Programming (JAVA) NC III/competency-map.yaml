@@ -1,133 +1,56 @@
-schema: tesda-competency-map
-schema_version: '1.1'
-qualification_id: tesda:tr:programming-java-nc-iii:2021-06-08
-qualification: PROGRAMMING (JAVA) NC III
-coverage_status: complete_semantic
-source:
-  printed_page: 47
-  pdf_page: 49
-qualification_units:
-- group: basic
-  unit_code: '500311109'
-  title: Lead workplace communication
-- group: basic
-  unit_code: '500311110'
-  title: Lead small teams
-- group: basic
-  unit_code: '500311111'
-  title: Develop and practice negotiation skills
-- group: basic
-  unit_code: '500311112'
-  title: Solve problems related to work activities
-- group: basic
-  unit_code: '500311113'
-  title: Use mathematical concepts and techniques
-- group: basic
-  unit_code: '500311114'
-  title: Use relevant technologies
-- group: common
-  unit_code: '506315202'
-  title: Apply quality standards
-- group: common
-  unit_code: '506311203'
-  title: Perform computer operations
-- group: core
-  unit_code: ICT313359
-  title: Perform object-oriented analysis and design in Java technology
-- group: core
-  unit_code: ICT313360
-  title: Create and fine tune Java technology applications using object-oriented programming concept
-source_map_text: "COMPETENCY MAP – INFORMATION AND COMMUNICATIONS TECHNOLOGY (ICT) SECTOR\n BASIC COMPETENCIES\n         \
-  \                                                                                                                      \
-  \                                                                                              Practice occupational\n \
-  \     Receive and Respond to                                                                                  Participate\
-  \ in Workplace              Work in a Team                        Practice Career\n                                    \
-  \      Work with Others               Demonstrate Work Values                                                          \
-  \                                                                    Health and Safety\n      workplace communication  \
-  \                                                                                   Communication                      Environment\
-  \                          Professionalism\n                                                                           \
-  \                                                                                                                      \
-  \                                 Procedures\n        Practice Housekeeping             Lead Workplace                 \
-  \                                     Develop and Practice           Solve Problems Related              Use Mathematical\
-  \ Concepts                      Use Relevant\n                                                                         \
-  \    Lead Small Team\n           Procedures (5S)                Communication                                          \
-  \              Negotiation Skills               to Work Activities                    and Techniques                   \
-  \         Technologies\n          Utilize Specialized            Develop Team and                  Apply Problem Solving\
-  \               Collect, Analyze and                                                    Promote Environmental\n        \
-  \                                                                                                                      \
-  \                   Plan and Organize Work\n         Communication skills                Individual                 Techniques\
-  \ in the Workplace            Organize Information                                                         Protection\n\
-  \ COMMON COMPETENCIES\n          Perform Computer\n                                       Apply Quality Standards\n    \
-  \          Operation\n CORE COMPETENCIES\nCommunicate Effectively using the                                           Communicate\
-  \ Effectively in a          Utilize Enterprise/ Company             Conduct Contact Center           Provide Specialized\
-  \ Support           Manage the Activities of a\n                                    Deliver Quality Customer Service\n \
-  \      English Language                                                      Customer Contact Center                   \
-  \    Technology                          Campaign                    and Assistance to Customers          Contact Center\
-  \ Work Team\n Demonstrate Understanding and\n                                        Perform Basic Computer            \
-  \  Lead a Contact Center Work                                                  Use Medical Terminology to           Produce\
-  \ Text from Audio           Produce Cleaned-up and In-\nKnowledge of the American Culture                              \
-  \                                                    Use Business Technology\n                                    Operation\
-  \ and Internet Navigation                 Team                                                                   Carry Out\
-  \ Task                       Transcription                   betweened Drawings\n        and Geography\n               \
-  \                      Manage the Activities of a Work      Lead a Team in Delivering Quality       Produce Over-all Designs\
-  \ for                                                 Produce 2D Colored               Produce Key Drawings for\n     Review\
-  \ / Edit Documents                                                                                                     \
-  \                     Create 2D Models and Images\n                                                Team                \
-  \                 Service                              Animation                                                       \
-  \          Animation                            Animation\n                                      Composit and Edit Animation\
-  \                                                                                      Coordinate the Production of    \
-  \    Use email and search the web         Install Computer Systems\n   Produce Background Designs                      \
-  \                       Produce Storyboard for Animation       Create 3D Models and Images\n                           \
-  \                   Sequence                                                                                           \
-  \              Animation                         using browsers                        and Networks\n Configure Computer\
-  \ Systems and       Diagnose and Troubleshoot           Maintain Computer Systems and            Operate a word-processing\
-  \              Operate a spreadsheet               Operate a presentation\n                                            \
-  \                                                                                                                      \
-  \                                                             Install and maintain a server\n            Networks      \
-  \          Computer Systems and Networks                    Networks                             application           \
-  \               application                          package\n                                      Apply program development\
-  \            Apply object-oriented program          Apply programming skills in a        Install network hardware to a \
-  \      Install software to networked          Install and configure a\n      Design program logic\n                    \
-  \                           approach                           language skills                       second language   \
-  \                         network                           computers                            network\n             \
-  \                           Create a simple mark-up                                                                    \
-  \                        Determine and apply             Ensure website content meets\n   Determine and confirm client \
-  \                                              Design a website to meet            Transfer content to a website\n     \
-  \                                    language document to                                                              \
-  \                              appropriate development              technical protocols and                Build a database\n\
-  \ business expectations and needs                                               technical requirements             using\
-  \ commercial packages\n                                              specification                                     \
-  \                                                             methodologies                          standards\n Use structured\
-  \ query language to\n                                                                            Act on and complete change\
-  \             Determine and act on client                                             Provide first-level remote help  \
-  \    Design pages using a page\n   create database structures &     Develop detailed technical design                  \
-  \                                                               Provide one -to - one instruction\n                    \
-  \                                                                 requests                         computing problems  \
-  \                                                         desk support                     layout application\n        \
-  \ manipulate data\n                                     Create vector graphics using a        Create raster graphics using\
-  \ a                                             Develop designs for electronic        Develop designs for product      \
-  \        Design booth &\n     Develop design studies                                                                   \
-  \                   Develop designs for print media\n                                          graphics application    \
-  \             graphics application                                                              media                  \
-  \            packaging                    product/window display\n                                    Plan development of\
-  \ application                                                 Develop Windows forms                                    \
-  \                Develop service oriented           Develop applications using\n      Design program logic             \
-  \                                     Apply .Net programming skills                                                Develop\
-  \ web application\n                                               features                                             \
-  \                      application                                                              applications           \
-  \      COBOL or similar language\n                                                                                     \
-  \                                                                                                                      \
-  \                    Create and fine-tune Java\nDevelop command-line/ console and        Develop enterprise/web        \
-  \    Perform relational database               Use and apply PL/SQL                                                    Perform\
-  \ object-oriented\n                                                                                                    \
-  \                                                     Design and Tune PL/SQL                                           \
-  \     technology applications\n  desktop applications using Java        applications using Java          management in Oracle\
-  \ database              programming language                                                  analysis and design in Java\n\
-  \                                                                                                                      \
-  \                                          language                                                       using object-oriented\n\
-  \            technology                         technology                          technology                         \
-  \                                                                             technology\n                             \
-  \                                                                                                                      \
-  \                                                                            programming concept"
-note: The source is a sector-wide visual competency map. This file preserves the full extracted map text and explicit qualification
-  membership.
+{
+  "schema": "tesda-competency-map",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:programming-java-nc-iii:2021-06-08",
+  "qualification": "PROGRAMMING (JAVA) NC III",
+  "content_status": "complete",
+  "groups": {
+    "basic": [
+      {
+        "unit_code": "500311109",
+        "title": "required to lead in the dissemination and discussion of"
+      },
+      {
+        "unit_code": "500311114",
+        "title": "attitude required in selecting, sourcing and applying"
+      },
+      {
+        "unit_code": "506315202",
+        "title": ":"
+      },
+      {
+        "unit_code": "ICT313359",
+        "title": "various Java programming language constructs to create several"
+      },
+      {
+        "unit_code": "ICT313360",
+        "title": "UNIT DESCRIPTION : This unit covers the core Application Programming Interfaces"
+      }
+    ],
+    "other": [
+      {
+        "unit_code": "500311110",
+        "title": "small teams including setting and maintaining team and"
+      },
+      {
+        "unit_code": "500311111",
+        "title": "This unit covers the skills, knowledge and attitudes"
+      },
+      {
+        "unit_code": "500311112",
+        "title": ": This unit of covers the knowledge, skills and attitudes"
+      },
+      {
+        "unit_code": "500311113",
+        "title": "required in the application of mathematical concepts"
+      },
+      {
+        "unit_code": "506311203",
+        "title": ":"
+      }
+    ]
+  },
+  "relationships": [],
+  "source_text": "COMPETENCY MAP – INFORMATION AND COMMUNICATIONS TECHNOLOGY (ICT) SECTOR\n\nBASIC COMPETENCIES\n\nReceive and Respond to\nworkplace communication\nWork with Others\nDemonstrate Work Values\nParticipate in Workplace\nCommunication\nWork in a Team\nEnvironment\nPractice Career\nProfessionalism\nPractice occupational\nHealth and Safety\nProcedures\nPractice Housekeeping\nProcedures (5S)\nLead Workplace\nCommunication\nLead Small Team\nDevelop and Practice\nNegotiation Skills\nSolve Problems Related\nto Work Activities\nUse Mathematical Concepts\nand Techniques\nUse Relevant\nTechnologies\nUtilize Specialized\nCommunication skills\nDevelop Team and\nIndividual\nApply Problem Solving\nTechniques in the Workplace\nCollect, Analyze and\nOrganize Information\nPlan and Organize Work\nPromote Environmental\nProtection\n\nCOMMON COMPETENCIES\n\nPerform Computer\nOperation\nApply Quality Standards\n\nCORE COMPETENCIES\n\nCommunicate Effectively using the\nEnglish Language\nDeliver Quality Customer Service\nCommunicate Effectively in a\nCustomer Contact Center\nUtilize Enterprise/ Company\nTechnology\nConduct Contact Center\nCampaign\nProvide Specialized Support\nand Assistance to Customers\nManage the Activities of a\nContact Center Work Team\nDemonstrate Understanding and\nKnowledge of the American Culture\nand Geography\nPerform Basic Computer\nOperation and Internet Navigation\nLead a Contact Center Work\nTeam\nUse Business Technology\nUse Medical Terminology to\nCarry Out Task\nProduce Text from Audio\nTranscription\nProduce Cleaned-up and In-\nbetweened Drawings\nReview / Edit Documents\nManage the Activities of a Work\nTeam\nLead a Team in Delivering Quality\nService\nProduce Over-all Designs for\nAnimation\nCreate 2D Models and Images\nProduce 2D Colored\nAnimation\nProduce Key Drawings for\nAnimation\nProduce Background Designs\nComposit and Edit Animation\nSequence\nProduce Storyboard for Animation\nCreate 3D Models and Images\nCoordinate the Production of\nAnimation\nUse email and search the web\nusing browsers\nInstall Computer Systems\nand Networks\nConfigure Computer Systems and\nNetworks\nDiagnose and Troubleshoot\nComputer Systems and Networks\nMaintain Computer Systems and\nNetworks\nOperate a word-processing\napplication\nOperate a spreadsheet\napplication\nOperate a presentation\npackage\nInstall and maintain a server\nDesign program logic\nApply program development\napproach\nApply object-oriented program\nlanguage skills\nApply programming skills in a\nsecond language\nInstall network hardware to a\nnetwork\nInstall software to networked\ncomputers\nInstall and configure a\nnetwork\nDetermine and confirm client\nbusiness expectations and needs\nCreate a simple mark-up\nlanguage document to\nspecification\nDesign a website to meet\ntechnical requirements\nTransfer content to a website\nusing commercial packages\nDetermine and apply\nappropriate development\nmethodologies\nEnsure website content meets\ntechnical protocols and\nstandards\nBuild a database\nUse structured query language to\ncreate database structures &\nmanipulate data\nDevelop detailed technical design\nAct on and complete change\nrequests\nDetermine and act on client\ncomputing problems\nProvide one -to - one instruction\nProvide first-level remote help\ndesk support\nDesign pages using a page\nlayout application\nDevelop design studies\nCreate vector graphics using a\ngraphics application\nCreate raster graphics using a\ngraphics application\nDevelop designs for print media\nDevelop designs for electronic\nmedia\nDevelop designs for product\npackaging\nDesign booth &\nproduct/window display\nDesign program logic\nPlan development of application\nfeatures\nApply .Net programming skills\nDevelop Windows forms\napplication\nDevelop web application\nDevelop service oriented\napplications\nDevelop applications using\nCOBOL or similar language\nDevelop command-line/ console and\ndesktop applications using Java\ntechnology\nDevelop enterprise/web\napplications using Java\ntechnology\nPerform relational database\nmanagement in Oracle database\ntechnology\nUse and apply PL/SQL\nprogramming language\n\nDesign and Tune PL/SQL\nlanguage\nPerform object-oriented\nanalysis and design in Java\ntechnology\nCreate and fine-tune Java\ntechnology applications\nusing object-oriented\nprogramming concept\nProgramming (Java) NC III\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nProgramming (Java) NC III Promulgated : June 8, 2021\n48",
+  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+}

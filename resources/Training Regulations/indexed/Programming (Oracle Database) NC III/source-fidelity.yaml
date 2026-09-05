@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:programming-oracle-database-nc-iii:2013-12",
+  "qualification": "PROGRAMMING (ORACLE DATABASE) NC III",
+  "official_source": {
+    "source_file": "Programming (Oracle Database) NC III.pdf",
+    "sha256": "d793494be448a7fdc8b3acc7a6d538d75d58cdbd7e87d7ee6521c2b02be7d4cd",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Programming (Oracle Database) NC III.pdf",
+    "pdf_pages": 58,
+    "printed_pages": null
+  }
+}
