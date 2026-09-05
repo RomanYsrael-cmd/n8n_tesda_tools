@@ -6,9 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 379,
-    "blocked": 1,
-    "pending": 4
+    "complete": 383,
+    "blocked": 1
   },
   "records": [
     {
@@ -20104,8 +20103,14 @@
         "UTL723219"
       ],
       "indexed_path": "Transmission Line Installation and Maintenance NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-iii:c8db2f5ea2",
       "processing_order": 381
@@ -20153,8 +20158,14 @@
         "HVC723321"
       ],
       "indexed_path": "Transport RAC Servicing NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 18,
+        "selector_count": 43,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:transport-rac-servicing-nc-ii:2005-03",
       "processing_order": 382
@@ -20196,8 +20207,14 @@
         "TRS5113121"
       ],
       "indexed_path": "Travel Services NC II (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:travel-services-nc-ii:2013-12",
       "processing_order": 383
@@ -20244,8 +20261,14 @@
         "ICT216318"
       ],
       "indexed_path": "Visual Graphic Design NC III (Superseded)",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:visual-graphic-design-nc-iii:eb1af49ece",
       "processing_order": 384
