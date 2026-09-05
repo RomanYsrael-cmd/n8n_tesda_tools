@@ -4,8 +4,8 @@ Last updated: 2026-09-06
 
 - Source TR files discovered: 384
 - Unique TR documents: 384
-- Complete indexed packages: 159
-- Pending: 224
+- Complete indexed packages: 169
+- Pending: 214
 - Processing: 0
 - Needs review: 0
 - Blocked: 1

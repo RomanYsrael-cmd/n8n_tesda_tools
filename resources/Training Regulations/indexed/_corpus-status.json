@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 159,
-    "pending": 224,
+    "complete": 169,
+    "pending": 214,
     "blocked": 1
   },
   "records": [
@@ -8687,8 +8687,14 @@
         "MEE721118"
       ],
       "indexed_path": "Gas Metal Arc Welding (GMAW) NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:gas-metal-arc-welding-gmaw-nc-iii:c0f0c4d677",
       "processing_order": 160
@@ -8733,8 +8739,14 @@
         "MEE721312"
       ],
       "indexed_path": "Gas Tungsten Arc Welding (GTAW) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:gas-tungsten-arc-welding-gtaw-nc-ii:61e720fdfc",
       "processing_order": 161
@@ -8779,8 +8791,14 @@
         "MEE721120"
       ],
       "indexed_path": "Gas Tungsten Arc Welding (GTAW) NC IV",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:gas-tungsten-arc-welding-gtaw-nc-iv:ec3e639af3",
       "processing_order": 162
@@ -8824,8 +8842,14 @@
         "MEE721302"
       ],
       "indexed_path": "Gas Welding NC I",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:gas-welding-nc-i:4c3cda2d4a",
       "processing_order": 163
@@ -8869,8 +8893,14 @@
         "MEE721307"
       ],
       "indexed_path": "GAS Welding NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 14,
+        "selector_count": 35,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:gas-welding-nc-ii:dea010e4b0",
       "processing_order": 164
@@ -8912,8 +8942,14 @@
         "AFF611309"
       ],
       "indexed_path": "Grains Production NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:grains-production-nc-ii:2015-12-16",
       "processing_order": 165
@@ -8963,8 +8999,14 @@
         "SOC514307"
       ],
       "indexed_path": "Hairdressing NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:hairdressing-nc-ii:b17ea87b18",
       "processing_order": 166
@@ -9010,8 +9052,14 @@
         "SOC514310"
       ],
       "indexed_path": "Hairdressing NC III",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:hairdressing-nc-iii:7b56c18b82",
       "processing_order": 167
@@ -9061,8 +9109,14 @@
         "CRE731312"
       ],
       "indexed_path": "Handloom Weaving (Backstrap) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:handloom-weaving-backstrap-nc-ii:ef3c640809",
       "processing_order": 168
@@ -9112,8 +9166,14 @@
         "CRE731303"
       ],
       "indexed_path": "Handloom Weaving (Upright) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 20,
+        "selector_count": 47,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:handloom-weaving-upright-nc-ii:407c71eda7",
       "processing_order": 169
