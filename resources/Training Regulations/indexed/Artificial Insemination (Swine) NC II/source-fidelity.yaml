@@ -1,0 +1,29 @@
+{
+  "schema": "tesda-source-fidelity",
+  "schema_version": "2.0",
+  "document_id": "tesda:tr:artificial-insemination-swine-nc-ii:d0764d3382",
+  "qualification": "ARTIFICIAL INSEMINATION (SWINE) NC II",
+  "official_source": {
+    "source_file": "Artificial Insemination (Swine) NC II.pdf",
+    "sha256": "d0764d3382a96c32a9fd01647aa961108b7eccb08032ceeb57b7466490ede49b",
+    "authoritative": true
+  },
+  "representation": {
+    "source_pdf_authoritative": true,
+    "normalized_semantic_files": true,
+    "verbatim_transcription": false,
+    "page_preserved_source": "tr.md"
+  },
+  "normalization_notes": [
+    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
+    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
+    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+  ],
+  "observations": [],
+  "fidelity_overrides": [],
+  "provenance": {
+    "source_path": "Artificial Insemination (Swine) NC II.pdf",
+    "pdf_pages": 55,
+    "printed_pages": null
+  }
+}

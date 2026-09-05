@@ -6,8 +6,8 @@
   "generated_on": "2026-09-06",
   "processing_order": "unclear/current evidence first, then superseded/historical, alphabetical within lifecycle group",
   "summary": {
-    "complete": 20,
-    "pending": 363,
+    "complete": 30,
+    "pending": 353,
     "blocked": 1
   },
   "records": [
@@ -1101,8 +1101,14 @@
         "ICT216304"
       ],
       "indexed_path": "Animation NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:animation-nc-ii:a1aec63a04",
       "processing_order": 21
@@ -1148,8 +1154,14 @@
         "AFF622317"
       ],
       "indexed_path": "Aquaculture (Grow-Out Operation) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 16,
+        "selector_count": 39,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:aquaculture-grow-out-operation-nc-ii:31cf9448c0",
       "processing_order": 22
@@ -1196,8 +1208,14 @@
         "AFF622313"
       ],
       "indexed_path": "Aquaculture (Hatchery Operation) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 17,
+        "selector_count": 41,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:aquaculture-hatchery-operation-nc-ii:084aeb7b5f",
       "processing_order": 23
@@ -1242,8 +1260,14 @@
         "AFF622320"
       ],
       "indexed_path": "Aquaculture (Tilapia Culture) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 15,
+        "selector_count": 37,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:aquaculture-tilapia-culture-nc-ii:75d86cb324",
       "processing_order": 24
@@ -1285,8 +1309,14 @@
         "AGR621209"
       ],
       "indexed_path": "Artificial Insemination (Large Ruminants) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 12,
+        "selector_count": 31,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:artificial-insemination-large-ruminants-nc-ii:a3a1f4befd",
       "processing_order": 25
@@ -1329,8 +1359,14 @@
         "AGR621215"
       ],
       "indexed_path": "Artificial Insemination (Swine) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 13,
+        "selector_count": 33,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:artificial-insemination-swine-nc-ii:d0764d3382",
       "processing_order": 26
@@ -1383,8 +1419,14 @@
         "HHC321313"
       ],
       "indexed_path": "Assistive Rehabilitation Technology Services (Orthotics) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 23,
+        "selector_count": 53,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:assistive-rehabilitation-technology-services-orthotics-nc-ii:5e14a4bde8",
       "processing_order": 27
@@ -1436,8 +1478,14 @@
         "HHC321306"
       ],
       "indexed_path": "Assistive Rehabilitation Technology Services (Prosthetics) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 22,
+        "selector_count": 51,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:assistive-rehabilitation-technology-services-prosthetics-nc-ii:cd94af96ea",
       "processing_order": 28
@@ -1490,8 +1538,14 @@
         "HHC321320"
       ],
       "indexed_path": "Assistive Rehabilitation Technology Services (Wheelchair) NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 23,
+        "selector_count": 53,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:assistive-rehabilitation-technology-services-wheelchair-nc-ii:83c9707e15",
       "processing_order": 29
@@ -1542,8 +1596,14 @@
         "TRS511334"
       ],
       "indexed_path": "Attractions and Theme Parks Operations NC II",
-      "status": "pending",
-      "validation": {},
+      "status": "complete",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "unit_count": 21,
+        "selector_count": 49,
+        "source_audit": true
+      },
       "blocked_reason": null,
       "document_id": "tesda:tr:attractions-and-theme-parks-operations-nc-ii:2007-11",
       "processing_order": 30
