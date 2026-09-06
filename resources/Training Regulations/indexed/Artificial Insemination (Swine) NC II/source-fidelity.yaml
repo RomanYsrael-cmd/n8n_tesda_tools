@@ -1,29 +1,157 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:artificial-insemination-swine-nc-ii:d0764d3382",
   "qualification": "ARTIFICIAL INSEMINATION (SWINE) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Artificial Insemination (Swine) NC II.pdf",
-    "sha256": "d0764d3382a96c32a9fd01647aa961108b7eccb08032ceeb57b7466490ede49b",
+    "source_sha256": "d0764d3382a96c32a9fd01647aa961108b7eccb08032ceeb57b7466490ede49b",
+    "pdf_pages": 55,
+    "printed_pages": 53,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses a historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source header spells the qualification as ARTIFCIAL INSEMINATION (SWINE); the package title follows the filename/Section 1 qualification while source_text preserves the printed spelling.",
+    "The source does not print a promulgation date in the visible Training Regulation headers; the promulgated field remains null.",
+    "The source prints 127 hours as total training duration for 18 Basic, 14 Common, and 95 Core hours, with 48 hours of elective competencies; the elective is retained as an explicit component and excluded from the printed total arithmetic.",
+    "The source elective competency header spells artificial as ARITIFICIAL; the normalized title follows the Section 1 identifier while source_title/source_text preserve the printed spelling."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses a historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source header spells the qualification as ARTIFCIAL INSEMINATION (SWINE); the package title follows the filename/Section 1 qualification while source_text preserves the printed spelling."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date in the visible Training Regulation headers; the promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 127 hours as total training duration for 18 Basic, 14 Common, and 95 Core hours, with 48 hours of elective competencies; the elective is retained as an explicit component and excluded from the printed total arithmetic."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source elective competency header spells artificial as ARITIFICIAL; the normalized title follows the Section 1 identifier while source_title/source_text preserve the printed spelling."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Artificial Insemination (Swine) NC II.pdf",
-    "pdf_pages": 55,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "AGR321201",
+      "source_unit_code": "AGR321201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "AGR321202",
+      "source_unit_code": "AGR321202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "AGR321203",
+      "source_unit_code": "AGR321203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "AGR621210",
+      "source_unit_code": "AGR621210",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "AGR621211",
+      "source_unit_code": "AGR621211",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "AGR621212",
+      "source_unit_code": "AGR621212",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "AGR621213",
+      "source_unit_code": "AGR621213",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "AGR621214",
+      "source_unit_code": "AGR621214",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "AGR621215",
+      "source_unit_code": "AGR621215",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    }
+  ]
 }

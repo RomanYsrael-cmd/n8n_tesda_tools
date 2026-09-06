@@ -1,48 +1,53 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:aquaculture-nc-ii:2004-12",
-  "qualification": "AQUACULTURE NC II",
+  "document_id": "tesda:tr:aquaculture-nc-ii-superseded:cfb780df92",
+  "qualification": "AQUACULTURE NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "AGR641301",
-        "title": "aquaculture operations including the preparation of tools and simple equipment and"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "AGR641302",
-        "title": "This unit covers the knowledge and skills required"
-      },
-      {
-        "unit_code": "AGR641303",
-        "title": "This unit covers the knowledge and skills required"
-      },
-      {
-        "unit_code": "AGR641304",
-        "title": "This unit covers the knowledge and skills required"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n\n57",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR321201",
+        "AGR321202",
+        "AGR321203"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use farm tools and equipment",
+        "Perform estimation and basic calculation"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AGR641301",
+        "AGR641302",
+        "AGR641303",
+        "AGR641304"
+      ],
+      "unit_titles": [
+        "Conduct pre-operational aquaculture activities",
+        "Prepare and maintain aquaculture facilities",
+        "Operate fish nursery",
+        "Perform fish or shrimp grow-out operations"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate signed\nby the TESDA Director General.\n\n4.2.\nThe qualification of Aquaculture NC II may be attained through:\n\n4..2.1. Accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.2.1.1.\nPrepare and maintain aquaculture facilties\n\n4.2.1.2.\nOperate Fish Nursery\n4.2.1.2.1. Conduct Pre-Operation Aquaculture activities\n4.2.1.2.2. Operate Fish Nursery\n\n4.2.1.3.\nPerform shrimp and fish grow-out operations\n4.2.1.3.1. Conduct Pre-operation aquaculture activities\n4.2.1.3.2. Perform shrimp and fish grow-out operations\n\n Successful candidates shall be awarded Certificates of\nCompetency (COCs) bearing the signature of the Regional\nDirector and Chair of the recognized local industry body.\n\n4.2.2. Demonstration of competence through project-type assessment\ncovering all required units of the qualification.\n\n4.3.\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n4.4.\nThe following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.3.2 Experienced Workers (wage employed or self-employed)\n\n4.5.\nThe guidelines on assessment and certification are discussed in detail\nin the Procedures Manual on Assessment and Certification and\nGuidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 59 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n71\n\nCOMMON\nCOMPETENCIES\nApply Safely\nMeasures in\nfarm\noperations\nUse Farm Tools\nand Equipment\nPerform Estimation\nand Basic\nCalculation\n\nProduce\nVegetables\nProduce Grain\nCrops\nService and\nRepair\nBusiness\nMachines\nPerform\nLandscaping\nActivities\nPerform Post Harvest\nOperations of Major\nLowland and Semi\nTemperate Vegetables\nCrops\nOperate and\nMaintain\nMechanical Grain\nDryer\nTest & Analyze\nPhysico-Chemical\nProperties of Foods,\nAgri Products, Water\n& Wastewater\nGrade and Classify\nGrain\nRaise Small\nRuminants\nControl Pest of\nStored Grains and\nProducts\nService Tractor’s\nRear Axle, Front\nAxle & Brake\nSystem\nOperate Fish\nNursery\nService Tractor’s\nElectrical System\nPerform Fish or\nShrimp Grow Out\nOperations\nPrepare and Maintain\nAquaculture Facilities\nCORE COMPETENCIES\nSupermarket of Competencies\nAGRI-FISHERY Sector\nProduce Fruit\nBearing Crops\nProduce Cut\nFlowers\nOperate\nSeedling\nNursery\nManage Farm\nOperate and\nMaintain Rice Mill\nEquipment\n\nPerform Post\nHarvest\nOperations of\nMajor Tropical\nFruits\nPerform On Farm\nGrain Post Harvest\nAnalyze Foods and\nAgricultural products\nService, Repair &\nMaintain Small\nGasoline Engines\nTest & Analyze\nMicrobiological\nProperties of Foods,\nAgri Products, Water\n& Wastewater\nService, Repair &\nMaintain Crop Post\nHarvest Equipment\n\nService, Repair &\nMaintain Crop\nProduction\nService, Repair &\nMaintain Small\nDiesel Engines\nService Tractor’s\nEngine\nService Tractor’s\nClutch &\nTransmission\nSystem\nService Tractor’s\nHydraulic\nSystem\nOperate Tilapia\nHatchery\nGrow Seaweed\nOperate catfish\nHatchery\nProfile the Market\nDevelop\nMarketing Plan\nDevelop Marketing\nCommunication\nPlan\nPromote Products\n& Services\nMarket Agri\nProducts\nService Tractor’s\nSteering System\nProduce Fuel\nByproducts\nProduce Compost\nProduce\nHandpaper\nAssess Farm\nResources\nAssist in\nAquaculture\nOperations\nAssist in\nHorticulture\nOperations\nProduce Biogas\nByproducts\nRaise Poultry\nRaise swine\nRaise large\nRuminants\nAquaculture NC II\nWork in a team\nenvironment\nBASIC\nCOMPETENCIES\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncommunication\nWork\n in team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nprocedures\nLead\nworkplace\n communication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 60 ---\n_______________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n72\nGLOSSARY OF TERMS\n\nAcclimation - refers to adjusting the prevailing water condition of fish in an environment\nfrom lower to higher temperature to optimal temperature, from tower or higher salinity to\noptimal salinity (like from freshwater to salt water environment), etc.\n\nAverage Body Weight - is the total weight of fish over the number of Fish\n\nAD-Libitum - refers to the mode of providing unlimited fish feeds to fish\n\nAFMA - Agriculture and Fisheries Modernization Act\n\nAquarium Fish or Ornamental fish - Any fish that can be placed in confinement and\nwith aesthetic value\n\nArtemia - live food commonly used for fish larvae\n\nBFAR - Bureau of Fisheries and Aquatic Resources\n\nBOD - Biological Oxygen Demand\n\nBrackish Water - refers to the mixture of freshwater and sea water naturally occurring\nin estuaries.\n\nBrachionus - a rotifer used as larval feed for marine & freshwater fish larvae\n\nBreeder - Sexually mature fish that are used for breeding\n\nChlorella - A unicellular green algae cultured to serve as food of the zooplankton,\nrotifers and fry.\n\nConditioning of Breeders - a method wherein the breeders are pampered by providing\nthem nutritious feeds and optimum water conditions to effect the maturity of the fish\n\nD.O. (Dissolved Oxygen) - refers to a quantity of oxygen mixed with water in the\noperation of a paddle wheel or the action of air current. The unit of the D.O. is\ncommonly expressed in part per million (ppm).\n\nFCR - Food Conversion Ratio is the Total amount of Feeds consumed over the Net\nWeight of Fish.\n\nEgg Fertilization - the process of mixing the fish eggs with fish milt either by natural or\nartificial method.\n\nFish Nursery - refers to smaller unit areas of confinement wherein small fish larvae or\nfish fry are reared. It may either be in ponds, cages, tanks, etc\n\nFish Pond - an aquaculture facility with an earthen bottom surrounded by dikes, with\nwater inlets and drain outlets.\n\n--- PDF PAGE 61 ---\n_______________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n73\nFish Cage - an aquaculture facility made of frames, net enclosures, mooring rope,\nanchors or poles installed in open waters like lakes, dams, rivers and sea-water coves,\nlagoons, impoundments etc.\n\nFish Pen - aquaculture facility in inland areas such as lakes, rivers, darns spring and\ndeep wells devoid of salinity\n\nFry - newly hatched fish. Which are transparent, with big, head and does not in any way\nresemble the adult fish\n\nGrow out - refers to bigger unit areas of confinement where fingerlings are stocked and\ngrown to marketable size. It may either be in ponds, cages and fish pens.\n\nHapa Net - an enclosure made of fine mesh net for larvae/fry\n\nHatchery Operation - refers to a large production of larvae/fry\n\nHormones - are agents, (synthetically or naturally produced) used to fasten growth and\ninduce ovulation and to effect sex reversal in fish.\nIncubator - are hatching facilities where fertilized eggs are hatched.\n\nMature Breeders - fishes that are gravid (female) or with milt (male)\n\nInduce Spawning - an artificial propagation method through hormone injection to\nhasten the maturity of the eggs and trigger spawning\n\nLarvae - refers to newly hatched fish eggs\n\nLiming - application of agricultural lime in ponds to elevate soil pH of acidic ponds\n\nModular Culture Technique - the process of culturing fish in grow-out units in short\nculture period. This requires one nursery unit in for every grow-out culture unit, thus\nmaking 4 to 5 harvests per year in one grow-out unit depending on the market size of\nfish\nOHS - Operating Health Standard\nOptimum - refers to the best environmental condition provided to the fish to effect\nmaximum production\nPathogenic Bacteria – disease causing bacteria\n\npH Meter - instrument used to measure the hydrogen ions concentration of soil or water\n\nPhytoplankton - unicellular microscopic algae suspended in water\n\nSea-Water - refers to waters with at east 32 ppt salinity\n\nSatiation feeding - refers to the feed consumption of fish wherein it indicates whether\nfish is fully filled-up to the gut.\n\nSeine Net - a type of fishing gear made up of nets, ropes, floats and sinkers used to\nharvest fish.\n\n--- PDF PAGE 62 ---\n_______________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n74\n\nSpawner - mature female fish or shrimp used for breeding.\n\nStress - a negative environmental condition caused by biological, physical or chemical\nfactors affecting the health, growth and well being of fish\n\nStripping - an artificial method by gently pressing the belly of male and female brood\nfish to release eggs and milt\n\nTanks - a culture system that is made up of cement, glass and plastic of different\nshapes\n\nViable - a state or condition where an undertaking or venture in aquaculture results to\ngood performance as to technical and economic profitability of a project\n\nWater Quality - refers to the over-all physical, chemical and biological parameters of\nthe water\n\nZooplankton - animal base food protein\n\n--- PDF PAGE 63 ---\n_______________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n75\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\nMR. JOSE P.BALDIA\nMR. ENRIQUE A. MACADANGDANG\nPresident\nAquaculture Consultant-\nDagatan Agri- Ventures, Inc.\nAgri- Aqua Network Inc.(AANI)\nBarrio Liliw Laguna\nFTI Compound\n\nConsultant\nHead, Technical Operation\nMaya Farma\nSouthern Triangle Management Inc.\nSta. Maria, Bulacan\nLower Baluan, General Santos City\n\nAquaculture Consultant\nChief Operating Officer\nAgri- Aqua Network Inc. (AANI)\nGIFT (Genetically Improved Farmed Tilapia)\n\nLHP Farm, Cabuyao, Laguna\n\nMR. JIMMY SAN JOSE\nMR. ALEJANDRO T. ESCANO\nSecretary General\nChairperson\nPambansang Alyansa ng Mangigisda ng\nPamunuan at mga Organisasyon\n(PAMPANO)\nAquaculture Based Countryside Development\nEnterprises, Inc.\nJalajala, Rizal, Philippines\nNFARMC PMC Office, 880 Estuar Bldg.,\nQuezon Avenue, Quezon City\n\nMR. EDUARDO A. LOPEZ\nProfessor\nCollege of Fisheries\nCentral Luzon State University\nMuñoz, Nueva Ecija\n\n• THE TECHNICAL EXPERT PANEL (TEP)\n\nMR. MAXIMO ARADA\nMR. LEOPOLDO C. RUBIA\nTraining Consultant\nVice Presient for Operations\nAgri-Aqua Network Inc. (AANI)\nAgri- Aqua Network Inc. (AANI)\nFTI Compound, Taguig, Metro Manila\n\nTechnological University of the Phils. (TUP)\n\nAyala Boulevard, Manila\n\nMR. FELIXBERTO C. MADLANGBAYAN\nMS. SOLEDAD CRUZ\nOwner - Instructor\nProvincial Aquaculture Officer\nJUST Agri- Aqua Resources\nHagonoy, Bulacan\nImus, Cavite\n\n--- PDF PAGE 64 ---\n_______________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n76\n\nThe Participants in the National Validation of this Training Regulation:\n\n•\nRegion 1\n•\n Region 8\n•\nRegion 2\n•\n Region 11\n•\nRegion 3\n•\n Region 12\n•\nRegion 5\n•\n Cordillera Autonomy Region\n\nThe Management and Staff of the TESDA Secretariat\n\n•\nSSCO\n•\nNITVET"
 }

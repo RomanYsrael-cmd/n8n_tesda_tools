@@ -1,51 +1,1991 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:aquaculture-nc-ii:2004-12",
-  "qualification": "AQUACULTURE NC II",
+  "document_id": "tesda:tr:aquaculture-nc-ii-superseded:cfb780df92",
+  "qualification": "AQUACULTURE NC II (SUPERSEDED)",
   "content_status": "complete",
   "source": {
-    "source_file": "Superseded/Aquaculture NC II (Superseded).pdf",
-    "pdf_pages": 64
+    "authority": "TESDA",
+    "source_file": "Aquaculture NC II (Superseded).pdf",
+    "pdf_pages": 64,
+    "printed_pages": 76,
+    "promulgated": "2004-12"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Nominal Training Hours",
+        "hours": 1276,
+        "source_expression": "1276 hrs. - Nominal Training Hours"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 1276,
+    "total_source_expression": "1,276 hrs.",
+    "source_expressions": [
+      "1276 hrs. - Nominal Training Hours"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 1276,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meeting and discussion. Group discussion Interaction Demonstration Observation Interviews/ questioning",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team member. Discussion Interaction Demonstration Observation Interviews/ questioning",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal objectives with organizational goals",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development. Discussion Interaction Demonstration Observation Interviews/ questioning",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion Interaction"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Evaluate hazard and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Plant tour"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Maintain occupational health and safety awareness Discussion Plant tour Symposium Observation Interview",
+        "learning_activities": [],
+        "methodology": [
+          "Symposium"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Determine areas of concern for safety measures",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced/modular Lecture/Discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Oral/Written Interviews Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Apply appropriate safety measures",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Safekeep/maintain/ dispose tools, materials and outfit. Self-paced/modular Lecture/Discussion Interaction Practical Demonstration Visit/tour Oral/Written Interviews Direct Observation Practical Demonstration",
+        "learning_activities": [],
+        "methodology": [
+          "Visit/tour"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Prepare and use farm tools",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced/modular Lecture/Discussion"
+        ],
+        "assessment_approach": [
+          "Oral/Written Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Prepare and operate farm equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction Practical"
+        ],
+        "assessment_approach": [
+          "Direct Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Perform preventive maintenance procedures/practices Self-paced/modular Lecture/Discussion Interaction Practical Demonstration Visit/tour Oral/Written Interviews Direct Observation Practical Demonstration",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Visit/tour"
+        ],
+        "assessment_approach": [
+          "Practical Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321203",
+        "unit_title": "Perform estimation and basic calculation",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Perform estimation",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced/modular"
+        ],
+        "assessment_approach": [
+          "Oral/Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321203",
+        "unit_title": "Perform estimation and basic calculation",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Perform basic workplace calculation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/Discussion Interaction"
+        ],
+        "assessment_approach": [
+          "Practical exercise"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321203",
+        "unit_title": "Perform estimation and basic calculation",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Apply corrective measures as necessary Self-paced/modular Lecture/Discussion Interaction Practical Exercise Oral/Written examination Practical exercise",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Exercise"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Inspect, clean/disinfect and repair tools, simple equipment and aquaculture facilities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Enumerate and explain fisheries and environmental laws, rules and regulations",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced learning"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Enumerate and explain the reasons for applying disease treatment",
+        "learning_activities": [],
+        "methodology": [
+          "(modular)"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Apply the procedures in using disinfectants, lime and fertilizers",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Determine method and volume",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.6",
+        "learning_outcome": "Differentiate normal mortality from initial outbreak of disease",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.7",
+        "learning_outcome": "Apply the procedures in monitoring, collecting and analyzing mortalities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641301",
+        "unit_title": "Conduct pre-operational aquaculture activities",
+        "learning_outcome_number": "1.8",
+        "learning_outcome": "Identify and apply the various methods used in securing aquaculture facilities from various predators and other threats Demonstration Dual training Self-paced learning (modular) Written examination Demonstration",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Select suitable pond site based on ECC/EMB-DENR Requirement",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Determine Type of Soil",
+        "learning_activities": [],
+        "methodology": [
+          "learning"
+        ],
+        "assessment_approach": [
+          "of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Determine Water Adequacy and Quality",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Identify Prescribed Topography",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Determine land area, size and project budget to suit the size shape, slope and materials to be used",
+        "learning_activities": [],
+        "methodology": [
+          "to"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.6",
+        "learning_outcome": "Determine water adequacy and quality",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.7",
+        "learning_outcome": "Analyze water for water current speed using water current meter",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.8",
+        "learning_outcome": "Determine natural food by plankton sampling and microscopic examination",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.9",
+        "learning_outcome": "Measure water transparency",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.10",
+        "learning_outcome": "Determine substrate and tide level",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.11",
+        "learning_outcome": "Identify and design and print specification as to area of the land species to be cultured and systems",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.12",
+        "learning_outcome": "Design strong dike to counter act forces of nature",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.13",
+        "learning_outcome": "Identify materials to be used based on production target and capitalization",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.14",
+        "learning_outcome": "Plot markers as guide to the lay-out",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.15",
+        "learning_outcome": "Determine number of farm facilities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.16",
+        "learning_outcome": "Determine number, size of compartment, depth of tank, based on the area available and the species for culture",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.17",
+        "learning_outcome": "Identify materials to be used as to production and capitalization",
+        "learning_activities": [],
+        "methodology": [
+          "as"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.18",
+        "learning_outcome": "Plot markers as guide to the lay-out",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.19",
+        "learning_outcome": "Determine number of farm facilities to be used. Demonstration Dual training Self-paced learning Lecture Written examination Demonstration",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.20",
+        "learning_outcome": "Determine pen and cages size, number to be constructed as to availability of the given area",
+        "learning_activities": [],
+        "methodology": [
+          "to"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.21",
+        "learning_outcome": "Selecting framing materials, type of nets to be used as to the availability and suitability of the area and species to be cultured",
+        "learning_activities": [],
+        "methodology": [
+          "of"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.22",
+        "learning_outcome": "Determine materials based on site selected",
+        "learning_activities": [],
+        "methodology": [
+          "on"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.23",
+        "learning_outcome": "Identify other farm facilities necessary to the culture module",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.24",
+        "learning_outcome": "Prepare Construction Resources for Pen and Cages",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.25",
+        "learning_outcome": "Fabricate Nets",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.26",
+        "learning_outcome": "Construct and Set Net Frame",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.27",
+        "learning_outcome": "Prepare Construction Resources for Ponds",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.28",
+        "learning_outcome": "Perform Positioning of Major and Other Support Farm Facilities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.29",
+        "learning_outcome": "Position Equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.30",
+        "learning_outcome": "Prepare construction resources for tanks",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "Written examination Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641302",
+        "unit_title": "Prepare and maintain aquaculture facilities",
+        "learning_outcome_number": "2.31",
+        "learning_outcome": "Install life support system and position equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Dual training Self-paced"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Dry the pond",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Harrow and Dry the Soil",
+        "learning_activities": [],
+        "methodology": [
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Select Lime to be Used and Apply",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Select and Apply Predator Control",
+        "learning_activities": [],
+        "methodology": [
+          "learning"
+        ],
+        "assessment_approach": [
+          "skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.5",
+        "learning_outcome": "Allow the Natural Food to Bloom",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.6",
+        "learning_outcome": "Select Fertilizer and Compute Rate Application",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.7",
+        "learning_outcome": "Set-up aerators/agitators",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.8",
+        "learning_outcome": "Determine water quality parameters",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.9",
+        "learning_outcome": "Observe care in handling, transporting and stocking of fishes",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.10",
+        "learning_outcome": "Store Feeds Properly",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.11",
+        "learning_outcome": "Sample and Analyze Feeds for Ration",
+        "learning_activities": [],
+        "methodology": [
+          "for"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.12",
+        "learning_outcome": "Compute Daily Feed Ration",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.13",
+        "learning_outcome": "Monitor Water Quality",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.14",
+        "learning_outcome": "Maintain Optimum Water Quality",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.15",
+        "learning_outcome": "Monitor and Observe Diseases",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.16",
+        "learning_outcome": "Diagnose Infected Fish",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.17",
+        "learning_outcome": "Identify Appropriate Treatment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.18",
+        "learning_outcome": "Practice Preventive Measures Against Disease",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.19",
+        "learning_outcome": "Schedule harvest",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.20",
+        "learning_outcome": "Prepare harvesting materials",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.21",
+        "learning_outcome": "Observe proper handling while harvesting",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641303",
+        "unit_title": "Operate fish nursery",
+        "learning_outcome_number": "3.22",
+        "learning_outcome": "Demonstrate proper grading, counting and packing of live fish Demonstration Dual training Self-paced learning Lecture Written examination Demonstration",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Prepare pond",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Install Pens and Cages",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Clean Tanks",
+        "learning_activities": [],
+        "methodology": [
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Acclimatize fish / crustacean fingerlings to pH, temperature and Salinity",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced learning"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.5",
+        "learning_outcome": "Release fingerlings at appropriate time of the day",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.6",
+        "learning_outcome": "Determine procedures in stock sampling",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.7",
+        "learning_outcome": "Calculate periodic stock sampling",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.8",
+        "learning_outcome": "Source feeds",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.9",
+        "learning_outcome": "Store feeds properly",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.10",
+        "learning_outcome": "Compute feed ration and feed the fish",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.11",
+        "learning_outcome": "Monitor water quality using appropriate instrument",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.12",
+        "learning_outcome": "Maintain optimum water quality",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.13",
+        "learning_outcome": "Observe and Monitor Disease",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.14",
+        "learning_outcome": "Sample and Diagnose Infected Fish",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.15",
+        "learning_outcome": "Identify and Implement Treatment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.16",
+        "learning_outcome": "Determine preventive measures against agents of diseases",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.17",
+        "learning_outcome": "Prepare harvesting materials",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.18",
+        "learning_outcome": "Seine stocks in pond and pen",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR641304",
+        "unit_title": "Perform fish or shrimp grow-out operations",
+        "learning_outcome_number": "4.19",
+        "learning_outcome": "Lift cage bags Demonstration Dual training Self-paced learning Lecture Written examination Demonstration",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      }
+    ],
     "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Aquaculture NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: AQUACULTURE\n\nNC Level: NC II\n\nNominal Training Hours: 1,276 Hours\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes of aquaculture NCll in accordance with industry standards. It covers core\ncompetencies in assisting in aquaculture operations, preparing and maintaining\naquaculture facilities, operating fish nursery, performing fish or shrimp grow-out\noperations, and growing seaweeds..\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n\n1.2 Complete relevant work\nrelated documents.\n\n1.3 Participate in workplace\nmeeting and discussion.\n\nGroup discussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\n\nDiscussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal objectives\nwith organizational goals.\n\n3.2 Set and meet work priorities.\n\n3.3 Maintain professional growth\nand development.\nDiscussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\nand safety awareness\nDiscussion\nPlant tour\nSymposium\nObservation\nInterview\n\n--- PDF PAGE 46 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 44\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm operations\n1.1. Determine areas of\nconcern for safety\nmeasures\n1.2. Apply appropriate safety\nmeasures\n1.3. Safekeep/maintain/\ndispose tools, materials\nand outfit.\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical\nDemonstration\nVisit/tour\nOral/Written\nInterviews\nDirect\nObservation\nPractical\nDemonstration\n2. Use farm tools\nand equipment\n2.1. Prepare and use farm\ntools\n2.2. Prepare and operate\nfarm equipment\n2.3. Perform preventive\nmaintenance\nprocedures/practices\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical\nDemonstration\nVisit/tour\n\nOral/Written\nInterviews\nDirect\nObservation\nPractical\nDemonstration\n3. Perform\nestimation\nand\nbasic calculation\n\n3.1. Perform estimation\n3.2. Perform basic workplace\ncalculation\n3.3. Apply corrective\nmeasures as necessary\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical Exercise\nOral/Written\nexamination\nPractical\nexercise\n\n--- PDF PAGE 47 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 45\n\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1\nConduct pre-\noperational\naquaculture\nactivities\n\n1.1 Inspect, clean/disinfect and\nrepair tools, simple equipment\nand aquaculture facilities\n1.2 Enumerate and explain\nfisheries and environmental\nlaws, rules and regulations\n1.3 Enumerate and explain the\nreasons for applying disease\ntreatment\n1.4 Apply the procedures in using\ndisinfectants, lime and\nfertilizers\n1.5 Determine method and volume\nof water for water exchange\n1.6 Differentiate normal mortality\nfrom initial outbreak of disease\n1.7 Apply the procedures in\nmonitoring, collecting and\nanalyzing mortalities\n1.8 Identify and apply the various\nmethods used in securing\naquaculture facilities from\nvarious predators and other\nthreats\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n(modular)\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 48 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 46\n2 Prepare and\nmaintain\nAquaculture\nFacilities\n\n2.1 Select suitable pond site\nbased on ECC/EMB-DENR\nRequirement\n2.2 Determine Type of Soil\n2.3 Determine Water Adequacy\nand Quality\n2.4 Identify Prescribed\nTopography\n2.5 Determine land area, size and\nproject budget to suit the size\nshape, slope and materials to\nbe used\n2.6 Determine water adequacy\nand quality\n2.7 Analyze water for water current\nspeed using water current\nmeter\n2.8 Determine natural food by\nplankton sampling and\nmicroscopic examination\n2.9 Measure water transparency\n2.10 Determine substrate and tide\nlevel\n2.11 Identify and design and print\nspecification as to area of the\nland species to be cultured\nand systems\n2.12 Design strong dike to counter\nact forces of nature\n2.13 Identify materials to be used\nbased on production target\nand capitalization\n2.14 Plot markers as guide to the\nlay-out\n2.15 Determine number of farm\nfacilities\n2.16 Determine number, size of\ncompartment, depth of tank,\nbased on the area available\nand the species for culture.\n2.17 Identify materials to be used as\nto production and\ncapitalization.\n2.18 Plot markers as guide to the\nlay-out\n2.19 Determine number of farm\nfacilities to be used.\nDemonstration\nDual training\nSelf-paced\nlearning\nLecture\n\nWritten\nexamination\nDemonstration\nof practical\nskills\nDirect\nobservation\nInterview\n\n--- PDF PAGE 49 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 47\n\n2.20 Determine pen and cages size,\nnumber to be constructed as to\navailability of the given area.\n2.21 Selecting framing materials,\ntype of nets to be used as to\nthe availability and suitability of\nthe area and species to be\ncultured.\n2.22 Determine materials based on\nsite selected\n2.23 Identify other farm facilities\nnecessary to the culture\nmodule\n2.24 Prepare Construction\nResources for Pen and Cages\n2.25 Fabricate Nets\n2.26 Construct and Set Net Frame\n2.27 Prepare Construction\nResources for Ponds.\n2.28 Perform Positioning of Major\nand Other Support Farm\nFacilities.\n2.29 Position Equipment\n2.30 Prepare construction\nresources for tanks\n2.31 Install life support system and\nposition equipment\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 48\n\n3\nOperate Fish\nNursery\n\n3.1 Dry the pond.\n3.2 Harrow and Dry the Soil\n3.3 Select Lime to be Used and\nApply\n3.4 Select and Apply Predator\nControl\n3.5 Allow the Natural Food to\nBloom\n3.6 Select Fertilizer and Compute\nRate Application\n3.7 Set-up aerators/agitators\n3.8 Determine water quality\nparameters\n3.9 Observe care in handling,\ntransporting and stocking of\nfishes\n3.10 Store Feeds Properly\n3.11 Sample and Analyze Feeds for\nRation\n3.12 Compute Daily Feed Ration\n3.13 Monitor Water Quality\n3.14 Maintain Optimum Water\nQuality\n3.15 Monitor and Observe Diseases\n3.16 Diagnose Infected Fish\n3.17 Identify Appropriate Treatment\n3.18 Practice Preventive Measures\nAgainst Disease\n3.19 Schedule harvest\n3.20 Prepare harvesting materials\n3.21 Observe proper handling while\nharvesting\n3.22 Demonstrate proper grading,\ncounting and packing of live\nfish\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n\nLecture\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 49\n\n4 Perform Fish\nOr Shrimp\nGrow-Out\nOperations\n\n4.1 Prepare pond\n4.2 Install Pens and Cages\n4.3 Clean Tanks\n4.4 Acclimatize fish / crustacean\nfingerlings to pH, temperature\nand Salinity.\n4.5 Release fingerlings at\nappropriate time of the day.\n4.6 Determine procedures in stock\nsampling\n4.7 Calculate periodic stock\nsampling\n4.8 Source feeds\n4.9 Store feeds properly\n4.10 Compute feed ration and feed\nthe fish\n4.11 Monitor water quality using\nappropriate instrument\n4.12 Maintain optimum water quality\n4.13 Observe and Monitor Disease\n4.14 Sample and Diagnose Infected\nFish\n4.15 Identify and Implement\nTreatment\n4.16 Determine preventive\nmeasures against agents of\ndiseases\n4.17 Prepare harvesting materials\n4.18 Seine stocks in pond and pen\n4.19 Lift cage bags\n\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n\nLecture\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 50\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n•\n The training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in school and in-industry training\nor fieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilitates the training delivery\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 51\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n• Project-Based Instruction is an authentic instructional model or strategy\nin which students plan, implement and evaluate projects that have\nreal world applications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAble to read and write\n•\nWith good moral character;\n•\nAbility to communicate, both oral and written\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n66\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nAQUACULTURE NCII\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Aquaculture NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\n\nQTY\nQTY\n5 pcs\nDO meters\n1\n Surveying\nequipment\n1\nManpower\nResources\n5 pcs\nFlow rate meter\n\n1\n generator\n1\nLearning Materials\n25 pcs\nLaboratory\nthermometer\n2\nMicroscope\n\n1\nR.A. 8550\n10 pcs\nShovel\n1\nPlankton counter\n1\nReference book\n5 pcs\nWater depth\ngauge\n1\nWelding machine\n1\nInstructional manual\n5 pcs\nDigging blades\n5\nG.I. pipe\n1\nReference book\n5 sets\nElectrical tools\n2\nPuddle wheel\n1\nBrochures\n\nLumber\n1\nWater pump\n1\nLocal map\n2 sets\nMasonry tools\n\n1\nHauling containers\n1\nTide calendar\n\n2 sets\nCarpentry tools\n1\noxygen tank\n1\nModel of different\npond design\n\n5 pcs\nCultivator / rake\n1\nStorage/tool cabinet\n1\nList of species for\ncultivation\n\nLime\n1\nFeed storage\n1\nList of culture\nsystem\n\nNet\n\n1\nfilled oxygen tank\n1\nDrawing materials\n\nP.E. rope\n1\nChilling tank\n1\nTide indicators\n\n10 pcs\nPail, plastic\n1\nGuard house\n\n1\nCopy of financial\nstatement\n5 pcs\nRunning board\n\n1\nLay-out plan\n5 pcs\nWeighing scale\n\n1\nList of dealers\n10 pcs\nWelding rod\n\n5 pcs\nCutting tools\n\n1\n Price list\n5 rolls\nTying materials\n\n1\nProduction size\n\n5\nFloats\n\nSupplies and\nMaterials\n1\nIllustration of\ndifferent design and\nshape of pen and\ncages\n\n25 pcs\nSafety shoes\n\n5\nLive specimens\n1\nList of framing\nmaterials\n\n25 pcs\nPencil\n\n5\nNormal fish,\nsamples\n1\nList of materials\navailable in the area\n25 pcs\nRuler\n5\nInfected fish,\n1\nList of farm facilities\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n67\nsamples\n\n5 rolls\nTracing paper\n\n1 gal.\n Therapeutic\nchemicals\n1\nSupporting\ndocuments for\nprocurements\n5 pcs\nSinkers\n1 botl.\ndisinfectants\n1\nConstruction manual\n5 pcs\nEckman Dredge\n2 gal\ncleaning materials\n1\nInstallation manual\n\n5 pcs\nSecchi disc\n5\npcaks\nBag net\n1\nInstructional manual\nfor aerators/agitators\n\n5 sets\nWater quality\ntest kit\n\n5\nScoop net\n1\nMicro- laboratory for\nfeed analysis\n5 pcs\npH meter\n5\nSiene net\n1\nWater quality test\nkits\n5 pcs\nSoil tester\n5\nGill net\n1\nCD\n5 pcs\nSlidesmith cover\n\nce\n1\nSlides\n10 pcs\nBeaker\n-\nDrying materials\n1\n List of feeds\nsupplier / producer\n15 pcs\nNetting needle\n-\ncoconut leaves\n1\n Feed consumption\nchart\n\n5\nWater current\nmeter\n\n5\nold fish nets\n\n1\n Tide calendar\n\n1 kilo\nCommon nails\n-\nSpecimen of\ndifferent variety of\nseaweeds\n\n1\nActivity sheet\n1 roll\nString\n1 gal\nFormaldehyde\n1\nPictures on\nseaweeds\n5\nCalculator\n1 gal\nTherapeutic\nchemicals\n1\nPosters / charts\n\nfingerlings\n1\nPamphlet\n5\nFeed container\n1 gal\nChlorine\n1\nList of potential\nbuyers\n5 pcs\nPlastic basin\n10 pcs\nBamboo pole\n1\nQuestionnaires\n5 pcs\n Snakel\n10 pcs\nBamboo slats /\nsheet\n1\nPurchase order\nforms\n5 pcs\nThermometer\n(lab.)\n1 sack\nFeeds\n\n25 pcs\n Hand gloves\n1 sack\nfertilizer / lime\n\n5\n Mangrove\nstakes\n1 kl\nSoap (detergent)\n\n Monofilament\nnylon\n\nSeedlings\n\n10 pcs\n Utility basket\n\n25 pcs\nPen\n\n25 pcs\nFace mask\n\n25 pcs\nMarker\n\n5 packs\nPlastic bags\n\n5\nAnchors/sinkers\n\n25 pcs\nBolo\n\n5 rolls\nCast net\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n68\n25 pcs\nClean sack\n\n5 pcs\nContainer\n\n5 pcs\nCurrent meter\n\n5 pcs\nDissecting board\n\n5 sets\nDissecting tools\n\n5\nDissolved\noxygen meter\n\n5 sets\nDrawing\ninstrument\n\n25 pcs\nFace mask\n\n5 pcs\nFish grader\n\n10 pcs\nFlashlights\n\n10 pcs\nForcep\n\n5 pcs\nHammer\n\n5 pcs\nHarvesting\ncontainers\n\n25 pcs\nLab. gown\n\n5 pcs\nMeter gauge\n\n1 roll\nMoving line\n\n1 roll\nNet\n\n25 pcs\nP.E. bag\n\n25 pcs\nP.L. bags\n\n5 pcs\nPecchi disc\n\n25 pcs\nPersonal safety\ngadgets\n\n5 pcs\nRefractometer\n\n5 pcs\nRing/vortex\nblower\n\n5 packs\nRubber band\n\n5 pcs\nSalinometer\n\n5 pcs\nSaw\n\n5 pcs\nScalpel\n\n25 pcs\nScissor\n\n5 pcs\nScoop net\n\n5 pcs\nSeine net\n\n5 pcs\nSinker\n\n10 pcs\nSpatula\n\n5 pcs\nSteel\n\n5 pcs\nSteel brush /\nPlastic brush\n\n5 pcs\nStyrofoam boxes\n\n5 pcs\nSuspension net\n\n1 kl\nTea seed\npowder\n\n--- PDF PAGE 57 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n69\n3.5 TRAINING FACILITIES\n\nAQUACULTURE NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\nA. Building\n(permanent)\n\n170.30\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Learning\nResource Center\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipm\nent/ Circulation\nArea (30% of\nteaching\naccommodation)\n\n 0\n39.30\n• Store Room\n4.00 x 4.00\n16.00\n16.00\nB. Experimental Fish\nFarm\n\n250.00\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nAQUACULTURE NC II\nTRAINER QUALIFICATION (TQ II)\n•\n Must be a holder of Aquaculture NC Iil or its equivalent qualification\n•\n Must have undergone training on Training Methodology II (TM II)\n•\n Must be computer literate\n•\n Must be physically and mentally fit\n•\n *Must have at least 2 years job/industry experience\n•\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\n Reference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who enrolled in\na structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\n--- PDF PAGE 58 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n70"
   },
   "subsections": {
+    "curriculum_design": {
+      "present": true,
+      "pdf_pages": [
+        45
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Aquaculture NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: AQUACULTURE\n\nNC Level: NC II\n\nNominal Training Hours: 1,276 Hours\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes of aquaculture NCll in accordance with industry standards. It covers core\ncompetencies in assisting in aquaculture operations, preparing and maintaining\naquaculture facilities, operating fish nursery, performing fish or shrimp grow-out\noperations, and growing seaweeds..\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n\n1.2 Complete relevant work\nrelated documents.\n\n1.3 Participate in workplace\nmeeting and discussion.\n\nGroup discussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\n\nDiscussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal objectives\nwith organizational goals.\n\n3.2 Set and meet work priorities.\n\n3.3 Maintain professional growth\nand development.\nDiscussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\nand safety awareness\nDiscussion\nPlant tour\nSymposium\nObservation\nInterview\n\n--- PDF PAGE 46 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 44\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm operations\n1.1. Determine areas of\nconcern for safety\nmeasures\n1.2. Apply appropriate safety\nmeasures\n1.3. Safekeep/maintain/\ndispose tools, materials\nand outfit.\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical\nDemonstration\nVisit/tour\nOral/Written\nInterviews\nDirect\nObservation\nPractical\nDemonstration\n2. Use farm tools\nand equipment\n2.1. Prepare and use farm\ntools\n2.2. Prepare and operate\nfarm equipment\n2.3. Perform preventive\nmaintenance\nprocedures/practices\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical\nDemonstration\nVisit/tour\n\nOral/Written\nInterviews\nDirect\nObservation\nPractical\nDemonstration\n3. Perform\nestimation\nand\nbasic calculation\n\n3.1. Perform estimation\n3.2. Perform basic workplace\ncalculation\n3.3. Apply corrective\nmeasures as necessary\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical Exercise\nOral/Written\nexamination\nPractical\nexercise\n\n--- PDF PAGE 47 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 45\n\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1\nConduct pre-\noperational\naquaculture\nactivities\n\n1.1 Inspect, clean/disinfect and\nrepair tools, simple equipment\nand aquaculture facilities\n1.2 Enumerate and explain\nfisheries and environmental\nlaws, rules and regulations\n1.3 Enumerate and explain the\nreasons for applying disease\ntreatment\n1.4 Apply the procedures in using\ndisinfectants, lime and\nfertilizers\n1.5 Determine method and volume\nof water for water exchange\n1.6 Differentiate normal mortality\nfrom initial outbreak of disease\n1.7 Apply the procedures in\nmonitoring, collecting and\nanalyzing mortalities\n1.8 Identify and apply the various\nmethods used in securing\naquaculture facilities from\nvarious predators and other\nthreats\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n(modular)\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 48 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 46\n2 Prepare and\nmaintain\nAquaculture\nFacilities\n\n2.1 Select suitable pond site\nbased on ECC/EMB-DENR\nRequirement\n2.2 Determine Type of Soil\n2.3 Determine Water Adequacy\nand Quality\n2.4 Identify Prescribed\nTopography\n2.5 Determine land area, size and\nproject budget to suit the size\nshape, slope and materials to\nbe used\n2.6 Determine water adequacy\nand quality\n2.7 Analyze water for water current\nspeed using water current\nmeter\n2.8 Determine natural food by\nplankton sampling and\nmicroscopic examination\n2.9 Measure water transparency\n2.10 Determine substrate and tide\nlevel\n2.11 Identify and design and print\nspecification as to area of the\nland species to be cultured\nand systems\n2.12 Design strong dike to counter\nact forces of nature\n2.13 Identify materials to be used\nbased on production target\nand capitalization\n2.14 Plot markers as guide to the\nlay-out\n2.15 Determine number of farm\nfacilities\n2.16 Determine number, size of\ncompartment, depth of tank,\nbased on the area available\nand the species for culture.\n2.17 Identify materials to be used as\nto production and\ncapitalization.\n2.18 Plot markers as guide to the\nlay-out\n2.19 Determine number of farm\nfacilities to be used.\nDemonstration\nDual training\nSelf-paced\nlearning\nLecture\n\nWritten\nexamination\nDemonstration\nof practical\nskills\nDirect\nobservation\nInterview\n\n--- PDF PAGE 49 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 47\n\n2.20 Determine pen and cages size,\nnumber to be constructed as to\navailability of the given area.\n2.21 Selecting framing materials,\ntype of nets to be used as to\nthe availability and suitability of\nthe area and species to be\ncultured.\n2.22 Determine materials based on\nsite selected\n2.23 Identify other farm facilities\nnecessary to the culture\nmodule\n2.24 Prepare Construction\nResources for Pen and Cages\n2.25 Fabricate Nets\n2.26 Construct and Set Net Frame\n2.27 Prepare Construction\nResources for Ponds.\n2.28 Perform Positioning of Major\nand Other Support Farm\nFacilities.\n2.29 Position Equipment\n2.30 Prepare construction\nresources for tanks\n2.31 Install life support system and\nposition equipment\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 48\n\n3\nOperate Fish\nNursery\n\n3.1 Dry the pond.\n3.2 Harrow and Dry the Soil\n3.3 Select Lime to be Used and\nApply\n3.4 Select and Apply Predator\nControl\n3.5 Allow the Natural Food to\nBloom\n3.6 Select Fertilizer and Compute\nRate Application\n3.7 Set-up aerators/agitators\n3.8 Determine water quality\nparameters\n3.9 Observe care in handling,\ntransporting and stocking of\nfishes\n3.10 Store Feeds Properly\n3.11 Sample and Analyze Feeds for\nRation\n3.12 Compute Daily Feed Ration\n3.13 Monitor Water Quality\n3.14 Maintain Optimum Water\nQuality\n3.15 Monitor and Observe Diseases\n3.16 Diagnose Infected Fish\n3.17 Identify Appropriate Treatment\n3.18 Practice Preventive Measures\nAgainst Disease\n3.19 Schedule harvest\n3.20 Prepare harvesting materials\n3.21 Observe proper handling while\nharvesting\n3.22 Demonstrate proper grading,\ncounting and packing of live\nfish\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n\nLecture\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 49\n\n4 Perform Fish\nOr Shrimp\nGrow-Out\nOperations\n\n4.1 Prepare pond\n4.2 Install Pens and Cages\n4.3 Clean Tanks\n4.4 Acclimatize fish / crustacean\nfingerlings to pH, temperature\nand Salinity.\n4.5 Release fingerlings at\nappropriate time of the day.\n4.6 Determine procedures in stock\nsampling\n4.7 Calculate periodic stock\nsampling\n4.8 Source feeds\n4.9 Store feeds properly\n4.10 Compute feed ration and feed\nthe fish\n4.11 Monitor water quality using\nappropriate instrument\n4.12 Maintain optimum water quality\n4.13 Observe and Monitor Disease\n4.14 Sample and Diagnose Infected\nFish\n4.15 Identify and Implement\nTreatment\n4.16 Determine preventive\nmeasures against agents of\ndiseases\n4.17 Prepare harvesting materials\n4.18 Seine stocks in pond and pen\n4.19 Lift cage bags\n\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n\nLecture\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 50\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n•\n The training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in school and in-industry training\nor fieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilitates the training delivery\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 51\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n• Project-Based Instruction is an authentic instructional model or strategy\nin which students plan, implement and evaluate projects that have\nreal world applications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAble to read and write\n•\nWith good moral character;\n•\nAbility to communicate, both oral and written\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n66\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nAQUACULTURE NCII\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Aquaculture NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\n\nQTY\nQTY\n5 pcs\nDO meters\n1\n Surveying\nequipment\n1\nManpower\nResources\n5 pcs\nFlow rate meter\n\n1\n generator\n1\nLearning Materials\n25 pcs\nLaboratory\nthermometer\n2\nMicroscope\n\n1\nR.A. 8550\n10 pcs\nShovel\n1\nPlankton counter\n1\nReference book\n5 pcs\nWater depth\ngauge\n1\nWelding machine\n1\nInstructional manual\n5 pcs\nDigging blades\n5\nG.I. pipe\n1\nReference book\n5 sets\nElectrical tools\n2\nPuddle wheel\n1\nBrochures\n\nLumber\n1\nWater pump\n1\nLocal map\n2 sets\nMasonry tools\n\n1\nHauling containers\n1\nTide calendar\n\n2 sets\nCarpentry tools\n1\noxygen tank\n1\nModel of different\npond design\n\n5 pcs\nCultivator / rake\n1\nStorage/tool cabinet\n1\nList of species for\ncultivation\n\nLime\n1\nFeed storage\n1\nList of culture\nsystem\n\nNet\n\n1\nfilled oxygen tank\n1\nDrawing materials\n\nP.E. rope\n1\nChilling tank\n1\nTide indicators\n\n10 pcs\nPail, plastic\n1\nGuard house\n\n1\nCopy of financial\nstatement\n5 pcs\nRunning board\n\n1\nLay-out plan\n5 pcs\nWeighing scale\n\n1\nList of dealers\n10 pcs\nWelding rod\n\n5 pcs\nCutting tools\n\n1\n Price list\n5 rolls\nTying materials\n\n1\nProduction size\n\n5\nFloats\n\nSupplies and\nMaterials\n1\nIllustration of\ndifferent design and\nshape of pen and\ncages\n\n25 pcs\nSafety shoes\n\n5\nLive specimens\n1\nList of framing\nmaterials\n\n25 pcs\nPencil\n\n5\nNormal fish,\nsamples\n1\nList of materials\navailable in the area\n25 pcs\nRuler\n5\nInfected fish,\n1\nList of farm facilities\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n67\nsamples\n\n5 rolls\nTracing paper\n\n1 gal.\n Therapeutic\nchemicals\n1\nSupporting\ndocuments for\nprocurements\n5 pcs\nSinkers\n1 botl.\ndisinfectants\n1\nConstruction manual\n5 pcs\nEckman Dredge\n2 gal\ncleaning materials\n1\nInstallation manual\n\n5 pcs\nSecchi disc\n5\npcaks\nBag net\n1\nInstructional manual\nfor aerators/agitators\n\n5 sets\nWater quality\ntest kit\n\n5\nScoop net\n1\nMicro- laboratory for\nfeed analysis\n5 pcs\npH meter\n5\nSiene net\n1\nWater quality test\nkits\n5 pcs\nSoil tester\n5\nGill net\n1\nCD\n5 pcs\nSlidesmith cover\n\nce\n1\nSlides\n10 pcs\nBeaker\n-\nDrying materials\n1\n List of feeds\nsupplier / producer\n15 pcs\nNetting needle\n-\ncoconut leaves\n1\n Feed consumption\nchart\n\n5\nWater current\nmeter\n\n5\nold fish nets\n\n1\n Tide calendar\n\n1 kilo\nCommon nails\n-\nSpecimen of\ndifferent variety of\nseaweeds\n\n1\nActivity sheet\n1 roll\nString\n1 gal\nFormaldehyde\n1\nPictures on\nseaweeds\n5\nCalculator\n1 gal\nTherapeutic\nchemicals\n1\nPosters / charts\n\nfingerlings\n1\nPamphlet\n5\nFeed container\n1 gal\nChlorine\n1\nList of potential\nbuyers\n5 pcs\nPlastic basin\n10 pcs\nBamboo pole\n1\nQuestionnaires\n5 pcs\n Snakel\n10 pcs\nBamboo slats /\nsheet\n1\nPurchase order\nforms\n5 pcs\nThermometer\n(lab.)\n1 sack\nFeeds\n\n25 pcs\n Hand gloves\n1 sack\nfertilizer / lime\n\n5\n Mangrove\nstakes\n1 kl\nSoap (detergent)\n\n Monofilament\nnylon\n\nSeedlings\n\n10 pcs\n Utility basket\n\n25 pcs\nPen\n\n25 pcs\nFace mask\n\n25 pcs\nMarker\n\n5 packs\nPlastic bags\n\n5\nAnchors/sinkers\n\n25 pcs\nBolo\n\n5 rolls\nCast net\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n68\n25 pcs\nClean sack\n\n5 pcs\nContainer\n\n5 pcs\nCurrent meter\n\n5 pcs\nDissecting board\n\n5 sets\nDissecting tools\n\n5\nDissolved\noxygen meter\n\n5 sets\nDrawing\ninstrument\n\n25 pcs\nFace mask\n\n5 pcs\nFish grader\n\n10 pcs\nFlashlights\n\n10 pcs\nForcep\n\n5 pcs\nHammer\n\n5 pcs\nHarvesting\ncontainers\n\n25 pcs\nLab. gown\n\n5 pcs\nMeter gauge\n\n1 roll\nMoving line\n\n1 roll\nNet\n\n25 pcs\nP.E. bag\n\n25 pcs\nP.L. bags\n\n5 pcs\nPecchi disc\n\n25 pcs\nPersonal safety\ngadgets\n\n5 pcs\nRefractometer\n\n5 pcs\nRing/vortex\nblower\n\n5 packs\nRubber band\n\n5 pcs\nSalinometer\n\n5 pcs\nSaw\n\n5 pcs\nScalpel\n\n25 pcs\nScissor\n\n5 pcs\nScoop net\n\n5 pcs\nSeine net\n\n5 pcs\nSinker\n\n10 pcs\nSpatula\n\n5 pcs\nSteel\n\n5 pcs\nSteel brush /\nPlastic brush\n\n5 pcs\nStyrofoam boxes\n\n5 pcs\nSuspension net\n\n1 kl\nTea seed\npowder\n\n--- PDF PAGE 57 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n69\n3.5 TRAINING FACILITIES\n\nAQUACULTURE NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\nA. Building\n(permanent)\n\n170.30\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Learning\nResource Center\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipm\nent/ Circulation\nArea (30% of\nteaching\naccommodation)\n\n 0\n39.30\n• Store Room\n4.00 x 4.00\n16.00\n16.00\nB. Experimental Fish\nFarm\n\n250.00\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nAQUACULTURE NC II\nTRAINER QUALIFICATION (TQ II)\n•\n Must be a holder of Aquaculture NC Iil or its equivalent qualification\n•\n Must have undergone training on Training Methodology II (TM II)\n•\n Must be computer literate\n•\n Must be physically and mentally fit\n•\n *Must have at least 2 years job/industry experience\n•\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\n Reference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who enrolled in\na structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\n--- PDF PAGE 58 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n70"
+    },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n•\n The training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in school and in-industry training\nor fieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilitates the training delivery\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 51\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n• Project-Based Instruction is an authentic instructional model or strategy\nin which students plan, implement and evaluate projects that have\nreal world applications.",
-      "pdf_pages": []
+      "pdf_pages": [
+        52
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n•\n The training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in school and in-industry training\nor fieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilitates the training delivery\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 51\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n• Project-Based Instruction is an authentic instructional model or strategy\nin which students plan, implement and evaluate projects that have\nreal world applications."
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "Trainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAble to read and write\n•\nWith good moral character;\n•\nAbility to communicate, both oral and written\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n66",
-      "pdf_pages": []
+      "pdf_pages": [
+        53
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAble to read and write\n•\nWith good moral character;\n•\nAbility to communicate, both oral and written\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n66"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\nAQUACULTURE NCII\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Aquaculture NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\n\nQTY\nQTY\n5 pcs\nDO meters\n1\n Surveying\nequipment\n1\nManpower\nResources\n5 pcs\nFlow rate meter\n\n1\n generator\n1\nLearning Materials\n25 pcs\nLaboratory\nthermometer\n2\nMicroscope\n\n1\nR.A. 8550\n10 pcs\nShovel\n1\nPlankton counter\n1\nReference book\n5 pcs\nWater depth\ngauge\n1\nWelding machine\n1\nInstructional manual\n5 pcs\nDigging blades\n5\nG.I. pipe\n1\nReference book\n5 sets\nElectrical tools\n2\nPuddle wheel\n1\nBrochures\n\nLumber\n1\nWater pump\n1\nLocal map\n2 sets\nMasonry tools\n\n1\nHauling containers\n1\nTide calendar\n\n2 sets\nCarpentry tools\n1\noxygen tank\n1\nModel of different\npond design\n\n5 pcs\nCultivator / rake\n1\nStorage/tool cabinet\n1\nList of species for\ncultivation\n\nLime\n1\nFeed storage\n1\nList of culture\nsystem\n\nNet\n\n1\nfilled oxygen tank\n1\nDrawing materials\n\nP.E. rope\n1\nChilling tank\n1\nTide indicators\n\n10 pcs\nPail, plastic\n1\nGuard house\n\n1\nCopy of financial\nstatement\n5 pcs\nRunning board\n\n1\nLay-out plan\n5 pcs\nWeighing scale\n\n1\nList of dealers\n10 pcs\nWelding rod\n\n5 pcs\nCutting tools\n\n1\n Price list\n5 rolls\nTying materials\n\n1\nProduction size\n\n5\nFloats\n\nSupplies and\nMaterials\n1\nIllustration of\ndifferent design and\nshape of pen and\ncages\n\n25 pcs\nSafety shoes\n\n5\nLive specimens\n1\nList of framing\nmaterials\n\n25 pcs\nPencil\n\n5\nNormal fish,\nsamples\n1\nList of materials\navailable in the area\n25 pcs\nRuler\n5\nInfected fish,\n1\nList of farm facilities\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n67\nsamples\n\n5 rolls\nTracing paper\n\n1 gal.\n Therapeutic\nchemicals\n1\nSupporting\ndocuments for\nprocurements\n5 pcs\nSinkers\n1 botl.\ndisinfectants\n1\nConstruction manual\n5 pcs\nEckman Dredge\n2 gal\ncleaning materials\n1\nInstallation manual\n\n5 pcs\nSecchi disc\n5\npcaks\nBag net\n1\nInstructional manual\nfor aerators/agitators\n\n5 sets\nWater quality\ntest kit\n\n5\nScoop net\n1\nMicro- laboratory for\nfeed analysis\n5 pcs\npH meter\n5\nSiene net\n1\nWater quality test\nkits\n5 pcs\nSoil tester\n5\nGill net\n1\nCD\n5 pcs\nSlidesmith cover\n\nce\n1\nSlides\n10 pcs\nBeaker\n-\nDrying materials\n1\n List of feeds\nsupplier / producer\n15 pcs\nNetting needle\n-\ncoconut leaves\n1\n Feed consumption\nchart\n\n5\nWater current\nmeter\n\n5\nold fish nets\n\n1\n Tide calendar\n\n1 kilo\nCommon nails\n-\nSpecimen of\ndifferent variety of\nseaweeds\n\n1\nActivity sheet\n1 roll\nString\n1 gal\nFormaldehyde\n1\nPictures on\nseaweeds\n5\nCalculator\n1 gal\nTherapeutic\nchemicals\n1\nPosters / charts\n\nfingerlings\n1\nPamphlet\n5\nFeed container\n1 gal\nChlorine\n1\nList of potential\nbuyers\n5 pcs\nPlastic basin\n10 pcs\nBamboo pole\n1\nQuestionnaires\n5 pcs\n Snakel\n10 pcs\nBamboo slats /\nsheet\n1\nPurchase order\nforms\n5 pcs\nThermometer\n(lab.)\n1 sack\nFeeds\n\n25 pcs\n Hand gloves\n1 sack\nfertilizer / lime\n\n5\n Mangrove\nstakes\n1 kl\nSoap (detergent)\n\n Monofilament\nnylon\n\nSeedlings\n\n10 pcs\n Utility basket\n\n25 pcs\nPen\n\n25 pcs\nFace mask\n\n25 pcs\nMarker\n\n5 packs\nPlastic bags\n\n5\nAnchors/sinkers\n\n25 pcs\nBolo\n\n5 rolls\nCast net\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n68\n25 pcs\nClean sack\n\n5 pcs\nContainer\n\n5 pcs\nCurrent meter\n\n5 pcs\nDissecting board\n\n5 sets\nDissecting tools\n\n5\nDissolved\noxygen meter\n\n5 sets\nDrawing\ninstrument\n\n25 pcs\nFace mask\n\n5 pcs\nFish grader\n\n10 pcs\nFlashlights\n\n10 pcs\nForcep\n\n5 pcs\nHammer\n\n5 pcs\nHarvesting\ncontainers\n\n25 pcs\nLab. gown\n\n5 pcs\nMeter gauge\n\n1 roll\nMoving line\n\n1 roll\nNet\n\n25 pcs\nP.E. bag\n\n25 pcs\nP.L. bags\n\n5 pcs\nPecchi disc\n\n25 pcs\nPersonal safety\ngadgets\n\n5 pcs\nRefractometer\n\n5 pcs\nRing/vortex\nblower\n\n5 packs\nRubber band\n\n5 pcs\nSalinometer\n\n5 pcs\nSaw\n\n5 pcs\nScalpel\n\n25 pcs\nScissor\n\n5 pcs\nScoop net\n\n5 pcs\nSeine net\n\n5 pcs\nSinker\n\n10 pcs\nSpatula\n\n5 pcs\nSteel\n\n5 pcs\nSteel brush /\nPlastic brush\n\n5 pcs\nStyrofoam boxes\n\n5 pcs\nSuspension net\n\n1 kl\nTea seed\npowder\n\n--- PDF PAGE 57 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n69",
-      "pdf_pages": []
+      "pdf_pages": [
+        54
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nAQUACULTURE NCII\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Aquaculture NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\n\nQTY\nQTY\n5 pcs\nDO meters\n1\n Surveying\nequipment\n1\nManpower\nResources\n5 pcs\nFlow rate meter\n\n1\n generator\n1\nLearning Materials\n25 pcs\nLaboratory\nthermometer\n2\nMicroscope\n\n1\nR.A. 8550\n10 pcs\nShovel\n1\nPlankton counter\n1\nReference book\n5 pcs\nWater depth\ngauge\n1\nWelding machine\n1\nInstructional manual\n5 pcs\nDigging blades\n5\nG.I. pipe\n1\nReference book\n5 sets\nElectrical tools\n2\nPuddle wheel\n1\nBrochures\n\nLumber\n1\nWater pump\n1\nLocal map\n2 sets\nMasonry tools\n\n1\nHauling containers\n1\nTide calendar\n\n2 sets\nCarpentry tools\n1\noxygen tank\n1\nModel of different\npond design\n\n5 pcs\nCultivator / rake\n1\nStorage/tool cabinet\n1\nList of species for\ncultivation\n\nLime\n1\nFeed storage\n1\nList of culture\nsystem\n\nNet\n\n1\nfilled oxygen tank\n1\nDrawing materials\n\nP.E. rope\n1\nChilling tank\n1\nTide indicators\n\n10 pcs\nPail, plastic\n1\nGuard house\n\n1\nCopy of financial\nstatement\n5 pcs\nRunning board\n\n1\nLay-out plan\n5 pcs\nWeighing scale\n\n1\nList of dealers\n10 pcs\nWelding rod\n\n5 pcs\nCutting tools\n\n1\n Price list\n5 rolls\nTying materials\n\n1\nProduction size\n\n5\nFloats\n\nSupplies and\nMaterials\n1\nIllustration of\ndifferent design and\nshape of pen and\ncages\n\n25 pcs\nSafety shoes\n\n5\nLive specimens\n1\nList of framing\nmaterials\n\n25 pcs\nPencil\n\n5\nNormal fish,\nsamples\n1\nList of materials\navailable in the area\n25 pcs\nRuler\n5\nInfected fish,\n1\nList of farm facilities\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n67\nsamples\n\n5 rolls\nTracing paper\n\n1 gal.\n Therapeutic\nchemicals\n1\nSupporting\ndocuments for\nprocurements\n5 pcs\nSinkers\n1 botl.\ndisinfectants\n1\nConstruction manual\n5 pcs\nEckman Dredge\n2 gal\ncleaning materials\n1\nInstallation manual\n\n5 pcs\nSecchi disc\n5\npcaks\nBag net\n1\nInstructional manual\nfor aerators/agitators\n\n5 sets\nWater quality\ntest kit\n\n5\nScoop net\n1\nMicro- laboratory for\nfeed analysis\n5 pcs\npH meter\n5\nSiene net\n1\nWater quality test\nkits\n5 pcs\nSoil tester\n5\nGill net\n1\nCD\n5 pcs\nSlidesmith cover\n\nce\n1\nSlides\n10 pcs\nBeaker\n-\nDrying materials\n1\n List of feeds\nsupplier / producer\n15 pcs\nNetting needle\n-\ncoconut leaves\n1\n Feed consumption\nchart\n\n5\nWater current\nmeter\n\n5\nold fish nets\n\n1\n Tide calendar\n\n1 kilo\nCommon nails\n-\nSpecimen of\ndifferent variety of\nseaweeds\n\n1\nActivity sheet\n1 roll\nString\n1 gal\nFormaldehyde\n1\nPictures on\nseaweeds\n5\nCalculator\n1 gal\nTherapeutic\nchemicals\n1\nPosters / charts\n\nfingerlings\n1\nPamphlet\n5\nFeed container\n1 gal\nChlorine\n1\nList of potential\nbuyers\n5 pcs\nPlastic basin\n10 pcs\nBamboo pole\n1\nQuestionnaires\n5 pcs\n Snakel\n10 pcs\nBamboo slats /\nsheet\n1\nPurchase order\nforms\n5 pcs\nThermometer\n(lab.)\n1 sack\nFeeds\n\n25 pcs\n Hand gloves\n1 sack\nfertilizer / lime\n\n5\n Mangrove\nstakes\n1 kl\nSoap (detergent)\n\n Monofilament\nnylon\n\nSeedlings\n\n10 pcs\n Utility basket\n\n25 pcs\nPen\n\n25 pcs\nFace mask\n\n25 pcs\nMarker\n\n5 packs\nPlastic bags\n\n5\nAnchors/sinkers\n\n25 pcs\nBolo\n\n5 rolls\nCast net\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n68\n25 pcs\nClean sack\n\n5 pcs\nContainer\n\n5 pcs\nCurrent meter\n\n5 pcs\nDissecting board\n\n5 sets\nDissecting tools\n\n5\nDissolved\noxygen meter\n\n5 sets\nDrawing\ninstrument\n\n25 pcs\nFace mask\n\n5 pcs\nFish grader\n\n10 pcs\nFlashlights\n\n10 pcs\nForcep\n\n5 pcs\nHammer\n\n5 pcs\nHarvesting\ncontainers\n\n25 pcs\nLab. gown\n\n5 pcs\nMeter gauge\n\n1 roll\nMoving line\n\n1 roll\nNet\n\n25 pcs\nP.E. bag\n\n25 pcs\nP.L. bags\n\n5 pcs\nPecchi disc\n\n25 pcs\nPersonal safety\ngadgets\n\n5 pcs\nRefractometer\n\n5 pcs\nRing/vortex\nblower\n\n5 packs\nRubber band\n\n5 pcs\nSalinometer\n\n5 pcs\nSaw\n\n5 pcs\nScalpel\n\n25 pcs\nScissor\n\n5 pcs\nScoop net\n\n5 pcs\nSeine net\n\n5 pcs\nSinker\n\n10 pcs\nSpatula\n\n5 pcs\nSteel\n\n5 pcs\nSteel brush /\nPlastic brush\n\n5 pcs\nStyrofoam boxes\n\n5 pcs\nSuspension net\n\n1 kl\nTea seed\npowder\n\n--- PDF PAGE 57 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n69"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "AQUACULTURE NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\nA. Building\n(permanent)\n\n170.30\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Learning\nResource Center\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipm\nent/ Circulation\nArea (30% of\nteaching\naccommodation)\n\n 0\n39.30\n• Store Room\n4.00 x 4.00\n16.00\n16.00\nB. Experimental Fish\nFarm\n\n250.00\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nAQUACULTURE NC II\nTRAINER QUALIFICATION (TQ II)\n•\n Must be a holder of Aquaculture NC Iil or its equivalent qualification\n•\n Must have undergone training on Training Methodology II (TM II)\n•\n Must be computer literate\n•\n Must be physically and mentally fit\n•\n *Must have at least 2 years job/industry experience\n•\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\n Reference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        57
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nAQUACULTURE NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\nA. Building\n(permanent)\n\n170.30\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Learning\nResource Center\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipm\nent/ Circulation\nArea (30% of\nteaching\naccommodation)\n\n 0\n39.30\n• Store Room\n4.00 x 4.00\n16.00\n16.00\nB. Experimental Fish\nFarm\n\n250.00"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        57
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nAQUACULTURE NC II\nTRAINER QUALIFICATION (TQ II)\n•\n Must be a holder of Aquaculture NC Iil or its equivalent qualification\n•\n Must have undergone training on Training Methodology II (TM II)\n•\n Must be computer literate\n•\n Must be physically and mentally fit\n•\n *Must have at least 2 years job/industry experience\n•\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\n Reference: TESDA Board Resolution No. 2004 03"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional Assessment is to be undertaken by the learner who enrolled in\na structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\n--- PDF PAGE 58 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n70",
-      "pdf_pages": []
+      "pdf_pages": [
+        57
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who enrolled in\na structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\n--- PDF PAGE 58 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n70"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "276 Hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Aquaculture NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: AQUACULTURE\n\nNC Level: NC II\n\nNominal Training Hours: 1,276 Hours\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes of aquaculture NCll in accordance with industry standards. It covers core\ncompetencies in assisting in aquaculture operations, preparing and maintaining\naquaculture facilities, operating fish nursery, performing fish or shrimp grow-out\noperations, and growing seaweeds..\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n\n1.2 Complete relevant work\nrelated documents.\n\n1.3 Participate in workplace\nmeeting and discussion.\n\nGroup discussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\n\nDiscussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal objectives\nwith organizational goals.\n\n3.2 Set and meet work priorities.\n\n3.3 Maintain professional growth\nand development.\nDiscussion\nInteraction\n\nDemonstration\nObservation\nInterviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\nand safety awareness\nDiscussion\nPlant tour\nSymposium\nObservation\nInterview\n\n--- PDF PAGE 46 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 44\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm operations\n1.1. Determine areas of\nconcern for safety\nmeasures\n1.2. Apply appropriate safety\nmeasures\n1.3. Safekeep/maintain/\ndispose tools, materials\nand outfit.\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical\nDemonstration\nVisit/tour\nOral/Written\nInterviews\nDirect\nObservation\nPractical\nDemonstration\n2. Use farm tools\nand equipment\n2.1. Prepare and use farm\ntools\n2.2. Prepare and operate\nfarm equipment\n2.3. Perform preventive\nmaintenance\nprocedures/practices\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical\nDemonstration\nVisit/tour\n\nOral/Written\nInterviews\nDirect\nObservation\nPractical\nDemonstration\n3. Perform\nestimation\nand\nbasic calculation\n\n3.1. Perform estimation\n3.2. Perform basic workplace\ncalculation\n3.3. Apply corrective\nmeasures as necessary\nSelf-paced/modular\nLecture/Discussion\nInteraction\nPractical Exercise\nOral/Written\nexamination\nPractical\nexercise\n\n--- PDF PAGE 47 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 45\n\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1\nConduct pre-\noperational\naquaculture\nactivities\n\n1.1 Inspect, clean/disinfect and\nrepair tools, simple equipment\nand aquaculture facilities\n1.2 Enumerate and explain\nfisheries and environmental\nlaws, rules and regulations\n1.3 Enumerate and explain the\nreasons for applying disease\ntreatment\n1.4 Apply the procedures in using\ndisinfectants, lime and\nfertilizers\n1.5 Determine method and volume\nof water for water exchange\n1.6 Differentiate normal mortality\nfrom initial outbreak of disease\n1.7 Apply the procedures in\nmonitoring, collecting and\nanalyzing mortalities\n1.8 Identify and apply the various\nmethods used in securing\naquaculture facilities from\nvarious predators and other\nthreats\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n(modular)\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 48 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 46\n2 Prepare and\nmaintain\nAquaculture\nFacilities\n\n2.1 Select suitable pond site\nbased on ECC/EMB-DENR\nRequirement\n2.2 Determine Type of Soil\n2.3 Determine Water Adequacy\nand Quality\n2.4 Identify Prescribed\nTopography\n2.5 Determine land area, size and\nproject budget to suit the size\nshape, slope and materials to\nbe used\n2.6 Determine water adequacy\nand quality\n2.7 Analyze water for water current\nspeed using water current\nmeter\n2.8 Determine natural food by\nplankton sampling and\nmicroscopic examination\n2.9 Measure water transparency\n2.10 Determine substrate and tide\nlevel\n2.11 Identify and design and print\nspecification as to area of the\nland species to be cultured\nand systems\n2.12 Design strong dike to counter\nact forces of nature\n2.13 Identify materials to be used\nbased on production target\nand capitalization\n2.14 Plot markers as guide to the\nlay-out\n2.15 Determine number of farm\nfacilities\n2.16 Determine number, size of\ncompartment, depth of tank,\nbased on the area available\nand the species for culture.\n2.17 Identify materials to be used as\nto production and\ncapitalization.\n2.18 Plot markers as guide to the\nlay-out\n2.19 Determine number of farm\nfacilities to be used.\nDemonstration\nDual training\nSelf-paced\nlearning\nLecture\n\nWritten\nexamination\nDemonstration\nof practical\nskills\nDirect\nobservation\nInterview\n\n--- PDF PAGE 49 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 47\n\n2.20 Determine pen and cages size,\nnumber to be constructed as to\navailability of the given area.\n2.21 Selecting framing materials,\ntype of nets to be used as to\nthe availability and suitability of\nthe area and species to be\ncultured.\n2.22 Determine materials based on\nsite selected\n2.23 Identify other farm facilities\nnecessary to the culture\nmodule\n2.24 Prepare Construction\nResources for Pen and Cages\n2.25 Fabricate Nets\n2.26 Construct and Set Net Frame\n2.27 Prepare Construction\nResources for Ponds.\n2.28 Perform Positioning of Major\nand Other Support Farm\nFacilities.\n2.29 Position Equipment\n2.30 Prepare construction\nresources for tanks\n2.31 Install life support system and\nposition equipment\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 48\n\n3\nOperate Fish\nNursery\n\n3.1 Dry the pond.\n3.2 Harrow and Dry the Soil\n3.3 Select Lime to be Used and\nApply\n3.4 Select and Apply Predator\nControl\n3.5 Allow the Natural Food to\nBloom\n3.6 Select Fertilizer and Compute\nRate Application\n3.7 Set-up aerators/agitators\n3.8 Determine water quality\nparameters\n3.9 Observe care in handling,\ntransporting and stocking of\nfishes\n3.10 Store Feeds Properly\n3.11 Sample and Analyze Feeds for\nRation\n3.12 Compute Daily Feed Ration\n3.13 Monitor Water Quality\n3.14 Maintain Optimum Water\nQuality\n3.15 Monitor and Observe Diseases\n3.16 Diagnose Infected Fish\n3.17 Identify Appropriate Treatment\n3.18 Practice Preventive Measures\nAgainst Disease\n3.19 Schedule harvest\n3.20 Prepare harvesting materials\n3.21 Observe proper handling while\nharvesting\n3.22 Demonstrate proper grading,\ncounting and packing of live\nfish\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n\nLecture\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 49\n\n4 Perform Fish\nOr Shrimp\nGrow-Out\nOperations\n\n4.1 Prepare pond\n4.2 Install Pens and Cages\n4.3 Clean Tanks\n4.4 Acclimatize fish / crustacean\nfingerlings to pH, temperature\nand Salinity.\n4.5 Release fingerlings at\nappropriate time of the day.\n4.6 Determine procedures in stock\nsampling\n4.7 Calculate periodic stock\nsampling\n4.8 Source feeds\n4.9 Store feeds properly\n4.10 Compute feed ration and feed\nthe fish\n4.11 Monitor water quality using\nappropriate instrument\n4.12 Maintain optimum water quality\n4.13 Observe and Monitor Disease\n4.14 Sample and Diagnose Infected\nFish\n4.15 Identify and Implement\nTreatment\n4.16 Determine preventive\nmeasures against agents of\ndiseases\n4.17 Prepare harvesting materials\n4.18 Seine stocks in pond and pen\n4.19 Lift cage bags\n\nDemonstration\n\nDual training\n\nSelf-paced\nlearning\n\nLecture\n\nWritten\nexamination\n\nDemonstration\nof practical\nskills\n\nDirect\nobservation\n\nInterview\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 50\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n•\n The training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in school and in-industry training\nor fieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilitates the training delivery\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________\nTR-Aquaculture NC II\n\nPromulgated December 2004 51\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n• Project-Based Instruction is an authentic instructional model or strategy\nin which students plan, implement and evaluate projects that have\nreal world applications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAble to read and write\n•\nWith good moral character;\n•\nAbility to communicate, both oral and written\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n66\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nAQUACULTURE NCII\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Aquaculture NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\n\nQTY\nQTY\n5 pcs\nDO meters\n1\n Surveying\nequipment\n1\nManpower\nResources\n5 pcs\nFlow rate meter\n\n1\n generator\n1\nLearning Materials\n25 pcs\nLaboratory\nthermometer\n2\nMicroscope\n\n1\nR.A. 8550\n10 pcs\nShovel\n1\nPlankton counter\n1\nReference book\n5 pcs\nWater depth\ngauge\n1\nWelding machine\n1\nInstructional manual\n5 pcs\nDigging blades\n5\nG.I. pipe\n1\nReference book\n5 sets\nElectrical tools\n2\nPuddle wheel\n1\nBrochures\n\nLumber\n1\nWater pump\n1\nLocal map\n2 sets\nMasonry tools\n\n1\nHauling containers\n1\nTide calendar\n\n2 sets\nCarpentry tools\n1\noxygen tank\n1\nModel of different\npond design\n\n5 pcs\nCultivator / rake\n1\nStorage/tool cabinet\n1\nList of species for\ncultivation\n\nLime\n1\nFeed storage\n1\nList of culture\nsystem\n\nNet\n\n1\nfilled oxygen tank\n1\nDrawing materials\n\nP.E. rope\n1\nChilling tank\n1\nTide indicators\n\n10 pcs\nPail, plastic\n1\nGuard house\n\n1\nCopy of financial\nstatement\n5 pcs\nRunning board\n\n1\nLay-out plan\n5 pcs\nWeighing scale\n\n1\nList of dealers\n10 pcs\nWelding rod\n\n5 pcs\nCutting tools\n\n1\n Price list\n5 rolls\nTying materials\n\n1\nProduction size\n\n5\nFloats\n\nSupplies and\nMaterials\n1\nIllustration of\ndifferent design and\nshape of pen and\ncages\n\n25 pcs\nSafety shoes\n\n5\nLive specimens\n1\nList of framing\nmaterials\n\n25 pcs\nPencil\n\n5\nNormal fish,\nsamples\n1\nList of materials\navailable in the area\n25 pcs\nRuler\n5\nInfected fish,\n1\nList of farm facilities\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n67\nsamples\n\n5 rolls\nTracing paper\n\n1 gal.\n Therapeutic\nchemicals\n1\nSupporting\ndocuments for\nprocurements\n5 pcs\nSinkers\n1 botl.\ndisinfectants\n1\nConstruction manual\n5 pcs\nEckman Dredge\n2 gal\ncleaning materials\n1\nInstallation manual\n\n5 pcs\nSecchi disc\n5\npcaks\nBag net\n1\nInstructional manual\nfor aerators/agitators\n\n5 sets\nWater quality\ntest kit\n\n5\nScoop net\n1\nMicro- laboratory for\nfeed analysis\n5 pcs\npH meter\n5\nSiene net\n1\nWater quality test\nkits\n5 pcs\nSoil tester\n5\nGill net\n1\nCD\n5 pcs\nSlidesmith cover\n\nce\n1\nSlides\n10 pcs\nBeaker\n-\nDrying materials\n1\n List of feeds\nsupplier / producer\n15 pcs\nNetting needle\n-\ncoconut leaves\n1\n Feed consumption\nchart\n\n5\nWater current\nmeter\n\n5\nold fish nets\n\n1\n Tide calendar\n\n1 kilo\nCommon nails\n-\nSpecimen of\ndifferent variety of\nseaweeds\n\n1\nActivity sheet\n1 roll\nString\n1 gal\nFormaldehyde\n1\nPictures on\nseaweeds\n5\nCalculator\n1 gal\nTherapeutic\nchemicals\n1\nPosters / charts\n\nfingerlings\n1\nPamphlet\n5\nFeed container\n1 gal\nChlorine\n1\nList of potential\nbuyers\n5 pcs\nPlastic basin\n10 pcs\nBamboo pole\n1\nQuestionnaires\n5 pcs\n Snakel\n10 pcs\nBamboo slats /\nsheet\n1\nPurchase order\nforms\n5 pcs\nThermometer\n(lab.)\n1 sack\nFeeds\n\n25 pcs\n Hand gloves\n1 sack\nfertilizer / lime\n\n5\n Mangrove\nstakes\n1 kl\nSoap (detergent)\n\n Monofilament\nnylon\n\nSeedlings\n\n10 pcs\n Utility basket\n\n25 pcs\nPen\n\n25 pcs\nFace mask\n\n25 pcs\nMarker\n\n5 packs\nPlastic bags\n\n5\nAnchors/sinkers\n\n25 pcs\nBolo\n\n5 rolls\nCast net\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n68\n25 pcs\nClean sack\n\n5 pcs\nContainer\n\n5 pcs\nCurrent meter\n\n5 pcs\nDissecting board\n\n5 sets\nDissecting tools\n\n5\nDissolved\noxygen meter\n\n5 sets\nDrawing\ninstrument\n\n25 pcs\nFace mask\n\n5 pcs\nFish grader\n\n10 pcs\nFlashlights\n\n10 pcs\nForcep\n\n5 pcs\nHammer\n\n5 pcs\nHarvesting\ncontainers\n\n25 pcs\nLab. gown\n\n5 pcs\nMeter gauge\n\n1 roll\nMoving line\n\n1 roll\nNet\n\n25 pcs\nP.E. bag\n\n25 pcs\nP.L. bags\n\n5 pcs\nPecchi disc\n\n25 pcs\nPersonal safety\ngadgets\n\n5 pcs\nRefractometer\n\n5 pcs\nRing/vortex\nblower\n\n5 packs\nRubber band\n\n5 pcs\nSalinometer\n\n5 pcs\nSaw\n\n5 pcs\nScalpel\n\n25 pcs\nScissor\n\n5 pcs\nScoop net\n\n5 pcs\nSeine net\n\n5 pcs\nSinker\n\n10 pcs\nSpatula\n\n5 pcs\nSteel\n\n5 pcs\nSteel brush /\nPlastic brush\n\n5 pcs\nStyrofoam boxes\n\n5 pcs\nSuspension net\n\n1 kl\nTea seed\npowder\n\n--- PDF PAGE 57 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n69\n3.5 TRAINING FACILITIES\n\nAQUACULTURE NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\nA. Building\n(permanent)\n\n170.30\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Learning\nResource Center\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipm\nent/ Circulation\nArea (30% of\nteaching\naccommodation)\n\n 0\n39.30\n• Store Room\n4.00 x 4.00\n16.00\n16.00\nB. Experimental Fish\nFarm\n\n250.00\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nAQUACULTURE NC II\nTRAINER QUALIFICATION (TQ II)\n•\n Must be a holder of Aquaculture NC Iil or its equivalent qualification\n•\n Must have undergone training on Training Methodology II (TM II)\n•\n Must be computer literate\n•\n Must be physically and mentally fit\n•\n *Must have at least 2 years job/industry experience\n•\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\n Reference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who enrolled in\na structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\n--- PDF PAGE 58 ---\n____________________________________________________________________________\nTR-Aquaculture NC II Promulgated December 2004\n\n70"
 }
