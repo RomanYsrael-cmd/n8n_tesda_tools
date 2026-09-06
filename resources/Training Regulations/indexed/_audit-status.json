@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T01:11:40+08:00",
+  "last_updated": "2026-09-07T01:25:57+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 250,
-  "remaining_unaudited": 134,
+  "audited_count": 255,
+  "remaining_unaudited": 129,
   "blocked_count": 0,
   "documents": [
     {
@@ -3258,6 +3258,71 @@
       "validation_passed": true,
       "last_audit_commit": "08296ec271f3bafe83540cbaf1aa110e20b7b85d",
       "audit_notes": "Rebuilt 4/4/3 historical two-column groups; restored 32 curriculum rows, 5 assessment arrangements, and 2 definition-term entries, preserved the undated Promulgated running-header label, the 1 through 46 printed-page sequence, and the 18/20/56-hour components with 94-hour total, restored the two unnumbered source criteria under ALT315307 element 1 as normalized criteria while retaining the original source text, preserved the Laboratory and Metrology/Calibration Services terminology variant, and retained page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Laboratory and Metrology Calibration Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Laboratory and Metrology Calibration Services NC III",
+      "source_file": "resources/Training Regulations/Laboratory and Metrology Calibration Services NC III.pdf",
+      "source_sha256": "dceb72ecf30d132cf88b438dcaf0783144439869c05bfdc6f17d2b4e0c597036",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:25:57+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "920777651dee755623067e0c86f32eb5feb05726",
+      "audit_notes": "Rebuilt 6/4/3 historical two-column groups; restored 44 curriculum rows, 6 assessment arrangements, and 2 definition-term entries, preserved the undated Promulgated running-header label, the 1 through 54 printed-page sequence, and the 20/20/56-hour components with 96-hour total, preserved the Laboratory and Metrology/Calibration Services terminology variant, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Land-Based Transport Mobile Air-conditioning (MAC) Servicing NC II",
+      "package_path": "resources/Training Regulations/indexed/Land-Based Transport Mobile Air-conditioning (MAC) Servicing NC II",
+      "source_file": "resources/Training Regulations/Land-Based Transport Mobile Air-conditioning (MAC) Servicing NC II.pdf",
+      "source_sha256": "c14d34732e2ee0f0f5275110d80ae352c533b927b02c735af09e24b38e3542e9",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:25:57+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "920777651dee755623067e0c86f32eb5feb05726",
+      "audit_notes": "Rebuilt 9/9/3 revised four-column groups with required knowledge and skills; restored 73 curriculum rows, 2 assessment arrangements, and 43 definition-term entries, preserved Promulgated: June 8, 2021, the 1 through 110 printed-page sequence, the 37/35/240-hour components, 400-hour Supervised Industry Learning (SIL), and 712-hour total, recorded the HVC311204/HVC311205 and HVC315201/HVC7315201 common-code discrepancies through source_unit_code and source-fidelity notes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Land-Based Transport Refrigeration Servicing NC II",
+      "package_path": "resources/Training Regulations/indexed/Land-Based Transport Refrigeration Servicing NC II",
+      "source_file": "resources/Training Regulations/Land-Based Transport Refrigeration Servicing NC II.pdf",
+      "source_sha256": "b1401aca7819e377203dfeac3f2dcf74fcbb9ca5d9bdfdf798995dbe5a58ce1a",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:25:57+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "920777651dee755623067e0c86f32eb5feb05726",
+      "audit_notes": "Rebuilt 4/9/3 revised four-column groups with required knowledge and skills; restored 56 curriculum rows, 6 assessment arrangements, and 70 definition-term entries, preserved Promulgated December 16, 2015, the 1 through 97 printed-page sequence, and the 18/34/488-hour components with 540-hour total, restored required-knowledge column text for two affected units whose source layout merged that column during extraction, recorded the HVC311204/HVC311205 and HVC315201/HVC7315201 common-code discrepancies through source_unit_code and source-fidelity notes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Landscape Installation and Maintenance (Softscape) NC II",
+      "package_path": "resources/Training Regulations/indexed/Landscape Installation and Maintenance (Softscape) NC II",
+      "source_file": "resources/Training Regulations/Landscape Installation and Maintenance (Softscape) NC II.pdf",
+      "source_sha256": "8a5cbc36a846a6558cf0d6f72c53397d4f26287587506ab13feec5fca8a481e3",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:25:57+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "920777651dee755623067e0c86f32eb5feb05726",
+      "audit_notes": "Rebuilt 4/3/14 historical two-column groups; restored 87 curriculum rows, 6 assessment arrangements, and 1 definition-term entry, preserved the single 212-hour nominal duration with its 18/14/180-hour curriculum components and the 1 through 91 printed-page sequence, retained the Landscaping/Landscape Installation and Maintenance/(Softscape) qualification variants, and preserved the repeated 'UNIIT OF COMPETENCY' source typo in page-preserved text while normalizing the canonical unit inventory; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Lifeguard Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Lifeguard Services NC II",
+      "source_file": "resources/Training Regulations/Lifeguard Services NC II.pdf",
+      "source_sha256": "5c6a3a2bdde65b2b547d0a6172aee4b31aa8956f8b03972d30e94c2d68aa5fda",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:25:57+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "920777651dee755623067e0c86f32eb5feb05726",
+      "audit_notes": "Rebuilt 4/4/5 revised four-column groups with required knowledge and skills; restored 51 curriculum rows, 3 assessment arrangements, and 107 definition-term entries, preserved Promulgated December 16, 2015, the 1 through 154 printed-page sequence, and the 20/240/720-hour components with 980-hour total, restored required-knowledge column text for four affected rescue/scanning units whose source layout merged that column during extraction, excluded the late false 100100 heading, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
