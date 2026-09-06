@@ -1,29 +1,179 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:gas-metal-arc-welding-gmaw-nc-iii:c0f0c4d677",
   "qualification": "GAS METAL ARC WELDING (GMAW) NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Gas Metal Arc Welding (GMAW) NC III.pdf",
-    "sha256": "c0f0c4d677c6eaae29d6d7e2b38d11197aa18eb4f750b4fb6d34fdf52737ecd3",
+    "source_sha256": "c0f0c4d677c6eaae29d6d7e2b38d11197aa18eb4f750b4fb6d34fdf52737ecd3",
+    "pdf_pages": 67,
+    "printed_pages": 66,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not print a promulgation date in the page-preserved footer; the canonical promulgated field remains null.",
+    "The source prints 20 Basic, 56 Common, and 72 Core hours; the canonical duration records the 148-hour arithmetic total.",
+    "The source uses historical two-column Element/Performance Criteria tables. Section 1 prints 500311113, while the unit heading prints 3500311113; the canonical unit code follows Section 1 and source_unit_code preserves the unit-heading literal."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date in the page-preserved footer; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 56 Common, and 72 Core hours; the canonical duration records the 148-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria tables. Section 1 prints 500311113, while the unit heading prints 3500311113; the canonical unit code follows Section 1 and source_unit_code preserves the unit-heading literal."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Gas Metal Arc Welding (GMAW) NC III.pdf",
-    "pdf_pages": 67,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "3500311113",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "MEE721201",
+      "source_unit_code": "MEE721201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "MEE721202",
+      "source_unit_code": "MEE721202",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "MEE721203",
+      "source_unit_code": "MEE721203",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "MEE721204",
+      "source_unit_code": "MEE721204",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "MEE721205",
+      "source_unit_code": "MEE721205",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "MEE721206",
+      "source_unit_code": "MEE721206",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "MEE721207",
+      "source_unit_code": "MEE721207",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    },
+    {
+      "unit_code": "MEE721208",
+      "source_unit_code": "MEE721208",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    },
+    {
+      "unit_code": "MEE721209",
+      "source_unit_code": "MEE721209",
+      "pdf_page_range": [
+        47,
+        49
+      ]
+    },
+    {
+      "unit_code": "MEE721114",
+      "source_unit_code": "MEE721114",
+      "pdf_page_range": [
+        50,
+        52
+      ]
+    },
+    {
+      "unit_code": "MEE721118",
+      "source_unit_code": "MEE721118",
+      "pdf_page_range": [
+        53,
+        55
+      ]
+    }
+  ]
 }
