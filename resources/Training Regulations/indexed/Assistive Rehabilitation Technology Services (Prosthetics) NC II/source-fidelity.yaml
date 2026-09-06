@@ -1,29 +1,205 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:assistive-rehabilitation-technology-services-prosthetics-nc-ii:cd94af96ea",
-  "qualification": "Assistive Rehabilitation Technology Services (Prosthetics) NC II",
+  "qualification": "ASSISTIVE REHABILITATION TECHNOLOGY SERVICES (PROSTHETICS) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Assistive Rehabilitation Technology Services (Prosthetics) NC II.pdf",
-    "sha256": "cd94af96eab115d7590e44f675c81a4c2bdec72765e513c916055e7d8b98fdb6",
+    "source_sha256": "cd94af96eab115d7590e44f675c81a4c2bdec72765e513c916055e7d8b98fdb6",
+    "pdf_pages": 153,
+    "printed_pages": 149,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The Section 1 common-unit wording uses high standard while the Section 2 header uses high standards; normalized retrieval follows the Section 2 unit title and preserves source_text.",
+    "The table of contents prints TRAINING ARRANEGMENTS; the source heading and page-preserved text are retained while the canonical section label is normalized.",
+    "The source prints the partial promulgation date (05/2021) and 993 total hours, including 480 hours of Supervised Industry Learning (SIL); both are retained as printed.",
+    "The cover identifies the sector as HUMAN HEALTH/EALTH CARE, preserving the source spelling anomaly in the page-preserved source layer."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 common-unit wording uses high standard while the Section 2 header uses high standards; normalized retrieval follows the Section 2 unit title and preserves source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The table of contents prints TRAINING ARRANEGMENTS; the source heading and page-preserved text are retained while the canonical section label is normalized."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints the partial promulgation date (05/2021) and 993 total hours, including 480 hours of Supervised Industry Learning (SIL); both are retained as printed."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The cover identifies the sector as HUMAN HEALTH/EALTH CARE, preserving the source spelling anomaly in the page-preserved source layer."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Assistive Rehabilitation Technology Services (Prosthetics) NC II.pdf",
-    "pdf_pages": 153,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "HHC321201",
+      "source_unit_code": "HHC321201",
+      "pdf_page_range": [
+        39,
+        45
+      ]
+    },
+    {
+      "unit_code": "HHC321202",
+      "source_unit_code": "HHC321202",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "HHC321203",
+      "source_unit_code": "HHC321203",
+      "pdf_page_range": [
+        50,
+        56
+      ]
+    },
+    {
+      "unit_code": "HHC321204",
+      "source_unit_code": "HHC321204",
+      "pdf_page_range": [
+        57,
+        62
+      ]
+    },
+    {
+      "unit_code": "HHC321301",
+      "source_unit_code": "HHC321301",
+      "pdf_page_range": [
+        63,
+        65
+      ]
+    },
+    {
+      "unit_code": "HHC321302",
+      "source_unit_code": "HHC321302",
+      "pdf_page_range": [
+        66,
+        71
+      ]
+    },
+    {
+      "unit_code": "HHC321303",
+      "source_unit_code": "HHC321303",
+      "pdf_page_range": [
+        72,
+        76
+      ]
+    },
+    {
+      "unit_code": "HHC321304",
+      "source_unit_code": "HHC321304",
+      "pdf_page_range": [
+        77,
+        80
+      ]
+    },
+    {
+      "unit_code": "HHC321305",
+      "source_unit_code": "HHC321305",
+      "pdf_page_range": [
+        81,
+        84
+      ]
+    },
+    {
+      "unit_code": "HHC321306",
+      "source_unit_code": "HHC321306",
+      "pdf_page_range": [
+        85,
+        87
+      ]
+    }
+  ]
 }

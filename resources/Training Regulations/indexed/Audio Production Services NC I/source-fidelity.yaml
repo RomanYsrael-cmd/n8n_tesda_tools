@@ -1,29 +1,192 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:audio-production-services-nc-i:ef435ae904",
   "qualification": "AUDIO PRODUCTION SERVICES NC I",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Audio Production Services NC I.pdf",
-    "sha256": "ef435ae904a1a0b3b66482e989b51507c722ecfb1cba868de7e06ab9c520a451",
+    "source_sha256": "ef435ae904a1a0b3b66482e989b51507c722ecfb1cba868de7e06ab9c520a451",
+    "pdf_pages": 113,
+    "printed_pages": 109,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The competency headers for Receive and respond to workplace communication and Apply environmental work standards do not expose their unit codes in the page extraction; the normalized inventory follows the corresponding Section 1 codes 400311101 and 400311108 while source_text preserves the header gaps.",
+    "The source prints 315 total hours: 47 Basic, 88 Common, 100 Core, and 80 hours of Supervised Industry Learning (SIL).",
+    "The source prints the date as (12/17/2019); the date is retained literally because the source does not state an alternate day/month interpretation."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The competency headers for Receive and respond to workplace communication and Apply environmental work standards do not expose their unit codes in the page extraction; the normalized inventory follows the corresponding Section 1 codes 400311101 and 400311108 while source_text preserves the header gaps."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 315 total hours: 47 Basic, 88 Common, 100 Core, and 80 hours of Supervised Industry Learning (SIL)."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints the date as (12/17/2019); the date is retained literally because the source does not state an alternate day/month interpretation."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Audio Production Services NC I.pdf",
-    "pdf_pages": 113,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311101",
+      "source_unit_code": "400311101",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "400311102",
+      "source_unit_code": "400311102",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311103",
+      "source_unit_code": "400311103",
+      "pdf_page_range": [
+        12,
+        17
+      ]
+    },
+    {
+      "unit_code": "400311104",
+      "source_unit_code": "400311104",
+      "pdf_page_range": [
+        18,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311105",
+      "source_unit_code": "400311105",
+      "pdf_page_range": [
+        22,
+        23
+      ]
+    },
+    {
+      "unit_code": "400311106",
+      "source_unit_code": "400311106",
+      "pdf_page_range": [
+        24,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311107",
+      "source_unit_code": "400311107",
+      "pdf_page_range": [
+        29,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311108",
+      "source_unit_code": "400311108",
+      "pdf_page_range": [
+        34,
+        38
+      ]
+    },
+    {
+      "unit_code": "400311109",
+      "source_unit_code": "400311109",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "CRE265201",
+      "source_unit_code": "CRE265201",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "CRE265202",
+      "source_unit_code": "CRE265202",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    },
+    {
+      "unit_code": "CRE265203",
+      "source_unit_code": "CRE265203",
+      "pdf_page_range": [
+        49,
+        50
+      ]
+    },
+    {
+      "unit_code": "CRE265204",
+      "source_unit_code": "CRE265204",
+      "pdf_page_range": [
+        51,
+        52
+      ]
+    },
+    {
+      "unit_code": "CRE265205",
+      "source_unit_code": "CRE265205",
+      "pdf_page_range": [
+        53,
+        54
+      ]
+    },
+    {
+      "unit_code": "CRE265206",
+      "source_unit_code": "CRE265206",
+      "pdf_page_range": [
+        55,
+        57
+      ]
+    },
+    {
+      "unit_code": "CRE265207",
+      "source_unit_code": "CRE265207",
+      "pdf_page_range": [
+        58,
+        62
+      ]
+    },
+    {
+      "unit_code": "CRE352101",
+      "source_unit_code": "CRE352101",
+      "pdf_page_range": [
+        63,
+        69
+      ]
+    },
+    {
+      "unit_code": "CRE352102",
+      "source_unit_code": "CRE352102",
+      "pdf_page_range": [
+        70,
+        72
+      ]
+    }
+  ]
 }

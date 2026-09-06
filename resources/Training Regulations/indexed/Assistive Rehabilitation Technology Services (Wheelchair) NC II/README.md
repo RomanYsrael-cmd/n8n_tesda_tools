@@ -1,15 +1,5 @@
 # Assistive Rehabilitation Technology Services (Wheelchair) NC II
 
-Generated from `Assistive Rehabilitation Technology Services (Wheelchair) NC II.pdf`. The TESDA PDF remains authoritative.
+This package has complete semantic coverage of the TESDA Training Regulation, including competency standards, training standards, assessment and certification, the competency map, glossary, acknowledgements, and source-fidelity metadata. It is a semantic-normalized index, not a verbatim regulatory transcription. The official TESDA source remains authoritative.
 
-This package is `semantic_normalized` and `verbatim_transcription: false`. Use `tr.md` and `source-fidelity.yaml` when exact source wording or anomalies need review.
-
-## Package files
-
-- `competencies.yaml`: all detected Basic/Common/Core/other units, elements, numbered Performance Criteria, required knowledge/skills, ranges, evidence guides, and unit source text.
-- `training-standards.yaml`: Section 3 source text, curriculum entries, durations, and detected subsections.
-- `assessment-certification.yaml`: Section 4 source text and numbered arrangements.
-- `competency-map.yaml`, `glossary.yaml`, `acknowledgements.yaml`: semantic fields plus preserved source text where present.
-- `source-fidelity.yaml`: provenance, normalization policy, and extraction observations.
-- `semantic-index.jsonl`: deterministic selectors for package retrieval.
-- `manifest.json`: package coverage and validation metadata.
+The page-preserved source extraction is in `tr.md`; known source-code and source-text anomalies are recorded in `source-fidelity.yaml`.
