@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T02:16:53+08:00",
+  "last_updated": "2026-09-07T02:37:21+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 270,
-  "remaining_unaudited": 114,
+  "audited_count": 275,
+  "remaining_unaudited": 109,
   "blocked_count": 0,
   "documents": [
     {
@@ -3518,6 +3518,71 @@
       "validation_passed": true,
       "last_audit_commit": "75115297dbf54c8709b5db9d0e7ea93102e2ff96",
       "audit_notes": "Rebuilt 4/4/2 superseded historical two-column groups; restored 42 curriculum rows, 5 assessment arrangements, and 18 definition-term entries, preserved the superseded lifecycle, undated source heading, the 1 through 61 printed-page sequence despite the stale TOC labels, and the 28/20/56-hour components with 104-hour arithmetic total, restored the missing 500311103 header code from Section 1, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Masonry NC II",
+      "package_path": "resources/Training Regulations/indexed/Masonry NC II",
+      "source_file": "resources/Training Regulations/Masonry NC II.pdf",
+      "source_sha256": "536aee022007708ddfae26b068a2c7e2b395f0b69425844b440b9d2ddb874b4f",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:37:21+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b93c1fb7733c19dc9e865c981c429fe6bbb7b674",
+      "audit_notes": "Rebuilt 9/4/2 revised four-column groups; restored 44 curriculum rows, 2 assessment arrangements, and 5 glossary entries, preserved Revision 01, Promulgated (10/29/2018), the 1 through 94 printed-page sequence, and the 37/24/120-hour components with 181-hour total, recovered the Section 2 400311217 unit whose heading was separated by extraction, retained the GLOSARRY and ASSSSMENT source spellings, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Masonry NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Masonry NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Masonry NC II (Superseded).pdf",
+      "source_sha256": "227099632b10b708e734393e4725fde54203001e46312013528049ac527d28d5",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:37:21+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b93c1fb7733c19dc9e865c981c429fe6bbb7b674",
+      "audit_notes": "Rebuilt 4/4/5 superseded historical two-column groups; restored 24 curriculum rows, 6 assessment arrangements, and 21 definition-term entries, preserved the superseded lifecycle, the 1 through 63 printed-page sequence, and the 18/24/216-hour components with 258-hour arithmetic total, restored the three available legacy core curriculum tables, recorded the source omission of CON712301 and CON712302 without inventing rows, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Masonry NC III",
+      "package_path": "resources/Training Regulations/indexed/Masonry NC III",
+      "source_file": "resources/Training Regulations/Masonry NC III.pdf",
+      "source_sha256": "ad689848cf00d091501b5ee059176823154c5d1af64e9140ae7496dbe6c2eb57",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:37:21+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b93c1fb7733c19dc9e865c981c429fe6bbb7b674",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups; restored 55 curriculum rows, 2 assessment arrangements, and 4 glossary entries, preserved Revision 01, Promulgated (10/29/2018), the 1 through 116 printed-page sequence, and the 40/24/80-hour components with 144-hour total, retained the GLOSARRY and ASSSSMENT source spellings, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Masonry NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Masonry NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Masonry NC III (Superseded).pdf",
+      "source_sha256": "a6881904f23c78377b08c5b8977f5455c088c8c20634e054165f07fea1a3f0a2",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:37:21+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b93c1fb7733c19dc9e865c981c429fe6bbb7b674",
+      "audit_notes": "Rebuilt 6/5/7 superseded historical two-column groups; restored 66 curriculum rows, 6 assessment arrangements, and 21 definition-term entries, preserved the superseded lifecycle, the 1 through 92 printed-page sequence, and the 20/24/320-hour components with 364-hour arithmetic total, restored the seven legacy core curriculum tables, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Massage Therapy NC II",
+      "package_path": "resources/Training Regulations/indexed/Massage Therapy NC II",
+      "source_file": "resources/Training Regulations/Massage Therapy NC II.pdf",
+      "source_sha256": "5a0c01011370148bab34aea76afc4532f310f5653b7e7b416b454627640b52f0",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:37:21+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "b93c1fb7733c19dc9e865c981c429fe6bbb7b674",
+      "audit_notes": "Rebuilt 4/5/4 revised four-column groups; restored 44 curriculum rows, 2 assessment arrangements, and 38 glossary entries, preserved the amended source and Promulgated February 2017, the 1 through 158 printed-page sequence plus the unnumbered closing page, and the 20/56/624-hour components with 700-hour total, recorded the Section 1 versus Section 2 common-code discrepancies, restored required-knowledge text for Perform body massage, repaired the split final core curriculum heading, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
