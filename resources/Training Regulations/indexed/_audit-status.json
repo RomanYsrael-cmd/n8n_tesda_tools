@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T14:27:17+08:00",
+  "last_updated": "2026-09-06T14:36:41+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 80,
-  "remaining_unaudited": 304,
+  "audited_count": 85,
+  "remaining_unaudited": 299,
   "blocked_count": 0,
   "documents": [
     {
@@ -1048,6 +1048,71 @@
       "validation_passed": true,
       "last_audit_commit": "4403ea0a10fca44f1e89f0c09e48999b124208d3",
       "audit_notes": "Rebuilt 6/4/5 historical two-column groups; restored 53 curriculum rows, preserved the November 2007 promulgation and 20/24/248-hour duration totaling 292 hours, recorded Section 1/table title variants, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Bread and Pastry Production NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Bread and Pastry Production NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Bread and Pastry Production NC II (Superseded).pdf",
+      "source_sha256": "c0a5ff12daf04c71bfb5833c5f4798668d536eb0940d59ac6868565cd1ac612b",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:36:41+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b1ef41a55a048b0848a915bd130ea453a8b76694",
+      "audit_notes": "Rebuilt 4/5/5 superseded historical two-column groups; restored 48 curriculum rows, preserved the July 2009 promulgation, 18/18/105-hour components and computed 141-hour total, recorded the Section 1 versus Section 2 common-unit order and amendment note, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Broadband Installation (Fixed Wireless Systems) NC II",
+      "package_path": "resources/Training Regulations/indexed/Broadband Installation (Fixed Wireless Systems) NC II",
+      "source_file": "resources/Training Regulations/Broadband Installation (Fixed Wireless Systems) NC II.pdf",
+      "source_sha256": "5045185e8a1f9ce9b555f4f94a3b2f01025547cab72c9b20ae2331b0142e0145",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:36:41+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "b1ef41a55a048b0848a915bd130ea453a8b76694",
+      "audit_notes": "Rebuilt 4/2/4 historical two-column groups; restored 46 curriculum rows, preserved the absent promulgation date, 18/18/80-hour components and computed 116-hour total, normalized shorthand DESCRIPTOR headers, recorded qualification title variants, and repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Cable TV Installation NC II",
+      "package_path": "resources/Training Regulations/indexed/Cable TV Installation NC II",
+      "source_file": "resources/Training Regulations/Cable TV Installation NC II.pdf",
+      "source_sha256": "aea55402c9bc1a6a582a4f480af63df68b1e704da1aee387cb9d94a6e2ba4cf4",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:36:41+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b1ef41a55a048b0848a915bd130ea453a8b76694",
+      "audit_notes": "Rebuilt 4/4/5 historical two-column groups; restored 62 curriculum rows, preserved the absent promulgation date, 18/44/300-hour components and computed 362-hour total, normalized shorthand DESCRIPTOR headers, recorded the INCSTALLATION source typo and imported-unit markers, and repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Cable TV Operation and Maintenance NC III",
+      "package_path": "resources/Training Regulations/indexed/Cable TV Operation and Maintenance NC III",
+      "source_file": "resources/Training Regulations/Cable TV Operation and Maintenance NC III.pdf",
+      "source_sha256": "286fb51d2d90fbd6610f26cd5ac6b75095c5a2644ab2fd4d5fd5e01098098951",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:36:41+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "b1ef41a55a048b0848a915bd130ea453a8b76694",
+      "audit_notes": "Rebuilt 6/4/5 historical two-column groups; restored 54 curriculum rows, preserved the December 2007 promulgation, the printed 36/44/612-hour components, the 176-hour course-description total and resulting 692-versus-176 arithmetic mismatch, normalized shorthand DESCRIPTOR headers, recorded shifted MDA core header codes and title variants, and repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "CAD CAM Operation NC III",
+      "package_path": "resources/Training Regulations/indexed/CAD CAM Operation NC III",
+      "source_file": "resources/Training Regulations/CAD CAM Operation NC III.pdf",
+      "source_sha256": "4ee6c8a912f084ee8bee0e72e7d7f98d18d296c3131207a0a2e136c4d73be865",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:36:41+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b1ef41a55a048b0848a915bd130ea453a8b76694",
+      "audit_notes": "Rebuilt 6/12/2 historical two-column groups; restored 69 curriculum rows, preserved the absent promulgation date and explicit 24/130/80-hour components with 234-hour total, normalized the MEE 722209 code spacing, recorded the CAD/CAM Operatin source typo, and repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
     }
   ]
 }
