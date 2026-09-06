@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T19:32:00+08:00",
+  "last_updated": "2026-09-06T19:51:18+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 155,
-  "remaining_unaudited": 229,
+  "audited_count": 160,
+  "remaining_unaudited": 224,
   "blocked_count": 0,
   "documents": [
     {
@@ -2023,6 +2023,71 @@
       "validation_passed": true,
       "last_audit_commit": "76d4829",
       "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 41 curriculum rows, preserved Promulgated July 2007 and the 18/14/120-hour components with 152-hour total, recorded the Section 1 AGR741206 unit without a corresponding Section 2 standard, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Fishing Gear Repair and Maintenance NC III",
+      "package_path": "resources/Training Regulations/indexed/Fishing Gear Repair and Maintenance NC III",
+      "source_file": "resources/Training Regulations/Fishing Gear Repair and Maintenance NC III.pdf",
+      "source_sha256": "059f5e79f50033b64f61fafdb3b1c90603776715c5ae49f000b44a95a3899fa2",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:51:18+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "dba27ab",
+      "audit_notes": "Rebuilt 6/3/3 historical two-column groups; restored 31 curriculum rows, 6 assessment arrangements, and 12 definition-term entries, preserved the absent promulgation date and the 18/14/120-hour components with 152-hour total, retained the AGR641303 prerequisite reference and source terminology, and preserved page-marked source text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Fishport Wharf Operation NC I",
+      "package_path": "resources/Training Regulations/indexed/Fishport Wharf Operation NC I",
+      "source_file": "resources/Training Regulations/Fishport Wharf Operation NC I.pdf",
+      "source_sha256": "8cc461ae7991304f9fc6ce51ad55d2b9997296068d9192da12169bc135ce175e",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:51:18+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "dba27ab",
+      "audit_notes": "Rebuilt 4/4/2 historical two-column groups; restored 39 curriculum rows, 6 assessment arrangements, and 24 definition-term entries, preserved the absent promulgation date and the 18/14/64-hour components with 96-hour total, retained Fishport/Wharf naming variants and source terminology, and preserved page-marked source text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Flux-Cored Arc Welding (FCAW) NC I",
+      "package_path": "resources/Training Regulations/indexed/Flux-Cored Arc Welding (FCAW) NC I",
+      "source_file": "resources/Training Regulations/Flux-Cored Arc Welding (FCAW) NC I.pdf",
+      "source_sha256": "2cc4b09c7c0d8144486ebfc0e140c99846d99827c40fbf81f657f6b8961f1a56",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:51:18+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "dba27ab",
+      "audit_notes": "Rebuilt 4/9/1 historical two-column groups; restored 51 curriculum rows and 9 definition-term entries, preserved the absent promulgation date and the 28/56/72-hour components with a 156-hour arithmetic total, normalized the MEE721305 Section 2 header against the MEE721315 Section 1 core code, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Flux-Cored Arc Welding (FCAW) NC II",
+      "package_path": "resources/Training Regulations/indexed/Flux-Cored Arc Welding (FCAW) NC II",
+      "source_file": "resources/Training Regulations/Flux-Cored Arc Welding (FCAW) NC II.pdf",
+      "source_sha256": "ee1f5ec96155a04c2ed0e2db9bcd53e1df2dea41c5edefa25ef646d142c3b9cb",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:51:18+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "dba27ab",
+      "audit_notes": "Rebuilt 4/9/1 historical two-column groups; restored 50 curriculum rows and 9 definition-term entries, including the page-49 occupational-safety outcomes numbered 8.1-8.3, preserved the absent promulgation date and the 18/56/194-hour components with a 268-hour arithmetic total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Flux-Cored Arc Welding (FCAW) NC III",
+      "package_path": "resources/Training Regulations/indexed/Flux-Cored Arc Welding (FCAW) NC III",
+      "source_file": "resources/Training Regulations/Flux-Cored Arc Welding (FCAW) NC III.pdf",
+      "source_sha256": "ed4b35354cd7ff08dbb400b2e0dd126a8d6332091f448731310fc9f8fd4d81b7",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:51:18+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "dba27ab",
+      "audit_notes": "Rebuilt 6/9/2 historical two-column groups; restored 55 curriculum rows and 9 definition-term entries, preserved the absent promulgation date and the 20/56/72-hour components with a 148-hour arithmetic total, normalized the 3500311113, MEE721115, and MEE7721119 source-header variants against the Section 1 identifiers, and retained the source 4.1 curriculum label, terminology, and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
