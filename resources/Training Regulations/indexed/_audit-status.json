@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T22:10:41+08:00",
+  "last_updated": "2026-09-06T22:30:59+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 200,
-  "remaining_unaudited": 184,
+  "audited_count": 205,
+  "remaining_unaudited": 179,
   "blocked_count": 0,
   "documents": [
     {
@@ -2608,6 +2608,71 @@
       "validation_passed": true,
       "last_audit_commit": "8e964d46e189861b2405a5171802573fc9f2ca0f",
       "audit_notes": "Rebuilt 4/4/8 historical two-column groups; restored 51 curriculum rows, 7 assessment arrangements, and 72 definition-term entries, preserved the Amended November 2010 label and superseded lifecycle with the 18/18/620-hour components and 656-hour total, retained a null canonical promulgation date because the source only notes amendment of the August 2005 regulation, recorded the Section 1 HCS515201/HCS515202 versus unit-heading HCS516201/HCS516202 discrepancies, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Hairdressing NC III",
+      "package_path": "resources/Training Regulations/indexed/Hairdressing NC III",
+      "source_file": "resources/Training Regulations/Hairdressing NC III.pdf",
+      "source_sha256": "7b56c18b822b204cc405c7409dd13340873bfc37395fa3caca26cce5e1454a31",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:30:59+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "5d400a5d741a6a0a50d3c48fd5afbcf204bf1d67",
+      "audit_notes": "Rebuilt 9/4/3 revised four-column groups with required knowledge and skills; restored 62 curriculum rows, 2 assessment arrangements, and 68 definition-term entries, preserved Revision 01 and Promulgated (06/09/2020) with the 40/24/140-hour in-school components plus 40-hour SIL and 244-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Hairdressing NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Hairdressing NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Hairdressing NC III (Superseded).pdf",
+      "source_sha256": "8ae49b732043e05f0a902ba4279f0b78f4b29f44f7e0408465c4dca66e0c2fe2",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:30:59+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "5d400a5d741a6a0a50d3c48fd5afbcf204bf1d67",
+      "audit_notes": "Rebuilt 6/4/5/3 historical two-column basic/common/core/elective groups; restored 63 curriculum rows, 7 assessment arrangements, and 73 definition-term entries, preserved the Amended label and superseded lifecycle with the 20/18/400/200-hour components and 638-hour total, retained a null canonical promulgation date because the source notes amendment of the August 2005 regulation, recorded the Section 1 500311113 versus unit-heading 3500311113 discrepancy, restored the omitted common-unit and creative-perming curriculum outcomes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Handloom Weaving (Backstrap) NC II",
+      "package_path": "resources/Training Regulations/indexed/Handloom Weaving (Backstrap) NC II",
+      "source_file": "resources/Training Regulations/Handloom Weaving (Backstrap) NC II.pdf",
+      "source_sha256": "ef3c640809a02de50e8a8d6df832288fc6d964a48f042874c693304023172c61",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:30:59+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5d400a5d741a6a0a50d3c48fd5afbcf204bf1d67",
+      "audit_notes": "Rebuilt 9/8/3 revised four-column groups with required knowledge and skills; restored 63 curriculum rows, 11 assessment arrangements, and 37 definition-term entries, preserved Revision 00 and Promulgated (12/12/2023) with the 37/301/91-hour components and 429-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Handloom Weaving (Upright) NC II",
+      "package_path": "resources/Training Regulations/indexed/Handloom Weaving (Upright) NC II",
+      "source_file": "resources/Training Regulations/Handloom Weaving (Upright) NC II.pdf",
+      "source_sha256": "407c71eda769b8d07598e6403c69022e14965c4c05e4bbbd40c3d673dbcbb4b3",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:30:59+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "5d400a5d741a6a0a50d3c48fd5afbcf204bf1d67",
+      "audit_notes": "Rebuilt 9/8/3 revised four-column groups with required knowledge and skills; restored 63 curriculum rows, 2 assessment arrangements, and 16 definition-term entries, preserved Revision 00 and Promulgated (02/18/2020) with the 37/301/91-hour in-school components, separate 80-hour SIL, and 509-hour arithmetic total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Hard Disk Drive (HDD) Front-of-line (FOL) Operations NC II",
+      "package_path": "resources/Training Regulations/indexed/Hard Disk Drive (HDD) Front-of-line (FOL) Operations NC II",
+      "source_file": "resources/Training Regulations/Hard Disk Drive (HDD) Front-of-line (FOL) Operations NC II.pdf",
+      "source_sha256": "7d30aecb30dda65bbe4c25cd546d2a9eac8f13e4855092faa3e610794ee6ae55",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:30:59+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5d400a5d741a6a0a50d3c48fd5afbcf204bf1d67",
+      "audit_notes": "Rebuilt 4/3/3 revised four-column groups with required knowledge and skills; restored 35 curriculum rows, 2 assessment arrangements, and 39 definition-term entries, preserved the New label and Promulgated Dec. 16, 2015 with the 16/16/48-hour components and 80-hour total, remapped the common-unit curriculum rows whose source reused 4.x/5.x numbering, preserved the HARD DIDK footer typo, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
