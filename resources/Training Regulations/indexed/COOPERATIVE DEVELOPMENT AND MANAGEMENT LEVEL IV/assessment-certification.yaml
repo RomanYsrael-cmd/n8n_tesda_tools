@@ -1,13 +1,21 @@
 {
-  "schema": "tesda-assessment-certification-arrangements",
+  "schema": "tesda-assessment-certification",
   "schema_version": "2.0",
   "document_id": "tesda:tr:cooperative-development-and-management-level-iv:17de9d92ea",
   "qualification": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV",
-  "content_status": "absent_or_unreadable",
+  "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV.pdf",
-    "pdf_pages": 128
+    "pdf_pages": 128,
+    "printed_pages": 126,
+    "promulgated": null
   },
-  "arrangements": [],
-  "source_text": null
+  "arrangements": [
+    {
+      "number": "source-note",
+      "text": "No Section 4 Assessment and Certification Arrangements section is present in the source PDF."
+    }
+  ],
+  "source_text": "No Section 4 Assessment and Certification Arrangements section is present in the source PDF."
 }

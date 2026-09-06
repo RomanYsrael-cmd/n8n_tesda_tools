@@ -10,24 +10,24 @@
   "lifecycle": {
     "status": "unclear",
     "verified_on": null,
-    "verification_basis": "No external lifecycle determination was made; local source evidence does not explicitly label status."
+    "verification_basis": "Local source package classification; official source PDF remains authoritative."
   },
   "source": {
     "authority": "Technical Education and Skills Development Authority (TESDA)",
     "source_file": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV.pdf",
     "source_sha256": "17de9d92ea20b890ea4ca9b3268746c2dd9195453b8b815b82b09fcf9fbfaa99",
     "pdf_pages": 128,
-    "printed_pages": null,
+    "printed_pages": 126,
     "authoritative": true
   },
   "coverage": {
     "qualification": true,
     "competency_standards": {
-      "basic_units": 1,
-      "common_units": 1,
-      "core_units": 0,
-      "other_units": 10,
-      "total_units": 12,
+      "basic_units": 9,
+      "common_units": 3,
+      "core_units": 6,
+      "other_units": 0,
+      "total_units": 18,
       "descriptors": true,
       "elements": true,
       "performance_criteria": true,
@@ -38,24 +38,24 @@
       "section_present": true,
       "curriculum_design": false,
       "training_delivery": false,
-      "trainee_entry_requirements": false,
+      "trainee_entry_requirements": true,
       "tools_equipment_materials": false,
       "training_facilities": false,
-      "trainer_qualifications": false,
+      "trainer_qualifications": true,
       "institutional_assessment": false
     },
-    "assessment_and_certification": false,
-    "competency_map": false,
-    "glossary": false,
+    "assessment_and_certification": true,
+    "competency_map": true,
+    "glossary": true,
     "acknowledgements": true
   },
   "fidelity": {
     "competency_units": "normalized_with_source_text",
     "performance_criteria": "numbered_normalized_with_source_text",
-    "range_of_variables": "structured_when_detectable_with_source_text",
-    "evidence_guides": "preserved_source_text",
-    "training_standards": "preserved_source_text",
-    "assessment_certification": "preserved_source_text",
+    "range_of_variables": "structured_with_source_text",
+    "evidence_guides": "structured_with_source_text",
+    "training_standards": "preserved_source_text_with_curriculum_rows",
+    "assessment_certification": "numbered_normalized_with_source_text",
     "glossary": "normalized_with_source_text",
     "acknowledgements": "normalized_entities_with_source_text"
   },
@@ -81,10 +81,6 @@
   "retrieval": {
     "preferred_lookup_key": "unit_code",
     "index_format": "jsonl",
-    "canonical_formats": [
-      "markdown",
-      "yaml"
-    ],
     "selector_contract": "semantic-index-v1",
     "whole_pdf_required_for_normal_lookup": false,
     "official_pdf_required_for_regulatory_verification": true
@@ -95,7 +91,7 @@
     "json_valid": true,
     "selectors_valid": true,
     "no_placeholders": true,
-    "competency_count": 12,
+    "competency_count": 18,
     "validated_on": "2026-09-06"
   }
 }

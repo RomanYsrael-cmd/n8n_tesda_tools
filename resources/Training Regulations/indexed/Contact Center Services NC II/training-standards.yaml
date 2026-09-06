@@ -1,31 +1,731 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:contact-center-services-nc-ii:9206633efe",
-  "qualification": "Contact Center Services NC II",
+  "qualification": "CONTACT CENTER SERVICES NC II",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Contact Center Services NC II.pdf",
-    "pdf_pages": 55
+    "pdf_pages": 55,
+    "printed_pages": 51,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 108,
+        "source_expression": "108 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 144,
+    "total_source_expression": "144 hrs.",
+    "source_expressions": [
+      "18 hrs. - Basic Competencies",
+      "18 hrs. - Common Competencies",
+      "108 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 144,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meeting and discussion. Group discussion Interaction",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team member. Discussion Interaction",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "questioning 1,"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs",
+          "Listening to audio and/or viewing video recordings",
+          "Homework and assigned readings",
+          "Call simulation",
+          "In-house/ Enterprise-based training by contact centers or in partnership with contact centers"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions and dialogs",
+          "Random demonstration s by students",
+          "Demonstration via a simulated call flow"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs",
+          "Listening to audio and/or viewing video recordings",
+          "Homework and assigned readings",
+          "Call simulation",
+          "In-house/ Enterprise-based training by contact centers or in partnership with contact centers"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions and dialogs",
+          "Random demonstration s by students",
+          "Demonstration via a simulated call flow"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development. Discussion Interaction",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs",
+          "Listening to audio and/or viewing video recordings",
+          "Homework and assigned readings",
+          "Call simulation",
+          "In-house/ Enterprise-based training by contact centers or in partnership with contact centers"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions and dialogs",
+          "Random demonstration s by students",
+          "Demonstration via a simulated call flow"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Evaluate hazard and risks",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Maintain occupational health and safety awareness Discussion Plant tour Symposium",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Asses quality of received materials",
+        "learning_activities": [],
+        "methodology": [
+          "1. Field trip 1. Demonstration and 2. Symposium"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Assess own work",
+        "learning_activities": [],
+        "methodology": [
+          "3. Problem 2. Observation solving"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Engage in quality improvement",
+        "learning_activities": [],
+        "methodology": [
+          "and 4. Film showing 5. Simulation 3. Third 6. Individualize report learning 7. On the job training"
+        ],
+        "assessment_approach": [
+          "questioning party"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Plan and prepare for task to be undertaken",
+        "learning_activities": [],
+        "methodology": [
+          "1. Modular 1. Demonstration 2. Film showing and"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Input data into computer",
+        "learning_activities": [],
+        "methodology": [
+          "3. Computer 2. Observation"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Access information using computer",
+        "learning_activities": [],
+        "methodology": [
+          "based and training (e- 3. Third"
+        ],
+        "assessment_approach": [
+          "questioning party"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Produce output/ data using computer system",
+        "learning_activities": [],
+        "methodology": [
+          "learning) report 4. Project 4. Assessment"
+        ],
+        "assessment_approach": [
+          "of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Use basic functions of a www-browser to locate information",
+        "learning_activities": [],
+        "methodology": [
+          "method output 5. On the job 5. Portfolio training 6. Computer"
+        ],
+        "assessment_approach": [
+          "product"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.6",
+        "learning_outcome": "Maintain computer equipment and systems",
+        "learning_activities": [],
+        "methodology": [
+          "training 6. Computer based assessment"
+        ],
+        "assessment_approach": [
+          "1,"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 41
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313365",
+        "unit_title": "Communicate effectively in English for customer service",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Demonstrate appropriate usage and understanding of words",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 42
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313365",
+        "unit_title": "Communicate effectively in English for customer service",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Apply the rules of basic grammar in verbal communication effectively",
+        "learning_activities": [],
+        "methodology": [
+          "Listening to audio and/or viewing video recordings",
+          "Homework and"
+        ],
+        "assessment_approach": [
+          "discussions and dialogs",
+          "Random demonstration s by students"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 42
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313365",
+        "unit_title": "Communicate effectively in English for customer service",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Apply the rules of basic communication in customer service effectively",
+        "learning_activities": [],
+        "methodology": [
+          "assigned readings",
+          "(Activity) Roleplay",
+          "In-house/ Enterprise-based"
+        ],
+        "assessment_approach": [
+          "s by students",
+          "Buddy Assessment",
+          "Online Assessment"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 42
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313365",
+        "unit_title": "Communicate effectively in English for customer service",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Apply the rules of effective business communication in customer service",
+        "learning_activities": [],
+        "methodology": [
+          "training by contact centers or in partnership with contact centers",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Assessment",
+          "Scorecard",
+          "Demonstration via a simulated call flow",
+          "Trainer"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 42
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313366",
+        "unit_title": "Perform customer service delivery processes",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Demonstrate an understanding and appreciation of the industry work environment for contact centers, industry expectations for entry- level contact center agent work, and career",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs",
+          "Listening to audio and/or viewing video recordings",
+          "Homework and assigned readings",
+          "(Activity) Role play",
+          "In-house/"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions and dialogs",
+          "Random demonstration s by students",
+          "Buddy Assessment",
+          "Online Assessment"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 42
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313366",
+        "unit_title": "Perform customer service delivery processes",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Identify and describe the rules and principles for good/complete customer service and the types of contact center processes",
+        "learning_activities": [],
+        "methodology": [
+          "Enterprise-based training by contact centers or in partnership with contact centers"
+        ],
+        "assessment_approach": [
+          "Assessment",
+          "Demonstration via a simulated call flow"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 42
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313366",
+        "unit_title": "Perform customer service delivery processes",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Complete the tasks in the conduct of a customer service delivery process by applying skills in effective English communication",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs",
+          "Listening to audio and/or viewing video recordings",
+          "Homework and assigned readings",
+          "(Activity) Role play",
+          "In-house/"
+        ],
+        "assessment_approach": [
+          "1,"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 42
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313367",
+        "unit_title": "Demonstrate ability to effectively engage customers",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Apply the rules and guidelines for building effective interpersonal relationships to engage customers",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs",
+          "Listening to audio and/or viewing video recordings",
+          "Homework and assigned readings",
+          "Call simulation",
+          "In-house/ Enterprise-based training by contact centers or in partnership with contact centers"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions and dialogs",
+          "Random demonstration s by students",
+          "Demonstration via a simulated call flow"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 43
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313366",
+        "unit_title": "Perform customer service delivery processes",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Institution- Based:",
+        "learning_activities": [],
+        "methodology": [
+          "1. Modular 1. Demonstration 2. Film showing and"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313366",
+        "unit_title": "Perform customer service delivery processes",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Enterprise-Based:",
+        "learning_activities": [],
+        "methodology": [
+          "3. Computer 2. Observation"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions and dialogs",
+          "Random demonstration s by students",
+          "Buddy Assessment",
+          "Online Assessment"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313365",
+        "unit_title": "Communicate effectively in English for customer service",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "x 2 (5) 15 15 learning resource / storage 4 x 5 20 20 circulation area 20 20 Total Workshop Area: 85",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group discussion and dialogs"
+        ],
+        "assessment_approach": [
+          "Trainer assessment of group discussions"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      }
+    ],
     "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
   },
-  "subsections": {},
-  "nominal_duration": {
-    "source_expressions": [
-      "18 Hours",
-      "18 Hours",
-      "108 Hours",
-      "144 Hours",
-      "18 Hours",
-      "18 Hours",
-      "108 Hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
+  "subsections": {
+    "curriculum_design": {
+      "present": true,
+      "pdf_pages": [
+        40
+      ],
+      "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
+    },
+    "training_delivery": {
+      "present": true,
+      "pdf_pages": [
+        43
+      ],
+      "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
+    },
+    "trainee_entry_requirements": {
+      "present": true,
+      "pdf_pages": [
+        44
+      ],
+      "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
+    },
+    "tools_equipment_materials": {
+      "present": true,
+      "pdf_pages": [
+        44
+      ],
+      "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
+    },
+    "training_facilities": {
+      "present": true,
+      "pdf_pages": [
+        45
+      ],
+      "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        45
+      ],
+      "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
+    },
+    "institutional_assessment": {
+      "present": true,
+      "pdf_pages": [
+        45
+      ],
+      "source_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
+    }
   },
   "source_section_text": "SECTION 3.\nTRAINING ARRANGEMENTS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Contact Center Services NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\n\nCONTACT CENTER SERVICES NC Level: NC II\nNominal Training Hours: 18 Hours (Basic Competencies)\n+ 18 Hours (Common Competencies)\n 108 Hours (Core Competencies)\n---------------------------------------\n 144 Hours - TOTAL\n\nCourse Description:\n\nThis course is designed to develop the basic and common knowledge,\nskills, and attitudes of a Contact Center Services Provider in accordance with\nindustry standards. It covers the basic, common and core competencies.\nSpecifically, it includes competencies such as - communicate effectively in\nEnglish for customer service, demonstrate ability to effectively engage\ncustomers and perform customer service delivery processes.\n.\nTo obtain this, all units prescribed for this qualification must be achieved:\n\nBASIC COMPETENCIES\n(18 Hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\n meeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\n team.\n2.2 Describe work as a team\n member.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 41 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n38\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n(18 Hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n2. Symposium\n3. Problem\nsolving\n4. Film showing\n5. Simulation\n6. Individualize\nlearning\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Plan and prepare for\ntask to be undertaken\n2.2. Input data into computer\n2.3. Access information\nusing computer\n2.4. Produce output/ data\nusing computer system\n2.5. Use basic functions of a\nwww-browser to locate\ninformation\n2.6. Maintain computer\nequipment and systems\n\n1. Modular\n2. Film showing\n3. Computer\nbased\ntraining (e-\nlearning)\n4. Project\nmethod\n5. On the job\ntraining\n1. Demonstration\nand questioning\n2. Observation\nand questioning\n3. Third party\nreport\n4. Assessment of\noutput product\n5. Portfolio\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 42 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 39\nCORE COMPETENCIES\n(108 Hours)\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Communicate\nEffectively in\nEnglish for\nCustomer\nService\n1.1 Demonstrate\nappropriate usage and\nunderstanding of words\n1.2 Apply the rules of basic\ngrammar in verbal\ncommunication\neffectively\n1.3 Apply the rules of basic\ncommunication in\ncustomer service\neffectively\n1.4 Apply the rules of\neffective business\ncommunication in\ncustomer service\n\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Roleplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Scorecard\n• Demonstration\nvia a simulated\ncall flow\n2. Perform\ncustomer\nservice\ndelivery\nprocesses\n2.1 Demonstrate an\nunderstanding and\nappreciation of the\nindustry work\nenvironment for contact\ncenters, industry\nexpectations for entry-\nlevel contact center\nagent work, and career\nopportunities for\ncontact center agents\n2.2 Identify and describe\nthe rules and principles\nfor good/complete\ncustomer service and\nthe types of contact\ncenter processes\n2.3 Complete the tasks in\nthe conduct of a\ncustomer service\ndelivery process by\napplying skills in\neffective English\ncommunication\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• (Activity) Role\nplay\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Buddy\nAssessment\n• Online\nAssessment\n• Demonstration\nvia a simulated\ncall flow\n\n--- PDF PAGE 43 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n40\n3. Demonstrate\nability to\nengage\ncustomers\n3.1 Apply the rules and\nguidelines for building\neffective interpersonal\nrelationships to engage\ncustomers\n• Lecture\n• Group discussion\nand dialogs\n• Listening to audio\nand/or viewing\nvideo recordings\n• Homework and\nassigned readings\n• Call simulation\n• In-house/\nEnterprise-based\ntraining by contact\ncenters or in\npartnership with\ncontact centers\n• Trainer\nassessment of\ngroup\ndiscussions\nand dialogs\n• Random\ndemonstration\ns by students\n• Demonstration\nvia a simulated\ncall flow\n\n3.2.\nTRAINING DELIVERY\n\n1. The delivery of training shall adhere to the design of the curriculum. Delivery shall be\nguided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate individualized\nand self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology.\n\nd. Assessment is based in the collection of evidence of the performance of work\nto the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude into\naccount but requires evidence of actual performance of the competency as the\nprimary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\n2. The competency-based TVET system recognizes various types of delivery modes,\nboth on-and off-the-job as long as the learning is driven by the competency standards\nspecified by the industry. The following training modalities and their variations/\ncomponents may be adopted singly or in combination with other modalities when\ndesigning and delivering training programs:\n\n--- PDF PAGE 44 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 41\n2.1.\nInstitution- Based:\n\n• The traditional classroom-based or in-center instruction may be\nenhanced through use of learner-centered methods as well as laboratory or\nfield-work components.\n\n2.2.\nEnterprise-Based:\n\n• Enterprise-based Training- where training is implemented within the\ncompany in accordance with the requirements of the specific company.\nSpecific guidelines on this mode shall be issued by the TESDA Secretariat.\n\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS\ncertificate of achievement with grade 10 equivalent holder\n• Can communicate in English either oral or written\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nCONTACT CENTER SERVICES NC II\n\nRecommended list of tools, equipment and materials for the training of 25 trainees for\nContact Center Services NC II -\n\nQUANTITY\nEQUIPMENT\n25 sets\nComputer with peripherals (for use in audio and video playback of\nreference and sample recordings)\n25 sets\nComputer tables and chairs (ergonomic)\n1 unit\nLCD projector\n1 unit\nWhite board\n1 facility\nESL laboratory (optional)\n1 subscription\nInternet access\n25 sets\nSoftware for office productivity\n25 sets\nInternet browser (Google Chrome, Safari, Firefox, etc. except\nInternet Explorer) updated to the latest version\n\n--- PDF PAGE 45 ---\n________________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014\n42\n\nQUANTITY\nMATERIALS\n25 sets\nMacromedia Flash browser plug-in and application, updated to the\nlatest version\n 1 set\nVideo and audio recordings (sample speech reference recordings)\n1 set\nVideo and audio recordings (sample contact center recordings)\n\n3.5.\nTRAINING FACILITIES\n\nThe Contact Center Workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nTEACHING /\nLEARNING AREAS\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\nlecture area\n4 x 5\n20\n20\nwash room\n2 x 5\n10\n10\nlaboratory (cubicle)\n1.5 x 2 (5)\n15\n15\nlearning resource /\nstorage\n4 x 5\n20\n20\ncirculation area\n20\n20\nTotal Workshop Area:\n85\n\n3.6.\nTRAINERS QUALIFICATION\n\nCONTACT CENTER SERVICES NC II\n\n• Must have completed Trainer’s Methodology level I (TM I) course\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 18 months contact center experience\n• *Must qualify in the following:\no AB/BS degree holder\no 12 months experience in training – or as a trainer\n\n*Optional. Only when required by the hiring institution.\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency.\n\n--- PDF PAGE 46 ---\n______________________________________________________________________________\nTR-ICT (CONTACT CENTER SERVICES NC II) Amended - October 1, 2014 43"
 }

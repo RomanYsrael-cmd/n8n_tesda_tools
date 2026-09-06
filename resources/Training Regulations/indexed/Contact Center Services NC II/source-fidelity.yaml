@@ -1,29 +1,130 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:contact-center-services-nc-ii:9206633efe",
-  "qualification": "Contact Center Services NC II",
+  "qualification": "CONTACT CENTER SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Contact Center Services NC II.pdf",
-    "sha256": "9206633efe3cce09739a0f57d8011269823e33a17ea51b071655a7b885cbafaf",
+    "source_sha256": "9206633efe3cce09739a0f57d8011269823e33a17ea51b071655a7b885cbafaf",
+    "pdf_pages": 55,
+    "printed_pages": 51,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills fields.",
+    "The source is marked Amended - October 1, 2014 rather than printing a promulgation date; the canonical promulgated field is null.",
+    "The source prints 18 Basic, 18 Common, and 108 Core hours followed by a 144-hour total; the canonical duration preserves those components and total.",
+    "Section 1 lists common units ICT315202 and ICT311203, while their Section 2 headers print 506315202 and 506311203; canonical codes follow Section 1 and source_unit_code preserves the header codes.",
+    "The source uses historical title, punctuation, and customer-service wording variants; source_text preserves the printed forms while the indexed inventory follows the qualification unit list.",
+    "The final core curriculum row contains one visible 3.1 learning outcome; the normalized curriculum excludes header/subsection bleed that follows the row in extracted line order."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Amended - October 1, 2014 rather than printing a promulgation date; the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, and 108 Core hours followed by a 144-hour total; the canonical duration preserves those components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists common units ICT315202 and ICT311203, while their Section 2 headers print 506315202 and 506311203; canonical codes follow Section 1 and source_unit_code preserves the header codes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical title, punctuation, and customer-service wording variants; source_text preserves the printed forms while the indexed inventory follows the qualification unit list."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The final core curriculum row contains one visible 3.1 learning outcome; the normalized curriculum excludes header/subsection bleed that follows the row in extracted line order."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Contact Center Services NC II.pdf",
-    "pdf_pages": 55,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        17,
+        21
+      ]
+    },
+    {
+      "unit_code": "ICT315202",
+      "source_unit_code": "506315202",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "ICT311203",
+      "source_unit_code": "506311203",
+      "pdf_page_range": [
+        26,
+        30
+      ]
+    },
+    {
+      "unit_code": "ICT313365",
+      "source_unit_code": "ICT313365",
+      "pdf_page_range": [
+        31,
+        32
+      ]
+    },
+    {
+      "unit_code": "ICT313366",
+      "source_unit_code": "ICT313366",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "ICT313367",
+      "source_unit_code": "ICT313367",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    }
+  ]
 }

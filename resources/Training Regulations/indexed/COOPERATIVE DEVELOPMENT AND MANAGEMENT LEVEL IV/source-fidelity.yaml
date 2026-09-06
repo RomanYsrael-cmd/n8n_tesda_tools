@@ -1,34 +1,197 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:cooperative-development-and-management-level-iv:17de9d92ea",
   "qualification": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV.pdf",
-    "sha256": "17de9d92ea20b890ea4ca9b3268746c2dd9195453b8b815b82b09fcf9fbfaa99",
+    "source_sha256": "17de9d92ea20b890ea4ca9b3268746c2dd9195453b8b815b82b09fcf9fbfaa99",
+    "pdf_pages": 128,
+    "printed_pages": 126,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills fields.",
+    "No promulgation date or nominal training duration is printed; the canonical promulgated field is null and the nominal-duration components remain empty rather than inventing hours.",
+    "The source Section 3 contains trainee entry requirements and trainer qualifications only; it does not provide a curriculum-design table. The indexed curriculum_design section therefore preserves present=false and an empty entries list.",
+    "The six core competency headers and Section 1 inventory print XXXXXXX instead of regulatory unit codes; deterministic retrieval keys are synthetic title-based identifiers, source_unit_code is left blank, and source_text preserves the printed XXXXXXX marker.",
+    "The source uses title variants including Utilize specialized communication skill and inconsistent cooperative terminology; the indexed titles follow the competency headers/qualification inventory while source_text preserves the source wording."
   ],
   "observations": [
     {
-      "kind": "missing_section",
-      "detail": "Section 4 was not detected by heading extraction."
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "No promulgation date or nominal training duration is printed; the canonical promulgated field is null and the nominal-duration components remain empty rather than inventing hours."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source Section 3 contains trainee entry requirements and trainer qualifications only; it does not provide a curriculum-design table. The indexed curriculum_design section therefore preserves present=false and an empty entries list."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The six core competency headers and Section 1 inventory print XXXXXXX instead of regulatory unit codes; deterministic retrieval keys are synthetic title-based identifiers, source_unit_code is left blank, and source_text preserves the printed XXXXXXX marker."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title variants including Utilize specialized communication skill and inconsistent cooperative terminology; the indexed titles follow the competency headers/qualification inventory while source_text preserves the source wording."
     }
   ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV.pdf",
-    "pdf_pages": 128,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311401",
+      "source_unit_code": "500311401",
+      "pdf_page_range": [
+        5,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311402",
+      "source_unit_code": "500311402",
+      "pdf_page_range": [
+        12,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311403",
+      "source_unit_code": "500311403",
+      "pdf_page_range": [
+        18,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311404",
+      "source_unit_code": "500311404",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "500311405",
+      "source_unit_code": "500311405",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "500311406",
+      "source_unit_code": "500311406",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "500311407",
+      "source_unit_code": "500311407",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "500311408",
+      "source_unit_code": "500311408",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "500311409",
+      "source_unit_code": "500311409",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "SOC941201",
+      "source_unit_code": "SOC941201",
+      "pdf_page_range": [
+        46,
+        50
+      ]
+    },
+    {
+      "unit_code": "SOC941202",
+      "source_unit_code": "SOC941202",
+      "pdf_page_range": [
+        51,
+        56
+      ]
+    },
+    {
+      "unit_code": "SOC941203",
+      "source_unit_code": "SOC941203",
+      "pdf_page_range": [
+        57,
+        61
+      ]
+    },
+    {
+      "unit_code": "COOP-ESTABLISH-COOPERATIVE",
+      "source_unit_code": "",
+      "pdf_page_range": [
+        62,
+        76
+      ]
+    },
+    {
+      "unit_code": "COOP-DEVELOP-QUALITY-PRODUCTS-AND-SERVICES",
+      "source_unit_code": "",
+      "pdf_page_range": [
+        77,
+        86
+      ]
+    },
+    {
+      "unit_code": "COOP-DEVELOP-HUMAN-RESOURCES",
+      "source_unit_code": "",
+      "pdf_page_range": [
+        87,
+        94
+      ]
+    },
+    {
+      "unit_code": "COOP-PRACTICE-GOOD-GOVERNANCE",
+      "source_unit_code": "",
+      "pdf_page_range": [
+        95,
+        104
+      ]
+    },
+    {
+      "unit_code": "COOP-ENSURE-SAFE-AND-SOUND-OPERATION",
+      "source_unit_code": "",
+      "pdf_page_range": [
+        105,
+        116
+      ]
+    },
+    {
+      "unit_code": "COOP-CONTRIBUTE-TO-SOCIAL-ECONOMIC-AND-ENVIRONMENTAL-SUSTAINABILITY",
+      "source_unit_code": "",
+      "pdf_page_range": [
+        117,
+        125
+      ]
+    }
+  ]
 }
