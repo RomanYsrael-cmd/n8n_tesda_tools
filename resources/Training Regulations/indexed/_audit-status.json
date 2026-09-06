@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T11:46:16+08:00",
+  "last_updated": "2026-09-06T11:59:36+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 40,
-  "remaining_unaudited": 344,
+  "audited_count": 45,
+  "remaining_unaudited": 339,
   "blocked_count": 0,
   "documents": [
     {
@@ -528,6 +528,71 @@
       "validation_passed": true,
       "last_audit_commit": "d51c1320965d0cfba4e82fdf93c2f55a70fc6df6",
       "audit_notes": "Rebuilt 9/7/6 revised four-column groups; restored 99 curriculum rows and required knowledge/skills, normalized black-circle source bullets, preserved the 372 printed total plus separate 150-hour SIL as a 522-hour arithmetic mismatch, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Automotive Diagnosis (Electrical) NC III",
+      "package_path": "resources/Training Regulations/indexed/Automotive Diagnosis (Electrical) NC III",
+      "source_file": "resources/Training Regulations/Automotive Diagnosis (Electrical) NC III.pdf",
+      "source_sha256": "aa46484c2cb534762b78ead43a9149cb589c558ad07bae3f8536e807a1e697a6",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:59:36+08:00",
+      "issues_found": 12,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "e65fdbd8d197048271775fd003129cfd601965d3",
+      "audit_notes": "Rebuilt 9/7/6 revised four-column groups; restored 106 curriculum rows and required knowledge/skills, normalized black-circle source bullets, preserved the 368 printed total plus separate 150-hour SIL as a 518-hour arithmetic mismatch, recorded the ALT723369 Section 1/Section 2 title variant, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Diagnosis (Engine) NC III",
+      "package_path": "resources/Training Regulations/indexed/Automotive Diagnosis (Engine) NC III",
+      "source_file": "resources/Training Regulations/Automotive Diagnosis (Engine) NC III.pdf",
+      "source_sha256": "7aebe0aefccef081eaa3f857b0721daf6c47be2c3ed591171f4477c20f0c175e",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:59:36+08:00",
+      "issues_found": 11,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "e65fdbd8d197048271775fd003129cfd601965d3",
+      "audit_notes": "Rebuilt 9/7/5 revised four-column groups; restored 94 curriculum rows and required knowledge/skills, normalized black-circle source bullets, preserved the 502 printed total plus separate 150-hour SIL as a 652-hour arithmetic mismatch, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Electrical Assembly NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Electrical Assembly NC II",
+      "source_file": "resources/Training Regulations/Automotive Electrical Assembly NC II.pdf",
+      "source_sha256": "3d21c4e3950a9d199d5b4c9f63b30c5921ee5b028d572fc02908e7254ad29af5",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:59:36+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "e65fdbd8d197048271775fd003129cfd601965d3",
+      "audit_notes": "Rebuilt 4/5/6 historical two-column groups; restored 56 curriculum rows, normalized the 143-hour arithmetic sum, preserved the singular/plural Assembly source wording and missing date, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Electrical Assembly NC III",
+      "package_path": "resources/Training Regulations/indexed/Automotive Electrical Assembly NC III",
+      "source_file": "resources/Training Regulations/Automotive Electrical Assembly NC III.pdf",
+      "source_sha256": "27f2c4035f97f9d0b9657108230f9f279f86fef81597e4636978b4d5f7acc6db",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:59:36+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "e65fdbd8d197048271775fd003129cfd601965d3",
+      "audit_notes": "Rebuilt 6/5/5 historical two-column groups; restored 51 curriculum rows, corrected the mathematics-unit page boundary, normalized the 240-hour arithmetic sum, preserved the Section 1 plural/header singular fault wording and missing date, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Mechanical Assembly NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Mechanical Assembly NC II",
+      "source_file": "resources/Training Regulations/Automotive Mechanical Assembly NC II.pdf",
+      "source_sha256": "befe8dd86c37efc89b0cf1592ee16f42a54ee305c924b8f6f3d035cc0a0c09a6",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:59:36+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "e65fdbd8d197048271775fd003129cfd601965d3",
+      "audit_notes": "Rebuilt 4/5/7 historical two-column groups; restored 55 curriculum rows, normalized the 143-hour arithmetic sum, preserved the singular/plural Assembly wording and printed internal code spacing, and repaired assessment/fidelity metadata and selectors."
     }
   ]
 }
