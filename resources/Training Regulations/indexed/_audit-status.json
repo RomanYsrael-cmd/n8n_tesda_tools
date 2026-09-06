@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T14:36:41+08:00",
+  "last_updated": "2026-09-06T14:46:41+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 85,
-  "remaining_unaudited": 299,
+  "audited_count": 90,
+  "remaining_unaudited": 294,
   "blocked_count": 0,
   "documents": [
     {
@@ -1113,6 +1113,72 @@
       "validation_passed": true,
       "last_audit_commit": "b1ef41a55a048b0848a915bd130ea453a8b76694",
       "audit_notes": "Rebuilt 6/12/2 historical two-column groups; restored 69 curriculum rows, preserved the absent promulgation date and explicit 24/130/80-hour components with 234-hour total, normalized the MEE 722209 code spacing, recorded the CAD/CAM Operatin source typo, and repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Caregiving (Clients with Special Needs) NC II",
+      "package_path": "resources/Training Regulations/indexed/Caregiving (Clients with Special Needs) NC II",
+      "source_file": "resources/Training Regulations/Caregiving (Clients with Special Needs) NC II.pdf",
+      "source_sha256": "4f103c1d938f5f4fdb86528e7f38a20501b29f8c005ba30d19f6de3c84e3e4ef",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:46:41+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "04202b80414f4bf2da90c9cd0e77a68f21702098",
+      "audit_notes": "Rebuilt 9/4/9 revised four-column groups; restored 91 curriculum rows and required knowledge/skills, preserved the printed 06/09/2020 date, 37/112/504-hour components plus 160-hour SIL and 813-hour total, recorded the patient/client-services title variant and specialized pathway, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Caregiving (Elderly) NC II",
+      "package_path": "resources/Training Regulations/indexed/Caregiving (Elderly) NC II",
+      "source_file": "resources/Training Regulations/Caregiving (Elderly) NC II.pdf",
+      "source_sha256": "543aca0e240e3ec5cc9de7ef3018f56b9c605e6d50b1a665015d24c7614b0c46",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:46:41+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "04202b80414f4bf2da90c9cd0e77a68f21702098",
+      "audit_notes": "Rebuilt 9/4/5 revised four-column groups; restored 66 curriculum rows and required knowledge/skills, preserved the printed 06/09/2020 date, 37/112/252-hour components plus 160-hour SIL and 561-hour total, normalized the HHC5323323 source-header typo against canonical HHC532323, recorded the patient/client-services title variant, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Caregiving (Grade Schooler to Adolescent) NC II",
+      "package_path": "resources/Training Regulations/indexed/Caregiving (Grade Schooler to Adolescent) NC II",
+      "source_file": "resources/Training Regulations/Caregiving (Grade Schooler to Adolescent) NC II.pdf",
+      "source_sha256": "2b479f216b795ac8f48b24c9c0aea5bf23e39f3e2f832458e46c03d98c344473",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:46:41+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "04202b80414f4bf2da90c9cd0e77a68f21702098",
+      "audit_notes": "Rebuilt 9/4/7 revised four-column groups; restored 63 curriculum rows and required knowledge/skills, preserved the printed 06/09/2020 date, 37/112/240-hour components plus 160-hour SIL and 549-hour total, recorded the course-description qualification variant and ASSESSSMENT source typo, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Caregiving (Newborn to Pre-Schooler) NC II",
+      "package_path": "resources/Training Regulations/indexed/Caregiving (Newborn to Pre-Schooler) NC II",
+      "source_file": "resources/Training Regulations/Caregiving (Newborn to Pre-Schooler) NC II.pdf",
+      "source_sha256": "d6126a9ecb792aa0a73161b6f63fc2c9e18dd93e20f592129436500af71d01cc",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:46:41+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "04202b80414f4bf2da90c9cd0e77a68f21702098",
+      "audit_notes": "Rebuilt 9/4/12 revised four-column groups; restored 89 curriculum rows and required knowledge/skills, preserved the printed 06/09/2020 date, 37/112/316-hour components plus 160-hour SIL and 625-hour total, recorded newborn-to-pre-schooler title variants and the ASSESSSMENT source typo, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Caregiving NC II",
+      "package_path": "resources/Training Regulations/indexed/Caregiving NC II",
+      "source_file": "resources/Training Regulations/Caregiving NC II.pdf",
+      "source_sha256": "2b1ffebaed37aa84fab11348ca934227ea80f0c1c9f0437fb744337596d4d88e",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:46:41+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "04202b80414f4bf2da90c9cd0e77a68f21702098",
+      "audit_notes": "Rebuilt 4/4/11 legacy historical two-column groups; restored 76 curriculum rows, preserved the absent promulgation date and 18/18/750-hour components with 786-hour total, added a disclosed normalized glossary aid because no dedicated glossary section is present, recorded the legacy institutional assessment typo and unpaged acknowledgement material, repaired assessment/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    }
     }
   ]
 }
