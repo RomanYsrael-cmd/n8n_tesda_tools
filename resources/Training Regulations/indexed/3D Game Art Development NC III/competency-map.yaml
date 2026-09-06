@@ -4,73 +4,58 @@
   "document_id": "tesda:tr:3d-game-art-development-nc-iii:0c344c7efe",
   "qualification": "3D GAME ART DEVELOPMENT NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "This unit of competency covers the knowledge,"
-      },
-      {
-        "unit_code": "ICT315203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT315202",
-        "title": "This unit covers the knowledge, skills, attitudes and"
-      },
-      {
-        "unit_code": "ICT313344",
-        "title": ": This unit defines the knowledge, skills and attitude"
-      },
-      {
-        "unit_code": "ICT313345",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT313349",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "This unit covers the skills, knowledge and attitudes"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical"
-      },
-      {
-        "unit_code": "ICT311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT313346",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT313350",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT313351",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP \n63",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ICT315203",
+        "ICT315202",
+        "ICT311203"
+      ],
+      "unit_titles": [
+        "Apply critical thinking and thought organization",
+        "Apply quality standards",
+        "Perform computer operations"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ICT313344",
+        "ICT313345",
+        "ICT313346",
+        "ICT313349",
+        "ICT313350",
+        "ICT313351"
+      ],
+      "unit_titles": [
+        "Develop and conceptualize art style",
+        "Create storyboard and asset list",
+        "Prepare art document",
+        "Develop 3D model using 3D graphic application",
+        "Develop 3D textures using graphics application",
+        "Apply rigged in-game animation"
+      ]
+    }
+  ],
+  "source_text": "Section 1\n3D GAME ART DEVELOPMENT NC III QUALIFICATIONS\n\nThe 3D GAME ART DEVELOPMENT NC III Qualification consists of\ncompetencies that are required for digital 3D art for video games.\n\nThe units of competency comprising this qualification include the following:\n\nUNIT CODE\nBASIC COMPETENCIES\n5 00 311 1 09\nLead workplace communication\n5 00 311 1 10\nLead small teams\n5 00 311 1 11\nDevelop and practice negotiation skills\n5 00 311 1 12\nSolve problems related to work activities\n5 00 311 1 13\nUse mathematical concepts and techniques\n5 00 311 1 14\nUse relevant technologies\nCOMMON COMPETENCIES\n\n ICT315203 Apply critical thinking and thought organization\n ICT315202 Apply quality standards\n ICT311203 Perform computer operations\nCode\nCORE COMPETENCIES\nICT313344\nDevelop and conceptualize art style\nICT313346\nCreate storyboard and asset list\nICT313346\nPrepare art document\nICT313349\nDevelop 3D model using 3D graphic application\nICT313350\nICT313351\nDevelop 3D textures using graphic application\nApply rigged in-game animation\nA person who has achieved this Qualification is competent to be:\n•\n3D game artist\n•\nGame concept / visual artist\n•\nGame animator\n•\nModeler\n•\nRigger\n•\nTexture artist\n\n--- PDF PAGE 4 ---\n_____________________________________________________________________________\nTR - 3D GAME ART DEVELOPMENT NC III\n\n\n2"
 }

@@ -1,29 +1,171 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:able-seafarer-deck-nc-ii-ii-5:b81c14986b",
-  "qualification": "Able Seafarer Deck NC II (II-5)",
+  "qualification": "ABLE SEAFARER DECK NC II (II-5)",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Able Seafarer Deck NC II (II-5).pdf",
-    "sha256": "b81c14986b610183a00b6532986b64c01a23f6050209d6c0a4b8d1e655b5d863",
+    "source_sha256": "b81c14986b610183a00b6532986b64c01a23f6050209d6c0a4b8d1e655b5d863",
+    "pdf_pages": 72,
+    "printed_pages": 67,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "Section 1 shows shortened MTM83417/MTM83418/MTM83419/MTM83420 core codes, while the unit headers use MTM834317 through MTM834320; the indexed units follow the actual headers.",
+    "The source unit title is printed as SupportLevel for MTM834317; that historical source spelling is retained in the normalized title and source text.",
+    "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 shows shortened MTM83417/MTM83418/MTM83419/MTM83420 core codes, while the unit headers use MTM834317 through MTM834320; the indexed units follow the actual headers."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source unit title is printed as SupportLevel for MTM834317; that historical source spelling is retained in the normalized title and source text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Able Seafarer Deck NC II (II-5).pdf",
-    "pdf_pages": 72,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "MTM834208",
+      "source_unit_code": "MTM834208",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "MTM834209",
+      "source_unit_code": "MTM834209",
+      "pdf_page_range": [
+        21,
+        24
+      ]
+    },
+    {
+      "unit_code": "MTM834210",
+      "source_unit_code": "MTM834210",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "MTM834211",
+      "source_unit_code": "MTM834211",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "MTM834212",
+      "source_unit_code": "MTM834212",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "MTM834213",
+      "source_unit_code": "MTM834213",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "MTM834214",
+      "source_unit_code": "MTM834214",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "MTM834215",
+      "source_unit_code": "MTM834215",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "MTM834317",
+      "source_unit_code": "MTM834317",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "MTM834318",
+      "source_unit_code": "MTM834318",
+      "pdf_page_range": [
+        48,
+        49
+      ]
+    },
+    {
+      "unit_code": "MTM834319",
+      "source_unit_code": "MTM834319",
+      "pdf_page_range": [
+        50,
+        53
+      ]
+    },
+    {
+      "unit_code": "MTM834320",
+      "source_unit_code": "MTM834320",
+      "pdf_page_range": [
+        54,
+        56
+      ]
+    }
+  ]
 }

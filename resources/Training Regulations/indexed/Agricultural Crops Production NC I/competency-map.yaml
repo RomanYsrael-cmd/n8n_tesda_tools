@@ -4,63 +4,52 @@
   "document_id": "tesda:tr:agricultural-crops-production-nc-i:7e63450a79",
   "qualification": "AGRICULTURAL CROPS PRODUCTION NC I",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311101",
-        "title": "required to receive, respond and act on verbal and"
-      },
-      {
-        "unit_code": "CODE500311103",
-        "title": "500311103"
-      },
-      {
-        "unit_code": "500311104",
-        "title": "required to apply the basic housekeeping procedures."
-      },
-      {
-        "unit_code": "AGR321201",
-        "title": "perform safety measures effectively and efficiently. It includes"
-      },
-      {
-        "unit_code": "AGR321202",
-        "title": "use farm tools and equipment. It includes selection, operation"
-      },
-      {
-        "unit_code": "AGR321203",
-        "title": "perform basic workplace calculations."
-      },
-      {
-        "unit_code": "AGR321204",
-        "title": "This unit of competency deals with the provision of"
-      },
-      {
-        "unit_code": "AGR611308",
-        "title": "support agronomic cropping work under supervision. It"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AGR611306",
-        "title": "This unit covers the skills and knowledge required to"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311102",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611307",
-        "title": "carry out work in wholesale or retail nurseries while"
-      },
-      {
-        "unit_code": "AGR611309",
-        "title": "This unit covers the skills and knowledge required to"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP FOR AGRI-FISHERY SECTOR \n \nAGRICULTURAL CROPS PRODUCTION SUB-SECTOR \n \nCORE UNITS OF COMPETENCY\nSupervise agronomic crop \nmaintenance \n \nProduce fruit bearing crops \n \nMonitor and operate water \ntreatment processes \n \nImplement vertebrate pest \ncontrol program \n \nCoordinate horticultural crop \nharvesting \nMaintain the workplace \n \n \nPerform post harvest \noperations of major tropical \nfruits\n \nImplement a plant establishment \nprogram \n \nEstablish agronomic crops \n \nTransport, handle and store \nchemicals \n \n \n \n \n \n \n \n \n \nSupport agronomic crop \nwork \n \n \nPerform post harvest \noperation of major lowland \nand semi-temperate \nvegetable crops\n \nControl weeds \n \nCollect samples for a rural \nproduction of horticulture \nmonitoring program \n \nSupervise agricultural crop \nestablishment \n \nSupport horticultural crop \nwork \n \nUndertake preparation of \nland for agricultural crop \nproduction \n \nUndertake agronomic crop \nharvesting activities \n \nSave, prepare and store \nagricultural seed \n \nImplement and monitor \nquality assurance \nprocedures \nSupport irrigation \n work \n \nOperate pertigation \nequipment \n \nKeep records for a farm business \n \nImplement a propagation plan \n \nSupport and review business \nstructures and relationships \nSupport nursery \n work \n \nImplement a plant nutrition \nprogram \n \nEstablish horticultural crops \n \nCoordinate machinery and \nequipment maintenance and \nrepair for agricultural crops \n \nPromote plant health \n \n \n \n \n \n \n \n \n \nConduct pre-horticultural \nfarm operations \n \nCoordinate a horticultural \nmaintenance program \n \nComply with industry quality \nassurance requirements \n \nPrepare and apply chemicals \n \nImplement and monitor a \nproperty improvement plan \n \n \n \n \n \n \n \n \n \nProduce vegetables \n \nUndertake agronomic crop \nmaintenance activities\n \nTransport farm produce or bulk \nmaterials\n \nImplement a post-harvest \nprogram\n \nSupervise maintenance of \nmachinery and equipment\n \nPlan & implement a \nchemical use program\n \nDevelop a plant nutrition \nprogram\n \nSupervise horticultural crop \nharvesting \n \nPlan a propagation program \n \nDevelop a horticultural crop \nmaintenance program \n \nApply basic first aid \n \nOperate within a budget \nframework\n \nControl weeds, pests and /or \ndiseases in crops\n \nSupervise agronomic crop \nharvesting\n \nAnalyze and interpret \nproduction data\n\n--- PDF PAGE 65 ---\n_________________________________________________ \nTR – Agricultural Crops Production NC I \n \n63\n \n \n \n \n \nContinuation ….. Competency Map for Agri Fishery Sector ( Agricultural Crops Sub-Sector) \n \nCOMMON UNITS OF COMPETENCY \n \nApply safety measures \n \nUse farm tools and \nequipment \n \nPerform estimation and \ncalculation \n \nApply basic first aid \n \n \n \n \n \n \n \n \n \n \n \nTOOL UNITS OF COMPETENCY \n \n \n \n \n \n \n \n \n \nReceive and Respond to \nWorkplace \nCommunication \n \nParticipate in Workplace \nCommunication \n \nLead Workplace Communication \n \nUtilize specialist communication \n \nDevelop Team and \nIndividual \nWork With Others \n \nWork in a Team \nEnvironment \n \nLead Small Team \n \nSolve Workplace Problems \nRelated to Work Activities \n \nApply Problem Solving \nTechniques in the Workplace \nPractice basic \nhousekeeping procedures \n \nDemonstrate work values \n \n \n \n \n \n \nPlan and Organize Work \n \n \n \n \n \n \n \n \n \n \n Agricultural Crops Production NC I\n\n--- PDF PAGE 66 ---\n________________________________________________ \nTR - Agricultural Crops Production NC I \n64",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311101",
+        "500311102",
+        "500311103",
+        "500311104"
+      ],
+      "unit_titles": [
+        "Receive and Respond to Workplace Communication",
+        "Work with Others",
+        "Demonstrate Work Values",
+        "Practice Basic Housekeeping Procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR321201",
+        "AGR321202",
+        "AGR321203",
+        "AGR321204"
+      ],
+      "unit_titles": [
+        "Apply Safety Measures in farm operations",
+        "Use Farm Tools and Equipment",
+        "Perform Estimation and Basic Calculation",
+        "Apply Basic First Aid"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AGR611306",
+        "AGR611307",
+        "AGR611308",
+        "AGR611309"
+      ],
+      "unit_titles": [
+        "Support horticultural crop work",
+        "Support nursery work",
+        "Support agronomic crop work",
+        "Support irrigation work"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful\ncandidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n 4.2. The qualification of Agricultural Crops Production NC I may be attained\nthrough:\n\n4.2.1. Accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.2.1.1 Support horticultural crop work\n4.2.1.2 Support nursery work\n4.2.1.3 Support agronomic crop work\n4.2.1.4 Support irrigation work\n\nSuccessful candidates shall be awarded Certificates of\nCompetency (COCs)\n\n\n 4.3. Accumulation and submission of all COCs acquired for the relevant\nunits of competency comprising a qualification, an individual shall be\nissued the corresponding National Certificate.\n\n4.4. Assessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n 4.5 The following are qualified to apply for assessment and certification:\n\n 4.5.1 Graduates of formal, non-formal and informal including\nenterprise-based training programs.\n\n 4.5.2. Experienced workers (wage employed or self-employed)\n\n4.6 The guidelines on assessment and certification are discussed in detail\nin the Procedures manual on Assessment and Certification and\nGuidelines on the implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 64 ---\n_________________________________________________\nTR – Agricultural Crops Production NC I\n\n62\nCOMPETENCY MAP FOR AGRI-FISHERY SECTOR\n\nAGRICULTURAL CROPS PRODUCTION SUB-SECTOR\n\nCORE UNITS OF COMPETENCY\nSupervise agronomic crop\nmaintenance\n\nProduce fruit bearing crops\n\nMonitor and operate water\ntreatment processes\n\nImplement vertebrate pest\ncontrol program\n\nCoordinate horticultural crop\nharvesting\nMaintain the workplace\n\n\nPerform post harvest\noperations of major tropical\nfruits\n\nImplement a plant establishment\nprogram\n\nEstablish agronomic crops\n\nTransport, handle and store\nchemicals\n\n\n\n\n\n\n\n\n\nSupport agronomic crop\nwork\n\n\nPerform post harvest\noperation of major lowland\nand semi-temperate\nvegetable crops\n\nControl weeds\n\nCollect samples for a rural\nproduction of horticulture\nmonitoring program\n\nSupervise agricultural crop\nestablishment\n\nSupport horticultural crop\nwork\n\nUndertake preparation of\nland for agricultural crop\nproduction\n\nUndertake agronomic crop\nharvesting activities\n\nSave, prepare and store\nagricultural seed\n\nImplement and monitor\nquality assurance\nprocedures\nSupport irrigation\n work\n\nOperate pertigation\nequipment\n\nKeep records for a farm business\n\nImplement a propagation plan\n\nSupport and review business\nstructures and relationships\nSupport nursery\n work\n\nImplement a plant nutrition\nprogram\n\nEstablish horticultural crops\n\nCoordinate machinery and\nequipment maintenance and\nrepair for agricultural crops\n\nPromote plant health\n\n\n\n\n\n\n\n\n\nConduct pre-horticultural\nfarm operations\n\nCoordinate a horticultural\nmaintenance program\n\nComply with industry quality\nassurance requirements\n\nPrepare and apply chemicals\n\nImplement and monitor a\nproperty improvement plan\n\n\n\n\n\n\n\n\n\nProduce vegetables\n\nUndertake agronomic crop\nmaintenance activities\n\nTransport farm produce or bulk\nmaterials\n\nImplement a post-harvest\nprogram\n\nSupervise maintenance of\nmachinery and equipment\n\nPlan & implement a\nchemical use program\n\nDevelop a plant nutrition\nprogram\n\nSupervise horticultural crop\nharvesting\n\nPlan a propagation program\n\nDevelop a horticultural crop\nmaintenance program\n\nApply basic first aid\n\nOperate within a budget\nframework\n\nControl weeds, pests and /or\ndiseases in crops\n\nSupervise agronomic crop\nharvesting\n\nAnalyze and interpret\nproduction data\n\n--- PDF PAGE 65 ---\n_________________________________________________\nTR – Agricultural Crops Production NC I\n\n63\n\n\n\n\n\nContinuation ….. Competency Map for Agri Fishery Sector ( Agricultural Crops Sub-Sector)\n\nCOMMON UNITS OF COMPETENCY\n\nApply safety measures\n\nUse farm tools and\nequipment\n\nPerform estimation and\ncalculation\n\nApply basic first aid\n\n\n\n\n\n\n\n\n\n\n\nTOOL UNITS OF COMPETENCY\n\n\n\n\n\n\n\n\n\nReceive and Respond to\nWorkplace\nCommunication\n\nParticipate in Workplace\nCommunication\n\nLead Workplace Communication\n\nUtilize specialist communication\n\nDevelop Team and\nIndividual\nWork With Others\n\nWork in a Team\nEnvironment\n\nLead Small Team\n\nSolve Workplace Problems\nRelated to Work Activities\n\nApply Problem Solving\nTechniques in the Workplace\nPractice basic\nhousekeeping procedures\n\nDemonstrate work values\n\n\n\n\n\n\nPlan and Organize Work\n\n\n\n\n\n\n\n\n\n\n Agricultural Crops Production NC I\n\n--- PDF PAGE 66 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n64\n\nDEFINITION OF TERMS\n\nFor the purpose of this standard, the word\nAflatoxin – the toxin produced by some strains of the fungi ASPERGILUS FLAVUS\nand ASPERGILUS PARASTICUS; the most potent carcinogen yet\ndiscovered.\n\nAmbient condition– ordinary room temperature and relative humidity.\n\nAmbient air – the surrounding air (atmospheric).\n\nAmbient storage – any treatment or practice extending post harvest life of\nharvested commodity beyond that of similar commodity held under ambient\nconditions without treatment.\n\nAirflow rate – the amount of air passing through an obstruction per unit of time.\n\nACIAR – Australian Center for International Agricultural Research\n\nAFHB – ASEAN Food Handling Bureau\n\nBPRE – Bureau of Post harvest Research & Extension\n\nCuring – process of toughening and self-healing of bruises and skinned areas in\nroot and tubes crops or the rapid closing of the neck of bulb crops under\nfavourable conditions\n\nDriller – a machine for sowing in furrows\n\nDrip Irrigation – application of water through small tubes and orifices or emitters\nwhich discharge small quantity of water to the base of the plant\n\nDry-bulb temperature – the temperature of air indicated by a standard temperature\n\n--- PDF PAGE 67 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n65\nEquilibrium moisture content – the moisture content at which moisture in a\nproduct is in equilibrium with the surrounding air. The product does not gain\nor loss moisture.\n\nFogging – to cover or envelope with fog\n\nFoliar Fertilizer – fertilizer formulation containing nitrogen, phosphorous and\npotassium plus selected micronutrient element such as (Ca, Mg, Mn, Fe, Zn,\nCl, B, Cu, S) applied by spraying on the leaves\n\nFumigant – a chemical compound which acts in the gaseous state to destroy\ninsects and their larvae.\n\nFumigation – the process of treating stored products with insecticides/pesticides\nand the like in fumes or vapor form.\n\nFurrow Irrigation – a method of supplying water through a canal system wherein\nwater flows down or across the slope of the field\n\nFurrowing – final step in land preparation by making furrows or beds for planting\n\nGATT – General Agreement on Tariff and Trade\n\nGrading – the process of classifying into groups according to a set of recognized\ncriteria of quality and size, each group bearing an accepted name and size\ngrouping.\n\nGrowing Medium – mixture of different materials such as soil, sand, compost, coir\ndust, rice hull, perlite, peat, etc. for growing seedlings\n\nHACCP – Hazard Analysis Critical Control Points\n\nHardening – the process of gradually withholding water and exposing to direct\nsunlight to prevent seedlings from transplanting stress/shock\n\nHarrowing – breaking of large soil clods that are caused by plowing\n\n--- PDF PAGE 68 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n66\n\nHilling-Up – the process of covering the applied fertilizer material by raising the soil\ntowards the base of the plant to further stabilize its stand for better plant\ngrowth.\n\nHygrometer – an instrument that measures humidity.\n\nInsect pest – a destructive or harmful insect.\n\nIrrigation - any method of supplying water to sustain plant growth\n\nOff-Baring- process of cultivating the soil away from the base of the plants\n\nPricking-Off- methods of transferring of seedling to avoid overcrowding\n\nLarvae – the first stage of the life cycle of insects after leaving the egg.\n\nManometer – an instrument that measures air pressure.\n\nMaturity – the quality or state of ripeness, or of being fully developed grain.\n\nMaturity index – signs or indications that a commodity is mature and is ready to be\nharvested.\n\n Moisture content – the conventional index used to determine whether the seed is\ndry enough for safe storage or for milling usually expressed in percent (%\nM.C.).\n\nMolds – superficial often woolly growth produced on various forms of organic\nmatter, especially when damp or decaying.\n\nNFA – National Food Authority\n\nPackaging – technology or process to ensure adequate protection and safe delivery\nof a product from the produces to the ultimate consumer.\n\n--- PDF PAGE 69 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n67\n\nPacking – act of putting commodities in a container.\n\nPackinghouse – place where the preparatory steps for storage or marketing are\ndone.\n\nPallet – low portable platform made of wood or metal or in combination to facilitate\nhandling, storage or transport of materials as a unit load using forklift.\n\nPerishables – food crops for which value and/or quality is maintained over a short\nperiod of time after harvest. These include fruits, vegetables, flowers, young\ncoconut, nursery stocks and some staple root crops such as sweet potato,\ncassava and yam.\n\nPostharvest disease – disease observed after harvest regardless of when or where\ninitial infestation took place.\n\nPost harvest handling – specific term used for the movement of commodities and\noperations through which a commodity undergoes from harvest to possession\nof the fixed consumer, includes the technological aspects of marketing and\ndistribution.\n\nPost harvest infection – infection that takes place after harvest.\n\nPost harvest life – period of time during which a commodity is still acceptable for its\nintended purpose.\n\nPre cooling – strictly, it means the rapid cooling (48 hours or less) of a commodity\nto a desired transit or storage temperature soon after harvest before it is\nstored or moved in transit.\n\nPupa – an intermediate stage of an insect that preys on one or more plants and\nanimals that man wishes to preserve for his own use.\n\nRefrigeration – process of removing heat from a compartment or substance so that\ntemperature is lowered and then maintained at a desirable level, usually\nrefers to refrigeration by mechanical means.\n\n--- PDF PAGE 70 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n68\n\nRelative humidity – the actual vapor pressure of the air relative to saturation.\n\nRespiration – biological process by which organic materials are broken down to\nsimpler forms accompanied by the release of energy and heat.\n\nRipening – the state of development of a fruit when it becomes soft and edible\napplies strictly to climacteric type fruit.\n\nRodents – refer to rats and mice which destroy grains and other stored products.\n\nSenescence – final phase in the life of an organ in which a series of normally\nirreversible events are initiated leading to cellular breakdown or death of the\norgan.\n\nSide-Dress Fertilizer – additional amount of any fertilizer materials applied at the\nonset of flowering to complete the nutritional requirement of the crop\n\nSprinkler Irrigation – a mechanical method of supplying water over the standing\ncrop by means of a nozzle which is rotated by water pressure\n\nSynthetic Mulch – mulching materials made either of polyethylene or non-woven\nfabric\n\nSorting – the process of classifying into groups designated by the person classifying\ncrops or commodities the produce either according to a set criteria.\n\nStandard – the set of criteria and specifications of quality determining the grades,\ndescribed as product characteristics such as maturity, color, cleanliness,\nshape, free from decay and blemishes and uniformity of size.\n\nStorage – process of keeping horticultural crops in a structure designed to protect\nthe stored products from inclement weather and pests for a short or long\nperiod of time to await processing or movement to other location.\n\n--- PDF PAGE 71 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n69\nStorage life – the longest time produce can be kept in a sound marketable\ncondition.\n\nTachometer – an instrument that measures revolutions per minute\nTillage – the mechanical manipulation of the soil\n\nTransplants – vegetable seedlings produced for transplanting\n\nTrellis – a support structure for vinyl crops and can either be T, I, Y, A shaped\n\nVelometer – an instrument that measures velocity of air flow\n\nWaxing – application of a thin film of surface coating to fruits and vegetables.\n\nWet-bulb temperature – temperature of moist air indicated by a thermometer\nwhose bulb is covered with a moist wick which the air flow passing over has\na velocity of 15 ft per second.\n\n--- PDF PAGE 72 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n70\n\nACKNOWLEDGEMENTS\n\n\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\nTHE TECHNICAL ADVISORY PANEL (TAP)\n\nDr. RODOLFO P. ESTIGOY\nMr. ALEJANDRO T. ESCANO\nChief\nPresident\nBureau of Post Harvest Research and\nExtension\nCentral Luzon State University, Science City\nof Muñoz, Nueva Ecija\nPhilippine Chamber of Agriculture and\nFood (PCAFI)\nMFI Bldg. Otigas Avenue Extension, Pasig\nCity\nMr. EDWIN ANDOT\nDr. ALMA M. DELA CRUZ\nPresident\nChamber of Agriculture, Fisheries and Food\nin Northern Mindanao\n2nd floor, United Way Bldg.\nCapitol Cmpd., Cagayan de Oro City\nProfessor\nCentral Luzon State University\nMuñoz, Nueva Ecija\n\nTHE TECHNICAL EXPERT PANEL (TEP)\n\n\nMr. ROLANDO SIANGHIO\nMs. PILIPINAS BALANTAC\nPresident\nInstructor\nLacto Asia Pacific Corporation\nRizal Experimental Station and Pilot\nSchool Cottage Industries (RESPSCI)\nPasig City\n\nMs. MIRIAM A. ACDA\nMr. JAIME R. RACHO SR.\nChief\nAssistant Professor\nBureau of Post Harvest Research and\nExtension\nQuezon National Agricultural School\n( QNAS)\nCLSU Compound\nMuñoz, Nueva Ecija\nMalicboy, Pagbilao, Quezon\nMr. EDUARDO T. CAYABYAB\nMr. LITO BULAONG\nChief\nChief\nBureau of Post Harvest Research and\nExtension\nBureau of Post Harvest Research and\nExtension\nCLSU Compound\nMuñoz, Nueva Ecija\n\nCLSU Compound\nMuñoz, Nueva Ecija\n\nMr. LORENZO A. BELINO\nBenguet Farmers Multipurpose Cooperative\n\n--- PDF PAGE 73 ---\n________________________________________________\nTR - Agricultural Crops Production NC I\n71\n\n\n\n\n The Participants in the national validation of this Training Regulation\n\nRegion 1\n Region 8\nRegion 2\n Region 11\nRegion 3\n Region 12\nRegion 5\n Cordillera Autonomy Region\n\nThe Management and Staff of the TESDA Secretariat\nSSCO\nNITVET"
 }

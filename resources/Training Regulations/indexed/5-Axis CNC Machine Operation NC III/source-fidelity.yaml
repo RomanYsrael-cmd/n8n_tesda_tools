@@ -1,29 +1,230 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:5-axis-cnc-machine-operation-nc-iii:e1177a665d",
   "qualification": "5-AXIS CNC MACHINE OPERATION NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "5-Axis CNC Machine Operation NC III.pdf",
-    "sha256": "e1177a665dde9a5a09706514615219cf11ea1d06e9cd369e822913ab18825fbb",
+    "source_sha256": "e1177a665dde9a5a09706514615219cf11ea1d06e9cd369e822913ab18825fbb",
+    "pdf_pages": 139,
+    "printed_pages": 135,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source PDF interleaves code and title text in the Section 1 competency list; unit codes are normalized by removing presentation spaces while retaining the source page text.",
+    "The competency standards use four columns, including separate Required Knowledge and Required Skills content; these fields are retained only for this source format."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source PDF interleaves code and title text in the Section 1 competency list; unit codes are normalized by removing presentation spaces while retaining the source page text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The competency standards use four columns, including separate Required Knowledge and Required Skills content; these fields are retained only for this source format."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "5-Axis CNC Machine Operation NC III.pdf",
-    "pdf_pages": 139,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        21,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        26,
+        30
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        31,
+        35
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "MEE722201",
+      "source_unit_code": "MEE722201",
+      "pdf_page_range": [
+        48,
+        51
+      ]
+    },
+    {
+      "unit_code": "MEE722202",
+      "source_unit_code": "MEE722202",
+      "pdf_page_range": [
+        52,
+        54
+      ]
+    },
+    {
+      "unit_code": "MEE722203",
+      "source_unit_code": "MEE722203",
+      "pdf_page_range": [
+        55,
+        58
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        59,
+        60
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        61,
+        62
+      ]
+    },
+    {
+      "unit_code": "MEE722206",
+      "source_unit_code": "MEE722206",
+      "pdf_page_range": [
+        63,
+        65
+      ]
+    },
+    {
+      "unit_code": "MEE722207",
+      "source_unit_code": "MEE722207",
+      "pdf_page_range": [
+        66,
+        67
+      ]
+    },
+    {
+      "unit_code": "MEE722208",
+      "source_unit_code": "MEE722208",
+      "pdf_page_range": [
+        68,
+        69
+      ]
+    },
+    {
+      "unit_code": "MEE722210",
+      "source_unit_code": "MEE722210",
+      "pdf_page_range": [
+        70,
+        71
+      ]
+    },
+    {
+      "unit_code": "MEE722211",
+      "source_unit_code": "MEE722211",
+      "pdf_page_range": [
+        72,
+        74
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        75,
+        80
+      ]
+    },
+    {
+      "unit_code": "MEE821321",
+      "source_unit_code": "MEE821321",
+      "pdf_page_range": [
+        81,
+        85
+      ]
+    },
+    {
+      "unit_code": "MEE821322",
+      "source_unit_code": "MEE821322",
+      "pdf_page_range": [
+        86,
+        90
+      ]
+    },
+    {
+      "unit_code": "MEE821323",
+      "source_unit_code": "MEE821323",
+      "pdf_page_range": [
+        91,
+        94
+      ]
+    },
+    {
+      "unit_code": "MEE821324",
+      "source_unit_code": "MEE821324",
+      "pdf_page_range": [
+        95,
+        97
+      ]
+    }
+  ]
 }
