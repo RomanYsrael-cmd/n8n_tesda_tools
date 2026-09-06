@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T22:30:59+08:00",
+  "last_updated": "2026-09-06T22:58:22+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 205,
-  "remaining_unaudited": 179,
+  "audited_count": 210,
+  "remaining_unaudited": 174,
   "blocked_count": 0,
   "documents": [
     {
@@ -2673,6 +2673,71 @@
       "validation_passed": true,
       "last_audit_commit": "5d400a5d741a6a0a50d3c48fd5afbcf204bf1d67",
       "audit_notes": "Rebuilt 4/3/3 revised four-column groups with required knowledge and skills; restored 35 curriculum rows, 2 assessment arrangements, and 39 definition-term entries, preserved the New label and Promulgated Dec. 16, 2015 with the 16/16/48-hour components and 80-hour total, remapped the common-unit curriculum rows whose source reused 4.x/5.x numbering, preserved the HARD DIDK footer typo, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Health Care Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Health Care Services NC II",
+      "source_file": "resources/Training Regulations/Health Care Services NC II.pdf",
+      "source_sha256": "13812686707acfb74f9a1db5a790c349dd90419059c7fb4417d51df4643fb780",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:58:22+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "78af862a62e70c056884baac35aded1a537361ef",
+      "audit_notes": "Rebuilt 4/4/6 historical two-column groups; restored 47 curriculum rows, 6 assessment arrangements, and 17 definition-term entries, preserved the absent promulgation date and the single 996-hour nominal duration without inferring category subtotals (the core curriculum heading separately prints 960 hours), retained the Institutional Health Care running-header variant and page-preserved source text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heat Treatment NC II",
+      "package_path": "resources/Training Regulations/indexed/Heat Treatment NC II",
+      "source_file": "resources/Training Regulations/Heat Treatment NC II.pdf",
+      "source_sha256": "f19f0a6e3ec33a3e8c0eba1c802a34fc22ac58021c52c09f4ca5d2792fe7feff",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:58:22+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "78af862a62e70c056884baac35aded1a537361ef",
+      "audit_notes": "Rebuilt 4/4/2 historical two-column groups; restored 34 curriculum rows, 5 assessment arrangements, and 1 definition-term entry, preserved the undated Promulgated label and the 18/20/48-hour components with 86-hour total, repaired the combined ALT742201 1.1-1.4 extraction and remapped the repeated 4.x specification/manual outcomes to ALT723203, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Articulated Off-Highway Dump Truck) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Articulated Off-Highway Dump Truck) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Articulated Off-Highway Dump Truck) NC II.pdf",
+      "source_sha256": "8bbd8a339b8a98c5d563f9e004a06ef954124bd7a3070820225615c9d9dc6ee5",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:58:22+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "78af862a62e70c056884baac35aded1a537361ef",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 39 curriculum rows, 4 assessment arrangements, and 1 definition-term entry, preserved the absent promulgation date and the 18/24/80-hour components with 122-hour total, normalized the Section 3 common/core curriculum order against source unit headings while retaining the Section 1 common-order discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Backhoe Loader) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Backhoe Loader) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Backhoe Loader) NC II.pdf",
+      "source_sha256": "b70e98127f531e9e59f21ccab5022f84c287f8ca50a0ba75e2f1a7219f8ed51f",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:58:22+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "78af862a62e70c056884baac35aded1a537361ef",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 38 curriculum rows, 4 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 18/24/80-hour components with 122-hour total, normalized the Section 3 common/core curriculum order against source unit headings, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Bulldozer) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Bulldozer) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Bulldozer) NC II.pdf",
+      "source_sha256": "ad3e5b54434de8e2dd44eb33cd1f0fda0dc7d912a54b103c89f84e0fbdc71eaf",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:58:22+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "78af862a62e70c056884baac35aded1a537361ef",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 34 curriculum rows, 4 assessment arrangements, and 4 definition-term entries, preserved Promulgated July 2007 and the 18/18/120-hour components with 156-hour total, repaired the first core curriculum unit's printed 2.x numbering and normalized the source core order, retained the earth-moving/earthmoving and BLOWAF variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
