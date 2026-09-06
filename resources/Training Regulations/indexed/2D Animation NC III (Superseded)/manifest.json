@@ -1,32 +1,32 @@
 {
   "schema": "tesda-indexed-training-regulation-manifest",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:2d-animation-nc-iii:2007-07-27",
+  "document_id": "tesda:tr:2d-animation-nc-iii-superseded:0e06040a14",
   "qualification": "2D ANIMATION NC III",
-  "promulgated": "2007-07-27",
+  "promulgated": null,
   "coverage_status": "complete",
   "representation_type": "semantic_normalized",
   "verbatim_transcription": false,
   "lifecycle": {
     "status": "superseded",
-    "verified_on": "2026-09-06",
-    "verification_basis": "Local source filename explicitly labels this Training Regulation as superseded."
+    "verified_on": null,
+    "verification_basis": "Local source package classification; official source PDF remains authoritative."
   },
   "source": {
     "authority": "Technical Education and Skills Development Authority (TESDA)",
     "source_file": "Superseded/2D Animation NC III (Superseded).pdf",
     "source_sha256": "0e06040a141af6060b1b49c6e2f1a71ee5a21de6b7883b1357c087680dc95836",
     "pdf_pages": 63,
-    "printed_pages": null,
+    "printed_pages": 61,
     "authoritative": true
   },
   "coverage": {
     "qualification": true,
     "competency_standards": {
-      "basic_units": 7,
-      "common_units": 0,
-      "core_units": 0,
-      "other_units": 5,
+      "basic_units": 6,
+      "common_units": 2,
+      "core_units": 4,
+      "other_units": 0,
       "total_units": 12,
       "descriptors": true,
       "elements": true,
@@ -52,10 +52,10 @@
   "fidelity": {
     "competency_units": "normalized_with_source_text",
     "performance_criteria": "numbered_normalized_with_source_text",
-    "range_of_variables": "structured_when_detectable_with_source_text",
-    "evidence_guides": "preserved_source_text",
-    "training_standards": "preserved_source_text",
-    "assessment_certification": "preserved_source_text",
+    "range_of_variables": "structured_with_source_text",
+    "evidence_guides": "structured_with_source_text",
+    "training_standards": "preserved_source_text_with_curriculum_rows",
+    "assessment_certification": "numbered_normalized_with_source_text",
     "glossary": "normalized_with_source_text",
     "acknowledgements": "normalized_entities_with_source_text"
   },

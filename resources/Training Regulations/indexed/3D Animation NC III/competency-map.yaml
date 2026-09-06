@@ -4,79 +4,60 @@
   "document_id": "tesda:tr:3d-animation-nc-iii:70d9cae3b5",
   "qualification": "3D ANIMATION NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT216308",
-        "title": "UNIT CODE : ICT 216308"
-      },
-      {
-        "unit_code": "ICT216309",
-        "title": "ICT 216309"
-      },
-      {
-        "unit_code": "ICT216310",
-        "title": "ICT 216310"
-      },
-      {
-        "unit_code": "ICT216311",
-        "title": "ICT 216311"
-      },
-      {
-        "unit_code": "ICT216312",
-        "title": "ICT 216312"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ICT315202",
-        "title": "This unit covers the knowledge, skills, attitudes and values"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311142",
-        "title": "required to solve problems in the workplace including the"
-      },
-      {
-        "unit_code": "500311144",
-        "title": "use technical information system and information technology,"
-      },
-      {
-        "unit_code": "500311145",
-        "title": "required to work effectively in a workplace characterized by"
-      },
-      {
-        "unit_code": "ELC311203",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP \n \n94\n \nGLOSSARY OF TERMS \n \n95 - 97\nDOCUMENT REVISION HISTORY \n \n98",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114",
+        "500311142",
+        "500311144",
+        "500311145"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies",
+        "Apply critical thinking and problem solving techniques in the workplace",
+        "Use information creatively and critically",
+        "Work in a diverse environment"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ICT315202",
+        "ICT311203"
+      ],
+      "unit_titles": [
+        "Apply quality standards",
+        "Perform computer operations"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ICT216308",
+        "ICT216309",
+        "ICT216310",
+        "ICT216311",
+        "ICT216312"
+      ],
+      "unit_titles": [
+        "Create 3D models for animation",
+        "Apply shader and texture on 3D models",
+        "Set character rigging",
+        "Animate character",
+        "Light and render animation scene"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate III level signed by the TESDA Director-General.\n\n4.2\nThe qualification of 3D Animation NC III may be attained through:\n4.2.1\nAccumulation of Certificates of Competency (COCs) in all the\nfollowing units of competencies:\n\nCOC-1. Create 3D Models for Animation\nCOC-2. Apply 3D Texture and Lighting on 3D Models\nCOC-3. Set Character Rigging\nCOC-4. Animate Character\nCOC-5. Composite and Render Animation Scene\nSuccessful candidates shall be awarded a Certificate of\nCompetency (COC) in each of the core units.\n\n4.3\nUpon accumulation and submission of all COCs acquired for all the\nrelevant units of competency comprising this qualification, an individual\nshall be issued the corresponding National Certificate.\n\n4.4\nAssessment shall cover all competencies, with basic and common\nintegrated or assessed concurrently with the core units of competency.\n\n4.5\nAny of the following are qualified to apply for assessment and certification:\n\n4.5.1 Graduates of formal, non-formal and informal including\nenterprise-based training programs.\n4.5.2 Experienced workers (wage employed or self-employed)\n\n--- PDF PAGE 97 ---\n____________________________________________________________________________________ 93\nTR – 3D ANIMATION NC II (Version 02) Amended February 27, 2018\n\n4.6\nExisting National Certificates (NCs) and Certificates of Competency\n(COCs) of individuals in 3D Animation NCIII shall continue to be in\neffect until the said NCs and COCs will have expired. Individuals are\nadvised to take the assessment for this amended/updated TR on or\nbefore the expiration of such certificates.\n\n4.7\nThe guidelines on assessment and certification are discussed in detail\nin the \"Operating Procedures on Assessment and Certification\" and\n\"Guidelines on the Implementation of the Philippine TVET Competency\nAssessment and Certification System (PTCACS)\".\n\n4.1. COMPETENCY ASSESSMENT REQUISITE\n4.2.1 Self-Assessment Guide. The self-assessment guide (SAG) is\naccomplished by the candidate prior to actual competency\nassessment. SAG is a pre-assessment tool to help the candidate and\nthe assessor determine what evidence is available, where gaps exist,\nincluding readiness for assessment.\n This document can:\na. Identify the candidate’s skills and knowledge\nb. Highlight gaps in candidate’s skills and knowledge\nc. Provide critical guidance to the assessor and candidate on the\nevidence that need to be presented\nd. Assist the candidate to identify key areas in which practice is\nneeded or additional information or skills that should be gained\nprior to assessment.\n4.2.2 Accredited Assessment Center. Only Assessment Center accredited\nby TESDA is authorized to manage the assessment activities of\ncandidates for national certification.\n4.2.3 Accredited Competency Assessor. Only competency assessor\naccredited by TESDA is authorized to assess the competencies of\ncandidates for national certification.\n\n--- PDF PAGE 98 ---\n____________________________________________________________________________________ 94\nTR – 3D ANIMATION NC II (Version 02) Amended February 27, 2018\nANNEX A. ICT COMPETENCY MAP – 3D ANIMATION NC III\n\nBASIC COMPETENCIES\n\nReceive and Respond\nto Workplace\nCommunication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nWorkplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Team\nDevelop and\npractice negotiation\nskills\nSolve Problems\nRelated to Work\nActivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize Specialist\nCommunication Skills\nDevelop Team and\nIndividuals\nApply Problem\nSolving Techniques\nin the Workplace\nCollect, analyze and\norganize information\nPlan and Organize\nWork\nPromote\nenvironmental\nprotection\n\nCOMMON COMPETENCIES\n\nApply Quality\nStandards\nOperate a Personal\nComputer\n\n\n\n\nCORE COMPETENCIES\n\nCommunicate\neffectively in a customer\ncontact center\nRender quality\ncustomer service\nUtilize enterprise/\ncompany technology\nConduct contact\ncenter campaign\nProvide specialized\nsupport and assistance\nto customers\nLead a contact center\nwork team\nManage the activities\nof a contact center\nwork team\nUse business\ntechnology\nUse medical\ntechnology to carry\nout task\nProduce text from audio\ntranscription\nReview/edit documents\nLead a team in\ndelivering quality\nservice\nApply traditional\ndrawing techniques\nfor animation\nProduce traditional\ncleaned-up drawings\nProduce traditional in-\nbetween drawings\nProduce Traditional key\nposes/drawings for\nanimation\nCreate 2D digital\nanimation\nExport Animation into\nVideo file format\nProduce digital\ncleaned-up drawings\nProduce digital in-\nbetween drawings\nProduce background\ndesigns\nComposite and edit\nanimation sequence\nCreate 3D digital\nanimation\nProduce storyboard\nfor animation\nCoordinate the\nproduction of animation\nProduce over-all\ndesigns for animation\nProduce key drawings\nfor animation\nCreate 3D models\nfor animation\nApply 3D texture\nand lighting to 3D\nmodels\nSet character rigging\nCreate 2D digital\nanimation\nProduce cleaned-up\nand in-between\ndrawings\nUse an authoring\ntool to create an\ninteractive sequence\nAnimate character\nComposite and render\nanimation sequence\nProduce key drawings\nfor animation\nUtilize Software\nMethodologies\nDevelop Responsive\nWeb Design\nCreate Interactive\nWebsites (Using JavaScript)\nDevelop Website\nBackend Systems\nDevelop designs for a\nlogo\nDevelop designs for\nprint media\nDevelop designs for\nuser experience\nDevelop designs for\nuser interface\nDevelop designs for\nproduct packaging\nDesign booth and\nproduct/window display\n\n--- PDF PAGE 99 ---\n____________________________________________________________________________________ 95\nTR – 3D ANIMATION NC II (Version 02) Amended February 27, 2018\nDEFINITION OF TERMS\n\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who\npass the assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and\nattitudes to perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgements on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be\nconducted or carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a particular\narea of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by\nthe individual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\n outcome terms the functions that a person performs in the workplace\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual.\nIt provides information on critical aspects of competency, underpinning\nknowledge, underpinning skills, resource implications, assessment method and\ncontext of assessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when\nevidence should be collected\n\n--- PDF PAGE 100 ---\n____________________________________________________________________________________ 96\nTR – 3D ANIMATION NC II (Version 02) Amended February 27, 2018\n15) National Certificate (NC) – is a certification issued to individuals who achieve\nall the required units of competency for a national qualification defined under the\nTraining Regulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n17) Qualifications - is a cluster of units of competencies that meets job roles and\nare significant in the workplace. It is also a certification awarded to a person on\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work\nis to be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an\nindividual’s skills, knowledge and attitudes gained from life and work\nexperiences outside registered training programs\n\n20) Resource Implications - refers to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It includes\nwork environment and conditions, materials, tools and equipment\n\n21) Basic Competencies - are the skills and knowledge that everyone needs for\nwork\n\n22) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serve as basis for\nestablishment of qualification and certification under the PTQF. It also serves as\nguide for development of competency-based curricula and instructional materials\nincluding registration of TVET programs offered by TVET providers\n\n23) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\n--- PDF PAGE 101 ---\n____________________________________________________________________________________ 97\nTR – 3D ANIMATION NC II (Version 02) Amended February 27, 2018\nSECTOR SPECIFIC\n\n1. Animation – a simulation of movement created by displaying a series of pictures,\nor frames. Cartoons on television are one example of animation. Animation on\ncomputers is one of the chief ingredients of multimedia presentations. There are\nmany software applications that enable you to create animations that you can\ndisplay on a computer monitor.\n2. 3D Animation – the creation of moving pictures in a three-dimensional digital\nenvironment. This is done by sequencing consecutive images, or \"frames\", that\nsimulate motion by each image showing the next in a gradual progression of\nsteps, filmed by a virtual \"camera\" and then output to video by a rendering\nengine.\n3. Browser – a software package that provides the user interface for accessing\nInternet, intranet and extranet Web sites.\n4. Computer – a device that has the ability to accept data; internally store and\nexecute a program of instructions; perform mathematical, logical, and\nmanipulative operations on data; and report the results.\n5. Computer Terminal – any input/output device connected by telecommunications\nlinks to a computer.\n6. Data - objective measurements of the attributes (characteristics) of entities such\nas people, places, things, and events.\n7. Documentation – a collection of documents or information.\n8. Edit – to modify the form or format of data\n9. Ergonomics - the science and technology emphasizing the safety, comfort, and\nease of use of human-operated machines. The goal of ergonomics is to produce\nsystems that are user-friendly: safe, comfortable and easy to use.\n10. Information – data placed in a meaningful and useful context for an end user.\n11. Information and Communication Technology (ICT) - refers to technologies\nassociated with the transmission and exchange of data in the form of sound, text,\nvisual images, signals or any combination of those forms through the use of\ndigital technology. It encompasses such services as telecommunications, posts,\nmultimedia, electronic commerce, broadcasting, and information technology.\n12. Quality Assurance – methods for ensuring that information system are free from\nerrors and fraud and provide information products of high quality.\n13. Simulation - the process of imitating a real phenomenon with a set of\nmathematical formulas. Advanced computer programs can simulate weather\nconditions, chemical reactions, atomic reactions, and even biological processes.\n14. Software – computer programs and procedures concerned with the operation of\nan information system.\n15. Standards – measures of performance developed to evaluate the progress of a\nsystem toward its objectives\n16. System – an assembly of methods, procedures, or techniques unified by\nregulated interaction to form an organized whole\n17. User- friendly – a characteristic of human-operated equipment and systems that\nmakes them safe, comfortable, and easy to use.\n\n--- PDF PAGE 102 ---\n____________________________________________________________________________________ 98\nTR – 3D ANIMATION NC II (Version 02) Amended February 27, 2018\n\n TRAINING REGULATIONS (TR)\n DOCUMENT REVISION HISTORY\n\n\nQualification Title : 3D Animation NC III\nQualification Code: ICT3DA318\n\n\nRevision\nNo.\n\nDocument\nDescription Types*\nReplaces Version\n(TESDA Board\nResolution No./\nDate)\nNew Version\n(TESDA Board\nResolution No./\nDate)\n\nDeployment\nCircular\n00\nDocument Created –\nAnimation NC III\nNot Applicable\nTB No. 2005-19/\nNovember 10, 2005\nNot Applicable\n01\nDocument Amended –\n3D Animation NC III\n\nTB No. 2005-19/\nNovember 10, 2005\nTB No. 2007-22/\nJuly 27, 2007\nNot Applicable\n02\nDocument Amended –\n3D Animation NC III\n\nTB No. 2007-22/\nJuly 27, 2007\nTB No. 2018-04/\nFebruary 27, 2018\nTESDA Circular\nNo. __ s. 2018\n Legend: *Description Types\n- Document Created\n- Document Amended\n\n--- PDF PAGE 103 ---\n____________________________________________________________________________________ 99\nTR – 3D ANIMATION NC II (Version 02) Amended February 27, 2018\n ACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\n• THE TECHNICAL EXPERT COMMITTEE – FY 2017\n\n\n\nMS. MARIE GRACE A. DIMARANAN\n\n\n\nBoard Director, Animation Council of the Philippines, Inc. (ACPI)\n\nMR. LUIS DIMARANAN\n2D/3D Animation Director, Top Peg Animation and Creative Studio\n\nMR. EDGARDO R. BAYANI, JR.\nCreative Service and Post Production Director, SEACAT and 9Lives\n\nMS. CYNTHIA Z. JAVIER\n2D Animator, 2D/3D Animation Trainer, HRDI-PKTCC\n\n• THE ANIMATION COUNCIL OF THE PHILIPPINES, INC. (ACPI)\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS\nDEVELOPMENT COMMITTEE\n\n• THE PARTICIPANTS IN THE NATIONAL VALIDATION OF THIS TRAINING\nREGULATION\n\n● ROSS ROMAN P. TEC\n- College of St. Benilde\n• MARIA CRISTINA D. SISON - Top Peg Institute of Animation & Design\n• MARLYN MONTANO\n\n- TeamApp, Inc./ Holy Cow Animation\n• DANI F. MONTANO\n\n- TeamApp, Inc./ Holy Cow Animation\n• LOVE C. ASIS\n\n\n- DLS-CSB/ Toast & Brew Studios\n• MARIA TERESA CRISELDA C. DUMLAO – Toast & Brew Studios\n\n●\nTHE MANAGEMENT AND STAFF OF THE TESDA SECRETARIAT\n\n• Qualifications and Standards Office (QSO)\n1. DIR. IMELDA B. TAGANAS\n2. MR. JULFORD C. ABASOLO\n- QSO-TESDA\n- CSDD-QSO-TESDA\n3. MR. SAMUEL E. CALADO, JR.\n- CSDD-QSO-TESDA\n4. MR. VENZEL V. CONCOLES\n- CSDD-QSO-TESDA"
 }

@@ -1,29 +1,172 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:3d-animation-nc-iii:70d9cae3b5",
   "qualification": "3D ANIMATION NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "3D Animation NC III.pdf",
-    "sha256": "70d9cae3b5712635a0849f0d55e2e06472fd152fa9053653ac3d1bb04f4e21d7",
+    "source_sha256": "70d9cae3b5712635a0849f0d55e2e06472fd152fa9053653ac3d1bb04f4e21d7",
+    "pdf_pages": 103,
+    "printed_pages": 99,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code.",
+    "Some source headers/footer text uses 3D ANIMATION NC II even though the qualification title is NC III; the qualification title follows the document title and Section 1."
   ],
-  "observations": [],
-  "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "3D Animation NC III.pdf",
-    "pdf_pages": 103,
-    "printed_pages": null
-  }
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Some source headers/footer text uses 3D ANIMATION NC II even though the qualification title is NC III; the qualification title follows the document title and Section 1."
+    }
+  ],
+  "fidelity_overrides": [
+    {
+      "id": "evidence-500311112",
+      "unit_code": "500311112",
+      "note": "Evidence Guide preserves scenario, case-study, what-if, disruption, simulation, and integrated/concurrent assessment language from the source."
+    }
+  ],
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        20,
+        21
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "500311142",
+      "source_unit_code": "500311142",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "500311144",
+      "source_unit_code": "500311144",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "500311145",
+      "source_unit_code": "500311145",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "ICT315202",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "ICT311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "ICT216308",
+      "source_unit_code": "ICT216308",
+      "pdf_page_range": [
+        44,
+        50
+      ]
+    },
+    {
+      "unit_code": "ICT216309",
+      "source_unit_code": "ICT216309",
+      "pdf_page_range": [
+        51,
+        56
+      ]
+    },
+    {
+      "unit_code": "ICT216310",
+      "source_unit_code": "ICT216310",
+      "pdf_page_range": [
+        57,
+        60
+      ]
+    },
+    {
+      "unit_code": "ICT216311",
+      "source_unit_code": "ICT216311",
+      "pdf_page_range": [
+        61,
+        65
+      ]
+    },
+    {
+      "unit_code": "ICT216312",
+      "source_unit_code": "ICT216312",
+      "pdf_page_range": [
+        66,
+        69
+      ]
+    }
+  ]
 }

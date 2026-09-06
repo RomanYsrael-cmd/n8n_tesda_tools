@@ -1,29 +1,169 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:2d-animation-nc-iii:0683e75866",
   "qualification": "2D ANIMATION NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "2D Animation NC III.pdf",
-    "sha256": "0683e758668bf289a7775aca92820f95fa7fb31586494378a6b3ce97f9052b40",
+    "source_sha256": "0683e758668bf289a7775aca92820f95fa7fb31586494378a6b3ce97f9052b40",
+    "pdf_pages": 93,
+    "printed_pages": 89,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code.",
+    "Section 1 lists ICT216319 for Create tradigital animation, while its competency header uses ICT216306; the indexed unit uses ICT216319 and preserves the source code.",
+    "The source reuses ICT216306 for Create tradigital animation and Create 2D digital cut-out animation; normalized unit codes are kept unique for retrieval."
   ],
-  "observations": [],
-  "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "2D Animation NC III.pdf",
-    "pdf_pages": 93,
-    "printed_pages": null
-  }
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists ICT216319 for Create tradigital animation, while its competency header uses ICT216306; the indexed unit uses ICT216319 and preserves the source code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source reuses ICT216306 for Create tradigital animation and Create 2D digital cut-out animation; normalized unit codes are kept unique for retrieval."
+    }
+  ],
+  "fidelity_overrides": [
+    {
+      "id": "evidence-500311112",
+      "unit_code": "500311112",
+      "note": "Evidence Guide preserves scenario, case-study, what-if, disruption, simulation, and integrated/concurrent assessment language from the source."
+    }
+  ],
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        19,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311142",
+      "source_unit_code": "500311142",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "500311144",
+      "source_unit_code": "500311144",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "500311145",
+      "source_unit_code": "500311145",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "ICT315202",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "ICT311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "ICT216305",
+      "source_unit_code": "ICT216305",
+      "pdf_page_range": [
+        42,
+        48
+      ]
+    },
+    {
+      "unit_code": "ICT216319",
+      "source_unit_code": "ICT216306",
+      "pdf_page_range": [
+        49,
+        53
+      ]
+    },
+    {
+      "unit_code": "ICT216306",
+      "source_unit_code": "ICT216306",
+      "pdf_page_range": [
+        54,
+        60
+      ]
+    },
+    {
+      "unit_code": "ICT216307",
+      "source_unit_code": "ICT216307",
+      "pdf_page_range": [
+        61,
+        62
+      ]
+    }
+  ]
 }

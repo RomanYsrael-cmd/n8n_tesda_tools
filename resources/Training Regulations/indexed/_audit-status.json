@@ -1,0 +1,73 @@
+{
+  "schema": "tesda-tr-audit-status",
+  "schema_version": "1.0",
+  "batch_size": 5,
+  "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
+  "last_updated": "2026-09-06T08:24:27+08:00",
+  "total_indexed_packages": 384,
+  "audited_count": 5,
+  "remaining_unaudited": 379,
+  "blocked_count": 0,
+  "documents": [
+    {
+      "package": "2D Animation NC III",
+      "package_path": "resources/Training Regulations/indexed/2D Animation NC III",
+      "source_file": "resources/Training Regulations/2D Animation NC III.pdf",
+      "source_sha256": "0683e758668bf289a7775aca92820f95fa7fb31586494378a6b3ce97f9052b40",
+      "status": "audited",
+      "audited_at": "2026-09-06T08:24:27+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "audit_notes": "Rebuilt competency groups and unit provenance; attached required knowledge/skills; added curriculum rows and nominal-duration arithmetic; repaired assessment structure, fidelity observations, and semantic selectors."
+    },
+    {
+      "package": "2D Animation NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/2D Animation NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/2D Animation NC III (Superseded).pdf",
+      "source_sha256": "0e06040a141af6060b1b49c6e2f1a71ee5a21de6b7883b1357c087680dc95836",
+      "status": "audited",
+      "audited_at": "2026-09-06T08:24:27+08:00",
+      "issues_found": 9,
+      "issues_fixed": 9,
+      "validation_passed": true,
+      "audit_notes": "Rebuilt historical two-column competency structure; preserved superseded terminology and source code anomaly; added curriculum rows, duration arithmetic, provenance, fidelity metadata, and resolvable selectors."
+    },
+    {
+      "package": "2D Game Art Development NC III",
+      "package_path": "resources/Training Regulations/indexed/2D Game Art Development NC III",
+      "source_file": "resources/Training Regulations/2D Game Art Development NC III.pdf",
+      "source_sha256": "de1ac9ad1d2a611a36c578cdad595924d64393eabacfc4e5c905f986b56a80a4",
+      "status": "audited",
+      "audited_at": "2026-09-06T08:24:27+08:00",
+      "issues_found": 8,
+      "issues_fixed": 8,
+      "validation_passed": true,
+      "audit_notes": "Rebuilt competency groups and source-preserving unit records; added curriculum rows and recorded the source duration discrepancy; repaired assessment, provenance, fidelity metadata, and semantic selectors."
+    },
+    {
+      "package": "3D Animation NC III",
+      "package_path": "resources/Training Regulations/indexed/3D Animation NC III",
+      "source_file": "resources/Training Regulations/3D Animation NC III.pdf",
+      "source_sha256": "70d9cae3b5712635a0849f0d55e2e06472fd152fa9053653ac3d1bb04f4e21d7",
+      "status": "audited",
+      "audited_at": "2026-09-06T08:24:27+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "audit_notes": "Rebuilt competency groups and unit provenance; attached required knowledge/skills; added curriculum rows and nominal-duration arithmetic; recorded source code/title anomalies; repaired assessment, fidelity metadata, and semantic selectors."
+    },
+    {
+      "package": "3D Animation NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/3D Animation NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/3D Animation NC III (Superseded).pdf",
+      "source_sha256": "9169f4aa0fe637645cf0cef9d8a91f43e9ed17fad7e6c96fce1095046c80fc39",
+      "status": "audited",
+      "audited_at": "2026-09-06T08:24:27+08:00",
+      "issues_found": 9,
+      "issues_fixed": 9,
+      "validation_passed": true,
+      "audit_notes": "Rebuilt historical two-column competency structure; preserved superseded terminology and source code anomaly; added curriculum rows, duration arithmetic, provenance, fidelity metadata, and resolvable selectors."
+    }
+  ]
+}

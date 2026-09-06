@@ -1,75 +1,1108 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:2d-game-art-development-nc-iii:de1ac9ad1d",
   "qualification": "2D GAME ART DEVELOPMENT NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "2D Game Art Development NC III.pdf",
-    "pdf_pages": 66
+    "pdf_pages": 66,
+    "printed_pages": 64
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 64,
+        "source_expression": "64 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 70,
+        "source_expression": "70 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 800,
+        "source_expression": "800 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [
+      {
+        "label": "On-the-Job Training",
+        "hours": 200,
+        "source_expression": "200 hrs. - OJT"
+      }
+    ],
+    "total_hours": 1134,
+    "total_source_expression": "1,134 hrs.",
+    "source_expressions": [
+      "64 hrs. - Basic Competencies",
+      "70 hrs. - Common Competencies",
+      "800 hrs. - Core Competencies",
+      "200 hrs. - OJT"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 1134,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3 TRAINING STANDARDS \n \n \n3.1 \nCURRICULUM DESIGN \n \nCourse Title: 2D Game Art Development \n NC Level: NC III \n \nNominal Training Duration: \n 64 hrs. \n- Basic Competencies \n 70 hrs. \n- Common Competencies \n 800 hrs. \n- Core Competencies \n 200 hrs. - OJT (in a game studio or a company \nallocating resources for game \ndevelopment related projects) \n ------------- \n 1,134 hrs. \n \nCourse Description: \n \n \nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a \n2D Game Artist in accordance with industry standards. It covers the basic & common \ncompetencies in addition to the core competencies such as preparing art document, \ncreating storyboard and asset list, developing concept art, developing final artwork \nusing graphic application and applying in-game animation. The nominal duration of \n934 hours covers the required units at 2D Game Art Development NC III and an \nadditional 200 hours on-the-job (OJT) training. TVET providers can however, offer \na longer, ladderized course covering the NC III basic, common, core and elective \nunits. \n \nBASIC COMPETENCIES \n64 hrs \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead workplace \ncommunication \n1.1 Communicate information \nabout workplace \nprocesses. \n1.2 Lead workplace \ndiscussions. \n1.3 Identify and communicate \nissues arising in the \nworkplace\n• Group discussion \n• Role Play \n• Brainstorming \n \n• Observation \n• Interviews\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n48\n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n2. Lead small \nteams \n2.1 Provide team leadership. \n2.2 Assign responsibilities \namong members. \n2.3 Set performance \nexpectation for team \nmembers. \n2.4 Supervise team \nperformance\n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies \n3. Develop and \npractice \nnegotiation \nskills \n3.1 Identify relevant \ninformation in planning \nnegotiations \n3.2 Participate in negotiations \n3.3 Document areas for \nagreement\n• Direct \nobservation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve \nworkplace \nproblem related \nto work \nactivities\n4.1 Explain the analytical \ntechniques. \n4.2 Identify the problem. \n4.3 Determine the possible \ncause/s of the problem.\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques to \nsolve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3\nAnalyze results\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 Identify appropriate \ntechnology \n6.2 Apply relevant technology \n6.3 Maintain/enhance \nrelevant technology\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n49\nCOMMON COMPETENCIES \n70 hrs. \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Apply critical \nthinking and \nthought \norganization \n1.1. Identify the theoretical \nfoundations of critical \nthinking \n1.2. Develop constructive \narguments \n1.3. Apply methods of \nreasoning \n1.4. Affirm generalization \n1.5. Arrive at a conclusion \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n2. Apply Quality \nStandards \n2.1. Asses quality of received \nmaterials \n2.2. Assess own work \n2.3. Engage in quality \nimprovement \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n3. Perform \ncomputer \noperations \n3.1. Plan and prepare for task \nto be taken undertaken \n3.2. Input data into computer \n3.3. Access information using \ncomputer \n3.4. Produce output/ data \nusing computer system \n3.5. Use basic functions of a \nwww-browser to locate \ninformation \n3.6. Maintain computer \nequipment and systems \n Modular \n Film showing \n Computer \nbased training \n(e-learning) \n Project \nmethod \n On the job \ntraining \n \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n Assessment of \noutput product \n Portfolio \n Computer based \nassessment\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n50\nCORE COMPETENCIES \n800 hrs \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Develop and \nconceptualize \nart style \n \n \n96 hours \n \n1.1. Develop look-and-feel \n1.2. Draw and compile \ncharacters \n1.3. Draw the game world \n1.4. Draw and compile other \nassets \n1.5. Develop graphical user \ninterface\n• Lecture / \nDiscussion \n• Workshop \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n2. Create \nstoryboard \nand asset list \n \n \n184 hours \n2.1. Develop storyboard panels \n2.2. Create narrative devices \n2.3. Create cut scenes \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n3. Prepare art \ndocument \n \n \n \n \n112 hours \n3.1. Prepare concept art for \ncharacters \n3.2. Prepare concept art for \nprops/objects \n3.3. Prepare concept art for \nbackground layout \n3.4. Prepare concept art for \nspecial effects \n3.5. Prepare concept art for GUI\n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n4. Develop final \nartwork using \ngraphic \napplication \n \n \n184 hours \n4.1. Create the line-work \n4.2. Apply color to artwork \n4.3. Prepare final palette/color \nmap sheet \n4.4. Break graphics into \nassets/create object library \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n \n \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n5. Apply in-game \nanimation \n \n \n \n \n184 hours \n5.1. Import assets \n5.2. Apply assets to key-frame \n5.3. Preview animation \n5.4. Render required file format \n \n• Lecture/ \nDiscussion \n• Workshop \n• Exercises \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n51\n3.2 TRAINING DELIVERY \n \nThe delivery of training shall adhere to the design of the curriculum. \nDelivery shall be guided by the 10 basic principles of competency-based \nTVET. \n \n• The training is based on curriculum developed from the competency \nstandards; \n• Learning is modular in its structure; \n• Training delivery is learner-centered and should accommodate \nindividualized and self-paced learning strategies; \n• Training is based on work that must be performed; \n• Training materials are directly related to the competency standards \nand the curriculum modules; \n• Assessment is based in the collection of evidence of the performance \nof work to the industry required standard; \n• Training program allows for recognition of prior learning (RPL) or \ncurrent competencies; \n• Training allows for multiple entry and exit; and \n• Training programs are registered with the UTPRAS. \n \nThe competency-based TVET system recognizes various types of \ndelivery modes, both on and off-the-job as long as the learning is driven by \nthe competency standards specified by the industry. The following training \nmodalities may be adopted when designing training programs: \n \n• The dualized mode of training delivery is preferred and recommended. \nThus programs would contain both in - school and in-industry training \nor fieldwork components. Details can be referred to the Dual Training \nSystem (DTS) Implementing Rules and Regulations. \n• Modular/self-paced learning is a competency-based training modality \nwherein the trainee is allowed to progress at his own pace. The \ntrainer just facilitates the training delivery. \n• Peer teaching/mentoring is a training modality wherein fast learners \nare given the opportunity to assist the slow learners. \n• Supervised industry training or on-the-job training is an approach in \ntraining designed to enhance the knowledge and skills of the trainee \nthrough actual experience in the workplace to acquire specific \ncompetencies prescribed in the training regulations. \n• Distance learning is a formal education process in which majority of \nthe instruction occurs when the students and instructor are not in the \nsame place. Distance learning may employ correspondence study, or \naudio, video or computer technologies. \n• Project-based instruction is an authentic instructional model or \nstrategy in which students plan, implement and evaluate projects that \nhave real world applications.\n\n--- PDF PAGE 54 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n52\n \n3.3 \nTrainee Entry Requirements \n \nThe trainees who wish to enter the course should possess the following \nrequirements: \n• At least high school graduate or equivalent experience \n• With artistic and drawing skills which will be validated by : \no a talent entrance exam to be administered by the training \ninstitution using a tool devised by the Technical Experts Panel \n(TEP) and Participants of the National Validation of this Training \nRegulation \no the submission of a portfolio (hard & soft copy should be provided) \n• Good moral character \n• Mentally and emotionally able. \n• Has the capacity to communicate in both oral and written \n• Physically able to manipulate a mouse, track-ball, electronic pen, etc. \n• Must know how to operate a computer \n \nThis list does not include specific institutional requirements such as \neducational attainment, appropriate work experience and others that may be \nrequired from the trainees by the school or training center delivering the TVET \nprogram. \n \n \n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS \n \nRecommended list of tools, equipment and materials for the conduct of \ntraining in 2D Game Art Development NC III: \n \nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n15 \nElectronic pen and \ntablet\n15 \nErgonomic computer tables \nand chairs\n15 \nMock theme and \nscript \n15\nMouse\n2\nScanner\n15\nPen and paper\n15\nEraser\n1\nLCD Projector\n15\nLearning elements\n1 \nInternet access/ \nLAN connected\n1 \nInk-jet Printer \n15 \nPrintable \nstoryboard\n15 \nlicenses \nper \napplicatio\nn \nComputer \nApplication \n e.g. \n- Flash \n- ToonBoom \n- After Effects \n- Adobe \nPhotoshop CS5+ \n1\nLCD Monitor/TV, 42 inches\n15\nHand-outs\n15 \nComputer (with peripherals) \nWindows PC or Mac \n- 19in. LCD monitor, \n- multi-core 2GHz CPU, \n- Direct X10, open GL \ncapable video card, \n- 4GB memory, \n- 500 GB hard disk \n15\nPractice materials\n15\nReference books\n15 \nLearning materials/ \nguide \n \n \n2 \nWhite board and / or glass \nboard\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n53\nThe quantity of tools and equipment to be used for the conduct of training for \nthis qualification shall depend on the number of students, size of the class, and/or \nmodality of training. The most important consideration is to make sure that tools and \nequipment are adequately provided to all trainees when needed. The actual list of \ntools, equipment, machines, supplies and other materials to be used shall be \nidentified and detailed in the Competency Based Curriculum (CBC) to be submitted \nby the TVET provider when registering a course or training program with TESDA. \n \nDue to the fast-changing nature of the Information and Communications \nTechnology (ICT) sector, TVET providers are reminded to use and provide their \ntrainees with the latest technology tools, equipment and materials where appropriate \nand applicable. \n \nIn cases where there are specialized tools, equipment and facilities that are \nnot generally considered standard requirements or not absolute requisites for \ntraining, the industry working group or TESDA may provide guidelines or specific \nadvice on such matters. \n \n3.5 TRAINING FACILITIES \n \n \nBased on class size of 15 students/trainees the space requirements for \n \nthe teaching/learning and circulation areas are as follows: \n \nTEACHING/LEARNING \nAREAS \nSIZE IN \nMETERS \nAREA IN SQ. \nMETERS \nQTY\nTOTAL AREA IN \nSQ. METERS \nLecture Area \n5 x 8 \n40 \n1 \n40 \nComputer Lab \n5x10 \n50 \n1 \n60 \nLearning Resource Area \n4 x 5 \n20 \n1 \n20 \nWash ,Toilet & Locker Room \n2 x 5 \n10 \n2 \n20 \n Total \n80 \nFacilities / Equipment / \nCirculation** \n \n \n \n30 \nTotal Area \n110 \n \n** Area requirement is equivalent to 30% of the total teaching/learning areas \n \nAppropriate consideration should be given in providing and allocating work \nspace, communications facilities, and the usual workplace amenities to ensure a \nproper learning environment. Where applicable, training shall be held or conducted \nin learning facilities in accordance with generally accepted industry standards and \npractice.\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n54\n \n3.6 TRAINERS QUALIFICATIONS \n \n \n• \nHolder of National TVET Trainer’s Certificate (NTTC) Level 1 \n• \n* Must have at least 2-years relevant industry experience. \n• \nMust be physically & mentally fit. \n \n* Optional: Only when required by the hiring institution. \n \n \n \n3.7 \nINSTITUTIONAL ASSESSMENT \n \nInstitutional Assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued \nfor each unit of competency. \n \nAs a matter of policy, graduates of programs registered with TESDA under \nthese training regulations are required to undergo mandatory national \ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n55"
+    "entries": [
+      {
+        "group": "basic",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes.",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions.",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Identify and communicate issues arising in the workplace III",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership.",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_title": "2. Lead small"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities among members.",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectation for team members.",
+        "learning_activities": [],
+        "methodology": [
+          "(modular)"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervise team performance",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify relevant information in planning negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Direct observation",
+          "Simulation/role"
+        ],
+        "assessment_approach": [
+          "Written test",
+          "Practical/ performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_title": "3. Develop and practice negotiation"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "playing"
+        ],
+        "assessment_approach": [
+          "test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document areas for agreement",
+        "learning_activities": [],
+        "methodology": [
+          "Case studies"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Explain the analytical techniques.",
+        "learning_activities": [],
+        "methodology": [
+          "Direct observation",
+          "Simulation/role"
+        ],
+        "assessment_approach": [
+          "Written test",
+          "Practical/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_title": "4. Solve workplace"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify the problem.",
+        "learning_activities": [],
+        "methodology": [
+          "playing"
+        ],
+        "assessment_approach": [
+          "performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_title": "problem related"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine the possible cause/s of the problem.",
+        "learning_activities": [],
+        "methodology": [
+          "Case studies"
+        ],
+        "assessment_approach": [
+          "test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [
+          "Direct observation",
+          "Simulation/role playing"
+        ],
+        "assessment_approach": [
+          "Written test",
+          "Practical/ performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_title": "5. Use mathematical concepts and"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply mathematical procedures/solution",
+        "learning_activities": [],
+        "methodology": [
+          "Case studies"
+        ],
+        "assessment_approach": [
+          "test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Identify appropriate technology",
+        "learning_activities": [],
+        "methodology": [
+          "Direct observation",
+          "Simulation/role"
+        ],
+        "assessment_approach": [
+          "Written test",
+          "Practical/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [
+          "playing"
+        ],
+        "assessment_approach": [
+          "performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies"
+      },
+      {
+        "group": "basic",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain/enhance relevant technology III",
+        "learning_activities": [],
+        "methodology": [
+          "Case studies"
+        ],
+        "assessment_approach": [
+          "test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50,
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Identify the theoretical foundations of critical thinking",
+        "learning_activities": [],
+        "methodology": [
+          " Field trip  Demonstration  Symposium questioning  Film showing  Observation"
+        ],
+        "assessment_approach": [
+          "& &"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_title": "1. Apply critical thinking and thought"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Develop constructive arguments",
+        "learning_activities": [],
+        "methodology": [
+          " Simulation questioning  On the job  Third"
+        ],
+        "assessment_approach": [
+          "party report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT315203",
+        "unit_title": "Apply critical thinking and thought organization"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Apply methods of reasoning",
+        "learning_activities": [],
+        "methodology": [
+          "training"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT315203",
+        "unit_title": "Apply critical thinking and thought organization"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Affirm generalization",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT315203",
+        "unit_title": "Apply critical thinking and thought organization"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Arrive at a conclusion",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT315203",
+        "unit_title": "Apply critical thinking and thought organization"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Asses quality of received materials",
+        "learning_activities": [],
+        "methodology": [
+          " Field trip  Demonstration  Symposium questioning"
+        ],
+        "assessment_approach": [
+          "&"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assess own work",
+        "learning_activities": [],
+        "methodology": [
+          " Film showing  Observation"
+        ],
+        "assessment_approach": [
+          "&"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Engage in quality improvement",
+        "learning_activities": [],
+        "methodology": [
+          " Simulation questioning  On the job  Third training"
+        ],
+        "assessment_approach": [
+          "party report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Plan and prepare for task to be taken undertaken",
+        "learning_activities": [],
+        "methodology": [
+          " Modular  Demonstration  Film showing questioning"
+        ],
+        "assessment_approach": [
+          "&"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_title": "3. Perform computer"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Input data into computer",
+        "learning_activities": [],
+        "methodology": [
+          " Computer  Observation"
+        ],
+        "assessment_approach": [
+          "&"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Access information using computer",
+        "learning_activities": [],
+        "methodology": [
+          "based training questioning (e-learning)  Third"
+        ],
+        "assessment_approach": [
+          "party report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Produce output/ data using computer system",
+        "learning_activities": [],
+        "methodology": [
+          " Project  Assessment method output"
+        ],
+        "assessment_approach": [
+          "of product"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "3.5",
+        "learning_outcome": "Use basic functions of a www-browser to locate information",
+        "learning_activities": [],
+        "methodology": [
+          " On the job  Portfolio training  Computer assessment"
+        ],
+        "assessment_approach": [
+          "based"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations"
+      },
+      {
+        "group": "common",
+        "learning_outcome_number": "3.6",
+        "learning_outcome": "Maintain computer equipment and systems NC III",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51,
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Develop look-and-feel",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture /"
+        ],
+        "assessment_approach": [
+          "Demonstration / Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "1. Develop and"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Draw and compile characters",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Workshop"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Presentation with questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313344",
+        "unit_title": "Develop and conceptualize art style"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Draw the game world",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Portfolio of work"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313344",
+        "unit_title": "Develop and conceptualize art style"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Draw and compile other assets",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "samples",
+          "Individual"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "96 hours"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Develop graphical user interface",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "96 hours"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Develop storyboard panels",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Demonstration / Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "2. Create"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Create narrative devices",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Presentation with"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313345",
+        "unit_title": "Create storyboard and asset list"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Create cut scenes",
+        "learning_activities": [],
+        "methodology": [
+          "Workshop",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Presentation with questioning",
+          "Portfolio of work samples",
+          "Individual interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "and asset list 184 hours"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Prepare concept art for characters",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration / Practical exam",
+          "Presentation with"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313346",
+        "unit_title": "Prepare art document"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Prepare concept art for props/objects",
+        "learning_activities": [],
+        "methodology": [
+          "Workshop",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Presentation with questioning",
+          "Portfolio of work"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313346",
+        "unit_title": "Prepare art document"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Prepare concept art for background layout",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "samples",
+          "Individual"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313346",
+        "unit_title": "Prepare art document"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Prepare concept art for special effects",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "112 hours"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "3.5",
+        "learning_outcome": "Prepare concept art for GUI",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "112 hours"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Create the line-work",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Demonstration / Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "4. Develop final"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Apply color to artwork",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Presentation with"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313347",
+        "unit_title": "Develop final artwork using graphic application"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Prepare final palette/color map sheet",
+        "learning_activities": [],
+        "methodology": [
+          "Workshop",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Presentation with questioning",
+          "Portfolio of work"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313347",
+        "unit_title": "Develop final artwork using graphic application"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Break graphics into assets/create object library",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "samples",
+          "Individual interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "184 hours"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Import assets",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Demonstration / Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "5. Apply in-game"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply assets to key-frame",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Presentation with"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313348",
+        "unit_title": "Apply in-game animation"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Preview animation",
+        "learning_activities": [],
+        "methodology": [
+          "Workshop"
+        ],
+        "assessment_approach": [
+          "Presentation with questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_code": "ICT313348",
+        "unit_title": "Apply in-game animation"
+      },
+      {
+        "group": "core",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Render required file format NC III",
+        "learning_activities": [],
+        "methodology": [
+          "Exercises",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Portfolio of work samples",
+          "Individual interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52,
+        "unit_title": "184 hours"
+      }
+    ],
+    "source_text": "Course Title: 2D Game Art Development \n NC Level: NC III \n \nNominal Training Duration: \n 64 hrs. \n- Basic Competencies \n 70 hrs. \n- Common Competencies \n 800 hrs. \n- Core Competencies \n 200 hrs. - OJT (in a game studio or a company \nallocating resources for game \ndevelopment related projects) \n ------------- \n 1,134 hrs. \n \nCourse Description: \n \n \nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a \n2D Game Artist in accordance with industry standards. It covers the basic & common \ncompetencies in addition to the core competencies such as preparing art document, \ncreating storyboard and asset list, developing concept art, developing final artwork \nusing graphic application and applying in-game animation. The nominal duration of \n934 hours covers the required units at 2D Game Art Development NC III and an \nadditional 200 hours on-the-job (OJT) training. TVET providers can however, offer \na longer, ladderized course covering the NC III basic, common, core and elective \nunits. \n \nBASIC COMPETENCIES \n64 hrs \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead workplace \ncommunication \n1.1 Communicate information \nabout workplace \nprocesses. \n1.2 Lead workplace \ndiscussions. \n1.3 Identify and communicate \nissues arising in the \nworkplace\n• Group discussion \n• Role Play \n• Brainstorming \n \n• Observation \n• Interviews\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n48\n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n2. Lead small \nteams \n2.1 Provide team leadership. \n2.2 Assign responsibilities \namong members. \n2.3 Set performance \nexpectation for team \nmembers. \n2.4 Supervise team \nperformance\n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies \n3. Develop and \npractice \nnegotiation \nskills \n3.1 Identify relevant \ninformation in planning \nnegotiations \n3.2 Participate in negotiations \n3.3 Document areas for \nagreement\n• Direct \nobservation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve \nworkplace \nproblem related \nto work \nactivities\n4.1 Explain the analytical \ntechniques. \n4.2 Identify the problem. \n4.3 Determine the possible \ncause/s of the problem.\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques to \nsolve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3\nAnalyze results\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 Identify appropriate \ntechnology \n6.2 Apply relevant technology \n6.3 Maintain/enhance \nrelevant technology\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n49\nCOMMON COMPETENCIES \n70 hrs. \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Apply critical \nthinking and \nthought \norganization \n1.1. Identify the theoretical \nfoundations of critical \nthinking \n1.2. Develop constructive \narguments \n1.3. Apply methods of \nreasoning \n1.4. Affirm generalization \n1.5. Arrive at a conclusion \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n2. Apply Quality \nStandards \n2.1. Asses quality of received \nmaterials \n2.2. Assess own work \n2.3. Engage in quality \nimprovement \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n3. Perform \ncomputer \noperations \n3.1. Plan and prepare for task \nto be taken undertaken \n3.2. Input data into computer \n3.3. Access information using \ncomputer \n3.4. Produce output/ data \nusing computer system \n3.5. Use basic functions of a \nwww-browser to locate \ninformation \n3.6. Maintain computer \nequipment and systems \n Modular \n Film showing \n Computer \nbased training \n(e-learning) \n Project \nmethod \n On the job \ntraining \n \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n Assessment of \noutput product \n Portfolio \n Computer based \nassessment\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n50\nCORE COMPETENCIES \n800 hrs \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Develop and \nconceptualize \nart style \n \n \n96 hours \n \n1.1. Develop look-and-feel \n1.2. Draw and compile \ncharacters \n1.3. Draw the game world \n1.4. Draw and compile other \nassets \n1.5. Develop graphical user \ninterface\n• Lecture / \nDiscussion \n• Workshop \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n2. Create \nstoryboard \nand asset list \n \n \n184 hours \n2.1. Develop storyboard panels \n2.2. Create narrative devices \n2.3. Create cut scenes \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n3. Prepare art \ndocument \n \n \n \n \n112 hours \n3.1. Prepare concept art for \ncharacters \n3.2. Prepare concept art for \nprops/objects \n3.3. Prepare concept art for \nbackground layout \n3.4. Prepare concept art for \nspecial effects \n3.5. Prepare concept art for GUI\n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n4. Develop final \nartwork using \ngraphic \napplication \n \n \n184 hours \n4.1. Create the line-work \n4.2. Apply color to artwork \n4.3. Prepare final palette/color \nmap sheet \n4.4. Break graphics into \nassets/create object library \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n \n \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n5. Apply in-game \nanimation \n \n \n \n \n184 hours \n5.1. Import assets \n5.2. Apply assets to key-frame \n5.3. Preview animation \n5.4. Render required file format \n \n• Lecture/ \nDiscussion \n• Workshop \n• Exercises \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n51"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: 2D Game Art Development \n NC Level: NC III \n \nNominal Training Duration: \n 64 hrs. \n- Basic Competencies \n 70 hrs. \n- Common Competencies \n 800 hrs. \n- Core Competencies \n 200 hrs. - OJT (in a game studio or a company \nallocating resources for game \ndevelopment related projects) \n ------------- \n 1,134 hrs. \n \nCourse Description: \n \n \nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a \n2D Game Artist in accordance with industry standards. It covers the basic & common \ncompetencies in addition to the core competencies such as preparing art document, \ncreating storyboard and asset list, developing concept art, developing final artwork \nusing graphic application and applying in-game animation. The nominal duration of \n934 hours covers the required units at 2D Game Art Development NC III and an \nadditional 200 hours on-the-job (OJT) training. TVET providers can however, offer \na longer, ladderized course covering the NC III basic, common, core and elective \nunits. \n \nBASIC COMPETENCIES \n64 hrs \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead workplace \ncommunication \n1.1 Communicate information \nabout workplace \nprocesses. \n1.2 Lead workplace \ndiscussions. \n1.3 Identify and communicate \nissues arising in the \nworkplace\n• Group discussion \n• Role Play \n• Brainstorming \n \n• Observation \n• Interviews\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n48\n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n2. Lead small \nteams \n2.1 Provide team leadership. \n2.2 Assign responsibilities \namong members. \n2.3 Set performance \nexpectation for team \nmembers. \n2.4 Supervise team \nperformance\n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies \n3. Develop and \npractice \nnegotiation \nskills \n3.1 Identify relevant \ninformation in planning \nnegotiations \n3.2 Participate in negotiations \n3.3 Document areas for \nagreement\n• Direct \nobservation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve \nworkplace \nproblem related \nto work \nactivities\n4.1 Explain the analytical \ntechniques. \n4.2 Identify the problem. \n4.3 Determine the possible \ncause/s of the problem.\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques to \nsolve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3\nAnalyze results\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 Identify appropriate \ntechnology \n6.2 Apply relevant technology \n6.3 Maintain/enhance \nrelevant technology\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n49\nCOMMON COMPETENCIES \n70 hrs. \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Apply critical \nthinking and \nthought \norganization \n1.1. Identify the theoretical \nfoundations of critical \nthinking \n1.2. Develop constructive \narguments \n1.3. Apply methods of \nreasoning \n1.4. Affirm generalization \n1.5. Arrive at a conclusion \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n2. Apply Quality \nStandards \n2.1. Asses quality of received \nmaterials \n2.2. Assess own work \n2.3. Engage in quality \nimprovement \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n3. Perform \ncomputer \noperations \n3.1. Plan and prepare for task \nto be taken undertaken \n3.2. Input data into computer \n3.3. Access information using \ncomputer \n3.4. Produce output/ data \nusing computer system \n3.5. Use basic functions of a \nwww-browser to locate \ninformation \n3.6. Maintain computer \nequipment and systems \n Modular \n Film showing \n Computer \nbased training \n(e-learning) \n Project \nmethod \n On the job \ntraining \n \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n Assessment of \noutput product \n Portfolio \n Computer based \nassessment\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n50\nCORE COMPETENCIES \n800 hrs \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Develop and \nconceptualize \nart style \n \n \n96 hours \n \n1.1. Develop look-and-feel \n1.2. Draw and compile \ncharacters \n1.3. Draw the game world \n1.4. Draw and compile other \nassets \n1.5. Develop graphical user \ninterface\n• Lecture / \nDiscussion \n• Workshop \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n2. Create \nstoryboard \nand asset list \n \n \n184 hours \n2.1. Develop storyboard panels \n2.2. Create narrative devices \n2.3. Create cut scenes \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n3. Prepare art \ndocument \n \n \n \n \n112 hours \n3.1. Prepare concept art for \ncharacters \n3.2. Prepare concept art for \nprops/objects \n3.3. Prepare concept art for \nbackground layout \n3.4. Prepare concept art for \nspecial effects \n3.5. Prepare concept art for GUI\n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n4. Develop final \nartwork using \ngraphic \napplication \n \n \n184 hours \n4.1. Create the line-work \n4.2. Apply color to artwork \n4.3. Prepare final palette/color \nmap sheet \n4.4. Break graphics into \nassets/create object library \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n \n \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n5. Apply in-game \nanimation \n \n \n \n \n184 hours \n5.1. Import assets \n5.2. Apply assets to key-frame \n5.3. Preview animation \n5.4. Render required file format \n \n• Lecture/ \nDiscussion \n• Workshop \n• Exercises \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n51",
-      "pdf_pages": []
+      "pdf_pages": [
+        2,
+        49
+      ],
+      "source_text": "Course Title: 2D Game Art Development \n NC Level: NC III \n \nNominal Training Duration: \n 64 hrs. \n- Basic Competencies \n 70 hrs. \n- Common Competencies \n 800 hrs. \n- Core Competencies \n 200 hrs. - OJT (in a game studio or a company \nallocating resources for game \ndevelopment related projects) \n ------------- \n 1,134 hrs. \n \nCourse Description: \n \n \nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a \n2D Game Artist in accordance with industry standards. It covers the basic & common \ncompetencies in addition to the core competencies such as preparing art document, \ncreating storyboard and asset list, developing concept art, developing final artwork \nusing graphic application and applying in-game animation. The nominal duration of \n934 hours covers the required units at 2D Game Art Development NC III and an \nadditional 200 hours on-the-job (OJT) training. TVET providers can however, offer \na longer, ladderized course covering the NC III basic, common, core and elective \nunits. \n \nBASIC COMPETENCIES \n64 hrs \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead workplace \ncommunication \n1.1 Communicate information \nabout workplace \nprocesses. \n1.2 Lead workplace \ndiscussions. \n1.3 Identify and communicate \nissues arising in the \nworkplace\n• Group discussion \n• Role Play \n• Brainstorming \n \n• Observation \n• Interviews\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n48\n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n2. Lead small \nteams \n2.1 Provide team leadership. \n2.2 Assign responsibilities \namong members. \n2.3 Set performance \nexpectation for team \nmembers. \n2.4 Supervise team \nperformance\n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies \n3. Develop and \npractice \nnegotiation \nskills \n3.1 Identify relevant \ninformation in planning \nnegotiations \n3.2 Participate in negotiations \n3.3 Document areas for \nagreement\n• Direct \nobservation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve \nworkplace \nproblem related \nto work \nactivities\n4.1 Explain the analytical \ntechniques. \n4.2 Identify the problem. \n4.3 Determine the possible \ncause/s of the problem.\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques to \nsolve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3\nAnalyze results\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 Identify appropriate \ntechnology \n6.2 Apply relevant technology \n6.3 Maintain/enhance \nrelevant technology\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n49\nCOMMON COMPETENCIES \n70 hrs. \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Apply critical \nthinking and \nthought \norganization \n1.1. Identify the theoretical \nfoundations of critical \nthinking \n1.2. Develop constructive \narguments \n1.3. Apply methods of \nreasoning \n1.4. Affirm generalization \n1.5. Arrive at a conclusion \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n2. Apply Quality \nStandards \n2.1. Asses quality of received \nmaterials \n2.2. Assess own work \n2.3. Engage in quality \nimprovement \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n3. Perform \ncomputer \noperations \n3.1. Plan and prepare for task \nto be taken undertaken \n3.2. Input data into computer \n3.3. Access information using \ncomputer \n3.4. Produce output/ data \nusing computer system \n3.5. Use basic functions of a \nwww-browser to locate \ninformation \n3.6. Maintain computer \nequipment and systems \n Modular \n Film showing \n Computer \nbased training \n(e-learning) \n Project \nmethod \n On the job \ntraining \n \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n Assessment of \noutput product \n Portfolio \n Computer based \nassessment\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n50\nCORE COMPETENCIES \n800 hrs \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Develop and \nconceptualize \nart style \n \n \n96 hours \n \n1.1. Develop look-and-feel \n1.2. Draw and compile \ncharacters \n1.3. Draw the game world \n1.4. Draw and compile other \nassets \n1.5. Develop graphical user \ninterface\n• Lecture / \nDiscussion \n• Workshop \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n2. Create \nstoryboard \nand asset list \n \n \n184 hours \n2.1. Develop storyboard panels \n2.2. Create narrative devices \n2.3. Create cut scenes \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n3. Prepare art \ndocument \n \n \n \n \n112 hours \n3.1. Prepare concept art for \ncharacters \n3.2. Prepare concept art for \nprops/objects \n3.3. Prepare concept art for \nbackground layout \n3.4. Prepare concept art for \nspecial effects \n3.5. Prepare concept art for GUI\n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n4. Develop final \nartwork using \ngraphic \napplication \n \n \n184 hours \n4.1. Create the line-work \n4.2. Apply color to artwork \n4.3. Prepare final palette/color \nmap sheet \n4.4. Break graphics into \nassets/create object library \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n \n \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n5. Apply in-game \nanimation \n \n \n \n \n184 hours \n5.1. Import assets \n5.2. Apply assets to key-frame \n5.3. Preview animation \n5.4. Render required file format \n \n• Lecture/ \nDiscussion \n• Workshop \n• Exercises \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n51"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training shall adhere to the design of the curriculum. \nDelivery shall be guided by the 10 basic principles of competency-based \nTVET. \n \n• The training is based on curriculum developed from the competency \nstandards; \n• Learning is modular in its structure; \n• Training delivery is learner-centered and should accommodate \nindividualized and self-paced learning strategies; \n• Training is based on work that must be performed; \n• Training materials are directly related to the competency standards \nand the curriculum modules; \n• Assessment is based in the collection of evidence of the performance \nof work to the industry required standard; \n• Training program allows for recognition of prior learning (RPL) or \ncurrent competencies; \n• Training allows for multiple entry and exit; and \n• Training programs are registered with the UTPRAS. \n \nThe competency-based TVET system recognizes various types of \ndelivery modes, both on and off-the-job as long as the learning is driven by \nthe competency standards specified by the industry. The following training \nmodalities may be adopted when designing training programs: \n \n• The dualized mode of training delivery is preferred and recommended. \nThus programs would contain both in - school and in-industry training \nor fieldwork components. Details can be referred to the Dual Training \nSystem (DTS) Implementing Rules and Regulations. \n• Modular/self-paced learning is a competency-based training modality \nwherein the trainee is allowed to progress at his own pace. The \ntrainer just facilitates the training delivery. \n• Peer teaching/mentoring is a training modality wherein fast learners \nare given the opportunity to assist the slow learners. \n• Supervised industry training or on-the-job training is an approach in \ntraining designed to enhance the knowledge and skills of the trainee \nthrough actual experience in the workplace to acquire specific \ncompetencies prescribed in the training regulations. \n• Distance learning is a formal education process in which majority of \nthe instruction occurs when the students and instructor are not in the \nsame place. Distance learning may employ correspondence study, or \naudio, video or computer technologies. \n• Project-based instruction is an authentic instructional model or \nstrategy in which students plan, implement and evaluate projects that \nhave real world applications.\n\n--- PDF PAGE 54 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n52",
-      "pdf_pages": []
+      "pdf_pages": [
+        2,
+        53
+      ],
+      "source_text": "The delivery of training shall adhere to the design of the curriculum. \nDelivery shall be guided by the 10 basic principles of competency-based \nTVET. \n \n• The training is based on curriculum developed from the competency \nstandards; \n• Learning is modular in its structure; \n• Training delivery is learner-centered and should accommodate \nindividualized and self-paced learning strategies; \n• Training is based on work that must be performed; \n• Training materials are directly related to the competency standards \nand the curriculum modules; \n• Assessment is based in the collection of evidence of the performance \nof work to the industry required standard; \n• Training program allows for recognition of prior learning (RPL) or \ncurrent competencies; \n• Training allows for multiple entry and exit; and \n• Training programs are registered with the UTPRAS. \n \nThe competency-based TVET system recognizes various types of \ndelivery modes, both on and off-the-job as long as the learning is driven by \nthe competency standards specified by the industry. The following training \nmodalities may be adopted when designing training programs: \n \n• The dualized mode of training delivery is preferred and recommended. \nThus programs would contain both in - school and in-industry training \nor fieldwork components. Details can be referred to the Dual Training \nSystem (DTS) Implementing Rules and Regulations. \n• Modular/self-paced learning is a competency-based training modality \nwherein the trainee is allowed to progress at his own pace. The \ntrainer just facilitates the training delivery. \n• Peer teaching/mentoring is a training modality wherein fast learners \nare given the opportunity to assist the slow learners. \n• Supervised industry training or on-the-job training is an approach in \ntraining designed to enhance the knowledge and skills of the trainee \nthrough actual experience in the workplace to acquire specific \ncompetencies prescribed in the training regulations. \n• Distance learning is a formal education process in which majority of \nthe instruction occurs when the students and instructor are not in the \nsame place. Distance learning may employ correspondence study, or \naudio, video or computer technologies. \n• Project-based instruction is an authentic instructional model or \nstrategy in which students plan, implement and evaluate projects that \nhave real world applications.\n\n--- PDF PAGE 54 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n52"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "The trainees who wish to enter the course should possess the following \nrequirements: \n• At least high school graduate or equivalent experience \n• With artistic and drawing skills which will be validated by : \no a talent entrance exam to be administered by the training \ninstitution using a tool devised by the Technical Experts Panel \n(TEP) and Participants of the National Validation of this Training \nRegulation \no the submission of a portfolio (hard & soft copy should be provided) \n• Good moral character \n• Mentally and emotionally able. \n• Has the capacity to communicate in both oral and written \n• Physically able to manipulate a mouse, track-ball, electronic pen, etc. \n• Must know how to operate a computer \n \nThis list does not include specific institutional requirements such as \neducational attainment, appropriate work experience and others that may be \nrequired from the trainees by the school or training center delivering the TVET \nprogram.",
-      "pdf_pages": []
+      "pdf_pages": [
+        2,
+        54
+      ],
+      "source_text": "The trainees who wish to enter the course should possess the following \nrequirements: \n• At least high school graduate or equivalent experience \n• With artistic and drawing skills which will be validated by : \no a talent entrance exam to be administered by the training \ninstitution using a tool devised by the Technical Experts Panel \n(TEP) and Participants of the National Validation of this Training \nRegulation \no the submission of a portfolio (hard & soft copy should be provided) \n• Good moral character \n• Mentally and emotionally able. \n• Has the capacity to communicate in both oral and written \n• Physically able to manipulate a mouse, track-ball, electronic pen, etc. \n• Must know how to operate a computer \n \nThis list does not include specific institutional requirements such as \neducational attainment, appropriate work experience and others that may be \nrequired from the trainees by the school or training center delivering the TVET \nprogram."
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS \n \nRecommended list of tools, equipment and materials for the conduct of \ntraining in 2D Game Art Development NC III: \n \nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n15 \nElectronic pen and \ntablet\n15 \nErgonomic computer tables \nand chairs\n15 \nMock theme and \nscript \n15\nMouse\n2\nScanner\n15\nPen and paper\n15\nEraser\n1\nLCD Projector\n15\nLearning elements\n1 \nInternet access/ \nLAN connected\n1 \nInk-jet Printer \n15 \nPrintable \nstoryboard\n15 \nlicenses \nper \napplicatio\nn \nComputer \nApplication \n e.g. \n- Flash \n- ToonBoom \n- After Effects \n- Adobe \nPhotoshop CS5+ \n1\nLCD Monitor/TV, 42 inches\n15\nHand-outs\n15 \nComputer (with peripherals) \nWindows PC or Mac \n- 19in. LCD monitor, \n- multi-core 2GHz CPU, \n- Direct X10, open GL \ncapable video card, \n- 4GB memory, \n- 500 GB hard disk \n15\nPractice materials\n15\nReference books\n15 \nLearning materials/ \nguide \n \n \n2 \nWhite board and / or glass \nboard\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n53\nThe quantity of tools and equipment to be used for the conduct of training for \nthis qualification shall depend on the number of students, size of the class, and/or \nmodality of training. The most important consideration is to make sure that tools and \nequipment are adequately provided to all trainees when needed. The actual list of \ntools, equipment, machines, supplies and other materials to be used shall be \nidentified and detailed in the Competency Based Curriculum (CBC) to be submitted \nby the TVET provider when registering a course or training program with TESDA. \n \nDue to the fast-changing nature of the Information and Communications \nTechnology (ICT) sector, TVET providers are reminded to use and provide their \ntrainees with the latest technology tools, equipment and materials where appropriate \nand applicable. \n \nIn cases where there are specialized tools, equipment and facilities that are \nnot generally considered standard requirements or not absolute requisites for \ntraining, the industry working group or TESDA may provide guidelines or specific \nadvice on such matters.",
-      "pdf_pages": []
+      "pdf_pages": [
+        2,
+        54,
+        55
+      ],
+      "source_text": ", EQUIPMENT AND MATERIALS \n \nRecommended list of tools, equipment and materials for the conduct of \ntraining in 2D Game Art Development NC III: \n \nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n15 \nElectronic pen and \ntablet\n15 \nErgonomic computer tables \nand chairs\n15 \nMock theme and \nscript \n15\nMouse\n2\nScanner\n15\nPen and paper\n15\nEraser\n1\nLCD Projector\n15\nLearning elements\n1 \nInternet access/ \nLAN connected\n1 \nInk-jet Printer \n15 \nPrintable \nstoryboard\n15 \nlicenses \nper \napplicatio\nn \nComputer \nApplication \n e.g. \n- Flash \n- ToonBoom \n- After Effects \n- Adobe \nPhotoshop CS5+ \n1\nLCD Monitor/TV, 42 inches\n15\nHand-outs\n15 \nComputer (with peripherals) \nWindows PC or Mac \n- 19in. LCD monitor, \n- multi-core 2GHz CPU, \n- Direct X10, open GL \ncapable video card, \n- 4GB memory, \n- 500 GB hard disk \n15\nPractice materials\n15\nReference books\n15 \nLearning materials/ \nguide \n \n \n2 \nWhite board and / or glass \nboard\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n53\nThe quantity of tools and equipment to be used for the conduct of training for \nthis qualification shall depend on the number of students, size of the class, and/or \nmodality of training. The most important consideration is to make sure that tools and \nequipment are adequately provided to all trainees when needed. The actual list of \ntools, equipment, machines, supplies and other materials to be used shall be \nidentified and detailed in the Competency Based Curriculum (CBC) to be submitted \nby the TVET provider when registering a course or training program with TESDA. \n \nDue to the fast-changing nature of the Information and Communications \nTechnology (ICT) sector, TVET providers are reminded to use and provide their \ntrainees with the latest technology tools, equipment and materials where appropriate \nand applicable. \n \nIn cases where there are specialized tools, equipment and facilities that are \nnot generally considered standard requirements or not absolute requisites for \ntraining, the industry working group or TESDA may provide guidelines or specific \nadvice on such matters."
     },
     "training_facilities": {
       "present": true,
-      "source_text": "Based on class size of 15 students/trainees the space requirements for \n \nthe teaching/learning and circulation areas are as follows: \n \nTEACHING/LEARNING \nAREAS \nSIZE IN \nMETERS \nAREA IN SQ. \nMETERS \nQTY\nTOTAL AREA IN \nSQ. METERS \nLecture Area \n5 x 8 \n40 \n1 \n40 \nComputer Lab \n5x10 \n50 \n1 \n60 \nLearning Resource Area \n4 x 5 \n20 \n1 \n20 \nWash ,Toilet & Locker Room \n2 x 5 \n10 \n2 \n20 \n Total \n80 \nFacilities / Equipment / \nCirculation** \n \n \n \n30 \nTotal Area \n110 \n \n** Area requirement is equivalent to 30% of the total teaching/learning areas \n \nAppropriate consideration should be given in providing and allocating work \nspace, communications facilities, and the usual workplace amenities to ensure a \nproper learning environment. Where applicable, training shall be held or conducted \nin learning facilities in accordance with generally accepted industry standards and \npractice.\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n54",
-      "pdf_pages": []
+      "pdf_pages": [
+        2,
+        55
+      ],
+      "source_text": "Based on class size of 15 students/trainees the space requirements for \n \nthe teaching/learning and circulation areas are as follows: \n \nTEACHING/LEARNING \nAREAS \nSIZE IN \nMETERS \nAREA IN SQ. \nMETERS \nQTY\nTOTAL AREA IN \nSQ. METERS \nLecture Area \n5 x 8 \n40 \n1 \n40 \nComputer Lab \n5x10 \n50 \n1 \n60 \nLearning Resource Area \n4 x 5 \n20 \n1 \n20 \nWash ,Toilet & Locker Room \n2 x 5 \n10 \n2 \n20 \n Total \n80 \nFacilities / Equipment / \nCirculation** \n \n \n \n30 \nTotal Area \n110 \n \n** Area requirement is equivalent to 30% of the total teaching/learning areas \n \nAppropriate consideration should be given in providing and allocating work \nspace, communications facilities, and the usual workplace amenities to ensure a \nproper learning environment. Where applicable, training shall be held or conducted \nin learning facilities in accordance with generally accepted industry standards and \npractice.\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n54"
     },
     "trainer_qualifications": {
       "present": true,
-      "source_text": "• \nHolder of National TVET Trainer’s Certificate (NTTC) Level 1 \n• \n* Must have at least 2-years relevant industry experience. \n• \nMust be physically & mentally fit. \n \n* Optional: Only when required by the hiring institution.",
-      "pdf_pages": []
+      "pdf_pages": [
+        2,
+        56
+      ],
+      "source_text": "• \nHolder of National TVET Trainer’s Certificate (NTTC) Level 1 \n• \n* Must have at least 2-years relevant industry experience. \n• \nMust be physically & mentally fit. \n \n* Optional: Only when required by the hiring institution."
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional Assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued \nfor each unit of competency. \n \nAs a matter of policy, graduates of programs registered with TESDA under \nthese training regulations are required to undergo mandatory national \ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n55",
-      "pdf_pages": []
+      "pdf_pages": [
+        56
+      ],
+      "source_text": "Institutional Assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued \nfor each unit of competency. \n \nAs a matter of policy, graduates of programs registered with TESDA under \nthese training regulations are required to undergo mandatory national \ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n55"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "64 hrs",
-      "70 hrs",
-      "800 hrs",
-      "200 hrs",
-      "134 hrs",
-      "934 hours",
-      "200 hours",
-      "64 hrs",
-      "70 hrs",
-      "800 hrs",
-      "96 hours",
-      "184 hours",
-      "112 hours",
-      "184 hours",
-      "184 hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS \n \n \n3.1 \nCURRICULUM DESIGN \n \nCourse Title: 2D Game Art Development \n NC Level: NC III \n \nNominal Training Duration: \n 64 hrs. \n- Basic Competencies \n 70 hrs. \n- Common Competencies \n 800 hrs. \n- Core Competencies \n 200 hrs. - OJT (in a game studio or a company \nallocating resources for game \ndevelopment related projects) \n ------------- \n 1,134 hrs. \n \nCourse Description: \n \n \nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a \n2D Game Artist in accordance with industry standards. It covers the basic & common \ncompetencies in addition to the core competencies such as preparing art document, \ncreating storyboard and asset list, developing concept art, developing final artwork \nusing graphic application and applying in-game animation. The nominal duration of \n934 hours covers the required units at 2D Game Art Development NC III and an \nadditional 200 hours on-the-job (OJT) training. TVET providers can however, offer \na longer, ladderized course covering the NC III basic, common, core and elective \nunits. \n \nBASIC COMPETENCIES \n64 hrs \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead workplace \ncommunication \n1.1 Communicate information \nabout workplace \nprocesses. \n1.2 Lead workplace \ndiscussions. \n1.3 Identify and communicate \nissues arising in the \nworkplace\n• Group discussion \n• Role Play \n• Brainstorming \n \n• Observation \n• Interviews\n\n--- PDF PAGE 50 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n48\n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n2. Lead small \nteams \n2.1 Provide team leadership. \n2.2 Assign responsibilities \namong members. \n2.3 Set performance \nexpectation for team \nmembers. \n2.4 Supervise team \nperformance\n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies \n3. Develop and \npractice \nnegotiation \nskills \n3.1 Identify relevant \ninformation in planning \nnegotiations \n3.2 Participate in negotiations \n3.3 Document areas for \nagreement\n• Direct \nobservation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve \nworkplace \nproblem related \nto work \nactivities\n4.1 Explain the analytical \ntechniques. \n4.2 Identify the problem. \n4.3 Determine the possible \ncause/s of the problem.\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques to \nsolve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3\nAnalyze results\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 Identify appropriate \ntechnology \n6.2 Apply relevant technology \n6.3 Maintain/enhance \nrelevant technology\n• Direct observation \n• Simulation/role \nplaying \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest\n\n--- PDF PAGE 51 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n49\nCOMMON COMPETENCIES \n70 hrs. \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Apply critical \nthinking and \nthought \norganization \n1.1. Identify the theoretical \nfoundations of critical \nthinking \n1.2. Develop constructive \narguments \n1.3. Apply methods of \nreasoning \n1.4. Affirm generalization \n1.5. Arrive at a conclusion \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n2. Apply Quality \nStandards \n2.1. Asses quality of received \nmaterials \n2.2. Assess own work \n2.3. Engage in quality \nimprovement \n Field trip \n Symposium \n Film showing \n Simulation \n On the job \ntraining \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n3. Perform \ncomputer \noperations \n3.1. Plan and prepare for task \nto be taken undertaken \n3.2. Input data into computer \n3.3. Access information using \ncomputer \n3.4. Produce output/ data \nusing computer system \n3.5. Use basic functions of a \nwww-browser to locate \ninformation \n3.6. Maintain computer \nequipment and systems \n Modular \n Film showing \n Computer \nbased training \n(e-learning) \n Project \nmethod \n On the job \ntraining \n \n Demonstration & \nquestioning \n Observation & \nquestioning \n Third party report \n Assessment of \noutput product \n Portfolio \n Computer based \nassessment\n\n--- PDF PAGE 52 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n50\nCORE COMPETENCIES \n800 hrs \n \nUnit of \nCompetency\nLearning Outcomes \nMethodology \nAssessment \nApproach\n1. Develop and \nconceptualize \nart style \n \n \n96 hours \n \n1.1. Develop look-and-feel \n1.2. Draw and compile \ncharacters \n1.3. Draw the game world \n1.4. Draw and compile other \nassets \n1.5. Develop graphical user \ninterface\n• Lecture / \nDiscussion \n• Workshop \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n2. Create \nstoryboard \nand asset list \n \n \n184 hours \n2.1. Develop storyboard panels \n2.2. Create narrative devices \n2.3. Create cut scenes \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n3. Prepare art \ndocument \n \n \n \n \n112 hours \n3.1. Prepare concept art for \ncharacters \n3.2. Prepare concept art for \nprops/objects \n3.3. Prepare concept art for \nbackground layout \n3.4. Prepare concept art for \nspecial effects \n3.5. Prepare concept art for GUI\n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n4. Develop final \nartwork using \ngraphic \napplication \n \n \n184 hours \n4.1. Create the line-work \n4.2. Apply color to artwork \n4.3. Prepare final palette/color \nmap sheet \n4.4. Break graphics into \nassets/create object library \n• Lecture/ \nDiscussion \n• Workshop \n• Demonstration \n \n \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview \n \n5. Apply in-game \nanimation \n \n \n \n \n184 hours \n5.1. Import assets \n5.2. Apply assets to key-frame \n5.3. Preview animation \n5.4. Render required file format \n \n• Lecture/ \nDiscussion \n• Workshop \n• Exercises \n• Demonstration \n \n• Demonstration / \nPractical exam \n• Presentation with \nquestioning \n• Portfolio of work \nsamples \n• Individual \ninterview\n\n--- PDF PAGE 53 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n51\n3.2 TRAINING DELIVERY \n \nThe delivery of training shall adhere to the design of the curriculum. \nDelivery shall be guided by the 10 basic principles of competency-based \nTVET. \n \n• The training is based on curriculum developed from the competency \nstandards; \n• Learning is modular in its structure; \n• Training delivery is learner-centered and should accommodate \nindividualized and self-paced learning strategies; \n• Training is based on work that must be performed; \n• Training materials are directly related to the competency standards \nand the curriculum modules; \n• Assessment is based in the collection of evidence of the performance \nof work to the industry required standard; \n• Training program allows for recognition of prior learning (RPL) or \ncurrent competencies; \n• Training allows for multiple entry and exit; and \n• Training programs are registered with the UTPRAS. \n \nThe competency-based TVET system recognizes various types of \ndelivery modes, both on and off-the-job as long as the learning is driven by \nthe competency standards specified by the industry. The following training \nmodalities may be adopted when designing training programs: \n \n• The dualized mode of training delivery is preferred and recommended. \nThus programs would contain both in - school and in-industry training \nor fieldwork components. Details can be referred to the Dual Training \nSystem (DTS) Implementing Rules and Regulations. \n• Modular/self-paced learning is a competency-based training modality \nwherein the trainee is allowed to progress at his own pace. The \ntrainer just facilitates the training delivery. \n• Peer teaching/mentoring is a training modality wherein fast learners \nare given the opportunity to assist the slow learners. \n• Supervised industry training or on-the-job training is an approach in \ntraining designed to enhance the knowledge and skills of the trainee \nthrough actual experience in the workplace to acquire specific \ncompetencies prescribed in the training regulations. \n• Distance learning is a formal education process in which majority of \nthe instruction occurs when the students and instructor are not in the \nsame place. Distance learning may employ correspondence study, or \naudio, video or computer technologies. \n• Project-based instruction is an authentic instructional model or \nstrategy in which students plan, implement and evaluate projects that \nhave real world applications.\n\n--- PDF PAGE 54 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n52\n \n3.3 \nTrainee Entry Requirements \n \nThe trainees who wish to enter the course should possess the following \nrequirements: \n• At least high school graduate or equivalent experience \n• With artistic and drawing skills which will be validated by : \no a talent entrance exam to be administered by the training \ninstitution using a tool devised by the Technical Experts Panel \n(TEP) and Participants of the National Validation of this Training \nRegulation \no the submission of a portfolio (hard & soft copy should be provided) \n• Good moral character \n• Mentally and emotionally able. \n• Has the capacity to communicate in both oral and written \n• Physically able to manipulate a mouse, track-ball, electronic pen, etc. \n• Must know how to operate a computer \n \nThis list does not include specific institutional requirements such as \neducational attainment, appropriate work experience and others that may be \nrequired from the trainees by the school or training center delivering the TVET \nprogram. \n \n \n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS \n \nRecommended list of tools, equipment and materials for the conduct of \ntraining in 2D Game Art Development NC III: \n \nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n15 \nElectronic pen and \ntablet\n15 \nErgonomic computer tables \nand chairs\n15 \nMock theme and \nscript \n15\nMouse\n2\nScanner\n15\nPen and paper\n15\nEraser\n1\nLCD Projector\n15\nLearning elements\n1 \nInternet access/ \nLAN connected\n1 \nInk-jet Printer \n15 \nPrintable \nstoryboard\n15 \nlicenses \nper \napplicatio\nn \nComputer \nApplication \n e.g. \n- Flash \n- ToonBoom \n- After Effects \n- Adobe \nPhotoshop CS5+ \n1\nLCD Monitor/TV, 42 inches\n15\nHand-outs\n15 \nComputer (with peripherals) \nWindows PC or Mac \n- 19in. LCD monitor, \n- multi-core 2GHz CPU, \n- Direct X10, open GL \ncapable video card, \n- 4GB memory, \n- 500 GB hard disk \n15\nPractice materials\n15\nReference books\n15 \nLearning materials/ \nguide \n \n \n2 \nWhite board and / or glass \nboard\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n53\nThe quantity of tools and equipment to be used for the conduct of training for \nthis qualification shall depend on the number of students, size of the class, and/or \nmodality of training. The most important consideration is to make sure that tools and \nequipment are adequately provided to all trainees when needed. The actual list of \ntools, equipment, machines, supplies and other materials to be used shall be \nidentified and detailed in the Competency Based Curriculum (CBC) to be submitted \nby the TVET provider when registering a course or training program with TESDA. \n \nDue to the fast-changing nature of the Information and Communications \nTechnology (ICT) sector, TVET providers are reminded to use and provide their \ntrainees with the latest technology tools, equipment and materials where appropriate \nand applicable. \n \nIn cases where there are specialized tools, equipment and facilities that are \nnot generally considered standard requirements or not absolute requisites for \ntraining, the industry working group or TESDA may provide guidelines or specific \nadvice on such matters. \n \n3.5 TRAINING FACILITIES \n \n \nBased on class size of 15 students/trainees the space requirements for \n \nthe teaching/learning and circulation areas are as follows: \n \nTEACHING/LEARNING \nAREAS \nSIZE IN \nMETERS \nAREA IN SQ. \nMETERS \nQTY\nTOTAL AREA IN \nSQ. METERS \nLecture Area \n5 x 8 \n40 \n1 \n40 \nComputer Lab \n5x10 \n50 \n1 \n60 \nLearning Resource Area \n4 x 5 \n20 \n1 \n20 \nWash ,Toilet & Locker Room \n2 x 5 \n10 \n2 \n20 \n Total \n80 \nFacilities / Equipment / \nCirculation** \n \n \n \n30 \nTotal Area \n110 \n \n** Area requirement is equivalent to 30% of the total teaching/learning areas \n \nAppropriate consideration should be given in providing and allocating work \nspace, communications facilities, and the usual workplace amenities to ensure a \nproper learning environment. Where applicable, training shall be held or conducted \nin learning facilities in accordance with generally accepted industry standards and \npractice.\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n54\n \n3.6 TRAINERS QUALIFICATIONS \n \n \n• \nHolder of National TVET Trainer’s Certificate (NTTC) Level 1 \n• \n* Must have at least 2-years relevant industry experience. \n• \nMust be physically & mentally fit. \n \n* Optional: Only when required by the hiring institution. \n \n \n \n3.7 \nINSTITUTIONAL ASSESSMENT \n \nInstitutional Assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued \nfor each unit of competency. \n \nAs a matter of policy, graduates of programs registered with TESDA under \nthese training regulations are required to undergo mandatory national \ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________ \nTR - 2D GAME ART NC III \n \n \n55"
 }

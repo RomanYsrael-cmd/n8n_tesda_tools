@@ -10,23 +10,23 @@
   "lifecycle": {
     "status": "unclear",
     "verified_on": null,
-    "verification_basis": "No external lifecycle determination was made; local source evidence does not explicitly label status."
+    "verification_basis": "Local source package classification; official source PDF remains authoritative."
   },
   "source": {
     "authority": "Technical Education and Skills Development Authority (TESDA)",
     "source_file": "2D Game Art Development NC III.pdf",
     "source_sha256": "de1ac9ad1d2a611a36c578cdad595924d64393eabacfc4e5c905f986b56a80a4",
     "pdf_pages": 66,
-    "printed_pages": null,
+    "printed_pages": 64,
     "authoritative": true
   },
   "coverage": {
     "qualification": true,
     "competency_standards": {
-      "basic_units": 8,
-      "common_units": 0,
-      "core_units": 0,
-      "other_units": 6,
+      "basic_units": 6,
+      "common_units": 3,
+      "core_units": 5,
+      "other_units": 0,
       "total_units": 14,
       "descriptors": true,
       "elements": true,
@@ -52,10 +52,10 @@
   "fidelity": {
     "competency_units": "normalized_with_source_text",
     "performance_criteria": "numbered_normalized_with_source_text",
-    "range_of_variables": "structured_when_detectable_with_source_text",
-    "evidence_guides": "preserved_source_text",
-    "training_standards": "preserved_source_text",
-    "assessment_certification": "preserved_source_text",
+    "range_of_variables": "structured_with_source_text",
+    "evidence_guides": "structured_with_source_text",
+    "training_standards": "preserved_source_text_with_curriculum_rows",
+    "assessment_certification": "numbered_normalized_with_source_text",
     "glossary": "normalized_with_source_text",
     "acknowledgements": "normalized_entities_with_source_text"
   },

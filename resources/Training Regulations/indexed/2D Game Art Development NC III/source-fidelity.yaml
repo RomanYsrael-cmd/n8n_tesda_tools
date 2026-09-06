@@ -1,29 +1,145 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:2d-game-art-development-nc-iii:de1ac9ad1d",
   "qualification": "2D GAME ART DEVELOPMENT NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "2D Game Art Development NC III.pdf",
-    "sha256": "de1ac9ad1d2a611a36c578cdad595924d64393eabacfc4e5c905f986b56a80a4",
+    "source_sha256": "de1ac9ad1d2a611a36c578cdad595924d64393eabacfc4e5c905f986b56a80a4",
+    "pdf_pages": 66,
+    "printed_pages": 64,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The curriculum breakdown totals 1,134 hours (64 + 70 + 800 + 200), while the course description states 934 hours plus 200 hours OJT; the normalized total follows the component table."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The curriculum breakdown totals 1,134 hours (64 + 70 + 800 + 200), while the course description states 934 hours plus 200 hours OJT; the normalized total follows the component table."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "2D Game Art Development NC III.pdf",
-    "pdf_pages": 66,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        17,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "ICT315203",
+      "source_unit_code": "ICT315203",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "ICT315202",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "ICT311203",
+      "source_unit_code": "ICT311203",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "ICT313344",
+      "source_unit_code": "ICT313344",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "ICT313345",
+      "source_unit_code": "ICT313345",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "ICT313346",
+      "source_unit_code": "ICT313346",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "ICT313347",
+      "source_unit_code": "ICT313347",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "ICT313348",
+      "source_unit_code": "ICT313348",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    }
+  ]
 }
