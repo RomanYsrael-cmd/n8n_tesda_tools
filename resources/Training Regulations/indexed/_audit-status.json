@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T17:34:53+08:00",
+  "last_updated": "2026-09-06T18:11:34+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 135,
-  "remaining_unaudited": 249,
+  "audited_count": 140,
+  "remaining_unaudited": 244,
   "blocked_count": 0,
   "documents": [
     {
@@ -1763,6 +1763,71 @@
       "validation_passed": true,
       "last_audit_commit": "c886ae769a3b01089fe58e391d8d7c94fe869677",
       "audit_notes": "Rebuilt 6/3/3 revised four-column groups with required knowledge and skills; restored 53 curriculum rows and 16 glossary entries, preserved Promulgated February 3, 2017 and the 16/72/168-hour components with 256-hour total, repaired the singular range-table boundary on the three long core units, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Early Childhood Care and Development Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Early Childhood Care and Development Services NC III",
+      "source_file": "resources/Training Regulations/Early Childhood Care and Development Services NC III.pdf",
+      "source_sha256": "36cf3f3386c39a14bd972061c93b467fecc9e617917c17f264c4bbdd82f1d52b",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:11:34+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "882a867",
+      "audit_notes": "Rebuilt 9/3/3 revised four-column groups with required knowledge and skills; restored 17 curriculum rows and 8 glossary entries, preserved the absent promulgation date and 40/18/160-hour components with separate 80-hour Supervised Industry Learning for a 298-hour total, repaired continuation-page table extraction, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electric Discharge Machine (EDM) Sinking Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Electric Discharge Machine (EDM) Sinking Operation NC II",
+      "source_file": "resources/Training Regulations/Electric Discharge Machine (EDM) Sinking Operation NC II.pdf",
+      "source_sha256": "4633ba4c9baa36ae2ff6b01ea0edce8828e02563ede8acdfc57d281c10517b82",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:11:34+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "882a867",
+      "audit_notes": "Rebuilt 9/10/3 revised four-column groups with required knowledge and skills; restored 69 curriculum rows and 13 glossary entries, preserved Promulgated May 21, 2019 and the 37/104/160-hour components with 301-hour total, repaired the misspelled glossary heading and split extracted definition column, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electric Power Distribution Line Construction NC II",
+      "package_path": "resources/Training Regulations/indexed/Electric Power Distribution Line Construction NC II",
+      "source_file": "resources/Training Regulations/Electric Power Distribution Line Construction NC II.pdf",
+      "source_sha256": "8215375aa0674766a5624fcbbf7bccfd24cd06329cbf1344c6d4e541fa9df51a",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:11:34+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "882a867",
+      "audit_notes": "Rebuilt 6/5/4 revised four-column groups with required knowledge and skills; restored 83 curriculum rows and 48 glossary entries, preserved Promulgated June 27, 2018 and the 40/60/236-hour components with 336-hour total, repaired split competency rows and the blank continuation curriculum cell, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electric Power Distribution Operation and Maintenance NC III",
+      "package_path": "resources/Training Regulations/indexed/Electric Power Distribution Operation and Maintenance NC III",
+      "source_file": "resources/Training Regulations/Electric Power Distribution Operation and Maintenance NC III.pdf",
+      "source_sha256": "42ac3da179a3482ba26a3c940ace07852bd23c6c759c0ec4a7b6e2e97591db67",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:11:34+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "882a867",
+      "audit_notes": "Rebuilt 8/5/4 revised four-column groups with required knowledge and skills; restored 100 curriculum rows and 74 glossary entries, preserved Promulgated June 27, 2018 and the 48/60/112-hour components with 220-hour total, repaired split competency-row association, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electric Power Distribution Operation and Maintenance NC IV",
+      "package_path": "resources/Training Regulations/indexed/Electric Power Distribution Operation and Maintenance NC IV",
+      "source_file": "resources/Training Regulations/Electric Power Distribution Operation and Maintenance NC IV.pdf",
+      "source_sha256": "8cb403218bcdcfb87de2045a3ae0af6b7caedd740940749ade486ff01423f46f",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:11:34+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "882a867",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 127 curriculum rows and 59 glossary entries, preserved Promulgated June 27, 2018 and the 54/60/120-hour components with 234-hour total, recorded source code and curriculum-order variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
