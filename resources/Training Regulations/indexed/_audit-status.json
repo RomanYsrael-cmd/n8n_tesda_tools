@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T12:36:39+08:00",
+  "last_updated": "2026-09-06T13:09:36+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 55,
-  "remaining_unaudited": 329,
+  "audited_count": 60,
+  "remaining_unaudited": 324,
   "blocked_count": 0,
   "documents": [
     {
@@ -723,6 +723,71 @@
       "validation_passed": true,
       "last_audit_commit": "67fc459bcd898c360386f07e7305c5a34d38cb78",
       "audit_notes": "Rebuilt 6/12/15 historical two-column groups; restored 127 curriculum rows, normalized the ALT723205/ALT723307 source-code variant, repaired legacy source-table numbering, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Automotive Wiring Harness Assembly NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Wiring Harness Assembly NC II",
+      "source_file": "resources/Training Regulations/Automotive Wiring Harness Assembly NC II.pdf",
+      "source_sha256": "3d209537d6b60d81132d656cfb3a30968bf8537a6740b51834becc9f81208073",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:09:36+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c430ebfa0f93b80a9becf8fc664ef4c6ca1a21cb",
+      "audit_notes": "Rebuilt 4/4/4 historical two-column groups; restored 42 curriculum rows, normalized the common-unit source numbering overflow, preserved the missing promulgation date and omitted source total, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Bamboo Processing (Engineered-Bamboo) NC II",
+      "package_path": "resources/Training Regulations/indexed/Bamboo Processing (Engineered-Bamboo) NC II",
+      "source_file": "resources/Training Regulations/Bamboo Processing (Engineered-Bamboo) NC II.pdf",
+      "source_sha256": "99cadd40c3a23eda93d01b403b1c4da0ecef1ed6a3daca5b1325d5c431510ff6",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:09:36+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "c430ebfa0f93b80a9becf8fc664ef4c6ca1a21cb",
+      "audit_notes": "Rebuilt 9/3/7 revised four-column groups; restored 77 curriculum rows and required knowledge/skills, repaired continuation-page table boundaries, preserved the AGR321203 header variant and cover/header carryover, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Bamboo Production NC II",
+      "package_path": "resources/Training Regulations/indexed/Bamboo Production NC II",
+      "source_file": "resources/Training Regulations/Bamboo Production NC II.pdf",
+      "source_sha256": "e23a862f339a612a7854f8f376c06b0319c8d5484deecdb5c288a9f7cc9be933",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:09:36+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c430ebfa0f93b80a9becf8fc664ef4c6ca1a21cb",
+      "audit_notes": "Rebuilt 4/3/4 revised four-column groups; restored 34 curriculum rows and required knowledge/skills, repaired no-space element numbering and continuation-page table boundaries, preserved the Section 4 PEODUCTION typo, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Barangay Health Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Barangay Health Services NC II",
+      "source_file": "resources/Training Regulations/Barangay Health Services NC II.pdf",
+      "source_sha256": "6b3d241aa0035487de34393a5bbfeea07370591cadf35e43a70504ffe1cb1287",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:09:36+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "c430ebfa0f93b80a9becf8fc664ef4c6ca1a21cb",
+      "audit_notes": "Rebuilt 9/4/5 revised four-column groups; restored 56 curriculum rows and required knowledge/skills, repaired the basic-unit 1.x numbering spill and core Section 1/Section 2 order discrepancy, preserved source TBD wording in the source layer, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Barangay Health Services NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Barangay Health Services NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Barangay Health Services NC II (Superseded).pdf",
+      "source_sha256": "80b502e1819115ae6b90ae2660eb54d908542c2480c9bfb6e89c4a6cd6a4b251",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:09:36+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c430ebfa0f93b80a9becf8fc664ef4c6ca1a21cb",
+      "audit_notes": "Rebuilt 4/4/9 superseded historical two-column groups; restored 56 curriculum rows, repaired continuation-page table boundaries and glossary extraction, preserved the HCS323202/HCS323204 source-code anomalies and missing printed pagination, and repaired assessment, fidelity metadata, and selectors."
     }
   ]
 }
