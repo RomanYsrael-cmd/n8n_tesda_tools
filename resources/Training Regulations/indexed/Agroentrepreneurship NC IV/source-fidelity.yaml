@@ -1,29 +1,150 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:agroentrepreneurship-nc-iv:2017-02-03",
-  "qualification": "Agroentrepreneurship NC IV",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:agroentrepreneurship-nc-iv:7dcb524ba2",
+  "qualification": "AGROENTREPRENEURSHIP NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Agroentrepreneurship NC IV.pdf",
-    "sha256": "7dcb524ba28047b283b357cbc74cc4842cb76e0bcc3bd7afbb220dcd579f8c82",
+    "source_sha256": "7dcb524ba28047b283b357cbc74cc4842cb76e0bcc3bd7afbb220dcd579f8c82",
+    "pdf_pages": 145,
+    "printed_pages": 144,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical four-column competency layout with Required Knowledge and Attitude and Required Skill headings; these are normalized to required knowledge and required skills.",
+    "The source uses NCIV without an internal space in several headings and contains historical wording/capitalization variations; source text is preserved."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical four-column competency layout with Required Knowledge and Attitude and Required Skill headings; these are normalized to required knowledge and required skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses NCIV without an internal space in several headings and contains historical wording/capitalization variations; source text is preserved."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Agroentrepreneurship NC IV.pdf",
-    "pdf_pages": 145,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311115",
+      "source_unit_code": "500311115",
+      "pdf_page_range": [
+        4,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311116",
+      "source_unit_code": "500311116",
+      "pdf_page_range": [
+        9,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311117",
+      "source_unit_code": "500311117",
+      "pdf_page_range": [
+        16,
+        21
+      ]
+    },
+    {
+      "unit_code": "500311118",
+      "source_unit_code": "500311118",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "500311119",
+      "source_unit_code": "500311119",
+      "pdf_page_range": [
+        26,
+        30
+      ]
+    },
+    {
+      "unit_code": "500311120",
+      "source_unit_code": "500311120",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        39,
+        40
+      ]
+    },
+    {
+      "unit_code": "HCS421201",
+      "source_unit_code": "HCS421201",
+      "pdf_page_range": [
+        41,
+        45
+      ]
+    },
+    {
+      "unit_code": "HCS315202",
+      "source_unit_code": "HCS315202",
+      "pdf_page_range": [
+        46,
+        51
+      ]
+    },
+    {
+      "unit_code": "AFF242301",
+      "source_unit_code": "AFF242301",
+      "pdf_page_range": [
+        52,
+        57
+      ]
+    },
+    {
+      "unit_code": "AFF242302",
+      "source_unit_code": "AFF242302",
+      "pdf_page_range": [
+        58,
+        64
+      ]
+    },
+    {
+      "unit_code": "AFF242303",
+      "source_unit_code": "AFF242303",
+      "pdf_page_range": [
+        65,
+        74
+      ]
+    },
+    {
+      "unit_code": "AFF242304",
+      "source_unit_code": "AFF242304",
+      "pdf_page_range": [
+        75,
+        78
+      ]
+    }
+  ]
 }

@@ -1,78 +1,61 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:agroentrepreneurship-nc-iii:2017-02-03",
+  "document_id": "tesda:tr:agroentrepreneurship-nc-iii:d963e88ae3",
   "qualification": "AGROENTREPRENEURSHIP NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311114",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321201",
-        "title": "AFF 321201"
-      },
-      {
-        "unit_code": "AFF321203",
-        "title": "UNIT CODE : AFF 321203"
-      },
-      {
-        "unit_code": "HCS421201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AFF243305",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "required to collect information in order to negotiate to"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ": This unit of covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311113",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "HCS315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF243306",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF243307",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF243308",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF243309",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP \n116",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AFF321201",
+        "AFF321203",
+        "HCS421201",
+        "HCS315202"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Perform estimation and basic calculation",
+        "Provide quality customer service",
+        "Comply with quality and ethical standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AFF243305",
+        "AFF243306",
+        "AFF243307",
+        "AFF243308",
+        "AFF243309"
+      ],
+      "unit_titles": [
+        "Engage Agroenterprise (AE) Industry Stakeholders",
+        "Ensure Product Supply",
+        "Implement Financial Management",
+        "Mobilize Farmers Participation in Capacity Building Activities",
+        "Conduct Collective Marketing"
+      ]
+    }
+  ],
+  "source_text": "Section 1\nAGROENTREPRENEURSHIP NC III QUALIFICATION\n\nThe AGROENTREPRENEURSHIP NC III Qualification consists of competencies that\na person must achieve to engage agroenterprise (AE) industry stakeholders, ensure\nproduct supply, implement financial management, mobilize farmer’s participation in\ncapacity building activities and conduct collective marketing.\n\nThis Qualification is packaged from the competency map of the Agriculture, Forestry\nand Fishery Sector as shown in Annex A.\n\nThe units of competency comprising this qualification includes the following:\n\nCode\nBASIC COMPETENCIES\n500311109\nLead Workplace Communication\n500311110\nLead small teams\n500311111\nDevelop and Practice Negotiation Skills\n500311112\nSolve Problems Related to Work Activities\n500311113\nUse Mathematical Concepts and Techniques\n500311114\nUse Relevant Technologies\nCode\nCOMMON COMPETENCIES\nAFF321201\nApply Safety Measures in Farm Operations\nAFF321203\nPerform Estimation and Basic Calculation\nHCS421201\nProvide Quality Customer Service\nHCS315202\nComply with Quality and Ethical Standards\nCode\nCORE COMPETENCIES\nAFF243305\nEngage Agroenterprise (AE) Industry Stakeholders\nAFF243306\nEnsure Product Supply\nAFF243307\nImplement Financial Management\nAFF243308\nMobilize Farmers Participation in Capacity Building Activities\nAFF243309\nConduct Collective Marketing\nA person who has achieved this Qualification is competent to be:\n\n• Farmer Leader\n\n--- PDF PAGE 4 ---\nTR-Agroentrepreneurship NCIII Promulgated February 3, 2017\n\n3"
 }

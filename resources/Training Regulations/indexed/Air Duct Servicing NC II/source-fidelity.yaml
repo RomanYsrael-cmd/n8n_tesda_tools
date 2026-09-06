@@ -1,29 +1,200 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:air-duct-servicing-nc-ii:b1566ecb80",
   "qualification": "AIR DUCT SERVICING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Air Duct Servicing NC II.pdf",
-    "sha256": "b1566ecb8036c3001193c27034665477e1a477c3a7bd3a4cfe18a6846fc7b42d",
+    "source_sha256": "b1566ecb8036c3001193c27034665477e1a477c3a7bd3a4cfe18a6846fc7b42d",
+    "pdf_pages": 80,
+    "printed_pages": 79,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is explicitly marked DRAFT COPY and does not provide a promulgation date; both facts are retained in source-fidelity metadata.",
+    "Section 2 contains Interpret technical drawings and plans (HVC311202), but Section 1 and Section 3 omit it; it is indexed as a competency-standard unit and excluded from curriculum-row coverage for that reason.",
+    "The source lists HVC311204/HVC315201/HVC311205 for later common units, while the unit headers use HVC311205/HVC7315201 and repeat HVC311205 for Document work accomplished; normalized selectors use HVC311206 for the duplicate document unit and preserve the printed codes in source_unit_code/provenance.",
+    "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is explicitly marked DRAFT COPY and does not provide a promulgation date; both facts are retained in source-fidelity metadata."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 2 contains Interpret technical drawings and plans (HVC311202), but Section 1 and Section 3 omit it; it is indexed as a competency-standard unit and excluded from curriculum-row coverage for that reason."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source lists HVC311204/HVC315201/HVC311205 for later common units, while the unit headers use HVC311205/HVC7315201 and repeat HVC311205 for Document work accomplished; normalized selectors use HVC311206 for the duplicate document unit and preserve the printed codes in source_unit_code/provenance."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Air Duct Servicing NC II.pdf",
-    "pdf_pages": 80,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "HVC713201",
+      "source_unit_code": "HVC713201",
+      "pdf_page_range": [
+        18,
+        19
+      ]
+    },
+    {
+      "unit_code": "HVC311202",
+      "source_unit_code": "HVC311202",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "HVC311201",
+      "source_unit_code": "HVC311201",
+      "pdf_page_range": [
+        23,
+        24
+      ]
+    },
+    {
+      "unit_code": "HVC311203",
+      "source_unit_code": "HVC311203",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "HVC713202",
+      "source_unit_code": "HVC713202",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "HVC724201",
+      "source_unit_code": "HVC724201",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "HVC311205",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "HVC315201",
+      "source_unit_code": "HVC7315201",
+      "pdf_page_range": [
+        37,
+        41
+      ]
+    },
+    {
+      "unit_code": "HVC311206",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        42,
+        43
+      ]
+    },
+    {
+      "unit_code": "HVC723331",
+      "source_unit_code": "HVC723331",
+      "pdf_page_range": [
+        44,
+        45
+      ]
+    },
+    {
+      "unit_code": "HVC723332",
+      "source_unit_code": "HVC723332",
+      "pdf_page_range": [
+        46,
+        51
+      ]
+    },
+    {
+      "unit_code": "HVC723333",
+      "source_unit_code": "HVC723333",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "HVC723334",
+      "source_unit_code": "HVC723334",
+      "pdf_page_range": [
+        57,
+        60
+      ]
+    },
+    {
+      "unit_code": "HVC723335",
+      "source_unit_code": "HVC723335",
+      "pdf_page_range": [
+        61,
+        64
+      ]
+    },
+    {
+      "unit_code": "HVC723336",
+      "source_unit_code": "HVC723336",
+      "pdf_page_range": [
+        65,
+        68
+      ]
+    }
+  ]
 }

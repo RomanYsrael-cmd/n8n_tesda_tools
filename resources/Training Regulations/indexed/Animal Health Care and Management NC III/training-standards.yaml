@@ -1,75 +1,985 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:animal-health-care-and-management-nc-iii:3d7496d215",
   "qualification": "ANIMAL HEALTH CARE AND MANAGEMENT NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Animal Health Care and Management NC III.pdf",
-    "pdf_pages": 67
+    "pdf_pages": 67,
+    "printed_pages": 65,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 14,
+        "source_expression": "14 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 176,
+        "source_expression": "176 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 208,
+    "total_source_expression": "208 hrs.",
+    "source_expressions": [
+      "18 hrs. - Basic Competencies",
+      "14 hrs. - Common Competencies",
+      "176 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 208,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
     "entries": [
       {
-        "unit_code": "AGR621303",
-        "title": "Competency Raise Swine () and Raise Large Ruminants",
-        "learning_outcomes": [],
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes",
         "learning_activities": [],
-        "methodology": null,
-        "assessment_approach": null,
+        "methodology": [
+          "Group discussion",
+          "Role play"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "source_text": "AGR621303) and Raise Large Ruminants \n("
+        "pdf_page": 54
       },
       {
-        "unit_code": "AGR621304",
-        "title": "( )",
-        "learning_outcomes": [],
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions",
         "learning_activities": [],
-        "methodology": null,
-        "assessment_approach": null,
+        "methodology": [
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "source_text": "AGR621304) \n• \nPhysically fit and mentally healthy as certified by a Public Health \nOfficer \n \n \n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS \n \n ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nRecommended list of tools, equipment and materials for the training of 25 \ntrainees for Animal Health Care and Management NC III \n \nQTY \nTOOLS \nQTY \nEQUIPMENT \nQTY \nMATERIALS \n5 pcs \nDriving board \n5 units \nCastration table \n5 pcs \nSacks/Hood \n5 pcs \nSnoozer \n5 sets \nMedication tray \n25 pcs \nVial \n5 pcs \nRope \n5 units \nCart \n25 pcs \nTest tube \n5 pcs \nPig wire \n25 pairs \nBoots \n25 sets \nNeedles \n25 pcs Allis tissue \nforceps \n25 pairs \nDisposable suit \n25 sets \nSyringe (10 ml. \n20ml) \n25 pcs Scalpel with \nblade \n1 unit \nSprayer (portable, \npower sprayer) \n200 ml \nMineral oil \n(bottle) \n1 pc \nTorch \n5 pcs \nContainer \nequipment \n25 pcs \nCap (cotton, \ncork, rubber \nstopper) \n \n \n5 pcs \nCool box \n25 pcs \nRefrigerant \n \n \n5 pcs \nStyropor box \n25 pcs \nResealable \nplastic bag \n \n \n1 unit \nRefrigerator \n25 pcs \nIce packs \n \n \n5 pcs \nCovered box \n25 pcs \nGlass slide \n \n \n \n \n25 pcs \nVacutainer \n \n \n \n \n500 ml \nPaints \n \n \n \n \n500 ml \nRust remover \n \n \n \n \n1 liter \nChemical \ndisinfectants \n \n \n• \n5 bottles \nDrugs, \nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n58\n \n3.5 TRAINING FACILITIES \n \n ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nBased on a class size of 25 students/trainees \n \nSPACE REQUIREMENT \nSIZE IN METERS \nAREA IN SQ. \nMETERS \nTOTAL AREA IN SQ. \nMETERS \n• Building \n(permanent) \n13.00 x 15.00 \n195.00 \n195.00 \n• Student/Trainee \nWorking Space \n2.00 x 2.00 per \nstudent/trainee \n4.00 per student \n100.00 \n• Lecture Room \n7.00 x 5.00 \n35.00 \n35.00 \n• Learning Resource \nCenter (Library) \n3.00 x 5.00 \n15.00 \n15.00 \n• Facilities/Equipment/ \nCirculation Area \n13.00 x 15.00 \n \n195.00 \n195.00 \n• Livestock Farm* \n100.00 x 100.00 \n10,000 \n10,000.00 \nNote: * Area will change according to availability of livestock farm for training, \nobservation and demonstration. \n \n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR \n \nANIMAL HEALTH CARE AND MANAGEMENT NC III \nTRAINER QUALIFICATION (TQ III) \n• \nMust be a holder of Animal Health Care and Management NC III or \nits equivalent qualification \n• \nMust have undergone training on Training Methodology III (TM III) \n• \n*Must be computer literate \n• \nMust be physically and mentally fit \n• \n*Must have at least 2 years job/industry experience \n• \nMust be a civil service eligible (for government position or \nappropriate professional license issued by the Professional \nRegulatory Commission) \n \n* \nOptional. Only when required by the hiring institution. \n \n \nReference: TESDA Board Resolution No. 2004 03 \n \n3.7. \nINSTITUTIONAL ASSESSMENT \n \nInstitutional assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued for each \nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n59"
+        "pdf_page": 54
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Identify and communicate issues arising in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role play"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 54
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 54
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities among members",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced (modular)"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 54
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectation for team members",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 54
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervise team performance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 54
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Plan negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document areas for agreement",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Explain the analytical techniques",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine the possible cause/s of the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply mathematical procedures/solution",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Identify appropriate technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain/enhance relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Determine areas of concern for safety measures",
+        "learning_activities": [],
+        "methodology": [
+          "Self- paced/modular",
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Oral/Written Interviews",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Apply appropriate safety measures",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Safekeep/maintain/ dispose tools, materials and outfit",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Demonstration",
+          "Visit/tour"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Prepare and use farm tools",
+        "learning_activities": [],
+        "methodology": [
+          "Self- paced/modular"
+        ],
+        "assessment_approach": [
+          "Oral/Written Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Prepare and operate farm equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Direct Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Perform preventive maintenance procedures/practices",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction",
+          "Practical Demonstration",
+          "Visit/tour"
+        ],
+        "assessment_approach": [
+          "Practical Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321203",
+        "unit_title": "Perform estimation and calculations",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Perform estimation",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR321203",
+        "unit_title": "Perform estimation and calculations",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Perform basic workplace calculation",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321301",
+        "unit_title": "Restrain and handle animal",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Identify and select animal",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321301",
+        "unit_title": "Restrain and handle animal",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Apply appropriate handling and retraining technique",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "skills",
+          "Direct observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321302",
+        "unit_title": "Apply bio-security measures",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify bio-security threats and hazards",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321302",
+        "unit_title": "Apply bio-security measures",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Apply disease prevention practices",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321302",
+        "unit_title": "Apply bio-security measures",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Apply preventive disease transmission practices",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "skills",
+          "Direct observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321303",
+        "unit_title": "Administer drugs and biologics",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Prepare supplies, materials, tools and equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321303",
+        "unit_title": "Administer drugs and biologics",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Prepare animals",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321303",
+        "unit_title": "Administer drugs and biologics",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Apply drugs and biologics",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321303",
+        "unit_title": "Administer drugs and biologics",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Monitor and record response to drugs and biologics",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321304",
+        "unit_title": "Handle and store drugs and biologics",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Prepare drugs and biologics",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321304",
+        "unit_title": "Handle and store drugs and biologics",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Handle and transport drugs and biologics",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321304",
+        "unit_title": "Handle and store drugs and biologics",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Store unused drugs and biologics",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321304",
+        "unit_title": "Handle and store drugs and biologics",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Dispose used bottles, expired and damaged biologics",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321305",
+        "unit_title": "Collect and handle specimen",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Prepare supplies, materials, tools and equipment for collection and transport of specimen",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321305",
+        "unit_title": "Collect and handle specimen",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Prepare animal",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321305",
+        "unit_title": "Collect and handle specimen",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Collect specimen",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR321305",
+        "unit_title": "Collect and handle specimen",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Handle and transport specimen",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
       }
     ],
-    "source_text": "SECTION 3. TRAINING STANDARDS \n \nThese guidelines are set to provide the Technical and Vocational Education \nand Training (TVET) providers with information and other important requirements to \nconsider when designing training programs for ANIMAL HEALTH CARE AND \nMANAGEMENT NC III. \n \n3.1 CURRICULUM DESIGN \n \nCourse Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III \nNominal Training Duration: \n18 Hours (Basic) \n14 Hours (Common) \n176 Hours (Core) \n208 Total \nCourse Description: \n \nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification \nconsists of competencies that a person must achieve in providing LIVESTOCK \nHEALTH CARE in both backyard and commercial livestock farms under the \nsupervision of a veterinarian. It covers the basic, common and core competencies. \n \nBASIC COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead \nworkplace \ncommunication \n1.1 Communicate \ninformation about \nworkplace processes \n1.2 Lead workplace \ndiscussions \n1.3 Identify and \ncommunicate issues \narising in the \nworkplace \n• Group \ndiscussion \n• Role play \n• Brainstorming \n \n• Observation \n• Interviews \n2. Lead small \nteams \n \n2.1 Provide team \nleadership \n2.2 Assign responsibilities \namong members \n2.3 Set performance \nexpectation for team \nmembers \n2.4 Supervise team \nperformance \n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n53\n3. Develop and \npractice \nnegotiation \nskills \n \n3.1 Plan negotiations \n3.2 Participate in \nnegotiations \n3.3 Document areas for \nagreement \n• Direct \nobservation \n• Simulation/ \n• role playing \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve problems \nrelated to work \nactivities \n \n4.1 Explain the analytical \ntechniques \n4.2 Identify the problem \n4.3 Determine the possible \ncause/s of the problem \n• Direct \nobservation \n• Simulation/ Role \nplaying \n• Case studies \n• Written test \n• Practical/perfor\nmance test \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques \nto solve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3 Analyze results \n• Direct \nobservation \n• Simulation/ \nrole playing \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 \nIdentify \nappropriate \ntechnology \n6.2 Apply relevant \ntechnology \n6.3 Maintain/enhance \nrelevant technology \n• Direct \nobservation \n• Simulation/ role \nplaying \n• Case Studies \n• Written test \n• Practical/ \nperformance \ntest \n \n \nCOMMON COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Apply safety \nmeasures in \nfarm \noperations \n1.1 Determine areas of \nconcern for safety \nmeasures \n1.2 Apply appropriate \nsafety measures \n1.3 Safekeep/maintain/ \ndispose tools, materials \nand outfit \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nDemonstration \n• Visit/tour \n• Oral/Written \nInterviews \n• Direct \nObservation \n• Practical \nDemonstration \n2. Use farm tools \nand equipment \n2.1 Prepare and use farm \ntools \n2.2 Prepare and operate \nfarm equipment \n2.3 Perform preventive \nmaintenance \nprocedures/practices \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nDemonstration \n• Visit/tour \n• Oral/Written \nInterviews \n• Direct \nObservation \n• Practical \nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n54\n3. Perform \nestimation and \nbasic \ncalculation \n \n \n \n3.1 Perform estimation \n3.2 Perform basic \nworkplace calculation \n \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nExercise \n• Oral/Written \nexamination \n• Practical \nexercise \n \nCORE COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Restrain and \nHandle Animal \n \n1.1 Identify and select \nanimal \n1.2 Apply appropriate \nhandling and \nretraining technique \n \n• Demonstration \n• Discussion \n \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n2. Apply Bio-\nSecurity \nMeasures \n \n \n2.1 Identify bio-security \nthreats and hazards \n2.2 Apply disease \nprevention practices \n2.3 Apply preventive \ndisease transmission \npractices \n• Demonstration \n• Discussion \n \n \n• Written \nexamination \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n 3. Administer \nDrugs and \nBiologics \n \n3.1 Prepare supplies, \nmaterials, tools and \nequipment \n3.2 Prepare animals \n3.3 Apply drugs and \nbiologics \n3.4 Monitor and record \nresponse to drugs and \nbiologics \n• Demonstration \n• Discussion \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n4. Handle and \nStore Drugs \nand Biologics \n4.1 Prepare drugs and \nbiologics \n4.2 Handle and transport \ndrugs and biologics \n4.3 Store unused drugs \nand biologics \n4.4. Dispose used bottles, \nexpired and damaged \nbiologics \n• Demonstration \n• Discussion \n \n \n• Written \nexamination \n• Direct \nobservation \n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n55\n5. Collect and \nHandle \nSpecimen \n5.1 Prepare supplies, \nmaterials, tools and \nequipment for \ncollection and \ntransport of specimen \n5.2 Prepare animal \n5.3 Collect specimen \n5.4 Handle and transport \nspecimen \n• Demonstration \n• Discussion \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n56\n \n3.2 TRAINING DELIVERY \n \nThe delivery of training should adhere to the design of the curriculum. \nDelivery should be guided by the 10 basic principles of competency-based \nTVET. \n \n \n• \nThe training is based on curriculum developed from the \ncompetency standards; \n• \nLearning is modular in its structure; \n• \nTraining delivery is learner-centered and should accommodate \nindividualized and self-paced learning strategies; \n• \nTraining is based on work that must be performed; \n• \nTraining materials are directly related to the competency standards \nand the curriculum modules; \n• \nAssessment is based in the collection of evidence of the \nperformance of work to the industry required standard; \n• \nTraining program allows for recognition of prior learning (RPL) or \ncurrent competencies; \n• \nTraining allows for multiple entry and exit; and \n• \nTraining programs are registered with UTPRAS. \n \nThe competency-based TVET system recognizes various types of \ndelivery modes, both on and off-the-job as long as the learning is driven by \nthe competency standards specified by the industry. The following training \nmodalities may be adopted when designing training programs: \n \n• \nThe dualized mode of training delivery is preferred and \nrecommended. Thus programs would contain both in-school and \nin-industry training or fieldwork components. Details can be \nreferred to the Dual Training System (DTS) Implementing Rules \nand Regulations. \n• \nModular/self-paced learning is a competency-based training \nmodality wherein the trainee is allowed to progress at his own \npace. The trainer facilitates the training delivery \n• \nPeer teaching/mentoring is a training modality wherein fast \nlearners are given the opportunity to assist the slow learners. \n• \nSupervised industry training or on-the-job training is an approach in \ntraining designed to enhance the knowledge and skills of the \ntrainee through actual experience in the workplace to acquire \nspecific competencies prescribed in the training regulations. \n• \nDistance learning is a formal education process in which majority of \nthe instruction occurs when the students and instructor are not in \nthe same place. Distance learning may employ correspondence \nstudy, or audio, video or computer technologies. \n• \nProject-Based Instruction is an authentic instructional model or \nstrategy in which students plan, implement and evaluate projects \nthat have real world applications.\n\n--- PDF PAGE 59 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n57\n \n \n3.3 TRAINEE ENTRY REQUIREMENTS \n \nTrainees or students wishing to enroll in this course should possess \nthe following requirements: \n \n• \nAbility to communicate, both oral and written; \n• \nHave attended training on Animal Production NC II or have had \nequivalent experience or have been certified in the Units of \nCompetency Raise Swine (AGR621303) and Raise Large Ruminants \n( AGR621304) \n• \nPhysically fit and mentally healthy as certified by a Public Health \nOfficer \n \n \n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS \n \n ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nRecommended list of tools, equipment and materials for the training of 25 \ntrainees for Animal Health Care and Management NC III \n \nQTY \nTOOLS \nQTY \nEQUIPMENT \nQTY \nMATERIALS \n5 pcs \nDriving board \n5 units \nCastration table \n5 pcs \nSacks/Hood \n5 pcs \nSnoozer \n5 sets \nMedication tray \n25 pcs \nVial \n5 pcs \nRope \n5 units \nCart \n25 pcs \nTest tube \n5 pcs \nPig wire \n25 pairs \nBoots \n25 sets \nNeedles \n25 pcs Allis tissue \nforceps \n25 pairs \nDisposable suit \n25 sets \nSyringe (10 ml. \n20ml) \n25 pcs Scalpel with \nblade \n1 unit \nSprayer (portable, \npower sprayer) \n200 ml \nMineral oil \n(bottle) \n1 pc \nTorch \n5 pcs \nContainer \nequipment \n25 pcs \nCap (cotton, \ncork, rubber \nstopper) \n \n \n5 pcs \nCool box \n25 pcs \nRefrigerant \n \n \n5 pcs \nStyropor box \n25 pcs \nResealable \nplastic bag \n \n \n1 unit \nRefrigerator \n25 pcs \nIce packs \n \n \n5 pcs \nCovered box \n25 pcs \nGlass slide \n \n \n \n \n25 pcs \nVacutainer \n \n \n \n \n500 ml \nPaints \n \n \n \n \n500 ml \nRust remover \n \n \n \n \n1 liter \nChemical \ndisinfectants \n \n \n• \n5 bottles \nDrugs, \nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n58\n \n3.5 TRAINING FACILITIES \n \n ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nBased on a class size of 25 students/trainees \n \nSPACE REQUIREMENT \nSIZE IN METERS \nAREA IN SQ. \nMETERS \nTOTAL AREA IN SQ. \nMETERS \n• Building \n(permanent) \n13.00 x 15.00 \n195.00 \n195.00 \n• Student/Trainee \nWorking Space \n2.00 x 2.00 per \nstudent/trainee \n4.00 per student \n100.00 \n• Lecture Room \n7.00 x 5.00 \n35.00 \n35.00 \n• Learning Resource \nCenter (Library) \n3.00 x 5.00 \n15.00 \n15.00 \n• Facilities/Equipment/ \nCirculation Area \n13.00 x 15.00 \n \n195.00 \n195.00 \n• Livestock Farm* \n100.00 x 100.00 \n10,000 \n10,000.00 \nNote: * Area will change according to availability of livestock farm for training, \nobservation and demonstration. \n \n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR \n \nANIMAL HEALTH CARE AND MANAGEMENT NC III \nTRAINER QUALIFICATION (TQ III) \n• \nMust be a holder of Animal Health Care and Management NC III or \nits equivalent qualification \n• \nMust have undergone training on Training Methodology III (TM III) \n• \n*Must be computer literate \n• \nMust be physically and mentally fit \n• \n*Must have at least 2 years job/industry experience \n• \nMust be a civil service eligible (for government position or \nappropriate professional license issued by the Professional \nRegulatory Commission) \n \n* \nOptional. Only when required by the hiring institution. \n \n \nReference: TESDA Board Resolution No. 2004 03 \n \n3.7. \nINSTITUTIONAL ASSESSMENT \n \nInstitutional assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued for each \nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n59"
+    "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III\nNominal Training Duration:\n18 Hours (Basic)\n14 Hours (Common)\n176 Hours (Core)\n208 Total\nCourse Description:\n\nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification\nconsists of competencies that a person must achieve in providing LIVESTOCK\nHEALTH CARE in both backyard and commercial livestock farms under the\nsupervision of a veterinarian. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes\n1.2 Lead workplace\ndiscussions\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group\ndiscussion\n• Role play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\namong members\n2.3 Set performance\nexpectation for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n53\n3. Develop and\npractice\nnegotiation\nskills\n\n3.1 Plan negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/\n• role playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Explain the analytical\ntechniques\n4.2 Identify the problem\n4.3 Determine the possible\ncause/s of the problem\n• Direct\nobservation\n• Simulation/ Role\nplaying\n• Case studies\n• Written test\n• Practical/perfor\nmance test\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case Studies\n• Written test\n• Practical/\nperformance\ntest\n\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine areas of\nconcern for safety\nmeasures\n1.2 Apply appropriate\nsafety measures\n1.3 Safekeep/maintain/\ndispose tools, materials\nand outfit\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n2. Use farm tools\nand equipment\n2.1 Prepare and use farm\ntools\n2.2 Prepare and operate\nfarm equipment\n2.3 Perform preventive\nmaintenance\nprocedures/practices\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n54\n3. Perform\nestimation and\nbasic\ncalculation\n\n\n\n3.1 Perform estimation\n3.2 Perform basic\nworkplace calculation\n\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nExercise\n• Oral/Written\nexamination\n• Practical\nexercise\n\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Restrain and\nHandle Animal\n\n1.1 Identify and select\nanimal\n1.2 Apply appropriate\nhandling and\nretraining technique\n\n• Demonstration\n• Discussion\n\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n2. Apply Bio-\nSecurity\nMeasures\n\n\n2.1 Identify bio-security\nthreats and hazards\n2.2 Apply disease\nprevention practices\n2.3 Apply preventive\ndisease transmission\npractices\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n 3. Administer\nDrugs and\nBiologics\n\n3.1 Prepare supplies,\nmaterials, tools and\nequipment\n3.2 Prepare animals\n3.3 Apply drugs and\nbiologics\n3.4 Monitor and record\nresponse to drugs and\nbiologics\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n4. Handle and\nStore Drugs\nand Biologics\n4.1 Prepare drugs and\nbiologics\n4.2 Handle and transport\ndrugs and biologics\n4.3 Store unused drugs\nand biologics\n4.4. Dispose used bottles,\nexpired and damaged\nbiologics\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n55\n5. Collect and\nHandle\nSpecimen\n5.1 Prepare supplies,\nmaterials, tools and\nequipment for\ncollection and\ntransport of specimen\n5.2 Prepare animal\n5.3 Collect specimen\n5.4 Handle and transport\nspecimen\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n56"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III \nNominal Training Duration: \n18 Hours (Basic) \n14 Hours (Common) \n176 Hours (Core) \n208 Total \nCourse Description: \n \nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification \nconsists of competencies that a person must achieve in providing LIVESTOCK \nHEALTH CARE in both backyard and commercial livestock farms under the \nsupervision of a veterinarian. It covers the basic, common and core competencies. \n \nBASIC COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead \nworkplace \ncommunication \n1.1 Communicate \ninformation about \nworkplace processes \n1.2 Lead workplace \ndiscussions \n1.3 Identify and \ncommunicate issues \narising in the \nworkplace \n• Group \ndiscussion \n• Role play \n• Brainstorming \n \n• Observation \n• Interviews \n2. Lead small \nteams \n \n2.1 Provide team \nleadership \n2.2 Assign responsibilities \namong members \n2.3 Set performance \nexpectation for team \nmembers \n2.4 Supervise team \nperformance \n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n53\n3. Develop and \npractice \nnegotiation \nskills \n \n3.1 Plan negotiations \n3.2 Participate in \nnegotiations \n3.3 Document areas for \nagreement \n• Direct \nobservation \n• Simulation/ \n• role playing \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve problems \nrelated to work \nactivities \n \n4.1 Explain the analytical \ntechniques \n4.2 Identify the problem \n4.3 Determine the possible \ncause/s of the problem \n• Direct \nobservation \n• Simulation/ Role \nplaying \n• Case studies \n• Written test \n• Practical/perfor\nmance test \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques \nto solve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3 Analyze results \n• Direct \nobservation \n• Simulation/ \nrole playing \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 \nIdentify \nappropriate \ntechnology \n6.2 Apply relevant \ntechnology \n6.3 Maintain/enhance \nrelevant technology \n• Direct \nobservation \n• Simulation/ role \nplaying \n• Case Studies \n• Written test \n• Practical/ \nperformance \ntest \n \n \nCOMMON COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Apply safety \nmeasures in \nfarm \noperations \n1.1 Determine areas of \nconcern for safety \nmeasures \n1.2 Apply appropriate \nsafety measures \n1.3 Safekeep/maintain/ \ndispose tools, materials \nand outfit \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nDemonstration \n• Visit/tour \n• Oral/Written \nInterviews \n• Direct \nObservation \n• Practical \nDemonstration \n2. Use farm tools \nand equipment \n2.1 Prepare and use farm \ntools \n2.2 Prepare and operate \nfarm equipment \n2.3 Perform preventive \nmaintenance \nprocedures/practices \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nDemonstration \n• Visit/tour \n• Oral/Written \nInterviews \n• Direct \nObservation \n• Practical \nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n54\n3. Perform \nestimation and \nbasic \ncalculation \n \n \n \n3.1 Perform estimation \n3.2 Perform basic \nworkplace calculation \n \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nExercise \n• Oral/Written \nexamination \n• Practical \nexercise \n \nCORE COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Restrain and \nHandle Animal \n \n1.1 Identify and select \nanimal \n1.2 Apply appropriate \nhandling and \nretraining technique \n \n• Demonstration \n• Discussion \n \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n2. Apply Bio-\nSecurity \nMeasures \n \n \n2.1 Identify bio-security \nthreats and hazards \n2.2 Apply disease \nprevention practices \n2.3 Apply preventive \ndisease transmission \npractices \n• Demonstration \n• Discussion \n \n \n• Written \nexamination \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n 3. Administer \nDrugs and \nBiologics \n \n3.1 Prepare supplies, \nmaterials, tools and \nequipment \n3.2 Prepare animals \n3.3 Apply drugs and \nbiologics \n3.4 Monitor and record \nresponse to drugs and \nbiologics \n• Demonstration \n• Discussion \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n4. Handle and \nStore Drugs \nand Biologics \n4.1 Prepare drugs and \nbiologics \n4.2 Handle and transport \ndrugs and biologics \n4.3 Store unused drugs \nand biologics \n4.4. Dispose used bottles, \nexpired and damaged \nbiologics \n• Demonstration \n• Discussion \n \n \n• Written \nexamination \n• Direct \nobservation \n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n55\n5. Collect and \nHandle \nSpecimen \n5.1 Prepare supplies, \nmaterials, tools and \nequipment for \ncollection and \ntransport of specimen \n5.2 Prepare animal \n5.3 Collect specimen \n5.4 Handle and transport \nspecimen \n• Demonstration \n• Discussion \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n56",
-      "pdf_pages": []
+      "pdf_pages": [
+        54
+      ],
+      "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III\nNominal Training Duration:\n18 Hours (Basic)\n14 Hours (Common)\n176 Hours (Core)\n208 Total\nCourse Description:\n\nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification\nconsists of competencies that a person must achieve in providing LIVESTOCK\nHEALTH CARE in both backyard and commercial livestock farms under the\nsupervision of a veterinarian. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes\n1.2 Lead workplace\ndiscussions\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group\ndiscussion\n• Role play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\namong members\n2.3 Set performance\nexpectation for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n53\n3. Develop and\npractice\nnegotiation\nskills\n\n3.1 Plan negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/\n• role playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Explain the analytical\ntechniques\n4.2 Identify the problem\n4.3 Determine the possible\ncause/s of the problem\n• Direct\nobservation\n• Simulation/ Role\nplaying\n• Case studies\n• Written test\n• Practical/perfor\nmance test\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case Studies\n• Written test\n• Practical/\nperformance\ntest\n\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine areas of\nconcern for safety\nmeasures\n1.2 Apply appropriate\nsafety measures\n1.3 Safekeep/maintain/\ndispose tools, materials\nand outfit\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n2. Use farm tools\nand equipment\n2.1 Prepare and use farm\ntools\n2.2 Prepare and operate\nfarm equipment\n2.3 Perform preventive\nmaintenance\nprocedures/practices\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n54\n3. Perform\nestimation and\nbasic\ncalculation\n\n\n\n3.1 Perform estimation\n3.2 Perform basic\nworkplace calculation\n\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nExercise\n• Oral/Written\nexamination\n• Practical\nexercise\n\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Restrain and\nHandle Animal\n\n1.1 Identify and select\nanimal\n1.2 Apply appropriate\nhandling and\nretraining technique\n\n• Demonstration\n• Discussion\n\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n2. Apply Bio-\nSecurity\nMeasures\n\n\n2.1 Identify bio-security\nthreats and hazards\n2.2 Apply disease\nprevention practices\n2.3 Apply preventive\ndisease transmission\npractices\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n 3. Administer\nDrugs and\nBiologics\n\n3.1 Prepare supplies,\nmaterials, tools and\nequipment\n3.2 Prepare animals\n3.3 Apply drugs and\nbiologics\n3.4 Monitor and record\nresponse to drugs and\nbiologics\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n4. Handle and\nStore Drugs\nand Biologics\n4.1 Prepare drugs and\nbiologics\n4.2 Handle and transport\ndrugs and biologics\n4.3 Store unused drugs\nand biologics\n4.4. Dispose used bottles,\nexpired and damaged\nbiologics\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n55\n5. Collect and\nHandle\nSpecimen\n5.1 Prepare supplies,\nmaterials, tools and\nequipment for\ncollection and\ntransport of specimen\n5.2 Prepare animal\n5.3 Collect specimen\n5.4 Handle and transport\nspecimen\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n56"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum. \nDelivery should be guided by the 10 basic principles of competency-based \nTVET. \n \n \n• \nThe training is based on curriculum developed from the \ncompetency standards; \n• \nLearning is modular in its structure; \n• \nTraining delivery is learner-centered and should accommodate \nindividualized and self-paced learning strategies; \n• \nTraining is based on work that must be performed; \n• \nTraining materials are directly related to the competency standards \nand the curriculum modules; \n• \nAssessment is based in the collection of evidence of the \nperformance of work to the industry required standard; \n• \nTraining program allows for recognition of prior learning (RPL) or \ncurrent competencies; \n• \nTraining allows for multiple entry and exit; and \n• \nTraining programs are registered with UTPRAS. \n \nThe competency-based TVET system recognizes various types of \ndelivery modes, both on and off-the-job as long as the learning is driven by \nthe competency standards specified by the industry. The following training \nmodalities may be adopted when designing training programs: \n \n• \nThe dualized mode of training delivery is preferred and \nrecommended. Thus programs would contain both in-school and \nin-industry training or fieldwork components. Details can be \nreferred to the Dual Training System (DTS) Implementing Rules \nand Regulations. \n• \nModular/self-paced learning is a competency-based training \nmodality wherein the trainee is allowed to progress at his own \npace. The trainer facilitates the training delivery \n• \nPeer teaching/mentoring is a training modality wherein fast \nlearners are given the opportunity to assist the slow learners. \n• \nSupervised industry training or on-the-job training is an approach in \ntraining designed to enhance the knowledge and skills of the \ntrainee through actual experience in the workplace to acquire \nspecific competencies prescribed in the training regulations. \n• \nDistance learning is a formal education process in which majority of \nthe instruction occurs when the students and instructor are not in \nthe same place. Distance learning may employ correspondence \nstudy, or audio, video or computer technologies. \n• \nProject-Based Instruction is an authentic instructional model or \nstrategy in which students plan, implement and evaluate projects \nthat have real world applications.\n\n--- PDF PAGE 59 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n57",
-      "pdf_pages": []
+      "pdf_pages": [
+        58
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n\n•\nThe training is based on curriculum developed from the\ncompetency standards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the\nperformance of work to the industry required standard;\n•\nTraining program allows for recognition of prior learning (RPL) or\ncurrent competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nTraining programs are registered with UTPRAS.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and\nin-industry training or fieldwork components. Details can be\nreferred to the Dual Training System (DTS) Implementing Rules\nand Regulations.\n•\nModular/self-paced learning is a competency-based training\nmodality wherein the trainee is allowed to progress at his own\npace. The trainer facilitates the training delivery\n•\nPeer teaching/mentoring is a training modality wherein fast\nlearners are given the opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the\ntrainee through actual experience in the workplace to acquire\nspecific competencies prescribed in the training regulations.\n•\nDistance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructor are not in\nthe same place. Distance learning may employ correspondence\nstudy, or audio, video or computer technologies.\n•\nProject-Based Instruction is an authentic instructional model or\nstrategy in which students plan, implement and evaluate projects\nthat have real world applications.\n\n--- PDF PAGE 59 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n57"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "Trainees or students wishing to enroll in this course should possess \nthe following requirements: \n \n• \nAbility to communicate, both oral and written; \n• \nHave attended training on Animal Production NC II or have had \nequivalent experience or have been certified in the Units of \nCompetency Raise Swine (AGR621303) and Raise Large Ruminants \n( AGR621304) \n• \nPhysically fit and mentally healthy as certified by a Public Health \nOfficer \n \n \n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS \n \n ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nRecommended list of tools, equipment and materials for the training of 25 \ntrainees for Animal Health Care and Management NC III \n \nQTY \nTOOLS \nQTY \nEQUIPMENT \nQTY \nMATERIALS \n5 pcs \nDriving board \n5 units \nCastration table \n5 pcs \nSacks/Hood \n5 pcs \nSnoozer \n5 sets \nMedication tray \n25 pcs \nVial \n5 pcs \nRope \n5 units \nCart \n25 pcs \nTest tube \n5 pcs \nPig wire \n25 pairs \nBoots \n25 sets \nNeedles \n25 pcs Allis tissue \nforceps \n25 pairs \nDisposable suit \n25 sets \nSyringe (10 ml. \n20ml) \n25 pcs Scalpel with \nblade \n1 unit \nSprayer (portable, \npower sprayer) \n200 ml \nMineral oil \n(bottle) \n1 pc \nTorch \n5 pcs \nContainer \nequipment \n25 pcs \nCap (cotton, \ncork, rubber \nstopper) \n \n \n5 pcs \nCool box \n25 pcs \nRefrigerant \n \n \n5 pcs \nStyropor box \n25 pcs \nResealable \nplastic bag \n \n \n1 unit \nRefrigerator \n25 pcs \nIce packs \n \n \n5 pcs \nCovered box \n25 pcs \nGlass slide \n \n \n \n \n25 pcs \nVacutainer \n \n \n \n \n500 ml \nPaints \n \n \n \n \n500 ml \nRust remover \n \n \n \n \n1 liter \nChemical \ndisinfectants \n \n \n• \n5 bottles \nDrugs, \nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n58",
-      "pdf_pages": []
+      "pdf_pages": [
+        59
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAbility to communicate, both oral and written;\n•\nHave attended training on Animal Production NC II or have had\nequivalent experience or have been certified in the Units of\nCompetency Raise Swine (AGR621303) and Raise Large Ruminants\n( AGR621304)\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n\n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Animal Health Care and Management NC III\n\nQTY\nTOOLS\nQTY\nEQUIPMENT\nQTY\nMATERIALS\n5 pcs\nDriving board\n5 units\nCastration table\n5 pcs\nSacks/Hood\n5 pcs\nSnoozer\n5 sets\nMedication tray\n25 pcs\nVial\n5 pcs\nRope\n5 units\nCart\n25 pcs\nTest tube\n5 pcs\nPig wire\n25 pairs\nBoots\n25 sets\nNeedles\n25 pcs Allis tissue\nforceps\n25 pairs\nDisposable suit\n25 sets\nSyringe (10 ml.\n20ml)\n25 pcs Scalpel with\nblade\n1 unit\nSprayer (portable,\npower sprayer)\n200 ml\nMineral oil\n(bottle)\n1 pc\nTorch\n5 pcs\nContainer\nequipment\n25 pcs\nCap (cotton,\ncork, rubber\nstopper)\n\n\n5 pcs\nCool box\n25 pcs\nRefrigerant\n\n\n5 pcs\nStyropor box\n25 pcs\nResealable\nplastic bag\n\n\n1 unit\nRefrigerator\n25 pcs\nIce packs\n\n\n5 pcs\nCovered box\n25 pcs\nGlass slide\n\n\n\n\n25 pcs\nVacutainer\n\n\n\n\n500 ml\nPaints\n\n\n\n\n500 ml\nRust remover\n\n\n\n\n1 liter\nChemical\ndisinfectants\n\n\n•\n5 bottles\nDrugs,\nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n58"
+    },
+    "tools_equipment_materials": {
+      "present": true,
+      "pdf_pages": [
+        59
+      ],
+      "source_text": "SECTION 3. TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for ANIMAL HEALTH CARE AND\nMANAGEMENT NC III.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III\nNominal Training Duration:\n18 Hours (Basic)\n14 Hours (Common)\n176 Hours (Core)\n208 Total\nCourse Description:\n\nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification\nconsists of competencies that a person must achieve in providing LIVESTOCK\nHEALTH CARE in both backyard and commercial livestock farms under the\nsupervision of a veterinarian. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes\n1.2 Lead workplace\ndiscussions\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group\ndiscussion\n• Role play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\namong members\n2.3 Set performance\nexpectation for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n53\n3. Develop and\npractice\nnegotiation\nskills\n\n3.1 Plan negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/\n• role playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Explain the analytical\ntechniques\n4.2 Identify the problem\n4.3 Determine the possible\ncause/s of the problem\n• Direct\nobservation\n• Simulation/ Role\nplaying\n• Case studies\n• Written test\n• Practical/perfor\nmance test\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case Studies\n• Written test\n• Practical/\nperformance\ntest\n\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine areas of\nconcern for safety\nmeasures\n1.2 Apply appropriate\nsafety measures\n1.3 Safekeep/maintain/\ndispose tools, materials\nand outfit\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n2. Use farm tools\nand equipment\n2.1 Prepare and use farm\ntools\n2.2 Prepare and operate\nfarm equipment\n2.3 Perform preventive\nmaintenance\nprocedures/practices\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n54\n3. Perform\nestimation and\nbasic\ncalculation\n\n\n\n3.1 Perform estimation\n3.2 Perform basic\nworkplace calculation\n\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nExercise\n• Oral/Written\nexamination\n• Practical\nexercise\n\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Restrain and\nHandle Animal\n\n1.1 Identify and select\nanimal\n1.2 Apply appropriate\nhandling and\nretraining technique\n\n• Demonstration\n• Discussion\n\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n2. Apply Bio-\nSecurity\nMeasures\n\n\n2.1 Identify bio-security\nthreats and hazards\n2.2 Apply disease\nprevention practices\n2.3 Apply preventive\ndisease transmission\npractices\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n 3. Administer\nDrugs and\nBiologics\n\n3.1 Prepare supplies,\nmaterials, tools and\nequipment\n3.2 Prepare animals\n3.3 Apply drugs and\nbiologics\n3.4 Monitor and record\nresponse to drugs and\nbiologics\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n4. Handle and\nStore Drugs\nand Biologics\n4.1 Prepare drugs and\nbiologics\n4.2 Handle and transport\ndrugs and biologics\n4.3 Store unused drugs\nand biologics\n4.4. Dispose used bottles,\nexpired and damaged\nbiologics\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n55\n5. Collect and\nHandle\nSpecimen\n5.1 Prepare supplies,\nmaterials, tools and\nequipment for\ncollection and\ntransport of specimen\n5.2 Prepare animal\n5.3 Collect specimen\n5.4 Handle and transport\nspecimen\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n56\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n\n•\nThe training is based on curriculum developed from the\ncompetency standards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the\nperformance of work to the industry required standard;\n•\nTraining program allows for recognition of prior learning (RPL) or\ncurrent competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nTraining programs are registered with UTPRAS.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and\nin-industry training or fieldwork components. Details can be\nreferred to the Dual Training System (DTS) Implementing Rules\nand Regulations.\n•\nModular/self-paced learning is a competency-based training\nmodality wherein the trainee is allowed to progress at his own\npace. The trainer facilitates the training delivery\n•\nPeer teaching/mentoring is a training modality wherein fast\nlearners are given the opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the\ntrainee through actual experience in the workplace to acquire\nspecific competencies prescribed in the training regulations.\n•\nDistance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructor are not in\nthe same place. Distance learning may employ correspondence\nstudy, or audio, video or computer technologies.\n•\nProject-Based Instruction is an authentic instructional model or\nstrategy in which students plan, implement and evaluate projects\nthat have real world applications.\n\n--- PDF PAGE 59 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n57\n\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAbility to communicate, both oral and written;\n•\nHave attended training on Animal Production NC II or have had\nequivalent experience or have been certified in the Units of\nCompetency Raise Swine (AGR621303) and Raise Large Ruminants\n( AGR621304)\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n\n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Animal Health Care and Management NC III\n\nQTY\nTOOLS\nQTY\nEQUIPMENT\nQTY\nMATERIALS\n5 pcs\nDriving board\n5 units\nCastration table\n5 pcs\nSacks/Hood\n5 pcs\nSnoozer\n5 sets\nMedication tray\n25 pcs\nVial\n5 pcs\nRope\n5 units\nCart\n25 pcs\nTest tube\n5 pcs\nPig wire\n25 pairs\nBoots\n25 sets\nNeedles\n25 pcs Allis tissue\nforceps\n25 pairs\nDisposable suit\n25 sets\nSyringe (10 ml.\n20ml)\n25 pcs Scalpel with\nblade\n1 unit\nSprayer (portable,\npower sprayer)\n200 ml\nMineral oil\n(bottle)\n1 pc\nTorch\n5 pcs\nContainer\nequipment\n25 pcs\nCap (cotton,\ncork, rubber\nstopper)\n\n\n5 pcs\nCool box\n25 pcs\nRefrigerant\n\n\n5 pcs\nStyropor box\n25 pcs\nResealable\nplastic bag\n\n\n1 unit\nRefrigerator\n25 pcs\nIce packs\n\n\n5 pcs\nCovered box\n25 pcs\nGlass slide\n\n\n\n\n25 pcs\nVacutainer\n\n\n\n\n500 ml\nPaints\n\n\n\n\n500 ml\nRust remover\n\n\n\n\n1 liter\nChemical\ndisinfectants\n\n\n•\n5 bottles\nDrugs,\nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n58\n\n3.5 TRAINING FACILITIES\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\n• Building\n(permanent)\n13.00 x 15.00\n195.00\n195.00\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Lecture Room\n7.00 x 5.00\n35.00\n35.00\n• Learning Resource\nCenter (Library)\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipment/\nCirculation Area\n13.00 x 15.00\n\n195.00\n195.00\n• Livestock Farm*\n100.00 x 100.00\n10,000\n10,000.00\nNote: * Area will change according to availability of livestock farm for training,\nobservation and demonstration.\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR\n\nANIMAL HEALTH CARE AND MANAGEMENT NC III\nTRAINER QUALIFICATION (TQ III)\n•\nMust be a holder of Animal Health Care and Management NC III or\nits equivalent qualification\n•\nMust have undergone training on Training Methodology III (TM III)\n•\n*Must be computer literate\n•\nMust be physically and mentally fit\n•\n*Must have at least 2 years job/industry experience\n•\nMust be a civil service eligible (for government position or\nappropriate professional license issued by the Professional\nRegulatory Commission)\n\n*\nOptional. Only when required by the hiring institution.\n\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n59"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nBased on a class size of 25 students/trainees \n \nSPACE REQUIREMENT \nSIZE IN METERS \nAREA IN SQ. \nMETERS \nTOTAL AREA IN SQ. \nMETERS \n• Building \n(permanent) \n13.00 x 15.00 \n195.00 \n195.00 \n• Student/Trainee \nWorking Space \n2.00 x 2.00 per \nstudent/trainee \n4.00 per student \n100.00 \n• Lecture Room \n7.00 x 5.00 \n35.00 \n35.00 \n• Learning Resource \nCenter (Library) \n3.00 x 5.00 \n15.00 \n15.00 \n• Facilities/Equipment/ \nCirculation Area \n13.00 x 15.00 \n \n195.00 \n195.00 \n• Livestock Farm* \n100.00 x 100.00 \n10,000 \n10,000.00 \nNote: * Area will change according to availability of livestock farm for training, \nobservation and demonstration. \n \n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR \n \nANIMAL HEALTH CARE AND MANAGEMENT NC III \nTRAINER QUALIFICATION (TQ III) \n• \nMust be a holder of Animal Health Care and Management NC III or \nits equivalent qualification \n• \nMust have undergone training on Training Methodology III (TM III) \n• \n*Must be computer literate \n• \nMust be physically and mentally fit \n• \n*Must have at least 2 years job/industry experience \n• \nMust be a civil service eligible (for government position or \nappropriate professional license issued by the Professional \nRegulatory Commission) \n \n* \nOptional. Only when required by the hiring institution. \n \n \nReference: TESDA Board Resolution No. 2004 03 \n \n3.7. \nINSTITUTIONAL ASSESSMENT \n \nInstitutional assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued for each \nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n59",
-      "pdf_pages": []
+      "pdf_pages": [
+        60
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\n• Building\n(permanent)\n13.00 x 15.00\n195.00\n195.00\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Lecture Room\n7.00 x 5.00\n35.00\n35.00\n• Learning Resource\nCenter (Library)\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipment/\nCirculation Area\n13.00 x 15.00\n\n195.00\n195.00\n• Livestock Farm*\n100.00 x 100.00\n10,000\n10,000.00\nNote: * Area will change according to availability of livestock farm for training,\nobservation and demonstration."
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        60
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR\n\nANIMAL HEALTH CARE AND MANAGEMENT NC III\nTRAINER QUALIFICATION (TQ III)\n•\nMust be a holder of Animal Health Care and Management NC III or\nits equivalent qualification\n•\nMust have undergone training on Training Methodology III (TM III)\n•\n*Must be computer literate\n•\nMust be physically and mentally fit\n•\n*Must have at least 2 years job/industry experience\n•\nMust be a civil service eligible (for government position or\nappropriate professional license issued by the Professional\nRegulatory Commission)\n\n*\nOptional. Only when required by the hiring institution.\n\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n59"
+    },
+    "institutional_assessment": {
+      "present": true,
+      "pdf_pages": [
+        60
+      ],
+      "source_text": "SECTION 3. TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for ANIMAL HEALTH CARE AND\nMANAGEMENT NC III.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III\nNominal Training Duration:\n18 Hours (Basic)\n14 Hours (Common)\n176 Hours (Core)\n208 Total\nCourse Description:\n\nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification\nconsists of competencies that a person must achieve in providing LIVESTOCK\nHEALTH CARE in both backyard and commercial livestock farms under the\nsupervision of a veterinarian. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes\n1.2 Lead workplace\ndiscussions\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group\ndiscussion\n• Role play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\namong members\n2.3 Set performance\nexpectation for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n53\n3. Develop and\npractice\nnegotiation\nskills\n\n3.1 Plan negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/\n• role playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Explain the analytical\ntechniques\n4.2 Identify the problem\n4.3 Determine the possible\ncause/s of the problem\n• Direct\nobservation\n• Simulation/ Role\nplaying\n• Case studies\n• Written test\n• Practical/perfor\nmance test\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case Studies\n• Written test\n• Practical/\nperformance\ntest\n\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine areas of\nconcern for safety\nmeasures\n1.2 Apply appropriate\nsafety measures\n1.3 Safekeep/maintain/\ndispose tools, materials\nand outfit\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n2. Use farm tools\nand equipment\n2.1 Prepare and use farm\ntools\n2.2 Prepare and operate\nfarm equipment\n2.3 Perform preventive\nmaintenance\nprocedures/practices\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n54\n3. Perform\nestimation and\nbasic\ncalculation\n\n\n\n3.1 Perform estimation\n3.2 Perform basic\nworkplace calculation\n\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nExercise\n• Oral/Written\nexamination\n• Practical\nexercise\n\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Restrain and\nHandle Animal\n\n1.1 Identify and select\nanimal\n1.2 Apply appropriate\nhandling and\nretraining technique\n\n• Demonstration\n• Discussion\n\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n2. Apply Bio-\nSecurity\nMeasures\n\n\n2.1 Identify bio-security\nthreats and hazards\n2.2 Apply disease\nprevention practices\n2.3 Apply preventive\ndisease transmission\npractices\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n 3. Administer\nDrugs and\nBiologics\n\n3.1 Prepare supplies,\nmaterials, tools and\nequipment\n3.2 Prepare animals\n3.3 Apply drugs and\nbiologics\n3.4 Monitor and record\nresponse to drugs and\nbiologics\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n4. Handle and\nStore Drugs\nand Biologics\n4.1 Prepare drugs and\nbiologics\n4.2 Handle and transport\ndrugs and biologics\n4.3 Store unused drugs\nand biologics\n4.4. Dispose used bottles,\nexpired and damaged\nbiologics\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n55\n5. Collect and\nHandle\nSpecimen\n5.1 Prepare supplies,\nmaterials, tools and\nequipment for\ncollection and\ntransport of specimen\n5.2 Prepare animal\n5.3 Collect specimen\n5.4 Handle and transport\nspecimen\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n56\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n\n•\nThe training is based on curriculum developed from the\ncompetency standards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the\nperformance of work to the industry required standard;\n•\nTraining program allows for recognition of prior learning (RPL) or\ncurrent competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nTraining programs are registered with UTPRAS.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and\nin-industry training or fieldwork components. Details can be\nreferred to the Dual Training System (DTS) Implementing Rules\nand Regulations.\n•\nModular/self-paced learning is a competency-based training\nmodality wherein the trainee is allowed to progress at his own\npace. The trainer facilitates the training delivery\n•\nPeer teaching/mentoring is a training modality wherein fast\nlearners are given the opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the\ntrainee through actual experience in the workplace to acquire\nspecific competencies prescribed in the training regulations.\n•\nDistance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructor are not in\nthe same place. Distance learning may employ correspondence\nstudy, or audio, video or computer technologies.\n•\nProject-Based Instruction is an authentic instructional model or\nstrategy in which students plan, implement and evaluate projects\nthat have real world applications.\n\n--- PDF PAGE 59 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n57\n\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAbility to communicate, both oral and written;\n•\nHave attended training on Animal Production NC II or have had\nequivalent experience or have been certified in the Units of\nCompetency Raise Swine (AGR621303) and Raise Large Ruminants\n( AGR621304)\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n\n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Animal Health Care and Management NC III\n\nQTY\nTOOLS\nQTY\nEQUIPMENT\nQTY\nMATERIALS\n5 pcs\nDriving board\n5 units\nCastration table\n5 pcs\nSacks/Hood\n5 pcs\nSnoozer\n5 sets\nMedication tray\n25 pcs\nVial\n5 pcs\nRope\n5 units\nCart\n25 pcs\nTest tube\n5 pcs\nPig wire\n25 pairs\nBoots\n25 sets\nNeedles\n25 pcs Allis tissue\nforceps\n25 pairs\nDisposable suit\n25 sets\nSyringe (10 ml.\n20ml)\n25 pcs Scalpel with\nblade\n1 unit\nSprayer (portable,\npower sprayer)\n200 ml\nMineral oil\n(bottle)\n1 pc\nTorch\n5 pcs\nContainer\nequipment\n25 pcs\nCap (cotton,\ncork, rubber\nstopper)\n\n\n5 pcs\nCool box\n25 pcs\nRefrigerant\n\n\n5 pcs\nStyropor box\n25 pcs\nResealable\nplastic bag\n\n\n1 unit\nRefrigerator\n25 pcs\nIce packs\n\n\n5 pcs\nCovered box\n25 pcs\nGlass slide\n\n\n\n\n25 pcs\nVacutainer\n\n\n\n\n500 ml\nPaints\n\n\n\n\n500 ml\nRust remover\n\n\n\n\n1 liter\nChemical\ndisinfectants\n\n\n•\n5 bottles\nDrugs,\nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n58\n\n3.5 TRAINING FACILITIES\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\n• Building\n(permanent)\n13.00 x 15.00\n195.00\n195.00\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Lecture Room\n7.00 x 5.00\n35.00\n35.00\n• Learning Resource\nCenter (Library)\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipment/\nCirculation Area\n13.00 x 15.00\n\n195.00\n195.00\n• Livestock Farm*\n100.00 x 100.00\n10,000\n10,000.00\nNote: * Area will change according to availability of livestock farm for training,\nobservation and demonstration.\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR\n\nANIMAL HEALTH CARE AND MANAGEMENT NC III\nTRAINER QUALIFICATION (TQ III)\n•\nMust be a holder of Animal Health Care and Management NC III or\nits equivalent qualification\n•\nMust have undergone training on Training Methodology III (TM III)\n•\n*Must be computer literate\n•\nMust be physically and mentally fit\n•\n*Must have at least 2 years job/industry experience\n•\nMust be a civil service eligible (for government position or\nappropriate professional license issued by the Professional\nRegulatory Commission)\n\n*\nOptional. Only when required by the hiring institution.\n\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n59"
     }
   },
-  "nominal_duration": {
-    "source_expressions": [
-      "18 Hours",
-      "14 Hours",
-      "176 Hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
-  },
-  "source_section_text": "SECTION 3. TRAINING STANDARDS \n \nThese guidelines are set to provide the Technical and Vocational Education \nand Training (TVET) providers with information and other important requirements to \nconsider when designing training programs for ANIMAL HEALTH CARE AND \nMANAGEMENT NC III. \n \n3.1 CURRICULUM DESIGN \n \nCourse Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III \nNominal Training Duration: \n18 Hours (Basic) \n14 Hours (Common) \n176 Hours (Core) \n208 Total \nCourse Description: \n \nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification \nconsists of competencies that a person must achieve in providing LIVESTOCK \nHEALTH CARE in both backyard and commercial livestock farms under the \nsupervision of a veterinarian. It covers the basic, common and core competencies. \n \nBASIC COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Lead \nworkplace \ncommunication \n1.1 Communicate \ninformation about \nworkplace processes \n1.2 Lead workplace \ndiscussions \n1.3 Identify and \ncommunicate issues \narising in the \nworkplace \n• Group \ndiscussion \n• Role play \n• Brainstorming \n \n• Observation \n• Interviews \n2. Lead small \nteams \n \n2.1 Provide team \nleadership \n2.2 Assign responsibilities \namong members \n2.3 Set performance \nexpectation for team \nmembers \n2.4 Supervise team \nperformance \n• Lecture \n• Demonstration \n• Self-paced \n(modular) \n• Demonstration \n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n53\n3. Develop and \npractice \nnegotiation \nskills \n \n3.1 Plan negotiations \n3.2 Participate in \nnegotiations \n3.3 Document areas for \nagreement \n• Direct \nobservation \n• Simulation/ \n• role playing \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n4. Solve problems \nrelated to work \nactivities \n \n4.1 Explain the analytical \ntechniques \n4.2 Identify the problem \n4.3 Determine the possible \ncause/s of the problem \n• Direct \nobservation \n• Simulation/ Role \nplaying \n• Case studies \n• Written test \n• Practical/perfor\nmance test \n5. Use \nmathematical \nconcepts and \ntechniques \n5.1 Identify mathematical \ntools and techniques \nto solve problem \n5.2 Apply mathematical \nprocedures/solution \n5.3 Analyze results \n• Direct \nobservation \n• Simulation/ \nrole playing \n• Case studies \n• Written test \n• Practical/ \nperformance \ntest \n6. Use relevant \ntechnologies \n6.1 \nIdentify \nappropriate \ntechnology \n6.2 Apply relevant \ntechnology \n6.3 Maintain/enhance \nrelevant technology \n• Direct \nobservation \n• Simulation/ role \nplaying \n• Case Studies \n• Written test \n• Practical/ \nperformance \ntest \n \n \nCOMMON COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Apply safety \nmeasures in \nfarm \noperations \n1.1 Determine areas of \nconcern for safety \nmeasures \n1.2 Apply appropriate \nsafety measures \n1.3 Safekeep/maintain/ \ndispose tools, materials \nand outfit \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nDemonstration \n• Visit/tour \n• Oral/Written \nInterviews \n• Direct \nObservation \n• Practical \nDemonstration \n2. Use farm tools \nand equipment \n2.1 Prepare and use farm \ntools \n2.2 Prepare and operate \nfarm equipment \n2.3 Perform preventive \nmaintenance \nprocedures/practices \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nDemonstration \n• Visit/tour \n• Oral/Written \nInterviews \n• Direct \nObservation \n• Practical \nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n54\n3. Perform \nestimation and \nbasic \ncalculation \n \n \n \n3.1 Perform estimation \n3.2 Perform basic \nworkplace calculation \n \n• Self-\npaced/modular \n• Lecture/ \nDiscussion \n• Interaction \n• Practical \nExercise \n• Oral/Written \nexamination \n• Practical \nexercise \n \nCORE COMPETENCIES \n \nUnit of \nCompetency \nLearning Outcomes \nMethodology \nAssessment \nApproach \n1. Restrain and \nHandle Animal \n \n1.1 Identify and select \nanimal \n1.2 Apply appropriate \nhandling and \nretraining technique \n \n• Demonstration \n• Discussion \n \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n2. Apply Bio-\nSecurity \nMeasures \n \n \n2.1 Identify bio-security \nthreats and hazards \n2.2 Apply disease \nprevention practices \n2.3 Apply preventive \ndisease transmission \npractices \n• Demonstration \n• Discussion \n \n \n• Written \nexamination \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n 3. Administer \nDrugs and \nBiologics \n \n3.1 Prepare supplies, \nmaterials, tools and \nequipment \n3.2 Prepare animals \n3.3 Apply drugs and \nbiologics \n3.4 Monitor and record \nresponse to drugs and \nbiologics \n• Demonstration \n• Discussion \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview \n4. Handle and \nStore Drugs \nand Biologics \n4.1 Prepare drugs and \nbiologics \n4.2 Handle and transport \ndrugs and biologics \n4.3 Store unused drugs \nand biologics \n4.4. Dispose used bottles, \nexpired and damaged \nbiologics \n• Demonstration \n• Discussion \n \n \n• Written \nexamination \n• Direct \nobservation \n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n55\n5. Collect and \nHandle \nSpecimen \n5.1 Prepare supplies, \nmaterials, tools and \nequipment for \ncollection and \ntransport of specimen \n5.2 Prepare animal \n5.3 Collect specimen \n5.4 Handle and transport \nspecimen \n• Demonstration \n• Discussion \n \n• Demonstration \nof practical \nskills \n• Direct \nobservation \n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n56\n \n3.2 TRAINING DELIVERY \n \nThe delivery of training should adhere to the design of the curriculum. \nDelivery should be guided by the 10 basic principles of competency-based \nTVET. \n \n \n• \nThe training is based on curriculum developed from the \ncompetency standards; \n• \nLearning is modular in its structure; \n• \nTraining delivery is learner-centered and should accommodate \nindividualized and self-paced learning strategies; \n• \nTraining is based on work that must be performed; \n• \nTraining materials are directly related to the competency standards \nand the curriculum modules; \n• \nAssessment is based in the collection of evidence of the \nperformance of work to the industry required standard; \n• \nTraining program allows for recognition of prior learning (RPL) or \ncurrent competencies; \n• \nTraining allows for multiple entry and exit; and \n• \nTraining programs are registered with UTPRAS. \n \nThe competency-based TVET system recognizes various types of \ndelivery modes, both on and off-the-job as long as the learning is driven by \nthe competency standards specified by the industry. The following training \nmodalities may be adopted when designing training programs: \n \n• \nThe dualized mode of training delivery is preferred and \nrecommended. Thus programs would contain both in-school and \nin-industry training or fieldwork components. Details can be \nreferred to the Dual Training System (DTS) Implementing Rules \nand Regulations. \n• \nModular/self-paced learning is a competency-based training \nmodality wherein the trainee is allowed to progress at his own \npace. The trainer facilitates the training delivery \n• \nPeer teaching/mentoring is a training modality wherein fast \nlearners are given the opportunity to assist the slow learners. \n• \nSupervised industry training or on-the-job training is an approach in \ntraining designed to enhance the knowledge and skills of the \ntrainee through actual experience in the workplace to acquire \nspecific competencies prescribed in the training regulations. \n• \nDistance learning is a formal education process in which majority of \nthe instruction occurs when the students and instructor are not in \nthe same place. Distance learning may employ correspondence \nstudy, or audio, video or computer technologies. \n• \nProject-Based Instruction is an authentic instructional model or \nstrategy in which students plan, implement and evaluate projects \nthat have real world applications.\n\n--- PDF PAGE 59 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n57\n \n \n3.3 TRAINEE ENTRY REQUIREMENTS \n \nTrainees or students wishing to enroll in this course should possess \nthe following requirements: \n \n• \nAbility to communicate, both oral and written; \n• \nHave attended training on Animal Production NC II or have had \nequivalent experience or have been certified in the Units of \nCompetency Raise Swine (AGR621303) and Raise Large Ruminants \n( AGR621304) \n• \nPhysically fit and mentally healthy as certified by a Public Health \nOfficer \n \n \n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS \n \n ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nRecommended list of tools, equipment and materials for the training of 25 \ntrainees for Animal Health Care and Management NC III \n \nQTY \nTOOLS \nQTY \nEQUIPMENT \nQTY \nMATERIALS \n5 pcs \nDriving board \n5 units \nCastration table \n5 pcs \nSacks/Hood \n5 pcs \nSnoozer \n5 sets \nMedication tray \n25 pcs \nVial \n5 pcs \nRope \n5 units \nCart \n25 pcs \nTest tube \n5 pcs \nPig wire \n25 pairs \nBoots \n25 sets \nNeedles \n25 pcs Allis tissue \nforceps \n25 pairs \nDisposable suit \n25 sets \nSyringe (10 ml. \n20ml) \n25 pcs Scalpel with \nblade \n1 unit \nSprayer (portable, \npower sprayer) \n200 ml \nMineral oil \n(bottle) \n1 pc \nTorch \n5 pcs \nContainer \nequipment \n25 pcs \nCap (cotton, \ncork, rubber \nstopper) \n \n \n5 pcs \nCool box \n25 pcs \nRefrigerant \n \n \n5 pcs \nStyropor box \n25 pcs \nResealable \nplastic bag \n \n \n1 unit \nRefrigerator \n25 pcs \nIce packs \n \n \n5 pcs \nCovered box \n25 pcs \nGlass slide \n \n \n \n \n25 pcs \nVacutainer \n \n \n \n \n500 ml \nPaints \n \n \n \n \n500 ml \nRust remover \n \n \n \n \n1 liter \nChemical \ndisinfectants \n \n \n• \n5 bottles \nDrugs, \nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n58\n \n3.5 TRAINING FACILITIES \n \n ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \nBased on a class size of 25 students/trainees \n \nSPACE REQUIREMENT \nSIZE IN METERS \nAREA IN SQ. \nMETERS \nTOTAL AREA IN SQ. \nMETERS \n• Building \n(permanent) \n13.00 x 15.00 \n195.00 \n195.00 \n• Student/Trainee \nWorking Space \n2.00 x 2.00 per \nstudent/trainee \n4.00 per student \n100.00 \n• Lecture Room \n7.00 x 5.00 \n35.00 \n35.00 \n• Learning Resource \nCenter (Library) \n3.00 x 5.00 \n15.00 \n15.00 \n• Facilities/Equipment/ \nCirculation Area \n13.00 x 15.00 \n \n195.00 \n195.00 \n• Livestock Farm* \n100.00 x 100.00 \n10,000 \n10,000.00 \nNote: * Area will change according to availability of livestock farm for training, \nobservation and demonstration. \n \n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR \n \nANIMAL HEALTH CARE AND MANAGEMENT NC III \nTRAINER QUALIFICATION (TQ III) \n• \nMust be a holder of Animal Health Care and Management NC III or \nits equivalent qualification \n• \nMust have undergone training on Training Methodology III (TM III) \n• \n*Must be computer literate \n• \nMust be physically and mentally fit \n• \n*Must have at least 2 years job/industry experience \n• \nMust be a civil service eligible (for government position or \nappropriate professional license issued by the Professional \nRegulatory Commission) \n \n* \nOptional. Only when required by the hiring institution. \n \n \nReference: TESDA Board Resolution No. 2004 03 \n \n3.7. \nINSTITUTIONAL ASSESSMENT \n \nInstitutional assessment is undertaken by trainees to determine their \nachievement of units of competency. A certificate of achievement is issued for each \nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________ \nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III \n \n \n59"
+  "source_section_text": "SECTION 3. TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for ANIMAL HEALTH CARE AND\nMANAGEMENT NC III.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: ANIMAL HEALTH CARE AND MANAGEMENT NC III\nNominal Training Duration:\n18 Hours (Basic)\n14 Hours (Common)\n176 Hours (Core)\n208 Total\nCourse Description:\n\nThe ANIMAL HEALTH CARE AND MANAGEMENT NC III Qualification\nconsists of competencies that a person must achieve in providing LIVESTOCK\nHEALTH CARE in both backyard and commercial livestock farms under the\nsupervision of a veterinarian. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes\n1.2 Lead workplace\ndiscussions\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group\ndiscussion\n• Role play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\namong members\n2.3 Set performance\nexpectation for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 55 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n53\n3. Develop and\npractice\nnegotiation\nskills\n\n3.1 Plan negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/\n• role playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Explain the analytical\ntechniques\n4.2 Identify the problem\n4.3 Determine the possible\ncause/s of the problem\n• Direct\nobservation\n• Simulation/ Role\nplaying\n• Case studies\n• Written test\n• Practical/perfor\nmance test\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct\nobservation\n• Simulation/\nrole playing\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1\nIdentify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case Studies\n• Written test\n• Practical/\nperformance\ntest\n\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine areas of\nconcern for safety\nmeasures\n1.2 Apply appropriate\nsafety measures\n1.3 Safekeep/maintain/\ndispose tools, materials\nand outfit\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n2. Use farm tools\nand equipment\n2.1 Prepare and use farm\ntools\n2.2 Prepare and operate\nfarm equipment\n2.3 Perform preventive\nmaintenance\nprocedures/practices\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 56 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n54\n3. Perform\nestimation and\nbasic\ncalculation\n\n\n\n3.1 Perform estimation\n3.2 Perform basic\nworkplace calculation\n\n• Self-\npaced/modular\n• Lecture/\nDiscussion\n• Interaction\n• Practical\nExercise\n• Oral/Written\nexamination\n• Practical\nexercise\n\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Restrain and\nHandle Animal\n\n1.1 Identify and select\nanimal\n1.2 Apply appropriate\nhandling and\nretraining technique\n\n• Demonstration\n• Discussion\n\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n2. Apply Bio-\nSecurity\nMeasures\n\n\n2.1 Identify bio-security\nthreats and hazards\n2.2 Apply disease\nprevention practices\n2.3 Apply preventive\ndisease transmission\npractices\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n 3. Administer\nDrugs and\nBiologics\n\n3.1 Prepare supplies,\nmaterials, tools and\nequipment\n3.2 Prepare animals\n3.3 Apply drugs and\nbiologics\n3.4 Monitor and record\nresponse to drugs and\nbiologics\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n4. Handle and\nStore Drugs\nand Biologics\n4.1 Prepare drugs and\nbiologics\n4.2 Handle and transport\ndrugs and biologics\n4.3 Store unused drugs\nand biologics\n4.4. Dispose used bottles,\nexpired and damaged\nbiologics\n• Demonstration\n• Discussion\n\n\n• Written\nexamination\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 57 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n55\n5. Collect and\nHandle\nSpecimen\n5.1 Prepare supplies,\nmaterials, tools and\nequipment for\ncollection and\ntransport of specimen\n5.2 Prepare animal\n5.3 Collect specimen\n5.4 Handle and transport\nspecimen\n• Demonstration\n• Discussion\n\n• Demonstration\nof practical\nskills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 58 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n56\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n\n•\nThe training is based on curriculum developed from the\ncompetency standards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards\nand the curriculum modules;\n•\nAssessment is based in the collection of evidence of the\nperformance of work to the industry required standard;\n•\nTraining program allows for recognition of prior learning (RPL) or\ncurrent competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nTraining programs are registered with UTPRAS.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and\nin-industry training or fieldwork components. Details can be\nreferred to the Dual Training System (DTS) Implementing Rules\nand Regulations.\n•\nModular/self-paced learning is a competency-based training\nmodality wherein the trainee is allowed to progress at his own\npace. The trainer facilitates the training delivery\n•\nPeer teaching/mentoring is a training modality wherein fast\nlearners are given the opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the\ntrainee through actual experience in the workplace to acquire\nspecific competencies prescribed in the training regulations.\n•\nDistance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructor are not in\nthe same place. Distance learning may employ correspondence\nstudy, or audio, video or computer technologies.\n•\nProject-Based Instruction is an authentic instructional model or\nstrategy in which students plan, implement and evaluate projects\nthat have real world applications.\n\n--- PDF PAGE 59 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n57\n\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course should possess\nthe following requirements:\n\n•\nAbility to communicate, both oral and written;\n•\nHave attended training on Animal Production NC II or have had\nequivalent experience or have been certified in the Units of\nCompetency Raise Swine (AGR621303) and Raise Large Ruminants\n( AGR621304)\n•\nPhysically fit and mentally healthy as certified by a Public Health\nOfficer\n\n\n4.2 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Animal Health Care and Management NC III\n\nQTY\nTOOLS\nQTY\nEQUIPMENT\nQTY\nMATERIALS\n5 pcs\nDriving board\n5 units\nCastration table\n5 pcs\nSacks/Hood\n5 pcs\nSnoozer\n5 sets\nMedication tray\n25 pcs\nVial\n5 pcs\nRope\n5 units\nCart\n25 pcs\nTest tube\n5 pcs\nPig wire\n25 pairs\nBoots\n25 sets\nNeedles\n25 pcs Allis tissue\nforceps\n25 pairs\nDisposable suit\n25 sets\nSyringe (10 ml.\n20ml)\n25 pcs Scalpel with\nblade\n1 unit\nSprayer (portable,\npower sprayer)\n200 ml\nMineral oil\n(bottle)\n1 pc\nTorch\n5 pcs\nContainer\nequipment\n25 pcs\nCap (cotton,\ncork, rubber\nstopper)\n\n\n5 pcs\nCool box\n25 pcs\nRefrigerant\n\n\n5 pcs\nStyropor box\n25 pcs\nResealable\nplastic bag\n\n\n1 unit\nRefrigerator\n25 pcs\nIce packs\n\n\n5 pcs\nCovered box\n25 pcs\nGlass slide\n\n\n\n\n25 pcs\nVacutainer\n\n\n\n\n500 ml\nPaints\n\n\n\n\n500 ml\nRust remover\n\n\n\n\n1 liter\nChemical\ndisinfectants\n\n\n•\n5 bottles\nDrugs,\nbiologics and\n\n--- PDF PAGE 60 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n58\n\n3.5 TRAINING FACILITIES\n\n ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN SQ.\nMETERS\n• Building\n(permanent)\n13.00 x 15.00\n195.00\n195.00\n• Student/Trainee\nWorking Space\n2.00 x 2.00 per\nstudent/trainee\n4.00 per student\n100.00\n• Lecture Room\n7.00 x 5.00\n35.00\n35.00\n• Learning Resource\nCenter (Library)\n3.00 x 5.00\n15.00\n15.00\n• Facilities/Equipment/\nCirculation Area\n13.00 x 15.00\n\n195.00\n195.00\n• Livestock Farm*\n100.00 x 100.00\n10,000\n10,000.00\nNote: * Area will change according to availability of livestock farm for training,\nobservation and demonstration.\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE SECTOR\n\nANIMAL HEALTH CARE AND MANAGEMENT NC III\nTRAINER QUALIFICATION (TQ III)\n•\nMust be a holder of Animal Health Care and Management NC III or\nits equivalent qualification\n•\nMust have undergone training on Training Methodology III (TM III)\n•\n*Must be computer literate\n•\nMust be physically and mentally fit\n•\n*Must have at least 2 years job/industry experience\n•\nMust be a civil service eligible (for government position or\nappropriate professional license issued by the Professional\nRegulatory Commission)\n\n*\nOptional. Only when required by the hiring institution.\n\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 61 ---\n_____________________________________________________________________________\nTR - ANIMAL HEALTH CARE AND MANAGEMENT NC III\n\n\n59"
 }

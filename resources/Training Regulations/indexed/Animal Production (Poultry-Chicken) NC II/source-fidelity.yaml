@@ -1,29 +1,152 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:animal-production-poultry-chicken-nc-ii:2013-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:animal-production-poultry-chicken-nc-ii:60d601c8ea",
   "qualification": "ANIMAL PRODUCTION (POULTRY-CHICKEN) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Animal Production (Poultry-Chicken) NC II.pdf",
-    "sha256": "60d601c8ea784a7a86bfc4478b189bc0178f20d871f2b16da22f54912431511e",
+    "source_sha256": "60d601c8ea784a7a86bfc4478b189bc0178f20d871f2b16da22f54912431511e",
+    "pdf_pages": 74,
+    "printed_pages": 72,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns.",
+    "The source contains historical wording, spelling, and learning-outcome numbering variations, including the core Trim beak table starting at 1.1; normalized element/criterion numbering preserves source_number where it differs.",
+    "The qualification includes one elective competency, which is retained as an explicit elective group with its curriculum row.",
+    "The printed duration components total 266 hours (18 + 48 + 160 + 40) while the printed total states 226 hours; the source total is preserved literally and the duration arithmetic check records the mismatch."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source contains historical wording, spelling, and learning-outcome numbering variations, including the core Trim beak table starting at 1.1; normalized element/criterion numbering preserves source_number where it differs."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The qualification includes one elective competency, which is retained as an explicit elective group with its curriculum row."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The printed duration components total 266 hours (18 + 48 + 160 + 40) while the printed total states 226 hours; the source total is preserved literally and the duration arithmetic check records the mismatch."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Animal Production (Poultry-Chicken) NC II.pdf",
-    "pdf_pages": 74,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "AFF321202",
+      "source_unit_code": "AFF321202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "AFF321205",
+      "source_unit_code": "AFF321205",
+      "pdf_page_range": [
+        27,
+        32
+      ]
+    },
+    {
+      "unit_code": "AFF622101",
+      "source_unit_code": "AFF622101",
+      "pdf_page_range": [
+        33,
+        38
+      ]
+    },
+    {
+      "unit_code": "AFF622102",
+      "source_unit_code": "AFF622102",
+      "pdf_page_range": [
+        39,
+        45
+      ]
+    },
+    {
+      "unit_code": "AFF622103",
+      "source_unit_code": "AFF622103",
+      "pdf_page_range": [
+        46,
+        51
+      ]
+    },
+    {
+      "unit_code": "AFF622104",
+      "source_unit_code": "AFF622104",
+      "pdf_page_range": [
+        52,
+        55
+      ]
+    },
+    {
+      "unit_code": "AFF622105",
+      "source_unit_code": "AFF622105",
+      "pdf_page_range": [
+        56,
+        61
+      ]
+    }
+  ]
 }

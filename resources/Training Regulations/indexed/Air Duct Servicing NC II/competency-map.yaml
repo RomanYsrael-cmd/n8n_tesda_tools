@@ -4,89 +4,66 @@
   "document_id": "tesda:tr:air-duct-servicing-nc-ii:b1566ecb80",
   "qualification": "AIR DUCT SERVICING NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "HVC311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "HVC713202",
-        "title": "preparing materials, tools and equipment, lay-outing"
-      },
-      {
-        "unit_code": "HVC724201",
-        "title": "preparing materials, tools and equipment, testing"
-      },
-      {
-        "unit_code": "HVC311205",
-        "title": "checking condition, performing preventive maintenance and"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HVC713201",
-        "title": "identifying, requesting and receiving construction"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HVC723331",
-        "title": "surveying site for installation of air duct system such as"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "HVC311202",
-        "title": "analyzing and interpreting symbols, data and work plan"
-      },
-      {
-        "unit_code": "HVC311203",
-        "title": "in identifying and measuring objects based on the"
-      },
-      {
-        "unit_code": "HVC7315201",
-        "title": "needed to work safely in the workplace including sorting,"
-      },
-      {
-        "unit_code": "HVC723332",
-        "title": "required to fabricate air ducts for HVAC/R technology in"
-      },
-      {
-        "unit_code": "HVC723333",
-        "title": "required to install air ducts in accordance with duct"
-      },
-      {
-        "unit_code": "HVC723334",
-        "title": ":"
-      },
-      {
-        "unit_code": "HVC723335",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "HVC723336",
-        "title": "required to repair and maintenance air ducts system in"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HVC713201",
+        "HVC311202",
+        "HVC311201",
+        "HVC311203",
+        "HVC713202",
+        "HVC724201",
+        "HVC311205",
+        "HVC315201",
+        "HVC311206"
+      ],
+      "unit_titles": [
+        "Prepare materials and tools",
+        "Interpret technical drawings and plans",
+        "Observe procedures, specifications and manuals of instructions",
+        "Perform mensurations and calculations",
+        "Perform basic benchwork",
+        "Perform basic electrical works",
+        "Maintain tools and equipment",
+        "Perform housekeeping and safety practices",
+        "Document work accomplished"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HVC723331",
+        "HVC723332",
+        "HVC723333",
+        "HVC723334",
+        "HVC723335",
+        "HVC723336"
+      ],
+      "unit_titles": [
+        "Survey site for air duct installation",
+        "Fabricate air ducts",
+        "Install air duct system",
+        "Perform air duct testing",
+        "Insulate air ducts",
+        "Repair and maintain air duct system"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n\n\n4.2\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with the\ncore units.\n\n\n4.3\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2 Experienced Workers (wage employed or self-employed)\n\n\n\n4.4\nThe guidelines on assessment and certification are discussed in detail\nin the \"Procedures Manual on Assessment and Certification\" and\n\"Guidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS)\".\n\n--- PDF PAGE 78 ---\nTRAINING REGULATION - AIR DUCT SERVICING NC II\n77\n\nDEFINITION OF TERMS\n\n1) Air Distribution – the process of distributing conditioned air into a confined\nspace.\n\n2) Air Duct – a tubular or rectangular passageway for air distribution to a various\nlocations in a building.\n\n3) Air Filtration – process whereby air passes into or out of an enclosed area\nthrough cracks and other opening in the structure.\n\n4) Anemometer –an instrument for measuring the velocity of air in a ducts.\n\n5) ASHRAE – American Society of Heating, Refrigeration and Air Conditioning\nEngineers\n\n6) ASTM – American Society for Testing Materials\n\n7) Attenuation – the sound reduction process in which sound energy absorbed\nor diminished in intensity as the result of energy conversion from sound to\nmotion or heat.\n\n8) Bending – a working process causing a deformation of the work pieces\nwithout chips removal.\n\n9) Check – to verify, inspect , or test an RAC SERVICE component for\nsatisfactory condition with the use of an instrument or a device.\n\n10) Dampers – a device used to vary the volume of air passing through an air\noutlet, inlet or duct.\n\n11) Diffuser – a square or circular facing devices that cover the supply opening\nin a ceiling.\n\n12) Ducts Materials – are sheet metal, aluminum, fiberglass and plastic.\n\n13) Fan – a mechanical device for moving air.\n\n14) Grilles – a covering for opening through which air passes.\n\n15) Hem – a simple fold at the raw edges of the metal to prevent from cutting.\n\n16) Louver – an assembly of sloping vanes intended to permit air to pass\nthrough and to inhibit transfer of water droplets.\n\n17) NFPA – National Fire Protection Association.\n\n18) Register – grilles fitted with damper to control the quantity of air passing\nthrough it.\n\n--- PDF PAGE 79 ---\nTRAINING REGULATION - AIR DUCT SERVICING NC II\n78\n\n19) Returned Air – air returned from conditioned or refrigerated.\n\n20) Riveting – a permanent method of fastening metal together.\n\n21) Scaffolding –is a temporary modular system of metal pipes forming a\nframework use to support peoples and materials in the constructions.\n\n22) SMACNA – Sheet Metal and Air Conditioning Contractors National\nAssociation.\n\n23) Sheet Metal – any kind of metal that has been formed into sheets.\n\n24) Sound – the sensation perceived by the human ear resulting from rapid\nfluctuations in air pressure.\n\n 25) Ventilation – the process of supplying or removing air by natural or\nmechanical means to or from space\n\n--- PDF PAGE 80 ---\nTRAINING REGULATION - AIR DUCT SERVICING NC II\n79\n\nACKNOWLEDGEMENTS\n\n\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\nENGR. ROSENDO C. PEREZ, JR.\nMR. DANILO G. DUYA\nTAP Chairman\nVice-President\nPresident\nTDS Air-conditioning Industries, Inc.\nMECSYS Corporation\n#72 Kamias Road, Quezon City\n#2 Alondra St., Miranilla Homes\n\nTandang Sora, Congressional Ave.\n\nQuezon City\n\n\n\n•\nTHE TECHNICAL EXPERT PANEL (TEP)\n\n\nMR. SABAS B. BERGANTINOS\nMR. EDUARDO M. FERNANDEZ\nFormer Consultant\nInstructor\nR. N. Ferrer & Associates\nTechnological University of the Philippines\nc/o Philippine Society of Ventilating,\n (TUP)\nAir-conditioning and Refrigeration\nAyala Boulevard, Manila\n(PSVARE)\n\nUnit 924 Citiland Tower\nMR. EDILBERTO S. MACATANGAY\ncor. Shaw Blvd. and St. Francis Sts.\nOwner\nMandaluyong City\nTechnocycle Corporation\n\nUnit E and F\nMR. CAMILO N. GALINEA\nKm. 31 National Road\nOwner\nCorner Summit Circle, Bayanan\nG & L Electrical Contractors\nMuntinlupa City\n#38 Katalina Subdivision\n\nRosario, Pasig City\n\n\n\n\n\nMR. NELSON ZAPATA\n\nFormer Manager\n\nUnity Marketing\n\nBinondo, Manila\n\nc/o Philippine Society of Ventilating,\nAir-conditioning and Refrigeration\n(PSVARE)\nUnit 924 Citiland Tower\ncor. Shaw Blvd. and St. Francis Sts.\nMandaluyong City"
 }

@@ -1,76 +1,59 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:agroentrepreneurship-nc-iv:2017-02-03",
-  "qualification": "Agroentrepreneurship NC IV",
+  "document_id": "tesda:tr:agroentrepreneurship-nc-iv:7dcb524ba2",
+  "qualification": "AGROENTREPRENEURSHIP NC IV",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311115",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321203",
-        "title": "to perform basic workplace calculations."
-      },
-      {
-        "unit_code": "HCS421201",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AFF321201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AFF242301",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311116",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311117",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311118",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311119",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311120",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF242302",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF242303",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF242304",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP \n137",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311115",
+        "500311116",
+        "500311117",
+        "500311118",
+        "500311119",
+        "500311120"
+      ],
+      "unit_titles": [
+        "Utilize specialized communication skills",
+        "Develop teams and individuals",
+        "Apply problem solving techniques in the workplace",
+        "Collect, analyze and organize information",
+        "Plan and organize work",
+        "Promote environmental protection"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AFF321201",
+        "AFF321203",
+        "HCS421201",
+        "HCS315202"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Perform estimation and basic calculation",
+        "Provide quality customer service",
+        "Comply with quality and ethical standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AFF242301",
+        "AFF242302",
+        "AFF242303",
+        "AFF242304"
+      ],
+      "unit_titles": [
+        "Capacitate Farmers",
+        "Facilitate Engagement of the Agroenterprise Stakeholders",
+        "Mobilize Agroenterprise Community",
+        "Monitor and Evaluate Agroenterprise Activities"
+      ]
+    }
+  ],
+  "source_text": "Section 1\nAGROENTREPRENEURSHIP NCIV QUALIFICATION\n\nThe AGROENTREPRENEURSHIP NCIV Qualification consists of competencies that a\nperson must achieve to capacitate farmers, facilitate engagement of the Agroenterprise\nstakeholders, mobilize Agroenterprise community and monitor and evaluate Agroenterprise\nactivities.\n\nThis Qualification is packaged from the competency map of the Agriculture, Forestry and\nFishery Sector as shown in Annex A.\n\nThe units of competency comprising this qualification includes the following:\n\nCode\nBASIC COMPETENCIES\n500311115\nUtilize specialized communication skills\n500311116\nDevelop teams and individuals\n500311117\nApply problem solving techniques in the workplace\n500311118\nCollect, analyze and organize information\n500311119\nPlan and organize work\n500311120\nPromote environmental protection\n\nCode\nCOMMON COMPETENCIES\nAFF321201\nApply Safety Measures in Farm Operations\nAFF321203\nPerform Estimation and Basic Calculation\nHCS421201\nProvide Quality Customer Service\nHCS315202\nComply with Quality and Ethical Standards\n\nCode\nCORE COMPETENCIES\nAFF242301\nCapacitate Farmers\nAFF242302\nFacilitate Engagement of the Agroenterprise Stakeholders\nAFF242303\nMobilize Agroenterprise Community\nAFF242304\nMonitor and Evaluate Agroenterprise Activities\n\nA person who has achieved this Qualification is competent to be:\n\n• Agroenterprise Facilitator\n\n--- PDF PAGE 4 ---\nTR-Agroentrepreneurship NCIV\nPromulgated February 3, 2017\n\n3"
 }
