@@ -1,29 +1,213 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:domestic-work-nc-ii:2017-02",
-  "qualification": "DOMESTIC WORK NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:domestic-work-nc-ii-superseded:ca3de5d070",
+  "qualification": "DOMESTIC WORK NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Domestic Work NC II (Superseded).pdf",
-    "sha256": "ca3de5d070e3be3b6ee68ca5c870acf87a330c4df7f3f8c9881b98190df5a27c",
+    "authority": "TESDA",
+    "source_file": "Domestic Work NC II (Superseded).pdf",
+    "source_sha256": "ca3de5d070e3be3b6ee68ca5c870acf87a330c4df7f3f8c9881b98190df5a27c",
+    "pdf_pages": 110,
+    "printed_pages": 106,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source is marked Domestic Work NC II (Amended), promulgated February 2017, and is retained as a superseded local source package; the canonical lifecycle records superseded status.",
+    "The source prints 20 Basic, 40 Common, 158 Core, and 496 Elective hours with a 714-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source uses title, punctuation, spacing, and terminology variants including HCS 913 codes, bedrooms/toilets/bathrooms wording, and misspelled UNIIT OF COMPETENCY headings for Water Plants and Control and Prevent Plant Pest and Diseases; source_text preserves the printed forms while the indexed inventory follows the qualification list.",
+    "The source contains unnumbered acknowledgement and contact pages after the last numbered definition-of-terms page; printed_pages records the highest numbered source page while pdf_pages preserves the complete PDF length."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Domestic Work NC II (Amended), promulgated February 2017, and is retained as a superseded local source package; the canonical lifecycle records superseded status."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 40 Common, 158 Core, and 496 Elective hours with a 714-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title, punctuation, spacing, and terminology variants including HCS 913 codes, bedrooms/toilets/bathrooms wording, and misspelled UNIIT OF COMPETENCY headings for Water Plants and Control and Prevent Plant Pest and Diseases; source_text preserves the printed forms while the indexed inventory follows the qualification list."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source contains unnumbered acknowledgement and contact pages after the last numbered definition-of-terms page; printed_pages records the highest numbered source page while pdf_pages preserves the complete PDF length."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Domestic Work NC II (Superseded).pdf",
-    "pdf_pages": 110,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "HCS913201",
+      "source_unit_code": "HCS913201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "HCS913202",
+      "source_unit_code": "HCS913202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "HCS913301",
+      "source_unit_code": "HCS913301",
+      "pdf_page_range": [
+        22,
+        29
+      ]
+    },
+    {
+      "unit_code": "HCS913302",
+      "source_unit_code": "HCS913302",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "HCS913303",
+      "source_unit_code": "HCS913303",
+      "pdf_page_range": [
+        33,
+        37
+      ]
+    },
+    {
+      "unit_code": "HCS913304",
+      "source_unit_code": "HCS913304",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "HCS323301",
+      "source_unit_code": "HCS323301",
+      "pdf_page_range": [
+        41,
+        44
+      ]
+    },
+    {
+      "unit_code": "HCS323302",
+      "source_unit_code": "HCS323302",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "HCS323305",
+      "source_unit_code": "HCS323305",
+      "pdf_page_range": [
+        48,
+        54
+      ]
+    },
+    {
+      "unit_code": "HCS323306",
+      "source_unit_code": "HCS323306",
+      "pdf_page_range": [
+        55,
+        60
+      ]
+    },
+    {
+      "unit_code": "HCS913401",
+      "source_unit_code": "HCS913401",
+      "pdf_page_range": [
+        61,
+        64
+      ]
+    },
+    {
+      "unit_code": "HCS913402",
+      "source_unit_code": "HCS913402",
+      "pdf_page_range": [
+        65,
+        69
+      ]
+    },
+    {
+      "unit_code": "AGR611376",
+      "source_unit_code": "AGR611376",
+      "pdf_page_range": [
+        70,
+        73
+      ]
+    },
+    {
+      "unit_code": "AGR611377",
+      "source_unit_code": "AGR611377",
+      "pdf_page_range": [
+        74,
+        76
+      ]
+    },
+    {
+      "unit_code": "AGR611379",
+      "source_unit_code": "AGR611379",
+      "pdf_page_range": [
+        77,
+        79
+      ]
+    },
+    {
+      "unit_code": "AGR611380",
+      "source_unit_code": "AGR611380",
+      "pdf_page_range": [
+        80,
+        82
+      ]
+    }
+  ]
 }

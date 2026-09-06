@@ -1,100 +1,78 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:domestic-work-nc-ii:2017-02",
-  "qualification": "DOMESTIC WORK NC II",
+  "document_id": "tesda:tr:domestic-work-nc-ii-superseded:ca3de5d070",
+  "qualification": "DOMESTIC WORK NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913303",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323302",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323305",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323306",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HCS913201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HCS913301",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ": This unit covers the knowledge, skills and attitudes in promoting"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913302",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913304",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323301",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913401",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913402",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611376",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611377",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611379",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611380",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nHOUSEHOLD SERVICES NC II\nClean living room,\ndining room,\nbedrooms, toilets and\nkitchen\nWash and iron\nclothes, linen and\nfabric\nPrepare hot and cold\nmeals\nProvide food and\nbeverage\nservices\nMaintain an effective\nrelationship with\nclients and customer\nManage\nown\nperformance\nEstablish\nprofessionalism\nin the workplace\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASIC\nCOMPETENCIES\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and\norganize work\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational\nhealth and safety\nprocedures\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\nMonitor activities\nwithin area of\nresponsibility\nEnforce access\ncontrol and\nIdentification system\nSecure territorial\njurisdiction of the\ncompany\nEnforce emergency\nresponse procedures\nPrepare security\nreports\nApply OHS practices\nand 5S in the\nworkplace\nApply quality\nstandards\nELECTIVE\nCOMPETENCIES\nProvide care and\nsupport to infants and\ntoddlers\nProvide care and\nsupport to children\nProvide care and\nsupport to elderly\nProvide care and\nsupport to people\nwith special needs\nAssist in the care of\nanimals\nComplete animal\ncare hygiene routines\nTrim and Prune\nlandscape plants\nPerform weeding and\ncultivation\nWater/irrigate plants\nControl and prevent\nplant pest and\ndiseases\n\n--- PDF PAGE 108 ---\nTR Domestic Work NC II (Amended)\nPromulgated February 2017\n105",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HCS913201",
+        "HCS913202"
+      ],
+      "unit_titles": [
+        "Maintain an effective relationship with clients and customers",
+        "Manage own performance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HCS913301",
+        "HCS913302",
+        "HCS913303",
+        "HCS913304"
+      ],
+      "unit_titles": [
+        "Clean living room, dining room, bedrooms, toilet and kitchen",
+        "Wash and iron clothes, linen and fabric",
+        "Prepare hot and cold meals/food",
+        "Provide food and beverage service"
+      ]
+    },
+    {
+      "group": "elective",
+      "unit_codes": [
+        "HCS323301",
+        "HCS323302",
+        "HCS323305",
+        "HCS323306",
+        "HCS913401",
+        "HCS913402",
+        "AGR611376",
+        "AGR611377",
+        "AGR611379",
+        "AGR611380"
+      ],
+      "unit_titles": [
+        "Provide care and support to infants and toddlers",
+        "Provide care and support to children",
+        "Provide care and support to elderly",
+        "Provide care and support to people with special needs",
+        "Assist in the care of animals",
+        "Provide animal care hygiene routines",
+        "Trim and prune landscape plants",
+        "Perform weeding and cultivation",
+        "Water/irrigate plants",
+        "Control and prevent plant pest and diseases"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National Certificate signed by\nthe TESDA Director General.\n\n4.2\nThe qualification of DOMESTIC WORK NC II may be attained through –\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in the following areas –\n4.2.1.1\nClean living room, dining room, bedrooms, toilet and kitchen\n4.2.1.2\nWash and iron clothes, linen and fabric\n4.2.1.3\nPrepare hot and cold meals/food\n4.2.1.4\nProvide food and beverage service\n4.2.2 Demonstration of competence through project-type assessment covering all\nrequired units of qualification.\n\n4.2.3 Depending on specific employer/workplace requirements, the candidate may\nchoose one or more from the following groups of elective competencies. Each\ngroup will lead to the issuance of Certificate of Competency (COC).\n\n4.2.3.1\nProviding care and support for infants, toddlers and children\n•\nProvide care and support to infants/toddlers\n•\nProvide care and support to children\n•\nFoster, social, intellectual, creative and emotional development\nof children\n•\nFoster the physical development of children\n•\nMaintain healthy and safe environment\n•\nRespond to emergency\n•\nClean living room, dining room, bedrooms, toilet and bathroom\n•\nWash and iron clothes, linen and fabric\n•\nPrepare hot and cold meals\n\n* Holders of unexpired Caregiving NCII or COC in providing care and\nsupport for infants, toddlers and children shall be exempted from this\nrequirement.\n\n4.2.3.2\nProviding care and support for the elderly and people with\nspecial needs\n•\nProvide care and support to elderly\n•\nProvide care and support to people with special needs\n•\nMaintain healthy and safe environment\n•\nRespond to emergency\n•\nClean living room, dining room, bedrooms, toilet and bathroom\n•\nWash and iron clothes, linen and fabric\n•\nPrepare hot and cold meals\n\n* Holders of unexpired Caregiving NCII or COC in providing care and\nsupport for the elderly and people with special needs shall be\nexempted from this requirement.\n\n--- PDF PAGE 106 ---\nTR Domestic Work NC II (Amended)\nPromulgated February 2017\n103\n4.2.3.3\nProvide care for animals\n•\nAssist in the care of animals\n•\nProvide animal care hygiene routines\n\n4.2.3.4\nMaintain plants and gardens\n•\nTrim and prune landscape plants\n•\nPerform weeding and cultivation\n•\nWater/irrigate plants\n•\nControl and prevent plant pest and diseases\n\n* Holders of unexpired Landscape NCII or COC in maintaining\nlandscape area (soft scape) and shall be exempted from this\nrequirement.\n\n4.3\nAssessment shall focus on the units of competency. The basic and common units shall\nbe integrated or assessed concurrently with the core units.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n\n4.4.2 Experienced workers (wage employed or self-employed).\n\n4.5\nReassessment for a National Certificate shall be done only on the task/s that the\ncandidate did not successfully achieve.\n\n4.6\nA candidate who fails the assessment for two (2) consecutive times will be required to\ngo through a refresher course before taking another assessment.\n\n4.7\nOnly certified individuals in this Qualification may be nominated by the industry sector\nfor accreditation as competency assessor.\n\n4.8\nOnly accredited competency assessors are allowed to conduct competency\nassessment, however trainers who are accredited competency assessors are not\nallowed to assess their trainees.\n\n4.9\nAssessment of competence must be undertaken only in the TESDA accredited\nassessment center. The performance assessment (demonstration of competence),\nhowever, may be done in any venue or workplace duly designated by an accredited\nassessment center.\n\n4.10 The guidelines on assessment and certification are discussed in detail in the\nProcedures Manual on Assessment and Certification.\n\n--- PDF PAGE 107 ---\nTR Domestic Work NC II (Amended)\nPromulgated February 2017\n104\n\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nCOMPETENCY MAP\nHOUSEHOLD SERVICES NC II\nClean living room,\ndining room,\nbedrooms, toilets and\nkitchen\nWash and iron\nclothes, linen and\nfabric\nPrepare hot and cold\nmeals\nProvide food and\nbeverage\nservices\nMaintain an effective\nrelationship with\nclients and customer\nManage\nown\nperformance\nEstablish\nprofessionalism\nin the workplace\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASIC\nCOMPETENCIES\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and\norganize work\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational\nhealth and safety\nprocedures\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\nMonitor activities\nwithin area of\nresponsibility\nEnforce access\ncontrol and\nIdentification system\nSecure territorial\njurisdiction of the\ncompany\nEnforce emergency\nresponse procedures\nPrepare security\nreports\nApply OHS practices\nand 5S in the\nworkplace\nApply quality\nstandards\nELECTIVE\nCOMPETENCIES\nProvide care and\nsupport to infants and\ntoddlers\nProvide care and\nsupport to children\nProvide care and\nsupport to elderly\nProvide care and\nsupport to people\nwith special needs\nAssist in the care of\nanimals\nComplete animal\ncare hygiene routines\nTrim and Prune\nlandscape plants\nPerform weeding and\ncultivation\nWater/irrigate plants\nControl and prevent\nplant pest and\ndiseases\n\n--- PDF PAGE 108 ---\nTR Domestic Work NC II (Amended)\nPromulgated February 2017\n105\nDEFINITION OF TERMS\n\n1.\nAlcohol – naturally occurring and easily synthesized compound that induces intoxication when\nconsumed.\n2.\nAmbiance – the combined atmosphere created by the décor, lighting, service, possible\nenvironment (such as background music) and song, that enhances the dining or lodging\nexperience.\n3.\nBarbecue – a cooking method involving grilling food over a wood or charcoal fire. Usually some\nsort of rub, marinade or sauce is burdened on the item before or during cooking.\n4.\nBed and Bath Linen – items such as sheets, pillow cases, hand towels, bath towels,\nwashcloths and cloth bath mats.\n5.\nBeddings – all bed linens such as sheets and pillow cases and all blankets, shams, dust\nraffles, pillows, quilts, comforters, coverlets, mattress pads and bed spreads.\n6.\nBlanch – to cook an item briefly in boiling water or hot fat before finishing or storing it.\n7.\nBoil – a cooking method in which items are immersed in liquid at or above the boiling point.\n8.\nBraise – a cooking method in which the main item, usually meat, is seared in fat, then\nsimmered in stock to another liquid in a covered vessel.\n9.\nBroil – a cooking method in which items are cooked by a radiant heat source placed above\nthe food, usually in a broiler.\n10. Carpet Sweeper – a handy type of sweeper used to pick-up dirt and particles from the carpet\nsurface.\n11. Chop – to cut into pieces of roughly the same size. Also, a small cut of meat including part of\nthe rib.\n12. Cuisine – food cooked and served in styles from around the world.\n13. Cutlery – refers to knives and other cutting implements.\n14. Deep Fry – a cooking method in which foods are cooked by immersion in hot fat; deep fried\nfoods are often coated with breadcrumbs or butter before being cooked.\n15. Detergent – a chemical that acts like a soap and is used for cleaning numerous surfaces.\nDetergents can be used effectively in hard water where ordinary soap not produce suds and\nwill leave a residue.\n16. Dice – to cut ingredients into small cubes (1/4 inches for small, 1/3 for medium, ¾ inch for\nlarge).\n17. Disinfectant – a substance or means used to destroy pathogenic microorganisms.\n18. Disinfection – a condition existing when infectious material or infection/s are removed.\n19. Fillet – a boneless cut of meat, fish or poultry.\n20. Flatware – it denotes all forms of spoons and forks.\n21. Furniture, Fixtures & Eqpt. (FFE) – classification of fixed assets that have specified\ndepreciable lives, usually ranging from three to seven years.\n22. Garnish – an ingredient that decorates, accompanies or completes a dish. Many dishes are\nidentified by the name of their garnishes.\n23. Grill – a cooking technique in which foods are cooked by a radiant heat source placed below\nthe food. Also, the piece of equipment on which grilling is done.\n24. Housekeeping – refers to cleaning and sanitizing rooms.\n\n--- PDF PAGE 109 ---\nTR Domestic Work NC II (Amended)\nPromulgated February 2017\n106\n25. Linen – traditionally a cloth made from flax fiber but now, it is used to indicate sheets, pillow\ncases, washcloths, cloth bath mats, towels, tablecloths and napkins.\n26. Marinade – a method used in cooking to flavor and moisten foods, may be liquid or dry. Liquid\nmarinades are usually based on acidic ingredients such as wine or vinegar. Dry marinades are\nusually salt-based.\n27. Menu – a list of the chef’s dishes. A list in specific order of the dishes to be served at a given\ntime.\n28. Mise en place – French phrase meaning “everything in its place”; a state of overall\npreparedness, having all the necessary ingredients and cooking utensils at hand ready to use\nat the moment work on a dish begins.\n29. Microwave – a method of meat transfer in which electro-magnetic waves generated by a\ndevice called a magnetron penetrate food and cause the water molecules in it to oscillate.\n30. Mince – to chop into small pieces.\n31. Panbroil – a cooking method similar to dry sautéing that simulates broiling by cooking an item\nin a hot pan with little or no fat.\n32. Panfry – a cooking method in which items are cooked in deep fat in a skillet over medium heat;\nthis generally involves more fat than sautéing or stir-frying but less than deep-frying.\n33. Poach – a method in which items are cooked gently in simmering liquid.\n34. Pressure Steamer – a machine that steams food by heating water under pressure in a sealed\ncompartment, allowing the steam to reach higher-than-boiling temperature. The food is placed\nin a sealer chamber that cannot be opened until the pressure has released and the steam\nproperly vented from the chamber.\n35. Roast – a dry heat cooking method in which items are cooked in an oven or on a spit over a\nfire.\n36. Sanitizer – a sanitizing substance or product. To sanitize is to prevent the spread of disease.\n37. Saute’ - a cooking method in which items are cooked quickly in a small amount in fat in a pan\non the range top.\n38. Silverware – tableware made of solid silver, silver glit or silver metal; silver plate made from\nsingle strip of plated metal.\n39. Simmer – to maintain the temperature of a liquid just below boiling. Also, a cooking method in\nwhich items are cooked in a simmering liquid.\n40. Spirits – are drinks obtained by distillation after fermentation from vegetables, grains, fruits,\nplants and other substance with sugar or starch-based.\n41. Squeegee – a cleaning instrument with rubber blade used for cleaning glass windows and\npanels.\n42. Steaming – a cooking method in which items are cooked in a vapor by boiling water or other\nliquids.\n43. Step Ladder – used to reach high objects.\n44. Stew – a cooking method nearly identical to braising but generally involving smaller pieces of\nmeat and hence a shorter cooking time. Stewed items also may be blanched, rather than\nseared, to give the finished product a pale color. Also a dish prepared by using the stewing\nmethod.\n\n--- PDF PAGE 110 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend thanks\nand appreciation to the many representatives of business, industry, academe and government\nagencies who rendered their time and expertise to the development and validation of these Training\nRegulations.\n\nSR. CRISPINA N NEBREJA, RMI\nDirectress\nVilla Maria Social and Educational Center\n#53 M. Cuenco St., Sta. Mesa Heights\nQuezon City\nSR. ANNA R. RESURRECCION, RMI\nHead, Pastoral Team\nReligious of Mary Immaculate\n#53 M. Cuenco St., Sta. Mesa Heights\nQuezon City\nBRO. ROBERTO P. AWA-AO\nPastor\nRhoda Ministries Network\nMezzanine, Glory to God Bldg., Sampaguita\nMapayapa 3, Pasong Tamo\nQuezon City\nMS. AILYN C. BULFA\nDomestic Worker\nSamahan at Ugnayan ng Mangagawang\nPantahanan Sa Pilipinas (SUMAPI)\n#18, 12th Avenue, Brgy.Socorro, Murphy\nCubao, Quezon City\n\nMS. WINELYN G. AMIDA\n\nDomestic Worker\nSamahan at Ugnayan ng Mangagawang\nPantahanan Sa Pilipinas (SUMAPI)\n#18, 12th Avenue, Brgy.Socorro, Murphy\nCubao, Quezon City\n\nMS. LILIBETH M. TETISORA\n\nDomestic Worker\nSamahan at Ugnayan ng Mangagawang\nPantahanan Sa Pilipinas (SUMAPI)\n#18, 12th Avenue, Brgy.Socorro, Murphy\nCubao, Quezon City\n\nMembers of the TESDA Board\n\nTESDA EXCOM\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n• QSO\n• TESDA Regional Offices (Regions NCR, VI, and XI)"
 }

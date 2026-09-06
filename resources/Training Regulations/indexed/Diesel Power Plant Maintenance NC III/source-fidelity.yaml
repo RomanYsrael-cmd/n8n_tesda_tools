@@ -1,29 +1,168 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:diesel-power-plant-maintenance-nc-iii:b08c68f28f",
-  "qualification": "Diesel Power Plant Maintenance NC III",
+  "qualification": "DIESEL POWER PLANT MAINTENANCE NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Diesel Power Plant Maintenance NC III.pdf",
-    "sha256": "b08c68f28f69d5fb1ddee4c2a95d60774b72fb11b3d49ef12f915be4df288248",
+    "source_sha256": "b08c68f28f69d5fb1ddee4c2a95d60774b72fb11b3d49ef12f915be4df288248",
+    "pdf_pages": 66,
+    "printed_pages": 59,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not print a promulgation date; the canonical promulgated field is null.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 56 Basic, 80 Common, and 216 Core hours with a 352-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source uses title, capitalization, punctuation, and terminology variants including TOOL COMPETENCIES, Basic Bench Works, specification and manuals, and source-level numbering irregularities; source_text preserves the printed forms while the indexed inventory follows the qualification list."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date; the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 56 Basic, 80 Common, and 216 Core hours with a 352-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title, capitalization, punctuation, and terminology variants including TOOL COMPETENCIES, Basic Bench Works, specification and manuals, and source-level numbering irregularities; source_text preserves the printed forms while the indexed inventory follows the qualification list."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Diesel Power Plant Maintenance NC III.pdf",
-    "pdf_pages": 66,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "UTL311202",
+      "source_unit_code": "UTL311202",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "UTL723203",
+      "source_unit_code": "UTL723203",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "UTL723205",
+      "source_unit_code": "UTL723205",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "UTL713202",
+      "source_unit_code": "UTL713202",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "UTL724201",
+      "source_unit_code": "UTL724201",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "UTL723209",
+      "source_unit_code": "UTL723209",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    },
+    {
+      "unit_code": "UTL723210",
+      "source_unit_code": "UTL723210",
+      "pdf_page_range": [
+        43,
+        45
+      ]
+    },
+    {
+      "unit_code": "UTL723211",
+      "source_unit_code": "UTL723211",
+      "pdf_page_range": [
+        46,
+        48
+      ]
+    },
+    {
+      "unit_code": "UTL723212",
+      "source_unit_code": "UTL723212",
+      "pdf_page_range": [
+        49,
+        51
+      ]
+    }
+  ]
 }

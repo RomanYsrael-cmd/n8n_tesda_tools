@@ -2,71 +2,58 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:diesel-power-plant-operation-and-maintenance-nc-iii:053dcac353",
-  "qualification": "Diesel Power Plant Operation and Maintenance NC III",
+  "qualification": "DIESEL POWER PLANT OPERATION AND MAINTENANCE NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": ":"
-      },
-      {
-        "unit_code": "UTL311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "UTL713202",
-        "title": "materials, tools and equipment, lay-outing dimensions and performing"
-      },
-      {
-        "unit_code": "UTL724201",
-        "title": "materials, tools and equipment, testing electrical components and basic"
-      },
-      {
-        "unit_code": "UTL723206",
-        "title": "and tending of diesel engine and its auxiliary equipment."
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": ":"
-      },
-      {
-        "unit_code": "UTL723203",
-        "title": ":"
-      },
-      {
-        "unit_code": "UTL723205",
-        "title": ":"
-      },
-      {
-        "unit_code": "UTL723207",
-        "title": "in power generation."
-      },
-      {
-        "unit_code": "UTL723208",
-        "title": "diesel engine systems and alternator. This includes servicing"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n52",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "UTL311202",
+        "UTL723203",
+        "UTL723205",
+        "UTL713202",
+        "UTL724201"
+      ],
+      "unit_titles": [
+        "Perform mensuration and calculation",
+        "Read, interpret and apply specifications and manuals",
+        "Perform shop maintenance",
+        "Perform basic bench works",
+        "Perform basic electrical works"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "UTL723206",
+        "UTL723207",
+        "UTL723208"
+      ],
+      "unit_titles": [
+        "Tend diesel engine",
+        "Operate diesel power plant",
+        "Maintain and repair diesel engine systems and alternator"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n4.2 Individual aspiring to be awarded the qualification of Diesel Power Plant Operation and\nMaintenance NC III must acquire Certificate of Competency in all the following core units\nof the qualification. Candidates may apply for assessment in any accredited assessment\ncenter.\n\n4.2.1\nTend Diesel Engine\n4.2.2\nOperate Diesel Power Plant\n4.2.2.1\nTend Diesel Engine\n4.2.2.2\nOperate Diesel Power Plant\n4.2.3\nMaintain and Repair Diesel Engine Systems and Alternator\n4.2.3.1\nTend Diesel Engine\n4.2.3.2\nMaintain and Repair Diesel Engine Systems and Alternator\n\nSuccessful candidates shall be awarded Certificates of Competency (COC).\n\n4.3 Accumulation and submission of all COCs acquired for the relevant units of competency\ncomprising a qualification, an individual shall be issued the corresponding National\nCertificate.\n\n4.4 Assessment shall focus on the core units of competency. The basic and common units\nshall be integrated or assessed concurrently with the core units.\n\n4.5 The following are qualified to apply for assessment and certification:\n\n4.5.1 Graduates of formal, non-formal and informal including enterprise-based training\nprograms.\n\n4.5.2 Experienced workers (wage employed or self employed)\n\n4.6 The guidelines on assessment and certification are discussed in detail in the “Procedures\nManual on Assessment and Certification” and “Guidelines on the Implementation of the\nPhilippine TVET Qualification and Certification System (PTOQCS)”..\n\n--- PDF PAGE 57 ---\nTR – Diesel Power Plant Operation and Maintenance NC III\n53\nANNEX A - COMPETENCY MAP – DIESEL POWER PLANT OPERATION AND\nMAINTENANCE NC III\n\nBASIC COMPETENCIES\n\nReceive and\nRespond to\nWorkplace\nCommunication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nWorkplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Team\nDevelop and\npractice negotiation\nskills\nSolve Problems\nRelated to Work\nActivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize Specialist\nCommunication Skills\nDevelop Team and\nIndividuals\nApply Problem\nSolving Techniques\nin the Workplace\nCollect, analyze and\norganize information\nPlan and Organize\nWork\nPromote\nenvironmental\nprotection\n\nCOMMON COMPETENCIES\n\nApply Appropriate\nSealant/Adhesive\nPerform\nMensuration and\nCalculation\nRead, Interpret and\nApply\nSpecifications and\nManuals\nUse and Apply\nLubricants/Coolants\nPerform Shop\nMaintenance\nPerform Basic\nBench Works\nPerform Basic\nElectrical Works\n\nCORE COMPETENCIES\n\nTender Diesel\nEngine\nOperate Diesel\nPower plant\nService Alternator/\nGenerator\nMaintain and Repair\nDiesel Engine\nSystems and\nAlternator\nDiagnose and Repair\nDiesel Engine\nDiagnose and Repair\nElectrical System\nOverhaul Diesel\nEngine\n\n--- PDF PAGE 58 ---\nTR – Diesel Power Plant Operation and Maintenance NC III\n54\nDEFINITION OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a person\nthrough assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who pass the\nassessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people working in\na particular industry\n\n4) Competency - is the possession and application of knowledge, skills and attitudes to\nperform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making judgments\non whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of competencies\nrequired for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be conducted or\ncarried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a particular area\nof work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for successful\nperformance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by the\nindividual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in outcome\nterms the functions that a person performs in the workplace.\n\n12) Evidence Guide - is a component of the unit of competency that defines or identifies the\nevidences required to determine the competence of the individual. It provides\ninformation on critical aspects of competency, underpinning knowledge, underpinning\nskills, resource implications, assessment method and context of assessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when, evidence\nshould be collected\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve all the\nrequired units of competency for a national qualification defined under the Training\nRegulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n--- PDF PAGE 59 ---\nTR – Diesel Power Plant Operation and Maintenance NC III\n55\n17) Qualification - is a cluster of units of competencies that meets job roles and is\nsignificant in the workplace. It is also a certification awarded to a person on successful\ncompletion of a course in recognition of having demonstrated competencies in an\nindustry sector\n\n18) Range of Variables - describes the circumstances or context in which the work is to be\nperformed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s\nskills, knowledge and attitudes gained from life and work experiences outside registered\ntraining programs\n\n20) Resource Implications - refers to the resources needed for the successful performance\nof the work activity described in the unit of competency. It includes work environment\nand conditions, materials, tools and equipment\n\n21) Basic Competencies - are the skills and knowledge that everyone needs for work\n\n22) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serves as basis for establishment of\nqualification and certification under the PTQF. It also serves as guide for development\nof competency-based curricula and instructional materials including registration of TVET\nprograms offered by TVET providers\n\n23) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is essential to\nthe performance of the competency\n\n24) Underpinning Skills - refers to the list of the skills needed to achieve the elements and\nperformance criteria in the unit of competency. It includes generic and industry specific\nskills\n\n25) Unit of Competency – is a component of the competency standards stating a specific\nkey function or role in a particular job or occupation; it is the smallest component of\nachievement that can be assessed and certified under the PTQF\n\nSECTOR SPECIFIC\n\n1. Cooling system\nA closed system of the generator set that provides a continuous\nflow of coolant (soft water with 0-40 ppm hardness) primarily to\nreduce the heat at the cylinder heads and liners. It also reduces\nthe heat from the lubricating oil.\n2. Lube oil system\nA closed system of the generator set that provides a continuous\nflow of lubricating oil that reduces heat and friction to all moving\nparts of the engine.\n3. Fuel system\nAn open system of the generator set that provides a continuous\nflow of clean, high pressure and atomized fuel to the\ncombustion chamber.\n\n--- PDF PAGE 60 ---\nTR – Diesel Power Plant Operation and Maintenance NC III\n56\n4. Aspiration system\nAn open system of the generator set that provides clean, high\ndensity compressed air to the combustion chamber by utilizing\nthe exhaust gas to drive the turbocharger.\n5. DC system\nA system of the generator set that supplies 12, 24 or 110 volts\nDC power to the various DC equipment, protections and\ncontrols.\n6. Alternator\nA system of the generator set that converts mechanical energy\ninto electrical energy. It includes the exciter component and\nmain windings.\n7. Speed regulating\nsystem\nA system of the generator set that maintains the rated speed of\nthe engine at various load.\n8. Enterprise policy\nAlso refer as corporate policy\n9. PMS\nrefers as preventive maintenance schedule\n10. coolants\nRefers to the cooling medium of the cooling system which is the\nsoft water with a hardness of 0-40 ppm.\n11. indicating\nparameters\nAlso refers to as engine and control panel parameters\n12. SOP\nRefers to the plant system normal operating procedure\n\n--- PDF PAGE 61 ---\nTR – Diesel Power Plant Operation and Maintenance NC III\n57\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies who donated their time and expertise to the development and validation\nof this Training Regulation.\n\nTHE TECHNICAL EXPERTS PANEL\n\nFROM NAPOCOR\n\nHILARIO S. AÑO\nPrincipal Engineer C\nPatnanungan DPP\nTEOFE C. CADIZ\nSuperintendent\nSouthern Palawan S/S & 69 KV TL\nLEO G. CINCO\nPrincipal Engineer C\nTingloy DPP\nLOUIE C. LIBARRA\nSuperintendent, Busuanga DPP\nEUGENE WILLY G. FRANCISCO\nPrincipal Engineer C\nBanton DPP\nLARRY I. SABELLINA\nSuperintendent\nPuerto Princesa DPP\nJESUS J. MENDOZA\nPlant Superintendent\nKabugao DPP\nNORBERTO R. ESPINO III\nPrincipal Engineer A\nWMTSD\nRICKY M. UMBAN\nPlant Superintendent\nRomblon DPP\nCESAR C. FERNANDO\nTraining Specialist A\nTTMSD-TDD\nPAQUITO G. ALMENDRAL\nPrincipal Engineer C\nTaytay DPP\nCLEMENTE J. CORDERO\nSenior Engineer\nTTMSD-TDD\nTHE PARTICIPANTS IN THE NATIONAL VALIDATION OF THIS TRAINING REGULATION\nARTEMIO C. DIFUNTORUM, JR.\nBalut DPP, NPC – SPUG Mindanao\n\nFELIPE F. GONZALES\nCamotes DPP, NPC – SPUG - Visayas\n\nJEROME C. TIMBANG\nPalimbang DPP, NPC – SPUG-EMOD\n\nCARLOS C. SUMAGANG\nSiquijor DPP, NPC – SPUG - Visayas\nJEFFREY N. LAHAMAN\nTandubas DPP, NPC – SPUG - WMOD\n\nFERNAN Q. ISAW\nSto Niño Mini Grid, NPC–SPUG-Visayas\nJIMMY T. HAGONOY\nBalimbing DPP, NPC – SPUG - WMOD\n\nALLAN T. NAZARIO\nCaluya DPP, NPC – SPUG - Visayas\nSALI A. DIMAN\nSibutu DPP, NPC – SPUG - WMOD\n\nREMIGIO A. MARIGOMEN\nPower Barge 113, NPC–SPUG-Visayas\n\n--- PDF PAGE 62 ---\nTR – Diesel Power Plant Operation and Maintenance NC III\n58\n\nTHE PARTICIPANTS IN THE NATIONAL VALIDATION OF THIS TRAINING REGULATION\n(cont.)\n\nNICOLAS M. ARCENA\nOM, NPC – SPUG - Mindanao\n\nHIPOLITO T. TO-ONG\nPower Barge 116, NPC–SPUG-Visayas\nJOB C. CANSANCIO\nHikdop DPP, NPC – SPUG- EMOD\n\nVIVENCIO B. CORTES\nBantayan DPP, NPC – SPUG - Visayas\nMARVIE L. CASTROVERDE\nKalamansig DPP, NPC–SPUG-EMOD\n\nNATHANIEL G. GUERRA\nSto. Niño DPP, NPC – SPUG - Visayas\nRUEL R. JUGALBOT\nVMTS, NPC – SPUG - Visayas\n\nERICK R. SARINO\nNPC–SPUG– Eastern Visayas Optn. Division\nELVIS P. SABETE\nZumarraga DPP, NPC – SPUG - Visayas\n\nEDUARDO P. VILLEGAS\nVMTS, NPC – SPUG - Visayas\nPERFECTO G. LUMAUAG\nGigantes DPP, NPC – SPUG - Visayas\n\nDEOGRACIAS D. BURLAS, JR.\nBiri DPP, NPC – SPUG - Visayas\n\nMEMBERS OF THE TESDA BOARD – Standards Setting and Systems Development\nCommittee\nTHE MANAGEMENT AND STAFF OF THE TESDA SECRETARIAT\n• Qualifications and Standards Office\no\nCompetency Standards Division\n\no\nCurriculum and Training Aids Division\n\n--- PDF PAGE 63 ---\nTR – Diesel Power Plant Operation and Maintenance NC III\n59\n\nList of Published Training Regulations\n\n\nAnimal Production NC II\n\nAquaculture NC II\n\nAutomotive Body Painting/Finishing NC II\n\nAutomotive Body Repair NC II\n\nAuto Engine Rebuilding NC II\n\nAutomotive Servicing NC II\n\nBartending NC II\n\nBuilding Wiring Installation NC II\n\nCarpentry NC II\n\nCommercial Cooking NC II\n\nComputer Hardware Servicing NC II\n\nDeck Seafaring NC II\n\nDressmaking NC II\n\nDiesel Power Plant Operation & Maintenance NC II\n Diesel Power Plant Operation & Maintenance NC III\n\nDiesel Power Plant Maintenance NC III\n\nDriving NC II\n\nEngine Seafaring NC II\n\nFood and Beverage Services NC II\n\nFootwear Making NC II\n\nHeavy Equipment Operation NC II\n\nHorticulture NC II\n\nHousehold Services NC II\n\nHousekeeping NC II\n\nMachining NC II\n\nMasonry NC II\n\nMotorcycle and Small Engine Servicing NC II\n\nPlumbing NC II\n\nPyrotechnics NC II\n\nRAC Servicing NC I\n\nRAC Servicing NC II\n\nSecurity Services NC II\n\nTailoring NC II\n\nTour Guiding Services NC II\n\nTransport RAC Servicing NC II\n\nTravel Services NC II\n\nWelding NC II\n\nThese materials are available in both printed and electronic copies.\nFor more information please contact:\nTechnical Education and Skills Development Authority (TESDA)\nTelephone Nos.: 893-8303, 893-2139; 817-4076 to 82 loc. 615 to 617\nor visit our website: www.tesda.gov.ph"
 }
