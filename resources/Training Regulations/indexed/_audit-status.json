@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T20:25:30+08:00",
+  "last_updated": "2026-09-06T20:45:17+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 170,
-  "remaining_unaudited": 214,
+  "audited_count": 175,
+  "remaining_unaudited": 209,
   "blocked_count": 0,
   "documents": [
     {
@@ -2218,6 +2218,71 @@
       "validation_passed": true,
       "last_audit_commit": "9da0ac05b487f4193fb1483411f91ce18b757317",
       "audit_notes": "Rebuilt 4/5/4 superseded historical two-column groups; restored 84 curriculum rows, 7 assessment arrangements, and 39 definition-term entries, preserved the absent promulgation date and the source's single 568-hour nominal duration without inferring category subtotals, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Processing NC III",
+      "package_path": "resources/Training Regulations/indexed/Food Processing NC III",
+      "source_file": "resources/Training Regulations/Food Processing NC III.pdf",
+      "source_sha256": "c3331b42d09c9e5f33df3fe579855da98b2a33e32562a9d731d951f769be62c6",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:45:17+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "915b9a53f5db1178d629e0e5574b0fcc1128d285",
+      "audit_notes": "Rebuilt 5/6/11 historical two-column groups; restored 77 curriculum rows, 7 assessment arrangements, and 42 definition-term entries, preserved the absent promulgation date and the 20/128/752-hour components with 900-hour total, normalized AGR7413xx source headers against the Section 1 AGR741316 and AGR741318 identifiers, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Processing NC IV",
+      "package_path": "resources/Training Regulations/indexed/Food Processing NC IV",
+      "source_file": "resources/Training Regulations/Food Processing NC IV.pdf",
+      "source_sha256": "cd1976e1dfc5e6d26f931726345b4e81e9ec85a8991b00a4323df4ecc8c3ea6f",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:45:17+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "915b9a53f5db1178d629e0e5574b0fcc1128d285",
+      "audit_notes": "Rebuilt 5/8/7 historical two-column groups; restored 86 curriculum rows, 7 assessment arrangements, and 43 definition-term entries, preserved the absent promulgation date and the 56/160/360-hour components with 576-hour total, repaired the source's unnumbered final performance criteria and normalized one malformed revised-layout signal to the surrounding legacy representation, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Production (Bread and Patisserie) NC II",
+      "package_path": "resources/Training Regulations/indexed/Food Production (Bread and Patisserie) NC II",
+      "source_file": "resources/Training Regulations/Food Production (Bread and Patisserie) NC II.pdf",
+      "source_sha256": "fd7d13c0c1a3a252a282f947ae9777bcc298792a63c0878829977b4f62c8069d",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:45:17+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "915b9a53f5db1178d629e0e5574b0fcc1128d285",
+      "audit_notes": "Rebuilt 8/5/9 revised four-column groups with required knowledge and skills; restored 80 curriculum rows, 4 assessment arrangements, and 169 definition-term entries, preserved Promulgated 09/16/2023 with the 37/28/335-hour in-school components and separate 200-hour SIL for a 600-hour arithmetic total, retained the Patisserie course-title variant, DRAFT markers, revision-history tail, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Production (Professional Cookery) NC III",
+      "package_path": "resources/Training Regulations/indexed/Food Production (Professional Cookery) NC III",
+      "source_file": "resources/Training Regulations/Food Production (Professional Cookery) NC III.pdf",
+      "source_sha256": "f546571e3b3a37cf430458b22976536c7123eee78190b7ed4174734f249ecd4d",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:45:17+08:00",
+      "issues_found": 15,
+      "issues_fixed": 15,
+      "validation_passed": true,
+      "last_audit_commit": "915b9a53f5db1178d629e0e5574b0fcc1128d285",
+      "audit_notes": "Rebuilt 9/7/9 revised four-column groups with required knowledge and skills; restored 88 curriculum rows, 2 assessment arrangements, and 4 definition-term entries, preserved Revision 01 and Promulgated (11/07/2019) with the 40/96/415-hour in-school components and separate 160-hour SIL for a 711-hour arithmetic total, normalized the curriculum ordering and documented the curriculum-only catering-control cluster absent from the Section 2 roster, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Production (Professional Cookery) NC IV",
+      "package_path": "resources/Training Regulations/indexed/Food Production (Professional Cookery) NC IV",
+      "source_file": "resources/Training Regulations/Food Production (Professional Cookery) NC IV.pdf",
+      "source_sha256": "0c7eed6c27295152ded97fb9eb37deecb11a68b3849d438df4b4570e0b7c7272",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:45:17+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "915b9a53f5db1178d629e0e5574b0fcc1128d285",
+      "audit_notes": "Rebuilt 9/7/10 revised four-column groups with required knowledge and skills; restored 96 curriculum rows, 4 assessment arrangements, and 1 definition-term entry, preserved Revision 01 and Promulgated (11/07/2019) with the 47/190/465-hour in-school components and separate 160-hour SIL for an 862-hour arithmetic total, and retained the source terminology, sustainability spelling, and page-preserved revision-history text; structural validation and visual boundary QA passed."
     }
   ]
 }
