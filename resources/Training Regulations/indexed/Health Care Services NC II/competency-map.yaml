@@ -4,73 +4,56 @@
   "document_id": "tesda:tr:health-care-services-nc-ii:1381268670",
   "qualification": "HEALTH CARE SERVICES NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323203",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323204",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323316",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323319",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HCS323201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HCS323314",
-        "title": ": This unit of competency covers the knowledge, skills and attitudes"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323315",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323317",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323318",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nINSTITUTIONAL HEALTH CARE (HEALTH CARE ASSISTANT) NC II\nPrepare and maintain\nbeds\nCollects and\nmaintain linen stocks\nat end-user location\nAssist with patients\nmobility\nAssist in\ntransporting\npatients\nImplement and\nmonitor infection\ncontrol policies and\nprocedures\nRespond effectively to\ndifficult/ challenging\nbehavior\nApply basic first aid\nMaintain high standard\nof patient services\nAssist with bio-\npsychosocial support\ncare of patients\nHandle waste in a\nhealth care\nenvironment\nBASIC\nCOMPETENCIES\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nParticipate in\nworkplace\ncommunication\nWork in team\nenvironment\n\n--- PDF PAGE 63 ---\nTR Health Care Services NC II\n-59-",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HCS323201",
+        "HCS323202",
+        "HCS323203",
+        "HCS323204"
+      ],
+      "unit_titles": [
+        "Implement and monitor infection control policies and procedures",
+        "Respond effectively to difficult/challenging behavior",
+        "Apply basic first aid",
+        "Maintain high standards of patient services"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HCS323314",
+        "HCS323315",
+        "HCS323316",
+        "HCS323317",
+        "HCS323318",
+        "HCS323319"
+      ],
+      "unit_titles": [
+        "Prepare and maintain beds",
+        "Collect and maintain linen stocks at end-user locations",
+        "Assist in patient mobility",
+        "Assist in transporting patients",
+        "Assist in bio-psychosocial support care of patients",
+        "Handle waste in a health care environment"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 HEALTH CARE SERVICES NC II QUALIFICATION\n\nThe HEALTH CARE SERVICES NC II Qualification consists of competencies that a person\nmust achieve to prepare and maintain beds, collect and maintain linen stocks at end-user\nlocations, assist with patient mobility, assist in transporting patients, assist with bio-psychosocial\nsupport care of patients and handle waste in a health care environment.\n\nThe Units of Competency comprising this Qualification include the following:\n\nUNIT CODE\nBASIC COMPETENCIES\n500311105\nParticipate in workplace communication\n500311106\nWork in a team environment\n500311107\nPractice career professionalism\n500311108\nPractice occupational health and safety procedures\n\nUNIT CODE\nCOMMON COMPETENCIES\nHCS323201\nImplement and monitor infection control policies and procedures\nHCS323202\nRespond effectively to difficult/challenging behavior\nHCS323203\nApply basic first aid\nHCS323204\nMaintain high standard of patient services\n\nUNIT CODE\nCORE COMPETENCIES\nHCS323314\nPrepare and maintain beds\nHCS323315\nCollect and maintain linen stocks at end-users location\nHCS323316\nAssist in patient mobility\nHCS323317\nAssist in transporting patients\nHCS323318\nAssist in bio-psychosocial support care of patients\nHCS323319\nHandle waste in a health care environment\n\nA person who has achieved this Qualification is competent to be:\n\n Nursing Attendant\n Nursing Aide\n Hospital Assistant\n Health Aide\n\n--- PDF PAGE 6 ---\nTR Health Care Services NC II\n-2-"
 }

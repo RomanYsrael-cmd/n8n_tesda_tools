@@ -1,29 +1,160 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:health-care-services-nc-ii:1381268670",
   "qualification": "HEALTH CARE SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Health Care Services NC II.pdf",
-    "sha256": "13812686707acfb74f9a1db5a790c349dd90419059c7fb4417d51df4643fb780",
+    "source_sha256": "13812686707acfb74f9a1db5a790c349dd90419059c7fb4417d51df4643fb780",
+    "pdf_pages": 67,
+    "printed_pages": 59,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source does not display a visible promulgation date; the canonical promulgated field remains null.",
+    "Section 3 prints a single Nominal Training Duration of 996 hours rather than separate Basic, Common, and Core subtotals; the single total is retained without inferred allocation. The core curriculum heading separately prints 960 hours.",
+    "The source carries the running-header variant TR Institutional Health Care (Health Care Services) NC II while Section 1 and the indexed package use Health Care Services NC II; source_text preserves the page-extracted wording."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source does not display a visible promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints a single Nominal Training Duration of 996 hours rather than separate Basic, Common, and Core subtotals; the single total is retained without inferred allocation. The core curriculum heading separately prints 960 hours."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source carries the running-header variant TR Institutional Health Care (Health Care Services) NC II while Section 1 and the indexed package use Health Care Services NC II; source_text preserves the page-extracted wording."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Health Care Services NC II.pdf",
-    "pdf_pages": 67,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "HCS323201",
+      "source_unit_code": "HCS323201",
+      "pdf_page_range": [
+        18,
+        22
+      ]
+    },
+    {
+      "unit_code": "HCS323202",
+      "source_unit_code": "HCS323202",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "HCS323203",
+      "source_unit_code": "HCS323203",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "HCS323204",
+      "source_unit_code": "HCS323204",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "HCS323314",
+      "source_unit_code": "HCS323314",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "HCS323315",
+      "source_unit_code": "HCS323315",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "HCS323316",
+      "source_unit_code": "HCS323316",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    },
+    {
+      "unit_code": "HCS323317",
+      "source_unit_code": "HCS323317",
+      "pdf_page_range": [
+        43,
+        45
+      ]
+    },
+    {
+      "unit_code": "HCS323318",
+      "source_unit_code": "HCS323318",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "HCS323319",
+      "source_unit_code": "HCS323319",
+      "pdf_page_range": [
+        50,
+        54
+      ]
+    }
+  ]
 }
