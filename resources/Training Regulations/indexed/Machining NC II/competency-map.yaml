@@ -1,94 +1,69 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:machining-nc-ii:2005-03",
+  "document_id": "tesda:tr:machining-nc-ii:35f5df48ff",
   "qualification": "MACHINING NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722204",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722205",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722301",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722302",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722303",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722304",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "MEE722202",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722203",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722207",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722208",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722211",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722305",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722306",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722307",
-        "title": ":"
-      },
-      {
-        "unit_code": "MEE722308",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n60",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "MEE722202",
+        "MEE722203",
+        "MEE722204",
+        "MEE722205",
+        "MEE722207",
+        "MEE722208",
+        "MEE722211"
+      ],
+      "unit_titles": [
+        "Interpret working drawings and sketches",
+        "Select and cut workshop materials",
+        "Perform shop computations (Basic)",
+        "Measure workpiece (Basic)",
+        "Perform shop computations (Intermediate)",
+        "Measure workpiece using angular measuring instruments",
+        "Perform preventive and corrective maintenance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "MEE722301",
+        "MEE722305",
+        "MEE722302",
+        "MEE722306",
+        "MEE722303",
+        "MEE722307",
+        "MEE722304",
+        "MEE722308"
+      ],
+      "unit_titles": [
+        "Perform bench work (Basic)",
+        "Perform bench work (Complex)",
+        "Turn workpiece (Basic)",
+        "Turn workpiece (Intermediate)",
+        "Mill workpiece (Basic)",
+        "Mill workpiece (Intermediate)",
+        "Grind workpiece (Basic)",
+        "Grind workpiece (Complex)"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a\nNational Certificate signed by the TESDA Director General.\n\n4.2 The qualification of Machining NC II may be attained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in all the following areas:\n\n4.2.1.1 Perform bench work (Basic)\n4.2.1.2 Perform bench work (Complex)\n4.2.1.3 Turn workpiece (Basic)\n4.2.1.4 Turn workpiece (Intermediate)\n4.2.1.5 Mill workpiece (Basic)\n4.2.1.6 Mill workpiece (Intermediate)\n4.2.1.7 Grind workpiece (Basic)\n4.2.1.8 Grind workpiece(Complex)\n\nSuccessful candidates shall be awarded Certificates of Competency (COCs) bearing\nthe signature of the TESDA Regional Director and Chair of the recognized local\nindustry body.\n\n4.2.2 Demonstration of competence through project-type assessment covering all the\nrequired units of qualification.\n\n4.3 Assessment shall focus on the core units of competency. The basic and common units shall\nbe integrated or assessed concurrently with the core units.\n\n4.4 The following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-based training\nprograms.\n\n4.4.2 Experienced workers (wage employed or self employed)\n\n4.5 The guidelines on assessment and certification are discussed in detail in the \"Procedures\nManual on Assessment and Certification\" and \"Guidelines on the Implementation of the\nPhilippine TVET Qualification and Certification System (PTQCS)\".\n\n--- PDF PAGE 64 ---\nTR - Machining NC II\n Promulgated March 2005\n\n60\nTurn workpiece\n(Basic)\nPerform bench work\n(Basic)\nPerform bench work\nComplex)\nTurn workpiece\n(Intermediate)\nTurn workpiece\n(Advanced)\nCORE\nCOMPETENCIES\nMill workpiece\n(Basic)\nMill workpiece\n(Intermediate)\nMill workpiece\n(Advanced)\nGrind workpiece\n(Basic)\nGrind workpiece\n(Complex)\nSupermarket of Competencies -\nMetals and Engineering Sector\nMACHINING\nCOMMON\nCOMPETENCIES\nApply safety\npractices\nPerform routine\nhousekeeping\nUse dimensional\nmetrology instruments\nInterpret working\ndrawings and\nsketches\nSelect and cut\nworkshop materials\nPerform shop\ncomputations (Basic)\nPerform preventive and\ncorrective maintenance\nPerform shop\ncomputations\n(Advanced)\nPerform shop\ncomputations\n(Intermediate)\nMeasure workpiece\nusing gages and\ncomparators\nMeasure workpiece\nusing angular\nmeasuring instruments\nLegend\nMachining NC II\nLead w orkplace\ncommunication\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nBASIC\nCOMPETENCIES\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\n(5S)\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nParticiapte in\nworkplace\ncommunication\nWork in team\nenvironment\nPractice\ncareer\nprofessionalism\nPractice\noccupational\nhealth and safety\nprocedures\n\n--- PDF PAGE 65 ---\nTR - Machining NC II\n Promulgated March 2005\n\n61\n\nDefinition of Terms\n\n1.\nbench work\nthe operations incident to the process of laying out, fitting, assembling,\netc… when the work is placed on the bench or in a bench vise\n2.\nboring\nis the operation of enlarging a hole by means of an adjustable cutting\ntool with only one cutting edge\n3.\nchipping\nis the operation of removing/cutting metal using hammer and chisel\n4.\ncounterboring\nis the operation of enlarging the end of a hole cylindrically\n5.\ndrilling\nis the operation of producing a circular hole by removing solid metal\n6.\nfacing\nthe lathe operation of finishing the ends of the work, to make the piece\nthe right length. Also known as squaring\n7.\ngrinding\nrefers to the removal of material from a workpiece with grinding wheel\n8.\nlaying out\nterm used to include the marking or scribing of center points, circles,\narcs, or straight lines upon metal surfaces, either curved or flat, for the\nguidance of the worker\n9.\nmilling\nrefers to removal of metal by feeding a workpiece through the periphery\nof rotating circular cutter\n10. reaming\nis an operation of sizing and finishing a hole by means of a cutting tool\nhaving several cutting edges. reaming serves to make the hole\nsmoother, straighter, and more accurate\n11. spot-facing\nis the operation of smoothening and squaring the surface around a hole\n12. tapping\nis the operation of forming internal threads by means of a tool called\ntap\n13. turning\nrefers to shaping a workpiece by gripping it in a workholding device and\nrotating it under power against a suitable cutting tool\n\n--- PDF PAGE 66 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend thanks and\nappreciation to the many representatives of business, industry, academe and government agencies\nwho donated their time and expertise to the development and validation of these Training\nRegulations.\n\n THE TESDA ADVISORY PANEL\nMR. BENJAMIN MARIA AYCARDO†\nTAP Chairman\nUniMagma Phil., Inc.\n\nMR. RAUL M. CONSUNJI\nRMC Consultancy Services, Inc.\nMR. CARLOS MEDINA, JR.\nCo-Chairman\nDon Bosco Technical College\n\nMR. EDUARDO R. LACBAY†\nMember\nMetal Industry Research and Development\nCenter\nMR. JIMMY LIBO-ON RUZGAL\nMember\nFFW/MFI\n\nTHE TECHNICAL EXPERTS PANEL\n\nMR. TIMOTEO INTALAN\nDirectric Industries, Inc.\n\nThe PARTICIPANTS in the Validation of these Training Regulations\nRegion I\nMR. RAUL P. TAMINAYA\nTESDA REGION I\n San Fernando, La Union\n\nCAR\nMR. ROCKY F. DELA ROSA\nTrinidad Valley Institute of Technology\nLa Trinidad,Benguet\n\nMR. NESTOR A. LOMIBAO\nMOOG Controls Corporation Inc., Phils\nBaguio City\n\nMR. ROBERT V. NUESTRO\nMOOG Controls Corporation Inc., Phils\nBaguio City\n\nMR. EDWARD FRENZEL D. YAPYAPAN\nTESDA-CAR, Baguio\n\n--- PDF PAGE 67 ---\nRegion VI\nMR. RUEL D. BALDERAS\nRJ Foundry Machine Shop Corp\nBacolod City, Negros Occ.\n\nMR. JOSE G. JUNSAY, JR.\nJJR Shop\nSilay City\n\nMR. EDGARDO R. GARCES\nBen’s Machine Shop\nBacolod City, Negros Occ.\n\nMR. PABLO H. CORTEZ, JR.\nRTC Talisay\nTalisay City, Negros Occ.\n\nMR. LARRY A. BAYONETA\nRJ Foundry Machine Shop Corp\nBacolod City, Negros Occ.\n\nMR. JOSE MA. O JUSTINIANI, JR.\nJO Justiniani Motors\nVictorias City, Negros Occ.\n\nMR. CHRISTOPHER I. COSTALES\nBacolod Advance Eng’g Employee Multi-Purpose\nCooperative\nBacolod City, Negros Occ.\n\nCARAGA\nMR. BENJAMIN L. RUBI\nWINRO Eng’g Works\nButuan City, Agusan del Norte\n\nMR. HENRY M. ARREZA\nJunel Machine Shop\nButuan City, Agusan del Norte\n\nMR. LEONARDO A. CORTINA\nSurigao State College of Technology\nSurigao City, Surigao del Norte\n\nMR. EDGARDO M. MENDOZA\nNorthern Mindanao School of Fisheris\nBuenavista, Agusan del Norte\n\nMR. ARTEMIO E. MARTIZANO, JR.\nAgusan del Sur School of Arts & Trades\nProsperidad, Agusan del Sur\n\nMR. RENEE C. TAN\nSurigao State College of Technology\nSurigao City, Surigao del Norte\n\nMR. LIBERATO B. BANIOLA\nProvincial Equipment Pool Office\nProsperidad, Agusan del Sur\nThe Members of the TESDA Board\nThe TESDA Executive Committee\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n--- PDF PAGE 68 ---\nList of Published Training Regulations\n\n Animal Production NC II\n Aquaculture NC II\n Automotive Body Painting/Finishing NC II\n Automotive Body Repair NC II\n Automotive Engine Rebuilding NC II\n Automotive Servicing NC II\n Bartending NC II\n Building Wiring Installation NC II\n Carpentry NC II\n Commercial Cooking NC II\n Computer Hardware Servicing NC II\n Deck Seafaring NC II\n Dressmaking NC II\n Driving NC II\n Engine Seafaring NC II\n Food and Beverage Services NC II\n Footwear Making NC II\n Heavy Equipment Operation NC II\n Horticulture NC II\n Household Services NC II\n Housekeeping NC II\n Machining NC II\n Masonry NC II\n Motorcycle and Small Engine Servicing NC II\n Plumbing NC II\n Pyrotechnics NC II\n RAC Servicing NC I\n RAC Servicing NC II\n Security Services NC II\n Tailoring NC II\n Tour Guiding Services NC II\n Transport RAC Servicing NC II\n Travel Services NC II\n Welding NC II\n\nThese materials are available in both printed and electronic copies.\nFor more information please contact:\nTechnical Education and Skills Development Authority (TESDA)\nTelephone Nos.: 893-8303, 893-2139; 817-4076 to 82 loc. 615 to 617\nor visit our website: www.tesda.gov.ph"
 }

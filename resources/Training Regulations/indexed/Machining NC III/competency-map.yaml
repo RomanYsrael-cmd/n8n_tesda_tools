@@ -4,121 +4,80 @@
   "document_id": "tesda:tr:machining-nc-iii:0d06e7dc60",
   "qualification": "MACHINING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "to lead in the dissemination and discussion of ideas,"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "MEE722201",
-        "title": "practices in the workplace."
-      },
-      {
-        "unit_code": "MEE722204",
-        "title": "calculations using the four fundamental operation."
-      },
-      {
-        "unit_code": "MEE722205",
-        "title": "workpieces using measuring instruments such as steel rules,"
-      },
-      {
-        "unit_code": "MEE722301",
-        "title": "requirements, perform basic bench work operations (i.e."
-      },
-      {
-        "unit_code": "MEE722302",
-        "title": "drawing specifications . It details the requirements for performing"
-      },
-      {
-        "unit_code": "MEE722303",
-        "title": "drawing specifications . It details the requirements for"
-      },
-      {
-        "unit_code": "MEE722304",
-        "title": "to drawing specifications . It details the requirements for grinding"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ": This unit covers the knowledge, skills and attitudes to"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "to collect information in order to negotiate to a desired"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical concepts and"
-      },
-      {
-        "unit_code": "MEE722202",
-        "title": "interpret drawings and sketches."
-      },
-      {
-        "unit_code": "MEE722203",
-        "title": "and cut workshop materials"
-      },
-      {
-        "unit_code": "MEE722206",
-        "title": "organized and clean work area."
-      },
-      {
-        "unit_code": "MEE722207",
-        "title": "calculation involving triangles and tapers."
-      },
-      {
-        "unit_code": "MEE722208",
-        "title": "workpieces using angular measuring instruments."
-      },
-      {
-        "unit_code": "MEE722209",
-        "title": "calculation involving gear ratio, indexing problems and"
-      },
-      {
-        "unit_code": "MEE722210",
-        "title": "workpieces using fixed and adjustable gages."
-      },
-      {
-        "unit_code": "MEE722211",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "MEE722305",
-        "title": "hand and power tools to perform complex bench work"
-      },
-      {
-        "unit_code": "MEE722306",
-        "title": "drawing specifications . It details the requirements for performing"
-      },
-      {
-        "unit_code": "MEE722309",
-        "title": "drawing specifications. . It details the requirements for"
-      },
-      {
-        "unit_code": "MEE722307",
-        "title": "drawing specifications . It details the requirements for performing"
-      },
-      {
-        "unit_code": "MEE722310",
-        "title": "drawing specifications . It details the requirements for"
-      },
-      {
-        "unit_code": "MEE722308",
-        "title": "to drawing specifications . It details the requirements for grinding"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n112",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "MEE722201",
+        "MEE722202",
+        "MEE722203",
+        "MEE722204",
+        "MEE722205",
+        "MEE722206",
+        "MEE722207",
+        "MEE722208",
+        "MEE722209",
+        "MEE722210",
+        "MEE722211"
+      ],
+      "unit_titles": [
+        "Apply safety practices",
+        "Interpret working drawings and sketches",
+        "Select and cut workshop materials",
+        "Perform shop computations (Basic)",
+        "Measure workpiece (Basic)",
+        "Perform routine housekeeping",
+        "Perform shop computations (Intermediate)",
+        "Measure workpiece using angular measuring instruments",
+        "Perform shop computations (Advanced)",
+        "Measure workpiece using gages and surface texture comparator",
+        "Perform preventive and corrective maintenance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "MEE722301",
+        "MEE722305",
+        "MEE722302",
+        "MEE722306",
+        "MEE722309",
+        "MEE722307",
+        "MEE722310",
+        "MEE722304",
+        "MEE722308"
+      ],
+      "unit_titles": [
+        "Perform bench work (Basic)",
+        "Perform bench work (Complex)",
+        "Turn workpiece (Basic)",
+        "Turn workpiece (Intermediate)",
+        "Turn workpiece (Advanced)",
+        "Mill workpiece (Intermediate)",
+        "Mill workpiece (Advanced)",
+        "Grind workpiece (Basic)",
+        "Grind workpiece (Complex)"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n4.2 Individuals aspiring to be awarded the qualification of Machining NC III must\nacquire Certificates of Competency in all the following core units of the\nQualification. Candidates may apply for assessment in any accredited\nassessment center:\n\n4.2.1 Perform bench work (Basic)\n4.2.2 Perform bench work (Complex)\n4.2.3 Turn workpiece (Basic)\n4.2.4 Turn workpiece (Intermediate)\n4.2.5 Turn workpiece (advanced)\n\n4.2.6 Mill workpiece (Basic)\n4.2.7 Mill workpiece (Intermediate)\n4.2.8 Mill workpiece (Advanced)\n4.2.9 Grind workpiece (Basic)\n4.2.10 Grind workpiece(Complex)\n\nSuccessful candidates shall be awarded Certificates of Competency (COC).\n\n4.3 Accumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate.\n\n4.4\nAssessment shall focus on the core units of competency. The basic and common\nunits shall be integrated or assessed concurrently with the core units.\n\n4.5 The following are qualified to apply for assessment and certification:\n\n4.5.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n\n4.5.2 Experienced workers (wage employed or self employed)\n\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTOQS)\".\n\n--- PDF PAGE 113 ---\nmachiii\n04/11/06\n112\n\nTurn workpiece\n(Basic)\nPerform bench work\n(Basic)\nPerform bench work\nComplex)\nTurn workpiece\n(Intermediate)\nCORE\nCOMPETENCIES\nMill workpiece\n(Basic)\nMill workpiece\n(Intermediate)\nMill workpiece\n (Advanced)\nGrind workpiece\n(Basic)\nGrind workpiece\n(Complex)\nSupermarket of Competencies\nMetals and Engineering Sector\nMACHINING\nTurn workpiece\n(Advanced)\nReceive and respond\nto workplace\ncommunication\nLead in workplace\n communication\nWork with others\nLead small teams\nSolve problems\nrelated to\nworkplace activities\nParticipate in\nworkplace\ncommunication\n Utilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team and\nindividual\nApply problem-solving\ntechniques in the\nworkplace\nDemonstrate\n work values\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\n Apply safety\n practices\n Perform routine\n housekeeping\n Measure workpiece\n (Basic)\n Interpret working\ndrawings and\nsketches\n Select and cut\nworkshop materials\n Perform shop\ncomputations (Basic)\n Perform preventive\nand corrective\nmaintenance\n Perform shop\ncomputations\n(Advanced)\n Perform shop\ncomputations\n (Intermediate)\n Measure workpiece\nusing gages and\ncomparators\n Measure workpiece\nusing angular\nmeasuring\ninstruments\nLegend\nMachining NC III\nPractice occupational\n health and\nsafety procedures\nDevelop and practice\n negotiation skills\nUse relevant\ntechnologies\nCollect, analyze\nand organize\ninformation\nPlan and\norganize work\nPractice career\nprofessionalism\nUse mathematical\nconcepts and\n techniques\nPromote\nenvironmental\n protection\nPractice\n housekeeping\n procedures\n\n--- PDF PAGE 114 ---\nmachiii\n04/11/06\n113\n\nDefinition of Terms\n\nbench work\nthe operations incident to the process of laying out, fitting,\nassembling, etc… when the work is placed on the bench or in\na bench vise\n\nboring\nis the operation of enlarging a hole by means of an adjustable\ncutting tool with only one cutting edge\n\nchipping\nis the operation of removing/cutting metal using hammer and\nchisel\n\ncounterboring\nis the operation of enlarging the end of a hole cylindrically\n\ndrilling\nis the operation of producing a circular hole by removing solid\nmetal\n\nfacing\nthe lathe operation of finishing the ends of the work, to make\nthe piece the right length. Also known as squaring\n\ngrinding\nrefers to the removal of material from a workpiece with\ngrinding wheel\n\nlaying out\nterm used to include the marking or scribling of center points,\ncircles, arcs, or straight lines upon metal surfaces, either\ncurved or flat, for the guidance of the worker\n\nmilling\nrefers to removal of metal by feeding a workpiece through the\nperiphery of rotating circular cutter\n\nreaming\nis an operation of sizing and finishing a hole by means of a\ncutting tool having several cutting edges. reaming serves to\nmake the hole smoother, straighter, and more accurate\n\nspot-facing\nis the operation of smoothing and squaring the surface\naround a hole\n\ntapping\nis the operation of forming internal threads by means of a tool\ncalled tap\n\nturning\nrefers to shaping a workpiece by gripping it in a workholding\ndevice and rotating it under power against a suitable cutting\ntool\n\n--- PDF PAGE 115 ---\nmachiii\n04/11/06\n114\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies who donated their time and expertise to the development and\nvalidation of this Training Regulation.\n\nTESDA ADVISORY PANEL (TAP) – METALS AND ENGINEERING SECTOR\nMR. BENJAMIN MA. AYCARDO†\nTAP Chairman\nUnimagma Philippines, Inc.\nLaguna\nMR. RAUL M. CONSUNJI\nMember - Industry\nRMC Consultancy Services, Inc.\nBlue Ridge, Cubao, Quezon City\n\nMR. CARLOS MEDINA, JR.\nMember - Academe\nDon Bosco Technical College\nMandaluyong City\n\nMR. EDUARDO R. LACBAY\nMember -Academe\nMIRDC, Bicutan, Taguig City\nMR. JIMMY LIBO-ON RUZGAL\nMember – Labor, FFW\nMFI, Ortigas Ave., Pasig City\n\nTESDA EXPERT PANEL (TEP) – MACHINING\nMR. EDUARDO CHUA KO KIONG\nSankei Philippines, Inc.\n\nMR. TIMOTEO INTALAN\nDirectric Industries, Inc.\nMR. REY FERNANDEZ\nMeralco Foundation, Inc.\n\nMR. CLETO JIMENEZ\nReynolds Philippines Corp.\nMR. JERRY R. OMALLAO\nReynolds Philippines Corp\n\nMR. ELSO CLARETE\nDon BOSCO Technical College\n\nMR. AGUSTIN M. PAYAD\nTechnological University of the Philippines\n\nThe PARTICIPANTS in the National Validation of this Training Regulations\n•\n Region I\n•\n Region VI\n•\n CAR\n•\n CARAGA\n\nMembers of the TESDA Board\n\nThe TESDA Executive Committee\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n•\nSSCO\n•\nOFTVET\n•\nNITVET\n•\nONFTVET"
 }
