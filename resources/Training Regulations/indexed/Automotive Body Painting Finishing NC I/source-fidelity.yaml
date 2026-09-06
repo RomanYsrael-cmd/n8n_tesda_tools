@@ -1,29 +1,165 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:automotive-body-painting-finishing-nc-i:50b0a85b01",
-  "qualification": "Automotive Body Painting Finishing NC I",
+  "qualification": "AUTOMOTIVE BODY PAINTING FINISHING NC I",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Automotive Body Painting Finishing NC I.pdf",
-    "sha256": "50b0a85b01b46da70c13194047eac8c93dc2a0f9d47063fc59973bd7bddad409",
+    "source_sha256": "50b0a85b01b46da70c13194047eac8c93dc2a0f9d47063fc59973bd7bddad409",
+    "pdf_pages": 59,
+    "printed_pages": 55,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The Section 1 common-unit list identifies Perform Shop Maintenance as ALT723205, while the Section 2 unit header prints ALT723305; the normalized unit follows the Section 1 identifier and preserves the header variant in source_unit_code/source_text.",
+    "The Section 3 curriculum repeats learning-outcome numbers 3.1-3.3 for Read, interpret and apply specifications and manual; the canonical curriculum mapping follows the table's unit position and preserves the repeated source numbering.",
+    "The source does not print a promulgation date in its page headers; the semantic date field remains null and the page-preserved source layer remains authoritative.",
+    "The source prints a 120-hour total: 28 Basic, 32 Common, and 60 Core hours."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 common-unit list identifies Perform Shop Maintenance as ALT723205, while the Section 2 unit header prints ALT723305; the normalized unit follows the Section 1 identifier and preserves the header variant in source_unit_code/source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 curriculum repeats learning-outcome numbers 3.1-3.3 for Read, interpret and apply specifications and manual; the canonical curriculum mapping follows the table's unit position and preserves the repeated source numbering."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date in its page headers; the semantic date field remains null and the page-preserved source layer remains authoritative."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints a 120-hour total: 28 Basic, 32 Common, and 60 Core hours."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Automotive Body Painting Finishing NC I.pdf",
-    "pdf_pages": 59,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311101",
+      "source_unit_code": "500311101",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311102",
+      "source_unit_code": "500311102",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311103",
+      "source_unit_code": "500311103",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311104",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "ALT723201",
+      "source_unit_code": "ALT723201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "ALT723202",
+      "source_unit_code": "ALT723202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "ALT311202",
+      "source_unit_code": "ALT311202",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "ALT723203",
+      "source_unit_code": "ALT723203",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "ALT723204",
+      "source_unit_code": "ALT723204",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "ALT723205",
+      "source_unit_code": "ALT723305",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "ALT714301",
+      "source_unit_code": "ALT714301",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "ALT714302",
+      "source_unit_code": "ALT714302",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "ALT714303",
+      "source_unit_code": "ALT714303",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "ALT714304",
+      "source_unit_code": "ALT714304",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    }
+  ]
 }
