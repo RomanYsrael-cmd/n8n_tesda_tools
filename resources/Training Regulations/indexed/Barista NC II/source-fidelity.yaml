@@ -1,29 +1,160 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:barista-nc-ii:2013-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:barista-nc-ii:b822dcfad9",
   "qualification": "BARISTA NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Barista NC II.pdf",
-    "sha256": "b822dcfad901f251c38b84d978aac0b59d14773cc60181b4138b0d38556788f3",
+    "source_sha256": "b822dcfad901f251c38b84d978aac0b59d14773cc60181b4138b0d38556788f3",
+    "pdf_pages": 54,
+    "printed_pages": 51,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints Promulgated December 2013; the canonical date field normalizes it to 2013-12 while source_text preserves the printed form.",
+    "The source provides explicit Basic, Common, and Core duration expressions of 18, 18, and 142 hours but does not print a separate total-hours line; the canonical total is the arithmetic sum of those explicit components.",
+    "The source uses the Tourism Sector (Hotel and Restaurant) heading and retains the historical TRS unit-code family, including the source codes TRS311399 and TRS3113100 through TRS3113103."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated December 2013; the canonical date field normalizes it to 2013-12 while source_text preserves the printed form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source provides explicit Basic, Common, and Core duration expressions of 18, 18, and 142 hours but does not print a separate total-hours line; the canonical total is the arithmetic sum of those explicit components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the Tourism Sector (Hotel and Restaurant) heading and retains the historical TRS unit-code family, including the source codes TRS311399 and TRS3113100 through TRS3113103."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Barista NC II.pdf",
-    "pdf_pages": 54,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "TRS311202",
+      "source_unit_code": "TRS311202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "TRS311205",
+      "source_unit_code": "TRS311205",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "TRS311399",
+      "source_unit_code": "TRS311399",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "TRS3113100",
+      "source_unit_code": "TRS3113100",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "TRS3113101",
+      "source_unit_code": "TRS3113101",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "TRS3113102",
+      "source_unit_code": "TRS3113102",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    },
+    {
+      "unit_code": "TRS3113103",
+      "source_unit_code": "TRS3113103",
+      "pdf_page_range": [
+        43,
+        45
+      ]
+    }
+  ]
 }

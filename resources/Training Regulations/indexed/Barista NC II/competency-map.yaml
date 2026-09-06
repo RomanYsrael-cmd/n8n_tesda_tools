@@ -1,76 +1,59 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:barista-nc-ii:2013-12",
+  "document_id": "tesda:tr:barista-nc-ii:b822dcfad9",
   "qualification": "BARISTA NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311204",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS3113102",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS3113103",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "TRS311201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "TRS311399",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311205",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS3113100",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS3113101",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP 51",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311201",
+        "TRS311202",
+        "TRS311203",
+        "TRS311204",
+        "TRS311205"
+      ],
+      "unit_titles": [
+        "Develop and update industry knowledge",
+        "Observe workplace hygiene procedures",
+        "Perform computer operations",
+        "Perform workplace and safety practices",
+        "Provide effective customer service"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "TRS311399",
+        "TRS3113100",
+        "TRS3113101",
+        "TRS3113102",
+        "TRS3113103"
+      ],
+      "unit_titles": [
+        "Prepare espresso",
+        "Texture milk",
+        "Prepare and serve coffee beverages",
+        "Perform basic maintenance of machines and equipment",
+        "Perform basic cashiering and general control procedures"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful\ncandidates shall be awarded a National Certificate signed by the TESDA Director\nGeneral.\n\n4.2\nThe qualification of BARISTA NC II may be attained through demonstration of\ncompetence through full-qualification assessment covering all the required core\nunits of qualification.\n\n4.3 Assessment shall focus on the core units of competency. The basic and common\nunits shall be integrated or assessed concurrently with the core units.\n\n4.4 The following are qualified to apply for assessment and certification:\n\n 4.4.1 Graduates of formal, non-formal and informal including enterprise- based\ntraining programs\n\n4.4.2 Experienced workers (wage employed or self employed)\n\n4.5 The guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)\".\n\n--- PDF PAGE 53 ---\nTR - Barista NC II Promulgated December 2013\n-51-\n\n--- PDF PAGE 54 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\nREVIEW PANEL\n\nMARIA SUSANNA F. EDILO\nSchool Director\nPhilippine Barista and Coffee\n Academy (PBCA) Inc.\nTourism Industry Board Foundation, Inc.,\n(TIBFI), Member\n\nANGELA RAYMOND G. FERRERIA\nOwner/Proprietor\nKaffeeCaffe\nBanawe, Quezon City\nMICHAEL ROSS S. CANLAS\nInstructor\nPhilippine Barista and Coffee Academy\nGreenhills, San Juan City\nRoute 196, Katipunan Extension\nUnderground Bar, Tomas Morato\nDolce Amore Café, Tomas Morato\n\nANABELLE O. MORENO\nChair\nTourism Industry Board Foundation, Inc.\n (TIBFI)\nUniversity of the Philippines –\n Institute of Tourism (UP-AIT)\nUP Diliman, Quezon City\nPast President, Association of Human\n Resource Managers for Hotels and\n Restaurants (AHRM)\n\nThe Participants in the Validation of these Training Regulations\n\n FLORENTINO MATILLA, JR. RICHARD P. SULLANO\n National President\n Food and Beverage Manager\n Philippine Bartender’s League (PBL) Makati Palace Hotel\n c/o 187 Doña Soledad Ave. Ext. Burgos St., Makati Ave.\n Betterliving Subdivision, Paranaque City Makati City\n\n PAUL VINCENT C. ASUNCION DANIEL L. EDRALIN\n Barista Board Member\n BO’s Coffee Tourism Industry Board Foundation, Inc.\n G & A Building (TIBFI)\n Pasong Tamo Ext., Makati City National Union of Workers in Hotels and\n Restaurant and Allied Industries\n (NUWHRAIN-APL)\n\nThe Members of the TESDA Board and Secretariat\n\n The Management and Staff of the TESDA Secretariat\n\n• Qualifications and Standards Office (QSO)"
 }

@@ -1,29 +1,176 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:bartending-nc-ii:2013-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:bartending-nc-ii:e721be8d5c",
   "qualification": "BARTENDING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Bartending NC II.pdf",
-    "sha256": "e721be8d5c58d2caec8d01609f834c1831b4294f545327a87ab8751904de837c",
+    "source_sha256": "e721be8d5c58d2caec8d01609f834c1831b4294f545327a87ab8751904de837c",
+    "pdf_pages": 77,
+    "printed_pages": 74,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints TR-Bartending NC II (Amended) and Promulgated December 2013; the canonical date field normalizes the date to 2013-12 while source_text preserves the printed form.",
+    "The source prints 18 Basic, 18 Common, 290 Core, and 112 Elective hours; the canonical total is the arithmetic sum of the explicit components because no separate total-hours line is printed.",
+    "The source explicitly includes an Elective Competencies group for Prepare espresso, Texture milk, and Prepare and serve coffee beverages; it is retained as the elective group in the canonical map."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints TR-Bartending NC II (Amended) and Promulgated December 2013; the canonical date field normalizes the date to 2013-12 while source_text preserves the printed form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, 290 Core, and 112 Elective hours; the canonical total is the arithmetic sum of the explicit components because no separate total-hours line is printed."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source explicitly includes an Elective Competencies group for Prepare espresso, Texture milk, and Prepare and serve coffee beverages; it is retained as the elective group in the canonical map."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Bartending NC II.pdf",
-    "pdf_pages": 77,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "TRS311202",
+      "source_unit_code": "TRS311202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "TRS311205",
+      "source_unit_code": "TRS311205",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "TRS512395",
+      "source_unit_code": "TRS512395",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "TRS512396",
+      "source_unit_code": "TRS512396",
+      "pdf_page_range": [
+        34,
+        40
+      ]
+    },
+    {
+      "unit_code": "TRS512397",
+      "source_unit_code": "TRS512397",
+      "pdf_page_range": [
+        41,
+        47
+      ]
+    },
+    {
+      "unit_code": "TRS512398",
+      "source_unit_code": "TRS512398",
+      "pdf_page_range": [
+        48,
+        53
+      ]
+    },
+    {
+      "unit_code": "TRS3113100",
+      "source_unit_code": "TRS3113100",
+      "pdf_page_range": [
+        54,
+        56
+      ]
+    },
+    {
+      "unit_code": "TRS3113101",
+      "source_unit_code": "TRS3113101",
+      "pdf_page_range": [
+        57,
+        59
+      ]
+    },
+    {
+      "unit_code": "TRS3113102",
+      "source_unit_code": "TRS3113102",
+      "pdf_page_range": [
+        60,
+        62
+      ]
+    }
+  ]
 }
