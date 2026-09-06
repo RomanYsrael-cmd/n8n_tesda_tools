@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T21:09:47+08:00",
+  "last_updated": "2026-09-06T21:28:25+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 185,
-  "remaining_unaudited": 199,
+  "audited_count": 190,
+  "remaining_unaudited": 194,
   "blocked_count": 0,
   "documents": [
     {
@@ -2413,6 +2413,71 @@
       "validation_passed": true,
       "last_audit_commit": "9096c60bf72af7fcbdd1d5853def0baff1c50287",
       "audit_notes": "Rebuilt 4/5/7 historical two-column groups; restored 62 curriculum rows, 6 assessment arrangements, and 6 definition-term entries, preserved the Amended label and Promulgated December 2013 with the 18/24/400-hour components and 442-hour total, retained the source’s front-office qualification wording and footer, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Front Office Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Front Office Services NC III",
+      "source_file": "resources/Training Regulations/Front Office Services NC III.pdf",
+      "source_sha256": "b6076680df7312cf983da245e0b8e57b9a623d946ca583d4154f280a9d6fb0c8",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:28:25+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "0b7baa3aaa24b042e410d716bf4274578d736f31",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 66 curriculum rows, 2 assessment arrangements, and 7 definition-term entries, preserved Revision 00 and Promulgated (12/17/2019) with the 40/96/220-hour in-school components plus 64-hour SIL and 420-hour arithmetic total, restored the three final common-unit staff-performance-assessment outcomes omitted by table extraction, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Front Office Services NC IV",
+      "package_path": "resources/Training Regulations/indexed/Front Office Services NC IV",
+      "source_file": "resources/Training Regulations/Front Office Services NC IV.pdf",
+      "source_sha256": "aa36144766381012a4fc4dbe129da1de942a9ad1c9cc46269af382e14174da13",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:28:25+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "0b7baa3aaa24b042e410d716bf4274578d736f31",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 71 curriculum rows, 3 assessment arrangements, and 2 definition-term entries, preserved Revision 00 and Promulgated (12/17/2019) with the 47/190/215-hour in-school components plus 64-hour SIL and 516-hour arithmetic total, normalized the page-split TRS141211 performance criteria and repeated source numbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Furniture Making (Finishing) NC II",
+      "package_path": "resources/Training Regulations/indexed/Furniture Making (Finishing) NC II",
+      "source_file": "resources/Training Regulations/Furniture Making (Finishing) NC II.pdf",
+      "source_sha256": "b5fb0a77e644559e540d1ecffc7d20b9a929cdeeb70a0a7d58834826010c16b8",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:28:25+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "0b7baa3aaa24b042e410d716bf4274578d736f31",
+      "audit_notes": "Rebuilt 4/7/3 historical two-column groups; restored 37 curriculum rows, 5 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 18/96/98-hour components with 212-hour total, recorded the unreliable printed-page sequence as null, and retained Furniture Finishing title variants, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Game Programming NC III",
+      "package_path": "resources/Training Regulations/indexed/Game Programming NC III",
+      "source_file": "resources/Training Regulations/Game Programming NC III.pdf",
+      "source_sha256": "8482b4f387e257cc0b64fcef0bfd23afee847ad1ed53f7e7f6ef8351c87c4aee",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:28:25+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "0b7baa3aaa24b042e410d716bf4274578d736f31",
+      "audit_notes": "Rebuilt 6/3/3 historical two-column groups; restored 48 curriculum rows, 4 assessment arrangements, and 25 definition-term entries, preserved the __________________2012 promulgation literal and the 64/70/1,100-hour components with 1,234-hour total, recorded the Section 1 ICT311201 versus unit-header ICT311203 discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Garbage Collection NC I",
+      "package_path": "resources/Training Regulations/indexed/Garbage Collection NC I",
+      "source_file": "resources/Training Regulations/Garbage Collection NC I.pdf",
+      "source_sha256": "a6cda4811eb231bb842f4ce5803eb01f5bacbd2608880b13bb930b7a32c68276",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:28:25+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "0b7baa3aaa24b042e410d716bf4274578d736f31",
+      "audit_notes": "Rebuilt 4/3/2 revised four-column groups with required knowledge and skills; restored 50 curriculum rows, 2 assessment arrangements, and 4 definition-term entries, preserved the Amended label and Promulgated June 16, 2015 with the 28/16/60-hour components and 104-hour total, indexed the source’s Definition of Common Terms section as glossary content, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
