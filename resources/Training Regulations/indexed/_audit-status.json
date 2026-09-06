@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T23:44:13+08:00",
+  "last_updated": "2026-09-06T23:58:48+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 225,
-  "remaining_unaudited": 159,
+  "audited_count": 230,
+  "remaining_unaudited": 154,
   "blocked_count": 0,
   "documents": [
     {
@@ -2933,6 +2933,71 @@
       "validation_passed": true,
       "last_audit_commit": "b5e90c2ee5cd5eb7109a8c6ee74635597b3fab6c",
       "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 37 curriculum rows, 4 assessment arrangements, and 2 definition-term entries, preserved the superseded lifecycle and absent promulgation date with the 18/24/80-hour components and 122-hour total, normalized the Section 3 common-unit curriculum order against the source learning-outcome content, rebuilt the unnumbered loading/hauling/dumping element headings for the productive-operation unit, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Road Roller) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Road Roller) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Road Roller) NC II.pdf",
+      "source_sha256": "6183cacbc494c58f764dbe80f441efd35a6c1f3af6a859554b23addc53921b97",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:58:48+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "d3235008831a9b48b9b9b7b82107ec82048fe20a",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 35 curriculum rows, 4 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and unreliable printed-page sequence, recorded the 18/24/120-hour components with 162-hour total, repaired the unnumbered criteria in the CON311202 technical-drawings unit, normalized the Section 3 common-unit curriculum order while retaining the Section 2 order, preserved the CON833308 versus CON5833308 code discrepancy and Road Roller [Compactor] variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Rough Terrain Crane) NC III",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Rough Terrain Crane) NC III",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Rough Terrain Crane) NC III.pdf",
+      "source_sha256": "0dae212824f7367c538e91ee3b007ff96617e410c77d47be9eac6565d93b5f54",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:58:48+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "d3235008831a9b48b9b9b7b82107ec82048fe20a",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 57 curriculum rows, 2 assessment arrangements, and 4 definition-term entries, preserved Revision 01, Promulgated (11/07/2019), the 40/24/160-hour components plus 40-hour Supervised Industry Learning (SIL) and 264-hour total, repaired the misspelled GLOSARRY heading for the canonical glossary while preserving source text, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Rough-Terrain Crane) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Rough-Terrain Crane) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Heavy Equipment Operation (Rough-Terrain Crane) NC II (Superseded).pdf",
+      "source_sha256": "1446486a7b98991924ac8a16238f252edaba9c060feab974c64c06378bd695db",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:58:48+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "d3235008831a9b48b9b9b7b82107ec82048fe20a",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 34 curriculum rows, 5 assessment arrangements, and 1 definition-term entry, preserved the superseded lifecycle, Promulgated July 2007, the Page 1 of 79 through Page 78 of 79 sequence, and the 18/18/120-hour components with 156-hour total, and retained Rough-Terrain terminology variants, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Screed) NC I",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Screed) NC I",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Screed) NC I.pdf",
+      "source_sha256": "0dc6b42caf3b462baba187894053299e02b0c248c43dd91fde29cb93b71b88e6",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:58:48+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "d3235008831a9b48b9b9b7b82107ec82048fe20a",
+      "audit_notes": "Rebuilt 4/4/2 historical two-column groups; restored 27 curriculum rows, 4 assessment arrangements, and 1 definition-term entry, preserved the absent promulgation date and unreliable printed-page sequence, recorded the 18/18/64-hour components with 100-hour total, restored the Section 1 code 500311103 where the Section 2 header was absent from extraction, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Tower Crane) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Tower Crane) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Heavy Equipment Operation (Tower Crane) NC II (Superseded).pdf",
+      "source_sha256": "ebd70397d854bc923057af0e84d67c83810471256033ac443cf838bb6fa622d4",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:58:48+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "d3235008831a9b48b9b9b7b82107ec82048fe20a",
+      "audit_notes": "Rebuilt 3/5/2 historical two-column groups; restored 29 curriculum rows, 6 assessment arrangements, and 17 definition-term entries, preserved the superseded lifecycle, Promulgated December 2004/July 2007, the 1 / 69 through 68 / 69 sequence, and the 18/18/120-hour components with 156-hour total, recorded the Section 4 Bulldozer qualification typo, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
