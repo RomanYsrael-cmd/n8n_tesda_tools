@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T02:01:33+08:00",
+  "last_updated": "2026-09-07T02:16:53+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 265,
-  "remaining_unaudited": 119,
+  "audited_count": 270,
+  "remaining_unaudited": 114,
   "blocked_count": 0,
   "documents": [
     {
@@ -3453,6 +3453,71 @@
       "validation_passed": true,
       "last_audit_commit": "1a5c3e78f9d2de5d04da4c0f6964d8eab8f535ee",
       "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 54 curriculum rows, 2 assessment arrangements, and 36 definition-term entries, preserved Revision 01, Promulgated (9/14/2021), the 1 through 107 printed-page sequence, the 37/40/181-hour components plus 80-hour Supervised Industry Learning (SIL), and 338-hour total, recorded the historical Shielded Metal Arc Welding (SMAW) terminology and source-printed ASSSSMENT heading, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Manual Metal Arc Welding (MMAW) NC III",
+      "package_path": "resources/Training Regulations/indexed/Manual Metal Arc Welding (MMAW) NC III",
+      "source_file": "resources/Training Regulations/Manual Metal Arc Welding (MMAW) NC III.pdf",
+      "source_sha256": "c1fda4da23a2c78def60c0c28c36b67e15b243b4a94e2e81a229f5e13e320d7b",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:16:53+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "75115297dbf54c8709b5db9d0e7ea93102e2ff96",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 59 curriculum rows, 2 assessment arrangements, and 44 definition-term entries, preserved Revision 01, Promulgated (9/14/2021), the 1 through 121 printed-page sequence, the 40/40/56-hour components plus 80-hour Supervised Industry Learning (SIL), and 216-hour total, repaired a competency unit split across a page boundary, retained the historical Shielded Metal Arc Welding (SMAW) terminology and source-printed ASSSSMENT heading, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Manual Metal Arc Welding (MMAW) NC IV",
+      "package_path": "resources/Training Regulations/indexed/Manual Metal Arc Welding (MMAW) NC IV",
+      "source_file": "resources/Training Regulations/Manual Metal Arc Welding (MMAW) NC IV.pdf",
+      "source_sha256": "445b8f5120905e249d8d1d191754ae8ebc55169431f4450242ab45e4aa7521d3",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:16:53+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "75115297dbf54c8709b5db9d0e7ea93102e2ff96",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 59 curriculum rows, 2 assessment arrangements, and 45 definition-term entries, preserved Revision 01, Promulgated (9/14/2021), the 1 through 119 printed-page sequence, the 47/40/56-hour components plus 80-hour Supervised Industry Learning (SIL), and 223-hour total, retained the historical Shielded Metal Arc Welding (SMAW) terminology and source-printed ASSSSMENT heading, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Marine Electricity NC II",
+      "package_path": "resources/Training Regulations/indexed/Marine Electricity NC II",
+      "source_file": "resources/Training Regulations/Marine Electricity NC II.pdf",
+      "source_sha256": "71cb68958982eeea8c88631d3a3fa5960c6545eaecc2089aab59558955133dbc",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:16:53+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "75115297dbf54c8709b5db9d0e7ea93102e2ff96",
+      "audit_notes": "Rebuilt 4/7/7 historical two-column groups; restored 65 curriculum rows, 5 assessment arrangements, and 26 definition-term entries, preserved Promulgated September 2008, the 1 through 108 printed-page sequence, the Suggested Nominal Training Duration of 18/24/300 hours with 342-hour total and its minimum-duration footnote, recorded the source-printed NATIONAL ASSESSSMENT heading and maritime terminology variants, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Masonry NC I",
+      "package_path": "resources/Training Regulations/indexed/Masonry NC I",
+      "source_file": "resources/Training Regulations/Masonry NC I.pdf",
+      "source_sha256": "20ad536c4cd29251687e94dd56ccc363b95d5bc61447c78f15869d34a5ce2aab",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:16:53+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "75115297dbf54c8709b5db9d0e7ea93102e2ff96",
+      "audit_notes": "Rebuilt 9/4/3 revised four-column groups with required knowledge and skills; restored 53 curriculum rows, 2 assessment arrangements, and 12 definition-term entries, preserved Revision 01, Promulgated (10/29/2018), the 1 through 115 printed-page sequence, and the 47/20/56-hour components with 123-hour total, corrected the source curriculum's 4.x/5.x common-unit numbering so CON311203 and CON311204 remain distinct, recorded the GLOSARRY/GLOSSARY heading variation and source-printed ASSSSMENT heading, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Masonry NC I (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Masonry NC I (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Masonry NC I (Superseded).pdf",
+      "source_sha256": "5428124e0314a842e804d354ca06012919355e468f40d6393bd59ef6a05d4758",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:16:53+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "75115297dbf54c8709b5db9d0e7ea93102e2ff96",
+      "audit_notes": "Rebuilt 4/4/2 superseded historical two-column groups; restored 42 curriculum rows, 5 assessment arrangements, and 18 definition-term entries, preserved the superseded lifecycle, undated source heading, the 1 through 61 printed-page sequence despite the stale TOC labels, and the 28/20/56-hour components with 104-hour arithmetic total, restored the missing 500311103 header code from Section 1, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
