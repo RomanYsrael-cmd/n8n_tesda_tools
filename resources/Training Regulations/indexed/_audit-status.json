@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T11:25:24+08:00",
+  "last_updated": "2026-09-06T11:46:16+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 35,
-  "remaining_unaudited": 349,
+  "audited_count": 40,
+  "remaining_unaudited": 344,
   "blocked_count": 0,
   "documents": [
     {
@@ -463,6 +463,71 @@
       "validation_passed": true,
       "last_audit_commit": "457bf745fcf7c0d1250358748d0ee74c1d78376f",
       "audit_notes": "Rebuilt 9/7/2 revised four-column groups; restored 55 curriculum rows, 315-hour duration arithmetic including 80-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving the Section 1 code gaps reflected by the source layout."
+    },
+    {
+      "package": "Auto Engine Rebuilding NC II",
+      "package_path": "resources/Training Regulations/indexed/Auto Engine Rebuilding NC II",
+      "source_file": "resources/Training Regulations/Auto Engine Rebuilding NC II.pdf",
+      "source_sha256": "d52937fb8877c144a5569f1e5c7f7e192b63bffab5b09998a1e6c3543c073535",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:46:16+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "d51c1320965d0cfba4e82fdf93c2f55a70fc6df6",
+      "audit_notes": "Rebuilt 4/6/10 historical two-column groups; restored 48 curriculum rows, normalized the 158-hour arithmetic sum, repaired assessment/fidelity metadata and selectors, and preserved the ALT723205/ALT723307 source-code variant."
+    },
+    {
+      "package": "Automotive Body Painting Finishing NC I",
+      "package_path": "resources/Training Regulations/indexed/Automotive Body Painting Finishing NC I",
+      "source_file": "resources/Training Regulations/Automotive Body Painting Finishing NC I.pdf",
+      "source_sha256": "50b0a85b01b46da70c13194047eac8c93dc2a0f9d47063fc59973bd7bddad409",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:46:16+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "d51c1320965d0cfba4e82fdf93c2f55a70fc6df6",
+      "audit_notes": "Rebuilt 4/6/4 historical two-column groups; restored 59 curriculum rows, repaired the repeated 3.1-3.3 numbering for the fourth common unit, preserved the ALT723205/ALT723305 source-code variant and missing date, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Body Painting Finishing NC III",
+      "package_path": "resources/Training Regulations/indexed/Automotive Body Painting Finishing NC III",
+      "source_file": "resources/Training Regulations/Automotive Body Painting Finishing NC III.pdf",
+      "source_sha256": "8099d584db5fe306d6594debc45527b26deac9249890cffae3b47293399afe41",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:46:16+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "d51c1320965d0cfba4e82fdf93c2f55a70fc6df6",
+      "audit_notes": "Rebuilt 6/8/2 historical two-column groups; restored 53 curriculum rows, preserved the Section 1 NC II heading variant and ALT311205/ALT723206 source-code variant, retained the missing date, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Body Repairing NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Body Repairing NC II",
+      "source_file": "resources/Training Regulations/Automotive Body Repairing NC II.pdf",
+      "source_sha256": "2914b9bbe3bcbd5b8c8db5f4a7d4b49fe16fa389dfd24a759f2fdcd57002fc84",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:46:16+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "d51c1320965d0cfba4e82fdf93c2f55a70fc6df6",
+      "audit_notes": "Rebuilt 9/7/3 revised four-column groups; restored 74 curriculum rows and required knowledge/skills, preserved the 895-hour total with 348-hour SIL and subtotal, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Automotive Diagnosis (Chassis) NC III",
+      "package_path": "resources/Training Regulations/indexed/Automotive Diagnosis (Chassis) NC III",
+      "source_file": "resources/Training Regulations/Automotive Diagnosis (Chassis) NC III.pdf",
+      "source_sha256": "136200b84b25c1efc91b7ab17863d63061c278f10dc04b6fe301cb64278d711d",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:46:16+08:00",
+      "issues_found": 12,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "d51c1320965d0cfba4e82fdf93c2f55a70fc6df6",
+      "audit_notes": "Rebuilt 9/7/6 revised four-column groups; restored 99 curriculum rows and required knowledge/skills, normalized black-circle source bullets, preserved the 372 printed total plus separate 150-hour SIL as a 522-hour arithmetic mismatch, and repaired assessment, fidelity metadata, and selectors."
     }
   ]
 }
