@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T16:39:49+08:00",
+  "last_updated": "2026-09-06T16:59:06+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 120,
-  "remaining_unaudited": 264,
+  "audited_count": 125,
+  "remaining_unaudited": 259,
   "blocked_count": 0,
   "documents": [
     {
@@ -1568,6 +1568,71 @@
       "validation_passed": true,
       "last_audit_commit": "5ad9661f44c854aa7b1eda03dc69796c340fbc07",
       "audit_notes": "Rebuilt 6/7/7 superseded historical two-column groups; restored 77 curriculum rows and 49 glossary entries, preserved the absent promulgation date, the 92/56/3351-hour components, 1056-hour embedded OJT, and printed 3499-hour total, recorded the source’s unnumbered pages after the last numbered definition-of-terms page, and retained the superseded lifecycle; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Dental Laboratory Technology Services (Fixed Dentures Restorations) NC II",
+      "package_path": "resources/Training Regulations/indexed/Dental Laboratory Technology Services (Fixed Dentures Restorations) NC II",
+      "source_file": "resources/Training Regulations/Dental Laboratory Technology Services (Fixed Dentures Restorations) NC II.pdf",
+      "source_sha256": "7073c8cfdc1717d5edd2f4cc8bcb3940d7b3c64c1d3b2d3fc36a9acc5d337fd6",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:59:06+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c9c53702da83e49208f21e06b48fc0bbfcc46cf5",
+      "audit_notes": "Rebuilt 4/5/4 historical two-column groups; restored 41 curriculum rows and 49 glossary entries, preserved the amended April 8, 2010 source with 18/46/744-hour components and 808-hour total, recorded source title and terminology variants, and retained the page-preserved source layer; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Dental Laboratory Technology Services (Removable Dentures Appliances) NC II",
+      "package_path": "resources/Training Regulations/indexed/Dental Laboratory Technology Services (Removable Dentures Appliances) NC II",
+      "source_file": "resources/Training Regulations/Dental Laboratory Technology Services (Removable Dentures Appliances) NC II.pdf",
+      "source_sha256": "617f40190b8cf8d13fa8b74af7419af1e715f7bb867da8119cb4d16f40008500",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:59:06+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c9c53702da83e49208f21e06b48fc0bbfcc46cf5",
+      "audit_notes": "Rebuilt 4/5/8 historical two-column groups; restored 58 curriculum rows and 49 glossary entries, preserved the amended April 8, 2010 source with 18/46/1382-hour components and 1446-hour total, repaired the page-split personal-computer unit boundary, recorded the Section 1 versus header core-order mismatch, and retained source variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Dental Laboratory Technology Services NC I",
+      "package_path": "resources/Training Regulations/indexed/Dental Laboratory Technology Services NC I",
+      "source_file": "resources/Training Regulations/Dental Laboratory Technology Services NC I.pdf",
+      "source_sha256": "03e0f7ad47fbb16941948b4212a02abee81f86106041ebdd850f362de701aee4",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:59:06+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c9c53702da83e49208f21e06b48fc0bbfcc46cf5",
+      "audit_notes": "Rebuilt 4/4/5 historical two-column groups; restored 48 curriculum rows and 64 glossary entries, preserved Promulgated April 2008 and 18/28/930-hour components with 976-hour total, recorded source title and terminology variants, and retained the highest numbered source page separately from unnumbered tail pages; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Dental Technology NC IV",
+      "package_path": "resources/Training Regulations/indexed/Dental Technology NC IV",
+      "source_file": "resources/Training Regulations/Dental Technology NC IV.pdf",
+      "source_sha256": "e5adf4d75dd74742bbb496adf33376fdb530acd4203b48d71f886598ee3e4389",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:59:06+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "c9c53702da83e49208f21e06b48fc0bbfcc46cf5",
+      "audit_notes": "Rebuilt 14/9/20 historical two-column groups; restored 151 curriculum rows and 48 glossary entries, preserved the printed 3499-hour program plus separate 1056-hour OJT as a 4555-hour combined duration, repaired the repeated basic-unit outcome numbering in the curriculum, recorded the Section 1 versus header core-order mismatch and embedded qualifications, and retained source variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Die Designing NC IV",
+      "package_path": "resources/Training Regulations/indexed/Die Designing NC IV",
+      "source_file": "resources/Training Regulations/Die Designing NC IV.pdf",
+      "source_sha256": "edc5e777bf066278e85ea24d761b5558b5577be84432f1c78572d85b49d217db",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:59:06+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c9c53702da83e49208f21e06b48fc0bbfcc46cf5",
+      "audit_notes": "Rebuilt 9/11/5 revised four-column groups with required knowledge and skills; restored 98 curriculum rows and all 17 glossary entries, preserved Revision 00 Promulgated 05/21/2019 and 47/120/257-hour components with 424-hour total, normalized the line-wrapped glossary terms while retaining source text, and recorded printed title and terminology variants; structural validation and visual boundary QA passed."
     }
   ]
 }
