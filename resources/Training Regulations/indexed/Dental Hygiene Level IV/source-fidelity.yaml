@@ -1,29 +1,237 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:dental-hygiene-level-iv:c520d0b2be",
   "qualification": "DENTAL HYGIENE LEVEL IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Dental Hygiene Level IV.pdf",
-    "sha256": "c520d0b2be52c698e646f08301e0936613d958b9e5d51a0552a5736b63118b8c",
+    "source_sha256": "c520d0b2be52c698e646f08301e0936613d958b9e5d51a0552a5736b63118b8c",
+    "pdf_pages": 203,
+    "printed_pages": 202,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills fields.",
+    "The source prints Revision 01 Promulgated (01/11/2019); the canonical promulgated field preserves the literal date because its day/month ordering is not disambiguated.",
+    "The source prints 3499 total hours including 1056 hours OJT, alongside 92 Basic, 56 Common, and 3351 Core hours; the canonical total preserves the printed 3499 while recording OJT as an embedded component rather than adding it to the total.",
+    "Section 1 prints 5003311401 through 5003311409 for the basic units and HHC322201/HHC322204/HHC322205 for three common units, while Section 2 headers print 500311401 through 500311409 and HHC346201/HHC346204/HHC346205; canonical codes follow the qualification inventory and source_unit_code preserves each header code.",
+    "The source uses title variants including customers and clients versus clients and customers, radiology biology versus radiation biology, and patients/clients service; source_text preserves the printed forms while the indexed titles follow the Section 1 inventory."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 01 Promulgated (01/11/2019); the canonical promulgated field preserves the literal date because its day/month ordering is not disambiguated."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 3499 total hours including 1056 hours OJT, alongside 92 Basic, 56 Common, and 3351 Core hours; the canonical total preserves the printed 3499 while recording OJT as an embedded component rather than adding it to the total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints 5003311401 through 5003311409 for the basic units and HHC322201/HHC322204/HHC322205 for three common units, while Section 2 headers print 500311401 through 500311409 and HHC346201/HHC346204/HHC346205; canonical codes follow the qualification inventory and source_unit_code preserves each header code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title variants including customers and clients versus clients and customers, radiology biology versus radiation biology, and patients/clients service; source_text preserves the printed forms while the indexed titles follow the Section 1 inventory."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Dental Hygiene Level IV.pdf",
-    "pdf_pages": 203,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "5003311401",
+      "source_unit_code": "500311401",
+      "pdf_page_range": [
+        6,
+        11
+      ]
+    },
+    {
+      "unit_code": "5003311402",
+      "source_unit_code": "500311402",
+      "pdf_page_range": [
+        12,
+        17
+      ]
+    },
+    {
+      "unit_code": "5003311403",
+      "source_unit_code": "500311403",
+      "pdf_page_range": [
+        18,
+        23
+      ]
+    },
+    {
+      "unit_code": "5003311404",
+      "source_unit_code": "500311404",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "5003311405",
+      "source_unit_code": "500311405",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "5003311406",
+      "source_unit_code": "500311406",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "5003311407",
+      "source_unit_code": "500311407",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "5003311408",
+      "source_unit_code": "500311408",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "5003311409",
+      "source_unit_code": "500311409",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "HHC516201",
+      "source_unit_code": "HHC516201",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "HHC516202",
+      "source_unit_code": "HHC516202",
+      "pdf_page_range": [
+        50,
+        53
+      ]
+    },
+    {
+      "unit_code": "HHC322201",
+      "source_unit_code": "HHC346201",
+      "pdf_page_range": [
+        54,
+        59
+      ]
+    },
+    {
+      "unit_code": "HHC322204",
+      "source_unit_code": "HHC346204",
+      "pdf_page_range": [
+        60,
+        63
+      ]
+    },
+    {
+      "unit_code": "HHC322205",
+      "source_unit_code": "HHC346205",
+      "pdf_page_range": [
+        64,
+        70
+      ]
+    },
+    {
+      "unit_code": "HHC323203",
+      "source_unit_code": "HHC323203",
+      "pdf_page_range": [
+        71,
+        76
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        77,
+        83
+      ]
+    },
+    {
+      "unit_code": "HHC325301",
+      "source_unit_code": "HHC325301",
+      "pdf_page_range": [
+        84,
+        91
+      ]
+    },
+    {
+      "unit_code": "HHC325302",
+      "source_unit_code": "HHC325302",
+      "pdf_page_range": [
+        92,
+        97
+      ]
+    },
+    {
+      "unit_code": "HHC325303",
+      "source_unit_code": "HHC325303",
+      "pdf_page_range": [
+        98,
+        106
+      ]
+    },
+    {
+      "unit_code": "HHC325304",
+      "source_unit_code": "HHC325304",
+      "pdf_page_range": [
+        107,
+        113
+      ]
+    },
+    {
+      "unit_code": "HHC325305",
+      "source_unit_code": "HHC325305",
+      "pdf_page_range": [
+        114,
+        119
+      ]
+    },
+    {
+      "unit_code": "HHC325306",
+      "source_unit_code": "HHC325306",
+      "pdf_page_range": [
+        120,
+        125
+      ]
+    },
+    {
+      "unit_code": "HHC325307",
+      "source_unit_code": "HHC325307",
+      "pdf_page_range": [
+        126,
+        130
+      ]
+    }
+  ]
 }

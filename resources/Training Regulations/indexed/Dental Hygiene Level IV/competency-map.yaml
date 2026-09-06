@@ -4,107 +4,74 @@
   "document_id": "tesda:tr:dental-hygiene-level-iv:c520d0b2be",
   "qualification": "DENTAL HYGIENE LEVEL IV",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311401",
-        "title": ":"
-      },
-      {
-        "unit_code": "HHC323203",
-        "title": "This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "ICT311201",
-        "title": "This unit defines the competency required to operate a"
-      },
-      {
-        "unit_code": "HHC325301",
-        "title": "This unit covers the knowledge, skills and attitudes required to"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HHC516201",
-        "title": "This unit covers the knowledge, skills and attitudes and values"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311402",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311403",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311404",
-        "title": ": This unit covers ways and means to assume active"
-      },
-      {
-        "unit_code": "500311405",
-        "title": "This unit covers the knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "500311406",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311407",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311408",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311409",
-        "title": ":"
-      },
-      {
-        "unit_code": "HHC516202",
-        "title": "This unit of competency covers the knowledge, skills and"
-      },
-      {
-        "unit_code": "HHC346201",
-        "title": "This unit covers the knowledge, skills and attitudes required in"
-      },
-      {
-        "unit_code": "HHC346204",
-        "title": "This unit covers the knowledge, skills and attitudes required in"
-      },
-      {
-        "unit_code": "HHC346205",
-        "title": "This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "HHC325302",
-        "title": "This unit covers the knowledge, skills and attitude required"
-      },
-      {
-        "unit_code": "HHC325303",
-        "title": "This unit covers the knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "HHC325304",
-        "title": "This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "HHC325305",
-        "title": "This unit covers the knowledge, skills and attitudes require"
-      },
-      {
-        "unit_code": "HHC325306",
-        "title": "This unit covers the knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "HHC325307",
-        "title": "This unit of competency deals with the knowledge, skills and"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP – HUMAN HEALTH/HEALTH CARE SECTOR (DENTAL HYGIENE LEVEL IV)\n\nBASIC COMPETENCIES\n\nUtilize specialized\ncommunication skills\nDevelop and lead\nteams\nPerform higher-\norder thinking\nprocesses and\napply techniques in\nthe workplace\nContribute to the\npractice of social\njustice in the\nworkplace\nManage innovative\nwork instructions\nManage and evaluate\nusage of information\nLead in\nimprovement of\nOccupational Safety\nand Health (OSH)\nprograms, policies\nand procedures\nLead towards\nimprovement of\nenvironment work\nprograms, policies and\nprocedures\nSustain\nentrepreneurial skills\n\nCOMMON COMPETENCIES\n\nMaintain an effective\nrelationship with\ncustomers and clients\nManage own\nperformance\nMaintain\ninstruments and\nequipment in work\narea\nFollow occupational\nhealth and safety\npolicies in dental\nlaboratory facilities\nMaintain infection\ncontrol in dental\npractice\nApply basic first aid\nOperate a personal\ncomputer\n\nCORE COMPETENCIES\n\nPerform oral\nexamination\nPromote oral health\nand hygiene\nOperate a dental\nradiographic\nequipment\nApply the principle\nof radiology biology\nand protection in\ndental practice\nPerform scaling and\npolishing\nMaintain dental\nrecords and\nresources\nProvide effective\npatient/client service\n\n--- PDF PAGE 197 ---\nDENTAL HYGIENE NC IV Revision 01 Promulgated (mm/dd/yyyy)\n193",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "5003311401",
+        "5003311402",
+        "5003311403",
+        "5003311404",
+        "5003311405",
+        "5003311406",
+        "5003311407",
+        "5003311408",
+        "5003311409"
+      ],
+      "unit_titles": [
+        "Utilize specialized communication skills",
+        "Develop and lead teams",
+        "Perform higher-order thinking processes and apply techniques in the workplace",
+        "Contribute to the practice of social justice in the workplace",
+        "Manage innovative work instructions",
+        "Manage and evaluate usage of information",
+        "Lead in improvement of Occupational Safety and Health (OSH) programs, policies and procedures",
+        "Lead towards improvement of environment work programs, policies and procedures",
+        "Sustain entrepreneurial skills"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HHC516201",
+        "HHC516202",
+        "HHC322201",
+        "HHC322204",
+        "HHC322205",
+        "HHC323203",
+        "ICT311201"
+      ],
+      "unit_titles": [
+        "Maintain an effective relationship with customers and clients",
+        "Manage own performance",
+        "Maintain instruments and equipment in work area",
+        "Follow occupational health and safety policies in dental laboratory facilities",
+        "Maintain infection control in dental practice",
+        "Apply basic first aid",
+        "Operate a personal computer"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HHC325301",
+        "HHC325302",
+        "HHC325303",
+        "HHC325304",
+        "HHC325305",
+        "HHC325306",
+        "HHC325307"
+      ],
+      "unit_titles": [
+        "Perform oral examination",
+        "Promote oral health and hygiene",
+        "Operate a dental radiographic equipment",
+        "Apply the principle of radiology biology and protection in dental practice",
+        "Perform scaling and polishing",
+        "Maintain dental records and resources",
+        "Provide effective patient/client service"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 DENTAL HYGIENE LEVEL IV\n\nThis DENTAL HYGIENE LEVEL IV consists of competencies relating to\nrendering oral health promotion and preventive measures, performing oral\nexamination and prophylaxis, taking brief clinical history, taking radiographs, giving\noral-health education to patients, managing dental records and resources and\nproviding effective patient/client service.\nThe Units of Competency comprising this qualification include the following:\n\nUNIT CODE\nBASIC COMPETENCIES\n5003311401\nUtilize specialized communication skills\n5003311402\nDevelop and lead teams\n5003311403\nPerform higher-order thinking processes and apply techniques in the\nworkplace\n5003311404\nContribute to the practice of social justice in the workplace\n5003311405\nManage innovative work instructions\n5003311406\nManage and evaluate usage of information\n5003311407\nLead in improvement of Occupational Safety and Health (OSH) programs,\npolicies and procedures\n5003311408\nLead towards improvement of environment work programs, policies and\nprocedures\n5003311409\nSustain entrepreneurial skills\n\nUNIT CODE\nCOMMON COMPETENCIES\nHHC516201\nMaintain an effective relationship with customers and clients\nHHC516202\nManage own performance\nHHC322201\nMaintain instruments and equipment in work area\nHHC322204\nFollow occupational health and safety policies in dental laboratory facilities\nHHC322205\nMaintain infection control in dental practice\nHHC323203\nApply basic first aid\nICT311201\nOperate a personal computer\n\nUNIT CODE\nCORE COMPETENCIES\nHHC325301\nPerform oral examination\nHHC325302\nPromote oral health and hygiene\nHHC325303\nOperate a dental radiographic equipment\nHHC325304\nApply the principle of radiology biology and protection in dental practice\nHHC325305\nPerform scaling and polishing\nHHC325306\nMaintain dental records and resources\nHHC325307\nProvide effective patient/client service\n\nOccupational/Job titles corresponding to this qualification may include:\n\n❑ Dental Hygienist\n❑ Dental Assistant\n\nThe national practice of this qualification requires a license from the Board of\nDentistry – Professional Regulation Commission.\n\n--- PDF PAGE 6 ---\nDENTAL HYGIENE LEVEL IV Revision 01 Promulgated (01/11/2019) 2"
 }

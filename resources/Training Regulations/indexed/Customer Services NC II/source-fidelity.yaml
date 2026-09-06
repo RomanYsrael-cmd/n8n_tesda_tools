@@ -1,29 +1,173 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:customer-services-nc-ii:2008-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:customer-services-nc-ii:bd6196dc0e",
   "qualification": "CUSTOMER SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Customer Services NC II.pdf",
-    "sha256": "bd6196dc0e78542ef59001f3b1c188c4db863306c9029e6d215f689fcfeb3f05",
+    "source_sha256": "bd6196dc0e78542ef59001f3b1c188c4db863306c9029e6d215f689fcfeb3f05",
+    "pdf_pages": 95,
+    "printed_pages": 93,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints Promulgated December 2008; the canonical promulgated field preserves the month/year literal.",
+    "The source prints 18 Basic, 18 Common, 120 Core, and 80 Elective hours without a separate grand-total line; the canonical total of 236 hours is the arithmetic sum of the printed components.",
+    "Section 1 lists WRT311202 for Perform computer operations and WRT311203 for Perform workplace security and safety practices, while the corresponding source headers print WRT311203 and WRT311204; canonical codes follow Section 1 and source_unit_code preserves each header code.",
+    "The source uses title, punctuation, capitalization, and spelling variants including CUSTOMER SERVICES NC- II, retail equipments, merchandizing, and food-products wording; source_text preserves the printed forms while the indexed inventory follows the qualification list."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated December 2008; the canonical promulgated field preserves the month/year literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, 120 Core, and 80 Elective hours without a separate grand-total line; the canonical total of 236 hours is the arithmetic sum of the printed components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists WRT311202 for Perform computer operations and WRT311203 for Perform workplace security and safety practices, while the corresponding source headers print WRT311203 and WRT311204; canonical codes follow Section 1 and source_unit_code preserves each header code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title, punctuation, capitalization, and spelling variants including CUSTOMER SERVICES NC- II, retail equipments, merchandizing, and food-products wording; source_text preserves the printed forms while the indexed inventory follows the qualification list."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Customer Services NC II.pdf",
-    "pdf_pages": 95,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        19
+      ]
+    },
+    {
+      "unit_code": "WRT311201",
+      "source_unit_code": "WRT311201",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "WRT311202",
+      "source_unit_code": "WRT311203",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "WRT311203",
+      "source_unit_code": "WRT311204",
+      "pdf_page_range": [
+        27,
+        30
+      ]
+    },
+    {
+      "unit_code": "WRT522301",
+      "source_unit_code": "WRT522301",
+      "pdf_page_range": [
+        31,
+        36
+      ]
+    },
+    {
+      "unit_code": "WRT522302",
+      "source_unit_code": "WRT522302",
+      "pdf_page_range": [
+        37,
+        42
+      ]
+    },
+    {
+      "unit_code": "WRT522303",
+      "source_unit_code": "WRT522303",
+      "pdf_page_range": [
+        43,
+        47
+      ]
+    },
+    {
+      "unit_code": "WRT522304",
+      "source_unit_code": "WRT522304",
+      "pdf_page_range": [
+        48,
+        53
+      ]
+    },
+    {
+      "unit_code": "WRT522305",
+      "source_unit_code": "WRT522305",
+      "pdf_page_range": [
+        54,
+        57
+      ]
+    },
+    {
+      "unit_code": "WRT522306",
+      "source_unit_code": "WRT522306",
+      "pdf_page_range": [
+        58,
+        62
+      ]
+    },
+    {
+      "unit_code": "WRT522307",
+      "source_unit_code": "WRT522307",
+      "pdf_page_range": [
+        63,
+        70
+      ]
+    },
+    {
+      "unit_code": "WRT522308",
+      "source_unit_code": "WRT522308",
+      "pdf_page_range": [
+        71,
+        76
+      ]
+    }
+  ]
 }
