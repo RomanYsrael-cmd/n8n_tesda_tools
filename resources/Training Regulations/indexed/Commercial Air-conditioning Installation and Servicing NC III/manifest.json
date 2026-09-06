@@ -1,33 +1,33 @@
 {
   "schema": "tesda-indexed-training-regulation-manifest",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:commercial-air-conditioning-installation-and-servicing-nc-iii:2021-06-08",
-  "qualification": "Commercial Air-conditioning Installation and Servicing NC III",
-  "promulgated": "2021-06-08",
+  "document_id": "tesda:tr:commercial-air-conditioning-installation-and-servicing-nc-iii:19b93da68e",
+  "qualification": "COMMERCIAL AIR-CONDITIONING INSTALLATION AND SERVICING NC III",
+  "promulgated": "June 8, 2021",
   "coverage_status": "complete",
   "representation_type": "semantic_normalized",
   "verbatim_transcription": false,
   "lifecycle": {
     "status": "unclear",
     "verified_on": null,
-    "verification_basis": "No external lifecycle determination was made; local source evidence does not explicitly label status."
+    "verification_basis": "Local source package classification; official source PDF remains authoritative."
   },
   "source": {
     "authority": "Technical Education and Skills Development Authority (TESDA)",
     "source_file": "Commercial Air-conditioning Installation and Servicing NC III.pdf",
     "source_sha256": "19b93da68e0ebe0aaaf24cd826d2e0b8524dfb5c6f2c36a0f2b2ff00581f0a2a",
     "pdf_pages": 133,
-    "printed_pages": null,
+    "printed_pages": 128,
     "authoritative": true
   },
   "coverage": {
     "qualification": true,
     "competency_standards": {
-      "basic_units": 4,
-      "common_units": 0,
-      "core_units": 1,
-      "other_units": 16,
-      "total_units": 21,
+      "basic_units": 9,
+      "common_units": 9,
+      "core_units": 4,
+      "other_units": 0,
+      "total_units": 22,
       "descriptors": true,
       "elements": true,
       "performance_criteria": true,
@@ -41,21 +41,21 @@
       "trainee_entry_requirements": true,
       "tools_equipment_materials": true,
       "training_facilities": true,
-      "trainer_qualifications": false,
+      "trainer_qualifications": true,
       "institutional_assessment": true
     },
     "assessment_and_certification": true,
     "competency_map": true,
-    "glossary": false,
+    "glossary": true,
     "acknowledgements": true
   },
   "fidelity": {
     "competency_units": "normalized_with_source_text",
     "performance_criteria": "numbered_normalized_with_source_text",
-    "range_of_variables": "structured_when_detectable_with_source_text",
-    "evidence_guides": "preserved_source_text",
-    "training_standards": "preserved_source_text",
-    "assessment_certification": "preserved_source_text",
+    "range_of_variables": "structured_with_source_text",
+    "evidence_guides": "structured_with_source_text",
+    "training_standards": "preserved_source_text_with_curriculum_rows",
+    "assessment_certification": "numbered_normalized_with_source_text",
     "glossary": "normalized_with_source_text",
     "acknowledgements": "normalized_entities_with_source_text"
   },
@@ -81,10 +81,6 @@
   "retrieval": {
     "preferred_lookup_key": "unit_code",
     "index_format": "jsonl",
-    "canonical_formats": [
-      "markdown",
-      "yaml"
-    ],
     "selector_contract": "semantic-index-v1",
     "whole_pdf_required_for_normal_lookup": false,
     "official_pdf_required_for_regulatory_verification": true
@@ -95,7 +91,7 @@
     "json_valid": true,
     "selectors_valid": true,
     "no_placeholders": true,
-    "competency_count": 21,
+    "competency_count": 22,
     "validated_on": "2026-09-06"
   }
 }

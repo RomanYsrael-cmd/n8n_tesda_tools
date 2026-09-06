@@ -1,96 +1,69 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:commercial-cooking-nc-iv:2007-04",
-  "qualification": "COMMERCIAL COOKING NC IV",
+  "document_id": "tesda:tr:commercial-cooking-nc-iv-superseded:27776746cf",
+  "qualification": "COMMERCIAL COOKING NC IV (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311115",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512363",
-        "title": "evaluation of a food safety program for a hospitality or"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "TRS311210",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "TRS512355",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311116",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311117",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311118",
-        "title": "interpret and organize workplace information and other"
-      },
-      {
-        "unit_code": "500311119",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311120",
-        "title": "in adhering to environmental protection principles, strategies"
-      },
-      {
-        "unit_code": "TRS311211",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311212",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311213",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512356",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512357",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512358",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512359",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512360",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512361",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512362",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP - TOURISM Sector\n(Hotels and Restaurants)\n COMMERCIAL COOKING NC IV\n\nANNEX A\nCollect,\nanalyze and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nUtilize\nspecialized\ncommunication\nskills\nDevelop teams\nand individuals\nApply problem-\nsolving\ntechniques in\nthe workplace\nUse\nmathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nLead small\nteams\nDevelop and\npractice\nnegotiation\nskills\nSolve\nproblems\nrelated to work\nactivities\nPractice career\nprofessionalism\nPractice\noccupational\nhealth and safety\npractices\nLead\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nWork in team\nenvironment\nRoster staff\nControl and\norder stock\nPerform\ncomputer\noperations\nPerform\nworkplace and\nsafety practices\nProvide\neffective\ncustomer\nservice\nDevelop and\nupdate\nindustry\nknowledge\nObserve\nworkplace\nhygiene\nprocedures\n\nPrepare, cook\nand serve food\nfor menus\nPrepare\nappetizers and\nsalads\nPrepare\nsandwiches\nSelect, prepare\nand cook meat\nReceive and\nstore kitchen\nsupplies\nPrepare\nstocks, sauces\nand soups\nClean and\nmaintain\nkitchen\npremises\nOrganize and\nprepare food\nPrepare\nvegetables,\nfruits, eggs\nand starch\nproducts\n\nPresent food\nPackage\nprepared\nfoodstuffs\nPlan and\nprepare food\nfor ala carte\nand buffets\nPrepare and\ncook seafood\nPrepare hot and\ncold desserts\nPrepare\npastry, cakes,\nand yeast-\nbased\nproducts\nPrepare and\ncook poultry\nand game\nPrepare and\nportion\ncontrolled\nmeat cuts\nPlan and\ncontrol menu-\nbased catering\n\nMonitor\ncatering\nrevenue and\ncosts\nEstablish and\nmaintain\nquality control\nApply cook-\nchill-freeze\nproduction\nprocesses\nPlan, prepare\nand display ala\ncarte and buffet\nSelect, prepare\nand serve\nspecialized food\nitems\nSelect,\nprepare and\nserve specialty\ncuisines\nOrganize bulk\ncooking\noperations\nPrepare pates\nand terrines\nPrepare foods\naccording to\ndietary and\ncultural needs\n\nPlan the\ncatering for an\nevent or\nfunction\nDesign menus\nto meet market\nneeds\nDevelop a food\nsafety program\nDevelop menus\nto meet special\ndietary and\ncultural needs\nSelect catering\nsystems\nManage facilities\nassociated with\ncommercial\ncatering\ncontracts\nTransport and\nstore food in a\nsafe and hygienic\nmanner\nApply catering\ncontrol\nprinciples\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nEstablish and\nconduct\nbusiness\nrelationships\nTrain small\ngroups\nConduct\nassessment\nManage\nworkplace\ndiversity\nManage\nfinances within\na budget\nManage\nquality\ncustomer\nservice\n\n--- PDF PAGE 120 ---\n_______________________________________________________________________________________________118\nTR - COMMERCIAL COOKING NC IV Promulgated April 2007",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311115",
+        "500311116",
+        "500311117",
+        "500311118",
+        "500311119",
+        "500311120"
+      ],
+      "unit_titles": [
+        "Utilize specialized communication skills",
+        "Develop teams and individuals",
+        "Apply problem solving techniques in the workplace",
+        "Collect, analyze and organize information",
+        "Plan and organize work",
+        "Promote environmental protection"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311210",
+        "TRS311211",
+        "TRS311212",
+        "TRS311213"
+      ],
+      "unit_titles": [
+        "Conduct assessment",
+        "Manage workplace diversity",
+        "Manage finances within a budget",
+        "Manage quality customer service"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "TRS512355",
+        "TRS512356",
+        "TRS512357",
+        "TRS512358",
+        "TRS512359",
+        "TRS512360",
+        "TRS512361",
+        "TRS512362",
+        "TRS512363"
+      ],
+      "unit_titles": [
+        "Prepare foods according to dietary and cultural needs",
+        "Transport and store food in a safe and hygienic manner",
+        "Apply catering control principles",
+        "Develop menus to meet special dietary and cultural needs",
+        "Select catering systems",
+        "Manage facilities associated with commercial catering contracts",
+        "Plan the catering for an event or function",
+        "Design menus to meet market needs",
+        "Develop a food safety program"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 COMMERCIAL COOKING NC IV QUALIFICATION\n\nThe Commercial Cooking NC IV Qualification consists of competencies that a\nperson must achieve to plan and prepare foods to meet special dietary and cultural\nneeds; designs menus, plan and implement a food safety program and catering event;\nand manage a team of cooks for guests in hotels, motels, restaurants, clubs, canteens,\nresorts, luxury liners and cruise ships within the company’s acceptable standards.\nHe/she is also able to implement and/or execute plans and monitor expenses to\ngenerate the required gross profit margins.\n\nThis Qualification is packaged from the competency map of the Tourism Sector\n(Hotels and Restaurants) as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\n .\nCODE NO.\nBASIC COMPETENCIES\n\n500311115\nUtilize specialized communication skills\n500311116\nDevelop teams and individuals\n500311117\nApply problem solving techniques in the workplace\n500311118\nCollect, analyze and organize information\n500311119\nPlan and organize work\n500311120\nPromote environmental protection\n\nCODE NO.\nCOMMON COMPETENCIES\n\n TRS311210\nConduct assessment\n TRS311211 Manage workplace diversity\n TRS311212\nManage finances within a budget\n TRS311213\nManage quality customer service\n\n--- PDF PAGE 4 ---\n_______________________________________________________________________________________________2\nTR - COMMERCIAL COOKING NC IV Promulgated April 2007\n\nCODE NO.\nCORE COMPETENCIES\n\nTRS512355\nPrepare foods according to dietary and cultural needs\nTRS512356\nTransport and store food in a safe and hygienic manner\nTRS512357\nApply catering control principles\nTRS512358\nDevelop menus to meet special dietary and cultural needs\nTRS512359\nSelect catering systems\nTRS512360\nManage facilities associated with commercial catering\ncontracts\nTRS512361\nPlan the catering for an event or function\nTRS512362\nDesign menus to meet market needs\nTRS512363\nDevelop a food safety program\n\nA person who has achieved this Qualification is competent to be a/an:\n\n Sous Chef\n Executive Sous Chef\n Restaurant Chef\n\n--- PDF PAGE 5 ---\n_______________________________________________________________________________________________3\nTR - COMMERCIAL COOKING NC IV Promulgated April 2007"
 }

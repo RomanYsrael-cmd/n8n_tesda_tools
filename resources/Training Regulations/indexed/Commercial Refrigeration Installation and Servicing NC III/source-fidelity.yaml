@@ -1,29 +1,229 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:commercial-refrigeration-installation-and-servicing-nc-iii:2021-06-08",
-  "qualification": "Commercial Refrigeration Installation and Servicing NC III",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:commercial-refrigeration-installation-and-servicing-nc-iii:afebad2265",
+  "qualification": "COMMERCIAL REFRIGERATION INSTALLATION AND SERVICING NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Commercial Refrigeration Installation and Servicing NC III.pdf",
-    "sha256": "afebad2265cd1fe48f48a02e0e6ceca7edd8ab334a6446c5d5b84a5bb2b94f5f",
+    "source_sha256": "afebad2265cd1fe48f48a02e0e6ceca7edd8ab334a6446c5d5b84a5bb2b94f5f",
+    "pdf_pages": 136,
+    "printed_pages": 131,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Promulgated: June 8, 2021 in its running header, while a Section 3 footer prints May 2021; the canonical promulgated field follows the running/header date and source_text preserves both forms.",
+    "The source prints 40 Basic, 40 Common, and 240 Core hours, labels Core as inclusive of SIL, then prints 400 hours of Supervised Industry Learning (SIL) and 720 hours total training duration; the canonical duration preserves all printed components and records the SIL wording ambiguity.",
+    "The source Section 1 lists HVC311204 for Maintain tools, instruments and equipment and HVC315201 for Perform housekeeping and safety practices, while the corresponding source headers print HVC311205 and HVC7315201; canonical codes follow Section 1 and source_unit_code preserves the header codes.",
+    "The source table of contents and Section 1 contain title variants including COMMERICAL and Installation & Servicing; source_text preserves the printed forms while the indexed qualification follows the package title."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated: June 8, 2021 in its running header, while a Section 3 footer prints May 2021; the canonical promulgated field follows the running/header date and source_text preserves both forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 40 Basic, 40 Common, and 240 Core hours, labels Core as inclusive of SIL, then prints 400 hours of Supervised Industry Learning (SIL) and 720 hours total training duration; the canonical duration preserves all printed components and records the SIL wording ambiguity."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source Section 1 lists HVC311204 for Maintain tools, instruments and equipment and HVC315201 for Perform housekeeping and safety practices, while the corresponding source headers print HVC311205 and HVC7315201; canonical codes follow Section 1 and source_unit_code preserves the header codes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source table of contents and Section 1 contain title variants including COMMERICAL and Installation & Servicing; source_text preserves the printed forms while the indexed qualification follows the package title."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Commercial Refrigeration Installation and Servicing NC III.pdf",
-    "pdf_pages": 136,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        12,
+        16
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        34,
+        35
+      ]
+    },
+    {
+      "unit_code": "HVC713201",
+      "source_unit_code": "HVC713201",
+      "pdf_page_range": [
+        36,
+        37
+      ]
+    },
+    {
+      "unit_code": "HVC311202",
+      "source_unit_code": "HVC311202",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "HVC311201",
+      "source_unit_code": "HVC311201",
+      "pdf_page_range": [
+        42,
+        43
+      ]
+    },
+    {
+      "unit_code": "HVC311203",
+      "source_unit_code": "HVC311203",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "HVC713202",
+      "source_unit_code": "HVC713202",
+      "pdf_page_range": [
+        48,
+        51
+      ]
+    },
+    {
+      "unit_code": "HVC724201",
+      "source_unit_code": "HVC724201",
+      "pdf_page_range": [
+        52,
+        54
+      ]
+    },
+    {
+      "unit_code": "HVC311204",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        55,
+        58
+      ]
+    },
+    {
+      "unit_code": "HVC315201",
+      "source_unit_code": "HVC7315201",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    },
+    {
+      "unit_code": "HVC311205",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        64,
+        65
+      ]
+    },
+    {
+      "unit_code": "HVC723341",
+      "source_unit_code": "HVC723341",
+      "pdf_page_range": [
+        66,
+        71
+      ]
+    },
+    {
+      "unit_code": "HVC723343",
+      "source_unit_code": "HVC723343",
+      "pdf_page_range": [
+        72,
+        78
+      ]
+    },
+    {
+      "unit_code": "HVC723345",
+      "source_unit_code": "HVC723345",
+      "pdf_page_range": [
+        79,
+        84
+      ]
+    },
+    {
+      "unit_code": "HVC723347",
+      "source_unit_code": "HVC723347",
+      "pdf_page_range": [
+        85,
+        89
+      ]
+    }
+  ]
 }

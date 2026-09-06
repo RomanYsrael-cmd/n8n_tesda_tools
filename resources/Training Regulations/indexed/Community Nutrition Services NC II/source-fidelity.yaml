@@ -1,29 +1,202 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:community-nutrition-services-nc-ii:a429753c32",
   "qualification": "COMMUNITY NUTRITION SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Community Nutrition Services NC II.pdf",
-    "sha256": "a429753c32a793cfbc3cc4834d872262f858fbdc57a73e41c947def4e4fbe96c",
+    "source_sha256": "a429753c32a793cfbc3cc4834d872262f858fbdc57a73e41c947def4e4fbe96c",
+    "pdf_pages": 177,
+    "printed_pages": 172,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Promulgated (05/2022); the canonical promulgated field preserves the printed month-year literal.",
+    "The source prints 37 Basic, 112 Common, and 177 Core hours for a 326-hour subtotal, followed by 160 hours of Supervised Industry Learning (SIL); the canonical total of 486 hours is the arithmetic sum of all printed components.",
+    "The source uses title variants including Maintain high standard of patient/client services in Section 1 versus the pluralized competency header, and prints the course-description typo must be achieve; source_text preserves those forms while the indexed title follows Section 1.",
+    "The source includes health-sector terminology and references to OPT Plus, BNAP, Data Privacy, and COVID-19 protocols in the competency standards; these source details are retained in the extracted source layer.",
+    "The Work in a team environment page prints the Required Knowledge heading as KN1OWLEDGE; structured extraction normalizes only that heading while source_text preserves the source spelling."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated (05/2022); the canonical promulgated field preserves the printed month-year literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 112 Common, and 177 Core hours for a 326-hour subtotal, followed by 160 hours of Supervised Industry Learning (SIL); the canonical total of 486 hours is the arithmetic sum of all printed components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title variants including Maintain high standard of patient/client services in Section 1 versus the pluralized competency header, and prints the course-description typo must be achieve; source_text preserves those forms while the indexed title follows Section 1."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source includes health-sector terminology and references to OPT Plus, BNAP, Data Privacy, and COVID-19 protocols in the competency standards; these source details are retained in the extracted source layer."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Work in a team environment page prints the Required Knowledge heading as KN1OWLEDGE; structured extraction normalizes only that heading while source_text preserves the source spelling."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Community Nutrition Services NC II.pdf",
-    "pdf_pages": 177,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "HHC321201",
+      "source_unit_code": "HHC321201",
+      "pdf_page_range": [
+        40,
+        47
+      ]
+    },
+    {
+      "unit_code": "HHC321202",
+      "source_unit_code": "HHC321202",
+      "pdf_page_range": [
+        48,
+        53
+      ]
+    },
+    {
+      "unit_code": "HHC321203",
+      "source_unit_code": "HHC321203",
+      "pdf_page_range": [
+        54,
+        61
+      ]
+    },
+    {
+      "unit_code": "HHC321204",
+      "source_unit_code": "HHC321204",
+      "pdf_page_range": [
+        62,
+        68
+      ]
+    },
+    {
+      "unit_code": "HHC226301",
+      "source_unit_code": "HHC226301",
+      "pdf_page_range": [
+        69,
+        75
+      ]
+    },
+    {
+      "unit_code": "HHC226302",
+      "source_unit_code": "HHC226302",
+      "pdf_page_range": [
+        76,
+        81
+      ]
+    },
+    {
+      "unit_code": "HHC226303",
+      "source_unit_code": "HHC226303",
+      "pdf_page_range": [
+        82,
+        91
+      ]
+    },
+    {
+      "unit_code": "HHC226304",
+      "source_unit_code": "HHC226304",
+      "pdf_page_range": [
+        92,
+        97
+      ]
+    },
+    {
+      "unit_code": "HHC226305",
+      "source_unit_code": "HHC226305",
+      "pdf_page_range": [
+        98,
+        102
+      ]
+    }
+  ]
 }

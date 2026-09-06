@@ -1,29 +1,213 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:commercial-cooking-nc-iii:2007-04",
-  "qualification": "COMMERCIAL COOKING NC III",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:commercial-cooking-nc-iii-superseded:de39fa03ac",
+  "qualification": "COMMERCIAL COOKING NC III (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Commercial Cooking NC III (Superseded).pdf",
-    "sha256": "de39fa03ac87ed03cfc02c8d93e442759b3a7e8a50654a87411f02cf8dd54205",
+    "authority": "TESDA",
+    "source_file": "Commercial Cooking NC III (Superseded).pdf",
+    "source_sha256": "de39fa03ac87ed03cfc02c8d93e442759b3a7e8a50654a87411f02cf8dd54205",
+    "pdf_pages": 112,
+    "printed_pages": 109,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source is classified as superseded and prints Promulgated April 2007; the canonical lifecycle preserves that classification and the canonical promulgated field preserves the month-year literal.",
+    "The source prints 20 Basic, 24 Common, and 200 Core hours without a separate grand-total line; the canonical total of 244 hours is the arithmetic sum of those printed components.",
+    "The source uses historical titles and spellings including NCIII, ala carte, pates, and cook-chill-freeze; source_text preserves the printed forms while the indexed inventory remains searchable.",
+    "The TRS311206 Roster staff unit is printed with source header code TRS5311206; the canonical inventory follows Section 1 and source_unit_code preserves the header code."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is classified as superseded and prints Promulgated April 2007; the canonical lifecycle preserves that classification and the canonical promulgated field preserves the month-year literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 24 Common, and 200 Core hours without a separate grand-total line; the canonical total of 244 hours is the arithmetic sum of those printed components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical titles and spellings including NCIII, ala carte, pates, and cook-chill-freeze; source_text preserves the printed forms while the indexed inventory remains searchable."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The TRS311206 Roster staff unit is printed with source header code TRS5311206; the canonical inventory follows Section 1 and source_unit_code preserves the header code."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Commercial Cooking NC III (Superseded).pdf",
-    "pdf_pages": 112,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        8,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        17,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "TRS311206",
+      "source_unit_code": "TRS5311206",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "TRS311207",
+      "source_unit_code": "TRS311207",
+      "pdf_page_range": [
+        30,
+        34
+      ]
+    },
+    {
+      "unit_code": "TRS311208",
+      "source_unit_code": "TRS311208",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "TRS311209",
+      "source_unit_code": "TRS311209",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "TRS512345",
+      "source_unit_code": "TRS512345",
+      "pdf_page_range": [
+        44,
+        48
+      ]
+    },
+    {
+      "unit_code": "TRS512346",
+      "source_unit_code": "TRS512346",
+      "pdf_page_range": [
+        49,
+        54
+      ]
+    },
+    {
+      "unit_code": "TRS512347",
+      "source_unit_code": "TRS512347",
+      "pdf_page_range": [
+        55,
+        59
+      ]
+    },
+    {
+      "unit_code": "TRS512348",
+      "source_unit_code": "TRS512348",
+      "pdf_page_range": [
+        60,
+        64
+      ]
+    },
+    {
+      "unit_code": "TRS512349",
+      "source_unit_code": "TRS512349",
+      "pdf_page_range": [
+        65,
+        69
+      ]
+    },
+    {
+      "unit_code": "TRS512350",
+      "source_unit_code": "TRS512350",
+      "pdf_page_range": [
+        70,
+        74
+      ]
+    },
+    {
+      "unit_code": "TRS512351",
+      "source_unit_code": "TRS512351",
+      "pdf_page_range": [
+        75,
+        80
+      ]
+    },
+    {
+      "unit_code": "TRS512352",
+      "source_unit_code": "TRS512352",
+      "pdf_page_range": [
+        81,
+        83
+      ]
+    },
+    {
+      "unit_code": "TRS512353",
+      "source_unit_code": "TRS512353",
+      "pdf_page_range": [
+        84,
+        86
+      ]
+    },
+    {
+      "unit_code": "TRS512354",
+      "source_unit_code": "TRS512354",
+      "pdf_page_range": [
+        87,
+        92
+      ]
+    }
+  ]
 }
