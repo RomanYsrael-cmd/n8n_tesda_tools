@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T12:15:06+08:00",
+  "last_updated": "2026-09-06T12:36:39+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 50,
-  "remaining_unaudited": 334,
+  "audited_count": 55,
+  "remaining_unaudited": 329,
   "blocked_count": 0,
   "documents": [
     {
@@ -658,6 +658,71 @@
       "validation_passed": true,
       "last_audit_commit": "c3345ca60e719fdc2972e3ec7592948879969a97",
       "audit_notes": "Rebuilt 9/7/3 revised four-column groups; restored 88 curriculum rows and required knowledge/skills, preserved the 289-hour subtotal plus 176-hour SIL and 465 total, normalized the ALT23399 header-code parsing, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Servicing NC I",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing NC I",
+      "source_file": "resources/Training Regulations/Automotive Servicing NC I.pdf",
+      "source_sha256": "8907863981a009af09adc01b896114643532537e29511f3ebbfefee06d420ca1",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:36:39+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "67fc459bcd898c360386f07e7305c5a34d38cb78",
+      "audit_notes": "Rebuilt 4/7/6 revised four-column groups; restored 54 curriculum rows and required knowledge/skills, preserved the 469-hour duration, repaired source-table normalization, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Automotive Servicing NC I (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing NC I (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Automotive Servicing NC I (Superseded).pdf",
+      "source_sha256": "b297b6ce0833d72d0f2af4d90fca94daf48be98aa5d0f856a1c0fbea9e234f27",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:36:39+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "67fc459bcd898c360386f07e7305c5a34d38cb78",
+      "audit_notes": "Rebuilt 4/12/6 superseded historical two-column groups; restored 75 curriculum rows, normalized the ALT723205/ALT723307 source-code variant, repaired source element/criterion numbering, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Automotive Servicing NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Automotive Servicing NC II (Superseded).pdf",
+      "source_sha256": "9e2eca86779cb913066460bd8b02fed890b25c2903c5f39b595e6eea6e800d15",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:36:39+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "67fc459bcd898c360386f07e7305c5a34d38cb78",
+      "audit_notes": "Rebuilt 4/12/13 superseded historical two-column groups; restored 125 curriculum rows, added the omitted wiring/lighting unit, normalized the duplicate ALT723307 source-code usage, repaired source-table numbering, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Automotive Servicing NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Automotive Servicing NC III (Superseded).pdf",
+      "source_sha256": "ccde614b0b9b57ce86ae125e77807c468be57d7d3f2a1cab7339f2b8269aab8f",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:36:39+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "67fc459bcd898c360386f07e7305c5a34d38cb78",
+      "audit_notes": "Rebuilt 6/12/10 plus 3 elective superseded historical two-column groups; restored 108 curriculum rows, preserved the separate elective group and duration, normalized the ALT723205/ALT723307 source-code variant, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Automotive Servicing NC IV",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing NC IV",
+      "source_file": "resources/Training Regulations/Automotive Servicing NC IV.pdf",
+      "source_sha256": "bf1d5f67941dcbb051e0eb56906af25dbd176a4948031185377c9e48037d9cb06",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:36:39+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "67fc459bcd898c360386f07e7305c5a34d38cb78",
+      "audit_notes": "Rebuilt 6/12/15 historical two-column groups; restored 127 curriculum rows, normalized the ALT723205/ALT723307 source-code variant, repaired legacy source-table numbering, and repaired assessment, fidelity metadata, and selectors."
     }
   ]
 }
