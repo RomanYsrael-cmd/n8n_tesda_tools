@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T19:51:18+08:00",
+  "last_updated": "2026-09-06T20:14:08+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 160,
-  "remaining_unaudited": 224,
+  "audited_count": 165,
+  "remaining_unaudited": 219,
   "blocked_count": 0,
   "documents": [
     {
@@ -2088,6 +2088,71 @@
       "validation_passed": true,
       "last_audit_commit": "dba27ab",
       "audit_notes": "Rebuilt 6/9/2 historical two-column groups; restored 55 curriculum rows and 9 definition-term entries, preserved the absent promulgation date and the 20/56/72-hour components with a 148-hour arithmetic total, normalized the 3500311113, MEE721115, and MEE7721119 source-header variants against the Section 1 identifiers, and retained the source 4.1 curriculum label, terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food and Beverage Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Food and Beverage Services NC II",
+      "source_file": "resources/Training Regulations/Food and Beverage Services NC II.pdf",
+      "source_sha256": "c60bb3f95e6f9651ade3d3306b712dc0566f8614158e4e221b03cf02664d22d0",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:14:08+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "5b1f195ddae2cb12a8acf3d5a7cd4cc263574152",
+      "audit_notes": "Rebuilt 9/5/4 revised four-column groups with required knowledge and skills; restored 61 curriculum rows and 2 definition-term entries, preserved Promulgated November 13, 2023, the 37/28/164-hour in-school components and separate 114.5-hour SIL for a 343.5-hour arithmetic total, repaired the page-97 common-curriculum mapping and retained the document revision-history tail, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food and Beverage Services NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Food and Beverage Services NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Food and Beverage Services NC II (Superseded).pdf",
+      "source_sha256": "ab9c080f040d4a310e3bb43fad2d6847f1a572ba85523d27fca39aa30bebdbb1",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:14:08+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "5b1f195ddae2cb12a8acf3d5a7cd4cc263574152",
+      "audit_notes": "Rebuilt 4/5/6 superseded historical two-column groups; restored 64 curriculum rows and 5 assessment arrangements, preserved Promulgated December 2013 and the 18/18/320-hour components with 356-hour total, recorded that the source has no Definition of Terms section, and retained amended qualification wording, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food and Beverage Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Food and Beverage Services NC III",
+      "source_file": "resources/Training Regulations/Food and Beverage Services NC III.pdf",
+      "source_sha256": "f6da4552472451ab4c5f3bca68e6e583d3564b2fd300b564f96173e741e33751",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:14:08+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5b1f195ddae2cb12a8acf3d5a7cd4cc263574152",
+      "audit_notes": "Rebuilt 9/7/5 revised four-column groups with required knowledge and skills; restored 71 curriculum rows and 1 definition-term entry, preserved Revision 02 and Promulgated (10/29/2018) with the 40/96/214-hour components and 350-hour total, repaired the trailing evidence-guide marker and curriculum phrase cleanup, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food and Beverage Services NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Food and Beverage Services NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Food and Beverage Services NC III (Superseded).pdf",
+      "source_sha256": "15fe8a0c091c440e6bc537fa5f0a8d4bca086e9f821d48415144a89e83c906b6",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:14:08+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "5b1f195ddae2cb12a8acf3d5a7cd4cc263574152",
+      "audit_notes": "Rebuilt 6/4/3 superseded historical two-column groups; restored 44 curriculum rows and 5 assessment arrangements, preserved Promulgated December 2013 and the 20/24/186-hour components with 230-hour total, normalized the TRS5311206 roster-staff header against Section 1 TRS311206, recorded the RESTUARANT title variant and absent glossary section, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food and Beverage Services NC IV",
+      "package_path": "resources/Training Regulations/indexed/Food and Beverage Services NC IV",
+      "source_file": "resources/Training Regulations/Food and Beverage Services NC IV.pdf",
+      "source_sha256": "c9ea8b5bd2d879e5fa5ddcb808484fbe24e1cc98ab40a8b30e32f2e48bb5bdf5",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:14:08+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5b1f195ddae2cb12a8acf3d5a7cd4cc263574152",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 72 curriculum rows and 2 definition-term entries, preserved Revision 01 and Promulgated (10/29/2018) with the 47/190/155-hour components and 392-hour total, retained the source DRAFT label, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
