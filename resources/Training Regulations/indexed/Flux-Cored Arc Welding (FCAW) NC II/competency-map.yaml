@@ -4,73 +4,56 @@
   "document_id": "tesda:tr:flux-cored-arc-welding-fcaw-nc-ii:ee1f5ec961",
   "qualification": "FLUX-CORED ARC WELDING (FCAW) NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "MEE721208",
-        "title": "DESCRIPTOR"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "MEE721201",
-        "title": ": This unit covers the competencies required to apply"
-      },
-      {
-        "unit_code": "MEE721202",
-        "title": ": This unit covers the competencies required to read and"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "MEE721310",
-        "title": "DESCRIPTOR:"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "MEE721203",
-        "title": ": This unit covers the competencies required to perform"
-      },
-      {
-        "unit_code": "MEE721204",
-        "title": ": This unit involves competence required to inspect work"
-      },
-      {
-        "unit_code": "MEE721205",
-        "title": ": This unit covers the competencies required to use hand"
-      },
-      {
-        "unit_code": "MEE721206",
-        "title": "DESCRIPTOR"
-      },
-      {
-        "unit_code": "MEE721207",
-        "title": "DESCRIPTOR"
-      },
-      {
-        "unit_code": "MEE721209",
-        "title": "DESCRIPTOR"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "Competency Map\nMetals and Engineering Sector\n(WELDING)\nWeld carbon\nsteel pipes\nusing GMAW\nPerform gas\nwelding in\ncarbon steel\nplates and tubes\nWeld carbon\nsteel plates\nusing GTAW\nWeld carbon\nsteel plates\nusing GMAW\nWeld carbon\nsteel plates\nusing FCAW\nWeld carbon\nsteel plates\nand pipes\nusing SMAW\nPerform gas\nwelding in alloy\nsteel plates\nand tubes\nWeld carbon\n steel pipes\nusing GTAW\nWeld carbon\nsteel plates\nusing SMAW\nWeld carbon\nsteel pipes\n using FCAW\nWeld alloy steel\nplates using\nSMAW\nWeld alloy steel\nplates using\nGTAW\nWeld alloy\nsteel plates\nusing GMAW\nWeld plates\nusing SAW\n\nWeld alloy\nsteel plates\nusing FCAW\nWeld alloy steel\npipes using\nSMAW\nWeld pipes\nusing SAW\nWeld alloy steel\npipes using\nGTAW\nWeld alloy\nsteel pipes\nusing GMAW\nWeld alloy\nsteel pipes\n using FCAW\n\nApply safety\npractices\n\nContributes to\nquality system\n\nUse hand\ntools\n\nInterpret drawing\nand sketches\n\nPerform industry\ncalculations\n\nPrepare weld\nmaterials\n\nSet-up welding\nequipment\n\nFit up weld\nmaterials\n\nRepair welds\n\nReceive and\n respond to\nworkplace\ncommunication\nLead in\nworkplace\ncommunication\n\nWork with\nothers\n\nLead small\nteams\n\nCollect, analyze\nand organize\ninformation\n\nParticipate in\nworkplace\ncommunication\nUtilize specialist\ncommunication\nskills\nWork in team\nenvironment\nDevelop team\nand individual\n\nApply problem-\nsolving\ntechniques\n in the workplace\nPlan and\norganize work\n\nLegend\nFCAW NC II\nDemonstrate\nwork values\n\nPractice career\nprofessionalism\n\nSolve problems\nrelated to\nwork activities\n\nPractice basic\nhousekeeping\nprocedures\nPractice\noccupational\nhealth and safety\nprocedures\nDevelop and\npractice\nnegotiation skills\n\nUse mathematical\nconcepts and\ntechniques\n\nUse relevant\n technologies\n\nPromote\nenvironmental\n protection\n\n--- PDF PAGE 58 ---\nFcaw nc i 56\n 091605",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "MEE721201",
+        "MEE721202",
+        "MEE721203",
+        "MEE721204",
+        "MEE721205",
+        "MEE721206",
+        "MEE721207",
+        "MEE721208",
+        "MEE721209"
+      ],
+      "unit_titles": [
+        "Apply safety practices",
+        "Interpret drawings and sketches",
+        "Perform industry calculations",
+        "Contribute to quality system",
+        "Use hand tools",
+        "Prepare weld materials",
+        "Setup welding equipment",
+        "Fit up weld materials",
+        "Repair welds"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "MEE721310"
+      ],
+      "unit_titles": [
+        "Weld carbon steel pipes using FCAW"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n4.2\nAssessment shall focus on the core unit of competency, weld carbon steel pipes\nusing FCAW. The basic and common units shall be integrated or assessed\nconcurrently with the core units.\n\n4.3 The following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n\n4.3.2 Experienced workers (wage employed or self employed)\n\n4.4\nThe guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTOQS)\".\n\n--- PDF PAGE 57 ---\nFcaw nc i 55\n 091605\n\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCORE COMPETENCIES\n Competency Map\nMetals and Engineering Sector\n(WELDING)\nWeld carbon\nsteel pipes\nusing GMAW\nPerform gas\nwelding in\ncarbon steel\nplates and tubes\nWeld carbon\nsteel plates\nusing GTAW\nWeld carbon\nsteel plates\nusing GMAW\nWeld carbon\nsteel plates\nusing FCAW\nWeld carbon\nsteel plates\nand pipes\nusing SMAW\nPerform gas\nwelding in alloy\nsteel plates\nand tubes\nWeld carbon\n steel pipes\nusing GTAW\nWeld carbon\nsteel plates\nusing SMAW\nWeld carbon\nsteel pipes\n using FCAW\nWeld alloy steel\nplates using\nSMAW\nWeld alloy steel\nplates using\nGTAW\nWeld alloy\nsteel plates\nusing GMAW\nWeld plates\nusing SAW\n\nWeld alloy\nsteel plates\nusing FCAW\nWeld alloy steel\npipes using\nSMAW\nWeld pipes\nusing SAW\nWeld alloy steel\npipes using\nGTAW\nWeld alloy\nsteel pipes\nusing GMAW\nWeld alloy\nsteel pipes\n using FCAW\n\nApply safety\npractices\n\nContributes to\nquality system\n\nUse hand\ntools\n\nInterpret drawing\nand sketches\n\nPerform industry\ncalculations\n\nPrepare weld\nmaterials\n\nSet-up welding\nequipment\n\nFit up weld\nmaterials\n\nRepair welds\n\nReceive and\n respond to\nworkplace\ncommunication\nLead in\nworkplace\ncommunication\n\nWork with\nothers\n\nLead small\nteams\n\nCollect, analyze\nand organize\ninformation\n\nParticipate in\nworkplace\ncommunication\nUtilize specialist\ncommunication\nskills\nWork in team\nenvironment\nDevelop team\nand individual\n\nApply problem-\nsolving\ntechniques\n in the workplace\nPlan and\norganize work\n\nLegend\nFCAW NC II\nDemonstrate\nwork values\n\nPractice career\nprofessionalism\n\nSolve problems\nrelated to\nwork activities\n\nPractice basic\nhousekeeping\nprocedures\nPractice\noccupational\nhealth and safety\nprocedures\nDevelop and\npractice\nnegotiation skills\n\nUse mathematical\nconcepts and\ntechniques\n\nUse relevant\n technologies\n\nPromote\nenvironmental\n protection\n\n--- PDF PAGE 58 ---\nFcaw nc i 56\n 091605\n\nDEFINITION OF TERMS\n\n1) base metal –\nthe metal that is to be worked or welded\n\n2) weld bead –\na deposit of filler metal from a single welding pass\n\n3) weld defect–\nan irregularity that spoils the weld appearance or impairs the\neffectiveness of the weld or weldment by causing weakness or\nfailure\n\n4) weld line –\nthe junction of weld metal and the base metal, or the junction of\nbase metal parts when filler metal is not used\n\n5) weldment –\nan assembly or structure whose component parts are joined by\nwelding\n\n6) welding –\njoining two metals by applying heat to melt and fuse them, with or\nwithout filler metal\n\n7) welding electrode – the current-carrying rod used to strike an arc between rod and\nmetal\n\n8) welding rod – filler metal in the form of a rod or heavy wire\n\n9) welding torch –a gas mixing and burning tool for the welding of metal\n\n--- PDF PAGE 59 ---\nFcaw nc i 57\n 091605\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of this Training Regulation.\n\nTHE INDUSTRY EXPERTS\nMR. ANTONIO M. REYES\nPilipinas Shell Foundation, Inc.\nSan Isidro, Batangas City\nMR. ARIEL S. MANALO\nBobcock Hitachi Phil., Inc.\nSan Roque, Bauan, Batangas\nMR. ROLANDO S. PEREZ\nEEI Corp.\nSta. Maria, Bauan, Batangas\nMR. ROLANDO TORRES\nAG & P\nSan Roque, Bauan, Batangas\nMR. MOISES C. LACORTE\nTESDA IV RTC\nBatangas City\n\nMR. SAMUEL M. CUNANAN\nNorwegian Training Center\nTESDA Complex, Taguig, Metro Manila\nThe PARTICIPANTS in the Validation of this Training Regulation\nMR. EFREN B. IBAÑEZ\nTribol Trading and Fabrication\n47E Morning Star\nQuezon City\nMR. JACOB L. BACANI\nPhilippine Welding Society\nTESDA Complex\nTagig, Metro Manila\nMR. ROSAULIO R. GUIRNALDA\nBureau Veritas Phils\nMagsaysay Center\n1680 Roxas Blvd.\nMR. JIMMY LIBO-ON RUZGAL\nMFI Staff Union\nMeralco Foundation Inc.\nOrtigas Ave., Pasig\nMR. VIRGILIO D. MALANA\nEEI Corporation\n12 Manggahan St.,\nBagumbayan, Quezon City\n\nMS. SHELLA S. DEL MUNDO\nPhilippine Welding Society\nTESDA Complex\nTaguig, Metro Manila\nThe Members of the TESDA Board\nThe TESDA Executive Committee\nThe MANAGEMENT and STAFF of the TESDA Secretariat\nTechnical Education and Skills Development Project\nQualifications and Standards Office"
 }

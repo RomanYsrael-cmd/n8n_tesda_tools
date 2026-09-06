@@ -2,57 +2,50 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:fishport-wharf-operation-nc-i:8cc461ae79",
-  "qualification": "Fishport Wharf Operation NC I",
+  "qualification": "FISHPORT WHARF OPERATION NC I",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311101",
-        "title": "required to receive, respond and act on verbal and"
-      },
-      {
-        "unit_code": "CODE500311103",
-        "title": "500311103"
-      },
-      {
-        "unit_code": "AGR321201",
-        "title": "required to perform safety measures effectively and"
-      },
-      {
-        "unit_code": "AGR321202",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AGR321203",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AGR741201",
-        "title": "required to apply food safety and sanitation in the"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AGR921301",
-        "title": "load and unload fish and fish products. It includes"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311102",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311104",
-        "title": "required to apply the basic housekeeping procedures."
-      },
-      {
-        "unit_code": "AGR921302",
-        "title": "classify fish and fish products. It includes preparing and"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP FOR AGRI-FISHERY SECTOR ANNEX A\n\nCORE UNITS OF COMPETENCY\nMaintain the temperature\nof seafood\n\nMaintain , prepare, deploy\nand retrieve purse seines to\nland catch\n\n Assemble and repair damaged\nnetting\n\nMaintain, prepare, deploy and\nretrieve hand operated lines to\nland catch\n\n Manage and control fishing\noperations\n\nImplement the food safety\nprogram and procedures\n\n Shift a load using manually\noperated equipment\n\nClean work area\n\nRecord information about the\ncountry\n\nConstruct nets and\ncustomize design\n\nUnload and load fish and\nfish products\n\nAdjust and position purse\nseines\n\n Maintain the temperature of\nseafood\n\nContribute to at sea processing\nof seafood\n\nLocate fishing grounds and\nstocks of fish\nClassify fish and fish\nproducts\n\n Assemble and load\nrefrigerated product\n\n Adjust & position drop lines and\nlong lines\n\n Maintain, prepare, deploy and\nretrieve mesh nets or gill nets to\nland catch\n\nMonitor the implementation\nof quality and food safety\nprograms\n\nOperate small vessel\n\n Implement the food safety\nprogram and procedures\n\nMaintain, prepare, deploy and\nretrieve drop lines and long lines\nto land catch\n\n Perform routine housekeeping\nduties on board a vessel\n\n Implement quality systems\nand procedures\n\nApply basic first aid\n\n Maintain, prepare, deploy\nand retrieve pots and traps\nto land catch\n\nPerform breath hold diving\noperations\n\nAdjust and position purse\nseines\n\nKeep records for a municipal\nfishing business\n\n Adjust and position pots\nand traps\n\nWork with temperature\ncontrolled stock\n\nAdjust and position hand\noperated lines\n\nCook on board a vessel\n\nOperate machinery in\nadverse conditions\nApply deckhand skills\naboard a fishing vessel\n\nAdjust and position beach\nseines, mesh nets or grill\nnets\n\nConduct field operations\n\n Analyze and report on board\nobservation\n\nOperate refrigerated\nstorerooms\n\n--- PDF PAGE 47 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n46\nCOMMON UNITS OF COMPETENCY\n\nApply safety measures in\noperation\n\nUse tools and equipment\n\nPerform estimation and\ncalculation\n\nApply Food Safety and\nSanitation\n\nBASIC UNITS OF COMPETENCY\nReceive and Respond to\nWorkplace\nCommunication\n\nParticipate in Workplace\nCommunication\n\nLead Workplace Communication\n\nUtilize specialist communication\n\nDevelop Team and\nIndividual\nWork With Others\n\nWork in a Team\nEnvironment\n\nLead Small Team\n\nSolve Workplace Problems\nRelated to Work Activities\n\nApply Problem Solving\nTechniques in the Workplace\n\nDemonstrate work values\n\nPractice housekeeping\nprocedures\n\nPlan and Organize Work\n\nFISHPORT/WHARF OPERATIONS NC I\n\n--- PDF PAGE 48 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n47",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311101",
+        "500311102",
+        "500311103",
+        "500311104"
+      ],
+      "unit_titles": [
+        "Receive and respond to workplace communication",
+        "Work with others",
+        "Demonstrate work values",
+        "Practice housekeeping procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR321201",
+        "AGR321202",
+        "AGR321203",
+        "AGR741201"
+      ],
+      "unit_titles": [
+        "Apply safety measures in operation",
+        "Use tools and equipment",
+        "Perform estimation and calculation",
+        "Apply food safety and sanitation"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AGR921301",
+        "AGR921302"
+      ],
+      "unit_titles": [
+        "Unload and load fish and fish products",
+        "Classify fish and fish products"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded\na National Certificate signed by the TESDA Director General.\n\n4.2\nThe qualification of Fishport/Wharf Operations NC I may be attained\nthrough accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.2.1. Unload and load fish and fish products\n4.2.2. Classify fish and fish products\n\nSuccessful candidates shall be awarded Certificates of Competency\n(COCs)\n\n4.3\nAccumulation and submission of all COCs acquired for the relevant\nunits of competency comprising a qualification, an individual shall be\nissued the corresponding National Certificate.\n\n4.4\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n4.5\nThe following are qualified to apply for assessment and certification:\n\n 4.5.1 Graduates of formal, non formal and informal including\nenterprise-based training programs.\n\n4.5.2. Experienced workers ( wage employed or self-employed)\n\n4.6\nThe guidelines on assessment and certification are discussed in detail\nin the Procedures manual on Assessment and Certification and\nGuidelines on the implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 46 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n45\n COMPETENCY MAP FOR AGRI-FISHERY SECTOR ANNEX A\n\nCORE UNITS OF COMPETENCY\nMaintain the temperature\nof seafood\n\nMaintain , prepare, deploy\nand retrieve purse seines to\nland catch\n\n Assemble and repair damaged\nnetting\n\nMaintain, prepare, deploy and\nretrieve hand operated lines to\nland catch\n\n Manage and control fishing\noperations\n\nImplement the food safety\nprogram and procedures\n\n Shift a load using manually\noperated equipment\n\nClean work area\n\nRecord information about the\ncountry\n\nConstruct nets and\ncustomize design\n\nUnload and load fish and\nfish products\n\nAdjust and position purse\nseines\n\n Maintain the temperature of\nseafood\n\nContribute to at sea processing\nof seafood\n\nLocate fishing grounds and\nstocks of fish\nClassify fish and fish\nproducts\n\n Assemble and load\nrefrigerated product\n\n Adjust & position drop lines and\nlong lines\n\n Maintain, prepare, deploy and\nretrieve mesh nets or gill nets to\nland catch\n\nMonitor the implementation\nof quality and food safety\nprograms\n\nOperate small vessel\n\n Implement the food safety\nprogram and procedures\n\nMaintain, prepare, deploy and\nretrieve drop lines and long lines\nto land catch\n\n Perform routine housekeeping\nduties on board a vessel\n\n Implement quality systems\nand procedures\n\nApply basic first aid\n\n Maintain, prepare, deploy\nand retrieve pots and traps\nto land catch\n\nPerform breath hold diving\noperations\n\nAdjust and position purse\nseines\n\nKeep records for a municipal\nfishing business\n\n Adjust and position pots\nand traps\n\nWork with temperature\ncontrolled stock\n\nAdjust and position hand\noperated lines\n\nCook on board a vessel\n\nOperate machinery in\nadverse conditions\nApply deckhand skills\naboard a fishing vessel\n\nAdjust and position beach\nseines, mesh nets or grill\nnets\n\nConduct field operations\n\n Analyze and report on board\nobservation\n\nOperate refrigerated\nstorerooms\n\n--- PDF PAGE 47 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n46\nCOMMON UNITS OF COMPETENCY\n\nApply safety measures in\noperation\n\nUse tools and equipment\n\nPerform estimation and\ncalculation\n\nApply Food Safety and\nSanitation\n\nBASIC UNITS OF COMPETENCY\nReceive and Respond to\nWorkplace\nCommunication\n\nParticipate in Workplace\nCommunication\n\nLead Workplace Communication\n\nUtilize specialist communication\n\nDevelop Team and\nIndividual\nWork With Others\n\nWork in a Team\nEnvironment\n\nLead Small Team\n\nSolve Workplace Problems\nRelated to Work Activities\n\nApply Problem Solving\nTechniques in the Workplace\n\nDemonstrate work values\n\nPractice housekeeping\nprocedures\n\nPlan and Organize Work\n\nFISHPORT/WHARF OPERATIONS NC I\n\n--- PDF PAGE 48 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n47\n\nDEFINITION OF TERMS/ ABBREVIATIONS\n\nBFAR -\nBureau of Fisheries and Aquatic Resources\n\nCOC -\nCertificate of Competency\n\nDENR -\nDepartment of Environment and Natural Resources\n\nDOH -\nDepartment of Health\n\nDTS -\nDual Training System\n\nFishport -\nis a fixed platform where ships can tie-up and load or unload fish\nlandings\n\nFish landing- the part of the fish catch that is put ashore. Frequently, landings\nprovide the only record of total catch; i.e. the landings plus\ndiscards\n\nFootbath -\nA long shallow tub or depression in the concrete floor where\nworkers walk through a mild solution (usually including chlorine) to\npromote hygiene. Usually located along the entrance of the fishport\n\nHACCP -\nHazard Analysis and Critical Control Point\n\nNC\n-\nNational Certificate\n\nOHS -\nOccupational Health and Safety\n\nPPE -\nPersonal Protective Equipment\n\nPFDA -\nPhilippine Fishery Development Authority\n\nPTQCS-\nPhilippine TVET Qualification and Certification System\n\nRPL -\nRecognition of Prior Learning\n\nSOP -\nStandard Operating Procedure\n\nTLC\n-\nTender Loving Care\n\nTM\n-\nTraining Methodology\n\n--- PDF PAGE 49 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n48\nTQ\n-\nTrainer Qualification\n\nTVET -\nTechnical Vocational Education and Training\n\nUTPRAS-\nUnited TVET Program Registration and Accreditation System\n\nWharf -\nis a large area with a fixed platform where ships can tie-up and\nload or unload cargoes and passengers.\n\n--- PDF PAGE 50 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n49\nACKNOWLEDGMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\n• THE PHILIPPINE CHAMBER OF AGRICULTURE AND FOODS, INC.\n\n• THE TECHNICAL AND EXPERT PANELS\n\nDR. RODOLFO P. ESTIGOY\nMR. ALEJANDRO T. ESCANO\nChief\nPresident\nBureau of Post Harvest Research and\nExtension\nCentral Luzon State University, Science\nCity of Muñoz, Nueva Ecija\nPhilippine Chamber of Agriculture and\nFood (PCAFI)\nMFI Bldg. Otigas Avenue Extension,\nPasig City\nMR. EDWIN ANDOT\nDR. ALMA M. DELA CRUZ\nPresident\nChamber of Agriculture, Fisheries and\nFood in Northern Mindanao\n2nd floor, United Way Bldg.\nCapitol Cmpd., Cagayan de Oro City\nProfessor\nCentral Luzon State University\nMuñoz, Nueva Ecija\n\nMR. ROLANDO T. LAMPARERO\nMR. MAX RONALD CABREROS\nOperation Head\nRD Fishing Industries, Inc.\nCalumpang, General Santos City\nOperation Manager\nSan Andres Fishing Industries, Inc.\nTambler, General Santos City\nMR. HENRY V. DELICANA\nMR. REYNALDO C. GASQUE\nMarketing Head\nRugela Fishing Industries, Inc.\nCalumpang, General Santos City\nAsst. Head, Marketing Department\nDamalerio Fishing Corporation\nTambler, General Santos City\nMR. DEXTER TAN\nMS. FELY O. LIM\nMarketing Head\nSan Andres Fishing Industries, Inc.\nTambler, General Santos City\nAdministrative Officer\nSOCSKSARGEN Federation of Fishing\nand Allied Industries, Inc. (SFFAII)\nMR. CUSTODIO L. BALAOING, JR.\nChief, Market Operations Division\nPhilippine Fishery Development Authority\nNavotas Fish Port Complex\nNorth Bay Blvd., Navotas, Metro Manila\n\n--- PDF PAGE 51 ---\n____________________________________________________________________________________________\nTR- Fishport / Wharf Operations NC I\n\n50\n\n The Participants in the validation of this Training Regulation\n\n• Cantoja Deep Sea Fishing Inc., Corp.\n• Damalerio Fishing Corp.\n• DFC Tuna Venture Corp.\n• FOP Fishing, Inc.\n• Mommy Gina Tuna Resources\n• R.A. Fishing Industries\n• RD Fishing Industry, Inc.\n• RLGFI Corporation\n• Rugela Fishing Industries., Inc.\n• San Andres Fishing Industries, Inc.\n• Socsksargen Federation of Fishing and Allied Industries, Inc.\n• Trinity Home Industrial Corp.\n\nThe Management and Staff of the TESDA Secretariat"
 }
