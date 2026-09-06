@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T18:57:10+08:00",
+  "last_updated": "2026-09-06T19:19:25+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 145,
-  "remaining_unaudited": 239,
+  "audited_count": 150,
+  "remaining_unaudited": 234,
   "blocked_count": 0,
   "documents": [
     {
@@ -1893,6 +1893,71 @@
       "validation_passed": true,
       "last_audit_commit": "4754bbbfe71b45b87b8c3c9af615c3256336a790",
       "audit_notes": "Rebuilt 4/3/3 revised four-column groups with required knowledge and skills; restored 34 curriculum rows and 39 glossary entries, preserved Promulgated December 16, 2015 and the 16/16/48-hour components with 80-hour total, repaired drawn four-column boundaries and stopped curriculum extraction before tools/facilities subsections, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electronics Front-of-line Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Electronics Front-of-line Operation NC II",
+      "source_file": "resources/Training Regulations/Electronics Front-of-line Operation NC II.pdf",
+      "source_sha256": "23cd3c7f6f2786b99a8e2bc7ee99d39f6a951c88074344f32420741b1fed7777",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:19:25+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "e6e69c3",
+      "audit_notes": "Rebuilt 4/3/3 revised four-column groups with required knowledge and skills; restored 35 curriculum rows and 39 glossary entries, preserved Promulgated December 16, 2015 and the 16/16/48-hour components with 80-hour total, repaired drawn four-column boundaries and split common-curriculum numbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electronics Semiconductor Production Line Machine Servicing NC III",
+      "package_path": "resources/Training Regulations/indexed/Electronics Semiconductor Production Line Machine Servicing NC III",
+      "source_file": "resources/Training Regulations/Electronics Semiconductor Production Line Machine Servicing NC III.pdf",
+      "source_sha256": "dfd64da72e29b97ad876f21341a465929b1796ed033a7d1ede9bf342812f51c2",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:19:25+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "e6e69c3",
+      "audit_notes": "Rebuilt 8/7/4 revised four-column groups with required knowledge and skills; restored 71 curriculum rows and 39 glossary entries, preserved Promulgated December 18, 2017 and the 58/52/464-hour components with 574-hour total, recorded the embedded 240-hour Supervised Industry Training figure and Section 1/Section 2 code variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Emergency Medical Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Emergency Medical Services NC II",
+      "source_file": "resources/Training Regulations/Emergency Medical Services NC II.pdf",
+      "source_sha256": "eef28aaf090b39b75edcb5ff09c7124ea2bff327312dd83056dcaa17ba6ead82",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:19:25+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "e6e69c3",
+      "audit_notes": "Rebuilt 4/4/16 historical two-column groups; restored 83 curriculum rows and 18 definition-term entries, preserved the amended December 2013 source date and single 280-hour suggested nominal duration, and retained source terminology, assessment, fidelity metadata, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Emergency Medical Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Emergency Medical Services NC III",
+      "source_file": "resources/Training Regulations/Emergency Medical Services NC III.pdf",
+      "source_sha256": "54d11a9567c6122c0e877c20ecbf0cf0ebc88bd352f198432dce4d9e6e498f0c",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:19:25+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "e6e69c3",
+      "audit_notes": "Rebuilt 9/4/11 revised four-column groups with required knowledge and skills; restored 97 curriculum rows and 15 definition-term entries, preserved Promulgated October 13, 2020 and the 40/112/528-hour components plus separate 264-hour Supervised Industry Learning for a 944-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Events Management Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Events Management Services NC III",
+      "source_file": "resources/Training Regulations/Events Management Services NC III.pdf",
+      "source_sha256": "2f5f493d07a23cb596ee66a9107f6a0162ce02f7b59ebdabbab93307f67b48f1",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:19:25+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "e6e69c3",
+      "audit_notes": "Rebuilt 6/4/8 historical two-column groups; restored 60 curriculum rows and 8 definition-term entries, preserved Promulgated November 2007 and the 20/24/64-hour components with 108-hour total, repaired the split Core curriculum headings and TRS5311206 versus TRS311206 source-code variant, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
