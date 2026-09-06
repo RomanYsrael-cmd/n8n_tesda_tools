@@ -1,140 +1,91 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:footwear-making-nc-ii:de2a60ace4",
-  "qualification": "FOOTWEAR MAKING NC II",
+  "document_id": "tesda:tr:footwear-making-nc-ii-superseded:de2a60ace4",
+  "qualification": "FOOTWEAR MAKING NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "FWR744203",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "FWR744204",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "FWR744205",
-        "title": "This unit covers the knowledge and skills required to set"
-      },
-      {
-        "unit_code": "FWR744206",
-        "title": "This unit covers the knowledge and skills requires in"
-      },
-      {
-        "unit_code": "FWR744208",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "FWR744313",
-        "title": "This unit covers the knowledge, skills and attitude"
-      },
-      {
-        "unit_code": "FWR744311",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744320",
-        "title": "This unit covers knowledge, skills and attitude required in"
-      },
-      {
-        "unit_code": "FWR744321",
-        "title": "This unit covers knowledge, skills and attitude required to"
-      },
-      {
-        "unit_code": "FWR744326",
-        "title": "This unit covers knowledge, skills and attitude required in"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "FWR744201",
-        "title": "This unit covers the basic knowledge, skills and attitudes"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "FWR744312",
-        "title": "This unit cover the knowledge, skills and attitude required"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "FWR744314",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744315",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744316",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744317",
-        "title": "This unit covers knowledge, skills and attitude required in"
-      },
-      {
-        "unit_code": "FWR744318",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744319",
-        "title": "This unit covers knowledge, skills and attitude required in"
-      },
-      {
-        "unit_code": "FWR744310",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744309",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "FWR744307",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744308",
-        "title": "This unit covers knowledge, skills and attitude required in"
-      },
-      {
-        "unit_code": "FWR744322",
-        "title": "This unit covers knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "FWR744323",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "FWR744324",
-        "title": "This unit covers knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "FWR744325",
-        "title": "This unit covers knowledge, skills and attitude required in"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n115",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "FWR744201",
+        "FWR744203",
+        "FWR744204",
+        "FWR744205",
+        "FWR744206",
+        "FWR744208"
+      ],
+      "unit_titles": [
+        "Apply footwear production practices and principles",
+        "Carry out measurements & calculations",
+        "Use and care for hand and power tools",
+        "Set up and operate machine/s",
+        "Perform basic maintenance",
+        "Apply quality standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "FWR744312",
+        "FWR744313",
+        "FWR744314",
+        "FWR744315",
+        "FWR744316",
+        "FWR744317",
+        "FWR744318",
+        "FWR744319",
+        "FWR744310",
+        "FWR744311",
+        "FWR744309",
+        "FWR744307",
+        "FWR744320",
+        "FWR744308",
+        "FWR744321",
+        "FWR744322",
+        "FWR744323",
+        "FWR744324",
+        "FWR744325",
+        "FWR744326"
+      ],
+      "unit_titles": [
+        "Check cut upper and lining components",
+        "Perform blocking/crimping operation",
+        "Perform skiving operation",
+        "Perform upper leather splitting operation",
+        "Perform machine perforation and gimping operations",
+        "Perform folding operations",
+        "Perform stitching operation on upper and/or lining components",
+        "Perform hand-stitching operations",
+        "Prepare upper for hand lasting",
+        "Perform basic hand lasting",
+        "Attach insole to last by machine",
+        "Perform toe puff and stiffeners activation",
+        "Perform basic machine lasting",
+        "Perform chilling operation",
+        "Perform pre-bonding operations",
+        "Perform bonding operations",
+        "Perform heel-attaching operation",
+        "Perform polishing operation",
+        "Perform sock attachment & cleaning operation",
+        "Perform quality checking, repair and packing of de-lasted shoes"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded National\nCertificate signed by the TESDA Director General\n\n4.2\nThe qualification of Footwear Making NC II may be attained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in all the\nfollowing areas:\n\n4.2.1.1\nAssemble Footwear Upper Components\n4.2.1.1.1 Check cut upper and lining components\n4.2.1.1.2 Perform blocking/crimping\n4.2.1.1.3 Perform skiving operations\n4.2.1.1.4 Perform upper leather splitting operation\n4.2.1.1.5 Perform machine perforating and gimping operation\n4.2.1.1.6 Perform folding operation\n4.2.1.1.7 Perform stitching operation on upper and/or lining\ncomponents\n4.2.1.1.8 Perform hand stitching operation\n4.2.1.2\nPerform Footwear Lasting by Machine and by Hand\n4.2.1.2.1 Prepare uppers for hand lasting\n4.2.1.2.2 Perform basic hand lasting\n4.2.1.2.3 Attach insole by machine\n4.2.1.2.4 Perform toe-puff and stiffener activation\n4.2.1.2.5 Perform basic machine lasting\n4.2.1.2.6 Perform chilling operation\n4.2.1.2.7 Perform pre-bonding operations\n4.2.1.2.8 Perform bonding operations\n4.2.1.2.9 Perform heel attaching operations\n\n4.2.1.3\nPerform Footwear Finishing Operations\n4.2.1.3.1 Perform sock attachment and cleaning operation\n4.2.1.3.2 Perform polishing operation\n4.2.1.3.3 Perform quality checking, repairing and packaging of de-lasted\nshoes\n\nSuccessful candidates shall be awarded Certificates of\nCompetency (COC).\n\n4.2.2 Demonstration of competence through project-type assessment covering\nall the required units of qualification.\n\n--- PDF PAGE 118 ---\n_________________________________________________________________________________________________\nTR Footwear Making NC II 12/07/04 promulgated 12/09/04\n\n116\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core units.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n\n4.4.2 Experienced workers (wage employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)”.\n\n--- PDF PAGE 119 ---\n_________________________________________________________________________________________________\nTR Footwear Making NC II 12/07/04 promulgated 12/09/04\n\n115\nApply footwear\nproduction practices\nand principles\nQUALIFICATION\nFOOTWEAR MAKING NC II\nSet up and\noperate\nmachines\nPerform\nbasic\nmaintenance\nApply\nquality\nstandards\nCarry out\nmeasurements\nand calculation\nC\nO\nRE\nC\nO\nM\nPE\nTE\nN\nCI\nES\nC\nO\nM\nM\nO\nN\nC\nO\nM\nPE\nTE\nN\nCI\nES\nUse and care\nof hand and\npower tools\nPerform Upper\nLeather\nSplitting\nOperation\nPerform Seam\nRubbing\nOperation\nPerform\nEyeleting\nOperation\nPerform\nStamping\nOperation\nPerform\nFolding\nOperation\nPerform\nBlocking /\nCrimping\nCheck Cut Upper\nand Lining\nComponents\nPerform\nSkiving\nOperation\nPerform Machine\nPerforating and\nGimping\nOperation\nAttach\nInsole\nby\nMachine\nMark Upper and\nLining\nComponents\n Perform Basic\nMachine Lasting\n Perform Toe-Puff\nand Stiffeners\nActivation\nApply Edge\nInking\nPerform Manual\n Perforating and\nGimping Operation\n Prepare Upper\nfor Handlasting\nPerform\nPre-bonding\nOperation\n Perform\nChilling\nOperation\nPerform Stitching\nOperation on\nUpper and Lining\nComponents\nPerform\nBonding\nOperation\nPerform Hand\nStitching\nOperation\nPerform\nPolishing\nOperation\nPerform Sock\nAttachment\nand Cleaning\nOperation\nPerform Quality\nChecking, Repair\nand Packing of\nDe-lasted Shoes\nPerform\nHeel Attaching\nOperation\nCut Leather\nby Hand\nCut by Machine\nMake Footwear\nDesign\nMake Footwear\nPattern\nGrade Footwear\nPattern\nPerform Basic\nHandlasting\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\n\n--- PDF PAGE 120 ---\n_________________________________________________________________________________________________\nTR Footwear Making NC II 12/07/04 promulgated 12/09/04\n\n116\n\nDEFINITION OF TERMS\nAttaching\nis the temporary joining together of components using an adhesive\nuntil they can be stitched\nBottom\nthe sole, insole, heel of the shoe\nBlocking/Crimping\nperformed on a high fronted vamp to improve shape and fit and to\nachieve greater curvature of upper\nBonding\nAttaching of lasted sole to upper using adhesives\nCounter\nrefers to a component stitched to the rear of the quarters to give\nadded stiffness specially in brogue shoes.\nDe-lasting\nthe process of removing the finished shoe from the last after sole\nattaching or finishing\nEyelet\na ring of metal or other material inserted in the shoe upper to provide\na durable ring for lace holes\nFolding\n an upper edge treatment where a narrow margin of the edge is\nfolded over and secured by adhesive\nGimping\na decorative margin like a row of saw teeth cut into an upper\ncomponent where it overlays another component, as in a brogue\nshoe\nHeel\nseat part of the footwear bottom, it may either be attached separately\nor may be an integral part of the sole and may be of various types (\nSpanish, Louis, wedge, etc.) The heel tip/top lift is an integral part of\nthe heel.\nInsole\na structural sole member of the sole between the foot and the\noutsole. May be of leather, fiberboard, leather board or synthetic\nmaterial of various kinds. Its moisture absorbent qualities are\nconsidered to be important for foot health and comfort\nLast\nthe generalized approximate foot form or mould on which a boot or\nshoe is made\nLasting\nthe shaping of the upper tightly to the contour of the last and pulling\nand stretching the upper to avail bunches or wrinkles by machine\nLining\nthe inside material used under the upper and generally cut to the\nsame shape of upper, giving certain allowances. Linings are made of\nleather, fabric or man-made materials\nSeam Rubbing\nthe process of flattening or rubbing down of back seam of\ncomponents to avoid ridges/impressions on the upper\n\n--- PDF PAGE 121 ---\n_________________________________________________________________________________________________\nTR Footwear Making NC II 12/07/04 promulgated 12/09/04\n\n117\n\nSkiving\nused to reduce edge substance to create smooth joining between two\ncomponents\nSole\nlayer of materials that covers the bottom of shoe and is the walking\nsurface of the shoe\nSplitting\ndividing an upper or bottom component into two or more parts by\ncutting it through its thickness parallel to the surface\nStamping\nused for identification during manufacturing. Necessary to provide\ninformation without detracting from appearance of footwear\nStitching/Closing\nis the permanent joining parts together by use of threads\nToe-Puff\nstiffening material, usually of impregnated fabric, fiberboard or\nprinted-on plastic, under the toe part of the upper (in between the\nupper and lining) to help shape retention, appearance and protect the\ntoes.\nUpper\nis the top part of the shoe including lining, reinforcement and\naccessories\nVamp\nthe part of the upper between the toe cap and the quarters, including\nthe toe in the case of capless style subjected to maximum flexing\nwhile walking\n\n--- PDF PAGE 122 ---\n_________________________________________________________________________________________________\nTR Footwear Making NC II 12/07/04 promulgated 12/09/04\n\n118\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe\nand government agencies who donated their time and expertise to the development\nand validation of these Training Regulations.\n\n1. THE TECHNICAL ADVISORY PANEL (TAP)\nMR. ROGER PY\nOwner/Manager\nStefano Shoes/Gibi Shoes\nE. Rodriguez Ave., Sto. Nino,\nMarikina City\nand\nDirector General\nPhil. Footwear Federation, Inc.\n#20 Russet St., SSS Village\nMarikina City\n\n2. THE TECHNICAL EXPERT PANEL (TEP)\nMR. DANIEL J. COTTER\nHead Trainer\nPhil. Footwear Academy\n# 20 Russet St., SSS Village\nMarikina City\n\nMS. MA. VICTORIA P. PENAFLOR\nTrainer\nPhil. Footwear Academy\n# 20 Russet St., SSS Village,\n Marikina City\nMR. WALTER B. TRINIDAD\nExecutive Assistant\nBristol Shoes\n# 29 Caimito St., Amang\nRodriguez Subd., Concepcion I,\nMarikina City\nMS. JASMIN T. MARFIL\nFootwear Development Specialist\nJ-Carl Footwear\nBlk. 1 Lot 15 St. Francis Homes 7\nSan Antonio, Binan, Laguna\nMS. JOCIVIC G. FRADES\nTrainer\nPhilippine Footwear Academy\n# 20 Russet St., SSS Village\nMarikina City\nMS. KAREN MAY M. ANGUS\nFootwear Developer\nFIGLIA\nCenterpoint Bldg. Suite 1801 Julia\nVargas Avenue, Ortigas Center\nOthers:\nMR. RODOLFO DE GUZMAN\nSchool Administrator\nPhil. Footwear Academy\n\nMS. ROSARIO R. GABUYA\nFootwear Developer\nBristol Shoes\n\n--- PDF PAGE 123 ---\n_________________________________________________________________________________________________\nTR Footwear Making NC II 12/07/04 promulgated 12/09/04\n\n119\nMR. ROGELIO B. AGUNDAY, JR.\nTrainer\nPhil. Footwear Academy\nMR. EDILBERTO V. ANGELES\nSupervisor\nRusty Lopez (Maritalia)\n\n1) The Participants in the national validation of this Training Regulation\n1. TESDA VII\n\n1.1 Mrs. Mercedita Apura\nOwner/Manager\nDetasie Footwear Factory\nTangasan Valladolid, Carcar, Cebu\n\n1.2 Mr. Leonardo W. Lladas\nProprietor/Manager\nJan Ray Footwear\nPungtod Valladolid, Carcar, Cebu\n\n1.3 Mr. Samuel S. Lauron\nOwner/Designer\nSammyr Shoes Phils.\nDona Sofia Subd., Valladolid,\nCarcar, Cebu\n\n1.4 Mr. Edison M. Wamar\nOwner\n Lidebeth Shoes\n Lamakan, Valladolid, Carcar, Cebu\n\n1.5 Ms. Hene L. Fernandez\nProprietor\n J’ferson Shoes\n Lamakan, Carcar, Cebu\n2. TESDA VIII\n\n2.1 Mr. Gregorio M. Gabrino\nOwner/Manager\nFilipina Zapateria\n197 P. Burgos St., Tacloban\nCity\n\n2.2 Mrs. Monina Gabrino\nMarketing Manager\nFilipina Zapateria\n197 P. Burgos St., Tacloban\nCity\n\n2.3 Mr. Lemuel C. Costibolo\nTESD Specialist I\nShoemaking Focal\n\n3. Members of the TESDA Board\n\n4. The MANAGEMENT and STAFF of the TESDA Secretariat\n\n5. TESDA EXCOM\n\n6. SSCO\n\nNITVET"
 }

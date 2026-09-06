@@ -1,29 +1,147 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:forging-nc-iii:d823ee691d",
   "qualification": "FORGING NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Forging NC III.pdf",
-    "sha256": "d823ee691dcfc4e914ec5788a3436387d3e533eb6d0f350927feb2cf69f758cc",
+    "source_sha256": "d823ee691dcfc4e914ec5788a3436387d3e533eb6d0f350927feb2cf69f758cc",
+    "pdf_pages": 55,
+    "printed_pages": 53,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not print a promulgation date; the canonical promulgated field remains null.",
+    "The source prints 20 Basic, 20 Common, and 72 Core hours; the canonical duration records the 112-hour arithmetic total.",
+    "The source uses historical two-column Element/Performance Criteria tables and preserves source punctuation, terminology, and page-preserved text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 20 Common, and 72 Core hours; the canonical duration records the 112-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria tables and preserves source punctuation, terminology, and page-preserved text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Forging NC III.pdf",
-    "pdf_pages": 55,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "ALT742201",
+      "source_unit_code": "ALT742201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "ALT311202",
+      "source_unit_code": "ALT311202",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "ALT723203",
+      "source_unit_code": "ALT723203",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "ALT723205",
+      "source_unit_code": "ALT723205",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "ALT722304",
+      "source_unit_code": "ALT722304",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "ALT722305",
+      "source_unit_code": "ALT722305",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "ALT722306",
+      "source_unit_code": "ALT722306",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    }
+  ]
 }

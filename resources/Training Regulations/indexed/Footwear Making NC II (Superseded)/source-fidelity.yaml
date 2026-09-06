@@ -1,29 +1,283 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:footwear-making-nc-ii:de2a60ace4",
-  "qualification": "FOOTWEAR MAKING NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:footwear-making-nc-ii-superseded:de2a60ace4",
+  "qualification": "FOOTWEAR MAKING NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Footwear Making NC II (Superseded).pdf",
-    "sha256": "de2a60ace40d43c27bf08559315bd87313d90fe1d3843bbf37ff4e5de4dee000",
+    "authority": "TESDA",
+    "source_file": "Footwear Making NC II (Superseded).pdf",
+    "source_sha256": "de2a60ace40d43c27bf08559315bd87313d90fe1d3843bbf37ff4e5de4dee000",
+    "pdf_pages": 123,
+    "printed_pages": 115,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is classified as superseded and prints the footer date literal 12/09/04; the canonical lifecycle preserves that classification and the canonical promulgated field preserves the source date format.",
+    "The source prints 18 Basic, 24 Common, and 640 Core hours; the canonical duration records the 682-hour arithmetic total.",
+    "The source uses historical two-column Element/Performance Criteria tables and preserves its footwear-specific title punctuation, terminology, and page-preserved text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is classified as superseded and prints the footer date literal 12/09/04; the canonical lifecycle preserves that classification and the canonical promulgated field preserves the source date format."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 24 Common, and 640 Core hours; the canonical duration records the 682-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria tables and preserves its footwear-specific title punctuation, terminology, and page-preserved text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Footwear Making NC II (Superseded).pdf",
-    "pdf_pages": 123,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        14,
+        18
+      ]
+    },
+    {
+      "unit_code": "FWR744201",
+      "source_unit_code": "FWR744201",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "FWR744203",
+      "source_unit_code": "FWR744203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "FWR744204",
+      "source_unit_code": "FWR744204",
+      "pdf_page_range": [
+        25,
+        28
+      ]
+    },
+    {
+      "unit_code": "FWR744205",
+      "source_unit_code": "FWR744205",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "FWR744206",
+      "source_unit_code": "FWR744206",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "FWR744208",
+      "source_unit_code": "FWR744208",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "FWR744312",
+      "source_unit_code": "FWR744312",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "FWR744313",
+      "source_unit_code": "FWR744313",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "FWR744314",
+      "source_unit_code": "FWR744314",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "FWR744315",
+      "source_unit_code": "FWR744315",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "FWR744316",
+      "source_unit_code": "FWR744316",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "FWR744317",
+      "source_unit_code": "FWR744317",
+      "pdf_page_range": [
+        54,
+        56
+      ]
+    },
+    {
+      "unit_code": "FWR744318",
+      "source_unit_code": "FWR744318",
+      "pdf_page_range": [
+        57,
+        62
+      ]
+    },
+    {
+      "unit_code": "FWR744319",
+      "source_unit_code": "FWR744319",
+      "pdf_page_range": [
+        63,
+        65
+      ]
+    },
+    {
+      "unit_code": "FWR744310",
+      "source_unit_code": "FWR744310",
+      "pdf_page_range": [
+        66,
+        68
+      ]
+    },
+    {
+      "unit_code": "FWR744311",
+      "source_unit_code": "FWR744311",
+      "pdf_page_range": [
+        69,
+        73
+      ]
+    },
+    {
+      "unit_code": "FWR744309",
+      "source_unit_code": "FWR744309",
+      "pdf_page_range": [
+        74,
+        76
+      ]
+    },
+    {
+      "unit_code": "FWR744307",
+      "source_unit_code": "FWR744307",
+      "pdf_page_range": [
+        77,
+        79
+      ]
+    },
+    {
+      "unit_code": "FWR744320",
+      "source_unit_code": "FWR744320",
+      "pdf_page_range": [
+        80,
+        82
+      ]
+    },
+    {
+      "unit_code": "FWR744308",
+      "source_unit_code": "FWR744308",
+      "pdf_page_range": [
+        83,
+        85
+      ]
+    },
+    {
+      "unit_code": "FWR744321",
+      "source_unit_code": "FWR744321",
+      "pdf_page_range": [
+        86,
+        90
+      ]
+    },
+    {
+      "unit_code": "FWR744322",
+      "source_unit_code": "FWR744322",
+      "pdf_page_range": [
+        91,
+        93
+      ]
+    },
+    {
+      "unit_code": "FWR744323",
+      "source_unit_code": "FWR744323",
+      "pdf_page_range": [
+        94,
+        96
+      ]
+    },
+    {
+      "unit_code": "FWR744324",
+      "source_unit_code": "FWR744324",
+      "pdf_page_range": [
+        97,
+        99
+      ]
+    },
+    {
+      "unit_code": "FWR744325",
+      "source_unit_code": "FWR744325",
+      "pdf_page_range": [
+        100,
+        102
+      ]
+    },
+    {
+      "unit_code": "FWR744326",
+      "source_unit_code": "FWR744326",
+      "pdf_page_range": [
+        103,
+        105
+      ]
+    }
+  ]
 }
