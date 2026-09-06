@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T10:07:16+08:00",
+  "last_updated": "2026-09-06T10:27:01+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 15,
-  "remaining_unaudited": 369,
+  "audited_count": 20,
+  "remaining_unaudited": 364,
   "blocked_count": 0,
   "documents": [
     {
@@ -203,6 +203,71 @@
       "validation_passed": true,
       "last_audit_commit": "f378d390de9eddf044eeaa5651476743b54a96b3",
       "audit_notes": "Rebuilt 4/4/4 four-column groups; restored required knowledge and skills, 36 curriculum rows, glossary, durations, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Agroentrepreneurship NC III",
+      "package_path": "resources/Training Regulations/indexed/Agroentrepreneurship NC III",
+      "source_file": "resources/Training Regulations/Agroentrepreneurship NC III.pdf",
+      "source_sha256": "d963e88ae3eb5e81a05416b65cf9201f17827449278397f26162d111608b9b22",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:27:01+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "34ef0b73f301ce36723c5371be157677a15fe5e4",
+      "audit_notes": "Rebuilt 6/4/5 four-column groups; restored required knowledge and skills, 53 curriculum rows, glossary, assessment, duration metadata, fidelity observations, and selectors."
+    },
+    {
+      "package": "Agroentrepreneurship NC IV",
+      "package_path": "resources/Training Regulations/indexed/Agroentrepreneurship NC IV",
+      "source_file": "resources/Training Regulations/Agroentrepreneurship NC IV.pdf",
+      "source_sha256": "7dcb524ba28047b283b357cbc74cc4842cb76e0bcc3bd7afbb220dcd579f8c82",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:27:01+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "34ef0b73f301ce36723c5371be157677a15fe5e4",
+      "audit_notes": "Rebuilt 6/4/4 four-column groups; repaired the source LEMENT header variation, restored required knowledge and skills, 57 curriculum rows, glossary, assessment, duration metadata, fidelity observations, and selectors."
+    },
+    {
+      "package": "Air Duct Servicing NC II",
+      "package_path": "resources/Training Regulations/indexed/Air Duct Servicing NC II",
+      "source_file": "resources/Training Regulations/Air Duct Servicing NC II.pdf",
+      "source_sha256": "b1566ecb8036c3001193c27034665477e1a477c3a7bd3a4cfe18a6846fc7b42d",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:27:01+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "34ef0b73f301ce36723c5371be157677a15fe5e4",
+      "audit_notes": "Rebuilt 4/9/6 legacy two-column groups; preserved the draft-copy status, indexed the Section 2-only unit, normalized duplicate/variant source codes, and added 64 curriculum rows, glossary, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Animal Health Care and Management NC III",
+      "package_path": "resources/Training Regulations/indexed/Animal Health Care and Management NC III",
+      "source_file": "resources/Training Regulations/Animal Health Care and Management NC III.pdf",
+      "source_sha256": "3d7496d215a278632859893315044a8b3d001971175ec08d622a375633a7f32b",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:27:01+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "34ef0b73f301ce36723c5371be157677a15fe5e4",
+      "audit_notes": "Rebuilt 6/3/5 legacy two-column groups; restored 44 curriculum rows, glossary, assessment, source metadata, fidelity observations, and selectors while preserving source terminology and missing date metadata."
+    },
+    {
+      "package": "Animal Production (Poultry-Chicken) NC II",
+      "package_path": "resources/Training Regulations/indexed/Animal Production (Poultry-Chicken) NC II",
+      "source_file": "resources/Training Regulations/Animal Production (Poultry-Chicken) NC II.pdf",
+      "source_sha256": "60d601c8ea784a7a86bfc4478b189bc0178f20d871f2b16da22f54912431511e",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:27:01+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "34ef0b73f301ce36723c5371be157677a15fe5e4",
+      "audit_notes": "Rebuilt 4/4/4 plus 1 elective legacy two-column groups; restored 46 curriculum rows, explicit elective coverage, glossary, assessment, and fidelity metadata, and recorded the source duration arithmetic mismatch."
     }
   ]
 }
