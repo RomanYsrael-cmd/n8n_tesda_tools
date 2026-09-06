@@ -2,101 +2,72 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:agricultural-machinery-servicing-4-wheel-tractor-nc-iii:302aa3b1dd",
-  "qualification": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III",
+  "qualification": "AGRICULTURAL MACHINERY SERVICING (4-WHEEL TRACTOR) NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "400311319",
-        "title": "to lead in the effective dissemination and discussion of ideas,"
-      },
-      {
-        "unit_code": "AFF321201",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321203",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321205",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "SOC413206",
-        "title": "SOC 413206"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AFF723303",
-        "title": ": This unit covers knowledge, skills and attitude to service"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "400311320",
-        "title": "This unit covers the skills, knowledge and attitudes to lead"
-      },
-      {
-        "unit_code": "400311321",
-        "title": "solve problems in the workplace including the application of"
-      },
-      {
-        "unit_code": "400311322",
-        "title": "effectively in a workplace characterized by diversity in"
-      },
-      {
-        "unit_code": "400311323",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "400311324",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "400311325",
-        "title": "to interpret Occupational Safety and Health practices, set"
-      },
-      {
-        "unit_code": "400311326",
-        "title": ":"
-      },
-      {
-        "unit_code": "400311327",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321202",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF723201",
-        "title": ": This competency unit covers the knowledge, skills and"
-      },
-      {
-        "unit_code": "AFF723202",
-        "title": ": This unit covers knowledge, skills and attitude to"
-      },
-      {
-        "unit_code": "AFF723304",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF723305",
-        "title": ": This unit covers knowledge, skills and attitude to"
-      },
-      {
-        "unit_code": "AFF723306",
-        "title": "This unit covers knowledge, skills and attitude to service"
-      },
-      {
-        "unit_code": "AFF723307",
-        "title": "clutch system, service drive train system and conduct"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP \n \n \n171 \n \n \nGLOSSARY OF TERMS \n \n \n172 \n \nTRAINING REGULATIONS (TRs) DOCUMENT \nREVISION HISTORY \n \n173",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "400311319",
+        "400311320",
+        "400311321",
+        "400311322",
+        "400311323",
+        "400311324",
+        "400311325",
+        "400311326",
+        "400311327"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Apply critical thinking and problem-solving techniques in the workplace",
+        "Work in a diverse environment",
+        "Propose methods of applying learning and innovation in the organization",
+        "Use information systematically",
+        "Evaluate occupational safety and health work practices",
+        "Evaluate environmental work practices",
+        "Facilitate entrepreneurial skills for micro-small-medium enterprises (MSMEs)"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AFF321201",
+        "AFF321202",
+        "AFF321203",
+        "AFF321205",
+        "SOC413206",
+        "AFF723201",
+        "AFF723202"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use and maintain farm servicing tools and equipment",
+        "Perform estimation and calculations",
+        "Process farm wastes",
+        "Maintain service record",
+        "Conduct diagnosis",
+        "Perform shop maintenance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AFF723303",
+        "AFF723304",
+        "AFF723305",
+        "AFF723306",
+        "AFF723307"
+      ],
+      "unit_titles": [
+        "Diagnose and repair electrical systems of 4-wheel tractor",
+        "Diagnose and repair engine system of 4-wheel tractor",
+        "Diagnose and repair axle system of 4-wheel tractor",
+        "Diagnose and repair hydraulic system of 4-wheel tractor",
+        "Diagnose and repair transmission system of 4-wheel tractor"
+      ]
+    }
+  ],
+  "source_text": "Section 1\nAGRICULTURAL MACHINERY SERVICING (4-WHEEL TRACTOR) NC III\nQUALIFICATION\n\nThe AGRICULTURAL MACHINERY SERVICING (4-WHEEL TRACTOR) NC III\nQualification consists of competencies that a person must achieve to diagnose and repair\nelectrical systems, engine system, axle system, hydraulic system and transmission system\nof 4 – wheel drive tractor. It includes competencies on practicing safety measures and\nwaste management. This may be performed by a team of technical personnel or with one\nor more assistants working with the lead technical personnel.\n\nThis Qualification is packaged from the competency map of the Agri-Fishery Sector as\nshown in Annex A.\n\nThe units of competency comprising this qualification includes the following:\n\nCode\nBASIC COMPETENCIES\n400311319\nLead workplace communication\n400311320\nLead small teams\n400311321\n\nApply critical thinking and problem-solving techniques in the\nworkplace\n400311322\nWork in a diverse environment\n400311323\n\nPropose methods of applying learning and innovation in the\norganization\n400311324\nUse information systematically\n400311325\nEvaluate occupational safety and health work practices\n400311326\nEvaluate environmental work practices\n400311327\nFacilitate entrepreneurial skills for micro-small-medium\nenterprises (MSMEs)\n\n\nCode\nCOMMON COMPETENCIES\nAFF321201\nApply safety measures in farm operations\nAFF321202\nUse farm servicing tools and equipment\nAFF321203\nPerform estimation and calculations\nAFF321205\nProcess farm wastes\nSOC 413206\nMaintain service records\nAFF 723201\nConduct Diagnosis\nAFF 723202\nPerform Shop Maintenance\n\n\nCode\nCORE COMPETENCIES\nAFF 723303\nDiagnose and Repair Electrical Systems of 4-Wheel Tractor\nAFF 723304\nDiagnose and Repair Engine System of 4-Wheel Tractor\nAFF 723305\nDiagnose and Repair Axle System of 4-Wheel Tractor\nAFF 723306\nDiagnose and Repair Hydraulic System of 4-Wheel Tractor\nAFF 723307\nDiagnose and Repair Transmission System of 4-Wheel Tractor\n\nA person who has achieved this Qualification is competent to be:\n• 4-Wheel Tractor Mechanic\n• Senior Mechanic\n• 4-Wheel Tractor Servicing Personnel\n\n--- PDF PAGE 6 ---\nAgricultural Machinery Servicing (4 – Wheel Tractor) NC III Revision 00 Promulgated 01/11/2019 2"
 }

@@ -1,29 +1,147 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:agricultural-crops-production-nc-ii:2013-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:agricultural-crops-production-nc-ii:21c8ffdf81",
   "qualification": "AGRICULTURAL CROPS PRODUCTION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Agricultural Crops Production NC II.pdf",
-    "sha256": "21c8ffdf812304ef77aebb47d49e3aa13b37f2a140991e7fab837daec45ed68e",
+    "source_sha256": "21c8ffdf812304ef77aebb47d49e3aa13b37f2a140991e7fab837daec45ed68e",
+    "pdf_pages": 75,
+    "printed_pages": 73,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "Section 1 prints spaces inside several AFF/SOC unit codes and uses 'Perform estimation and calculations'; unit headers provide the normalized codes and the more specific 'Perform Estimation and Basic Calculation' wording where applicable.",
+    "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns.",
+    "The table of contents page ranges do not match the final PDF page count; the indexed source metadata follows the actual page-preserved PDF."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints spaces inside several AFF/SOC unit codes and uses 'Perform estimation and calculations'; unit headers provide the normalized codes and the more specific 'Perform Estimation and Basic Calculation' wording where applicable."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source competency tables use the historical two-column Element/Performance Criteria layout and do not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The table of contents page ranges do not match the final PDF page count; the indexed source metadata follows the actual page-preserved PDF."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Agricultural Crops Production NC II.pdf",
-    "pdf_pages": 75,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "AFF321202",
+      "source_unit_code": "AFF321202",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "AFF321206",
+      "source_unit_code": "AFF321206",
+      "pdf_page_range": [
+        26,
+        30
+      ]
+    },
+    {
+      "unit_code": "SOC413206",
+      "source_unit_code": "SOC413206",
+      "pdf_page_range": [
+        31,
+        35
+      ]
+    },
+    {
+      "unit_code": "AFF610301",
+      "source_unit_code": "AFF610301",
+      "pdf_page_range": [
+        36,
+        40
+      ]
+    },
+    {
+      "unit_code": "AFF610302",
+      "source_unit_code": "AFF610302",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    },
+    {
+      "unit_code": "AFF610303",
+      "source_unit_code": "AFF610303",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "AFF610304",
+      "source_unit_code": "AFF610304",
+      "pdf_page_range": [
+        48,
+        53
+      ]
+    }
+  ]
 }

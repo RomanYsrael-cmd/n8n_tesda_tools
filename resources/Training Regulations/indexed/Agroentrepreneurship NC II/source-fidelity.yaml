@@ -1,29 +1,134 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:agroentrepreneurship-nc-ii:2017-02-03",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:agroentrepreneurship-nc-ii:499c0febbe",
   "qualification": "AGROENTREPRENEURSHIP NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Agroentrepreneurship NC II.pdf",
-    "sha256": "499c0febbe389f3e305dc9a519988a56c1f9a496e61297109b1e6cf8730e8798",
+    "source_sha256": "499c0febbe389f3e305dc9a519988a56c1f9a496e61297109b1e6cf8730e8798",
+    "pdf_pages": 103,
+    "printed_pages": 101,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout for all groups, with Required Knowledge and Attitude and Required Skill headings varying between plural and singular forms; these are normalized consistently.",
+    "The source curriculum preserves a historical mix of singular/plural column labels and occasional source spelling/spacing errors; row-level source text remains available in training-standards.yaml and tr.md."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout for all groups, with Required Knowledge and Attitude and Required Skill headings varying between plural and singular forms; these are normalized consistently."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source curriculum preserves a historical mix of singular/plural column labels and occasional source spelling/spacing errors; row-level source text remains available in training-standards.yaml and tr.md."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Agroentrepreneurship NC II.pdf",
-    "pdf_pages": 103,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        16,
+        20
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        21,
+        24
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        25,
+        26
+      ]
+    },
+    {
+      "unit_code": "HCS421201",
+      "source_unit_code": "HCS421201",
+      "pdf_page_range": [
+        27,
+        31
+      ]
+    },
+    {
+      "unit_code": "HCS315202",
+      "source_unit_code": "HCS315202",
+      "pdf_page_range": [
+        32,
+        38
+      ]
+    },
+    {
+      "unit_code": "AFF243301",
+      "source_unit_code": "AFF243301",
+      "pdf_page_range": [
+        39,
+        42
+      ]
+    },
+    {
+      "unit_code": "AFF243302",
+      "source_unit_code": "AFF243302",
+      "pdf_page_range": [
+        43,
+        47
+      ]
+    },
+    {
+      "unit_code": "AFF243303",
+      "source_unit_code": "AFF243303",
+      "pdf_page_range": [
+        48,
+        51
+      ]
+    },
+    {
+      "unit_code": "AFF243304",
+      "source_unit_code": "AFF243304",
+      "pdf_page_range": [
+        52,
+        55
+      ]
+    }
+  ]
 }

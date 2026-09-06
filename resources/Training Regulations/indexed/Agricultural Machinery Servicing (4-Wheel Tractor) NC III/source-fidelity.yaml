@@ -1,29 +1,216 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:agricultural-machinery-servicing-4-wheel-tractor-nc-iii:302aa3b1dd",
-  "qualification": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III",
+  "qualification": "AGRICULTURAL MACHINERY SERVICING (4-WHEEL TRACTOR) NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III.pdf",
-    "sha256": "302aa3b1ddc5c855a2b3ebdda04bfad87163168337eee7009f0e5adce7c5688e",
+    "source_sha256": "302aa3b1ddc5c855a2b3ebdda04bfad87163168337eee7009f0e5adce7c5688e",
+    "pdf_pages": 179,
+    "printed_pages": 175,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source writes several Section 1 codes with presentation spaces (for example SOC 413206 and AFF 723201); normalized codes follow the unit headers.",
+    "Core competency tables use the revised four-column layout, but the headings are printed as 'REQUIRED KNOWLEDGE AND ATTITUDE' and singular 'REQUIRED SKILL'; both are normalized to the required knowledge/skills fields.",
+    "The source has occasional duplicated or out-of-order learning-outcome numbers in the curriculum and evidence guide; source numbers are preserved while semantic unit assignment follows the source table context.",
+    "The source promulgation date is retained literally as 01/11/2019 because the PDF does not spell out the month/day interpretation."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source writes several Section 1 codes with presentation spaces (for example SOC 413206 and AFF 723201); normalized codes follow the unit headers."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Core competency tables use the revised four-column layout, but the headings are printed as 'REQUIRED KNOWLEDGE AND ATTITUDE' and singular 'REQUIRED SKILL'; both are normalized to the required knowledge/skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source has occasional duplicated or out-of-order learning-outcome numbers in the curriculum and evidence guide; source numbers are preserved while semantic unit assignment follows the source table context."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source promulgation date is retained literally as 01/11/2019 because the PDF does not spell out the month/day interpretation."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III.pdf",
-    "pdf_pages": 179,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        21,
+        24
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        25,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    },
+    {
+      "unit_code": "AFF321202",
+      "source_unit_code": "AFF321202",
+      "pdf_page_range": [
+        49,
+        52
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        53,
+        54
+      ]
+    },
+    {
+      "unit_code": "AFF321205",
+      "source_unit_code": "AFF321205",
+      "pdf_page_range": [
+        55,
+        59
+      ]
+    },
+    {
+      "unit_code": "SOC413206",
+      "source_unit_code": "SOC413206",
+      "pdf_page_range": [
+        60,
+        63
+      ]
+    },
+    {
+      "unit_code": "AFF723201",
+      "source_unit_code": "AFF723201",
+      "pdf_page_range": [
+        64,
+        66
+      ]
+    },
+    {
+      "unit_code": "AFF723202",
+      "source_unit_code": "AFF723202",
+      "pdf_page_range": [
+        67,
+        70
+      ]
+    },
+    {
+      "unit_code": "AFF723303",
+      "source_unit_code": "AFF723303",
+      "pdf_page_range": [
+        71,
+        76
+      ]
+    },
+    {
+      "unit_code": "AFF723304",
+      "source_unit_code": "AFF723304",
+      "pdf_page_range": [
+        77,
+        83
+      ]
+    },
+    {
+      "unit_code": "AFF723305",
+      "source_unit_code": "AFF723305",
+      "pdf_page_range": [
+        84,
+        91
+      ]
+    },
+    {
+      "unit_code": "AFF723306",
+      "source_unit_code": "AFF723306",
+      "pdf_page_range": [
+        92,
+        100
+      ]
+    },
+    {
+      "unit_code": "AFF723307",
+      "source_unit_code": "AFF723307",
+      "pdf_page_range": [
+        101,
+        106
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schema": "tesda-indexed-training-regulation-manifest",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:agroentrepreneurship-nc-ii:2017-02-03",
+  "document_id": "tesda:tr:agroentrepreneurship-nc-ii:499c0febbe",
   "qualification": "AGROENTREPRENEURSHIP NC II",
   "promulgated": "2017-02-03",
   "coverage_status": "complete",
@@ -10,23 +10,23 @@
   "lifecycle": {
     "status": "unclear",
     "verified_on": null,
-    "verification_basis": "No external lifecycle determination was made; local source evidence does not explicitly label status."
+    "verification_basis": "Local source package classification; official source PDF remains authoritative."
   },
   "source": {
     "authority": "Technical Education and Skills Development Authority (TESDA)",
     "source_file": "Agroentrepreneurship NC II.pdf",
     "source_sha256": "499c0febbe389f3e305dc9a519988a56c1f9a496e61297109b1e6cf8730e8798",
     "pdf_pages": 103,
-    "printed_pages": null,
+    "printed_pages": 101,
     "authoritative": true
   },
   "coverage": {
     "qualification": true,
     "competency_standards": {
-      "basic_units": 3,
-      "common_units": 1,
-      "core_units": 1,
-      "other_units": 7,
+      "basic_units": 4,
+      "common_units": 4,
+      "core_units": 4,
+      "other_units": 0,
       "total_units": 12,
       "descriptors": true,
       "elements": true,
@@ -41,7 +41,7 @@
       "trainee_entry_requirements": true,
       "tools_equipment_materials": true,
       "training_facilities": true,
-      "trainer_qualifications": false,
+      "trainer_qualifications": true,
       "institutional_assessment": true
     },
     "assessment_and_certification": true,
@@ -52,10 +52,10 @@
   "fidelity": {
     "competency_units": "normalized_with_source_text",
     "performance_criteria": "numbered_normalized_with_source_text",
-    "range_of_variables": "structured_when_detectable_with_source_text",
-    "evidence_guides": "preserved_source_text",
-    "training_standards": "preserved_source_text",
-    "assessment_certification": "preserved_source_text",
+    "range_of_variables": "structured_with_source_text",
+    "evidence_guides": "structured_with_source_text",
+    "training_standards": "preserved_source_text_with_curriculum_rows",
+    "assessment_certification": "numbered_normalized_with_source_text",
     "glossary": "normalized_with_source_text",
     "acknowledgements": "normalized_entities_with_source_text"
   },
@@ -81,10 +81,6 @@
   "retrieval": {
     "preferred_lookup_key": "unit_code",
     "index_format": "jsonl",
-    "canonical_formats": [
-      "markdown",
-      "yaml"
-    ],
     "selector_contract": "semantic-index-v1",
     "whole_pdf_required_for_normal_lookup": false,
     "official_pdf_required_for_regulatory_verification": true
