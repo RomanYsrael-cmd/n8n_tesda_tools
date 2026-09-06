@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T16:17:47+08:00",
+  "last_updated": "2026-09-06T16:39:49+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 115,
-  "remaining_unaudited": 269,
+  "audited_count": 120,
+  "remaining_unaudited": 264,
   "blocked_count": 0,
   "documents": [
     {
@@ -1503,6 +1503,71 @@
       "validation_passed": true,
       "last_audit_commit": "f7663b32fe49af8b458898ccdc21c1b30e402dbd",
       "audit_notes": "Rebuilt 9/3/6 revised four-column groups and restored the required knowledge/skills; preserved the absent promulgation date and nominal duration, recorded the absent curriculum-design table and Section 4, used deterministic retrieval keys for the six printed XXXXXXX source markers while preserving source text, and disclosed the six-term glossary; structural validation and visual endpoint QA passed."
+    },
+    {
+      "package": "Customer Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Customer Services NC II",
+      "source_file": "resources/Training Regulations/Customer Services NC II.pdf",
+      "source_sha256": "bd6196dc0e78542ef59001f3b1c188c4db863306c9029e6d215f689fcfeb3f05",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:39:49+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "5ad9661f44c854aa7b1eda03dc69796c340fbc07",
+      "audit_notes": "Rebuilt 4/3/6/2 historical two-column basic/common/core/elective groups; restored 57 curriculum rows and 3 glossary entries, preserved Promulgated December 2008 and 18/18/120/80-hour components with computed 236-hour total, recorded the WRT common-code shift and source title/spelling variants, and restored the Electives curriculum table; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Cyber Threat Mitigation NC II",
+      "package_path": "resources/Training Regulations/indexed/Cyber Threat Mitigation NC II",
+      "source_file": "resources/Training Regulations/Cyber Threat Mitigation NC II.pdf",
+      "source_sha256": "6b486b696f655022e2f9c848466155027073bdbe04f6717f6e8a62baa0836f2b",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:39:49+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5ad9661f44c854aa7b1eda03dc69796c340fbc07",
+      "audit_notes": "Rebuilt 9/2/2 revised four-column groups; restored 45 curriculum rows, required knowledge/skills, and 110 glossary entries, preserved Promulgated November 13, 2024 and 37/28/240-hour components plus 160-hour SIL with 465 combined hours, and recorded the Cyber Treat running-header typo and in-school subtotal wording; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Cyber Threat Monitoring NC I",
+      "package_path": "resources/Training Regulations/indexed/Cyber Threat Monitoring NC I",
+      "source_file": "resources/Training Regulations/Cyber Threat Monitoring NC I.pdf",
+      "source_sha256": "9a893f4eedd73fde0b808d3b45cace35a4b50ef8e9b9b601f971a9e82dd1fc8f",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:39:49+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5ad9661f44c854aa7b1eda03dc69796c340fbc07",
+      "audit_notes": "Rebuilt 9/2/2 revised four-column groups; restored 43 curriculum rows, required knowledge/skills, and 106 glossary entries, preserved Promulgated November 13, 2024 and 47/28/196-hour components plus 120-hour SIL with 391 combined hours, and recorded the Cyber Treat running-header typo and in-school subtotal wording; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Dental Hygiene Level IV",
+      "package_path": "resources/Training Regulations/indexed/Dental Hygiene Level IV",
+      "source_file": "resources/Training Regulations/Dental Hygiene Level IV.pdf",
+      "source_sha256": "c520d0b2be52c698e646f08301e0936613d958b9e5d51a0552a5736b63118b8c",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:39:49+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "5ad9661f44c854aa7b1eda03dc69796c340fbc07",
+      "audit_notes": "Rebuilt 9/7/7 revised four-column groups; restored 136 curriculum rows, required knowledge/skills, and 49 glossary entries, preserved Revision 01 Promulgated (01/11/2019), the 92/56/3351-hour components, 1056-hour embedded OJT, and printed 3499-hour total, repaired the page-split Manage Own Performance criteria and common curriculum numbering, and recorded Section 1 versus Section 2 code variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Dental Hygiene Level IV (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Dental Hygiene Level IV (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Dental Hygiene Level IV (Superseded).pdf",
+      "source_sha256": "c804425b4c53bf2b8e8c2dae470c1d44447c4eb8061669c1c8960466052287a9",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:39:49+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5ad9661f44c854aa7b1eda03dc69796c340fbc07",
+      "audit_notes": "Rebuilt 6/7/7 superseded historical two-column groups; restored 77 curriculum rows and 49 glossary entries, preserved the absent promulgation date, the 92/56/3351-hour components, 1056-hour embedded OJT, and printed 3499-hour total, recorded the source’s unnumbered pages after the last numbered definition-of-terms page, and retained the superseded lifecycle; structural validation and visual boundary QA passed."
     }
   ]
 }
