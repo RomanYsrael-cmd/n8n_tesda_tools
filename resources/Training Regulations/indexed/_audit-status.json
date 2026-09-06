@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T00:52:14+08:00",
+  "last_updated": "2026-09-07T01:11:40+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 245,
-  "remaining_unaudited": 139,
+  "audited_count": 250,
+  "remaining_unaudited": 134,
   "blocked_count": 0,
   "documents": [
     {
@@ -3193,6 +3193,71 @@
       "validation_passed": true,
       "last_audit_commit": "bd3a1067e2ffa973e9cf1e75f99d7af8a9fb8b20",
       "audit_notes": "Rebuilt 4/6/3 superseded historical two-column groups; restored 49 curriculum rows, 6 assessment arrangements, and 47 definition-term entries, preserved the superseded lifecycle, absent promulgation date, 1 through 60 printed-page sequence, and the 18/60/160-hour components with 238-hour total, remapped the reset 2.x curriculum numbering across the three core units, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Instrumentation and Control Servicing NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Instrumentation and Control Servicing NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Instrumentation and Control Servicing NC III (Superseded).pdf",
+      "source_sha256": "5c3ffb4e56feaa8e493be489071d7e3a859f156f5621475c8dfc8875b98df144",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:11:40+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "08296ec271f3bafe83540cbaf1aa110e20b7b85d",
+      "audit_notes": "Rebuilt 6/6/2 superseded historical two-column groups; restored 52 curriculum rows, 6 assessment arrangements, and 46 definition-term entries, preserved the superseded lifecycle, absent promulgation date, 1 through 62 printed-page sequence, and the 36/60/80-hour components with 176-hour total, remapped the final basic curriculum unit whose source learning outcomes repeat 2.1–2.3, and retained the inherited NC II core-package statement, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Instrumentation and Control Servicing NC IV (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Instrumentation and Control Servicing NC IV (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Instrumentation and Control Servicing NC IV (Superseded).pdf",
+      "source_sha256": "5db84cd3fd008e644593bd13e3d0d0996a950f0c1695e797f8df92954983a185",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:11:40+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "08296ec271f3bafe83540cbaf1aa110e20b7b85d",
+      "audit_notes": "Rebuilt 6/6/2 superseded historical two-column groups; restored 61 curriculum rows, 6 assessment arrangements, and 47 definition-term entries, preserved the superseded lifecycle, absent promulgation date, 1 through 66 printed-page sequence, and the 30/60/80-hour components with 170-hour total, retained the inherited NC II and NC III core-package statement, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Jewelry Making (Fine Jewelry) NC II",
+      "package_path": "resources/Training Regulations/indexed/Jewelry Making (Fine Jewelry) NC II",
+      "source_file": "resources/Training Regulations/Jewelry Making (Fine Jewelry) NC II.pdf",
+      "source_sha256": "4853eed7b707074ca6665c2d782c2f85efa9e28791ed90c6a794da2e06052236",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:11:40+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "08296ec271f3bafe83540cbaf1aa110e20b7b85d",
+      "audit_notes": "Rebuilt the complete Section 2 sequence as 3/5/4 historical two-column groups; restored 35 curriculum rows, 7 assessment arrangements, and 33 definition-term entries, preserved Promulgated: Nov. 25, 2010, the 1 through 74 printed-page sequence, and the 18/24/800-hour components with 842-hour total, recorded the Section 1-only 500311108 basic unit omission, preserved the HCS323204 versus HCS323203 first-aid code discrepancy through source_unit_code and source-fidelity notes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Jewelry Making (Fine Jewelry) NC III",
+      "package_path": "resources/Training Regulations/indexed/Jewelry Making (Fine Jewelry) NC III",
+      "source_file": "resources/Training Regulations/Jewelry Making (Fine Jewelry) NC III.pdf",
+      "source_sha256": "616f4a9df8bfe38d27b9cbe9ba56b56e636135276e3dc6090a33732f83287b59",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:11:40+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "08296ec271f3bafe83540cbaf1aa110e20b7b85d",
+      "audit_notes": "Rebuilt 6/5/6 historical two-column groups; restored 52 curriculum rows, 7 assessment arrangements, and 33 definition-term entries, preserved Promulgated: Nov. 25, 2010, the 1 through 90 printed-page sequence, and the 20/24/1,920-hour components with 1,964-hour total, recorded the Section 1 versus Section 2 HCS515202/HCS516202 and HCS323204/HCS323203 common-code discrepancies through source_unit_code and source-fidelity notes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Laboratory and Metrology Calibration Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Laboratory and Metrology Calibration Services NC II",
+      "source_file": "resources/Training Regulations/Laboratory and Metrology Calibration Services NC II.pdf",
+      "source_sha256": "72ba5c49c1dfebdb9e4773533bf11f3aa31c8a8c8eb38172e3515f146bf293fb",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:11:40+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "08296ec271f3bafe83540cbaf1aa110e20b7b85d",
+      "audit_notes": "Rebuilt 4/4/3 historical two-column groups; restored 32 curriculum rows, 5 assessment arrangements, and 2 definition-term entries, preserved the undated Promulgated running-header label, the 1 through 46 printed-page sequence, and the 18/20/56-hour components with 94-hour total, restored the two unnumbered source criteria under ALT315307 element 1 as normalized criteria while retaining the original source text, preserved the Laboratory and Metrology/Calibration Services terminology variant, and retained page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
