@@ -1,29 +1,397 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:dental-technology-nc-iv:e5adf4d75d",
   "qualification": "DENTAL TECHNOLOGY NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Dental Technology NC IV.pdf",
-    "sha256": "e5adf4d75dd74742bbb496adf33376fdb530acd4203b48d71f886598ee3e4389",
+    "source_sha256": "e5adf4d75dd74742bbb496adf33376fdb530acd4203b48d71f886598ee3e4389",
+    "pdf_pages": 167,
+    "printed_pages": 160,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints Nominal Training Hours as 3,499 Hours + 1,056 Hours OJT and explicitly states that the six-month OJT is separate from the two-year program; the canonical total of 4,555 hours is the arithmetic sum of the printed program and OJT components.",
+    "No promulgation date is printed in the page-preserved source; the canonical promulgated field is null.",
+    "The source competency tables use the historical two-column Element/Performance Criteria layout despite the introductory text describing a revised format; separate Required Knowledge and Required Skills fields are therefore not synthesized.",
+    "The Section 1 core inventory and Section 2 header order differ for HCS322331 and HCS322334; canonical units follow the qualification inventory while source_codes preserve header order and source_text preserves the printed sequence.",
+    "The source embeds the NC I and NC II dental laboratory qualifications and uses title, punctuation, spacing, and spelling variants including thermo-formed, custormer, Brainstroming, and on-the-job formatting; source_text preserves the printed forms while the indexed inventory follows the qualification list."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Nominal Training Hours as 3,499 Hours + 1,056 Hours OJT and explicitly states that the six-month OJT is separate from the two-year program; the canonical total of 4,555 hours is the arithmetic sum of the printed program and OJT components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "No promulgation date is printed in the page-preserved source; the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source competency tables use the historical two-column Element/Performance Criteria layout despite the introductory text describing a revised format; separate Required Knowledge and Required Skills fields are therefore not synthesized."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 core inventory and Section 2 header order differ for HCS322331 and HCS322334; canonical units follow the qualification inventory while source_codes preserve header order and source_text preserves the printed sequence."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source embeds the NC I and NC II dental laboratory qualifications and uses title, punctuation, spacing, and spelling variants including thermo-formed, custormer, Brainstroming, and on-the-job formatting; source_text preserves the printed forms while the indexed inventory follows the qualification list."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Dental Technology NC IV.pdf",
-    "pdf_pages": 167,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311101",
+      "source_unit_code": "500311101",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311102",
+      "source_unit_code": "500311102",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311103",
+      "source_unit_code": "500311103",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311104",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "500311115",
+      "source_unit_code": "500311115",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "500311116",
+      "source_unit_code": "500311116",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "500311117",
+      "source_unit_code": "500311117",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "500311118",
+      "source_unit_code": "500311118",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    },
+    {
+      "unit_code": "500311119",
+      "source_unit_code": "500311119",
+      "pdf_page_range": [
+        47,
+        51
+      ]
+    },
+    {
+      "unit_code": "500311120",
+      "source_unit_code": "500311120",
+      "pdf_page_range": [
+        52,
+        54
+      ]
+    },
+    {
+      "unit_code": "HCS346201",
+      "source_unit_code": "HCS346201",
+      "pdf_page_range": [
+        55,
+        58
+      ]
+    },
+    {
+      "unit_code": "HCS346202",
+      "source_unit_code": "HCS346202",
+      "pdf_page_range": [
+        59,
+        61
+      ]
+    },
+    {
+      "unit_code": "HCS346203",
+      "source_unit_code": "HCS346203",
+      "pdf_page_range": [
+        62,
+        67
+      ]
+    },
+    {
+      "unit_code": "HCS315202",
+      "source_unit_code": "HCS315202",
+      "pdf_page_range": [
+        68,
+        70
+      ]
+    },
+    {
+      "unit_code": "HCS516201",
+      "source_unit_code": "HCS516201",
+      "pdf_page_range": [
+        71,
+        73
+      ]
+    },
+    {
+      "unit_code": "HCS516202",
+      "source_unit_code": "HCS516202",
+      "pdf_page_range": [
+        74,
+        76
+      ]
+    },
+    {
+      "unit_code": "HCS346204",
+      "source_unit_code": "HCS346204",
+      "pdf_page_range": [
+        77,
+        79
+      ]
+    },
+    {
+      "unit_code": "HCS346205",
+      "source_unit_code": "HCS346205",
+      "pdf_page_range": [
+        80,
+        84
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        85,
+        88
+      ]
+    },
+    {
+      "unit_code": "HCS322323",
+      "source_unit_code": "HCS322323",
+      "pdf_page_range": [
+        89,
+        91
+      ]
+    },
+    {
+      "unit_code": "HCS322324",
+      "source_unit_code": "HCS322324",
+      "pdf_page_range": [
+        92,
+        94
+      ]
+    },
+    {
+      "unit_code": "HCS322325",
+      "source_unit_code": "HCS322325",
+      "pdf_page_range": [
+        95,
+        96
+      ]
+    },
+    {
+      "unit_code": "HCS322326",
+      "source_unit_code": "HCS322326",
+      "pdf_page_range": [
+        97,
+        98
+      ]
+    },
+    {
+      "unit_code": "HCS322327",
+      "source_unit_code": "HCS322327",
+      "pdf_page_range": [
+        99,
+        100
+      ]
+    },
+    {
+      "unit_code": "HCS322328",
+      "source_unit_code": "HCS322328",
+      "pdf_page_range": [
+        101,
+        102
+      ]
+    },
+    {
+      "unit_code": "HCS322329",
+      "source_unit_code": "HCS322329",
+      "pdf_page_range": [
+        103,
+        104
+      ]
+    },
+    {
+      "unit_code": "HCS322330",
+      "source_unit_code": "HCS322330",
+      "pdf_page_range": [
+        105,
+        106
+      ]
+    },
+    {
+      "unit_code": "HCS322331",
+      "source_unit_code": "HCS322334",
+      "pdf_page_range": [
+        107,
+        108
+      ]
+    },
+    {
+      "unit_code": "HCS322339",
+      "source_unit_code": "HCS322339",
+      "pdf_page_range": [
+        109,
+        112
+      ]
+    },
+    {
+      "unit_code": "HCS322332",
+      "source_unit_code": "HCS322332",
+      "pdf_page_range": [
+        113,
+        114
+      ]
+    },
+    {
+      "unit_code": "HCS322333",
+      "source_unit_code": "HCS322333",
+      "pdf_page_range": [
+        115,
+        116
+      ]
+    },
+    {
+      "unit_code": "HCS322334",
+      "source_unit_code": "HCS322331",
+      "pdf_page_range": [
+        117,
+        119
+      ]
+    },
+    {
+      "unit_code": "HCS322335",
+      "source_unit_code": "HCS322335",
+      "pdf_page_range": [
+        120,
+        122
+      ]
+    },
+    {
+      "unit_code": "HCS322336",
+      "source_unit_code": "HCS322336",
+      "pdf_page_range": [
+        123,
+        125
+      ]
+    },
+    {
+      "unit_code": "HCS322337",
+      "source_unit_code": "HCS322337",
+      "pdf_page_range": [
+        126,
+        128
+      ]
+    },
+    {
+      "unit_code": "HCS322338",
+      "source_unit_code": "HCS322338",
+      "pdf_page_range": [
+        129,
+        130
+      ]
+    },
+    {
+      "unit_code": "HCS322340",
+      "source_unit_code": "HCS322340",
+      "pdf_page_range": [
+        131,
+        135
+      ]
+    },
+    {
+      "unit_code": "HCS322341",
+      "source_unit_code": "HCS322341",
+      "pdf_page_range": [
+        136,
+        140
+      ]
+    },
+    {
+      "unit_code": "HCS322342",
+      "source_unit_code": "HCS322342",
+      "pdf_page_range": [
+        141,
+        145
+      ]
+    }
+  ]
 }

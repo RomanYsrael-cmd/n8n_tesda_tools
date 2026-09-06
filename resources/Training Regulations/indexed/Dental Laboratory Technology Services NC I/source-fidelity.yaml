@@ -1,29 +1,152 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:dental-laboratory-technology-services-nc-i:2008-04",
-  "qualification": "Dental Laboratory Technology Services NC I",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:dental-laboratory-technology-services-nc-i:03e0f7ad47",
+  "qualification": "DENTAL LABORATORY TECHNOLOGY SERVICES NC I",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Dental Laboratory Technology Services NC I.pdf",
-    "sha256": "03e0f7ad47fbb16941948b4212a02abee81f86106041ebdd850f362de701aee4",
+    "source_sha256": "03e0f7ad47fbb16941948b4212a02abee81f86106041ebdd850f362de701aee4",
+    "pdf_pages": 58,
+    "printed_pages": 52,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints Promulgated April 2008; the canonical promulgated field preserves the month/year literal.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 18 Basic, 28 Common, and 930 Core hours; the canonical total of 976 hours is their arithmetic sum.",
+    "The source uses title and terminology variants including Dental Laboratory Technology Services NC I QUALIFICATION and local spelling/spacing differences; source_text preserves the printed forms while the indexed inventory follows the qualification list."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated April 2008; the canonical promulgated field preserves the month/year literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 28 Common, and 930 Core hours; the canonical total of 976 hours is their arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title and terminology variants including Dental Laboratory Technology Services NC I QUALIFICATION and local spelling/spacing differences; source_text preserves the printed forms while the indexed inventory follows the qualification list."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Dental Laboratory Technology Services NC I.pdf",
-    "pdf_pages": 58,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311101",
+      "source_unit_code": "500311101",
+      "pdf_page_range": [
+        6,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311102",
+      "source_unit_code": "500311102",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311103",
+      "source_unit_code": "500311103",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311104",
+      "pdf_page_range": [
+        14,
+        16
+      ]
+    },
+    {
+      "unit_code": "HCS346201",
+      "source_unit_code": "HCS346201",
+      "pdf_page_range": [
+        17,
+        20
+      ]
+    },
+    {
+      "unit_code": "HCS346202",
+      "source_unit_code": "HCS346202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "HCS346203",
+      "source_unit_code": "HCS346203",
+      "pdf_page_range": [
+        24,
+        29
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "HCS322323",
+      "source_unit_code": "HCS322323",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "HCS322324",
+      "source_unit_code": "HCS322324",
+      "pdf_page_range": [
+        37,
+        38
+      ]
+    },
+    {
+      "unit_code": "HCS322325",
+      "source_unit_code": "HCS322325",
+      "pdf_page_range": [
+        39,
+        40
+      ]
+    },
+    {
+      "unit_code": "HCS322326",
+      "source_unit_code": "HCS322326",
+      "pdf_page_range": [
+        41,
+        42
+      ]
+    },
+    {
+      "unit_code": "HCS322327",
+      "source_unit_code": "HCS322327",
+      "pdf_page_range": [
+        43,
+        44
+      ]
+    }
+  ]
 }

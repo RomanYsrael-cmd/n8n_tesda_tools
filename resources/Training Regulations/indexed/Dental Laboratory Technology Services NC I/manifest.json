@@ -1,32 +1,32 @@
 {
   "schema": "tesda-indexed-training-regulation-manifest",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:dental-laboratory-technology-services-nc-i:2008-04",
-  "qualification": "Dental Laboratory Technology Services NC I",
-  "promulgated": "2008-04",
+  "document_id": "tesda:tr:dental-laboratory-technology-services-nc-i:03e0f7ad47",
+  "qualification": "DENTAL LABORATORY TECHNOLOGY SERVICES NC I",
+  "promulgated": "April 2008",
   "coverage_status": "complete",
   "representation_type": "semantic_normalized",
   "verbatim_transcription": false,
   "lifecycle": {
     "status": "unclear",
     "verified_on": null,
-    "verification_basis": "No external lifecycle determination was made; local source evidence does not explicitly label status."
+    "verification_basis": "Local source package classification; official source PDF remains authoritative."
   },
   "source": {
     "authority": "Technical Education and Skills Development Authority (TESDA)",
     "source_file": "Dental Laboratory Technology Services NC I.pdf",
     "source_sha256": "03e0f7ad47fbb16941948b4212a02abee81f86106041ebdd850f362de701aee4",
     "pdf_pages": 58,
-    "printed_pages": null,
+    "printed_pages": 52,
     "authoritative": true
   },
   "coverage": {
     "qualification": true,
     "competency_standards": {
-      "basic_units": 6,
-      "common_units": 0,
-      "core_units": 0,
-      "other_units": 7,
+      "basic_units": 4,
+      "common_units": 4,
+      "core_units": 5,
+      "other_units": 0,
       "total_units": 13,
       "descriptors": true,
       "elements": true,
@@ -41,7 +41,7 @@
       "trainee_entry_requirements": true,
       "tools_equipment_materials": true,
       "training_facilities": true,
-      "trainer_qualifications": false,
+      "trainer_qualifications": true,
       "institutional_assessment": true
     },
     "assessment_and_certification": true,
@@ -52,10 +52,10 @@
   "fidelity": {
     "competency_units": "normalized_with_source_text",
     "performance_criteria": "numbered_normalized_with_source_text",
-    "range_of_variables": "structured_when_detectable_with_source_text",
-    "evidence_guides": "preserved_source_text",
-    "training_standards": "preserved_source_text",
-    "assessment_certification": "preserved_source_text",
+    "range_of_variables": "structured_with_source_text",
+    "evidence_guides": "structured_with_source_text",
+    "training_standards": "preserved_source_text_with_curriculum_rows",
+    "assessment_certification": "numbered_normalized_with_source_text",
     "glossary": "normalized_with_source_text",
     "acknowledgements": "normalized_entities_with_source_text"
   },
@@ -81,10 +81,6 @@
   "retrieval": {
     "preferred_lookup_key": "unit_code",
     "index_format": "jsonl",
-    "canonical_formats": [
-      "markdown",
-      "yaml"
-    ],
     "selector_contract": "semantic-index-v1",
     "whole_pdf_required_for_normal_lookup": false,
     "official_pdf_required_for_regulatory_verification": true
