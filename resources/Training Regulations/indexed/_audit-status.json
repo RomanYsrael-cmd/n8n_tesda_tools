@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T01:41:50+08:00",
+  "last_updated": "2026-09-07T02:01:33+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 260,
-  "remaining_unaudited": 124,
+  "audited_count": 265,
+  "remaining_unaudited": 119,
   "blocked_count": 0,
   "documents": [
     {
@@ -3388,6 +3388,71 @@
       "validation_passed": true,
       "last_audit_commit": "d96c8e7a0ae9f78455645b6f14e8a85b9b531775",
       "audit_notes": "Rebuilt 9/7/6 revised four-column groups with required knowledge and skills; restored 125 curriculum rows, 2 assessment arrangements, and 19 definition-term entries, preserved Revision 01, Promulgated (01/11/2019), the 1 through 171 printed-page sequence, and the 47/60/859-hour components plus 624-hour Supervised Industry Training (SIT) with 1,590-hour total, recorded the preliminary TR AUTOMOTIVE SERVICING NC II running-header anomaly and duplicate duration statement, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Machining NC I (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Machining NC I (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Machining NC I (Superseded).pdf",
+      "source_sha256": "1eacee0211885a90c545152fe8b6fd3740bb92b845949a39d27c759e0ec5f0d2",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:01:33+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "1a5c3e78f9d2de5d04da4c0f6964d8eab8f535ee",
+      "audit_notes": "Rebuilt 4/7/4 superseded historical two-column groups; restored 53 curriculum rows, 7 assessment arrangements, and 13 definition-term entries, preserved the superseded lifecycle, undated source marker mach110504ts 01/04/05, the 1 through 72 printed-page sequence, and the single 374-hour nominal duration, corrected the historical basic-unit code inventory, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Machining NC II",
+      "package_path": "resources/Training Regulations/indexed/Machining NC II",
+      "source_file": "resources/Training Regulations/Machining NC II.pdf",
+      "source_sha256": "35f5df48ff243887608d3f86d67ab0e4ba4f6b59454af962ede49dc936d9d689",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:01:33+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "1a5c3e78f9d2de5d04da4c0f6964d8eab8f535ee",
+      "audit_notes": "Rebuilt 4/7/8 historical two-column groups; restored 53 curriculum rows, 6 assessment arrangements, and 13 definition-term entries, preserved Promulgated March 2005, the 1 through 61 printed-page sequence, and the 18/12/307-hour components with 337-hour arithmetic total, mapped the four Section 3 advanced curriculum blocks to complex/intermediate core units, recorded the four Section 1 basic-core units absent from the curriculum table without inventing rows, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Machining NC III",
+      "package_path": "resources/Training Regulations/indexed/Machining NC III",
+      "source_file": "resources/Training Regulations/Machining NC III.pdf",
+      "source_sha256": "0d06e7dc60b59543c451871c26485abb1a76835f7cdd665bf8bfc893e56146be",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:01:33+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "1a5c3e78f9d2de5d04da4c0f6964d8eab8f535ee",
+      "audit_notes": "Rebuilt 6/11/9 historical two-column groups; restored 62 curriculum rows, 7 assessment arrangements, and 13 definition-term entries, preserved the undated source marker machiii 04/11/06, the 1 through 114 printed-page sequence, and the single 342-hour nominal duration, normalized legacy element and performance-criteria numbering, mapped the two advanced Turn/Mill curriculum blocks to MEE722309/MEE722310, and recorded the remaining seven Section 1 core standards absent from Section 3 without inventing rows; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Manual Metal Arc Welding (MMAW) NC I",
+      "package_path": "resources/Training Regulations/indexed/Manual Metal Arc Welding (MMAW) NC I",
+      "source_file": "resources/Training Regulations/Manual Metal Arc Welding (MMAW) NC I.pdf",
+      "source_sha256": "5582af41c3e370fb98dcdaad2abd2b2cee4f10bcae176160050db544f518fc50",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:01:33+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "1a5c3e78f9d2de5d04da4c0f6964d8eab8f535ee",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 56 curriculum rows, 2 assessment arrangements, and 36 definition-term entries, preserved Revision 01, Promulgated (9/14/2021), the 1 through 114 printed-page sequence, the 47/40/181-hour components plus 80-hour Supervised Industry Learning (SIL), and 348-hour total, recorded the MEE721323 versus MEE721301 core-code discrepancy and the source-printed ASSSSMENT heading, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Manual Metal Arc Welding (MMAW) NC II",
+      "package_path": "resources/Training Regulations/indexed/Manual Metal Arc Welding (MMAW) NC II",
+      "source_file": "resources/Training Regulations/Manual Metal Arc Welding (MMAW) NC II.pdf",
+      "source_sha256": "dee3e283734e02c811cd562752fbaa035fdc71c9e1054945848c5432d72f705e",
+      "status": "audited",
+      "audited_at": "2026-09-07T02:01:33+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "1a5c3e78f9d2de5d04da4c0f6964d8eab8f535ee",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 54 curriculum rows, 2 assessment arrangements, and 36 definition-term entries, preserved Revision 01, Promulgated (9/14/2021), the 1 through 107 printed-page sequence, the 37/40/181-hour components plus 80-hour Supervised Industry Learning (SIL), and 338-hour total, recorded the historical Shielded Metal Arc Welding (SMAW) terminology and source-printed ASSSSMENT heading, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
