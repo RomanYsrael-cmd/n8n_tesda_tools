@@ -1,29 +1,160 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:electronic-products-assembly-and-servicing-nc-ii:03c8d7942e",
-  "qualification": "Electronic Products Assembly and Servicing NC II",
+  "qualification": "ELECTRONIC PRODUCTS ASSEMBLY AND SERVICING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Electronic Products Assembly and Servicing NC II.pdf",
-    "sha256": "03c8d7942ec487aca457ab36747894a5f90e69b4bf85e8012e940bdfbaaf289b",
+    "source_sha256": "03c8d7942ec487aca457ab36747894a5f90e69b4bf85e8012e940bdfbaaf289b",
+    "pdf_pages": 74,
+    "printed_pages": 72,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not print a promulgation date; the canonical promulgated field is null.",
+    "The source prints 40 Basic, 80 Common, and 140 Core hours for a 260-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source uses the historical two-column Element/Performance Criteria layout; the Test Electronic Components header prints the wildcard code ELC724xxx while Section 1 lists ELC724205, and source_text preserves the printed wildcard form.",
+    "The source uses spelling, capitalization, punctuation, and title variants including DESCRIPTON and Electronic Products Assembly terminology; source_text preserves the printed forms."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date; the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 40 Basic, 80 Common, and 140 Core hours for a 260-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria layout; the Test Electronic Components header prints the wildcard code ELC724xxx while Section 1 lists ELC724205, and source_text preserves the printed wildcard form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses spelling, capitalization, punctuation, and title variants including DESCRIPTON and Electronic Products Assembly terminology; source_text preserves the printed forms."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Electronic Products Assembly and Servicing NC II.pdf",
-    "pdf_pages": 74,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "ELC315202",
+      "source_unit_code": "ELC315202",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "ELC311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "ELC311201",
+      "source_unit_code": "ELC311201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "ELC311202",
+      "source_unit_code": "ELC311202",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "ELC724201",
+      "source_unit_code": "ELC724201",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "ELC724202",
+      "source_unit_code": "ELC724202",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "ELC724205",
+      "source_unit_code": "ELC724205",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "ELC724335",
+      "source_unit_code": "ELC724335",
+      "pdf_page_range": [
+        40,
+        44
+      ]
+    },
+    {
+      "unit_code": "ELC724336",
+      "source_unit_code": "ELC724336",
+      "pdf_page_range": [
+        45,
+        50
+      ]
+    },
+    {
+      "unit_code": "ELC724337",
+      "source_unit_code": "ELC724337",
+      "pdf_page_range": [
+        51,
+        56
+      ]
+    }
+  ]
 }

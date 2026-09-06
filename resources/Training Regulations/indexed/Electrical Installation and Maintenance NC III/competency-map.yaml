@@ -1,96 +1,61 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:electrical-installation-and-maintenance-nc-iii:2015-12-16",
-  "qualification": "Electrical Installation and Maintenance NC III",
+  "document_id": "tesda:tr:electrical-installation-and-maintenance-nc-iii:99813d270f",
+  "qualification": "ELECTRICAL INSTALLATION AND MAINTENANCE NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "to lead in the dissemination and discussion of ideas,"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude"
-      },
-      {
-        "unit_code": "ISO900115",
-        "title": "15.1 ISO 9001"
-      },
-      {
-        "unit_code": "QS900015",
-        "title": "15.2 QS 9000"
-      },
-      {
-        "unit_code": "TS1694915",
-        "title": "15.3 TS 16949"
-      },
-      {
-        "unit_code": "ISO1400015",
-        "title": "15.4 ISO 14000"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ELC311205",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ELC741304",
-        "title": "This unit of Core Electrical Competencies covers the"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "small teams including setting and maintaining team and"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "collect information in order to negotiate to a desired outcome"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "in the application of mathematical concepts and techniques."
-      },
-      {
-        "unit_code": "ELC311201",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311202",
-        "title": "This unit covers the knowledge, skills and attitudes and values"
-      },
-      {
-        "unit_code": "ELC311204",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311206",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311212",
-        "title": "condition, performing preventive maintenance and storing of"
-      },
-      {
-        "unit_code": "ELC741305",
-        "title": "This unit of Core Electrical Competency covers the"
-      },
-      {
-        "unit_code": "ELC741306",
-        "title": "This unit of Core Electrical Competency covers the"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n82",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ELC311205",
+        "ELC311201",
+        "ELC311202",
+        "ELC311204",
+        "ELC311206",
+        "ELC311212"
+      ],
+      "unit_titles": [
+        "Use hand tools",
+        "Perform mensuration and calculation",
+        "Prepare and interpret technical drawing",
+        "Apply quality standards",
+        "Terminate and connect electrical wiring and electronic circuits",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ELC741304",
+        "ELC741305",
+        "ELC741306"
+      ],
+      "unit_titles": [
+        "Perform roughing-in and wiring activities for three-phase distribution system for power, lighting and motor control panel",
+        "Perform installation of data measurement and control system on electrical and auxiliary equipment",
+        "Install, assemble, test and maintain motor control system"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a\nNational Certificate III signed by the TESDA Director General.\n4.1.2.\nThe qualification of Electrical Installation & Maintenance NC III can be\nattained through demonstration of competence through project-type\nassessment covering all the required units of the qualification.\n4.1.3.\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n4.1.4.\nThe following are qualified to apply for assessment and certification:\n\n(1) Graduates of formal, non-formal and informal including enterprise-\nbased education/training programs/courses\n\n(2) Experienced Workers (wage-employed or self-employed)\n\n4.1.5.\nFor those holders of existing National Certificate (NC) of individuals in\nElectrical Installation and Maintenance NC III, automatic conversion\nwill be implemented.\n4.1.6.\nClustering of competencies is not applicable.\n4.1.7.\nIndividuals who already possess Certificate of Competency (COC) in\nElectrical Installation and Maintenance NC III are advised to take the\nNC assessment for this amended TR upon expiration of their COCs.\n4.1.8.\nThe guidelines on assessment and certification are discussed in detail\nin the “Procedures Manual on Assessment and Certification” and\n“Guidelines on the Implementation of the Philippine TVET\nCompetency Assessment and Certification System (PTCACS)”.\n\n4.2. COMPETENCY ASSESSMENT REQUISITE\n\n--- PDF PAGE 85 ---\nTESDA-SOP-QSO-01-F08\n TR – Electrical Installation and Maintenance NC III (Amended) Promulgated December 16, 2015 81\n\n4.2.1 Self-Assessment\nGuide.\nThe\nself-assessment\nguide\n(SAG)\nis\naccomplished by the candidate prior to actual competency assessment.\nSAG is a pre-assessment tool to help the candidate and the assessor\ndetermine what evidence is available, where gaps exist, including\nreadiness for assessment.\nThis document can:\na. Identify the candidate’s skills and knowledge\nb. Highlight gaps in candidate’s skills and knowledge\nc. Provide critical guidance to the assessor and candidate on the\nevidence that need to be presented\nd. Assist the candidate to identify key areas in which practice is\nneeded or additional information or skills that should be gained\nprior`\n\n4.2.2 Accredited Assessment Center. Only Assessment Center accredited by\nTESDA is authorized to conduct competency assessment. Assessment\ncenters undergo a quality assured procedure for accreditation before\nthey are authorized by TESDA to manage the assessment for National\nCertification.\n4.2.3 Accredited Competency Assessor. Only accredited competency\nassessor is authorized to conduct assessment of competence.\nCompetency assessors undergo a quality assured system of\naccreditation procedure before they are authorized by TESDA to assess\nthe competencies of candidates for National Certification.\n\n--- PDF PAGE 86 ---\nTESDA-SOP-QSO-01-F08\n TR – Electrical Installation and Maintenance NC III (Amended) Promulgated December 16, 2015 82\nELECTRICAL INSTALLATION & MAINTENANCE NC III COMPETENCY MAP\n\nBASIC COMPETENCIES\n\nReceive and Respond to\nWorkplace\nCommunication\nWork with Others\nDemonstrate work values\nPractice basic\nhousekeeping procedures\nParticipate in Workplace\nCommunication\nWork in a Team Environment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Teams\nDevelop and Practice\nNegotiating Skills\nSolve Problems related\nto Work Activities\nUse Mathematical Concepts\nand Techniques\nUse Relevant Technologies\nUtilize Specialist\nCommunication Skills\nDevelop Team and\nIndividuals\nApply Problem Solving\nTechniques in the\nWorkplace\nCollect, analyze and\norganize information\nPlan and Organize Work\nPromote environmental\nprotection\n\nCOMMON COMPETENCIES\n\nUse Hand Tools\nPerform Mensuration and Calculation\nPrepare and Interpret\nTechnical Drawing\nApply Quality Standards\nPerform Computer\nOperations\nTerminate and Connect Electrical\nWiring and Electronic Circuits\nObserve Procedures, Specifications and\nManuals of Instructions\nMaintain Tools and Equipment\nTest Electronic Components\n\nCORE COMPETENCIES\n\nPrepare electrical\nmaterials and tools\nPerform roughing-in\nactivities for basic\nelectrical lay-out\nPerform installation of wiring\ndevices for power, lights &\nauxiliary outlets\nPerform installation\nof electrical wiring\n\nPerform installation of basic\nelectrical protection systems\nPerform installation of basic\nauxiliary outlets and lighting\nfixtures\nPerform commissioning on low\nvoltage electrical systems\n\nPerform roughing-in activities wiring\nand cabling works for single-phase\ndistribution system, power, lighting\nand auxiliary.\nInstall electrical protective devices\nfor distribution of power , lighting,\nauxiliary and to include lightning\nprotection an grounding systems.\nInstall wiring devices of floor\nand wall mounted outlets,\nlighting fixtures/switches\nand auxiliary outlet.\nPerform roughing-in\nactivities for Three-phase\ndistribution system\nfor power, lighting and motor\nPerform installation of data\nmeasurement and control\nsystem on electrical and\nauxiliary equipment\nInstall, assemble, test and\nmaintain motor control\nsystem\nSupervise/Monitor installation &\nmaintenance on electrical systems,\nauxiliary including control, lighting,\npower and protection equipment\nPerform commissioning of\nelectrical equipment/system\nPerform programming and\ninstallation of basic PLC\nsystems\n\n--- PDF PAGE 87 ---\nTESDA-SOP-QSO-01-F08\n TR – Electrical Installation and Maintenance NC III (Amended) Promulgated December 16, 2015 83\nGLOSSARY OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who\npass the assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and\nattitudes to perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgments on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be\nconducted or carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a\nparticular area of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by\nthe individual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\noutcome terms the functions that a person performs in the workplace.\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual.\nIt provides information on critical aspects of competency, underpinning\nknowledge, underpinning skills, resource implications, assessment method and\ncontext of assessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when,\nevidence should be collected\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve\nall the required units of competency for a national qualification defined under\nthe Training Regulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n17) Qualification - is a cluster of units of competencies that meets job roles and is\nsignificant in the workplace. It is also a certification awarded to a person on\n\n--- PDF PAGE 88 ---\nTESDA-SOP-QSO-01-F08\n TR – Electrical Installation and Maintenance NC III (Amended) Promulgated December 16, 2015 84\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work\nis to be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an\nindividual’s skills, knowledge and attitudes gained from life and work\nexperiences outside registered training programs\n\n19) Resource Implication - refer to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It\nincludes work environment and conditions, materials, tools and equipment\n\n20) Basic Competencies - are the skills and knowledge that everyone needs for\nwork\n\n21) Training Regulations (TR) – refers to the document promulgated and issued\nby TESDA consisting of competency standards, national qualifications and\ntraining guidelines for specific sectors/occupations. The TR serves as basis for\nestablishment of qualification and certification under the PTQF. It also serves\nas guide for development of competency-based curricula and instructional\nmaterials including registration of TVET programs offered by TVET providers\n\n22) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is\nessential to the performance of the competency\n\n23) Underpinning Skills - refers to the list of the skills needed to achieve the\nelements and performance criteria in the unit of competency. It includes\ngeneric and industry specific skills\n\n24) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\nSECTOR SPECIFIC\n\n1) Technical Terms. All technical terms are used with meanings as defined in the\nlatest published edition of the Philippine Electrical Code, in applicable laws,\nsuch as R.A. 7920 (The New Electrical Engineering Law), and current electrical\nengineering practice.\n\n2) Other Terms. All other terms are used as defined in applicable TESDA\ndocuments.\n\n--- PDF PAGE 89 ---\nTESDA-SOP-QSO-01-F08\n TR – Electrical Installation and Maintenance NC III (Amended) Promulgated December 16, 2015 85\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\nTHE TECHNICAL EXPERT PANEL (TEP)\n\nENGR. HIPOLITO A. LEONCIO, PEE\nManaging Director\nPhasor Construction Corporation\n3/F Glialcon Bldg. Blumentritt St., San Juan, Metro Manila\nTelephone: 723-7675; 726-6748\n\nENGR. ARTHUR N. ESCALANTE, PEE\nPresident\nAN Escalante Construction, Inc.\nDavao City\nTelephone: +63 822441820\n\nENGR. GAMALIEL F. ITAO, PEE\nPresident\nIndustrial Controls Corporation\nMega Plaza, Ortigas Center Pasig City\nTel. Nos. 687-1246/687-4815\nENGR. BERNARD H. MORILLO\nPresident\nPlug Electric Mfg. Corporation\nPemcor Industrial Plant, Lot 3 Dama de\nNoche, UPS4 Paranaque City\nTel. Nos.: 823-5222; 823-5856; 823-4389\nENGR. ARIEL P. DURAN, REE\nPresident\nPolyphase.One Construction, Inc.\n# 7 Philip St. Jordan Park,\nCommonwealth Quezon City\nTel. Nos.: 503-0649\nENGR. PABLITO R. FREO, REE\nPresident\nPOWERLOOPS, INC.\nEDSA, Cubao, Quezon City\nTel. Nos.: 912-9141; 421-7182\nENGR. RUBEN J. DICHOSO, REE\nTrainer/Consultant\nGokongwei Brothers Foundation, Inc.\nLitton Mills Compound, A. Rodriguez Avenue\nRosario, Pasig City, Tel No. 733-2118;\n and\nAssociate Professor, RTU-Boni Ave\nMandaluyong City\nTel No. 534-8267\n\nThe TESDA Board – Standards Setting and Systems Development Committee\n\nThe Management and Staff of the TESDA Secretariat\n\n•\nQualifications and Standards Office\no\nCompetency Standards Division\n\no Competency Programs and Systems\nDevelopment Division\n\n• NITESD Office\n\no Curriculum and Training Aids Division"
 }

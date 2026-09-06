@@ -1,65 +1,1353 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:electrical-installation-and-maintenance-nc-iv:1a6552cef6",
-  "qualification": "Electrical Installation and Maintenance NC IV",
+  "qualification": "ELECTRICAL INSTALLATION AND MAINTENANCE NC IV",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Electrical Installation and Maintenance NC IV.pdf",
-    "pdf_pages": 112
+    "pdf_pages": 112,
+    "printed_pages": 110,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Worker Competencies",
+        "hours": 20,
+        "source_expression": "20 hrs. - Basic Worker Competencies"
+      },
+      {
+        "label": "Common Construction Industry Competencies",
+        "hours": 32,
+        "source_expression": "32 hrs. - Common Construction Industry Competencies"
+      },
+      {
+        "label": "Core Electrical Competencies",
+        "hours": 464,
+        "source_expression": "464 hrs. - Core Electrical Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 516,
+    "total_source_expression": "516 hrs.",
+    "source_expressions": [
+      "20 hrs. - Basic Worker Competencies",
+      "32 hrs. - Common Construction Industry Competencies",
+      "464 hrs. - Core Electrical Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 516,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "3.00\nTRAINING STANDARDS\n\n3.10 Curriculum Design - These guidelines for Curriculum Design are set\nto provide technical and vocational education and training (TVET)\nproviders with information and other important requirements to consider\nwhen designing training programs for Electrical Installation and\nMaintenance NC IV. This course is designed to develop knowledge,\nskills and attitudes of a worker qualified for Electrical Installation and\nMaintenance NC IV in accordance with TESDA standards level. It\ncovers (1) Basic Worker Competencies; (2) Common Construction\nIndustry Competencies; and (3) Core Electrical Competencies as\nenumerated in Section 1.30 (Page 2).\n\nNominal Training Duration:\n\nBasic Worker Competencies\n\n -\n 20 Hours\nCommon Construction Industry Competencies - 32Hours\nCore Electrical Competencies\n\n - 464 Hours\nTotal Course Hours\n\n 516 Hours\n\n3.11 Basic Worker Competencies Development - This course is\ndesigned to equip individual with operational skills required for\nBasic Worker Competencies of Electrical Installation &\nMaintenance IV with learning outcomes, methodology and\nassessment approach as listed herein.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\n workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate\nissues arising in\nthe workplace\n1.a. Group discussion\n1.b. Role Play\n1.c. Brain-storming\n\n1.u. Observation\n1.v. Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign\nresponsibilities\namong members.\n2.3 Set performance\nexpectation for\nteam members\n2.4 Supervise team\nperformance\n2.a. Lecture\n\n2.b. Demonstration\n\n2.c. Self-paced\n(modular)\n2.u. Demonstration\n\n2.v. Case studies\n\n--- PDF PAGE 99 ---\nTR – EIM NC IV - 97 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning\nnegotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas\nfor agreement\n3.a. Direct\nobservation\n\n3.b. Simulation/role\nplaying\n\n3.c. Case studies\n3.u. Written test\n3.v. Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem\nrelated to\nwork\nactivities\n4.1 Explain the\nanalytical\ntechniques.\n4.2 Identify the\nproblem.\n4.3 Determine the\npossible cause/s\nof the problem.\n4.a. Direct\nobservation\n\n4.b. Simulation/role\nplaying\n\n4.c. Case studies\n4.u. Written test\n4.v. Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify\nmathematical tools\nand techniques to\nsolve problem\n5.2 Apply\nmathematical\nprocedures/solutio\nn\n5.3\nAnalyze results\n5.a. Direct\nobservation\n5.b. Simulation/role\nplaying\n5.c. Case studies\n5.u. Written test\n5.v. Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant\ntechnology\n6.a. Direct\nobservation\n6.b. Simulation/role\nplaying\n6.c. Case studies\n6.u. Written test\n6.v. Practical/\nperformance\ntest\n\n--- PDF PAGE 100 ---\nTR – EIM NC IV - 98 -\n\n3.12 Common Construction Industry Competencies Development - This course is\ndesigned to equip individual with operational skills required for Common\nConstruction Industry Competencies of Electrical Installation & Maintenance\nIV with learning outcomes, methodology and assessment approach as listed\nherein.\n\nUnit of\nCompetency\nLearning\nOutcomes\nMethodology\nAssessment\nApproach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify\nMaterials\n1.2 Requisition\nMaterials\n1.3 Receive and\ninspect\nmaterials\n1.a. Audio Visual\n1.b. Simulation\n1.c. Discussion\n1.d. Practical\nExercise\n1.e. Demonstration\n1.u. Direct observation\n1.v. Questions or\ninterview\n1.w. Portfolio\n(credentials)\n1.x. Written / Oral Test\n1.y. Demonstration\n2. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n2.1 Identify and\naccess\nspecification/\nmanuals\n\n2.a. Audio Visual\n2.b. Simulation\n2.c. Discussion\nPractical Lab\n2.d. Demonstration\n2.u. Direct observation\n2.v. Oral questioning\n2.w. Written test or\nexamination\n2.x. Third party report\n2.y. Demonstration\n(able to impart\nknowledge & skills)\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols &\ndata\n3.2 Interpret\ntechnical\ndrawing &\nplans\n3.3 Apply freehand\nsketching\n3.a. Audio Visual\n3.b. Simulation\n3.c. Discussion\nPractical Lab\n3.d. Demonstration\n3.u. Direct observation\n3.v. Oral questioning\n3.w. Written test or\nexamination\n3.x. Third party report\n3.y. Demonstration\n(able to impart\nknowledge and\nskills)\n4. Perform\nmensurations\nand calculation\n4.1 Select\nmeasuring\ninstruments\n4.2 Carry out\nmeasurements\nand\ncalculations\n4.a. Audio Visual\n4.b. Simulation\n4.c. Discussion\nPractical Lab\n4.d. Demonstration\n4.u. Direct observation\n4.v. Oral questioning\n4.w. Written test or\nexamination\n4.x. Third party report\n4.y. Demonstration\n(able to impart\nknowledge and\nskills)\n\n--- PDF PAGE 101 ---\nTR – EIM NC IV - 99 -\n\nUnit of\nCompetency\nLearning\nOutcomes\nMethodology\nAssessment\nApproach\n5. Maintain tools\nand equipment\n5.1 Check\ncondition of\ntools and\nequipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge\nand tooth\ncutting tools\n5.4 Store tools\nand equipment\n5.a. Audio Visual\n5.b. Simulation\n5.c. Discussion\nPractical Lab\n5.d. Demonstration\n5.u. Direct observation\nof application of\ntasks.\n5.v. Oral questioning\n5.w. Written test or\nexamination\n5.x. Third party report\n5.y. Demonstration\n\n--- PDF PAGE 102 ---\nTR – EIM NC IV - 100 -\n\n3.13 Core Electrical Competencies Development - This course is designed to\nequip individual with operational skills required for Core Electrical\nCompetencies of Electrical Installation & Maintenance IV with learning\noutcomes, methodology and assessment approach as listed herein.\n\nNote: Units 1 to 5 of the core units are the same as those for Electrical Installation and\nMaintenance NC II. Units 1 to 8 are the same as those for Electrical Installation and\nMaintenance NC III. Hence those who have completed training in one or both of the\nabove qualifications or who are valid holders of one or both of these qualifications need\nnot undergo training in the corresponding competencies.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Prepare Electric\nand Hydraulic\nTools\n\n1.1. Select and\nidentify of\nelectric power\nand hydraulic\ntools.\n1.2. Maintain\nelectrical power\nand hydraulic\ntools.\n1.a. Demonstration\n\n1.b. Modular (self-\npaced)\n1.c. Lecture\n1.d. Audio Visual\n1.e. Practical\nLaboratory\n1.u. Direct\nobservation\n1.v. Oral\nquestioning\n1.w.\nWritten Test\n1.x. Demonstration\n2. Perform\nroughing-in\nactivities for bus\nducts and\nunderfloor ducts.\n2.1 Install bus way\nor bus duct and\nfittings.\n\n2.2 Install under\nfloor duct and\nfittings.\n3.y. Demonstration\n3.z. Modular (self-\npaced)\n3.aa. Lecture\n3.bb. Audio Visual\n3.cc. Practical\nLaboratory\n2.u. Direct\nobservation\n2.v. Oral\nquestioning\n2.w. Written Test\n2.x. Demonstration\n3. Perform\ninstallation of\nwiring devices for\nfloor and ground\nfault current\ninterrupting\noutlets\n\n3.1 Select the wiring\ndevices used for\nfloor and ground\nfault current\ninterrupter.\n3.2 Install the wiring\ndevices for floor\nand ground fault\ncurrent\ninterrupter\nbased on\nstandard\n3.3 Notify the\ncompletion of\nwork in\naccordance with\nthe requirement.\n3.a. Demonstration\n\n3.b. Modular (self-\npaced)\n\n3.c. Lecture\n\n3.d. Audio Visual\n\n3.e. Practical\nLaboratory\n\n3.u. Direct\nobservation\n3.v. Oral\nquestioning\n3.w. Written Test\n3.x. Demonstration\n\n--- PDF PAGE 103 ---\nTR – EIM NC IV - 101 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n4. Perform\ninstallation of\nelectrical\nprotection system\nfor lightning and\ngrounding.\n\n4.1 Plan and prepare\nwork.\n4.2 Install electrical\nprotection\nsystem.\n4.3 Notify completion\nof work.\n\n4.a. Demonstration\n4.b. Modular (self-\npaced)\n4.c. Lecture\n4.d. Audio Visual\n4.e. Practical\nLaboratory\n4.u. Direct\nObservation\n4.v. Written or Oral\ndemonstration\n4.w. Oral\nquestioning\n4.x. Written Test\n4.y. Demonstration\n\n5. Perform\ninstallation of\nelectrical lighting\nsystems, auxiliary\noutlets and\nlighting fixtures.\n\n5.1 Plan and prepare\nwork.\n\n5.2 Install lighting\nfixtures.\n\n5.3 Notify the\ncompletion or\nwork in\naccordance with\nthe requirement.\n\n5.a. Demonstration\n\n5.b. Modular (self-\npaced)\n\n5.c. Lecture\n\n5.d. Audio Visual\n\n5.e. Practical\nLaboratory\n5.u. Direct\nObservation\n5.v. Written or Oral\nDemonstration\n5.w. Oral\nquestioning\n5.x. Written Test\n5.y. Demonstration\n\n6. Perform\ninstallation of\ndata\nmeasurement\nand control\nsystems on\nelectrical and\nauxiliary\nequipment.\n\n1.1 Plan and\nprepare work.\n\n1.2 Request\nmaterials, tools\nand equipment\nneeded.\n\n1.3 Install electrical,\nauxiliary and\nprotection\nsystem of an\nequipment.\n\n1.4 Install electrical\nwiring.\n\n1.5 Notify\ncompletion of\nwork.\n\n6.a. Demonstration\n\n6.b. Modular (self-\npaced)\n\n6.c. Lecture\n\n6.d. Audio Visual\n\n6.e. Practical\nLaboratory\n\n6.u. Direct\nobservation\n\n6.v. Oral\nquestioning\n\n6.w. Written Test\n\n6.x. Demonstration\n\n--- PDF PAGE 104 ---\nTR – EIM NC IV - 102 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Assemble and\ninstall electrical\nlighting and\nmotor control\nsystems.\n\n7.1 Check/Review\ntype and\npurpose of\nelectrical control\nsystem.\n7.2 Request the\nneeds of\nmaterials, tools\nand equipment.\n7.3 Inspect\nelectrical\nmaterials and\ntools.\n7.4 Assemble\nelectrical control\nsystem.\n7.5 Notify\ncompletion of\nwork.\n7.a. Demonstration\n\n7.b. Modular (self-\npaced)\n\n7.c. Lecture\n\n7.d. Audio Visual\n\n7.e. Practical\nLaboratory\n\n7.u. Direct\nobservation\n\n7.v. Oral\nquestioning\n\n7.w. Written Test\n\n7.x. Demonstration\n\n8. Perform\nmaintenance and\ntroubleshooting\nworks.\n\n8.1 Plan, prepare\nand coordinate\nmaintenance\nworks.\n8.2 Maintain\nelectrical\nsystem or\nequipment\n8.3 Troubleshoot\nfaults in an\nelectrical\nsystem or\nequipment\n8.4 Notify completion\nof work.\n8.a. Demonstration\n\n8.b. Modular (self-\npaced)\n\n8.c. Lecture\n\n8.d. Audio Visual\n\n8.e. Practical\nLaboratory\n\n8.u. Direct\nobservation\n\n8.v. Oral\nquestioning\n\n8.w. Written Test\n\n8.x. Demonstration\n\n--- PDF PAGE 105 ---\nTR – EIM NC IV - 103 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n9. Supervise\n/monitor\ninstallation and\nmaintenance on\nelectrical\nsystems,\nincluding\nauxiliary,\ncontrol, lighting,\npower and\nprotection\nequipment.\n\n9.1 Conduct Planning\nand preparation\nof work.\n9.2 Evaluate request\nmaterials, tools\nand equipment\nneeded.\n9.3 Supervise the\ninstallation of\nelectrical, auxiliary\nand protection\nsystem of\nequipment\nprepared.\n9.4 Supervise the\ninstallation of\nelectrical wiring.\n9.5 Notify completion\nof work\n\n9.a. Demonstration\n\n9.b. Modular (self-\npaced)\n\n9.c. Lecture\n\n9.d. Audio Visual\n\n9.e. Practical\nLaboratory\n\n9.u. Direct\nobservation\n\n9.v. Written and\noral\ndemonstration\n\n9.w. Written Test\n\n9.x. Demonstration\n10 .Perform\ncommissioning of\nelectrical\nequipment/syste\nms below 600\nVolts.\n\n10.1 Plan and\nprepare\ncommissioning\nactivities.\n10.2 Conduct\ncommissioning\non electrical\nequipment/\nsystem.\n10.3 Turn over\nelectrical\nequipment/\nsystems below\n600 volts.\n10.a. Demonstration\n\n10.b. Modular (self-\npaced)\n\n10.c. Lecture\n\n10.d. Audio Visual\n\n10.e. Practical\nLaboratory\n\n10.u. Direct\nObservation\n\n10.v. Written or\noral\ndemonstration\n\n10.w. Written Test\n\n10.x. Demonstration\n\n--- PDF PAGE 106 ---\nTR – EIM NC IV - 104 -\n\n11. Perform\nprogramming\nand installation\nof basic\nProgrammable\nLogic Controller\n(PLC) system.\n\n11.1 Plan and\nprepare for\ninstallation.\n11.2 Identify\nmaterials,\ncomponents\ntools and testing\ninstrument.\n11.3 Install/Test field\nand control\ndevices.\n11. 4 Create/Modify,\ninstall and test\nbasic PLC\nprogram.\n11.a. Demonstration\n\n11.b. Modular (self-\npaced)\n\n11.c. Lecture\n\n11.d. Audio Visual\n\n11.e. Practical\nLaboratory\n\n11.u. Direct\nObservation\n\n11.v. Written or oral\ndemonstration\n\n11.w. Written Test\n\n11.x. Demonstration\n\n3.20 Training Delivery - The delivery of training should adhere to the\ndesign of the curriculum.\n\n3.21 Basic Principles of Competency – Based TVET- Delivery shall\nbe guided by the 10 basic principles of competency-based\nTVET:\n\n(1) The training is based on curriculum developed from the\ncompetency standards;\n(2) Learning is modular in its structure;\n(3) Training\ndelivery\nis\nlearner-centered\nand\nshould\naccommodate individualized and self-paced learning\nstrategies;\n(4) Training is based on work that must be performed;\n(5) Training materials are directly related to the competency\nstandards and the curriculum modules;\n(6) Assessment is based on the collection of evidence of the\nperformance of work to the industry required standard;\n(7) Training is based both on and off-the-job components;\n(8) Training program allows for recognition of prior learning\n(RPL) or current competencies;\n(9) Training allows for multiple entry and exit; and\n(10) Training programs are registered with the UTPRAS.\n\n3.22 Training Modalities Programs -The competency-based TVET\nsystem recognizes various types of delivery modes, both on\nand off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following\ntraining modalities may be adopted when designing training\nprograms:\n\n--- PDF PAGE 107 ---\nTR – EIM NC IV - 105 -\n\n(1) The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school\nand in-industry training or fieldwork components. Details can\nbe referred to he Dual Training system (DTS) Implementing\nRules and Regulations.\n\n(2) Modular/self-paced is a competency-based training modality\nwherein the trainee is allowed to progress at his/her own\npace. The trainer only facilitates the training delivery.\n\n(3) Peer teaching/mentoring is a training modality wherein fast\nlearners are given the opportunity to assist the slow learners.\n\n(4) Supervised Industry Training or On-the-Job Training is an\napproach in training designed to enhance the knowledge and\nskills of the trainee through actual experience in the\nworkplace to acquire specific competencies prescribed in the\ntraining regulations.\n\n(5) Distance learning is a formal education process in which\nmajority of the instruction occurs when the students and\ninstructor are not in the same place. Distance learning may\nemploy correspondence study, or audio, video or computer\ntechnologies.\n\n(6) Project-based instruction is an authentic instructional model\nor strategy in which students plan, implement and evaluate\nprojects that have real world applications.\n\n3.30 Trainee Entry Requirements - To qualify as trainee for Electrical\nInstallation & Maintenance NC IV, a candidate must be:\n\n(1)\na holder of Electrical Installation & Maintenance NC III or\nequivalent experience and training.\n(2)\ncan communicate both oral and in written\n(3)\nphysically and mentally fit\n(4)\nwith good moral character\n(5)\ncan perform basic mathematical computation\n\nThis list does not include specific institutional requirements\nsuch as educational attainment, appropriate work experience, and\nothers that may be required of the trainees by the school or training\ncenter delivering the TVET program.\n\n--- PDF PAGE 108 ---\nTR – EIM NC IV - 106 -\n\n3.40 Tools, Equipment and Materials\n\nRecommended list of tools, equipment and materials for the training of\n25 trainees for ELECTRICAL INSTALLATION & MAINTENANCE NC IV\nare as follows:\n\nTOOLS\nMATERIALS\nQty.\nDescription\nQty.\nDescription\n5 pcs.\nCrimping tools\n5 pcs.\nCircuit breakers/Fuses (Din rail\ntype)\n\n5 pcs.\nPLC materials\n5 pcs.\nPliers\n5 pcs.\nRelays (Din rail type)\n5 sets\nScrew drivers\n5 pcs.\nTimers (Din rail type)\n5 sets\nWrenches (box & open)\n5 pcs.\nTerminal Blocks/Lugs (Din rail\ntype)\n5 pcs.\nWire splicers/strippers\n5 pcs.\nPilot lamps\n5 pcs.\nMeasuring tools (e.g. Pull-push\nmeter)\n5 pcs.\nActuators\n\n20 pcs.\nPush buttons (panel type)\nEQUIPMENT\n20 pcs.\nSelector Switches (panel type)\nQty.\nDescription\n5\nlengths\nCable duct\n5 units\nPower supply\n4\nlengths\nDin rail\n\n- Automatic Voltage\nRegulator (AVR)\n3\npacks\nWire Strap\n\n- Un-interruptible\npower supply (UPS)\n20 pcs.\nWire Markers\n5 units\nGenerators and motors\n5 pack\nCable Tie\n5 units\nTransformer\n20\nmeters\nCable (Royal cord)\n5 units\nCapacitors\n10 pcs.\nGlands/Grommet\n5 units\nInverters/Rectifiers\n\n2\nboxes\nConductors\n5 units\nControllers\n5 rolls\nInsulators\n10 sets\n- Motor controls\n20 pcs.\nProper working clothes\n\n- Electro-mechanical controllers\n(e.g. Solenoid)\n\n1 set\n- Electro-Pneumatic controller\nForms/Manuals\n5 pcs.\nPressure gauge\n\nPLC plan and specification\n5 pcs.\nPressure Analyzer/Gauge\nmanifold\n\nRequisition form(s)\n5 pcs.\nLeak tester\n\nIndustry/Institution Quality Manual\n10 units\nMicro PLC\n\nUser’s guide\n25 lic.\nPLC Simulator Software\n\nDrawings/diagrams\n\n--- PDF PAGE 109 ---\nTR – EIM NC IV - 107 -\n\n3.50 Training Facilities\n\n Based on a class intake of 25 students/trainees, below are the space\nrequirement & their sizes:\n\n3.60 Trainer’s Qualifications - The trainer who will handle the course must\nhave the following qualifications:\n\n(1) Be a graduate of BS in Industrial Education, Major in Electrical\nTechnology or its equivalent\n(2) Must have undergone training on Training Methodology I (TM I)\n(3) He must be a holder of at least Electrical Installation & Maintenance\nNC IV\n(4) Good moral character\n(5) Must be computer literate\n(6) Must be physically and mentally fit\n(7) Minimum of three (3) years relevant job/industry experience *\n\n*Optional. Only when required by the hiring institution\nReference: TESDA Board Resolution No. 2004-03\n\nSpace Requirement\nSize in Meters\nArea in\nSq.\nMeters\nTotal Area in\n Sq. Meters\n\n1. Student/Trainee Working Space\n2.50 x 2.50 per\nstudent/trainee\n6.25 per\nstudent\n156.25\n2. Contextual Learning Laboratory/\nLecture Room\n\n4 x 5\n\n20\n\n20\n3. Learning Resource Center\n4 x 5\n20\n20\n4. Facilities/Equipment/ Circulation\narea\n10 x 6\n60\n60\nTOTAL AREA\n\n256.25\n\n--- PDF PAGE 110 ---\nTR – EIM NC IV - 108 -"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311115",
+        "unit_title": "Lead in utilizing specialized communication skills",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 98
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311115",
+        "unit_title": "Lead in utilizing specialized communication skills",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 98
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311115",
+        "unit_title": "Lead in utilizing specialized communication skills",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Identify and communicate issues arising in the workplace 1.a. Group discussion 1.b. Role Play 1.c. Brain-storming 1.u. Observation 1.v. Interviews",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 98
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311116",
+        "unit_title": "Assist in developing teams and individuals",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 98
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311116",
+        "unit_title": "Assist in developing teams and individuals",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities among members",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 98
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311116",
+        "unit_title": "Assist in developing teams and individuals",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectation for team members",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 98
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311116",
+        "unit_title": "Assist in developing teams and individuals",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervise team performance 2.a. Lecture 2.b. Demonstration 2.c. Self-paced (modular) 2.u. Demonstration 2.v. Case studies",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 98
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311117",
+        "unit_title": "Apply problem solving techniques in the workplace",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify relevant information in planning negotiations",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311117",
+        "unit_title": "Apply problem solving techniques in the workplace",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311117",
+        "unit_title": "Apply problem solving techniques in the workplace",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document areas for agreement 3.a. Direct",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311118",
+        "unit_title": "Collect, analyze and organize information",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Explain the analytical techniques",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311118",
+        "unit_title": "Collect, analyze and organize information",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311118",
+        "unit_title": "Collect, analyze and organize information",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine the possible cause/s",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311119",
+        "unit_title": "Plan and organize work for several working teams",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311119",
+        "unit_title": "Plan and organize work for several working teams",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply mathematical procedures/solutio n",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311119",
+        "unit_title": "Plan and organize work for several working teams",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results 5.a. Direct",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311120",
+        "unit_title": "Promote environmental protection",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Identify appropriate technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311120",
+        "unit_title": "Promote environmental protection",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311120",
+        "unit_title": "Promote environmental protection",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain/enhance relevant technology 6.a. Direct",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 99
+      },
+      {
+        "group": "common",
+        "unit_code": "CON724201",
+        "unit_title": "Supervise preparation of construction materials, tools and equipment for assigned tasks",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Identify Materials",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON724201",
+        "unit_title": "Supervise preparation of construction materials, tools and equipment for assigned tasks",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Requisition Materials",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON724201",
+        "unit_title": "Supervise preparation of construction materials, tools and equipment for assigned tasks",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Receive and inspect materials 1.a. Audio Visual 1.b. Simulation 1.c. Discussion 1.d. Practical Exercise 1.e. Demonstration 1.u. Direct observation 1.v. Questions or interview 1.w. Portfolio (credentials) 1.x. Written / Oral Test 1.y. Demonstration",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Ensure compliance with standard procedures, specifications and manuals of instructions",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify and access specification/ manuals 2.a. Audio Visual 2.b. Simulation 2.c. Discussion Practical Lab 2.d. Demonstration 2.u. Direct observation 2.v. Oral questioning 2.w. Written test or examination 2.x. Third party report 2.y. Demonstration (able to impart knowledge & skills)",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret and follow technical drawings and plans",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Analyze sign, symbols & data",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret and follow technical drawings and plans",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Interpret technical drawing & plans",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret and follow technical drawings and plans",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Apply freehand sketching 3.a. Audio Visual 3.b. Simulation 3.c. Discussion Practical Lab 3.d. Demonstration 3.u. Direct observation 3.v. Oral questioning 3.w. Written test or examination 3.x. Third party report 3.y. Demonstration (able to impart knowledge and skills)",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311203",
+        "unit_title": "Supervise mensuration and related computations",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Select measuring instruments",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311203",
+        "unit_title": "Supervise mensuration and related computations",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Carry out measurements and calculations 4.a. Audio Visual 4.b. Simulation 4.c. Discussion Practical Lab 4.d. Demonstration 4.u. Direct observation 4.v. Oral questioning 4.w. Written test or examination 4.x. Third party report 4.y. Demonstration (able to impart knowledge and skills)",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 100
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Supervise proper use and maintenance of tools and equipment",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Check condition of tools and equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 101
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Supervise proper use and maintenance of tools and equipment",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Perform basic preventive maintenance",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 101
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Supervise proper use and maintenance of tools and equipment",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Sharpen edge and tooth cutting tools",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 101
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Supervise proper use and maintenance of tools and equipment",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Store tools and equipment 5.a. Audio Visual 5.b. Simulation 5.c. Discussion Practical Lab 5.d. Demonstration 5.u. Direct observation",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 101
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724308",
+        "unit_title": "Prepare electric and hydraulic tools",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Select and identify of electric power and hydraulic tools",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 102
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724308",
+        "unit_title": "Prepare electric and hydraulic tools",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Maintain electrical power and hydraulic tools. 1.a. Demonstration 1.b. Modular (self- paced) 1.c. Lecture 1.d. Audio Visual 1.e. Practical Laboratory 1.u. Direct",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 102
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724309",
+        "unit_title": "Perform roughing-in and wiring for activities for bus and underfloor ducts",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Install bus way",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 102
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724309",
+        "unit_title": "Perform roughing-in and wiring for activities for bus and underfloor ducts",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Install under floor duct and fittings. 3.y. Demonstration 3.z. Modular (self- paced) 3.aa. Lecture 3.bb. Audio Visual 3.cc. Practical Laboratory 2.u. Direct",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 102
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724310",
+        "unit_title": "Perform installation of wiring devices for floor and ground fault current interrupting outlets",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Select the wiring devices used for floor and ground fault current interrupter",
+        "learning_activities": [],
+        "methodology": [
+          "TVET……………………"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 102
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724310",
+        "unit_title": "Perform installation of wiring devices for floor and ground fault current interrupting outlets",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Install the wiring devices for floor and ground fault current interrupter based on standard",
+        "learning_activities": [],
+        "methodology": [
+          "TVET……………………"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 102
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724310",
+        "unit_title": "Perform installation of wiring devices for floor and ground fault current interrupting outlets",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Notify the completion of work in accordance with the requirement. 3.a. Demonstration 3.b. Modular (self- paced) 3.c. Lecture 3.d. Audio Visual 3.e. Practical Laboratory 3.u. Direct",
+        "learning_activities": [],
+        "methodology": [
+          "TVET……………………"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 102
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Plan and prepare work",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Install electrical protection system",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Notify completion",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724312",
+        "unit_title": "Perform installation of electrical lighting systems, auxiliary outlets and lighting fixtures",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Plan and prepare work",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724312",
+        "unit_title": "Perform installation of electrical lighting systems, auxiliary outlets and lighting fixtures",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Install lighting fixtures",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724312",
+        "unit_title": "Perform installation of electrical lighting systems, auxiliary outlets and lighting fixtures",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Notify the completion or work in accordance with the requirement. 5.a. Demonstration 5.b. Modular (self- paced) 5.c. Lecture 5.d. Audio Visual 5.e. Practical Laboratory 5.u. Direct Observation 5.v. Written or Oral Demonstration 5.w. Oral questioning 5.x. Written Test 5.y. Demonstration",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724308",
+        "unit_title": "Prepare electric and hydraulic tools",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Plan and prepare work",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724308",
+        "unit_title": "Prepare electric and hydraulic tools",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Request materials, tools and equipment needed",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724308",
+        "unit_title": "Prepare electric and hydraulic tools",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Install electrical, auxiliary and protection system of an equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724308",
+        "unit_title": "Prepare electric and hydraulic tools",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Install electrical wiring",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724308",
+        "unit_title": "Prepare electric and hydraulic tools",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Notify completion of work. 6.a. Demonstration 6.b. Modular (self- paced) 6.c. Lecture 6.d. Audio Visual 6.e. Practical Laboratory 6.u. Direct",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 103
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724320",
+        "unit_title": "Assemble and install electrical lighting and motor control systems",
+        "learning_outcome_number": "7.1",
+        "learning_outcome": "Check/Review type and purpose of electrical control system",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724320",
+        "unit_title": "Assemble and install electrical lighting and motor control systems",
+        "learning_outcome_number": "7.2",
+        "learning_outcome": "Request the needs of materials, tools and equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724320",
+        "unit_title": "Assemble and install electrical lighting and motor control systems",
+        "learning_outcome_number": "7.3",
+        "learning_outcome": "Inspect electrical materials and tools",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724320",
+        "unit_title": "Assemble and install electrical lighting and motor control systems",
+        "learning_outcome_number": "7.4",
+        "learning_outcome": "Assemble electrical control system",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724320",
+        "unit_title": "Assemble and install electrical lighting and motor control systems",
+        "learning_outcome_number": "7.5",
+        "learning_outcome": "Notify completion of work. 7.a. Demonstration 7.b. Modular (self- paced) 7.c. Lecture 7.d. Audio Visual 7.e. Practical Laboratory 7.u. Direct",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724321",
+        "unit_title": "Perform maintenance and troubleshooting works",
+        "learning_outcome_number": "8.1",
+        "learning_outcome": "Plan, prepare and coordinate maintenance works",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724321",
+        "unit_title": "Perform maintenance and troubleshooting works",
+        "learning_outcome_number": "8.2",
+        "learning_outcome": "Maintain electrical system or equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724321",
+        "unit_title": "Perform maintenance and troubleshooting works",
+        "learning_outcome_number": "8.3",
+        "learning_outcome": "Troubleshoot faults in an electrical system or equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724321",
+        "unit_title": "Perform maintenance and troubleshooting works",
+        "learning_outcome_number": "8.4",
+        "learning_outcome": "Notify completion",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 104
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724322",
+        "unit_title": "Supervise/Monitor installation and maintenance on electrical systems, auxiliary including control, lighting, power and protection equipment",
+        "learning_outcome_number": "9.1",
+        "learning_outcome": "Conduct Planning and preparation",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724322",
+        "unit_title": "Supervise/Monitor installation and maintenance on electrical systems, auxiliary including control, lighting, power and protection equipment",
+        "learning_outcome_number": "9.2",
+        "learning_outcome": "Evaluate request materials, tools and equipment needed",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724322",
+        "unit_title": "Supervise/Monitor installation and maintenance on electrical systems, auxiliary including control, lighting, power and protection equipment",
+        "learning_outcome_number": "9.3",
+        "learning_outcome": "Supervise the installation of electrical, auxiliary and protection system of equipment prepared",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724322",
+        "unit_title": "Supervise/Monitor installation and maintenance on electrical systems, auxiliary including control, lighting, power and protection equipment",
+        "learning_outcome_number": "9.4",
+        "learning_outcome": "Supervise the installation of electrical wiring",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724322",
+        "unit_title": "Supervise/Monitor installation and maintenance on electrical systems, auxiliary including control, lighting, power and protection equipment",
+        "learning_outcome_number": "9.5",
+        "learning_outcome": "Notify completion",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724323",
+        "unit_title": "Perform commissioning of electrical equipment/system",
+        "learning_outcome_number": "10.1",
+        "learning_outcome": "Plan and prepare commissioning activities",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724323",
+        "unit_title": "Perform commissioning of electrical equipment/system",
+        "learning_outcome_number": "10.2",
+        "learning_outcome": "Conduct commissioning",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724323",
+        "unit_title": "Perform commissioning of electrical equipment/system",
+        "learning_outcome_number": "10.3",
+        "learning_outcome": "Turn over electrical equipment/ systems below 600 volts. 10.a. Demonstration 10.b. Modular (self- paced) 10.c. Lecture 10.d. Audio Visual 10.e. Practical Laboratory 10.u. Direct Observation 10.v. Written or",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 105
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724324",
+        "unit_title": "Perform programming and installation of basic programmable logic controller (PLC) systems",
+        "learning_outcome_number": "11.1",
+        "learning_outcome": "Plan and prepare for installation",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 106
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724324",
+        "unit_title": "Perform programming and installation of basic programmable logic controller (PLC) systems",
+        "learning_outcome_number": "11.2",
+        "learning_outcome": "Identify materials, components tools and testing instrument",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 106
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724324",
+        "unit_title": "Perform programming and installation of basic programmable logic controller (PLC) systems",
+        "learning_outcome_number": "11.3",
+        "learning_outcome": "Install/Test field and control devices",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 106
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724309",
+        "unit_title": "Perform roughing-in and wiring for activities for bus and underfloor ducts",
+        "learning_outcome_number": "2.50",
+        "learning_outcome": "x 2.50 per student/trainee",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724319",
+        "unit_title": "Perform installation of data measurement and control system on electrical and auxiliary equipment",
+        "learning_outcome_number": "6.25",
+        "learning_outcome": "per student",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.0",
+        "learning_outcome": "NATIONAL ASSESSMENT AND CERTIFICATION",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.10",
+        "learning_outcome": "National Assessment - To attain the National Qualification of Electrical Installation Maintenance NC IV, the candidate must demonstrate",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.20",
+        "learning_outcome": "Certification- The qualification of Electrical Installation and Maintenance NC IV may be attained by candidates who have acquired Certificates of Competency (COCs) in all the required units of competency. Successful candidates shall be awarded the National Certificate for Electrical Installation & Maintenance NC IV. If the candidate holds a National Certificate in Electrical Installation and Maintenance NC II, he/she will be required to acquire COCs only for Units of Competency Nos. 6 to 11. If the candidate holds a National Certificate for Electrical Installation & Maintenance NC III, he will be required to acquire COC’s only for Units of Competency Nos. 9, 10 and 11 in order to acquire a National Certificate for Electrical Installation & Maintenance NC IV. The guidelines on",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.20",
+        "learning_outcome": "1 Accumulation of certificates of competency (COCs) in al the following areas 4.20.1.1 Performing roughing-in activities",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.20",
+        "learning_outcome": "1.2 Installing wiring",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.20",
+        "learning_outcome": "1.3 Installing electrical protection systems",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.20",
+        "learning_outcome": "1.4 Installing lighting systems",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.20",
+        "learning_outcome": "1.5 Install metering and control systems on electrical and auxiliary equipment 4.20.1.6 Assemble and install electrical lighting and motor control systems 4.20.1.7 Perform electrical maintenance and troubleshooting work 4.20.1.8 Supervise/Monitor installation and maintenance of electrical systems and auxiliaries including control, lighting, power and protection equipment 4.20.1.9 Commission electrical equipment/systems 4.20.1.10 Program and install basic PLC systems Note: Those who have unexpired Electrical Installation and Maintenance NC III qualifications will not need to accumulate the above COCs. 4.20.2 Demonstration",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.21",
+        "learning_outcome": "Assessment shall focus on the core units of competency. The basic and common units shall be integrated or assessed concurrently with the core units",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724311",
+        "unit_title": "Perform installation of standard electrical protection system for lightning and grounding",
+        "learning_outcome_number": "4.22",
+        "learning_outcome": "The following are qualified to apply for assessment and certification: (1) Graduates of formal, non-formal and informal including enterprise-based training programs (2) Experienced Workers (wage-employed or self-employed)",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "CON724312",
+        "unit_title": "Perform installation of electrical lighting systems, auxiliary outlets and lighting fixtures",
+        "learning_outcome_number": "5.0",
+        "learning_outcome": "ACKNOWLEDGEMENTS The Technical Education and Skills Development Authority (TESDA) wishes to extend thanks and appreciation to the many representatives of business, industry, academe and government agencies who donated their time and expertise to the development and validation of these Training Regulations. THE TECHNICAL EXPERT PANEL (TEP) ENGR. HIPOLITO A. LEONCIO, PEE Managing Director Phasor Construction Corporation 3/F Glialcon Bldg. Blumentritt St., San Juan, Metro Manila Telephone: 723-7675; 726-6748 ENGR. NICHOLAS C. BALDERRAMA, PEE ENGR. GREGORIO Y. GUEVARRA, PEE Consultant President Greenlee CP Electrical Corporation GRL Electric Corporation 2144 Pedro Gil Street, Sta. Ana, Manila EDSA, Cubao, Quezon City Telephone: 564-1996 Tel. Nos.: 912-9141; 421-7182 ENGR. PABLITO R. FREO, RME ENGR. RUBEN J. DICHOSO, REE Vice President Trainer/Consultant GRL Electric Corporation Gokongwei Brothers Foundation, Inc. EDSA, Cubao, Quezon City Litton Mills Compound, A. Rodriguez Avenue Tel. Nos.: 912-9141; 421-7182 Rosario, Pasig City The TESDA Board – Standards Setting and Systems Development Committee The Management and Staff of the TESDA Secretariat",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 112
+      }
+    ],
+    "source_text": ""
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "title": "Curriculum Design - These guidelines for Curriculum Design are set",
-      "source_text": "to provide technical and vocational education and training (TVET)\nproviders with information and other important requirements to consider\nwhen designing training programs for Electrical Installation and\nMaintenance NC IV. This course is designed to develop knowledge,\nskills and attitudes of a worker qualified for Electrical Installation and\nMaintenance NC IV in accordance with TESDA standards level. It\ncovers (1) Basic Worker Competencies; (2) Common Construction\nIndustry Competencies; and (3) Core Electrical Competencies as\nenumerated in Section 1.30 (Page 2).\n\nNominal Training Duration:\n\nBasic Worker Competencies\n\n -\n 20 Hours\nCommon Construction Industry Competencies - 32Hours\nCore Electrical Competencies\n\n - 464 Hours\nTotal Course Hours\n\n 516 Hours\n\n3.11 Basic Worker Competencies Development - This course is\ndesigned to equip individual with operational skills required for\nBasic Worker Competencies of Electrical Installation &\nMaintenance IV with learning outcomes, methodology and\nassessment approach as listed herein.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\n workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate\nissues arising in\nthe workplace\n1.a. Group discussion\n1.b. Role Play\n1.c. Brain-storming\n\n1.u. Observation\n1.v. Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign\nresponsibilities\namong members.\n2.3 Set performance\nexpectation for\nteam members\n2.4 Supervise team\nperformance\n2.a. Lecture\n\n2.b. Demonstration\n\n2.c. Self-paced\n(modular)\n2.u. Demonstration\n\n2.v. Case studies\n\n--- PDF PAGE 99 ---\nTR – EIM NC IV - 97 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning\nnegotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas\nfor agreement\n3.a. Direct\nobservation\n\n3.b. Simulation/role\nplaying\n\n3.c. Case studies\n3.u. Written test\n3.v. Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem\nrelated to\nwork\nactivities\n4.1 Explain the\nanalytical\ntechniques.\n4.2 Identify the\nproblem.\n4.3 Determine the\npossible cause/s\nof the problem.\n4.a. Direct\nobservation\n\n4.b. Simulation/role\nplaying\n\n4.c. Case studies\n4.u. Written test\n4.v. Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify\nmathematical tools\nand techniques to\nsolve problem\n5.2 Apply\nmathematical\nprocedures/solutio\nn\n5.3\nAnalyze results\n5.a. Direct\nobservation\n5.b. Simulation/role\nplaying\n5.c. Case studies\n5.u. Written test\n5.v. Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant\ntechnology\n6.a. Direct\nobservation\n6.b. Simulation/role\nplaying\n6.c. Case studies\n6.u. Written test\n6.v. Practical/\nperformance\ntest\n\n--- PDF PAGE 100 ---\nTR – EIM NC IV - 98 -\n\n3.12 Common Construction Industry Competencies Development - This course is\ndesigned to equip individual with operational skills required for Common\nConstruction Industry Competencies of Electrical Installation & Maintenance\nIV with learning outcomes, methodology and assessment approach as listed\nherein.\n\nUnit of\nCompetency\nLearning\nOutcomes\nMethodology\nAssessment\nApproach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify\nMaterials\n1.2 Requisition\nMaterials\n1.3 Receive and\ninspect\nmaterials\n1.a. Audio Visual\n1.b. Simulation\n1.c. Discussion\n1.d. Practical\nExercise\n1.e. Demonstration\n1.u. Direct observation\n1.v. Questions or\ninterview\n1.w. Portfolio\n(credentials)\n1.x. Written / Oral Test\n1.y. Demonstration\n2. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n2.1 Identify and\naccess\nspecification/\nmanuals\n\n2.a. Audio Visual\n2.b. Simulation\n2.c. Discussion\nPractical Lab\n2.d. Demonstration\n2.u. Direct observation\n2.v. Oral questioning\n2.w. Written test or\nexamination\n2.x. Third party report\n2.y. Demonstration\n(able to impart\nknowledge & skills)\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols &\ndata\n3.2 Interpret\ntechnical\ndrawing &\nplans\n3.3 Apply freehand\nsketching\n3.a. Audio Visual\n3.b. Simulation\n3.c. Discussion\nPractical Lab\n3.d. Demonstration\n3.u. Direct observation\n3.v. Oral questioning\n3.w. Written test or\nexamination\n3.x. Third party report\n3.y. Demonstration\n(able to impart\nknowledge and\nskills)\n4. Perform\nmensurations\nand calculation\n4.1 Select\nmeasuring\ninstruments\n4.2 Carry out\nmeasurements\nand\ncalculations\n4.a. Audio Visual\n4.b. Simulation\n4.c. Discussion\nPractical Lab\n4.d. Demonstration\n4.u. Direct observation\n4.v. Oral questioning\n4.w. Written test or\nexamination\n4.x. Third party report\n4.y. Demonstration\n(able to impart\nknowledge and\nskills)\n\n--- PDF PAGE 101 ---\nTR – EIM NC IV - 99 -\n\nUnit of\nCompetency\nLearning\nOutcomes\nMethodology\nAssessment\nApproach\n5. Maintain tools\nand equipment\n5.1 Check\ncondition of\ntools and\nequipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge\nand tooth\ncutting tools\n5.4 Store tools\nand equipment\n5.a. Audio Visual\n5.b. Simulation\n5.c. Discussion\nPractical Lab\n5.d. Demonstration\n5.u. Direct observation\nof application of\ntasks.\n5.v. Oral questioning\n5.w. Written test or\nexamination\n5.x. Third party report\n5.y. Demonstration\n\n--- PDF PAGE 102 ---\nTR – EIM NC IV - 100 -\n\n3.13 Core Electrical Competencies Development - This course is designed to\nequip individual with operational skills required for Core Electrical\nCompetencies of Electrical Installation & Maintenance IV with learning\noutcomes, methodology and assessment approach as listed herein.\n\nNote: Units 1 to 5 of the core units are the same as those for Electrical Installation and\nMaintenance NC II. Units 1 to 8 are the same as those for Electrical Installation and\nMaintenance NC III. Hence those who have completed training in one or both of the\nabove qualifications or who are valid holders of one or both of these qualifications need\nnot undergo training in the corresponding competencies.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Prepare Electric\nand Hydraulic\nTools\n\n1.1. Select and\nidentify of\nelectric power\nand hydraulic\ntools.\n1.2. Maintain\nelectrical power\nand hydraulic\ntools.\n1.a. Demonstration\n\n1.b. Modular (self-\npaced)\n1.c. Lecture\n1.d. Audio Visual\n1.e. Practical\nLaboratory\n1.u. Direct\nobservation\n1.v. Oral\nquestioning\n1.w.\nWritten Test\n1.x. Demonstration\n2. Perform\nroughing-in\nactivities for bus\nducts and\nunderfloor ducts.\n2.1 Install bus way\nor bus duct and\nfittings.\n\n2.2 Install under\nfloor duct and\nfittings.\n3.y. Demonstration\n3.z. Modular (self-\npaced)\n3.aa. Lecture\n3.bb. Audio Visual\n3.cc. Practical\nLaboratory\n2.u. Direct\nobservation\n2.v. Oral\nquestioning\n2.w. Written Test\n2.x. Demonstration\n3. Perform\ninstallation of\nwiring devices for\nfloor and ground\nfault current\ninterrupting\noutlets\n\n3.1 Select the wiring\ndevices used for\nfloor and ground\nfault current\ninterrupter.\n3.2 Install the wiring\ndevices for floor\nand ground fault\ncurrent\ninterrupter\nbased on\nstandard\n3.3 Notify the\ncompletion of\nwork in\naccordance with\nthe requirement.\n3.a. Demonstration\n\n3.b. Modular (self-\npaced)\n\n3.c. Lecture\n\n3.d. Audio Visual\n\n3.e. Practical\nLaboratory\n\n3.u. Direct\nobservation\n3.v. Oral\nquestioning\n3.w. Written Test\n3.x. Demonstration\n\n--- PDF PAGE 103 ---\nTR – EIM NC IV - 101 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n4. Perform\ninstallation of\nelectrical\nprotection system\nfor lightning and\ngrounding.\n\n4.1 Plan and prepare\nwork.\n4.2 Install electrical\nprotection\nsystem.\n4.3 Notify completion\nof work.\n\n4.a. Demonstration\n4.b. Modular (self-\npaced)\n4.c. Lecture\n4.d. Audio Visual\n4.e. Practical\nLaboratory\n4.u. Direct\nObservation\n4.v. Written or Oral\ndemonstration\n4.w. Oral\nquestioning\n4.x. Written Test\n4.y. Demonstration\n\n5. Perform\ninstallation of\nelectrical lighting\nsystems, auxiliary\noutlets and\nlighting fixtures.\n\n5.1 Plan and prepare\nwork.\n\n5.2 Install lighting\nfixtures.\n\n5.3 Notify the\ncompletion or\nwork in\naccordance with\nthe requirement.\n\n5.a. Demonstration\n\n5.b. Modular (self-\npaced)\n\n5.c. Lecture\n\n5.d. Audio Visual\n\n5.e. Practical\nLaboratory\n5.u. Direct\nObservation\n5.v. Written or Oral\nDemonstration\n5.w. Oral\nquestioning\n5.x. Written Test\n5.y. Demonstration\n\n6. Perform\ninstallation of\ndata\nmeasurement\nand control\nsystems on\nelectrical and\nauxiliary\nequipment.\n\n1.1 Plan and\nprepare work.\n\n1.2 Request\nmaterials, tools\nand equipment\nneeded.\n\n1.3 Install electrical,\nauxiliary and\nprotection\nsystem of an\nequipment.\n\n1.4 Install electrical\nwiring.\n\n1.5 Notify\ncompletion of\nwork.\n\n6.a. Demonstration\n\n6.b. Modular (self-\npaced)\n\n6.c. Lecture\n\n6.d. Audio Visual\n\n6.e. Practical\nLaboratory\n\n6.u. Direct\nobservation\n\n6.v. Oral\nquestioning\n\n6.w. Written Test\n\n6.x. Demonstration\n\n--- PDF PAGE 104 ---\nTR – EIM NC IV - 102 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Assemble and\ninstall electrical\nlighting and\nmotor control\nsystems.\n\n7.1 Check/Review\ntype and\npurpose of\nelectrical control\nsystem.\n7.2 Request the\nneeds of\nmaterials, tools\nand equipment.\n7.3 Inspect\nelectrical\nmaterials and\ntools.\n7.4 Assemble\nelectrical control\nsystem.\n7.5 Notify\ncompletion of\nwork.\n7.a. Demonstration\n\n7.b. Modular (self-\npaced)\n\n7.c. Lecture\n\n7.d. Audio Visual\n\n7.e. Practical\nLaboratory\n\n7.u. Direct\nobservation\n\n7.v. Oral\nquestioning\n\n7.w. Written Test\n\n7.x. Demonstration\n\n8. Perform\nmaintenance and\ntroubleshooting\nworks.\n\n8.1 Plan, prepare\nand coordinate\nmaintenance\nworks.\n8.2 Maintain\nelectrical\nsystem or\nequipment\n8.3 Troubleshoot\nfaults in an\nelectrical\nsystem or\nequipment\n8.4 Notify completion\nof work.\n8.a. Demonstration\n\n8.b. Modular (self-\npaced)\n\n8.c. Lecture\n\n8.d. Audio Visual\n\n8.e. Practical\nLaboratory\n\n8.u. Direct\nobservation\n\n8.v. Oral\nquestioning\n\n8.w. Written Test\n\n8.x. Demonstration\n\n--- PDF PAGE 105 ---\nTR – EIM NC IV - 103 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n9. Supervise\n/monitor\ninstallation and\nmaintenance on\nelectrical\nsystems,\nincluding\nauxiliary,\ncontrol, lighting,\npower and\nprotection\nequipment.\n\n9.1 Conduct Planning\nand preparation\nof work.\n9.2 Evaluate request\nmaterials, tools\nand equipment\nneeded.\n9.3 Supervise the\ninstallation of\nelectrical, auxiliary\nand protection\nsystem of\nequipment\nprepared.\n9.4 Supervise the\ninstallation of\nelectrical wiring.\n9.5 Notify completion\nof work\n\n9.a. Demonstration\n\n9.b. Modular (self-\npaced)\n\n9.c. Lecture\n\n9.d. Audio Visual\n\n9.e. Practical\nLaboratory\n\n9.u. Direct\nobservation\n\n9.v. Written and\noral\ndemonstration\n\n9.w. Written Test\n\n9.x. Demonstration\n10 .Perform\ncommissioning of\nelectrical\nequipment/syste\nms below 600\nVolts.\n\n10.1 Plan and\nprepare\ncommissioning\nactivities.\n10.2 Conduct\ncommissioning\non electrical\nequipment/\nsystem.\n10.3 Turn over\nelectrical\nequipment/\nsystems below\n600 volts.\n10.a. Demonstration\n\n10.b. Modular (self-\npaced)\n\n10.c. Lecture\n\n10.d. Audio Visual\n\n10.e. Practical\nLaboratory\n\n10.u. Direct\nObservation\n\n10.v. Written or\noral\ndemonstration\n\n10.w. Written Test\n\n10.x. Demonstration\n\n--- PDF PAGE 106 ---\nTR – EIM NC IV - 104 -\n\n11. Perform\nprogramming\nand installation\nof basic\nProgrammable\nLogic Controller\n(PLC) system.\n\n11.1 Plan and\nprepare for\ninstallation.\n11.2 Identify\nmaterials,\ncomponents\ntools and testing\ninstrument.\n11.3 Install/Test field\nand control\ndevices.\n11. 4 Create/Modify,\ninstall and test\nbasic PLC\nprogram.\n11.a. Demonstration\n\n11.b. Modular (self-\npaced)\n\n11.c. Lecture\n\n11.d. Audio Visual\n\n11.e. Practical\nLaboratory\n\n11.u. Direct\nObservation\n\n11.v. Written or oral\ndemonstration\n\n11.w. Written Test\n\n11.x. Demonstration",
-      "pdf_pages": []
+      "pdf_pages": [
+        98
+      ],
+      "source_text": ""
     },
     "training_delivery": {
       "present": true,
-      "title": "Training Delivery - The delivery of training should adhere to the",
-      "source_text": "design of the curriculum.\n\n3.21 Basic Principles of Competency – Based TVET- Delivery shall\nbe guided by the 10 basic principles of competency-based\nTVET:\n\n(1) The training is based on curriculum developed from the\ncompetency standards;\n(2) Learning is modular in its structure;\n(3) Training\ndelivery\nis\nlearner-centered\nand\nshould\naccommodate individualized and self-paced learning\nstrategies;\n(4) Training is based on work that must be performed;\n(5) Training materials are directly related to the competency\nstandards and the curriculum modules;\n(6) Assessment is based on the collection of evidence of the\nperformance of work to the industry required standard;\n(7) Training is based both on and off-the-job components;\n(8) Training program allows for recognition of prior learning\n(RPL) or current competencies;\n(9) Training allows for multiple entry and exit; and\n(10) Training programs are registered with the UTPRAS.\n\n3.22 Training Modalities Programs -The competency-based TVET\nsystem recognizes various types of delivery modes, both on\nand off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following\ntraining modalities may be adopted when designing training\nprograms:\n\n--- PDF PAGE 107 ---\nTR – EIM NC IV - 105 -\n\n(1) The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school\nand in-industry training or fieldwork components. Details can\nbe referred to he Dual Training system (DTS) Implementing\nRules and Regulations.\n\n(2) Modular/self-paced is a competency-based training modality\nwherein the trainee is allowed to progress at his/her own\npace. The trainer only facilitates the training delivery.\n\n(3) Peer teaching/mentoring is a training modality wherein fast\nlearners are given the opportunity to assist the slow learners.\n\n(4) Supervised Industry Training or On-the-Job Training is an\napproach in training designed to enhance the knowledge and\nskills of the trainee through actual experience in the\nworkplace to acquire specific competencies prescribed in the\ntraining regulations.\n\n(5) Distance learning is a formal education process in which\nmajority of the instruction occurs when the students and\ninstructor are not in the same place. Distance learning may\nemploy correspondence study, or audio, video or computer\ntechnologies.\n\n(6) Project-based instruction is an authentic instructional model\nor strategy in which students plan, implement and evaluate\nprojects that have real world applications.",
-      "pdf_pages": []
+      "pdf_pages": [
+        106,
+        107
+      ],
+      "source_text": ""
     },
     "trainee_entry_requirements": {
       "present": true,
-      "title": "Trainee Entry Requirements - To qualify as trainee for Electrical",
-      "source_text": "Installation & Maintenance NC IV, a candidate must be:\n\n(1)\na holder of Electrical Installation & Maintenance NC III or\nequivalent experience and training.\n(2)\ncan communicate both oral and in written\n(3)\nphysically and mentally fit\n(4)\nwith good moral character\n(5)\ncan perform basic mathematical computation\n\nThis list does not include specific institutional requirements\nsuch as educational attainment, appropriate work experience, and\nothers that may be required of the trainees by the school or training\ncenter delivering the TVET program.\n\n--- PDF PAGE 108 ---\nTR – EIM NC IV - 106 -",
-      "pdf_pages": []
+      "pdf_pages": [
+        107
+      ],
+      "source_text": ""
     },
     "tools_equipment_materials": {
       "present": true,
-      "title": "Tools, Equipment and Materials",
-      "source_text": "Recommended list of tools, equipment and materials for the training of\n25 trainees for ELECTRICAL INSTALLATION & MAINTENANCE NC IV\nare as follows:\n\nTOOLS\nMATERIALS\nQty.\nDescription\nQty.\nDescription\n5 pcs.\nCrimping tools\n5 pcs.\nCircuit breakers/Fuses (Din rail\ntype)\n\n5 pcs.\nPLC materials\n5 pcs.\nPliers\n5 pcs.\nRelays (Din rail type)\n5 sets\nScrew drivers\n5 pcs.\nTimers (Din rail type)\n5 sets\nWrenches (box & open)\n5 pcs.\nTerminal Blocks/Lugs (Din rail\ntype)\n5 pcs.\nWire splicers/strippers\n5 pcs.\nPilot lamps\n5 pcs.\nMeasuring tools (e.g. Pull-push\nmeter)\n5 pcs.\nActuators\n\n20 pcs.\nPush buttons (panel type)\nEQUIPMENT\n20 pcs.\nSelector Switches (panel type)\nQty.\nDescription\n5\nlengths\nCable duct\n5 units\nPower supply\n4\nlengths\nDin rail\n\n- Automatic Voltage\nRegulator (AVR)\n3\npacks\nWire Strap\n\n- Un-interruptible\npower supply (UPS)\n20 pcs.\nWire Markers\n5 units\nGenerators and motors\n5 pack\nCable Tie\n5 units\nTransformer\n20\nmeters\nCable (Royal cord)\n5 units\nCapacitors\n10 pcs.\nGlands/Grommet\n5 units\nInverters/Rectifiers\n\n2\nboxes\nConductors\n5 units\nControllers\n5 rolls\nInsulators\n10 sets\n- Motor controls\n20 pcs.\nProper working clothes\n\n- Electro-mechanical controllers\n(e.g. Solenoid)\n\n1 set\n- Electro-Pneumatic controller\nForms/Manuals\n5 pcs.\nPressure gauge\n\nPLC plan and specification\n5 pcs.\nPressure Analyzer/Gauge\nmanifold\n\nRequisition form(s)\n5 pcs.\nLeak tester\n\nIndustry/Institution Quality Manual\n10 units\nMicro PLC\n\nUser’s guide\n25 lic.\nPLC Simulator Software\n\nDrawings/diagrams\n\n--- PDF PAGE 109 ---\nTR – EIM NC IV - 107 -",
-      "pdf_pages": []
+      "pdf_pages": [
+        108
+      ],
+      "source_text": ""
     },
     "training_facilities": {
       "present": true,
-      "title": "Training Facilities",
-      "source_text": "Based on a class intake of 25 students/trainees, below are the space\nrequirement & their sizes:",
-      "pdf_pages": []
+      "pdf_pages": [
+        109
+      ],
+      "source_text": ""
     },
     "trainer_qualifications": {
       "present": true,
-      "title": "Trainer’s Qualifications - The trainer who will handle the course must",
-      "source_text": "have the following qualifications:\n\n(1) Be a graduate of BS in Industrial Education, Major in Electrical\nTechnology or its equivalent\n(2) Must have undergone training on Training Methodology I (TM I)\n(3) He must be a holder of at least Electrical Installation & Maintenance\nNC IV\n(4) Good moral character\n(5) Must be computer literate\n(6) Must be physically and mentally fit\n(7) Minimum of three (3) years relevant job/industry experience *\n\n*Optional. Only when required by the hiring institution\nReference: TESDA Board Resolution No. 2004-03\n\nSpace Requirement\nSize in Meters\nArea in\nSq.\nMeters\nTotal Area in\n Sq. Meters\n\n1. Student/Trainee Working Space\n2.50 x 2.50 per\nstudent/trainee\n6.25 per\nstudent\n156.25\n2. Contextual Learning Laboratory/\nLecture Room\n\n4 x 5\n\n20\n\n20\n3. Learning Resource Center\n4 x 5\n20\n20\n4. Facilities/Equipment/ Circulation\narea\n10 x 6\n60\n60\nTOTAL AREA\n\n256.25\n\n--- PDF PAGE 110 ---\nTR – EIM NC IV - 108 -",
-      "pdf_pages": []
+      "pdf_pages": [
+        109
+      ],
+      "source_text": ""
+    },
+    "institutional_assessment": {
+      "present": false,
+      "pdf_pages": [],
+      "source_text": ""
     }
   },
-  "nominal_duration": {
-    "source_expressions": [
-      "20 Hours",
-      "32Hours",
-      "464 Hours",
-      "516 Hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
-  },
-  "source_section_text": "3.00\nTRAINING STANDARDS\n\n3.10 Curriculum Design - These guidelines for Curriculum Design are set\nto provide technical and vocational education and training (TVET)\nproviders with information and other important requirements to consider\nwhen designing training programs for Electrical Installation and\nMaintenance NC IV. This course is designed to develop knowledge,\nskills and attitudes of a worker qualified for Electrical Installation and\nMaintenance NC IV in accordance with TESDA standards level. It\ncovers (1) Basic Worker Competencies; (2) Common Construction\nIndustry Competencies; and (3) Core Electrical Competencies as\nenumerated in Section 1.30 (Page 2).\n\nNominal Training Duration:\n\nBasic Worker Competencies\n\n -\n 20 Hours\nCommon Construction Industry Competencies - 32Hours\nCore Electrical Competencies\n\n - 464 Hours\nTotal Course Hours\n\n 516 Hours\n\n3.11 Basic Worker Competencies Development - This course is\ndesigned to equip individual with operational skills required for\nBasic Worker Competencies of Electrical Installation &\nMaintenance IV with learning outcomes, methodology and\nassessment approach as listed herein.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\n workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate\nissues arising in\nthe workplace\n1.a. Group discussion\n1.b. Role Play\n1.c. Brain-storming\n\n1.u. Observation\n1.v. Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign\nresponsibilities\namong members.\n2.3 Set performance\nexpectation for\nteam members\n2.4 Supervise team\nperformance\n2.a. Lecture\n\n2.b. Demonstration\n\n2.c. Self-paced\n(modular)\n2.u. Demonstration\n\n2.v. Case studies\n\n--- PDF PAGE 99 ---\nTR – EIM NC IV - 97 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning\nnegotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas\nfor agreement\n3.a. Direct\nobservation\n\n3.b. Simulation/role\nplaying\n\n3.c. Case studies\n3.u. Written test\n3.v. Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem\nrelated to\nwork\nactivities\n4.1 Explain the\nanalytical\ntechniques.\n4.2 Identify the\nproblem.\n4.3 Determine the\npossible cause/s\nof the problem.\n4.a. Direct\nobservation\n\n4.b. Simulation/role\nplaying\n\n4.c. Case studies\n4.u. Written test\n4.v. Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify\nmathematical tools\nand techniques to\nsolve problem\n5.2 Apply\nmathematical\nprocedures/solutio\nn\n5.3\nAnalyze results\n5.a. Direct\nobservation\n5.b. Simulation/role\nplaying\n5.c. Case studies\n5.u. Written test\n5.v. Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant\ntechnology\n6.a. Direct\nobservation\n6.b. Simulation/role\nplaying\n6.c. Case studies\n6.u. Written test\n6.v. Practical/\nperformance\ntest\n\n--- PDF PAGE 100 ---\nTR – EIM NC IV - 98 -\n\n3.12 Common Construction Industry Competencies Development - This course is\ndesigned to equip individual with operational skills required for Common\nConstruction Industry Competencies of Electrical Installation & Maintenance\nIV with learning outcomes, methodology and assessment approach as listed\nherein.\n\nUnit of\nCompetency\nLearning\nOutcomes\nMethodology\nAssessment\nApproach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify\nMaterials\n1.2 Requisition\nMaterials\n1.3 Receive and\ninspect\nmaterials\n1.a. Audio Visual\n1.b. Simulation\n1.c. Discussion\n1.d. Practical\nExercise\n1.e. Demonstration\n1.u. Direct observation\n1.v. Questions or\ninterview\n1.w. Portfolio\n(credentials)\n1.x. Written / Oral Test\n1.y. Demonstration\n2. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n2.1 Identify and\naccess\nspecification/\nmanuals\n\n2.a. Audio Visual\n2.b. Simulation\n2.c. Discussion\nPractical Lab\n2.d. Demonstration\n2.u. Direct observation\n2.v. Oral questioning\n2.w. Written test or\nexamination\n2.x. Third party report\n2.y. Demonstration\n(able to impart\nknowledge & skills)\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols &\ndata\n3.2 Interpret\ntechnical\ndrawing &\nplans\n3.3 Apply freehand\nsketching\n3.a. Audio Visual\n3.b. Simulation\n3.c. Discussion\nPractical Lab\n3.d. Demonstration\n3.u. Direct observation\n3.v. Oral questioning\n3.w. Written test or\nexamination\n3.x. Third party report\n3.y. Demonstration\n(able to impart\nknowledge and\nskills)\n4. Perform\nmensurations\nand calculation\n4.1 Select\nmeasuring\ninstruments\n4.2 Carry out\nmeasurements\nand\ncalculations\n4.a. Audio Visual\n4.b. Simulation\n4.c. Discussion\nPractical Lab\n4.d. Demonstration\n4.u. Direct observation\n4.v. Oral questioning\n4.w. Written test or\nexamination\n4.x. Third party report\n4.y. Demonstration\n(able to impart\nknowledge and\nskills)\n\n--- PDF PAGE 101 ---\nTR – EIM NC IV - 99 -\n\nUnit of\nCompetency\nLearning\nOutcomes\nMethodology\nAssessment\nApproach\n5. Maintain tools\nand equipment\n5.1 Check\ncondition of\ntools and\nequipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge\nand tooth\ncutting tools\n5.4 Store tools\nand equipment\n5.a. Audio Visual\n5.b. Simulation\n5.c. Discussion\nPractical Lab\n5.d. Demonstration\n5.u. Direct observation\nof application of\ntasks.\n5.v. Oral questioning\n5.w. Written test or\nexamination\n5.x. Third party report\n5.y. Demonstration\n\n--- PDF PAGE 102 ---\nTR – EIM NC IV - 100 -\n\n3.13 Core Electrical Competencies Development - This course is designed to\nequip individual with operational skills required for Core Electrical\nCompetencies of Electrical Installation & Maintenance IV with learning\noutcomes, methodology and assessment approach as listed herein.\n\nNote: Units 1 to 5 of the core units are the same as those for Electrical Installation and\nMaintenance NC II. Units 1 to 8 are the same as those for Electrical Installation and\nMaintenance NC III. Hence those who have completed training in one or both of the\nabove qualifications or who are valid holders of one or both of these qualifications need\nnot undergo training in the corresponding competencies.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Prepare Electric\nand Hydraulic\nTools\n\n1.1. Select and\nidentify of\nelectric power\nand hydraulic\ntools.\n1.2. Maintain\nelectrical power\nand hydraulic\ntools.\n1.a. Demonstration\n\n1.b. Modular (self-\npaced)\n1.c. Lecture\n1.d. Audio Visual\n1.e. Practical\nLaboratory\n1.u. Direct\nobservation\n1.v. Oral\nquestioning\n1.w.\nWritten Test\n1.x. Demonstration\n2. Perform\nroughing-in\nactivities for bus\nducts and\nunderfloor ducts.\n2.1 Install bus way\nor bus duct and\nfittings.\n\n2.2 Install under\nfloor duct and\nfittings.\n3.y. Demonstration\n3.z. Modular (self-\npaced)\n3.aa. Lecture\n3.bb. Audio Visual\n3.cc. Practical\nLaboratory\n2.u. Direct\nobservation\n2.v. Oral\nquestioning\n2.w. Written Test\n2.x. Demonstration\n3. Perform\ninstallation of\nwiring devices for\nfloor and ground\nfault current\ninterrupting\noutlets\n\n3.1 Select the wiring\ndevices used for\nfloor and ground\nfault current\ninterrupter.\n3.2 Install the wiring\ndevices for floor\nand ground fault\ncurrent\ninterrupter\nbased on\nstandard\n3.3 Notify the\ncompletion of\nwork in\naccordance with\nthe requirement.\n3.a. Demonstration\n\n3.b. Modular (self-\npaced)\n\n3.c. Lecture\n\n3.d. Audio Visual\n\n3.e. Practical\nLaboratory\n\n3.u. Direct\nobservation\n3.v. Oral\nquestioning\n3.w. Written Test\n3.x. Demonstration\n\n--- PDF PAGE 103 ---\nTR – EIM NC IV - 101 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n4. Perform\ninstallation of\nelectrical\nprotection system\nfor lightning and\ngrounding.\n\n4.1 Plan and prepare\nwork.\n4.2 Install electrical\nprotection\nsystem.\n4.3 Notify completion\nof work.\n\n4.a. Demonstration\n4.b. Modular (self-\npaced)\n4.c. Lecture\n4.d. Audio Visual\n4.e. Practical\nLaboratory\n4.u. Direct\nObservation\n4.v. Written or Oral\ndemonstration\n4.w. Oral\nquestioning\n4.x. Written Test\n4.y. Demonstration\n\n5. Perform\ninstallation of\nelectrical lighting\nsystems, auxiliary\noutlets and\nlighting fixtures.\n\n5.1 Plan and prepare\nwork.\n\n5.2 Install lighting\nfixtures.\n\n5.3 Notify the\ncompletion or\nwork in\naccordance with\nthe requirement.\n\n5.a. Demonstration\n\n5.b. Modular (self-\npaced)\n\n5.c. Lecture\n\n5.d. Audio Visual\n\n5.e. Practical\nLaboratory\n5.u. Direct\nObservation\n5.v. Written or Oral\nDemonstration\n5.w. Oral\nquestioning\n5.x. Written Test\n5.y. Demonstration\n\n6. Perform\ninstallation of\ndata\nmeasurement\nand control\nsystems on\nelectrical and\nauxiliary\nequipment.\n\n1.1 Plan and\nprepare work.\n\n1.2 Request\nmaterials, tools\nand equipment\nneeded.\n\n1.3 Install electrical,\nauxiliary and\nprotection\nsystem of an\nequipment.\n\n1.4 Install electrical\nwiring.\n\n1.5 Notify\ncompletion of\nwork.\n\n6.a. Demonstration\n\n6.b. Modular (self-\npaced)\n\n6.c. Lecture\n\n6.d. Audio Visual\n\n6.e. Practical\nLaboratory\n\n6.u. Direct\nobservation\n\n6.v. Oral\nquestioning\n\n6.w. Written Test\n\n6.x. Demonstration\n\n--- PDF PAGE 104 ---\nTR – EIM NC IV - 102 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Assemble and\ninstall electrical\nlighting and\nmotor control\nsystems.\n\n7.1 Check/Review\ntype and\npurpose of\nelectrical control\nsystem.\n7.2 Request the\nneeds of\nmaterials, tools\nand equipment.\n7.3 Inspect\nelectrical\nmaterials and\ntools.\n7.4 Assemble\nelectrical control\nsystem.\n7.5 Notify\ncompletion of\nwork.\n7.a. Demonstration\n\n7.b. Modular (self-\npaced)\n\n7.c. Lecture\n\n7.d. Audio Visual\n\n7.e. Practical\nLaboratory\n\n7.u. Direct\nobservation\n\n7.v. Oral\nquestioning\n\n7.w. Written Test\n\n7.x. Demonstration\n\n8. Perform\nmaintenance and\ntroubleshooting\nworks.\n\n8.1 Plan, prepare\nand coordinate\nmaintenance\nworks.\n8.2 Maintain\nelectrical\nsystem or\nequipment\n8.3 Troubleshoot\nfaults in an\nelectrical\nsystem or\nequipment\n8.4 Notify completion\nof work.\n8.a. Demonstration\n\n8.b. Modular (self-\npaced)\n\n8.c. Lecture\n\n8.d. Audio Visual\n\n8.e. Practical\nLaboratory\n\n8.u. Direct\nobservation\n\n8.v. Oral\nquestioning\n\n8.w. Written Test\n\n8.x. Demonstration\n\n--- PDF PAGE 105 ---\nTR – EIM NC IV - 103 -\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n9. Supervise\n/monitor\ninstallation and\nmaintenance on\nelectrical\nsystems,\nincluding\nauxiliary,\ncontrol, lighting,\npower and\nprotection\nequipment.\n\n9.1 Conduct Planning\nand preparation\nof work.\n9.2 Evaluate request\nmaterials, tools\nand equipment\nneeded.\n9.3 Supervise the\ninstallation of\nelectrical, auxiliary\nand protection\nsystem of\nequipment\nprepared.\n9.4 Supervise the\ninstallation of\nelectrical wiring.\n9.5 Notify completion\nof work\n\n9.a. Demonstration\n\n9.b. Modular (self-\npaced)\n\n9.c. Lecture\n\n9.d. Audio Visual\n\n9.e. Practical\nLaboratory\n\n9.u. Direct\nobservation\n\n9.v. Written and\noral\ndemonstration\n\n9.w. Written Test\n\n9.x. Demonstration\n10 .Perform\ncommissioning of\nelectrical\nequipment/syste\nms below 600\nVolts.\n\n10.1 Plan and\nprepare\ncommissioning\nactivities.\n10.2 Conduct\ncommissioning\non electrical\nequipment/\nsystem.\n10.3 Turn over\nelectrical\nequipment/\nsystems below\n600 volts.\n10.a. Demonstration\n\n10.b. Modular (self-\npaced)\n\n10.c. Lecture\n\n10.d. Audio Visual\n\n10.e. Practical\nLaboratory\n\n10.u. Direct\nObservation\n\n10.v. Written or\noral\ndemonstration\n\n10.w. Written Test\n\n10.x. Demonstration\n\n--- PDF PAGE 106 ---\nTR – EIM NC IV - 104 -\n\n11. Perform\nprogramming\nand installation\nof basic\nProgrammable\nLogic Controller\n(PLC) system.\n\n11.1 Plan and\nprepare for\ninstallation.\n11.2 Identify\nmaterials,\ncomponents\ntools and testing\ninstrument.\n11.3 Install/Test field\nand control\ndevices.\n11. 4 Create/Modify,\ninstall and test\nbasic PLC\nprogram.\n11.a. Demonstration\n\n11.b. Modular (self-\npaced)\n\n11.c. Lecture\n\n11.d. Audio Visual\n\n11.e. Practical\nLaboratory\n\n11.u. Direct\nObservation\n\n11.v. Written or oral\ndemonstration\n\n11.w. Written Test\n\n11.x. Demonstration\n\n3.20 Training Delivery - The delivery of training should adhere to the\ndesign of the curriculum.\n\n3.21 Basic Principles of Competency – Based TVET- Delivery shall\nbe guided by the 10 basic principles of competency-based\nTVET:\n\n(1) The training is based on curriculum developed from the\ncompetency standards;\n(2) Learning is modular in its structure;\n(3) Training\ndelivery\nis\nlearner-centered\nand\nshould\naccommodate individualized and self-paced learning\nstrategies;\n(4) Training is based on work that must be performed;\n(5) Training materials are directly related to the competency\nstandards and the curriculum modules;\n(6) Assessment is based on the collection of evidence of the\nperformance of work to the industry required standard;\n(7) Training is based both on and off-the-job components;\n(8) Training program allows for recognition of prior learning\n(RPL) or current competencies;\n(9) Training allows for multiple entry and exit; and\n(10) Training programs are registered with the UTPRAS.\n\n3.22 Training Modalities Programs -The competency-based TVET\nsystem recognizes various types of delivery modes, both on\nand off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following\ntraining modalities may be adopted when designing training\nprograms:\n\n--- PDF PAGE 107 ---\nTR – EIM NC IV - 105 -\n\n(1) The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school\nand in-industry training or fieldwork components. Details can\nbe referred to he Dual Training system (DTS) Implementing\nRules and Regulations.\n\n(2) Modular/self-paced is a competency-based training modality\nwherein the trainee is allowed to progress at his/her own\npace. The trainer only facilitates the training delivery.\n\n(3) Peer teaching/mentoring is a training modality wherein fast\nlearners are given the opportunity to assist the slow learners.\n\n(4) Supervised Industry Training or On-the-Job Training is an\napproach in training designed to enhance the knowledge and\nskills of the trainee through actual experience in the\nworkplace to acquire specific competencies prescribed in the\ntraining regulations.\n\n(5) Distance learning is a formal education process in which\nmajority of the instruction occurs when the students and\ninstructor are not in the same place. Distance learning may\nemploy correspondence study, or audio, video or computer\ntechnologies.\n\n(6) Project-based instruction is an authentic instructional model\nor strategy in which students plan, implement and evaluate\nprojects that have real world applications.\n\n3.30 Trainee Entry Requirements - To qualify as trainee for Electrical\nInstallation & Maintenance NC IV, a candidate must be:\n\n(1)\na holder of Electrical Installation & Maintenance NC III or\nequivalent experience and training.\n(2)\ncan communicate both oral and in written\n(3)\nphysically and mentally fit\n(4)\nwith good moral character\n(5)\ncan perform basic mathematical computation\n\nThis list does not include specific institutional requirements\nsuch as educational attainment, appropriate work experience, and\nothers that may be required of the trainees by the school or training\ncenter delivering the TVET program.\n\n--- PDF PAGE 108 ---\nTR – EIM NC IV - 106 -\n\n3.40 Tools, Equipment and Materials\n\nRecommended list of tools, equipment and materials for the training of\n25 trainees for ELECTRICAL INSTALLATION & MAINTENANCE NC IV\nare as follows:\n\nTOOLS\nMATERIALS\nQty.\nDescription\nQty.\nDescription\n5 pcs.\nCrimping tools\n5 pcs.\nCircuit breakers/Fuses (Din rail\ntype)\n\n5 pcs.\nPLC materials\n5 pcs.\nPliers\n5 pcs.\nRelays (Din rail type)\n5 sets\nScrew drivers\n5 pcs.\nTimers (Din rail type)\n5 sets\nWrenches (box & open)\n5 pcs.\nTerminal Blocks/Lugs (Din rail\ntype)\n5 pcs.\nWire splicers/strippers\n5 pcs.\nPilot lamps\n5 pcs.\nMeasuring tools (e.g. Pull-push\nmeter)\n5 pcs.\nActuators\n\n20 pcs.\nPush buttons (panel type)\nEQUIPMENT\n20 pcs.\nSelector Switches (panel type)\nQty.\nDescription\n5\nlengths\nCable duct\n5 units\nPower supply\n4\nlengths\nDin rail\n\n- Automatic Voltage\nRegulator (AVR)\n3\npacks\nWire Strap\n\n- Un-interruptible\npower supply (UPS)\n20 pcs.\nWire Markers\n5 units\nGenerators and motors\n5 pack\nCable Tie\n5 units\nTransformer\n20\nmeters\nCable (Royal cord)\n5 units\nCapacitors\n10 pcs.\nGlands/Grommet\n5 units\nInverters/Rectifiers\n\n2\nboxes\nConductors\n5 units\nControllers\n5 rolls\nInsulators\n10 sets\n- Motor controls\n20 pcs.\nProper working clothes\n\n- Electro-mechanical controllers\n(e.g. Solenoid)\n\n1 set\n- Electro-Pneumatic controller\nForms/Manuals\n5 pcs.\nPressure gauge\n\nPLC plan and specification\n5 pcs.\nPressure Analyzer/Gauge\nmanifold\n\nRequisition form(s)\n5 pcs.\nLeak tester\n\nIndustry/Institution Quality Manual\n10 units\nMicro PLC\n\nUser’s guide\n25 lic.\nPLC Simulator Software\n\nDrawings/diagrams\n\n--- PDF PAGE 109 ---\nTR – EIM NC IV - 107 -\n\n3.50 Training Facilities\n\n Based on a class intake of 25 students/trainees, below are the space\nrequirement & their sizes:\n\n3.60 Trainer’s Qualifications - The trainer who will handle the course must\nhave the following qualifications:\n\n(1) Be a graduate of BS in Industrial Education, Major in Electrical\nTechnology or its equivalent\n(2) Must have undergone training on Training Methodology I (TM I)\n(3) He must be a holder of at least Electrical Installation & Maintenance\nNC IV\n(4) Good moral character\n(5) Must be computer literate\n(6) Must be physically and mentally fit\n(7) Minimum of three (3) years relevant job/industry experience *\n\n*Optional. Only when required by the hiring institution\nReference: TESDA Board Resolution No. 2004-03\n\nSpace Requirement\nSize in Meters\nArea in\nSq.\nMeters\nTotal Area in\n Sq. Meters\n\n1. Student/Trainee Working Space\n2.50 x 2.50 per\nstudent/trainee\n6.25 per\nstudent\n156.25\n2. Contextual Learning Laboratory/\nLecture Room\n\n4 x 5\n\n20\n\n20\n3. Learning Resource Center\n4 x 5\n20\n20\n4. Facilities/Equipment/ Circulation\narea\n10 x 6\n60\n60\nTOTAL AREA\n\n256.25\n\n--- PDF PAGE 110 ---\nTR – EIM NC IV - 108 -"
+  "source_section_text": ""
 }
