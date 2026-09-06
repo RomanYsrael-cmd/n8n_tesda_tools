@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T16:59:06+08:00",
+  "last_updated": "2026-09-06T17:14:46+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 125,
-  "remaining_unaudited": 259,
+  "audited_count": 130,
+  "remaining_unaudited": 254,
   "blocked_count": 0,
   "documents": [
     {
@@ -1633,6 +1633,71 @@
       "validation_passed": true,
       "last_audit_commit": "c9c53702da83e49208f21e06b48fc0bbfcc46cf5",
       "audit_notes": "Rebuilt 9/11/5 revised four-column groups with required knowledge and skills; restored 98 curriculum rows and all 17 glossary entries, preserved Revision 00 Promulgated 05/21/2019 and 47/120/257-hour components with 424-hour total, normalized the line-wrapped glossary terms while retaining source text, and recorded printed title and terminology variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Diesel Power Plant Maintenance NC III",
+      "package_path": "resources/Training Regulations/indexed/Diesel Power Plant Maintenance NC III",
+      "source_file": "resources/Training Regulations/Diesel Power Plant Maintenance NC III.pdf",
+      "source_sha256": "b08c68f28f69d5fb1ddee4c2a95d60774b72fb11b3d49ef12f915be4df288248",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:14:46+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "8701803c2fb6166d812f1e9b0745f233af3e21fe",
+      "audit_notes": "Rebuilt 6/5/4 historical two-column groups; restored 60 curriculum rows and 37 glossary entries, preserved the absent promulgation date and 56/80/216-hour components with 352-hour total, repaired the repeated final basic-unit curriculum numbering, and retained source title, terminology, and page-tail variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Diesel Power Plant Operation and Maintenance NC II",
+      "package_path": "resources/Training Regulations/indexed/Diesel Power Plant Operation and Maintenance NC II",
+      "source_file": "resources/Training Regulations/Diesel Power Plant Operation and Maintenance NC II.pdf",
+      "source_sha256": "0738bf010154bd42811dd3b9181748ce454e5976471010ffc1395ff0fb408864",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:14:46+08:00",
+      "issues_found": 9,
+      "issues_fixed": 9,
+      "validation_passed": true,
+      "last_audit_commit": "8701803c2fb6166d812f1e9b0745f233af3e21fe",
+      "audit_notes": "Rebuilt 4/5/2 historical two-column groups; restored 34 curriculum rows and 37 glossary entries, preserved the absent promulgation date and 56/80/126-hour components with 262-hour total, and retained source title, terminology, assessment, and page-tail variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Diesel Power Plant Operation and Maintenance NC III",
+      "package_path": "resources/Training Regulations/indexed/Diesel Power Plant Operation and Maintenance NC III",
+      "source_file": "resources/Training Regulations/Diesel Power Plant Operation and Maintenance NC III.pdf",
+      "source_sha256": "053dcac353a921dde5bd48d6f662cdcdb842777841902f5d76693cc7ed461358",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:14:46+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "8701803c2fb6166d812f1e9b0745f233af3e21fe",
+      "audit_notes": "Rebuilt 6/5/3 historical two-column groups; restored 43 curriculum rows and 37 glossary entries, preserved the absent promulgation date and 56/80/166-hour components with 302-hour total, repaired the repeated final basic-unit curriculum numbering, and retained source title, terminology, assessment, and page-tail variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Domestic Work NC II",
+      "package_path": "resources/Training Regulations/indexed/Domestic Work NC II",
+      "source_file": "resources/Training Regulations/Domestic Work NC II.pdf",
+      "source_sha256": "bc3bd4e9c2d72fcfd438742496e4acc7238c0ceaeb7bdef309860fcdcbba7ddc",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:14:46+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "8701803c2fb6166d812f1e9b0745f233af3e21fe",
+      "audit_notes": "Rebuilt 9/2/4/6 revised basic/common/core/elective groups; restored 86 curriculum rows, required knowledge/skills, and 28 glossary entries, preserved Promulgated (05/2022), the 37/20/90-hour mandatory components, separate 80-hour SIL, and optional 96-hour elective curriculum, repaired the misspelled Water/Irrigate Plants unit heading boundary, and retained source variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Domestic Work NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Domestic Work NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Domestic Work NC II (Superseded).pdf",
+      "source_sha256": "ca3de5d070e3be3b6ee68ca5c870acf87a330c4df7f3f8c9881b98190df5a27c",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:14:46+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "8701803c2fb6166d812f1e9b0745f233af3e21fe",
+      "audit_notes": "Rebuilt 4/2/4/10 superseded historical basic/common/core/elective groups; restored 93 curriculum rows and 44 glossary entries, preserved Promulgated February 2017, the 20/40/158/496-hour components and 714-hour total, recorded the misspelled Water Plants unit headings and unnumbered tail pages, and retained the superseded lifecycle; structural validation and visual boundary QA passed."
     }
   ]
 }
