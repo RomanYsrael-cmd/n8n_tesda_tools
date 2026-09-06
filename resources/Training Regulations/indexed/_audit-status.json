@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T21:28:25+08:00",
+  "last_updated": "2026-09-06T21:51:21+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 190,
-  "remaining_unaudited": 194,
+  "audited_count": 195,
+  "remaining_unaudited": 189,
   "blocked_count": 0,
   "documents": [
     {
@@ -2478,6 +2478,71 @@
       "validation_passed": true,
       "last_audit_commit": "0b7baa3aaa24b042e410d716bf4274578d736f31",
       "audit_notes": "Rebuilt 4/3/2 revised four-column groups with required knowledge and skills; restored 50 curriculum rows, 2 assessment arrangements, and 4 definition-term entries, preserved the Amended label and Promulgated June 16, 2015 with the 28/16/60-hour components and 104-hour total, indexed the source’s Definition of Common Terms section as glossary content, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Gas Metal Arc Welding (GMAW) NC I",
+      "package_path": "resources/Training Regulations/indexed/Gas Metal Arc Welding (GMAW) NC I",
+      "source_file": "resources/Training Regulations/Gas Metal Arc Welding (GMAW) NC I.pdf",
+      "source_sha256": "d5c40ee0065e32d273f67902c2ae1cd48ad3125097fae088e02421e1a9ca1fff",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:51:21+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "ad476781b1c8ea311b4c0e893a1af4129703e4f4",
+      "audit_notes": "Rebuilt 4/9/1 historical two-column groups; restored 51 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the 11/03/04 footer date and the 28/56/184-hour components with 268-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Gas Metal Arc Welding (GMAW) NC II",
+      "package_path": "resources/Training Regulations/indexed/Gas Metal Arc Welding (GMAW) NC II",
+      "source_file": "resources/Training Regulations/Gas Metal Arc Welding (GMAW) NC II.pdf",
+      "source_sha256": "b92f3cc8fcc442c78a0af2654087c88082d015cf91e2f660a424b62c875a8bd7",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:51:21+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "ad476781b1c8ea311b4c0e893a1af4129703e4f4",
+      "audit_notes": "Rebuilt 4/9/1 historical two-column groups; restored 51 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the 11/03/04 footer date and the 18/56/194-hour components with 268-hour total, normalized the common-unit curriculum order and source outcome numbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Gas Metal Arc Welding (GMAW) NC III",
+      "package_path": "resources/Training Regulations/indexed/Gas Metal Arc Welding (GMAW) NC III",
+      "source_file": "resources/Training Regulations/Gas Metal Arc Welding (GMAW) NC III.pdf",
+      "source_sha256": "c0f0c4d677c6eaae29d6d7e2b38d11197aa18eb4f750b4fb6d34fdf52737ecd3",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:51:21+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "ad476781b1c8ea311b4c0e893a1af4129703e4f4",
+      "audit_notes": "Rebuilt 6/9/2 historical two-column groups; restored 55 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the absent promulgation date and the 20/56/72-hour components with 148-hour total, recorded the Section 1 500311113 versus unit-heading 3500311113 code discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Gas Tungsten Arc Welding (GTAW) NC II",
+      "package_path": "resources/Training Regulations/indexed/Gas Tungsten Arc Welding (GTAW) NC II",
+      "source_file": "resources/Training Regulations/Gas Tungsten Arc Welding (GTAW) NC II.pdf",
+      "source_sha256": "61e720fdfcbddaa85498a09f41d928ef3a3bd7f69cccb6e79cabd05724bf06c2",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:51:21+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "ad476781b1c8ea311b4c0e893a1af4129703e4f4",
+      "audit_notes": "Rebuilt 4/9/2 historical two-column groups; restored 58 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the 01/04/05 footer date and the 18/56/194-hour components with 268-hour total, removed repeated-footer artifacts from element inventories while retaining page-preserved source text, and retained source terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Gas Tungsten Arc Welding (GTAW) NC IV",
+      "package_path": "resources/Training Regulations/indexed/Gas Tungsten Arc Welding (GTAW) NC IV",
+      "source_file": "resources/Training Regulations/Gas Tungsten Arc Welding (GTAW) NC IV.pdf",
+      "source_sha256": "ec3e639af3193f0640f5ccef8817f12a5606d8fff0a72ab78a9be5bc2293cd1f",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:51:21+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "ad476781b1c8ea311b4c0e893a1af4129703e4f4",
+      "audit_notes": "Rebuilt 6/9/2 historical two-column groups; restored 68 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the absent promulgation date and the 56/56/182-hour components with 294-hour total, recorded the Section 1 500311117/500311118 versus unit-heading 50011117/50011118 code discrepancies, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
