@@ -1,29 +1,184 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:heavy-equipment-operation-truck-mounted-crane-nc-iii:1c5c8372cc",
   "qualification": "HEAVY EQUIPMENT OPERATION (TRUCK MOUNTED CRANE) NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Heavy Equipment Operation (Truck Mounted Crane) NC III.pdf",
-    "sha256": "1c5c8372cccbb7dd897bd995b6cf65503abf016ed29b2cfd0851cb68f3d18893",
+    "source_sha256": "1c5c8372cccbb7dd897bd995b6cf65503abf016ed29b2cfd0851cb68f3d18893",
+    "pdf_pages": 122,
+    "printed_pages": 117,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints Revision 01 and Promulgated (11/07/2019), and its cover/table-of-contents pages identify the revised competency-standard format; the canonical date field preserves the printed date literal.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and preserves source terminology and page-preserved text.",
+    "The source prints 40 Basic, 24 Common, and 160 Core hours plus 40 hours of Supervised Industry Learning (SIL); the canonical duration records the 264-hour arithmetic total.",
+    "The source prints GLOSARRY OF TERMS; the canonical glossary heading is normalized while the source spelling remains in the page-preserved source layer."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 01 and Promulgated (11/07/2019), and its cover/table-of-contents pages identify the revised competency-standard format; the canonical date field preserves the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and preserves source terminology and page-preserved text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 40 Basic, 24 Common, and 160 Core hours plus 40 hours of Supervised Industry Learning (SIL); the canonical duration records the 264-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints GLOSARRY OF TERMS; the canonical glossary heading is normalized while the source spelling remains in the page-preserved source layer."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Heavy Equipment Operation (Truck Mounted Crane) NC III.pdf",
-    "pdf_pages": 122,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        21,
+        24
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        25,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        30,
+        34
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        39,
+        42
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        43,
+        46
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        47,
+        49
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        50,
+        52
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        53,
+        55
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        56,
+        59
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        60,
+        64
+      ]
+    },
+    {
+      "unit_code": "CON834301",
+      "source_unit_code": "CON834301",
+      "pdf_page_range": [
+        65,
+        73
+      ]
+    },
+    {
+      "unit_code": "CON834302",
+      "source_unit_code": "CON834302",
+      "pdf_page_range": [
+        74,
+        80
+      ]
+    },
+    {
+      "unit_code": "CON834303",
+      "source_unit_code": "CON834303",
+      "pdf_page_range": [
+        81,
+        86
+      ]
+    }
+  ]
 }

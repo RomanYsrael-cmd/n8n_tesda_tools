@@ -4,63 +4,52 @@
   "document_id": "tesda:tr:heavy-equipment-operation-transit-mixer-nc-ii:18697ec5df",
   "qualification": "HEAVY EQUIPMENT OPERATION (TRANSIT MIXER) NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "identify role and responsibility as a member of a team."
-      },
-      {
-        "unit_code": "CON8333321",
-        "title": "This unit describes the outcomes required in"
-      },
-      {
-        "unit_code": "CON833322",
-        "title": "This unit describes the outcomes required in the"
-      },
-      {
-        "unit_code": "CON833323",
-        "title": "This unit deals with the knowledge, skills and attitude"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "analyzing and interpreting symbols, data and work plan"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION-HEAVY EQUIPMENT OPERATION - SUB- SECTOR\nBA\nSIC\nInspect\nrigging gears\nPerform productive\noperation for\nhydraulic excavator\nPerform productive\noperation for truck-\nmounted crane\nPerform productive\noperation for tower crane\nPerform productive\noperation for forklift\nInstall rigging\ngears\nPerform productive\noperation for\nbackhoe loader\nPerform pre- and post-\noperation procedures for\nlifting equipment\nPerform basic\npreventive maintenance\nservicing for hauling\nPerform productive\noperation for off-highway\ndump truck (articulated)\nPerform productive\noperation for\nbulldozer\nPerform productive\noperation for wheel\nloader\nPerform productive\noperation for motor\ngrader\nPerform pre- and post-\noperation procedures for\nhauling equipment\nPerform productive\noperation for road\nroller\nPerform basic preventive\nmaintenance servicing for\nlifting equipment\nAssist crane\noperator\nPerform pre- and post-\noperation procedures for\nearth moving equipment\nPerform productive\noperation for\ncrawler crane\nPerform basic preventive\nmaintenance servicing for\nearth moving equipment\nPerform productive\noperation for rough-\nterrain crane\nPerform productive\noperation for off-highway\ndump truck (rigid)\nPerform productive\noperation for\nconcrete pump\nPerform productive\noperation for paver\nPerform basic preventive\nmaintenance servicing for\nconcreting and asphalting\nequipment\nPerform productive\noperation for on-highway\ndump truck (rigid)\nPerform pre- and post-\noperation procedures for\nconcreting and asphalting\nequipment\nPerform productive\noperation for transit\nmixer\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nBASIC\nCOMPETENCIES\nReceive and respond\nto workplace\ncommunication\nWork with others\nUse relevant\ntechnologies\nPractice career\nprofessionalism\nUtilize specialized\ncommunication\nskills\nPractice occupational\nhealth and safety\nprocedures\nDevelop teams and\nindividuals\nLead workplace\ncommunication\nDemonstrate work\nvalues\nSolve problems\nrelated to work\nactivities\nDevelop and\npractice negotiation\nskills\nPractice\nhousekeeping\nprocedure (5s)\nUse mathematical\nconcepts and\ntechniques\nWork in a team\nenvironment\nParticipate in\nworkplace\ncommunication\nApply problem-\nsolving techniques\nin the workplace\nPlan and organize\nwork\nCollect, analyze\nand organize\ninformation\nLead small team\nPromote\nenvironmental\nprotection\nPerform\nmensurations and\ncalculations\nObserve procedures,\nspecifications and\nmanual of instructions\nInterpret technical\ndrawings and plans\nMaintain tools and\nequipment\nPrepare construction\nmaterials and tools\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT OPERATION",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311203",
+        "CON311204",
+        "CON311202"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment",
+        "Interpret technical drawings and plans"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON8333321",
+        "CON833322",
+        "CON833323"
+      ],
+      "unit_titles": [
+        "Perform pre- and post operation procedures for concreting and asphalting equipment",
+        "Perform basic preventive maintenance servicing for concreting and asphalting equipment",
+        "Perform productive operation for transit mixer"
+      ]
+    }
+  ],
+  "source_text": "Section 1. The successful candidates shall be\nawarded a National Certificate signed by the TESDA Director General.\n\n4.2 The qualification of HEAVY EQUIPMENT OPERATION (Transit Mixer) NC\nII maybe attained through demonstration of competence in a project-type\nassessment covering the following core units.\n\n4.2.1\nTRANSIT MIXER\n\n Perform pre-and post operation for Asphalting and\nConcreting equipment\n Perform productive operation for Transit Mixer\n Perform basic preventive maintenance servicing for\nConcreting and Asphalting equipment\n\n4.3 Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4 The following are qualified to apply for assessment and certification:\n\n4.4.1\nGraduates of formal, non-formal and/or informal training including\nenterprise-based training programs\n\n4.4.2\nExperienced Workers (wage-employed or self-employed)\n\nThe guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS).\"\n\n--- PDF PAGE 79 ---\n\n--- PDF PAGE 80 ---\nTR HEAVY EQUIPMENT OPERATION\n\nCOMPETENCY MAP\nCONSTRUCTION-HEAVY EQUIPMENT OPERATION - SUB- SECTOR\nBA\nSIC\nInspect\nrigging gears\nPerform productive\noperation for\nhydraulic excavator\nPerform productive\noperation for truck-\nmounted crane\nPerform productive\noperation for tower crane\nPerform productive\noperation for forklift\nInstall rigging\ngears\nPerform productive\noperation for\nbackhoe loader\nPerform pre- and post-\noperation procedures for\nlifting equipment\nPerform basic\npreventive maintenance\nservicing for hauling\nPerform productive\noperation for off-highway\ndump truck (articulated)\nPerform productive\noperation for\nbulldozer\nPerform productive\noperation for wheel\nloader\nPerform productive\noperation for motor\ngrader\nPerform pre- and post-\noperation procedures for\nhauling equipment\nPerform productive\noperation for road\nroller\nPerform basic preventive\nmaintenance servicing for\nlifting equipment\nAssist crane\noperator\nPerform pre- and post-\noperation procedures for\nearth moving equipment\nPerform productive\noperation for\ncrawler crane\nPerform basic preventive\nmaintenance servicing for\nearth moving equipment\nPerform productive\noperation for rough-\nterrain crane\nPerform productive\noperation for off-highway\ndump truck (rigid)\nPerform productive\noperation for\nconcrete pump\nPerform productive\noperation for paver\nPerform basic preventive\nmaintenance servicing for\nconcreting and asphalting\nequipment\nPerform productive\noperation for on-highway\ndump truck (rigid)\nPerform pre- and post-\noperation procedures for\nconcreting and asphalting\nequipment\nPerform productive\noperation for transit\nmixer\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nBASIC\nCOMPETENCIES\nReceive and respond\nto workplace\ncommunication\nWork with others\nUse relevant\ntechnologies\nPractice career\nprofessionalism\nUtilize specialized\ncommunication\nskills\nPractice occupational\nhealth and safety\nprocedures\nDevelop teams and\nindividuals\nLead workplace\ncommunication\nDemonstrate work\nvalues\nSolve problems\nrelated to work\nactivities\nDevelop and\npractice negotiation\nskills\nPractice\nhousekeeping\nprocedure (5s)\nUse mathematical\nconcepts and\ntechniques\nWork in a team\nenvironment\nParticipate in\nworkplace\ncommunication\nApply problem-\nsolving techniques\nin the workplace\nPlan and organize\nwork\nCollect, analyze\nand organize\ninformation\nLead small team\nPromote\nenvironmental\nprotection\nPerform\nmensurations and\ncalculations\nObserve procedures,\nspecifications and\nmanual of instructions\nInterpret technical\ndrawings and plans\nMaintain tools and\nequipment\nPrepare construction\nmaterials and tools\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT OPERATION\n\nDefinition of Terms\n\n For the purpose of this Competency Standard, the words\n\n1. Discharge\nRefers to the act of discharging ready mixed concrete and\ndisposing drum sediments.\n2. Admixture\nIt is a chemical or substance added to concrete mix to\nmaintain its desired quality.\n3. Transit mixer\nIt refers to equipment used to transport ready mixed\nconcrete from batching plant to the job site.\n4. Quality controller\nRefers to a person responsible to receive and check the\nquality of mixed concrete.\n5. Mixing\nIt is a process to maintain the quality of ready mixed\nconcrete.\n6. Truck scale receipt\nIt is a document that certifies the total volume of ready\nmixed concrete loaded on Transit Mixer.\n7. Batching plant\nIt is the central plant where the raw materials in the\npreparation of concrete are blended.\n\n--- PDF PAGE 82 ---\nTR HEAVY EQUIPMENT OPERATION\n\nACKNOWLEDGEMENTS\n\n The Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies and who contributed their time and\nexpertise to the development and validation of this Training Regulations.\n\n•\nTHE TECHNICAL EXPERT PANEL (TEP)\n\nFlorello P. Quianzon\nConsultant, Equipment Concrete Product Division\n(Equipment Management)\nMakati Development Corporation\nAugusto S. Buyao\nTraining Manager\nMaxima Equipment Co. Inc.\n\nTito C. Tadios\nTraining Manager (Heavy Equipment Operation\nand Maintenance)\nMonark Equipment Co. Inc\n\nRudolfo D. Ancheta\nQuality Controller Supervisor (Repair and\nMaintenance of Hydraulic Excavator/Basic\nHydraulic)\nCivil Merchanidising Inc.\nEduardo C. Emas\nTrainor\nConstruction Manpower Development Center\nCornelio D. Padua\nHeavy Equipment Supervisor\nMakati Development Corp.\nAugust Consebido\nSales supervisor\nMonark Equipment Co. Inc.\nElias Rodriguez\nTrainor\nMonark equipment Co. Inc.\nEugenio S. Gutierrez\nOperator\nMakati Development Corp.\nWilbert Inchoco\nTraining Manager\nMonark Equipment co. Inc.\nVincent L. Orais\nOperator\nMakati Development Corp\nManuelito S. Severino\nOperator\nMakati Development Corp.\nEric Perez\nSales Manager\nWirtgen Philippines\nAlfredo M. Abela\nOperator\nMakati Development Corporation\n\nThe Management and Staff of the TESDA Secretariat\n\nQualifications and Standards Office\n\nThe Management and Staff of the ACEL Secretariat"
 }
