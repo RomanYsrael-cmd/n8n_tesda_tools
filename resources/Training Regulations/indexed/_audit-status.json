@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T15:04:38+08:00",
+  "last_updated": "2026-09-06T15:22:26+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 95,
-  "remaining_unaudited": 289,
+  "audited_count": 100,
+  "remaining_unaudited": 284,
   "blocked_count": 0,
   "documents": [
     {
@@ -1243,6 +1243,71 @@
       "validation_passed": true,
       "last_audit_commit": "dda1c3277f6fa40cd336e9366a3bb842e4974caa",
       "audit_notes": "Rebuilt 6/5/6 revised four-column groups; restored 53 curriculum rows and required knowledge/skills, preserved Promulgated March 2016 and 20/56/224-hour components with 300-hour total, corrected actual Section 3/4 boundary selection despite a later Section 3.4 reference, recorded TOC/page-range and source-typo anomalies, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "CNC Electric Discharge Machine (EDM) Wire Cut Operation NC III",
+      "package_path": "resources/Training Regulations/indexed/CNC Electric Discharge Machine (EDM) Wire Cut Operation NC III",
+      "source_file": "resources/Training Regulations/CNC Electric Discharge Machine (EDM) Wire Cut Operation NC III.pdf",
+      "source_sha256": "f96fdecad934116972ffaf2f95a4777a0c91e45661b7508b6913e5c80e119e5f",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:22:26+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "c5e3d66e44b381c76b88d368d7605395d8923cd1",
+      "audit_notes": "Rebuilt 9/11/4 revised four-column groups; restored 82 curriculum rows and required knowledge/skills, preserved Promulgated (05/21/2019), 40/120/136-hour components and 296-hour total, recorded the NC II/NC III header variant, section-number/title typos and source-text anomalies, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "CNC Lathe Machine Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/CNC Lathe Machine Operation NC II",
+      "source_file": "resources/Training Regulations/CNC Lathe Machine Operation NC II.pdf",
+      "source_sha256": "bc27cb01aa7bb6be7173ab207da1ad4ce7fac58fc129197738c4dde7e7c9abc3",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:22:26+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c5e3d66e44b381c76b88d368d7605395d8923cd1",
+      "audit_notes": "Rebuilt 4/7/3 historical two-column groups; restored 43 curriculum rows, preserved the absent promulgation date and 18/138/80-hour components with 236-hour total, recorded source title and maintenance-unit variants, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "CNC Lathe Machine Operation NC III",
+      "package_path": "resources/Training Regulations/indexed/CNC Lathe Machine Operation NC III",
+      "source_file": "resources/Training Regulations/CNC Lathe Machine Operation NC III.pdf",
+      "source_sha256": "4126f70770c607a0c7dd056e4eeaef581c8ffc7c9e3c25cf91d18e34c2ccaff1",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:22:26+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c5e3d66e44b381c76b88d368d7605395d8923cd1",
+      "audit_notes": "Rebuilt 6/12/3 historical two-column groups; restored 68 curriculum rows, preserved the absent promulgation date and 24/130/80-hour components with 234-hour total, recorded the blank source UNIT CODE for Prepare Cost Estimates using a non-regulatory canonical retrieval key while preserving source_unit_code as blank, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "CNC Milling Machine Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/CNC Milling Machine Operation NC II",
+      "source_file": "resources/Training Regulations/CNC Milling Machine Operation NC II.pdf",
+      "source_sha256": "dd8906a775e1a12ead341b2028845fedad1d5d5671744382cafbd174ee1ac1bd",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:22:26+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c5e3d66e44b381c76b88d368d7605395d8923cd1",
+      "audit_notes": "Rebuilt 4/7/3 historical two-column groups; restored 43 curriculum rows, preserved the absent promulgation date and 18/138/80-hour components with 236-hour total, recorded the CNC Lathe Milling Machine Operation NC II and CNC LATHE source errors, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "CNC Milling Machine Operation NC III",
+      "package_path": "resources/Training Regulations/indexed/CNC Milling Machine Operation NC III",
+      "source_file": "resources/Training Regulations/CNC Milling Machine Operation NC III.pdf",
+      "source_sha256": "f3483ca1d7ca2681104b9434727d1566daeeb65be39034fbbebd72571d103123",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:22:26+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c5e3d66e44b381c76b88d368d7605395d8923cd1",
+      "audit_notes": "Rebuilt 6/12/3 historical two-column groups; restored 68 curriculum rows, preserved the absent promulgation date and 24/130/80-hour components with 234-hour total, recorded the blank source UNIT CODE for Prepare Cost Estimates using a non-regulatory canonical retrieval key while preserving source_unit_code as blank, recorded the CNC Basic Turning workshop/source-title variants, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
     }
   ]
 }
