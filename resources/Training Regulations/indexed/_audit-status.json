@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T20:14:08+08:00",
+  "last_updated": "2026-09-06T20:25:30+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 165,
-  "remaining_unaudited": 219,
+  "audited_count": 170,
+  "remaining_unaudited": 214,
   "blocked_count": 0,
   "documents": [
     {
@@ -2153,6 +2153,71 @@
       "validation_passed": true,
       "last_audit_commit": "5b1f195ddae2cb12a8acf3d5a7cd4cc263574152",
       "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 72 curriculum rows and 2 definition-term entries, preserved Revision 01 and Promulgated (10/29/2018) with the 47/190/155-hour components and 392-hour total, retained the source DRAFT label, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food and Beverage Services NC IV (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Food and Beverage Services NC IV (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Food and Beverage Services NC IV (Superseded).pdf",
+      "source_sha256": "7813c285cafd87ab5cbad72de1681f1167676df2ce220e074a3e206256968e4b",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:25:30+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "9da0ac05b487f4193fb1483411f91ce18b757317",
+      "audit_notes": "Rebuilt 6/4/3/1 superseded historical two-column groups for basic, common, core, and elective pathways; restored 59 curriculum rows, 4 assessment arrangements, and 7 definition-term entries, preserved Promulgated April 2007 and the 56/24/60/20-hour components with 160-hour total, and retained the Restaurant core and Coffee Shop elective distinctions, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Processing NC I",
+      "package_path": "resources/Training Regulations/indexed/Food Processing NC I",
+      "source_file": "resources/Training Regulations/Food Processing NC I.pdf",
+      "source_sha256": "dc2f8d4d197794cddaf999e7ad30470a999abef467865ebf8494c3d6cc703599",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:25:30+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "9da0ac05b487f4193fb1483411f91ce18b757317",
+      "audit_notes": "Rebuilt 9/4/6 revised four-column groups with required knowledge and skills; restored 96 curriculum rows and 34 definition-term entries, preserved Promulgated January 11, 2019 with the 47/14/136-hour components and 197-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Processing NC I (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Food Processing NC I (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Food Processing NC I (Superseded).pdf",
+      "source_sha256": "0995234ad9f963c8e29eb0edbb0282db2cb7862def65e75bbcb3cded713c86b5",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:25:30+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "9da0ac05b487f4193fb1483411f91ce18b757317",
+      "audit_notes": "Rebuilt 4/4/7 superseded historical two-column groups; restored 44 curriculum rows, 7 assessment arrangements, and 44 definition-term entries, preserved the absent promulgation date and the 28/88/364-hour components with 480-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Processing NC II",
+      "package_path": "resources/Training Regulations/indexed/Food Processing NC II",
+      "source_file": "resources/Training Regulations/Food Processing NC II.pdf",
+      "source_sha256": "20749ccbe577d8303597ed5f7646bc4a1d6056c74ac2e7bfe9129a192c5d6cc5",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:25:30+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "9da0ac05b487f4193fb1483411f91ce18b757317",
+      "audit_notes": "Rebuilt 4/6/5 revised four-column groups with required knowledge and skills; restored 62 curriculum rows and 46 definition-term entries, preserved the AMENDED label and Promulgated June 16, 2015 with the 18/14/520-hour components and 552-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Food Processing NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Food Processing NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Food Processing NC II (Superseded).pdf",
+      "source_sha256": "79d040c791f4eaccea67d50a58dfb37551da764f55627ef840d37e4c94a08a8b",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:25:30+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "9da0ac05b487f4193fb1483411f91ce18b757317",
+      "audit_notes": "Rebuilt 4/5/4 superseded historical two-column groups; restored 84 curriculum rows, 7 assessment arrangements, and 39 definition-term entries, preserved the absent promulgation date and the source's single 568-hour nominal duration without inferring category subtotals, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
