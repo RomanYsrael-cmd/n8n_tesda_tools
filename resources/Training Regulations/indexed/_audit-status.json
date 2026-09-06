@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T17:14:46+08:00",
+  "last_updated": "2026-09-06T17:34:53+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 130,
-  "remaining_unaudited": 254,
+  "audited_count": 135,
+  "remaining_unaudited": 249,
   "blocked_count": 0,
   "documents": [
     {
@@ -1698,6 +1698,71 @@
       "validation_passed": true,
       "last_audit_commit": "8701803c2fb6166d812f1e9b0745f233af3e21fe",
       "audit_notes": "Rebuilt 4/2/4/10 superseded historical basic/common/core/elective groups; restored 93 curriculum rows and 44 glossary entries, preserved Promulgated February 2017, the 20/40/158/496-hour components and 714-hour total, recorded the misspelled Water Plants unit headings and unnumbered tail pages, and retained the superseded lifecycle; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Dressmaking NC II",
+      "package_path": "resources/Training Regulations/indexed/Dressmaking NC II",
+      "source_file": "resources/Training Regulations/Dressmaking NC II.pdf",
+      "source_sha256": "021baaa89023391a14a4e8dd6d41cb4be8cc2159e16395f2ad6cf4cffe03ca9e",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:34:53+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c886ae769a3b01089fe58e391d8d7c94fe869677",
+      "audit_notes": "Rebuilt 4/4/4 historical two-column groups; restored 44 curriculum rows and 18 glossary entries, preserved Promulgated March 18, 2005 and the 18/17/240-hour components with 275-hour total, normalized the common-curriculum order, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Driving (Articulated Vehicle) NC III",
+      "package_path": "resources/Training Regulations/indexed/Driving (Articulated Vehicle) NC III",
+      "source_file": "resources/Training Regulations/Driving (Articulated Vehicle) NC III.pdf",
+      "source_sha256": "128b19ec70cedf78aeba46243d251f8080c2cc9b3accd6a0c4f900d9818f2673",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:34:53+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "c886ae769a3b01089fe58e391d8d7c94fe869677",
+      "audit_notes": "Rebuilt 6/7/6 historical two-column groups; restored 66 curriculum rows and 35 glossary entries, preserved Promulgated January 14, 2011 and the 20/20/68-hour components with 108-hour total, recorded the Section 1 ALT723203 unit without a corresponding Section 2 standard, retained ALT723307 versus ALT723205 and ALT832308 versus ALT832309 source-code variants, and preserved wrapped unit headers; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Driving (Passenger Bus Straight Truck) NC III",
+      "package_path": "resources/Training Regulations/indexed/Driving (Passenger Bus Straight Truck) NC III",
+      "source_file": "resources/Training Regulations/Driving (Passenger Bus Straight Truck) NC III.pdf",
+      "source_sha256": "5a3e045986635de10a92f41edce739e6af807da6174aa8605d9dff4d0a43c586",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:34:53+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "c886ae769a3b01089fe58e391d8d7c94fe869677",
+      "audit_notes": "Rebuilt 6/7/7 historical two-column groups; restored 74 curriculum rows and 33 glossary entries, preserved Promulgated January 14, 2011 and the 20/20/82-hour components with 122-hour total, recorded the Section 1 ALT723203 unit without a corresponding Section 2 standard, retained ALT723307 versus ALT723205 and ALT832308 versus ALT832309 source-code variants, and preserved wrapped unit headers; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Driving NC II",
+      "package_path": "resources/Training Regulations/indexed/Driving NC II",
+      "source_file": "resources/Training Regulations/Driving NC II.pdf",
+      "source_sha256": "feb73e56e6e0aa73fc014f2c04c8317ab765178ff6bdb32c3bf8465ca9ef8595",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:34:53+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c886ae769a3b01089fe58e391d8d7c94fe869677",
+      "audit_notes": "Rebuilt 4/5/4 historical two-column groups; restored 35 curriculum rows and 23 glossary entries, preserved Promulgated December 2004 and the 18/20/80-hour components with 118-hour total, recorded the Section 1 ALT723203 unit without a corresponding Section 2 standard and ALT723307 versus ALT723205 source-code variant, and retained source terminology and numbering irregularities; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Drying and Milling Plant Servicing NC III",
+      "package_path": "resources/Training Regulations/indexed/Drying and Milling Plant Servicing NC III",
+      "source_file": "resources/Training Regulations/Drying and Milling Plant Servicing NC III.pdf",
+      "source_sha256": "e38adff3e7ae1cdc38a7cac9651ce217003ad7e289f037d2e6be5a51f72dfa33",
+      "status": "audited",
+      "audited_at": "2026-09-06T17:34:53+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c886ae769a3b01089fe58e391d8d7c94fe869677",
+      "audit_notes": "Rebuilt 6/3/3 revised four-column groups with required knowledge and skills; restored 53 curriculum rows and 16 glossary entries, preserved Promulgated February 3, 2017 and the 16/72/168-hour components with 256-hour total, repaired the singular range-table boundary on the three long core units, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
