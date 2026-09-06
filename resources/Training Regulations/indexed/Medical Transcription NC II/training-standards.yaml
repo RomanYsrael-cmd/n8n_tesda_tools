@@ -1,33 +1,649 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:medical-transcription-nc-ii:2004-02",
+  "document_id": "tesda:tr:medical-transcription-nc-ii:52cec5af69",
   "qualification": "MEDICAL TRANSCRIPTION NC II",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Medical Transcription NC II.pdf",
-    "pdf_pages": 49
+    "pdf_pages": 49,
+    "printed_pages": 47,
+    "promulgated": "February 2004"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 360,
+        "source_expression": "360 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 396,
+    "total_source_expression": "396 hrs.",
+    "source_expressions": [
+      "18 hrs. - Basic Competencies",
+      "18 hrs. - Common Competencies",
+      "360 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 396,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meeting and discussion. Group discussion Interaction",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team member. Discussion Interaction",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development. Discussion Interaction",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Evaluate hazard and risks",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Maintain occupational health and safety awareness Discussion Plant tour Symposium",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Asses quality of received materials",
+        "learning_activities": [],
+        "methodology": [
+          "Field trip 1. Demonstration and Symposium"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Assess own work",
+        "learning_activities": [],
+        "methodology": [
+          "2. Observation Problem and"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Engage in quality improvement",
+        "learning_activities": [],
+        "methodology": [
+          "solving 3. Third Film showing report Simulation Individualize learning On the job training"
+        ],
+        "assessment_approach": [
+          "party"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Set-up workstation",
+        "learning_activities": [],
+        "methodology": [
+          "Modular 1. Demonstration and"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Prepare storage media",
+        "learning_activities": [],
+        "methodology": [
+          "Film showing 2. Observation Computer and"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Work with files and",
+        "learning_activities": [],
+        "methodology": [
+          "based training (e-learning) 3. Third report"
+        ],
+        "assessment_approach": [
+          "party"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Manipulate word processing software",
+        "learning_activities": [],
+        "methodology": [
+          "Project method 4. Assessment On the job output"
+        ],
+        "assessment_approach": [
+          "of product"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Manipulate spreadsheet software",
+        "learning_activities": [],
+        "methodology": [
+          "training 5. Portfolio"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.6",
+        "learning_outcome": "Manipulate customize and database applications",
+        "learning_activities": [],
+        "methodology": [
+          "6. Computer based assessment"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.6",
+        "learning_outcome": "Utilize the internet",
+        "learning_activities": [],
+        "methodology": [
+          "Modular 1. Demonstration and"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.7",
+        "learning_outcome": "Maintain computer hardware and software",
+        "learning_activities": [],
+        "methodology": [
+          "Modular 1. Demonstration and"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313307",
+        "unit_title": "Use business technology",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Select appropriate technology and software for MT tasks",
+        "learning_activities": [],
+        "methodology": [
+          "Discussions",
+          "Demonstrations"
+        ],
+        "assessment_approach": [
+          "examination",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313307",
+        "unit_title": "Use business technology",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Process and",
+        "learning_activities": [],
+        "methodology": [
+          "Discussions",
+          "Demonstrations"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313307",
+        "unit_title": "Use business technology",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Maintain business technology equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313308",
+        "unit_title": "Use medical terminology to carry out task",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Prepare report using medical terminology",
+        "learning_activities": [],
+        "methodology": [
+          "Discussions",
+          "Demonstrations",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "examination",
+          "Demonstration",
+          "Interview",
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313309",
+        "unit_title": "Produce text from audio transcription",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Prepare for audio transcription",
+        "learning_activities": [],
+        "methodology": [
+          "Discussions"
+        ],
+        "assessment_approach": [
+          "examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313309",
+        "unit_title": "Produce text from audio transcription",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Transcribe audio files using appropriate technology",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstrations"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313309",
+        "unit_title": "Produce text from audio transcription",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Edit and revise text",
+        "learning_activities": [],
+        "methodology": [
+          "Discussions"
+        ],
+        "assessment_approach": [
+          "2004"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 40
+      }
+    ],
     "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
   },
   "subsections": {
+    "curriculum_design": {
+      "present": true,
+      "pdf_pages": [
+        38
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
+    },
+    "training_delivery": {
+      "present": true,
+      "pdf_pages": [
+        41
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
+    },
+    "trainee_entry_requirements": {
+      "present": true,
+      "pdf_pages": [
+        42
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
+    },
+    "tools_equipment_materials": {
+      "present": true,
+      "pdf_pages": [
+        42
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
+    },
+    "training_facilities": {
+      "present": true,
+      "pdf_pages": [
+        43
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        43
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
+    },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42",
-      "pdf_pages": []
+      "pdf_pages": [
+        43
+      ],
+      "source_text": "3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "18 HOURS",
-      "18 Hours",
-      "360 HOURS"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Medical Transcription.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n18 HOURS (Basic) + 18 Hours (Common)\nCourse Description:\n\nThis course is designed to develop the basic knowledge, desirable\nattitudes, and skills of a medical transcriptionist.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information.\n1.2 Complete relevant work\nrelated documents.\n1.3 Participate in workplace\nmeeting and discussion.\nGroup\ndiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n\n2.2 Describe work as a team\nmember.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice career\nprofessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\nDiscussion\nInteraction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\nDiscussion\nPlant tour\nSymposium\n• Observation\n• Interview\n\n--- PDF PAGE 39 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n37\n\nCOMMON COMPETENCIES\n\nSECTOR:\nINFORMATION AND COMMUNICATION TECHNOLOGY (ICT) NC II\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply Quality\nStandards\n\n1.1. Asses quality of\nreceived materials\n\n1.2. Assess own work\n\n1.3. Engage in quality\nimprovement\n\n1. Field trip\n\n2. Symposium\n\n3. Problem\nsolving\n\n4. Film showing\n\n5. Simulation\n\n6. Individualize\nlearning\n\n7. On the job\ntraining\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n2. Perform\nComputer\nOperation\n2.1. Set-up workstation\n\n2.2. Prepare storage\nmedia\n\n2.3. Work with files and\nobjects\n\n2.4. Manipulate word\nprocessing software\n\n2.5. Manipulate\nspreadsheet software\n\n2.6. Manipulate customize\nand database\napplications\n\n2.6. Utilize the internet\n\n2.7. Maintain computer\nhardware and\nsoftware\n1. Modular\n\n2. Film showing\n\n3. Computer\nbased training\n(e-learning)\n\n4. Project method\n\n5. On the job\ntraining\n\n1. Demonstration\nand questioning\n\n2. Observation\nand questioning\n\n3. Third party\nreport\n\n4. Assessment of\noutput product\n\n5. Portfolio\n\n6. Computer\nbased\nassessment\n\n--- PDF PAGE 40 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n38\nCORE COMPETENCIES\n\nCourse Title:\nMEDICAL TRANSCRIPTION NC Level: NC II\nNominal Training Hours:\n360 HOURS\nCourse Description:\nThis course is designed to develop knowledge, desirable attitudes, and\nskills in preparing medical reports from dictated recordings made by\nphysicians and other health care professionals. It covers specialized\ncompetencies such as using business technology, use medical terminology to\ncarry out tasks, and produce text from audio transcription.\n\nTo obtain this, all units prescribed for this qualification must be\nachieved:\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Use Business\nTechnology\n\n1.1 Select appropriate\ntechnology and\nsoftware for MT\ntasks\n1.2 Process and\norganize MT data\n1.3 Maintain business\ntechnology\nequipment\n• Lecture\n\n• Discussions\n\n• Demonstrations\n\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n2. Use Medical\nTerminology\nto Carry out\nTasks\n\n2.1 Prepare report\nusing medical\nterminology\n\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n3. Produce Text\nfrom Audio\nTranscription\n\n3.1 Prepare for audio\ntranscription\n3.2 Transcribe audio\nfiles using\nappropriate\ntechnology\n3.3 Edit and revise text\n• Lecture\n\n• Discussions\n\n• Demonstrations\n• Written\nexamination\n\n• Demonstration\n\n• Interview\n\n--- PDF PAGE 41 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n39\n3.2.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET systems recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by\nthe competency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer facilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study, or\naudio, video or computer technologies.\n\n--- PDF PAGE 42 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n40\n3.3.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n\n• can communicate either oral and written;\n• must be physically and mentally fit\n• with good moral character; and\n• must pass the trainability/aptitude test.\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\nMEDICAL TRANSCRIPTION – NC II\n\nRecommended list of tools, equipment and materials for the training in\nMedical Transcription – NC II\nQTY.\nEQUIPMENT\n*\nComputer\n*\nAudio player software or equivalent\n\nLocal Area Network (LAN)\n\nTelephone\n\nFURNITURES\n*\nComputer Table\n*\nErgonomic Chairs\n\nMATERIALS\n\nCommercially available practice audio files with proof of purchase/source\n*\nWord Processor\n*\nFoot Pedal or equivalent audio controller for transcription\n*\nEarphones\n\nMedical Dictionary\n\nEnglish Dictionary\n\nDrug Reference Book\n\nNote: * Minimum required equipment-to-trainee ratio = 1 : 1\n (equipment includes software and furniture)\n\n--- PDF PAGE 43 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n41\n\n3.5.\nTRAINING FACILITIES\n\nThe building must be in compliance with occupational health and safety\nguidelines.\n\nSPACE REQUIREMENT\nSIZE\n(in METER)\nAREA\n(in Sq. Meters)\nTOTAL AREA\n(in Sq. Meters)\n• Trainee working space\n1 x 1\n25\n25\n• Lecture Room (Optional)\n6 x 5\n30\n30\n• Learning Resource Center\n2 x 2\n4\n4\n\nNote: Minimum required ratio of trainer to students = 1 : 25\nMinimum required ratio of student to computer workstation = 1 : 1\n\n3.6.\nTRAINERS QUALIFICATION\n\nMEDICAL TRANSCRIPTION – NC II\n\nTRAINERS QUALIFICATION (TQ II)\n\n• Must be a holder of Medical Transcription NC II or at least six (6) months\nof relevant industry experience.\n• Must have undergone training on Training Methodology II or equivalent\ntrainer’s training /experience.\n• Must be computer literate\n• Must be physically and mentally fit\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 44 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n42"
 }

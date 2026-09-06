@@ -1,54 +1,49 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:medical-transcription-nc-ii:2004-02",
+  "document_id": "tesda:tr:medical-transcription-nc-ii:52cec5af69",
   "qualification": "MEDICAL TRANSCRIPTION NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "ICT313307",
-        "title": "UNIT DESRIPTOR"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "506315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT313309",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "506311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT313308",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n\n43\nGLOSSARY OF TERMS\n\n44 – 45",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ICT315202",
+        "ICT311203"
+      ],
+      "unit_titles": [
+        "Apply quality standards",
+        "Perform computer operations"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ICT313307",
+        "ICT313308",
+        "ICT313309"
+      ],
+      "unit_titles": [
+        "Use business technology",
+        "Use medical terminology to carry out task",
+        "Produce text from audio transcription"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n4.2\nThe qualification of Medical Transcription NC II may be attained through\ndemonstration of competence through a single comprehensive project-type\nassessment covering all required units of competency of the qualification.\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1.\nGraduate of formal, non-formal, and informal including enterprise-\nbased training programs.\n\n4.4.2.\nExperienced workers (wage employed or self employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)\".\n\n--- PDF PAGE 45 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n43\nANNEX A COMPETENCY MAP\nBASIC COMPETENCIES\n\nReceive and Respond to\nworkplace communication\nWork with Others\nDemonstrate Work Values\nParticipate in Workplace\nCommunication\nWork in a Team\nEnvironment\nPractice Career\nProfessionalism\nPractice occupational\nHealth and Safety\nProcedures\nPractice Housekeeping\nProcedures (5S)\nLead Workplace\nCommunication\nLead Small Team\nDevelop and Practice\nNegotiation Skills\nSolve Problems Related to\nWork Activities\nUse Mathematical\nConcepts and Techniques\nUse Relevant Technologies\nUtilize Specialist\nCommunication skills\nDevelop Team and\nIndividual\nApply Problem Solving\nTechniques in the\nWorkplace\nCollect, Analyze and\nOrganize Information\nPlan and Organize Work\nPromote Environmental\nProtection\n\nCOMMON COMPETENCIES\n\nApply OHS Practices and 5\nS in the workplace\nApply Quality Standards\nPerform Computer\nOperations\n\nCORE COMPETENCIES\n\nCommunicate effectively in\na customer contact center\nRender quality customer\nservice\nUtilize enterprise/ company\ntechnology\nConduct contact center\ncampaign\nProvide specialized support\nand assistance to\ncustomers\nManage the activities of a\ncontact center work team\nLead a contact center work\nteam\nUse business technology\nUse medical technology to\ncarry out task\nProduce text from audio\ntranscription\nReview/edit documents\nManage the activities of a\nwork team\nLead a team in delivering\nquality service\nProduce cleaned-up and\nin-betweened drawings\nCreate 2D models and\nimages\nProduce 2D colored\nanimation\nProduce key drawings for\nanimation\nProduce over-all designs\nfor animation\nProduce background\ndesigns\nComposit and edit\nanimation sequence\nCreate 3D models and\nimages\nProduce storyboard for\nanimation\nCoordinate the production\nof animation\n\nQualification for NC II\n\n--- PDF PAGE 46 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n44\nGLOSSARY OF TERMS\n\n1.\nAnatomy – the branch of morphology concerned with the structure of\nanimals or plants.\n2.\nBrowser – a software package that provides the user interface for\naccessing Internet, intranet and extranet Web sites.\n3.\nComputer – a device that has the ability to accept data; internally store\nand execute a program of instructions; perform mathematical, logical,\nand manipulative operations on data; and report the results.\n4.\nComputer Terminal – any input/output device connected by\ntelecommunications links to a computer.\n5.\nData - objective measurements of the attributes (characteristics) of\nentities such as people, places, things, and events.\n6.\nDocumentation – a collection of documents or information.\n7.\nEdit – to modify the form or format of data\n8.\nEncryption – to scramble data or convert it, prior to transmission, to a\nsecret code that masks the meaning of he data to unauthorized\nrecipients.\n9.\nEnd user – anyone who uses an information system or the information\nit produces.\n10.\nErgonomics - the science and technology emphasizing the safety,\ncomfort, and ease of use of human-operated machines. The goal of\nergonomics is to produce systems that are user-friendly: safe,\ncomfortable and easy to use.\n11.\nInformation – data placed in a meaningful and useful context for an\nend user.\n12.\nInformation and Communication Technology (ICT) - refers to\ntechnologies associated with the transmission and exchange of data in\nthe form of sound, text, visual images, signals or any combination of\nthose forms through the use of digital technology. It encompasses\nsuch services as telecommunications, posts, multimedia, electronic\ncommerce, broadcasting, and information technology.\n13.\nKeyboarding – using the keyboard of a microcomputer or terminal.\n14.\nKnowledge workers – people whose primary work activities include\ncreating, using, and distributing information.\n15.\nLocal Area Network (LAN) – a communications network that typically\nconnects computers, terminals, and other computerized devices within\na limited physical area such as an office, building, manufacturing plant\nand other work sites.\n16.\nOutsourcing – turning over all or part of an organization’s information\nsystems operation to outside contractors, known as systems\nintegrators or facilities management companies.\n\n--- PDF PAGE 47 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n45\n17.\nPhysiology – the branch of biology concerned with the functions of\nliving things.\n18.\nProtocol – a set of rules and procedures for the control of\ncommunication in a communications network.\n19.\nQuality Assurance – methods for ensuring that information systems\nare free from errors and fraud and provide information products of high\nquality.\n20.\nSoftware – computer programs and procedures concerned with the\noperation of an information system.\n21.\nStandards – measures of performance developed to evaluate the\nprogress of a system toward its objectives\n22.\nSystem – an assembly of methods, procedures, or techniques unified\nby regulated interaction to form an organized whole\n23.\nTelecommunications – pertaining to the transmission of signals over\nlong distances, including not only data communications but also the\ntransmission of images and voices using communication technologies.\n24.\nUser- friendly – a characteristic of human-operated equipment and\nsystems that makes them safe, comfortable, and easy to use.\n\n--- PDF PAGE 48 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n46\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\nMS. MA. CORAZON M. AKOL (CHAIRPERSON)\nPresident\nJITSE Philippines Foundation\n3rd Floor, OPPEN Bldg.\nSen Gil J. Puyat Ave.\nMakati City\n\nMR. ARNEL F. HIBO (ACADEME)\nVice President\nAMA Global Education System\n\nMR. CATALINO OBINARIO, JR. (LABOR)\nKAMPI\nRm. 605 Fil Garcia Tower\n140 Kalayaan Ave., Q.C.\n\n• THE TECHNICAL EXPERT PANEL (TEP)\n\nDR. JOSEFINA V. LAUCHANGCO\nAmerican Academy of Medical Transcription\n\nMS. JOAN RODRIGO\nDictation Source Philippines, Inc.\n\nMS. CRISTABELLE CAMPOS\nSPI\n\nMS. MYLA ROSE M. REYES\nTotal Transcription Solutions, Inc.\n\nMR. CLARENCE F. ROMANA\nMedscribe Asia\n\nMS. ROSARIO CAMIRING\neData Services, Inc.\n\nDR. ANTON VILLANUEVA\nMTC Academy\n\n--- PDF PAGE 49 ---\n_____________________________________________________________________________\nTR-ICT (MEDICAL TRANSCRIPTION NC II) Promulgated February 2004\n\n47\n\nThe participants in the National Validation of this Training Regulation\n\n• Department of Trade and Industry – Center for International Trade\nExpositions and Missions (DTI – CITEM)\n\n• Medical Transcription Industry Association of the Philippines\n(MTIAPI) – Education Committee\n\nThe Standards Setting and Systems Development Committee\n\n• Dr. Alberto Victor P. Fenix, Jr.– Chairperson\n• Atty. Ranulfo P. Payos\n• Dr. Nona Saldana Ricafort\n• Dr. Teresita U. Quirino\n• BM Teresita m. Borgoños\n• BM Rene Luis M. Tagle\n•\nEmployers Sector Representative\n\nThe Management and Staff of the TESDA Secretariat\n\n•\nQualifications and Standards Office (QSO)"
 }

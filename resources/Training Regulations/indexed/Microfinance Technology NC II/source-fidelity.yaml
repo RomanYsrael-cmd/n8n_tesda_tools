@@ -1,29 +1,165 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:microfinance-technology-nc-ii:9c6c3275d7",
   "qualification": "MICROFINANCE TECHNOLOGY NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Microfinance Technology NC II.pdf",
-    "sha256": "9c6c3275d7de5a3c922a293c5a145be8e9e915468119810c7cfb2ad22f7ff99a",
+    "source_sha256": "9c6c3275d7de5a3c922a293c5a145be8e9e915468119810c7cfb2ad22f7ff99a",
+    "pdf_pages": 76,
+    "printed_pages": 71,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation with source footer dates 'Date Promulgated'; the final acknowledgement page carries printed page 71.",
+    "The source uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields.",
+    "Section 1 presents the common/core/basic inventories in that source order, while the canonical package groups units as basic, common, and core for deterministic retrieval.",
+    "The source prints 18 Basic, 74 Common, and 311 Core hours for a 403-hour total.",
+    "The source uses small wording variations between Section 1, Section 2, and the curriculum table, including 'Performing Computer Operations' in the curriculum; canonical titles follow the unit headers/Section 1 inventory."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation with source footer dates 'Date Promulgated'; the final acknowledgement page carries printed page 71."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 presents the common/core/basic inventories in that source order, while the canonical package groups units as basic, common, and core for deterministic retrieval."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 74 Common, and 311 Core hours for a 403-hour total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses small wording variations between Section 1, Section 2, and the curriculum table, including 'Performing Computer Operations' in the curriculum; canonical titles follow the unit headers/Section 1 inventory."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Microfinance Technology NC II.pdf",
-    "pdf_pages": 76,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "HCS421201",
+      "source_unit_code": "HCS421201",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "HCS315202",
+      "source_unit_code": "HCS315202",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "HCS311201",
+      "source_unit_code": "HCS311201",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "HCS341301",
+      "source_unit_code": "HCS341301",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "HCS341302",
+      "source_unit_code": "HCS341302",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "HCS341303",
+      "source_unit_code": "HCS341303",
+      "pdf_page_range": [
+        36,
+        40
+      ]
+    },
+    {
+      "unit_code": "HCS341304",
+      "source_unit_code": "HCS341304",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    },
+    {
+      "unit_code": "HCS341305",
+      "source_unit_code": "HCS341305",
+      "pdf_page_range": [
+        44,
+        48
+      ]
+    },
+    {
+      "unit_code": "HCS341306",
+      "source_unit_code": "HCS341306",
+      "pdf_page_range": [
+        49,
+        52
+      ]
+    },
+    {
+      "unit_code": "HCS341307",
+      "source_unit_code": "HCS341307",
+      "pdf_page_range": [
+        53,
+        55
+      ]
+    }
+  ]
 }
