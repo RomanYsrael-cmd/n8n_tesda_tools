@@ -1,29 +1,219 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:food-processing-nc-iii:c3331b42d0",
   "qualification": "FOOD PROCESSING NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Food Processing NC III.pdf",
-    "sha256": "c3331b42d09c9e5f33df3fe579855da98b2a33e32562a9d731d951f769be62c6",
+    "source_sha256": "c3331b42d09c9e5f33df3fe579855da98b2a33e32562a9d731d951f769be62c6",
+    "pdf_pages": 125,
+    "printed_pages": 123,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not print a promulgation date; the canonical promulgated field remains null.",
+    "The source prints 20 Basic, 128 Common, and 752 Core hours with a 900-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The Section 1 roster assigns AGR741316 and AGR741318 to Operate a Boiler and Operate and Monitor Food Processes and Equipment, while both corresponding unit headers print AGR7413xx; the canonical inventory follows Section 1 and source_unit_code preserves the header variant. The source uses historical two-column competency tables."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 128 Common, and 752 Core hours with a 900-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 roster assigns AGR741316 and AGR741318 to Operate a Boiler and Operate and Monitor Food Processes and Equipment, while both corresponding unit headers print AGR7413xx; the canonical inventory follows Section 1 and source_unit_code preserves the header variant. The source uses historical two-column competency tables."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Food Processing NC III.pdf",
-    "pdf_pages": 125,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        8,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "AGR741201",
+      "source_unit_code": "AGR741201",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "AGR741202",
+      "source_unit_code": "AGR741202",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "AGR741203",
+      "source_unit_code": "AGR741203",
+      "pdf_page_range": [
+        30,
+        34
+      ]
+    },
+    {
+      "unit_code": "AGR741204",
+      "source_unit_code": "AGR741204",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "AGR741205",
+      "source_unit_code": "AGR741205",
+      "pdf_page_range": [
+        39,
+        44
+      ]
+    },
+    {
+      "unit_code": "AGR741206",
+      "source_unit_code": "AGR741206",
+      "pdf_page_range": [
+        45,
+        51
+      ]
+    },
+    {
+      "unit_code": "AGR741312",
+      "source_unit_code": "AGR741312",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "AGR741313",
+      "source_unit_code": "AGR741313",
+      "pdf_page_range": [
+        57,
+        61
+      ]
+    },
+    {
+      "unit_code": "AGR741314",
+      "source_unit_code": "AGR741314",
+      "pdf_page_range": [
+        62,
+        65
+      ]
+    },
+    {
+      "unit_code": "AGR741315",
+      "source_unit_code": "AGR741315",
+      "pdf_page_range": [
+        66,
+        70
+      ]
+    },
+    {
+      "unit_code": "AGR741316",
+      "source_unit_code": "AGR7413xx",
+      "pdf_page_range": [
+        71,
+        77
+      ]
+    },
+    {
+      "unit_code": "AGR741317",
+      "source_unit_code": "AGR741317",
+      "pdf_page_range": [
+        78,
+        81
+      ]
+    },
+    {
+      "unit_code": "AGR741318",
+      "source_unit_code": "AGR7413xx",
+      "pdf_page_range": [
+        82,
+        88
+      ]
+    },
+    {
+      "unit_code": "AGR741319",
+      "source_unit_code": "AGR741319",
+      "pdf_page_range": [
+        89,
+        94
+      ]
+    },
+    {
+      "unit_code": "AGR741320",
+      "source_unit_code": "AGR741320",
+      "pdf_page_range": [
+        95,
+        98
+      ]
+    },
+    {
+      "unit_code": "AGR741321",
+      "source_unit_code": "AGR741321",
+      "pdf_page_range": [
+        99,
+        102
+      ]
+    },
+    {
+      "unit_code": "AGR741322",
+      "source_unit_code": "AGR741322",
+      "pdf_page_range": [
+        103,
+        106
+      ]
+    }
+  ]
 }

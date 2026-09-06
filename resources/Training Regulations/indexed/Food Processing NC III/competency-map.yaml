@@ -4,95 +4,72 @@
   "document_id": "tesda:tr:food-processing-nc-iii:c3331b42d0",
   "qualification": "FOOD PROCESSING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "required to lead in the dissemination and discussion of"
-      },
-      {
-        "unit_code": "AGR741201",
-        "title": "to apply food safety and sanitation in the workplace"
-      },
-      {
-        "unit_code": "AGR741202",
-        "title": "required to use standard measuring devices, instruments in"
-      },
-      {
-        "unit_code": "AGR741205",
-        "title": "required to comply with relevant Good Manufacturing Practice"
-      },
-      {
-        "unit_code": "AGR741315",
-        "title": "required to perform basic tests and/or procedures on raw"
-      },
-      {
-        "unit_code": "AGR741317",
-        "title": "required to operate pumping equipment"
-      },
-      {
-        "unit_code": "AGR741319",
-        "title": "required to set up, operate, adjust and shut down a process for"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AGR741312",
-        "title": "required to assist in the receipt and storage of stock for a"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "lead small teams including setting and maintaining"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "required to collect information in order to negotiate"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "and attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "AGR741203",
-        "title": "required to operate food processing tools, equipment and"
-      },
-      {
-        "unit_code": "AGR741204",
-        "title": ": This unit covers the knowledge, skills and attitudes to"
-      },
-      {
-        "unit_code": "AGR741206",
-        "title": "required to implement environmental policies and procedures"
-      },
-      {
-        "unit_code": "AGR741313",
-        "title": "This unit covers the skills, knowledge and attitude"
-      },
-      {
-        "unit_code": "AGR741314",
-        "title": "required to apply product knowledge to complete work"
-      },
-      {
-        "unit_code": "AGR741320",
-        "title": "required to enter a freezer storage environment; monitor"
-      },
-      {
-        "unit_code": "AGR741321",
-        "title": "required to work in stores designed for temperature controlled"
-      },
-      {
-        "unit_code": "AGR741322",
-        "title": "required to handle dangerous goods and hazardous"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP FOR PROCESSED FOOD AND BEVERAGES SECTOR\n\nCORE UNITS OF COMPETENCY\n\nImplement sampling\nprocedures\n\nLoad and unload raw\nmaterials, products and/or\nsupplies\n\nControl and order stock\n\nOperate a packaging process\n\nParticipate in sensory\nanalysis\nInspect and sort materials\nand product\n\nProcess Food by Salting,\nCuring and Smoking\n\nApply product knowledge to\ncomplete work operations\n\nWork in a freezer storage area\n\nSet up and operate\nprocesses in a production /\npackaging system\n\nDispense non bulk\ningredients\n\nProcess Food by\nFermentation and Pickling\n\nPerform basic tests in raw\nmaterials, in process and\nfinished products\n\nWork with temperature\ncontrolled stock\n\nParticipate in an audit\nprocess\n\nPrepare raw materials for\nprocessing\n\nProcess food by sugar\nconcentration\n\nOperate a boiler\n\nHandle dangerous\ngoods/hazardous substances\n\nParticipate in a HACCP\nteam\n\nOperate basic equipment\n\nPackage Finished /\nProcessed Food Products\n\nOperate pumping equipment\n\nApply raw materials /\ningredients and process\nknowledge\n\nMonitor workplace\nperformance and participate\nin improvement processes\n\nClean and sanitize\nequipment and\nprocessing/packaging\narea\n\nReceive and store stock\n\nOperate and monitor food\nprocesses and equipment\n\nMaintain food safety when\nloading, unloading and\ntransporting food\n\n--- PDF PAGE 119 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n117\nContinuation ….. Competency Map for Processed Food and Beverages Sector\n\nCOMMON UNITS OF COMPETENCY\n\nApply Food Safety and\nSanitation\n\nUse Standard Measuring\nDevices / Instruments\n\nUse Food Processing Tools,\nEquipment and Utensils\n\nFollow work procedures to\nmaintain Good Manufacturing\nPractice\n\nPerform Mathematical\nComputation\n\nImplement Good\nManufacturing Practice\nProcedures\n\nImplement Environmental\nPolicies and Procedures\n\nMonitor the Implementation of\nGood Manufacturing Practice\nProcedures\n\nMonitor the Implementation of\nEnvironmental Policies and\nProcedures\n\nBASIC UNITS OF COMPETENCY\n\nReceive and Respond to\nWorkplace\nCommunication\n\nParticipate in Workplace\nCommunication\n\nLead Workplace Communication\n\nUse Relevant Technologies\n\nCollect, analyze and\norganize information\nWork with Others\n\nWork in a Team\nEnvironment\n\nLead Small Team\n\nUtilize Specialized\nCommunication Skills\n\nPlan and Organize Work\n\nDemonstrate Work Values\n\nPractice Career\nProfessionalism\n\nDevelop and practice negotiation\nskills\n\nDevelop Team and Individual\n\nPractice Housekeeping\nProcedures\n\nPractice Occupational\nHealth and Safety\nProcedures\n\nSolve Workplace Problems\nRelated to Work Activities\n\nApply Problem Solving\nTechniques in the Workplace\n\nFood Processing NC III\n\n--- PDF PAGE 120 ---\n___________________________________________________\nTR-Food Processing NC III\n118",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR741201",
+        "AGR741202",
+        "AGR741203",
+        "AGR741204",
+        "AGR741205",
+        "AGR741206"
+      ],
+      "unit_titles": [
+        "Apply food safety and sanitation",
+        "Use standard measuring devices and instruments",
+        "Use food processing tools, equipment and utensils",
+        "Perform mathematical computations",
+        "Implement good manufacturing practice and procedures",
+        "Implement environmental policies and procedures"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AGR741312",
+        "AGR741313",
+        "AGR741314",
+        "AGR741315",
+        "AGR741316",
+        "AGR741317",
+        "AGR741318",
+        "AGR741319",
+        "AGR741320",
+        "AGR741321",
+        "AGR741322"
+      ],
+      "unit_titles": [
+        "Receive and store stock",
+        "Control and order stock",
+        "Apply product knowledge to complete work operations",
+        "Perform basic tests on raw materials, in-process and finished products",
+        "Operate a boiler",
+        "Operate pumping equipment",
+        "Operate and monitor food processes and equipment",
+        "Operate a packaging process",
+        "Work in a freezer storage area",
+        "Work with temperature controlled stock",
+        "Handle dangerous goods/hazardous substances"
+      ]
+    }
+  ],
+  "source_text": "Section\n1. Successful candidates shall be awarded a National Certificate signed\nby the TESDA Director General.\n\n4.2 The qualification of Food Processing NC III may be attained through\naccumulation of Certificates of Competency (COCs) in the following\nareas:\n\n4.2.1 Receive, store, control and order stock\n4.2.1.1\nReceive and store stock\n4.2.1.2\nControl and order stock\n4.2.1.3\nApply product knowledge to complete work operations\n4.2.1.4\nHandle dangerous goods/hazardous substances\n4.2.2 Perform basic tests in raw materials, in process and finished\nproducts\n4.2.3 Operate a boiler\n4.2.4 Operate pumping equipment\n4.2.5 Operate and monitor food processes and equipment\n4.2.6 Operate a packaging process\n4.2.7 Work in a freezer and with temperature controlled stock\n4.2.7.1\nWork in a freezer storage area\n4.2.7.2\nWork with temperature controlled stock\n\nSuccessful candidates shall be awarded Certificates of\nCompetency (COCs)\n\n4.3 Accumulation and submission of all COCs acquired for the relevant units\nof competency comprising a qualification, an individual shall be issued\nthe corresponding National Certificate\n\n4.4 Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n 4.5 The following are qualified to apply for assessment and certification:\n\n 4.5.1 Graduates of formal, non formal and informal including\nenterprise-based training programs.\n4.5.2. Experienced workers ( wage employed or self-employed)\n\n 4.6 The guidelines on assessment and certification are discussed in detail in\nthe Procedures manual on Assessment and Certification and Guidelines\non the implementation of the Philippine TVET Qualification and\nCertification System (PTQCS).\n\n--- PDF PAGE 118 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n116\nCOMPETENCY MAP FOR PROCESSED FOOD AND BEVERAGES SECTOR\n\nCORE UNITS OF COMPETENCY\n\nImplement sampling\nprocedures\n\nLoad and unload raw\nmaterials, products and/or\nsupplies\n\nControl and order stock\n\nOperate a packaging process\n\nParticipate in sensory\nanalysis\nInspect and sort materials\nand product\n\nProcess Food by Salting,\nCuring and Smoking\n\nApply product knowledge to\ncomplete work operations\n\nWork in a freezer storage area\n\nSet up and operate\nprocesses in a production /\npackaging system\n\nDispense non bulk\ningredients\n\nProcess Food by\nFermentation and Pickling\n\nPerform basic tests in raw\nmaterials, in process and\nfinished products\n\nWork with temperature\ncontrolled stock\n\nParticipate in an audit\nprocess\n\nPrepare raw materials for\nprocessing\n\nProcess food by sugar\nconcentration\n\nOperate a boiler\n\nHandle dangerous\ngoods/hazardous substances\n\nParticipate in a HACCP\nteam\n\nOperate basic equipment\n\nPackage Finished /\nProcessed Food Products\n\nOperate pumping equipment\n\nApply raw materials /\ningredients and process\nknowledge\n\nMonitor workplace\nperformance and participate\nin improvement processes\n\nClean and sanitize\nequipment and\nprocessing/packaging\narea\n\nReceive and store stock\n\nOperate and monitor food\nprocesses and equipment\n\nMaintain food safety when\nloading, unloading and\ntransporting food\n\n--- PDF PAGE 119 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n117\nContinuation ….. Competency Map for Processed Food and Beverages Sector\n\nCOMMON UNITS OF COMPETENCY\n\nApply Food Safety and\nSanitation\n\nUse Standard Measuring\nDevices / Instruments\n\nUse Food Processing Tools,\nEquipment and Utensils\n\nFollow work procedures to\nmaintain Good Manufacturing\nPractice\n\nPerform Mathematical\nComputation\n\nImplement Good\nManufacturing Practice\nProcedures\n\nImplement Environmental\nPolicies and Procedures\n\nMonitor the Implementation of\nGood Manufacturing Practice\nProcedures\n\nMonitor the Implementation of\nEnvironmental Policies and\nProcedures\n\nBASIC UNITS OF COMPETENCY\n\nReceive and Respond to\nWorkplace\nCommunication\n\nParticipate in Workplace\nCommunication\n\nLead Workplace Communication\n\nUse Relevant Technologies\n\nCollect, analyze and\norganize information\nWork with Others\n\nWork in a Team\nEnvironment\n\nLead Small Team\n\nUtilize Specialized\nCommunication Skills\n\nPlan and Organize Work\n\nDemonstrate Work Values\n\nPractice Career\nProfessionalism\n\nDevelop and practice negotiation\nskills\n\nDevelop Team and Individual\n\nPractice Housekeeping\nProcedures\n\nPractice Occupational\nHealth and Safety\nProcedures\n\nSolve Workplace Problems\nRelated to Work Activities\n\nApply Problem Solving\nTechniques in the Workplace\n\nFood Processing NC III\n\n--- PDF PAGE 120 ---\n___________________________________________________\nTR-Food Processing NC III\n118\n\nDEFINITION OF TERMS\n\nFor the purpose of this competency standard, the following words are defined:\n\n.1\nCompetency – is the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace.\n\n.2\nUnit of Competency – describes a work activity.\n\n.3\nElements – are building blocks of a unit of competency. It describes in outcome\nterms the functions that a person who works in a particular area of\nwork is able to perform.\n\n.4\nPerformance Criteria – are evaluative statements that specify what is to be\nassessed and the required level of performance.\n\n.5\nRange of Variables – describe the circumstances or context in which the work\nis to be performed.\n\n.6\nEvidence Guide – a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning skills,\nresource implications, context of assessment and assessment\nmethods.\n\n.7\nBlanching – refers to a heat treatment in which the raw food material is\nimmersed in hot water or exposed to live steam.\n\n.8\nBottling/Canning – refers to a preservation of foods in hermetically sealed\ncontainers such as tin cans and glass jars by sterilization with heat\n\n.9\nBFAD - means Bureau of Food and Drug\n\n.10\nBrine – refers to a salt solution\n\n.11\nCabinet Drying - refers to a process of dehydrating food material using a\ncabinet drier consisting of a closed chamber which is well insulated\nagainst heat loss\n\n.12\nChilling – is subjecting meat to a temperature of 2-4°C(36-40°F at certain\nperiod of time\n\n.13\nCuring – refers to a process by which salt, sugar and salitre and other\npreservatives and adjuncts are introduced/are used to prolong the\nkeeping quality of the products\n\n--- PDF PAGE 121 ---\n___________________________________________________\nTR-Food Processing NC III\n119\n\n.14\nDehydration- refers to drying by artificially produced heat under carefully\ncontrolled conditions of temperature, humidity and airflow within a\nchamber\n\n.15\nDry Curing– refers to a method of curing meat where curing mixture is rubbed\non the surface of the food material being cured.\n\n.16\nExhausting – refers to the removal of air and gases from the raw material and\nthe container before sealing; It refers to the heating of canned foods to\na center can temperature of 180°C to 205°F before sealing.\n\n.17\nFermentation – refers to the anaerobic oxidation of carbohydrates by microbial\nenzymes\n\n.18\nFood Additives- refer to substances intentionally added to foods to achieve or\nretain desired characteristics\n\n.19\nFood Processing – refers to the application of heat in varying degree to the\nfood enclosed in a container for a sufficient time to sterilize the product\n\n.20\nGMP – Good Manufacturing Practice which is a combination of manufacturing\nand quality control procedures aimed at ensuring that products are\nconsistently manufactured to their specifications\n\n.21\nGRAS - means generally regarded as safe\n\n.22\nHACCP – Hazard Analysis Critical Control Point is a food safety management\nsystem which concentrates prevention strategies on known hazards\nand the risks of them occurring at specific points in the food chain\n\n.23\nHazard – the potential to cause harm which may include bacteria, virus, toxin,\nparasite, chemical or physical hazard. Operational malpractices or\nother operations/processes can also become hazards if they lead to\nunacceptable contamination or growth and survival of organisms and\nmicroorganisms\n\n.24\nHermetic Sealing - refers to the closure of tin cans or glass jars tightly to\nprevent the entrance of microorganisms\n\n.25\nPackaging – any container or material used in the packaging of a product\nwhich may include materials in direct contact with the product, printed\npacks including labeling, and other materials including outer cartons or\ndelivery cases\n\n.26\nPacking Medium – refers to brine, syrup, broth, oil or other similar ingredients\nused as canning medium\n\n.27\nPickling- refers to the preservation of foods by brine and vinegar with or\nwithout bacterial fermentation\n\n--- PDF PAGE 122 ---\n___________________________________________________\nTR-Food Processing NC III\n120\n\n.28\npH meter – refers to an instrument used to measure the acidity of a sample\n\n.29\nPreservatives- refer to food additives that retard spoilage and preserve the\nnatural color & flavor of food products\n\n.30\nPulverize – to reduce by crushing or grinding to very small particles\n\n.31\nRaw Materials – consist of the main food material to be processed including\nminor food ingredients\n\n.32\nRetort Specification – refers to a steam pressure canner used in sterilizing low\nacid canned foods\n\n.33\nSalinometer- refers to the instrument to measure strength of brine\n\n.34\nSanitation - refers to the process of treating food contact and non-food contact\nsurface with physical agents and chemicals to kill the residual\nmicroorganisms present after cleaning\n\n.35\nSmoke – refers to the gas from burning wood material containing combustible\nand noncombustible substances, the combustible substances are the\nmain sources of smoke which consist of cellulose, lignin, pentosans,\ntannic acid, protein substances, resins and terpenes\n\n.36\n Smoking – refers to subjecting the product to the action of smoke from burning\nwood materials\n\n.37\nSmoke House- refers to a closed smoke chamber where smoke is produced\nwhich may range from the temporary (barrel) smoke house to the\npermanent frame or concrete smoke house.\n\n.38\nStandard Measurement – refers to something set up as a rule for measuring\nor a model to be followed\n\n.39\nSugar Concentrates – refer to products cooked with sugar to attain a\nconcentration of 40-65% or to saturated sucrose level\n\n.40\nSyrup – refers to a sugar solution whether light, medium or heavy syrup\n\n.41\nThermal Processing – refers to the method of processing food in hermetically\nsealed container by applying heat with the right temperature and time,\nenough to kill microorganisms responsible in the spoilage of food which\ninvolve bottling and canning\n\n--- PDF PAGE 123 ---\n___________________________________________________\nTR-Food Processing NC III\n121\n\n.42\nWater Bath – it is a set up used for canning consisting of a large kettle with\nfitting cover deep enough to have an inch or two over the tops of the\ncontainers of food and an extra 1-2 inch space for boiling with a\nwooden or metal rack made for holding filled containers; used for\nprocessing high acid canned products.\n\n--- PDF PAGE 124 ---\n___________________________________________________\nTR-Food Processing NC III\n122\n\nACKNOWLEDGEMENT\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of this Training Regulation.\n\nPHILIPPINE CHAMBER OF AGRICULTURE AND FOOD INC.\n\nTECHNICAL AND INDUSTRY EXPERT PANEL\n\nMr. EDWARD F. DAVID\nChair, PhilFoodEx\nRm. 305, Bahay ng Alumni\nPres. Ramon Magsaysay Ave.\nU.P. Campus, Diliman, Quezon City\nMs. CECILIA DELA PAZ\nNutrivina Phils.\nUnit 801, Manila Luxury Cond.\nPearl Drive cor. Goldloop St., Ortigas\nPasig City\nMr. JOSE D. GONZALES, JR.\nRizal Experimental Station & Pilot School\n of Cottage Industries\nJenny’s Avenue Extn.\nMaybunga, Pasig City\nMs. AURORA C. SUBIDA\nMaya Kitchen\n8th Flr., Liberty Building, Pasay Road\nMakati City\nMr. BOBBY C. PRADEL\nMofel’s Food International Corp\n20220 Arpilleda St., Makati City\nMr. GEORGE LORENZANA\nLorenzana Food Corp.\n551 M. Naval St., Navotas, Metro\nManila\n\nMs. LOURDES M. LABRADOR\nCatillejos Agri-Farms Inc.\nBoni Avenue, Mandaluyong City\nMr. ANTONIO A. TAN\nUniversal Robina Corporation\nE. Rodriguez Jr. Avenue, Pasig City\nMr. GILBERT P. EVARISTO\nGema Coco Foods Corporation\nWhite Plains, Quezon City\nMr. CARLOS N. JOSE\nNestle Philippines Incorporated\nRockwell Center, Makati City\n\n--- PDF PAGE 125 ---\n___________________________________________________\nTR-Food Processing NC III\n123\n\nThe PARTICIPANTS in the National Validation of this Training Regulation\n\nCastillejos Agri-Farms Inc.\nDepartment of Science and Technology – Industrial Technology Development\nInstitute\nFood Development Center\nGoldilocks\nMarigold Commodities Corporation\nNarigin Food Corporation\nTechnology Resource Center\n\nThe Management and Staff of TESDA Secretariat"
 }

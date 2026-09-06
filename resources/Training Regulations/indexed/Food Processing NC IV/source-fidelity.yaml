@@ -1,29 +1,203 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:food-processing-nc-iv:cd1976e1df",
   "qualification": "FOOD PROCESSING NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Food Processing NC IV.pdf",
-    "sha256": "cd1976e1dfc5e6d26f931726345b4e81e9ec85a8991b00a4323df4ecc8c3ea6f",
+    "source_sha256": "cd1976e1dfc5e6d26f931726345b4e81e9ec85a8991b00a4323df4ecc8c3ea6f",
+    "pdf_pages": 119,
+    "printed_pages": 117,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not print a promulgation date; the canonical promulgated field remains null.",
+    "The source prints 56 Basic, 160 Common, and 360 Core hours with a 576-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source is predominantly a historical two-column Element/Performance Criteria regulation; one extracted table header resembles a revised layout but is normalized to the surrounding legacy representation while source_text preserves the source layer."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 56 Basic, 160 Common, and 360 Core hours with a 576-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is predominantly a historical two-column Element/Performance Criteria regulation; one extracted table header resembles a revised layout but is normalized to the surrounding legacy representation while source_text preserves the source layer."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Food Processing NC IV.pdf",
-    "pdf_pages": 119,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311115",
+      "source_unit_code": "500311115",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311116",
+      "source_unit_code": "500311116",
+      "pdf_page_range": [
+        9,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311117",
+      "source_unit_code": "500311117",
+      "pdf_page_range": [
+        14,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311118",
+      "source_unit_code": "500311118",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311119",
+      "source_unit_code": "500311119",
+      "pdf_page_range": [
+        21,
+        25
+      ]
+    },
+    {
+      "unit_code": "AGR741201",
+      "source_unit_code": "AGR741201",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "AGR741202",
+      "source_unit_code": "AGR741202",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "AGR741203",
+      "source_unit_code": "AGR741203",
+      "pdf_page_range": [
+        33,
+        37
+      ]
+    },
+    {
+      "unit_code": "AGR741204",
+      "source_unit_code": "AGR741204",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "AGR741205",
+      "source_unit_code": "AGR741205",
+      "pdf_page_range": [
+        42,
+        47
+      ]
+    },
+    {
+      "unit_code": "AGR741206",
+      "source_unit_code": "AGR741206",
+      "pdf_page_range": [
+        48,
+        54
+      ]
+    },
+    {
+      "unit_code": "AGR741208",
+      "source_unit_code": "AGR741208",
+      "pdf_page_range": [
+        55,
+        59
+      ]
+    },
+    {
+      "unit_code": "AGR741209",
+      "source_unit_code": "AGR741209",
+      "pdf_page_range": [
+        60,
+        64
+      ]
+    },
+    {
+      "unit_code": "AGR741323",
+      "source_unit_code": "AGR741323",
+      "pdf_page_range": [
+        65,
+        69
+      ]
+    },
+    {
+      "unit_code": "AGR741324",
+      "source_unit_code": "AGR741324",
+      "pdf_page_range": [
+        70,
+        73
+      ]
+    },
+    {
+      "unit_code": "AGR741325",
+      "source_unit_code": "AGR741325",
+      "pdf_page_range": [
+        74,
+        76
+      ]
+    },
+    {
+      "unit_code": "AGR741326",
+      "source_unit_code": "AGR741326",
+      "pdf_page_range": [
+        77,
+        85
+      ]
+    },
+    {
+      "unit_code": "AGR741327",
+      "source_unit_code": "AGR741327",
+      "pdf_page_range": [
+        86,
+        89
+      ]
+    },
+    {
+      "unit_code": "AGR741328",
+      "source_unit_code": "AGR741328",
+      "pdf_page_range": [
+        90,
+        94
+      ]
+    },
+    {
+      "unit_code": "AGR741329",
+      "source_unit_code": "AGR741329",
+      "pdf_page_range": [
+        95,
+        99
+      ]
+    }
+  ]
 }

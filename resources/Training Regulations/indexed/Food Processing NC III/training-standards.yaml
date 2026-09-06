@@ -1,74 +1,1695 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:food-processing-nc-iii:c3331b42d0",
   "qualification": "FOOD PROCESSING NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Food Processing NC III.pdf",
-    "pdf_pages": 125
+    "pdf_pages": 125,
+    "printed_pages": 123,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 20,
+        "source_expression": "20 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 128,
+        "source_expression": "128 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 752,
+        "source_expression": "752 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 900,
+    "total_source_expression": "900 hrs.",
+    "source_expressions": [
+      "20 hrs. - Basic Competencies",
+      "128 hrs. - Common Competencies",
+      "752 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 900,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions",
+        "learning_activities": [],
+        "methodology": [
+          "Role playing"
+        ],
+        "assessment_approach": [
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Identify and communicate issues arising in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectations for team members",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced (modular)"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervise team performance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Plan negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Direct"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "observation",
+          "Simulation/ role playing",
+          "Case studies"
+        ],
+        "assessment_approach": [
+          "Practical/ performance test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 107
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Determine fundamental causes of the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine corrective action",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Provide recommendation/s to manager",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Study/select appropriate technology",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Lab",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Maintain/enhance relevant technology",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Practical Lab",
+          "Demonstration",
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Wear personal protective equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Observe personal hygiene and good grooming",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self- paced learning",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Implement food sanitation practices",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Render safety measures and first aid procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Implement housekeeping activities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741202",
+        "unit_title": "Use standard measuring devices and instruments",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify standard measuring devices and instruments",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training",
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741202",
+        "unit_title": "Use standard measuring devices and instruments",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Review the procedures in using standard measuring devices and instruments",
+        "learning_activities": [],
+        "methodology": [
+          "paced Learning",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "of practical skills",
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741202",
+        "unit_title": "Use standard measuring devices and instruments",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Follow procedures of using measuring devices and instruments",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training",
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 108
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741203",
+        "unit_title": "Use food processing tools, equipment and utensils",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Perform Pre-Operation Activities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741203",
+        "unit_title": "Use food processing tools, equipment and utensils",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Operate, monitor and maintain Food processing Equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self- paced Learning",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741203",
+        "unit_title": "Use food processing tools, equipment and utensils",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Perform post operation activities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Gather, summarize and tabulate the recorded data",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Review the various formulations",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "exercise",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Calculate production input and output",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Compute production cost",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Perform pre-work activities in relation to GMP",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Identify requirements of GMP related to own work",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Lab",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Observe personal hygiene and conduct to meet GMP requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Follow GMP requirements when carrying out work activities",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.5",
+        "learning_outcome": "Perform post-work activities in relation to GMP",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.6",
+        "learning_outcome": "Complete workplace documentation to support GMP",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741206",
+        "unit_title": "Implement environmental policies and procedures",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Access and apply workplace information",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion",
+          "Practical Lab",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741206",
+        "unit_title": "Implement environmental policies and procedures",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Follow work procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741206",
+        "unit_title": "Implement environmental policies and procedures",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Identify, control and report unacceptable performance",
+        "learning_activities": [],
+        "methodology": [
+          "paced Learning"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741206",
+        "unit_title": "Implement environmental policies and procedures",
+        "learning_outcome_number": "6.4",
+        "learning_outcome": "Maintain housekeeping standards in work area",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion",
+          "Practical Lab",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 109
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741312",
+        "unit_title": "Receive and store stock",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Take delivery of stock",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741312",
+        "unit_title": "Receive and store stock",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Store stock",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741312",
+        "unit_title": "Receive and store stock",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Rotate and maintain stock",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Practical Lab",
+          "Demonstration",
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741313",
+        "unit_title": "Control and order stock",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Maintain stock levels and records",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741313",
+        "unit_title": "Control and order stock",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Organize and administer stock takes",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Practical Lab"
+        ],
+        "assessment_approach": [
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741313",
+        "unit_title": "Control and order stock",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Identify stock losses",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741313",
+        "unit_title": "Control and order stock",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Process stock orders",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741313",
+        "unit_title": "Control and order stock",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Follow up orders",
+        "learning_activities": [],
+        "methodology": [
+          "paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741314",
+        "unit_title": "Apply product knowledge to complete work operations",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify products in a subsection of a warehouse or other storage area",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion",
+          "Practical Lab"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741314",
+        "unit_title": "Apply product knowledge to complete work operations",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Examine quality and report",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741314",
+        "unit_title": "Apply product knowledge to complete work operations",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Use inventory and labeling systems to identify and locate products",
+        "learning_activities": [],
+        "methodology": [
+          "paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741315",
+        "unit_title": "Perform basic tests on raw materials, in-process and finished products",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Receive, label, and store samples for testing",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741315",
+        "unit_title": "Perform basic tests on raw materials, in-process and finished products",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Prepare samples",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741315",
+        "unit_title": "Perform basic tests on raw materials, in-process and finished products",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Perform tests on samples",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Lab",
+          "Demonstration",
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741316",
+        "unit_title": "Operate a boiler",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Start boiler",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741316",
+        "unit_title": "Operate a boiler",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Operate and monitor boiler",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741316",
+        "unit_title": "Operate a boiler",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Shut down and store boiler",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Practical Lab",
+          "Demonstration",
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741317",
+        "unit_title": "Operate pumping equipment",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Prepare pumps for",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 110
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741317",
+        "unit_title": "Operate pumping equipment",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Operate Pumping Equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Practical Lab"
+        ],
+        "assessment_approach": [
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741317",
+        "unit_title": "Operate pumping equipment",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Shutdown and Maintain Pumping Equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741318",
+        "unit_title": "Operate and monitor food processes and equipment",
+        "learning_outcome_number": "7.1",
+        "learning_outcome": "Prepare the food equipment and process for",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741318",
+        "unit_title": "Operate and monitor food processes and equipment",
+        "learning_outcome_number": "7.2",
+        "learning_outcome": "Operate and Monitor the Food Process",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Lab",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741318",
+        "unit_title": "Operate and monitor food processes and equipment",
+        "learning_outcome_number": "7.3",
+        "learning_outcome": "Shutdown, Clean and Maintain the Food Process",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741319",
+        "unit_title": "Operate a packaging process",
+        "learning_outcome_number": "8.1",
+        "learning_outcome": "Prepare equipment and process for operation",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741319",
+        "unit_title": "Operate a packaging process",
+        "learning_outcome_number": "8.2",
+        "learning_outcome": "Operate and Monitor the Process",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Practical Lab"
+        ],
+        "assessment_approach": [
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741319",
+        "unit_title": "Operate a packaging process",
+        "learning_outcome_number": "8.3",
+        "learning_outcome": "Shutdown the Process",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741320",
+        "unit_title": "Work in a freezer storage area",
+        "learning_outcome_number": "9.1",
+        "learning_outcome": "Prepare to enter a freezer storage environment",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741320",
+        "unit_title": "Work in a freezer storage area",
+        "learning_outcome_number": "9.2",
+        "learning_outcome": "Monitor equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Practical Lab",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741320",
+        "unit_title": "Work in a freezer storage area",
+        "learning_outcome_number": "9.3",
+        "learning_outcome": "Handle frozen product safely",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self- paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741320",
+        "unit_title": "Work in a freezer storage area",
+        "learning_outcome_number": "9.4",
+        "learning_outcome": "Respond to freezer storage area exposure and gas leaks",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741321",
+        "unit_title": "Work with temperature controlled stock",
+        "learning_outcome_number": "10.1",
+        "learning_outcome": "Store stock to meet temperature control requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741321",
+        "unit_title": "Work with temperature controlled stock",
+        "learning_outcome_number": "10.2",
+        "learning_outcome": "Monitor and maintain temperature of stock within specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Lab",
+          "Demonstration",
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741321",
+        "unit_title": "Work with temperature controlled stock",
+        "learning_outcome_number": "10.3",
+        "learning_outcome": "Identify and rectify problems",
+        "learning_activities": [],
+        "methodology": [
+          "paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741322",
+        "unit_title": "Handle dangerous goods/hazardous substances",
+        "learning_outcome_number": "11.1",
+        "learning_outcome": "Identify requirements for working with dangerous goods and/or hazardous substances",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion",
+          "Practical Lab"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741322",
+        "unit_title": "Handle dangerous goods/hazardous substances",
+        "learning_outcome_number": "11.2",
+        "learning_outcome": "Confirm site incident procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741322",
+        "unit_title": "Handle dangerous goods/hazardous substances",
+        "learning_outcome_number": "11.3",
+        "learning_outcome": "Select handling techniques",
+        "learning_activities": [],
+        "methodology": [
+          "paced Learning"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 111
+      }
+    ],
     "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Food Processing NC III.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: FOOD PROCESSING\n\n NC Level: NC III\n\nNominal Training Duration:\n 20 hours (Basic)\n\n128 hours (Common)\n\n752 hours (Core)\n\n900 hours (Total)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes of Food Processing NC lII in accordance with industry standards. It covers\nthe basic, common and core competencies.\n\nBASIC COMPETENCIES\n(20 hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace processes\n1.2 Lead workplace discussions\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group\ndiscussion\n• Role playing\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small team\n2.1 Provide team leadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n3. Develop and\npractice\nnegotiation skills\n3.1 Plan negotiations\n3.2 Participate in negotiations\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\n--- PDF PAGE 108 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n106\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine fundamental\ncauses of the problem\n4.3 Determine corrective action\n4.4 Provide recommendation/s\nto manager\n\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n\n• Written test\n• Practical/\nperformance\ntest\n5. Use relevant\ntechnologies\n5.1 Study/select appropriate\ntechnology\n5.2 Apply relevant technology\n5.3 Maintain/enhance relevant\ntechnology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n• Interview\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n(128 hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Food\nSafety and\nSanitation (24\nhrs)\n\n1.1 Wear personal protective\nequipment\n1.2 Observe personal\nhygiene and good\ngrooming\n1.3 Implement food\nsanitation practices\n1.4 Render safety measures\nand first aid procedures\n1.5 Implement housekeeping\nactivities\n• Demonstration\n• Dual training\n• Individual Self-\npaced learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n2. Use Standard\nMeasuring\nDevices/\nInstruments (16\nhrs)\n\n2.1 Identify standard\nmeasuring devices and\ninstruments\n2.2 Review the procedures in\nusing standard measuring\ndevices and instruments\n2.3 Follow procedures of\nusing measuring devices\nand instruments\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 109 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n107\n3. Use Food\nProcessing\nTools,\nEquipment and\nUtensils (16 hrs)\n\n3.1 Perform Pre-Operation\nActivities\n3.2 Operate, monitor and\nmaintain Food processing\nEquipment\n3.3 Perform post operation\nactivities\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n4. Perform\nMathematical\nComputations (8\nhrs)\n4.1 Gather, summarize and\ntabulate the recorded\ndata\n4.2 Review the various\nformulations\n4.3 Calculate production\ninput and output\n4.4 Compute production\ncost\n•\nLecture\n•\nPractical\nexercise\n\n•\nWritten\nexamination\n•\nPractical\nexercise\n•\nDirect\nObservation\n5. Implement Good\nManufacturing\nPractice (32 hrs)\n5.1 Perform pre-work\nactivities in relation to\nGMP\n5.2 Identify requirements of\nGMP related to own work\n5.3 Observe personal\nhygiene and conduct to\nmeet GMP requirements\n5.4 Follow GMP\nrequirements when\ncarrying out work\nactivities\n5.5 Perform post-work\nactivities in relation to\nGMP\n5.6 Complete workplace\ndocumentation to support\nGMP\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n6. Implement\nEnvironmental\nPolicies and\nProcedures (32\nhrs)\n6.1 Access and apply\nworkplace information\non environmental\npolicies and procedures\nrelating to own work\n6.2 Follow work procedures\n6.3 Identify, control and\nreport unacceptable\nperformance\n6.4 Maintain housekeeping\nstandards in work area\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 110 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n108\n\nCORE COMPETENCIES\n(752 hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and store\nstock (16 hrs)\n1.1 Take delivery of stock\n1.2 Store stock\n1.3 Rotate and maintain\nstock\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n2. Control and order\nstock (16 hrs)\n2.1 Maintain stock levels and\nrecords\n2.2 Organize and administer\nstock takes\n2.3 Identify stock losses\n2.4 Process stock orders\n2.5 Follow up orders\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n3. Apply product\nknowledge to\ncomplete work\noperations (24 hrs)\n\n3.1 Identify products in a\nsubsection of a\nwarehouse or other\nstorage area\n3.2 Examine quality and report\non products\n3.3 Use inventory and labeling\nsystems to identify and\nlocate products\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n4. Perform basic\ntests in raw\nmaterials, in\nprocess and\nfinished products\n(40 hrs)\n4.1 Receive, label, and store\nsamples for testing\n4.2 Prepare samples\n4.3 Perform tests on samples\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n\n 5. Operate a boiler\n(32 hrs)\n5.1 Start boiler\n5.2 Operate and monitor boiler\n5.3 Shut down and store boiler\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n6. Operate pumping\n6.1 Prepare pumps for\n• Audio Visual\n•\nObservation\n\n--- PDF PAGE 111 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n109\nequipment (32 hrs)\noperation\n6.2 Operate Pumping\nEquipment\n6.3 Shutdown and Maintain\nPumping Equipment\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n7. Operate and\nmonitor food\nprocesses and\nequipment (320\nhrs)\n7.1 Prepare the food\nequipment and process for\noperation\n7.2 Operate and Monitor the\nFood Process\n7.3 Shutdown, Clean and\nMaintain the Food Process\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n8. Operate a\npackaging process\n(200 hrs)\n8.1 Prepare equipment and\nprocess for operation\n8.2 Operate and Monitor the\nProcess\n8.3 Shutdown the Process\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n9. Work in a freezer\nstorage area (24\nhrs)\n9.1 Prepare to enter a freezer\nstorage environment\n9.2 Monitor equipment\noperation in a freezer\nstorage environment\n9.3 Handle frozen product\nsafely\n9.4 Respond to freezer storage\narea exposure and gas\nleaks\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n10. Work with\ntemperature\ncontrolled stock\n(24 hrs)\n10.1 Store stock to meet\ntemperature control\nrequirements\n10.2 Monitor and maintain\ntemperature of stock\nwithin specifications\n10.3 Identify and rectify\nproblems\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n11. Handle\ndangerous\ngoods/\nhazardous\nsubstances (24\nhrs)\n11.1 Identify requirements for\nworking with dangerous\ngoods and/or hazardous\nsubstances\n11.2 Confirm site incident\nprocedures\n11.3 Select handling\ntechniques\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 112 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n110\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 113 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n111\n•\nProject-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC III.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\nWeighing scales and\nbalances of various\ncapacities and\nsensitivities\n1 set\nFood processing\nsystem with retort,\npump, boiler, cooker,\nsteamer, dehydrator\nA. Food supplies\n5\nDietetic scales (1 kg.\ncapacity)\n1\nChiller\n5 doz\nFresh eggs\n15\nPairing knives\n1\nRefrigerator\n10 kg\nFresh meat\n10\nPeelers\n1\nFreezer\n10\npcs\nDressed poultry\n5\nMeasuring spoons,\nsets\n5\nStoves\n20 kg\nFresh fish\n(medium size)\n5\nMeasuring cups\n(solid)\n1 set Food packaging\nsystem with filling &\nsealing, can seamer,\nshrink wrapper,\nstrapper, case\npacker, labeler\n1 set\nCuring\ningredients (good\nfor 10 kg)\n5\nMeasuring cups\n(liquid)\n1\nJack lift\n20 kg\nFresh fish (small)\n1 set\nWrench, screw\ndriver, belts, nuts &\nbolts\n1\nTrolley\n10 kg\nFresh fruits\n2\nClocks/timer\n1\nWheeler\n10 kg\nFresh vegetables\n\n--- PDF PAGE 114 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n112\n15\nMixing bowls,\nstainless steel\n1\nPoly/temperature\nsealer\n2 gal\nAll spice pickling\nsolution\n10\nHard plastic\nchopping boards\n1\nCap sealer\n3 kg\nSalt (Pangasinan)\n5\nThermometers of\nvarying temperature\nrange\n1\nPressure canner\n1\nsack\nRefined sugar\n5\nGlasswares like\ncylinder, beaker,\nflask\n1\nPressure cooker\n3 gal\nVinegar\n5\nJar liter\n1\nCap seal\n1 gal\nMother vinegar\n1\nFood processor, set\n1\nOven\n1 kg\nCitric acid\n5\nWire baskets\n2\nSteam-jacketed\nkettle\n1 kg\nSodium benzoate\n15\nCasseroles stainless\nsteel\n5\nSmoking trays\n1 kg\nFirming agent\n10\nSaucepan, stainless\nsteel\n1\nMeat grinder\n1 can\nActive dry yeast\n15\nSpoons, wooden\n1\nStuffer/linker\n\n10\nSpoon, basting\n1\nSilent cutter\nB. Non food\n4\nPaddles, wooden\n2\nBrix refractometers\n(0-90o brix)\n5\nsets\nPackaging\nmaterials – can,\npaper, plastic,\nbottle, glass,\ncarton, laminates\n10\nFood tongs\n1\nSalinometer\n1\npack\nTags/labels\n2\nSteamer\n2\nElectronic scales\n(0.1 gm capacity)\n1 set\nChemicals – soda\nacid, amines,\ncondensate\nchemicals\n5\nSoaking container\n1\nConsistometer/\nviscosimeter\n3\nboxe\ns\n8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\nFermented\ncontainers\n1\nVacuum pack\nmachine\n3\nboxe\ns\nCatsup bottles w/\nplastic caps\n20\nUtility trays\n1\nLaboratory scale\ncabinet drier or\nforced draft oven\n2\npack\ns\nCap seals\n15\nColanders, stainless\nsteel\n1\nHeadspace gauge\n2\ngals\nDisinfectant/\nsanitizers\n\n5\nsets\nTest equipment – pH\nmeter, centrifuge,\nmoisture meter, color\nchart /colorimeter,\ntexture meter\n3 set\nVarious test\nreagents e.g.\nhydrochloric acid,\nsulfuric acid,\nsodium\n\n--- PDF PAGE 115 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n113\nhydroxide,\nhydrogen\nperoxide\n\nTRAINING\nMATERIALS\n5\nsets\nComputer\n5\nBar soap/\ndetergent\n\nBooks/reference\n5\nsets\nFire Fighting\nEquipment\n1 btl.\nGlue\n\nManuals\n5\nsets\nFirst aid kit\n\nVideos\n5\nsets\nPPE – apron, mouth\nmask, gloves, rubber\nboots, head gear,\nhard hat, goggles,\nheavy sweater\n\n3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC III\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 116 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n114\n3.6 TRAINER’S QUALIFICATIONS FOR FOOD PROCESSING NC III\n\nTRAINER QUALIFICATION (TQ III)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology III (TM III)\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 117 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n115"
   },
   "subsections": {
+    "curriculum_design": {
+      "present": true,
+      "pdf_pages": [
+        107
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Food Processing NC III.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: FOOD PROCESSING\n\n NC Level: NC III\n\nNominal Training Duration:\n 20 hours (Basic)\n\n128 hours (Common)\n\n752 hours (Core)\n\n900 hours (Total)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes of Food Processing NC lII in accordance with industry standards. It covers\nthe basic, common and core competencies.\n\nBASIC COMPETENCIES\n(20 hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace processes\n1.2 Lead workplace discussions\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group\ndiscussion\n• Role playing\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small team\n2.1 Provide team leadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n3. Develop and\npractice\nnegotiation skills\n3.1 Plan negotiations\n3.2 Participate in negotiations\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\n--- PDF PAGE 108 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n106\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine fundamental\ncauses of the problem\n4.3 Determine corrective action\n4.4 Provide recommendation/s\nto manager\n\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n\n• Written test\n• Practical/\nperformance\ntest\n5. Use relevant\ntechnologies\n5.1 Study/select appropriate\ntechnology\n5.2 Apply relevant technology\n5.3 Maintain/enhance relevant\ntechnology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n• Interview\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n(128 hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Food\nSafety and\nSanitation (24\nhrs)\n\n1.1 Wear personal protective\nequipment\n1.2 Observe personal\nhygiene and good\ngrooming\n1.3 Implement food\nsanitation practices\n1.4 Render safety measures\nand first aid procedures\n1.5 Implement housekeeping\nactivities\n• Demonstration\n• Dual training\n• Individual Self-\npaced learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n2. Use Standard\nMeasuring\nDevices/\nInstruments (16\nhrs)\n\n2.1 Identify standard\nmeasuring devices and\ninstruments\n2.2 Review the procedures in\nusing standard measuring\ndevices and instruments\n2.3 Follow procedures of\nusing measuring devices\nand instruments\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 109 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n107\n3. Use Food\nProcessing\nTools,\nEquipment and\nUtensils (16 hrs)\n\n3.1 Perform Pre-Operation\nActivities\n3.2 Operate, monitor and\nmaintain Food processing\nEquipment\n3.3 Perform post operation\nactivities\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n4. Perform\nMathematical\nComputations (8\nhrs)\n4.1 Gather, summarize and\ntabulate the recorded\ndata\n4.2 Review the various\nformulations\n4.3 Calculate production\ninput and output\n4.4 Compute production\ncost\n•\nLecture\n•\nPractical\nexercise\n\n•\nWritten\nexamination\n•\nPractical\nexercise\n•\nDirect\nObservation\n5. Implement Good\nManufacturing\nPractice (32 hrs)\n5.1 Perform pre-work\nactivities in relation to\nGMP\n5.2 Identify requirements of\nGMP related to own work\n5.3 Observe personal\nhygiene and conduct to\nmeet GMP requirements\n5.4 Follow GMP\nrequirements when\ncarrying out work\nactivities\n5.5 Perform post-work\nactivities in relation to\nGMP\n5.6 Complete workplace\ndocumentation to support\nGMP\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n6. Implement\nEnvironmental\nPolicies and\nProcedures (32\nhrs)\n6.1 Access and apply\nworkplace information\non environmental\npolicies and procedures\nrelating to own work\n6.2 Follow work procedures\n6.3 Identify, control and\nreport unacceptable\nperformance\n6.4 Maintain housekeeping\nstandards in work area\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 110 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n108\n\nCORE COMPETENCIES\n(752 hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and store\nstock (16 hrs)\n1.1 Take delivery of stock\n1.2 Store stock\n1.3 Rotate and maintain\nstock\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n2. Control and order\nstock (16 hrs)\n2.1 Maintain stock levels and\nrecords\n2.2 Organize and administer\nstock takes\n2.3 Identify stock losses\n2.4 Process stock orders\n2.5 Follow up orders\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n3. Apply product\nknowledge to\ncomplete work\noperations (24 hrs)\n\n3.1 Identify products in a\nsubsection of a\nwarehouse or other\nstorage area\n3.2 Examine quality and report\non products\n3.3 Use inventory and labeling\nsystems to identify and\nlocate products\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n4. Perform basic\ntests in raw\nmaterials, in\nprocess and\nfinished products\n(40 hrs)\n4.1 Receive, label, and store\nsamples for testing\n4.2 Prepare samples\n4.3 Perform tests on samples\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n\n 5. Operate a boiler\n(32 hrs)\n5.1 Start boiler\n5.2 Operate and monitor boiler\n5.3 Shut down and store boiler\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n6. Operate pumping\n6.1 Prepare pumps for\n• Audio Visual\n•\nObservation\n\n--- PDF PAGE 111 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n109\nequipment (32 hrs)\noperation\n6.2 Operate Pumping\nEquipment\n6.3 Shutdown and Maintain\nPumping Equipment\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n7. Operate and\nmonitor food\nprocesses and\nequipment (320\nhrs)\n7.1 Prepare the food\nequipment and process for\noperation\n7.2 Operate and Monitor the\nFood Process\n7.3 Shutdown, Clean and\nMaintain the Food Process\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n8. Operate a\npackaging process\n(200 hrs)\n8.1 Prepare equipment and\nprocess for operation\n8.2 Operate and Monitor the\nProcess\n8.3 Shutdown the Process\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n9. Work in a freezer\nstorage area (24\nhrs)\n9.1 Prepare to enter a freezer\nstorage environment\n9.2 Monitor equipment\noperation in a freezer\nstorage environment\n9.3 Handle frozen product\nsafely\n9.4 Respond to freezer storage\narea exposure and gas\nleaks\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n10. Work with\ntemperature\ncontrolled stock\n(24 hrs)\n10.1 Store stock to meet\ntemperature control\nrequirements\n10.2 Monitor and maintain\ntemperature of stock\nwithin specifications\n10.3 Identify and rectify\nproblems\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n11. Handle\ndangerous\ngoods/\nhazardous\nsubstances (24\nhrs)\n11.1 Identify requirements for\nworking with dangerous\ngoods and/or hazardous\nsubstances\n11.2 Confirm site incident\nprocedures\n11.3 Select handling\ntechniques\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 112 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n110\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 113 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n111\n•\nProject-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC III.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\nWeighing scales and\nbalances of various\ncapacities and\nsensitivities\n1 set\nFood processing\nsystem with retort,\npump, boiler, cooker,\nsteamer, dehydrator\nA. Food supplies\n5\nDietetic scales (1 kg.\ncapacity)\n1\nChiller\n5 doz\nFresh eggs\n15\nPairing knives\n1\nRefrigerator\n10 kg\nFresh meat\n10\nPeelers\n1\nFreezer\n10\npcs\nDressed poultry\n5\nMeasuring spoons,\nsets\n5\nStoves\n20 kg\nFresh fish\n(medium size)\n5\nMeasuring cups\n(solid)\n1 set Food packaging\nsystem with filling &\nsealing, can seamer,\nshrink wrapper,\nstrapper, case\npacker, labeler\n1 set\nCuring\ningredients (good\nfor 10 kg)\n5\nMeasuring cups\n(liquid)\n1\nJack lift\n20 kg\nFresh fish (small)\n1 set\nWrench, screw\ndriver, belts, nuts &\nbolts\n1\nTrolley\n10 kg\nFresh fruits\n2\nClocks/timer\n1\nWheeler\n10 kg\nFresh vegetables\n\n--- PDF PAGE 114 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n112\n15\nMixing bowls,\nstainless steel\n1\nPoly/temperature\nsealer\n2 gal\nAll spice pickling\nsolution\n10\nHard plastic\nchopping boards\n1\nCap sealer\n3 kg\nSalt (Pangasinan)\n5\nThermometers of\nvarying temperature\nrange\n1\nPressure canner\n1\nsack\nRefined sugar\n5\nGlasswares like\ncylinder, beaker,\nflask\n1\nPressure cooker\n3 gal\nVinegar\n5\nJar liter\n1\nCap seal\n1 gal\nMother vinegar\n1\nFood processor, set\n1\nOven\n1 kg\nCitric acid\n5\nWire baskets\n2\nSteam-jacketed\nkettle\n1 kg\nSodium benzoate\n15\nCasseroles stainless\nsteel\n5\nSmoking trays\n1 kg\nFirming agent\n10\nSaucepan, stainless\nsteel\n1\nMeat grinder\n1 can\nActive dry yeast\n15\nSpoons, wooden\n1\nStuffer/linker\n\n10\nSpoon, basting\n1\nSilent cutter\nB. Non food\n4\nPaddles, wooden\n2\nBrix refractometers\n(0-90o brix)\n5\nsets\nPackaging\nmaterials – can,\npaper, plastic,\nbottle, glass,\ncarton, laminates\n10\nFood tongs\n1\nSalinometer\n1\npack\nTags/labels\n2\nSteamer\n2\nElectronic scales\n(0.1 gm capacity)\n1 set\nChemicals – soda\nacid, amines,\ncondensate\nchemicals\n5\nSoaking container\n1\nConsistometer/\nviscosimeter\n3\nboxe\ns\n8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\nFermented\ncontainers\n1\nVacuum pack\nmachine\n3\nboxe\ns\nCatsup bottles w/\nplastic caps\n20\nUtility trays\n1\nLaboratory scale\ncabinet drier or\nforced draft oven\n2\npack\ns\nCap seals\n15\nColanders, stainless\nsteel\n1\nHeadspace gauge\n2\ngals\nDisinfectant/\nsanitizers\n\n5\nsets\nTest equipment – pH\nmeter, centrifuge,\nmoisture meter, color\nchart /colorimeter,\ntexture meter\n3 set\nVarious test\nreagents e.g.\nhydrochloric acid,\nsulfuric acid,\nsodium\n\n--- PDF PAGE 115 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n113\nhydroxide,\nhydrogen\nperoxide\n\nTRAINING\nMATERIALS\n5\nsets\nComputer\n5\nBar soap/\ndetergent\n\nBooks/reference\n5\nsets\nFire Fighting\nEquipment\n1 btl.\nGlue\n\nManuals\n5\nsets\nFirst aid kit\n\nVideos\n5\nsets\nPPE – apron, mouth\nmask, gloves, rubber\nboots, head gear,\nhard hat, goggles,\nheavy sweater\n\n3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC III\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 116 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n114\n3.6 TRAINER’S QUALIFICATIONS FOR FOOD PROCESSING NC III\n\nTRAINER QUALIFICATION (TQ III)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology III (TM III)\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 117 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n115"
+    },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 113 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n111\n•\nProject-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.",
-      "pdf_pages": []
+      "pdf_pages": [
+        112
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 113 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n111\n•\nProject-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications."
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "Trainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation",
-      "pdf_pages": []
+      "pdf_pages": [
+        113
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC III.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\nWeighing scales and\nbalances of various\ncapacities and\nsensitivities\n1 set\nFood processing\nsystem with retort,\npump, boiler, cooker,\nsteamer, dehydrator\nA. Food supplies\n5\nDietetic scales (1 kg.\ncapacity)\n1\nChiller\n5 doz\nFresh eggs\n15\nPairing knives\n1\nRefrigerator\n10 kg\nFresh meat\n10\nPeelers\n1\nFreezer\n10\npcs\nDressed poultry\n5\nMeasuring spoons,\nsets\n5\nStoves\n20 kg\nFresh fish\n(medium size)\n5\nMeasuring cups\n(solid)\n1 set Food packaging\nsystem with filling &\nsealing, can seamer,\nshrink wrapper,\nstrapper, case\npacker, labeler\n1 set\nCuring\ningredients (good\nfor 10 kg)\n5\nMeasuring cups\n(liquid)\n1\nJack lift\n20 kg\nFresh fish (small)\n1 set\nWrench, screw\ndriver, belts, nuts &\nbolts\n1\nTrolley\n10 kg\nFresh fruits\n2\nClocks/timer\n1\nWheeler\n10 kg\nFresh vegetables\n\n--- PDF PAGE 114 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n112\n15\nMixing bowls,\nstainless steel\n1\nPoly/temperature\nsealer\n2 gal\nAll spice pickling\nsolution\n10\nHard plastic\nchopping boards\n1\nCap sealer\n3 kg\nSalt (Pangasinan)\n5\nThermometers of\nvarying temperature\nrange\n1\nPressure canner\n1\nsack\nRefined sugar\n5\nGlasswares like\ncylinder, beaker,\nflask\n1\nPressure cooker\n3 gal\nVinegar\n5\nJar liter\n1\nCap seal\n1 gal\nMother vinegar\n1\nFood processor, set\n1\nOven\n1 kg\nCitric acid\n5\nWire baskets\n2\nSteam-jacketed\nkettle\n1 kg\nSodium benzoate\n15\nCasseroles stainless\nsteel\n5\nSmoking trays\n1 kg\nFirming agent\n10\nSaucepan, stainless\nsteel\n1\nMeat grinder\n1 can\nActive dry yeast\n15\nSpoons, wooden\n1\nStuffer/linker\n\n10\nSpoon, basting\n1\nSilent cutter\nB. Non food\n4\nPaddles, wooden\n2\nBrix refractometers\n(0-90o brix)\n5\nsets\nPackaging\nmaterials – can,\npaper, plastic,\nbottle, glass,\ncarton, laminates\n10\nFood tongs\n1\nSalinometer\n1\npack\nTags/labels\n2\nSteamer\n2\nElectronic scales\n(0.1 gm capacity)\n1 set\nChemicals – soda\nacid, amines,\ncondensate\nchemicals\n5\nSoaking container\n1\nConsistometer/\nviscosimeter\n3\nboxe\ns\n8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\nFermented\ncontainers\n1\nVacuum pack\nmachine\n3\nboxe\ns\nCatsup bottles w/\nplastic caps\n20\nUtility trays\n1\nLaboratory scale\ncabinet drier or\nforced draft oven\n2\npack\ns\nCap seals\n15\nColanders, stainless\nsteel\n1\nHeadspace gauge\n2\ngals\nDisinfectant/\nsanitizers\n\n5\nsets\nTest equipment – pH\nmeter, centrifuge,\nmoisture meter, color\nchart /colorimeter,\ntexture meter\n3 set\nVarious test\nreagents e.g.\nhydrochloric acid,\nsulfuric acid,\nsodium\n\n--- PDF PAGE 115 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n113\nhydroxide,\nhydrogen\nperoxide\n\nTRAINING\nMATERIALS\n5\nsets\nComputer\n5\nBar soap/\ndetergent\n\nBooks/reference\n5\nsets\nFire Fighting\nEquipment\n1 btl.\nGlue\n\nManuals\n5\nsets\nFirst aid kit\n\nVideos\n5\nsets\nPPE – apron, mouth\nmask, gloves, rubber\nboots, head gear,\nhard hat, goggles,\nheavy sweater",
-      "pdf_pages": []
+      "pdf_pages": [
+        109,
+        113
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC III.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\nWeighing scales and\nbalances of various\ncapacities and\nsensitivities\n1 set\nFood processing\nsystem with retort,\npump, boiler, cooker,\nsteamer, dehydrator\nA. Food supplies\n5\nDietetic scales (1 kg.\ncapacity)\n1\nChiller\n5 doz\nFresh eggs\n15\nPairing knives\n1\nRefrigerator\n10 kg\nFresh meat\n10\nPeelers\n1\nFreezer\n10\npcs\nDressed poultry\n5\nMeasuring spoons,\nsets\n5\nStoves\n20 kg\nFresh fish\n(medium size)\n5\nMeasuring cups\n(solid)\n1 set Food packaging\nsystem with filling &\nsealing, can seamer,\nshrink wrapper,\nstrapper, case\npacker, labeler\n1 set\nCuring\ningredients (good\nfor 10 kg)\n5\nMeasuring cups\n(liquid)\n1\nJack lift\n20 kg\nFresh fish (small)\n1 set\nWrench, screw\ndriver, belts, nuts &\nbolts\n1\nTrolley\n10 kg\nFresh fruits\n2\nClocks/timer\n1\nWheeler\n10 kg\nFresh vegetables\n\n--- PDF PAGE 114 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n112\n15\nMixing bowls,\nstainless steel\n1\nPoly/temperature\nsealer\n2 gal\nAll spice pickling\nsolution\n10\nHard plastic\nchopping boards\n1\nCap sealer\n3 kg\nSalt (Pangasinan)\n5\nThermometers of\nvarying temperature\nrange\n1\nPressure canner\n1\nsack\nRefined sugar\n5\nGlasswares like\ncylinder, beaker,\nflask\n1\nPressure cooker\n3 gal\nVinegar\n5\nJar liter\n1\nCap seal\n1 gal\nMother vinegar\n1\nFood processor, set\n1\nOven\n1 kg\nCitric acid\n5\nWire baskets\n2\nSteam-jacketed\nkettle\n1 kg\nSodium benzoate\n15\nCasseroles stainless\nsteel\n5\nSmoking trays\n1 kg\nFirming agent\n10\nSaucepan, stainless\nsteel\n1\nMeat grinder\n1 can\nActive dry yeast\n15\nSpoons, wooden\n1\nStuffer/linker\n\n10\nSpoon, basting\n1\nSilent cutter\nB. Non food\n4\nPaddles, wooden\n2\nBrix refractometers\n(0-90o brix)\n5\nsets\nPackaging\nmaterials – can,\npaper, plastic,\nbottle, glass,\ncarton, laminates\n10\nFood tongs\n1\nSalinometer\n1\npack\nTags/labels\n2\nSteamer\n2\nElectronic scales\n(0.1 gm capacity)\n1 set\nChemicals – soda\nacid, amines,\ncondensate\nchemicals\n5\nSoaking container\n1\nConsistometer/\nviscosimeter\n3\nboxe\ns\n8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\nFermented\ncontainers\n1\nVacuum pack\nmachine\n3\nboxe\ns\nCatsup bottles w/\nplastic caps\n20\nUtility trays\n1\nLaboratory scale\ncabinet drier or\nforced draft oven\n2\npack\ns\nCap seals\n15\nColanders, stainless\nsteel\n1\nHeadspace gauge\n2\ngals\nDisinfectant/\nsanitizers\n\n5\nsets\nTest equipment – pH\nmeter, centrifuge,\nmoisture meter, color\nchart /colorimeter,\ntexture meter\n3 set\nVarious test\nreagents e.g.\nhydrochloric acid,\nsulfuric acid,\nsodium\n\n--- PDF PAGE 115 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n113\nhydroxide,\nhydrogen\nperoxide\n\nTRAINING\nMATERIALS\n5\nsets\nComputer\n5\nBar soap/\ndetergent\n\nBooks/reference\n5\nsets\nFire Fighting\nEquipment\n1 btl.\nGlue\n\nManuals\n5\nsets\nFirst aid kit\n\nVideos\n5\nsets\nPPE – apron, mouth\nmask, gloves, rubber\nboots, head gear,\nhard hat, goggles,\nheavy sweater"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "FOOD PROCESSING NC III\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 116 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n114\n3.6 TRAINER’S QUALIFICATIONS FOR FOOD PROCESSING NC III\n\nTRAINER QUALIFICATION (TQ III)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology III (TM III)\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\nReference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        115
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC III\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 116 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n114"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        116
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR FOOD PROCESSING NC III\n\nTRAINER QUALIFICATION (TQ III)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology III (TM III)\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\nReference: TESDA Board Resolution No. 2004 03"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 117 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n115",
-      "pdf_pages": []
+      "pdf_pages": [
+        116
+      ],
+      "source_text": "3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 117 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n115"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "20 hours",
-      "128 hours",
-      "752 hours",
-      "900 hours",
-      "20 hours",
-      "128 hours",
-      "24\nhrs",
-      "16\nhrs",
-      "16 hrs",
-      "8\nhrs",
-      "32 hrs",
-      "32\nhrs",
-      "752 hours",
-      "16 hrs",
-      "16 hrs",
-      "24 hrs",
-      "40 hrs",
-      "32 hrs",
-      "32 hrs",
-      "320\nhrs",
-      "200 hrs",
-      "24\nhrs",
-      "24 hrs",
-      "24\nhrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Food Processing NC III.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: FOOD PROCESSING\n\n NC Level: NC III\n\nNominal Training Duration:\n 20 hours (Basic)\n\n128 hours (Common)\n\n752 hours (Core)\n\n900 hours (Total)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes of Food Processing NC lII in accordance with industry standards. It covers\nthe basic, common and core competencies.\n\nBASIC COMPETENCIES\n(20 hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace processes\n1.2 Lead workplace discussions\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group\ndiscussion\n• Role playing\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small team\n2.1 Provide team leadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n3. Develop and\npractice\nnegotiation skills\n3.1 Plan negotiations\n3.2 Participate in negotiations\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\n--- PDF PAGE 108 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n106\n4. Solve problems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine fundamental\ncauses of the problem\n4.3 Determine corrective action\n4.4 Provide recommendation/s\nto manager\n\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n\n• Written test\n• Practical/\nperformance\ntest\n5. Use relevant\ntechnologies\n5.1 Study/select appropriate\ntechnology\n5.2 Apply relevant technology\n5.3 Maintain/enhance relevant\ntechnology\n• Direct\nobservation\n• Simulation/ role\nplaying\n• Case studies\n• Interview\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n(128 hours)\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Food\nSafety and\nSanitation (24\nhrs)\n\n1.1 Wear personal protective\nequipment\n1.2 Observe personal\nhygiene and good\ngrooming\n1.3 Implement food\nsanitation practices\n1.4 Render safety measures\nand first aid procedures\n1.5 Implement housekeeping\nactivities\n• Demonstration\n• Dual training\n• Individual Self-\npaced learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n2. Use Standard\nMeasuring\nDevices/\nInstruments (16\nhrs)\n\n2.1 Identify standard\nmeasuring devices and\ninstruments\n2.2 Review the procedures in\nusing standard measuring\ndevices and instruments\n2.3 Follow procedures of\nusing measuring devices\nand instruments\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 109 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n107\n3. Use Food\nProcessing\nTools,\nEquipment and\nUtensils (16 hrs)\n\n3.1 Perform Pre-Operation\nActivities\n3.2 Operate, monitor and\nmaintain Food processing\nEquipment\n3.3 Perform post operation\nactivities\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n4. Perform\nMathematical\nComputations (8\nhrs)\n4.1 Gather, summarize and\ntabulate the recorded\ndata\n4.2 Review the various\nformulations\n4.3 Calculate production\ninput and output\n4.4 Compute production\ncost\n•\nLecture\n•\nPractical\nexercise\n\n•\nWritten\nexamination\n•\nPractical\nexercise\n•\nDirect\nObservation\n5. Implement Good\nManufacturing\nPractice (32 hrs)\n5.1 Perform pre-work\nactivities in relation to\nGMP\n5.2 Identify requirements of\nGMP related to own work\n5.3 Observe personal\nhygiene and conduct to\nmeet GMP requirements\n5.4 Follow GMP\nrequirements when\ncarrying out work\nactivities\n5.5 Perform post-work\nactivities in relation to\nGMP\n5.6 Complete workplace\ndocumentation to support\nGMP\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n6. Implement\nEnvironmental\nPolicies and\nProcedures (32\nhrs)\n6.1 Access and apply\nworkplace information\non environmental\npolicies and procedures\nrelating to own work\n6.2 Follow work procedures\n6.3 Identify, control and\nreport unacceptable\nperformance\n6.4 Maintain housekeeping\nstandards in work area\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n\n--- PDF PAGE 110 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n108\n\nCORE COMPETENCIES\n(752 hours)\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and store\nstock (16 hrs)\n1.1 Take delivery of stock\n1.2 Store stock\n1.3 Rotate and maintain\nstock\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n2. Control and order\nstock (16 hrs)\n2.1 Maintain stock levels and\nrecords\n2.2 Organize and administer\nstock takes\n2.3 Identify stock losses\n2.4 Process stock orders\n2.5 Follow up orders\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n3. Apply product\nknowledge to\ncomplete work\noperations (24 hrs)\n\n3.1 Identify products in a\nsubsection of a\nwarehouse or other\nstorage area\n3.2 Examine quality and report\non products\n3.3 Use inventory and labeling\nsystems to identify and\nlocate products\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n4. Perform basic\ntests in raw\nmaterials, in\nprocess and\nfinished products\n(40 hrs)\n4.1 Receive, label, and store\nsamples for testing\n4.2 Prepare samples\n4.3 Perform tests on samples\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n\n 5. Operate a boiler\n(32 hrs)\n5.1 Start boiler\n5.2 Operate and monitor boiler\n5.3 Shut down and store boiler\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n6. Operate pumping\n6.1 Prepare pumps for\n• Audio Visual\n•\nObservation\n\n--- PDF PAGE 111 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n109\nequipment (32 hrs)\noperation\n6.2 Operate Pumping\nEquipment\n6.3 Shutdown and Maintain\nPumping Equipment\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n7. Operate and\nmonitor food\nprocesses and\nequipment (320\nhrs)\n7.1 Prepare the food\nequipment and process for\noperation\n7.2 Operate and Monitor the\nFood Process\n7.3 Shutdown, Clean and\nMaintain the Food Process\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n8. Operate a\npackaging process\n(200 hrs)\n8.1 Prepare equipment and\nprocess for operation\n8.2 Operate and Monitor the\nProcess\n8.3 Shutdown the Process\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n9. Work in a freezer\nstorage area (24\nhrs)\n9.1 Prepare to enter a freezer\nstorage environment\n9.2 Monitor equipment\noperation in a freezer\nstorage environment\n9.3 Handle frozen product\nsafely\n9.4 Respond to freezer storage\narea exposure and gas\nleaks\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n10. Work with\ntemperature\ncontrolled stock\n(24 hrs)\n10.1 Store stock to meet\ntemperature control\nrequirements\n10.2 Monitor and maintain\ntemperature of stock\nwithin specifications\n10.3 Identify and rectify\nproblems\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n11. Handle\ndangerous\ngoods/\nhazardous\nsubstances (24\nhrs)\n11.1 Identify requirements for\nworking with dangerous\ngoods and/or hazardous\nsubstances\n11.2 Confirm site incident\nprocedures\n11.3 Select handling\ntechniques\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 112 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n110\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based\nTVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 113 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n111\n•\nProject-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC III\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC III.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\nWeighing scales and\nbalances of various\ncapacities and\nsensitivities\n1 set\nFood processing\nsystem with retort,\npump, boiler, cooker,\nsteamer, dehydrator\nA. Food supplies\n5\nDietetic scales (1 kg.\ncapacity)\n1\nChiller\n5 doz\nFresh eggs\n15\nPairing knives\n1\nRefrigerator\n10 kg\nFresh meat\n10\nPeelers\n1\nFreezer\n10\npcs\nDressed poultry\n5\nMeasuring spoons,\nsets\n5\nStoves\n20 kg\nFresh fish\n(medium size)\n5\nMeasuring cups\n(solid)\n1 set Food packaging\nsystem with filling &\nsealing, can seamer,\nshrink wrapper,\nstrapper, case\npacker, labeler\n1 set\nCuring\ningredients (good\nfor 10 kg)\n5\nMeasuring cups\n(liquid)\n1\nJack lift\n20 kg\nFresh fish (small)\n1 set\nWrench, screw\ndriver, belts, nuts &\nbolts\n1\nTrolley\n10 kg\nFresh fruits\n2\nClocks/timer\n1\nWheeler\n10 kg\nFresh vegetables\n\n--- PDF PAGE 114 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n112\n15\nMixing bowls,\nstainless steel\n1\nPoly/temperature\nsealer\n2 gal\nAll spice pickling\nsolution\n10\nHard plastic\nchopping boards\n1\nCap sealer\n3 kg\nSalt (Pangasinan)\n5\nThermometers of\nvarying temperature\nrange\n1\nPressure canner\n1\nsack\nRefined sugar\n5\nGlasswares like\ncylinder, beaker,\nflask\n1\nPressure cooker\n3 gal\nVinegar\n5\nJar liter\n1\nCap seal\n1 gal\nMother vinegar\n1\nFood processor, set\n1\nOven\n1 kg\nCitric acid\n5\nWire baskets\n2\nSteam-jacketed\nkettle\n1 kg\nSodium benzoate\n15\nCasseroles stainless\nsteel\n5\nSmoking trays\n1 kg\nFirming agent\n10\nSaucepan, stainless\nsteel\n1\nMeat grinder\n1 can\nActive dry yeast\n15\nSpoons, wooden\n1\nStuffer/linker\n\n10\nSpoon, basting\n1\nSilent cutter\nB. Non food\n4\nPaddles, wooden\n2\nBrix refractometers\n(0-90o brix)\n5\nsets\nPackaging\nmaterials – can,\npaper, plastic,\nbottle, glass,\ncarton, laminates\n10\nFood tongs\n1\nSalinometer\n1\npack\nTags/labels\n2\nSteamer\n2\nElectronic scales\n(0.1 gm capacity)\n1 set\nChemicals – soda\nacid, amines,\ncondensate\nchemicals\n5\nSoaking container\n1\nConsistometer/\nviscosimeter\n3\nboxe\ns\n8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\nFermented\ncontainers\n1\nVacuum pack\nmachine\n3\nboxe\ns\nCatsup bottles w/\nplastic caps\n20\nUtility trays\n1\nLaboratory scale\ncabinet drier or\nforced draft oven\n2\npack\ns\nCap seals\n15\nColanders, stainless\nsteel\n1\nHeadspace gauge\n2\ngals\nDisinfectant/\nsanitizers\n\n5\nsets\nTest equipment – pH\nmeter, centrifuge,\nmoisture meter, color\nchart /colorimeter,\ntexture meter\n3 set\nVarious test\nreagents e.g.\nhydrochloric acid,\nsulfuric acid,\nsodium\n\n--- PDF PAGE 115 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n113\nhydroxide,\nhydrogen\nperoxide\n\nTRAINING\nMATERIALS\n5\nsets\nComputer\n5\nBar soap/\ndetergent\n\nBooks/reference\n5\nsets\nFire Fighting\nEquipment\n1 btl.\nGlue\n\nManuals\n5\nsets\nFirst aid kit\n\nVideos\n5\nsets\nPPE – apron, mouth\nmask, gloves, rubber\nboots, head gear,\nhard hat, goggles,\nheavy sweater\n\n3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC III\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 116 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n114\n3.6 TRAINER’S QUALIFICATIONS FOR FOOD PROCESSING NC III\n\nTRAINER QUALIFICATION (TQ III)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology III (TM III)\n• Must be computer literate\n• Must be physically and mentally fit\n• Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 117 ---\n____________________________________________________________________________\nTR- Food Processing NC III\n\n115"
 }
