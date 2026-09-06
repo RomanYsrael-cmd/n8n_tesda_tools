@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T13:28:06+08:00",
+  "last_updated": "2026-09-06T13:48:51+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 65,
-  "remaining_unaudited": 319,
+  "audited_count": 70,
+  "remaining_unaudited": 314,
   "blocked_count": 0,
   "documents": [
     {
@@ -853,6 +853,71 @@
       "validation_passed": true,
       "last_audit_commit": "3347cb118e9a0a9c6e692b8634be28935c191276",
       "audit_notes": "Rebuilt 6/2/3 superseded historical two-column groups; restored 39 curriculum rows, normalized the 506315202 source-header code variant, preserved the 2007 promulgation date and 1,040-hour duration, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Barbering NC II",
+      "package_path": "resources/Training Regulations/indexed/Barbering NC II",
+      "source_file": "resources/Training Regulations/Barbering NC II.pdf",
+      "source_sha256": "0a74854530b33460a49e4021572c1953c732988fe3693cdadb652a2e611f132c",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:48:51+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "ae09183bfcd4036664b29c4e9667fb8861863673",
+      "audit_notes": "Rebuilt 9/4/5 revised four-column groups; restored 72 curriculum rows and required knowledge/skills, preserved the 2020-06-09 promulgation date, 285-hour subtotal plus 40-hour SIL/325-hour total, recorded the recurring NC III page-header drift and ASSESSSMENT typo, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Barbering NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Barbering NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Barbering NC II (Superseded).pdf",
+      "source_sha256": "1d110064bd33d62f2cb31f592d16e10a6975cb870d785b3c1d7662b585387f82",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:48:51+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "ae09183bfcd4036664b29c4e9667fb8861863673",
+      "audit_notes": "Rebuilt 4/4/6 superseded historical two-column groups plus 3 elective units; restored 53 curriculum rows, preserved the HCS516201/HCS516202 header variants against Section 1 codes, the 2010-11 promulgation date, and 656-hour duration, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Barista NC II",
+      "package_path": "resources/Training Regulations/indexed/Barista NC II",
+      "source_file": "resources/Training Regulations/Barista NC II.pdf",
+      "source_sha256": "b822dcfad901f251c38b84d978aac0b59d14773cc60181b4138b0d38556788f3",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:48:51+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "ae09183bfcd4036664b29c4e9667fb8861863673",
+      "audit_notes": "Rebuilt 4/5/5 historical two-column groups; restored 44 curriculum rows, repaired restarted common-unit numbering, preserved the 2013-12 promulgation date and 178-hour arithmetic duration, added an explicitly disclosed normalized terminology aid because no dedicated glossary section is present, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Bartending NC II",
+      "package_path": "resources/Training Regulations/indexed/Bartending NC II",
+      "source_file": "resources/Training Regulations/Bartending NC II.pdf",
+      "source_sha256": "e721be8d5c58d2caec8d01609f834c1831b4294f545327a87ab8751904de837c",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:48:51+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "ae09183bfcd4036664b29c4e9667fb8861863673",
+      "audit_notes": "Rebuilt 4/5/4 historical two-column groups plus 3 elective units; restored 53 curriculum rows, repaired restarted common-unit numbering and the UNIT OF DESCRIPTOR source spelling, preserved the 2013-12 promulgation date and 438-hour arithmetic duration, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Beauty Care (Nail Care) Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Beauty Care (Nail Care) Services NC II",
+      "source_file": "resources/Training Regulations/Beauty Care (Nail Care) Services NC II.pdf",
+      "source_sha256": "dcec3b5b2f24c3c1bc910f6936996c24beb620327612654305aeb6c37615e3a5",
+      "status": "audited",
+      "audited_at": "2026-09-06T13:48:51+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "ae09183bfcd4036664b29c4e9667fb8861863673",
+      "audit_notes": "Rebuilt 9/4/2 revised four-column groups; restored 54 curriculum rows and required knowledge/skills, corrected continuation-page unit starts, preserved the 2020-06-09 promulgation date and 341-hour subtotal plus 80-hour SIL/421-hour total, recorded the ASSESSSMENT typo, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
     }
   ]
 }
