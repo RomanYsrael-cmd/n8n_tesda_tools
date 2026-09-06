@@ -4,169 +4,113 @@
   "document_id": "tesda:tr:fish-capture-nc-ii:3799467186",
   "qualification": "FISH CAPTURE NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR321202",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR321203",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR741201",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641306",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641309",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641310",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641313",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641315",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641302",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641319",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641321",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AGR321201",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641305",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AGR641304",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "MTM834202",
-        "title": ":"
-      },
-      {
-        "unit_code": "MTM834204",
-        "title": ":"
-      },
-      {
-        "unit_code": "MTM834205",
-        "title": ":"
-      },
-      {
-        "unit_code": "MTM834206",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641307",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641308",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641311",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR614312",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641314",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641316",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641303",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641317",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641318",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641320",
-        "title": ": This unit covers the skills and knowledge required to operate"
-      },
-      {
-        "unit_code": "AGR641322",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641323",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641324",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641325",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641326",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641327",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR641328",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP FOR AGRI-FISHERY SECTOR\nFISH CAPTURE SUB-SECTOR\nCOMMON UNITS OF COMPETENCY\n\nPerform survival techniques\nduring ship abandonment\n\nBASIC UNITS OF COMPETENCY\nDevelop Team and Individual\nApply Problem Solving\nTechniques in the Workplace\nPlan and Organize Work\n\nApply Food Safety and\nSanitation\nPerform first aid treatment\non board\n\nUtilize specialist\ncommunication\nSolve Workplace Problems\nRelated to Work Activities\nPractice housekeeping\nprocedures\n\nPerform estimation and\ncalculation\nProtect marine environment\n\nLead Workplace\nCommunication\nLead Small Team\nPractice occupation health\nand safety procecures\n\nUse farm tools and\nequipment\nPrevent and fight fire\nConduct shipboard security\nchecks\nParticipate in Workplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\n\nApply safety measures\nComply with emergency\nprocedures\nLaunch survival craft\nand techniques\nReceive and Respond to\nWorkplace Communication\nWork With Others\n\nDemonstrate work values\nFi h C\nNC II\n\n--- PDF PAGE 170 ---\nTR - Fish Capture NC II\n\n- 166 -",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR321201",
+        "AGR321202",
+        "AGR321203",
+        "AGR741201",
+        "MTM834202",
+        "MTM834204",
+        "MTM834205",
+        "MTM834206"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use farm tools and equipment",
+        "Perform estimation and calculations",
+        "Apply food safety and sanitation",
+        "Prevent and fight fire",
+        "Perform first aid treatment on board",
+        "Protect marine environment",
+        "Comply with emergency procedures"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AGR641304",
+        "AGR641305",
+        "AGR641306",
+        "AGR641307",
+        "AGR641308",
+        "AGR641309",
+        "AGR641310",
+        "AGR641311",
+        "AGR641312",
+        "AGR641313",
+        "AGR641314",
+        "AGR641315",
+        "AGR641316"
+      ],
+      "unit_titles": [
+        "Operate a vessel of up to 3.0 GT",
+        "Monitor condition and seaworthiness of a vessel",
+        "Perform routine maintenance tasks on a small coastal vessel",
+        "Operate and troubleshoot low powered marine engines",
+        "Apply weather information when navigating a vessel",
+        "Contribute to safe navigation",
+        "Apply basic food handling and safety practices",
+        "Adjust and position beach seines, mesh nets or gill nets",
+        "Maintain, prepare, deploy and retrieve beach seines, mesh nets or gill nets to land catch",
+        "Adjust and position hand operated lines",
+        "Maintain, prepare, deploy and retrieve hand operated lines to land catch",
+        "Adjust and position pots and traps",
+        "Maintain, prepare, deploy and retrieve pots and traps to land catch"
+      ]
+    },
+    {
+      "group": "elective",
+      "unit_codes": [
+        "AGR641302",
+        "AGR641303",
+        "AGR641317",
+        "AGR641318",
+        "AGR641319",
+        "AGR641320",
+        "AGR641321",
+        "AGR641322",
+        "AGR641323",
+        "AGR641324",
+        "AGR641325",
+        "AGR641326",
+        "AGR641327",
+        "AGR641328"
+      ],
+      "unit_titles": [
+        "Load and unload goods / cargo",
+        "Assemble and repair damaged netting",
+        "Implement the food safety program and procedures",
+        "Keep record for a municipal fishing business",
+        "Apply basic first aid",
+        "Operate and maintain marine outboard motors",
+        "Transmit and receive information by marine radio or telephone",
+        "Perform breath hold diving operations",
+        "Assemble and load refrigerated product",
+        "Shift a load using manually-operated equipment",
+        "Maintain the temperature of seafood",
+        "Work with temperature controlled stock",
+        "Conduct field observations",
+        "Monitor and record fishing operations"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate signed by the TESDA\nDirector General.\n\n4.2.\nThe qualification of Fish Capture NC II may be attained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in the following areas:\n\n4.2.1.1\nOperate a vessel of up to 3.0 GT\n4.2.1.2\nMonitor condition of seaworthiness of a vessel\n4.2.1.3\nPerform routine maintenance tasks on a small coastal vessel\n4.2.1.4\nOperate and troubleshoot low powered marine engine\n4.2.1.5\nApply weather information when navigating a vessel\n4.2.1.6\nContribute to safe navigation\n4.2.1.7\nApply basic food handling and safety practices\n\nPlus two (2) Core Competencies on the use of fishing tools / equipment from any\none of the following combinations listed below:\n\nCombination 1\n4.2.1.8\nAdjust and position beach seines, mesh nets or gill nets\n4.2.1.9\nMaintain,prepare, deploy and retrieve beach seines, mesh nets or gill nets\nto land catch\n\nCombination 2\n4.2.1.10 Adjust and position hand operated lines\n4.2.1.11 Maintain, prepare, deploy and retrieve hand operated lines to land catch\n\nCombination 3\n4.2.1.12 Adjust and position pots and traps\n4.2.1.13 Maintain, prepare, deploy and retrieve pots and traps to land catch\n\nSuccessful candidates shall be awarded Certificates of Competency (COCs).\n\n4.3.\nUpon accumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the corresponding\nNational Certificate.\n\n4.4.\nAssessment shall focus on the core units of competency. The basic and common units shall\nbe integrated or assessed concurrently with the core units.\n\n4.5. Elective units may be selected from the list below depending on workplace requirements\nand/or specialization. To increase flexibility and enhance employability, elective units of\ncompetency may also be chosen from any other promulgated Training Regulations at the\nsame NC level or one level higher (NC III), including Fish Capture NC III. Certificates of\nCompetency shall be issued for each additional unit undertaken. The candidate however\nmay be awarded the qualification of Fish Capture NC II based on the accumulation of core\nunits as specified in 4.2.1., even without these electives:\n\n4.5.1. Load and unload goods / cargo\n4.5.2. Assemble and repair damaged netting\n\n--- PDF PAGE 166 ---\nTR- Fish Capture NC II\n\n- 162 -\n4.5.3. Implement the food safety program and procedures\n4.5.4. Keep record for a municipal fishing business\n4.5.5. Apply basic first aid\n4.5.6. Operate and maintain marine outboard motors\n4.5.7. Transmit and receive information by marine radio or telephone\n4.5.8. Perform breath hold diving operations\n4.5.9. Assemble and load refrigerated product\n4.5.10.Shift a load using manually-operated equipment\n4.5.11.Maintain the temperature of seafood\n4.5.12.Work with temperature controlled stock\n4.5.13.Conduct field observations\n4.5.14.Monitor and record fishing operations\n\n4.6. The following are qualified to apply for assessment and certification:\n\n4.6.1 Graduates of formal, non formal and informal including enterprise-based training\nprograms.\n\n4.6.2. Experienced workers ( wage employed or self-employed)\n\n4.7.\nThe guidelines on assessment and certification are discussed in detail in the Procedures\nmanual on Assessment and Certification and Guidelines on the implementation of the\nPhilippine TVET Qualification and Certification System (PTQCS).\n\n--- PDF PAGE 167 ---\nTR - Fish Capture NC II\n\n- 163 -\n\nCOMPETENCY MAP FOR AGRI-FISHERY SECTOR\nFISH CAPTURE SUB-SECTOR\nCORE UNITS OF COMPETENCY\nManage and control fishing\noperations\nConstruct nets and customize\ndesign\nLocate fishing grounds and stocks\nof fish\n\nMonitor the implementation of\nquality and food safety\nprograms\nImplement quality systems and\nprocedures\nKeep records for a municipal\nfishing business\nOperate machinery in adverse\nconditions\nOperate refrigerated\nstorerooms\nWholesale product\nAdjust and position hand\noperated lines\n\nConduct field operations\nRecord information about\nthe country\nContribute to at sea\nprocessing of seafood\n\nMaintain, prepare, deploy\nand retrieve mesh nets or\ngill nets to land catch\nPerform routine\nhousekeeping duties on\nboard a vessel\nAdjust and position purse\nseines\nConduct food safety audits\nAnalyze and report on\nboard observation\nEstablish and manage\neffective external relationships\nManage and control fishing\noperations\n\nAssemble and repair\ndamaged netting\nClean work area\nMaintain the temperature of\nseafood\n\nAdjust & position drop lines\nand long lines\nMaintain, prepare, deploy and\nretrieve drop lines and long\nlines to land catch\nApply weather information\nwhen navigating a vessel\nContribute to safe navigation\nMaintain, prepare, deploy\nand retrieve hand operated\nlines to land catch\nTransport, handle and store\nchemicals\nScuba dive in open water to a\nmaximum dept of 18 meters\n\nMaintain , prepare, deploy and\nretrieve purse seines to land\ncatch\nMonitor condition and\nseaworthiness of a vessel\nPerform routine\nmaintenance tasks on a\nsmall coastal vessel\n\nOperate low powered\nmarine diesel engine\nApply basic food handling\nand safety practices\nMaintain, prepare, deploy\nand retrieve pots and traps\nto land catch\nAdjust and position hand\noperated lines\nAdjust and position beach\nseines, mesh nets or grill\nnets\nPerform diving operations using\nself contained underwater\nbreathing apparatus\nPerform breath hold diving\noperations\n\nMaintain the temperature of\nseafood\nImplement the food safety\nprogram and procedures\nLoad and unload goods and\ncargo goods\n\nAssemble and repair damaged\nnetting\nApply deckhand skills aboard a\nfishing vessel\n\nApply basic first aid\n\nAdjust and position pots and\ntraps\nOperate a vessel up to 3.0 GT\nCollect reliable scientific data\nand samples\nImplement OHS policies and\nguidelines\n\n--- PDF PAGE 168 ---\nTR - Fish Capture NC II\n\n- 164 -\n\nContinuation ….. Competency Map for Agri Fishery Sector ( Fish Capture Sub-Sector)\n\nCOMPETENCY MAP FOR AGRI-FISHERY SECTOR\nFISH CAPTURE SUB-SECTOR\nCORE UNITS OF COMPETENCY\nFollow basic food safety practices\nDevelop food safety programs\nLocate fishing ground and stocks of\nfish\n\nProvide practical and / or\ncommercial advice to seafood\nusers\nCook on board a vessel\nPerform breath hold diving\noperations\n\nOversee the implementation\nof a food safety program in the\nworkplace\nEvaluate a batch of seafood\nMonitor the implementation of\nquality and food safety\nprograms\n\nPrepare work instructions for\nnew tasks\nExport product\nOperate a small vessel\n\nUndertake emergency\nprocedures in diving operations\nusing surface supplied breathing\napparatus\nWork effectively as a diver in the\nseafood industry\nEstablish and maintain the\nenterprise OHS programs\n\nManage environmental\nperformance\nSupervise maintenance of\nmachinery and equipment\nApply and monitor food safety\nrequirements\n\nPerform compressions chamber\ndiving operations\n\nPerform diving operations using\nsurface supplied breathing\napparatus\nApply and prepare chemicals\n\nProvide support for diving\noperations\nWork with temperature\ncontrolled stock\nUndertake emergency\nprocedures in diving operations\nusing self contained underwater\nbreathing apparatus\n\nMaintain the temperature of\nseafood\nOversee and undertake effluent and\nwaste treatment and disposal\nCollect routine fishery management\ndata\n\nImplement environmental policies\nand procedures\nMonitor and record fishing\noperations\n\nParticipate in a HACCP Team\n\n--- PDF PAGE 169 ---\nTR - Fish Capture NC II\n\n- 165 -\n\nContinuation ….. Competency Map for Agri Fishery Sector ( Fish Capture Sub-Sector)\n\nCOMPETENCY MAP FOR AGRI-FISHERY SECTOR\nFISH CAPTURE SUB-SECTOR\nCOMMON UNITS OF COMPETENCY\n\nPerform survival techniques\nduring ship abandonment\n\nBASIC UNITS OF COMPETENCY\nDevelop Team and Individual\nApply Problem Solving\nTechniques in the Workplace\nPlan and Organize Work\n\nApply Food Safety and\nSanitation\nPerform first aid treatment\non board\n\nUtilize specialist\ncommunication\nSolve Workplace Problems\nRelated to Work Activities\nPractice housekeeping\nprocedures\n\nPerform estimation and\ncalculation\nProtect marine environment\n\nLead Workplace\nCommunication\nLead Small Team\nPractice occupation health\nand safety procecures\n\nUse farm tools and\nequipment\nPrevent and fight fire\nConduct shipboard security\nchecks\nParticipate in Workplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\n\nApply safety measures\nComply with emergency\nprocedures\nLaunch survival craft\nand techniques\nReceive and Respond to\nWorkplace Communication\nWork With Others\n\nDemonstrate work values\nFi h C\nNC II\n\n--- PDF PAGE 170 ---\nTR - Fish Capture NC II\n\n- 166 -\nDEFINITION OF TERMS\n\nFor the purpose of this standard, the word\n\n• Accident – unwanted incidents involving injury or damage to life, the environment, the ship or\ncargo\n• Anchor– a heavy forging or casting comprising a shank with shackles or ring at one end and\ntwo arms with palms at the other, so shaped as to grip the sea bottom, by means of cable or\nrope hold a boat / ship regardless of wind and current\n• Ballast – a quantity of iron, stone, gravel or other weighty substance like (water, oil, etc)\nplaced in the lower hold of the boat/ship to increase stability by lowering the center of gravity.\n• Beach seine – fishing gear using a seine net and employed along the coastline\n• Bend – a knot by which one rope is fastened to another to some object.\n• Bilge – a place in the lower part of the boat / ship where waste water collects and which bilge\nsuctions are placed for pumping out\n• Boat – a small open craft propelled by oars sails, or some form of engine. This term also\napplied to a larger boats built to navigate rivers and inland waters.\n• Capstan – a machine for moving or raising heavy weights and consist of a vertical drum that\ncan be rotated and around which cable is turned\n• Deck – a platform in a ship that is structural element and forming the floor for its compartment\n• Deckhand– a seaman who perform manual and other duties on board a vessel\n• Fish capture – the taking of fishery species by passive or active gear for trade, business or\nprofit beyond subsistence or sport fishing and classified further as follows:\nSmall scale commercial fishing – fishing utilizing fishing vessels of 3.1 gross tons (GT) up to\n20 GT\nMedium scale commercial fishing – fishing utilizing fishing vessels of 20.1 GT up to 150 GT;\nand\nLarge scale commercial fishing – fishing utilizing fishing vessel of more than 150 GT\nFishing gear – fishing equipment and paraphernalia\n\n• Fish fighting equipment – equipment use to extinguish fire as per type.\n• Fish trap – Locally called panggal, is a set trap or enticing device made of bamboo or rattan\nwhich is a regular. Usually rectangular, receptacle preventing escape of fishy by means of trap\ndoors or tricky passageways. Trapped fish may be collected at regular intervals, in terms of\ndays or week.\n• Gill / Mesh Net – variously sized entangling net in which capture of fish is by the gilling\neffected by the actual meshes of the net. With small buoys and small weights, the net is\npositioned either as bottom set or drifting. This is commonly referred to by loacals as pukot-\ndoble, pukot-triple, pukot paapong (with light).\n• Hitch– any of various knots used to form a temporary noose in a line or to secure a line\ntemporarily to an object\n• Knot – the interlacement of the parts of one or more flexible bodies forming a ump or knob\n• Life saving appliances – are outfits designed for life preservation\n• Mooring – a act of making fast a boat with lines or anchor\n• Municipal Fisherman – a person who is directly or indirectly engaged in fishing and other\n\n--- PDF PAGE 171 ---\nTR - Fish Capture NC II\n\n- 167 -\nrelated fishing activities within municipal waters using fishing vessels of three (3) gross tons or\nless.\n\n• Municipal Waters – include not only streams, lakes, inland bodies of water and tidal waters\nwithin the municipality which are not included within the protected areas as defined under\nRepublic Act No. 7856 (The NIPAS Law), public forest, timber lands, forest reserves or fishery\nreserves, but also marine waters included between two (2) lines drawn perpendicular to the\ngeneral coastline from points where the boundary lines of the municipality touch the sea at low\ntide and a third line parallel with the general coastline including offshore island and fifteen (15)\nkilometers from such coastline. Where two (2) municipalities are so situated on opposite\nshores that there is less than thirty (30) kilometers of marine waters between them, the third\nline shall be equally distant from the opposite shore of the respective municipalities ( RA 8550,\nPhilippine Fisheries Code of 1997)\n• Netting – fishing gear component made of open meshed fabric\n• Seaworthiness – refers to the ability of a boat / ship to withstand the action of the sea, wind\nand weather\n• Single hook and line – also called simple hand line or drop line. A single vertical line\ncarrying one or two barbed baited hooks and worked simply by dropping into the water and\nwaiting for a fish to bite. Generic local name is pasol or subid. Also called by various names,\nmost often after the most dominant species in the catch, such as manubid-pamarilis, pambaca,\npamirit, pangaraw, palutao (ulang), pamato, pamariles ( deep-sea pangtangigue, pawin,\nsubid, undak (with light). Hook sizes range from #06-#20 to #566-#571 while filament size\nvaries from nylon #8 to #190.\n• Winch – any of various machines or instruments for pulling or hauling, with one or more\ndrums on which to coil a rope, cable or chain.\n• Windlass - a steam or electric winch with horizontal or vertical shaft and two drums used to\nraise a ship’s anchor.\n\n--- PDF PAGE 172 ---\n\n--- PDF PAGE 173 ---\n\n--- PDF PAGE 174 ---\n\n--- PDF PAGE 175 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend gratitude and\nappreciation to the many representatives of business, industry, academe and government agencies who\ndonated their time and expertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\nDr. RODOLFO P. ESTIGOY\nMr. ALEJANDRO T. ESCANO\nChief\nPresident\nBureau of Post Harvest Research and\nExtension\n•\nCentral Luzon State University,\nScience City of Muñoz, Nueva Ecija\nPhilippine Chamber of Agriculture and Food\n(PCAFI)\nMFI Bldg. Otigas Avenue Extension, Pasig City\nMr. EDWIN ANDOT\nDr. ALMA M. DELA CRUZ\nPresident\nChamber of Agriculture, Fisheries and\nFood in Northern Mindanao\n2nd floor, United Way Bldg.\nCapitol Cmpd., Cagayan de Oro City\nProfessor\nCentral Luzon State University\nMuñoz, Nueva Ecija\n\n• THE TECHNICAL EXPERT PANEL (TEP)\n\nMs. FELY LIM\nMr. KENT A. DEQUITO.\nExecutive Director (SOCOPA)\nSOCSKSARGEN Federation of\nMarine Biologist / Aquaculturist\nOffice of the Porvincial Agricultural\nFishing and Allied Industries, Inc.\n(SFFAII) / SECAFF\n Officer (OPAG)\nAlabel, Sarangani Province\nMR. ROGELIO NODORA\nMr. ROGELIO C. GENSAVA\nPort Captain\nDamalerio Group of Companies\nTalisay, Tambler, Gen. Santos City\nAmadeo Fishing Corp.\nMarang St., Calumpang, Gen. Santos\n\nEngr. ROMAN CASTRO\nMr. EDWIN G. FORONES\nOfficer-In-Charge\nMaritime Industry Authority\nSan Andres Fishing Industry\nMARINA – Region XII\n\nMr. ELIAS RODRIGO SR.\nMr. JOHNNY D. PANERIO\nPort Captain\nRD Fishing Industry, Inc.\nMunicipal FARMC Member / Fisherman\nOMAG- Alabel, Sarangani Province\n\nMr. APOLINARIO A. MOSQUEDA.\nMr. ABEL ALINO\nFisherman / Operator\nMunicipal FARMC\nLomuyon, Kiamba, Sarangai Province\nMaterial Coordinator\nRD Fishing Industry, Inc.\n\nMs. EDNA V. AGUJA\nMr. JAIME S. NAVARRO, JR.\nMunicipal Agricultural Officer\nOMAG- Alabel, Sarangani Province\nRD Tuna Ventures, Inc.\n\n The Participants in the national validation of this Training Regulation\n\nNational Capital Region\n\nRegion VIII\n\n\nRegion XII\n\n• The Management and Staff of the TESDA Secretariat\n• QSO\n\n--- PDF PAGE 176 ---\nList of Published Training Regulations\n\n Agricultural Crops NC I\n Agricultural Crops NC III\n Animal Production NC II\n Aquaculture NC II\n Automotive Body Painting/Finishing NC II\n Automotive Body Repair NC II\n Automotive Engine Rebuilding NC II\n Automotive Servicing NC II\n Bartending NC II\n Building Wiring Installation NC II\n Carpentry NC II\n Commercial Cooking NC II\n Computer Hardware Servicing NC II\n Deck Seafaring NC II\n Dressmaking NC II\n Driving NC II\n Engine Seafaring NC II\n Fish Capture NC I\n Fish Capture NC II\n Food and Beverage Services NC II\n Footwear Making NC II\n Heavy Equipment Operation NC II\n Horticulture NC II\n Horticulture NC III\n Household Services NC II\n Housekeeping NC II\n Machining NC II\n Masonry NC II\n Motorcycle and Small Engine Servicing NC II\n Plumbing NC II\n Pyrotechnics NC II\n RAC Servicing NC I\n RAC Servicing NC II\n Security Services NC II\n Tailoring NC II\n Tour Guiding Services NC II\n Transport RAC Servicing NC II\n Travel Services NC II\n Welding NC II\n\nThese materials are available in both printed and electronic copies.\nFor more information please contact:\nTechnical Education and Skills Development Authority (TESDA)\nTelephone Nos.: 893-8303, 893-2139; 817-4076 to 82 loc. 615 to 617\nor visit our website: www.tesda.gov.ph"
 }

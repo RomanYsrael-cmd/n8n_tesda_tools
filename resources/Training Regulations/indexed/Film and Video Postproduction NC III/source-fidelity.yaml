@@ -1,29 +1,203 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:film-and-video-postproduction-nc-iii:38ba31cfb1",
-  "qualification": "Film and Video Postproduction NC III",
+  "qualification": "FILM AND VIDEO POSTPRODUCTION NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Film and Video Postproduction NC III.pdf",
-    "sha256": "38ba31cfb1de8898c9c5d5639760e0c58fa709277a4445701d94d733698ee429",
+    "source_sha256": "38ba31cfb1de8898c9c5d5639760e0c58fa709277a4445701d94d733698ee429",
+    "pdf_pages": 125,
+    "printed_pages": 121,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is promulgated (11/05/2021); the canonical promulgated field retains the printed date literal.",
+    "The source prints a 298-hour Basic/Common/Core subtotal followed by a separate 120-hour Supervised Industry Learning component; the canonical duration preserves each printed component and records the combined 418-hour arithmetic total.",
+    "The source uses the revised four-column competency layout including Required Knowledge and Required Skills, while source_text preserves the printed CREFVP321 header, spelling, punctuation, and title variants."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is promulgated (11/05/2021); the canonical promulgated field retains the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints a 298-hour Basic/Common/Core subtotal followed by a separate 120-hour Supervised Industry Learning component; the canonical duration preserves each printed component and records the combined 418-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout including Required Knowledge and Required Skills, while source_text preserves the printed CREFVP321 header, spelling, punctuation, and title variants."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Film and Video Postproduction NC III.pdf",
-    "pdf_pages": 125,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        10,
+        13
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        14,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        23,
+        27
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "CRE265201",
+      "source_unit_code": "CRE265201",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    },
+    {
+      "unit_code": "CRE265202",
+      "source_unit_code": "CRE265202",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    },
+    {
+      "unit_code": "CRE265203",
+      "source_unit_code": "CRE265203",
+      "pdf_page_range": [
+        47,
+        48
+      ]
+    },
+    {
+      "unit_code": "CRE265204",
+      "source_unit_code": "CRE265204",
+      "pdf_page_range": [
+        49,
+        50
+      ]
+    },
+    {
+      "unit_code": "CRE265205",
+      "source_unit_code": "CRE265205",
+      "pdf_page_range": [
+        51,
+        52
+      ]
+    },
+    {
+      "unit_code": "CRE265206",
+      "source_unit_code": "CRE265206",
+      "pdf_page_range": [
+        53,
+        54
+      ]
+    },
+    {
+      "unit_code": "CRE265207",
+      "source_unit_code": "CRE265207",
+      "pdf_page_range": [
+        55,
+        57
+      ]
+    },
+    {
+      "unit_code": "CRE343305",
+      "source_unit_code": "CRE343305",
+      "pdf_page_range": [
+        58,
+        63
+      ]
+    },
+    {
+      "unit_code": "CRE343306",
+      "source_unit_code": "CRE343306",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "CRE343307",
+      "source_unit_code": "CRE343307",
+      "pdf_page_range": [
+        69,
+        73
+      ]
+    },
+    {
+      "unit_code": "CRE343308",
+      "source_unit_code": "CRE343308",
+      "pdf_page_range": [
+        74,
+        79
+      ]
+    }
+  ]
 }

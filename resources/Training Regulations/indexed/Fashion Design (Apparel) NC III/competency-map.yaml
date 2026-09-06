@@ -4,87 +4,64 @@
   "document_id": "tesda:tr:fashion-design-apparel-nc-iii:560b24327f",
   "qualification": "FASHION DESIGN (APPAREL) NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "required to lead in the dissemination and discussion of"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "and attitude required in selecting, sourcing and"
-      },
-      {
-        "unit_code": "GRM743203",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743204",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743205",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "HCS516201",
-        "title": ":"
-      },
-      {
-        "unit_code": "GRM743318",
-        "title": ":"
-      },
-      {
-        "unit_code": "GRM743319",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "GRM743317",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "lead small teams including setting and maintaining"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "required to collect information in order to negotiate to"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical concepts"
-      },
-      {
-        "unit_code": "HCS516202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515204",
-        "title": ":"
-      },
-      {
-        "unit_code": "GRM743320",
-        "title": ":"
-      },
-      {
-        "unit_code": "GRM743321",
-        "title": ":"
-      },
-      {
-        "unit_code": "GRM743322",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nGarment Sector\nFASHION DESIGN (APPAREL) NC III\nApply\nquality\nstandard\nCarry out\nmeasurements\nand calculation\nSet-up and\noperate machines\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASIC\nCOMPETENCIES\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\nPrepare and\nCut Materials of\nLadies’ Casual\nApparel\nSew Ladies’\nCasual\nApparel\nDraft and Cut\nPattern of\nLadies’ Casual\nApparel\nApply Finishing\nTouches on\nLadies’ Casual\nApparel\nDraft and Cut\nPattern of\nLadies High\nFashion Apparel\nDraft and Cut\nPattern of\nCasual Apparel\nPrepare and\nCut Materials of\nLadies’High\nFashion Apparel\nDraft and Cut\nPattern of\nLadies’ Formal\nApparel\nPrepare and\nCut Materials of\nLadies’ Formal\nApparel\nSew\nLadies’\nFormal\nApparel\nApply finishing\ntouches on\nLadies’ Formal\nApparel\nSew Ladies’\nHigh Fashion\nApparel\nApply Finishing\nTouches on\nLadies’ High\nFashion Apparel\nCreate Garment\nDesigns\nCalculate and\nProcure\nGarment\nMaterials\nSupervise\nGarment\nPrototype\nPreparation and\nMass Production\nEvaluate\nFinished\nProduct\nSupervise\npackaging and\ndispatching of\nFinished\nProduct\nPerform\npromotional\nactivities for\nfashion products\nand/or services\n\n--- PDF PAGE 70 ---\nTR Fashion Design (Apparel) NC III (Garment Sector)\n\n66",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "GRM743203",
+        "GRM743204",
+        "GRM743205",
+        "HCS515201",
+        "HCS515202",
+        "HCS515204"
+      ],
+      "unit_titles": [
+        "Carry out measurements and calculation",
+        "Set up and operate machine/s",
+        "Perform basic maintenance",
+        "Maintain an effective relationship with clients/customers",
+        "Manage own performance",
+        "Apply quality standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "GRM743317",
+        "GRM743318",
+        "GRM743319",
+        "GRM743320",
+        "GRM743321",
+        "GRM743322"
+      ],
+      "unit_titles": [
+        "Create garment designs",
+        "Calculate and procure garment materials",
+        "Supervise garment prototype preparation and mass production",
+        "Evaluate finished product",
+        "Supervise packaging and dispatching of finished garment",
+        "Perform promotional activities for fashion products and/or services"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be\nawarded National Certificate signed by the TESDA Director General\n\n4.2\nThe qualification of Fashion Design (Apparel) NC III may be attained through:\n\n4.2.1 Demonstration of competence through project-type assessment\ncovering all the required units of qualification.\n\n4.2.2 Accumulation of Certificates of Competency (COCs) in all of the\nfollowing areas:\n\n4.2.1.1\nCreate garment designs\n4.2.1.2\nSupervise garment production\n4.2.1.2.1 Calculate and procure garment materials\n4.2.1.2.2 Supervise garment prototype preparation and\nmass production\n4.2.1.2.3 Evaluate finished product\n4.2.1.2.4 Supervise packaging and dispatching of finished\ngarment\n4.2.1.1\nPerform promotional activities for fashion products and/or\nservices\n\nSuccessful candidates shall be awarded Certificates of\nCompetency (COC).\n\nUpon accumulation and submission of all COCs acquired for the\nrelevant units of competency comprising a qualification, an individual\nshall be issued the corresponding National Certificate.\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-\nbased training programs.\n\n4.4.2 Experienced workers (wage-employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)”.\n\n--- PDF PAGE 69 ---\nTR Fashion Design (Apparel) NC III (Garment Sector)\n65\n\nPerform\nbasic\nmaintenance\nCOMPETENCY MAP\nGarment Sector\nFASHION DESIGN (APPAREL) NC III\nApply\nquality\nstandard\nCarry out\nmeasurements\nand calculation\nSet-up and\noperate machines\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASIC\nCOMPETENCIES\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\nPrepare and\nCut Materials of\nLadies’ Casual\nApparel\nSew Ladies’\nCasual\nApparel\nDraft and Cut\nPattern of\nLadies’ Casual\nApparel\nApply Finishing\nTouches on\nLadies’ Casual\nApparel\nDraft and Cut\nPattern of\nLadies High\nFashion Apparel\nDraft and Cut\nPattern of\nCasual Apparel\nPrepare and\nCut Materials of\nLadies’High\nFashion Apparel\nDraft and Cut\nPattern of\nLadies’ Formal\nApparel\nPrepare and\nCut Materials of\nLadies’ Formal\nApparel\nSew\nLadies’\nFormal\nApparel\nApply finishing\ntouches on\nLadies’ Formal\nApparel\nSew Ladies’\nHigh Fashion\nApparel\nApply Finishing\nTouches on\nLadies’ High\nFashion Apparel\nCreate Garment\nDesigns\nCalculate and\nProcure\nGarment\nMaterials\nSupervise\nGarment\nPrototype\nPreparation and\nMass Production\nEvaluate\nFinished\nProduct\nSupervise\npackaging and\ndispatching of\nFinished\nProduct\nPerform\npromotional\nactivities for\nfashion products\nand/or services\n\n--- PDF PAGE 70 ---\nTR Fashion Design (Apparel) NC III (Garment Sector)\n\n66\n\nDEFINITION OF TERMS\n\nFigure details\nrefers to full or partial body drawings.\nHands-on\na form of experiential learning that offers students the\ntotal environment in which they are expected to learn the\ncontent. It involves directly observing and practicing the\nins and outs of a particular industry in “real time”.\nLecture/Demonstration\na teaching procedure that consists of conveying content\nof the course to the student through discourse, including\nexplanation and clarification of major ideas. It also\ninvolves the teacher performing various procedures that\nthe students shall observe.\nModiste\nsupplies refers to materials used for pattern-making and\nsewing.\nSimulation\n\na form of experiential learning in which the students\nparticipate in class activities that will require them to\nassume roles under a particular scenario. Simulation\nactivities include, but not limited to, games, acting out\n(role-playing),\nand\nmock\ndemonstrations.\nThese\nactivities are part of the hands-on methodology.\nStudy Tour\nattaining\nspecific\nlearning\ngoals\nthrough\non-site\nexperience. These learning goals are explicitly stated in\nthe course syllabus.\nSustainable Fashion\nalso called eco fashion, is a part of the growing design\nphilosophy and trend of sustainability, the goal of which\nis to create a system which can be supported indefinitely\nin terms of environmentalism and social responsibility.\nTrimmings\nrefers to accessories and items such as lace, ric-rac,\nsoutache and ribbons.\nSoutache\na narrow flat ornamental decorative braid used in the\ntrimming of drapery or clothing.\nRic-rac\nis a flat narrow braid woven in zigzag form used as\ntrimming in clothing.\nMood board\nis a collation of images, texts & samples wherein the\ndesign inspiration is derived.\nPrototype\nis a preliminary model or an early sample to test a\ndesign.\nSwatch\nis a sample strip cut from a piece of material.\nDress form\nis a tool to view the 3-dimensional parts of a garment\nbeing sewn.\nHam/Sleeve board\nare tools used for pressing garment parts such as\nsleeves bust area, collars and dart areas.\nSpecification Sheet\nrefers to a data containing the final instruction regarding\nsizes, stitches, etc.\n\n--- PDF PAGE 71 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\n INDUSTRY EXPERTS\n\nJOHNNY H. ABAD\nCHRISTINE CHERYL Y BENET\nFashion Designer /Chairman, Board of Directors\nAcademic Director\nFashion Designers’ Association of the\nSchool of Fashion and the Arts (SOFA)\n Philippines (FDAP)\n\nISABELO S. DELA CRUZ, JR.\nFRANCISCO Z. CALAQUIAN\nFashion Designer /Board of Director\nFashion Designer /Owner\nFashion Designers’ Association of the\nFrancis Z. Calaquian Fashion Salon\n Philippines (FDAP)\nJULIUS JOSE F. ORNUM\nRICHARD M. PAPA\nFashion Designers’ Association of the\nFashion Designer /Vice-President for External Affairs\n Philippines (FDAP)\nFashion Designers’ Association of the\n Philippines (FDAP)\n\nOwner, C4 Couture\nThe Participants in the Validation of this Training Regulation\n\nJOEL L. BAUTISTA\nDANILO M. FRANCO\nFashion Designer /Owner\nFashion Designer /Owner\nJoel Bautista Fashion Salon\nFashion by the Wedding Designers of the\nDanilo Franco Creations\n\n Philippines (FWDP)\nNORLANDO A. PINEDA\n\nFashion Designer/Owner\nDENNIS C. MARTIN\nAlan Pineda Fashion Salon\nFashion Designer /Owner\nDennis Martin Couture Shop\n\nFashion by the Wedding Designers of the\n Philippines (FWDP)\n\n• The Members of the TESDA Board\n\n• The MANAGEMENT and Staff of the TESDA Secretariat\n•\nQualifications and Standards Office (QSO)"
 }
