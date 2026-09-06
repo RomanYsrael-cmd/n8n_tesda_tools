@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T11:10:39+08:00",
+  "last_updated": "2026-09-06T11:25:24+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 30,
-  "remaining_unaudited": 354,
+  "audited_count": 35,
+  "remaining_unaudited": 349,
   "blocked_count": 0,
   "documents": [
     {
@@ -398,6 +398,71 @@
       "validation_passed": true,
       "last_audit_commit": "c2e607f67eac0b1070f95244976d7c7a6fac09b1",
       "audit_notes": "Rebuilt 4/3/4 plus 2 elective legacy two-column groups; repaired the singular elective curriculum label and EVIDENCE PLAN heading, preserved the 127-hour total plus separate 48-hour elective, and restored glossary, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Assistive Rehabilitation Technology Services (Orthotics) NC II",
+      "package_path": "resources/Training Regulations/indexed/Assistive Rehabilitation Technology Services (Orthotics) NC II",
+      "source_file": "resources/Training Regulations/Assistive Rehabilitation Technology Services (Orthotics) NC II.pdf",
+      "source_sha256": "5e14a4bde862d8739deb404cfa3a40e2b388d2b0a7361409a3dbb0b44cfa0e35",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:25:24+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "457bf745fcf7c0d1250358748d0ee74c1d78376f",
+      "audit_notes": "Rebuilt 9/4/7 revised four-column groups; restored 85 curriculum rows, 1,053-hour duration arithmetic including 480-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving the HUMAN HEALTH/EALTH CARE source typo."
+    },
+    {
+      "package": "Assistive Rehabilitation Technology Services (Prosthetics) NC II",
+      "package_path": "resources/Training Regulations/indexed/Assistive Rehabilitation Technology Services (Prosthetics) NC II",
+      "source_file": "resources/Training Regulations/Assistive Rehabilitation Technology Services (Prosthetics) NC II.pdf",
+      "source_sha256": "cd94af96eab115d7590e44f675c81a4c2bdec72765e513c916055e7d8b98fdb6",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:25:24+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "457bf745fcf7c0d1250358748d0ee74c1d78376f",
+      "audit_notes": "Rebuilt 9/4/6 revised four-column groups; restored 81 curriculum rows, 993-hour duration arithmetic including 480-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving the TRAINING ARRANEGMENTS and HUMAN HEALTH/EALTH CARE source variants."
+    },
+    {
+      "package": "Assistive Rehabilitation Technology Services (Wheelchair) NC II",
+      "package_path": "resources/Training Regulations/indexed/Assistive Rehabilitation Technology Services (Wheelchair) NC II",
+      "source_file": "resources/Training Regulations/Assistive Rehabilitation Technology Services (Wheelchair) NC II.pdf",
+      "source_sha256": "83c9707e15034fc1420676de8c6edebb66b9058ec3cc06266cd8cbe300757ea2",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:25:24+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "457bf745fcf7c0d1250358748d0ee74c1d78376f",
+      "audit_notes": "Rebuilt 9/4/7 revised four-column groups; restored 62 curriculum rows, 735-hour duration arithmetic including 480-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving the source Section 1 code/title layout gaps and cover typo."
+    },
+    {
+      "package": "Attractions and Theme Parks Operations NC II",
+      "package_path": "resources/Training Regulations/indexed/Attractions and Theme Parks Operations NC II",
+      "source_file": "resources/Training Regulations/Attractions and Theme Parks Operations NC II.pdf",
+      "source_sha256": "14089ae2c601b545b31fd1ec9a3f2ac2ec27d4b52fc516a2c9ef134b381fcc32",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:25:24+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "457bf745fcf7c0d1250358748d0ee74c1d78376f",
+      "audit_notes": "Rebuilt 4/5/3 plus 9 elective historical two-column groups; restored 75 curriculum rows, normalized the 126-hour arithmetic sum from the four source duration categories, repaired assessment/fidelity metadata and selectors, and preserved the duplicated ride specialization mapping in source Section 1."
+    },
+    {
+      "package": "Audio Production Services NC I",
+      "package_path": "resources/Training Regulations/indexed/Audio Production Services NC I",
+      "source_file": "resources/Training Regulations/Audio Production Services NC I.pdf",
+      "source_sha256": "ef435ae904a1a0b3b66482e989b51507c722ecfb1cba868de7e06ab9c520a451",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:25:24+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "457bf745fcf7c0d1250358748d0ee74c1d78376f",
+      "audit_notes": "Rebuilt 9/7/2 revised four-column groups; restored 55 curriculum rows, 315-hour duration arithmetic including 80-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving the Section 1 code gaps reflected by the source layout."
     }
   ]
 }
