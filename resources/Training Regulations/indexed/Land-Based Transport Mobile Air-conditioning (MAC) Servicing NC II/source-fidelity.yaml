@@ -1,29 +1,216 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:land-based-transport-mobile-air-conditioning-mac-servicing-nc-ii:2021-06-08",
-  "qualification": "Land-Based Transport Mobile Air-conditioning (MAC) Servicing NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:land-based-transport-mobile-air-conditioning-mac-servicing-nc-ii:c14d34732e",
+  "qualification": "LAND-BASED TRANSPORT MOBILE AIR-CONDITIONING (MAC) SERVICING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Land-Based Transport Mobile Air-conditioning (MAC) Servicing NC II.pdf",
-    "sha256": "c14d34732e2ee0f0f5275110d80ae352c533b927b02c735af09e24b38e3542e9",
+    "source_sha256": "c14d34732e2ee0f0f5275110d80ae352c533b927b02c735af09e24b38e3542e9",
+    "pdf_pages": 115,
+    "printed_pages": 110,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Promulgated: June 8, 2021; the canonical date field preserves that literal and the 1 through 110 printed-page sequence from the table of contents, including the revision-history page.",
+    "The source uses four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields.",
+    "The source prints 37 Basic, 35 Common, and 240 Core hours plus 400 hours of Supervised Industry Learning (SIL), for 312 classroom hours and 712 total hours; the canonical duration records the SIL component under the shared OJT field while source text preserves the SIL label.",
+    "Section 1 identifies HVC311204 Maintain tools, instruments and equipment and HVC315201 Perform housekeeping and safety practices, while Section 2 headings print HVC311205 and HVC7315201 respectively; canonical units follow Section 1 and source_unit_code/source-fidelity preserve the heading variants."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Promulgated: June 8, 2021; the canonical date field preserves that literal and the 1 through 110 printed-page sequence from the table of contents, including the revision-history page."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 35 Common, and 240 Core hours plus 400 hours of Supervised Industry Learning (SIL), for 312 classroom hours and 712 total hours; the canonical duration records the SIL component under the shared OJT field while source text preserves the SIL label."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 identifies HVC311204 Maintain tools, instruments and equipment and HVC315201 Perform housekeeping and safety practices, while Section 2 headings print HVC311205 and HVC7315201 respectively; canonical units follow Section 1 and source_unit_code/source-fidelity preserve the heading variants."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Land-Based Transport Mobile Air-conditioning (MAC) Servicing NC II.pdf",
-    "pdf_pages": 115,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        28,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        30,
+        31
+      ]
+    },
+    {
+      "unit_code": "HVC713201",
+      "source_unit_code": "HVC713201",
+      "pdf_page_range": [
+        32,
+        33
+      ]
+    },
+    {
+      "unit_code": "HVC311202",
+      "source_unit_code": "HVC311202",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "HVC311201",
+      "source_unit_code": "HVC311201",
+      "pdf_page_range": [
+        38,
+        39
+      ]
+    },
+    {
+      "unit_code": "HVC311203",
+      "source_unit_code": "HVC311203",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "HVC713202",
+      "source_unit_code": "HVC713202",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "HVC724201",
+      "source_unit_code": "HVC724201",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "HVC311204",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        51,
+        54
+      ]
+    },
+    {
+      "unit_code": "HVC315201",
+      "source_unit_code": "HVC7315201",
+      "pdf_page_range": [
+        55,
+        59
+      ]
+    },
+    {
+      "unit_code": "HVC311205",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        60,
+        61
+      ]
+    },
+    {
+      "unit_code": "HVC723348",
+      "source_unit_code": "HVC723348",
+      "pdf_page_range": [
+        62,
+        67
+      ]
+    },
+    {
+      "unit_code": "HVC723349",
+      "source_unit_code": "HVC723349",
+      "pdf_page_range": [
+        68,
+        72
+      ]
+    },
+    {
+      "unit_code": "HVC723350",
+      "source_unit_code": "HVC723350",
+      "pdf_page_range": [
+        73,
+        75
+      ]
+    }
+  ]
 }

@@ -2,101 +2,72 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:landscape-installation-and-maintenance-softscape-nc-ii:8a5cbc36a8",
-  "qualification": "Landscape Installation and Maintenance (Softscape) NC II",
+  "qualification": "LANDSCAPE INSTALLATION AND MAINTENANCE (SOFTSCAPE) NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR321202",
-        "title": "This unit covers the knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "AGR321203",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611371",
-        "title": ": This unit covers the knowledge, skills and"
-      },
-      {
-        "unit_code": "AGR611372",
-        "title": "perform rough grading operations for drainage and erosion"
-      },
-      {
-        "unit_code": "AGR611373",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AGR611374",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611375",
-        "title": "required to install plant support immediately after planting."
-      },
-      {
-        "unit_code": "AGR611376",
-        "title": "required to trim and prune landscape plant based on the"
-      },
-      {
-        "unit_code": "AGR611383",
-        "title": ": This unit covers the knowledge, skills and attitudes required to"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AGR321201",
-        "title": "This unit covers the knowledge, skills and attitudes required to"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "AGR611377",
-        "title": "conduct weeding operations and soil cultivation activities. This"
-      },
-      {
-        "unit_code": "AGR611378",
-        "title": ": This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "AGR611379",
-        "title": ": This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "AGR611380",
-        "title": "determine types of pests and diseases and their prevention and"
-      },
-      {
-        "unit_code": "AGR611381",
-        "title": ": This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "AGR611382",
-        "title": ": This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "AGR611384",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n85",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR321201",
+        "AGR321202",
+        "AGR321203"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm and nursery operations",
+        "Use farm and nursery tools and equipment",
+        "Perform estimation and calculations"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AGR611371",
+        "AGR611372",
+        "AGR611373",
+        "AGR611374",
+        "AGR611375",
+        "AGR611376",
+        "AGR611377",
+        "AGR611378",
+        "AGR611379",
+        "AGR611380",
+        "AGR611381",
+        "AGR611382",
+        "AGR611383",
+        "AGR611384"
+      ],
+      "unit_titles": [
+        "Provide site clearing and grubbing activities",
+        "Perform rough grading operations",
+        "Perform site preparation activities",
+        "Install plants at designated locations as designed",
+        "Install plant supports",
+        "Trim and prune landscape plants",
+        "Perform weeding and cultivation",
+        "Apply fertilizer (Nutrition)",
+        "Water/Irrigate plants",
+        "Control and prevent plant pest and diseases",
+        "Provide plant support",
+        "Perform lawn grass maintenance",
+        "Perform re-planting activities",
+        "Collect, dispose and utilize organic waste"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National Certificate\nsigned by the TESDA Director General.\n\n4.2\nThe qualification of Landscape Installation and Maintenance (Soft Scape) NC\nII may be attained through demonstration of competence using project-based\nassessment covering all the required units of qualification.\n4.2.1. Accumulation of Certificates of Competency (COCs) in the following\nareas:\n4.2.1.1\nInstallation / Construction\n Provide site clearing and grubbing activities\n Perform rough grading operations\n Perform site preparation activities\n Install plants at designated locations as designed\n Install plant support\n4.2.1.2\nMaintenance\n Trim and prune landscape plant\n Perform weeding and cultivation\n Apply fertilizer (Nutrition)\n Water plants\n Control and prevent plant pests and diseases\n Provide plant support\n Perform lawn grass maintenance\n Perform re-planting activities\n Collect, dispose and utilize organic waste\n\nSuccessful candidates shall be awarded Certificates of Competency\n(COCs) bearing the signature of the Regional Director and Chair of the\nrecognized local industry body.\n\n4.3.\nAccumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate.\n\n4.4.\nAssessment shall focus on the core units of competency. The basic and common\nunits shall be integrated or assessed concurrently with the core units.\n\n4.5. The following are qualified to apply for assessment and certification:\n\n 4.5.1 Graduates of formal, non – formal and informal including enterprise – based\ntraining programs\n4.5.2 Experienced workers (wage employed or self – employed)\n\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\nProcedures Manual on Assessment and Certification and Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS).\n\n--- PDF PAGE 91 ---\nTR Landscape Installation and Maintenance NC II 85\n\nCOMMON\nCOMPETENCIES\nApply Safely\nMeasures\nUse Farm Tools\nand Equipment\nPerform\nEstimation and\nBasic Calculation\nApply mulch\nmaterials\nPerform rough\ngrading\noperations\nInstall plant\nsupport\nPerform site\npreparation\nactivities\nPrepare a garden\ndesign\nPrepare specialized\ninterpretive content\nSupervise landscape\nproject works\nSupevise landscape\nplanting works\nSupport landscape\nwork\nSet out landscape\nworks\nSupport turf\nestablishment\nCORE COMPETENCIES\nSupermarket of Competencies\nAGRI-FISHERY (Landscaping) Sector\nProvide site\nclearing and\ngrubbing\nactivities\nControl and prevent\npest plant pest and\ndiseases\nTrim and prune\nlandscape plant\nApply\nfertilizer\n(Nutrition)\nPerform weeding\nand cultivation\nWater plants\nProvide general\nground care\nManage landscape\nprojects\nPrepare detailed\ndesigned of\nlandscaping\nPrepare a\nLandscape project\ndesign\nPerform lawn grass\nmaintenance\nProvide plant\nsupport\nCollect, dispose\nand utilize\norganic waste\nPerform re-planting\nactivities\nLANDSCAPING NC II\n\nenvironment\nBASIC\nCOMPETENCIES\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncommunication\nWork\n in team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nprocedures\nLead\nworkplace\n communication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\n\nDevelop and\nimplement a\ngrounds\nmaintenance prog.\nInstall plants at\ndesignated\nlocations as\nTransplant small\ntrees\nAssist in landscape\nconstruction work\nImplement a\nlandscape\nmaintenance\nprogram\nImplement a\npaving project\nEstablish and\nmaintain railway\nLandscape\ngarden\nDesign landscape\nstructures and\nfeatures\nGuide bushwalks\nin unmodified\nlandscapes\nConstruct stone\nstructures and\nfeautures\nConstruct an\noutdoor\nrecreation area\naccess audit\n\n--- PDF PAGE 92 ---\nTR Landscape Installation and Maintenance NC II 86\n\nDEFINITION OF TERMS\n\n1. Acidic soils - are commonly referred to as \"sour.\" Acidity is the characteristic of soils that\nhave a pH level of less than 7. Such a low pH is suited to plants that thrive in acidic soil (as\nopposed to alkaline or \"sweet\" soil), including the delightful 'Minuet' laurel shrubs.\n\n2. Aesthetic - pertaining to the appreciation of beauty or good taste, \"aesthetic\" means visually\npleasing. The noun that corresponds to \"aesthetic\" is \"aesthetics,\" which means the study of\nthe appreciation of beauty. Landscape design is concerned both with aesthetic and\nfunctional elements of landscaping.\n\n3. Alkalinity - is the characteristic of soils with a pH level that is greater than 7, which is\nsuitable for plants that thrive in a \"sweet\" (alkaline) soil, as opposed to a \"sour\" or acid soil. If\nsoil pH needs to be raised (i.e., the soil isn't alkaline enough), apply lime.\n\n4. Arboriculture - is the art, science, technology and business of tree care. Arboriculture is\npracticed by arborists. Arborists are trained to promote tree health, discern tree problems\nand take measures to correct them\n\n5. Balance - refers to the consistency of visual attraction, or lack thereof. Consistent visual\nattraction is achieved through symmetry; if the designer’s intention is to avoid the monotony\nof this kind of balance, asymmetrical plans will be implemented, instead. Note that, while it\nmay seem a contradiction in terms to novices, landscape designers do speak of\n\"asymmetrical balance,\" as well as of \"symmetrical balance.\"\n\n6. Bedding plants - are plants (usually annuals) massed with others to produce the maximum\nin visual appeal. With an eye to the five basic elements of landscape design (color, scale,\nline, form and texture), a landscape designer skillfully arranges each bedding plant in\nrelation to the accompanying annuals, perennials, shrubs and trees. By browsing the\npictures in the following resource, you can learn more about how to use the five basic\nelements of landscape design:\n\n7. Biodegradable - means capable of being decomposed back into the soil by biological\nagents, especially bacteria. \"Biodegradable\" is often used to refer to items that are to be\ndisposed of. Environmentally sound landscaping and gardening often takes into account\nwhether materials are biodegradable. For instance, plastic might be rejected as a material\nfor mulching because it is not biodegradable.\n\n8. Color theory - is a complex study, and I present only a sampling here, to show how it is used\nin landscape design. For instance, according to color theory, the spectrum is often divided\ninto 4 categories: Primary: reds, yellows and blues ,Secondary: greens, violets (purples) and\noranges, Tertiary: Mixtures of the primary and secondary categories and Neutral: White,\ngrays and silvers.\n9. The spectrum is often represented as a wheel, divided into slices that stand for the various\nhues (colors). Using color theory, landscapers may refer to this wheel to choose adjacent\ncolors in the spectrum, in order to provide unity; or they may deliberately juxtapose items\ndirectly across from each other on the wheel to make a contrast.\n\n--- PDF PAGE 93 ---\nTR Landscape Installation and Maintenance NC II 87\n\n10. Complete fertilizers - are so called because they contain nitrogen, phosphorus and\npotassium, the Big 3 in fertilizer ingredients. A fertilizer listed as \"10-10-10,\" for instance,\nwould be a complete fertilizer. But a fertilizer listed as \"10-0-10\" would not be a complete\nfertilizer, the middle zero indicating the absence of phosphorus in the fertilizer.\n\n11. Cotyledon leaves - are the leaves of the embryo of a seed plant, which, upon germination,\neither remain in the seed or emerge, enlarge, and become green. Cotyledon leaves are also\ncalled \"false leaves\" or \"seed leaves,\" in contradistinction to the first \"true leaves\" which\ndevelop later.\n\n12. Cover crops - are plants that are primarily planted not to be harvested for food but for soil\nerosion control, weed control and improving soil quality while the garden is otherwise\ndormant. A cover crop is usually ploughed or tilled under before the next food crop is\nplanted, in which cases the \"cover crop\" is used as a soil amendment and is synonymous\nwith \"green manure crop.\" In its capacity to control weeds it is designated a \"living mulch.\"\nFrom the landscape designer’s perspective, the choice between various cover crops could\nbe influenced by aesthetics, since the cover crop is, after all, taking the place of garden\nplants in between growing seasons.\n\n13. Dethatching - is the mechanical removal from a lawn of the layer of dead turfgrass tissue\nknown as \"thatch.\" Raking deeply when you rake leaves in the fall is an easy step you can\ntake towards dethatching.\n\n14. Dry wall - is a wall of stones that is not held together by mortar. Dry-wall construction\nrequires greater precision in the way stones are stacked than does mortared-wall\nconstruction, since proper placement alone keeps the wall intact.\n\n15. Edging - is a line of demarcation that creates visual interest in a landscape by separating\none segment from another.\n\n16. Evergreen - means having foliage that persists and retains its color throughout the year,\nrather than changing color according to the seasons. The term, \"evergreen\" is something of\na misnomer, as the color in question needn't be green.\n\n17. Finials - are the small, ornamental, terminal features at the top of a gable, fence post, lamp,\nlamppost, stone wall, etc. Finials are optional, being non-structural elements: their job is\naesthetic, giving a \"finished\" touch to a hardscape feature\n\n18. Forcing - is the process of causing a plant to flower before its natural season. For instance,\nmany people eager for Old Man Winter's exit force forsythia flowers in February or March.\nForcing pussy willows is another common pastime in late winter.\n\n19. Gazebo - is a small roofed outbuilding erected for outdoor dining and entertaining. This\nhardscape feature is often octagonal, with open, screened, or latticework sides. The plural\nform of the term, gazebo is given either as \"gazebos\" or \"gazeboes.\"\n\n--- PDF PAGE 94 ---\nTR Landscape Installation and Maintenance NC II 88\n\n20. Grafting - is the uniting of a shoot or bud (the scion) with a plant (the rootstock) that is\nalready established, either by insertion or by placing them in close contact. One danger of\ngrafting is girdling. Grafting is a common procedure in the development of fruit tree stock.\n\n21. Hardening off plants - is the process, undertaken in spring in the temperate zone, of\npreparing plants started indoors for the change in environmental conditions they will\nencounter when permanently moved outdoors. Without allowing plants to harden off, they\nwill be negatively impacted by the sudden shock of exposure to daytime's sunrays and\nnighttime's coolness. The process of hardening off plants involves a transitional period in\nwhich plants are left outside during daylight hours only and in an area where they can be\nshaded and protected from wind. Having a cold frame facilitates hardening off, but it is not\nessential that you have a cold frame. Watering is reduced as well during the hardening off\nperiod. Gradually, the plant is allowed exposure to an increasing amount of sunlight and\nallowed to stay out later and later.\n\n22. Herbaceous plants- are plants with non-woody stems. Their above-ground growth usually\ndies back in winter in the temperate zone, even in cases where the herbaceous plants in\nquestion are perennials. All \"annual\" plants are \"herbaceous,\" but not all herbaceous plants\nare annuals. An \"annual\" is a plant that dies altogether at the end of the growing season,\nboth above the ground and below it. \"Perennials,\" by contrast, survive the winter, even if\ntheir above-ground growth dies back.\n23. Hybrid plants - are plants produced by impregnating the pistil of one species with the pollen\nof another.\n\n24. Integrated pest management, or IPM - is the management of pest problems that involves\nuse of the full spectrum of control measures in a coordinated, integrated and foresighted\nmanner. A cornerstone of IPM is the idea that taking preventive steps to preclude a pest\nproblem is preferable to waiting for pests to arrive and then having to eradicate them.\n\n25. Landscape architecture - is the profession that practices the art of arranging or modifying\nthe features of a landscape, an urban area, etc., for aesthetic or practical purposes.\n\nLandscape architecture must be distinguished from landscape design. The American\nSociety of Landscape Architects asserts that someone who makes a career of \"landscape\narchitecture,\" properly speaking, possesses a higher level of skill, usually reinforced by a\ndegree, than is possessed by a \"landscape designer.\" Degrees and professional status\nnotwithstanding, it is still accurate to say that members of the landscape architecture\nprofession do practice landscape design.\n26. Landscaping - can be used grammatically either as a noun or as the present participle of a\nverb. In the latter case, \"landscaping\" either can take an object (transitive) or go without one\n(intransitive). For example, I can say either \"I am landscaping to increase the value of my\nproperty\" (intransitive) or \"I am landscaping my property to increase its value (transitive).\nEither way, the noun, \"landscaping\" derives from the participial use and designates the\nprocess or result of such an action.\n\n--- PDF PAGE 95 ---\nTR Landscape Installation and Maintenance NC II 89\n\n27. Mulch - is a covering placed around plants (or covering the ground in lieu of plants), to\nprevent the growth of weeds. If placed around plants, a mulch provides additional benefits,\nincluding the diminution of erosion and water loss, and the regulation of soil temperature. In\naddition, upon decomposition (for organic mulches), mulches serve as soil amendments.\nMulch selection is usually based on appearance, as well as on all the practical\nconsiderations mentioned above.\n\n28. Naturalized plants - are plants established as a part of the flora of a locale other than their\nplace of origin. When a plant naturalizes in an area, this can be either a \"good\" or a \"bad\"\nthing, depending on your opinion of the particular naturalized plant.\n\n29. Soil pH - is the measure of the acidity or alkalinity of a soil, numerically equal to 7 for soils\nwith a neutral pH, increasing with rising alkalinity and falling with increasing acidity. The soil\npH scale commonly in use ranges from 0 to 14. Soil pH is not fixed; you can take measures\nto alter soil pH. If soil pH needs to be lowered (i.e., the soil isn't acidic enough), apply sulfur\nor commercial fertilizers containing ammonium-N. If soil pH needs to be raised (i.e., the soil\nisn't alkaline enough), apply lime\n30. Shrubs - are low woody plants, usually with multiple shoots or stems from the base (height\nof 15 feet or less). A planting of shrubs is called \"shrubbery.\"\n\n31. Softscape - comprises the animate, horticultural elements of landscape design, i.e., plants.\nSoftscape elements are complemented by hardscape design elements, such as stone walls,\ntile pations and brick walkways.\n\n32. Tendrils - are twisting, threadlike structures by which true climbers, such as grape vines or\ncucumber vines, grasp an object for support. Vines with tendrils will climb on their own,\nwithout being trained. In some cases, however, you will still want to tie vines to arbors,\npergolas, latticework or other structures even if they do have tendrils, in order to cause the\nplant to climb precisely where you wish it to grow.\n\n33. Lawn thatch - is the layer of dead turfgrass tissue between the green vegetation and the\nsoil surface that must be removed (a process known as \"dethatching\") to maintain lawn\nhealth. Lawn thatch is derived from stems, leaves, stolons, rhizomes and roots.\n\n34. Xeriscape landscaping - is landscaping designed specifically for areas that are susceptible\nto drought, or for properties where water conservation is practiced. Derived from the Greek\nxeros meaning \"dry,\" the term, xeriscape means literally \"dry landscape.\"\n\n--- PDF PAGE 96 ---\nTR Landscape Installation and Maintenance NC II 90\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies who donated their time and expertise to the development and validation\nof these Training Regulations.\n\nTHE TECHNICAL AND INDUSTRY EXPERT PANEL\n\nDr. RODOLFO P. ESTIGOY\nCol. ALEJANDRO T. ESCAŇO\nChief\nPresident\nBureau of Post-Harvest Research and Extension\nPhilippine Chamber of Agriculture and Food, Inc. (PCAFI)\nCentral Luzon State University (CLSU)\nMFI Bldg., Ortigas Avenue Extension\nMuňoz, Nueva Ecija\nPasig City\nMr. EDWIN ANDOT\nDr. ALMA M. DELA CRUZ\nPresident\nProfessor\nChamber of Agriculture, Fisheries and Food in\nCentral Luzon State University (CLSU)\nNorthern Mindanao\nMuňoz, Nueva Ecija\n2nd Floor, United Way Bldg.\nCapitol Cmpd., Cagayan de Oro City\n\nDr. FERNANDO C. SANCHEZ, JR., PhD\nMr. SALVADOR R. BAUTISTA\nAsst. to the Vice Chancellor for Planning & Dev’t\nAssociate Professor, Crop Science Cluster\nCollege of Agriculture\nLandscaping Project Coordinator\nVilla Escudero Plantation and Resort\nSan Pablo City\nU.P. Los Baños, Laguna\nDr. ARMANDO M. PALIJON PhD\nMs. MARY ANN A. ESPINA\nProfessor\nAssociate Professor\nCollege of Forestry and Natural Resources\nLandscape Design / Architecture\nU.P. Los Baños, Laguna\nU.P. Diliman, Quezon City\nMs. PATRICIA F. REGALADO\nMr. RAYMUNDO G. ONG\nPresident\nHead, Technical Work Group\nPhilippine Horticultural Society, Inc.\nPhilippine Horticultural Society, Inc.\nMSBF Environment Center\nMSBF Environment Center\nQuezon Ave., cor. EDSA\nQuezon Ave., cor. EDSA\nQuezon City\nQuezon City\n\n--- PDF PAGE 97 ---\nTR Landscape Installation and Maintenance NC II 91\n\nThe PARTICIPANTS in the Validation of this Training Regulation\nEladio S. Sebastina\nGarden City multipurpose Cooperative (GCMPC)\nMelodia Ramos Sampan\nBulacan State University (BSU)\nGenciano P. Pangan\nSymon’s Garden\nLaurence M. Marcelo\nLouie’s Garden\nAurora Calayag\nJoseph’s Garden\nLorenzo E. Sampan\nBSU\nPhilip C. Santiago\nGCMPC\nLucila C. Santiago\nGCMPC\nAdel Luis De Guzman\nGCMPC\nValentina P. Miranda\nBelen’s Gardne\nPrency O. Calonzo\nGCMPC\nRex R. Lizarondo\nGCMPC\nEduardo P. Jose\nGuiguinto Municipal Agricultural Office\nSuzette D. Santiago\nGCMPC\nReynaldo E. Robles\nGCMPC\nJessalyn B. Jesalva\nGCMPC\nEvelyn B. Gesalva\nGCMPC\nShirley D. Garcia\nGCMPC\nJane Anne C. Manuel\nBSU\nMelvin B. Buenavista\nGCMPC\nNatividad T. Camuz\nGCMPC\nRosallie G. Landayan\nGCMPC\nLucila C. Bermudez\nGCMPC\nArsenio P. De Guzman, Jr.\nAPG Garden\nTeodoro C. Marquez\nMarquez Garden\nFelipe S. Pangan\n4 F Garden\nEmma A. Macasaet\nMacasaet Garden\nIsagani L. Nista\nJ’Fels Gardne\nReynaldo M. Panganganan\nGlobal Gardne\nLeonardo P. Hernandez\nLeolens’ Garden\nAntonio C. Buenavista\nJardin de Buenavista\nParticia F. Ignacio\nWonder Green Garden (WGG)\nHeidi C. Sebastian\nKMS Garden Center\nGildbert E. Benedictos\nTwisted Fern Garden\nGregorio M. Guerra\nWGG\nMembers of the TESDA Board\nTESDA EXCOM\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n--- PDF PAGE 98 ---\nTR Landscape Installation and Maintenance NC II 92\n\nList of Published Training Regulations\n Animal Production NC II\n Aquaculture NC II\n Automotive Body Painting/Finishing NC II\n Automotive Body Repair NC II\n Auto Engine Rebuilding NC II\n Automotive Servicing NC II\n Bartending NC II\n Building Wiring Installation NC II\n Carpentry NC II\n Commercial Cooking NC II\n Computer Hardware Servicing NC II\n Deck Seafaring NC II\n Dressmaking NC II\n Driving NC II\n Engine Seafaring NC II\n Food and Beverage Services NC II\n Footwear Making NC II\n Heavy Equipment Operation NC II\n Horticulture NC II\n Household Services NC II\n Housekeeping NC II\n Landscape Installation and Maintenance NC II\n Machining NC II\n Masonry NC II\n Motorcycle and Small Engine Servicing NC II\n Plumbing NC II\n Pyrotechnics NC II\n RAC Servicing NC I\n RAC Servicing NC II\n Security Services NC II\n Tour Guiding Services NC II\n Transport RAC Servicing NC II\n Travel Services NC II\n Welding NC II\n\nThese materials are available in both printed and electronic copies.\nFor more information please contact:\nTECHNICAL EDUCATION AND SKILLS DEVELOPMENT AUTHORITY (TESDA)\nTelephone Nos.: 893-8303, 893-2139; 817-4076 to 82 loc. 615 to 617\nor visit our website: www.tesda.gov.ph"
 }

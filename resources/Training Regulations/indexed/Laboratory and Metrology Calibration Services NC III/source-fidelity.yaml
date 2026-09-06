@@ -1,29 +1,152 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:laboratory-and-metrology-calibration-services-nc-iii:dceb72ecf3",
-  "qualification": "Laboratory and Metrology Calibration Services NC III",
+  "qualification": "LABORATORY AND METROLOGY CALIBRATION SERVICES NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Laboratory and Metrology Calibration Services NC III.pdf",
-    "sha256": "dceb72ecf30d132cf88b438dcaf0783144439869c05bfdc6f17d2b4e0c597036",
+    "source_sha256": "dceb72ecf30d132cf88b438dcaf0783144439869c05bfdc6f17d2b4e0c597036",
+    "pdf_pages": 58,
+    "printed_pages": 54,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints a running-header 'Promulgated' label without a date; the canonical promulgated field remains null while the 1 through 54 printed-page sequence is preserved from the table of contents and document structure.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 20 Basic, 20 Common, and 56 Core hours for a 96-hour total; the canonical duration records the component arithmetic.",
+    "The source varies the qualification wording between Laboratory and Metrology/Calibration Services and Laboratory and Metrology Calibration Services; the package identity follows the indexed directory while source terminology is preserved in source text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints a running-header 'Promulgated' label without a date; the canonical promulgated field remains null while the 1 through 54 printed-page sequence is preserved from the table of contents and document structure."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 20 Common, and 56 Core hours for a 96-hour total; the canonical duration records the component arithmetic."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source varies the qualification wording between Laboratory and Metrology/Calibration Services and Laboratory and Metrology Calibration Services; the package identity follows the indexed directory while source terminology is preserved in source text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Laboratory and Metrology Calibration Services NC III.pdf",
-    "pdf_pages": 58,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "ALT742201",
+      "source_unit_code": "ALT742201",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "ALT311202",
+      "source_unit_code": "ALT311202",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "ALT723203",
+      "source_unit_code": "ALT723203",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "ALT723205",
+      "source_unit_code": "ALT723205",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "ALT315311",
+      "source_unit_code": "ALT315311",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "ALT315312",
+      "source_unit_code": "ALT315312",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "ALT315313",
+      "source_unit_code": "ALT315313",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    }
+  ]
 }

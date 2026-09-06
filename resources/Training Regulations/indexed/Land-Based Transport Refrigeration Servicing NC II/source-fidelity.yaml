@@ -1,29 +1,176 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:land-based-transport-refrigeration-servicing-nc-ii:2015-12-16",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:land-based-transport-refrigeration-servicing-nc-ii:b1401aca78",
   "qualification": "LAND-BASED TRANSPORT REFRIGERATION SERVICING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Land-Based Transport Refrigeration Servicing NC II.pdf",
-    "sha256": "b1401aca7819e377203dfeac3f2dcf74fcbb9ca5d9bdfdf798995dbe5a58ce1a",
+    "source_sha256": "b1401aca7819e377203dfeac3f2dcf74fcbb9ca5d9bdfdf798995dbe5a58ce1a",
+    "pdf_pages": 99,
+    "printed_pages": 97,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Promulgated December 16, 2015; the canonical date field preserves that literal and the 1 through 97 printed-page sequence from the table of contents.",
+    "The source uses four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields.",
+    "The source prints 18 Basic, 34 Common, and 488 Core hours for a 540-hour total; the canonical duration records the component arithmetic.",
+    "Section 1 identifies HVC311204 Maintain tools and equipment and HVC315201 Perform housekeeping and safety practices, while Section 2 headings print HVC311205 and HVC7315201 respectively; canonical units follow Section 1 and source_unit_code/source-fidelity preserve the heading variants."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Promulgated December 16, 2015; the canonical date field preserves that literal and the 1 through 97 printed-page sequence from the table of contents."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 34 Common, and 488 Core hours for a 540-hour total; the canonical duration records the component arithmetic."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 identifies HVC311204 Maintain tools and equipment and HVC315201 Perform housekeeping and safety practices, while Section 2 headings print HVC311205 and HVC7315201 respectively; canonical units follow Section 1 and source_unit_code/source-fidelity preserve the heading variants."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Land-Based Transport Refrigeration Servicing NC II.pdf",
-    "pdf_pages": 99,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        14,
+        17
+      ]
+    },
+    {
+      "unit_code": "HVC713201",
+      "source_unit_code": "HVC713201",
+      "pdf_page_range": [
+        18,
+        19
+      ]
+    },
+    {
+      "unit_code": "HVC311202",
+      "source_unit_code": "HVC311202",
+      "pdf_page_range": [
+        20,
+        24
+      ]
+    },
+    {
+      "unit_code": "HVC311201",
+      "source_unit_code": "HVC311201",
+      "pdf_page_range": [
+        25,
+        26
+      ]
+    },
+    {
+      "unit_code": "HVC311203",
+      "source_unit_code": "HVC311203",
+      "pdf_page_range": [
+        27,
+        30
+      ]
+    },
+    {
+      "unit_code": "HVC713202",
+      "source_unit_code": "HVC713202",
+      "pdf_page_range": [
+        31,
+        35
+      ]
+    },
+    {
+      "unit_code": "HVC724201",
+      "source_unit_code": "HVC724201",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "HVC311204",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        39,
+        42
+      ]
+    },
+    {
+      "unit_code": "HVC315201",
+      "source_unit_code": "HVC7315201",
+      "pdf_page_range": [
+        43,
+        47
+      ]
+    },
+    {
+      "unit_code": "HVC311205",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "HVC712304",
+      "source_unit_code": "HVC712304",
+      "pdf_page_range": [
+        51,
+        56
+      ]
+    },
+    {
+      "unit_code": "HVC712305",
+      "source_unit_code": "HVC712305",
+      "pdf_page_range": [
+        57,
+        60
+      ]
+    },
+    {
+      "unit_code": "HVC712306",
+      "source_unit_code": "HVC712306",
+      "pdf_page_range": [
+        61,
+        64
+      ]
+    }
+  ]
 }
