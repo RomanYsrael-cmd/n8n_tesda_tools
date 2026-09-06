@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T18:11:34+08:00",
+  "last_updated": "2026-09-06T18:57:10+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 140,
-  "remaining_unaudited": 244,
+  "audited_count": 145,
+  "remaining_unaudited": 239,
   "blocked_count": 0,
   "documents": [
     {
@@ -1828,6 +1828,71 @@
       "validation_passed": true,
       "last_audit_commit": "882a867",
       "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 127 curriculum rows and 59 glossary entries, preserved Promulgated June 27, 2018 and the 54/60/120-hour components with 234-hour total, recorded source code and curriculum-order variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electrical Installation and Maintenance NC II",
+      "package_path": "resources/Training Regulations/indexed/Electrical Installation and Maintenance NC II",
+      "source_file": "resources/Training Regulations/Electrical Installation and Maintenance NC II.pdf",
+      "source_sha256": "934257799b7a0bb59ad3d5b0beb7cb2c91c795c8b4ac045bad51705c7d08d411",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:57:10+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "4754bbbfe71b45b87b8c3c9af615c3256336a790",
+      "audit_notes": "Rebuilt 4/5/3 revised four-column groups with required knowledge and skills; restored 43 curriculum rows and 27 definition-term entries, preserved Promulgated December 16, 2015 and the 18/24/154-hour components with 196-hour total, repaired table-column boundaries and parenthesized glossary numbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electrical Installation and Maintenance NC III",
+      "package_path": "resources/Training Regulations/indexed/Electrical Installation and Maintenance NC III",
+      "source_file": "resources/Training Regulations/Electrical Installation and Maintenance NC III.pdf",
+      "source_sha256": "99813d270fc91722c846a77aa37f42be5e5788aa3ab0393731269553e87a7a8b",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:57:10+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "4754bbbfe71b45b87b8c3c9af615c3256336a790",
+      "audit_notes": "Rebuilt 6/6/3 revised four-column groups with required knowledge and skills; restored 51 curriculum rows and 27 definition-term entries, preserved Promulgated December 16, 2015 and the 32/32/96-hour components with 160-hour total, repaired drawn four-column boundaries and parenthesized glossary numbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electrical Installation and Maintenance NC IV",
+      "package_path": "resources/Training Regulations/indexed/Electrical Installation and Maintenance NC IV",
+      "source_file": "resources/Training Regulations/Electrical Installation and Maintenance NC IV.pdf",
+      "source_sha256": "1a6552cef6b5adce6f7baaa7e874f82e6b0400d6d6631e94786c830851a123c3",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:57:10+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "4754bbbfe71b45b87b8c3c9af615c3256336a790",
+      "audit_notes": "Rebuilt 6/5/11 historical two-column groups; restored 83 curriculum rows, 16 assessment entries, and 2 definition-term entries, preserved the absent promulgation date and the 20/32/464-hour components with 516-hour total, repaired numeric section boundaries and singular range/evidence extraction, recorded the missing CON311204 evidence subsection and source code variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electronic Products Assembly and Servicing NC II",
+      "package_path": "resources/Training Regulations/indexed/Electronic Products Assembly and Servicing NC II",
+      "source_file": "resources/Training Regulations/Electronic Products Assembly and Servicing NC II.pdf",
+      "source_sha256": "03c8d7942ec487aca457ab36747894a5f90e69b4bf85e8012e940bdfbaaf289b",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:57:10+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "4754bbbfe71b45b87b8c3c9af615c3256336a790",
+      "audit_notes": "Rebuilt 4/7/3 historical two-column groups; restored 54 curriculum rows and 26 glossary entries, preserved the absent promulgation date and the 40/80/140-hour components with 260-hour total, normalized the printed ELC724xxx header to the Section 1 ELC724205 unit code while preserving the source wildcard in source_text, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Electronics Back-end Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Electronics Back-end Operation NC II",
+      "source_file": "resources/Training Regulations/Electronics Back-end Operation NC II.pdf",
+      "source_sha256": "7ce7a8617abcb216bd35aa263e477b4eb65a0229fbdbe5ed6a188858550578d6",
+      "status": "audited",
+      "audited_at": "2026-09-06T18:57:10+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "4754bbbfe71b45b87b8c3c9af615c3256336a790",
+      "audit_notes": "Rebuilt 4/3/3 revised four-column groups with required knowledge and skills; restored 34 curriculum rows and 39 glossary entries, preserved Promulgated December 16, 2015 and the 16/16/48-hour components with 80-hour total, repaired drawn four-column boundaries and stopped curriculum extraction before tools/facilities subsections, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
