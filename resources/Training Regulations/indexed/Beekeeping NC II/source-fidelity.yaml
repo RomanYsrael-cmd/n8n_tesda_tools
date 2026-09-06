@@ -1,29 +1,189 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:beekeeping-nc-ii:29a8f73ffb",
   "qualification": "BEEKEEPING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Beekeeping NC II.pdf",
-    "sha256": "29a8f73ffb073e3518d7ba6a9de0bbd39ba72c867f7f338ad031a38a072ae3e3",
+    "source_sha256": "29a8f73ffb073e3518d7ba6a9de0bbd39ba72c867f7f338ad031a38a072ae3e3",
+    "pdf_pages": 142,
+    "printed_pages": 136,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Revision 00 and Promulgated (08/11/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source.",
+    "The source prints 150 hours as the subtotal of 37 Basic, 72 Common, and 41 Core hours, followed by 40 hours of Supervised Industry Learning (SIL) and a 190 Total Hours line; the canonical duration record preserves all printed components and total.",
+    "The source labels Section 3 as TRAINING ARRANGEMENTS rather than TRAINING STANDARDS; the source heading is retained in source_text.",
+    "The AFF321203 source table prints Required Knowledge but omits Required Skills; the normalized skills aid is derived from the printed performance criteria and is disclosed as such."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 00 and Promulgated (08/11/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 150 hours as the subtotal of 37 Basic, 72 Common, and 41 Core hours, followed by 40 hours of Supervised Industry Learning (SIL) and a 190 Total Hours line; the canonical duration record preserves all printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source labels Section 3 as TRAINING ARRANGEMENTS rather than TRAINING STANDARDS; the source heading is retained in source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The AFF321203 source table prints Required Knowledge but omits Required Skills; the normalized skills aid is derived from the printed performance criteria and is disclosed as such."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Beekeeping NC II.pdf",
-    "pdf_pages": 142,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "AFF321207",
+      "source_unit_code": "AFF321207",
+      "pdf_page_range": [
+        41,
+        45
+      ]
+    },
+    {
+      "unit_code": "AFF321208",
+      "source_unit_code": "AFF321208",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        50,
+        51
+      ]
+    },
+    {
+      "unit_code": "AFF612308",
+      "source_unit_code": "AFF612308",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "AFF612309",
+      "source_unit_code": "AFF612309",
+      "pdf_page_range": [
+        57,
+        63
+      ]
+    },
+    {
+      "unit_code": "AFF612310",
+      "source_unit_code": "AFF612310",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "AFF612311",
+      "source_unit_code": "AFF612311",
+      "pdf_page_range": [
+        69,
+        73
+      ]
+    },
+    {
+      "unit_code": "AFF612312",
+      "source_unit_code": "AFF612312",
+      "pdf_page_range": [
+        74,
+        78
+      ]
+    }
+  ]
 }

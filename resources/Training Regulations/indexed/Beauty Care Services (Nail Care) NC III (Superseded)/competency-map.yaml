@@ -1,66 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:beauty-care-services-nail-care-nc-iii:2166e8b32a",
-  "qualification": "Beauty Care Services (Nail Care) NC III",
+  "document_id": "tesda:tr:beauty-care-services-nail-care-nc-iii-superseded:2166e8b32a",
+  "qualification": "BEAUTY CARE SERVICES (NAIL CARE) NC III (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS516201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HCS515331",
-        "title": "This unit covers the knowledge, skills and attitude in"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS516202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515204",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515205",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515332",
-        "title": "applying artificial nail extensions. This involves the"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n HEALTH, SOCIAL AND OTHER COMMUNITY DEV’T SERVICES SECTOR – COSMETOLOGY SUB-SECTOR\nBEAUTY CARE SERVICES (NAIL CARE) NC III\nMaintain an\neffective\nrelationship with\nclients/ customers\nApply\nquality\nstandards\nManage\nown\nperformance\nCOMMON\nCOMPETENCIES\nMaintain a safe,\nclean and\nefficient\nenvironment\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nprocedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\nCORE\nCOMPETENCIES\nPerform\nadvanced\n/creative\n hair coloring\nProvide\nhair coloring\nservices\nProvide hair\nand scalp\ntreatment\nservices\nPerform\nhaircutting\nactivities\nPerform beard\nand moustache\nshaving and\nstyling\nPerform\nbasic\nhaircutting\nPerform\nhair\nbleaching\nPerform\nhair\nstraightening\nPerform creative\nhairstyle\nPerform\nbasic\nhair coloring\nPerform\nbasic hair\nperming\nPerform\nadvanced/\ncreative\nhair perming\nPerform pre\nand post-\nbarbering\nactivities\nPerform\nadvanced/creati\nve haircutting\nPerform hair\nand scalp\ntreatment\nPerform\nfacial cleansing\nPerform\neyelash\nenhancement\nPerform\ntemporary hair\nremoval activity\nPerform\nbody bleach\nPerform pre and\npost hair care\nactivities\nPerform\neyebrow arching\nand shaping\nPerform\n facial cleansing\nand treatment\nPerform\nhand spa\nPerform\n artificial finger\nnail extensions\nPerform\n foot spa\nPerform\ncreative nail\ndesign\nPerform\nchair spot\nmassage\nPerform\nbody massage\nPerform\nadvanced make-\nup\nPerform\nmanicure and\npedicure\nPerform\n body scrub\nApply\nbasic make-up\nPerform hairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair extension\nactivities\nELECTIVE\nCOMPETENCIES\nPerform\nhair perming\nPerform men\nhairpiece\nattachment, styling\nand maintenance\nPerform\nhair relaxing\nPerform\ntattooing\nPerform\nprosthetic facial\nmake-up\n\n--- PDF PAGE 60 ---\nTR Beauty Care Services (Nail Care) NC III\nPromulgated - 56 -",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HCS515201",
+        "HCS515202",
+        "HCS515204",
+        "HCS515205"
+      ],
+      "unit_titles": [
+        "Maintain an effective relationship with clients/customers",
+        "Manage own performance",
+        "Apply quality standards",
+        "Maintain a safe, clean and efficient work environment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HCS515331",
+        "HCS515332"
+      ],
+      "unit_titles": [
+        "Perform creative nail design",
+        "Perform artificial nail extensions"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a\nNational Certificate signed by the TESDA Director General.\n4.2\nThe qualification of Beauty Care Services (Nail Care) NC III may be attained\nthrough demonstration of competency through project-type assessment\ncovering all the following core units of the qualification:\n\n4.2.1 Perform creative nail design\n4.2.2 Perform artificial nail extensions\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-\nbased training programs\n4.4.2 Experienced workers (wage employed or self employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)”.\n\n--- PDF PAGE 59 ---\nTR Beauty Care Services (Nail Care) NC III\nPromulgated - 55 -\nPerform\nhair\nbleaching\n\nCOMPETENCY MAP\n HEALTH, SOCIAL AND OTHER COMMUNITY DEV’T SERVICES SECTOR – COSMETOLOGY SUB-SECTOR\nBEAUTY CARE SERVICES (NAIL CARE) NC III\nMaintain an\neffective\nrelationship with\nclients/ customers\nApply\nquality\nstandards\nManage\nown\nperformance\nCOMMON\nCOMPETENCIES\nMaintain a safe,\nclean and\nefficient\nenvironment\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nprocedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\nCORE\nCOMPETENCIES\nPerform\nadvanced\n/creative\n hair coloring\nProvide\nhair coloring\nservices\nProvide hair\nand scalp\ntreatment\nservices\nPerform\nhaircutting\nactivities\nPerform beard\nand moustache\nshaving and\nstyling\nPerform\nbasic\nhaircutting\nPerform\nhair\nbleaching\nPerform\nhair\nstraightening\nPerform creative\nhairstyle\nPerform\nbasic\nhair coloring\nPerform\nbasic hair\nperming\nPerform\nadvanced/\ncreative\nhair perming\nPerform pre\nand post-\nbarbering\nactivities\nPerform\nadvanced/creati\nve haircutting\nPerform hair\nand scalp\ntreatment\nPerform\nfacial cleansing\nPerform\neyelash\nenhancement\nPerform\ntemporary hair\nremoval activity\nPerform\nbody bleach\nPerform pre and\npost hair care\nactivities\nPerform\neyebrow arching\nand shaping\nPerform\n facial cleansing\nand treatment\nPerform\nhand spa\nPerform\n artificial finger\nnail extensions\nPerform\n foot spa\nPerform\ncreative nail\ndesign\nPerform\nchair spot\nmassage\nPerform\nbody massage\nPerform\nadvanced make-\nup\nPerform\nmanicure and\npedicure\nPerform\n body scrub\nApply\nbasic make-up\nPerform hairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair extension\nactivities\nELECTIVE\nCOMPETENCIES\nPerform\nhair perming\nPerform men\nhairpiece\nattachment, styling\nand maintenance\nPerform\nhair relaxing\nPerform\ntattooing\nPerform\nprosthetic facial\nmake-up\n\n--- PDF PAGE 60 ---\nTR Beauty Care Services (Nail Care) NC III\nPromulgated - 56 -\n\nDEFINITION OF TERMS\n\nBeauty care\n-\nAn overall beauty treatment intended to change or improve a person’s\nappearance\nBody bleach\n-\nProcess used to lightens the color of hair to a light shade of blonde\nBody scrub\n-\nIs a process of removing dead skin cells and exfoliating the top layer of\nthe skin\nCallus\n-\na hardening of the skin through friction\nCuticle\n-\nOverlapping skin surrounding the nail. It protects the matrix from invading\nbacteria and physical damage\nCosmetic\n-\nAre substances used to enhance the appearance or odor of the human\nbody\nCosmetologist\n-\none who is skilled in the art of improving/enhancing a person’s\nappearance\nEyebrow\narching\n-\nIs a process of arching brows to produce a more precise and uniform\nshapes\nEyelashes\nextension\n-\nAre single strands of synthetic eyelashes that are curved to replicate a\nnatural eyelashes\nEyelashes\nperming\n-\nA procedure used to curl semi-permanent eyelashes\nFacial\n-\nCare for the face that usually involves cleansing and massage and the\napplication of cosmetic creams\nFacial make-up\n-\nUsed to enhance the beautiful part of face and hide defects\nFancy manicure -\nthe art of applying nail polish in decorative fashion\nFoundation\n-\na cosmetic usually used as a base for make-up. It can be in a form of\nliquid, cream, gel, solid creams, in sticks and cakes.\nHand massage\n-\nReplenishes moisture and also alleviates pain and helps you to relax. An\neffective way of removing dead cells\nMake up\n-\nIs a sub-set of cosmetic which refers primarily to colored products\nintended to alter the user’s appearance\nManicure\n-\nit came from the latin word “manus” (hand) and “cura” (care) which\nmeans the care of the hands and nails\nMascara\n-\na cosmetic for covering the eyelashes\nMassage\n-\ninvolves the external manipulation of the body by rubbing, pinching,\nkneading and strolling with the use of hands or an instruments\nNail\n-\nImportant structure made of keratin that has 2 purposes – fingernails act\nas protective plate and enhance sensation of fingertips\nNail structure\n-\nCompose of free edge, nail plate, nail walls, lunula, cuticle, hyponychium,\nnail grove, nail bed, matrix and mantle\nPedicure\n-\nthe professional or artful care of the feet and toenails\nPlucking\n-\nMeans the process of removing hair by mechanically pulling the hair from\nowner’s body\nShaving\n-\nIs the removal of hair, by using a razor or any kind of bladed implements,\nto slice it down to the level of the skin\nSpa\n-\nPlaces devoted to overall well-being through a variety of professional\nservices that encourage the renewal of mind, body and spirit\nTattoo\n-\nIs a marking made by inserting indelible ink into the dermis layer of the\nskin to change the pigment for decorative or other reason\nWaxing\n-\nIs the best temporary method of hair removal\n\n--- PDF PAGE 61 ---\nTR Beauty Care Services (Nail Care) NC III\nPromulgated - 57 -\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\nINDUSTRY EXPERTS\n\nREVIEW PANEL (2010)\n\nEMMA P. ALBIOR\nMARIA EVANGELINE V. BERTUMEN\nPhilippine International Haircutters\nPhilippine International Haircutters Association\nAssociation (PIHA)\n(PIHA)\n#2 Anonas St., Project 3, Quezon City\n#2 Anonas St., Project 3, Quezon City\nLOURDES D. CO\nALEXANDER S. DUNGO\nTrainer/Expert\nPhilippine International Haircutters\nTony Galvez School of Cosmetology\nAssociation (PIHA)\n9th Ave., Cubao, Quezon City\n#2 Anonas St., Project 3, Quezon City\nANTONIO M. GALVEZ\nWILFREDO T. GARCIA\nOwner/Industry Expert\nPhilippine International Haircutters\nTony Galvez Salon/ Tony Galvez School\nAssociation (PIHA)\nof Cosmetology\n#2 Anonas St., Project 3, Quezon City\n(Member, International Cosmetology\nGEORGE A. MANUEL\nOrganization (ICLO))\nPhilippine International Cosmetologists\n9th Ave., Cubao, Quezon City\nAssociation (PICA)\nAZUCENA P. INOCENCIO\n#69 Scout Rallos St.\nPhilippine International Haircutters\nTomas Morato, Quezon City\nAssociation (PIHA)\nAMBROSIO G. POLICARPIO\n#2 Anonas St., Project 3, Quezon City\nPhilippine International Cosmetologists\nLUISITO C. ORTIZ\nAssociation (PICA)\nPhilippine International Cosmetologists\n#69 Scout Rallos St.\nAssociation (PICA)\nTomas Morato, Quezon City\n#69 Scout Rallos St.\nERNESTO R. VIRAY\nTomas Morato, Quezon City\nPhilippine International Cosmetologists\nLOURD RYAN A. RAMOS\nAssociation (PICA)\nPhilippine International Cosmetologists\n#69 Scout Rallos St.\nAssociation (PICA)\nTomas Morato, Quezon City\n#69 Scout Rallos St.\n\nTomas Morato, Quezon City\n\nThe Participants in the Validation of these Training Regulations\n• Philippine International Haircutters Association (PIHA)\n• Philippine International Cosmetologists Association (PICA)\n•\nMembers of the Haircutters and Cosmetologists Association of the Philippines\n(HACAP)\nThe Members of the TESDA Board\n•\nQualification and Standards Office (QSO)"
 }

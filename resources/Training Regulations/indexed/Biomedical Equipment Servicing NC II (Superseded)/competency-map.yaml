@@ -1,72 +1,57 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:biomedical-equipment-servicing-nc-ii:14c272c1ff",
-  "qualification": "BIOMEDICAL EQUIPMENT SERVICING NC II",
+  "document_id": "tesda:tr:biomedical-equipment-servicing-nc-ii-superseded:14c272c1ff",
+  "qualification": "BIOMEDICAL EQUIPMENT SERVICING NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323202",
-        "title": ": This unit of competency covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "HCS323203",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS323204",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS311303",
-        "title": ": This unit covers the knowledge, skills and attitudes required in"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HCS323201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HCS311301",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS311302",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS311304",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS311305",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP – HEALTH SECTOR (BIOMEDICAL EQUIPMENT SERVICING NC II)\nBASIC COMPETENCIES\n\nReceive and respond to\nworkplace communication\nWork with others\nDemonstrate work\nvalues\nParticipate in\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nPractice housekeeping\nprocedures (5S)\nLead workplace\ncommunication\nLead small team\nDevelop and practice\nnegotiation skills\nSolve problems related\nto work activities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialized\ncommunication skills\nDevelop team and\nindividual\nApply problem solving\ntechniques in the\nworkplace\nCollect, analyze and\norganize information\nPlan and organize work\nPromote environmental\nprotection\n\nCOMMON COMPETENCIES\n\nImplement and monitor\ninfection control policies\nand procedures\nRespond effectively to\ndifficult/challenging\nbehavior\nApply basic first aid\nMaintain high standard\nof patient services\n\nCORE COMPETENCIES\n\nProvide care and support to\ninfants and toddlers\nProvide care and support\nto children\nFoster social, intellectual,\ncreative and emotional\ndevelopment of children\nFoster the physical\ndevelopment of\nchildren\nProvide care and\nsupport to elderly\nProvide care and\nsupport to people with\nspecial needs\nMaintain a healthy and\nsafe environment\nRespond to emergency\nClean living room, dining\nroom, bedrooms, toilet\nand bathroom\nWash and iron clothes,\nlinen and fabric\nPrepare hot and cold\nmeals/food\nPrepare and maintain\nbeds\nCollect and maintain\nlinen stocks at end-\nusers location\nAssist in patient\nmobility\nAssist in transporting\npatients\nAssist in bio-psychosocial\nsupport care of patients\nHandle waste in a health\ncare environment\nInstall biomedical\nequipment\nPerform corrective\nmaintenance on\nbiomedical equipment\nPerform preventive\nmaintenance on\nbiomedical equipment\nRepair biomedical\nequipment\nAssess and refer biomedical\nequipment\nPerform basic life support\nMaintain life support\nequipment and resources\nImplement safe\naccess and extrication\nprocedures in an\nemergency\nManage request for an\nambulance service\nAllocate ambulance\nservice resources\nCoordinate emergency\nresources\nDeliver basic ambulance\ncommunication skills\nSupervise on-road\noperations\nManage the scene of an\nemergency\nManage the scene of\na special event\nManage routine scene\nDeliver pre-hospital\npatient care\nDeliver intensive pre-\nhospital patient care\nManage ambulance\noperations\nTransport emergency\npatients\nTransport non-\nemergency patients\nDrive vehicles under\noperational conditions\nWork within a holistic\ntherapeutic massage\nframework\nPerform therapeutic\nmassage assessment\nPlan the therapeutic\nmassage treatment\nImplement therapeutic\nmassage treatment\nPerform remedial\ntherapeutic massage\ntreatment\nWork within a community\ndevelopment framework\nPrepare for work in the\ncommunity service\nindustry\nSupport community\nresources\nProvide\nprimary/residential care\nSupport community\nparticipation\nRecruit and coordinate\nvolunteers\nRespond holistically to\nclient issues\nDevelop and provide\nhealth education program\nin the community\nImplement health\npromotion and\ncommunity\ninterventions\n\n--- PDF PAGE 65 ---\nTR Biomedical Equipment Servicing NCII\n\n- 61 -",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HCS323201",
+        "HCS323202",
+        "HCS323203",
+        "HCS323204"
+      ],
+      "unit_titles": [
+        "Implement and monitor infection control policies and procedures",
+        "Respond effectively to difficult/challenging behavior",
+        "Apply basic first aid",
+        "Maintain high standard of patient services"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HCS311301",
+        "HCS311302",
+        "HCS311303",
+        "HCS311304",
+        "HCS311305"
+      ],
+      "unit_titles": [
+        "Install biomedical equipment",
+        "Perform corrective maintenance on biomedical equipment",
+        "Perform preventive maintenance on biomedical equipment",
+        "Repair biomedical equipment",
+        "Assess and refer biomedical equipment"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 BIOMEDICAL EQUIPMENT SERVICING NC II QUALIFICATION\n\nThis BIOMEDICAL EQUIPMENT SERVICING NC II Qualification consists of competencies\nthat a person must achieve to install, perform corrective and preventive maintenance, repair\nbiomedical equipment, assess and refer biomedical equipment.\nThe Units of Competency comprising this qualification include the following:\n\nUNIT CODE\nBASIC COMPETENCIES\n500311105\nParticipate in workplace communication\n500311106\nWork in a team environment\n500311107\nPractice career professionalism\n500311108\nPractice occupational health and safety procedures\n\nUNIT CODE\nCOMMON COMPETENCIES\nHCS323201\nImplement and monitor infection control policies and procedures\nHCS323202\nRespond effectively to difficult/challenging behavior\nHCS323203\nApply basic first aid\nHCS323204\nMaintain high standard of patient services\n\nUNIT CODE\nCORE COMPETENCIES\nHCS311301\nInstall biomedical equipment\nHCS311302\nPerform corrective maintenance on biomedical equipment\nHCS311303\nPerform preventive maintenance on biomedical equipment\nHCS311304\nRepair biomedical equipment\nHCS311305\nAssess and refer biomedical equipment\n\nA person who has achieved this Qualification is competent to be:\n\n Biomedical Equipment Technician (BMET)\n Medical Equipment Mechanic / Repairer\n\n--- PDF PAGE 6 ---\nTR Biomedical Equipment Servicing NCII\n\n- 2 -"
 }

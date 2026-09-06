@@ -1,29 +1,194 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:biogas-plant-installation-nc-iii:eddf383430",
   "qualification": "BIOGAS PLANT INSTALLATION NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Biogas Plant Installation NC III.pdf",
-    "sha256": "eddf383430b0f80342d0800f668ba8e93a1fb377fd573f8354278a5d0d789fa3",
+    "source_sha256": "eddf383430b0f80342d0800f668ba8e93a1fb377fd573f8354278a5d0d789fa3",
+    "pdf_pages": 129,
+    "printed_pages": 124,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Revision 00 and Promulgated (2/18/2020); the canonical date field preserves the printed date literal.",
+    "The source prints 164 hours as the subtotal beside 40 Basic, 24 Common, and 120 Core hours, followed by 120 hours of Supervised Industry Learning (SIL) and a 304-hour Total Hours line; the listed components sum to 184 before SIL, so the printed subtotal is retained as a disclosed source arithmetic anomaly while the canonical duration record preserves the components and total.",
+    "The source contains a stray FOOD AND BEVERAGE SERVICE NCIII line in the table-of-contents page and source spelling variants such as WORKPACE and MSMES; source_text preserves those source artifacts while the canonical inventory follows the qualification's Section 1 wording.",
+    "The Section 4 heading is printed as ASSESSMENT AND CERTIFICATION ARRANGEMENT in the singular; the source wording is preserved in source_text.",
+    "The Section 3 curriculum extraction omits a row for CON311204 because its unit heading is separated from the first outcome; a normalized opening outcome is added while the complete source curriculum text remains preserved."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 00 and Promulgated (2/18/2020); the canonical date field preserves the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 164 hours as the subtotal beside 40 Basic, 24 Common, and 120 Core hours, followed by 120 hours of Supervised Industry Learning (SIL) and a 304-hour Total Hours line; the listed components sum to 184 before SIL, so the printed subtotal is retained as a disclosed source arithmetic anomaly while the canonical duration record preserves the components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source contains a stray FOOD AND BEVERAGE SERVICE NCIII line in the table-of-contents page and source spelling variants such as WORKPACE and MSMES; source_text preserves those source artifacts while the canonical inventory follows the qualification's Section 1 wording."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 4 heading is printed as ASSESSMENT AND CERTIFICATION ARRANGEMENT in the singular; the source wording is preserved in source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 curriculum extraction omits a row for CON311204 because its unit heading is separated from the first outcome; a normalized opening outcome is added while the complete source curriculum text remains preserved."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Biogas Plant Installation NC III.pdf",
-    "pdf_pages": 129,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        12,
+        16
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        17,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        27,
+        31
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        37,
+        40
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        41,
+        44
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        49,
+        51
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        52,
+        54
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        55,
+        58
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        59,
+        62
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        63,
+        67
+      ]
+    },
+    {
+      "unit_code": "AFF312301",
+      "source_unit_code": "AFF312301",
+      "pdf_page_range": [
+        68,
+        73
+      ]
+    },
+    {
+      "unit_code": "AFF312302",
+      "source_unit_code": "AFF312302",
+      "pdf_page_range": [
+        74,
+        79
+      ]
+    },
+    {
+      "unit_code": "AFF312303",
+      "source_unit_code": "AFF312303",
+      "pdf_page_range": [
+        80,
+        86
+      ]
+    }
+  ]
 }

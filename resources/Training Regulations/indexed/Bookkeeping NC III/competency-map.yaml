@@ -1,78 +1,61 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:bookkeeping-nc-iii:2007-11",
+  "document_id": "tesda:tr:bookkeeping-nc-iii:d8d7180e13",
   "qualification": "BOOKKEEPING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "required to lead in the dissemination and discussion of"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "and attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "HCS315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HCS412301",
-        "title": "logging/recording business transactions in an accounting"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "to lead small teams including setting and maintaining"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "required to collect information in order to negotiate to a"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical concepts"
-      },
-      {
-        "unit_code": "HCS311201",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS913202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS412302",
-        "title": "in posting transactions manually."
-      },
-      {
-        "unit_code": "HCS412303",
-        "title": "listing accounts, transferring and summarizing trial"
-      },
-      {
-        "unit_code": "HCS412304",
-        "title": "preparing financial reports manually."
-      },
-      {
-        "unit_code": "HCS412305",
-        "title": "reviewing and determining extent of compliance with a"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nBOOKKEEPING NC III\nCORE\nCOMPETENCIES\n\nLead workplace\ncommunication\n\nSolve problems related\nto work activities\n\nLead small teams\nUse mathematical\nconcepts & techniques\n\nDevelop and practice\nnegotiation skills\n\nUse relevant\ntechnologies\n\nApply quality standards\n\nPerform computer\noperations\nMaintain an effective\nrelationship w/ clients &\ncustomers\n\nManage own\nperformance\n\nJournalize\ntransactions\n\nReview internal control\nsystem\n\nPost transactions\n\nPrepare trial balance\n\nPrepare financial reports\n\n--- PDF PAGE 65 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n63",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small team",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HCS315202",
+        "HCS311201",
+        "HCS913201",
+        "HCS913202"
+      ],
+      "unit_titles": [
+        "Apply quality standards",
+        "Perform computer operations",
+        "Maintain an effective relationship with clients and customers",
+        "Manage own performance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HCS412301",
+        "HCS412302",
+        "HCS412303",
+        "HCS412304",
+        "HCS412305"
+      ],
+      "unit_titles": [
+        "Journalize transactions",
+        "Post transactions",
+        "Prepare trial balance",
+        "Prepare financial reports",
+        "Review internal control system"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n\n4.2 Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core units.\n\n4.3 The following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs\n\n4.3.2 Experienced Workers (wage employed or self-employed)\n\n4.4 Reassessment is allowed only after one month from the date of assessment.\nReassessment for a National Certificate shall be done only on the task/s that the\ncandidate did not successfully achieve.\n\n4.5 A candidate who fails the assessment for two (2) consecutive times will be\nrequired to go through a refresher course before taking another assessment.\n\n4.6 Only certified individuals in this Qualification may be nominated by the industry\nsector for accreditation as competency assessor.\n\n4.7 Only accredited competency assessors are allowed to conduct competency\nassessment, however, trainees who are accredited competency assessors are\nnot allowed to assess their trainees.\n\n4.8 Assessment of competence must be undertaken only in the TESDA accredited\nassessment\ncenter.\nThe\nperformance\nassessment\n(demonstration\nof\ncompetence), however, may be done in any venue or workplace duly\ndesignated by an accredited assessment center.\n\n4.9 The guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)\"\n\n--- PDF PAGE 64 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n62\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCOMPETENCY MAP\nBOOKKEEPING NC III\nCORE\nCOMPETENCIES\n\nLead workplace\ncommunication\n\nSolve problems related\nto work activities\n\nLead small teams\nUse mathematical\nconcepts & techniques\n\nDevelop and practice\nnegotiation skills\n\nUse relevant\ntechnologies\n\nApply quality standards\n\nPerform computer\noperations\nMaintain an effective\nrelationship w/ clients &\ncustomers\n\nManage own\nperformance\n\nJournalize\ntransactions\n\nReview internal control\nsystem\n\nPost transactions\n\nPrepare trial balance\n\nPrepare financial reports\n\n--- PDF PAGE 65 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n63\nDEFINITION OF TERMS\n\nAccount is a formal record that represents, in words, money or other unit of\nmeasurement, certain resources, claims to such resources, transactions or other\nevents that result in changes to those resources and claims\n\nAccounting is the recording and reporting of financial transactions, including the\norigination of the transaction, its recognition, processing, and summarization in the\nFINANCIAL STATEMENTS\n\nAccounting equation is assets equals liabilities plus equity. (A = L + E)\n\nAccounting period/year is a period of 12 consecutive months chosen by an entity\nas its ACCOUNTING period which may or may not be a calendar year.\n\nAccounts Payable is the amount owed to a CREDITOR for delivered goods or\ncompleted services\n\nAccounts receivable are amounts collectible from its customers. It is the claim\nagainst a DEBTOR for an uncollected amount, generally from a completed\ntransaction of sales or services rendered.\n\nAdjusting journal entries are accounting entries to account for a periods\nchanges, omissions or other financial data required to be reported \"in the books\"\n\nAdjusted Trial Balance reflects totals after the adjusting entries are posted to the\ngeneral ledger.\n\nAsset represents future benefit to the company with reliable measurement\n\nAccounting Manual is a document prepared to provide bookkeepers with\ndirection and guidance in connection with those bookkeeping requirements of\nentities\n\nBalance is the Sum of DEBIT entries minus the SUM of CREDIT entries in an\nACCOUNT. If positive, the difference is called a DEBIT BALANCE; if negative, a\nCREDIT BALANCE\n\nBalance Sheet reports the financial position at a point in time (end of the quarter\nor year).\n\nBookkeeping is the recording of all financial transactions undertaken by a\nbusiness (or an individual). A bookkeeper (or book-keeper), sometimes called an\naccounting clerk in the is a person who keeps the books of an organization. The\norganization might be a business, a charity or even a local sports club\n\nBusiness is the social science of managing people to organize and maintain\ncollective productivity toward accomplishing particular productive goals, which is\nusually to generate profit\n\n--- PDF PAGE 66 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n64\n\nCapital is called equity.\n\nCashusually refers to money in the form of liquid currency, such as banknotes or\ncoins.\n\nCash Payments Journal is a book used to record all payments made in cash\nsuch as for accounts payable, merchandise purchases, and operating expenses;\nalso termed cash disbursements journal\n\nCash Receipts Journals is a book used to record all collections made in cash\nsuch as for accounts receivable , merchandise sold, and interest income.\n\nChart of Accounts is a systematic listing of all accounts used by an entity.\n\nClosing entries are prepared after the financial statements have been completed.\n\nCorporation - is a form of doing business pursuant to a charter granted by\ngovernment.\n\nCredit (cr) - means an entry to the right hand side of an account. Entry on the right\nside of a DOUBLE-ENTRY BOOKKEEPING system that represents the reduction\nof an ASSET or expense or the addition to a LIABILITY or REVENUE. (See\nDEBIT.)\n\nDebit (dr) - means an entry to the left hand side of an account. Entry on the left\nside of a DOUBLE-ENTRY BOOKKEEPING system that represents the addition of\nan ASSET or expense or the reduction to a LIABILITY or REVENUE. (See\nCREDIT.)\n\nDepreciation is the process of allocating the cost of property, plant and equipment\nassets to the periods that will benefit from its use\n\nDividend income is income received from ownership shares in a corporation. A\ndividend is a distribution to a corporations stockholders usually in cash;\n\nDocuments are bases of recording transactions in bookkeeping. This may include\nbut not limited to sales invoice and official receipts.\n\nDrawing is when a business proprietor draws money for personal needs\n\nEquity represents the residual claims of owners\n\nExpenses represent the outflow of assets (or increases in liabilities) due to a\ncompany’s operating activities.\n\nFinancial statements report the business activities during the year and the\nfinancial condition at the end of the year. It is also the presentation of financial data\nincluding BALANCE SHEETS, INCOME STATEMENTS and STATEMENTS OF\n\n--- PDF PAGE 67 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n65\nCASH FLOW, or any supporting statement that is intended to communicate an\nentity's financial position at a point in time and its results of operations for a period\nthen ended.\n\nGenerally accepted accounting standards (GAAP) determine what to record,\nwhen to record, and amount to record. It is also the rules, and procedures\nnecessary to define accepted accounting practice at a particular time.\n\nGeneral Journal is the most basic of journals. It is a chronological list of\ntransactions.\n\nGeneral Ledger is the collection of all ASSET, LIABILITY, owners EQUITY,\nREVENUE, and expense accounts. This is a book of accounts in which data from\ntransactions recorded in journals are posted and thereby classified and\nsummarized. Also called ledger.\n\nIncome is the inflow of REVENUE during a period of time. This also money\nreceived by a person or organization because of effort (work), or from return on\ninvestments.\n\nIncome Statement shows the components of net income in detail. It is the\nsummary of the effect of REVENUES and expenses over a period of time.\n\nIncome Taxes Payable is income taxes due including current portion of deferred\ntaxes.\n\nInterest Income includes amounts from interest on all interest-bearing deposits\nand accounts.\n\nInternal Control is the process designed to provide reasonable assurance\nregarding achievement of various management objectives such as the reliability of\nfinancial reports.\n\nInventories are products on hand for sale to customers.\n\nJournal is a book where all transactions are initially recorded.\n\nJournal entry are the logging of business transactions and their monetary value\ninto the t-accounts of the accounting journal as either debits or credits. A journal\nentry is usually backed up with a piece of paper; a receipt, a bill, an invoice, or\nsome other direct record of the transaction; making them easy to record and to\nmaintain traceability for each transaction.\n\nJournalize transactions is the process of recording a business transaction in a\njournal.\n\nLedger is a tool used for classifying and summarizing information about increases,\ndecreases, and balances of items in the chart of accounts.\n\n--- PDF PAGE 68 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n66\nLiability represents obligations, payables or debts owed. DEBTS or obligations\nowed by one entity (DEBTOR) to another entity (CREDITOR) payable in money,\ngoods, or services\n\nLoans Payable is the account title used to record amounts to be paid for borrowed\nmoney. This is also called Notes Payable.\n\nNotes Payable is the account title used to record amounts to be paid for borrowed\nmoney and evidenced by a promissory note. This is also called Loans Payable.\n\nOfficial receipts is a document issued to acknowledge receipt of cash.\n\nPartnership is a form of entity with two or more owners. Relationship between two\nor more persons based on a written, oral, or implied agreement whereby they\nagree to carry on a trade or business for profit and share the resulting profits.\n\nPhilippine Financial Reporting Standards often known as PFRS are a set of\naccounting standards. They are issued by the Financial Reporting Standards\nCouncil. [FRSC].\n\nPost Closing Trial Balance is balance sheet in trial balance form.\n\nPreliminary Trial Balance is a listing of the accounts in the general ledger and\ntheir balances as of a specified date. A trial balance is usually prepared at the end\nof an accounting period and is used to see if additional adjustments are required to\nany of the balances.\n\nPosting is the process of transferring figures from the journal to the ledger\naccounts\n\nProperty Plant and Equipment are assets used in the production of goods and\nservices\n\nPurchase invoice is a bill from a vendor for specific materials or supplies\nfurnished or services rendered. It is called sales invoice from the point of view of\nthe seller.\n\nPurchases Journal. This is a payable system involves a Purchases Journal -- in\nwhich all incoming merchandise invoices are recorded.\n\nRatio Analysis is the comparison of actual or projected data for a particular\ncompany to other data for that company or industry in order to analyze trends or\nrelationships\n\nReceivables are amounts of money due from customers or other DEBTORS\n\nRent expense is the expenditure made to cover the rental for the premises.\n\nRent income is money received by a person or organization from rental of\npremises and/or other assets.\n\n--- PDF PAGE 69 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n67\n\nRetained Earnings are profits of the business that have not been paid out to the\nowners as of the balance sheet date.\n\nRevenue represents the inflow of assets (or decrease in liabilities) due operating\nactivities. This may include sales of products, merchandise, and services; and\nearnings from INTEREST, DIVIDEND, rents.\n\nRoutine journal entries Recurring financial activities reflected in the accounting\nrecords in the normal course of business.\n\nSalaries/wages expense is an account title used to record salaries, wages, and\nbenefits an employee receives from an employer.\n\nSales Journal This is a receivables system involves a Sales Journal -- in which all\ninvoices outgoing to customers are recorded.\n\nSales invoice is a document issued by a vendor for specific materials or supplies\nfurnished or services rendered. It is called purchase invoice from the point of view\nof the seller.\n\nSole Proprietorship is a form of entity with one owner and the simplest possible\nform of business.\n\nStatement of Cash Flow reports sources and uses of cash. This is one of the\nbasic financial statements that are required as part of a complete set of financial\nstatements prepared in conformity with generally accepted accounting principles. It\ncategorizes net cash provided or used during a period as operating, investing and\nfinancing activities, and reconciles beginning and ending cash and cash\nequivalents\n\nStatement of Changes in Equity explains the changes in contributed capital and\nretained earnings during the period.\n\nSubsidiary Ledger is a group of subsidiary accounts the sum of the balances of\nwhich is equal to the balance of the related control account in the general ledger\n\nTransactions and events are recorded as they occur, recorded even if cash is not\nreceived or paid and affects the accounting equation.\n\nTrial balance confirms that accounts are still in balance.\n\nUtilities expense is an account title used to record amount incurred on heat, light,\nwater, and power.\n\nVouchers is a written record of expenditure, disbursement, or completed\ntransaction.\n\nWorksheet is a document or schedule in which a bookkeeper uses to gather\ninformation to substantiate an account balance.\n\n--- PDF PAGE 70 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n68\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the Professional Bookkeepers Association of the Philippines, Inc.\n(PBAPI) and the many representatives of business, industry, academe and government\nagencies who rendered their time and expertise to the development and validation of these\nTraining Regulations.\n\nTHE TECHNICAL/INDUSTRY EXPERTS:\n\nDR. ROSALINDA D. EVANGELISTA\nPresident\nProfessional Bookkeepers Association\n of the Philippines, Inc.\nUnit 310, BSA Mansion, Benavidez St.\nLegaspi Village, Makati City\n\nMR. FAUSTINO D. EVANGELISTA\nPresident\nAsian Institute of Certified Bookkeepers, Inc.\n2343 Onyx St., Bgy. La Paz\nMakati City\n\nMS. ANA MARIA D. DE CASTRO\nDirector\nProfessional Bookkeepers Association\n of the Philippines, Inc.\nUnit 310, BSA Mansion, Benavidez St.\nLegaspi Village, Makati City\n\nMS. LOIDA NERY- LAO\nAdmission Officer/Registrar\nAsian Institute of Certified Bookkeepers, Inc.\n2343 Onyx St., Bgy. La Paz, Makati City\n\nThe PARTICIPANTS in the National Validation of these Training Regulations\n\nMs. Divinia Z. Jugueta\nPresident (FY 2006-2007)\nPICPA- North\nDr. Ramon E. Woo, Jr.\nSchool Director\nACSAT Center, Cubao, Quezon City\n\nMr. Henry L. Koa\nLiaison Officer,\nDebbie Karen Koa-Lim & Associates\nMs. Felisa C. Lim\nOwner\nSecurity Business Agency\nMs. Jacqueline T. Lim\nSecretary, Marcos T. Lim, CPA\nMr. Marcos T. Lim\nOperations Mgr., PBCOM Finance Corp.\nMr. Josue M. Lorenzo\nComptroller, PBCOM Finance Corp.\nMr. William Que\nOwner, William Que, CPA\n\nMs. Anita V. Ogena\nOwner, A.V. Ogena & Associates\nMs. Eden D. Sarne\nAccountant, ELEKTRO WERK, INC.\n\nMs. Katherine U. Sobremonte\nCPA, Public Practitioner\nMs. Lolita P. Tang\nCPA, Lolita C. Po, CPAs\n\nMs. Jeannette D. Tolentino\nPractitioner, Jeannette D. Tolentino, CPA\nMs. Merilyn S. Torre\nCPA, Public Practitioner\nMs. Josephine B. Velasco\nCPA, Public Practitioner\nMs. Amelia T. Uy\nOwner, Amelia T. Uy, CPA\nMs. Alma Cecilia G. Abesamis\nSecretary, Lolita C. Po, CPAs\nMs. Joan O. Agino\nSales Admin. Staff, Goldwast Marine Export, Inc.\n\nMs. Angeles S. Aragon\nAuditor, E.E. Atienza & Associates\nMs. Evelyn E. Atienza\nOwner, E.E. Atienza & Associates\n\n--- PDF PAGE 71 ---\n-------------------------------------------------------------------------------------------------------\nTR – Bookkeeping NC III Promulgated November 2007\n69\nMs. Donabel T. Chua\nCPA- Chua, Medina and Associates\nMs. Manolito B. dela Cruz\nAuditor, Triple A Car Rental Services\n\nMs. Virginia R. Delatina\nLiaison Officer, RSA Dilino Acct’g. Office\nMs. Melinda C. De Vera\nBookkeeper, Jetco Bus. Mgn’t. Services\n\nMs. Georgina N. Fungo\nBookkeeper, DZJ Jugueta & Associates\nMs. Eralyn A. Hintay\nBookkeeper, Ayson Acct’g. & Bus. Center\nMs. Lorna Inductivo\nBookkeeper, Foundation for Dev’t.\nAlternatives, Inc.\nMs. Marie Grace R. Jaluague\nBookkeeper, Ocampo, Mendoza & Co., CPAs\n\nMs. Cynthia V. Jose\nJose, Jose & Company, CPAs\n\nMembers of the TESDA Board\n\nTESDA EXCOM\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n•\nQSO\n•\nTESDA Regional Offices"
 }
