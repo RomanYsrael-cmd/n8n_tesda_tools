@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T01:25:57+08:00",
+  "last_updated": "2026-09-07T01:41:50+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 255,
-  "remaining_unaudited": 129,
+  "audited_count": 260,
+  "remaining_unaudited": 124,
   "blocked_count": 0,
   "documents": [
     {
@@ -3323,6 +3323,71 @@
       "validation_passed": true,
       "last_audit_commit": "920777651dee755623067e0c86f32eb5feb05726",
       "audit_notes": "Rebuilt 4/4/5 revised four-column groups with required knowledge and skills; restored 51 curriculum rows, 3 assessment arrangements, and 107 definition-term entries, preserved Promulgated December 16, 2015, the 1 through 154 printed-page sequence, and the 20/240/720-hour components with 980-hour total, restored required-knowledge column text for four affected rescue/scanning units whose source layout merged that column during extraction, excluded the late false 100100 heading, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Lifeguard Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Lifeguard Services NC III",
+      "source_file": "resources/Training Regulations/Lifeguard Services NC III.pdf",
+      "source_sha256": "112f98a75356192d11463668e3c89ff295fa89c1fc43ad8291d0ac55a07cb730",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:41:50+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "d96c8e7a0ae9f78455645b6f14e8a85b9b531775",
+      "audit_notes": "Rebuilt 6/4/6 revised four-column groups with required knowledge and skills; restored 55 curriculum rows, 2 assessment arrangements, and 111 definition-term entries, preserved Promulgated December 16, 2015, the 1 through 168 printed-page sequence, the 20/240/1520-hour components with 800-hour Supervised Lifeguard Industry Training included in Core, repaired the first core curriculum unit's source numbering, recorded the NC II table-of-contents label and source terminology, and retained page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Lighting for Live Performances NC II",
+      "package_path": "resources/Training Regulations/indexed/Lighting for Live Performances NC II",
+      "source_file": "resources/Training Regulations/Lighting for Live Performances NC II.pdf",
+      "source_sha256": "6bc9f57274a06f59ddbf1ec94d727fd6b438102e4c00f9637199d45dc46a42d4",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:41:50+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "d96c8e7a0ae9f78455645b6f14e8a85b9b531775",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 60 curriculum rows, 2 assessment arrangements, and 8 definition-term entries, preserved Revision 00, Promulgated (12/17/2019), the 1 through 108 printed-page sequence, the 37/88/70-hour components plus 80-hour Supervised Industry Learning (SIL), and 275-hour total, recorded the CRE343302 versus CRE265202 core-code discrepancy, excluded the false HIGH200200 header, corrected section-boundary detection, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Line Construction (Electric Power Distribution) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Line Construction (Electric Power Distribution) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Line Construction (Electric Power Distribution) NC II (Superseded).pdf",
+      "source_sha256": "64684811e2d8bfc41bb70c480c458e10a83ba25ca0fb5f575c88d04c84dd00ee",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:41:50+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "d96c8e7a0ae9f78455645b6f14e8a85b9b531775",
+      "audit_notes": "Rebuilt 4/4/4 superseded historical two-column groups; restored 39 curriculum rows, 5 assessment arrangements, and 25 definition-term entries, preserved the superseded lifecycle, Promulgated November 2010, the 1 through 57 printed-page sequence, and the 18/48/184-hour components plus 56-hour OJT/Practicum with 306-hour total, recorded the UTL311203 versus ICT315202 common-code discrepancy through source_unit_code and source-fidelity notes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Local Guiding Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Local Guiding Services NC II",
+      "source_file": "resources/Training Regulations/Local Guiding Services NC II.pdf",
+      "source_sha256": "1c2269cb6701827a3af47c376161981634d819638486f2c701da542779bac4ef",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:41:50+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "d96c8e7a0ae9f78455645b6f14e8a85b9b531775",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 40 curriculum rows, 4 assessment arrangements, and 5 definition-term entries, preserved Promulgated December 2013, the 1 through 50 printed-page sequence, and the 18/18/160-hour components with 196-hour total, recorded the source curriculum's 3.4 learning-outcome numbering under Basic unit 2 without silent renumbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Machining NC I",
+      "package_path": "resources/Training Regulations/indexed/Machining NC I",
+      "source_file": "resources/Training Regulations/Machining NC I.pdf",
+      "source_sha256": "98468ec98e14dad812dcca77fe9ddcb5da4552dcbd40807a310ed64a20870129",
+      "status": "audited",
+      "audited_at": "2026-09-07T01:41:50+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "d96c8e7a0ae9f78455645b6f14e8a85b9b531775",
+      "audit_notes": "Rebuilt 9/7/6 revised four-column groups with required knowledge and skills; restored 125 curriculum rows, 2 assessment arrangements, and 19 definition-term entries, preserved Revision 01, Promulgated (01/11/2019), the 1 through 171 printed-page sequence, and the 47/60/859-hour components plus 624-hour Supervised Industry Training (SIT) with 1,590-hour total, recorded the preliminary TR AUTOMOTIVE SERVICING NC II running-header anomaly and duplicate duration statement, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
