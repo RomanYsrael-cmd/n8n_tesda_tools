@@ -1,29 +1,144 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:heavy-equipment-operation-rough-terrain-crane-nc-ii:2007-07",
-  "qualification": "Heavy Equipment Operation (Rough-Terrain Crane) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:heavy-equipment-operation-rough-terrain-crane-nc-ii-superseded:1446486a7b",
+  "qualification": "HEAVY EQUIPMENT OPERATION (ROUGH-TERRAIN CRANE) NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Heavy Equipment Operation (Rough-Terrain Crane) NC II (Superseded).pdf",
-    "sha256": "1446486a7b98991924ac8a16238f252edaba9c060feab974c64c06378bd695db",
+    "authority": "TESDA",
+    "source_file": "Heavy Equipment Operation (Rough-Terrain Crane) NC II (Superseded).pdf",
+    "source_sha256": "1446486a7b98991924ac8a16238f252edaba9c060feab974c64c06378bd695db",
+    "pdf_pages": 79,
+    "printed_pages": 78,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is retained as superseded and prints Promulgated July 2007 with a Page 1 of 79 through Page 78 of 79 sequence; the canonical fields preserve the printed date and 78 reliably numbered pages.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 18 Basic, 18 Common, and 120 Core hours; the canonical duration records the 156-hour arithmetic total.",
+    "The source preserves Rough-Terrain/Rough-terrain capitalization and hyphenation variants across the qualification, training, and assessment sections."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is retained as superseded and prints Promulgated July 2007 with a Page 1 of 79 through Page 78 of 79 sequence; the canonical fields preserve the printed date and 78 reliably numbered pages."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, and 120 Core hours; the canonical duration records the 156-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source preserves Rough-Terrain/Rough-terrain capitalization and hyphenation variants across the qualification, training, and assessment sections."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Heavy Equipment Operation (Rough-Terrain Crane) NC II (Superseded).pdf",
-    "pdf_pages": 79,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        27,
+        30
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "CON833309",
+      "source_unit_code": "CON833309",
+      "pdf_page_range": [
+        39,
+        47
+      ]
+    },
+    {
+      "unit_code": "CON833310",
+      "source_unit_code": "CON833310",
+      "pdf_page_range": [
+        48,
+        54
+      ]
+    },
+    {
+      "unit_code": "CON833311",
+      "source_unit_code": "CON833311",
+      "pdf_page_range": [
+        55,
+        62
+      ]
+    }
+  ]
 }
