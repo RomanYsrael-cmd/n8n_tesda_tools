@@ -2,63 +2,52 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:laboratory-and-metrology-calibration-services-nc-ii:72ba5c49c1",
-  "qualification": "Laboratory and Metrology Calibration Services NC II",
+  "qualification": "LABORATORY AND METROLOGY CALIBRATION SERVICES NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ALT742201",
-        "title": "engineering blue prints or drawings that provides the measurements of the"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ALT315305",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT311202",
-        "title": "This unit includes identifying, caring for, handling, using and"
-      },
-      {
-        "unit_code": "ALT723203",
-        "title": "specification manuals, maintenance procedure manuals and periodic"
-      },
-      {
-        "unit_code": "ALT723205",
-        "title": ": This unit deals with inspecting and cleaning of work area including"
-      },
-      {
-        "unit_code": "ALT315306",
-        "title": "This unit covers performing precision mechanical measurement"
-      },
-      {
-        "unit_code": "ALT315307",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP- AUTOMOTIVE SECTOR\nMANUFACTURING SUB-SECTOR\n(Parts Manufacturing)\n\nLABORATORY AND METROLOGY/CALIBRATION SERVICES NC II\nCOMMON\nCOMPETENCIES\nReceive and\nrespond workplace\ncommunication\nParticipate in\nworkplace\ncommunication\nLead in workplace\ncommunication\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team\n and individual\nSolve workplace\nproblems related\nto work activities\nWork with Other\nLead small Team\nApply problem\nsolving techniques\nin the workplace\nPlan and\norganize work\nBASIC\nCOMPETENCIES\n-\nLegend:\nCORE COMPETENCIES\nDemonstrate\nwork values\nPractice basic\n housekeeping\nprocedures\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\n procedures\nDevelop and\npractice negotiation\nskills\nUse mathematical\nconcepts and\n techniques\nUse relevant\n technologies\nRead & Interpret\nEngineering Drawings\nPerform Mensuration\nand Calculation\nRead, Interpret and\nApply Specifications\nand Manuals\nPerform Shop\nMaintenance\nDevelop and\nManufacture Wood\nPattern\nDevelop and\nManufacture Polymer\nPattern\nDevelop and\nManufacture Assembled\nPlated Pattern\nDevelop and\nManufacture Production\nPattern\nPerform General\nwoodworking Machine\nOperations\nUse and Maintain\nMeasuring Instrument\nPrepare & mix sand for\nmetal molding\nProduce Molds by Hand\nProduce Cores by Hand\nOperate Molding\nMachine\nOperate Core-Making\nMachine\nPour Molten Metal to\nMolds\nUse and Maintain\nMeasuring Instrument\nOperate melting\nfurnaces (non-electric)\nOperate Cupola Melting\nFurnace\nOperate Electric\nInduction Melting\nFurnace\nFettle & Trim Metal\nCastings/Forgings\nPerform Refractory\nInstallation & Repair\nUse & Maintain\nMeasuring Instrument\nANNEX A\nPerform Engineering\nMeasurement\nPerform Precision\nMechanical\nMeasurement\nCalibrate Measuring\nEquipment\nLABORATORY AND METROLOGY/CALIBRATION SERVICES NC II\nPrepare Molds for\nComposites Production\nPrepare Materials for\nFormulae\nAssemble Materials and\nEquipment for\nProduction\nOperate Injection\nMolding Equipment\nOperate Blow\nMolding Equipment\nMonitor Process\nOperations\nFinish Products and\nComponents\nSelect and Control\nInspection Processes\nand Procedure\nPerform Product\nInspection\nPerform Basic\nStatistical Quality\nControl\nUse Improvement\nProcesses in Team\nActivities\n\n--- PDF PAGE 48 ---\nTR Laboratory and Metrology/Calibration Services NC II Promulgated\n- 44 -",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ALT742201",
+        "ALT311202",
+        "ALT723203",
+        "ALT723205"
+      ],
+      "unit_titles": [
+        "Read, interpret and apply engineering drawings",
+        "Perform mensuration and calculation",
+        "Read, interpret and apply specifications and manuals",
+        "Perform shop maintenance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ALT315305",
+        "ALT315306",
+        "ALT315307"
+      ],
+      "unit_titles": [
+        "Perform engineering measurement",
+        "Perform precision mechanical measurement",
+        "Calibrate measuring equipment"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\n\nSuccessful candidates shall be awarded a National Certificate signed by the TESDA Director\nGeneral.\n\n4.2 Individual\naspiring\nto\nbe\nawarded\nthe\nqualification\nof\nof\nLABORATORY\nAND\nMETROLOGY/CALIBRATION SERVICES NC II must acquire Certificates of Competency in\nall the following core units of the Qualification. Candidates may apply for assessment in any\naccredited assessment center.\n\n4.2.1 Perform Engineering Measurement\n\n4.2.2 Perform Precision Mechanical Measurement\n\n4.2.3 Calibrate Measuring Equipment\n\n4.3\nAssessment shall focus on the core units of competency. The basic and common units\nshall be integrated or assessed concurrently with the core units.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n\n4.4.2 Experienced workers (wage employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the Procedures\nManual on Assessment and Certification and Guidelines on the Implementation of the\nPhilippine TVET Qualification and Certification System (PTQCS).\n\n--- PDF PAGE 47 ---\nTR Laboratory and Metrology/Calibration Services NC II Promulgated\n- 43 -\nCOMPETENCY MAP- AUTOMOTIVE SECTOR\nMANUFACTURING SUB-SECTOR\n(Parts Manufacturing)\n\nLABORATORY AND METROLOGY/CALIBRATION SERVICES NC II\nCOMMON\nCOMPETENCIES\nReceive and\nrespond workplace\ncommunication\nParticipate in\nworkplace\ncommunication\nLead in workplace\ncommunication\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team\n and individual\nSolve workplace\nproblems related\nto work activities\nWork with Other\nLead small Team\nApply problem\nsolving techniques\nin the workplace\nPlan and\norganize work\nBASIC\nCOMPETENCIES\n-\nLegend:\nCORE COMPETENCIES\nDemonstrate\nwork values\nPractice basic\n housekeeping\nprocedures\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\n procedures\nDevelop and\npractice negotiation\nskills\nUse mathematical\nconcepts and\n techniques\nUse relevant\n technologies\nRead & Interpret\nEngineering Drawings\nPerform Mensuration\nand Calculation\nRead, Interpret and\nApply Specifications\nand Manuals\nPerform Shop\nMaintenance\nDevelop and\nManufacture Wood\nPattern\nDevelop and\nManufacture Polymer\nPattern\nDevelop and\nManufacture Assembled\nPlated Pattern\nDevelop and\nManufacture Production\nPattern\nPerform General\nwoodworking Machine\nOperations\nUse and Maintain\nMeasuring Instrument\nPrepare & mix sand for\nmetal molding\nProduce Molds by Hand\nProduce Cores by Hand\nOperate Molding\nMachine\nOperate Core-Making\nMachine\nPour Molten Metal to\nMolds\nUse and Maintain\nMeasuring Instrument\nOperate melting\nfurnaces (non-electric)\nOperate Cupola Melting\nFurnace\nOperate Electric\nInduction Melting\nFurnace\nFettle & Trim Metal\nCastings/Forgings\nPerform Refractory\nInstallation & Repair\nUse & Maintain\nMeasuring Instrument\nANNEX A\nPerform Engineering\nMeasurement\nPerform Precision\nMechanical\nMeasurement\nCalibrate Measuring\nEquipment\nLABORATORY AND METROLOGY/CALIBRATION SERVICES NC II\nPrepare Molds for\nComposites Production\nPrepare Materials for\nFormulae\nAssemble Materials and\nEquipment for\nProduction\nOperate Injection\nMolding Equipment\nOperate Blow\nMolding Equipment\nMonitor Process\nOperations\nFinish Products and\nComponents\nSelect and Control\nInspection Processes\nand Procedure\nPerform Product\nInspection\nPerform Basic\nStatistical Quality\nControl\nUse Improvement\nProcesses in Team\nActivities\n\n--- PDF PAGE 48 ---\nTR Laboratory and Metrology/Calibration Services NC II Promulgated\n- 44 -\nDEFINITION OF TERMS\n\n1. Accuracy\nAccuracy designates the degree of agreement of the\nmeasured size with its true magnitude as expressed in standard\nunits of measurement.\n2. Caliper gauges\nCaliper gauges are measuring device with jaws establish the\nlength to be measured by positive contact. One of the jaws is\nintegral with the graduated beam, the other has markings to\nindicate the corresponding scale position.\n3. Dial indicators\nDial indicators are instruments used to accurately measure a\nsmall distance. These may be used to check the variation in\ntolerance during the inspection process of a machined part,\nmeasure the deflection of a beam or ring under laboratory\nconditions, as well as many other situations where a small\nmeasurement needs to be registered or indicated.\n4. Diffraction gratings\nDiffraction gratings are transparent plates, usually made of\nglass, having a large number of equally spaced parallel lines.\n5. DMC (Dimensional\nMark-up Language)\nDMC (Dimensional Mark-up Language) is the release and\nongoing development and testing a global language for\nmetrology systems interfaces.\n6. Gauge blocks\nGauge blocks are precision ground and lapped measuring\nstandards. They are used as references for the setting of\nmeasuring equipment such as micrometers, sine bars, dial\nindicators (when used in an inspection role).\n7. Line graduated\nmaster scales\nLine graduated master scales is the basis for the operation of\noptical instruments for absolute length measurements.\n8. Line graduated\nrules\nLine graduated rules are available in widely different degrees\nof accuracy to suit diverse requirements for plain length\nmeasuring tools.\n9. Metrology\nMetrology designates the science of all measurements that are\nmade by comparing the dimensionally measurable conditions of\nsolids, or of diverse physical phenomena to generally accepted\nunits of measurement. It is a branch of technology concerned\nwith the measurement of geometrically defined dimensions of\ntechnical parts.\n10. Micrometer\nMicrometer is a measuring device using rotation of the\nthreaded spindle causes controlled advance of the spindle’s\ncontact face relative to an integral reference face.\n11. Precision\nPrecision expresses the degree of repeatability of the\nmeasuring process. It designates how closely identical values\nare obtained when repeating the same measurement at various\nintervals, or duplicating them by means of different instruments.\n12. Random errors\nRandom errors are statistical fluctuations (in either direction) in\nthe measured data due to the precision limitations of the\nmeasurement device.\n\n--- PDF PAGE 49 ---\nTR Laboratory and Metrology/Calibration Services NC II Promulgated\n- 45 -\n\n13. Sine bar\nSine bar is a hardened, precision ground body with two\nprecision ground cylinders fixed at the ends. The distance\nbetween the centers of the cylinders is precisely controlled, and\nthe top of the bar is parallel to a line through the centers of the\ntwo rollers.\n14. Standard deviation\nStandard deviation is the measure of the dispersion of a set of\ndata from its mean. The more spread apart the data is, the\nhigher the deviation.\n15. Tolerance\nTolerance is the allowable variance from a nominal value\nestablished by design engineers that is deemed non harmful to\nthe functioning of the product.\n\n--- PDF PAGE 50 ---\nTR Laboratory and Metrology/Calibration Services NC II Promulgated\n- 46 -\nACKNOWLEDGEMENT\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend thanks\nand appreciation to the many representatives of business, industry, academe and government\nagencies who rendered their time and expertise to the development and validation of this Training\nRegulation.\n\nTHE TECHNICAL AND INDUSTRY EXPERT PANEL\nLABORATORY AND METROLOGY CALIBRATION SERVICES NC II\nAntonio A. Gimenez\nPhilippine Automotive\nFederation, Inc. (PAFI)\n\nCesar R. Leal\nPhilippine Automotive\nFederation, Inc. (PAFI)\n\nElmo N. Serbito\nPAFI (Samahan ng mga\nManggagawang Supercast)\n\nCarina J. Bondad\n(Administrative Staff)\nThe PARTICIPANTS in the National Validation of this Training Regulation\n• (Supercast Foundry &\nMachinery Corp.\nSFMC)\n\n• Philippine Phospate\n(PHILPHOS)\n• Philippine Aluminum Wheels\nInc. (PAWI)\n• Philippine Resin Sand (PRS)\n• Toyota Auto Parts Phils. Inc.\n\n• ASPEC Corp.\nMembers of the TESDA Board\nThe MANAGEMENT and STAFF of the TESDA Secretariat\nTESDA EXCOM\nQualification and Standards Office\nFlorante P. Inoturan\nAgnes P. Panem\nAbel B. Elpedes"
 }

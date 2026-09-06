@@ -1,76 +1,59 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-iv:5db84cd3fd",
-  "qualification": "Instrumentation and Control Servicing NC IV",
+  "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-iv-superseded:5db84cd3fd",
+  "qualification": "INSTRUMENTATION AND CONTROL SERVICING NC IV (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311115",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC724202",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ELC724201",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ELC724306",
-        "title": "This unit covers the knowledge, skills and attitudes necessary to"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311116",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311117",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311118",
-        "title": "analyze, interpret and organize workplace information and"
-      },
-      {
-        "unit_code": "500311119",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311120",
-        "title": "required in adhering to environmental protection principles,"
-      },
-      {
-        "unit_code": "ELC311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC724307",
-        "title": "This unit covers the knowledge, skills and attitudes needed to"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n\n65",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311115",
+        "500311116",
+        "500311117",
+        "500311118",
+        "500311119",
+        "500311120"
+      ],
+      "unit_titles": [
+        "Utilize specialized communication skills",
+        "Develop teams and individuals",
+        "Apply problem solving techniques in the workplace",
+        "Collect, analyze and organize information",
+        "Plan and organize work",
+        "Promote environmental protection"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ELC724201",
+        "ELC311201",
+        "ELC311202",
+        "ELC315202",
+        "ELC311203",
+        "ELC724202"
+      ],
+      "unit_titles": [
+        "Use hand tools",
+        "Perform mensuration and calculation",
+        "Prepare and interpret technical drawing",
+        "Apply quality standards",
+        "Perform computer operations",
+        "Terminate and connect electrical wiring and electronic circuits"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ELC724306",
+        "ELC724307"
+      ],
+      "unit_titles": [
+        "Start-up and commissioning instrumentation and control systems",
+        "Diagnose and troubleshoot instrumentation and control systems"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National Certificate IV\nsigned by the TESDA Director General.\n4.2\nThe qualification of Instrumentation and Control Servicing NC IV may be\nattained through:\n4.2.1.\nAccumulation of Certificates of Competency (COCs) in all the\nfollowing units of competencies:\n4.2.1.1\nInstall Instrumentation and Control Devices\n4.2.1.2\nCalibrate Instrumentation and Control Devices\n4.2.1.3\nConfigure Instrumentation and Control Devices\n4.2.1.4\nLoop Check Instrumentation and Control Devices\n4.2.1.5\nMaintain and Repair Instrumentation and Control Devices\n4.2.1.6\nStart-up and Commissioning Instrumentation and Control\nSystems\n4.2.1.7\nDiagnose and Troubleshoot Instrumentation and Control\nSystems\n\nSuccessful candidates shall be awarded a Certificate of\nCompetency (COC) in each of the core units.\n\n4.3\nAccumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate.\n\n4.4\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core units.\n\n4.5\nThe following are qualified to apply for assessment and certification:\n\n4.5.1.\nGraduate of formal, non-formal, and informal including enterprise-\nbased training programs.\n\n4.5.2.\nExperienced workers (wage employed or self employed)\n\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)”.\n\n--- PDF PAGE 63 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS - INSTRUMENTATION AND CONTROL SERVICING NC IV\n\n Page 61\n\nDEFINITION OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who\npass the assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and\nattitudes to perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgments on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be\nconducted or carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a\nparticular area of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by the\nindividual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\noutcome terms the functions that a person performs in the workplace.\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual. It\nprovides information on critical aspects of competency, underpinning knowledge,\nunderpinning skills, resource implications, assessment method and context of\nassessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when,\nevidence should be collected\n\n--- PDF PAGE 64 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS - INSTRUMENTATION AND CONTROL SERVICING NC IV\n\n Page 62\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve all\nthe required units of competency for a national qualification defined under the\nTraining Regulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n17) Qualification - is a cluster of units of competencies that meets job roles and is\nsignificant in the workplace. It is also a certification awarded to a person on\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work is\nto be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s\nskills, knowledge and attitudes gained from life and work experiences outside\nregistered training programs\n\n19) Resource Implication - refer to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It includes\nwork environment and conditions, materials, tools and equipment\n\n20) Basic Competencies - are the skills and knowledge that everyone needs for work\n\n21) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serves as basis for\nestablishment of qualification and certification under the PTQF. It also serves as\nguide for development of competency-based curricula and instructional materials\nincluding registration of TVET programs offered by TVET providers\n\n22) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is\nessential to the performance of the competency\n\n23) Underpinning Skills - refers to the list of the skills needed to achieve the\nelements and performance criteria in the unit of competency. It includes generic\nand industry specific skills\n\n24) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\n--- PDF PAGE 65 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS - INSTRUMENTATION AND CONTROL SERVICING NC IV\n\n Page 63\n\nSECTOR SPECIFIC\n\n25) Actuator: In a closed-loop control system, that part of the final control element\nthat translates the control signal into action by the control device.\n\n26) ANSI: American National Standards Institute.\n\n27) ASME: American Society of Mechanical Engineers.\n\n28) Assembler: A program that translates assembly language instructions into\nmachine language instructions.\n\n29) Assembly Language: A machine oriented language in which mnemonics are\nused to represent each machine language instruction. Each CPU has its own\nspecific assembly language.\n\n30) Automation: (1) The conversion to and implementation of procedures, processes,\nor equipment by automated means. (2) Industrial open- or closed-loop control\nsystems in which the manual operation of controls is replaced by servo operation.\n\n31) Calibration: The process of adjusting an instrument or compiling a deviation chart\nso that its reading can be correlated to the actual value being measured.\n\n32) Control system: The deliberate guidance or manipulation of the elements in a\nsystem in order to achieve a prescribed value or performance of a system to\ncomplete a defined process.\n\n33) Conveyor: A horizontal, inclined or vertical device for moving or transporting bulk\nmaterials, packages, or objects in a path predetermined by the design of the\ndevice and having points of loading and discharge fixed, or selective.\n\n34) DAS: Also known as Data Acquisition System, DAQ is a system of one or more\nsensors, devices and communication links used to scan or collect and forward\ndata to a central location for further processing, display, or archiving.\n\n35) DCS: Distributed Control System (DCS) is a big Programmable Logic Controller\n(PLC) that is typically networked to other controllers, PLCs or field devices. It\ntypically has a workstation to interface with the controller and can be very\nexpensive due to built-in security and fail-over features.\n\n36) Ergonomics --\"The systematic application of knowledge about the psychological,\nphysical, and social attributes of human beings in the design and use of all things\nwhich affect a person's working conditions: equipment and machinery, the work\nenvironment and layout, the job itself, training and the organization of work.\"\n(Humansystems Inc).\n\n37) HMI: Human Machine Interface (HMI) is a software application (typically a\nGraphical User Interface or GUI) that present information to the operator about the\nstate of a process, and to accept and implement the operators control instructions.\nIt may also interpret the plant information and guide the interaction of the operator\nwith the system. Also known as Man Machine Interface (MMI).\n\n--- PDF PAGE 66 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS - INSTRUMENTATION AND CONTROL SERVICING NC IV\n\n Page 64\n\n38) PID control: Proportional plus Integral plus Derivative control is used in processes\nwhere the controlled variable is affected by long downtimes.\n\n39) PLC (Programmable Logic Controller) : A class of industrially hardened devices\nthat provides hardware interface for input sensors and output actuators. PLCs can\nbe programmed using relay ladder logic to control the outputs based on input\nconditions and / or algorithms contained in the memory of the PLC.\n\n40) Process automation: Includes objectives of control and also those of enterprise\nmanagement. This requires an integrated approach to plant operations and\nenables a variety of applications such as production scheduling, inventory control,\nperformance monitoring, statistical process control, maintenance management and\nenvironmental audit.\n\n41) Process control: Automatic monitoring and control of a process by an instrument\nor computer programmed to respond appropriately to feedback from the process.\n\n42) SCADA: Supervisory Control and Data Acquisition (SCADA) is a common process\ncontrol application that collects data from sensors on the shop floor or in remote\nlocations and sends them to a central computer for management and control.\n\n43) Sensor: A transducer whose input is a physical phenomenon and whose output is\na quantitative measure of the phenomenon.\n\n44) Sequence control: The control of a series of machine movements, with the\ncompletion of one movement initiating the next. The extent of movements is\ntypically not specified by numerical input data.\n\n45) Software: The entire set of programs, procedures, and related documentation\nassociated with a computer.\n\n46) Static Calibration: A calibration recording pressure versus output at fixed points\nat room temperature.\n\n47) Systems integration: The ability of computers, instrumentation, and equipment to\nshare data or applications with other components in the same or other functional\nareas.\n\n48) Transducer: A device that converts signals from one physical form to another.\n\n--- PDF PAGE 67 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS - INSTRUMENTATION AND CONTROL SERVICING NC IV\n\n Page 65\n\nANNEX A - COMPETENCY MAP\n\nBASIC COMPETENCIES\n\nReceive and\nRespond to\nWorkplace\nCommunication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nWorkplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Team\nDevelop and practice\nnegotiation skills\nSolve Problems\nRelated to Work\nActivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize Specialist\nCommunication\nSkills\nDevelop Team and\nIndividuals\nApply Problem\nSolving Techniques\nin the Workplace\nCollect, analyze and\norganize\ninformation\nPlan and Organize\nWork\nPromote\nenvironmental\nprotection\n\nCOMMON COMPETENCIES\n\nUse Hand Tools\nPerform\nMensuration and\nCalculation\nPrepare and\nInterpret Technical\nDrawing\nApply Quality\nStandards\nPerform Computer\nOperations\nTerminate and\nConnect Electrical\nWiring and\nElectronic Circuits\n\nCORE COMPETENCIES\n\nInstall\nInstrumentation and\nControl Devices\nCalibrate\nInstrumentation and\nControl Devices\nConfigure\nInstrumentation and\nControl Devices\nLoop Check\nInstrumentation and\nControl Devices\nMaintain and Repair\nInstrumentation &\nControl Devices\nStart-up\nInstrumentation and\nControl Systems\nDiagnose and\nTroubleshoot\nInstrumentation and\nControl Systems\nInstall Mechatronic\nDevices\nCalibrate and\nConfigure\nMechatronic Devices\nConfigure and Apply\nMechatronic Software\nPrograms\nMaintain and Repair\nMechatronic Systems\nCommission\nMechatronic\nSystems\nDiagnose and\nTroubleshoot\nMechatronic\nSystems\nService and Repair\nAudio Systems and\nProducts\nService and Repair\nVideo Systems and\nProducts\nService and Repair\nBusiness Machines\nAssemble and\nDisassemble\nConsumer Electronic\nProducts\nMaintain and Repair\nElectronically\nControlled Domestic\nAppliances\nMaintain and Repair\nAudio-Video Products\nand Systems\nMaintain and Repair\nCellular Phones\nCommission\nConsumer Electronic\nProducts and\nSystems\nDevelop Servicing\nSystems for\nConsumer Electronic\nProducts\nTrain service\ntechnician\nManage Servicing\nSystems for\nConsumer\nElectronics Products\nand Systems\nTrain service\ntechnician\nsupervisors\n\n--- PDF PAGE 68 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS - INSTRUMENTATION AND CONTROL SERVICING NC IV\n\n Page 66\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL EXPERT COMMITTEE\n\nMR. ERNIE O. DIMALANTA\nPresident, PICS Foundation, Inc.\nPresident, PhilAsia School of Instrumentation\n\nENGR. CHUCK L.G. EBALO\nVP-Academic Affairs, PhilAsia School\n Of Instrumentation and Automation\n and Automation\n\nMS. MA. ZENAIDA S. VILLALVA\nProfessor, Rizal Technological University\nTreasurer, PICS Foundation, Inc.\n\nENGR. RAINNEL R. MACLANG\nEngineering Service Manager\nInstrumentation & Control Specialist, Inc.\n\n• PHILIPPINE INSTRUMENTATION AND CONTROL SOCIETY FOUNDATION, INC.\n\n• INSTRUMENTATION & CONTROL SPECIALIST, INC.\n\n• PHILASIA SCHOOL OF INSTRUMENTATION & AUTOMATION\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT\nCOMMITTEE\n\n• THE MANAGEMENT AND STAFF OF TESDA SECRETARIAT\n\n•\nQualifications and Standards Office\n(QSO)"
 }
