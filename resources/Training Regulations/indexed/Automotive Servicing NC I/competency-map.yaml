@@ -1,86 +1,65 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:automotive-servicing-nc-i:2018-02-27",
+  "document_id": "tesda:tr:automotive-servicing-nc-i:8907863981",
   "qualification": "AUTOMOTIVE SERVICING NC I",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311101",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311104",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723211",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723379",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ALT723376",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311102",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311103",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT832212",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723214",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723215",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723216",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723217",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723218",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723377",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723378",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723380",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723381",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n105",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311101",
+        "500311102",
+        "500311103",
+        "500311104"
+      ],
+      "unit_titles": [
+        "Receive and respond to workplace communication",
+        "Work with others",
+        "Demonstrate work values",
+        "Practice basic housekeeping procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ALT723211",
+        "ALT832212",
+        "ALT723214",
+        "ALT723215",
+        "ALT723216",
+        "ALT723217",
+        "ALT723218"
+      ],
+      "unit_titles": [
+        "Validate vehicle specification",
+        "Move and position vehicle",
+        "Utilize automotive tools",
+        "Perform mensuration and calculation",
+        "Utilize workshop facilities and equipment",
+        "Prepare servicing parts and consumables",
+        "Prepare vehicle for servicing and releasing"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ALT723376",
+        "ALT723377",
+        "ALT723378",
+        "ALT723379",
+        "ALT723380",
+        "ALT723381"
+      ],
+      "unit_titles": [
+        "Perform pre-delivery inspection",
+        "Perform periodic maintenance of automotive engine",
+        "Perform periodic maintenance of drive train",
+        "Perform periodic maintenance of brake system",
+        "Perform periodic maintenance of suspension system",
+        "Perform periodic maintenance of steering system"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 AUTOMOTIVE SERVICING NC I QUALIFICATION\n\nThe AUTOMOTIVE SERVICING NC I Qualification consist of competencies that\na person must achieve to perform pre-delivery inspection and periodic maintenance\nof automotive parts and components.\n\nThis Qualification is packaged from the competency map of the Automotive\nIndustry (Service sector) as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following\n\nCODE NO.\nBASIC COMPETENCIES\n500311101\nReceive and respond to workplace communication\n500311102\nWork with others\n500311103\nDemonstrate work values\n500311104\nPractice basic housekeeping procedures\n\nCODE NO.\nCOMMON COMPETENCIES\nALT723211\nValidate vehicle specification\nALT832212\nMove and position vehicle\nALT723214\nUtilize automotive tools\nALT723215\nPerform mensuration and calculation\nALT723216\nUtilize workshop facilities and equipment\nALT723217\nPrepare servicing parts and consumables\nALT723218\nPrepare vehicle for servicing and releasing\n\nCODE NO.\nCORE COMPETENCIES\nALT723376\nPerform pre-delivery inspection\nALT723377\nPerform periodic maintenance of automotive engine\nALT723378\nPerform periodic maintenance of drive train\nALT723379\nPerform periodic maintenance of brake system\nALT723380\nPerform periodic maintenance of suspension system\nALT723381\nPerform periodic maintenance of steering system\n\nA person who has achieved this Qualification is competent to be:\n❑ Pre-delivery inspector / Check lister\n❑ Periodic maintenance personnel/staff\n❑ Periodic maintenance associate\n❑ Junior technician\n❑ Maintenance technician\n❑ Auto – service personnel\n\n--- PDF PAGE 4 ---\nTR – Automotive Servicing NC I Promulgated February 27, 2018 2"
 }

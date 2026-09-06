@@ -1,154 +1,97 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:automotive-servicing-nc-iv:2013-12",
+  "document_id": "tesda:tr:automotive-servicing-nc-iv:bf1d5f6794",
   "qualification": "AUTOMOTIVE SERVICING NC IV",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311115",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723323",
-        "title": "ALT 723323"
-      },
-      {
-        "unit_code": "ALT723324",
-        "title": "ALT 723324"
-      },
-      {
-        "unit_code": "ALT723325",
-        "title": "ALT 723325"
-      },
-      {
-        "unit_code": "ALT723326",
-        "title": "ALT 723326"
-      },
-      {
-        "unit_code": "ALT723327",
-        "title": "ALT 723327"
-      },
-      {
-        "unit_code": "ALT723362",
-        "title": "ALT 723362"
-      },
-      {
-        "unit_code": "ALT723363",
-        "title": "ALT 723363"
-      },
-      {
-        "unit_code": "ALT723364",
-        "title": "ALT 723364"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ALT723201",
-        "title": "selection and application of sealant/adhesives."
-      },
-      {
-        "unit_code": "ALT311208",
-        "title": "conduct the final quality check on completed work or"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311116",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311117",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311118",
-        "title": "analyze, interpret and organize workplace information and"
-      },
-      {
-        "unit_code": "500311119",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311120",
-        "title": "required in adhering to environmental protection"
-      },
-      {
-        "unit_code": "ALT723202",
-        "title": "move and position vehicle in a workshop."
-      },
-      {
-        "unit_code": "ALT311202",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "ALT723203",
-        "title": "service specification manuals, maintenance procedure"
-      },
-      {
-        "unit_code": "ALT723204",
-        "title": "selecting and applying different types of lubricants."
-      },
-      {
-        "unit_code": "ALT723307",
-        "title": "including tools, equipment and facilities. Storage of"
-      },
-      {
-        "unit_code": "ALT311204",
-        "title": "attitude in estimating/costing automotive repair."
-      },
-      {
-        "unit_code": "ALT311205",
-        "title": "This unit identifies the competencies required to"
-      },
-      {
-        "unit_code": "ALT723206",
-        "title": "guidelines and encompasses competencies necessary to"
-      },
-      {
-        "unit_code": "ALT311207",
-        "title": "by"
-      },
-      {
-        "unit_code": "ALT311209",
-        "title": "and knowledge required to conduct individual and group"
-      },
-      {
-        "unit_code": "ALT723210",
-        "title": "required to identify original automotive parts and"
-      },
-      {
-        "unit_code": "ALT311365",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT311366",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT311367",
-        "title": "to estimate the time requirements for complex jobs,"
-      },
-      {
-        "unit_code": "ALT311368",
-        "title": "knowledge required to establish, maintain and evaluate the"
-      },
-      {
-        "unit_code": "ALT311369",
-        "title": "knowledge"
-      },
-      {
-        "unit_code": "ALT311370",
-        "title": "manage people. It covers work allocation and the"
-      },
-      {
-        "unit_code": "ALT311371",
-        "title": "implement management system that ensures the protection"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n137",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311115",
+        "500311116",
+        "500311117",
+        "500311118",
+        "500311119",
+        "500311120"
+      ],
+      "unit_titles": [
+        "Utilize specialized communication skills",
+        "Develop teams and individuals",
+        "Apply problem solving techniques in the workplace",
+        "Collect, analyze and organize information",
+        "Plan and organize work",
+        "Promote environmental protection"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ALT723201",
+        "ALT723202",
+        "ALT311202",
+        "ALT723204",
+        "ALT723205",
+        "ALT311204",
+        "ALT311205",
+        "ALT723206",
+        "ALT311207",
+        "ALT311208",
+        "ALT311209",
+        "ALT723210"
+      ],
+      "unit_titles": [
+        "Apply appropriate sealant/adhesive",
+        "Move and position vehicle",
+        "Perform mensuration and calculation",
+        "Use and apply lubricants/coolants",
+        "Perform shop maintenance",
+        "Prepare job estimate/costing",
+        "Interpret/draw technical drawing",
+        "Apply basic safety and emergency procedures",
+        "Inspect technical quality of work",
+        "Maintain quality systems",
+        "Provide work skill instructions",
+        "Identify and select original automotive parts and products"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ALT723323",
+        "ALT723324",
+        "ALT723325",
+        "ALT723326",
+        "ALT723327",
+        "ALT723362",
+        "ALT723363",
+        "ALT723364",
+        "ALT311365",
+        "ALT311366",
+        "ALT311367",
+        "ALT311368",
+        "ALT311369",
+        "ALT311370",
+        "ALT311371"
+      ],
+      "unit_titles": [
+        "Service diesel engine management system",
+        "Service electronic body management system",
+        "Service diesel fuel injection system components",
+        "Service electronic drive management system",
+        "Service emission control system",
+        "Service and repair electronically controlled anti-lock braking system",
+        "Service and repair electronically operated traction control system",
+        "Service and repair electronically operated stability control system",
+        "Plan assessment activities and processes",
+        "Manage facility and inventory requirements",
+        "Estimate complex job",
+        "Ensure a safe workplace",
+        "Implement continuous improvement",
+        "Manage people performance",
+        "Plan and manage compliance with environmental regulations in a workplace or business"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 AUTOMOTIVE SERVICING NC IV QUALIFICATION\n\nThe AUTOMOTIVE SERVICING NC IV Qualification consists of competencies\nthat a person must achieve to lead a section or group of workers to service and\nrepair various types of motor vehicles. He is a master technician who can service\nand repair electronically controlled components or devices and emission control\nsystem of a motor vehicle. He can is also service both diesel and gasoline engines.\n\nThis Qualification is packaged from the competency map of the Automotive\nIndustry (Service sector) as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following\n\nCODE NO.\nBASIC COMPETENCIES\n500311115\nUtilize specialized communication skills\n500311116\nDevelop teams and individuals\n500311117\nApply problem solving techniques in the workplace\n500311118\nCollect, analyze and organize information\n500311119\nPlan and organize work\n500311120\nPromote environmental protection\n\nCODE NO.\nCOMMON COMPETENCIES\nALT723201\nApply Appropriate Sealant/Adhesive\nALT723202\nMove and Position Vehicle\nALT311202\nPerform Mensuration and Calculation\nALT723203\nRead, Interpret and Apply Specifications and Manuals\nALT723204\nUse and Apply Lubricants/Coolants\nALT723205\nPerform Shop Maintenance\nALT311204\nPerform Job Estimate\nALT311205\nInterpret/Draw Technical Drawing\nALT723206\nPractice health, safety and environment procedures\nALT311207\nInspect technical quality of work\nALT311208\nMaintain quality systems\nALT311209\nProvide work skill instructions\nALT723210\nIdentify and select original automotive parts and products\n\n--- PDF PAGE 4 ---\nAutomotive Servicing NC IV (Amended) Promulgated December 2013\n2\n\nCODE NO.\nCORE COMPETENCIES\nALT 723323\nService Diesel Engine Management System\nALT 723324\nService Electronic Body Management System\nALT 723325\nService Diesel Fuel Injection System Components\nALT 723326\nService Electronic Drive Management System\nALT 723327\nService Emission Control System\nALT 723362\nService and repair electronically controlled anti-lock braking system\nALT 723363\nService and repair electronically operated traction control System\nALT 723364\nService and repair electronically operated stability control System\nALT311365\nPlan assessment activities and processes\nALT311366\nManage facility and inventory requirements\nALT311367\nEstimate complex jobs\nALT311368\nEnsure a safe workplace\nALT311369\nImplement continuous improvement\nALT311370\nManage people performance\nALT311371\nPlan and manage compliance with environmental regulations in a\nworkplace or business\n\nA person who has achieved this Qualification is competent to be:\n Supervisor, Automotive Service Shop\n Master Automotive Technician\n Service Analyst\n\n--- PDF PAGE 5 ---\nAutomotive Servicing NC IV (Amended) Promulgated December 2013\n3"
 }

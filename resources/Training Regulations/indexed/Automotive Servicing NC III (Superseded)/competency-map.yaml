@@ -1,146 +1,100 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:automotive-servicing-nc-iii:2013-12",
-  "qualification": "AUTOMOTIVE SERVICING NC III",
+  "document_id": "tesda:tr:automotive-servicing-nc-iii-superseded:ccde614b0b",
+  "qualification": "AUTOMOTIVE SERVICING NC III (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "and attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "ALT723201",
-        "title": "the selection and application of sealant/adhesives."
-      },
-      {
-        "unit_code": "ALT723316",
-        "title": "ALT 723316"
-      },
-      {
-        "unit_code": "ALT723317",
-        "title": "ALT 723317"
-      },
-      {
-        "unit_code": "ALT723318",
-        "title": "ALT 723318"
-      },
-      {
-        "unit_code": "ALT723353",
-        "title": "UNIT CODE: ALT 723353"
-      },
-      {
-        "unit_code": "ALT723358",
-        "title": "ALT 723358"
-      },
-      {
-        "unit_code": "ALT723359",
-        "title": "ALT 723359"
-      },
-      {
-        "unit_code": "ALT723360",
-        "title": "ALT 723360"
-      },
-      {
-        "unit_code": "ALT723361",
-        "title": "ALT 723361"
-      },
-      {
-        "unit_code": "ALT723350",
-        "title": "UNIT CODE: ALT 723350"
-      },
-      {
-        "unit_code": "ALT723351",
-        "title": "UNIT CODE: ALT 723351"
-      },
-      {
-        "unit_code": "ALT723352",
-        "title": "ALT 723352"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ALT311208",
-        "title": "conduct the final quality check on completed work or"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "lead small teams including setting and maintaining"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "required to collect information in order to negotiate to a"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical concepts"
-      },
-      {
-        "unit_code": "ALT723202",
-        "title": "move and position vehicle in a workshop."
-      },
-      {
-        "unit_code": "ALT311202",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "ALT723203",
-        "title": "service specification manuals, maintenance procedure"
-      },
-      {
-        "unit_code": "ALT723204",
-        "title": "selecting and applying different types of lubricants."
-      },
-      {
-        "unit_code": "ALT723307",
-        "title": "including tools, equipment and facilities. Storage of tools/"
-      },
-      {
-        "unit_code": "ALT311204",
-        "title": "attitude in estimating/costing automotive repair."
-      },
-      {
-        "unit_code": "ALT311205",
-        "title": "This unit identifies the competencies required to"
-      },
-      {
-        "unit_code": "ALT723206",
-        "title": "guidelines and encompasses competencies necessary to"
-      },
-      {
-        "unit_code": "ALT311207",
-        "title": "by"
-      },
-      {
-        "unit_code": "ALT311209",
-        "title": "and knowledge required to conduct individual and group"
-      },
-      {
-        "unit_code": "ALT723210",
-        "title": "required to identify original automotive parts and"
-      },
-      {
-        "unit_code": "ALT723319",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723320",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n116",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ALT723201",
+        "ALT723202",
+        "ALT311202",
+        "ALT723204",
+        "ALT723205",
+        "ALT311204",
+        "ALT311205",
+        "ALT723206",
+        "ALT311207",
+        "ALT311208",
+        "ALT311209",
+        "ALT723210"
+      ],
+      "unit_titles": [
+        "Apply appropriate sealant/adhesive",
+        "Move and position vehicle",
+        "Perform mensuration and calculation",
+        "Use and apply lubricants/coolants",
+        "Perform shop maintenance",
+        "Prepare job estimate/costing",
+        "Interpret/draw technical drawing",
+        "Apply basic safety and emergency procedures",
+        "Inspect technical quality of work",
+        "Maintain quality systems",
+        "Provide work skill instructions",
+        "Identify and select original automotive parts and products"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ALT723316",
+        "ALT723317",
+        "ALT723318",
+        "ALT723319",
+        "ALT723320",
+        "ALT723353",
+        "ALT723358",
+        "ALT723359",
+        "ALT723360",
+        "ALT723361"
+      ],
+      "unit_titles": [
+        "Test and repair electrical security system/components",
+        "Service electronic engine management",
+        "Overhaul engines and associated components",
+        "Service automatic transmission",
+        "Perform maintenance service check-up and repair to auto AC system",
+        "Remove and replace automotive engine and engine-related systems",
+        "Service and repair electronically controlled steering systems",
+        "Service and repair electronically controlled suspension systems",
+        "Repair instruments and warning systems",
+        "Carry out diagnostic procedures"
+      ]
+    },
+    {
+      "group": "elective",
+      "unit_codes": [
+        "ALT723350",
+        "ALT723351",
+        "ALT723352"
+      ],
+      "unit_titles": [
+        "Install LPG conversion kit",
+        "Test and adjust LPG calibration",
+        "Service LPG system"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n4.2 Individual aspiring to be awarded the qualification of Automotive Servicing NC III\nmust acquire Certificates of Competency in all the following core units of the\nQualification. Candidates may apply for assessment in any accredited\nassessment center.\n\n4.2.1 Perform Engine Overhauling\n Overhaul Engines and Associated Components\n4.2.2 Service Automotive Electrical Security and Electronic\n Components\n Test and Repair Electrical Security System/Components\n Service Electronic Engine Management\n Service and repair electronically controlled steering systems\n Service and repair electronically controlled suspension\nsystems\n Repair Instruments and warning systems\n Carry out diagnostic procedures\n4.2.3 Perform Servicing to Automatic Transmission\n Service Automatic Transmission\n4.2.4 Service Automotive Air-Conditioning\n Perform Maintenance Service Check Up and Repair to Auto\n AC System\n\n(ELECTIVE COMPETENCIES)\n4.2.5 Perform LPG Retrofitting/Conversion\n Install LPG Conversion Kit\n Test/Adjust LPG Calibration\n Service Auto LPG System\n4.2.6 Perform Motor Vehicle Re-powering\n Remove and Replace Automotive Engine and Engine-\nRelated Systems\n\nSuccessful candidates shall be awarded Certificates of Competency (COC).\n\n4.3\n Accumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate.\n4.4\n Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n4.5\nThe following are qualified to apply for assessment and certification:\n4.5.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n4.5.2 Experienced workers (wage employed or self employed)\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “ Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTOQCS)”.\n\n--- PDF PAGE 118 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n116\n\n--- PDF PAGE 119 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n117\nDEFINITION OF TERMS\n\n1. Light Duty Vehicles\nThese are motor vehicles whose gross vehicle weight is\nequal or less than 3,500 kgs. Powered by a gas or diesel\nengine.\n2. Automotive Service\nTechnician\nRefers to an all around auto serviceman that can perform\nboth mechanical and electrical as well as auto electronics\nmaintenance checking and inspection of motor vehicle.\nAssesses\nvehicle\nproblems,\nperform\nall\nnecessary\ndiagnostic\ntest\nor\ninstallation\nof\naccessories\nand\ncompetently repairs or replaces faulty parts.\n3. Adhesives\nSubstance used to hold gasket in place during assembly. It\nalso maintains a tight seal by filling in small irregularities on\na surface and prevents gasket from shifting due to\nvibration.\n4. Anti-Lock Braking\nSystem\nSystem that automatically controls wheel slip or prevents\nsustained wheel locking on braking\n5. Automatic\nTransmission\nA transmission in which gear or ratio changes are self-\nactivated, eliminating the necessity of hand shifting gears\n6. Backlash\nThe amount of clearance or play between two meshed\ngears\n7. Catalytic Converter\n\nEmission The control device fitted in the exhaust system of\nan internal combustion engine. The converter reduces the\ntoxicity of products of combustion by catalytic re-\ncombination\n8. Charcoal Canister\nTrap containing charcoal granules to store fuel evaporating\nfrom a fuel system and prevent its loss to atmosphere,\nparticularly from a carburetor and fuel tank.\n9. Electronics\nElectrical assemblies, circuit and system that use electronic\ndevices such as transistors and diodes.\n10. Emissions\nAny air contaminant, pollutant, gas stream from a known\nsource which is introduced into the atmosphere.\n11. Final Drive\nThe end of the drive train before power is transmitted\nto the wheels.\n12. Fuel Injection\nAn electronic system that increases the performance ad\nfuel economy because it monitors engine conditions and\nprovides the correct air/fuel mixture based on the engine’s\ndemand. It injects fuel directly into the cylinder head\nenabling more precise control over the quantity used.\n\n--- PDF PAGE 120 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n118\n\n13. Governor\n\nA speed sensing device that employs centrifugal force and\nspring tension to govern engine speed.\n14. Hotchkiss Drive\nThe type of rear suspension in which leaf springs absorbs\nthe rear axle housing torque.\n15. Intake Manifold\n\nTubing attached to the engine through which the air/fuel\nmixture reaches the cylinder.\n16. Ignition System\nElectrical system devised to produce timed sparks from\nengine spark plug. Consisting of a battery, induction coil,\ncapacitor, distributor, spark plugs and relevant switches\nand wiring.\n17. Master Cylinder\nThe liquid-filled cylinder in the hydraulic brake system or\nclutch, where hydraulic pressure is developed when\ndepresses a foot pedal.\n18. Periodic\nMaintenance\nService\nThe regular servicing prescribed by manufacturer to\nmaintain the vehicle’s top performance.\n\n19. Positive Crank\nVentilation\nEmission control system that prevents crank case gases\nfrom entering the atmosphere, usually by drawing the\ngases from the crank case and feeding them into the\nengine’s induction system.\n20. Power Steering\nSteering that has been designed to make the wheel move\nmore easily than in a manual steering system. Hydraulic\nassists the process utilizing hydraulic fluid. The fluid\nincreases pressure in the power steering pump and aids in\nthe movement of the steering mechanism. This fluid, called\npower steering fluid, is what is replaced at regular intervals\nto keep steering soft and comfortable.\n21. Super Charged\nEngine\nAn engine that is similar to a turbo-charged engine which\nuses a series of belts or chains from the crankshaft to turn\nthe turbines that forces the air/fuel mixture into the cylinder\nheads under pressure creating a bigger explosion which\ngenerates more power. A turbocharger uses the exhaust\ngases to turn the turbines to create the same effect.\n22. Transaxle\nType of construction in which the transmission and\ndifferential are combined in one unit.\n23. Thermostat\nA device for automatic regulation of temperature\n\n--- PDF PAGE 121 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n119\n\n24. Turbo Charged\nEngine\nA performance-increasing turbine positioned in the exhaust\nsystem. Expanding exhaust gases spin an impeller (very\nsmall fan-type blades) at speeds up to 25 thousand rpm,\ndriving a similar compressing impeller. Compressed air\nfrom the driven impeller is forced into the induction system,\nwhich squeezes more air/fuel mixture into the combustion\nchambers. With the greater charge of air and fuel, a more\npowerful combustion burn results, thus more power. The\nbig advantage of the turbo over directly driven\nsuperchargers is the increased efficiency, although there is\na slight lag before the turbine spins up and increases the\npower output. Originally turbo were developed to enable\naircraft to fly at high altitudes, then they found use in diesel\ntrucks and train engines to increase their torque.\n25. U-joint\n\nA four-joint cross-connected to two U-shaped yokes that\nserve as a flexible coupling between shafts.\n26. Liquefied\npetroleum gas\n(LPG)\n\nMeans any product essentially composed of the following\nhydrocarbons: propane, propene (propylene), normal\nbutane, isobutene, isobutylene, butane (butylenes) and\nethane.\n27. Multi valves\n\nMeans a device consisting of all or part of the accessories\nincluding 80 percent stop valve, level indicator, pressure\nrelief valve (discharge valve) or power supply bushing (fuel\npump/actuators/fuel level sensor)\n28. Vaporizer\n\nA device intended to vaporize LPG from a liquid to a\ngaseous state\n29. LPG conversion kit\nA LPG fuel conversion kit usually include multi-valves, tank,\nchange over switch, vaporizer assembly, piping/hoses and\nsafety gadgets\n30. SGI\nSequential Gas Injector\n31. Retrofitting\nA modification of equipment to incorporate changes made\nin later production of similar equipment\n32. Re-powering\nReplacing the engine with a new, remanufactured or rebuilt\nengine.\n\n--- PDF PAGE 122 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n120\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies who rendered their time and expertise to the development and\nvalidation of these Training Regulations.\n\nTHE TECHNICAL ADVISORY PANEL (TAP)\n\nMR. ALLEN RAYMUND A. RUFO\nTAP Chairman – Automotive Sector\nTOYOTA Motors Philippines, Corp.\nParañaque city\nAutomotive Industry Board Foundation\n(AIBFI)\nSuite 1206, 12 th flr. Jollibee Center\nSan Miguel Avenue, Pasig city\n\nMS. MA. CLARISSA V. FUNESTO\nTAP Alternate Chairperson – Automotive Sector\nHONDA Phils. Inc.\nParañaque city\nAutomotive Industry Board Foundation\n(AIBFI)\nSuite 1206, 12 th flr. Jollibee Center\nSan Miguel Avenue, Pasig city\n\nMR. SIXTO D. CAYPUNO\nTAP Member – Academe\nSamson Technical College\nCubao, Quezon City\n\nMR. ANGEL DIMALANTA\nTAP Member – Labor\nTOYOTA Motors Phils., Parañaque city\nTHE TECHNICAL AND INDUSTRY EXPERT PANEL\n\nAUTOMOTIVE SERVICING\nEFREN D. BISMONTE\nERNESTO L. ALMAZORA\nELMER B. DEL ROSARIO\nBENIGNO AQUINO JR.\nTOYOTA Motors Phils. Corp.\nSta. Rosa Laguna\nRONNIE A. TRANCE\nCITIMOTORS\nPasong Tamo, Makati\nUNDRICO D. CORPUZ JR.\nMonark Foundation Tech.\nInstitute\nLibis, Quezon city\nALVIN F. ABIAS\nDon Bosco Technical Institute\nMakati city\nANTONIO D. AGALOOS\nJOSE B. TORRES\nSamson Technical College\nQuezon City\n\nThe PARTICIPANTS in the National Validation of these Training Regulations\nTESDA III\nTESDA VI\nTESDA VIII\nTESDA 10\nTESDA XII\nThe Members of the TESDA Board\nThe TESDA Executive Committee\nThe MANAGEMENT and STAFF of the TESDA Secretariat\nSSCO\nNITVET\nOFTVET\n\n--- PDF PAGE 123 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n121\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA Region VII –\nRTC Cebu) wishes to extend thanks and appreciation to the many representatives of\nbusiness, industry, academe and government agencies who rendered their time and\nexpertise to the development and validation of additional Core Units for Automotive\nLPG-Fuel Conversion/Retrofitting and Re-powering Technician of these Training\nRegulations.\n\n ADVISORY PANEL\nMR. ALLAN V. MERCADO\nPRESIDENT\nAutomotive Service Association\nIncorporated - Cebu\n\nMR. JOSEMARIE VASQUEZ\nVICE PRESEIDENT\nAutomotive Service Association\nIncorporated - Cebu\n\nMR. CHARLIE C. TAGUIAM\nTREASURER\nAutomotive Service Association\nIncorporated - Cebu\nDIR. ASTER CABERTE\nREGIONAL DIRECTOR\nDepartment of Trade and Industry\nRegion VII\n\nDIR. ANTONIO LABIOS\nREGIONAL DIRECTOR\nDepartment of Energy\nRegion VII\n\nDIR. ROSANNA A. URDANETA\nOIC-REGIONAL DIRECTOR\nTechnical Education and Skills\nDevelopment Authority Reg VII\nTECHNICAL AND INDUSTRY EXPERT PANEL\n\nMr. RICHARD COROMINAS\nRPSAMC\n\nMa. PAMELA C. TANEO\nPETRONAS\n\nPAMELA OLIVER\nFIRST AUTO GAS\n\nTechnician\n\nJENLY LONZAGA\nFIRST AUTO GAS\n\nDANILO SOLIVIO\nHANA LPG KITS\n\nFELIX TAGUIAM\nDECO SALES\n\nVINCENT A. DOLMIGUEZ\nECONOGAS\n\nGEORGE G. UY\nINTERPHIL MARKETING\n\nMr. JONATHAN GESALEM\nECONOGAS\n\nMr. AGUSTIN MARAMARA\nFIRST AUTO GAS\n\nMr. RICHARD CABUCOS\nRICHELDA\n\nMr. HECTOR ALMARIO\nFIRST AUTO GAS\n\nLOEY GENTULAN\nFIRST AUTO GAS\n\nMERCY BARING\nKEN TRANS LPG TAXI\n\nNORY SAMPLAN\nKEN TRANS LPG TAXI\n\nRUBEN GUMBOC\nECONOGAS\n\nENGR. FREDIE C. DIEZ\nOIC-CHIEF RTC VII Cebu\n\nENGR. RAINERO TOMAS JAYME\nTrainor, RTC VII Cebu\n\nOFELIA LABRA\nDepartment of Energy\nRegion VII\n\nOSEAS B. LONGAKIT\nDepartment of Energy\nRegion VII\n\nTHERESO P. MACAPAZ\nDepartment of Energy\nRegion VII\n\nJESSIE UY\nDepartment of Trade and Industry\nRegion VII\n\nThe Members of the TESDA Board\nThe TESDA Executive Committee (Qualifications and Standards Office (QSO) and Office of TESDA\nTechnology Institute (OTI)\nThe MANAGEMENT and STAFF of the TESDA Secretariat Reg VII RTC Cebu\n\n--- PDF PAGE 124 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n122\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe\nand government agencies who rendered their time and expertise to the development\nand\nvalidation\nof\nadditional\nCore\nUnits\nfor\nAutomotive\nLPG-Fuel\nConversion/Retrofitting and Re-powering Technician of these Training Regulations.\n\nINDUSTRY TECHNICAL EXPERTS\n\nMessrs. Alex F. Reyes\nand Michael Cruz\nAutomotive Technicians\nDAVID Motors and\nMarketing Corp\n\nMr. Ricardo David\nAssociate Vice President\nDAVID Motors and\nMarketing Corp\n\nMr. Antonio DE Guzman\nAutomotive Technician\nGREENGAS, Inc.\n\nMs. Sharon Siy\nGREENGAS, Inc.\n\nMr. Masuyoshi Mizuno\nMr. Syuichi Tajima\nConsultants, ECOS\n\nINTER-AGENCY/GOVERNMENT TECHNICAL EXPERTS\n\nMessrs. Jason Camba\nBryan Joseph S. Oriondo\nEleuterio C. Galvante, Jr.\nDepartment of Transportation and Communication\n(DOTC)\n\nMessrs. Angelito C. Ansay\nBenedicto R. Mamayson\nMichael B. Renolayan\nGerald Venezuela\nBureau of Fire Protection (BFP),\nDepartment of Interior and Local Government (DILG)\n\nThe Members of the TESDA Board\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\nTESDA EXCOM\n\nDDG Milagros Dawa Hernandez\n\nDeputy Director for Sectoral TVET\n\nDDG Rogelio C. Peyuan\nDeputy Director General for Field Operation\n\nMs. Irene M. Isaac\n\nExecutive Director\nQualifications and Standards\nOffice (QSO/TESDA)\n\nMr. Ernesto A. Beltran\n\nExecutive Director\nRegional Coordinating\nOffice (RCO/TESDA)\n\nMr. Teodoro S. Sanico\n\nExecutive Director\nOffice of Training\nInstitutions (OTI/TESDA)\n\nMr. Gabriel Genaro H.\nBordado, IV\nExecutive Director\n\nCompetency Assessment and\nCertification Office\n(CACO/TESDA)\n\nCompetency Standards Division\nFlorante P. Inoturan\nAgnes P. Panem\n\nCurriculum and Training Aids Division (CTAD)\nClodualdo V. Paiton\nAbel B. Elpedes\n\n--- PDF PAGE 125 ---\nAutomotive Servicing NC III (Amended) Promulgated December 2013\n123\nFOR THE REVISION STAGE\n\n•\nTHE TECHNICAL EXPERT COMMITTEE\n\nANTONIO A. GIMENEZ\nExecutive Director\nPhilippine Automotive Federation, Inc.\n\nCELSO LIBRANDO\nMaintenance Manager, Victory Liner\n(Former Service Manager, Toyota)\nRODOLFO NUNEZ\nConsultant, Bataan Automotive Manufacturing\nCorporation\n(Formerly with Ford and Nissan)\n\nMARIO GUEVARRA\nTechnical Services Manager, Nissan\n\nThe PARTICIPANTS in the Validation of these Training Regulations\n\nLEONARDO GARI\nTechnical Service Manager\nNissan Motor Phils.\nALFREDO MAGPAYO\nManager\nHonda Phils.\nBONIFACIO FAJUTNAO\nOwner\nPoctoy Motor Repair Shop\nDENNIS MATA\nFleet Maintenance Supvr.\nMarycheck Trading\n\n•\nTHE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT COMMITTEE\n\n•\nTHE MANAGEMENT AND STAFF OF THE TESDA SECRETARIAT\n\n•\nQualifications and Standards Office (QSO)\n\n•\nZoilo C.Galang\n-\nTESDA-QSO-CSD\n•\nFlorante P. Inoturan\n-\nTESDA-QSO-CSD\n•\nAbel B. Elpedes\n-\nTESDA-QSO-CTAD\n•\nHoward Mark N. Plete\n-\nTESDA-QSO-CSD"
 }

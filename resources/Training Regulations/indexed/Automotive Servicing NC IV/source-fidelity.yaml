@@ -1,29 +1,317 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:automotive-servicing-nc-iv:2013-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:automotive-servicing-nc-iv:bf1d5f6794",
   "qualification": "AUTOMOTIVE SERVICING NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Automotive Servicing NC IV.pdf",
-    "sha256": "bf1d5f67941dcb051e0eb56906af25dbd176a4948031185377c9e48037d9cb06",
+    "source_sha256": "bf1d5f67941dcb051e0eb56906af25dbd176a4948031185377c9e48037d9cb06",
+    "pdf_pages": 143,
+    "printed_pages": 141,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source is labeled Automotive Servicing NC IV (Amended), promulgated December 2013; the canonical date field normalizes the printed month and year to 2013-12 while source_text preserves the printed form.",
+    "The Section 1 common-unit list identifies Perform Shop Maintenance as ALT723205, while the Section 2 header prints ALT723307; the canonical inventory follows the Section 1 identifier and preserves the header variant in source_unit_code/source_text.",
+    "The source prints 804 total hours as 56 Basic, 40 Common, and 708 Core hours; the canonical duration record preserves each component and the arithmetic total.",
+    "The Section 2 headers contain source typography variants such as UNIT OFMPETENCY; the page-preserved source layer remains authoritative while the unit inventory follows the Section 1 identifiers."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is labeled Automotive Servicing NC IV (Amended), promulgated December 2013; the canonical date field normalizes the printed month and year to 2013-12 while source_text preserves the printed form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 common-unit list identifies Perform Shop Maintenance as ALT723205, while the Section 2 header prints ALT723307; the canonical inventory follows the Section 1 identifier and preserves the header variant in source_unit_code/source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 804 total hours as 56 Basic, 40 Common, and 708 Core hours; the canonical duration record preserves each component and the arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 2 headers contain source typography variants such as UNIT OFMPETENCY; the page-preserved source layer remains authoritative while the unit inventory follows the Section 1 identifiers."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Automotive Servicing NC IV.pdf",
-    "pdf_pages": 143,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311115",
+      "source_unit_code": "500311115",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311116",
+      "source_unit_code": "500311116",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311117",
+      "source_unit_code": "500311117",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311118",
+      "source_unit_code": "500311118",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311119",
+      "source_unit_code": "500311119",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "500311120",
+      "source_unit_code": "500311120",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "ALT723201",
+      "source_unit_code": "ALT723201",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "ALT723202",
+      "source_unit_code": "ALT723202",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "ALT311202",
+      "source_unit_code": "ALT311202",
+      "pdf_page_range": [
+        31,
+        35
+      ]
+    },
+    {
+      "unit_code": "ALT723204",
+      "source_unit_code": "ALT723204",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "ALT723205",
+      "source_unit_code": "ALT723307",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "ALT311204",
+      "source_unit_code": "ALT311204",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "ALT311205",
+      "source_unit_code": "ALT311205",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "ALT723206",
+      "source_unit_code": "ALT723206",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "ALT311207",
+      "source_unit_code": "ALT311207",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "ALT311208",
+      "source_unit_code": "ALT311208",
+      "pdf_page_range": [
+        54,
+        57
+      ]
+    },
+    {
+      "unit_code": "ALT311209",
+      "source_unit_code": "ALT311209",
+      "pdf_page_range": [
+        58,
+        62
+      ]
+    },
+    {
+      "unit_code": "ALT723210",
+      "source_unit_code": "ALT723210",
+      "pdf_page_range": [
+        63,
+        66
+      ]
+    },
+    {
+      "unit_code": "ALT723323",
+      "source_unit_code": "ALT723323",
+      "pdf_page_range": [
+        67,
+        69
+      ]
+    },
+    {
+      "unit_code": "ALT723324",
+      "source_unit_code": "ALT723324",
+      "pdf_page_range": [
+        70,
+        72
+      ]
+    },
+    {
+      "unit_code": "ALT723325",
+      "source_unit_code": "ALT723325",
+      "pdf_page_range": [
+        73,
+        75
+      ]
+    },
+    {
+      "unit_code": "ALT723326",
+      "source_unit_code": "ALT723326",
+      "pdf_page_range": [
+        76,
+        78
+      ]
+    },
+    {
+      "unit_code": "ALT723327",
+      "source_unit_code": "ALT723327",
+      "pdf_page_range": [
+        79,
+        81
+      ]
+    },
+    {
+      "unit_code": "ALT723362",
+      "source_unit_code": "ALT723362",
+      "pdf_page_range": [
+        82,
+        86
+      ]
+    },
+    {
+      "unit_code": "ALT723363",
+      "source_unit_code": "ALT723363",
+      "pdf_page_range": [
+        87,
+        91
+      ]
+    },
+    {
+      "unit_code": "ALT723364",
+      "source_unit_code": "ALT723364",
+      "pdf_page_range": [
+        92,
+        96
+      ]
+    },
+    {
+      "unit_code": "ALT311365",
+      "source_unit_code": "ALT311365",
+      "pdf_page_range": [
+        97,
+        102
+      ]
+    },
+    {
+      "unit_code": "ALT311366",
+      "source_unit_code": "ALT311366",
+      "pdf_page_range": [
+        103,
+        108
+      ]
+    },
+    {
+      "unit_code": "ALT311367",
+      "source_unit_code": "ALT311367",
+      "pdf_page_range": [
+        109,
+        112
+      ]
+    },
+    {
+      "unit_code": "ALT311368",
+      "source_unit_code": "ALT311368",
+      "pdf_page_range": [
+        113,
+        115
+      ]
+    },
+    {
+      "unit_code": "ALT311369",
+      "source_unit_code": "ALT311369",
+      "pdf_page_range": [
+        116,
+        118
+      ]
+    },
+    {
+      "unit_code": "ALT311370",
+      "source_unit_code": "ALT311370",
+      "pdf_page_range": [
+        119,
+        121
+      ]
+    },
+    {
+      "unit_code": "ALT311371",
+      "source_unit_code": "ALT311371",
+      "pdf_page_range": [
+        122,
+        126
+      ]
+    }
+  ]
 }
