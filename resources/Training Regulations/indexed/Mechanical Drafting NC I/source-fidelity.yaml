@@ -1,29 +1,128 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:mechanical-drafting-nc-i:0881c6b3eb",
   "qualification": "MECHANICAL DRAFTING NC I",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Mechanical Drafting NC I.pdf",
-    "sha256": "0881c6b3eb51a327ccda56fc6f74c35df2b6b2dbaabc75b9c7caa4fb0395811c",
+    "source_sha256": "0881c6b3eb51a327ccda56fc6f74c35df2b6b2dbaabc75b9c7caa4fb0395811c",
+    "pdf_pages": 48,
+    "printed_pages": 46,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation dated 11/20/2007; the document table of contents ends at printed page 45, while the final acknowledgement page carries printed page 46 and the canonical page metadata follows the final source footer.",
+    "The source uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields.",
+    "Section 3 provides a single Nominal Training Duration of 218 hours rather than Basic/Common/Core subtotals; the canonical duration preserves that single source expression without inferred allocation.",
+    "The source competency map contains broader sector competencies beyond the Mechanical Drafting NC I qualification; the canonical competency-map record is limited to the qualification units listed in Section 1 while preserving the source section text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation dated 11/20/2007; the document table of contents ends at printed page 45, while the final acknowledgement page carries printed page 46 and the canonical page metadata follows the final source footer."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 provides a single Nominal Training Duration of 218 hours rather than Basic/Common/Core subtotals; the canonical duration preserves that single source expression without inferred allocation."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source competency map contains broader sector competencies beyond the Mechanical Drafting NC I qualification; the canonical competency-map record is limited to the qualification units listed in Section 1 while preserving the source section text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Mechanical Drafting NC I.pdf",
-    "pdf_pages": 48,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311101",
+      "source_unit_code": "500311101",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311102",
+      "source_unit_code": "500311102",
+      "pdf_page_range": [
+        7,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311103",
+      "source_unit_code": "500311103",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311104",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "MEE722201",
+      "source_unit_code": "MEE722201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "MEE722202",
+      "source_unit_code": "MEE722202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "MEE311301",
+      "source_unit_code": "MEE311301",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "MEE311302",
+      "source_unit_code": "MEE311302",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    }
+  ]
 }

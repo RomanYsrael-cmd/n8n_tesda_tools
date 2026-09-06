@@ -1,84 +1,63 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:mechatronics-servicing-nc-iii:2015-06-16",
+  "document_id": "tesda:tr:mechatronics-servicing-nc-iii:df4e2c147a",
   "qualification": "MECHATRONICS SERVICING NC III",
-  "content_status": "absent_or_unreadable",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "to lead in the dissemination and discussion of ideas,"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ELC311205",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ELC311303",
-        "title": "analyze, implement and review mechatronics and automation control"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "small teams including setting and maintaining team and"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "collect information in order to negotiate to a desired outcome"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "in the application of mathematical concepts and techniques."
-      },
-      {
-        "unit_code": "ELC311201",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311204",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311206",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311209",
-        "title": "DESCRIPTON : This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "ELC311304",
-        "title": "This unit covers the knowledge, skills and attitudes needed to develop"
-      },
-      {
-        "unit_code": "ELC311305",
-        "title": "This unit covers the knowledge, skills and attitudes needed to"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": null,
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "content_status": "complete",
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ELC311205",
+        "ELC311201",
+        "ELC311202",
+        "ELC311204",
+        "ELC311203",
+        "ELC311206",
+        "ELC311209"
+      ],
+      "unit_titles": [
+        "Use Hand Tools",
+        "Perform Mensuration and Calculation",
+        "Prepare and Interpret Technical Drawing",
+        "Apply Quality Standards",
+        "Perform Computer Operations",
+        "Terminate and Connect Electrical Wiring and Electronic Circuits",
+        "Test Electronic Components"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ELC311303",
+        "ELC311304",
+        "ELC311305"
+      ],
+      "unit_titles": [
+        "Develop Mechatronics and Automation Control Circuits and PLC Application Programs",
+        "Develop Motion Control and System Configuration",
+        "Maintain and Repair PLC-based Mechatronics and Automation System"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be\nawarded a National Certificate III signed by the TESDA Director General.\n\n4.1.2. The qualification of Mechatronics Servicing NC III may be attained through:\n\n4.1.2.1. Accumulation of Certificates of Competency (COCs) in all the\nfollowing units of competencies:\nCOC #1. Develop Mechatronics and Automation Control Circuits\nand PLC Application Programs\nCOC #2. Develop Motion Control and System Configuration\nCOC #3. Maintain and Repair PLC-based Mechatronics and\nAutomation System\n\nSuccessful candidates shall be awarded a Certificate of\nCompetency (COC) in each of the core units.\n\n4.1.2.2. Demonstration of competence through project-type assessment\ncovering all the units required in the qualification.\n\n4.1.3. Accumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate (NC).\n\n4.1.4. Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core units.\n\n4.1.5. The following are qualified to apply for assessment and certification:\n\n4.1.5.1.\nGraduate of formal and non-formal including enterprise-based\ntraining programs.\n\n4.1.5.2.\nExperienced workers (wage employed or self employed)\n\n4.1.6. The existing NCs or COCs in Mechatronics Servicing NC III shall be in effect\nuntil the said NCs or COCs have expired. The NCs or COCs in this\nqualification maybe renewed provided that the:\n\n--- PDF PAGE 87 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 83\n\n4.1.6.1.\nHolders present the evidence that they are currently or have been\nemployed in mechatronics and/or industrial automation job for the\npast three (3) years;\n\n4.1.6.2.\nHolders pass the performance assessment of the new COC#2\n(Develop Motion Control and System Configuration) under\nMechatronics and Automation Servicing NC III.\n\n4.1.7. The conduct of assessment and issuance of certificates shall follow the\nprocedures manual and implementing guidelines developed for the purpose.\n\n4.2 COMPETENCY ASSESSMENT REQUISITE\n\n4.2.1 Self-Assessment Guide. The self-assessment guide (SAG) is accomplished\nby the candidate prior to actual competency assessment. SAG is a pre-\nassessment tool to help the candidate and the assessor determine what\nevidence is available, where gaps exist, including readiness for\nassessment.\n\nThis document can:\n\na.\nIdentify the candidate’s skills and knowledge\nb.\nHighlight gaps in candidate’s skills and knowledge\nc.\nProvide critical guidance to the assessor and candidate on the evidence\nthat need to be presented\nd.\nAssist the candidate to identify key areas in which practice is needed or\nadditional information or skills that should be gained prior `\n\n4.2.2 Accredited Assessment Center. Only Assessment Center accredited by\nTESDA is authorized to conduct competency assessment. Assessment\ncenters undergo a quality assured procedure for accreditation before they\nare authorized by TESDA to manage the assessment for National\nCertification.\n\n4.2.3 Accredited Competency Assessor. Only accredited competency assessor is\nauthorized to conduct assessment of competence. Competency assessors\nundergo a quality assured system of accreditation procedure before they\nare authorized by TESDA to assess the competencies of candidates for\nNational Certification.\n\n--- PDF PAGE 88 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 84\n\nDEFINITION OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who\npass the assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and\nattitudes to perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgments on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be\nconducted or carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a\nparticular area of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by the\nindividual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\noutcome terms the functions that a person performs in the workplace.\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual. It\nprovides information on critical aspects of competency, underpinning knowledge,\nunderpinning skills, resource implications, assessment method and context of\nassessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when,\nevidence should be collected\n\n--- PDF PAGE 89 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 85\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve all\nthe required units of competency for a national qualification defined under the\nTraining Regulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n17) Qualification - is a cluster of units of competencies that meets job roles and is\nsignificant in the workplace. It is also a certification awarded to a person on\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work is\nto be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s\nskills, knowledge and attitudes gained from life and work experiences outside\nregistered training programs\n\n19) Resource Implication - refer to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It includes\nwork environment and conditions, materials, tools and equipment\n\n20) Basic Competencies - are the skills and knowledge that everyone needs for work\n\n21) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serves as basis for\nestablishment of qualification and certification under the PTQF. It also serves as\nguide for development of competency-based curricula and instructional materials\nincluding registration of TVET programs offered by TVET providers\n\n22) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is\nessential to the performance of the competency\n\n23) Underpinning Skills - refers to the list of the skills needed to achieve the\nelements and performance criteria in the unit of competency. It includes generic\nand industry specific skills\n\n24) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\n--- PDF PAGE 90 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 86\n\nSECTOR SPECIFIC\n\n25) Actuator: In a closed-loop control system, that part of the final control element\nthat translates the control signal into action by the control device.\n\n26) Automation: (1) The conversion to and implementation of procedures, processes,\nor equipment by automated means. (2) Industrial open- or closed-loop control\nsystems in which the manual operation of controls is replaced by servo operation.\n\n27) CAD: Computer-Aided Design is the use of high-resolution graphics in a wide\nrange of design activities, allowing quick evaluation and modification of intent. It is\ncommonly used to design architectural, mechanical and electrical engineering\ndrawings.\n\n28) Conveyor: A horizontal, inclined or vertical device for moving or transporting bulk\nmaterials, packages, or objects in a path predetermined by the design of the\ndevice and having points of loading and discharge fixed, or selective.\n\n29) Ergonomics --\"The systematic application of knowledge about the psychological,\nphysical, and social attributes of human beings in the design and use of all things\nwhich affect a person's working conditions: equipment and machinery, the work\nenvironment and layout, the job itself, training and the organization of work.\"\n(Humansystems Inc).\n\n30) PLC (Programmable Logic Controller) : A class of industrially hardened devices\nthat provides hardware interface for input sensors and output actuators. PLCs can\nbe programmed using relay ladder logic to control the outputs based on input\nconditions and / or algorithms contained in the memory of the PLC.\n\n31) Robotics: The study of the design and use of robots, particularly for their use in\nmanufacturing and related processes.\n\n32) Sensor: A transducer whose input is a physical phenomenon and whose output is\na quantitative measure of the phenomenon.\n\n33) Sequence control: The control of a series of machine movements, with the\ncompletion of one movement initiating the next. The extent of movements is\ntypically not specified by numerical input data.\n\n34) Servomechanism: An automatic device for controlling large amounts of power by\nmeans of small amounts of power.\n\n35) Servomotor: A power-driven mechanism that supplements a primary control\noperated by a comparatively feeble force (as in a servomechanism).\n\n36) Simulation: (1) A device, system, or computer program that represents certain\nfeatures of the behavior of a physical or abstract system. Vendors of planning and\nscheduling, forecasting and demand management, and other types of decision-\nsupport systems make growing use of simulation to compare the consequences of\nalternative courses of action.\n\n--- PDF PAGE 91 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 87\n\n37) Software: The entire set of programs, procedures, and related documentation\nassociated with a computer.\n\n38) Static Calibration: A calibration recording pressure versus output at fixed points\nat room temperature.\n\n39) Systems integration: The ability of computers, instrumentation, and equipment to\nshare data or applications with other components in the same or other functional\nareas.\n\n--- PDF PAGE 92 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 88\n\nANNEX A - COMPETENCY MAP (Electrical & Electronics sector)\n\nBASIC COMPETENCIES\n\nReceive and\nRespond to\nWorkplace\nCommunication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nWorkplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Team\nDevelop and\npractice negotiation\nskills\nSolve Problems\nRelated to Work\nActivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize Specialist\nCommunication Skills\nDevelop Team and\nIndividuals\nApply Problem\nSolving Techniques\nin the Workplace\nCollect, analyze and\norganize information\nPlan and Organize\nWork\nPromote\nenvironmental\nprotection\n\nCOMMON COMPETENCIES\n\nUse Hand Tools\nPerform\nMensuration and\nCalculation\nPrepare and\nInterpret Technical\nDrawing\nApply Quality\nStandards\nPerform Computer\nOperations\nTerminate and\nConnect Electrical\nWiring and\nElectronic Circuits\nTest Electronic\nComponents\n\nCORE COMPETENCIES\n\nInstall Instrumentation\nand Control Devices\nCalibrate\nInstrumentation and\nControl Devices\nConfigure\nInstrumentation and\nControl Devices\nLoop Check\nInstrumentation and\nControl Devices\nMaintain and Repair\nInstrumentation &\nControl Devices\nStart-up\nInstrumentation and\nControl Systems\nDiagnose and\nTroubleshoot\nInstrumentation and\nControl Systems\nInstall Mechatronics\nand Automation\nDevices\nConfigure & Test\nMechatronics and\nAutomation System\nMaintain and Repair\nPLC-based\nMechatronics and\nAutomation System\nDevelop PLC and HMI\nsoftware application\nprogram\nDiagnose and\nTroubleshoot\nMechatronics and\nAutomation System\nCommission PLC-\nand HMI-based\nMechatronics and\nAutomation System\nDevelop\nMechatronics and\nAutomation Control\nCircuits & PLC\nSoftware Application\nPrograms\nDevelop Motion\nControl and System\nConfiguration\nService and Repair\nAudio Systems and\nProducts\nService and Repair\nVideo Systems and\nProducts\nService and Repair\nBusiness Machines\nAssemble and\nDisassemble\nConsumer Electronic\nProducts\nMaintain and Repair\nElectronically\nControlled Domestic\nAppliances\nMaintain and Repair\nAudio-Video Products\nand Systems\nMaintain and Repair\nCellular Phones\nCommission\nConsumer\nElectronic Products\nand Systems\nDevelop Servicing\nSystems for Consumer\nElectronic Products\nTrain service\ntechnician\nManage Servicing\nSystems for Consumer\nElectronics Products\nand Systems\nTrain service\ntechnician\nsupervisors\n\n--- PDF PAGE 93 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 89\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL EXPERT COMMITTEE (FOR CY 2006)\n\nMR. ERNIE O. DIMALANTA\n\nTechnical Expert\n PICS Foundation, Inc.\n PhilAsia School of Instrumentation\n and Automation\n\nENGR. CHUCK L.G. EBALO\n Technical Expert\nPhilAsia School of Instrumentation\n and Automation\n\nMS. MA. ZENAIDA S. VILLALVA\n Technical Expert\n Rizal Technological University\nPICS Foundation, Inc.\n\nENGR. RAINNEL R. MACLANG\n Technical Expert\nInstrumentation & Control Specialist, Inc.\n\n• PHILIPPINE INSTRUMENTATION AND CONTROL SOCIETY FOUNDATION, INC.\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT\nCOMMITTEE\n\n• THE MANAGEMENT AND STAFF OF TESDA SECRETARIAT\n\n•\nQualifications and Standards Office\n(QSO)\n\n--- PDF PAGE 94 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – MECHATRONICS SERVICING NC III (Amended) Promulgated June 16, 2015\n\n Page 90\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the review, updating and validation of this Training Regulations.\n\n• THE TECHNICAL EXPERT COMMITTEE (FOR CY 2014)\n\n1. GAMALIEL F. ITAO, PEE\nMRSP/ICC/MTC\n2. JOEL B. BAJADOR, PECE\nJB Professional Consulting /\nIECEP/MRSP\n3. PHILIP MARVIN D. JOVEN\nICC/MTC/MRSP\n4. THOMMY A. PURISIMA\nMTC/ICC\n\n• THE VALIDATION EXPERT COMMITTEE\n\n1. AUGUSTO C. SOLIMAN, PME\nHytec Power, Inc.\n2. EDWIN J. CALILUNG, PhD\nDLSU/MRSP\n3. RODRIGOT. PECOLERA, PEE\nIIEE / RT Pecolera Construction Corp.\n4. ARIEL P. DURAN, REE\nSPECS/ Polyphase One Construction, Inc.\n5. SANDINO E. SERVIÑO\nMTC\n\n• MECHATRONICS AND ROBOTICS SOCIETY OF THE PHILIPPINES\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT\nCOMMITTEE\n\n• THE MANAGEMENT AND STAFF OF TESDA SECRETARIAT\n\n•\nQualifications and Standards Office (QSO)\n\n1. ZOILO C. GALANG\n2. JULFORD C. ABASOLO\n- CSDD-QSO-TESDA\n- CSDD-QSO-TESDA\n3. SAMUEL E. CALADO, JR.\n- CSDD-QSO-TESDA\n4. VENZEL Y. CONCOLES\n- CSDD-QSO-TESDA\n\n• National Institute for Technical Education and Skills Development (NITESD)\n1. AGNES P. PANEM\n\n- CTADD/NITESD\n2. FAMY I. PEPITO\n\n- CTADD/NITESD\n3. RAMON SANTIAGO\n\n- CTADD/NITESD"
 }
