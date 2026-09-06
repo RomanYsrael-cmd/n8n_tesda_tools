@@ -19,26 +19,30 @@
   "normalization_notes": [
     "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
     "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
-    "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code.",
-    "Some source headers/footer text uses 3D ANIMATION NC II even though the qualification title is NC III; the qualification title follows the document title and Section 1."
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The page header/footer repeatedly prints 3D ANIMATION NC II while the qualification and Section 1 identify 3D Animation NC III; the page-preserved source layer remains authoritative.",
+    "Section 4 uses the COC labels Apply 3D Texture and Lighting on 3D Models and Composite and Render Animation Scene, while Section 1/2 use Apply Shader and Texture on 3D Models and Light and Render Animation Scene; the canonical inventory follows Section 1/2 and preserves the assessment wording in source_text.",
+    "The source prints 1,100 total hours as 68 Basic, 28 Common, and 1,004 Core hours; the canonical duration record preserves each component and the arithmetic total."
   ],
   "observations": [
     {
       "type": "source_anomaly",
-      "description": "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code."
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
     },
     {
       "type": "source_anomaly",
-      "description": "Some source headers/footer text uses 3D ANIMATION NC II even though the qualification title is NC III; the qualification title follows the document title and Section 1."
-    }
-  ],
-  "fidelity_overrides": [
+      "description": "The page header/footer repeatedly prints 3D ANIMATION NC II while the qualification and Section 1 identify 3D Animation NC III; the page-preserved source layer remains authoritative."
+    },
     {
-      "id": "evidence-500311112",
-      "unit_code": "500311112",
-      "note": "Evidence Guide preserves scenario, case-study, what-if, disruption, simulation, and integrated/concurrent assessment language from the source."
+      "type": "source_anomaly",
+      "description": "Section 4 uses the COC labels Apply 3D Texture and Lighting on 3D Models and Composite and Render Animation Scene, while Section 1/2 use Apply Shader and Texture on 3D Models and Light and Render Animation Scene; the canonical inventory follows Section 1/2 and preserves the assessment wording in source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 1,100 total hours as 68 Basic, 28 Common, and 1,004 Core hours; the canonical duration record preserves each component and the arithmetic total."
     }
   ],
+  "fidelity_overrides": [],
   "unit_provenance": [
     {
       "unit_code": "500311109",
@@ -121,7 +125,7 @@
       ]
     },
     {
-      "unit_code": "ICT311203",
+      "unit_code": "ELC311203",
       "source_unit_code": "ELC311203",
       "pdf_page_range": [
         40,

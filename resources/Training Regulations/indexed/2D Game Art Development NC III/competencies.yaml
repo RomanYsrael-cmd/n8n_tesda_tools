@@ -8,9 +8,9 @@
   "source": {
     "authority": "TESDA",
     "source_file": "2D Game Art Development NC III.pdf",
-    "promulgated": null,
     "pdf_pages": 66,
-    "printed_pages": 64
+    "printed_pages": 64,
+    "promulgated": null
   },
   "groups": {
     "basic": [
@@ -60,8 +60,14 @@
               {
                 "number": "1.7",
                 "text": "Communication skills are maintained in all situations"
+              },
+              {
+                "number": "1.8",
+                "text": "Response to workplace issues are sought",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -69,21 +75,26 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Response to workplace issues are sought"
+                "text": "Response to workplace issues are provided immediately",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Response to workplace issues are provided immediately"
+                "text": "Constructive contributions are made to workplace discussions on such issues as production, quality and safety",
+                "source_number": "2.3"
               },
               {
                 "number": "2.3",
-                "text": "Constructive contributions are made to workplace discussions on such issues as production, quality and safety"
+                "text": "Goals/objectives and action plan undertaken in the workplace are communicated",
+                "source_number": "2.4"
               },
               {
                 "number": "2.4",
-                "text": "Goals/objectives and action plan undertaken in the workplace are communicated"
+                "text": "Issues and problems are identified as they arise",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -91,21 +102,21 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "Issues and problems are identified as they arise"
+                "text": "Information regarding problems and issues are organized coherently to ensure clear and effective communication",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Information regarding problems and issues are organized coherently to ensure clear and effective communication"
+                "text": "Dialogue is initiated with appropriate personnel",
+                "source_number": "3.3"
               },
               {
                 "number": "3.3",
-                "text": "Dialogue is initiated with appropriate personnel"
-              },
-              {
-                "number": "3.4",
-                "text": "Communication problems and issues are raised as they arise 2"
+                "text": "Communication problems and issues are raised as they arise 2",
+                "source_number": "3.4"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -342,8 +353,14 @@
               {
                 "number": "1.3",
                 "text": "Team members’ queries and concerns are recognized, discussed and dealt with"
+              },
+              {
+                "number": "1.4",
+                "text": "Duties, and responsibilities are allocated having regard to the skills, knowledge and aptitude required to properly undertake the assigned task and according to company policy",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -351,13 +368,16 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Duties, and responsibilities are allocated having regard to the skills, knowledge and aptitude required to properly undertake the assigned task and according to company policy"
+                "text": "Duties are allocated having regard to individual preference, domestic and personal considerations, whenever possible",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Duties are allocated having regard to individual preference, domestic and personal considerations, whenever possible"
+                "text": "Performance expectations are established based on client needs and according to assignment requirements",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -365,17 +385,21 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "Performance expectations are established based on client needs and according to assignment requirements"
+                "text": "Performance expectations are based on individual team members duties and area of responsibility",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Performance expectations are based on individual team members duties and area of responsibility"
+                "text": "Performance expectations are discussed and disseminated to individual team members",
+                "source_number": "3.3"
               },
               {
                 "number": "3.3",
-                "text": "Performance expectations are discussed and disseminated to individual team members"
+                "text": "Monitoring of performance takes place against defined performance criteria and/or assignment instructions and corrective action taken if required",
+                "source_number": "4.1"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -383,33 +407,36 @@
             "performance_criteria": [
               {
                 "number": "4.1",
-                "text": "Monitoring of performance takes place against defined performance criteria and/or assignment instructions and corrective action taken if required"
+                "text": "Team members are provided with feedback, positive support and advice on strategies to overcome any deficiencies",
+                "source_number": "4.2"
               },
               {
                 "number": "4.2",
-                "text": "Team members are provided with feedback, positive support and advice on strategies to overcome any deficiencies"
+                "text": "Performance issues which cannot be rectified or addressed within the team are referenced to appropriate personnel according to employer policy",
+                "source_number": "4.3"
               },
               {
                 "number": "4.3",
-                "text": "Performance issues which cannot be rectified or addressed within the team are referenced to appropriate personnel according to employer policy"
+                "text": "Team members are kept informed of any changes in the priority allocated to assignments or tasks which might impact on client/customer needs and satisfaction",
+                "source_number": "4.4"
               },
               {
                 "number": "4.4",
-                "text": "Team members are kept informed of any changes in the priority allocated to assignments or tasks which might impact on client/customer needs and satisfaction"
+                "text": "Team operations are monitored to ensure that employer/client needs and requirements are met",
+                "source_number": "4.5"
               },
               {
                 "number": "4.5",
-                "text": "Team operations are monitored to ensure that employer/client needs and requirements are met"
+                "text": "Follow-up communication is provided on all issues affecting the team",
+                "source_number": "4.6"
               },
               {
                 "number": "4.6",
-                "text": "Follow-up communication is provided on all issues affecting the team"
-              },
-              {
-                "number": "4.7",
-                "text": "All relevant documentation is completed in accordance with company procedures 5"
+                "text": "All relevant documentation is completed in accordance with company procedures 5",
+                "source_number": "4.7"
               }
-            ]
+            ],
+            "source_number": 4
           }
         ],
         "range_of_variables": {
@@ -677,42 +704,71 @@
         "descriptor": "This unit covers the skills, knowledge and attitudes required to collect information in order to negotiate to a desired outcome and participate in the negotiation.",
         "elements": [
           {
-            "number": 2,
+            "number": 1,
             "title": "Participate in negotiations",
             "performance_criteria": [
               {
-                "number": "2.1",
-                "text": "Criteria for successful outcome are agreed upon by all parties"
+                "number": "1.1",
+                "text": "Information on creating non verbal environments for positive negotiating is identified and included in the plan",
+                "source_number": "1.2"
               },
               {
-                "number": "2.2",
-                "text": "Desired outcome of all parties are considered"
+                "number": "1.2",
+                "text": "Information on active listening is identified and included in the plan",
+                "source_number": "1.3"
               },
               {
-                "number": "2.3",
-                "text": "Appropriate language is used throughout the negotiation"
+                "number": "1.3",
+                "text": "Information on different questioning techniques is identified and included in the plan",
+                "source_number": "1.4"
               },
               {
-                "number": "2.4",
-                "text": "A variety of questioning techniques are used"
+                "number": "1.4",
+                "text": "Information is checked to ensure it is correct and up- to- date",
+                "source_number": "1.5"
               },
               {
-                "number": "2.5",
-                "text": "The issues and processes are documented and agreed upon by all parties"
+                "number": "1.5",
+                "text": "Criteria for successful outcome are agreed upon by all parties",
+                "source_number": "2.1"
               },
               {
-                "number": "2.6",
-                "text": "Possible solutions are discussed and their viability assessed"
+                "number": "1.6",
+                "text": "Desired outcome of all parties are considered",
+                "source_number": "2.2"
               },
               {
-                "number": "2.7",
-                "text": "Areas for agreement are confirmed and recorded"
+                "number": "1.7",
+                "text": "Appropriate language is used throughout the negotiation",
+                "source_number": "2.3"
               },
               {
-                "number": "2.8",
-                "text": "Follow-up action is agreed upon by all parties 8"
+                "number": "1.8",
+                "text": "A variety of questioning techniques are used",
+                "source_number": "2.4"
+              },
+              {
+                "number": "1.9",
+                "text": "The issues and processes are documented and agreed upon by all parties",
+                "source_number": "2.5"
+              },
+              {
+                "number": "1.10",
+                "text": "Possible solutions are discussed and their viability assessed",
+                "source_number": "2.6"
+              },
+              {
+                "number": "1.11",
+                "text": "Areas for agreement are confirmed and recorded",
+                "source_number": "2.7"
+              },
+              {
+                "number": "1.12",
+                "text": "Follow-up action is agreed upon by all parties 8",
+                "source_number": "2.8"
               }
-            ]
+            ],
+            "source_number": 2
           }
         ],
         "range_of_variables": {
@@ -1005,7 +1061,8 @@
                 "number": "1.3",
                 "text": "Problems are clearly stated and specified"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1023,7 +1080,8 @@
                 "number": "2.3",
                 "text": "Fundamental causes are identified per results of investigation conducted"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1045,7 +1103,8 @@
                 "number": "3.4",
                 "text": "Action plans are developed identifying measurable objectives, resource needs and timelines in accordance with safety and operating procedures"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -1063,7 +1122,8 @@
                 "number": "4.3",
                 "text": "Recommendations are followed-up, if required 11"
               }
-            ]
+            ],
+            "source_number": 4
           }
         ],
         "range_of_variables": {
@@ -1328,7 +1388,8 @@
                 "number": "1.2",
                 "text": "Mathematical techniques are selected based on the given problem"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1346,7 +1407,8 @@
                 "number": "2.3",
                 "text": "Results of mathematical computation is determined and verified based on job requirements"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1360,7 +1422,8 @@
                 "number": "3.2",
                 "text": "Appropriate action is applied in case of error 15"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -1560,7 +1623,8 @@
                 "number": "1.2",
                 "text": "Appropriate technology is selected as per work specification"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1578,7 +1642,8 @@
                 "number": "2.3",
                 "text": "Management concepts are observed and practiced as per established industry practices"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1596,7 +1661,8 @@
                 "number": "3.3",
                 "text": "Technology failure/ defect is immediately reported to the concern/responsible person or section for appropriate action 17"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -1888,8 +1954,14 @@
               {
                 "number": "1.4",
                 "text": "Identify the types of claims."
+              },
+              {
+                "number": "1.5",
+                "text": "Establish the premise and possible conclusion based on the information provided from a job or industry scenario.",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1897,13 +1969,16 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Establish the premise and possible conclusion based on the information provided from a job or industry scenario."
+                "text": "Use methods of careful analysis to make constructive arguments based on a job or industry scenario.",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Use methods of careful analysis to make constructive arguments based on a job or industry scenario."
+                "text": "Analogies are used to support reasoning.",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1911,21 +1986,26 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "Analogies are used to support reasoning."
+                "text": "Identify the cause and effects based on the criteria or information provided to support reasoning.",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Identify the cause and effects based on the criteria or information provided to support reasoning."
+                "text": "Identify and avoid the common mistakes in reasoning about causes.",
+                "source_number": "3.3"
               },
               {
                 "number": "3.3",
-                "text": "Identify and avoid the common mistakes in reasoning about causes."
+                "text": "Make evaluations based on the criteria or information provided.",
+                "source_number": "3.4"
               },
               {
                 "number": "3.4",
-                "text": "Make evaluations based on the criteria or information provided."
+                "text": "Use past experiences to come up with a good generalization.",
+                "source_number": "4.1"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -1933,17 +2013,21 @@
             "performance_criteria": [
               {
                 "number": "4.1",
-                "text": "Use past experiences to come up with a good generalization."
+                "text": "Use appropriate samples to support generalization.",
+                "source_number": "4.2"
               },
               {
                 "number": "4.2",
-                "text": "Use appropriate samples to support generalization."
+                "text": "Validate the generalization with margin of errors, variation in population and risk.",
+                "source_number": "4.3"
               },
               {
                 "number": "4.3",
-                "text": "Validate the generalization with margin of errors, variation in population and risk."
+                "text": "Make rational arguments using the elements of reasoning.",
+                "source_number": "5.1"
               }
-            ]
+            ],
+            "source_number": 4
           },
           {
             "number": 5,
@@ -1951,21 +2035,21 @@
             "performance_criteria": [
               {
                 "number": "5.1",
-                "text": "Make rational arguments using the elements of reasoning."
+                "text": "Clarify conceptual ideas using organized gathered data and evidences",
+                "source_number": "5.2"
               },
               {
                 "number": "5.2",
-                "text": "Clarify conceptual ideas using organized gathered data and evidences"
+                "text": "Alternatives are worked out to place argument in the context of study.",
+                "source_number": "5.3"
               },
               {
                 "number": "5.3",
-                "text": "Alternatives are worked out to place argument in the context of study."
-              },
-              {
-                "number": "5.4",
-                "text": "Challenge or validate the position of the conclusion and make counter responses to emphasize a viewpoint. 20"
+                "text": "Challenge or validate the position of the conclusion and make counter responses to emphasize a viewpoint. 20",
+                "source_number": "5.4"
               }
-            ]
+            ],
+            "source_number": 5
           }
         ],
         "range_of_variables": {
@@ -2318,7 +2402,8 @@
                 "number": "1.5",
                 "text": "Faulty materials are replaced in accordance to the workplace procedures."
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -2344,7 +2429,8 @@
                 "number": "2.5",
                 "text": "In cases of deviations from specific quality standards, causes are documented and reported in accordance to the workplace’ s standards operating procedures."
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -2362,7 +2448,8 @@
                 "number": "3.3",
                 "text": "Performance of operation or quality of product of service to ensure customer satisfaction is monitored. 24"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -2657,8 +2744,14 @@
               {
                 "number": "1.5",
                 "text": "Required data security guidelines are applied in accordance with existing procedures."
+              },
+              {
+                "number": "1.6",
+                "text": "Data are entered into the computer using appropriate program/application in accordance with company procedures.",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -2666,21 +2759,26 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Data are entered into the computer using appropriate program/application in accordance with company procedures."
+                "text": "Accuracy of information is checked and information is saved in accordance with standard operating procedures.",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Accuracy of information is checked and information is saved in accordance with standard operating procedures."
+                "text": "Inputted data is stored in storage media according to requirements.",
+                "source_number": "2.3"
               },
               {
                 "number": "2.3",
-                "text": "Inputted data is stored in storage media according to requirements."
+                "text": "Work is performed within ergonomic guidelines.",
+                "source_number": "2.4"
               },
               {
                 "number": "2.4",
-                "text": "Work is performed within ergonomic guidelines."
+                "text": "Correct program/application is selected based on job requirements.",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -2688,21 +2786,26 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "Correct program/application is selected based on job requirements."
+                "text": "Program/application containing the information required is accessed according to company procedures.",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Program/application containing the information required is accessed according to company procedures."
+                "text": "Desktop icons are correctly selected, opened and closed for navigation purposes.",
+                "source_number": "3.3"
               },
               {
                 "number": "3.3",
-                "text": "Desktop icons are correctly selected, opened and closed for navigation purposes."
+                "text": "Keyboard techniques are carried out in line with OH & S requirements for safe use of keyboards.",
+                "source_number": "3.4"
               },
               {
                 "number": "3.4",
-                "text": "Keyboard techniques are carried out in line with OH & S requirements for safe use of keyboards."
+                "text": "Entered data are processed using appropriate software commands.",
+                "source_number": "4.1"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -2710,17 +2813,62 @@
             "performance_criteria": [
               {
                 "number": "4.1",
-                "text": "Entered data are processed using appropriate software commands."
+                "text": "Data are printed out as required using computer hardware /peripheral devices in accordance with standard operating procedures.",
+                "source_number": "4.2"
               },
               {
                 "number": "4.2",
-                "text": "Data are printed out as required using computer hardware /peripheral devices in accordance with standard operating procedures."
+                "text": "Files and data are transferred between compatible systems using computer software, hardware/peripheral devices in accordance with standard operating procedures. 27",
+                "source_number": "4.3"
+              }
+            ],
+            "source_number": 4
+          },
+          {
+            "number": 5,
+            "title": "Use basic functions of a www-browser to locate information",
+            "performance_criteria": [
+              {
+                "number": "5.1",
+                "text": "Information requirements for internet search are established."
               },
               {
-                "number": "4.3",
-                "text": "Files and data are transferred between compatible systems using computer software, hardware/peripheral devices in accordance with standard operating procedures. 27"
+                "number": "5.2",
+                "text": "Browser is launched."
+              },
+              {
+                "number": "5.3",
+                "text": "Search engine is loaded."
+              },
+              {
+                "number": "5.4",
+                "text": "Appropriate search criteria/or URL of site is entered."
+              },
+              {
+                "number": "5.5",
+                "text": "Relevant links are followed to locate required information."
+              },
+              {
+                "number": "5.6",
+                "text": "Useful pages are bookmarked or printed as required."
               }
-            ]
+            ],
+            "source_number": 5
+          },
+          {
+            "number": 6,
+            "title": "Maintain computer equipment and systems",
+            "performance_criteria": [
+              {
+                "number": "6.1",
+                "text": "Procedures for ensuring security of data, including regular back-ups and virus checks are implemented in accordance with standard operating procedures."
+              },
+              {
+                "number": "6.2",
+                "text": "Basic file maintenance procedures are implemented in line with the standards operating procedures. 28"
+              }
+            ],
+            "source_number": 6
           }
         ],
         "range_of_variables": {
@@ -3129,7 +3277,8 @@
                 "number": "1.3",
                 "text": "Style guide is defined and explained in line with key concept and target platform"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -3147,7 +3296,8 @@
                 "number": "2.3",
                 "text": "Character attributes are explained following enterprise procedures"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -3165,7 +3315,8 @@
                 "number": "3.3",
                 "text": "In-game worlds/backgrounds are explained following enterprise procedures"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -3183,7 +3334,8 @@
                 "number": "4.3",
                 "text": "Assets behavior and functions are described following enterprise procedures"
               }
-            ]
+            ],
+            "source_number": 4
           },
           {
             "number": 5,
@@ -3197,7 +3349,8 @@
                 "number": "5.2",
                 "text": "GUI is drawn based on Style Guide 31"
               }
-            ]
+            ],
+            "source_number": 5
           }
         ],
         "range_of_variables": {
@@ -3592,7 +3745,8 @@
                 "number": "1.4",
                 "text": "Create Asset list based on GDD"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -3610,7 +3764,8 @@
                 "number": "2.3",
                 "text": "Items are improved and added to the previously created asset list based on GDD"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -3628,7 +3783,8 @@
                 "number": "3.3",
                 "text": "Asset list is finalized based on GDD 34"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -3894,7 +4050,8 @@
                 "number": "1.3",
                 "text": "Object priority is assigned based on character model sheets"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -3912,7 +4069,8 @@
                 "number": "2.3",
                 "text": "Object priority is assigned based on prop/object model sheets"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -3926,7 +4084,8 @@
                 "number": "3.2",
                 "text": "Functionality and detail of object constructs are noted in line with enterprise procedures."
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -3952,7 +4111,8 @@
                 "number": "4.5",
                 "text": "Object priority is assigned based on given special effects studies"
               }
-            ]
+            ],
+            "source_number": 4
           },
           {
             "number": 5,
@@ -3970,7 +4130,8 @@
                 "number": "5.3",
                 "text": "Object priority is assigned based on prop/object model sheets 37"
               }
-            ]
+            ],
+            "source_number": 5
           }
         ],
         "range_of_variables": {
@@ -4349,7 +4510,8 @@
                 "number": "1.2",
                 "text": "Final details are added based on approved modifications"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -4363,7 +4525,8 @@
                 "number": "2.2",
                 "text": "Shades and effects in layers are applied based on corresponding style guide and concept art"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -4381,7 +4544,8 @@
                 "number": "3.3",
                 "text": "Color map sheet is supplemented to the final artwork"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -4395,7 +4559,8 @@
                 "number": "4.2",
                 "text": "Assets are exported according to game engine requirements 40"
               }
-            ]
+            ],
+            "source_number": 4
           }
         ],
         "range_of_variables": {
@@ -4722,7 +4887,8 @@
                 "number": "1.2",
                 "text": "Assets are managed according to client’s instructions and requirements"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -4744,7 +4910,8 @@
                 "number": "2.4",
                 "text": "Assets are placed and arranged in key-frames based on the action required for the scene"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -4762,7 +4929,8 @@
                 "number": "3.3",
                 "text": "Sound is applied and synchronized to models based on given animation"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -4776,7 +4944,8 @@
                 "number": "4.2",
                 "text": "All approved exported files noted and moved accordingly to the resource folder based on the style guide 43"
               }
-            ]
+            ],
+            "source_number": 4
           }
         ],
         "range_of_variables": {
@@ -4822,7 +4991,6 @@
                 "the scene is rendered & viewed to check speed and",
                 "movement",
                 "3.2.",
-                "Key drawings are revised and re-plotted for",
                 "smoothness of movements",
                 "3.3.",
                 "Sound is applied and synchronized to models based",
@@ -5098,7 +5266,8 @@
         "required_knowledge": null,
         "required_skills": null
       }
-    ]
+    ],
+    "elective": []
   },
   "source_section_text": "Section 1\n2D GAME ART DEVELOPMENT NC III QUALIFICATIONS\n\nThe 2D GAME ART DEVELOPMENT NC III Qualification consists of\ncompetencies that are required for digital 2D art for video games.\n\nThe units of competency comprising this qualification include the following:\n\nCODE\nUNITS OF COMPETENCY\n\nBASIC COMPETENCIES\n5 00 311 1 09\nLead workplace communication\n5 00 311 1 10\nLead small teams\n5 00 311 1 11\nDevelop and practice negotiation skills\n5 00 311 1 12\nSolve problems related to work activities\n5 00 311 1 13\nUse mathematical concepts and techniques\n5 00 311 1 14\nUse relevant technologies\nCOMMON COMPETENCIES\n\n ICT315203 Apply critical thinking and thought organization\n ICT315202 Apply quality standards\n ICT311203 Perform computer operations\n\nCORE COMPETENCIES\nICT313344\nDevelop and conceptualize art style\nICT313345\nCreate storyboard and asset list\nICT313346\nPrepare art document\nICT313347\nDevelop final artwork using graphic application\nICT313348\nApply in-game animation\n\n\nA person who has achieved this Qualification is competent to be:\n\n•\n2D Game artist\n•\n2D Game concept artist\n•\n2D Game animator\n\n--- PDF PAGE 4 ---\n_____________________________________________________________________________\nTR - 2D GAME ART NC III\n\n\n2"
 }

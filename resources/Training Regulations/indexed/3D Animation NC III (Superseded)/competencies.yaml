@@ -2,15 +2,15 @@
   "schema": "tesda-competency-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:3d-animation-nc-iii-superseded:9169f4aa0f",
-  "qualification": "3D ANIMATION NC III",
+  "qualification": "3D ANIMATION NC III (SUPERSEDED)",
   "content_status": "complete",
   "representation_type": "semantic_normalized_with_source_text",
   "source": {
     "authority": "TESDA",
     "source_file": "3D Animation NC III (Superseded).pdf",
-    "promulgated": null,
     "pdf_pages": 53,
-    "printed_pages": 51
+    "printed_pages": 50,
+    "promulgated": "2007-07-27"
   },
   "groups": {
     "basic": [
@@ -61,7 +61,8 @@
                 "number": "1.7",
                 "text": "Communication skills are maintained in all situations"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -83,7 +84,8 @@
                 "number": "2.4",
                 "text": "Goals/objectives and action plan undertaken in the workplace are communicated"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -103,9 +105,10 @@
               },
               {
                 "number": "3.4",
-                "text": "Communication problems and issues are raised as they arise __________________________________________________________________________________________ 2 Promulgated July 27, 2007"
+                "text": "Communication problems and issues are raised as they arise 2 Promulgated July 27, 2007"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -348,8 +351,14 @@
               {
                 "number": "1.3",
                 "text": "Team members’ queries and concerns are recognized, discussed and dealt with"
+              },
+              {
+                "number": "1.4",
+                "text": "Duties, and responsibilities are allocated having regard to the skills, knowledge and aptitude required to properly undertake the assigned task and according to company policy",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -357,13 +366,16 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Duties, and responsibilities are allocated having regard to the skills, knowledge and aptitude required to properly undertake the assigned task and according to company policy"
+                "text": "Duties are allocated having regard to individual preference, domestic and personal considerations, whenever possible",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Duties are allocated having regard to individual preference, domestic and personal considerations, whenever possible"
+                "text": "Performance expectations are established based on client needs and according to assignment requirements",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -371,17 +383,21 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "Performance expectations are established based on client needs and according to assignment requirements"
+                "text": "Performance expectations are based on individual team members duties and area of responsibility",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Performance expectations are based on individual team members duties and area of responsibility"
+                "text": "Performance expectations are discussed and disseminated to individual team members",
+                "source_number": "3.3"
               },
               {
                 "number": "3.3",
-                "text": "Performance expectations are discussed and disseminated to individual team members"
+                "text": "Monitoring of performance takes place against defined performance criteria and/or assignment instructions and corrective action taken if required",
+                "source_number": "4.1"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -389,33 +405,36 @@
             "performance_criteria": [
               {
                 "number": "4.1",
-                "text": "Monitoring of performance takes place against defined performance criteria and/or assignment instructions and corrective action taken if required"
+                "text": "Team members are provided with feedback, positive support and advice on strategies to overcome any deficiencies",
+                "source_number": "4.2"
               },
               {
                 "number": "4.2",
-                "text": "Team members are provided with feedback, positive support and advice on strategies to overcome any deficiencies"
+                "text": "Performance issues which cannot be rectified or addressed within the team are referenced to appropriate personnel according to employer policy",
+                "source_number": "4.3"
               },
               {
                 "number": "4.3",
-                "text": "Performance issues which cannot be rectified or addressed within the team are referenced to appropriate personnel according to employer policy"
+                "text": "Team members are kept informed of any changes in the priority allocated to assignments or tasks which might impact on client/customer needs and satisfaction",
+                "source_number": "4.4"
               },
               {
                 "number": "4.4",
-                "text": "Team members are kept informed of any changes in the priority allocated to assignments or tasks which might impact on client/customer needs and satisfaction"
+                "text": "Team operations are monitored to ensure that employer/client needs and requirements are met",
+                "source_number": "4.5"
               },
               {
                 "number": "4.5",
-                "text": "Team operations are monitored to ensure that employer/client needs and requirements are met"
+                "text": "Follow-up communication is provided on all issues affecting the team",
+                "source_number": "4.6"
               },
               {
                 "number": "4.6",
-                "text": "Follow-up communication is provided on all issues affecting the team"
-              },
-              {
-                "number": "4.7",
-                "text": "All relevant documentation is completed in accordance with company procedures __________________________________________________________________________________________ 5 Promulgated July 27, 2007"
+                "text": "All relevant documentation is completed in accordance with company procedures 5 Promulgated July 27, 2007",
+                "source_number": "4.7"
               }
-            ]
+            ],
+            "source_number": 4
           }
         ],
         "range_of_variables": {
@@ -689,42 +708,71 @@
         "descriptor": "This unit covers the skills, knowledge and attitudes required to collect information in order to negotiate to a desired outcome and participate in the negotiation.",
         "elements": [
           {
-            "number": 2,
+            "number": 1,
             "title": "Participate in negotiations",
             "performance_criteria": [
               {
-                "number": "2.1",
-                "text": "Criteria for successful outcome are agreed upon by all parties"
+                "number": "1.1",
+                "text": "Information on creating non verbal environments for positive negotiating is identified and included in the plan",
+                "source_number": "1.2"
               },
               {
-                "number": "2.2",
-                "text": "Desired outcome of all parties are considered"
+                "number": "1.2",
+                "text": "Information on active listening is identified and included in the plan",
+                "source_number": "1.3"
               },
               {
-                "number": "2.3",
-                "text": "Appropriate language is used throughout the negotiation"
+                "number": "1.3",
+                "text": "Information on different questioning techniques is identified and included in the plan",
+                "source_number": "1.4"
               },
               {
-                "number": "2.4",
-                "text": "A variety of questioning techniques are used"
+                "number": "1.4",
+                "text": "Information is checked to ensure it is correct and up- to- date",
+                "source_number": "1.5"
               },
               {
-                "number": "2.5",
-                "text": "The issues and processes are documented and agreed upon by all parties"
+                "number": "1.5",
+                "text": "Criteria for successful outcome are agreed upon by all parties",
+                "source_number": "2.1"
               },
               {
-                "number": "2.6",
-                "text": "Possible solutions are discussed and their viability assessed"
+                "number": "1.6",
+                "text": "Desired outcome of all parties are considered",
+                "source_number": "2.2"
               },
               {
-                "number": "2.7",
-                "text": "Areas for agreement are confirmed and recorded"
+                "number": "1.7",
+                "text": "Appropriate language is used throughout the negotiation",
+                "source_number": "2.3"
               },
               {
-                "number": "2.8",
-                "text": "Follow-up action is agreed upon by all parties __________________________________________________________________________________________ 8 Promulgated July 27, 2007"
+                "number": "1.8",
+                "text": "A variety of questioning techniques are used",
+                "source_number": "2.4"
+              },
+              {
+                "number": "1.9",
+                "text": "The issues and processes are documented and agreed upon by all parties",
+                "source_number": "2.5"
+              },
+              {
+                "number": "1.10",
+                "text": "Possible solutions are discussed and their viability assessed",
+                "source_number": "2.6"
+              },
+              {
+                "number": "1.11",
+                "text": "Areas for agreement are confirmed and recorded",
+                "source_number": "2.7"
+              },
+              {
+                "number": "1.12",
+                "text": "Follow-up action is agreed upon by all parties 8 Promulgated July 27, 2007",
+                "source_number": "2.8"
               }
-            ]
+            ],
+            "source_number": 2
           }
         ],
         "range_of_variables": {
@@ -1023,7 +1071,8 @@
                 "number": "1.3",
                 "text": "Problems are clearly stated and specified"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1041,7 +1090,8 @@
                 "number": "2.3",
                 "text": "Fundamental causes are identified per results of investigation conducted"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1063,7 +1113,8 @@
                 "number": "3.4",
                 "text": "Action plans are developed identifying measurable objectives, resource needs and timelines in accordance with safety and operating procedures"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -1079,9 +1130,10 @@
               },
               {
                 "number": "4.3",
-                "text": "Recommendations are followed-up, if required __________________________________________________________________________________________ 11 Promulgated July 27, 2007"
+                "text": "Recommendations are followed-up, if required 11 Promulgated July 27, 2007"
               }
-            ]
+            ],
+            "source_number": 4
           }
         ],
         "range_of_variables": {
@@ -1279,10 +1331,6 @@
                   "text": "Implementation of a developed plan to rectify the problem --- PDF PAGE"
                 },
                 {
-                  "number": "16",
-                  "text": "--- __________________________________________________________________________________________ TR - 3D ANIMATION NC III Promulgated July 27,"
-                },
-                {
                   "number": "2007",
                   "text": "/secjr 14"
                 }
@@ -1357,7 +1405,8 @@
                 "number": "1.2",
                 "text": "Mathematical techniques are selected based on the given problem"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1375,7 +1424,8 @@
                 "number": "2.3",
                 "text": "Results of mathematical computation is determined and verified based on job requirements"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1387,9 +1437,10 @@
               },
               {
                 "number": "3.2",
-                "text": "Appropriate action is applied in case of error __________________________________________________________________________________________ 15 Promulgated July 27, 2007"
+                "text": "Appropriate action is applied in case of error 15 Promulgated July 27, 2007"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -1597,7 +1648,8 @@
                 "number": "1.2",
                 "text": "Appropriate technology is selected as per work specification"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1615,7 +1667,8 @@
                 "number": "2.3",
                 "text": "Management concepts are observed and practiced as per established industry practices"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1631,9 +1684,10 @@
               },
               {
                 "number": "3.3",
-                "text": "Technology failure/ defect is immediately reported to the concern/responsible person or section for appropriate action __________________________________________________________________________________________ 18 Promulgated July 27, 2007"
+                "text": "Technology failure/ defect is immediately reported to the concern/responsible person or section for appropriate action 18 Promulgated July 27, 2007"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -1899,7 +1953,6 @@
       {
         "unit_code": "ICT315202",
         "title": "Apply quality standards",
-        "source_unit_code": "506315202",
         "printed_pages": null,
         "pdf_pages": [
           23,
@@ -1936,7 +1989,8 @@
                 "number": "1.5",
                 "text": "Faulty materials are replaced in accordance with workplace procedures."
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -1962,7 +2016,8 @@
                 "number": "2.5",
                 "text": "In cases of deviations from specific quality standards, causes are documented and reported in accordance with the workplace’ s standards operating procedures."
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -1978,9 +2033,10 @@
               },
               {
                 "number": "3.3",
-                "text": "Performance of operation or quality of product of service to ensure customer satisfaction is monitored. __________________________________________________________________________________________ 21 Promulgated July 27, 2007"
+                "text": "Performance of operation or quality of product of service to ensure customer satisfaction is monitored. 21 Promulgated July 27, 2007"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -2281,8 +2337,14 @@
               {
                 "number": "1.5",
                 "text": "Hardware configuration and other system features are checked"
+              },
+              {
+                "number": "1.6",
+                "text": "The desktop screen or GUI elements are changed as needed",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -2290,29 +2352,36 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "The desktop screen or GUI elements are changed as needed"
+                "text": "Desktop icons are added, renamed, moved, copied or deleted",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Desktop icons are added, renamed, moved, copied or deleted"
+                "text": "The online help functions are accessed or used as needed",
+                "source_number": "2.3"
               },
               {
                 "number": "2.3",
-                "text": "The online help functions are accessed or used as needed"
+                "text": "Desktop icons of application programs are selected, opened and closed",
+                "source_number": "2.4"
               },
               {
                 "number": "2.4",
-                "text": "Desktop icons of application programs are selected, opened and closed"
+                "text": "Properties of icons are displayed",
+                "source_number": "2.5"
               },
               {
                 "number": "2.5",
-                "text": "Properties of icons are displayed"
+                "text": "Computer or desktop settings are saved and restored",
+                "source_number": "2.6"
               },
               {
                 "number": "2.6",
-                "text": "Computer or desktop settings are saved and restored"
+                "text": "A file or folder is created, opened, moved, renamed or copied",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -2320,29 +2389,36 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "A file or folder is created, opened, moved, renamed or copied"
+                "text": "Files are located, deleted and restored",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Files are located, deleted and restored"
+                "text": "Details and properties of files and folders are displayed or viewed",
+                "source_number": "3.3"
               },
               {
                 "number": "3.3",
-                "text": "Details and properties of files and folders are displayed or viewed"
+                "text": "Various files are organized for easy lookup and use",
+                "source_number": "3.4"
               },
               {
                 "number": "3.4",
-                "text": "Various files are organized for easy lookup and use"
+                "text": "Files and information are searched",
+                "source_number": "3.5"
               },
               {
                 "number": "3.5",
-                "text": "Files and information are searched"
+                "text": "Disks are checked, erased or formatted as necessary",
+                "source_number": "3.6"
               },
               {
                 "number": "3.6",
-                "text": "Disks are checked, erased or formatted as necessary"
+                "text": "Application programs are added, changed, removed or ran",
+                "source_number": "4.1"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
@@ -2350,17 +2426,21 @@
             "performance_criteria": [
               {
                 "number": "4.1",
-                "text": "Application programs are added, changed, removed or ran"
+                "text": "User software or application program are installed, updated and upgraded",
+                "source_number": "4.2"
               },
               {
                 "number": "4.2",
-                "text": "User software or application program are installed, updated and upgraded"
+                "text": "Information/data are moved between documents or files",
+                "source_number": "4.3"
               },
               {
                 "number": "4.3",
-                "text": "Information/data are moved between documents or files"
+                "text": "Printer is added or installed and correct printer settings is ensured",
+                "source_number": "5.1"
               }
-            ]
+            ],
+            "source_number": 4
           },
           {
             "number": 5,
@@ -2368,21 +2448,26 @@
             "performance_criteria": [
               {
                 "number": "5.1",
-                "text": "Printer is added or installed and correct printer settings is ensured"
+                "text": "Default printer is assigned accordingly",
+                "source_number": "5.2"
               },
               {
                 "number": "5.2",
-                "text": "Default printer is assigned accordingly"
+                "text": "Information or document is printed on the installed printer",
+                "source_number": "5.3"
               },
               {
                 "number": "5.3",
-                "text": "Information or document is printed on the installed printer"
+                "text": "Progress of print jobs are viewed and deleted as required",
+                "source_number": "5.4"
               },
               {
                 "number": "5.4",
-                "text": "Progress of print jobs are viewed and deleted as required"
+                "text": "All open application programs are closed",
+                "source_number": "6.1"
               }
-            ]
+            ],
+            "source_number": 5
           },
           {
             "number": 6,
@@ -2390,13 +2475,11 @@
             "performance_criteria": [
               {
                 "number": "6.1",
-                "text": "All open application programs are closed"
-              },
-              {
-                "number": "6.2",
-                "text": "Computer and peripheral devices are properly shut down __________________________________________________________________________________________ 24 Promulgated July 27, 2007"
+                "text": "Computer and peripheral devices are properly shut down 24 Promulgated July 27, 2007",
+                "source_number": "6.2"
               }
-            ]
+            ],
+            "source_number": 6
           }
         ],
         "range_of_variables": {
@@ -2764,8 +2847,14 @@
               {
                 "number": "1.3",
                 "text": "All necessary materials and equipment to be used are identified and prepared according to the task to be undertaken."
+              },
+              {
+                "number": "1.4",
+                "text": "Key drawings produced are complete with relevant details from material and styles.",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -2773,25 +2862,31 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Key drawings produced are complete with relevant details from material and styles."
+                "text": "Drawings produced complied with soundtrack breakdown.",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Drawings produced complied with soundtrack breakdown."
+                "text": "Quantity of key drawings produced is sufficient to establish the action and ensure that they are within the standard set for the agreed design/model.",
+                "source_number": "2.3"
               },
               {
                 "number": "2.3",
-                "text": "Quantity of key drawings produced is sufficient to establish the action and ensure that they are within the standard set for the agreed design/model."
+                "text": "Key drawings produced are within the constraints and types of production.",
+                "source_number": "2.4"
               },
               {
                 "number": "2.4",
-                "text": "Key drawings produced are within the constraints and types of production."
+                "text": "Line test is undertaken to ensure smooth flow of movement",
+                "source_number": "2.5"
               },
               {
                 "number": "2.5",
-                "text": "Line test is undertaken to ensure smooth flow of movement"
+                "text": "Corrections to key drawings, animated elements and images are made after review by relevant personnel.",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -2799,17 +2894,16 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "Corrections to key drawings, animated elements and images are made after review by relevant personnel."
+                "text": "Key drawings with animation breakdowns are clearly labeled.",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Key drawings with animation breakdowns are clearly labeled."
-              },
-              {
-                "number": "3.3",
-                "text": "Key drawings are clearly identified, safely and securely stored in accordance with company procedures. __________________________________________________________________________________________ 28 Promulgated July 27, 2007"
+                "text": "Key drawings are clearly identified, safely and securely stored in accordance with company procedures. 28 Promulgated July 27, 2007",
+                "source_number": "3.3"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -3125,8 +3219,14 @@
               {
                 "number": "1.3",
                 "text": "Soundtrack requirements are identified and discussed with relevant personnel"
+              },
+              {
+                "number": "1.4",
+                "text": "Range of industry standard 3D animation software including computer-assisted techniques are identified for suitability",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -3134,21 +3234,26 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Range of industry standard 3D animation software including computer-assisted techniques are identified for suitability"
+                "text": "Capability and compatibility of the computer hardware and software is assessed vis-à-vis creative, production, technical requirements and specifications.",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Capability and compatibility of the computer hardware and software is assessed vis-à-vis creative, production, technical requirements and specifications."
+                "text": "Appropriate 3D animation software to be used is selected in consultation with the appropriate personnel to ensure that output met requirements.",
+                "source_number": "2.3"
               },
               {
                 "number": "2.3",
-                "text": "Appropriate 3D animation software to be used is selected in consultation with the appropriate personnel to ensure that output met requirements."
+                "text": "Software selected is in accordance with the specified delivery platform.",
+                "source_number": "2.4"
               },
               {
                 "number": "2.4",
-                "text": "Software selected is in accordance with the specified delivery platform."
+                "text": "Appropriate tools and features of the selected program is identified and applied to meet creative and technical requirements.",
+                "source_number": "3.1"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -3156,115 +3261,143 @@
             "performance_criteria": [
               {
                 "number": "3.1",
-                "text": "Appropriate tools and features of the selected program is identified and applied to meet creative and technical requirements."
+                "text": "Model and set-up environment layout for 3D production are created as appropriate to the required 3D model.",
+                "source_number": "3.2"
               },
               {
                 "number": "3.2",
-                "text": "Model and set-up environment layout for 3D production are created as appropriate to the required 3D model."
+                "text": "Model different kinds of 3D characters for production.",
+                "source_number": "3.3"
               },
               {
                 "number": "3.3",
-                "text": "Model different kinds of 3D characters for production."
+                "text": "Pre-defined textures are applied using texture mapping parameters as required.",
+                "source_number": "3.4"
               },
               {
                 "number": "3.4",
-                "text": "Pre-defined textures are applied using texture mapping parameters as required."
+                "text": "Camera control options and appropriate rendering parameters are defined and applied to achieve the required creative outcome.",
+                "source_number": "3.5"
               },
               {
                 "number": "3.5",
-                "text": "Camera control options and appropriate rendering parameters are defined and applied to achieve the required creative outcome."
+                "text": "Object motion hierarchies are used to achieve the required motion effect.",
+                "source_number": "3.6"
               },
               {
                 "number": "3.6",
-                "text": "Object motion hierarchies are used to achieve the required motion effect."
-              },
-              {
-                "number": "3.7",
-                "text": "Back-ups of models and images are prepared labeled and stored in accordance with company procedures and industry standards of documentation. __________________________________________________________________________________________ 31 Promulgated July 27, 2007"
+                "text": "Back-ups of models and images are prepared labeled and stored in accordance with company procedures and industry standards of documentation. 31 Promulgated July 27, 2007",
+                "source_number": "3.7"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 4,
-            "title": "Test and evaluate 3D models",
+            "title": "Test and evaluate",
             "performance_criteria": [
               {
                 "number": "4.1",
                 "text": "3D model motion is tested and combined with other media to create required digital animation sequence."
-              },
-              {
-                "number": "4.2",
-                "text": "Cross platform file transfers, digitized time coding and interface calibration is ensured to meet the requirements of technical and creative specifications."
-              },
-              {
-                "number": "4.3",
-                "text": "3D models and relevant digital animation sequence is presented to relevant personnel for review, comments and recommendations."
-              },
-              {
-                "number": "4.4",
-                "text": "Identified changes, if any are discussed with the relevant personnel and agreements are incorporated to the prepared models."
-              },
-              {
-                "number": "4.5",
-                "text": "Final agreement and approval is obtained from relevant personnel for the finished models."
               }
-            ]
+            ],
+            "source_number": 4
           },
           {
             "number": 5,
-            "title": "Produce 3D animation",
+            "title": "D models",
             "performance_criteria": [
               {
                 "number": "5.1",
-                "text": "Construct rigid and non-rigid objects as required by the design brief and storyboard."
+                "text": "Cross platform file transfers, digitized time coding and interface calibration is ensured to meet the requirements of technical and creative specifications.",
+                "source_number": "4.2"
               },
               {
                 "number": "5.2",
-                "text": "Combine objects into a single animated steam according to creative requirements and technical specifications."
+                "text": "3D models and relevant digital animation sequence is presented to relevant personnel for review, comments and recommendations.",
+                "source_number": "4.3"
               },
               {
                 "number": "5.3",
-                "text": "Create simple and complex animated movements into static or moving backgrounds according to creative and technical requirements."
+                "text": "Identified changes, if any are discussed with the relevant personnel and agreements are incorporated to the prepared models.",
+                "source_number": "4.4"
               },
               {
                 "number": "5.4",
-                "text": "Integrate animated objects or characters into static or moving backgrounds, using animation techniques available within software as required, and as appropriate according to the software."
+                "text": "Final agreement and approval is obtained from relevant personnel for the finished models.",
+                "source_number": "4.5"
               },
               {
                 "number": "5.5",
-                "text": "Apply time stamping techniques to animation frames."
-              },
-              {
-                "number": "5.6",
-                "text": "Apply textures, lighting and rendering as required in production."
-              },
-              {
-                "number": "5.7",
-                "text": "Incorporate sound where necessary, referring to soundtrack breakdown."
-              },
-              {
-                "number": "5.8",
-                "text": "3D animation is saved and stored using appropriate and adequate file formats."
+                "text": "Construct rigid and non-rigid objects as required by the design brief and storyboard.",
+                "source_number": "5.1"
               }
-            ]
+            ],
+            "source_number": 3
           },
           {
             "number": 6,
-            "title": "Evaluate 3D animation",
+            "title": "Produce 3D animation",
             "performance_criteria": [
               {
                 "number": "6.1",
-                "text": "3D animation sequences are presented to relevant personnel for detailed responses and recommendations."
+                "text": "Combine objects into a single animated steam according to creative requirements and technical specifications.",
+                "source_number": "5.2"
               },
               {
                 "number": "6.2",
-                "text": "Design changes are discussed, identified and incorporated to complete the 3D animation and meet the recommendations."
+                "text": "Create simple and complex animated movements into static or moving backgrounds according to creative and technical requirements.",
+                "source_number": "5.3"
               },
               {
                 "number": "6.3",
-                "text": "Final agreement of finished 3D animation sequences is obtained from relevant personnel. __________________________________________________________________________________________ 32 Promulgated July 27, 2007"
+                "text": "Integrate animated objects or characters into static or moving backgrounds, using animation techniques available within software as required, and as appropriate according to the software.",
+                "source_number": "5.4"
+              },
+              {
+                "number": "6.4",
+                "text": "Apply time stamping techniques to animation frames.",
+                "source_number": "5.5"
+              },
+              {
+                "number": "6.5",
+                "text": "Apply textures, lighting and rendering as required in production.",
+                "source_number": "5.6"
+              },
+              {
+                "number": "6.6",
+                "text": "Incorporate sound where necessary, referring to soundtrack breakdown.",
+                "source_number": "5.7"
+              },
+              {
+                "number": "6.7",
+                "text": "3D animation is saved and stored using appropriate and adequate file formats.",
+                "source_number": "5.8"
+              },
+              {
+                "number": "6.8",
+                "text": "3D animation sequences are presented to relevant personnel for detailed responses and recommendations.",
+                "source_number": "6.1"
               }
-            ]
+            ],
+            "source_number": 5
+          },
+          {
+            "number": 7,
+            "title": "Evaluate 3D animation",
+            "performance_criteria": [
+              {
+                "number": "7.1",
+                "text": "Design changes are discussed, identified and incorporated to complete the 3D animation and meet the recommendations.",
+                "source_number": "6.2"
+              },
+              {
+                "number": "7.2",
+                "text": "Final agreement of finished 3D animation sequences is obtained from relevant personnel. 32 Promulgated July 27, 2007",
+                "source_number": "6.3"
+              }
+            ],
+            "source_number": 6
           }
         ],
         "range_of_variables": {
@@ -3665,8 +3798,14 @@
               {
                 "number": "1.3",
                 "text": "The technical requirements of the multimedia project and use of authoring program are discussed with relevant personnel."
+              },
+              {
+                "number": "1.4",
+                "text": "Use tools and features of software relevant to the authoring process",
+                "source_number": "2.1"
               }
-            ]
+            ],
+            "source_number": 1
           },
           {
             "number": 2,
@@ -3674,37 +3813,41 @@
             "performance_criteria": [
               {
                 "number": "2.1",
-                "text": "Use tools and features of software relevant to the authoring process"
+                "text": "Create a new file for the specified task and name appropriately",
+                "source_number": "2.2"
               },
               {
                 "number": "2.2",
-                "text": "Create a new file for the specified task and name appropriately"
+                "text": "Multimedia components are imported into the authoring tool.",
+                "source_number": "2.3"
               },
               {
                 "number": "2.3",
-                "text": "Multimedia components are imported into the authoring tool."
+                "text": "Design principles are applied to the screen design and layout.",
+                "source_number": "2.4"
               },
               {
                 "number": "2.4",
-                "text": "Design principles are applied to the screen design and layout."
+                "text": "Screen and layout are designed according to creative production requirements and technical specifications.",
+                "source_number": "2.5"
               },
               {
                 "number": "2.5",
-                "text": "Screen and layout are designed according to creative production requirements and technical specifications."
+                "text": "Buttons and other interactive elements are created.",
+                "source_number": "2.6"
               },
               {
                 "number": "2.6",
-                "text": "Buttons and other interactive elements are created."
+                "text": "All components are linked according to storyboard.",
+                "source_number": "2.7"
               },
               {
                 "number": "2.7",
-                "text": "All components are linked according to storyboard."
-              },
-              {
-                "number": "2.8",
-                "text": "Data files, images, and audio are saved and stored in appropriate file format."
+                "text": "Data files, images, and audio are saved and stored in appropriate file format.",
+                "source_number": "2.8"
               }
-            ]
+            ],
+            "source_number": 2
           },
           {
             "number": 3,
@@ -3716,9 +3859,10 @@
               },
               {
                 "number": "3.2",
-                "text": "Required changes in the sequence are incorporated in the final delivery platform. __________________________________________________________________________________________ 35 Promulgated July 27, 2007"
+                "text": "Required changes in the sequence are incorporated in the final delivery platform. 35 Promulgated July 27, 2007"
               }
-            ]
+            ],
+            "source_number": 3
           }
         ],
         "range_of_variables": {
@@ -3977,7 +4121,8 @@
         "required_knowledge": null,
         "required_skills": null
       }
-    ]
+    ],
+    "elective": []
   },
   "source_section_text": "Section 1. Successful\ncandidates shall be awarded a National Certificate III level signed by the\nTESDA Director-General.\n\n4.2\nThe qualification of 3D Animation NC III may be attained through:\n4.2.1\nAccumulation of Certificates of Competency (COCs) in all the\nfollowing units of competencies:\n4.2.1.1\nProduce key drawings for animation\n4.2.1.2\nProduce 3D digital animation\n4.2.1.3\nUse and authoring tool to create an interactive sequence\n\nSuccessful candidates shall be awarded a Certificate of\nCompetency (COC) in each of the core units.\n\n4.3\nUpon accumulation and submission of all COCs acquired for all the relevant\nunits of competency comprising this qualification, an individual shall be\nissued the corresponding National Certificate.\n\n4.4\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.5\nThe following are qualified to apply for assessment and certification:\n\n4.5.1. Graduates of formal, non-formal and informal including enterprise-\nbased training programs.\n4.5.2. Experienced workers (wage employed or self employed)\n\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on\nthe Implementation of the Philippine TVET Qualification and Certification\nSystem (PTOQS)\".\n\n--- PDF PAGE 48 ---\n__________________________________________________________________________________________\nTR - 3D ANIMATION NC III Promulgated July 20, 2007\n/secjr\n\n46\nANNEX A. ICT COMPETENCY MAP – 3D ANIMATION NC III\n\nBASIC COMPETENCIES\n\nReceive and\nRespond to\nWorkplace\nCommunication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nWorkplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Team\nDevelop and\npractice negotiation\nskills\nSolve Problems\nRelated to Work\nActivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize Specialist\nCommunication Skills\nDevelop Team and\nIndividuals\nApply Problem\nSolving Techniques\nin the Workplace\nCollect, analyze and\norganize information\nPlan and Organize\nWork\nPromote\nenvironmental\nprotection\n\nCOMMON COMPETENCIES\n\nApply Quality\nStandards\nOperate a Personal\nComputer\n\nCORE COMPETENCIES\n\nCommunicate\neffectively in a\ncustomer contact\ncenter\nRender quality\ncustomer service\nUtilize enterprise/\ncompany technology\nConduct contact\ncenter campaign\nProvide specialized\nsupport and\nassistance to\ncustomers\nLead a contact center\nwork team\nManage the activities\nof a contact center\nwork team\nUse business\ntechnology\nUse medical\ntechnology to carry\nout task\nProduce text from\naudio transcription\nReview/edit\ndocuments\nProduce key\ndrawings for\nanimation\nProduce cleaned-up\nand in-betweened\ndrawings\nCreate 2D digital\nanimation\nUse an authoring\ntool to create an\ninteractive\nsequence\nLead a team in\ndelivering quality\nservice\nProduce background\ndesigns\nComposit and edit\nanimation sequence\nCreate 3D digital\nanimation\nProduce storyboard\nfor animation\nCoordinate the\nproduction of\nanimation\nManage the activities\nof a work team\nProduce over-all\ndesigns for animation\n\n--- PDF PAGE 49 ---\n__________________________________________________________________________________________\nTR - 3D ANIMATION NC III Promulgated July 20, 2007\n/secjr\n\n47\nDEFINITION OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who pass\nthe assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and attitudes\nto perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgements on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be conducted\nor carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a particular\narea of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by the\nindividual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\n outcome terms the functions that a person perform in the workplace\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual. It\nprovides information on critical aspects of competency, underpinning knowledge,\nunderpinning skills, resource implications, assessment method and context of\nassessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when\nevidence should be collected\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve all\nthe required units of competency for a national qualification defined under the\nTraining Regulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n--- PDF PAGE 50 ---\n__________________________________________________________________________________________\nTR - 3D ANIMATION NC III Promulgated July 20, 2007\n/secjr\n\n48\n\n17) Qualifications - is a cluster of units of competencies that meets job roles and are\nsignificant in the workplace. It is also a certification awarded to a person on\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work is\nto be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s\nskills, knowledge and attitudes gained from life and work experiences outside\nregistered training programs\n\n20) Resource Implications - refers to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It includes\nwork environment and conditions, materials, tools and equipment\n\n21) Basic Competencies - are the skills and knowledge that everyone needs for work\n\n22) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serve as basis for\nestablishment of qualification and certification under the PTQF. It also serves as\nguide for development of competency-based curricula and instructional materials\nincluding registration of TVET programs offered by TVET providers\n\n23) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is\nessential to the performance of the competency\n\n24) Underpinning Skills - refers to the list of the skills needed to achieve the elements\nand performance criteria in the unit of competency. It includes generic and\nindustry specific skills\n\n25) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\nSECTOR SPECIFIC\n\n1. Animation – a simulation of movement created by displaying a series of pictures,\nor frames. Cartoons on television are one example of animation. Animation on\ncomputers is one of the chief ingredients of multimedia presentations. There are\nmany software applications that enable you to create animations that you can\ndisplay on a computer monitor.\n2. 3D Animation – the creation of moving pictures in a three-dimensional digital\nenvironment. This is done by sequencing consecutive images, or \"frames\", that\nsimulate motion by each image showing the next in a gradual progression of steps,\nfilmed by a virtual \"camera\" and then output to video by a rendering engine.\n3. Browser – a software package that provides the user interface for accessing\nInternet, intranet and extranet Web sites.\n\n--- PDF PAGE 51 ---\n__________________________________________________________________________________________\nTR - 3D ANIMATION NC III Promulgated July 20, 2007\n/secjr\n\n49\n4. Computer – a device that has the ability to accept data; internally store and\nexecute a program of instructions; perform mathematical, logical, and manipulative\noperations on data; and report the results.\n5. Computer Terminal – any input/output device connected by telecommunications\nlinks to a computer.\n6. Data - objective measurements of the attributes (characteristics) of entities such as\npeople, places, things, and events.\n7. Documentation – a collection of documents or information.\n8. Edit – to modify the form or format of data\n9. Encryption – to scramble data or convert it, prior to transmission, to a secret code\nthat masks the meaning of he data to unauthorized recipients.\n10. End user – anyone who uses an information system or the information it\nproduces.\n11. Ergonomics - the science and technology emphasizing the safety, comfort, and\nease of use of human-operated machines. The goal of ergonomics is to produce\nsystems that are user-friendly: safe, comfortable and easy to use.\n12. Information – data placed in a meaningful and useful context for an end user.\n13. Information and Communication Technology (ICT) - refers to technologies\nassociated with the transmission and exchange of data in the form of sound, text,\nvisual images, signals or any combination of those forms through the use of digital\ntechnology. It encompasses such services as telecommunications, posts,\nmultimedia, electronic commerce, broadcasting, and information technology.\n14. Local Area Network (LAN) – a communications network that typically connects\ncomputers, terminals, and other computerized devices within a limited physical\narea such as an office, building, manufacturing plant and other work sites.\n15. Outsourcing – turning over all or part of an organization’s information systems\noperation to outside contractors, known as systems integrators or facilities\nmanagement companies.\n16. Quality Assurance – methods for ensuring that information system are free from\nerrors and fraud and provide information products of high quality.\n17. Simulation - the process of imitating a real phenomenon with a set of\nmathematical formulas. Advanced computer programs can simulate weather\nconditions, chemical reactions, atomic reactions, and even biological processes.\n18. Software – computer programs and procedures concerned with the operation of\nan information system.\n19. Standards – measures of performance developed to evaluate the progress of a\nsystem toward its objectives\n20. System – an assembly of methods, procedures, or techniques unified by regulated\ninteraction to form an organized whole\n21. User- friendly – a characteristic of human-operated equipment and systems that\nmakes them safe, comfortable, and easy to use.\n\n--- PDF PAGE 52 ---\n__________________________________________________________________________________________\nTR - 3D ANIMATION NC III Promulgated July 20, 2007\n/secjr\n\n50\n ACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\n• THE ICT – INDUSTRY WORKING GROUP (ICT-IWG)\n\nMR. AMADO A. MALACAMAN, JR.\nPresident, Information Technology Foundation of the Philippines (ITFP)\nChair, ICT - IWG\n\n• THE TECHNICAL EXPERTS PANEL (TEP) – FY 2005\n\nMS. GRACE A. DIMARANAN\nPresident, Animation Council of the Philippines, Inc. (ACPI)\n\nMS. JOY I. BACON\nExecutive Director, Animation Council of the Philippines, Inc. (ACPI)\n\nMS. MARLYN MONTANO\nHoly Cow Animation Studio\n\nMR. NORMAN G. DELA CRUZ\nNGC Animation Learning Theater\n\n• THE PARTICIPANTS IN THE NATIONAL VALIDATION OF THIS TRAINING\nREGULATION\n\n• Animation Council of the Philippines, Inc.\n\n• Information Technology Foundation of the Philippines (ITFP)\n\n• THE PHILIPPINE – AUSTRALIA QUALITY TECHNICAL VOCATIONAL\nEDUCATION PROJECT II (PAQTVET 2)\n\n•\nTHE MANAGEMENT AND STAFF OF THE TESDA SECRETARIAT\n\n•\nQSO\n•\nTSDO\n\n--- PDF PAGE 53 ---\n__________________________________________________________________________________________\nTR - 3D ANIMATION NC III Promulgated July 20, 2007\n/secjr\n\n51\nFOR THE REVISION STAGE\n\n• THE TECHNICAL EXPERT COMMITTEE – FY 2007\n\nMS. GRACE A. DIMARANAN\nAnimation Council of the Philippines, Inc.\n\nMS. JOY I. BACON\nAnimation Council of the Philippines, Inc.\n\n• THE ANIMATION COUNCIL OF THE PHILIPPINES, INC. (ACPI)\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT\nCOMMITTEE\n\n• THE MANAGEMENT AND STAFF OF THE TESDA SECRETARIAT\n\no Qualifications and Standards Office (QSO)"
 }

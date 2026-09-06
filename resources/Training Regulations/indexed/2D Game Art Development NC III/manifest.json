@@ -81,10 +81,6 @@
   "retrieval": {
     "preferred_lookup_key": "unit_code",
     "index_format": "jsonl",
-    "canonical_formats": [
-      "markdown",
-      "yaml"
-    ],
     "selector_contract": "semantic-index-v1",
     "whole_pdf_required_for_normal_lookup": false,
     "official_pdf_required_for_regulatory_verification": true

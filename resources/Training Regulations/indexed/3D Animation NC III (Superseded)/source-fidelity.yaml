@@ -2,13 +2,13 @@
   "schema": "tesda-source-fidelity",
   "schema_version": "1.0",
   "document_id": "tesda:tr:3d-animation-nc-iii-superseded:9169f4aa0f",
-  "qualification": "3D ANIMATION NC III",
+  "qualification": "3D ANIMATION NC III (SUPERSEDED)",
   "official_source": {
     "authority": "TESDA",
     "source_file": "3D Animation NC III (Superseded).pdf",
     "source_sha256": "9169f4aa0fe637645cf0cef9d8a91f43e9ed17fad7e6c96fce1095046c80fc39",
     "pdf_pages": 53,
-    "printed_pages": 51,
+    "printed_pages": 50,
     "authoritative": true
   },
   "representation": {
@@ -19,12 +19,27 @@
   "normalization_notes": [
     "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
     "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
-    "Section 1 lists ICT315202, while the competency header uses 506315202; the indexed unit uses ICT315202 and preserves the source code."
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints Promulgated July 27, 2007; the canonical date field normalizes it to 2007-07-27 while source_text preserves the printed form.",
+    "Section 1 lists Apply quality standards as ICT315202, while its Section 2 unit header prints 506315202; the canonical inventory follows Section 1 and preserves the header code in source_unit_code/source_text.",
+    "The source prints 1,040 total hours as 64 Basic, 16 Common, and 960 Core hours; the canonical duration record preserves each component and the arithmetic total."
   ],
   "observations": [
     {
       "type": "source_anomaly",
-      "description": "Section 1 lists ICT315202, while the competency header uses 506315202; the indexed unit uses ICT315202 and preserves the source code."
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated July 27, 2007; the canonical date field normalizes it to 2007-07-27 while source_text preserves the printed form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists Apply quality standards as ICT315202, while its Section 2 unit header prints 506315202; the canonical inventory follows Section 1 and preserves the header code in source_unit_code/source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 1,040 total hours as 64 Basic, 16 Common, and 960 Core hours; the canonical duration record preserves each component and the arithmetic total."
     }
   ],
   "fidelity_overrides": [],
@@ -79,7 +94,7 @@
     },
     {
       "unit_code": "ICT315202",
-      "source_unit_code": "506315202",
+      "source_unit_code": "ICT315202",
       "pdf_page_range": [
         23,
         25

@@ -19,31 +19,35 @@
   "normalization_notes": [
     "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
     "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
-    "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code.",
-    "Section 1 lists ICT216319 for Create tradigital animation, while its competency header uses ICT216306; the indexed unit uses ICT216319 and preserves the source code.",
-    "The source reuses ICT216306 for Create tradigital animation and Create 2D digital cut-out animation; normalized unit codes are kept unique for retrieval."
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints the amendment date as February 27, 2018; the canonical date field normalizes it to 2018-02-27 while source_text preserves the printed form.",
+    "Section 1 lists Perform computer operations as ICT311203, while its Section 2 unit header prints ELC311203; the canonical inventory follows Section 1 and preserves the header code in source_unit_code/source_text.",
+    "Section 1 lists Create tradigital animation as ICT216319, while its Section 2 unit header prints ICT216306, duplicating the following Create 2D digital cut-out animation code; the canonical inventory follows Section 1 and preserves the header code in source_unit_code/source_text.",
+    "The source prints 968 total hours as 68 Basic, 28 Common, and 872 Core hours; the canonical duration record preserves each component and the arithmetic total."
   ],
   "observations": [
     {
       "type": "source_anomaly",
-      "description": "Section 1 lists ICT311203, while the competency header uses ELC311203; the indexed unit uses ICT311203 and preserves the source code."
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
     },
     {
       "type": "source_anomaly",
-      "description": "Section 1 lists ICT216319 for Create tradigital animation, while its competency header uses ICT216306; the indexed unit uses ICT216319 and preserves the source code."
+      "description": "The source prints the amendment date as February 27, 2018; the canonical date field normalizes it to 2018-02-27 while source_text preserves the printed form."
     },
     {
       "type": "source_anomaly",
-      "description": "The source reuses ICT216306 for Create tradigital animation and Create 2D digital cut-out animation; normalized unit codes are kept unique for retrieval."
-    }
-  ],
-  "fidelity_overrides": [
+      "description": "Section 1 lists Perform computer operations as ICT311203, while its Section 2 unit header prints ELC311203; the canonical inventory follows Section 1 and preserves the header code in source_unit_code/source_text."
+    },
     {
-      "id": "evidence-500311112",
-      "unit_code": "500311112",
-      "note": "Evidence Guide preserves scenario, case-study, what-if, disruption, simulation, and integrated/concurrent assessment language from the source."
+      "type": "source_anomaly",
+      "description": "Section 1 lists Create tradigital animation as ICT216319, while its Section 2 unit header prints ICT216306, duplicating the following Create 2D digital cut-out animation code; the canonical inventory follows Section 1 and preserves the header code in source_unit_code/source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 968 total hours as 68 Basic, 28 Common, and 872 Core hours; the canonical duration record preserves each component and the arithmetic total."
     }
   ],
+  "fidelity_overrides": [],
   "unit_provenance": [
     {
       "unit_code": "500311109",
@@ -127,7 +131,7 @@
     },
     {
       "unit_code": "ICT311203",
-      "source_unit_code": "ELC311203",
+      "source_unit_code": "ICT311203",
       "pdf_page_range": [
         38,
         41
@@ -143,7 +147,7 @@
     },
     {
       "unit_code": "ICT216319",
-      "source_unit_code": "ICT216306",
+      "source_unit_code": "ICT216319",
       "pdf_page_range": [
         49,
         53

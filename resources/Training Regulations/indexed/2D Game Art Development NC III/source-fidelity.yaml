@@ -19,12 +19,22 @@
   "normalization_notes": [
     "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
     "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
-    "The curriculum breakdown totals 1,134 hours (64 + 70 + 800 + 200), while the course description states 934 hours plus 200 hours OJT; the normalized total follows the component table."
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source does not display a visible promulgation date; the canonical promulgated field remains null.",
+    "Section 3 prints component durations of 64 Basic, 70 Common, 800 Core, and 200 OJT hours with a 1,134-hour total, while the course description separately calls the nominal duration 934 hours before the additional OJT; the canonical duration record preserves the explicit component and total expressions."
   ],
   "observations": [
     {
       "type": "source_anomaly",
-      "description": "The curriculum breakdown totals 1,134 hours (64 + 70 + 800 + 200), while the course description states 934 hours plus 200 hours OJT; the normalized total follows the component table."
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source does not display a visible promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints component durations of 64 Basic, 70 Common, 800 Core, and 200 OJT hours with a 1,134-hour total, while the course description separately calls the nominal duration 934 hours before the additional OJT; the canonical duration record preserves the explicit component and total expressions."
     }
   ],
   "fidelity_overrides": [],

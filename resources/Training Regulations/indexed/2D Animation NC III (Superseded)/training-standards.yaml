@@ -2,13 +2,14 @@
   "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:2d-animation-nc-iii-superseded:0e06040a14",
-  "qualification": "2D ANIMATION NC III",
+  "qualification": "2D ANIMATION NC III (SUPERSEDED)",
   "content_status": "complete",
   "source": {
     "authority": "TESDA",
     "source_file": "2D Animation NC III (Superseded).pdf",
     "pdf_pages": 63,
-    "printed_pages": 61
+    "printed_pages": 61,
+    "promulgated": "2007-07-27"
   },
   "nominal_duration": {
     "components": [
@@ -46,8 +47,10 @@
     "entries": [
       {
         "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
         "learning_outcome_number": "1.1",
-        "learning_outcome": "Communicate information about workplace processes.",
+        "learning_outcome": "Communicate information about workplace processes",
         "learning_activities": [],
         "methodology": [
           "Group discussion",
@@ -62,44 +65,58 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 49,
-        "unit_code": "500311109",
-        "unit_title": "Lead workplace communication"
+        "pdf_page": 49
       },
       {
         "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
         "learning_outcome_number": "1.2",
-        "learning_outcome": "Lead workplace discussions.",
+        "learning_outcome": "Lead workplace discussions",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 49,
-        "unit_code": "500311109",
-        "unit_title": "Lead workplace communication"
+        "pdf_page": 49
       },
       {
         "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
         "learning_outcome_number": "1.3",
         "learning_outcome": "Identify and communicate issues arising in the workplace",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 49,
-        "unit_code": "500311109",
-        "unit_title": "Lead workplace communication"
+        "pdf_page": 49
       },
       {
-        "group": "core",
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
         "learning_outcome_number": "2.1",
-        "learning_outcome": "Provide team leadership.",
+        "learning_outcome": "Provide team leadership",
         "learning_activities": [],
         "methodology": [
           "Lecture"
@@ -111,13 +128,14 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 49,
-        "unit_title": "2. Lead small"
+        "pdf_page": 49
       },
       {
         "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
         "learning_outcome_number": "2.2",
-        "learning_outcome": "Assign responsibilities among members.",
+        "learning_outcome": "Assign responsibilities among members",
         "learning_activities": [],
         "methodology": [
           "Demonstration",
@@ -130,90 +148,302 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 49,
-        "unit_code": "500311110",
-        "unit_title": "Lead small teams"
+        "pdf_page": 49
       },
       {
         "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
         "learning_outcome_number": "2.3",
-        "learning_outcome": "Set performance expectation for team members.",
+        "learning_outcome": "Set performance expectation for team members",
         "learning_activities": [],
         "methodology": [
           "(modular)"
         ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervise team performance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "- July 27,"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify relevant information in planning negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Hands on"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document areas for agreement",
+        "learning_activities": [],
+        "methodology": [
+          "Exercises",
+          "Industry tour"
+        ],
+        "assessment_approach": [
+          "with oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Explain the analytical techniques",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine the possible cause/s of the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Hands on",
+          "Exercises",
+          "Demonstration",
+          "Viewing multimedia"
+        ],
+        "assessment_approach": [
+          "Observation in workplace",
+          "Interviews/ questioning - July 27,"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [],
         "assessment_approach": [],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 49,
-        "unit_code": "500311110",
-        "unit_title": "Lead small teams"
+        "pdf_page": 50
       },
       {
-        "group": "core",
-        "learning_outcome_number": "2.4",
-        "learning_outcome": "Supervise team performance NC III",
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply mathematical procedures/solution",
         "learning_activities": [],
-        "methodology": [
-          "Promulgated"
-        ],
-        "assessment_approach": [
-          "- July 27, 2007"
-        ],
+        "methodology": [],
+        "assessment_approach": [],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 49,
-        "unit_title": "/ secjr"
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Identify appropriate technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain/enhance relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
         "learning_outcome_number": "1.1",
         "learning_outcome": "Asses quality of received materials",
         "learning_activities": [],
         "methodology": [
-          " Field trip  Symposium"
+          "Field trip  Symposium"
         ],
         "assessment_approach": [
-          " Demonstration & questioning"
+          "Demonstration & questioning"
         ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_code": "ICT315202",
-        "unit_title": "Apply quality standards"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
         "learning_outcome_number": "1.2",
         "learning_outcome": "Assess own work",
         "learning_activities": [],
         "methodology": [
-          " Film showing"
+          "Film showing"
         ],
         "assessment_approach": [
-          " Observation &"
+          "Observation &"
         ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_code": "ICT315202",
-        "unit_title": "Apply quality standards"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
         "learning_outcome_number": "1.3",
         "learning_outcome": "Engage in quality improvement",
         "learning_activities": [],
         "methodology": [
-          " Simulation  On the job training"
+          "Simulation  On the job training"
         ],
         "assessment_approach": [
           "questioning  Third party report"
@@ -222,12 +452,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_code": "ICT315202",
-        "unit_title": "Apply quality standards"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a personal computer",
         "learning_outcome_number": "2.1",
         "learning_outcome": "Plan and prepare for task to be undertaken",
         "learning_activities": [],
@@ -242,11 +472,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_title": "2. Operate a Personal"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a personal computer",
         "learning_outcome_number": "2.2",
         "learning_outcome": "Input data into computer",
         "learning_activities": [],
@@ -260,12 +491,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_code": "ICT311203",
-        "unit_title": "Operate a personal computer"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a personal computer",
         "learning_outcome_number": "2.3",
         "learning_outcome": "Access information using computer",
         "learning_activities": [],
@@ -280,12 +511,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_code": "ICT311203",
-        "unit_title": "Operate a personal computer"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a personal computer",
         "learning_outcome_number": "2.4",
         "learning_outcome": "Produce output/data using computer system",
         "learning_activities": [],
@@ -301,12 +532,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_code": "ICT311203",
-        "unit_title": "Operate a personal computer"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a personal computer",
         "learning_outcome_number": "2.5",
         "learning_outcome": "Use basic functions of a web browser to locate information",
         "learning_activities": [],
@@ -322,30 +553,32 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_code": "ICT311203",
-        "unit_title": "Operate a personal computer"
+        "pdf_page": 50
       },
       {
         "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a personal computer",
         "learning_outcome_number": "2.6",
-        "learning_outcome": "Maintain computer equipment and systems NC III",
+        "learning_outcome": "Maintain computer equipment and systems",
         "learning_activities": [],
         "methodology": [
-          "Promulgated"
+          "Modular",
+          "Film showing"
         ],
         "assessment_approach": [
-          "based assessment - July 27, 2007"
+          "based assessment - July 27,"
         ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 50,
-        "unit_title": "/ secjr"
+        "pdf_page": 50
       },
       {
         "group": "core",
+        "unit_code": "ICT313316",
+        "unit_title": "Produce key drawings for animation",
         "learning_outcome_number": "1.1",
         "learning_outcome": "Identify animation requirements",
         "learning_activities": [],
@@ -360,11 +593,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_title": "1. Produce key drawings for"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313316",
+        "unit_title": "Produce key drawings for animation",
         "learning_outcome_number": "1.2",
         "learning_outcome": "Produce key drawings",
         "learning_activities": [],
@@ -378,12 +612,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313316",
+        "unit_title": "Produce key drawings for animation",
         "learning_outcome_number": "1.3",
         "learning_outcome": "Edit, revise and complete key drawings",
         "learning_activities": [],
@@ -400,12 +634,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313313",
+        "unit_title": "Produce cleaned-up & in-betweened drawings",
         "learning_outcome_number": "2.1",
         "learning_outcome": "Identify requirements for cleaned up-drawings in actual scene folder (cartoon simple)",
         "learning_activities": [],
@@ -422,11 +656,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_title": "2. Produce cleaned-up and in-"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313313",
+        "unit_title": "Produce cleaned-up & in-betweened drawings",
         "learning_outcome_number": "2.2",
         "learning_outcome": "Produce cleaned-up drawings in actual scene folder (cartoon simple)",
         "learning_activities": [],
@@ -443,74 +678,99 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313313",
-        "unit_title": "Produce cleaned-up & in-betweened drawings"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313313",
+        "unit_title": "Produce cleaned-up & in-betweened drawings",
         "learning_outcome_number": "2.3",
         "learning_outcome": "Identify requirements for in- between drawings in actual scene folder (cartoon regular)",
         "learning_activities": [],
         "methodology": [
           "multimedia"
         ],
-        "assessment_approach": [],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam",
+          "Observation in"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313313",
-        "unit_title": "Produce cleaned-up & in-betweened drawings"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313313",
+        "unit_title": "Produce cleaned-up & in-betweened drawings",
         "learning_outcome_number": "2.4",
         "learning_outcome": "Produce in-between drawings in actual scene folder (cartoon regular)",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Lecture/ Discussion",
+          "Hands on"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam",
+          "Observation in"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313313",
-        "unit_title": "Produce cleaned-up & in-betweened drawings"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313313",
+        "unit_title": "Produce cleaned-up & in-betweened drawings",
         "learning_outcome_number": "2.5",
         "learning_outcome": "Identify requirements for in- between drawings in actual scene folder (realistic)",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Lecture/ Discussion",
+          "Hands on"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam",
+          "Observation in"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313313",
-        "unit_title": "Produce cleaned-up & in-betweened drawings"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313313",
+        "unit_title": "Produce cleaned-up & in-betweened drawings",
         "learning_outcome_number": "2.6",
         "learning_outcome": "Produce in-between drawings in actual scene folder (realistic)",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Lecture/ Discussion",
+          "Hands on"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam",
+          "Observation in"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313313",
-        "unit_title": "Produce cleaned-up & in-betweened drawings"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.1",
         "learning_outcome": "Relate traditional animation to 2D digital animation",
         "learning_activities": [],
@@ -524,11 +784,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_title": "3. Create 2D digital"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.2",
         "learning_outcome": "Use drawing tools",
         "learning_activities": [],
@@ -542,12 +803,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.3",
         "learning_outcome": "Work with symbols, timeline and library",
         "learning_activities": [],
@@ -562,16 +823,18 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.4",
         "learning_outcome": "Analyze model sheet",
         "learning_activities": [],
-        "methodology": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
         "assessment_approach": [
           "Third Party"
         ],
@@ -579,16 +842,18 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.5",
         "learning_outcome": "Construct objects",
         "learning_activities": [],
-        "methodology": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
         "assessment_approach": [
           "Report"
         ],
@@ -596,16 +861,18 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.6",
         "learning_outcome": "Review and correct vectorirzed objects",
         "learning_activities": [],
-        "methodology": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
         "assessment_approach": [
           "Portfolio"
         ],
@@ -613,57 +880,69 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.7",
-        "learning_outcome": "Integrate sound animated objects and backgrounds",
+        "learning_outcome": "Integrate sound animated",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.8",
         "learning_outcome": "Apply animation techniques",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313314",
+        "unit_title": "Create 2D digital animation",
         "learning_outcome_number": "3.9",
         "learning_outcome": "Review and finalized 2D animation sequence",
         "learning_activities": [],
-        "methodology": [],
-        "assessment_approach": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313316",
-        "unit_title": "Produce key drawings for animation"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313323",
+        "unit_title": "Use an authoring tool to create an interactive sequence",
         "learning_outcome_number": "4.1",
         "learning_outcome": "Plan use of authoring tool",
         "learning_activities": [],
@@ -677,11 +956,12 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_title": "4. Use an"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313323",
+        "unit_title": "Use an authoring tool to create an interactive sequence",
         "learning_outcome_number": "4.2",
         "learning_outcome": "Use authoring tool",
         "learning_activities": [],
@@ -695,34 +975,33 @@
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_code": "ICT313323",
-        "unit_title": "Use an authoring tool to create an interactive sequence"
+        "pdf_page": 51
       },
       {
         "group": "core",
+        "unit_code": "ICT313323",
+        "unit_title": "Use an authoring tool to create an interactive sequence",
         "learning_outcome_number": "4.3",
-        "learning_outcome": "Check functionality of multimedia sequence NC III",
+        "learning_outcome": "Check functionality of multimedia sequence",
         "learning_activities": [],
         "methodology": [
           "Hands on",
           "Exercises",
           "Demonstration",
-          "Viewing multimedia Promulgated"
+          "Viewing multimedia"
         ],
         "assessment_approach": [
           "Observation in workplace",
-          "Interviews/ questioning - July 27, 2007"
+          "Interviews/ questioning - July 27,"
         ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "pdf_page": 51,
-        "unit_title": "to create an interactive sequence / secjr"
+        "pdf_page": 51
       }
     ],
-    "source_text": "Course Title: 2D Animation\n\nNC Level: NC III\n\nNominal Training Duration:\n64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 760 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of an\nAnimator in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as to produce key drawings for\nanimation, produce cleaned-up and in-betweened drawings, create 2D digital animation\nand to use an authoring tool to create an interactive sequence. The nominal duration of\n840 hours covers the required units at 2D Animation NC III. TVET providers can however,\noffer a longer, ladderized course covering the NC III basic, common and core units.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 50 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n48\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 51 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n49\nCORE COMPETENCIES\n760 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Produce key\ndrawings for\nanimation\n1.1. Identify animation\nrequirements\n1.2. Produce key drawings\n1.3. Edit, revise and complete key\ndrawings\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2. Produce\ncleaned-up\nand in-\nbetweened\ndrawings\n2.1. Identify requirements for\ncleaned up-drawings in actual\nscene folder (cartoon simple)\n2.2. Produce cleaned-up drawings\nin actual scene folder (cartoon\nsimple)\n2.3. Identify requirements for in-\nbetween drawings in actual\nscene folder (cartoon regular)\n2.4. Produce in-between drawings\nin actual scene folder (cartoon\nregular)\n2.5. Identify requirements for in-\nbetween drawings in actual\nscene folder (realistic)\n2.6. Produce in-between drawings\nin actual scene folder\n(realistic)\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n3. Create 2D\ndigital\nanimation\n3.1. Relate traditional animation to\n2D digital animation\n3.2. Use drawing tools\n3.3. Work with symbols, timeline\nand library\n3.4. Analyze model sheet\n3.5. Construct objects\n3.6. Review and correct\nvectorirzed objects\n3.7. Integrate sound animated\nobjects and backgrounds\n3.8. Apply animation techniques\n3.9. Review and finalized 2D\nanimation sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Industry tour\n• Direct\nobservation\n• Demonstration\nwith oral\nquestioning\n• Third Party\nReport\n• Portfolio\n4. Use an\nauthoring tool\nto create an\ninteractive\nsequence\n4.1. Plan use of authoring tool\n4.2. Use authoring tool\n4.3. Check functionality of\nmultimedia sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 52 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n50"
+    "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: 2D Animation\n\nNC Level: NC III\n\nNominal Training Duration:\n64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 760 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of an\nAnimator in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as to produce key drawings for\nanimation, produce cleaned-up and in-betweened drawings, create 2D digital animation\nand to use an authoring tool to create an interactive sequence. The nominal duration of\n840 hours covers the required units at 2D Animation NC III. TVET providers can however,\noffer a longer, ladderized course covering the NC III basic, common and core units.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 50 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n48\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 51 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n49\nCORE COMPETENCIES\n760 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Produce key\ndrawings for\nanimation\n1.1. Identify animation\nrequirements\n1.2. Produce key drawings\n1.3. Edit, revise and complete key\ndrawings\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2. Produce\ncleaned-up\nand in-\nbetweened\ndrawings\n2.1. Identify requirements for\ncleaned up-drawings in actual\nscene folder (cartoon simple)\n2.2. Produce cleaned-up drawings\nin actual scene folder (cartoon\nsimple)\n2.3. Identify requirements for in-\nbetween drawings in actual\nscene folder (cartoon regular)\n2.4. Produce in-between drawings\nin actual scene folder (cartoon\nregular)\n2.5. Identify requirements for in-\nbetween drawings in actual\nscene folder (realistic)\n2.6. Produce in-between drawings\nin actual scene folder\n(realistic)\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n3. Create 2D\ndigital\nanimation\n3.1. Relate traditional animation to\n2D digital animation\n3.2. Use drawing tools\n3.3. Work with symbols, timeline\nand library\n3.4. Analyze model sheet\n3.5. Construct objects\n3.6. Review and correct\nvectorirzed objects\n3.7. Integrate sound animated\nobjects and backgrounds\n3.8. Apply animation techniques\n3.9. Review and finalized 2D\nanimation sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Industry tour\n• Direct\nobservation\n• Demonstration\nwith oral\nquestioning\n• Third Party\nReport\n• Portfolio\n4. Use an\nauthoring tool\nto create an\ninteractive\nsequence\n4.1. Plan use of authoring tool\n4.2. Use authoring tool\n4.3. Check functionality of\nmultimedia sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 52 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n50"
   },
   "subsections": {
     "curriculum_design": {
@@ -730,21 +1009,21 @@
       "pdf_pages": [
         49
       ],
-      "source_text": "Course Title: 2D Animation\n\nNC Level: NC III\n\nNominal Training Duration:\n64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 760 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of an\nAnimator in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as to produce key drawings for\nanimation, produce cleaned-up and in-betweened drawings, create 2D digital animation\nand to use an authoring tool to create an interactive sequence. The nominal duration of\n840 hours covers the required units at 2D Animation NC III. TVET providers can however,\noffer a longer, ladderized course covering the NC III basic, common and core units.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 50 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n48\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 51 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n49\nCORE COMPETENCIES\n760 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Produce key\ndrawings for\nanimation\n1.1. Identify animation\nrequirements\n1.2. Produce key drawings\n1.3. Edit, revise and complete key\ndrawings\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2. Produce\ncleaned-up\nand in-\nbetweened\ndrawings\n2.1. Identify requirements for\ncleaned up-drawings in actual\nscene folder (cartoon simple)\n2.2. Produce cleaned-up drawings\nin actual scene folder (cartoon\nsimple)\n2.3. Identify requirements for in-\nbetween drawings in actual\nscene folder (cartoon regular)\n2.4. Produce in-between drawings\nin actual scene folder (cartoon\nregular)\n2.5. Identify requirements for in-\nbetween drawings in actual\nscene folder (realistic)\n2.6. Produce in-between drawings\nin actual scene folder\n(realistic)\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n3. Create 2D\ndigital\nanimation\n3.1. Relate traditional animation to\n2D digital animation\n3.2. Use drawing tools\n3.3. Work with symbols, timeline\nand library\n3.4. Analyze model sheet\n3.5. Construct objects\n3.6. Review and correct\nvectorirzed objects\n3.7. Integrate sound animated\nobjects and backgrounds\n3.8. Apply animation techniques\n3.9. Review and finalized 2D\nanimation sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Industry tour\n• Direct\nobservation\n• Demonstration\nwith oral\nquestioning\n• Third Party\nReport\n• Portfolio\n4. Use an\nauthoring tool\nto create an\ninteractive\nsequence\n4.1. Plan use of authoring tool\n4.2. Use authoring tool\n4.3. Check functionality of\nmultimedia sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 52 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n50"
+      "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: 2D Animation\n\nNC Level: NC III\n\nNominal Training Duration:\n64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 760 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of an\nAnimator in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as to produce key drawings for\nanimation, produce cleaned-up and in-betweened drawings, create 2D digital animation\nand to use an authoring tool to create an interactive sequence. The nominal duration of\n840 hours covers the required units at 2D Animation NC III. TVET providers can however,\noffer a longer, ladderized course covering the NC III basic, common and core units.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 50 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n48\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 51 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n49\nCORE COMPETENCIES\n760 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Produce key\ndrawings for\nanimation\n1.1. Identify animation\nrequirements\n1.2. Produce key drawings\n1.3. Edit, revise and complete key\ndrawings\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2. Produce\ncleaned-up\nand in-\nbetweened\ndrawings\n2.1. Identify requirements for\ncleaned up-drawings in actual\nscene folder (cartoon simple)\n2.2. Produce cleaned-up drawings\nin actual scene folder (cartoon\nsimple)\n2.3. Identify requirements for in-\nbetween drawings in actual\nscene folder (cartoon regular)\n2.4. Produce in-between drawings\nin actual scene folder (cartoon\nregular)\n2.5. Identify requirements for in-\nbetween drawings in actual\nscene folder (realistic)\n2.6. Produce in-between drawings\nin actual scene folder\n(realistic)\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n3. Create 2D\ndigital\nanimation\n3.1. Relate traditional animation to\n2D digital animation\n3.2. Use drawing tools\n3.3. Work with symbols, timeline\nand library\n3.4. Analyze model sheet\n3.5. Construct objects\n3.6. Review and correct\nvectorirzed objects\n3.7. Integrate sound animated\nobjects and backgrounds\n3.8. Apply animation techniques\n3.9. Review and finalized 2D\nanimation sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Industry tour\n• Direct\nobservation\n• Demonstration\nwith oral\nquestioning\n• Third Party\nReport\n• Portfolio\n4. Use an\nauthoring tool\nto create an\ninteractive\nsequence\n4.1. Plan use of authoring tool\n4.2. Use authoring tool\n4.3. Check functionality of\nmultimedia sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 52 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n50"
     },
     "training_delivery": {
       "present": true,
       "pdf_pages": [
         52
       ],
-      "source_text": "The delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Training programs are registered with the UTPRAS.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in - school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\njust facilitates the training delivery.\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real\nworld applications.\n\n--- PDF PAGE 53 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n51"
+      "source_text": "3.2\nTRAINING DELIVERY\n\nThe delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Training programs are registered with the UTPRAS.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in - school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\njust facilitates the training delivery.\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real\nworld applications.\n\n--- PDF PAGE 53 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n51"
     },
     "trainee_entry_requirements": {
       "present": true,
       "pdf_pages": [
         53
       ],
-      "source_text": "The trainees who wish to enter the course should possess the following\nrequirements:\n\n• At least high school graduate\n• 18 – 45 years old\n• Able to communicate both oral and written\n• With drawing skills\n• Must know how to operate a computer\n• Good moral character\n• Must be physically and mentally fit\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram."
+      "source_text": "3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n• At least high school graduate\n• 18 – 45 years old\n• Able to communicate both oral and written\n• With drawing skills\n• Must know how to operate a computer\n• Good moral character\n• Must be physically and mentally fit\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram."
     },
     "tools_equipment_materials": {
       "present": true,
@@ -752,28 +1031,28 @@
         53,
         54
       ],
-      "source_text": ", EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\n2D Animation NC III:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\nAnimation Disc\n\nComputer with peripherals\n\nAnimation paper\n\nDigitizing pen and\ntablet\n\nErgonomic computer tables\nand chairs\n\nLearning materials/\nguide\n\nPencil\n\nLight box\n\nBull clip\n\nPeg bar\n\nLCD Projector\n\nLearning elements\n\nEraser\n\nPrinter\n\nHand-outs\n\nFeather duster\n\nOHP\n\nPractice materials\n\nSoftware e.g.\n - Director\n - Flash\n - Toon Boom\n\nPrintable\nstoryboard\n\nInteractive Flash\nmovies\n\nGraphics software\n\nFTP client and\nserver software\n\nAdobe PDF\ndocuments\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n52\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training, the\nindustry working group or TESDA may provide guidelines or specific advice on such\nmatters."
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\n2D Animation NC III:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\nAnimation Disc\n\nComputer with peripherals\n\nAnimation paper\n\nDigitizing pen and\ntablet\n\nErgonomic computer tables\nand chairs\n\nLearning materials/\nguide\n\nPencil\n\nLight box\n\nBull clip\n\nPeg bar\n\nLCD Projector\n\nLearning elements\n\nEraser\n\nPrinter\n\nHand-outs\n\nFeather duster\n\nOHP\n\nPractice materials\n\nSoftware e.g.\n - Director\n - Flash\n - Toon Boom\n\nPrintable\nstoryboard\n\nInteractive Flash\nmovies\n\nGraphics software\n\nFTP client and\nserver software\n\nAdobe PDF\ndocuments\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n52\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training, the\nindustry working group or TESDA may provide guidelines or specific advice on such\nmatters."
     },
     "training_facilities": {
       "present": true,
       "pdf_pages": [
         54
       ],
-      "source_text": "Based on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n80\nFacilities / Equipment /\nCirculation**\n\n30\nTotal Area\n110\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nAppropriate consideration should be given in providing and allocating work space,\ncommunications facilities, and the usual workplace amenities to ensure a proper learning\nenvironment. Where applicable, training shall be held or conducted in learning facilities in\naccordance with generally accepted industry standards and practice.\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n53"
+      "source_text": "3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n80\nFacilities / Equipment /\nCirculation**\n\n30\nTotal Area\n110\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nAppropriate consideration should be given in providing and allocating work space,\ncommunications facilities, and the usual workplace amenities to ensure a proper learning\nenvironment. Where applicable, training shall be held or conducted in learning facilities in\naccordance with generally accepted industry standards and practice.\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n53"
     },
     "trainer_qualifications": {
       "present": true,
       "pdf_pages": [
         55
       ],
-      "source_text": "Animation NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Animation NC III or equivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 2-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution."
+      "source_text": "3.6 TRAINERS QUALIFICATIONS\n\nAnimation NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Animation NC III or equivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 2-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution."
     },
     "institutional_assessment": {
       "present": true,
       "pdf_pages": [
         55
       ],
-      "source_text": "Institutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n54"
+      "source_text": "3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n54"
     }
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: 2D Animation\n\nNC Level: NC III\n\nNominal Training Duration:\n64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 760 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of an\nAnimator in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as to produce key drawings for\nanimation, produce cleaned-up and in-betweened drawings, create 2D digital animation\nand to use an authoring tool to create an interactive sequence. The nominal duration of\n840 hours covers the required units at 2D Animation NC III. TVET providers can however,\noffer a longer, ladderized course covering the NC III basic, common and core units.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 50 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n48\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 51 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n49\nCORE COMPETENCIES\n760 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Produce key\ndrawings for\nanimation\n1.1. Identify animation\nrequirements\n1.2. Produce key drawings\n1.3. Edit, revise and complete key\ndrawings\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2. Produce\ncleaned-up\nand in-\nbetweened\ndrawings\n2.1. Identify requirements for\ncleaned up-drawings in actual\nscene folder (cartoon simple)\n2.2. Produce cleaned-up drawings\nin actual scene folder (cartoon\nsimple)\n2.3. Identify requirements for in-\nbetween drawings in actual\nscene folder (cartoon regular)\n2.4. Produce in-between drawings\nin actual scene folder (cartoon\nregular)\n2.5. Identify requirements for in-\nbetween drawings in actual\nscene folder (realistic)\n2.6. Produce in-between drawings\nin actual scene folder\n(realistic)\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n3. Create 2D\ndigital\nanimation\n3.1. Relate traditional animation to\n2D digital animation\n3.2. Use drawing tools\n3.3. Work with symbols, timeline\nand library\n3.4. Analyze model sheet\n3.5. Construct objects\n3.6. Review and correct\nvectorirzed objects\n3.7. Integrate sound animated\nobjects and backgrounds\n3.8. Apply animation techniques\n3.9. Review and finalized 2D\nanimation sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Industry tour\n• Direct\nobservation\n• Demonstration\nwith oral\nquestioning\n• Third Party\nReport\n• Portfolio\n4. Use an\nauthoring tool\nto create an\ninteractive\nsequence\n4.1. Plan use of authoring tool\n4.2. Use authoring tool\n4.3. Check functionality of\nmultimedia sequence\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\n• Observation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 52 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n50\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Training programs are registered with the UTPRAS.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in - school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\njust facilitates the training delivery.\n\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real\nworld applications.\n\n--- PDF PAGE 53 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n51\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n• At least high school graduate\n• 18 – 45 years old\n• Able to communicate both oral and written\n• With drawing skills\n• Must know how to operate a computer\n• Good moral character\n• Must be physically and mentally fit\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\n2D Animation NC III:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\nAnimation Disc\n\nComputer with peripherals\n\nAnimation paper\n\nDigitizing pen and\ntablet\n\nErgonomic computer tables\nand chairs\n\nLearning materials/\nguide\n\nPencil\n\nLight box\n\nBull clip\n\nPeg bar\n\nLCD Projector\n\nLearning elements\n\nEraser\n\nPrinter\n\nHand-outs\n\nFeather duster\n\nOHP\n\nPractice materials\n\nSoftware e.g.\n - Director\n - Flash\n - Toon Boom\n\nPrintable\nstoryboard\n\nInteractive Flash\nmovies\n\nGraphics software\n\nFTP client and\nserver software\n\nAdobe PDF\ndocuments\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\n\n--- PDF PAGE 54 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n52\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training, the\nindustry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n80\nFacilities / Equipment /\nCirculation**\n\n30\nTotal Area\n110\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nAppropriate consideration should be given in providing and allocating work space,\ncommunications facilities, and the usual workplace amenities to ensure a proper learning\nenvironment. Where applicable, training shall be held or conducted in learning facilities in\naccordance with generally accepted industry standards and practice.\n\n--- PDF PAGE 55 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n53\n3.6 TRAINERS QUALIFICATIONS\n\nAnimation NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Animation NC III or equivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 2-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution.\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\n--- PDF PAGE 56 ---\n____________________________________________________________________________________________\nTR - ANIMATION (2D Digital) NC III Promulgated - July 27, 2007\n/ secjr\n54"

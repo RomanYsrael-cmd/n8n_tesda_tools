@@ -3,7 +3,7 @@
   "schema_version": "2.0",
   "document_id": "tesda:tr:2d-animation-nc-iii:0683e75866",
   "qualification": "2D ANIMATION NC III",
-  "promulgated": null,
+  "promulgated": "2018-02-27",
   "coverage_status": "complete",
   "representation_type": "semantic_normalized",
   "verbatim_transcription": false,
@@ -81,10 +81,6 @@
   "retrieval": {
     "preferred_lookup_key": "unit_code",
     "index_format": "jsonl",
-    "canonical_formats": [
-      "markdown",
-      "yaml"
-    ],
     "selector_contract": "semantic-index-v1",
     "whole_pdf_required_for_normal_lookup": false,
     "official_pdf_required_for_regulatory_verification": true
