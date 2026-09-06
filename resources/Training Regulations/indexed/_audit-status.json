@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T08:24:27+08:00",
+  "last_updated": "2026-09-06T09:29:32+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 5,
-  "remaining_unaudited": 379,
+  "audited_count": 10,
+  "remaining_unaudited": 374,
   "blocked_count": 0,
   "documents": [
     {
@@ -73,6 +73,71 @@
       "validation_passed": true,
       "last_audit_commit": "67115fce1378ecbfefb648064a5ec31e73ce2dbd",
       "audit_notes": "Rebuilt historical two-column competency structure; preserved superseded terminology and source code anomaly; added curriculum rows, duration arithmetic, provenance, fidelity metadata, and resolvable selectors."
+    },
+    {
+      "package": "3D Game Art Development NC III",
+      "package_path": "resources/Training Regulations/indexed/3D Game Art Development NC III",
+      "source_file": "resources/Training Regulations/3D Game Art Development NC III.pdf",
+      "source_sha256": "0c344c7efed7687a38613fe0d40e1cfabd0343697b8e36a13993d0ad024a144b",
+      "status": "audited",
+      "audited_at": "2026-09-06T09:29:32+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "3abb5930f245ab4b3cfa4c4434f259d1e5673d33",
+      "audit_notes": "Rebuilt 6/3/6 competency groups and source-header unit provenance; repaired legacy criterion numbering and footer bleed; added 57 curriculum rows, duration arithmetic, assessment structure, fidelity observations, and resolvable selectors."
+    },
+    {
+      "package": "5-Axis CNC Machine Operation NC III",
+      "package_path": "resources/Training Regulations/indexed/5-Axis CNC Machine Operation NC III",
+      "source_file": "resources/Training Regulations/5-Axis CNC Machine Operation NC III.pdf",
+      "source_sha256": "e1177a665dde9a5a09706514615219cf11ea1d06e9cd369e822913ab18825fbb",
+      "status": "audited",
+      "audited_at": "2026-09-06T09:29:32+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "3abb5930f245ab4b3cfa4c4434f259d1e5673d33",
+      "audit_notes": "Rebuilt 9/11/4 competency groups with four-column knowledge and skills; repaired unit inventory, curriculum rows, footer contamination, assessment structure, source metadata, fidelity observations, and resolvable selectors."
+    },
+    {
+      "package": "Able Seafarer Deck NC II (II-5)",
+      "package_path": "resources/Training Regulations/indexed/Able Seafarer Deck NC II (II-5)",
+      "source_file": "resources/Training Regulations/Able Seafarer Deck NC II (II-5).pdf",
+      "source_sha256": "b81c14986b610183a00b6532986b64c01a23f6050209d6c0a4b8d1e655b5d863",
+      "status": "audited",
+      "audited_at": "2026-09-06T09:29:32+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "3abb5930f245ab4b3cfa4c4434f259d1e5673d33",
+      "audit_notes": "Rebuilt 4/8/4 maritime competency groups using actual unit-header codes; repaired curriculum and assessment boundaries, preserved STCW/source spelling anomalies, added provenance and fidelity metadata, and made selectors resolvable."
+    },
+    {
+      "package": "Able Seafarer Engine NC II (III-5)",
+      "package_path": "resources/Training Regulations/indexed/Able Seafarer Engine NC II (III-5)",
+      "source_file": "resources/Training Regulations/Able Seafarer Engine NC II (III-5).pdf",
+      "source_sha256": "1f432f6d4385aa5456676c6f082d00fd3e33b27a29244eddab4e7d278bb76925",
+      "status": "audited",
+      "audited_at": "2026-09-06T09:29:32+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "3abb5930f245ab4b3cfa4c4434f259d1e5673d33",
+      "audit_notes": "Rebuilt 4/8/3 maritime competency groups using actual unit-header codes; repaired curriculum and assessment boundaries, removed structured footer bleed, preserved source terminology, and added provenance, fidelity metadata, and resolvable selectors."
+    },
+    {
+      "package": "Agricultural Crops Production NC I",
+      "package_path": "resources/Training Regulations/indexed/Agricultural Crops Production NC I",
+      "source_file": "resources/Training Regulations/Agricultural Crops Production NC I.pdf",
+      "source_sha256": "7e63450a793c8b7f1d32a0943f3e2a856ead6b834bc9cd6f2618baf54bba54ba",
+      "status": "audited",
+      "audited_at": "2026-09-06T09:29:32+08:00",
+      "issues_found": 9,
+      "issues_fixed": 9,
+      "validation_passed": true,
+      "last_audit_commit": "3abb5930f245ab4b3cfa4c4434f259d1e5673d33",
+      "audit_notes": "Rebuilt 4/4/4 competency groups; recovered split curriculum tables, repaired legacy criterion numbering and footer bleed, corrected assessment boundaries, and added duration, provenance, fidelity metadata, and resolvable selectors."
     }
   ]
 }
