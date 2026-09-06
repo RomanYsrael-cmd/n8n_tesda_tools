@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T20:45:17+08:00",
+  "last_updated": "2026-09-06T20:58:40+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 175,
-  "remaining_unaudited": 209,
+  "audited_count": 180,
+  "remaining_unaudited": 204,
   "blocked_count": 0,
   "documents": [
     {
@@ -2283,6 +2283,71 @@
       "validation_passed": true,
       "last_audit_commit": "915b9a53f5db1178d629e0e5574b0fcc1128d285",
       "audit_notes": "Rebuilt 9/7/10 revised four-column groups with required knowledge and skills; restored 96 curriculum rows, 4 assessment arrangements, and 1 definition-term entry, preserved Revision 01 and Promulgated (11/07/2019) with the 47/190/465-hour in-school components and separate 160-hour SIL for an 862-hour arithmetic total, and retained the source terminology, sustainability spelling, and page-preserved revision-history text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Footwear Making NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Footwear Making NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Footwear Making NC II (Superseded).pdf",
+      "source_sha256": "de2a60ace40d43c27bf08559315bd87313d90fe1d3843bbf37ff4e5de4dee000",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:58:40+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "afd45aa112ef2f35f4f4fbe00ca9362047383dc3",
+      "audit_notes": "Rebuilt 4/6/20 superseded historical two-column groups; restored 91 curriculum rows, 6 assessment arrangements, and 23 definition-term entries, preserved the 12/09/04 promulgation literal and the 18/24/640-hour components with 682-hour total, and retained footwear title punctuation, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Forging NC II",
+      "package_path": "resources/Training Regulations/indexed/Forging NC II",
+      "source_file": "resources/Training Regulations/Forging NC II.pdf",
+      "source_sha256": "13b567d64c463a4de31e4b946be7406db0a7db524534caf4ae89c8c7eb4c67de",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:58:40+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "afd45aa112ef2f35f4f4fbe00ca9362047383dc3",
+      "audit_notes": "Rebuilt 4/4/3 historical two-column groups; restored 36 curriculum rows, 5 assessment arrangements, and 3 definition-term entries, preserved the absent promulgation date and the 18/20/68-hour components with 106-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Forging NC III",
+      "package_path": "resources/Training Regulations/indexed/Forging NC III",
+      "source_file": "resources/Training Regulations/Forging NC III.pdf",
+      "source_sha256": "d823ee691dcfc4e914ec5788a3436387d3e533eb6d0f350927feb2cf69f758cc",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:58:40+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "afd45aa112ef2f35f4f4fbe00ca9362047383dc3",
+      "audit_notes": "Rebuilt 6/4/3 historical two-column groups; restored 42 curriculum rows, 5 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 20/20/72-hour components with 112-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Foundry Melting Casting NC II",
+      "package_path": "resources/Training Regulations/indexed/Foundry Melting Casting NC II",
+      "source_file": "resources/Training Regulations/Foundry Melting Casting NC II.pdf",
+      "source_sha256": "2fc3834941d9c57f4545e3f4a9d07159ab9a6b85b800ffacf9547c3f8fd8517a",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:58:40+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "afd45aa112ef2f35f4f4fbe00ca9362047383dc3",
+      "audit_notes": "Rebuilt 4/4/6 historical two-column groups; restored 56 curriculum rows, 5 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 18/20/90-hour components with 128-hour total, repaired the malformed common-curriculum numbering while retaining source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Foundry Melting Casting NC III",
+      "package_path": "resources/Training Regulations/indexed/Foundry Melting Casting NC III",
+      "source_file": "resources/Training Regulations/Foundry Melting Casting NC III.pdf",
+      "source_sha256": "3474746b0b55dbe2bad63d9b9bbef36887fdba502375f0f161c7b1548ad0b4dc",
+      "status": "audited",
+      "audited_at": "2026-09-06T20:58:40+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "afd45aa112ef2f35f4f4fbe00ca9362047383dc3",
+      "audit_notes": "Rebuilt 6/4/3 historical two-column groups; restored 48 curriculum rows, 6 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 20/20/68-hour components with 108-hour total, repaired malformed basic/common curriculum numbering by printed unit text while preserving the source layer, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
