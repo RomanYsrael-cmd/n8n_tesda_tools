@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T02:37:21+08:00",
+  "last_updated": "2026-09-07T03:02:49+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 275,
-  "remaining_unaudited": 109,
+  "audited_count": 280,
+  "remaining_unaudited": 104,
   "blocked_count": 0,
   "documents": [
     {
@@ -3583,6 +3583,71 @@
       "validation_passed": true,
       "last_audit_commit": "b93c1fb7733c19dc9e865c981c429fe6bbb7b674",
       "audit_notes": "Rebuilt 4/5/4 revised four-column groups; restored 44 curriculum rows, 2 assessment arrangements, and 38 glossary entries, preserved the amended source and Promulgated February 2017, the 1 through 158 printed-page sequence plus the unnumbered closing page, and the 20/56/624-hour components with 700-hour total, recorded the Section 1 versus Section 2 common-code discrepancies, restored required-knowledge text for Perform body massage, repaired the split final core curriculum heading, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Mechanical Drafting NC I",
+      "package_path": "resources/Training Regulations/indexed/Mechanical Drafting NC I",
+      "source_file": "resources/Training Regulations/Mechanical Drafting NC I.pdf",
+      "source_sha256": "0881c6b3eb51a327ccda56fc6f74c35df2b6b2dbaabc75b9c7caa4fb0395811c",
+      "status": "audited",
+      "audited_at": "2026-09-07T03:02:49+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "58fdd3bd83322ae0d191a411aada3d8bfc604384",
+      "audit_notes": "Rebuilt 4/4/2 historical two-column groups; restored 34 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the 11/20/2007 source date, the final 1 through 46 printed-page sequence, and the single 218-hour nominal duration, removed repeated footer shells from the legacy table extraction, retained the broader sector competency-map source text, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Mechatronics Servicing NC II",
+      "package_path": "resources/Training Regulations/indexed/Mechatronics Servicing NC II",
+      "source_file": "resources/Training Regulations/Mechatronics Servicing NC II.pdf",
+      "source_sha256": "5d27bf6691c8c4406b7001525d763f73a488b11dedc472164c9b6ec344339a22",
+      "status": "audited",
+      "audited_at": "2026-09-07T03:02:49+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "58fdd3bd83322ae0d191a411aada3d8bfc604384",
+      "audit_notes": "Rebuilt 4/7/2 revised four-column groups with required knowledge and skills; restored 44 curriculum rows, 2 assessment arrangements, and 46 definition-term entries, preserved Promulgated June 16, 2015, the 1 through 82 printed-page sequence, and the 18/60/80-hour components with 158-hour total, repaired the Perform Computer Operations curriculum numbering and unnumbered knowledge bullets, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Mechatronics Servicing NC III",
+      "package_path": "resources/Training Regulations/indexed/Mechatronics Servicing NC III",
+      "source_file": "resources/Training Regulations/Mechatronics Servicing NC III.pdf",
+      "source_sha256": "df4e2c147a4c9b90737ca7c2cdb9f165d27f04a2ee043824ffc3317857734132",
+      "status": "audited",
+      "audited_at": "2026-09-07T03:02:49+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "58fdd3bd83322ae0d191a411aada3d8bfc604384",
+      "audit_notes": "Rebuilt 6/7/3 revised four-column groups with required knowledge and skills; restored 57 curriculum rows, 2 assessment arrangements, and 40 definition-term entries, preserved Promulgated June 16, 2015, the 1 through 90 printed-page sequence, and the 32/60/104-hour components with 196-hour total, repaired unnumbered knowledge bullets in the technical-drawing table, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Mechatronics Servicing NC IV",
+      "package_path": "resources/Training Regulations/indexed/Mechatronics Servicing NC IV",
+      "source_file": "resources/Training Regulations/Mechatronics Servicing NC IV.pdf",
+      "source_sha256": "b423bf80a40794000d7f4d2667ec81b5a8c029961289768f14983b4bef1f7b89",
+      "status": "audited",
+      "audited_at": "2026-09-07T03:02:49+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "58fdd3bd83322ae0d191a411aada3d8bfc604384",
+      "audit_notes": "Rebuilt 6/7/3 revised four-column groups with required knowledge and skills; restored 63 curriculum rows, 2 assessment arrangements, and 40 definition-term entries, preserved Promulgated Dec. 16, 2015, the 1 through 104 printed-page sequence, and the 30/64/106-hour components with 200-hour total, repaired unnumbered knowledge bullets in the mensuration, technical-drawing, and advanced PLC tables, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Medical Coding and Claims Processing NC III",
+      "package_path": "resources/Training Regulations/indexed/Medical Coding and Claims Processing NC III",
+      "source_file": "resources/Training Regulations/Medical Coding and Claims Processing NC III.pdf",
+      "source_sha256": "3fb1b34595f856008a0b50a77b565c980ba4b7481853819ac80143f549d4664b",
+      "status": "audited",
+      "audited_at": "2026-09-07T03:02:49+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "58fdd3bd83322ae0d191a411aada3d8bfc604384",
+      "audit_notes": "Rebuilt 6/2/3 revised four-column groups with required knowledge and skills; restored 53 curriculum rows, 2 assessment arrangements, and 25 definition-term entries, preserved Promulgated June 16, 2015, the 1 through 64 printed-page sequence, and the 32/18/160-hour components with 210-hour total, repaired the source-numbered Lead Small Teams criterion association, recorded the ICT-versus-ELC common-code discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
