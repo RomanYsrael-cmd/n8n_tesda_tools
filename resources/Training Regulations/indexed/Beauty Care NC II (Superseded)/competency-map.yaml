@@ -1,84 +1,63 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:beauty-care-nc-ii:2005-08",
-  "qualification": "BEAUTY CARE NC II",
+  "document_id": "tesda:tr:beauty-care-nc-ii-superseded:8dff4ce441",
+  "qualification": "BEAUTY CARE NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515314",
-        "title": "This unit covers the knowledge, skills and attitude in applying"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HCS516201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HCS515301",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ": This unit covers the knowledge, skills and attitudes in promoting"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS516202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515204",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515205",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515302",
-        "title": "manicure and pedicure. This involves preparing the client, cleaning"
-      },
-      {
-        "unit_code": "HCS515303",
-        "title": "This unit covers the knowledge, skills and attitude in performing spa"
-      },
-      {
-        "unit_code": "HCS515304",
-        "title": "This unit covers the knowledge, skills and attitude in performing"
-      },
-      {
-        "unit_code": "HCS515305",
-        "title": "This unit covers the knowledge, skills and attitude in performing"
-      },
-      {
-        "unit_code": "HCS515306",
-        "title": "This unit covers the knowledge, skills and attitude in performing"
-      },
-      {
-        "unit_code": "HCS515307",
-        "title": "This unit covers the knowledge, skills and attitude in performing foot"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nBEAUTY CARE NC II\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nPerform pre and\npost beauty care\nservices\nPerform\nmanicure and\npedicure\nPerform body scrub\nPerform facial\ntreatment\nMaintain an\neffective\nrelationship with\nclients/customers\nManage own\nperformance\nParticipate in\nworkplace\ncommunication\nWork in a team\nenvironment\nApply quality\nstandards\nMaintain a safe,\nclean and efficient\nenvironment\nPerform hand\nspa\nPerform foot\nspa\nPractice career\nprofessionalism\nPractice occupa-\ntional health and\nsafety procedure\nPerform body\nmassage\nPerform facial\nmake-up\n\n--- PDF PAGE 69 ---\n\n--- PDF PAGE 70 ---\n\n--- PDF PAGE 71 ---\n\n--- PDF PAGE 72 ---\nList of Published Training Regulations\n\n❑ Animal Production NC II\n❑ Aquaculture NC II\n❑ Automotive Body Painting/Finishing NC II\n❑ Automotive Body Repair NC II\n❑ Automotive Engine Rebuilding NC II\n❑ Automotive Servicing NC II\n❑ Bartending NC II\n❑ Beauty Care NC II\n❑ Beauty Care NC III\n❑ Building Wiring Installation NC II\n❑ Carpentry NC II\n❑ Commercial Cooking NC II\n❑ Computer Hardware Servicing NC II\n❑ Deck Seafaring NC II\n❑ Dressmaking NC II\n❑ Driving NC II\n❑ Engine Seafaring NC II\n❑ Food and Beverage Services NC II\n❑ Footwear Making NC II\n❑ Heavy Equipment Operation NC II\n❑ Horticulture NC II\n❑ Household Services NC II\n❑ Housekeeping NC II\n❑ Machining NC II\n❑ Masonry NC II\n❑ Motorcycle and Small Engine Servicing NC II\n❑ Personal Care Service (Caregiving) NC II\n❑ Plumbing NC II\n❑ Pyrotechnics NC II\n❑ RAC Servicing NC I\n❑ RAC Servicing NC II\n❑ Security Services NC II\n❑ Tailoring NC II\n❑ Tour Guiding Services NC II\n❑ Transport RAC Servicing NC II\n❑ Travel Services NC II\n❑ Welding NC II\n\nThese materials are available in both printed and electronic copies.\nFor more information please contact:\nTechnical Education and Skills Development Authority (TESDA)\nTelephone Nos.: 893-8303, 893-2139; 817-4076 to 82 loc. 615 to 617\nor visit our website: www.tesda.gov.ph",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HCS515201",
+        "HCS515202",
+        "HCS515204",
+        "HCS515205"
+      ],
+      "unit_titles": [
+        "Maintain an effective relationship with clients/customers",
+        "Manage own performance",
+        "Apply quality standards",
+        "Maintain a safe, clean and efficient environment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HCS515301",
+        "HCS515302",
+        "HCS515303",
+        "HCS515304",
+        "HCS515305",
+        "HCS515306",
+        "HCS515307",
+        "HCS515314"
+      ],
+      "unit_titles": [
+        "Perform pre and post beauty care services",
+        "Perform manicure and pedicure",
+        "Perform hand spa",
+        "Perform body massage",
+        "Perform body scrub",
+        "Perform facial treatment",
+        "Perform foot spa",
+        "Apply facial make-up"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful\ncandidates shall be awarded a National Certificate signed by the TESDA Director General.\n\n4.2 Individuals aspiring to be awarded the qualification of BEAUTY CARE NC II, MUST acquire\nCertificates of Competency in all of the following individual core units of the Qualification.\nCandidates may apply for assessment in any accredited assessment center.\n\n4.2.1 Perform pre and post beauty care activities\n4.2.2 Perform manicure and pedicure\n4.2.3 Perform hand spa\n4.2.4 Perform body massage\n4.2.5 Perform body scrub\n4.2.6 Perform facial treatment\n4.2.7 Perform foot spa\n4.2.8 Apply facial make-up\n\n4.3 Accumulation and submission of all COCs acquired for the relevant units of competency\ncomprising a qualification, an individual shall be issued the corresponding National\nCertificate.\n\n4.4 Assessment shall focus on the core units of competency. The basic and common units shall\nbe integrated or assessed concurrently with the core units.\n\n4.5 The following are qualified to apply for assessment and certification:\n\n4.5.1 Graduates of formal, non-formal and informal including enterprise-based training\nprograms\n4.5.2 Experienced workers (wage employed or self employed)\n\n4.6 The guidelines on assessment and certification are discussed in detail in the “Procedures\nManual on Assessment and Certification” and “Guidelines on the Implementation of the\nPhilippine TVET Qualification and Certification System (PTQCS)”.\n\n--- PDF PAGE 68 ---\nTR Beauty Care NC II\nPromulgated August 2005\n- 6 -\nANNEX A\nCOMPETENCY MAP\nBEAUTY CARE NC II\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nPerform pre and\npost beauty care\nservices\nPerform\nmanicure and\npedicure\nPerform body scrub\nPerform facial\ntreatment\nMaintain an\neffective\nrelationship with\nclients/customers\nManage own\nperformance\nParticipate in\nworkplace\ncommunication\nWork in a team\nenvironment\nApply quality\nstandards\nMaintain a safe,\nclean and efficient\nenvironment\nPerform hand\nspa\nPerform foot\nspa\nPractice career\nprofessionalism\nPractice occupa-\ntional health and\nsafety procedure\nPerform body\nmassage\nPerform facial\nmake-up\n\n--- PDF PAGE 69 ---\n\n--- PDF PAGE 70 ---\n\n--- PDF PAGE 71 ---\n\n--- PDF PAGE 72 ---\nList of Published Training Regulations\n\n❑ Animal Production NC II\n❑ Aquaculture NC II\n❑ Automotive Body Painting/Finishing NC II\n❑ Automotive Body Repair NC II\n❑ Automotive Engine Rebuilding NC II\n❑ Automotive Servicing NC II\n❑ Bartending NC II\n❑ Beauty Care NC II\n❑ Beauty Care NC III\n❑ Building Wiring Installation NC II\n❑ Carpentry NC II\n❑ Commercial Cooking NC II\n❑ Computer Hardware Servicing NC II\n❑ Deck Seafaring NC II\n❑ Dressmaking NC II\n❑ Driving NC II\n❑ Engine Seafaring NC II\n❑ Food and Beverage Services NC II\n❑ Footwear Making NC II\n❑ Heavy Equipment Operation NC II\n❑ Horticulture NC II\n❑ Household Services NC II\n❑ Housekeeping NC II\n❑ Machining NC II\n❑ Masonry NC II\n❑ Motorcycle and Small Engine Servicing NC II\n❑ Personal Care Service (Caregiving) NC II\n❑ Plumbing NC II\n❑ Pyrotechnics NC II\n❑ RAC Servicing NC I\n❑ RAC Servicing NC II\n❑ Security Services NC II\n❑ Tailoring NC II\n❑ Tour Guiding Services NC II\n❑ Transport RAC Servicing NC II\n❑ Travel Services NC II\n❑ Welding NC II\n\nThese materials are available in both printed and electronic copies.\nFor more information please contact:\nTechnical Education and Skills Development Authority (TESDA)\nTelephone Nos.: 893-8303, 893-2139; 817-4076 to 82 loc. 615 to 617\nor visit our website: www.tesda.gov.ph"
 }

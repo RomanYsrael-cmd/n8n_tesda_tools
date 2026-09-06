@@ -1,29 +1,186 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:beauty-care-nc-ii:2005-08",
-  "qualification": "BEAUTY CARE NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:beauty-care-nc-ii-superseded:8dff4ce441",
+  "qualification": "BEAUTY CARE NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Beauty Care NC II (Superseded).pdf",
-    "sha256": "8dff4ce4413736ea3e07195dbe2bb11eb6f8112df52aad27548a8b8697fa7cd9",
+    "authority": "TESDA",
+    "source_file": "Beauty Care NC II (Superseded).pdf",
+    "source_sha256": "8dff4ce4413736ea3e07195dbe2bb11eb6f8112df52aad27548a8b8697fa7cd9",
+    "pdf_pages": 72,
+    "printed_pages": 64,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints Promulgated August 2005; the canonical date field normalizes the month-only date to 2005-08 while source_text preserves the printed form.",
+    "The source provides explicit Basic, Common, and Core duration expressions of 20 hours, 18 hours, and 1,060 hours (6 months); it does not print a separate total-hours line, so the canonical total is the arithmetic sum of those explicit hour values.",
+    "The source lists HCS515201 and HCS515202 in Section 1, while corresponding Section 2 headers print HCS516201 and HCS516202; the canonical inventory follows Section 1 and preserves the header variants in source_text/source_unit_code.",
+    "The source labels the fourth core unit Perform hand spa in the Section 3 table even though Section 1 identifies HCS515304 as Perform body massage; the canonical inventory follows Section 1 and preserves the Section 3 wording in source_text.",
+    "The source uses inconsistent printed page/footer numbers around Sections 3 and 4; printed_pages follows the document TOC through the competency map on page 64."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated August 2005; the canonical date field normalizes the month-only date to 2005-08 while source_text preserves the printed form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source provides explicit Basic, Common, and Core duration expressions of 20 hours, 18 hours, and 1,060 hours (6 months); it does not print a separate total-hours line, so the canonical total is the arithmetic sum of those explicit hour values."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source lists HCS515201 and HCS515202 in Section 1, while corresponding Section 2 headers print HCS516201 and HCS516202; the canonical inventory follows Section 1 and preserves the header variants in source_text/source_unit_code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source labels the fourth core unit Perform hand spa in the Section 3 table even though Section 1 identifies HCS515304 as Perform body massage; the canonical inventory follows Section 1 and preserves the Section 3 wording in source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses inconsistent printed page/footer numbers around Sections 3 and 4; printed_pages follows the document TOC through the competency map on page 64."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Beauty Care NC II (Superseded).pdf",
-    "pdf_pages": 72,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "HCS515201",
+      "source_unit_code": "HCS515201",
+      "pdf_page_range": [
+        18,
+        21
+      ]
+    },
+    {
+      "unit_code": "HCS515202",
+      "source_unit_code": "HCS515202",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "HCS515204",
+      "source_unit_code": "HCS515204",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "HCS515205",
+      "source_unit_code": "HCS515205",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "HCS515301",
+      "source_unit_code": "HCS515301",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "HCS515302",
+      "source_unit_code": "HCS515302",
+      "pdf_page_range": [
+        34,
+        38
+      ]
+    },
+    {
+      "unit_code": "HCS515303",
+      "source_unit_code": "HCS515303",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "HCS515304",
+      "source_unit_code": "HCS515304",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "HCS515305",
+      "source_unit_code": "HCS515305",
+      "pdf_page_range": [
+        46,
+        48
+      ]
+    },
+    {
+      "unit_code": "HCS515306",
+      "source_unit_code": "HCS515306",
+      "pdf_page_range": [
+        49,
+        52
+      ]
+    },
+    {
+      "unit_code": "HCS515307",
+      "source_unit_code": "HCS515307",
+      "pdf_page_range": [
+        53,
+        55
+      ]
+    },
+    {
+      "unit_code": "HCS515314",
+      "source_unit_code": "HCS515314",
+      "pdf_page_range": [
+        56,
+        59
+      ]
+    }
+  ]
 }

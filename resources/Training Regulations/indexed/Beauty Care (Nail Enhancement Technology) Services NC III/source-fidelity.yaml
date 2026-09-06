@@ -1,29 +1,184 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:beauty-care-nail-enhancement-technology-services-nc-iii:428a634d30",
-  "qualification": "Beauty Care (Nail Enhancement Technology) Services NC III",
+  "qualification": "BEAUTY CARE (NAIL ENHANCEMENT TECHNOLOGY) SERVICES NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Beauty Care (Nail Enhancement Technology) Services NC III.pdf",
-    "sha256": "428a634d3091b2ec98848feb84e0e6305c6d3261834d5783b0320b7338d32e05",
+    "source_sha256": "428a634d3091b2ec98848feb84e0e6305c6d3261834d5783b0320b7338d32e05",
+    "pdf_pages": 156,
+    "printed_pages": 151,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Revision 01 and Promulgated (06/09/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source.",
+    "The source prints 184 hours as the subtotal of 40 Basic, 24 Common, and 120 Core hours, followed by 40 hours of Supervised Industry Learning (SIL) and a 224 TOTAL HOURS line; the canonical duration record preserves all printed components and total.",
+    "The Section 4 heading is printed as ASSESSSMENT AND CERTIFICATION ARRANGEMENT with a triple S; the source wording is preserved in source_text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 01 and Promulgated (06/09/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 184 hours as the subtotal of 40 Basic, 24 Common, and 120 Core hours, followed by 40 hours of Supervised Industry Learning (SIL) and a 224 TOTAL HOURS line; the canonical duration record preserves all printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 4 heading is printed as ASSESSSMENT AND CERTIFICATION ARRANGEMENT with a triple S; the source wording is preserved in source_text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Beauty Care (Nail Enhancement Technology) Services NC III.pdf",
-    "pdf_pages": 156,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        9,
+        12
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        21,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "SOC514201",
+      "source_unit_code": "SOC514201",
+      "pdf_page_range": [
+        40,
+        45
+      ]
+    },
+    {
+      "unit_code": "SOC514202",
+      "source_unit_code": "SOC514202",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "SOC514203",
+      "source_unit_code": "SOC514203",
+      "pdf_page_range": [
+        50,
+        54
+      ]
+    },
+    {
+      "unit_code": "SOC514204",
+      "source_unit_code": "SOC514204",
+      "pdf_page_range": [
+        55,
+        60
+      ]
+    },
+    {
+      "unit_code": "SOC514313",
+      "source_unit_code": "SOC514313",
+      "pdf_page_range": [
+        61,
+        72
+      ]
+    },
+    {
+      "unit_code": "SOC514314",
+      "source_unit_code": "SOC514314",
+      "pdf_page_range": [
+        73,
+        82
+      ]
+    },
+    {
+      "unit_code": "SOC514315",
+      "source_unit_code": "SOC514315",
+      "pdf_page_range": [
+        83,
+        95
+      ]
+    },
+    {
+      "unit_code": "SOC514316",
+      "source_unit_code": "SOC514316",
+      "pdf_page_range": [
+        96,
+        102
+      ]
+    }
+  ]
 }
