@@ -1,76 +1,66 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:food-and-beverage-services-nc-iv:2007-04",
-  "qualification": "Food and Beverage Services NC IV",
+  "document_id": "tesda:tr:food-and-beverage-services-nc-iv-superseded:7813c285ca",
+  "qualification": "FOOD AND BEVERAGE SERVICES NC IV (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311115",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "TRS311210",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "TRS512368",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311116",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311117",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311118",
-        "title": "analyze, interpret and organize workplace information and"
-      },
-      {
-        "unit_code": "500311119",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311120",
-        "title": "required in adhering to environmental protection"
-      },
-      {
-        "unit_code": "TRS311211",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311212",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311213",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512369",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS512363",
-        "title": "evaluation of a food safety program for a hospitality or"
-      },
-      {
-        "unit_code": "TRS512370",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP - TOURISM Sector\n(Hotels and Restaurants)\n FOOD AND BEVERAGE SERVICE NC IV\n\nANNEX A\nCollect,\nanalyze and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nUtilize\nspecialized\ncommunication\nskills\nDevelop teams\nand individuals\nApply problem-\nsolving\ntechniques in\nthe workplace\nUse\nmathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nLead small\nteams\nDevelop and\npractice\nnegotiation\nskills\nSolve\nproblems\nrelated to work\nactivities\nPractice career\nprofessionalism\nPractice\noccupational\nhealth and safety\npractices\nLead\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nWork in team\nenvironment\nRoster staff\nControl and\norder stock\nPerform\ncomputer\noperations\nPerform\nworkplace and\nsafety practices\nProvide\neffective\ncustomer\nservice\nDevelop and\nupdate\nindustry\nknowledge\nObserve\nworkplace\nhygiene\nprocedures\n\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nEstablish and\nconduct\nbusiness\nrelationships\nTrain small\ngroups\nConduct\nassessment\nManage\nworkplace\ndiversity\nManage\nfinances within\na budget\nManage\nquality\ncustomer\nservice\n\nProvide a link\nbetween\nkitchen and\nservice areas\nProvide food\nand beverage\nservice\nProvide room\nservice\nManage\nfacilities\nassociated with\ncommercial\ncatering\ncontracts\nPlan the catering\nfor an event or\nfunction\nDesign menus to\nmeet market\nneeds\nDevelop menus\nto meet special\ndietary and\ncultural needs\nSelect catering\nsystems\nDevelop and\nupdate food\nand beverage\nknowledge\nPrepare\ntenders for\ncatering\ncontracts\nDevelop a food\nsafety program\nPlan coffee\nshop layout,\nmenu and\nstorage\nProvide\nspecialist advice\non wine\nPlan and monitor\nespresso coffee\nservice\nProvide specialist\nadvice on food\nPrepare and\nserve\nespresso\ncoffee\n\nPrepare and\npresent\ngateaux, tortes\nand cakes\nPrepare foods\naccording to\ndietary and\ncultural needs\nTransport and\nstore food in a\nsafe and\nhygienic\nmanner\nPrepare and mix\ncocktails and\nnon-alcoholic\ndrinks\nProvide wine\nservice\nClean bar areas\nOperate bar\nApply catering\ncontrol\nprinciples\nPrepare bakery\nproducts for\npatissiers\nOperate a food\noutlet\n\n--- PDF PAGE 93 ---\n_________________________________________________________________________________________________91\nTR – FOOD AND BEVERAGE SERVICE NCIV Promulgated April 2007",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311115",
+        "500311116",
+        "500311117",
+        "500311118",
+        "500311119",
+        "500311120"
+      ],
+      "unit_titles": [
+        "Utilize specialized communication skills",
+        "Develop teams and individuals",
+        "Apply problem solving techniques in the workplace",
+        "Collect, analyze and organize information",
+        "Plan and organize work",
+        "Promote environmental protection"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311210",
+        "TRS311211",
+        "TRS311212",
+        "TRS311213"
+      ],
+      "unit_titles": [
+        "Conduct assessment",
+        "Manage workplace diversity",
+        "Manage finances within a budget",
+        "Manage quality customer service"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "TRS512368",
+        "TRS512369",
+        "TRS512363"
+      ],
+      "unit_titles": [
+        "Operate a food outlet",
+        "Prepare tenders for catering contracts",
+        "Develop a food safety program"
+      ]
+    },
+    {
+      "group": "elective",
+      "unit_codes": [
+        "TRS512370"
+      ],
+      "unit_titles": [
+        "Plan coffee shop layout, menu and storage (Coffee Shop)"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 FOOD AND BEVERAGE SERVICE NC IV QUALIFICATION\n\nThe Food and Beverage Service NC IV Qualification consists of\ncompetencies that a person must achieve to operate a restaurant and/or coffee\nshop, managing a team of food service and/or food preparation staff for guests in\nhotels, motels, restaurants, clubs, canteens, resorts, luxury liners and cruise ships\nwithin the company’s acceptable standards. Specifically, it includes competencies on\noperating a food outlet, preparing tenders for catering contracts, developing a food\nsafety program and planning for coffee shop operations. S/he is also able to\nimplement and/or execute plans and monitor expenses to generate the required\ngross profit margins.\n\nThis Qualification is packaged from the competency map of the Tourism\nSector (Hotels and Restaurants) as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\n .\nCODE NO.\nBASIC COMPETENCIES\n\n500311115\nUtilize specialized communication skills\n500311116\nDevelop teams and individuals\n500311117\nApply problem solving techniques in the workplace\n500311118\nCollect, analyze and organize information\n500311119\nPlan and organize work\n500311120\nPromote environmental protection\n\nCODE NO.\nCOMMON COMPETENCIES\n\n TRS311210\nConduct assessment\n TRS311211 Manage workplace diversity\n TRS311212\nManage finances within a budget\n TRS311213\nManage quality customer service\n\n--- PDF PAGE 4 ---\n_________________________________________________________________________________________________2\nTR – FOOD AND BEVERAGE SERVICE NCIV Promulgated April 2007\n\nCODE NO.\nCORE COMPETENCIES\n\nTRS512368\nOperate a food outlet\nTRS512369\nPrepare tenders for catering contracts\nTRS512363\nDevelop a food safety program\n\nCODE NO.\nELECTIVE COMPETENCIES\n\nTRS512370\nPlan coffee shop layout, menu and storage (Coffee Shop)\n\nA person who has achieved this Qualification is competent to be a/an:\n\n❑ Restaurant Manager\n❑ Outlet Manager\n❑ Restaurant Assistant Manager\n❑ Outlet Assistant Manager\n❑ Coffee Shop Manager\n\n--- PDF PAGE 5 ---\n_________________________________________________________________________________________________3\nTR – FOOD AND BEVERAGE SERVICE NCIV Promulgated April 2007"
 }

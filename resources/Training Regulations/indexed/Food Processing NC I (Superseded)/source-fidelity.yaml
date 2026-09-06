@@ -1,29 +1,163 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:food-processing-nc-i:0995234ad9",
-  "qualification": "FOOD PROCESSING NC I",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:food-processing-nc-i-superseded:0995234ad9",
+  "qualification": "FOOD PROCESSING NC I (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Food Processing NC I (Superseded).pdf",
-    "sha256": "0995234ad9f963c8e29eb0edbb0282db2cb7862def65e75bbcb3cded713c86b5",
+    "authority": "TESDA",
+    "source_file": "Food Processing NC I (Superseded).pdf",
+    "source_sha256": "0995234ad9f963c8e29eb0edbb0282db2cb7862def65e75bbcb3cded713c86b5",
+    "pdf_pages": 95,
+    "printed_pages": 93,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is classified as superseded and does not print a promulgation date; the canonical promulgated field remains null.",
+    "The source prints 28 Basic, 88 Common, and 364 Core hours with a 480-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source uses the historical two-column Element/Performance Criteria layout and preserves the source unit titles, terminology, and page-preserved text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is classified as superseded and does not print a promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 28 Basic, 88 Common, and 364 Core hours with a 480-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria layout and preserves the source unit titles, terminology, and page-preserved text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Food Processing NC I (Superseded).pdf",
-    "pdf_pages": 95,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311101",
+      "source_unit_code": "500311101",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311102",
+      "source_unit_code": "500311102",
+      "pdf_page_range": [
+        8,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311103",
+      "source_unit_code": "500311103",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311104",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "AGR741201",
+      "source_unit_code": "AGR741201",
+      "pdf_page_range": [
+        19,
+        22
+      ]
+    },
+    {
+      "unit_code": "AGR741202",
+      "source_unit_code": "AGR741202",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "AGR741203",
+      "source_unit_code": "AGR741203",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "AGR741207",
+      "source_unit_code": "AGR741207",
+      "pdf_page_range": [
+        30,
+        34
+      ]
+    },
+    {
+      "unit_code": "AGR741305",
+      "source_unit_code": "AGR741305",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "AGR741306",
+      "source_unit_code": "AGR741306",
+      "pdf_page_range": [
+        40,
+        46
+      ]
+    },
+    {
+      "unit_code": "AGR741307",
+      "source_unit_code": "AGR741307",
+      "pdf_page_range": [
+        47,
+        52
+      ]
+    },
+    {
+      "unit_code": "AGR741308",
+      "source_unit_code": "AGR741308",
+      "pdf_page_range": [
+        53,
+        57
+      ]
+    },
+    {
+      "unit_code": "AGR741309",
+      "source_unit_code": "AGR741309",
+      "pdf_page_range": [
+        58,
+        63
+      ]
+    },
+    {
+      "unit_code": "AGR741310",
+      "source_unit_code": "AGR741310",
+      "pdf_page_range": [
+        64,
+        69
+      ]
+    },
+    {
+      "unit_code": "AGR741311",
+      "source_unit_code": "AGR741311",
+      "pdf_page_range": [
+        70,
+        75
+      ]
+    }
+  ]
 }

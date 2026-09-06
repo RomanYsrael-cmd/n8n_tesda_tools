@@ -1,29 +1,163 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:food-processing-nc-ii:2015-06-16",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:food-processing-nc-ii:20749ccbe5",
   "qualification": "FOOD PROCESSING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Food Processing NC II.pdf",
-    "sha256": "20749ccbe577d8303597ed5f7646bc4a1d6056c74ac2e7bfe9129a192c5d6cc5",
+    "source_sha256": "20749ccbe577d8303597ed5f7646bc4a1d6056c74ac2e7bfe9129a192c5d6cc5",
+    "pdf_pages": 200,
+    "printed_pages": 194,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked AMENDED and prints PROMULGATED June 16, 2015; the canonical date field preserves the full date literal.",
+    "The source prints 18 Basic, 14 Common, and 520 Core hours with a 552-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and retains the amended source terminology and page-preserved text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked AMENDED and prints PROMULGATED June 16, 2015; the canonical date field preserves the full date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 14 Common, and 520 Core hours with a 552-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and retains the amended source terminology and page-preserved text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Food Processing NC II.pdf",
-    "pdf_pages": 200,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        7,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        19,
+        23
+      ]
+    },
+    {
+      "unit_code": "PFB751210",
+      "source_unit_code": "PFB751210",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "PFB751211",
+      "source_unit_code": "PFB751211",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "PFB751212",
+      "source_unit_code": "PFB751212",
+      "pdf_page_range": [
+        31,
+        36
+      ]
+    },
+    {
+      "unit_code": "PFB751213",
+      "source_unit_code": "PFB751213",
+      "pdf_page_range": [
+        37,
+        40
+      ]
+    },
+    {
+      "unit_code": "PFB751214",
+      "source_unit_code": "PFB751214",
+      "pdf_page_range": [
+        41,
+        46
+      ]
+    },
+    {
+      "unit_code": "PFB751215",
+      "source_unit_code": "PFB751215",
+      "pdf_page_range": [
+        47,
+        51
+      ]
+    },
+    {
+      "unit_code": "PFB751330",
+      "source_unit_code": "PFB751330",
+      "pdf_page_range": [
+        52,
+        66
+      ]
+    },
+    {
+      "unit_code": "PFB751331",
+      "source_unit_code": "PFB751331",
+      "pdf_page_range": [
+        67,
+        71
+      ]
+    },
+    {
+      "unit_code": "PFB751332",
+      "source_unit_code": "PFB751332",
+      "pdf_page_range": [
+        72,
+        87
+      ]
+    },
+    {
+      "unit_code": "PFB751333",
+      "source_unit_code": "PFB751333",
+      "pdf_page_range": [
+        88,
+        102
+      ]
+    },
+    {
+      "unit_code": "PFB751334",
+      "source_unit_code": "PFB751334",
+      "pdf_page_range": [
+        103,
+        120
+      ]
+    }
+  ]
 }

@@ -1,51 +1,1910 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:food-processing-nc-ii:79d040c791",
-  "qualification": "FOOD PROCESSING NC II",
+  "document_id": "tesda:tr:food-processing-nc-ii-superseded:79d040c791",
+  "qualification": "FOOD PROCESSING NC II (SUPERSEDED)",
   "content_status": "complete",
   "source": {
-    "source_file": "Superseded/Food Processing NC II (Superseded).pdf",
-    "pdf_pages": 93
+    "authority": "TESDA",
+    "source_file": "Food Processing NC II (Superseded).pdf",
+    "pdf_pages": 93,
+    "printed_pages": 91,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Nominal Training Duration",
+        "hours": 568,
+        "source_expression": "568 hrs. - Nominal Training Duration"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 568,
+    "total_source_expression": "568 hrs.",
+    "source_expressions": [
+      "568 hrs. - Nominal Training Duration"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 568,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meeting and discussion",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team member",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Evaluate hazard and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Plant tour"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Maintain occupational health and safety awareness",
+        "learning_activities": [],
+        "methodology": [
+          "Symposium"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 73
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Wear personal protective equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Observe personal hygiene and good grooming",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self- paced learning",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Implement food sanitation practices",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Render safety measures and first aid procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741201",
+        "unit_title": "Apply food safety and sanitation",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Implement housekeeping activities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741202",
+        "unit_title": "Use standard measuring devices and instruments",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify standard measuring devices and instruments",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training",
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741202",
+        "unit_title": "Use standard measuring devices and instruments",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Review the procedures in using standard measuring devices and instruments",
+        "learning_activities": [],
+        "methodology": [
+          "paced Learning",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "of practical skills",
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741202",
+        "unit_title": "Use standard measuring devices and instruments",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Follow procedures of using measuring devices and instruments",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training",
+          "Individual Self-"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741203",
+        "unit_title": "Use food processing tools, equipment and utensils",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Perform Pre-Operation Activities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741203",
+        "unit_title": "Use food processing tools, equipment and utensils",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Operate, monitor and maintain Food processing Equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Individual Self- paced Learning",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration of practical skills",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741203",
+        "unit_title": "Use food processing tools, equipment and utensils",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Perform post operation activities",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Dual training"
+        ],
+        "assessment_approach": [
+          "observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Gather, summarize and tabulate the recorded data",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Review the various formulations",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "exercise",
+          "Direct"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Calculate production input and output",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741204",
+        "unit_title": "Perform mathematical computations",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Compute production cost",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Written examination",
+          "Practical"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Perform pre-work activities in relation to GMP",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Identify requirements of",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Observe personal hygiene and conduct to meet GMP requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Follow GMP requirements when carrying out work activities",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.5",
+        "learning_outcome": "Perform post-work activities in relation to GMP",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "common",
+        "unit_code": "AGR741205",
+        "unit_title": "Implement good manufacturing practice and procedures",
+        "learning_outcome_number": "5.6",
+        "learning_outcome": "Complete workplace documentation to support GMP",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual",
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Written/Oral examination",
+          "Demonstration of"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Identify and prepare the different equipment, apparatus, tools and utensils for salting, curing and smoking",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Perform proper cleaning",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Perform proper cleaning",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Check and calibrate the different equipment,",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Identify raw materials needed for salting, curing and smoking",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.6",
+        "learning_outcome": "Sort and grade fish/other marine products, meat and eggs for salting, curing and smoking",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.7",
+        "learning_outcome": "Clean, wash and weigh raw materials in preparation for salting, curing and smoking",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.8",
+        "learning_outcome": "Measure and weigh the required raw materials ingredients adjuncts for salting, curing and smoking",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.9",
+        "learning_outcome": "Measure and weigh the required ingredients for pumping pickles, cover pickles and dry cure according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.10",
+        "learning_outcome": "Mix curing ingredients and prepared materials",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.11",
+        "learning_outcome": "Follow processing step/techniques in salting, curing and smoking",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.12",
+        "learning_outcome": "Produce quality salted, cured and smoked products",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741301",
+        "unit_title": "Process foods by salting, curing and smoking",
+        "learning_outcome_number": "1.13",
+        "learning_outcome": "Produce quality sugar concentrated products",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify and prepare the different equipment, tools and utensil for process foods by fermentation and pickling",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Perform proper cleaning",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Perform proper clearing",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Check and calibrate the different equipment tools, utensils for the process",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Identify the raw materials and other ingredients needed in the fermentation of food products",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.6",
+        "learning_outcome": "Sort and grade fresh fruits and vegetables/fish and marine products according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.7",
+        "learning_outcome": "Wash, peel and slice fruits and vegetables according to specified sizes",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.8",
+        "learning_outcome": "Prepare appropriate pick solutions according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.9",
+        "learning_outcome": "Mix prepared fruit and vegetables according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.10",
+        "learning_outcome": "Extract juice needed for fermentation",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.11",
+        "learning_outcome": "Mix juice extract with appropriate amounts of ingredients for alcoholic fermentation according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.12",
+        "learning_outcome": "Mix alcoholic solution with appropriate amounts of matter vinegar for acetones fermentation according specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.13",
+        "learning_outcome": "Weigh eviscerated/ wash and drain fresh fish other marine products",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.14",
+        "learning_outcome": "Mix fish and other marine products with salt according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.15",
+        "learning_outcome": "Follow the processing steps /procedures for pickling /fermenting food products",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741302",
+        "unit_title": "Process foods by fermentation and pickling",
+        "learning_outcome_number": "2.16",
+        "learning_outcome": "Produce quality pickled/fermented fruits and vegetables, fish and",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning",
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify and prepare the different equipment apparatus, tools and utensils for preserving foods by sugar concentration",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Perform proper cleaning",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Perform proper cleaning and sanitation of work area",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Check and calibrate the different equipment, apparatus, tools and utensils for the process",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.5",
+        "learning_outcome": "Identify the raw materials and others ingredients needed for preserving fruits & vegetables by sugar concentration",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.6",
+        "learning_outcome": "Sort and grade fruits & vegetables according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.7",
+        "learning_outcome": "Clean, wash and weigh the raw materials in preparation for preserving by sugar concentration",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.8",
+        "learning_outcome": "Slice/ cut fruits and vegetables according to specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.9",
+        "learning_outcome": "Pre-treat slice /cut materials according to specification",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.10",
+        "learning_outcome": "Measure and wash",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.11",
+        "learning_outcome": "Mix prepared materials and ingredients according to standards",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.12",
+        "learning_outcome": "Fallow processing steps/ procedures in preserving fruits and vegetables by sugar concentration",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741303",
+        "unit_title": "Process foods by sugar concentration",
+        "learning_outcome_number": "3.13",
+        "learning_outcome": "Produce quality sugar concentrated products",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Prepare Packaging Equipment, Tools and Materials",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Select and check packaging materials according to the finished/processed food products specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Wash and/or sterilize packaging materials of varying sizes in accordance with manufacturer’s specification",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Select appropriate tools and equipment according to specified packaging requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.5",
+        "learning_outcome": "Check packaging equipment according to manufacturer’s specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.6",
+        "learning_outcome": "Undertake packaging of finished processed, salted/cured/ smoked meat, fish and other marine products, fermented/pickled fruits & vegetables and fish and",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.7",
+        "learning_outcome": "Perform Post Packaging Procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.8",
+        "learning_outcome": "Package finished/ processed food products are sealed and labeled according to",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.9",
+        "learning_outcome": "Check Condition of packaged finished/processed food products to ensure conformity with specified",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 80
+      },
+      {
+        "group": "core",
+        "unit_code": "AGR741304",
+        "unit_title": "Package finished/processed food products",
+        "learning_outcome_number": "4.10",
+        "learning_outcome": "Store packaged finished/processed food products are according to required temperature and humidity",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration",
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 80
+      }
+    ],
     "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Food Processing NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: FOOD PROCESSING\n\n NC Level: NC II\n\nCourse Description: 568 Hours\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes Food Processing NCll in accordance with industry standards. It covers the\nbasic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work\nrelated documents\n1.3 Participate in workplace\nmeeting and discussion\n•\nGroup\ndiscussion\n•\nInteraction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n•\nDiscussion\n•\nInteraction\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n3. Practice career\nprofessionalism\n\n3.1 Integrate personal\nobjectives with\norganizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional\ngrowth and development\n•\nDiscussion\n•\nInteraction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\nprocedures\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n•\nDiscussion\n•\nPlant tour\n•\nSymposium\n•\nObservation\n•\nInterview\n\n--- PDF PAGE 74 ---\n__________________________________________________\nTR- Food Processing NC II\n72\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Food\nSafety and\nSanitation\n\n1.1 Wear personal protective\nequipment\n1.2 Observe personal\nhygiene and good\ngrooming\n1.3 Implement food\nsanitation practices\n1.4 Render safety measures\nand first aid procedures\n1.5 Implement housekeeping\nactivities\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n2. Use Standard\nMeasuring\nDevices/Instrum\nents\n\n2.1 Identify standard\nmeasuring devices and\ninstruments\n2.2 Review the procedures in\nusing standard measuring\ndevices and instruments\n2.3 Follow procedures of\nusing measuring devices\nand instruments\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n3. Use Food\nProcessing\nTools,\nEquipment and\nUtensils\n\n3.1 Perform Pre-Operation\nActivities\n3.2 Operate, monitor and\nmaintain Food processing\nEquipment\n3.3 Perform post operation\nactivities\n\n•\nDemonstration\n•\nDual training\n•\nIndividual Self-\npaced Learning\n•\nLecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n4. Perform\nMathematical\nComputations\n4.1 Gather, summarize and\ntabulate the recorded\ndata\n4.2 Review the various\nformulations\n4.3 Calculate production\ninput and output\n4.4 Compute production\ncost\n•\nLecture\n•\nPractical\nexercise\n\n•\nWritten\nexamination\n•\nPractical\nexercise\n•\nDirect\nObservation\n5. Implement Good\nManufacturing\nPractice\n5.1 Perform pre-work\nactivities in relation to\nGMP\n5.2 Identify requirements of\n• Audio Visual\n• Lecture/\nDiscussion\n• Written/Oral\nexamination\n• Demonstration of\n\n--- PDF PAGE 75 ---\n__________________________________________________\nTR- Food Processing NC II\n73\nGMP related to own work\n5.3 Observe personal\nhygiene and conduct to\nmeet GMP requirements\n5.4 Follow GMP\nrequirements when\ncarrying out work\nactivities\n5.5 Perform post-work\nactivities in relation to\nGMP\n5.6 Complete workplace\ndocumentation to support\nGMP\n\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\npractical skills\n• Direct\nobservation\n• Interview\n6. Implement\nEnvironmental\nPolicies and\nProcedures\n6.1 Access and apply\nworkplace information\non environmental\npolicies and procedures\nrelating to own work\n6.2 Follow work procedures\n6.3 Identify, control and\nreport unacceptable\nperformance\n6.4 Maintain housekeeping\nstandards in work area\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Process food by\nsalting curing and\nsmoking\n1.1 Identify and prepare the\ndifferent equipment,\napparatus, tools and\nutensils for salting, curing\nand smoking.\n1.2 Perform proper cleaning\noperation and sanitation of\nthe different equipment,\napparatus, tools, and\nutensils\n1.3 Perform proper cleaning\noperation and sanitation\nof the work area\n1.4 Check and calibrate the\ndifferent equipment,\n•\nLecturette\n•\nDiscussion\n•\nDemonstration\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n\n--- PDF PAGE 76 ---\n__________________________________________________\nTR- Food Processing NC II\n74\napparatus, tools, utensils\nfor the process.\n1.5 Identify raw materials\nneeded for salting, curing\nand smoking.\n1.6 Sort and grade fish/other\nmarine products, meat\nand eggs for salting,\ncuring and smoking.\n1.7 Clean, wash and weigh\nraw materials in\npreparation for salting,\ncuring and smoking.\n1.8 Measure and weigh the\nrequired raw materials\ningredients adjuncts for\nsalting, curing and\nsmoking.\n1.9 Measure and weigh the\nrequired ingredients for\npumping pickles, cover\npickles and dry cure\naccording to\nspecifications.\n1.10 Mix curing ingredients\nand prepared materials.\n1.11 Follow processing\nstep/techniques in salting,\ncuring and smoking.\n1.12 Produce quality salted,\ncured and smoked\nproducts.\n1.13 Produce quality sugar\nconcentrated products.\n\n--- PDF PAGE 77 ---\n__________________________________________________\nTR- Food Processing NC II\n75\n2. Process food by\nfermentation and\npickling\n\n2.1 Identify and prepare the\ndifferent equipment, tools\nand utensil for process\nfoods by fermentation and\npickling.\n2.2 Perform proper cleaning\noperation and sanitation\nof the different equipment,\nutensils for the process.\n2.3 Perform proper clearing\noperation and sanitation\nof work area\n2.4 Check and calibrate the\ndifferent equipment tools,\nutensils for the process\n2.5 Identify the raw materials\nand other ingredients\nneeded in the\nfermentation of food\nproducts.\n2.6 Sort and grade fresh fruits\nand vegetables/fish and\nmarine products\naccording to\nspecifications.\n 2.7 Wash, peel and slice fruits\nand vegetables according\nto specified sizes\n2.8 Prepare appropriate pick\nsolutions according to\nspecifications\n2.9 Mix prepared fruit and\nvegetables according to\nspecifications.\n2.10 Extract juice needed for\nfermentation.\n2.11 Mix juice extract with\nappropriate amounts of\ningredients for alcoholic\nfermentation according\nto specifications.\n2.12 Mix alcoholic solution with\nappropriate amounts of\nmatter vinegar for\nacetones fermentation\naccording specifications.\n2.13 Weigh eviscerated/ wash\nand drain fresh fish other\nmarine products .\n•\nDemonstration\n•\nDiscussion\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 78 ---\n__________________________________________________\nTR- Food Processing NC II\n76\n2.14 Mix fish and other marine\nproducts with salt\naccording to\nspecifications.\n2.15 Follow the processing\nsteps /procedures for\npickling /fermenting food\nproducts\n2.16. Produce quality\npickled/fermented fruits\nand vegetables, fish and\nother marine products.\n 3. Process food by\nSugar\nConcentration\n3.1 Identify and prepare the\ndifferent equipment\napparatus, tools and\nutensils for preserving\nfoods by sugar\nconcentration\n3.2 Perform proper cleaning\noperation sanitation of the\ndifferent tools, equipment,\napparatus and utensils for\nthe process.\n3.3 Perform proper cleaning\nand sanitation of work\narea.\n3.4 Check and calibrate the\ndifferent equipment,\napparatus, tools and\nutensils for the process\n 3.5 Identify the raw materials\nand others ingredients\nneeded for preserving fruits\n& vegetables by sugar\nconcentration\n3.6 Sort and grade\n fruits & vegetables\n according to specifications\n 3.7 Clean, wash and weigh the\nraw materials in\npreparation for preserving\nby sugar concentration\n3.8 Slice/ cut fruits and\nvegetables according to\nspecifications\n3.9 Pre-treat slice /cut\nmaterials according to\nspecification\n3.10 Measure and wash\n•\nDiscussion\n•\nDemonstration\n\n•\nInterview\n•\nDemonstration\n\n--- PDF PAGE 79 ---\n__________________________________________________\nTR- Food Processing NC II\n77\nrequired ingredients\n3.11 Mix prepared materials\nand ingredients according\nto standards\n3.12 Fallow processing steps/\nprocedures in preserving\nfruits and vegetables by\nsugar concentration\n3.13 Produce quality sugar\nconcentrated products\n\n4. Package\nFinished/\n Processed\n Food Products\n4.1 Prepare Packaging\nEquipment, Tools and\nMaterials\n4.2 Select and check\npackaging materials\naccording to the\nfinished/processed food\nproducts specifications\n4.3 Wash and/or sterilize\npackaging materials of\nvarying sizes in\naccordance with\nmanufacturer’s\nspecification\n4.4 Select appropriate\ntools and equipment\naccording to specified\npackaging requirements\n4.5 Check packaging\nequipment according to\nmanufacturer’s\nspecifications\n4.6 Undertake packaging of\nfinished processed,\nsalted/cured/ smoked\nmeat, fish and other\nmarine products,\nfermented/pickled fruits &\nvegetables and fish and\nother marine products\nand sugar concentrated\nfruits and vegetables\n4.7 Perform Post Packaging\nProcedures\n4.8 Package finished/\nprocessed food products\nare sealed and labeled\naccording to\n•\nDiscussion\n•\nDemonstration\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 80 ---\n__________________________________________________\nTR- Food Processing NC II\n78\nspecifications.\n4.9 Check Condition of\npackaged\nfinished/processed food\nproducts to ensure\nconformity with specified\noutputs.\n4.10 Store packaged\nfinished/processed food\nproducts are according to\nrequired temperature and\nhumidity.\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-\nbased TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n--- PDF PAGE 81 ---\n__________________________________________________\nTR- Food Processing NC II\n79\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\n• Weighing\nscales (10 kg.\ncapacity)\n1\n• Smoke house\nA. Food supplies\n5\n• Dietetic scales\n(1 kg. capacity)\n1\n• Chiller\n5 doz • Fresh eggs\n15\n• Pairing knives\n1\n• Refrigerator\n10\nkgs\n• Fresh meat\n10\n• Peelers\n1\n• Freezer\n10\npcs.\n• Dressed poultry\n5\n• Measuring\nspoons, sets\n5\n• Stoves\n20\nkgs.\n• Fresh fish\n(medium size)\n\n--- PDF PAGE 82 ---\n__________________________________________________\nTR- Food Processing NC II\n80\n5\n• Measuring\ncups (solid)\n1\n• Jack lift\n20\nkgs.\n• Fresh fish\n(small)\n5\n• Measuring\ncups (liquid)\n1\n• Trolley\n10\nkgs.\n• Fresh fruits\n2\n• Clocks/timer\n1\n• Wheeler\n10\nkgs.\n• Fresh\nvegetables\n15\n• Mixing bowls,\nstainless steel\n1\n• Poly/temperatu\nre sealer\n1 set\n• Curing\ningredients for\nham (good for\n10 kgs.)\n10\n• Hard plastic\nchopping\nboards\n1\n• Cap sealer\n1 set\n• Curing\ningredients for\ntocino/longanis\na (good for 10\nkgs.)\n5\n• Dial\nthermometers\n1\n• Pressure canner\n3 kg\n• Salt\n(Pangasinan)\n5\n• Osterizer\n1\n• Pressure cooker\n1\nsack\n• Refined sugar\n5\n• Jar liter\n1\n• Cap seal\n3 gal\n• Vinegar\n1\n• Food\nprocessor, set\n1\n• Oven\n2 gal\n• All spice\npickling solution\n5\n• Wire baskets\n2\n• Steam-jacketed\nkettle\n1 kg\n• Citric acid\n15\n• Casseroles\nstainless steel\n5\n• Smoking trays\n1 kg\n• Sodium\nbenzoate\n10\n• Saucepan,\nstainless steel\n1\n• Meat grinder\n1 kg\n• Firming agent\n15\n• Spoons,\nwooden\n1\n• Stuffer/linker\n2 gal\n• Pineapple juice\n(unsweetened)\n10\n• Spoon, basting 1\n• Silent cutter\n1 can • Active dry yeast\n4\n• Paddles,\nwooden\n2\n• Brix\nrefractometers\n(0-20o brix)\n1 gal\n• Mother vinegar\n10\n• Food tongs\n1\n• Salinometer\nB. Non food\n2\n• Steamer\n2\n• Electronic\nscales (0.1 gm\ncapacity)\n2\npack\ns\n• PE plastic\npackaging\nmaterials\n5\n• Soaking\ncontainer\n1\n• Consistometer/vi\nscosimeter\n3\nboxe\ns\n• 8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\n• Fermented\ncontainers\n1\n• Vacuum pack\nmachine\n3\nboxe\n• Catsup bottles\nw/ plastic caps\n\n--- PDF PAGE 83 ---\n__________________________________________________\nTR- Food Processing NC II\n81\ns\n20\n• Utility trays\n1\n• Laboratory\nscale cabinet\ndrier or forced\ndraft oven\n2\npack\ns\n• Cap seals\n15\n• Colanders,\nstainless steel\n1\n• Headspace\ngauge\n2\ngals\n• Disinfectant/san\nitizers\n\n• TRAINING\nMATERIALS\n5\n• Bar\nsoap/detergent\n\n• books/reference\n1 btl.\n• Glue\n\n• manual\n1\npack\n• Tags/labels\n\n• videos\n10\n• Corrugate\ncartons\n\n10\nbundl\nes\n• Firewood for\nsmoked house\n\n3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC II\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\n\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 84 ---\n__________________________________________________\nTR- Food Processing NC II\n82\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nFOOD PROCESSING NC II\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 85 ---\n__________________________________________________\nTR- Food Processing NC II\n83"
   },
   "subsections": {
+    "curriculum_design": {
+      "present": true,
+      "pdf_pages": [
+        73
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Food Processing NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: FOOD PROCESSING\n\n NC Level: NC II\n\nCourse Description: 568 Hours\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes Food Processing NCll in accordance with industry standards. It covers the\nbasic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work\nrelated documents\n1.3 Participate in workplace\nmeeting and discussion\n•\nGroup\ndiscussion\n•\nInteraction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n•\nDiscussion\n•\nInteraction\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n3. Practice career\nprofessionalism\n\n3.1 Integrate personal\nobjectives with\norganizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional\ngrowth and development\n•\nDiscussion\n•\nInteraction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\nprocedures\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n•\nDiscussion\n•\nPlant tour\n•\nSymposium\n•\nObservation\n•\nInterview\n\n--- PDF PAGE 74 ---\n__________________________________________________\nTR- Food Processing NC II\n72\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Food\nSafety and\nSanitation\n\n1.1 Wear personal protective\nequipment\n1.2 Observe personal\nhygiene and good\ngrooming\n1.3 Implement food\nsanitation practices\n1.4 Render safety measures\nand first aid procedures\n1.5 Implement housekeeping\nactivities\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n2. Use Standard\nMeasuring\nDevices/Instrum\nents\n\n2.1 Identify standard\nmeasuring devices and\ninstruments\n2.2 Review the procedures in\nusing standard measuring\ndevices and instruments\n2.3 Follow procedures of\nusing measuring devices\nand instruments\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n3. Use Food\nProcessing\nTools,\nEquipment and\nUtensils\n\n3.1 Perform Pre-Operation\nActivities\n3.2 Operate, monitor and\nmaintain Food processing\nEquipment\n3.3 Perform post operation\nactivities\n\n•\nDemonstration\n•\nDual training\n•\nIndividual Self-\npaced Learning\n•\nLecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n4. Perform\nMathematical\nComputations\n4.1 Gather, summarize and\ntabulate the recorded\ndata\n4.2 Review the various\nformulations\n4.3 Calculate production\ninput and output\n4.4 Compute production\ncost\n•\nLecture\n•\nPractical\nexercise\n\n•\nWritten\nexamination\n•\nPractical\nexercise\n•\nDirect\nObservation\n5. Implement Good\nManufacturing\nPractice\n5.1 Perform pre-work\nactivities in relation to\nGMP\n5.2 Identify requirements of\n• Audio Visual\n• Lecture/\nDiscussion\n• Written/Oral\nexamination\n• Demonstration of\n\n--- PDF PAGE 75 ---\n__________________________________________________\nTR- Food Processing NC II\n73\nGMP related to own work\n5.3 Observe personal\nhygiene and conduct to\nmeet GMP requirements\n5.4 Follow GMP\nrequirements when\ncarrying out work\nactivities\n5.5 Perform post-work\nactivities in relation to\nGMP\n5.6 Complete workplace\ndocumentation to support\nGMP\n\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\npractical skills\n• Direct\nobservation\n• Interview\n6. Implement\nEnvironmental\nPolicies and\nProcedures\n6.1 Access and apply\nworkplace information\non environmental\npolicies and procedures\nrelating to own work\n6.2 Follow work procedures\n6.3 Identify, control and\nreport unacceptable\nperformance\n6.4 Maintain housekeeping\nstandards in work area\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Process food by\nsalting curing and\nsmoking\n1.1 Identify and prepare the\ndifferent equipment,\napparatus, tools and\nutensils for salting, curing\nand smoking.\n1.2 Perform proper cleaning\noperation and sanitation of\nthe different equipment,\napparatus, tools, and\nutensils\n1.3 Perform proper cleaning\noperation and sanitation\nof the work area\n1.4 Check and calibrate the\ndifferent equipment,\n•\nLecturette\n•\nDiscussion\n•\nDemonstration\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n\n--- PDF PAGE 76 ---\n__________________________________________________\nTR- Food Processing NC II\n74\napparatus, tools, utensils\nfor the process.\n1.5 Identify raw materials\nneeded for salting, curing\nand smoking.\n1.6 Sort and grade fish/other\nmarine products, meat\nand eggs for salting,\ncuring and smoking.\n1.7 Clean, wash and weigh\nraw materials in\npreparation for salting,\ncuring and smoking.\n1.8 Measure and weigh the\nrequired raw materials\ningredients adjuncts for\nsalting, curing and\nsmoking.\n1.9 Measure and weigh the\nrequired ingredients for\npumping pickles, cover\npickles and dry cure\naccording to\nspecifications.\n1.10 Mix curing ingredients\nand prepared materials.\n1.11 Follow processing\nstep/techniques in salting,\ncuring and smoking.\n1.12 Produce quality salted,\ncured and smoked\nproducts.\n1.13 Produce quality sugar\nconcentrated products.\n\n--- PDF PAGE 77 ---\n__________________________________________________\nTR- Food Processing NC II\n75\n2. Process food by\nfermentation and\npickling\n\n2.1 Identify and prepare the\ndifferent equipment, tools\nand utensil for process\nfoods by fermentation and\npickling.\n2.2 Perform proper cleaning\noperation and sanitation\nof the different equipment,\nutensils for the process.\n2.3 Perform proper clearing\noperation and sanitation\nof work area\n2.4 Check and calibrate the\ndifferent equipment tools,\nutensils for the process\n2.5 Identify the raw materials\nand other ingredients\nneeded in the\nfermentation of food\nproducts.\n2.6 Sort and grade fresh fruits\nand vegetables/fish and\nmarine products\naccording to\nspecifications.\n 2.7 Wash, peel and slice fruits\nand vegetables according\nto specified sizes\n2.8 Prepare appropriate pick\nsolutions according to\nspecifications\n2.9 Mix prepared fruit and\nvegetables according to\nspecifications.\n2.10 Extract juice needed for\nfermentation.\n2.11 Mix juice extract with\nappropriate amounts of\ningredients for alcoholic\nfermentation according\nto specifications.\n2.12 Mix alcoholic solution with\nappropriate amounts of\nmatter vinegar for\nacetones fermentation\naccording specifications.\n2.13 Weigh eviscerated/ wash\nand drain fresh fish other\nmarine products .\n•\nDemonstration\n•\nDiscussion\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 78 ---\n__________________________________________________\nTR- Food Processing NC II\n76\n2.14 Mix fish and other marine\nproducts with salt\naccording to\nspecifications.\n2.15 Follow the processing\nsteps /procedures for\npickling /fermenting food\nproducts\n2.16. Produce quality\npickled/fermented fruits\nand vegetables, fish and\nother marine products.\n 3. Process food by\nSugar\nConcentration\n3.1 Identify and prepare the\ndifferent equipment\napparatus, tools and\nutensils for preserving\nfoods by sugar\nconcentration\n3.2 Perform proper cleaning\noperation sanitation of the\ndifferent tools, equipment,\napparatus and utensils for\nthe process.\n3.3 Perform proper cleaning\nand sanitation of work\narea.\n3.4 Check and calibrate the\ndifferent equipment,\napparatus, tools and\nutensils for the process\n 3.5 Identify the raw materials\nand others ingredients\nneeded for preserving fruits\n& vegetables by sugar\nconcentration\n3.6 Sort and grade\n fruits & vegetables\n according to specifications\n 3.7 Clean, wash and weigh the\nraw materials in\npreparation for preserving\nby sugar concentration\n3.8 Slice/ cut fruits and\nvegetables according to\nspecifications\n3.9 Pre-treat slice /cut\nmaterials according to\nspecification\n3.10 Measure and wash\n•\nDiscussion\n•\nDemonstration\n\n•\nInterview\n•\nDemonstration\n\n--- PDF PAGE 79 ---\n__________________________________________________\nTR- Food Processing NC II\n77\nrequired ingredients\n3.11 Mix prepared materials\nand ingredients according\nto standards\n3.12 Fallow processing steps/\nprocedures in preserving\nfruits and vegetables by\nsugar concentration\n3.13 Produce quality sugar\nconcentrated products\n\n4. Package\nFinished/\n Processed\n Food Products\n4.1 Prepare Packaging\nEquipment, Tools and\nMaterials\n4.2 Select and check\npackaging materials\naccording to the\nfinished/processed food\nproducts specifications\n4.3 Wash and/or sterilize\npackaging materials of\nvarying sizes in\naccordance with\nmanufacturer’s\nspecification\n4.4 Select appropriate\ntools and equipment\naccording to specified\npackaging requirements\n4.5 Check packaging\nequipment according to\nmanufacturer’s\nspecifications\n4.6 Undertake packaging of\nfinished processed,\nsalted/cured/ smoked\nmeat, fish and other\nmarine products,\nfermented/pickled fruits &\nvegetables and fish and\nother marine products\nand sugar concentrated\nfruits and vegetables\n4.7 Perform Post Packaging\nProcedures\n4.8 Package finished/\nprocessed food products\nare sealed and labeled\naccording to\n•\nDiscussion\n•\nDemonstration\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 80 ---\n__________________________________________________\nTR- Food Processing NC II\n78\nspecifications.\n4.9 Check Condition of\npackaged\nfinished/processed food\nproducts to ensure\nconformity with specified\noutputs.\n4.10 Store packaged\nfinished/processed food\nproducts are according to\nrequired temperature and\nhumidity.\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-\nbased TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n--- PDF PAGE 81 ---\n__________________________________________________\nTR- Food Processing NC II\n79\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\n• Weighing\nscales (10 kg.\ncapacity)\n1\n• Smoke house\nA. Food supplies\n5\n• Dietetic scales\n(1 kg. capacity)\n1\n• Chiller\n5 doz • Fresh eggs\n15\n• Pairing knives\n1\n• Refrigerator\n10\nkgs\n• Fresh meat\n10\n• Peelers\n1\n• Freezer\n10\npcs.\n• Dressed poultry\n5\n• Measuring\nspoons, sets\n5\n• Stoves\n20\nkgs.\n• Fresh fish\n(medium size)\n\n--- PDF PAGE 82 ---\n__________________________________________________\nTR- Food Processing NC II\n80\n5\n• Measuring\ncups (solid)\n1\n• Jack lift\n20\nkgs.\n• Fresh fish\n(small)\n5\n• Measuring\ncups (liquid)\n1\n• Trolley\n10\nkgs.\n• Fresh fruits\n2\n• Clocks/timer\n1\n• Wheeler\n10\nkgs.\n• Fresh\nvegetables\n15\n• Mixing bowls,\nstainless steel\n1\n• Poly/temperatu\nre sealer\n1 set\n• Curing\ningredients for\nham (good for\n10 kgs.)\n10\n• Hard plastic\nchopping\nboards\n1\n• Cap sealer\n1 set\n• Curing\ningredients for\ntocino/longanis\na (good for 10\nkgs.)\n5\n• Dial\nthermometers\n1\n• Pressure canner\n3 kg\n• Salt\n(Pangasinan)\n5\n• Osterizer\n1\n• Pressure cooker\n1\nsack\n• Refined sugar\n5\n• Jar liter\n1\n• Cap seal\n3 gal\n• Vinegar\n1\n• Food\nprocessor, set\n1\n• Oven\n2 gal\n• All spice\npickling solution\n5\n• Wire baskets\n2\n• Steam-jacketed\nkettle\n1 kg\n• Citric acid\n15\n• Casseroles\nstainless steel\n5\n• Smoking trays\n1 kg\n• Sodium\nbenzoate\n10\n• Saucepan,\nstainless steel\n1\n• Meat grinder\n1 kg\n• Firming agent\n15\n• Spoons,\nwooden\n1\n• Stuffer/linker\n2 gal\n• Pineapple juice\n(unsweetened)\n10\n• Spoon, basting 1\n• Silent cutter\n1 can • Active dry yeast\n4\n• Paddles,\nwooden\n2\n• Brix\nrefractometers\n(0-20o brix)\n1 gal\n• Mother vinegar\n10\n• Food tongs\n1\n• Salinometer\nB. Non food\n2\n• Steamer\n2\n• Electronic\nscales (0.1 gm\ncapacity)\n2\npack\ns\n• PE plastic\npackaging\nmaterials\n5\n• Soaking\ncontainer\n1\n• Consistometer/vi\nscosimeter\n3\nboxe\ns\n• 8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\n• Fermented\ncontainers\n1\n• Vacuum pack\nmachine\n3\nboxe\n• Catsup bottles\nw/ plastic caps\n\n--- PDF PAGE 83 ---\n__________________________________________________\nTR- Food Processing NC II\n81\ns\n20\n• Utility trays\n1\n• Laboratory\nscale cabinet\ndrier or forced\ndraft oven\n2\npack\ns\n• Cap seals\n15\n• Colanders,\nstainless steel\n1\n• Headspace\ngauge\n2\ngals\n• Disinfectant/san\nitizers\n\n• TRAINING\nMATERIALS\n5\n• Bar\nsoap/detergent\n\n• books/reference\n1 btl.\n• Glue\n\n• manual\n1\npack\n• Tags/labels\n\n• videos\n10\n• Corrugate\ncartons\n\n10\nbundl\nes\n• Firewood for\nsmoked house\n\n3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC II\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\n\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 84 ---\n__________________________________________________\nTR- Food Processing NC II\n82\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nFOOD PROCESSING NC II\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 85 ---\n__________________________________________________\nTR- Food Processing NC II\n83"
+    },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-\nbased TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n--- PDF PAGE 81 ---\n__________________________________________________\nTR- Food Processing NC II\n79\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.",
-      "pdf_pages": []
+      "pdf_pages": [
+        80
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-\nbased TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n--- PDF PAGE 81 ---\n__________________________________________________\nTR- Food Processing NC II\n79\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications."
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "Trainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation",
-      "pdf_pages": []
+      "pdf_pages": [
+        81
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\n• Weighing\nscales (10 kg.\ncapacity)\n1\n• Smoke house\nA. Food supplies\n5\n• Dietetic scales\n(1 kg. capacity)\n1\n• Chiller\n5 doz • Fresh eggs\n15\n• Pairing knives\n1\n• Refrigerator\n10\nkgs\n• Fresh meat\n10\n• Peelers\n1\n• Freezer\n10\npcs.\n• Dressed poultry\n5\n• Measuring\nspoons, sets\n5\n• Stoves\n20\nkgs.\n• Fresh fish\n(medium size)\n\n--- PDF PAGE 82 ---\n__________________________________________________\nTR- Food Processing NC II\n80\n5\n• Measuring\ncups (solid)\n1\n• Jack lift\n20\nkgs.\n• Fresh fish\n(small)\n5\n• Measuring\ncups (liquid)\n1\n• Trolley\n10\nkgs.\n• Fresh fruits\n2\n• Clocks/timer\n1\n• Wheeler\n10\nkgs.\n• Fresh\nvegetables\n15\n• Mixing bowls,\nstainless steel\n1\n• Poly/temperatu\nre sealer\n1 set\n• Curing\ningredients for\nham (good for\n10 kgs.)\n10\n• Hard plastic\nchopping\nboards\n1\n• Cap sealer\n1 set\n• Curing\ningredients for\ntocino/longanis\na (good for 10\nkgs.)\n5\n• Dial\nthermometers\n1\n• Pressure canner\n3 kg\n• Salt\n(Pangasinan)\n5\n• Osterizer\n1\n• Pressure cooker\n1\nsack\n• Refined sugar\n5\n• Jar liter\n1\n• Cap seal\n3 gal\n• Vinegar\n1\n• Food\nprocessor, set\n1\n• Oven\n2 gal\n• All spice\npickling solution\n5\n• Wire baskets\n2\n• Steam-jacketed\nkettle\n1 kg\n• Citric acid\n15\n• Casseroles\nstainless steel\n5\n• Smoking trays\n1 kg\n• Sodium\nbenzoate\n10\n• Saucepan,\nstainless steel\n1\n• Meat grinder\n1 kg\n• Firming agent\n15\n• Spoons,\nwooden\n1\n• Stuffer/linker\n2 gal\n• Pineapple juice\n(unsweetened)\n10\n• Spoon, basting 1\n• Silent cutter\n1 can • Active dry yeast\n4\n• Paddles,\nwooden\n2\n• Brix\nrefractometers\n(0-20o brix)\n1 gal\n• Mother vinegar\n10\n• Food tongs\n1\n• Salinometer\nB. Non food\n2\n• Steamer\n2\n• Electronic\nscales (0.1 gm\ncapacity)\n2\npack\ns\n• PE plastic\npackaging\nmaterials\n5\n• Soaking\ncontainer\n1\n• Consistometer/vi\nscosimeter\n3\nboxe\ns\n• 8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\n• Fermented\ncontainers\n1\n• Vacuum pack\nmachine\n3\nboxe\n• Catsup bottles\nw/ plastic caps\n\n--- PDF PAGE 83 ---\n__________________________________________________\nTR- Food Processing NC II\n81\ns\n20\n• Utility trays\n1\n• Laboratory\nscale cabinet\ndrier or forced\ndraft oven\n2\npack\ns\n• Cap seals\n15\n• Colanders,\nstainless steel\n1\n• Headspace\ngauge\n2\ngals\n• Disinfectant/san\nitizers\n\n• TRAINING\nMATERIALS\n5\n• Bar\nsoap/detergent\n\n• books/reference\n1 btl.\n• Glue\n\n• manual\n1\npack\n• Tags/labels\n\n• videos\n10\n• Corrugate\ncartons\n\n10\nbundl\nes\n• Firewood for\nsmoked house",
-      "pdf_pages": []
+      "pdf_pages": [
+        74,
+        78,
+        81
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\n• Weighing\nscales (10 kg.\ncapacity)\n1\n• Smoke house\nA. Food supplies\n5\n• Dietetic scales\n(1 kg. capacity)\n1\n• Chiller\n5 doz • Fresh eggs\n15\n• Pairing knives\n1\n• Refrigerator\n10\nkgs\n• Fresh meat\n10\n• Peelers\n1\n• Freezer\n10\npcs.\n• Dressed poultry\n5\n• Measuring\nspoons, sets\n5\n• Stoves\n20\nkgs.\n• Fresh fish\n(medium size)\n\n--- PDF PAGE 82 ---\n__________________________________________________\nTR- Food Processing NC II\n80\n5\n• Measuring\ncups (solid)\n1\n• Jack lift\n20\nkgs.\n• Fresh fish\n(small)\n5\n• Measuring\ncups (liquid)\n1\n• Trolley\n10\nkgs.\n• Fresh fruits\n2\n• Clocks/timer\n1\n• Wheeler\n10\nkgs.\n• Fresh\nvegetables\n15\n• Mixing bowls,\nstainless steel\n1\n• Poly/temperatu\nre sealer\n1 set\n• Curing\ningredients for\nham (good for\n10 kgs.)\n10\n• Hard plastic\nchopping\nboards\n1\n• Cap sealer\n1 set\n• Curing\ningredients for\ntocino/longanis\na (good for 10\nkgs.)\n5\n• Dial\nthermometers\n1\n• Pressure canner\n3 kg\n• Salt\n(Pangasinan)\n5\n• Osterizer\n1\n• Pressure cooker\n1\nsack\n• Refined sugar\n5\n• Jar liter\n1\n• Cap seal\n3 gal\n• Vinegar\n1\n• Food\nprocessor, set\n1\n• Oven\n2 gal\n• All spice\npickling solution\n5\n• Wire baskets\n2\n• Steam-jacketed\nkettle\n1 kg\n• Citric acid\n15\n• Casseroles\nstainless steel\n5\n• Smoking trays\n1 kg\n• Sodium\nbenzoate\n10\n• Saucepan,\nstainless steel\n1\n• Meat grinder\n1 kg\n• Firming agent\n15\n• Spoons,\nwooden\n1\n• Stuffer/linker\n2 gal\n• Pineapple juice\n(unsweetened)\n10\n• Spoon, basting 1\n• Silent cutter\n1 can • Active dry yeast\n4\n• Paddles,\nwooden\n2\n• Brix\nrefractometers\n(0-20o brix)\n1 gal\n• Mother vinegar\n10\n• Food tongs\n1\n• Salinometer\nB. Non food\n2\n• Steamer\n2\n• Electronic\nscales (0.1 gm\ncapacity)\n2\npack\ns\n• PE plastic\npackaging\nmaterials\n5\n• Soaking\ncontainer\n1\n• Consistometer/vi\nscosimeter\n3\nboxe\ns\n• 8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\n• Fermented\ncontainers\n1\n• Vacuum pack\nmachine\n3\nboxe\n• Catsup bottles\nw/ plastic caps\n\n--- PDF PAGE 83 ---\n__________________________________________________\nTR- Food Processing NC II\n81\ns\n20\n• Utility trays\n1\n• Laboratory\nscale cabinet\ndrier or forced\ndraft oven\n2\npack\ns\n• Cap seals\n15\n• Colanders,\nstainless steel\n1\n• Headspace\ngauge\n2\ngals\n• Disinfectant/san\nitizers\n\n• TRAINING\nMATERIALS\n5\n• Bar\nsoap/detergent\n\n• books/reference\n1 btl.\n• Glue\n\n• manual\n1\npack\n• Tags/labels\n\n• videos\n10\n• Corrugate\ncartons\n\n10\nbundl\nes\n• Firewood for\nsmoked house"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "FOOD PROCESSING NC II\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\n\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 84 ---\n__________________________________________________\nTR- Food Processing NC II\n82\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nFOOD PROCESSING NC II\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        83
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC II\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\n\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 84 ---\n__________________________________________________\nTR- Food Processing NC II\n82"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        84
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nFOOD PROCESSING NC II\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 85 ---\n__________________________________________________\nTR- Food Processing NC II\n83",
-      "pdf_pages": []
+      "pdf_pages": [
+        84
+      ],
+      "source_text": "3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 85 ---\n__________________________________________________\nTR- Food Processing NC II\n83"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "568 Hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education\nand Training (TVET) providers with information and other important requirements to\nconsider when designing training programs for Food Processing NC II.\n\n3.1.\nCURRICULUM DESIGN\n\nCourse Title: FOOD PROCESSING\n\n NC Level: NC II\n\nCourse Description: 568 Hours\n\nThis course is designed to enhance the knowledge, desirable skills and\nattitudes Food Processing NCll in accordance with industry standards. It covers the\nbasic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work\nrelated documents\n1.3 Participate in workplace\nmeeting and discussion\n•\nGroup\ndiscussion\n•\nInteraction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n2. Work in a team\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n•\nDiscussion\n•\nInteraction\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n3. Practice career\nprofessionalism\n\n3.1 Integrate personal\nobjectives with\norganizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional\ngrowth and development\n•\nDiscussion\n•\nInteraction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice\noccupational\nhealth and safety\nprocedures\n4.1 Evaluate hazard and risks\n4.2 Control hazards and risks\n4.3 Maintain occupational\nhealth and safety\nawareness\n•\nDiscussion\n•\nPlant tour\n•\nSymposium\n•\nObservation\n•\nInterview\n\n--- PDF PAGE 74 ---\n__________________________________________________\nTR- Food Processing NC II\n72\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Food\nSafety and\nSanitation\n\n1.1 Wear personal protective\nequipment\n1.2 Observe personal\nhygiene and good\ngrooming\n1.3 Implement food\nsanitation practices\n1.4 Render safety measures\nand first aid procedures\n1.5 Implement housekeeping\nactivities\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced learning\n• Lecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n2. Use Standard\nMeasuring\nDevices/Instrum\nents\n\n2.1 Identify standard\nmeasuring devices and\ninstruments\n2.2 Review the procedures in\nusing standard measuring\ndevices and instruments\n2.3 Follow procedures of\nusing measuring devices\nand instruments\n\n• Demonstration\n• Dual training\n• Individual Self-\npaced Learning\n• Lecture\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n3. Use Food\nProcessing\nTools,\nEquipment and\nUtensils\n\n3.1 Perform Pre-Operation\nActivities\n3.2 Operate, monitor and\nmaintain Food processing\nEquipment\n3.3 Perform post operation\nactivities\n\n•\nDemonstration\n•\nDual training\n•\nIndividual Self-\npaced Learning\n•\nLecture\n\n• Written\nexamination\n• Demonstration\nof practical skills\n• Direct\nobservation\n• Interview\n4. Perform\nMathematical\nComputations\n4.1 Gather, summarize and\ntabulate the recorded\ndata\n4.2 Review the various\nformulations\n4.3 Calculate production\ninput and output\n4.4 Compute production\ncost\n•\nLecture\n•\nPractical\nexercise\n\n•\nWritten\nexamination\n•\nPractical\nexercise\n•\nDirect\nObservation\n5. Implement Good\nManufacturing\nPractice\n5.1 Perform pre-work\nactivities in relation to\nGMP\n5.2 Identify requirements of\n• Audio Visual\n• Lecture/\nDiscussion\n• Written/Oral\nexamination\n• Demonstration of\n\n--- PDF PAGE 75 ---\n__________________________________________________\nTR- Food Processing NC II\n73\nGMP related to own work\n5.3 Observe personal\nhygiene and conduct to\nmeet GMP requirements\n5.4 Follow GMP\nrequirements when\ncarrying out work\nactivities\n5.5 Perform post-work\nactivities in relation to\nGMP\n5.6 Complete workplace\ndocumentation to support\nGMP\n\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n\npractical skills\n• Direct\nobservation\n• Interview\n6. Implement\nEnvironmental\nPolicies and\nProcedures\n6.1 Access and apply\nworkplace information\non environmental\npolicies and procedures\nrelating to own work\n6.2 Follow work procedures\n6.3 Identify, control and\nreport unacceptable\nperformance\n6.4 Maintain housekeeping\nstandards in work area\n\n• Audio Visual\n• Lecture/\nDiscussion\n• Practical Lab\n• Demonstration\n• Individual Self-\npaced Learning\n• Written/Oral\nexamination\n• Demonstration of\npractical skills\n• Direct\nobservation\n• Interview\n\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Process food by\nsalting curing and\nsmoking\n1.1 Identify and prepare the\ndifferent equipment,\napparatus, tools and\nutensils for salting, curing\nand smoking.\n1.2 Perform proper cleaning\noperation and sanitation of\nthe different equipment,\napparatus, tools, and\nutensils\n1.3 Perform proper cleaning\noperation and sanitation\nof the work area\n1.4 Check and calibrate the\ndifferent equipment,\n•\nLecturette\n•\nDiscussion\n•\nDemonstration\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n\n--- PDF PAGE 76 ---\n__________________________________________________\nTR- Food Processing NC II\n74\napparatus, tools, utensils\nfor the process.\n1.5 Identify raw materials\nneeded for salting, curing\nand smoking.\n1.6 Sort and grade fish/other\nmarine products, meat\nand eggs for salting,\ncuring and smoking.\n1.7 Clean, wash and weigh\nraw materials in\npreparation for salting,\ncuring and smoking.\n1.8 Measure and weigh the\nrequired raw materials\ningredients adjuncts for\nsalting, curing and\nsmoking.\n1.9 Measure and weigh the\nrequired ingredients for\npumping pickles, cover\npickles and dry cure\naccording to\nspecifications.\n1.10 Mix curing ingredients\nand prepared materials.\n1.11 Follow processing\nstep/techniques in salting,\ncuring and smoking.\n1.12 Produce quality salted,\ncured and smoked\nproducts.\n1.13 Produce quality sugar\nconcentrated products.\n\n--- PDF PAGE 77 ---\n__________________________________________________\nTR- Food Processing NC II\n75\n2. Process food by\nfermentation and\npickling\n\n2.1 Identify and prepare the\ndifferent equipment, tools\nand utensil for process\nfoods by fermentation and\npickling.\n2.2 Perform proper cleaning\noperation and sanitation\nof the different equipment,\nutensils for the process.\n2.3 Perform proper clearing\noperation and sanitation\nof work area\n2.4 Check and calibrate the\ndifferent equipment tools,\nutensils for the process\n2.5 Identify the raw materials\nand other ingredients\nneeded in the\nfermentation of food\nproducts.\n2.6 Sort and grade fresh fruits\nand vegetables/fish and\nmarine products\naccording to\nspecifications.\n 2.7 Wash, peel and slice fruits\nand vegetables according\nto specified sizes\n2.8 Prepare appropriate pick\nsolutions according to\nspecifications\n2.9 Mix prepared fruit and\nvegetables according to\nspecifications.\n2.10 Extract juice needed for\nfermentation.\n2.11 Mix juice extract with\nappropriate amounts of\ningredients for alcoholic\nfermentation according\nto specifications.\n2.12 Mix alcoholic solution with\nappropriate amounts of\nmatter vinegar for\nacetones fermentation\naccording specifications.\n2.13 Weigh eviscerated/ wash\nand drain fresh fish other\nmarine products .\n•\nDemonstration\n•\nDiscussion\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 78 ---\n__________________________________________________\nTR- Food Processing NC II\n76\n2.14 Mix fish and other marine\nproducts with salt\naccording to\nspecifications.\n2.15 Follow the processing\nsteps /procedures for\npickling /fermenting food\nproducts\n2.16. Produce quality\npickled/fermented fruits\nand vegetables, fish and\nother marine products.\n 3. Process food by\nSugar\nConcentration\n3.1 Identify and prepare the\ndifferent equipment\napparatus, tools and\nutensils for preserving\nfoods by sugar\nconcentration\n3.2 Perform proper cleaning\noperation sanitation of the\ndifferent tools, equipment,\napparatus and utensils for\nthe process.\n3.3 Perform proper cleaning\nand sanitation of work\narea.\n3.4 Check and calibrate the\ndifferent equipment,\napparatus, tools and\nutensils for the process\n 3.5 Identify the raw materials\nand others ingredients\nneeded for preserving fruits\n& vegetables by sugar\nconcentration\n3.6 Sort and grade\n fruits & vegetables\n according to specifications\n 3.7 Clean, wash and weigh the\nraw materials in\npreparation for preserving\nby sugar concentration\n3.8 Slice/ cut fruits and\nvegetables according to\nspecifications\n3.9 Pre-treat slice /cut\nmaterials according to\nspecification\n3.10 Measure and wash\n•\nDiscussion\n•\nDemonstration\n\n•\nInterview\n•\nDemonstration\n\n--- PDF PAGE 79 ---\n__________________________________________________\nTR- Food Processing NC II\n77\nrequired ingredients\n3.11 Mix prepared materials\nand ingredients according\nto standards\n3.12 Fallow processing steps/\nprocedures in preserving\nfruits and vegetables by\nsugar concentration\n3.13 Produce quality sugar\nconcentrated products\n\n4. Package\nFinished/\n Processed\n Food Products\n4.1 Prepare Packaging\nEquipment, Tools and\nMaterials\n4.2 Select and check\npackaging materials\naccording to the\nfinished/processed food\nproducts specifications\n4.3 Wash and/or sterilize\npackaging materials of\nvarying sizes in\naccordance with\nmanufacturer’s\nspecification\n4.4 Select appropriate\ntools and equipment\naccording to specified\npackaging requirements\n4.5 Check packaging\nequipment according to\nmanufacturer’s\nspecifications\n4.6 Undertake packaging of\nfinished processed,\nsalted/cured/ smoked\nmeat, fish and other\nmarine products,\nfermented/pickled fruits &\nvegetables and fish and\nother marine products\nand sugar concentrated\nfruits and vegetables\n4.7 Perform Post Packaging\nProcedures\n4.8 Package finished/\nprocessed food products\nare sealed and labeled\naccording to\n•\nDiscussion\n•\nDemonstration\n\n•\nObservation\n•\nDemonstration\n•\nQuestioning\n•\nWritten Test\n\n--- PDF PAGE 80 ---\n__________________________________________________\nTR- Food Processing NC II\n78\nspecifications.\n4.9 Check Condition of\npackaged\nfinished/processed food\nproducts to ensure\nconformity with specified\noutputs.\n4.10 Store packaged\nfinished/processed food\nproducts are according to\nrequired temperature and\nhumidity.\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-\nbased TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n\n--- PDF PAGE 81 ---\n__________________________________________________\nTR- Food Processing NC II\n79\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n• Project-based instruction is an authentic instructional model or strategy in\nwhich students plan, implement and evaluate projects that have real world\napplications.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to gain entry into this course should possess\nthe following requirements:\n\n• can communicate both oral and written\n• physically and mentally fit\n• with good moral character\n• can perform basic mathematical computation\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n FOOD PROCESSING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Food Processing NC II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDescription\n5\n• Weighing\nscales (10 kg.\ncapacity)\n1\n• Smoke house\nA. Food supplies\n5\n• Dietetic scales\n(1 kg. capacity)\n1\n• Chiller\n5 doz • Fresh eggs\n15\n• Pairing knives\n1\n• Refrigerator\n10\nkgs\n• Fresh meat\n10\n• Peelers\n1\n• Freezer\n10\npcs.\n• Dressed poultry\n5\n• Measuring\nspoons, sets\n5\n• Stoves\n20\nkgs.\n• Fresh fish\n(medium size)\n\n--- PDF PAGE 82 ---\n__________________________________________________\nTR- Food Processing NC II\n80\n5\n• Measuring\ncups (solid)\n1\n• Jack lift\n20\nkgs.\n• Fresh fish\n(small)\n5\n• Measuring\ncups (liquid)\n1\n• Trolley\n10\nkgs.\n• Fresh fruits\n2\n• Clocks/timer\n1\n• Wheeler\n10\nkgs.\n• Fresh\nvegetables\n15\n• Mixing bowls,\nstainless steel\n1\n• Poly/temperatu\nre sealer\n1 set\n• Curing\ningredients for\nham (good for\n10 kgs.)\n10\n• Hard plastic\nchopping\nboards\n1\n• Cap sealer\n1 set\n• Curing\ningredients for\ntocino/longanis\na (good for 10\nkgs.)\n5\n• Dial\nthermometers\n1\n• Pressure canner\n3 kg\n• Salt\n(Pangasinan)\n5\n• Osterizer\n1\n• Pressure cooker\n1\nsack\n• Refined sugar\n5\n• Jar liter\n1\n• Cap seal\n3 gal\n• Vinegar\n1\n• Food\nprocessor, set\n1\n• Oven\n2 gal\n• All spice\npickling solution\n5\n• Wire baskets\n2\n• Steam-jacketed\nkettle\n1 kg\n• Citric acid\n15\n• Casseroles\nstainless steel\n5\n• Smoking trays\n1 kg\n• Sodium\nbenzoate\n10\n• Saucepan,\nstainless steel\n1\n• Meat grinder\n1 kg\n• Firming agent\n15\n• Spoons,\nwooden\n1\n• Stuffer/linker\n2 gal\n• Pineapple juice\n(unsweetened)\n10\n• Spoon, basting 1\n• Silent cutter\n1 can • Active dry yeast\n4\n• Paddles,\nwooden\n2\n• Brix\nrefractometers\n(0-20o brix)\n1 gal\n• Mother vinegar\n10\n• Food tongs\n1\n• Salinometer\nB. Non food\n2\n• Steamer\n2\n• Electronic\nscales (0.1 gm\ncapacity)\n2\npack\ns\n• PE plastic\npackaging\nmaterials\n5\n• Soaking\ncontainer\n1\n• Consistometer/vi\nscosimeter\n3\nboxe\ns\n• 8 oz., 12 oz.,\nround bottles w/\nPVC caps\n5\n• Fermented\ncontainers\n1\n• Vacuum pack\nmachine\n3\nboxe\n• Catsup bottles\nw/ plastic caps\n\n--- PDF PAGE 83 ---\n__________________________________________________\nTR- Food Processing NC II\n81\ns\n20\n• Utility trays\n1\n• Laboratory\nscale cabinet\ndrier or forced\ndraft oven\n2\npack\ns\n• Cap seals\n15\n• Colanders,\nstainless steel\n1\n• Headspace\ngauge\n2\ngals\n• Disinfectant/san\nitizers\n\n• TRAINING\nMATERIALS\n5\n• Bar\nsoap/detergent\n\n• books/reference\n1 btl.\n• Glue\n\n• manual\n1\npack\n• Tags/labels\n\n• videos\n10\n• Corrugate\ncartons\n\n10\nbundl\nes\n• Firewood for\nsmoked house\n\n3.5 TRAINING FACILITIES\n\nFOOD PROCESSING NC II\n\nThe food processing workshop must be of concrete structure. Based on a class\nsize of 25 students/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nA. Building (permanent)\n\nLaboratory area\n6 x10\n60\n60\nTool room & S/M storage\narea\n4 x 5\n20\n20\nLearning resource area\n5 x 6\n30\n30\nWash area/comfort room\n(male & female)\n2.5 x 4\n10\n10\nTotal\n\n120\nFacilities/Equipment/Circul\nation (30% of teaching\naccommodation)\n\n40\nB. Experimental Land\nArea\n\nn/a\nTotal workshop area\n\n160\n\nNote: Experimental area will change according to availability of land.\n\n--- PDF PAGE 84 ---\n__________________________________________________\nTR- Food Processing NC II\n82\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRI-FISHERY SECTOR\n\nFOOD PROCESSING NC II\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of Food Processing NC III or its equivalent\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by the learner who\nenrolled in a structured learning program to determine the achievement of\ncompetencies. It is administered by the trainer/assessor at end of each\nlearning module.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 85 ---\n__________________________________________________\nTR- Food Processing NC II\n83"
 }
