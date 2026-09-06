@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T22:58:22+08:00",
+  "last_updated": "2026-09-06T23:13:19+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 210,
-  "remaining_unaudited": 174,
+  "audited_count": 215,
+  "remaining_unaudited": 169,
   "blocked_count": 0,
   "documents": [
     {
@@ -2738,6 +2738,71 @@
       "validation_passed": true,
       "last_audit_commit": "78af862a62e70c056884baac35aded1a537361ef",
       "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 34 curriculum rows, 4 assessment arrangements, and 4 definition-term entries, preserved Promulgated July 2007 and the 18/18/120-hour components with 156-hour total, repaired the first core curriculum unit's printed 2.x numbering and normalized the source core order, retained the earth-moving/earthmoving and BLOWAF variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Concrete Pump) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Concrete Pump) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Concrete Pump) NC II.pdf",
+      "source_sha256": "e5bf5fb124eda31fc8f161ac8dae15d22e72a0e8d876d2ba861754cde9243364",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:13:19+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "6fcf77a50834e17180f948c39843faae996cf0ff",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 40 curriculum rows, 4 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and unreliable printed-page sequence, recorded the 18/24/80-hour components with 122-hour total, normalized the Section 3 common-unit order against the source curriculum table while retaining the Section 1 ordering discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Container Stacker) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Container Stacker) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Container Stacker) NC II.pdf",
+      "source_sha256": "86c521f5c4a82126d528b91a94bf9215ef3dc39b79caa7ab68df25381702df0b",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:13:19+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "6fcf77a50834e17180f948c39843faae996cf0ff",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 33 curriculum rows, 4 assessment arrangements, and 1 definition-term entry, preserved the absent promulgation date and unreliable printed-page sequence, recorded the 18/24/80-hour components with 122-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Crawler Crane) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Crawler Crane) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Heavy Equipment Operation (Crawler Crane) NC II (Superseded).pdf",
+      "source_sha256": "acb2850343450509637a2fedea1ff7a26b4314c4d1fa50bddc7d2e02986fe110",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:13:19+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "6fcf77a50834e17180f948c39843faae996cf0ff",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 39 curriculum rows, 4 assessment arrangements, and 2 definition-term entries, preserved the superseded lifecycle and Promulgated December 2004/July 2007, recorded the 18/18/120-hour components with 156-hour total, repaired the shifted 2.x/3.x core curriculum numbering and unit assignment, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Crawler Crane) NC III",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Crawler Crane) NC III",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Crawler Crane) NC III.pdf",
+      "source_sha256": "2a26ce30adc48a6c7b97deb7c5152679f348bb6200ab838593cd6e5f8b32e59c",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:13:19+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "6fcf77a50834e17180f948c39843faae996cf0ff",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 55 curriculum rows, 2 assessment arrangements, and 5 definition-term entries, preserved Revision 01 and Promulgated (11/07/2019), recorded the printed 40/24/160-hour components plus 40-hour Supervised Industry Learning (SIL) and printed 224-hour total with the 264-hour arithmetic mismatch, excluded two duration-table fragments from curriculum rows, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Forklift) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Forklift) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Forklift) NC II.pdf",
+      "source_sha256": "17fb6d218d4a6681c9ef4ba71d38217215a68c7932c3ae955dddb801b5625c67",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:13:19+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "6fcf77a50834e17180f948c39843faae996cf0ff",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 52 curriculum rows, 2 assessment arrangements, and 1 definition-term entry, preserved Revision 01 and Promulgated (11/07/2019) with the 37/24/120-hour components plus 40-hour Supervised Industry Learning (SIL) and 221-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
