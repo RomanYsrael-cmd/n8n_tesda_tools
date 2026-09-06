@@ -1,170 +1,33 @@
 {
-  "schema": "tesda-assessment-certification-arrangements",
+  "schema": "tesda-assessment-certification",
   "schema_version": "2.0",
   "document_id": "tesda:tr:ice-plant-refrigeration-servicing-nc-iii:ba27d4e65b",
   "qualification": "ICE PLANT REFRIGERATION SERVICING NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Ice Plant Refrigeration Servicing NC III.pdf",
-    "pdf_pages": 103
+    "pdf_pages": 103,
+    "printed_pages": 103,
+    "promulgated": null
   },
   "arrangements": [
     {
-      "number": "4",
-      "text": "1 To attain the National Qualification of ICE PLANT Refrigeration Servicing NC III, the candidate must demonstrate competence covering all the units listed in Section 1. Successful candidates shall be awarded a National Certificate signed by the TESDA Director General."
+      "number": "4.1",
+      "text": "To attain the National Qualification of ICE PLANT Refrigeration Servicing NC III, the candidate must demonstrate competence covering all the units listed in Section 1. Successful candidates shall be awarded a National Certificate signed by the TESDA Director General."
     },
     {
-      "number": "4",
-      "text": "2 Assessment shall focus on the core units of competency. The basic and common units shall be integrated or assessed concurrently with the core units."
+      "number": "4.2",
+      "text": "Assessment shall focus on the core units of competency. The basic and common units shall be integrated or assessed concurrently with the core units."
     },
     {
-      "number": "4",
-      "text": "3 The following are qualified to apply for assessment and certification:"
-    },
-    {
-      "number": "4.4",
-      "text": "1 Graduates of formal, non-formal and informal including enterprise-based training programs"
+      "number": "4.3",
+      "text": "The following are qualified to apply for assessment and certification: 4.4.1 Graduates of formal, non-formal and informal including enterprise-based training programs 4.4.2 Experienced Workers (wage employed or self-employed)"
     },
     {
       "number": "4.4",
-      "text": "2 Experienced Workers (wage employed or self-employed)"
-    },
-    {
-      "number": "4",
-      "text": "4 The guidelines on assessment and certification are discussed in detail in the \"Procedures Manual on Assessment and Certification\" and \"Guidelines on the Implementation of the Philippine TVET Qualification and Certification System (PTQCS)\". --- PDF PAGE 100 --- 99 DEFINITION OF TERMS:"
-    },
-    {
-      "number": "1",
-      "text": "Alternate Refrigerant -replacement refrigerant that can accomplish the same task as the one being replaced, but may require that refrigeration or air-conditioning equipment be redesigned or replaced"
-    },
-    {
-      "number": "2",
-      "text": "Brazed Tube -tube made from sheet or strip with a longitudinal brazed joint"
-    },
-    {
-      "number": "3",
-      "text": "Capillary Tube -small bore tube used for metering by controlling length and bore size. In refrigeration, a tube of small internal diameter used as a refrigerant pressure and flow control between high and low sides -tube used to transmit pressure from the sensitive bulb of some temperature controls to the operating element"
-    },
-    {
-      "number": "4",
-      "text": "Compression Ratio -the ratio determined by dividing the discharge pressure, in psia, by the suction pressure, psia"
-    },
-    {
-      "number": "5",
-      "text": "Crankcase -the casing or covering for the crankshaft of the reciprocating compressor"
-    },
-    {
-      "number": "6",
-      "text": "Evaporator Unit -assembly of refrigerating compressor, evaporator, and necessary accessories attached to one base"
-    },
-    {
-      "number": "7",
-      "text": "Expansion Valve -a valve designed to meter the flow of liquid refrigerant to an evaporator"
-    },
-    {
-      "number": "8",
-      "text": "Filter -a very fine strainer for removing foreign matter and dirt from the refrigerant"
-    },
-    {
-      "number": "9",
-      "text": "Gas Tungsten-Arc Welding (GTAW) -arc-welding process wherein coalescence is produced by heating with an arc between a single tungsten (non consumable) electrode and the work. Note: Shielding is obtained from a gas or gas mixture. Pressure may or may not be added"
-    },
-    {
-      "number": "10",
-      "text": "Insulation -any material intended to reduce the flow of heat"
-    },
-    {
-      "number": "11",
-      "text": "Liquid Receiver -vessel, permanently connected to a refrigerating system by inlet and outlet pipes, for storage of liquid refrigerant"
-    },
-    {
-      "number": "12",
-      "text": "Nitrogen Purge -procedure in which nitrogen gas is bled into piping as it is welded, brazed, or soldered; or after, to displace gases within the piping. The nitrogen displaces the air from inside the pipe, minimizing oxidation and resultant scale formation --- PDF PAGE 101 --- 100"
-    },
-    {
-      "number": "13",
-      "text": "Ohm’s law -direct current flowing in an electric circuit is directly proportional to the voltage applied to the circuit; it is valid for metallic circuits and many circuits containing an electrolytic resistance"
-    },
-    {
-      "number": "14",
-      "text": "Oil separator -a device for separating out oil and returning it to the compressor crankcase entrained in the discharge gas from a compressor"
-    },
-    {
-      "number": "15",
-      "text": "Pressure Gage -instrument for measuring pressure above or below atmospheric pressure"
-    },
-    {
-      "number": "16",
-      "text": "Propylene Glycol -clear, colorless liquid used to depress the freezing point of water for use as a secondary coolant in HVAC&R systems"
-    },
-    {
-      "number": "17",
-      "text": "Pull-Down Test -first operational check on a refrigerating installation to measure the time taken to pull the temperature down to the desired conditions, while also measuring the temperatures, pressures, and associated data"
-    },
-    {
-      "number": "18",
-      "text": "Pump Down -of refrigerant, withdrawal of all refrigerant from the low side of a system by pumping it to either the condenser or the liquid receiver"
-    },
-    {
-      "number": "19",
-      "text": "Qualification Test -procedure used to verify the accuracy of the measurement techniques (temperature, airflow rates, duct heat calibration) employed in determination of heating or cooling effect"
-    },
-    {
-      "number": "20",
-      "text": "Rating -assigned value of those performance characteristics (under standard rating conditions) by which a unit may be selected to fit its application Note: These values apply to all units of like (nominal) size and type (identification) produced by the same manufacturer"
-    },
-    {
-      "number": "21",
-      "text": "Refrigerating Capacity (gross) -total rate of heat removal from all sources by the evaporator of a refrigerating system at stated conditions. It is numerically equal to the system refrigerating effect"
-    },
-    {
-      "number": "22",
-      "text": "Refrigerating System Contaminants -contaminants include water (most important and universal contaminant); dirt; particles; organic materials such as waxes, acids, and sludges; or other products of chemical reactions taking place while the system is operating"
-    },
-    {
-      "number": "23",
-      "text": "Refrigeration Cycle -The complete operation involved in providing refrigeration --- PDF PAGE 102 --- 101"
-    },
-    {
-      "number": "24",
-      "text": "Repair -to restore to good or sound condition, within the following constraints: operation must be fully restored without embellishment; and failure must have occurred"
-    },
-    {
-      "number": "25",
-      "text": "Retrofit -modification of existing equipment, systems, or buildings to incorporate improved performance, updated operation, or both. Derived from retroactive refit"
-    },
-    {
-      "number": "26",
-      "text": "Risers -a vertical tube or pipe that carries refrigerant in any form from a lower to a higher level"
-    },
-    {
-      "number": "27",
-      "text": "Shielded Metal-Arc Welding (SMAW) - arc-welding process wherein coalescence is produced by heating with an electric arc between a covered metal electrode and the work Note: Shielding is obtained from decomposition of the electrode covering. Pressure is not used and filler metal is obtained from the electrode"
-    },
-    {
-      "number": "28",
-      "text": "Sludge -product of decomposition of oil resulting from impurities, moisture, or chemical reactions and favored by excessive temperature. Sludge may be mushy, gummy, or hard"
-    },
-    {
-      "number": "29",
-      "text": "Suction Lift -combination of static suction lift and friction head in suction piping when the source of liquid is below the pump centerline"
-    },
-    {
-      "number": "30",
-      "text": "Superheat -The temperature increase above saturation temperature or above boiling point"
-    },
-    {
-      "number": "31",
-      "text": "Symbol -letter, figure, other character or mark, or combination of letters used to represent a specific thing"
-    },
-    {
-      "number": "32",
-      "text": "Time Defrosting -defrosting process automatically and intermittently operated for a predetermined period"
-    },
-    {
-      "number": "33",
-      "text": "Ton (of refrigeration) -time rate of cooling equal to 12,000 Btu/h (approximately 3517 W) --- PDF PAGE 103 --- 102 The Technical Education and Skills Development Authority (TESDA) wishes to extend thanks and appreciation to the many representatives of business, industry, academe and government agencies who donated their time and expertise to the development and validation of these Training Regulations. • THE TECHNICAL ADVISORY PANEL (TAP) ENGR. ROSENDO C. PEREZ, JR. ENGR. DANILO G. DUYA TAP Chairman Vice-President President TDS Air-conditioning Industries, Inc. MECSYS Corporation #72 Kamias Road, Quezon City #2 Alondra St., Miranilla Homes Tandang Sora, Congressional Ave., QC • THE TECHNICAL EXPERT PANEL (TEP) MR. SABAS B. BERGANTINOS MR. EDUARDO M. FERNANDEZ Technical Consultant Instructor CONTREFRIGERATIONTOR (RCAC) Technological University of the Philippines (TUP) 452, 2ND St., Fortune Village 5 Ayala Boulevard, Manila Paso De Blas, Valenzuela City #07 St. Mark St. Pacita Complex, SPL MR. EDILBERTO S. MACATANGAY Owner MR. CAMILO N. GALINEA Technocycle Corporation Owner Unit E and F G & L Electrical ContREFRIGERATIONtors Km. 31 National Road #38 Katalina Subdivision Corner Summit Circle, Bayanan Rosario, Pasig City Muntinlupa City ENGR. ERIC M. PANZO ENGR. LEANDRO A. CONTI President Vice President – Sales and Marketing E.M. PANZO & ASSOCIATES Blk. 7, Lot 53 SM Homes, Novaliches, QC #2 A.M. De Leon St., Santolan, Pasig City ENGR. CESAR LUIS DL. LIM Assistant Consultant – ME (Refrigeration) San Miguel Corporation #40 San Miguel Avenue, Ortigas Mandaluyong City"
+      "text": "The guidelines on assessment and certification are discussed in detail in the \"Procedures Manual on Assessment and Certification\" and \"Guidelines on the Implementation of the Philippine TVET Qualification and Certification System (PTQCS)\". TRAINING REGULATION - ICE PLANT REFRIGERATION SERVICING NC III"
     }
   ],
-  "source_text": "SECTION 4\nNATIONAL ASSESSMENT AND CERTIFICATION\nARRANGEMENTS\n\n4.1\nTo attain the National Qualification of ICE PLANT Refrigeration\nServicing NC III, the candidate must demonstrate competence\ncovering all the units listed in Section 1. Successful candidates\nshall be awarded a National Certificate signed by the TESDA\nDirector General.\n\n4.2\nAssessment shall focus on the core units of competency. The\nbasic and common units shall be integrated or assessed\nconcurrently with the core units.\n\n4.3\nThe following are qualified to apply for assessment and\ncertification:\n\n4.4.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2 Experienced Workers (wage employed or self-employed)\n\n4.4\nThe guidelines on assessment and certification are discussed in\ndetail in the \"Procedures Manual on Assessment and Certification\"\nand \"Guidelines on the Implementation of the Philippine TVET\nQualification and Certification System (PTQCS)\".\n\n--- PDF PAGE 100 ---\nTRAINING REGULATION - ICE PLANT REFRIGERATION SERVICING NC III\n\n99\nDEFINITION OF TERMS:\n\n1. Alternate Refrigerant\n-replacement refrigerant that can accomplish the same\ntask as the one being replaced, but may require that\nrefrigeration or air-conditioning equipment be\nredesigned or replaced\n\n2. Brazed Tube\n-tube made from sheet or strip with a longitudinal\nbrazed joint\n\n3. Capillary Tube\n-small bore tube used for metering by controlling length\nand bore size. In refrigeration, a tube of small internal\ndiameter used as a refrigerant pressure and flow control\nbetween high and low sides\n-tube used to transmit pressure from the sensitive bulb\nof some temperature controls to the operating element\n\n4. Compression Ratio\n-the ratio determined by dividing the discharge\npressure, in psia, by the suction pressure, psia\n\n5. Crankcase\n\n-the casing or covering for the crankshaft of the\nreciprocating compressor\n\n6. Evaporator Unit\n\n-assembly of refrigerating compressor, evaporator, and\nnecessary accessories attached to one base\n\n7. Expansion Valve\n\n-a valve designed to meter the flow of liquid refrigerant\nto an evaporator\n\n8. Filter\n\n-a very fine strainer for removing foreign matter and dirt\nfrom the refrigerant\n\n9. Gas Tungsten-Arc Welding\n(GTAW)\n\n-arc-welding process wherein coalescence is produced\nby heating with an arc between a single tungsten (non\nconsumable) electrode and the work.\nNote: Shielding is obtained from a gas or gas mixture.\nPressure may or may not be added\n\n10. Insulation\n\n-any material intended to reduce the flow of heat\n\n11. Liquid Receiver\n\n-vessel, permanently connected to a refrigerating\nsystem by inlet and outlet pipes, for storage of liquid\nrefrigerant\n\n12. Nitrogen Purge\n-procedure in which nitrogen gas is bled into piping as it\nis welded, brazed, or soldered; or after, to displace\ngases within the piping. The nitrogen displaces the air\nfrom inside the pipe, minimizing oxidation and resultant\nscale formation\n\n--- PDF PAGE 101 ---\nTRAINING REGULATION - ICE PLANT REFRIGERATION SERVICING NC III\n\n100\n13. Ohm’s law\n\n-direct current flowing in an electric circuit is directly\nproportional to the voltage applied to the circuit; it is\nvalid for metallic circuits and many circuits containing\nan electrolytic resistance\n\n14. Oil separator\n\n-a device for separating out oil and returning it to\nthe compressor crankcase entrained in the discharge\ngas from a compressor\n\n15. Pressure Gage\n\n-instrument for measuring pressure above or below\natmospheric pressure\n\n16. Propylene Glycol\n\n-clear, colorless liquid used to depress the freezing\npoint of water for use as a secondary coolant in\nHVAC&R systems\n\n17. Pull-Down Test\n\n-first operational check on a refrigerating installation to\nmeasure the time taken to pull the temperature down to\nthe desired conditions, while also measuring the\ntemperatures, pressures, and associated data\n\n18. Pump Down\n\n-of refrigerant, withdrawal of all refrigerant from the low\nside of a system by pumping it to either the condenser\nor the liquid receiver\n\n19. Qualification Test\n\n-procedure used to verify the accuracy of the\nmeasurement techniques (temperature, airflow rates,\nduct heat calibration) employed in determination of\nheating or cooling effect\n\n20. Rating\n\n-assigned value of those performance characteristics\n(under standard rating conditions) by which a unit may\nbe selected to fit its application\nNote: These values apply to all units of like (nominal)\nsize and type (identification) produced by the same\nmanufacturer\n\n21. Refrigerating Capacity\n(gross)\n\n-total rate of heat removal from all sources by the\nevaporator of a refrigerating system at stated\nconditions. It is numerically equal to the system\nrefrigerating effect\n\n22. Refrigerating System\nContaminants\n\n-contaminants include water (most important and\nuniversal contaminant); dirt; particles; organic materials\nsuch as waxes, acids, and sludges; or other products of\nchemical reactions taking place while the system is\noperating\n\n23. Refrigeration Cycle\n\n-The complete operation involved in providing\nrefrigeration\n\n--- PDF PAGE 102 ---\nTRAINING REGULATION - ICE PLANT REFRIGERATION SERVICING NC III\n\n101\n\n24. Repair\n\n-to restore to good or sound condition, within the\nfollowing constraints: operation must be fully restored\nwithout embellishment; and failure must have occurred\n\n25. Retrofit\n\n-modification of existing equipment, systems, or\nbuildings to incorporate improved performance, updated\noperation, or both. Derived from retroactive refit\n\n26. Risers\n\n-a vertical tube or pipe that carries refrigerant in any\nform from a lower to a higher level\n\n27. Shielded Metal-Arc\nWelding (SMAW)\n\n- arc-welding process wherein coalescence\nis produced by heating with an electric arc between a\ncovered metal electrode and the work\nNote: Shielding is obtained from decomposition of the\nelectrode covering. Pressure is not used and filler metal\nis obtained from the electrode\n\n28. Sludge\n-product of decomposition of oil resulting from\nimpurities,\nmoisture, or chemical reactions and favored by\nexcessive temperature. Sludge may be mushy, gummy,\nor hard\n\n29. Suction Lift\n\n-combination of static suction lift and friction head in\nsuction piping when the source of liquid is below the\npump centerline\n\n30. Superheat\n\n-The temperature increase above saturation\ntemperature or above boiling point\n\n31. Symbol\n\n-letter, figure, other character or mark, or combination of\nletters used to represent a specific thing\n\n32. Time Defrosting\n\n-defrosting process automatically and intermittently\noperated for a predetermined period\n\n33. Ton (of refrigeration)\n\n-time rate of cooling equal to 12,000 Btu/h\n(approximately 3517 W)\n\n--- PDF PAGE 103 ---\nTRAINING REGULATION - ICE PLANT REFRIGERATION SERVICING NC III\n\n102\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies who donated their time and expertise\nto the development and validation of these Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\nENGR. ROSENDO C. PEREZ, JR.\nENGR. DANILO G. DUYA\nTAP Chairman\nVice-President\nPresident\nTDS Air-conditioning Industries, Inc.\nMECSYS Corporation\n#72 Kamias Road, Quezon City\n#2 Alondra St., Miranilla Homes\n\nTandang Sora, Congressional Ave., QC\n\n•\nTHE TECHNICAL EXPERT PANEL (TEP)\n\nMR. SABAS B. BERGANTINOS\nMR. EDUARDO M. FERNANDEZ\nTechnical Consultant\nInstructor\nROMY CLEMENTE AIR CONDITIONING\nCONTREFRIGERATIONTOR (RCAC)\nTechnological University of the\nPhilippines\n(TUP)\n452, 2ND St., Fortune Village 5\nAyala Boulevard, Manila\nPaso De Blas, Valenzuela City\n\nASIA PACIFIC INTERNATIONAL TEST\nAND BALANCE\n\n#07 St. Mark St. Pacita Complex, SPL\nMR. EDILBERTO S. MACATANGAY\n\nOwner\nMR. CAMILO N. GALINEA\nTechnocycle Corporation\nOwner\nUnit E and F\nG & L Electrical\nContREFRIGERATIONtors\nKm. 31 National Road\n#38 Katalina Subdivision\nCorner Summit Circle, Bayanan\nRosario, Pasig City\nMuntinlupa City\n\nENGR. ERIC M. PANZO\nENGR. LEANDRO A. CONTI\nPresident\nVice President – Sales and Marketing\nE.M. PANZO & ASSOCIATES\nTHERMO ENGINEERING SUPPLY CORP\nBlk. 7, Lot 53 SM Homes, Novaliches, QC #2 A.M. De Leon St., Santolan, Pasig\nCity\n\nENGR. CESAR LUIS DL. LIM\nAssistant Consultant – ME (Refrigeration)\nSan Miguel Corporation\n#40 San Miguel Avenue, Ortigas\nMandaluyong City"
+  "source_text": "SECTION 4\nNATIONAL ASSESSMENT AND CERTIFICATION\nARRANGEMENTS\n\n4.1\nTo attain the National Qualification of ICE PLANT Refrigeration\nServicing NC III, the candidate must demonstrate competence\ncovering all the units listed in Section 1. Successful candidates\nshall be awarded a National Certificate signed by the TESDA\nDirector General.\n\n4.2\nAssessment shall focus on the core units of competency. The\nbasic and common units shall be integrated or assessed\nconcurrently with the core units.\n\n4.3\nThe following are qualified to apply for assessment and\ncertification:\n\n4.4.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2 Experienced Workers (wage employed or self-employed)\n\n4.4\nThe guidelines on assessment and certification are discussed in\ndetail in the \"Procedures Manual on Assessment and Certification\"\nand \"Guidelines on the Implementation of the Philippine TVET\nQualification and Certification System (PTQCS)\".\n\n--- PDF PAGE 100 ---\nTRAINING REGULATION - ICE PLANT REFRIGERATION SERVICING NC III\n\n99\n"
 }

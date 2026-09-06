@@ -1,29 +1,152 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-ii:c69919fe85",
-  "qualification": "Instrumentation and Control Servicing NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:instrumentation-and-control-servicing-nc-ii-superseded:c69919fe85",
+  "qualification": "INSTRUMENTATION AND CONTROL SERVICING NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Instrumentation and Control Servicing NC II (Superseded).pdf",
-    "sha256": "c69919fe851a238742a1f223317440d1609261fd43eeda0d065a697e437271b2",
+    "authority": "TESDA",
+    "source_file": "Instrumentation and Control Servicing NC II (Superseded).pdf",
+    "source_sha256": "c69919fe851a238742a1f223317440d1609261fd43eeda0d065a697e437271b2",
+    "pdf_pages": 62,
+    "printed_pages": 60,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is retained as superseded and does not display a promulgation date; the canonical lifecycle preserves the superseded classification and the promulgated field remains null.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 18 Basic, 60 Common, and 160 Core hours for a 238-hour total; the canonical duration records the component arithmetic.",
+    "The source prints spaced basic codes such as 5 00 311 1 05 in Section 1 while the competency headers use normalized 500311105-style codes; the canonical codes are normalized and page-preserved source text retains the spacing."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is retained as superseded and does not display a promulgation date; the canonical lifecycle preserves the superseded classification and the promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 60 Common, and 160 Core hours for a 238-hour total; the canonical duration records the component arithmetic."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints spaced basic codes such as 5 00 311 1 05 in Section 1 while the competency headers use normalized 500311105-style codes; the canonical codes are normalized and page-preserved source text retains the spacing."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Instrumentation and Control Servicing NC II (Superseded).pdf",
-    "pdf_pages": 62,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "ELC724201",
+      "source_unit_code": "ELC724201",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "ELC311201",
+      "source_unit_code": "ELC311201",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "ELC311202",
+      "source_unit_code": "ELC311202",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "ELC315202",
+      "source_unit_code": "ELC315202",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "ELC311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "ELC724202",
+      "source_unit_code": "ELC724202",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "ELC724301",
+      "source_unit_code": "ELC724301",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "ELC724302",
+      "source_unit_code": "ELC724302",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "ELC724303",
+      "source_unit_code": "ELC724303",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    }
+  ]
 }
