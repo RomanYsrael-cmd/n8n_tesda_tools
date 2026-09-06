@@ -1,76 +1,59 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:animal-production-swine-nc-ii:2013-12",
+  "document_id": "tesda:tr:animal-production-swine-nc-ii:38ddffa392",
   "qualification": "ANIMAL PRODUCTION (SWINE) NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "AFF321202",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF321203",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF321205",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AFF321201",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AFF621216",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "AFF621217",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF621218",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF621219",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF621220",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321302",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP \nAnimal Production (Swine) NCII \nHandle \nBreeders \nHandle \nFarrowing Sows \nand Sucklings\nRaise \nWeanlings \nProduce \nFinishers \nCORE \nCOMPETENCIES \nCOMMON \nCOMPETENCIES \nApply Safety \nMeasures in \nFarm \nOperations \nUse Farm Tools \nand Equipment\nPerform \nEstimation and \nBasic Calculation\nWork in a team \nenvironment \nParticipate in \nworkplace \ncommunication \nBASIC \nCOMPETENCIES \nPractice career\nprofessionalism \n \nPractice occupational \nhealth and safety \nprocedures \nProcess Farm \nWastes \nMaintain \nHealthy Animal \nEnvironment\nApply \nBiosecurity \nMeasures\n\n--- PDF PAGE 75 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II \nPROMULGATED December 2013 \n74\nGLOSSARY OF TERMS \n \nBarrow – a male swine, castrated (testicles removed) before it reaches sexual \nmaturity \n \nBoar – uncastrated male swine usually kept for breeding \n \nColostrum – first milk from a female animal after giving birth \n \nCrossbreed – a group of animals produced by mating two or more different breeds or \nstrains of animals \n \nCulling – is the removal of undesirable or inferior animals in the herd based on \nimportant economic traits and overall performance \n \nEstrus – period of time when the female will accept male. Also known as heat period \n \nFarrowing – the act of giving birth in pigs or swine \n \nGestation Period – refers to the period of carrying the young in the womb \n \nGilt – a young female hog that has not given birth yet \n \nImmunization – prevention of diseases by providing appropriate vaccines to animals \n \nInbreeding – mating of closely related animals in a herd \n \nLivestock – domestic animals kept for use on a farm and raised for sale and profit \n \nLitter – the offsprings at one birth of a multiparous or animal like swine \n \nLitter Size – refers to the aggregate number of piglets per farrowing \n \nNutrients – food elements or substance found in the feeds such as protein, \ncarbohydrates, fats and others \n \nDry sow – a sow whose litter has been weaned but which has not yet been bred or is \nnot pregnant \n \nPurebreeding – is the mating of the unrelated individuals in the same breed \n \nRation – the total amount of feeds taken in by an animal during a 24 hour period \n \nSelection – refers to the process of choosing males and females with desirable \ncharacteristics either for breeding or replacement stocks \n \nSow – a mature female hog that had given birth \n \nSwine – a collective term for hogs\n\n--- PDF PAGE 76 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II \nPROMULGATED December 2013 \n75\nVaccination – a preventive measure to inoculate an animal with a mildly toxic \npreparation of bacteria or a virus of specific disease to prevent or to lessen the \neffects of the disease \n \nWaterer – equipment used in providing water to animals \n \nWeanling – refers to a young animal of either sex which has been separated from the \nmother at the end of the lactation period\n\n--- PDF PAGE 77 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II \nPROMULGATED December 2013 \n76",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AFF321201",
+        "AFF321202",
+        "AFF321203",
+        "AFF321205"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use farm tools and equipment",
+        "Perform estimation and basic calculation",
+        "Process farm wastes"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AFF621216",
+        "AFF621217",
+        "AFF621218",
+        "AFF621219",
+        "AFF621220",
+        "AFF321302"
+      ],
+      "unit_titles": [
+        "Handle breeders",
+        "Handle farrowing sows and sucklings",
+        "Raise weanlings",
+        "Produce finishers",
+        "Maintain healthy animal environment",
+        "Apply bio-security measures"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n\n4.2.\nThe qualification of Animal Production (Swine) NC II may be attained\nthrough:\n\n4..2.1. Accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.2.1.1.\nHandle Breeders\n4.2.1.2.\nHandle farrowing sows and sucklings\n4.2.1.3.\nRaise weanlings\n4.2.1.4.\nProduce finishers\n4.2.1.5.\nMaintain healthy animal environment\n4.2.1.6.\nApply biosecurity measures\n\n Successful candidates shall be awarded Certificates of\nCompetency (COCs) bearing the signature of the Regional\nDirector and Chair of the recognized local industry body.\n\n4.2.2. Demonstration of competence through project-type assessment\ncovering all required units of the qualification.\n\n4.3.\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4.\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2 Experienced Workers (wage employed or self-employed)\n\n\n4.5.\nThe guidelines on assessment and certification are discussed in detail in\nthe Procedures Manual on Assessment and Certification and Guidelines\non the Implementation of the Philippine TVET Qualification and\nCertification System (PTQCS).\n\n--- PDF PAGE 74 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II\nPROMULGATED December 2013\n73\nSupermarket of Competencies\nAGRI-FISHERY Sector\nCOMPETENCY MAP\nAnimal Production (Swine) NCII\nHandle\nBreeders\nHandle\nFarrowing Sows\nand Sucklings\nRaise\nWeanlings\nProduce\nFinishers\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nApply Safety\nMeasures in\nFarm\nOperations\nUse Farm Tools\nand Equipment\nPerform\nEstimation and\nBasic Calculation\nWork in a team\nenvironment\nParticipate in\nworkplace\ncommunication\nBASIC\nCOMPETENCIES\nPractice career\nprofessionalism\n\nPractice occupational\nhealth and safety\nprocedures\nProcess Farm\nWastes\nMaintain\nHealthy Animal\nEnvironment\nApply\nBiosecurity\nMeasures\n\n--- PDF PAGE 75 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II\nPROMULGATED December 2013\n74\nGLOSSARY OF TERMS\n\nBarrow – a male swine, castrated (testicles removed) before it reaches sexual\nmaturity\n\nBoar – uncastrated male swine usually kept for breeding\n\nColostrum – first milk from a female animal after giving birth\n\nCrossbreed – a group of animals produced by mating two or more different breeds or\nstrains of animals\n\nCulling – is the removal of undesirable or inferior animals in the herd based on\nimportant economic traits and overall performance\n\nEstrus – period of time when the female will accept male. Also known as heat period\n\nFarrowing – the act of giving birth in pigs or swine\n\nGestation Period – refers to the period of carrying the young in the womb\n\nGilt – a young female hog that has not given birth yet\n\nImmunization – prevention of diseases by providing appropriate vaccines to animals\n\nInbreeding – mating of closely related animals in a herd\n\nLivestock – domestic animals kept for use on a farm and raised for sale and profit\n\nLitter – the offsprings at one birth of a multiparous or animal like swine\n\nLitter Size – refers to the aggregate number of piglets per farrowing\n\nNutrients – food elements or substance found in the feeds such as protein,\ncarbohydrates, fats and others\n\nDry sow – a sow whose litter has been weaned but which has not yet been bred or is\nnot pregnant\n\nPurebreeding – is the mating of the unrelated individuals in the same breed\n\nRation – the total amount of feeds taken in by an animal during a 24 hour period\n\nSelection – refers to the process of choosing males and females with desirable\ncharacteristics either for breeding or replacement stocks\n\nSow – a mature female hog that had given birth\n\nSwine – a collective term for hogs\n\n--- PDF PAGE 76 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II\nPROMULGATED December 2013\n75\nVaccination – a preventive measure to inoculate an animal with a mildly toxic\npreparation of bacteria or a virus of specific disease to prevent or to lessen the\neffects of the disease\n\nWaterer – equipment used in providing water to animals\n\nWeanling – refers to a young animal of either sex which has been separated from the\nmother at the end of the lactation period\n\n--- PDF PAGE 77 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II\nPROMULGATED December 2013\n76\n\nACKNOWLEDGEMENTS\n\n\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\n\nDR. MARIO S. SUBA (Chair)\n\n\nDIR. PETE OCAMPO\nPresidential Assistant for Internal\nDevelopment / Professor\nLivestock Development Council\nDepartment of Agriculture\nCentral Luzon State University (CLSU)\nCity Science of Muños, Nueva Ecija\n\nMS. JOSEFINA A. CONTRERAS\nOfficer-In-Charge\n\nDR. EDUARDO M. MARIANO (DVM)\nFarm Manager/ Consultant\nARSEN Farm Inc.\nBureau of Animal Industry\nMajayjay, Laguna\nValenzuela Metro Manila\n\n• THE TECHNICAL EXPERT PANEL (TEP)\n\nMR. ERNESTO DOBLON\nMR. ELMER PERMITES\nTrainer\nRoyal Chicks Farm\nQuezon National Agricultural School\nMandaluyong City\nMalicboy, Pagbilao Quezon\nDR. ANGEL GUNO\nMS. EMILIA A. LOPEZ\nSenior Agriculturist\nSenior Agriculturist\nBureau of Animal Industry\nBureau of Animal Industry\nValenzuela Metro Manila\nValenzuela Metro Manila\n\n• THE REVIEW PANEL\n\nMR. BIENVENIDO A. RARA\nBarfarm Agro Venture\nBulacan\nDR. RUTH SONACO\nSwine Expert\nMember, Philippine College of Swine\nPractitioners\n\n--- PDF PAGE 78 ---\nTR-ANIMAL PRODUCTION (SWINE) NC II\nPROMULGATED December 2013\n77\n•\nTHE RESPONDENTS OF VALIDATION\n\n\nDR. SAMUEL P. COMIA\nCity Veterinarian\nLipa City Veterinary Office\nLipa City\nMR. ANTONIO J. BARROGA\nProfessor\nCentral Luzon State University\nNueva Ecija, Muñoz\nMS. VILMA JOY L. DE LEON\nNovartis Animal Health\nMakati City\nDR. RONNIE D. DOMINGO\nProfessor\nCollege of Veterinary Medicine\nU.P. Los Baños, Laguna\nDR. EDUARDO M. MARIANO (DVM)\nFarm Manager/ Consultant\nARSEN Farm Inc.\n Majayjay, Laguna\n\n\n\nThe Management and Staff of the TESDA Secretariat\n• Qualification and Standards Office\n• Competency Assessment and Certification Office"
 }

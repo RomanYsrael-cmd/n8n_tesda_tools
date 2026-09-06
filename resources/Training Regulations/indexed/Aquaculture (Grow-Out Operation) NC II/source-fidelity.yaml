@@ -1,29 +1,176 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:aquaculture-grow-out-operation-nc-ii:31cf9448c0",
-  "qualification": "Aquaculture (Grow-Out Operation) NC II",
+  "qualification": "AQUACULTURE (GROW-OUT OPERATION) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Aquaculture (Grow-Out Operation) NC II.pdf",
-    "sha256": "31cf9448c070dd421c9e9fb87d8df924b1d2eb46e632a97f777de615f45b748b",
+    "source_sha256": "31cf9448c070dd421c9e9fb87d8df924b1d2eb46e632a97f777de615f45b748b",
+    "pdf_pages": 119,
+    "printed_pages": 115,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills; historical heading and table-cell variations are normalized consistently.",
+    "The source header for Solve/address general workplace problems omits the final word problems, and the header for Perform estimation and basic calculation includes a trailing 2; normalized titles follow the qualification context while source_text preserves the printed headings.",
+    "The source uses both Training Arrangements and Training Standards terminology and prints the date as (06/09/2020); the date is retained literally because the day/month interpretation is not stated.",
+    "The source prints 490 total hours: 37 Basic, 72 Common, 301 Core, and 80 hours of Supervised Industry Learning (SIL)."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills; historical heading and table-cell variations are normalized consistently."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source header for Solve/address general workplace problems omits the final word problems, and the header for Perform estimation and basic calculation includes a trailing 2; normalized titles follow the qualification context while source_text preserves the printed headings."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses both Training Arrangements and Training Standards terminology and prints the date as (06/09/2020); the date is retained literally because the day/month interpretation is not stated."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 490 total hours: 37 Basic, 72 Common, 301 Core, and 80 hours of Supervised Industry Learning (SIL)."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Aquaculture (Grow-Out Operation) NC II.pdf",
-    "pdf_pages": 119,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "AFF321202",
+      "source_unit_code": "AFF321202",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        47,
+        48
+      ]
+    },
+    {
+      "unit_code": "AFF622314",
+      "source_unit_code": "AFF622314",
+      "pdf_page_range": [
+        49,
+        54
+      ]
+    },
+    {
+      "unit_code": "AFF622315",
+      "source_unit_code": "AFF622315",
+      "pdf_page_range": [
+        55,
+        60
+      ]
+    },
+    {
+      "unit_code": "AFF622316",
+      "source_unit_code": "AFF622316",
+      "pdf_page_range": [
+        61,
+        64
+      ]
+    },
+    {
+      "unit_code": "AFF622317",
+      "source_unit_code": "AFF622317",
+      "pdf_page_range": [
+        65,
+        68
+      ]
+    }
+  ]
 }

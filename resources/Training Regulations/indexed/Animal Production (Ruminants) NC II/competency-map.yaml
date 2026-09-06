@@ -1,76 +1,57 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:animal-production-ruminants-nc-ii:2013-12",
-  "qualification": "ANIMAL PRODUCTION (Ruminants) NC II",
+  "document_id": "tesda:tr:animal-production-ruminants-nc-ii:40640ec7d5",
+  "qualification": "ANIMAL PRODUCTION (RUMINANTS) NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "AFF321202",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321203",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321205",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "270310145",
-        "title": "270"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AFF321201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "AFF621901",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "AFF621902",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF621903",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF621904",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "AFF621905",
-        "title": ": This unit covers the knowledge, skills and attitudes"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP \n73",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AFF321201",
+        "AFF321202",
+        "AFF321203",
+        "AFF321205"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use farm tools and equipment",
+        "Perform estimation and basic calculation",
+        "Process farm wastes"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AFF621901",
+        "AFF621902",
+        "AFF621903",
+        "AFF621904",
+        "AFF621905"
+      ],
+      "unit_titles": [
+        "Maintain housing, farm implements and surrounding areas",
+        "Provide forage",
+        "Perform breeding of ruminants",
+        "Raise dairy animals",
+        "Raise meat-type animals"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n\n\n4..2.1. Accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.1.1.1.1. Maintain\nhousing,\nfarm\nimplements\nand\nsurrounding area\n4.1.1.1.2. Provide forage\n4.1.1.1.3. Perform breeding of ruminants\n4.1.1.1.4. Raise dairy animals\n4.1.1.1.5. Raise meat-types animals\n\n\n Successful candidates shall be awarded Certificates of\nCompetency (COCs) bearing the signature of the Regional\nDirector and Chair of the recognized local industry body.\n\n4.1.2. Demonstration of competence through project-type assessment\ncovering all required units of the qualification.\n\n4.2.\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n4.3.\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2 Experienced Workers (wage employed or self-employed)\n\n\n4.4.\nThe guidelines on assessment and certification are discussed in detail\nin the Procedures Manual on Assessment and Certification and\nGuidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 74 ---\nTR-Animal Production (Ruminants) NCII Promulgated December 2013\n73\n\nSupermarket of Competencies\nAGRI-FISHERY Sector\nCOMMON\nCOMPETENCIES\nApply Safety\nMeasures in\nFarm\nOperaitons\nUse Farm Tools\nand Equipment\nPerform\nEstimation and\nBasic\nCalculation\nAnimal Production (Ruminants) NC II\nProduce\nVegetables\nProduce Grain\nCrops\nService and\nRepair\nBusiness\nMachines\nPerform\nLandscaping\nActivities\nPerform Post\nHarvest\nOperations of\nMajor Lowland and\nSemi Temperate\nVegetables Crops\nOperate and\nMaintain\nMechanical Grain\nDryer\nTest & Analyze\nPhysico-Chemical\nProperties of\nFoods, Agri\nProducts, Water &\nWastewater\nGrade and Classify\nGrain\nRaise Dairy-\nAnimals\nControl Pest of\nStored Grains and\nProducts\nService Tractor’s\nRear Axle, Front\nAxle & Brake\nSystem\nOperate Fish\nNursery\nService Tractor’s\nElectrical System\nPerform Fish or\nShrimp Grow Out\nOperations\nConstruct\nAquaculture\nFacilities\nCORE COMPETENCIES\nProduce Fruit\nBearing Crops\nProduce Cut\nFlowers\nOperate Seedling\nNursery\nManage Farm\nOperate and\nMaintain Rice Mill\nEquipment\nPerform Post\nHarvest\nOperations of\nMajor Tropical\nFruits\nPerform On Farm\nGrain Post Harvest\nAnalyze Foods and\nAgricultural\nproducts\nService, Repair &\nMaintain Small\nGasoline Engines\nTest & Analyze\nMicrobiological\nProperties of\nFoods, Agri\nProducts, Water &\nWastewater\nService, Repair &\nMaintain Crop Post\nHarvest Equipment\nService, Repair &\nMaintain Crop\nProduction\nService, Repair &\nMaintain Small\nDiesel Engines\nService Tractor’s\nEngine\nService Tractor’s\nClutch &\nTransmission System\nService Tractor’s\nHydraulic System\nOperate Tilapia\nHatchery\nGrow Seaweed\nOperate catfish\nHatchery\nProfile the Market\nDevelop\nMarketing Plan\nDevelop Marketing\nCommunication\nPlan\nPromote Products\n& Services\nService Tractor’s\nSteering System\nProduce Fuel\nByproducts\nPerform Breeding\nof Ruminants\nAssess Farm\nResources\nAssist in\nAquaculture\nOperations\nAssist in Horticulture\nOperations\nProduce Biogas\nByproducts\nMaintain Housing,\nFarm Implements\nand Surrounding\nArea\nProvide Forage\nRaise Meat-\ntype Animals\nMarket Agri\nProducts\nProduce Compost\nProcess Farm\nWastes\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASIC\nCOMPETENCIES\nApply problem\nsolving techniques\nto workplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate work\nvalues\nPractice occupational\nhealth and safety\nprocedures\nDevelop and\npractice negotiation\nskills\nUse mathematical\nmethod\nUse relevant\ntechnologies\nUtilize specialized\ncommunication\nskills\nDevelop team and\nindividual\n\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 75 ---\nTR-ANIMAL PRODUCTION (RUMINANTS) NC II Promulgated -------\n74\n\nGLOSSARY OF TERMS\n\nBuck – male breeder goat\n\nBuckling –young male breeder ruminant\n\nBull - an adult male bovine mammal.\n\nCage Housing – a type or system of poultry housing where layers could be kept alone,\nby two or in big groups in cage\n\nCalf – a newly born male or female cattle or buffalo\n\nCalving – the act or process of delivering young cattle or buffalo\n\nCastration – act of removing testicles from male animals\n\nChevon – meat of goat\n\nColostrum – first milk from a female animal after giving birth\n\nCow – a mature female cattle\n\nCrossbreed – a group of animals produced by mating two or more different breeds or\nstrains of animals\n\nCulling – is the removal of undesirable or inferior animals in the herd based on\nimportant economic traits and overall performance\n\nDoe – female goat that has given birth, usually more than 1 year old\n\nDoeling – female goat that has not given birth, usually less than one (1) year old\n\nEstrus – period of time when the female will accept male. Also known as heat period\n\nEwe – (pronounced as “you”) female sheep that has already given birth, usually more\nthan one (1) year old\n\nEwe lamb – female sheep that has not given birth usually less than 1 year old\n\nGestation period – refers to the period of carrying the young in the womb\n\nHeifer – a young female cattle or buffalo\n\nHogget – meat of sheep more than one (1) year old but less than two (2) years old\n\nImmunization – prevention of diseases by providing appropriate vaccines to animals\n\n--- PDF PAGE 76 ---\nTR-ANIMAL PRODUCTION (RUMINANTS) NC II Promulgated -------\n75\nInbreeding – mating of closely related animals in a herd\n\nLamb – young goat usually less than 1 year old. Also refers to meat of sheep less than\none (1 ) year old\n\nLambing – act of giving birth in sheep\n\nLivestock – domestic animals kept for use on a farm and raised for sale and profit\n\nMutton – meat of sheep more than 2 years old\n\nNutrients – food elements or substance found in the feeds such as protein,\ncarbohydrates, fats and others\n\nPurebreeding – is the mating of the unrelated individuals in the same breed\n\nRam – male breeder sheep\n\nRation – the total amount of feeds taken in by an animal during a 24 hour period\n\nRuminants – refers to animals with complex digestive system e.g. cattle, carabao,\ngoats and sheep\n\nSelection – refers to the process of choosing males and females with desirable\ncharacteristics either for breeding or replacement stocks\n\nSimple stomach/non-ruminant animals – animals that possess simple digestive\nsystem e.g. poultry, horse and pigs\n\nSteer – a young male calf one year to 18 months old\n\nSwine – a collective term for hogs\n\nVaccination – a preventive measure to inoculate an animal with a mildly toxic\npreparation of bacteria or a virus of specific disease to prevent or to lessen the\neffects of the disease\n\nWaterer – equipment used in providing water to animals\n\nWeanling – refers to a young animal of either sex which has been separated from the\nmother at the end of the lactation period\n\nYearling - An animal that is one year old or has not completed its second year.\n\n--- PDF PAGE 77 ---\nTR-ANIMAL PRODUCTION (RUMINANTS) NC II Promulgated -------\n76\nACKNOWLEDGEMENTS\n\n\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\n\nDR. MARIO S. SUBA (Chair)\n\n\nDIR. PETE OCAMPO\nPresidential Assistant for Internal\nDevelopment / Professor\nLivestock Development Council\nDepartment of Agriculture\nCentral Luzon State University (CLSU)\nCity Science of Muños, Nueva Ecija\n\nMS. JOSEFINA A. CONTRERAS\nOfficer-In-Charge\n\nDR. EDUARDO M. MARIANO (DVM)\nFarm Manager/ Consultant\nARSEN Farm Inc.\nBureau of Animal Industry\nMajayjay, Laguna\nValenzuela Metro Manila\n\n• THE TECHNICAL EXPERT PANEL (TEP)\n\nMR. ERNESTO DOBLON\nMR. ELMER PERMITES\nTrainer\nRoyal Chicks Farm\nQuezon National Agricultural School\nMandaluyong City\nMalicboy, Pagbilao Quezon\nDR. ANGEL GUNO\nMS. EMILIA A. LOPEZ\nSenior Agriculturist\nSenior Agriculturist\nBureau of Animal Industry\nBureau of Animal Industry\nValenzuela Metro Manila\nValenzuela Metro Manila\n\n• THE REVIEW PANEL (TEP)\n\nMR. BIENVENIDO A. RARA\nAnimal (Small Ruminants) Production\nExpert\nBARFARM Agro Ventures\nMarikina City\nPresident, Federation of Goat and Sheep\nProducers in the Philippines\nDR. DANIEL LOPEZ AQUINO\nLarge Ruminant Expert\nPhilippine Carabao Center\nNueva Ecija\n\n--- PDF PAGE 78 ---\nTR-ANIMAL PRODUCTION (RUMINANTS) NC II Promulgated -------\n77\n• THE RESPONDENTS OF VALIDATION\n\n\nDR. MA. ASUNCION G. BELTRAN\nDirector, Research and Development\nTarlac College of Agriculture\nMS. MARILOU A. SANTOS\nCommunity Development Officer\nPhilippine Carabao Center\nNueva Ecija\nMR. DANIEL A. DELA CRUZ\nGoat Raiser\nNueva Ecija Goats and Sheeps Raiser\nAssociation\nNueva Ecija\nMR. CONRADO S. CASTILLO\nGoat Raiser\nCVC Farm\nNueva Ecija\n\nMS. RANI C. TILWANI\nTechnical Associate/Nutritionist\nGromax Inc.\nMarilao, Bulacan\nMS. CHERRY MAY V. EUGENIO\nHealth and Safety Officer\nPhilippine Carabao Center\nNueva Ecija\nMS. JENNIFER F. MARAMBA\nAnimal Breeding and Genetics Expert\nPhilippine Carabao Center\nNueva Ecija\n\nMR. JAIME C. RAMOS\nDairy Buffalo Producer\nPremium Dairy Buffalo Production\nCooperatives\nTalavera, Nueva Ecija\nDANTE D. LORENZO, PH.D.\nProfessor (Dairy Production-Large\nRuminants\nCentral Luzon State University\n\n\nMS, PAMELA V. EDRADA\nDistrict Sales Manager\nGromax Inc.\nMarilao, Bulacan\nDR. EDUARDO M. MARIANO (DVM)\nFarm Manager/ Consultant\nARSEN Farm Inc.\n Majayjay, Laguna\n\n\nThe Management and Staff of the TESDA Secretariat\n• Qualification and Standards Office\n• Competency Assessment and Certification Office"
 }

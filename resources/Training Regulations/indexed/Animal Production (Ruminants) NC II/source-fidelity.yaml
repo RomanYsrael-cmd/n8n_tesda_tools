@@ -1,29 +1,147 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:animal-production-ruminants-nc-ii:2013-12",
-  "qualification": "ANIMAL PRODUCTION (Ruminants) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:animal-production-ruminants-nc-ii:40640ec7d5",
+  "qualification": "ANIMAL PRODUCTION (RUMINANTS) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Animal Production (Ruminants) NC II.pdf",
-    "sha256": "40640ec7d52168f40d554105362decd9ec4f6d223ba3f62e3851adb3daef37ac",
+    "source_sha256": "40640ec7d52168f40d554105362decd9ec4f6d223ba3f62e3851adb3daef37ac",
+    "pdf_pages": 78,
+    "printed_pages": 77,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "Section 1 and the competency headers preserve historical wording, spelling, capitalization, and spacing variations; normalized titles and codes retain the page-extracted source layer.",
+    "The source prints 306 hours as the total for 18 hours Basic, 48 hours Common, and 240 hours Core competencies."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 and the competency headers preserve historical wording, spelling, capitalization, and spacing variations; normalized titles and codes retain the page-extracted source layer."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 306 hours as the total for 18 hours Basic, 48 hours Common, and 240 hours Core competencies."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Animal Production (Ruminants) NC II.pdf",
-    "pdf_pages": 78,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "AFF321202",
+      "source_unit_code": "AFF321202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "AFF321205",
+      "source_unit_code": "AFF321205",
+      "pdf_page_range": [
+        27,
+        32
+      ]
+    },
+    {
+      "unit_code": "AFF621901",
+      "source_unit_code": "AFF621901",
+      "pdf_page_range": [
+        33,
+        39
+      ]
+    },
+    {
+      "unit_code": "AFF621902",
+      "source_unit_code": "AFF621902",
+      "pdf_page_range": [
+        40,
+        47
+      ]
+    },
+    {
+      "unit_code": "AFF621903",
+      "source_unit_code": "AFF621903",
+      "pdf_page_range": [
+        48,
+        55
+      ]
+    },
+    {
+      "unit_code": "AFF621904",
+      "source_unit_code": "AFF621904",
+      "pdf_page_range": [
+        56,
+        60
+      ]
+    },
+    {
+      "unit_code": "AFF621905",
+      "source_unit_code": "AFF621905",
+      "pdf_page_range": [
+        61,
+        65
+      ]
+    }
+  ]
 }
