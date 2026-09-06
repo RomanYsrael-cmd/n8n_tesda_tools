@@ -4,89 +4,64 @@
   "document_id": "tesda:tr:barangay-health-services-nc-ii:6b3d241aa0",
   "qualification": "BARANGAY HEALTH SERVICES NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "400311210",
-        "title": "This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "HHC323203",
-        "title": ":"
-      },
-      {
-        "unit_code": "HHC323204",
-        "title": "maintenance of high standards of patient / client services."
-      },
-      {
-        "unit_code": "HHC532303",
-        "title": ": This unit covers providing knowledge, skills and attitudes to"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HHC323201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HHC532305",
-        "title": ": This unit covers the knowledge, skills and attitude required in"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "400311211",
-        "title": ":"
-      },
-      {
-        "unit_code": "400311212",
-        "title": ": This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "400311213",
-        "title": ":"
-      },
-      {
-        "unit_code": "400311214",
-        "title": ":"
-      },
-      {
-        "unit_code": "400311215",
-        "title": ":"
-      },
-      {
-        "unit_code": "400311216",
-        "title": "to identify OSH compliance requirements, prepare OSH"
-      },
-      {
-        "unit_code": "400311217",
-        "title": ":"
-      },
-      {
-        "unit_code": "400311218",
-        "title": ": This unit covers the outcomes required to apply entrepreneurial"
-      },
-      {
-        "unit_code": "HHC323202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HHC532302",
-        "title": ": This unit of competency specifies the knowledge, skills and"
-      },
-      {
-        "unit_code": "HHC532304",
-        "title": ": This unit covers knowledge, skills and attitudes in coordinating"
-      },
-      {
-        "unit_code": "HHC532301",
-        "title": ": This unit covers developing relationship with the households"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP – HUMAN HEALTH/HEALTH CARE SECTOR\n\n(BARANGAY HEALTH SERVICES NC II)\n\nBASIC COMPETENCIES\n\nParticipate in workplace\ncommunication\nWork in a team environment\n\nSolve/address general workplace\nproblems\nDevelop career and life decisions\n\nContribute to workplace\ninnovation\nPresent relevant information\n\nPractice occupational safety and\nhealth policies and procedures\nExercise efficient and effective\nsustainable practices in the\nworkplace\nPractice entrepreneurial skills in\nthe workplace\n\nCOMMON COMPETENCIES\n\nCORE COMPETENCIES\n\nImplement and monitor infection\ncontrol policies and procedures\nRespond effectively to\ndifficult/challenging behavior\nApply basic first aid\nMaintain high standard of patient\n/ client services\nAssist the household to identify\nhealth problems and develop health\nplans to provide health and well-\nbeing\nShare knowledge and skills among\nmembers to provide information,\neducation and communication (IEC)\nand/or household teaching in\ndisease prevention and control\nEnsure the proper maintenance of\nhealth station and safe custody and\nits medical supplies, materials, and\nhealth records\nMonitor health status of household\nmembers under his/her area of\nservice coverage\nMaintain updated list/records of\nhealth activities\n\n--- PDF PAGE 122 ---\nTR Barangay Health Services NC II Revision 01 Promulgated (01/11/2019)\n118",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "400311210",
+        "400311211",
+        "400311212",
+        "400311213",
+        "400311214",
+        "400311215",
+        "400311216",
+        "400311217",
+        "400311218"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Solve/address general workplace problems",
+        "Develop career and life decisions",
+        "Contribute to workplace innovation",
+        "Present relevant information",
+        "Practice occupational safety and health policies and procedures",
+        "Exercise efficient and effective sustainable practices in the workplace",
+        "Practice entrepreneurial skills in the workplace"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HHC323201",
+        "HHC323202",
+        "HHC323203",
+        "HHC323204"
+      ],
+      "unit_titles": [
+        "Implement and monitor infection control policies and procedures",
+        "Respond effectively to difficult/challenging behavior",
+        "Apply basic first aid",
+        "Maintain high standard of patient / client services"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HHC532305",
+        "HHC532302",
+        "HHC532303",
+        "HHC532304",
+        "HHC532301"
+      ],
+      "unit_titles": [
+        "Maintain updated list/records of health activities",
+        "Share knowledge and skills among members to provide information, education and communication (IEC) and/or household teaching in disease prevention and control",
+        "Ensure safekeeping of equipment, medical supplies, materials, and health records in health station",
+        "Monitor health status of household members under his/her area of service coverage",
+        "Assist the household to identify health problems to promote health and well-being"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 BARANGAY HEALTH SERVICES NC II QUALIFICATION\n\nThe BARANGAY HEALTH SERVICES NC II Qualification consists of competencies that a\nperson assist the household to identify health problems to promote health and well-being, share\nknowledge and skills among members to provide information, education and communication (IEC)\nand/or household teaching in disease promotion and control, ensure the proper maintenance of\nhealth station and safe custody and its medical supplies, materials and health records, monitor\nhealth status of household members under his/her area of service coverage, maintain updated\nlist/records of health activities.\n\nThe Units of Competency comprising this Qualification include the following:\n\nUNIT CODE\nBASIC COMPETENCIES\n400311210\nParticipate in workplace communication\n400311211\n400311212\n400311213\n400311214\n400311215\n400311216\n400311217\n400311218\nWork in a team environment\nSolve/address general workplace problems\nDevelop career and life decisions\nContribute to workplace innovation\nPresent relevant information\nPractice occupational safety and health policies and procedures\nExercise efficient and effective sustainable practices in the workplace\nPractice entrepreneurial skills in the workplace\n\nUNIT CODE\nCOMMON COMPETENCIES\nHHC323201\nImplement and monitor infection control policies and procedures\nHHC323202\nRespond effectively to difficult/challenging behavior\nHHC323203\nApply basic first aid\nHHC323204\nMaintain high standard of patient / client services\n\nUNIT CODE\nCORE COMPETENCIES\nHHC532301\nAssist the household to identify health problems to promote health and\nwell-being\nHHC532302\nShare knowledge and skills among members to provide information,\neducation and communication (IEC) and/or household teaching in\ndisease prevention and control\nHHC532303\nEnsure safekeeping of equipment, medical supplies, materials, and\nhealth records in health station\nHHC532304\nMonitor health status of household members under his/her area of\nservice coverage\nHHC532305\nMaintain updated list/records of health activities\n\nA person who has achieved this Qualification is competent to be:\n\n Barangay Health Worker\n\n--- PDF PAGE 6 ---\nTR Barangay Health Services NC II Revision 01 Promulgated (01/11/2019)\n2"
 }

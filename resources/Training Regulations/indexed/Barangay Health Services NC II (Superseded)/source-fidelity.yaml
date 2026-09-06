@@ -1,29 +1,184 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:barangay-health-services-nc-ii:80b502e181",
-  "qualification": "BARANGAY HEALTH SERVICES NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:barangay-health-services-nc-ii-superseded:80b502e181",
+  "qualification": "BARANGAY HEALTH SERVICES NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Barangay Health Services NC II (Superseded).pdf",
-    "sha256": "80b502e1819115ae6b90ae2660eb54d908542c2480c9bfb6e89c4a6cd6a4b251",
+    "authority": "TESDA",
+    "source_file": "Barangay Health Services NC II (Superseded).pdf",
+    "source_sha256": "80b502e1819115ae6b90ae2660eb54d908542c2480c9bfb6e89c4a6cd6a4b251",
+    "pdf_pages": 127,
+    "printed_pages": null,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source does not display a visible promulgation date; the canonical promulgated field remains null.",
+    "The Section 1 common-unit list uses HCS323201 through HCS323204, while the Section 2 headers print HCS323202, HCS323203, HCS323204, and HCS323204 for the four sequential titles; the canonical inventory follows the Section 1 identifiers and preserves the header variants in source_unit_code/source_text.",
+    "Section 3 provides a single Nominal Training Hours total of 560 hours rather than Basic/Common/Core subtotals; the canonical duration record preserves that source expression."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source does not display a visible promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 common-unit list uses HCS323201 through HCS323204, while the Section 2 headers print HCS323202, HCS323203, HCS323204, and HCS323204 for the four sequential titles; the canonical inventory follows the Section 1 identifiers and preserves the header variants in source_unit_code/source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 provides a single Nominal Training Hours total of 560 hours rather than Basic/Common/Core subtotals; the canonical duration record preserves that source expression."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Barangay Health Services NC II (Superseded).pdf",
-    "pdf_pages": 127,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        7,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        14,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        17,
+        22
+      ]
+    },
+    {
+      "unit_code": "HCS323201",
+      "source_unit_code": "HCS323202",
+      "pdf_page_range": [
+        23,
+        28
+      ]
+    },
+    {
+      "unit_code": "HCS323202",
+      "source_unit_code": "HCS323203",
+      "pdf_page_range": [
+        29,
+        33
+      ]
+    },
+    {
+      "unit_code": "HCS323203",
+      "source_unit_code": "HCS323204",
+      "pdf_page_range": [
+        34,
+        41
+      ]
+    },
+    {
+      "unit_code": "HCS323204",
+      "source_unit_code": "HCS323204",
+      "pdf_page_range": [
+        42,
+        48
+      ]
+    },
+    {
+      "unit_code": "HCS346301",
+      "source_unit_code": "HCS346301",
+      "pdf_page_range": [
+        49,
+        55
+      ]
+    },
+    {
+      "unit_code": "HCS346302",
+      "source_unit_code": "HCS346302",
+      "pdf_page_range": [
+        56,
+        61
+      ]
+    },
+    {
+      "unit_code": "HCS346303",
+      "source_unit_code": "HCS346303",
+      "pdf_page_range": [
+        62,
+        67
+      ]
+    },
+    {
+      "unit_code": "HCS346304",
+      "source_unit_code": "HCS346304",
+      "pdf_page_range": [
+        68,
+        73
+      ]
+    },
+    {
+      "unit_code": "HCS346305",
+      "source_unit_code": "HCS346305",
+      "pdf_page_range": [
+        74,
+        78
+      ]
+    },
+    {
+      "unit_code": "HCS346306",
+      "source_unit_code": "HCS346306",
+      "pdf_page_range": [
+        79,
+        81
+      ]
+    },
+    {
+      "unit_code": "HCS346307",
+      "source_unit_code": "HCS346307",
+      "pdf_page_range": [
+        82,
+        95
+      ]
+    },
+    {
+      "unit_code": "HCS346308",
+      "source_unit_code": "HCS346308",
+      "pdf_page_range": [
+        96,
+        100
+      ]
+    },
+    {
+      "unit_code": "HCS346309",
+      "source_unit_code": "HCS346309",
+      "pdf_page_range": [
+        101,
+        107
+      ]
+    }
+  ]
 }
