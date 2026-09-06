@@ -1,29 +1,237 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:automotive-servicing-electrical-repair-nc-ii:6936f4075f",
   "qualification": "AUTOMOTIVE SERVICING (ELECTRICAL REPAIR) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Automotive Servicing (Electrical Repair) NC II.pdf",
-    "sha256": "6936f4075f1eef3632ff1c43fa3ca8ef28cf92831163ac70cd7d017b7dae3c8f",
+    "source_sha256": "6936f4075f1eef3632ff1c43fa3ca8ef28cf92831163ac70cd7d017b7dae3c8f",
+    "pdf_pages": 181,
+    "printed_pages": 180,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The Section 2 header spells the ALT723394 unit title 'MAGENTIC CLUTCH', while the Section 1 qualification description uses 'MAGNETIC CLUTCH'; the canonical inventory follows Section 1 and preserves the header typo in source_title/source_text.",
+    "The source prints 412 as the subtotal of 37 Basic, 162 Common, and 213 Core hours, followed by 176 hours of Supervised Industry Learning (SIL) and a 588 TOTAL HOURS line; the canonical duration record preserves all printed components and total.",
+    "The Section 3 core curriculum labels the magnetic-clutch unit as 4.x and continues through 8.x, omitting 3.x; the canonical mapping assigns the printed rows to ALT723394 through ALT723398 while preserving the source outcome numbering.",
+    "The source prints Revision 01 and promulgation date (08/11/2020); both are retained as printed."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 2 header spells the ALT723394 unit title 'MAGENTIC CLUTCH', while the Section 1 qualification description uses 'MAGNETIC CLUTCH'; the canonical inventory follows Section 1 and preserves the header typo in source_title/source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 412 as the subtotal of 37 Basic, 162 Common, and 213 Core hours, followed by 176 hours of Supervised Industry Learning (SIL) and a 588 TOTAL HOURS line; the canonical duration record preserves all printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 core curriculum labels the magnetic-clutch unit as 4.x and continues through 8.x, omitting 3.x; the canonical mapping assigns the printed rows to ALT723394 through ALT723398 while preserving the source outcome numbering."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 01 and promulgation date (08/11/2020); both are retained as printed."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Automotive Servicing (Electrical Repair) NC II.pdf",
-    "pdf_pages": 181,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "ALT723211",
+      "source_unit_code": "ALT723211",
+      "pdf_page_range": [
+        41,
+        46
+      ]
+    },
+    {
+      "unit_code": "ALT723212",
+      "source_unit_code": "ALT723212",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "ALT723214",
+      "source_unit_code": "ALT723214",
+      "pdf_page_range": [
+        51,
+        55
+      ]
+    },
+    {
+      "unit_code": "ALT723215",
+      "source_unit_code": "ALT723215",
+      "pdf_page_range": [
+        56,
+        60
+      ]
+    },
+    {
+      "unit_code": "ALT723216",
+      "source_unit_code": "ALT723216",
+      "pdf_page_range": [
+        61,
+        64
+      ]
+    },
+    {
+      "unit_code": "ALT723217",
+      "source_unit_code": "ALT723217",
+      "pdf_page_range": [
+        65,
+        68
+      ]
+    },
+    {
+      "unit_code": "ALT723218",
+      "source_unit_code": "ALT723218",
+      "pdf_page_range": [
+        69,
+        72
+      ]
+    },
+    {
+      "unit_code": "ALT723392",
+      "source_unit_code": "ALT723392",
+      "pdf_page_range": [
+        73,
+        78
+      ]
+    },
+    {
+      "unit_code": "ALT723393",
+      "source_unit_code": "ALT723393",
+      "pdf_page_range": [
+        79,
+        86
+      ]
+    },
+    {
+      "unit_code": "ALT723394",
+      "source_unit_code": "ALT723394",
+      "pdf_page_range": [
+        87,
+        91
+      ]
+    },
+    {
+      "unit_code": "ALT723395",
+      "source_unit_code": "ALT723395",
+      "pdf_page_range": [
+        92,
+        99
+      ]
+    },
+    {
+      "unit_code": "ALT723396",
+      "source_unit_code": "ALT723396",
+      "pdf_page_range": [
+        100,
+        106
+      ]
+    },
+    {
+      "unit_code": "ALT723397",
+      "source_unit_code": "ALT723397",
+      "pdf_page_range": [
+        107,
+        113
+      ]
+    },
+    {
+      "unit_code": "ALT723398",
+      "source_unit_code": "ALT723398",
+      "pdf_page_range": [
+        114,
+        121
+      ]
+    }
+  ]
 }
