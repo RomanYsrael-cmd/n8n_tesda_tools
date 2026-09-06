@@ -1,29 +1,162 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:massage-therapy-nc-ii:2017-02",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:massage-therapy-nc-ii:5a0c010113",
   "qualification": "MASSAGE THERAPY NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Massage Therapy NC II.pdf",
-    "sha256": "5a0c01011370148bab34aea76afc4532f310f5653b7e7b416b454627640b52f0",
+    "source_sha256": "5a0c01011370148bab34aea76afc4532f310f5653b7e7b416b454627640b52f0",
+    "pdf_pages": 161,
+    "printed_pages": 158,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Massage Therapy NC II (Amended) and Promulgated February 2017; the document table of contents ends at printed page 158, followed by an unnumbered closing page.",
+    "The source uses revised four-column competency tables with Required Knowledge and Required Skill(s); those columns are retained as structured fields.",
+    "The source prints 20 Basic, 56 Common, and 624 Core hours and gives 700 as the total; the canonical duration preserves the printed arithmetic.",
+    "The Section 1 common-competency list prints HCS323202-HCS323205, while the corresponding Section 2 headers print HCS323201-HCS323204 for the infection-control through client-services units; the canonical inventory follows the Section 1 identifiers and source_text preserves the header variants.",
+    "The source uses the heading 'TRAINING ARRANGEMENTSS' and repeats trainer-qualification wording; the page-preserved source layer retains these typographical variants.",
+    "The source table of contents places the competency map at printed page 155 and the glossary at page 157; the canonical printed-page metadata follows the source contents through page 158."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Massage Therapy NC II (Amended) and Promulgated February 2017; the document table of contents ends at printed page 158, followed by an unnumbered closing page."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses revised four-column competency tables with Required Knowledge and Required Skill(s); those columns are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 56 Common, and 624 Core hours and gives 700 as the total; the canonical duration preserves the printed arithmetic."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 common-competency list prints HCS323202-HCS323205, while the corresponding Section 2 headers print HCS323201-HCS323204 for the infection-control through client-services units; the canonical inventory follows the Section 1 identifiers and source_text preserves the header variants."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the heading 'TRAINING ARRANGEMENTSS' and repeats trainer-qualification wording; the page-preserved source layer retains these typographical variants."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source table of contents places the competency map at printed page 155 and the glossary at page 157; the canonical printed-page metadata follows the source contents through page 158."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Massage Therapy NC II.pdf",
-    "pdf_pages": 161,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        10,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        14,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        18,
+        23
+      ]
+    },
+    {
+      "unit_code": "HHC323201",
+      "source_unit_code": "HHC323201",
+      "pdf_page_range": [
+        24,
+        29
+      ]
+    },
+    {
+      "unit_code": "HCS323202",
+      "source_unit_code": "HCS323202",
+      "pdf_page_range": [
+        30,
+        38
+      ]
+    },
+    {
+      "unit_code": "HCS323203",
+      "source_unit_code": "HCS323203",
+      "pdf_page_range": [
+        39,
+        44
+      ]
+    },
+    {
+      "unit_code": "HCS323204",
+      "source_unit_code": "HCS323204",
+      "pdf_page_range": [
+        45,
+        50
+      ]
+    },
+    {
+      "unit_code": "HCS323205",
+      "source_unit_code": "HCS323205",
+      "pdf_page_range": [
+        51,
+        58
+      ]
+    },
+    {
+      "unit_code": "HHC322301",
+      "source_unit_code": "HHC322301",
+      "pdf_page_range": [
+        59,
+        64
+      ]
+    },
+    {
+      "unit_code": "HHC322302",
+      "source_unit_code": "HHC322302",
+      "pdf_page_range": [
+        65,
+        74
+      ]
+    },
+    {
+      "unit_code": "HHC322303",
+      "source_unit_code": "HHC322303",
+      "pdf_page_range": [
+        75,
+        80
+      ]
+    },
+    {
+      "unit_code": "HHC322304",
+      "source_unit_code": "HHC322304",
+      "pdf_page_range": [
+        81,
+        88
+      ]
+    }
+  ]
 }

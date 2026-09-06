@@ -1,29 +1,189 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:masonry-nc-iii:ad689848cf",
   "qualification": "MASONRY NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Masonry NC III.pdf",
-    "sha256": "ad689848cf00d091501b5ee059176823154c5d1af64e9140ae7496dbe6c2eb57",
+    "source_sha256": "ad689848cf00d091501b5ee059176823154c5d1af64e9140ae7496dbe6c2eb57",
+    "pdf_pages": 121,
+    "printed_pages": 116,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Revision 01 and Promulgated (10/29/2018); the document table of contents ends at printed page 116 after acknowledgements.",
+    "The source uses revised four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields.",
+    "The source prints 40 Basic, 24 Common, and 80 Core hours for a 144-hour total.",
+    "The assessment section is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized.",
+    "The source table of contents spells the glossary heading 'GLOSARRY OF TERMS'; the body glossary is retained and normalized in the canonical glossary file."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Revision 01 and Promulgated (10/29/2018); the document table of contents ends at printed page 116 after acknowledgements."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses revised four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 40 Basic, 24 Common, and 80 Core hours for a 144-hour total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The assessment section is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source table of contents spells the glossary heading 'GLOSARRY OF TERMS'; the body glossary is retained and normalized in the canonical glossary file."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Masonry NC III.pdf",
-    "pdf_pages": 121,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        9,
+        13
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        14,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        24,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        29,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        46,
+        48
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        49,
+        51
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        52,
+        54
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        55,
+        58
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    },
+    {
+      "unit_code": "CON711320",
+      "source_unit_code": "CON711320",
+      "pdf_page_range": [
+        64,
+        69
+      ]
+    },
+    {
+      "unit_code": "CON711321",
+      "source_unit_code": "CON711321",
+      "pdf_page_range": [
+        70,
+        75
+      ]
+    },
+    {
+      "unit_code": "CON711322",
+      "source_unit_code": "CON711322",
+      "pdf_page_range": [
+        76,
+        80
+      ]
+    }
+  ]
 }

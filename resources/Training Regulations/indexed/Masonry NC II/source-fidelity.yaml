@@ -1,29 +1,178 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:masonry-nc-ii:536aee0220",
   "qualification": "MASONRY NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Masonry NC II.pdf",
-    "sha256": "536aee022007708ddfae26b068a2c7e2b395f0b69425844b440b9d2ddb874b4f",
+    "source_sha256": "536aee022007708ddfae26b068a2c7e2b395f0b69425844b440b9d2ddb874b4f",
+    "pdf_pages": 98,
+    "printed_pages": 94,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Revision 01 and Promulgated (10/29/2018); the document table of contents ends at printed page 94 after acknowledgements.",
+    "The source uses revised four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields.",
+    "The source lists nine basic units, including Exercise efficient and effective sustainable practices in the workplace (400311217), whose heading is separated by a line break in extraction; the canonical inventory preserves the complete Section 1/2 sequence.",
+    "The source prints 37 Basic, 24 Common, and 120 Core hours for a 181-hour total.",
+    "The assessment section is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized.",
+    "The source table of contents spells the glossary heading 'GLOSARRY OF TERMS'; the body glossary is retained and normalized in the canonical glossary file."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Revision 01 and Promulgated (10/29/2018); the document table of contents ends at printed page 94 after acknowledgements."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses revised four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source lists nine basic units, including Exercise efficient and effective sustainable practices in the workplace (400311217), whose heading is separated by a line break in extraction; the canonical inventory preserves the complete Section 1/2 sequence."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 24 Common, and 120 Core hours for a 181-hour total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The assessment section is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source table of contents spells the glossary heading 'GLOSARRY OF TERMS'; the body glossary is retained and normalized in the canonical glossary file."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Masonry NC II.pdf",
-    "pdf_pages": 98,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        49,
+        53
+      ]
+    },
+    {
+      "unit_code": "CON711318",
+      "source_unit_code": "CON711318",
+      "pdf_page_range": [
+        54,
+        58
+      ]
+    },
+    {
+      "unit_code": "CON711319",
+      "source_unit_code": "CON711319",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    }
+  ]
 }

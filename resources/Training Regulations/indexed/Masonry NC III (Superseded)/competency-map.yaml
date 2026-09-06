@@ -1,90 +1,67 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:masonry-nc-iii:a6881904f2",
-  "qualification": "MASONRY NC III",
+  "document_id": "tesda:tr:masonry-nc-iii-superseded:a6881904f2",
+  "qualification": "MASONRY NC III (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "This unit of competency covers the knowledge, skills,"
-      },
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON712302",
-        "title": "This unit deals with the outcomes required to perform"
-      },
-      {
-        "unit_code": "CON712303",
-        "title": "blocks for structure. It includes the skills in establishing"
-      },
-      {
-        "unit_code": "CON712304",
-        "title": "plastering concrete / masonry surface. It includes skills"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON712301",
-        "title": "preparing mixtures used for masonry laying and"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "This unit covers the knowledge, skills and attitudes to"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "This unit covers the skills, knowledge and attitudes"
-      },
-      {
-        "unit_code": "500311112",
-        "title": "This unit of covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "analyzing and interpreting symbols, data and work plan"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      },
-      {
-        "unit_code": "CON712305",
-        "title": "cast baluster and handrail. It covers the skills required to"
-      },
-      {
-        "unit_code": "CON712306",
-        "title": "cement finishes to concrete and masonry surfaces. It"
-      },
-      {
-        "unit_code": "CON712307",
-        "title": "defective concrete surfaces. It deals with the skills"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION - CIVIL WORKS SUB-SECTOR\n\nPerform Complex and\nMulti-Story Plumbing\nInstallation and\nAssemblies\n\nInstall Hot and\nPotable Chilled\nWater Piping\nSystem\nDraft Plumbing\nDesign\nConduct Pipe\nLeak Testing\nPerform Single Unit\nPlumbing\nInstallation and\nAssemblies\n\nPerform Plumbing\nRepair and\nMaintenance\nWorks\n\nPrepare\nconstruction\nMaterials and\nTools\nObserve Procedures,\nSpecifications and\nManuals of\nInstructions\n\nMaintain Tools\nand Equipment\n\nPerform\nMensurations and\nCalculations\n\nInterpret\nTechnical\nDrawings and\nPlans\n\nPrepare Pipes\nfor Installation\nPerform Minor\nConstruction\nWorks\n Make Piping\nJoints and\nConnections\nANNEX A\n\nFabricate\nFormworks\nInstall stair\ncomponents and/or\npre-fabricated stair\nassembly\nInstall architectural\nceiling, wall\nsheats/panels/\nboards and floor\n\nFabricate/Install\nDoor/Window\nJambs and\nPanels\n\n Strip Form\nwork\nComponents\n Install built-in\nand/or pre-\nfabricated\ncabinets\n\n Perform basic\nmasonry works\n\nLay brick/ block\nfor structures\n\nEstimate Paint\nRequirements\n\nPrepare tools,\npainting\nmaterials and\nequipment\nPerform\nMixing/Tinting\nof Color Paints\nPlaster concrete/\nmasonry\nsurfaces\nPerform\nPainting Works\nInstall pre-cast\nballusters and\nhandrails\nRepairs defective\nconcrete and\nmasonry surfaces\nApply special\ncement finishes to\nconcrete and\nmasonry surfaces\nPrepare\nmasonry\nmaterials\nPerform Painting\nRepair Work\nPrepare Surface\nfor Painting\nInstall\nFraming\nWorks\nInstall\nFormwork\nComponents\nStake-out\nBuilding\nLines\nMASONRY NC III\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nRespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and\norganize work\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nhealth and\n Safety procedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures (5S)\n\n--- PDF PAGE 91 ---\n_____________________________________________________________________________________________\nTR MASONRY NC III 89",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON712301",
+        "CON712302",
+        "CON712303",
+        "CON712304",
+        "CON712305",
+        "CON712306",
+        "CON712307"
+      ],
+      "unit_titles": [
+        "Prepare masonry materials",
+        "Perform basic masonry work",
+        "Lay bricks / blocks for structure",
+        "Plaster concrete / masonry surface",
+        "Install pre-cast baluster and handrails",
+        "Apply special cement finishes to concrete and masonry surfaces",
+        "Repair defective concrete and masonry surfaces"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall\nbe awarded a National Certificate signed by the TESDA Director\nGeneral.\n\n4.2.\nThe qualification of Masonry NC III maybe attained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.2.1.1 Prepare masonry materials\n4.2.1.2 Perform basic masonry work\n4.2.1.3 Lay bricks / blocks for structure\n4.2.1.4 Plaster concrete and masonry surface\n4.2.1.5 Install pre-cast baluster and handrails\n4.2.1.6 Apply special cement to concrete and masonry surface\n 4.2.1.7 Repair defective concrete and masonry surface\n\nSuccessful\ncandidates\nshall\nbe\nawarded\nCertificates\nof\nCompetency (COCs)\n\n4.2.2 Demonstration of competence through project-type assessment\ncovering all the required units of the qualification\n\n4.3.\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n4.4.\nThe following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.3.2. Experienced Workers (wage employed or self-employed)\n\n4.5.\nThe guidelines on assessment and certification are discussed in\ndetail in the Procedures Manual on Assessment and Certification and\nguidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 90 ---\n_____________________________________________________________________________________________\nTR MASONRY NC III\n88\n\nCOMMON\nCOMPETENCIES\nCORE COMPETENCIES\nCOMPETENCY MAP\nCONSTRUCTION - CIVIL WORKS SUB-SECTOR\n\nPerform Complex and\nMulti-Story Plumbing\nInstallation and\nAssemblies\n\nInstall Hot and\nPotable Chilled\nWater Piping\nSystem\nDraft Plumbing\nDesign\nConduct Pipe\nLeak Testing\nPerform Single Unit\nPlumbing\nInstallation and\nAssemblies\n\nPerform Plumbing\nRepair and\nMaintenance\nWorks\n\nPrepare\nconstruction\nMaterials and\nTools\nObserve Procedures,\nSpecifications and\nManuals of\nInstructions\n\nMaintain Tools\nand Equipment\n\nPerform\nMensurations and\nCalculations\n\nInterpret\nTechnical\nDrawings and\nPlans\n\nPrepare Pipes\nfor Installation\nPerform Minor\nConstruction\nWorks\n Make Piping\nJoints and\nConnections\nANNEX A\n\nFabricate\nFormworks\nInstall stair\ncomponents and/or\npre-fabricated stair\nassembly\nInstall architectural\nceiling, wall\nsheats/panels/\nboards and floor\n\nFabricate/Install\nDoor/Window\nJambs and\nPanels\n\n Strip Form\nwork\nComponents\n Install built-in\nand/or pre-\nfabricated\ncabinets\n\n Perform basic\nmasonry works\n\nLay brick/ block\nfor structures\n\nEstimate Paint\nRequirements\n\nPrepare tools,\npainting\nmaterials and\nequipment\nPerform\nMixing/Tinting\nof Color Paints\nPlaster concrete/\nmasonry\nsurfaces\nPerform\nPainting Works\nInstall pre-cast\nballusters and\nhandrails\nRepairs defective\nconcrete and\nmasonry surfaces\nApply special\ncement finishes to\nconcrete and\nmasonry surfaces\nPrepare\nmasonry\nmaterials\nPerform Painting\nRepair Work\nPrepare Surface\nfor Painting\nInstall\nFraming\nWorks\nInstall\nFormwork\nComponents\nStake-out\nBuilding\nLines\nMASONRY NC III\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nRespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and\norganize work\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nhealth and\n Safety procedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures (5S)\n\n--- PDF PAGE 91 ---\n_____________________________________________________________________________________________\nTR MASONRY NC III 89\nDEFINITION OF TERMS\n\n1. Baluster\nRefers to a post, which supports a handrail and encloses the\nopen sections of a stairway.\n\n2. Competency\nIs the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace.\n\n3. Cement\nIs a dry powder from silica, alumina, lime, iron oxide and\nmagnesia which hardens when mix with water.\n\n4. Certification\nRefers to the process of verifying and validating competencies of\na person through assessment.\n\n5. Dowel\nA headless, cylindrical pin which, is sunk into corresponding\nholes.\n6. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person who\nworks in a particular area of work is able to perform.\n\n7. Evidence Guide\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills, resource implications, context of assessment and\nassessment method.\n\n8. Form works\nRefer to the temporary wooden casing used to contain concrete\nduring its placing and hardening.\n9. General Masonry Refers to the preparation and placement of concrete for\nstructures; finishing masonry surfaces by plastering, chipping,\ngrinding, jointing, sand blasting, terrazzo and other related\nprocesses; installation, laying, fitting and setting of masonry\nproducts, such as bricks, stones, marble tiles, mosaic panels\nand similar or associated materials.\n\n10. Grout\nRefers to a fluid mixture of cement and water, or a mixture of\ncement, sand and water.\n\n11. Handrail\nRefers to a narrow rail to be grasped by a person for support.\n\n12. Level\nRefers to the category following the level of difficulty and\ncomplexity of skills and knowledge required to do the job.\n\n13. Lintel\nRefers to the horizontal member over an opening such as door\nor window, usually carrying the load.\n\n--- PDF PAGE 92 ---\n_____________________________________________________________________________________________\nTR MASONRY NC III 90\n\n14. Mortar\nRefers to a mixture of cement lime and sand used for laying\nbricks or masonry.\n\n15. Philippine\n TVET\n Qualification\nFramework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter\nfor the integration of learning and assessment in the middle skills\ndevelopment.\n\n16. Qualification\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person\nhas achieved competencies relevant to a trade or industry.\n\n17. Range of\nVariable\nIt describes the circumstances or context in which the work is to\nbe performed.\n\n18. Reinforcing bar Refers to the steel rods that are embedded in building materials\nsuch as concrete for reinforcement.\n\n19. Scaffold\nRefers to a temporary or movable platform supported on the\nground or suspended, used for working at considerable heights\nabove the ground.\n\n20. Terrazo\nRefers to a mosaic surface made by embedding marble or\ngranite chips in mortar, allowing the mortar to harden, and the\ngrinding and polishing the surface.\n\n21. Unit of\n Competency\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n\n--- PDF PAGE 93 ---\n_____________________________________________________________________________________________\nTR MASONRY NC III 91\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies and who contributed their time and\nexpertise to the development and validation of this Training Regulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nABELARDO E. AUREADA\nSenior Trade Industry\nDevelopment Specialist\nConstruction Manpower\nDevelopment Foundation\nMakati City\n\nJOHN N. CALAMIONG, Ed.D.\nProfessor II\nTechnological University of the\nPhilippines - Taguig Campus\n\nRichard M. Honrado\nEEI Corporation\n#12 Manggahan St.,\nBrgy. Bagumbayan, Quezon City\nPaulino M. Villacruzada\nDM Consunji, Inc.\nDMCI Plaza, 2281 Pasong Tamo Ext.\nMakati City\n\nVictor A. Frias\nMakati Development Corporation\nAyala FGU Bldg.,\nMadrigal Business Park\nAlabang, Muntinlupa City\n\nWilfredo V. Traya\nNational Union of Building &\n Construction Workers\nDoor 2, Monteverde Bldg.,\nBangoy St., Davao City\n\nMeynardo P. Palarca\nNational Union of Building &\n Construction Workers\n26 Matalino St.,\nDiliman, Quezon City\nRuel C. Carballo\nNational Union of Building &\n Construction Workers\nDoor 2, Monteverde Bldg.,\nBangoy St., Davao City\n\n--- PDF PAGE 94 ---\n_____________________________________________________________________________________________\nTR MASONRY NC III 92\n\nJoan D. Tañamor\nNational Union of Building &\n Construction Workers\nDoor 2, Monteverde Bldg.,\nBangoy St., Davao City\nValeriano D. Mag-usara\nUCC / Alsons Cement Corporation\nLugait, Misamis Oriental\n\nThe Management and Staff of the TESDA Secretariat\n\n•\nSkills Standards and Certification Office\n•\nNational Institute for Technical-\nVocational Education and Training\n\nThe Management and Staff of the Philippine Constructors Association (PCA)\n\nThe Management and Staff of the National Union of Building Construction Workers\n(NUBCW)"
 }
