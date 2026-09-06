@@ -1,29 +1,139 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:grains-production-nc-ii:2015-12-16",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:grains-production-nc-ii:6e7327c8e9",
   "qualification": "GRAINS PRODUCTION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Grains Production NC II.pdf",
-    "sha256": "6e7327c8e903954f7acc961decad03a9ec1f87d8318a393d0967a7dc4987745f",
+    "source_sha256": "6e7327c8e903954f7acc961decad03a9ec1f87d8318a393d0967a7dc4987745f",
+    "pdf_pages": 121,
+    "printed_pages": 116,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is labeled New and prints Promulgated December 16, 2015; the canonical date field preserves the printed date literal.",
+    "The source prints 20 Basic, 72 Common, and 331 Core hours; the canonical duration records the 423-hour arithmetic total.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills. Section 1 prints AGR321201–AGR321203 while the unit headings use AFF321201–AFF321203; the canonical unit codes follow the competency headings and preserve the Section 1 discrepancy in this source-fidelity note."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is labeled New and prints Promulgated December 16, 2015; the canonical date field preserves the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 72 Common, and 331 Core hours; the canonical duration records the 423-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills. Section 1 prints AGR321201–AGR321203 while the unit headings use AFF321201–AFF321203; the canonical unit codes follow the competency headings and preserve the Section 1 discrepancy in this source-fidelity note."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Grains Production NC II.pdf",
-    "pdf_pages": 121,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        17,
+        22
+      ]
+    },
+    {
+      "unit_code": "AFF321201",
+      "source_unit_code": "AFF321201",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "AFF321202",
+      "source_unit_code": "AFF321202",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "AFF321203",
+      "source_unit_code": "AFF321203",
+      "pdf_page_range": [
+        30,
+        31
+      ]
+    },
+    {
+      "unit_code": "AFF611305",
+      "source_unit_code": "AFF611305",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "AFF611306",
+      "source_unit_code": "AFF611306",
+      "pdf_page_range": [
+        37,
+        40
+      ]
+    },
+    {
+      "unit_code": "AFF611307",
+      "source_unit_code": "AFF611307",
+      "pdf_page_range": [
+        41,
+        46
+      ]
+    },
+    {
+      "unit_code": "AFF611308",
+      "source_unit_code": "AFF611308",
+      "pdf_page_range": [
+        47,
+        53
+      ]
+    },
+    {
+      "unit_code": "AFF611309",
+      "source_unit_code": "AFF611309",
+      "pdf_page_range": [
+        54,
+        59
+      ]
+    }
+  ]
 }

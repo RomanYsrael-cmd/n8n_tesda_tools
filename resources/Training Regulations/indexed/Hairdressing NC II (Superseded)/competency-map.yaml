@@ -1,84 +1,63 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:hairdressing-nc-ii:b79de59adc",
-  "qualification": "HAIRDRESSING NC II",
+  "document_id": "tesda:tr:hairdressing-nc-ii-superseded:b79de59adc",
+  "qualification": "HAIRDRESSING NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515303",
-        "title": "This unit covers the knowledge, skills and attitude in"
-      },
-      {
-        "unit_code": "HCS515304",
-        "title": "preparing the client prior to treatment, the actual"
-      },
-      {
-        "unit_code": "HCS515305",
-        "title": "performing basic haircut service. It involves conducting"
-      },
-      {
-        "unit_code": "HCS515306",
-        "title": "This unit covers the knowledge, skills and attitude in the"
-      },
-      {
-        "unit_code": "HCS515314",
-        "title": "applying basic facial make-up. It also involves the"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HCS516201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HCS515301",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS516202",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515204",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515205",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515302",
-        "title": ":"
-      },
-      {
-        "unit_code": "HCS515308",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nHEALTH, SOCIAL AND OTHER COMMUNITY DEV’T\nSERVICES SECTOR – COSMETOLOGY SUB-SECTOR\nHAIRDRESSING NC II\nMaintain an\neffective\nrelationship\nwith clients/\ncustomers\nApply\nquality\nstandards\nManage\nown\nperformance\nCOMMON\nCOMPETENCIES\nMaintain a safe,\nclean and\nefficient\nenvironment\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nprocedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\nCORE\nCOMPETENCIES\nPerform\nadvanced/\ncreative\nhair coloring\nPerform\nhaircut\nShave\nand style beard\nand mustache\nPerform\nbasic\nhaircutting\nPerform\nhair\nbleaching\nPerform\nhair\nstraightening\nPerform\ncreative\nhairstyle\nPerform\nbasic\nhair coloring\nPerform\nbasic hair\nperming\nPerform\nadvanced/\ncreative\nhair perming\nPerform\nadvanced/\ncreative\nhaircutting\nPerform hair\nand scalp\ntreatment\nPerform\nfacial cleansing\nPerform\neyelash\nenhancement\nPerform\ntemporary hair\nremoval activity\nPerform\nbody bleach\nPerform\npre and post\nhair care\nactivities\nPerform\neyebrow arching\nand shaping\nPerform facial\ncleansing and\ntreatment\nPerform\nhand spa\nPerform finger\nnail extensions\nPerform\nfoot spa\nPerform\ncreative nail\ndesign\nPerform\nchair spot\nmassage\nPerform\nbody massage\nPerform\nadvanced\nmake-up\nPerform\nmanicure and\npedicure\nPerform\nbody scrub\nApply\nbasic make-up\nPerform\nhairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair extension\nactivities\nELECTIVE\nCOMPETENCIES\nPerform basic\nhair perming\nPerform men’s\nhairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair relaxing\nPerform\ntattooing\nPerform\nprosthetic and\nspecial effects\nmake-up\nPerform\nnail wrap\ntreatment\n\n--- PDF PAGE 69 ---\nTR - Hairdressing NC II\nAmended November 2010\n65",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HCS516201",
+        "HCS516202",
+        "HCS515204",
+        "HCS515205"
+      ],
+      "unit_titles": [
+        "Maintain effective relationship with clients/customers",
+        "Manage own performance",
+        "Apply quality standards",
+        "Maintain a safe, clean and efficient work environment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HCS515301",
+        "HCS515302",
+        "HCS515303",
+        "HCS515304",
+        "HCS515305",
+        "HCS515306",
+        "HCS515308",
+        "HCS515314"
+      ],
+      "unit_titles": [
+        "Perform pre- and post- hair care activities",
+        "Perform hair and scalp treatment",
+        "Perform basic hair perming",
+        "Perform basic hair coloring",
+        "Perform basic haircutting",
+        "Perform hair bleaching",
+        "Perform hair straightening",
+        "Apply basic make-up"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National Certificate\nsigned by the TESDA Director General.\n\n4.2 The qualification of HAIRDRESSING NC II may be attained through:\n\n4.2.1 Demonstration of competency through project-type assessment\ncovering all required core units of the qualification.\n\n4.2.2 Accumulation of Certificate of Competency (COC) in all the following\ngroups or clusters of core units of the qualification:\n\n 4.2.2.1 Performing support salon services\n\n4.2.2.1.1 Perform pre and post hair care activities\n\n4.2.2.1.2 Perform hair and scalp treatment\n4.2.2.2 Performing hair coloring/bleaching services\n4.2.2.2.1 Perform pre and post hair care activities\n4.2.2.2.2 Perform basic hair coloring\n4.2.2.2.3 Perform hair bleaching\n\n4.2.2.3 Performing hair perming/straightening\n\n4.2.2.3.1 Perform pre and post hair care activities\n\n4.2.2.3.2 Perform hair perming\n\n4.2.2.3.3 Perform hair straightening\n\n4.2.2.4 Performing haircutting services\n\n4.2.2.4.1 Perform pre and post hair care activities\n\n4.2.2.4.2 Perform basic haircutting\n4.2.2.5 Applying basic make-up\n4.2.2.5.1 Apply basic make-up\n\nSuccessful candidates shall be awarded Certificates of Competency\n\n(COC).\n\n4.3 Upon accumulation and submission of all COCs acquired for the above\nunits of competency comprising this qualification, an individual shall be\nissued the corresponding National Certificate.\n\n4.4 Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4 The following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n4.5.2 Experienced workers (wage-employed or self-employed)\n\n4.5 The guidelines on assessment and certification are discussed in detail in\nthe “Procedures Manual on Assessment and Certification” and “Guidelines\non the Implementation of the Philippine TVET Qualification and Certification\nSystem (PTQCS)”.\n\n--- PDF PAGE 68 ---\nTR - Hairdressing NC II\nAmended November 2010\n64\n\nPerform\nhair\nbleaching\nCOMPETENCY MAP\nHEALTH, SOCIAL AND OTHER COMMUNITY DEV’T\nSERVICES SECTOR – COSMETOLOGY SUB-SECTOR\nHAIRDRESSING NC II\nMaintain an\neffective\nrelationship\nwith clients/\ncustomers\nApply\nquality\nstandards\nManage\nown\nperformance\nCOMMON\nCOMPETENCIES\nMaintain a safe,\nclean and\nefficient\nenvironment\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nprocedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\nCORE\nCOMPETENCIES\nPerform\nadvanced/\ncreative\nhair coloring\nPerform\nhaircut\nShave\nand style beard\nand mustache\nPerform\nbasic\nhaircutting\nPerform\nhair\nbleaching\nPerform\nhair\nstraightening\nPerform\ncreative\nhairstyle\nPerform\nbasic\nhair coloring\nPerform\nbasic hair\nperming\nPerform\nadvanced/\ncreative\nhair perming\nPerform\nadvanced/\ncreative\nhaircutting\nPerform hair\nand scalp\ntreatment\nPerform\nfacial cleansing\nPerform\neyelash\nenhancement\nPerform\ntemporary hair\nremoval activity\nPerform\nbody bleach\nPerform\npre and post\nhair care\nactivities\nPerform\neyebrow arching\nand shaping\nPerform facial\ncleansing and\ntreatment\nPerform\nhand spa\nPerform finger\nnail extensions\nPerform\nfoot spa\nPerform\ncreative nail\ndesign\nPerform\nchair spot\nmassage\nPerform\nbody massage\nPerform\nadvanced\nmake-up\nPerform\nmanicure and\npedicure\nPerform\nbody scrub\nApply\nbasic make-up\nPerform\nhairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair extension\nactivities\nELECTIVE\nCOMPETENCIES\nPerform basic\nhair perming\nPerform men’s\nhairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair relaxing\nPerform\ntattooing\nPerform\nprosthetic and\nspecial effects\nmake-up\nPerform\nnail wrap\ntreatment\nPerform\nhair\nbleaching\nCOMPETENCY MAP\nHEALTH, SOCIAL AND OTHER COMMUNITY DEV’T\nSERVICES SECTOR – COSMETOLOGY SUB-SECTOR\nHAIRDRESSING NC II\nMaintain an\neffective\nrelationship\nwith clients/\ncustomers\nApply\nquality\nstandards\nManage\nown\nperformance\nCOMMON\nCOMPETENCIES\nMaintain a safe,\nclean and\nefficient\nenvironment\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nprocedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\nCORE\nCOMPETENCIES\nPerform\nadvanced/\ncreative\nhair coloring\nPerform\nhaircut\nShave\nand style beard\nand mustache\nPerform\nbasic\nhaircutting\nPerform\nhair\nbleaching\nPerform\nhair\nstraightening\nPerform\ncreative\nhairstyle\nPerform\nbasic\nhair coloring\nPerform\nbasic hair\nperming\nPerform\nadvanced/\ncreative\nhair perming\nPerform\nadvanced/\ncreative\nhaircutting\nPerform hair\nand scalp\ntreatment\nPerform\nfacial cleansing\nPerform\neyelash\nenhancement\nPerform\ntemporary hair\nremoval activity\nPerform\nbody bleach\nPerform\npre and post\nhair care\nactivities\nPerform\neyebrow arching\nand shaping\nPerform facial\ncleansing and\ntreatment\nPerform\nhand spa\nPerform finger\nnail extensions\nPerform\nfoot spa\nPerform\ncreative nail\ndesign\nPerform\nchair spot\nmassage\nPerform\nbody massage\nPerform\nadvanced\nmake-up\nPerform\nmanicure and\npedicure\nPerform\nbody scrub\nApply\nbasic make-up\nPerform\nhairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair extension\nactivities\nELECTIVE\nCOMPETENCIES\nPerform basic\nhair perming\nPerform men’s\nhairpiece\nattachment,\nstyling and\nmaintenance\nPerform\nhair relaxing\nPerform\ntattooing\nPerform\nprosthetic and\nspecial effects\nmake-up\nPerform\nnail wrap\ntreatment\n\n--- PDF PAGE 69 ---\nTR - Hairdressing NC II\nAmended November 2010\n65\nDEFINITION OF TERMS\n\nAnalysis Hair\n-\nan examination to determine the condition of the hair prior to a\nhair treatment\nAniline\nDerivative\nTints\n-\nare also known as penetrating tints, synthetic, organic tints and\nperoxide or oxidation tints and are commonly called tints in the\nindustry\nBack Combing\n-\ncombing the short hair toward the scalp while the hair strand is\nheld in a vertical position also called teasing\nBarbering\n-\nshould be done at eye level starting at the hairline. A method\nused in cutting the hair closed to the scalp and refer to as scissor\nover comb\nBaseline\n-\nthe first/foundation line to be cut which subsequent sections are\ncut to\nBasic\nHairshaping\n-\nShaping the hair that is not too long or too short to different head\nshape\nBleaching\n-\nremoving the natural pigmentation\nBlunt cutting\n-\nall hair strands must direct at the same point. The hair appears to\nbe the same length\nBob\n-\na level haircut above the shoulders\nBraid\n-\nto weave interlace or entwine together\nChemical\ndamage\n-\ndamage to the hair fibre through the overuse of chemicals such\nas permanent waves, colour, hydrogen peroxide, ammonia\nClippers\n-\nare like electric razors mostly used to smoothen the back of the\nneck\nCoiffure\n-\nan arrangement or dressing of the hair\nCold waving\n-\na system of permanent waving involving the use of chemicals,\nwithout the application of heat\nColor Fillers\n-\nare used if the hair is in damaged condition and there is doubt\nthat the color result will be an even shade\nColor stripping\n-\nremoving artificial color by bleaching or chemical color stripper\nColor test/tint\n-\na method of determining the action of color on a small strand of\nhair\nConditioner\n-\ncreams, waxes and oils which help protect and maintain the\nhealth and condition of the hair\nConditioning\n-\nthe application of special chemical agents to the hair to help\nrestore its strength and give it body in order to protect it against\npossible breakage\nContour\nwinding\n-\na loose wave, winding the perm rods to the contour of the head -\nshape\nCuticle\n-\nthe outer layer of the hair; the hard skin at the base of the\nfingernail\nDesign\n-\na plan or arrangement of a hairstyle\nDiffuser\n-\nan attachment on a blow dryer that “shatters’ the flow of air so\nthat the hair can be soft styled\nDye\n-\nto color or stain the hair with tint\n\n--- PDF PAGE 70 ---\nTR - Hairdressing NC II\nAmended November 2010\n66\n\nElasticity\n-\nthe ability of the hair to stretch and return to its original form\nwithout breaking\nEmulsifying\nagent\n-\na substance used to form an emulsion, e.g. shampoo\nEnd paper\n-\na small paper tissue used at the end of a strand of hair to assist\nthe winding of the perm rod\nFrosting\n-\nto lighten or darken small selected strands of hair over the entire\nhead to blend with the root of the hair\nGraduation\n-\nthe grade at which the hair is cut by degrees\nGuideline\n-\na line to follow when shaping the balance of the hair\nHair analysis\n-\nan examination to determine the condition of the hair prior to a\nhair treatment\nHair Density\n-\nthe amount of hair strands per square inch on the scalp\nHair Cutting\n-\na process to thinning, tapering and shortening of the hair into a\nbecoming shapes or styles\nHair Extension\n-\nprocess used to add volume or length to your hair by bonding\nsynthetic or real hair at your roots.\nHairstyling\n-\na process of arranging the hair into a temporary design\n\n-\nInvolves arranging the hair in a particular style, appropriately\nsuited to the cut, and may require the use of hairstyling aid such\nas hair spray, gel or mousse\nHair stylist\n-\na person who designs and dresses the hair\nHot oil\ntreatment\n-\na process of treating hair and scalp\nIrons\n-\none of the most important hair tool inventions in the last 20 years.\nCreates poker straight hair as well as beautiful curls depending\non which technique you use\nKeratin\n-\nkeratin is a protein that your hair is made up of.\nLayer/Layering\n-\nholding the hair out from the head at a 90 degree angle and then\nremoving a defined amount to remove volume, give movement,\nand added texture\nLysine\n-\nan animo acid found in hair\nMedulla\n-\na hollow pith or core of the hair fibre.\nMelanin\n-\n the dark or black pigment in the epidermis and hair, and in the\nchoroids or coat of the eye\nNeutralizer\n-\nan agent capable of neutralizing another substance\nNormal hair\nshedding\n-\na certain amount of hair is shed daily. This is nature’s method to\nmake way for new hair. The average daily shedding is estimated\nat 50-80 hairs. Hair loss beyond this estimated average indicates\nsome scalp or hair trouble.\nLayering\n-\nis a technique used by hairdressers to change the thickness of\nthe hair, creating either a thinning or thicker appearance. In this\nway the hair can be given a fuller appearance, more texture and\nmovement.\nPatch or skin\ntest\n-\ntest to prove that chemicals will have no allergic reaction on scalp\nPerm\n-\nabbreviation for permanent wave\nPorosity\n-\nability of the hair to absorb moisture\n\n--- PDF PAGE 71 ---\nTR - Hairdressing NC II\nAmended November 2010\n67\nRebonding\n-\nrejoining the lines and bonds on the keratin chais – neutralizing\nRelaxer\n-\na chemical applied to the hair to remove the natural curl\nRetouch\n-\nto recolor the regrowth\nSectioning\n-\nsectioning your hair allows you to only pay attention to a\nparticular area or panel of hair. You or your hairdresser will do\nthis when blow-drying, cutting or colouring your hair, and will\nsection your hair by taking a panel of hair and pinning or ignoring\nthe rest.\nSetting lotion\n-\na liquid used to facilitate setting, retaining the holding power of\nthe set (or blow dry) by coating the hair fibre and thereby resisting\nthe absorption of moisture\nSerum\n-\na serum is a smoothing product to stop your hair from frizzing,\nkeeping it smooth and straight. You’ll be able to find a serum that\nis specifically designed to your own hair type.\nShimmering\n-\nshading or tinting parts of the hair to enhance the style\nShingling\n-\nis cutting the hair close to the nape and gradually longer toward\nthe crown, without showing a definite line\nSlithering\n-\ntapering the hair to graduated length with scissors\nSpiral winding\n-\nwinding the hair from roots to points.\nStack winding\n-\na method of permanent waving whereby the perm rod are built up\non top of each other, in a pile\nStreaking\n-\nlayers or strands of hair with a contrasting color, usually placed\nso as to enhance the appearance\nSymmetrical\n-\nhair equally distributed on both sides of the head\nTaper\n-\nto diminish a strand of hair gradually toward the points by cutting.\nRemoving bulk from the ends of the hair\nThinning\n-\nremoving bulk from the hair\nToners\n-\nthe colors applied to hair which has been lightened – delicate\npastel shades, e.g. champagne, beige, silver\nTexture\n-\ncoarseness and fineness of the hair\nTexturizing\n-\nis performed after the over all cut has been completed. Thinning\nor notching are used to create wispy or spiky effect.\nTreatment\n-\na treatment is used in between Shampoo and Conditioner to put\nprotein back into the hair. You should leave the treatment in your\nhair for approximately 5 minutes before using your conditioner.\nYou’ll be able to find a treatment designed for your hair type.\nTrichologist\n-\na person trained in the science of caring for the hair\nTrichology\n-\nthe study of the structure and functions of the hair\nVent brush\n-\na brush with widely spaced plastic bristles designed to be used\nwhile blow drying\nWig\n-\nAn artificial covering for the head consisting of a newtwork of\ninterwoven hair\n\n--- PDF PAGE 72 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\nINDUSTRY EXPERTS\nREVIEW PANEL (2010)\n\nEMMA P. ALBIOR\nMARIA EVANGELINE V. BERTUMEN\nPhilippine International Haircutters\nPhilippine International Haircutters Association\nAssociation (PIHA)\n(PIHA)\n#2 Anonas St., Project 3, Quezon City\n#2 Anonas St., Project 3, Quezon City\nLOURDES D. CO\nALEXANDER S. DUNGO\nTrainer/Expert\nPhilippine International Haircutters\nTony Galvez School of Cosmetology\nAssociation (PIHA)\n9th Ave., Cubao, Quezon City\n#2 Anonas St., Project 3, Quezon City\nANTONIO M. GALVEZ\nWILFREDO T. GARCIA\nOwner/Industry Expert\nPhilippine International Haircutters\nTony Galvez Salon/ Tony Galvez School\nAssociation (PIHA)\nof Cosmetology\n#2 Anonas St., Project 3, Quezon City\n(Member, International Cosmetology\nGEORGE A. MANUEL\nOrganization (ICLO))\nPhilippine International Cosmetologists\n9th Ave., Cubao, Quezon City\nAssociation (PICA)\nAZUCENA P. INOCENCIO\n#69 Scout Rallos St.\nPhilippine International Haircutters\nTomas Morato, Quezon City\nAssociation (PIHA)\nAMBROSIO G. POLICARPIO\n#2 Anonas St., Project 3, Quezon City\nPhilippine International Cosmetologists\nLUISITO C. ORTIZ\nAssociation (PICA)\nPhilippine International Cosmetologists\n#69 Scout Rallos St.\nAssociation (PICA)\nTomas Morato, Quezon City\n#69 Scout Rallos St.\nERNESTO R. VIRAY\nTomas Morato, Quezon City\nPhilippine International Cosmetologists\nLOURD RYAN A. RAMOS\nAssociation (PICA)\nPhilippine International Cosmetologists\n#69 Scout Rallos St.\nAssociation (PICA)\nTomas Morato, Quezon City\n#69 Scout Rallos St.\n\nTomas Morato, Quezon City\n\nThe Participants in the Validation of this Training Regulation\n• Members of the Philippine International Haircutters Association (PIHA)\n• Members of the Philippine International Cosmetologists Association (PICA)\n• Members of the Haircutters and Cosmetologists Association of the Philippines (HACAP)\n\nThe Members of the TESDA Board\n\nThe MANAGEMENT and Staff of the TESDA Secretariat\n• Qualifications and Standards Office (QSO)\n\n--- PDF PAGE 73 ---\nList of Published Training Regulations\n\n\nAnimal Production NC II\n\nAquaculture NC II\n\nAutomotive Body Painting/Finishing NC II\n\nAutomotive Body Repair NC II\n\nAutomotive Engine Rebuilding NC II\n\nAutomotive Servicing NC II\n\nBartending NC II\n\nBeauty Care NC II\n\nBeauty Care NC III\n\nBuilding Wiring Installation NC II\n\nCarpentry NC II\n\nCommercial Cooking NC II\n\nComputer Hardware Servicing NC II\n\nDeck Seafaring NC II\n\nDressmaking NC II\n\nDriving NC II\n\nEngine Seafaring NC II\n\nFood and Beverage Services NC II\n\nFootwear Making NC II\n Hairdressing NC II\n\nHairdressing NC III\n\nHeavy Equipment Operation NC II\n\nHorticulture NC II\n\nHousehold Services NC II\n\nHousekeeping NC II\n\nMachining NC II\n\nMasonry NC II\n\nMotorcycle and Small Engine Servicing NC II\n\nPersonal Care Service (Caregiving) NC II\n\nPlumbing NC II\n\nPyrotechnics NC II\n\nRAC Servicing NC I\n\nRAC Servicing NC II\n\nSecurity Services NC I\n\nSecurity Services NC II\n\nTailoring NC II\n\nTour Guiding Services NC II\n\nTransport RAC Servicing NC II\n\nTravel Services NC II\n\nWelding NC II\nThese materials are available in both printed and electronic copies.\nFor more information please contact:\nTechnical Education and Skills Development Authority (TESDA)\nTelephone Nos.: 893-8303, 893-2139; 817-4076 to 82 loc. 615 to 617\nor visit our website: www.tesda.gov.ph\nPerform\nwig/hairpiece\nattachment,\nstyling and\nmaintenance\n\nPerform basic\nhair perming"
 }

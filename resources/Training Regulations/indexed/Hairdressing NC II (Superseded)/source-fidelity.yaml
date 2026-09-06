@@ -1,29 +1,171 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:hairdressing-nc-ii:b79de59adc",
-  "qualification": "HAIRDRESSING NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:hairdressing-nc-ii-superseded:b79de59adc",
+  "qualification": "HAIRDRESSING NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Hairdressing NC II (Superseded).pdf",
-    "sha256": "b79de59adc3904651050b724708bfdbbaf2f39f7888612215271841acaa093ae",
+    "authority": "TESDA",
+    "source_file": "Hairdressing NC II (Superseded).pdf",
+    "source_sha256": "b79de59adc3904651050b724708bfdbbaf2f39f7888612215271841acaa093ae",
+    "pdf_pages": 73,
+    "printed_pages": 67,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is explicitly labeled Amended November 2010 and the local package is retained as superseded; no separate promulgation date is printed in the source header, so the canonical promulgated field remains null. The source notes that it amends a Training Regulation promulgated in August 2005.",
+    "The source prints 18 Basic, 18 Common, and 620 Core hours; the canonical duration records the 656-hour arithmetic total.",
+    "The source uses historical two-column Element/Performance Criteria tables and preserves source terminology. The Section 1 list uses HCS515201/HCS515202 while the unit headings use HCS516201/HCS516202; the canonical unit codes follow the competency headings and preserve the discrepancy in this source-fidelity note."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is explicitly labeled Amended November 2010 and the local package is retained as superseded; no separate promulgation date is printed in the source header, so the canonical promulgated field remains null. The source notes that it amends a Training Regulation promulgated in August 2005."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, and 620 Core hours; the canonical duration records the 656-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria tables and preserves source terminology. The Section 1 list uses HCS515201/HCS515202 while the unit headings use HCS516201/HCS516202; the canonical unit codes follow the competency headings and preserve the discrepancy in this source-fidelity note."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Hairdressing NC II (Superseded).pdf",
-    "pdf_pages": 73,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "HCS516201",
+      "source_unit_code": "HCS516201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "HCS516202",
+      "source_unit_code": "HCS516202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "HCS515204",
+      "source_unit_code": "HCS515204",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "HCS515205",
+      "source_unit_code": "HCS515205",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "HCS515301",
+      "source_unit_code": "HCS515301",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "HCS515302",
+      "source_unit_code": "HCS515302",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "HCS515303",
+      "source_unit_code": "HCS515303",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "HCS515304",
+      "source_unit_code": "HCS515304",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "HCS515305",
+      "source_unit_code": "HCS515305",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    },
+    {
+      "unit_code": "HCS515306",
+      "source_unit_code": "HCS515306",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "HCS515308",
+      "source_unit_code": "HCS515308",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "HCS515314",
+      "source_unit_code": "HCS515314",
+      "pdf_page_range": [
+        54,
+        57
+      ]
+    }
+  ]
 }
