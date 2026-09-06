@@ -1,29 +1,277 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:horticulture-nc-iii:2558928f07",
   "qualification": "HORTICULTURE NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Horticulture NC III.pdf",
-    "sha256": "2558928f075590aacfd27c5daf757477e9d5e47f4d40bfdebd3a29ca3d7b4c21",
+    "source_sha256": "2558928f075590aacfd27c5daf757477e9d5e47f4d40bfdebd3a29ca3d7b4c21",
+    "pdf_pages": 144,
+    "printed_pages": 138,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not display a visible promulgation date; the canonical promulgated field remains null while the -1- through -138- printed-page sequence is preserved.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 18 Basic, 14 Common, and 413 Core hours for a 445-hour total; elective units are listed separately in Section 1 and Section 2 without a separate duration component.",
+    "The fifth basic competency heading prints code 3500311113 while Section 1 identifies 500311113; the canonical unit code follows the competency heading and preserves the Section 1 code through source_unit_code and source-fidelity notes.",
+    "The elective unit heading for Prepare Grain Storages prints AGRA611328 while Section 1 identifies AGR611328; the canonical unit code follows the competency heading and preserves the Section 1 code through source_unit_code and source-fidelity notes."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not display a visible promulgation date; the canonical promulgated field remains null while the -1- through -138- printed-page sequence is preserved."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 14 Common, and 413 Core hours for a 445-hour total; elective units are listed separately in Section 1 and Section 2 without a separate duration component."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The fifth basic competency heading prints code 3500311113 while Section 1 identifies 500311113; the canonical unit code follows the competency heading and preserves the Section 1 code through source_unit_code and source-fidelity notes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The elective unit heading for Prepare Grain Storages prints AGRA611328 while Section 1 identifies AGR611328; the canonical unit code follows the competency heading and preserves the Section 1 code through source_unit_code and source-fidelity notes."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Horticulture NC III.pdf",
-    "pdf_pages": 144,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "3500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "AGR321201",
+      "source_unit_code": "AGR321201",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "AGR321202",
+      "source_unit_code": "AGR321202",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "AGR321203",
+      "source_unit_code": "AGR321203",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "AGR611310",
+      "source_unit_code": "AGR611310",
+      "pdf_page_range": [
+        33,
+        37
+      ]
+    },
+    {
+      "unit_code": "AGR611311",
+      "source_unit_code": "AGR611311",
+      "pdf_page_range": [
+        38,
+        44
+      ]
+    },
+    {
+      "unit_code": "AGR611312",
+      "source_unit_code": "AGR611312",
+      "pdf_page_range": [
+        45,
+        50
+      ]
+    },
+    {
+      "unit_code": "AGR611313",
+      "source_unit_code": "AGR611313",
+      "pdf_page_range": [
+        51,
+        55
+      ]
+    },
+    {
+      "unit_code": "AGR611314",
+      "source_unit_code": "AGR611314",
+      "pdf_page_range": [
+        56,
+        61
+      ]
+    },
+    {
+      "unit_code": "AGR611315",
+      "source_unit_code": "AGR611315",
+      "pdf_page_range": [
+        62,
+        66
+      ]
+    },
+    {
+      "unit_code": "AGR611316",
+      "source_unit_code": "AGR611316",
+      "pdf_page_range": [
+        67,
+        71
+      ]
+    },
+    {
+      "unit_code": "AGR611317",
+      "source_unit_code": "AGR611317",
+      "pdf_page_range": [
+        72,
+        77
+      ]
+    },
+    {
+      "unit_code": "AGR611318",
+      "source_unit_code": "AGR611318",
+      "pdf_page_range": [
+        78,
+        80
+      ]
+    },
+    {
+      "unit_code": "AGR611319",
+      "source_unit_code": "AGR611319",
+      "pdf_page_range": [
+        81,
+        84
+      ]
+    },
+    {
+      "unit_code": "AGR611325",
+      "source_unit_code": "AGR611325",
+      "pdf_page_range": [
+        85,
+        88
+      ]
+    },
+    {
+      "unit_code": "AGR611326",
+      "source_unit_code": "AGR611326",
+      "pdf_page_range": [
+        89,
+        92
+      ]
+    },
+    {
+      "unit_code": "AGR611327",
+      "source_unit_code": "AGR611327",
+      "pdf_page_range": [
+        93,
+        99
+      ]
+    },
+    {
+      "unit_code": "AGRA611328",
+      "source_unit_code": "AGR611328",
+      "pdf_page_range": [
+        100,
+        105
+      ]
+    },
+    {
+      "unit_code": "AGR611329",
+      "source_unit_code": "AGR611329",
+      "pdf_page_range": [
+        106,
+        108
+      ]
+    },
+    {
+      "unit_code": "AGR611330",
+      "source_unit_code": "AGR611330",
+      "pdf_page_range": [
+        109,
+        112
+      ]
+    },
+    {
+      "unit_code": "AGR611331",
+      "source_unit_code": "AGR611331",
+      "pdf_page_range": [
+        113,
+        118
+      ]
+    },
+    {
+      "unit_code": "AGR611332",
+      "source_unit_code": "AGR611332",
+      "pdf_page_range": [
+        119,
+        122
+      ]
+    },
+    {
+      "unit_code": "AGR611333",
+      "source_unit_code": "AGR611333",
+      "pdf_page_range": [
+        123,
+        127
+      ]
+    }
+  ]
 }

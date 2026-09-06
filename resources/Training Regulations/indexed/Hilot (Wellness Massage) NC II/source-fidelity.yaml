@@ -1,29 +1,144 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:hilot-wellness-massage-nc-ii:7eeb158d01",
   "qualification": "HILOT (WELLNESS MASSAGE) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Hilot (Wellness Massage) NC II.pdf",
-    "sha256": "7eeb158d0125f98c3510a54b232e79de50f9c700bb7410da62c4ca34cf7200bf",
+    "source_sha256": "7eeb158d0125f98c3510a54b232e79de50f9c700bb7410da62c4ca34cf7200bf",
+    "pdf_pages": 72,
+    "printed_pages": 66,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not display a visible promulgation date; the canonical promulgated field remains null while the -1- through -66- printed-page sequence is preserved.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 18 Basic, 22 Common, and 80 Core hours; the canonical duration records the 120-hour arithmetic total.",
+    "Section 1 prints common code HCS222202 while the competency heading prints HCS323202; Section 1 prints core code HCS222304 while the competency heading prints HCS311304. The canonical unit codes follow the competency headings and preserve the Section 1 codes through source_unit_code and source-fidelity notes."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not display a visible promulgation date; the canonical promulgated field remains null while the -1- through -66- printed-page sequence is preserved."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 22 Common, and 80 Core hours; the canonical duration records the 120-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints common code HCS222202 while the competency heading prints HCS323202; Section 1 prints core code HCS222304 while the competency heading prints HCS311304. The canonical unit codes follow the competency headings and preserve the Section 1 codes through source_unit_code and source-fidelity notes."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Hilot (Wellness Massage) NC II.pdf",
-    "pdf_pages": 72,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "HCS323201",
+      "source_unit_code": "HCS323201",
+      "pdf_page_range": [
+        18,
+        22
+      ]
+    },
+    {
+      "unit_code": "HCS323202",
+      "source_unit_code": "HCS222202",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "HCS323203",
+      "source_unit_code": "HCS323203",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "HCS323204",
+      "source_unit_code": "HCS323204",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "HCS222301",
+      "source_unit_code": "HCS222301",
+      "pdf_page_range": [
+        34,
+        38
+      ]
+    },
+    {
+      "unit_code": "HCS222302",
+      "source_unit_code": "HCS222302",
+      "pdf_page_range": [
+        39,
+        43
+      ]
+    },
+    {
+      "unit_code": "HCS222303",
+      "source_unit_code": "HCS222303",
+      "pdf_page_range": [
+        44,
+        53
+      ]
+    },
+    {
+      "unit_code": "HCS311304",
+      "source_unit_code": "HCS222304",
+      "pdf_page_range": [
+        54,
+        58
+      ]
+    }
+  ]
 }

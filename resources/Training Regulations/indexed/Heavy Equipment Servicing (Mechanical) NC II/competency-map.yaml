@@ -2,71 +2,56 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:heavy-equipment-servicing-mechanical-nc-ii:f8c23d3f64",
-  "qualification": "Heavy Equipment Servicing [Mechanical] NC II",
+  "qualification": "HEAVY EQUIPMENT SERVICING (MECHANICAL) NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "to gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "identify role and responsibility as a member of a team."
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON723306",
-        "title": "This unit involves the knowledge, skills and"
-      },
-      {
-        "unit_code": "CON723307",
-        "title": "This unit involves the knowledge, skills and"
-      },
-      {
-        "unit_code": "CON723308",
-        "title": "This unit describes the outcomes required for"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON723305",
-        "title": "This unit involves the knowledge, skills and"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "regulatory and organizational requirements for occupational"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "analyzing and interpreting symbols, data and work plan based"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION-HEAVY EQUIPMENT SERVICING -\nSUB- SECTOR\nBASIC\nService power train\ncomponents I\n\nService electrical\ncomponents\nService engine\nsystem II\nService engine and\nrelated components\nI\nService undercarriage\nsystem III\nService undercarriage\nsystem II\nService electrical\nsystem\nService hydraulic system\nIII\nService power train\nsystem II\nService hydraulic\nsystem II\nService engine system III\nService power train system\nIII\nService hydraulic\ncomponents I\n\nService electronic\ncomponents\nCORE\nCOMPETENCIES\nPrepare\nconstruction\nmaterials and\ntools\nObserve procedures,\nspecifications and\nmanual of instructions\nMaintain tools and\nequipment\nPerform\nmensuration and\ncalculations\nCOMMON\nCOMPETENCIES\nBASIC\nCOMPETENCIES\nReceive and respond\nto workplace\ncommunication\nWork with others\nUse relevant\ntechnologies\nPractice career\nprofessionalism\nUtilize specialized\ncommunication\nskills\nPractice occupational\nhealth and safety\nprocedures\nDevelop teams and\nindividuals\nLead workplace\ncommunication\nDemonstrate work\nvalues\nSolve problems\nrelated to work\nactivities\nDevelop and\npractice negotiation\nskills\nPractice\nhousekeeping\nprocedure (5s)\nUse mathematical\nconcepts and\ntechniques\nWork in a team\nenvironment\nParticipate in\nworkplace\ncommunication\nApply problem-\nsolving techniques\nin the workplace\nPlan and organize\nwork\nCollect, analyze\nand organize\ninformation\nLead small team\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 90 ---\nTR HEAVY EQUIPMENT OPERATION",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON723305",
+        "CON723306",
+        "CON723307",
+        "CON723308"
+      ],
+      "unit_titles": [
+        "Service engine system (II)",
+        "Service power train system (II)",
+        "Service hydraulic system (II)",
+        "Service undercarriage system (II)"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n\n4.2.\nThe qualification of Heavy Equipment Servicing (Mechanical) - NC II\ncan be attained through:\n\n 4.2.2 Demonstration of competence through project-type\n assessment covering all the required units of the qualification\n\n4.3.\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n4.4.\nThe following are qualified to apply for assessment and certification:\n\n 4.4.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2 Experienced Workers (wage employed or self-employed)\n\n4.5.\nThe guidelines on assessment and certification are discussed in\ndetail in the Procedures Manual on Assessment and Certification and\nguidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 89 ---\nTR HEAVY EQUIPMENT OPERATION\n\n I\n\nCOMPETENCY MAP\nCONSTRUCTION-HEAVY EQUIPMENT SERVICING -\nSUB- SECTOR\nBASIC\nService power train\ncomponents I\n\nService electrical\ncomponents\nService engine\nsystem II\nService engine and\nrelated components\nI\nService undercarriage\nsystem III\nService undercarriage\nsystem II\nService electrical\nsystem\nService hydraulic system\nIII\nService power train\nsystem II\nService hydraulic\nsystem II\nService engine system III\nService power train system\nIII\nService hydraulic\ncomponents I\n\nService electronic\ncomponents\nCORE\nCOMPETENCIES\nPrepare\nconstruction\nmaterials and\ntools\nObserve procedures,\nspecifications and\nmanual of instructions\nMaintain tools and\nequipment\nPerform\nmensuration and\ncalculations\nCOMMON\nCOMPETENCIES\nBASIC\nCOMPETENCIES\nReceive and respond\nto workplace\ncommunication\nWork with others\nUse relevant\ntechnologies\nPractice career\nprofessionalism\nUtilize specialized\ncommunication\nskills\nPractice occupational\nhealth and safety\nprocedures\nDevelop teams and\nindividuals\nLead workplace\ncommunication\nDemonstrate work\nvalues\nSolve problems\nrelated to work\nactivities\nDevelop and\npractice negotiation\nskills\nPractice\nhousekeeping\nprocedure (5s)\nUse mathematical\nconcepts and\ntechniques\nWork in a team\nenvironment\nParticipate in\nworkplace\ncommunication\nApply problem-\nsolving techniques\nin the workplace\nPlan and organize\nwork\nCollect, analyze\nand organize\ninformation\nLead small team\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 90 ---\nTR HEAVY EQUIPMENT OPERATION\n\nDEFINITION OF TERMS\n\n1. Adjusting\n\nIs the act of putting back the equipment to operating standard by\nway of adjustments\n2. Certification\n\nRefers to the process of verifying and validating competencies of a\nperson through assessment.\n3. Checking\n\nRefers to the visual and sensory inspection of parts or components\n4. Competency\n\nIs the application of knowledge, skills and attitudes to perform work\nactivities to the standard expected in the workplace.\n5. Electronic system\n checking procedure\nRefers to the inspection of electronic related components used in\nthe hydraulic systems.\n6. Electronic system\n testing procedure\nRefers to the methods and steps in functionality testing of\nelectronic components used in the hydraulic systems as per\nmanufacturer’s recommendations and standards.\n7. Element\nRefers to the building blocks of a unit of competency. It describes\nin outcome terms the functions that a person who works in a\nparticular area of work is able to perform.\n8. Engine system and\n related components\n and parts checking\n procedure\nRefers to the visual and/or sensory inspection conducted to the\nengine and its sub-components.\n9. Engine system and\n related components\n and parts repair and /\n or replacement\n procedure\nIs a procedure in the removal, correction, component or parts\nreplacement and its installation based on manufacturer’s\nrecommendations\n10. Engine system and\n related components\n and parts\nAre subsystems and parts related to the engine system\n11. Engine system\n testing procedure\nRefers to procedural steps or techniques recommended by the\nequipment manufacturer in testing engine and its sub-components\n12. Engine system\n troubleshooting\n procedure\nRefers to the correct method and steps in locating and correcting\ndefects/troubles based on manufacturer’s standards.\n\n--- PDF PAGE 91 ---\nTR HEAVY EQUIPMENT OPERATION\n\n13. Evidence Guide\n\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills,\nresource\nimplications,\ncontext\nof\nassessment\nand\nassessment method.\n14. Hydraulic system\n and related\n components\n checking procedure\nRefers to the visual inspection of hydraulic components such as\npumps, valves, cylinder, etc.\n15. Hydraulic system\n and related\n components\n testing procedure\nRefers to methods and steps in testing for functionality of hydraulic\ncomponents based on manufacturer’s recommendations and\nstandards.\n16. Hydraulic system\n and related\n components minor\n repair and/or\n replacement\n procedure\nRefers to the correction of trouble by method of changing with new\nor reconditioned components or parts of the hydraulic system\n17. Hydraulic system\n and related\n components\n performance\n troubleshooting\n procedure\nRefers to the procedure in locating and correcting defects/ troubles\nof hydraulic system components\n18. Level\n\nRefers to the category following the level of difficulty and\ncomplexity of skills and knowledge required to do the job.\n19. Philippine TVET\n Qualification\n Framework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter for\nthe integration of learning and assessment in the middle skills\ndevelopment.\n20. Power train\n electronic system\n checking procedure\nRefers to the inspection of electronic components used in power\ntrain systems.\n\n21. Power train\n electronic system\n testing procedure\nRefers to functionality related test to electronic components used in\nthe power train system as per manufacturer’s recommendations.\n\n--- PDF PAGE 92 ---\nTR HEAVY EQUIPMENT OPERATION\n\n22. Power train system\n testing and/or\n adjusting procedure\nRefers to the testing of components to check its functionality based\non manufacturer’s recommendations.\n23. Power train system\n and related\n components\n checking procedure\nRefers to the visual and/or sensory inspection conducted to the\npower train system and related components.\n24. Power train system\n troubleshooting\n procedure\nRefers to the methods and steps in locating and correcting defects\nand troubles to power train components.\n25. Qualification\n\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person has\nachieved competencies relevant to a trade or industry.\n26. Range of Variable\n\nIt describes the circumstances or context in which the work is to be\nperformed.\n27. Repairing\nRefers to a corrective action to put back a component or part to\noperating condition or standard.\n28. Replacing\nIs the act of dismounting defective part or component and changing\nit with a new or repaired/reconditioned part or component\n29. Structure and parts\n adjustment\n procedure\nAre steps in setting clearances and timings based on\nmanufacturer’s standards\n30. Structure and parts\n troubleshooting\n procedure\nRefers to method and steps in locating troubles from engine\nlubricating system\n31. Testing\nIs an inspection using procedural techniques and/or testing\nequipment\n32. Troubleshooting\nRefers to the process of locating defects and subsequently\napplying corrective actions.\n33. Unit of Competency\n\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n34. Undercarriage\n system and related\n components\n checking procedure\nRefers to the visual inspection conducted on undercarriage\ncomponents and/or parts for damage.\n\n--- PDF PAGE 93 ---\nTR HEAVY EQUIPMENT OPERATION\n\n35. Undercarriage\n system measuring\n procedure\nRefers to mensuration and recommended measuring method\nand/or technique as per manufacturer to determine useful\nremaining life of the undercarriage components.\n36. Undercarriage\n system and related\n components /parts\n repair and/or\n replacement\n procedure\nRefers to recommended removal, disassembly/assembly, and\ninstallation of new or reconditioned components or parts of the\nundercarriage based on manufacturer’s recommendations.\n37. Undercarriage\n system testing\n procedure\nRefers to functionality verification by using test methods\nrecommended by the manufacturer.\n\n--- PDF PAGE 94 ---\nTR HEAVY EQUIPMENT OPERATION\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies and who contributed their time and\nexpertise to the development and validation of this Training Regulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nRenato P. Faigao\nConsultant, Heavy Equipment\nOperation and Maintenance\nMANCON-CBDC Joint Venture\nMakati City\nRoberto B. Ocampo\nSr. Technical Trainer\nMonark Equipment,\nLibis, Quezon City\n\nEddie C. Emas\nSr. Trade and Industry Specialist\nConstruction Manpower\nDevelopment Foundation,\nMakati City\n\nRudolfo D. Ancheta\nQuality Controller Supervisor (Repair and\nMaintenance of Hydraulic\nExcavator/Basic Hydraulic)\nCivil Merchanidising Inc.\nPag-asa, Quezon City\n\nNestor T. Butacan\nTechnical Trainer\nMaxima Equipment Co. Inc.\nQuezon Avenue,\nQuezon City\nFelix B. Jovita\nHeavy Equipment Operation and\nMaintenance\nACEL\n\nTito C. Tadios\nTraining Manager (Heavy\nEquipment Operation and\nMaintenance)\nMaxima Equipment Co. Inc.\nMapulang lupa, Valenzuela City\nSamuel M. Puquiz\nHead, Mechanical and Technical\n(Construction Equipment Repair and\nMaintenance)\nDM Consunji Inc.\nPasong Tamo Extension, Makati City\n\n--- PDF PAGE 95 ---\nTR HEAVY EQUIPMENT OPERATION\n\nFlorello Quianzon\nConsultant, Equipment Concrete\nProduct Division (Equipment\nManagement)\nMakati Development Corporation\nAyala-Alabang, Muntinlupa City\nCresencio B. Maramag Jr.\nVice President for Operations (Equipment\nManagement, Testing and Certification)\nFirst Philippines Skills and Equipment\nTesting Corp.\nBagong Ilog, Pasig City\n\nJayson Gungob\nService Trainer, Heavy Equipment\nMonark Equipment\nCebu Branch\nRogelio Manlod Jr.\nService Trainer\nMonark Equipment\nDavao Branch\n\nThe Management and Staff of the TESDA Secretariat\n\n•\nSkills Standards and Certification Office\n•\nNational Institute for Technical-\nVocational Education and Training\n\nThe Management and Staff of the Association of Carriers and Equipment lessors\n(ACEL)"
 }

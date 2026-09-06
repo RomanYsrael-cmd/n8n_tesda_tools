@@ -1,78 +1,61 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:housekeeping-nc-ii:2013-12",
+  "document_id": "tesda:tr:housekeeping-nc-ii:4c1b23cdbe",
   "qualification": "HOUSEKEEPING NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311201",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311204",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5123111",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5123122",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "TRS512309115",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311205",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5123112",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5123113",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5123114",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP - TOURISM Sector\n(Hotel and Restaurant)\nHOUSEKEEPING NC II\nDevelop and\nupdate industry\nknowledge\n\nPerform computer\noperations\n\nProvide effective\ncustomer service\n\nObserve\nworkplace\n hygiene\nprocedures\nPerform\n workplace\nsafety\npractices\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\n\nPrepare\nsandwiches\n\nANNEX A\n\nOrganize\nand prepare\nfood\n\nPlan and control\nmenu based on\ncatering\n\nSelect, prepare\nand cook meat\n\nPackage prepare\nfoodstuffs\nEstablish and\nmaintain quality\ncontrol\n\n Manage facilities\nassociated with\ncommercial\ncatering\nApply\ncook-freeze\n production\nprocess\nOrganize\nbulk cooking\noperations\n\nPrepare\nhot and cold\ndesserts\n\nDevelop\n food safety\nprogram\nPrepare\nchocolate and\nchocolate\nconfectionery\nReceive and\nstore kitchen\nsupplies\n\nDevelop menus\nto meet special\ndietary and\ncultural needs\nPrepare\npastry, cakes\nand yeast-based\nproducts\nPrepare\nvegetables, eggs\nand starch\nproducts\nPrepare\ncook and serve\nfood for menus\n\nSelect, prepare\nand serve\nspecialized food\nitem\nSelect\ncatering\nsystems\n\nOperate\nfast food\noutlet\n\nPrepare\nand cook\npoultry and game\n\nClean\nand maintain\nkitchen premises\n\n Plan, prepare\nand display\nbuffet\n\n Plan\nand prepare food\nfor buffets\n\n Plan\ncatering for an\nevent or function\n\n Select, prepare\nand serve\nspecialist\ncuisines\n\nPresent food\n\nApply\nCook, chill\noperation\nprocesses\nPrepare\nand cook\nseafood\n\nPrepare\nappetizers and\nsalads\nPrepare\nportion controlled\nmeat cuts\n\nImplement\nfood safety\nprocedures\n\n Prepare food\naccording to\ndietary and\ncultural needs\n\nMonitor\ncatering revenue\nand costs\nApply\ncatering control\nprinciples\n\nProvide\nhousekeeping\nservices\nto guests\nHandle and\nserve cheese\n\nPrepare\nstocks, sauces\nand soups\nTransport and\nstore food in a\nsafe and hygienic\nmanner\nPrepare\npates and\nterrines\n\nLaundry linen\nand guest clothes\nProvide\nValet/Butler\nservice\nClean public\nareas, facilities\nand equipment\nClean and prepare\nrooms for incoming\nguest\nDem onstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncom m unication\nWork\n in team\nenvironm ent\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nm athem atical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problem s\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncom m unication\nDevelop\nteam s and\nindividuals\nUtilize\nspecialized\ncom m unication\nskills\nPractice\noccupational\nhealth and\nsafety procedures\nLead\nworkplace\n com m unication\nCollect,\nanalyze and\norganize\ninform ation\nPlan\nand organize\nwork\nApply\nproblem -\nsolving\ntechniques in\nthe workplace\nLead\nsm all team s\nProm ote\nenvironm ental\nprotection\n\nDeal with/Handle\nIntoxicated guests\n\n--- PDF PAGE 66 ---\nTR - HOUSEKEEPING NC II (Amended)\nPromulgated December 2013\n62",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311201",
+        "TRS311202",
+        "TRS311203",
+        "TRS311204",
+        "TRS311205"
+      ],
+      "unit_titles": [
+        "Develop and update industry knowledge",
+        "Observe workplace hygiene procedures",
+        "Perform computer operations",
+        "Perform workplace and safety practices",
+        "Provide effective customer service"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "TRS5123111",
+        "TRS5123112",
+        "TRS5123113",
+        "TRS5123114",
+        "TRS5123115",
+        "TRS5123122"
+      ],
+      "unit_titles": [
+        "Provide housekeeping services to guests",
+        "Clean and prepare rooms for incoming guests",
+        "Provide valet/butler service",
+        "Laundry linen and guest clothes",
+        "Clean public areas, facilities and equipment",
+        "Deal with/handle intoxicated guests"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 HOUSEKEEPING NC II QUALIFICATION\n\nThe HOUSEKEEPING NC II Qualification consists of competencies that a person\nmust achieve to prepare guest rooms, clean public areas and equipment, provide\nhousekeeping services, provide valet services, handle intoxicated guest, and laundry linen\nand guest clothes to a range of accommodation services.\n\nThis Qualification is packaged from the competency map of the Tourism Sector\n(Hotel and Restaurant) as shown in Annex A\n\nThe Units of Competency comprising this Qualification include the following:\n\nCODE NO.\nBASIC COMPETENCIES\n\n500311105\nParticipate in workplace communication\n500311106\nWork in team environment\n500311107\nPractice career professionalism\n500311108\nPractice occupational health and safety procedures\n\nCODE NO.\nCOMMON COMPETENCIES\n\nTRS311201\nDevelop and update industry knowledge\nTRS311202\nObserve workplace hygiene procedures\nTRS311203\nPerform computer operations\nTRS311204\nPerform workplace and safety practices\nTRS311205\nProvide effective customer service\n\nCODE NO.\nCORE COMPETENCIES\n\nTRS5123111\nProvide housekeeping services to guests\nTRS5123112\nClean and prepare rooms for incoming guests\nTRS5123113\nProvide valet/butler service\nTRS5123114\nLaundry linen and guest clothes\nTRS5123115\nClean public areas, facilities and equipment\nTRS5123122\nDeal with/Handle intoxicated guests\n\nA person who has achieved this Qualification is competent to be:\n\n Junior Cleaner\n Assistant Cleaner\n Assistant Public Area Cleaner\n Cleaner\n Public Area Cleaner\n Attendant\n Room/Cabin Attendant/Room Maid\n Laundry Attendant\n Housekeeping Attendant\n Butler\n\n--- PDF PAGE 6 ---\nTR - HOUSEKEEPING NC II (Amended)\nPromulgated December 2013\n2"
 }

@@ -1,63 +1,883 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:heavy-equipment-servicing-mechanical-nc-ii:f8c23d3f64",
-  "qualification": "Heavy Equipment Servicing [Mechanical] NC II",
+  "qualification": "HEAVY EQUIPMENT SERVICING (MECHANICAL) NC II",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Heavy Equipment Servicing (Mechanical) NC II.pdf",
-    "pdf_pages": 95
+    "pdf_pages": 95,
+    "printed_pages": 87,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 24,
+        "source_expression": "24 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 320,
+        "source_expression": "320 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 362,
+    "total_source_expression": "362 hrs.",
+    "source_expressions": [
+      "18 hrs. - Basic Competencies",
+      "24 hrs. - Common Competencies",
+      "320 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 362,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3. TRAINING STANDARDS\n\nThese standards are set to provide technical and vocational education and\ntraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Heavy Equipment Servicing\n(Mechanical) II.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: HEAVY EQUIPMENT SERVICING\n (MECHANICAL) NC Level: II\n\nSuggested Nominal Training Duration: 18 hours (Basic)\n\n 24 hours (Common)\n 320 hours (Core)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, positive work attitudes\nand skills in Heavy Equipment Servicing (Mechanical) II, in accordance with\nindustry standards. It covers basic, common and core competencies. It includes\nbasic skills in participate in workplace communication, work in a team environment,\ndemonstrate work values, and practice housekeeping.\n\nThe common competencies are Interpret technical drawings and plans,\nobserve procedures, specifications and manuals of instructions, perform\nmensurations and calculation, and maintain tools and equipment. The core\ncompetencies include service engine systems, service power train systems,\nservice hydraulic systems, and service undercarriage systems.\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\n workplace\n communication\n1.1 Obtain and convey\n workplace Information\n\n1.2 Complete relevant work\n related documents\n\n1.3 Participate in workplace\n meetings and discussions\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 76 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n74\n\n2. Work in a team\n environment\n2.1 Describe team role\nand Scope\n\n2.2 Identify own role and\n responsibility within team\n\n2.3 Work as a team member\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n3. Demonstrate work\nvalues\n3.1 Apply work values/ethics\n\n3.2 Maintain integrity of\n conduct in the workplace\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nObservation and\noral questioning\n\nWritten test\n4. Practice house\n keeping\n procedures\n4.1 Sort recyclable and\nremove unnecessary\nmaterials\n\n4.2 Store materials\n\n4.3 Maintain work are, tools\nand equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 77 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n75\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Interpret\ntechnical\ndrawings and\nplans\n\n1.1 Read / Interpret blueprints\n and plans\n\n1.2 Perform freehand sketching\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n2. Observe\nprocedures,\nspecifications\nand manuals of\ninstructions.\n2.1 Identify and access\n specifications / technical\n manuals\n\n2.2 Interpret technical\nmanuals\n\n2.3 Apply information in\ntechnical manual\n\n2.4 Store technical manual\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n3. Perform\n mensurations\n and calculations\n\n3.1 Select measuring\n instruments\n\n3.2 Carryout measurement and\n calculations\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n4. Maintain tools\nand equipment\n4.1 Check condition of tools\n and equipment\n\n4.2 Perform preventive\n maintenance\n\n4.3 Store tools and equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 78 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n76\n5. Prepare\nconstruction\nmaterials and\ntools\n5.1 Identify Materials\n\n5.2 Requisition Materials\n\n5.3 Receive and inspect\nmaterials\nAudio Visual\n\nSimulation\n\nDiscussion\n\nPractical\nExercise\n\nDemonstration\nDirect\nobservation\n\nQuestions or\ninterview\n\nPortfolio\n(credentials)\n\nWritten / Oral\nTest\n\nDemonstration\n\n--- PDF PAGE 79 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n77\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Service Engine\n system (II)\n1.1 Check engine systems\n\n1.2 Test and adjust engine\nsystem\n\n1.3 Troubleshoot engine\nsystem\n\n1.4 Repair / Replace engine\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\n Written test\n\n2. Service Power\n Train system (II)\n2.1 Check power train system\n\n2.2 Test power train\n\n2.3 Troubleshoot power train\n\n2.4 Remove and install power\n train components system\nLecture\n\nPractical\ndemonstration\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n3. Service Hydraulic\n system (II)\n3.1 Check hydraulic system\n\n3.2 Test and adjust hydraulic\nsystem\n\n3.3 Troubleshoot hydraulic\nsystem\n\n3.4 Repair or replace\nhydraulic system\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 80 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n78\n\n4. Service\n undercarriage\n system (II)\n4.1 Check under carriage\nsystem\n\n4.2 Test undercarriage\nsystem\n\n4.3 Measure wear of\nundercarriage related\ncomponents\n\n4.4 Repair and replace\nundercarriage\ncomponents/parts\nLecture\n\nPractical\nexercises,\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n79\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\n--- PDF PAGE 82 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n80\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n--- PDF PAGE 83 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n81\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\nTrainees or students wishing to gain entry into this course should possess the\nfollowing requirements:\n\n•\ncompleted training in heavy equipment servicing (mechanical) I or a\nholder of Heavy Equipment NC I certificate or completed diesel\nmechanic course\n•\nphysically and mentally fit\n•\nwith good moral character\n\n--- PDF PAGE 84 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n82\n3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Heavy Equipment Servicing (Mechanical) II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nQTY\nQTY\n5 sets\nwrenches (box and\nopen-end 8-24 mm-\nmetric & 7/16 –1” -\nEnglish )\n1 unit\nHeavy Equipment\nMechanic II(MOA\n/rental)\n10 kls.\nMulti-purpose\ngrease\n 5 sets hammer ballpeen\n(3-4 lbs)\n1 unit hydraulic/air\nimpact wrench\n50 liters\nengine oil (SAE\n15W40)\n2pcs.\n Sledge hammer 8\nlbs.\n\n200\nliters\ndiesel fuel\n5 sets\npliers( mechanical 10\n“)\n1 unit\n high pressure\nwasher\n 2 cans\npenetrating oil\n(250 ml)\npcs\n\nadjustable wrench\n(18 “)\n 1 unit Portable electric air\ncompressor\n20 kls.\nCotton rugs\n5pcs.\nadjustable wrench\n10”\n1 set\nHydraulic tools for\nundercarriage\n 5 liters Cleaning solvent\n 2 pcs.\n grease gun\n1 set\nChain block with\n“A” frame (3 tons)\n50 liters Hydraulic /\nsteering fluid\n(TELLUS 68/10W)\n 5 sets\n screw driver ( 10 “\nflat & Philips)\n1 unit.\nTransmission\nundercarriage jack\n(5 tons)\n20 liters\nFinal\ndrive/differential\n(gear oil\nGP90/140)\n 5 pcs.\n putty knife\n 1 unit\nCrocodile jack\n( 5 tons)\n20 liters\nTransmission oil\n(ATF)\n\n3 sets\nsocket wrench ½”\ndrive (8- 32 mm 0r\nEnglish equivalent)\n\n1 unit `\n\nHydraulic vertical\njack ( 10 tons)\n\n 1 set\nshop work\ncleaning tool(one\neach kind)\n\n2 sets\nsocket wrench ¾”\ndrive (30- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nHydraulic press\n(20 tons)\n25 pairs\nworking clothes\n\n2 sets\nsocket wrench 1”\ndrive (22- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nParts cleaner\n 25\npairs\nSafety shoes\n2 sets\nallen wrench L- type\n(4-17 mm or English\nequivalent)\n\n1 unit\n\nPallet truck\n(5 tons)\n 25\npairs\nGloves\n\n--- PDF PAGE 85 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n83\n1 pc.\n Torque multiplier ¾ “\ndrive with\n (Mechanical\nAdvantage X4)\n5 units Working bench\nwith attached vises\n25 pairs\nGoggles\n1 pc.\nTorx wrench\n ½ “ drive (12-19\nmm or English\nequivalent)\n\n1 unit\n\nBench grinder\n5 pcs\n\nShop repair\nmanual\n2 sets\nallen wrench socket\ntype (12- 27 mm or\nEnglish equivalent)\n\n1 unit\n\nDrill press\n25 pcs\nHard hat\n5 pcs.\n Filter wrench\n 1 unit\nVertical hydraulic\ntest bench\n\n5 pcs.\nhacksaw\n1 unit\nInjection pump\ncalibration stand\nwith nozzle\ninjector tester\n\n3 pcs.\npry bar (heavy duty)\n1 unit\nEngine\ndynamometer\n\n 5pcs.\nPipe wrench (12”)\n 1 unit\n Valve spring\ntester\n\n5 pcs.\nVise grip (12 “)\n1 unit\nEngine stand\n1 pc.\nTorque wrench ½”\ndrive (0-30 kg./m)\n\n1 pc.\nTorque wrench ¾ ”\ndrive (0-70 kg./m)\n\n2 sets\nThermometer\n2 set s\ntachometer\n2 sets\nTiming tool\n2 sets\nCaliper (inside &\noutside)\n\n2 sets\nMicrometer caliper\n2 sets\nVernier caliper\n1 set\nCylinder gauge\n1 set\nCompression tester\n1 set\nBlow by tester\n1 set\nHydraulic pressure\ngauge\n\n1 set\nVacuum tester\n1 set\nMulti- scale tester for\nundercarriage\n\n1 pc\nStraight edge rule (1\nMeter)\n\n1 pc\nStop watch\n2 sets\nFeller gauge\n\n--- PDF PAGE 86 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n84\n\n3.5 TRAINING FACILITIES\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\nThe Heavy Equipment Servicing (Mechanical) II workshop must be made of\nreinforced concrete or steel structure. The size must be suited on the requirements\nof the competencies. The class size of 25 students/trainees is reserved for the\nlecture room and the practical demonstration area for carrying out minor Heavy\nEquipment Servicing and parts maintenance. Most of the learning activities are\nperformed individually in the students/trainees work area.\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ. METERS\nTOTAL AREA\nIN SQ.\nMETERS\nStudent/Trainee’s Working Space\n\n4 (sq.m per\nstudent)\n100.0 sq.m.\nLecture Room\n48.0\n48.0\nLearning Resource Center\n24.0\n24.0\ntool/storeroom\n12.0\n12.0\n184\nFacilities/Equipment/ Circulation Area\n-\n-\n52\nTOTAL WORK AREA\n-\n236\n\n--- PDF PAGE 87 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n85\n\n3.6\nTRAINERS’ QUALIFICATION\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\n TRAINER QUALIFICATION (TQ III)\n\n Must be a holder of NC III Heavy Equipment Servicing (Mechanical)\n Must have undergone training on Training Methodology III (TM III)\n Must be computer literate\n Must be physically and mentally fit\n *Must have at least 5 years job/industry experience\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory\nCommission)\n\n*\nOptional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 88 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n86"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace Information",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Practical"
+        ],
+        "assessment_approach": [
+          "Observation Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [],
+        "methodology": [
+          "exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meetings and discussions Lecture Practical exercises Observation Demonstration Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Practical"
+        ],
+        "assessment_approach": [
+          "Observation Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 75
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe team role and Scope",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Practical"
+        ],
+        "assessment_approach": [
+          "Observation Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Identify own role and responsibility within team",
+        "learning_activities": [],
+        "methodology": [
+          "exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Work as a team member Lecture Practical exercises Observation Demonstration Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Practical"
+        ],
+        "assessment_approach": [
+          "Observation Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Apply work values/ethics",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Maintain integrity of conduct in the workplace Lecture Demonstration Practical exercises Observation and",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration Practical exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Sort recyclable and remove unnecessary materials",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Store materials",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Maintain work are, tools and equipment Lecture Demonstration Practical exercises Demonstration and oral questioning Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "common",
+        "unit_code": "CON931201",
+        "unit_title": "Prepare construction materials and tools",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Read / Interpret blueprints and plans",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON931201",
+        "unit_title": "Prepare construction materials and tools",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Perform freehand sketching Lecture Demonstration Practical exercises Demonstration and oral questioning Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Observe procedures, specifications and manuals of instruction",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify and access specifications / technical manuals",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Observe procedures, specifications and manuals of instruction",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Interpret technical manuals",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Observe procedures, specifications and manuals of instruction",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Apply information in technical manual",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Observe procedures, specifications and manuals of instruction",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Store technical manual Lecture Demonstration Practical exercises Demonstration and oral questioning Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret technical drawings and plans",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Select measuring instruments",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret technical drawings and plans",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Carryout measurement and calculations Lecture Demonstration Practical exercises Demonstration and oral questioning Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311203",
+        "unit_title": "Perform mensurations and calculations",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Check condition of tools and equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311203",
+        "unit_title": "Perform mensurations and calculations",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Perform preventive maintenance",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercises"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311203",
+        "unit_title": "Perform mensurations and calculations",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Store tools and equipment Lecture Demonstration Practical exercises Demonstration and oral questioning Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 77
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Maintain tools and equipment",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify Materials",
+        "learning_activities": [],
+        "methodology": [
+          "Audio Visual Simulation"
+        ],
+        "assessment_approach": [
+          "Direct observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Maintain tools and equipment",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Requisition Materials",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Questions or"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Maintain tools and equipment",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Receive and inspect materials Audio Visual Simulation Discussion Practical Exercise Demonstration Direct",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Exercise Demonstration"
+        ],
+        "assessment_approach": [
+          "interview Portfolio (credentials) Written / Oral Test Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723305",
+        "unit_title": "Service engine system (II)",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Check engine systems",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723305",
+        "unit_title": "Service engine system (II)",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Test and adjust engine system",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercises"
+        ],
+        "assessment_approach": [
+          "Demonstration Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723305",
+        "unit_title": "Service engine system (II)",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Troubleshoot engine system",
+        "learning_activities": [],
+        "methodology": [
+          "OJT"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723305",
+        "unit_title": "Service engine system (II)",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Repair / Replace engine components Lecture Practical exercises OJT Observation Demonstration Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723306",
+        "unit_title": "Service power train system (II)",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Check power train system",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723306",
+        "unit_title": "Service power train system (II)",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Test power train",
+        "learning_activities": [],
+        "methodology": [
+          "Practical demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723306",
+        "unit_title": "Service power train system (II)",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Troubleshoot power train",
+        "learning_activities": [],
+        "methodology": [
+          "OJT"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723306",
+        "unit_title": "Service power train system (II)",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Remove and install power train components system Lecture Practical demonstration OJT Observation Demonstration Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723307",
+        "unit_title": "Service hydraulic system (II)",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Check hydraulic system",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723307",
+        "unit_title": "Service hydraulic system (II)",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Test and adjust hydraulic system",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercises"
+        ],
+        "assessment_approach": [
+          "Demonstration Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723307",
+        "unit_title": "Service hydraulic system (II)",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Troubleshoot hydraulic system",
+        "learning_activities": [],
+        "methodology": [
+          "OJT"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723307",
+        "unit_title": "Service hydraulic system (II)",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Repair or replace hydraulic system components Lecture Practical exercises OJT Observation Demonstration Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 79
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723308",
+        "unit_title": "Service undercarriage system (II)",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Check under carriage system",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Practical"
+        ],
+        "assessment_approach": [
+          "Observation Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 80
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723308",
+        "unit_title": "Service undercarriage system (II)",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Test undercarriage system",
+        "learning_activities": [],
+        "methodology": [
+          "exercises, OJT"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 80
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723308",
+        "unit_title": "Service undercarriage system (II)",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Measure wear of undercarriage related components",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Practical"
+        ],
+        "assessment_approach": [
+          "Observation Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 80
+      },
+      {
+        "group": "core",
+        "unit_code": "CON723308",
+        "unit_title": "Service undercarriage system (II)",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Repair and replace undercarriage components/parts Lecture Practical exercises, OJT Observation Demonstration Written test",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture Practical"
+        ],
+        "assessment_approach": [
+          "Observation Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 80
+      }
+    ],
+    "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: HEAVY EQUIPMENT SERVICING\n (MECHANICAL) NC Level: II\n\nSuggested Nominal Training Duration: 18 hours (Basic)\n\n 24 hours (Common)\n 320 hours (Core)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, positive work attitudes\nand skills in Heavy Equipment Servicing (Mechanical) II, in accordance with\nindustry standards. It covers basic, common and core competencies. It includes\nbasic skills in participate in workplace communication, work in a team environment,\ndemonstrate work values, and practice housekeeping.\n\nThe common competencies are Interpret technical drawings and plans,\nobserve procedures, specifications and manuals of instructions, perform\nmensurations and calculation, and maintain tools and equipment. The core\ncompetencies include service engine systems, service power train systems,\nservice hydraulic systems, and service undercarriage systems.\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\n workplace\n communication\n1.1 Obtain and convey\n workplace Information\n\n1.2 Complete relevant work\n related documents\n\n1.3 Participate in workplace\n meetings and discussions\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 76 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n74\n\n2. Work in a team\n environment\n2.1 Describe team role\nand Scope\n\n2.2 Identify own role and\n responsibility within team\n\n2.3 Work as a team member\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n3. Demonstrate work\nvalues\n3.1 Apply work values/ethics\n\n3.2 Maintain integrity of\n conduct in the workplace\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nObservation and\noral questioning\n\nWritten test\n4. Practice house\n keeping\n procedures\n4.1 Sort recyclable and\nremove unnecessary\nmaterials\n\n4.2 Store materials\n\n4.3 Maintain work are, tools\nand equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 77 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n75\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Interpret\ntechnical\ndrawings and\nplans\n\n1.1 Read / Interpret blueprints\n and plans\n\n1.2 Perform freehand sketching\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n2. Observe\nprocedures,\nspecifications\nand manuals of\ninstructions.\n2.1 Identify and access\n specifications / technical\n manuals\n\n2.2 Interpret technical\nmanuals\n\n2.3 Apply information in\ntechnical manual\n\n2.4 Store technical manual\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n3. Perform\n mensurations\n and calculations\n\n3.1 Select measuring\n instruments\n\n3.2 Carryout measurement and\n calculations\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n4. Maintain tools\nand equipment\n4.1 Check condition of tools\n and equipment\n\n4.2 Perform preventive\n maintenance\n\n4.3 Store tools and equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 78 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n76\n5. Prepare\nconstruction\nmaterials and\ntools\n5.1 Identify Materials\n\n5.2 Requisition Materials\n\n5.3 Receive and inspect\nmaterials\nAudio Visual\n\nSimulation\n\nDiscussion\n\nPractical\nExercise\n\nDemonstration\nDirect\nobservation\n\nQuestions or\ninterview\n\nPortfolio\n(credentials)\n\nWritten / Oral\nTest\n\nDemonstration\n\n--- PDF PAGE 79 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n77\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Service Engine\n system (II)\n1.1 Check engine systems\n\n1.2 Test and adjust engine\nsystem\n\n1.3 Troubleshoot engine\nsystem\n\n1.4 Repair / Replace engine\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\n Written test\n\n2. Service Power\n Train system (II)\n2.1 Check power train system\n\n2.2 Test power train\n\n2.3 Troubleshoot power train\n\n2.4 Remove and install power\n train components system\nLecture\n\nPractical\ndemonstration\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n3. Service Hydraulic\n system (II)\n3.1 Check hydraulic system\n\n3.2 Test and adjust hydraulic\nsystem\n\n3.3 Troubleshoot hydraulic\nsystem\n\n3.4 Repair or replace\nhydraulic system\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 80 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n78\n\n4. Service\n undercarriage\n system (II)\n4.1 Check under carriage\nsystem\n\n4.2 Test undercarriage\nsystem\n\n4.3 Measure wear of\nundercarriage related\ncomponents\n\n4.4 Repair and replace\nundercarriage\ncomponents/parts\nLecture\n\nPractical\nexercises,\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n79"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: HEAVY EQUIPMENT SERVICING\n (MECHANICAL) NC Level: II\n\nSuggested Nominal Training Duration: 18 hours (Basic)\n\n 24 hours (Common)\n 320 hours (Core)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, positive work attitudes\nand skills in Heavy Equipment Servicing (Mechanical) II, in accordance with\nindustry standards. It covers basic, common and core competencies. It includes\nbasic skills in participate in workplace communication, work in a team environment,\ndemonstrate work values, and practice housekeeping.\n\nThe common competencies are Interpret technical drawings and plans,\nobserve procedures, specifications and manuals of instructions, perform\nmensurations and calculation, and maintain tools and equipment. The core\ncompetencies include service engine systems, service power train systems,\nservice hydraulic systems, and service undercarriage systems.\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\n workplace\n communication\n1.1 Obtain and convey\n workplace Information\n\n1.2 Complete relevant work\n related documents\n\n1.3 Participate in workplace\n meetings and discussions\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 76 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n74\n\n2. Work in a team\n environment\n2.1 Describe team role\nand Scope\n\n2.2 Identify own role and\n responsibility within team\n\n2.3 Work as a team member\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n3. Demonstrate work\nvalues\n3.1 Apply work values/ethics\n\n3.2 Maintain integrity of\n conduct in the workplace\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nObservation and\noral questioning\n\nWritten test\n4. Practice house\n keeping\n procedures\n4.1 Sort recyclable and\nremove unnecessary\nmaterials\n\n4.2 Store materials\n\n4.3 Maintain work are, tools\nand equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 77 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n75\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Interpret\ntechnical\ndrawings and\nplans\n\n1.1 Read / Interpret blueprints\n and plans\n\n1.2 Perform freehand sketching\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n2. Observe\nprocedures,\nspecifications\nand manuals of\ninstructions.\n2.1 Identify and access\n specifications / technical\n manuals\n\n2.2 Interpret technical\nmanuals\n\n2.3 Apply information in\ntechnical manual\n\n2.4 Store technical manual\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n3. Perform\n mensurations\n and calculations\n\n3.1 Select measuring\n instruments\n\n3.2 Carryout measurement and\n calculations\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n4. Maintain tools\nand equipment\n4.1 Check condition of tools\n and equipment\n\n4.2 Perform preventive\n maintenance\n\n4.3 Store tools and equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 78 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n76\n5. Prepare\nconstruction\nmaterials and\ntools\n5.1 Identify Materials\n\n5.2 Requisition Materials\n\n5.3 Receive and inspect\nmaterials\nAudio Visual\n\nSimulation\n\nDiscussion\n\nPractical\nExercise\n\nDemonstration\nDirect\nobservation\n\nQuestions or\ninterview\n\nPortfolio\n(credentials)\n\nWritten / Oral\nTest\n\nDemonstration\n\n--- PDF PAGE 79 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n77\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Service Engine\n system (II)\n1.1 Check engine systems\n\n1.2 Test and adjust engine\nsystem\n\n1.3 Troubleshoot engine\nsystem\n\n1.4 Repair / Replace engine\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\n Written test\n\n2. Service Power\n Train system (II)\n2.1 Check power train system\n\n2.2 Test power train\n\n2.3 Troubleshoot power train\n\n2.4 Remove and install power\n train components system\nLecture\n\nPractical\ndemonstration\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n3. Service Hydraulic\n system (II)\n3.1 Check hydraulic system\n\n3.2 Test and adjust hydraulic\nsystem\n\n3.3 Troubleshoot hydraulic\nsystem\n\n3.4 Repair or replace\nhydraulic system\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 80 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n78\n\n4. Service\n undercarriage\n system (II)\n4.1 Check under carriage\nsystem\n\n4.2 Test undercarriage\nsystem\n\n4.3 Measure wear of\nundercarriage related\ncomponents\n\n4.4 Repair and replace\nundercarriage\ncomponents/parts\nLecture\n\nPractical\nexercises,\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n79",
-      "pdf_pages": []
+      "pdf_pages": [
+        75
+      ],
+      "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: HEAVY EQUIPMENT SERVICING\n (MECHANICAL) NC Level: II\n\nSuggested Nominal Training Duration: 18 hours (Basic)\n\n 24 hours (Common)\n 320 hours (Core)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, positive work attitudes\nand skills in Heavy Equipment Servicing (Mechanical) II, in accordance with\nindustry standards. It covers basic, common and core competencies. It includes\nbasic skills in participate in workplace communication, work in a team environment,\ndemonstrate work values, and practice housekeeping.\n\nThe common competencies are Interpret technical drawings and plans,\nobserve procedures, specifications and manuals of instructions, perform\nmensurations and calculation, and maintain tools and equipment. The core\ncompetencies include service engine systems, service power train systems,\nservice hydraulic systems, and service undercarriage systems.\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\n workplace\n communication\n1.1 Obtain and convey\n workplace Information\n\n1.2 Complete relevant work\n related documents\n\n1.3 Participate in workplace\n meetings and discussions\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 76 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n74\n\n2. Work in a team\n environment\n2.1 Describe team role\nand Scope\n\n2.2 Identify own role and\n responsibility within team\n\n2.3 Work as a team member\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n3. Demonstrate work\nvalues\n3.1 Apply work values/ethics\n\n3.2 Maintain integrity of\n conduct in the workplace\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nObservation and\noral questioning\n\nWritten test\n4. Practice house\n keeping\n procedures\n4.1 Sort recyclable and\nremove unnecessary\nmaterials\n\n4.2 Store materials\n\n4.3 Maintain work are, tools\nand equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 77 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n75\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Interpret\ntechnical\ndrawings and\nplans\n\n1.1 Read / Interpret blueprints\n and plans\n\n1.2 Perform freehand sketching\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n2. Observe\nprocedures,\nspecifications\nand manuals of\ninstructions.\n2.1 Identify and access\n specifications / technical\n manuals\n\n2.2 Interpret technical\nmanuals\n\n2.3 Apply information in\ntechnical manual\n\n2.4 Store technical manual\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n3. Perform\n mensurations\n and calculations\n\n3.1 Select measuring\n instruments\n\n3.2 Carryout measurement and\n calculations\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n4. Maintain tools\nand equipment\n4.1 Check condition of tools\n and equipment\n\n4.2 Perform preventive\n maintenance\n\n4.3 Store tools and equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 78 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n76\n5. Prepare\nconstruction\nmaterials and\ntools\n5.1 Identify Materials\n\n5.2 Requisition Materials\n\n5.3 Receive and inspect\nmaterials\nAudio Visual\n\nSimulation\n\nDiscussion\n\nPractical\nExercise\n\nDemonstration\nDirect\nobservation\n\nQuestions or\ninterview\n\nPortfolio\n(credentials)\n\nWritten / Oral\nTest\n\nDemonstration\n\n--- PDF PAGE 79 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n77\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Service Engine\n system (II)\n1.1 Check engine systems\n\n1.2 Test and adjust engine\nsystem\n\n1.3 Troubleshoot engine\nsystem\n\n1.4 Repair / Replace engine\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\n Written test\n\n2. Service Power\n Train system (II)\n2.1 Check power train system\n\n2.2 Test power train\n\n2.3 Troubleshoot power train\n\n2.4 Remove and install power\n train components system\nLecture\n\nPractical\ndemonstration\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n3. Service Hydraulic\n system (II)\n3.1 Check hydraulic system\n\n3.2 Test and adjust hydraulic\nsystem\n\n3.3 Troubleshoot hydraulic\nsystem\n\n3.4 Repair or replace\nhydraulic system\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 80 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n78\n\n4. Service\n undercarriage\n system (II)\n4.1 Check under carriage\nsystem\n\n4.2 Test undercarriage\nsystem\n\n4.3 Measure wear of\nundercarriage related\ncomponents\n\n4.4 Repair and replace\nundercarriage\ncomponents/parts\nLecture\n\nPractical\nexercises,\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n79"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\n--- PDF PAGE 82 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n80\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n--- PDF PAGE 83 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n81",
-      "pdf_pages": []
+      "pdf_pages": [
+        81,
+        82
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\n--- PDF PAGE 82 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n80\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n--- PDF PAGE 83 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n81"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "This section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\nTrainees or students wishing to gain entry into this course should possess the\nfollowing requirements:\n\n•\ncompleted training in heavy equipment servicing (mechanical) I or a\nholder of Heavy Equipment NC I certificate or completed diesel\nmechanic course\n•\nphysically and mentally fit\n•\nwith good moral character\n\n--- PDF PAGE 84 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n82",
-      "pdf_pages": []
+      "pdf_pages": [
+        83
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\nTrainees or students wishing to gain entry into this course should possess the\nfollowing requirements:\n\n•\ncompleted training in heavy equipment servicing (mechanical) I or a\nholder of Heavy Equipment NC I certificate or completed diesel\nmechanic course\n•\nphysically and mentally fit\n•\nwith good moral character\n\n--- PDF PAGE 84 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n82"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Heavy Equipment Servicing (Mechanical) II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nQTY\nQTY\n5 sets\nwrenches (box and\nopen-end 8-24 mm-\nmetric & 7/16 –1” -\nEnglish )\n1 unit\nHeavy Equipment\nMechanic II(MOA\n/rental)\n10 kls.\nMulti-purpose\ngrease\n 5 sets hammer ballpeen\n(3-4 lbs)\n1 unit hydraulic/air\nimpact wrench\n50 liters\nengine oil (SAE\n15W40)\n2pcs.\n Sledge hammer 8\nlbs.\n\n200\nliters\ndiesel fuel\n5 sets\npliers( mechanical 10\n“)\n1 unit\n high pressure\nwasher\n 2 cans\npenetrating oil\n(250 ml)\npcs\n\nadjustable wrench\n(18 “)\n 1 unit Portable electric air\ncompressor\n20 kls.\nCotton rugs\n5pcs.\nadjustable wrench\n10”\n1 set\nHydraulic tools for\nundercarriage\n 5 liters Cleaning solvent\n 2 pcs.\n grease gun\n1 set\nChain block with\n“A” frame (3 tons)\n50 liters Hydraulic /\nsteering fluid\n(TELLUS 68/10W)\n 5 sets\n screw driver ( 10 “\nflat & Philips)\n1 unit.\nTransmission\nundercarriage jack\n(5 tons)\n20 liters\nFinal\ndrive/differential\n(gear oil\nGP90/140)\n 5 pcs.\n putty knife\n 1 unit\nCrocodile jack\n( 5 tons)\n20 liters\nTransmission oil\n(ATF)\n\n3 sets\nsocket wrench ½”\ndrive (8- 32 mm 0r\nEnglish equivalent)\n\n1 unit `\n\nHydraulic vertical\njack ( 10 tons)\n\n 1 set\nshop work\ncleaning tool(one\neach kind)\n\n2 sets\nsocket wrench ¾”\ndrive (30- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nHydraulic press\n(20 tons)\n25 pairs\nworking clothes\n\n2 sets\nsocket wrench 1”\ndrive (22- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nParts cleaner\n 25\npairs\nSafety shoes\n2 sets\nallen wrench L- type\n(4-17 mm or English\nequivalent)\n\n1 unit\n\nPallet truck\n(5 tons)\n 25\npairs\nGloves\n\n--- PDF PAGE 85 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n83\n1 pc.\n Torque multiplier ¾ “\ndrive with\n (Mechanical\nAdvantage X4)\n5 units Working bench\nwith attached vises\n25 pairs\nGoggles\n1 pc.\nTorx wrench\n ½ “ drive (12-19\nmm or English\nequivalent)\n\n1 unit\n\nBench grinder\n5 pcs\n\nShop repair\nmanual\n2 sets\nallen wrench socket\ntype (12- 27 mm or\nEnglish equivalent)\n\n1 unit\n\nDrill press\n25 pcs\nHard hat\n5 pcs.\n Filter wrench\n 1 unit\nVertical hydraulic\ntest bench\n\n5 pcs.\nhacksaw\n1 unit\nInjection pump\ncalibration stand\nwith nozzle\ninjector tester\n\n3 pcs.\npry bar (heavy duty)\n1 unit\nEngine\ndynamometer\n\n 5pcs.\nPipe wrench (12”)\n 1 unit\n Valve spring\ntester\n\n5 pcs.\nVise grip (12 “)\n1 unit\nEngine stand\n1 pc.\nTorque wrench ½”\ndrive (0-30 kg./m)\n\n1 pc.\nTorque wrench ¾ ”\ndrive (0-70 kg./m)\n\n2 sets\nThermometer\n2 set s\ntachometer\n2 sets\nTiming tool\n2 sets\nCaliper (inside &\noutside)\n\n2 sets\nMicrometer caliper\n2 sets\nVernier caliper\n1 set\nCylinder gauge\n1 set\nCompression tester\n1 set\nBlow by tester\n1 set\nHydraulic pressure\ngauge\n\n1 set\nVacuum tester\n1 set\nMulti- scale tester for\nundercarriage\n\n1 pc\nStraight edge rule (1\nMeter)\n\n1 pc\nStop watch\n2 sets\nFeller gauge\n\n--- PDF PAGE 86 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n84",
-      "pdf_pages": []
+      "pdf_pages": [
+        84
+      ],
+      "source_text": "3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Heavy Equipment Servicing (Mechanical) II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nQTY\nQTY\n5 sets\nwrenches (box and\nopen-end 8-24 mm-\nmetric & 7/16 –1” -\nEnglish )\n1 unit\nHeavy Equipment\nMechanic II(MOA\n/rental)\n10 kls.\nMulti-purpose\ngrease\n 5 sets hammer ballpeen\n(3-4 lbs)\n1 unit hydraulic/air\nimpact wrench\n50 liters\nengine oil (SAE\n15W40)\n2pcs.\n Sledge hammer 8\nlbs.\n\n200\nliters\ndiesel fuel\n5 sets\npliers( mechanical 10\n“)\n1 unit\n high pressure\nwasher\n 2 cans\npenetrating oil\n(250 ml)\npcs\n\nadjustable wrench\n(18 “)\n 1 unit Portable electric air\ncompressor\n20 kls.\nCotton rugs\n5pcs.\nadjustable wrench\n10”\n1 set\nHydraulic tools for\nundercarriage\n 5 liters Cleaning solvent\n 2 pcs.\n grease gun\n1 set\nChain block with\n“A” frame (3 tons)\n50 liters Hydraulic /\nsteering fluid\n(TELLUS 68/10W)\n 5 sets\n screw driver ( 10 “\nflat & Philips)\n1 unit.\nTransmission\nundercarriage jack\n(5 tons)\n20 liters\nFinal\ndrive/differential\n(gear oil\nGP90/140)\n 5 pcs.\n putty knife\n 1 unit\nCrocodile jack\n( 5 tons)\n20 liters\nTransmission oil\n(ATF)\n\n3 sets\nsocket wrench ½”\ndrive (8- 32 mm 0r\nEnglish equivalent)\n\n1 unit `\n\nHydraulic vertical\njack ( 10 tons)\n\n 1 set\nshop work\ncleaning tool(one\neach kind)\n\n2 sets\nsocket wrench ¾”\ndrive (30- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nHydraulic press\n(20 tons)\n25 pairs\nworking clothes\n\n2 sets\nsocket wrench 1”\ndrive (22- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nParts cleaner\n 25\npairs\nSafety shoes\n2 sets\nallen wrench L- type\n(4-17 mm or English\nequivalent)\n\n1 unit\n\nPallet truck\n(5 tons)\n 25\npairs\nGloves\n\n--- PDF PAGE 85 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n83\n1 pc.\n Torque multiplier ¾ “\ndrive with\n (Mechanical\nAdvantage X4)\n5 units Working bench\nwith attached vises\n25 pairs\nGoggles\n1 pc.\nTorx wrench\n ½ “ drive (12-19\nmm or English\nequivalent)\n\n1 unit\n\nBench grinder\n5 pcs\n\nShop repair\nmanual\n2 sets\nallen wrench socket\ntype (12- 27 mm or\nEnglish equivalent)\n\n1 unit\n\nDrill press\n25 pcs\nHard hat\n5 pcs.\n Filter wrench\n 1 unit\nVertical hydraulic\ntest bench\n\n5 pcs.\nhacksaw\n1 unit\nInjection pump\ncalibration stand\nwith nozzle\ninjector tester\n\n3 pcs.\npry bar (heavy duty)\n1 unit\nEngine\ndynamometer\n\n 5pcs.\nPipe wrench (12”)\n 1 unit\n Valve spring\ntester\n\n5 pcs.\nVise grip (12 “)\n1 unit\nEngine stand\n1 pc.\nTorque wrench ½”\ndrive (0-30 kg./m)\n\n1 pc.\nTorque wrench ¾ ”\ndrive (0-70 kg./m)\n\n2 sets\nThermometer\n2 set s\ntachometer\n2 sets\nTiming tool\n2 sets\nCaliper (inside &\noutside)\n\n2 sets\nMicrometer caliper\n2 sets\nVernier caliper\n1 set\nCylinder gauge\n1 set\nCompression tester\n1 set\nBlow by tester\n1 set\nHydraulic pressure\ngauge\n\n1 set\nVacuum tester\n1 set\nMulti- scale tester for\nundercarriage\n\n1 pc\nStraight edge rule (1\nMeter)\n\n1 pc\nStop watch\n2 sets\nFeller gauge\n\n--- PDF PAGE 86 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n84"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "HEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\nThe Heavy Equipment Servicing (Mechanical) II workshop must be made of\nreinforced concrete or steel structure. The size must be suited on the requirements\nof the competencies. The class size of 25 students/trainees is reserved for the\nlecture room and the practical demonstration area for carrying out minor Heavy\nEquipment Servicing and parts maintenance. Most of the learning activities are\nperformed individually in the students/trainees work area.\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ. METERS\nTOTAL AREA\nIN SQ.\nMETERS\nStudent/Trainee’s Working Space\n\n4 (sq.m per\nstudent)\n100.0 sq.m.\nLecture Room\n48.0\n48.0\nLearning Resource Center\n24.0\n24.0\ntool/storeroom\n12.0\n12.0\n184\nFacilities/Equipment/ Circulation Area\n-\n-\n52\nTOTAL WORK AREA\n-\n236\n\n--- PDF PAGE 87 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n85",
-      "pdf_pages": []
+      "pdf_pages": [
+        86
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\nThe Heavy Equipment Servicing (Mechanical) II workshop must be made of\nreinforced concrete or steel structure. The size must be suited on the requirements\nof the competencies. The class size of 25 students/trainees is reserved for the\nlecture room and the practical demonstration area for carrying out minor Heavy\nEquipment Servicing and parts maintenance. Most of the learning activities are\nperformed individually in the students/trainees work area.\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ. METERS\nTOTAL AREA\nIN SQ.\nMETERS\nStudent/Trainee’s Working Space\n\n4 (sq.m per\nstudent)\n100.0 sq.m.\nLecture Room\n48.0\n48.0\nLearning Resource Center\n24.0\n24.0\ntool/storeroom\n12.0\n12.0\n184\nFacilities/Equipment/ Circulation Area\n-\n-\n52\nTOTAL WORK AREA\n-\n236\n\n--- PDF PAGE 87 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n85\n\n3.6\nTRAINERS’ QUALIFICATION\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\n TRAINER QUALIFICATION (TQ III)\n\n Must be a holder of NC III Heavy Equipment Servicing (Mechanical)\n Must have undergone training on Training Methodology III (TM III)\n Must be computer literate\n Must be physically and mentally fit\n *Must have at least 5 years job/industry experience\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory\nCommission)\n\n*\nOptional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03"
     },
     "trainer_qualifications": {
       "present": true,
-      "source_text": "HEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\n TRAINER QUALIFICATION (TQ III)\n\n Must be a holder of NC III Heavy Equipment Servicing (Mechanical)\n Must have undergone training on Training Methodology III (TM III)\n Must be computer literate\n Must be physically and mentally fit\n *Must have at least 5 years job/industry experience\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory\nCommission)\n\n*\nOptional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        87
+      ],
+      "source_text": "SECTION 3. TRAINING STANDARDS\n\nThese standards are set to provide technical and vocational education and\ntraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Heavy Equipment Servicing\n(Mechanical) II.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: HEAVY EQUIPMENT SERVICING\n (MECHANICAL) NC Level: II\n\nSuggested Nominal Training Duration: 18 hours (Basic)\n\n 24 hours (Common)\n 320 hours (Core)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, positive work attitudes\nand skills in Heavy Equipment Servicing (Mechanical) II, in accordance with\nindustry standards. It covers basic, common and core competencies. It includes\nbasic skills in participate in workplace communication, work in a team environment,\ndemonstrate work values, and practice housekeeping.\n\nThe common competencies are Interpret technical drawings and plans,\nobserve procedures, specifications and manuals of instructions, perform\nmensurations and calculation, and maintain tools and equipment. The core\ncompetencies include service engine systems, service power train systems,\nservice hydraulic systems, and service undercarriage systems.\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\n workplace\n communication\n1.1 Obtain and convey\n workplace Information\n\n1.2 Complete relevant work\n related documents\n\n1.3 Participate in workplace\n meetings and discussions\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 76 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n74\n\n2. Work in a team\n environment\n2.1 Describe team role\nand Scope\n\n2.2 Identify own role and\n responsibility within team\n\n2.3 Work as a team member\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n3. Demonstrate work\nvalues\n3.1 Apply work values/ethics\n\n3.2 Maintain integrity of\n conduct in the workplace\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nObservation and\noral questioning\n\nWritten test\n4. Practice house\n keeping\n procedures\n4.1 Sort recyclable and\nremove unnecessary\nmaterials\n\n4.2 Store materials\n\n4.3 Maintain work are, tools\nand equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 77 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n75\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Interpret\ntechnical\ndrawings and\nplans\n\n1.1 Read / Interpret blueprints\n and plans\n\n1.2 Perform freehand sketching\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n2. Observe\nprocedures,\nspecifications\nand manuals of\ninstructions.\n2.1 Identify and access\n specifications / technical\n manuals\n\n2.2 Interpret technical\nmanuals\n\n2.3 Apply information in\ntechnical manual\n\n2.4 Store technical manual\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n3. Perform\n mensurations\n and calculations\n\n3.1 Select measuring\n instruments\n\n3.2 Carryout measurement and\n calculations\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n4. Maintain tools\nand equipment\n4.1 Check condition of tools\n and equipment\n\n4.2 Perform preventive\n maintenance\n\n4.3 Store tools and equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 78 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n76\n5. Prepare\nconstruction\nmaterials and\ntools\n5.1 Identify Materials\n\n5.2 Requisition Materials\n\n5.3 Receive and inspect\nmaterials\nAudio Visual\n\nSimulation\n\nDiscussion\n\nPractical\nExercise\n\nDemonstration\nDirect\nobservation\n\nQuestions or\ninterview\n\nPortfolio\n(credentials)\n\nWritten / Oral\nTest\n\nDemonstration\n\n--- PDF PAGE 79 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n77\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Service Engine\n system (II)\n1.1 Check engine systems\n\n1.2 Test and adjust engine\nsystem\n\n1.3 Troubleshoot engine\nsystem\n\n1.4 Repair / Replace engine\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\n Written test\n\n2. Service Power\n Train system (II)\n2.1 Check power train system\n\n2.2 Test power train\n\n2.3 Troubleshoot power train\n\n2.4 Remove and install power\n train components system\nLecture\n\nPractical\ndemonstration\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n3. Service Hydraulic\n system (II)\n3.1 Check hydraulic system\n\n3.2 Test and adjust hydraulic\nsystem\n\n3.3 Troubleshoot hydraulic\nsystem\n\n3.4 Repair or replace\nhydraulic system\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 80 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n78\n\n4. Service\n undercarriage\n system (II)\n4.1 Check under carriage\nsystem\n\n4.2 Test undercarriage\nsystem\n\n4.3 Measure wear of\nundercarriage related\ncomponents\n\n4.4 Repair and replace\nundercarriage\ncomponents/parts\nLecture\n\nPractical\nexercises,\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n79\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\n--- PDF PAGE 82 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n80\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n--- PDF PAGE 83 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n81\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\nTrainees or students wishing to gain entry into this course should possess the\nfollowing requirements:\n\n•\ncompleted training in heavy equipment servicing (mechanical) I or a\nholder of Heavy Equipment NC I certificate or completed diesel\nmechanic course\n•\nphysically and mentally fit\n•\nwith good moral character\n\n--- PDF PAGE 84 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n82\n3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Heavy Equipment Servicing (Mechanical) II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nQTY\nQTY\n5 sets\nwrenches (box and\nopen-end 8-24 mm-\nmetric & 7/16 –1” -\nEnglish )\n1 unit\nHeavy Equipment\nMechanic II(MOA\n/rental)\n10 kls.\nMulti-purpose\ngrease\n 5 sets hammer ballpeen\n(3-4 lbs)\n1 unit hydraulic/air\nimpact wrench\n50 liters\nengine oil (SAE\n15W40)\n2pcs.\n Sledge hammer 8\nlbs.\n\n200\nliters\ndiesel fuel\n5 sets\npliers( mechanical 10\n“)\n1 unit\n high pressure\nwasher\n 2 cans\npenetrating oil\n(250 ml)\npcs\n\nadjustable wrench\n(18 “)\n 1 unit Portable electric air\ncompressor\n20 kls.\nCotton rugs\n5pcs.\nadjustable wrench\n10”\n1 set\nHydraulic tools for\nundercarriage\n 5 liters Cleaning solvent\n 2 pcs.\n grease gun\n1 set\nChain block with\n“A” frame (3 tons)\n50 liters Hydraulic /\nsteering fluid\n(TELLUS 68/10W)\n 5 sets\n screw driver ( 10 “\nflat & Philips)\n1 unit.\nTransmission\nundercarriage jack\n(5 tons)\n20 liters\nFinal\ndrive/differential\n(gear oil\nGP90/140)\n 5 pcs.\n putty knife\n 1 unit\nCrocodile jack\n( 5 tons)\n20 liters\nTransmission oil\n(ATF)\n\n3 sets\nsocket wrench ½”\ndrive (8- 32 mm 0r\nEnglish equivalent)\n\n1 unit `\n\nHydraulic vertical\njack ( 10 tons)\n\n 1 set\nshop work\ncleaning tool(one\neach kind)\n\n2 sets\nsocket wrench ¾”\ndrive (30- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nHydraulic press\n(20 tons)\n25 pairs\nworking clothes\n\n2 sets\nsocket wrench 1”\ndrive (22- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nParts cleaner\n 25\npairs\nSafety shoes\n2 sets\nallen wrench L- type\n(4-17 mm or English\nequivalent)\n\n1 unit\n\nPallet truck\n(5 tons)\n 25\npairs\nGloves\n\n--- PDF PAGE 85 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n83\n1 pc.\n Torque multiplier ¾ “\ndrive with\n (Mechanical\nAdvantage X4)\n5 units Working bench\nwith attached vises\n25 pairs\nGoggles\n1 pc.\nTorx wrench\n ½ “ drive (12-19\nmm or English\nequivalent)\n\n1 unit\n\nBench grinder\n5 pcs\n\nShop repair\nmanual\n2 sets\nallen wrench socket\ntype (12- 27 mm or\nEnglish equivalent)\n\n1 unit\n\nDrill press\n25 pcs\nHard hat\n5 pcs.\n Filter wrench\n 1 unit\nVertical hydraulic\ntest bench\n\n5 pcs.\nhacksaw\n1 unit\nInjection pump\ncalibration stand\nwith nozzle\ninjector tester\n\n3 pcs.\npry bar (heavy duty)\n1 unit\nEngine\ndynamometer\n\n 5pcs.\nPipe wrench (12”)\n 1 unit\n Valve spring\ntester\n\n5 pcs.\nVise grip (12 “)\n1 unit\nEngine stand\n1 pc.\nTorque wrench ½”\ndrive (0-30 kg./m)\n\n1 pc.\nTorque wrench ¾ ”\ndrive (0-70 kg./m)\n\n2 sets\nThermometer\n2 set s\ntachometer\n2 sets\nTiming tool\n2 sets\nCaliper (inside &\noutside)\n\n2 sets\nMicrometer caliper\n2 sets\nVernier caliper\n1 set\nCylinder gauge\n1 set\nCompression tester\n1 set\nBlow by tester\n1 set\nHydraulic pressure\ngauge\n\n1 set\nVacuum tester\n1 set\nMulti- scale tester for\nundercarriage\n\n1 pc\nStraight edge rule (1\nMeter)\n\n1 pc\nStop watch\n2 sets\nFeller gauge\n\n--- PDF PAGE 86 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n84\n\n3.5 TRAINING FACILITIES\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\nThe Heavy Equipment Servicing (Mechanical) II workshop must be made of\nreinforced concrete or steel structure. The size must be suited on the requirements\nof the competencies. The class size of 25 students/trainees is reserved for the\nlecture room and the practical demonstration area for carrying out minor Heavy\nEquipment Servicing and parts maintenance. Most of the learning activities are\nperformed individually in the students/trainees work area.\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ. METERS\nTOTAL AREA\nIN SQ.\nMETERS\nStudent/Trainee’s Working Space\n\n4 (sq.m per\nstudent)\n100.0 sq.m.\nLecture Room\n48.0\n48.0\nLearning Resource Center\n24.0\n24.0\ntool/storeroom\n12.0\n12.0\n184\nFacilities/Equipment/ Circulation Area\n-\n-\n52\nTOTAL WORK AREA\n-\n236\n\n--- PDF PAGE 87 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n85\n\n3.6\nTRAINERS’ QUALIFICATION\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\n TRAINER QUALIFICATION (TQ III)\n\n Must be a holder of NC III Heavy Equipment Servicing (Mechanical)\n Must have undergone training on Training Methodology III (TM III)\n Must be computer literate\n Must be physically and mentally fit\n *Must have at least 5 years job/industry experience\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory\nCommission)\n\n*\nOptional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 88 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n86"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 88 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n86",
-      "pdf_pages": []
+      "pdf_pages": [
+        87
+      ],
+      "source_text": "3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 88 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n86"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "18 hours",
-      "24 hours",
-      "320 hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3. TRAINING STANDARDS\n\nThese standards are set to provide technical and vocational education and\ntraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for Heavy Equipment Servicing\n(Mechanical) II.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: HEAVY EQUIPMENT SERVICING\n (MECHANICAL) NC Level: II\n\nSuggested Nominal Training Duration: 18 hours (Basic)\n\n 24 hours (Common)\n 320 hours (Core)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, positive work attitudes\nand skills in Heavy Equipment Servicing (Mechanical) II, in accordance with\nindustry standards. It covers basic, common and core competencies. It includes\nbasic skills in participate in workplace communication, work in a team environment,\ndemonstrate work values, and practice housekeeping.\n\nThe common competencies are Interpret technical drawings and plans,\nobserve procedures, specifications and manuals of instructions, perform\nmensurations and calculation, and maintain tools and equipment. The core\ncompetencies include service engine systems, service power train systems,\nservice hydraulic systems, and service undercarriage systems.\n\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\n workplace\n communication\n1.1 Obtain and convey\n workplace Information\n\n1.2 Complete relevant work\n related documents\n\n1.3 Participate in workplace\n meetings and discussions\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 76 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n74\n\n2. Work in a team\n environment\n2.1 Describe team role\nand Scope\n\n2.2 Identify own role and\n responsibility within team\n\n2.3 Work as a team member\nLecture\n\nPractical\nexercises\n\nObservation\n\nDemonstration\n\nWritten test\n\n3. Demonstrate work\nvalues\n3.1 Apply work values/ethics\n\n3.2 Maintain integrity of\n conduct in the workplace\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nObservation and\noral questioning\n\nWritten test\n4. Practice house\n keeping\n procedures\n4.1 Sort recyclable and\nremove unnecessary\nmaterials\n\n4.2 Store materials\n\n4.3 Maintain work are, tools\nand equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 77 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n75\n\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Interpret\ntechnical\ndrawings and\nplans\n\n1.1 Read / Interpret blueprints\n and plans\n\n1.2 Perform freehand sketching\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n2. Observe\nprocedures,\nspecifications\nand manuals of\ninstructions.\n2.1 Identify and access\n specifications / technical\n manuals\n\n2.2 Interpret technical\nmanuals\n\n2.3 Apply information in\ntechnical manual\n\n2.4 Store technical manual\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n3. Perform\n mensurations\n and calculations\n\n3.1 Select measuring\n instruments\n\n3.2 Carryout measurement and\n calculations\n\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n4. Maintain tools\nand equipment\n4.1 Check condition of tools\n and equipment\n\n4.2 Perform preventive\n maintenance\n\n4.3 Store tools and equipment\nLecture\n\nDemonstration\n\nPractical\nexercises\nDemonstration\nand oral\nquestioning\n\nWritten test\n\n--- PDF PAGE 78 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n76\n5. Prepare\nconstruction\nmaterials and\ntools\n5.1 Identify Materials\n\n5.2 Requisition Materials\n\n5.3 Receive and inspect\nmaterials\nAudio Visual\n\nSimulation\n\nDiscussion\n\nPractical\nExercise\n\nDemonstration\nDirect\nobservation\n\nQuestions or\ninterview\n\nPortfolio\n(credentials)\n\nWritten / Oral\nTest\n\nDemonstration\n\n--- PDF PAGE 79 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n77\nCORE COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Service Engine\n system (II)\n1.1 Check engine systems\n\n1.2 Test and adjust engine\nsystem\n\n1.3 Troubleshoot engine\nsystem\n\n1.4 Repair / Replace engine\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\n Written test\n\n2. Service Power\n Train system (II)\n2.1 Check power train system\n\n2.2 Test power train\n\n2.3 Troubleshoot power train\n\n2.4 Remove and install power\n train components system\nLecture\n\nPractical\ndemonstration\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n3. Service Hydraulic\n system (II)\n3.1 Check hydraulic system\n\n3.2 Test and adjust hydraulic\nsystem\n\n3.3 Troubleshoot hydraulic\nsystem\n\n3.4 Repair or replace\nhydraulic system\ncomponents\nLecture\n\nPractical\nexercises\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 80 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n78\n\n4. Service\n undercarriage\n system (II)\n4.1 Check under carriage\nsystem\n\n4.2 Test undercarriage\nsystem\n\n4.3 Measure wear of\nundercarriage related\ncomponents\n\n4.4 Repair and replace\nundercarriage\ncomponents/parts\nLecture\n\nPractical\nexercises,\n\nOJT\nObservation\n\nDemonstration\n\nWritten test\n\n--- PDF PAGE 81 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n79\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\n--- PDF PAGE 82 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n80\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer just\nfacilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video\nor computer technologies.\n\n--- PDF PAGE 83 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n81\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\nTrainees or students wishing to gain entry into this course should possess the\nfollowing requirements:\n\n•\ncompleted training in heavy equipment servicing (mechanical) I or a\nholder of Heavy Equipment NC I certificate or completed diesel\nmechanic course\n•\nphysically and mentally fit\n•\nwith good moral character\n\n--- PDF PAGE 84 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n82\n3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Heavy Equipment Servicing (Mechanical) II.\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY\nQTY\nQTY\n5 sets\nwrenches (box and\nopen-end 8-24 mm-\nmetric & 7/16 –1” -\nEnglish )\n1 unit\nHeavy Equipment\nMechanic II(MOA\n/rental)\n10 kls.\nMulti-purpose\ngrease\n 5 sets hammer ballpeen\n(3-4 lbs)\n1 unit hydraulic/air\nimpact wrench\n50 liters\nengine oil (SAE\n15W40)\n2pcs.\n Sledge hammer 8\nlbs.\n\n200\nliters\ndiesel fuel\n5 sets\npliers( mechanical 10\n“)\n1 unit\n high pressure\nwasher\n 2 cans\npenetrating oil\n(250 ml)\npcs\n\nadjustable wrench\n(18 “)\n 1 unit Portable electric air\ncompressor\n20 kls.\nCotton rugs\n5pcs.\nadjustable wrench\n10”\n1 set\nHydraulic tools for\nundercarriage\n 5 liters Cleaning solvent\n 2 pcs.\n grease gun\n1 set\nChain block with\n“A” frame (3 tons)\n50 liters Hydraulic /\nsteering fluid\n(TELLUS 68/10W)\n 5 sets\n screw driver ( 10 “\nflat & Philips)\n1 unit.\nTransmission\nundercarriage jack\n(5 tons)\n20 liters\nFinal\ndrive/differential\n(gear oil\nGP90/140)\n 5 pcs.\n putty knife\n 1 unit\nCrocodile jack\n( 5 tons)\n20 liters\nTransmission oil\n(ATF)\n\n3 sets\nsocket wrench ½”\ndrive (8- 32 mm 0r\nEnglish equivalent)\n\n1 unit `\n\nHydraulic vertical\njack ( 10 tons)\n\n 1 set\nshop work\ncleaning tool(one\neach kind)\n\n2 sets\nsocket wrench ¾”\ndrive (30- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nHydraulic press\n(20 tons)\n25 pairs\nworking clothes\n\n2 sets\nsocket wrench 1”\ndrive (22- 60 mm 0r\nEnglish equivalent)\n\n1 unit\n\nParts cleaner\n 25\npairs\nSafety shoes\n2 sets\nallen wrench L- type\n(4-17 mm or English\nequivalent)\n\n1 unit\n\nPallet truck\n(5 tons)\n 25\npairs\nGloves\n\n--- PDF PAGE 85 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n83\n1 pc.\n Torque multiplier ¾ “\ndrive with\n (Mechanical\nAdvantage X4)\n5 units Working bench\nwith attached vises\n25 pairs\nGoggles\n1 pc.\nTorx wrench\n ½ “ drive (12-19\nmm or English\nequivalent)\n\n1 unit\n\nBench grinder\n5 pcs\n\nShop repair\nmanual\n2 sets\nallen wrench socket\ntype (12- 27 mm or\nEnglish equivalent)\n\n1 unit\n\nDrill press\n25 pcs\nHard hat\n5 pcs.\n Filter wrench\n 1 unit\nVertical hydraulic\ntest bench\n\n5 pcs.\nhacksaw\n1 unit\nInjection pump\ncalibration stand\nwith nozzle\ninjector tester\n\n3 pcs.\npry bar (heavy duty)\n1 unit\nEngine\ndynamometer\n\n 5pcs.\nPipe wrench (12”)\n 1 unit\n Valve spring\ntester\n\n5 pcs.\nVise grip (12 “)\n1 unit\nEngine stand\n1 pc.\nTorque wrench ½”\ndrive (0-30 kg./m)\n\n1 pc.\nTorque wrench ¾ ”\ndrive (0-70 kg./m)\n\n2 sets\nThermometer\n2 set s\ntachometer\n2 sets\nTiming tool\n2 sets\nCaliper (inside &\noutside)\n\n2 sets\nMicrometer caliper\n2 sets\nVernier caliper\n1 set\nCylinder gauge\n1 set\nCompression tester\n1 set\nBlow by tester\n1 set\nHydraulic pressure\ngauge\n\n1 set\nVacuum tester\n1 set\nMulti- scale tester for\nundercarriage\n\n1 pc\nStraight edge rule (1\nMeter)\n\n1 pc\nStop watch\n2 sets\nFeller gauge\n\n--- PDF PAGE 86 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n84\n\n3.5 TRAINING FACILITIES\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\nThe Heavy Equipment Servicing (Mechanical) II workshop must be made of\nreinforced concrete or steel structure. The size must be suited on the requirements\nof the competencies. The class size of 25 students/trainees is reserved for the\nlecture room and the practical demonstration area for carrying out minor Heavy\nEquipment Servicing and parts maintenance. Most of the learning activities are\nperformed individually in the students/trainees work area.\n\nSPACE REQUIREMENT\nSIZE IN METERS\nAREA IN SQ. METERS\nTOTAL AREA\nIN SQ.\nMETERS\nStudent/Trainee’s Working Space\n\n4 (sq.m per\nstudent)\n100.0 sq.m.\nLecture Room\n48.0\n48.0\nLearning Resource Center\n24.0\n24.0\ntool/storeroom\n12.0\n12.0\n184\nFacilities/Equipment/ Circulation Area\n-\n-\n52\nTOTAL WORK AREA\n-\n236\n\n--- PDF PAGE 87 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n85\n\n3.6\nTRAINERS’ QUALIFICATION\nHEAVY EQUIPMENT SERVICING (MECHANICAL) II\n\n TRAINER QUALIFICATION (TQ III)\n\n Must be a holder of NC III Heavy Equipment Servicing (Mechanical)\n Must have undergone training on Training Methodology III (TM III)\n Must be computer literate\n Must be physically and mentally fit\n *Must have at least 5 years job/industry experience\n Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory\nCommission)\n\n*\nOptional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued\nfor each unit of competency.\n\n--- PDF PAGE 88 ---\nTR HEAVY EQUIPMENT SERVICING NC II\n86"
 }
