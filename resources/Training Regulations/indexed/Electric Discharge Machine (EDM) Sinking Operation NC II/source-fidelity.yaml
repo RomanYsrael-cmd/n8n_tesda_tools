@@ -1,29 +1,224 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:electric-discharge-machine-edm-sinking-operation-nc-ii:4633ba4c9b",
-  "qualification": "Electric Discharge Machine (EDM) Sinking Operation NC II",
+  "qualification": "ELECTRIC DISCHARGE MACHINE (EDM) SINKING OPERATION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Electric Discharge Machine (EDM) Sinking Operation NC II.pdf",
-    "sha256": "4633ba4c9baa36ae2ff6b01ea0edce8828e02563ede8acdfc57d281c10517b82",
+    "source_sha256": "4633ba4c9baa36ae2ff6b01ea0edce8828e02563ede8acdfc57d281c10517b82",
+    "pdf_pages": 113,
+    "printed_pages": 109,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is Revision 00 promulgated May 21, 2019 and prints 37 Basic, 104 Common, and 160 Core hours for a 301-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The revised source uses four competency columns including Required Knowledge and Required Skills; these fields are normalized per unit while source_text preserves the page-extracted tables.",
+    "The source prints GOLASSARY OF TERMS and presents the last six definitions in a separate extracted column; the glossary parser re-associates those definitions to the printed terms and retains the misspelled heading in source_text.",
+    "The source uses title, capitalization, punctuation, spacing, and terminology variants including EDM OPERATION (SINKING) and Sinking-Operation; source_text preserves the printed forms."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is Revision 00 promulgated May 21, 2019 and prints 37 Basic, 104 Common, and 160 Core hours for a 301-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The revised source uses four competency columns including Required Knowledge and Required Skills; these fields are normalized per unit while source_text preserves the page-extracted tables."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints GOLASSARY OF TERMS and presents the last six definitions in a separate extracted column; the glossary parser re-associates those definitions to the printed terms and retains the misspelled heading in source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title, capitalization, punctuation, spacing, and terminology variants including EDM OPERATION (SINKING) and Sinking-Operation; source_text preserves the printed forms."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Electric Discharge Machine (EDM) Sinking Operation NC II.pdf",
-    "pdf_pages": 113,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "MEE722201",
+      "source_unit_code": "MEE722201",
+      "pdf_page_range": [
+        41,
+        44
+      ]
+    },
+    {
+      "unit_code": "MEE722202",
+      "source_unit_code": "MEE722202",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "MEE722203",
+      "source_unit_code": "MEE722203",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        51,
+        52
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        53,
+        54
+      ]
+    },
+    {
+      "unit_code": "MEE722206",
+      "source_unit_code": "MEE722206",
+      "pdf_page_range": [
+        55,
+        57
+      ]
+    },
+    {
+      "unit_code": "MEE722207",
+      "source_unit_code": "MEE722207",
+      "pdf_page_range": [
+        58,
+        59
+      ]
+    },
+    {
+      "unit_code": "MEE722208",
+      "source_unit_code": "MEE722208",
+      "pdf_page_range": [
+        60,
+        61
+      ]
+    },
+    {
+      "unit_code": "MEE722210",
+      "source_unit_code": "MEE722210",
+      "pdf_page_range": [
+        62,
+        63
+      ]
+    },
+    {
+      "unit_code": "MEE722211",
+      "source_unit_code": "MEE722211",
+      "pdf_page_range": [
+        64,
+        66
+      ]
+    },
+    {
+      "unit_code": "MEE821314",
+      "source_unit_code": "MEE821314",
+      "pdf_page_range": [
+        67,
+        70
+      ]
+    },
+    {
+      "unit_code": "MEE821315",
+      "source_unit_code": "MEE821315",
+      "pdf_page_range": [
+        71,
+        74
+      ]
+    },
+    {
+      "unit_code": "MEE821316",
+      "source_unit_code": "MEE821316",
+      "pdf_page_range": [
+        75,
+        78
+      ]
+    }
+  ]
 }

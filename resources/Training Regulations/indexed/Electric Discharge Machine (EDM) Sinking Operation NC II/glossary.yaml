@@ -1,5 +1,59 @@
 {
-  "present": false,
-  "entries": [],
-  "source_text": null
+  "present": true,
+  "entries": [
+    {
+      "term": "Electric discharge machine (EDM) operation",
+      "definition": "is the operation of removing metal thru electric discharge of short duration and high current density between the tool and workpiece"
+    },
+    {
+      "term": "Electrode",
+      "definition": "a formed cutting tool usually made of electrically conductive material usually carbon (graphite)"
+    },
+    {
+      "term": "Dielectric fluid",
+      "definition": "mostly of light lubricating oil of low viscosity and a non- conductor of electricity, able to rapidly ionize(vaporize) and deionize metal by removing it by flushing"
+    },
+    {
+      "term": "Flushing",
+      "definition": "process of removing eroded particles from the spark gap thru the rapid passage of dielectric fluid on a pipe or nozzle or thru electrode"
+    },
+    {
+      "term": "Surface texture",
+      "definition": "Is the surface finish on workpiece resulting from the spark duration, ie. Longer spark duration, rougher surface finish"
+    },
+    {
+      "term": "Wear",
+      "definition": "refers to the tool or electrode’s microscopic particles being carried on every spark, ie. More spark, more wear"
+    },
+    {
+      "term": "Spark gap",
+      "definition": "The distance between the face and sides of the workpiece and the electrode during machining operation"
+    },
+    {
+      "term": "Duty cycle",
+      "definition": "Is the measure of efficiency from the relationship between the on-time to the off-time of machine operation"
+    },
+    {
+      "term": "Relaxation type circuit",
+      "definition": "Depends upon the capacitor and resistance to provide the spark discharge. It gives higher electrode wear rate and lower metal removal"
+    },
+    {
+      "term": "Pulse type circuit",
+      "definition": "A valve or transistorized circuit to switch power into the working gap under accurate control, enabling precise amounts of energy to be measured in each spark discharge"
+    },
+    {
+      "term": "Dither/Audio",
+      "definition": "Attachments designed to give visual or audible signal if proximity of electrode and workpiece is less than the spark gap"
+    },
+    {
+      "term": "Gap Monitor Meter",
+      "definition": "It indicates deviation of spark gap; arching will cause a voltage increase and poor ionization of fluid will decrease the voltage"
+    },
+    {
+      "term": "Servo head",
+      "definition": "It controls the advancement of the electrode into the workpiece. Correct spark gap is maintained when voltages at the working gap and the reference on the servo head are balance Electric Discharge Machine (EDM)-Sinking Operation NC II Revision 00 Promulgated (05/21/2019) 107"
+    }
+  ],
+  "source_text": "1. Electric discharge\n machine (EDM) operation\nis the operation of removing metal thru electric discharge of\nshort duration and high current density between the tool and\nworkpiece\n\n2. Electrode\na formed cutting tool usually made of electrically conductive\nmaterial usually carbon (graphite)\n\n3. Dielectric fluid\nmostly of light lubricating oil of low viscosity and a non-\nconductor of electricity, able to rapidly ionize(vaporize) and\ndeionize metal by removing it by flushing\n\n4. Flushing\nprocess of removing eroded particles from the spark gap thru\nthe rapid passage of dielectric fluid on a pipe or nozzle or thru\nelectrode\n\n5. Surface texture\nIs the surface finish on workpiece resulting from the spark\nduration, ie. Longer spark duration, rougher surface finish\n\n6. Wear\nrefers to the tool or electrode’s microscopic particles being\ncarried on every spark, ie. More spark, more wear\n\n7. Spark gap\nThe distance between the face and sides of the workpiece and\nthe electrode during machining operation\n\n8. Duty cycle\n\n9. Relaxation type circuit\n\n10. Pulse type circuit\n\n11. Dither/Audio\n\n12. Gap Monitor Meter\n\n13.Servo head\n\nIs the measure of efficiency from the relationship between the\non-time to the off-time of machine operation\n\nDepends upon the capacitor and resistance to provide the\nspark discharge. It gives higher electrode wear rate and lower\nmetal removal\n\nA valve or transistorized circuit to switch power into the working\ngap under accurate control, enabling precise amounts of energy\nto be measured in each spark discharge\n\nAttachments designed to give visual or audible signal if\nproximity of electrode and workpiece is less than the spark gap\n\nIt indicates deviation of spark gap; arching will cause a voltage\nincrease and poor ionization of fluid will decrease the voltage\n\nIt controls the advancement of the electrode into the workpiece.\nCorrect spark gap is maintained when voltages at the working\ngap and the reference on the servo head are balance\n\n--- PDF PAGE 111 ---\nElectric Discharge Machine (EDM)-Sinking Operation NC II Revision 00 Promulgated (05/21/2019)\n107",
+  "document_id": "tesda:tr:electric-discharge-machine-edm-sinking-operation-nc-ii:4633ba4c9b"
 }

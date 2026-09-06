@@ -1,29 +1,179 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:electric-power-distribution-operation-and-maintenance-nc-iv:2018-06-27",
-  "qualification": "Electric Power Distribution Operation and Maintenance NC IV",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:electric-power-distribution-operation-and-maintenance-nc-iv:8cb403218b",
+  "qualification": "ELECTRIC POWER DISTRIBUTION OPERATION AND MAINTENANCE NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Electric Power Distribution Operation and Maintenance NC IV.pdf",
-    "sha256": "8cb403218bcdcfb87de2045a3ae0af6b7caedd740940749ade486ff01423f46f",
+    "source_sha256": "8cb403218bcdcfb87de2045a3ae0af6b7caedd740940749ade486ff01423f46f",
+    "pdf_pages": 118,
+    "printed_pages": 114,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is Revision 00 promulgated June 27, 2018 and prints 54 Basic, 60 Common, and 120 Core hours for a 234-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The revised source uses four competency columns including Required Knowledge and Required Skills; several unit headings are printed as UNIT TITLE rather than UNIT OF COMPETENCY, and both forms are normalized to the same unit record while source_text preserves the original heading.",
+    "The source uses title, capitalization, punctuation, and terminology variants including higher-order-thinking and occupational-safety wording; source_text preserves the printed forms while the indexed inventory follows the qualification list."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is Revision 00 promulgated June 27, 2018 and prints 54 Basic, 60 Common, and 120 Core hours for a 234-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The revised source uses four competency columns including Required Knowledge and Required Skills; several unit headings are printed as UNIT TITLE rather than UNIT OF COMPETENCY, and both forms are normalized to the same unit record while source_text preserves the original heading."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title, capitalization, punctuation, and terminology variants including higher-order-thinking and occupational-safety wording; source_text preserves the printed forms while the indexed inventory follows the qualification list."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Electric Power Distribution Operation and Maintenance NC IV.pdf",
-    "pdf_pages": 118,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311115",
+      "source_unit_code": "500311115",
+      "pdf_page_range": [
+        7,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311116",
+      "source_unit_code": "500311116",
+      "pdf_page_range": [
+        11,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311117",
+      "source_unit_code": "500311117",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311118",
+      "source_unit_code": "500311118",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311119",
+      "source_unit_code": "500311119",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "500311120",
+      "source_unit_code": "500311120",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "500311150",
+      "source_unit_code": "500311150",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "500311151",
+      "source_unit_code": "500311151",
+      "pdf_page_range": [
+        35,
+        40
+      ]
+    },
+    {
+      "unit_code": "500311155",
+      "source_unit_code": "500311155",
+      "pdf_page_range": [
+        41,
+        46
+      ]
+    },
+    {
+      "unit_code": "UTL311203",
+      "source_unit_code": "UTL311203",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "UTL311206",
+      "source_unit_code": "UTL311206",
+      "pdf_page_range": [
+        51,
+        55
+      ]
+    },
+    {
+      "unit_code": "UTL311205",
+      "source_unit_code": "UTL311205",
+      "pdf_page_range": [
+        56,
+        57
+      ]
+    },
+    {
+      "unit_code": "UTL311201",
+      "source_unit_code": "UTL311201",
+      "pdf_page_range": [
+        58,
+        62
+      ]
+    },
+    {
+      "unit_code": "UTL311207",
+      "source_unit_code": "UTL311207",
+      "pdf_page_range": [
+        63,
+        66
+      ]
+    },
+    {
+      "unit_code": "UTL741320",
+      "source_unit_code": "UTL741320",
+      "pdf_page_range": [
+        67,
+        70
+      ]
+    },
+    {
+      "unit_code": "UTL741321",
+      "source_unit_code": "UTL741321",
+      "pdf_page_range": [
+        71,
+        74
+      ]
+    },
+    {
+      "unit_code": "UTL741322",
+      "source_unit_code": "UTL741322",
+      "pdf_page_range": [
+        75,
+        77
+      ]
+    }
+  ]
 }
