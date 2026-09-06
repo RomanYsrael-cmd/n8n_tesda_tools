@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T09:29:32+08:00",
+  "last_updated": "2026-09-06T10:07:16+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 10,
-  "remaining_unaudited": 374,
+  "audited_count": 15,
+  "remaining_unaudited": 369,
   "blocked_count": 0,
   "documents": [
     {
@@ -138,6 +138,71 @@
       "validation_passed": true,
       "last_audit_commit": "3abb5930f245ab4b3cfa4c4434f259d1e5673d33",
       "audit_notes": "Rebuilt 4/4/4 competency groups; recovered split curriculum tables, repaired legacy criterion numbering and footer bleed, corrected assessment boundaries, and added duration, provenance, fidelity metadata, and resolvable selectors."
+    },
+    {
+      "package": "Agricultural Crops Production NC II",
+      "package_path": "resources/Training Regulations/indexed/Agricultural Crops Production NC II",
+      "source_file": "resources/Training Regulations/Agricultural Crops Production NC II.pdf",
+      "source_sha256": "21c8ffdf812304ef77aebb47d49e3aa13b37f2a140991e7fab837daec45ed68e",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:07:16+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "f378d390de9eddf044eeaa5651476743b54a96b3",
+      "audit_notes": "Rebuilt 4/5/4 competency groups; repaired legacy tables and curriculum coverage, durations, glossary, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Agricultural Crops Production NC III",
+      "package_path": "resources/Training Regulations/indexed/Agricultural Crops Production NC III",
+      "source_file": "resources/Training Regulations/Agricultural Crops Production NC III.pdf",
+      "source_sha256": "5484a9d798d46621c8cf9816af02e97cba11f8855acf804df89888f0a50302f1",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:07:16+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "f378d390de9eddf044eeaa5651476743b54a96b3",
+      "audit_notes": "Rebuilt 6/3/10 plus 9 elective groups; preserved the AGRA611328 source-code anomaly, recovered 75 curriculum rows, and repaired assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Agricultural Machinery Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Agricultural Machinery Operation NC II",
+      "source_file": "resources/Training Regulations/Agricultural Machinery Operation NC II.pdf",
+      "source_sha256": "d8abc69cb683017420957d53cd0cd32ccbd99b9b49a923ecd43238436d40c895",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:07:16+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "f378d390de9eddf044eeaa5651476743b54a96b3",
+      "audit_notes": "Rebuilt 4/3/3 four-column groups; restored required knowledge and skills, 31 curriculum rows, glossary, durations, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Agricultural Machinery Servicing (4-Wheel Tractor) NC III",
+      "package_path": "resources/Training Regulations/indexed/Agricultural Machinery Servicing (4-Wheel Tractor) NC III",
+      "source_file": "resources/Training Regulations/Agricultural Machinery Servicing (4-Wheel Tractor) NC III.pdf",
+      "source_sha256": "302aa3b1ddc5c855a2b3ebdda04bfad87163168337eee7009f0e5adce7c5688e",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:07:16+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "f378d390de9eddf044eeaa5651476743b54a96b3",
+      "audit_notes": "Rebuilt 9/7/5 four-column groups; restored required knowledge and skills, 73 curriculum rows, literal promulgation date, glossary, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Agroentrepreneurship NC II",
+      "package_path": "resources/Training Regulations/indexed/Agroentrepreneurship NC II",
+      "source_file": "resources/Training Regulations/Agroentrepreneurship NC II.pdf",
+      "source_sha256": "499c0febbe389f3e305dc9a519988a56c1f9a496e61297109b1e6cf8730e8798",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:07:16+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "f378d390de9eddf044eeaa5651476743b54a96b3",
+      "audit_notes": "Rebuilt 4/4/4 four-column groups; restored required knowledge and skills, 36 curriculum rows, glossary, durations, assessment, fidelity metadata, and selectors."
     }
   ]
 }
