@@ -1,29 +1,160 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:cnc-lathe-machine-operation-nc-ii:bc27cb01aa",
   "qualification": "CNC LATHE MACHINE OPERATION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "CNC Lathe Machine Operation NC II.pdf",
-    "sha256": "bc27cb01aa7bb6be7173ab207da1ad4ce7fac58fc129197738c4dde7e7c9abc3",
+    "source_sha256": "bc27cb01aa7bb6be7173ab207da1ad4ce7fac58fc129197738c4dde7e7c9abc3",
+    "pdf_pages": 51,
+    "printed_pages": 49,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "No promulgation date is printed in the page-preserved source header; the canonical promulgated field is null.",
+    "The source prints 18 Basic, 138 Common, and 80 Core hours with a 236-hour total; the canonical duration preserves the printed components and total.",
+    "The source uses title variants including CNC LATHE MACHINE OPERATION NC Level: NC II and PERFORM PREVENTIVE AND REPAIR/CORRECTIVE MAINTENANCE; the indexed title follows the Section 1 unit inventory while source_text preserves the variants."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "No promulgation date is printed in the page-preserved source header; the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 138 Common, and 80 Core hours with a 236-hour total; the canonical duration preserves the printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title variants including CNC LATHE MACHINE OPERATION NC Level: NC II and PERFORM PREVENTIVE AND REPAIR/CORRECTIVE MAINTENANCE; the indexed title follows the Section 1 unit inventory while source_text preserves the variants."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "CNC Lathe Machine Operation NC II.pdf",
-    "pdf_pages": 51,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "MEE722202",
+      "source_unit_code": "MEE722202",
+      "pdf_page_range": [
+        16,
+        17
+      ]
+    },
+    {
+      "unit_code": "MEE722203",
+      "source_unit_code": "MEE722203",
+      "pdf_page_range": [
+        18,
+        19
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        20,
+        21
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        22,
+        23
+      ]
+    },
+    {
+      "unit_code": "MEE722207",
+      "source_unit_code": "MEE722207",
+      "pdf_page_range": [
+        24,
+        25
+      ]
+    },
+    {
+      "unit_code": "MEE722208",
+      "source_unit_code": "MEE722208",
+      "pdf_page_range": [
+        26,
+        27
+      ]
+    },
+    {
+      "unit_code": "MEE722211",
+      "source_unit_code": "MEE722211",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "MEE821301",
+      "source_unit_code": "MEE821301",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "MEE821302",
+      "source_unit_code": "MEE821302",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "MEE821303",
+      "source_unit_code": "MEE821303",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    }
+  ]
 }

@@ -1,5 +1,31 @@
 {
-  "present": false,
-  "entries": [],
-  "source_text": null
+  "present": true,
+  "entries": [
+    {
+      "term": "EDM wire cutting uses a metallic wire to cut a programmed",
+      "definition": "contour in a workpiece. Extrusion dies and blanking punches are very often machined by wire cutting. Cutting is always through the entire workpiece. To start machining it is first necessary to drill a hole in the workpiece or start from the edge. 2. Computer Program A series of instruction, in language a machine control unit can understand, that outlines each steps a machine must take to produce a part 3. Computer Numerical"
+    },
+    {
+      "term": "Control (CNC)",
+      "definition": "A machine tool microprocessor that permits the creation or modification of parts. The programmed numerical control activates the machine’s servos and spindle drive, and controls the machine operation 4. Direct Numerical"
+    },
+    {
+      "term": "Control (DNC)",
+      "definition": "5. Programing 6. Computer Aided"
+    },
+    {
+      "term": "Design (CAD)",
+      "definition": "7. Computer Aided"
+    },
+    {
+      "term": "Manufacturing (CAM)",
+      "definition": "8. Surface Finish 9. Tolerance 10. Zero Reference Point A number of CNC machine in a manufacturing process controlled by one master computer The process of coding machining conditions in which information such as cutter dimensions, cutter movement processing orders, feed rate, or spindle speed all under fixed regulation or specified format which refers to the workpiece drawing to instruct numerically Controlled The use of graphics oriented computer software for designing and drafting application Computer software that generates programs for the operation of NC (numerical control) The degree of variation of a surface roughness or waviness from a reference or normal plane, usually measured in micro inches or micrometer. The amount of interference required for two or more parts that are in contact. The amount of variation, over or under required size, permitted on a piece of machine work The point on or off the part, chosen by the programmer as being most suitable for programming and machining purposes CNC Electric Discharge Machine (EDM)-Wire Cut Operation NC II Revision 00 Promulgated (05/21/2019) 11.Sequence of operation 12. Manual Programming 13. Automatic"
+    },
+    {
+      "term": "Programming",
+      "definition": "The order of steps to be taken to successfully machine a part or perform an operation This refers to the act of creating an NC program entirely through manual calculation As the geometries to be machine get complex, it become difficult to create program through manual calculation. Such programs are created by the help of a special purpose computer CNC Electric Discharge Machine (EDM)-Wire Cut Operation NC II Revision 00 Promulgated (05/21/2019)"
+    }
+  ],
+  "source_text": "1. CNC EDM wire cut\nEDM wire cutting uses a metallic wire to cut a programmed\ncontour in a workpiece. Extrusion dies and blanking\npunches are very often machined by wire cutting. Cutting is\nalways through the entire workpiece. To start machining it\nis first necessary to drill a hole in the workpiece or start from\nthe edge.\n\n2. Computer Program\nA series of instruction, in language a machine control unit\ncan understand, that outlines each steps a machine must\ntake to produce a part\n\n3. Computer Numerical\nControl (CNC)\nA machine tool microprocessor that permits the creation or\nmodification of parts. The programmed numerical control\nactivates the machine’s servos and spindle drive, and\ncontrols the machine operation\n\n4. Direct Numerical\nControl (DNC)\n\n5. Programing\n\n6. Computer Aided\nDesign (CAD)\n\n7. Computer Aided\nManufacturing (CAM)\n\n8. Surface Finish\n\n9. Tolerance\n\n10. Zero Reference Point\n\nA number of CNC machine in a manufacturing process\ncontrolled by one master computer\n\nThe process of coding machining conditions in which\ninformation such as cutter dimensions, cutter movement\nprocessing orders, feed rate, or spindle speed all under\nfixed regulation or specified format which refers to the\nworkpiece drawing to instruct numerically Controlled\n\nThe use of graphics oriented computer software for\ndesigning and drafting application\n\nComputer software that generates programs for the\noperation of NC (numerical control)\n\nThe degree of variation of a surface roughness or\nwaviness from a reference or normal plane, usually\nmeasured in micro inches or micrometer.\n\nThe amount of interference required for two or more parts\nthat are in contact. The amount of variation, over or under\nrequired size, permitted on a piece of machine work\n\nThe point on or off the part, chosen by the programmer as\nbeing most suitable for programming and machining\npurposes\n\n--- PDF PAGE 137 ---\nCNC Electric Discharge Machine (EDM)-Wire Cut Operation NC II Revision 00 Promulgated (05/21/2019)\n133\n\n11.Sequence of operation\n\n 12. Manual Programming\n13. Automatic\n Programming\n\nThe order of steps to be taken to successfully machine a\npart or perform an operation\n\nThis refers to the act of creating an NC program entirely\nthrough manual calculation\n\nAs the geometries to be machine get complex, it become\ndifficult to create program through manual calculation.\nSuch programs are created by the help of a special\npurpose computer\n\n--- PDF PAGE 138 ---\nCNC Electric Discharge Machine (EDM)-Wire Cut Operation NC II Revision 00 Promulgated (05/21/2019)\n134",
+  "document_id": "tesda:tr:cnc-electric-discharge-machine-edm-wire-cut-operation-nc-iii:f96fdecad9"
 }

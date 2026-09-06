@@ -4,95 +4,70 @@
   "document_id": "tesda:tr:cnc-lathe-machine-operation-nc-iii:4126f70770",
   "qualification": "CNC LATHE MACHINE OPERATION NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "to lead in the dissemination and discussion of ideas,"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "MEE722201",
-        "title": "This unit covers the competencies required to apply"
-      },
-      {
-        "unit_code": "MEE722204",
-        "title": "This unit covers the competencies required to perform"
-      },
-      {
-        "unit_code": "MEE722205",
-        "title": "workpieces using measuring instruments such as steel rules,"
-      },
-      {
-        "unit_code": "MEE821305",
-        "title": "This unit covers the knowledge and skills required to"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "MEE821304",
-        "title": ": This unit covers the skills required to write advanced"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ": This unit covers the knowledge, skills and attitudes to"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "to collect information in order to negotiate to a desired"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical concepts and"
-      },
-      {
-        "unit_code": "MEE722202",
-        "title": "This unit covers the competencies required to read and"
-      },
-      {
-        "unit_code": "MEE722203",
-        "title": "This unit covers the skills and knowledge required to select"
-      },
-      {
-        "unit_code": "MEE722206",
-        "title": "organized and clean work area."
-      },
-      {
-        "unit_code": "MEE722207",
-        "title": "calculation involving triangles and tapers."
-      },
-      {
-        "unit_code": "MEE722208",
-        "title": "workpieces using angular measuring instruments."
-      },
-      {
-        "unit_code": "MEE722209",
-        "title": "calculation involving gear ratio, indexing problems and"
-      },
-      {
-        "unit_code": "MEE722210",
-        "title": "This unit covers the competencies required to measure"
-      },
-      {
-        "unit_code": "MEE722211",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "MEE821306",
-        "title": ": This unit covers the skills required to perform complex"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "Competency Map\nMetals and Engineering Sector\nReceive and respond\nto workplace\ncommunication\nReceive and respond\nto workplace\ncommunication\nLead in workplace\ncommunication\nLead in workplace\ncommunication\nWork with others\nLead small teams\nSolve problems\nrelated to\nworkplace activities\nSolve problems\nrelated to\nworkplace activities\nParticipate in\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nUtilize specialist\ncommunication skills\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team and\nindividual\nDevelop team and\nindividual\nApply problem-solving\ntechniques in the\nworkplace\nApply problem-solving\ntechniques in the\nworkplace\nDemonstrate\nwork values\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nApply safety\npractices\nApply safety\npractices\nPerform routine\nhousekeeping\nPerform routine\nhousekeeping\nMeasure workpiece\n(Basic)\nMeasure workpiece\n(Basic)\nInterpret working\ndrawings and\nsketches\nInterpret working\ndrawings and\nsketches\nSelect and cut\nworkshop materials\nSelect and cut\nworkshop materials\nPerform shop\ncomputations (Basic)\nPerform shop\ncomputations (Basic)\nPerform preventive\nand corrective\nmaintenance\nPerform preventive\nand corrective\nmaintenance\nPerform shop\ncomputations\n(Advanced)\nPerform shop\ncomputations\n(Advanced)\nPerform shop\ncomputations\n(Intermediate)\nPerform shop\ncomputations\n(Intermediate)\nMeasure workpiece\nusing gages and\ncomparators\nMeasure workpiece\nusing gages and\ncomparators\nMeasure workpiece\nusing angular measuring\ninstruments\nPractice occupational\nhealth and\nsafety procedures\nPractice occupational\nhealth and\nsafety procedures\nDevelop and practice\nnegotiation skills\nUse relevant\ntechnologies\nUse relevant\ntechnologies\nCollect, analyze\nand organize\ninformation\nCollect, analyze\nand organize\ninformation\nPlan and\norganize work\nPractice career\nprofessionalism\nPractice career\nprofessionalism\nUse mathematical\nconcepts and\ntechniques\nPromote\nenvironmental\nprotection\nPromote\nenvironmental\nprotection\nPractice\nhousekeeping\nprocedures\nTurn workpiece\n(Basic)\nTurn workpiece\n(Intermediate)\nMill workpiece\n(Basic)\nMill workpiece\n(Intermediate)\nGrind workpiece\n(Basic)\nPerform bench work\n(Basic)\nGrind workpiece\n(Complex)\nPerform bench work\n(Complex)\nTurn workpiece\n(Advanced)\nMill workpiece\n(Advanced)\nCNC Lathe Machine Operation NC III\nSet-up CNC lathe\nmachine, work- piece and\ncutting tools\nWrite basic CNC milling\nmachine program\nPerform basic CNC milling\nmachine operations\nSet-up multiple-axis CNC\nlathe machine, workpiece\nand cutting tools\nWrite advanced CNC\nLathe Machine program\nPerform advanced CNC\nLathe Machine operations\nSet-up multiple-axis CNC\nmilling machine, work-piece\nand cutting tools\nWrite advanced CNC\nMilling machine program\nPerform advanced CNC\nMilling Machine operation\nPrepare cost\nestimates\nPrepare cost\nestimates\nApply CAD/CAM\nprogram\nCreate drawing using\nCAD software\n\n--- PDF PAGE 68 ---\nTR – CNC Lathe Machine Operation NC III\n66",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "MEE722201",
+        "MEE722202",
+        "MEE722203",
+        "MEE722204",
+        "MEE722205",
+        "MEE722206",
+        "MEE722207",
+        "MEE722208",
+        "MEE722209",
+        "MEE722210",
+        "MEE722211",
+        "MEE-PREPARE-COST-ESTIMATES"
+      ],
+      "unit_titles": [
+        "Apply safety practices",
+        "Interpret working drawings and sketches",
+        "Select/ cut workshop materials",
+        "Perform shop computations (Basic)",
+        "Measure workpiece (Basic)",
+        "Perform routine housekeeping",
+        "Perform shop computations (Intermediate)",
+        "Measure workpiece using angular measuring instruments",
+        "Perform shop computations (Advanced)",
+        "Measure workpiece using gages and surface texture comparator",
+        "Perform preventive and corrective maintenance",
+        "Prepare Cost Estimates"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "MEE821304",
+        "MEE821305",
+        "MEE821306"
+      ],
+      "unit_titles": [
+        "Write Advanced CNC Lathe Machine Program",
+        "Set-up multiple axis CNC lathe machine, workpiece and cutting tools",
+        "Perform Advanced CNC Lathe Machine Operations"
+      ]
+    }
+  ],
+  "source_text": "Section\n1. Successful candidates shall be awarded a National Certificate signed by\nthe TESDA Director General.\n4.2\nThe qualification of CNC Lathe Machine Operation NC III may be attained\nthrough:\n4.2.1.\nAccumulation of Certificates of Competency (COCs) in all the\nfollowing units of competencies:\n4.2.1.1 Write advanced CNC lathe machine program\n4.2.1.2 Set- up multiple-axis CNC lathe machine, workpiece and\n cutting tools\n4.2.1.3\nPerform advanced CNC lathe machine operations\n\nSuccessful candidates shall be awarded a Certificate of\nCompetency (COC) in each of the core units.\n\n4.2.2\nDemonstration of competence through project-type assessment\ncovering all the units required in the qualification.\n\n4.3\nAccumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate.\n\n4.4\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.5\nThe following are qualified to apply for assessment and certification:\n\n4.5.1.\nHolder of CNC lathe Machine Operation NC II or equivalent\nqualification; or\n\n4.5.2.\nGraduate of formal, non-formal, and informal including enterprise-\nbased training programs.\n\n4.5.3.\nExperienced workers (wage employed or self employed\n\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on\nthe Implementation of the Philippine TVET Qualification and Certification\nSystem (PTQCS)”.\n\n--- PDF PAGE 67 ---\nTR – CNC Lathe Machine Operation NC III\n65\n\nSet-up CNC milling\nmachine, work- piece and\ncutting tools\nWrite basic CNC lathe\nmachine program\nPerform basic CNC lathe\nmachine operations\nCORE\nCOMPETENCIES\nCompetency Map\nMetals and Engineering Sector\nReceive and respond\nto workplace\ncommunication\nLead in workplace\ncommunication\nWork with others\nLead small teams\nSolve problems\nrelated to\nworkplace activities\nParticipate in\nworkplace\ncommunication\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team and\nindividual\nApply problem-solving\ntechniques in the\nworkplace\nDemonstrate\nwork values\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nApply safety\npractices\nPerform routine\nhousekeeping\nMeasure workpiece\n(Basic)\nInterpret working\ndrawings and\nsketches\nSelect and cut\nworkshop materials\nPerform shop\ncomputations (Basic)\nPerform preventive\nand corrective\nmaintenance\nPerform shop\ncomputations\n(Advanced)\nPerform shop\ncomputations\n(Intermediate)\nMeasure workpiece\nusing gages and\ncomparators\nMeasure workpiece\nusing angular measuring\ninstruments\nPractice occupational\nhealth and\nsafety procedures\nDevelop and practice\nnegotiation skills\nUse relevant\ntechnologies\nCollect, analyze\nand organize\ninformation\nPlan and\norganize work\nPractice career\nprofessionalism\nUse mathematical\nconcepts and\ntechniques\nPromote\nenvironmental\nprotection\nPractice\nhousekeeping\nprocedures\nTurn workpiece\n(Basic)\nTurn workpiece\n(Intermediate)\nMill workpiece\n(Basic)\nMill workpiece\n(Intermediate)\nGrind workpiece\n(Basic)\nPerform bench work\n(Basic)\nGrind workpiece\n(Complex)\nPerform bench work\n(Complex)\nTurn workpiece\n(Advanced)\nMill workpiece\n(Advanced)\nCNC Lathe Machine Operation NC III\nSet-up CNC lathe\nmachine, work- piece and\ncutting tools\nWrite basic CNC milling\nmachine program\nPerform basic CNC milling\nmachine operations\nSet-up multiple-axis CNC\nlathe machine, workpiece\nand cutting tools\nWrite advanced CNC\nLathe Machine program\nPerform advanced CNC\nLathe Machine operations\nSet-up multiple-axis CNC\nmilling machine, work-piece\nand cutting tools\nWrite advanced CNC\nMilling machine program\nPerform advanced CNC\nMilling Machine operation\nPrepare cost\nestimates\nApply CAD/CAM\nprogram\nCreate drawing using\nCAD software\nSet-up CNC milling\nmachine, work- piece and\ncutting tools\nWrite basic CNC lathe\nmachine program\nPerform basic CNC lathe\nmachine operations\nCORE\nCOMPETENCIES\nCompetency Map\nMetals and Engineering Sector\nCompetency Map\nMetals and Engineering Sector\nReceive and respond\nto workplace\ncommunication\nReceive and respond\nto workplace\ncommunication\nLead in workplace\ncommunication\nLead in workplace\ncommunication\nWork with others\nLead small teams\nSolve problems\nrelated to\nworkplace activities\nSolve problems\nrelated to\nworkplace activities\nParticipate in\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nUtilize specialist\ncommunication skills\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team and\nindividual\nDevelop team and\nindividual\nApply problem-solving\ntechniques in the\nworkplace\nApply problem-solving\ntechniques in the\nworkplace\nDemonstrate\nwork values\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nApply safety\npractices\nApply safety\npractices\nPerform routine\nhousekeeping\nPerform routine\nhousekeeping\nMeasure workpiece\n(Basic)\nMeasure workpiece\n(Basic)\nInterpret working\ndrawings and\nsketches\nInterpret working\ndrawings and\nsketches\nSelect and cut\nworkshop materials\nSelect and cut\nworkshop materials\nPerform shop\ncomputations (Basic)\nPerform shop\ncomputations (Basic)\nPerform preventive\nand corrective\nmaintenance\nPerform preventive\nand corrective\nmaintenance\nPerform shop\ncomputations\n(Advanced)\nPerform shop\ncomputations\n(Advanced)\nPerform shop\ncomputations\n(Intermediate)\nPerform shop\ncomputations\n(Intermediate)\nMeasure workpiece\nusing gages and\ncomparators\nMeasure workpiece\nusing gages and\ncomparators\nMeasure workpiece\nusing angular measuring\ninstruments\nPractice occupational\nhealth and\nsafety procedures\nPractice occupational\nhealth and\nsafety procedures\nDevelop and practice\nnegotiation skills\nUse relevant\ntechnologies\nUse relevant\ntechnologies\nCollect, analyze\nand organize\ninformation\nCollect, analyze\nand organize\ninformation\nPlan and\norganize work\nPractice career\nprofessionalism\nPractice career\nprofessionalism\nUse mathematical\nconcepts and\ntechniques\nPromote\nenvironmental\nprotection\nPromote\nenvironmental\nprotection\nPractice\nhousekeeping\nprocedures\nTurn workpiece\n(Basic)\nTurn workpiece\n(Intermediate)\nMill workpiece\n(Basic)\nMill workpiece\n(Intermediate)\nGrind workpiece\n(Basic)\nPerform bench work\n(Basic)\nGrind workpiece\n(Complex)\nPerform bench work\n(Complex)\nTurn workpiece\n(Advanced)\nMill workpiece\n(Advanced)\nCNC Lathe Machine Operation NC III\nSet-up CNC lathe\nmachine, work- piece and\ncutting tools\nWrite basic CNC milling\nmachine program\nPerform basic CNC milling\nmachine operations\nSet-up multiple-axis CNC\nlathe machine, workpiece\nand cutting tools\nWrite advanced CNC\nLathe Machine program\nPerform advanced CNC\nLathe Machine operations\nSet-up multiple-axis CNC\nmilling machine, work-piece\nand cutting tools\nWrite advanced CNC\nMilling machine program\nPerform advanced CNC\nMilling Machine operation\nPrepare cost\nestimates\nPrepare cost\nestimates\nApply CAD/CAM\nprogram\nCreate drawing using\nCAD software\n\n--- PDF PAGE 68 ---\nTR – CNC Lathe Machine Operation NC III\n66\nDefinition of Terms\n\nbench work\nthe operations incident to the process of laying out, fitting,\nassembling, etc… when the work is placed on the bench or\nin a bench vise\n\nboring\nis the operation of enlarging a hole by means of an\nadjustable cutting tool with only one cutting edge\n\nchipping\nis the operation of removing/cutting metal using hammer\nand chisel\n\ncounter boring\nis the operation of enlarging the end of a hole cylindrically\n\ndrilling\nis the operation of producing a circular hole by removing\nsolid metal\n\nfacing\nthe lathe operation of finishing the ends of the work, to\nmake the piece the right length. Also known as squaring\n\ngrinding\nrefers to the removal of material from a workpiece with\ngrinding wheel\n\nlaying out\nterm used to include the marking or scribling of center\npoints, circles, arcs, or straight lines upon metal surfaces,\neither curved or flat, for the guidance of the worker\n\nmilling\nrefers to removal of metal by feeding a workpiece through\nthe periphery of rotating circular cutter\n\nreaming\nis an operation of sizing and finishing a hole by means of a\ncutting tool having several cutting edges. reaming serves to\nmake the hole smoother, straighter, and more accurate\n\nspot-facing\nis the operation of smoothing and squaring the surface\naround a hole\n\ntapping\nis the operation of forming internal threads by means of a\ntool called tap\n\nturning\nrefers to shaping a workpiece by gripping it in a\nworkholding device and rotating it under power against a\nsuitable cutting tool\n\nCNC machining\nrefers to the fabrication of work piece either turning, milling\nor any other machining process with the use of\nComputerized Numerically Controlled machine tools\n\nprogramming\nthe process of coding machining conditions in which\ninformations such as cutter dimensions, cutter movement ,\nprocessing orders, federate or spindle speed all under fixed\nregulation or specified format which refers to the\nworkpiece drawing to instruct Numerically Controlled\nmachine tool\n\nCAD\nComputer Aided Design – the use of graphics-oriented\ncomputer software for designing and drafting applications\n\nCAM\nComputer Aided Manufacturing- computer software that\ngenerates programs for the operation of NC (numerical\ncontrol) machine tools\n\n--- PDF PAGE 69 ---\nTR – CNC Lathe Machine Operation NC III\n67\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who rendered their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\nINDUSTRY EXPERTS:\n\nDR. FELICIANO JAPITANA\nChief, MWTD\nMetal Industry Research and Development\nCenter\nEngr. ROGELITO AQUINO\nEngineer III, MSFS\nMetal Industry Research and\nDevelopment Center\nRAMON MARTIN\nCNC Expert\nMetal Industry Research and Development\nCenter\nHECTOR D. MALONZO\nPresident\nHDM Technologies, Inc.\n\nALANO CABANBAN\nVICTORIANO YAP\nSME\nCHARLIE POLICARPIO\nSME\nOSCAR UNAS\nSME\nTIMOTEO INTALAN\nMetalworking Industries Association of the\nPhilippines, Inc.\nANTONIO TERANIA\nMetalworking Industries Association of\nthe Philippines, Inc.\nVIRGILIO LANZUELA\nPresident / General Manager\nVL Industech Corporation\nENRIQUE PINGOL\nPAA\n\n--- PDF PAGE 70 ---\nTR – CNC Lathe Machine Operation NC III\n68\n TECHNICAL EXPERTS:\n\nCHARLES A. ANTONIO\nCEMMT Trainer\nTTCTCE\nMODESTO A. VELASQUEZ Jr.\nCEMMT Trainer\nTTCTCE\nFERDINAND E. ESTACIO\nSupervising TESD Specialist / Trainer\nNTTA\nRAMON R. SANTIAGO\nCEMMT Trainer\nTTCTCE\nLORENZO A. LADIA\nTrainer\nNTTA\nNOEL K. MALABAGO\nCEMMT Trainer\nTESDA – RTC\nGIL D. GONZALES\nCEMMT Focal Person\nTESDA – RTC XI\nPABLO H. CORTEZ Jr.\nCEMMT Focal Person\nTESDA – RTC VI\nROGEL M. BORBON\nCEMMT Trainer\nTESDA – RTC\nJIMMY NILLAS\nCEMMT Trainer/ MIAP\nTESDA – RTC VII\n\nEMILIA B. MAGAAN\nCEMMT Trainer\nTESDA – RTC IV-A\n\nJULFORD C. ABASOLO\nSupervising TESD Specialist\nTTCTCE\n\nMembers of the TESDA Board\n\nTESDA EXCOM\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n•\nQualification and Standards Office (QSO)"
 }
