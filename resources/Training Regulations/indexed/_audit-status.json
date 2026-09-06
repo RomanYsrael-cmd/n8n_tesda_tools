@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T14:46:41+08:00",
+  "last_updated": "2026-09-06T15:04:38+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 90,
-  "remaining_unaudited": 294,
+  "audited_count": 95,
+  "remaining_unaudited": 289,
   "blocked_count": 0,
   "documents": [
     {
@@ -1178,6 +1178,71 @@
       "validation_passed": true,
       "last_audit_commit": "04202b80414f4bf2da90c9cd0e77a68f21702098",
       "audit_notes": "Rebuilt 4/4/11 legacy historical two-column groups; restored 76 curriculum rows, preserved the absent promulgation date and 18/18/750-hour components with 786-hour total, added a disclosed normalized glossary aid because no dedicated glossary section is present, recorded the legacy institutional assessment typo and unpaged acknowledgement material, repaired assessment/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Carpentry NC II",
+      "package_path": "resources/Training Regulations/indexed/Carpentry NC II",
+      "source_file": "resources/Training Regulations/Carpentry NC II.pdf",
+      "source_sha256": "96eb178f8a277de7404d7baed2d0cb98f95cb12c2afef662da7fa65fe4d8f399",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:04:38+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "dda1c3277f6fa40cd336e9366a3bb842e4974caa",
+      "audit_notes": "Rebuilt 9/4/8 revised four-column groups; restored 87 curriculum rows and required knowledge/skills, preserved the printed 10/29/2018 date and 37/24/240-hour components with 301-hour total, recorded the Training Arrangements/page-tail source structure, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Carpentry NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Carpentry NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Carpentry NC II (Superseded).pdf",
+      "source_sha256": "e6642993e199d89d6424d1a62c1447061d2f1f67f07f8a06f25bd4bf42458bd0",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:04:38+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "dda1c3277f6fa40cd336e9366a3bb842e4974caa",
+      "audit_notes": "Rebuilt 4/4/5 superseded historical two-column groups; restored 75 curriculum rows, preserved the absent promulgation date and the split 18/24/120-hour components with computed 162-hour total, recorded the superseded lifecycle and historical titles, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Carpentry NC III",
+      "package_path": "resources/Training Regulations/indexed/Carpentry NC III",
+      "source_file": "resources/Training Regulations/Carpentry NC III.pdf",
+      "source_sha256": "755782f034c1e00578bf26870bea3886ecfffd744ff5fe8c9bfb9967f45e5e5f",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:04:38+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "dda1c3277f6fa40cd336e9366a3bb842e4974caa",
+      "audit_notes": "Rebuilt 9/5/6 revised four-column groups; restored 73 curriculum rows and required knowledge/skills, preserved the printed 10/29/2018 date and 40/24/160-hour components with 224-hour total, recorded the MSME/source-title variants, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Carpentry NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Carpentry NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Carpentry NC III (Superseded).pdf",
+      "source_sha256": "b526855ea65ce6cd1704308e8198df143dc46a186f2db9669ccd95dac9362d51",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:04:38+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "dda1c3277f6fa40cd336e9366a3bb842e4974caa",
+      "audit_notes": "Rebuilt 6/5/4 superseded historical two-column groups; restored 45 curriculum rows, preserved the absent promulgation date and 20/24/320-hour components with computed 364-hour total, recorded historical spellings and the E VIDENCE GUIDE source-heading spacing anomaly, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Chemical Process Operations NC III",
+      "package_path": "resources/Training Regulations/indexed/Chemical Process Operations NC III",
+      "source_file": "resources/Training Regulations/Chemical Process Operations NC III.pdf",
+      "source_sha256": "e392af3693744be92b4e9c26cdfaf8b3f60cea744c66cbbafe5d267c14bd37c6",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:04:38+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "dda1c3277f6fa40cd336e9366a3bb842e4974caa",
+      "audit_notes": "Rebuilt 6/5/6 revised four-column groups; restored 53 curriculum rows and required knowledge/skills, preserved Promulgated March 2016 and 20/56/224-hour components with 300-hour total, corrected actual Section 3/4 boundary selection despite a later Section 3.4 reference, recorded TOC/page-range and source-typo anomalies, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
     }
   ]
 }
