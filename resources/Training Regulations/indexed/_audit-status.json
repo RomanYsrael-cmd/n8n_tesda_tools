@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T10:27:01+08:00",
+  "last_updated": "2026-09-06T10:47:22+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 20,
-  "remaining_unaudited": 364,
+  "audited_count": 25,
+  "remaining_unaudited": 359,
   "blocked_count": 0,
   "documents": [
     {
@@ -268,6 +268,71 @@
       "validation_passed": true,
       "last_audit_commit": "34ef0b73f301ce36723c5371be157677a15fe5e4",
       "audit_notes": "Rebuilt 4/4/4 plus 1 elective legacy two-column groups; restored 46 curriculum rows, explicit elective coverage, glossary, assessment, and fidelity metadata, and recorded the source duration arithmetic mismatch."
+    },
+    {
+      "package": "Animal Production (Ruminants) NC II",
+      "package_path": "resources/Training Regulations/indexed/Animal Production (Ruminants) NC II",
+      "source_file": "resources/Training Regulations/Animal Production (Ruminants) NC II.pdf",
+      "source_sha256": "40640ec7d52168f40d554105362decd9ec4f6d223ba3f62e3851adb3daef37ac",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:47:22+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "f1dcd8ca3168efad9214db3cfbb1649f913e0520",
+      "audit_notes": "Rebuilt 4/4/5 legacy two-column groups; recovered the headerless final competency table and misnumbered core curriculum rows, restored 46 curriculum rows, glossary, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Animal Production (Swine) NC II",
+      "package_path": "resources/Training Regulations/indexed/Animal Production (Swine) NC II",
+      "source_file": "resources/Training Regulations/Animal Production (Swine) NC II.pdf",
+      "source_sha256": "38ddffa3924bfb87b74ea22ac5d7b6c6efc5599f6804451c439df5684a621181",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:47:22+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "f1dcd8ca3168efad9214db3cfbb1649f913e0520",
+      "audit_notes": "Rebuilt 4/4/6 legacy two-column groups; restored 54 curriculum rows, glossary, assessment, duration metadata, fidelity observations, and resolvable selectors while preserving source terminology."
+    },
+    {
+      "package": "Animation NC II",
+      "package_path": "resources/Training Regulations/indexed/Animation NC II",
+      "source_file": "resources/Training Regulations/Animation NC II.pdf",
+      "source_sha256": "a1aec63a0491c8f7bd70d0acd825f22211dcda1d457f573908d007604d84ad61",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:47:22+08:00",
+      "issues_found": 12,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "f1dcd8ca3168efad9214db3cfbb1649f913e0520",
+      "audit_notes": "Rebuilt 7/1/5 competency groups with required knowledge and skills, restored 43 curriculum rows, glossary, assessment, duration metadata, fidelity observations, and selectors; documented the ICT315202 Apply Quality Standards competency-standard omission in the source PDF."
+    },
+    {
+      "package": "Animation NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Animation NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Animation NC II (Superseded).pdf",
+      "source_sha256": "a6f7902a33fc9dcf9e9fba35857ad21aa91c0fd9b133fa94e49f7bcbf8b696be",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:47:22+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "f1dcd8ca3168efad9214db3cfbb1649f913e0520",
+      "audit_notes": "Rebuilt 4/2/1 superseded legacy two-column groups; preserved the 506315202 source-header anomaly, documented the omitted 500311108 curriculum row, and restored glossary, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Aquaculture (Grow-Out Operation) NC II",
+      "package_path": "resources/Training Regulations/indexed/Aquaculture (Grow-Out Operation) NC II",
+      "source_file": "resources/Training Regulations/Aquaculture (Grow-Out Operation) NC II.pdf",
+      "source_sha256": "31cf9448c070dd421c9e9fb87d8df924b1d2eb46e632a97f777de615f45b748b",
+      "status": "audited",
+      "audited_at": "2026-09-06T10:47:22+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "f1dcd8ca3168efad9214db3cfbb1649f913e0520",
+      "audit_notes": "Rebuilt 9/3/4 revised four-column groups; restored 54 curriculum rows, 490-hour duration arithmetic including 80-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving source title/date anomalies."
     }
   ]
 }
