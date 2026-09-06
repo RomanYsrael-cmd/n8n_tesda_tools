@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T10:47:22+08:00",
+  "last_updated": "2026-09-06T11:10:39+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 25,
-  "remaining_unaudited": 359,
+  "audited_count": 30,
+  "remaining_unaudited": 354,
   "blocked_count": 0,
   "documents": [
     {
@@ -333,6 +333,71 @@
       "validation_passed": true,
       "last_audit_commit": "f1dcd8ca3168efad9214db3cfbb1649f913e0520",
       "audit_notes": "Rebuilt 9/3/4 revised four-column groups; restored 54 curriculum rows, 490-hour duration arithmetic including 80-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving source title/date anomalies."
+    },
+    {
+      "package": "Aquaculture (Hatchery Operation) NC II",
+      "package_path": "resources/Training Regulations/indexed/Aquaculture (Hatchery Operation) NC II",
+      "source_file": "resources/Training Regulations/Aquaculture (Hatchery Operation) NC II.pdf",
+      "source_sha256": "084aeb7b5f20c8efb145307a2134d7ace2c3fa8c954ac2f7f0aaf7c34e1d15d2",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:10:39+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c2e607f67eac0b1070f95244976d7c7a6fac09b1",
+      "audit_notes": "Rebuilt 9/3/5 revised four-column groups; restored 67 curriculum rows, 266-hour duration arithmetic including 80-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving the literal date and running-header slash anomaly."
+    },
+    {
+      "package": "Aquaculture (Tilapia Culture) NC II",
+      "package_path": "resources/Training Regulations/indexed/Aquaculture (Tilapia Culture) NC II",
+      "source_file": "resources/Training Regulations/Aquaculture (Tilapia Culture) NC II.pdf",
+      "source_sha256": "75d86cb32427eb5fe4bb6782cc89ed92e0fe8a5bde903cb4e9daa111c66148e4",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:10:39+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c2e607f67eac0b1070f95244976d7c7a6fac09b1",
+      "audit_notes": "Rebuilt 9/3/3 revised four-column groups; restored 54 curriculum rows, 769-hour duration arithmetic including 80-hour SIL, glossary, assessment, fidelity metadata, and selectors while preserving the source date variant."
+    },
+    {
+      "package": "Aquaculture NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Aquaculture NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Aquaculture NC II (Superseded).pdf",
+      "source_sha256": "cfb780df92e5056d668a4e3357404e70aac33877d70528cfe1176e64189a9892",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:10:39+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c2e607f67eac0b1070f95244976d7c7a6fac09b1",
+      "audit_notes": "Rebuilt 4/3/4 superseded legacy two-column groups; normalized the Section 2 blank common-unit codes from Section 1, retained the single explicit 1,276-hour total, restored glossary, assessment, fidelity metadata, and selectors."
+    },
+    {
+      "package": "Artificial Insemination (Large Ruminants) NC II",
+      "package_path": "resources/Training Regulations/indexed/Artificial Insemination (Large Ruminants) NC II",
+      "source_file": "resources/Training Regulations/Artificial Insemination (Large Ruminants) NC II.pdf",
+      "source_sha256": "a3a1f4befd4c848186e361050b32a8fc3cd383561fff6aabc00489222005b022",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:10:39+08:00",
+      "issues_found": 10,
+      "issues_fixed": 9,
+      "validation_passed": true,
+      "last_audit_commit": "c2e607f67eac0b1070f95244976d7c7a6fac09b1",
+      "audit_notes": "Rebuilt 4/3/4 plus 1 elective legacy two-column groups; preserved the 204-hour total plus separate 16-hour elective, restored glossary and assessment metadata, and documented the two omitted core curriculum tables and elective spelling anomaly."
+    },
+    {
+      "package": "Artificial Insemination (Swine) NC II",
+      "package_path": "resources/Training Regulations/indexed/Artificial Insemination (Swine) NC II",
+      "source_file": "resources/Training Regulations/Artificial Insemination (Swine) NC II.pdf",
+      "source_sha256": "d0764d3382a96c32a9fd01647aa961108b7eccb08032ceeb57b7466490ede49b",
+      "status": "audited",
+      "audited_at": "2026-09-06T11:10:39+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c2e607f67eac0b1070f95244976d7c7a6fac09b1",
+      "audit_notes": "Rebuilt 4/3/4 plus 2 elective legacy two-column groups; repaired the singular elective curriculum label and EVIDENCE PLAN heading, preserved the 127-hour total plus separate 48-hour elective, and restored glossary, assessment, fidelity metadata, and selectors."
     }
   ]
 }
