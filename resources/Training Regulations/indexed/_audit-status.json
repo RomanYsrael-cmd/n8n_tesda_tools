@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T23:25:58+08:00",
+  "last_updated": "2026-09-06T23:44:13+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 220,
-  "remaining_unaudited": 164,
+  "audited_count": 225,
+  "remaining_unaudited": 159,
   "blocked_count": 0,
   "documents": [
     {
@@ -2868,6 +2868,71 @@
       "validation_passed": true,
       "last_audit_commit": "f9e1d4cd0b1e29b3de0ba37f5f094d01a840c3d5",
       "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 35 curriculum rows, 5 assessment arrangements, and 1 definition-term entry, preserved Promulgated July 2007, the Page 1 of 83 through Page 82 of 83 sequence, and the 18/18/120-hour components with 156-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Overhead and Gantry Crane) NC III",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Overhead and Gantry Crane) NC III",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Overhead and Gantry Crane) NC III.pdf",
+      "source_sha256": "7208f5928cd5f561ad764d7b89656dbf2ec93c4741d8223a314c72bea4c6350b",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:44:13+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "b5e90c2ee5cd5eb7109a8c6ee74635597b3fab6c",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 54 curriculum rows, 2 assessment arrangements, and 4 definition-term entries, preserved Revision 01 and Promulgated (11/07/2019), recorded the 40/24/160-hour components plus 40-hour Supervised Industry Learning (SIL) and printed 224-hour total with the 264-hour component-sum mismatch, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Paver) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Paver) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Paver) NC II.pdf",
+      "source_sha256": "ad753975461f2b7b8daedb4b4f8aeb2f10e184e55e339b03b4213ac38e16c22c",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:44:13+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b5e90c2ee5cd5eb7109a8c6ee74635597b3fab6c",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 40 curriculum rows, 4 assessment arrangements, and 1 definition-term entry, preserved the absent promulgation date and unreliable printed-page sequence, recorded the 18/24/80-hour components with 122-hour total, normalized the Section 3 common-unit curriculum order against the source learning-outcome content while retaining the Section 2 ordering discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Rigid Off-Highway Dump Truck) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Rigid Off-Highway Dump Truck) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Rigid Off-Highway Dump Truck) NC II.pdf",
+      "source_sha256": "648a23694aabf93444e26776112fb4418a91039150ef484fb86c8ba8c63be66a",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:44:13+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b5e90c2ee5cd5eb7109a8c6ee74635597b3fab6c",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 36 curriculum rows, 4 assessment arrangements, and 2 definition-term entries, preserved the absent promulgation date and unreliable printed-page sequence, recorded the 18/24/120-hour components with 162-hour total, normalized the Section 3 common-unit curriculum order against the source learning-outcome content while retaining the Section 2 ordering discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II.pdf",
+      "source_sha256": "319096d620305facfb05e6bb621d5bec2dc9a32338346da38183be23c546d3f1",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:44:13+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b5e90c2ee5cd5eb7109a8c6ee74635597b3fab6c",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups with required knowledge and skills; restored 50 curriculum rows, 2 assessment arrangements, and 2 definition-term entries, preserved Revision 01 and Promulgated (11/07/2019) with the 37/24/120-hour components plus 40-hour Supervised Industry Learning (SIL) and 221-hour total, ignored the stray 200200 extraction artifact outside Section 2, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II (Superseded).pdf",
+      "source_sha256": "b9fb6110ea2d65c5fa380007225f3f2d86f3479377c5cf2da1328231a18288c0",
+      "status": "audited",
+      "audited_at": "2026-09-06T23:44:13+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b5e90c2ee5cd5eb7109a8c6ee74635597b3fab6c",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 37 curriculum rows, 4 assessment arrangements, and 2 definition-term entries, preserved the superseded lifecycle and absent promulgation date with the 18/24/80-hour components and 122-hour total, normalized the Section 3 common-unit curriculum order against the source learning-outcome content, rebuilt the unnumbered loading/hauling/dumping element headings for the productive-operation unit, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
