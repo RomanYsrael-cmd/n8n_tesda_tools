@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T15:52:00+08:00",
+  "last_updated": "2026-09-06T16:17:47+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 110,
-  "remaining_unaudited": 274,
+  "audited_count": 115,
+  "remaining_unaudited": 269,
   "blocked_count": 0,
   "documents": [
     {
@@ -1438,6 +1438,71 @@
       "validation_passed": true,
       "last_audit_commit": "3e280dff5c172f6598af2e692b974622d242d5b8",
       "audit_notes": "Rebuilt 6/6/3 historical two-column groups; restored 49 curriculum rows, preserved the absent promulgation date and 36/60/80-hour components with 176-hour total, recorded the Section 3 omission of basic unit 500311114 and the NC II-plus source packaging language, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Consumer Electronics Servicing NC IV",
+      "package_path": "resources/Training Regulations/indexed/Consumer Electronics Servicing NC IV",
+      "source_file": "resources/Training Regulations/Consumer Electronics Servicing NC IV.pdf",
+      "source_sha256": "fa3cea6ec308f05a971b1e751b39d03c0dda148c97707758e64d56d10634951b",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:17:47+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "f7663b32fe49af8b458898ccdc21c1b30e402dbd",
+      "audit_notes": "Rebuilt 6/6/2 historical two-column groups; restored 53 curriculum rows and 25 glossary entries, preserved the absent promulgation date and 36/60/80-hour components with 176-hour total, normalized the DESCRIPTOR boundary and source title variants while preserving source text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Contact Center Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Contact Center Services NC II",
+      "source_file": "resources/Training Regulations/Contact Center Services NC II.pdf",
+      "source_sha256": "9206633efe3cce09739a0f57d8011269823e33a17ea51b071655a7b885cbafaf",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:17:47+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "f7663b32fe49af8b458898ccdc21c1b30e402dbd",
+      "audit_notes": "Rebuilt 4/2/3 revised four-column groups; restored 31 curriculum rows and 39 glossary entries, preserved the October 1, 2014 amended marker and 18/18/108-hour components with 144-hour total, recorded 506-versus-ICT source code variants, the no-National-Assessment source note, and the final curriculum boundary; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Contact Tracing NC II",
+      "package_path": "resources/Training Regulations/indexed/Contact Tracing NC II",
+      "source_file": "resources/Training Regulations/Contact Tracing NC II.pdf",
+      "source_sha256": "64214fbe1791a1e4d9899796dbeb29928cd535ab040b80dd0592cc5b0c1accee",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:17:47+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "f7663b32fe49af8b458898ccdc21c1b30e402dbd",
+      "audit_notes": "Rebuilt 9/4/6 revised four-column groups; restored 61 curriculum rows and 17 glossary entries, preserved Promulgated (06/2021), 37/112/72-hour components plus 80-hour SIL and 301-hour total, recorded the source TOC/page-range and unpaged-tail anomalies; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Cookery NC II",
+      "package_path": "resources/Training Regulations/indexed/Cookery NC II",
+      "source_file": "resources/Training Regulations/Cookery NC II.pdf",
+      "source_sha256": "eed9e7d5cd794ed48b11a9f2cc157a51a6a20308f37032e4bb14e78f1627d2f6",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:17:47+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "f7663b32fe49af8b458898ccdc21c1b30e402dbd",
+      "audit_notes": "Rebuilt 4/5/13 historical two-column groups; restored 87 curriculum rows, preserved Promulgated October 2014 and 18/18/280-hour components with 316-hour total, retained canonical Section 1 codes alongside source header mismatches and duplicates, and disclosed the normalized four-term glossary aid; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV",
+      "package_path": "resources/Training Regulations/indexed/COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV",
+      "source_file": "resources/Training Regulations/COOPERATIVE DEVELOPMENT AND MANAGEMENT LEVEL IV.pdf",
+      "source_sha256": "17de9d92ea20b890ea4ca9b3268746c2dd9195453b8b815b82b09fcf9fbfaa99",
+      "status": "audited",
+      "audited_at": "2026-09-06T16:17:47+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "f7663b32fe49af8b458898ccdc21c1b30e402dbd",
+      "audit_notes": "Rebuilt 9/3/6 revised four-column groups and restored the required knowledge/skills; preserved the absent promulgation date and nominal duration, recorded the absent curriculum-design table and Section 4, used deterministic retrieval keys for the six printed XXXXXXX source markers while preserving source text, and disclosed the six-term glossary; structural validation and visual endpoint QA passed."
     }
   ]
 }
