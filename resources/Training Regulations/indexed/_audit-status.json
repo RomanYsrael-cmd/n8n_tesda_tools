@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T14:12:57+08:00",
+  "last_updated": "2026-09-06T14:27:17+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 75,
-  "remaining_unaudited": 309,
+  "audited_count": 80,
+  "remaining_unaudited": 304,
   "blocked_count": 0,
   "documents": [
     {
@@ -983,6 +983,71 @@
       "validation_passed": true,
       "last_audit_commit": "76483c5b1314992b2b997877d2ae309f00ff7667",
       "audit_notes": "Rebuilt 4/4/3 superseded historical two-column groups; restored 37 curriculum rows, preserved the missing promulgation date and the 18 Basic/18 Common/180 Core duration with 150 in-school plus 30 SIT and 216-hour total, repaired assessment, glossary, fidelity metadata, and selectors, and retained the source amendment note; visual boundary QA passed."
+    },
+    {
+      "package": "Beauty Care Services (Nail Care) NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Beauty Care Services (Nail Care) NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Beauty Care Services (Nail Care) NC III (Superseded).pdf",
+      "source_sha256": "2166e8b32a5a26bec553ebf7177aa40a6674b99d8e809022417a03960a6cd74d",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:27:17+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "4403ea0a10fca44f1e89f0c09e48999b124208d3",
+      "audit_notes": "Rebuilt 6/4/2 superseded historical two-column groups; restored 43 curriculum rows, preserved the missing promulgation date, 198-hour duration with 130 in-school plus 30 SIT, Section 1 versus Section 2 common-code variants, and the amendment note; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Beekeeping NC II",
+      "package_path": "resources/Training Regulations/indexed/Beekeeping NC II",
+      "source_file": "resources/Training Regulations/Beekeeping NC II.pdf",
+      "source_sha256": "29a8f73ffb073e3518d7ba6a9de0bbd39ba72c867f7f338ad031a38a072ae3e3",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:27:17+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "4403ea0a10fca44f1e89f0c09e48999b124208d3",
+      "audit_notes": "Rebuilt 9/3/5 revised four-column groups; restored 56 curriculum rows and required knowledge/skills, normalized the AFF321203 omitted-skills-column aid from printed performance criteria, preserved the 08/11/2020 date literal, 37/72/41-hour components plus 40-hour SIL and 190-hour total, repaired assessment/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Biogas Plant Installation NC III",
+      "package_path": "resources/Training Regulations/indexed/Biogas Plant Installation NC III",
+      "source_file": "resources/Training Regulations/Biogas Plant Installation NC III.pdf",
+      "source_sha256": "eddf383430b0f80342d0800f668ba8e93a1fb377fd573f8354278a5d0d789fa3",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:27:17+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "4403ea0a10fca44f1e89f0c09e48999b124208d3",
+      "audit_notes": "Rebuilt 9/5/3 revised four-column groups; restored 53 curriculum rows and required knowledge/skills, added the separated CON311204 opening outcome, preserved the 2/18/2020 date, 40/24/120-hour components plus 120-hour SIL and 304-hour total, documented the printed 164-hour subtotal arithmetic anomaly and source spelling artifacts, repaired assessment/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Biomedical Equipment Servicing NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Biomedical Equipment Servicing NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Biomedical Equipment Servicing NC II (Superseded).pdf",
+      "source_sha256": "14c272c1fff89266382bb854170a9a86e1194c47961d4da14313290f9e15936e",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:27:17+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "4403ea0a10fca44f1e89f0c09e48999b124208d3",
+      "audit_notes": "Rebuilt 4/4/5 superseded historical two-column groups; restored 47 curriculum rows, preserved the absent promulgation date, the single 960-hour nominal duration, and the NCII versus NC II header variant, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Bookkeeping NC III",
+      "package_path": "resources/Training Regulations/indexed/Bookkeeping NC III",
+      "source_file": "resources/Training Regulations/Bookkeeping NC III.pdf",
+      "source_sha256": "d8d7180e13373a69ee94905b55fa1bb47735e9d370a1187444d8aebf1fd29806",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:27:17+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "4403ea0a10fca44f1e89f0c09e48999b124208d3",
+      "audit_notes": "Rebuilt 6/4/5 historical two-column groups; restored 53 curriculum rows, preserved the November 2007 promulgation and 20/24/248-hour duration totaling 292 hours, recorded Section 1/table title variants, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
     }
   ]
 }
