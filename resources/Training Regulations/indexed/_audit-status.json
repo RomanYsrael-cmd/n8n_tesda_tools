@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T19:19:25+08:00",
+  "last_updated": "2026-09-06T19:32:00+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 150,
-  "remaining_unaudited": 234,
+  "audited_count": 155,
+  "remaining_unaudited": 229,
   "blocked_count": 0,
   "documents": [
     {
@@ -1958,6 +1958,71 @@
       "validation_passed": true,
       "last_audit_commit": "e6e69c3",
       "audit_notes": "Rebuilt 6/4/8 historical two-column groups; restored 60 curriculum rows and 8 definition-term entries, preserved Promulgated November 2007 and the 20/24/64-hour components with 108-hour total, repaired the split Core curriculum headings and TRS5311206 versus TRS311206 source-code variant, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Fashion Design (Apparel) NC III",
+      "package_path": "resources/Training Regulations/indexed/Fashion Design (Apparel) NC III",
+      "source_file": "resources/Training Regulations/Fashion Design (Apparel) NC III.pdf",
+      "source_sha256": "560b24327f5af021067f10dfbcebe2fe7fad07217d900ddc6cbd85a8cbd45c58",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:32:00+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "76d4829",
+      "audit_notes": "Rebuilt 6/6/6 historical two-column groups; restored 64 curriculum rows and 17 definition-term entries, preserved the absent promulgation date and the 17/20/360-hour components with 397-hour total, normalized HCS515201/HCS515202 versus HCS516201/HCS516202 source-code variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Film and Video Postproduction NC III",
+      "package_path": "resources/Training Regulations/indexed/Film and Video Postproduction NC III",
+      "source_file": "resources/Training Regulations/Film and Video Postproduction NC III.pdf",
+      "source_sha256": "38ba31cfb1de8898c9c5d5639760e0c58fa709277a4445701d94d733698ee429",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:32:00+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "76d4829",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 67 curriculum rows and 41 glossary entries, preserved Promulgated (11/05/2021), the 40/88/170-hour subtotal and separate 120-hour SIL for a combined 418-hour duration, repaired curriculum cleanup, and retained source terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Fish Capture NC I",
+      "package_path": "resources/Training Regulations/indexed/Fish Capture NC I",
+      "source_file": "resources/Training Regulations/Fish Capture NC I.pdf",
+      "source_sha256": "6b9785ff91effe718edc322c050c68dc55dfe6eb719263ca9d8b8c8170f86b94",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:32:00+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "76d4829",
+      "audit_notes": "Rebuilt 4/8/3 historical two-column groups; restored 68 curriculum rows, preserved the absent promulgation date and single 352-hour nominal duration, repaired unnumbered basic and split maritime-common curriculum rows, and retained source terminology, assessment, fidelity metadata, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Fish Capture NC II",
+      "package_path": "resources/Training Regulations/indexed/Fish Capture NC II",
+      "source_file": "resources/Training Regulations/Fish Capture NC II.pdf",
+      "source_sha256": "379946718640da5d1fb7cce44ac9025d37e97101de7f6e4d033dafb48ac0905b",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:32:00+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "76d4829",
+      "audit_notes": "Rebuilt 4/8/13/14 historical basic/common/core/elective groups; restored 116 curriculum rows, preserved the absent promulgation date and single 318-hour nominal duration, recorded Section 1/Section 2 common-unit omissions and source-code variants, repaired the page-range parser collision and split maritime-common curriculum mapping, and retained source terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Fish Products Packaging NC II",
+      "package_path": "resources/Training Regulations/indexed/Fish Products Packaging NC II",
+      "source_file": "resources/Training Regulations/Fish Products Packaging NC II.pdf",
+      "source_sha256": "b2dcfcd80c65c4c73117890eb11f9ef9a2582b5b9ec15d8588a543f46bd6cfa6",
+      "status": "audited",
+      "audited_at": "2026-09-06T19:32:00+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "76d4829",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 41 curriculum rows, preserved Promulgated July 2007 and the 18/14/120-hour components with 152-hour total, recorded the Section 1 AGR741206 unit without a corresponding Section 2 standard, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
