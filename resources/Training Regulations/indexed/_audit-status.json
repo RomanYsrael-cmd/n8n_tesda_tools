@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T00:14:02+08:00",
+  "last_updated": "2026-09-07T00:33:38+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 235,
-  "remaining_unaudited": 149,
+  "audited_count": 240,
+  "remaining_unaudited": 144,
   "blocked_count": 0,
   "documents": [
     {
@@ -3063,6 +3063,71 @@
       "validation_passed": true,
       "last_audit_commit": "f97fc1f1bf39331732d046cffb74fe66485b47e4",
       "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 41 curriculum rows, 6 assessment arrangements, and 18 definition-term entries, preserved the unclear lifecycle, Promulgated December 2004/July 2007, the 1 / 85 through 84 / 85 sequence, and the 18/18/120-hour components with 156-hour total, restored the fourth basic unit from its code-bearing continuation page, recorded the Section 4 Bulldozer qualification typo, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Heavy Equipment Servicing (Mechanical) NC II",
+      "package_path": "resources/Training Regulations/indexed/Heavy Equipment Servicing (Mechanical) NC II",
+      "source_file": "resources/Training Regulations/Heavy Equipment Servicing (Mechanical) NC II.pdf",
+      "source_sha256": "f8c23d3f64448727531b06bc9c76bfacbdde406c3bbdcde5d90275287f8c5321",
+      "status": "audited",
+      "audited_at": "2026-09-07T00:33:38+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "d7556c8ae142b57de5dec732ab5f9b169ff34435",
+      "audit_notes": "Rebuilt 4/5/4 historical two-column groups; restored 41 curriculum rows, 5 assessment arrangements, and 5 definition-term entries, preserved the absent promulgation date and 1 through 87 printed-page sequence, recorded the 18/24/320-hour components with 362-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Hilot (Wellness Massage) NC II",
+      "package_path": "resources/Training Regulations/indexed/Hilot (Wellness Massage) NC II",
+      "source_file": "resources/Training Regulations/Hilot (Wellness Massage) NC II.pdf",
+      "source_sha256": "7eeb158d0125f98c3510a54b232e79de50f9c700bb7410da62c4ca34cf7200bf",
+      "status": "audited",
+      "audited_at": "2026-09-07T00:33:38+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "d7556c8ae142b57de5dec732ab5f9b169ff34435",
+      "audit_notes": "Rebuilt 4/4/4 historical two-column groups; restored 34 curriculum rows, 9 assessment arrangements, and 28 definition-term entries, preserved the absent promulgation date and the -1- through -66- printed-page sequence, recorded the 18/22/80-hour components with 120-hour total, preserved the HCS222202 versus HCS323202 and HCS222304 versus HCS311304 code discrepancies through source_unit_code and source-fidelity notes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Horticulture NC III",
+      "package_path": "resources/Training Regulations/indexed/Horticulture NC III",
+      "source_file": "resources/Training Regulations/Horticulture NC III.pdf",
+      "source_sha256": "2558928f075590aacfd27c5daf757477e9d5e47f4d40bfdebd3a29ca3d7b4c21",
+      "status": "audited",
+      "audited_at": "2026-09-07T00:33:38+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "d7556c8ae142b57de5dec732ab5f9b169ff34435",
+      "audit_notes": "Rebuilt 6/3/10/9 historical two-column basic/common/core/elective groups; restored 76 curriculum rows, 7 assessment arrangements, and 1 definition-term entry, preserved the absent promulgation date and -1- through -138- printed-page sequence, recorded the 18/14/413-hour components with 445-hour total, remapped the reset General/Horticulture curriculum numbering by source order, preserved the 500311113 versus 3500311113 and AGR611328 versus AGRA611328 code discrepancies through source_unit_code and source-fidelity notes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Housekeeping NC II",
+      "package_path": "resources/Training Regulations/indexed/Housekeeping NC II",
+      "source_file": "resources/Training Regulations/Housekeeping NC II.pdf",
+      "source_sha256": "4c1b23cdbed2f1d170e6d6de23d283f9a606a8959b2591386be84084a40fe970",
+      "status": "audited",
+      "audited_at": "2026-09-07T00:33:38+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "d7556c8ae142b57de5dec732ab5f9b169ff34435",
+      "audit_notes": "Rebuilt 4/5/6 historical two-column groups; restored 60 curriculum rows, 5 assessment arrangements, and 12 definition-term entries, preserved the unclear lifecycle, Promulgated December 2013, the 1 through 63 printed-page sequence, and the 18/18/400-hour components with 436-hour total, restored the Section 1 TRS5123115 code where the Section 2 heading lacked an extracted code, recorded the HOUSEKEEPING NC II (Amended) running-header variant, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Housekeeping NC III",
+      "package_path": "resources/Training Regulations/indexed/Housekeeping NC III",
+      "source_file": "resources/Training Regulations/Housekeeping NC III.pdf",
+      "source_sha256": "a20f4d612329d8a17be479648cbdde85baa0f6726ecc6023434d25970df0849c",
+      "status": "audited",
+      "audited_at": "2026-09-07T00:33:38+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "d7556c8ae142b57de5dec732ab5f9b169ff34435",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 68 curriculum rows, 2 assessment arrangements, and 17 definition-term entries, preserved Revision 01, Promulgated (10/15/2019), the 40/96/64-hour components plus 64-hour Supervised Industry Learning (SIL), the printed 200-hour subtotal and 264-hour total, and source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
