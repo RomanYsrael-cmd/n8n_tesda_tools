@@ -1,68 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:heavy-equipment-operation-hydraulic-excavator-nc-ii:2007-07",
-  "qualification": "Heavy Equipment Operation (Hydraulic Excavator) NC II",
+  "document_id": "tesda:tr:heavy-equipment-operation-hydraulic-excavator-nc-ii-superseded:387e7fc4ac",
+  "qualification": "HEAVY EQUIPMENT OPERATION (HYDRAULIC EXCAVATOR) NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "CODE500311106",
-        "title": "500311106"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON833302",
-        "title": "This unit describes the outcomes required in the"
-      },
-      {
-        "unit_code": "CON833303",
-        "title": "This unit describes the outcomes required in"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON833301",
-        "title": "This unit describes the outcomes required in"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "analyzing and interpreting symbols, data and work plan"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION-HEAVY EQUIPMENT OPERATION - SUB- SECTOR\nBA\nSIC\nInspect\nrigging\ngears\nPerform productive\noperation for\nhydraulic excavator\nPerform productive\noperation for truck-\nmounted crane\nPerform productive\noperation for tower crane\nPerform productive\noperation for forklift\nInstall\nrigging\ngears\nPerform productive\noperation for\nbackhoe loader\nPerform pre- and post-\noperation procedures for\nlifting equipment\nPerform basic\npreventive maintenance\nservicing for hauling\nPerform productive\noperation for off-\nhigh way dump\ntruck (articulated)\nPerform productive\noperation for\nbulldozer\nPerform productive\noperation for wheel\nloader\nPerform productive\noperation for motor\ngrader\nPerform pre- and post-\noperation procedures for\nhauling equipment\nPerform productive\noperation for road\nroller\nPerform basic preventive\nmaintenance servicing for\nlifting equipment\nAssist\ncrane\noperator\nPerform pre- and post-\noperation procedures for\nearth moving equipment\nPerform productive\noperation for\ncrawler crane\nPerform basic preventive\nmaintenance servicing for\nearth moving equipment\nPerform productive\noperation for rough-\nterrain crane\nPerform productive\noperation for off-highway\ndump truck (rigid)\nPerform productive\noperation for\nconcrete pump\nPerform productive\noperation for paver\nPerform basic preventive\nmaintenance servicing for\nconcreting and asphalting\nequipment\nPerform productive\noperation for on-\nhighway dump truck\n(rigid)\nPerform pre- and post-\noperation procedures for\nconcreting and asphalting\nequipment\nPerform productive\noperation for transit\nmixer\nCORE\nCOMPETENCIES\nPrepare\nconstruction\nmaterials and\ntools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and\nmanual of instructions\nMaintain tools and\nequipment\nPerform\nmensuration and\ncalculations\nCOMMON\nCOMPETENCIES\nBASIC\nCOMPETENCIES\nReceive and respond\nto workplace\ncommunication\nWork with others\nUse relevant\ntechnologies\nPractice career\nprofessionalism\nUtilize specialized\ncommunication\nskills\nPractice occupational\nhealth and safety\nprocedures\nDevelop teams and\nindividuals\nLead workplace\ncommunication\nDemonstrate work\nvalues\nSolve problems\nrelated to work\nactivities\nDevelop and\npractice negotiation\nskills\nPractice\nhousekeeping\nprocedure (5s)\nUse mathematical\nconcepts and\ntechniques\nWork in a team\nenvironment\nParticipate in\nworkplace\ncommunication\nApply problem-\nsolving techniques\nin the workplace\nPlan and organize\nwork\nCollect, analyze\nand organize\ninformation\nLead small team\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 83 ---\nTR HEAVY-EQUIPMENT OPERATION (Hydraulic Excavator) NC II\nPromulgated July 2007",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON833301",
+        "CON833302",
+        "CON833303"
+      ],
+      "unit_titles": [
+        "Perform pre- and post-operation procedures for earth-moving equipment",
+        "Perform basic preventive maintenance servicing for earth-moving equipment",
+        "Perform productive operation for hydraulic excavator"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be\nawarded National Certificates signed by the TESDA Director General.\n\n4.2 The qualification of HEAVY EQUIPMENT OPERATION (Bulldozer) NC II\nmaybe attained through demonstration of competence in a project-type\nassessment covering the following core units. Candidates may apply for\nassessment in any accredited assessment center.\n\n4.2.1\nHydraulic Excavator Operation\n\nPerform\npre-\nand\npost-operation\nfor\nearthmoving\nequipment\n\nPerform productive operation for hydraulic excavator\n\nPerform basic preventive-maintenance servicing for earth\nmoving equipment\n\n4.3 Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4 The following are qualified to apply for assessment and certification:\n\n4.4.1\nGraduates of formal, non-formal and/or informal training including\nenterprise-based training programs\n\n4.4.2\nExperienced Workers (wage-employed or self-employed)\n\n4.5 The guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on\nthe Implementation of the Philippine TVET Qualification and Certification\nSystem (PTQCS).\"\n\n--- PDF PAGE 81 ---\n\n--- PDF PAGE 82 ---\nTR HEAVY EQUIPMENT OPERATION\n\nCOMPETENCY MAP\nCONSTRUCTION-HEAVY EQUIPMENT OPERATION - SUB- SECTOR\nBA\nSIC\nInspect\nrigging\ngears\nPerform productive\noperation for\nhydraulic excavator\nPerform productive\noperation for truck-\nmounted crane\nPerform productive\noperation for tower crane\nPerform productive\noperation for forklift\nInstall\nrigging\ngears\nPerform productive\noperation for\nbackhoe loader\nPerform pre- and post-\noperation procedures for\nlifting equipment\nPerform basic\npreventive maintenance\nservicing for hauling\nPerform productive\noperation for off-\nhigh way dump\ntruck (articulated)\nPerform productive\noperation for\nbulldozer\nPerform productive\noperation for wheel\nloader\nPerform productive\noperation for motor\ngrader\nPerform pre- and post-\noperation procedures for\nhauling equipment\nPerform productive\noperation for road\nroller\nPerform basic preventive\nmaintenance servicing for\nlifting equipment\nAssist\ncrane\noperator\nPerform pre- and post-\noperation procedures for\nearth moving equipment\nPerform productive\noperation for\ncrawler crane\nPerform basic preventive\nmaintenance servicing for\nearth moving equipment\nPerform productive\noperation for rough-\nterrain crane\nPerform productive\noperation for off-highway\ndump truck (rigid)\nPerform productive\noperation for\nconcrete pump\nPerform productive\noperation for paver\nPerform basic preventive\nmaintenance servicing for\nconcreting and asphalting\nequipment\nPerform productive\noperation for on-\nhighway dump truck\n(rigid)\nPerform pre- and post-\noperation procedures for\nconcreting and asphalting\nequipment\nPerform productive\noperation for transit\nmixer\nCORE\nCOMPETENCIES\nPrepare\nconstruction\nmaterials and\ntools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and\nmanual of instructions\nMaintain tools and\nequipment\nPerform\nmensuration and\ncalculations\nCOMMON\nCOMPETENCIES\nBASIC\nCOMPETENCIES\nReceive and respond\nto workplace\ncommunication\nWork with others\nUse relevant\ntechnologies\nPractice career\nprofessionalism\nUtilize specialized\ncommunication\nskills\nPractice occupational\nhealth and safety\nprocedures\nDevelop teams and\nindividuals\nLead workplace\ncommunication\nDemonstrate work\nvalues\nSolve problems\nrelated to work\nactivities\nDevelop and\npractice negotiation\nskills\nPractice\nhousekeeping\nprocedure (5s)\nUse mathematical\nconcepts and\ntechniques\nWork in a team\nenvironment\nParticipate in\nworkplace\ncommunication\nApply problem-\nsolving techniques\nin the workplace\nPlan and organize\nwork\nCollect, analyze\nand organize\ninformation\nLead small team\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 83 ---\nTR HEAVY-EQUIPMENT OPERATION (Hydraulic Excavator) NC II\nPromulgated July 2007\n\nDefinition of Terms\n\nFor the purpose of this Competency Standard, the words\n\n1. Company\nRefers to private or government entity employing Hydraulic\nExcavator operator.\n2. Daily Equipment Time\nReport (DETR)\nRefers to excavator operating or working\nHours.\n3. Engine RPM\nRefers to revolution per minute of crank shaft/flywheel of\nengine.\n4. Excavation Work\nRefers to scooping of materials during trenching and\ndigging.\n5. Hydraulic Excavator\nRefers to earthmoving equipment used to excavate, load\nand transfer earth and similar materials\n6. Operator-Serviceable\n(OS) parts\nRefer to any part of the equipment that can be\nserviced by the operator, e. g., air cleaner, fuel\nfilter, battery clamp, fan belt, etc.\n7. Portfolio\nA tool containing pieces of evidence demonstrating work\noutputs that have been collected by the candidate. The\nitems are usually produced over a period of time and come\nfrom different sources.\n8. Site inspection\nRefers to a work activity in determining the actual condition\nof the project site to include location, transport route, site\nterrain, work area, hazards, type of material, etc.\n9. Type (Excavator)\nRefers to either crawler or wheel.\n10. Tipping load\nRefers to a load producing tipping condition at specified\nradius.\n11. Work equipment\nRefers to the excavator upper structure such as boom,\narm, bucket, or blade.\n\n--- PDF PAGE 84 ---\nTR HEAVY-EQUIPMENT OPERATION (Hydraulic Excavator) NC II\nPromulgated July 2007\n\nACKNOWLEDGMENTS\n\nThe Technical Education and Skills Development Authority (TESDA)\nwishes to extend thanks and appreciation to the many representatives of\nbusiness, industry, academe and government agencies who contributed their\ntime and expertise to the development and validation of these Training\nRegulations.\n\n•\nTHE TECHNICAL EXPERT PANEL (TEP)\n\nFlorello P. Quianzon\nConsultant, Equipment Concrete Product Division\n(Equipment Management)\nMakati Development Corporation\nAyala-Alabang, Muntinlupa City\nRenato P. Faigao\nEquipment Manager (Operations and\nMaintenance Management)\nMANCON-CBDC Joint Venture\nPasong Tamo, Extension,\nMakati City\nSamuel M. Puquiz\nHead, Mechanical and Technical (Construction\nEquipment Repair and Maintenance)\nDM Consunji Inc.\nPasong Tamo Extension, Makati City\nArturo M. Abrera\nHead, Mechanical Works Training Division\n(Civil Works, Heavy Equipment Operation)\nDepartment of Trade and Industry -\nConstruction Manpower Development\nFoundation\nPasong Tamo, Makati City\nLuciano E. Policarpio\nSafety Engineer (Construction Safety)\nFoundation Specialists, Inc.\nPaseo de Roxas, Legaspi Village, Makati City\nRoberto B. Ocampo\nSenior Technical Trainer\nMonark Equipment Corporation\nE. Rodriguez Jr., Avenue,\nLibis, Quezon City\nTito C. Tadios\nTraining Manager (Heavy Equipment Operation\nand Maintenance)\nMaxima Equipment Co. Inc.\nMapulang lupa, Valenzuela City\nCresencio B. Maramag Jr.\nVice President for Operations (Equipment\nManagement, Testing and Certification)\nFirst Philippines Skills and Equipment Testing\nCorp.\nBagong Ilog, Pasig City\nNicanor A. Lucanas Jr.\nMachine Operations Specialist\nMonark Equipment Corporation\nE. Rodriguez Jr. Avenue,\nLibis, Quezon City\nRudolfo D. Ancheta\nQuality Controller Supervisor (Repair and\nMaintenance of Hydraulic Excavator/Basic\nHydraulic)\nCivil Merchanidising Inc.\nPag-asa, Quezon City\n\n--- PDF PAGE 85 ---\nTR HEAVY-EQUIPMENT OPERATION (Hydraulic Excavator) NC II\nPromulgated July 2007\n\nNestor T. Butacan\nTechnical Trainer\nMaxima Equipment Co. Inc.\nQuezon Avenue,\nQuezon City\nMichael B. Rudolfo\nMaintenance Engineer\nC.M. Pancho Construction Inc.\nScout Borromeo St.,\nDiliman, Quezon City\nVerano O. Maligalig\nTechnical Officer (Heavy Equipment Operation\nand Maintenance)\nACEL, Inc.\nJollibee Plaza Bldg., Emerald Avenue, Ortigas,\nPasig City\nErwin Y. Bituin\nTechnical Training Specialist\nMonark Equipment Corporation\nE. Rodriguez jr. Avenue,\nLibis, Quezon City\nFernando B. Seva\nDivision Manager (Operations, Management\nTraining Delivery Division)\nPhilippine Ports Authority\nPort Area, South Harbor, Manila\nSixto Benedicto\nVice President for Operations (Rigging -\nTrainor)\nBenedicto Steel Corp.\nPasong Tamo, Makati City\nRaymundo O. Espiritu\nIndustrial Relations Development (Cargo Handling\nSpecialist)\nPhilippine Ports Authority\nPort Area, South Harbor, Manila\nIsagani G. Pamanilaga\nForklift Operator\nNorth Star Port Development Corp.\nPier 4, North Harbor, Manila\nAvelino A. Martinito\nForklift Operator\nNorth Star Port Development Corp.\nPier 4, North Harbor, Manila\n\nThe Management and Staff of the TESDA Secretariat\n\n•\nSkills Standards and Certification Office\n•\nNational Institute for Technical-\nVocational Education and Training\n\nThe Management and Staff of the ACEL Secretariat"
 }

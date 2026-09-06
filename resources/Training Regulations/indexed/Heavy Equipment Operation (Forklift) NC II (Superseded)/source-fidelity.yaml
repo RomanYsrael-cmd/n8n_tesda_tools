@@ -1,29 +1,144 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:heavy-equipment-operation-forklift-nc-ii:2004-12",
-  "qualification": "Heavy Equipment Operation (Forklift) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:heavy-equipment-operation-forklift-nc-ii-superseded:f7e59cee54",
+  "qualification": "HEAVY EQUIPMENT OPERATION (FORKLIFT) NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Heavy Equipment Operation (Forklift) NC II (Superseded).pdf",
-    "sha256": "f7e59cee5432ce3b607032ad112a4f92d31cc734d0b5c318de835b00f5ea0334",
+    "authority": "TESDA",
+    "source_file": "Heavy Equipment Operation (Forklift) NC II (Superseded).pdf",
+    "source_sha256": "f7e59cee5432ce3b607032ad112a4f92d31cc734d0b5c318de835b00f5ea0334",
+    "pdf_pages": 77,
+    "printed_pages": null,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is retained as superseded and prints Promulgated December 2004; the canonical promulgated field preserves the printed date literal.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source does not provide a reliable printed-page sequence, so printed_pages remains null. It prints 18 Basic, 18 Common, and 120 Core hours; the canonical duration records the 156-hour arithmetic total.",
+    "Section 1 prints core code CON833315 while the unit heading prints 505833315; the canonical unit code follows the unit heading and preserves the discrepancy through source_unit_code and source-fidelity notes. The Section 4 qualification text also incorrectly names Bulldozer for the Forklift qualification."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is retained as superseded and prints Promulgated December 2004; the canonical promulgated field preserves the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source does not provide a reliable printed-page sequence, so printed_pages remains null. It prints 18 Basic, 18 Common, and 120 Core hours; the canonical duration records the 156-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints core code CON833315 while the unit heading prints 505833315; the canonical unit code follows the unit heading and preserves the discrepancy through source_unit_code and source-fidelity notes. The Section 4 qualification text also incorrectly names Bulldozer for the Forklift qualification."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Heavy Equipment Operation (Forklift) NC II (Superseded).pdf",
-    "pdf_pages": 77,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        19
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "CON833309",
+      "source_unit_code": "CON833309",
+      "pdf_page_range": [
+        38,
+        46
+      ]
+    },
+    {
+      "unit_code": "CON833310",
+      "source_unit_code": "CON833310",
+      "pdf_page_range": [
+        47,
+        53
+      ]
+    },
+    {
+      "unit_code": "505833315",
+      "source_unit_code": "CON833315",
+      "pdf_page_range": [
+        54,
+        59
+      ]
+    }
+  ]
 }

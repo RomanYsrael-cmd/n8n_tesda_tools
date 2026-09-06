@@ -1,29 +1,139 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:heavy-equipment-operation-motor-grader-nc-ii:2007-07",
-  "qualification": "Heavy Equipment Operation (Motor Grader) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:heavy-equipment-operation-motor-grader-nc-ii:2f2636885c",
+  "qualification": "HEAVY EQUIPMENT OPERATION (MOTOR GRADER) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Heavy Equipment Operation (Motor Grader) NC II.pdf",
-    "sha256": "2f2636885c9b5e18da14daf4e797a70fa0b0bf732cad9b2c36b31b5cbf37b19d",
+    "source_sha256": "2f2636885c9b5e18da14daf4e797a70fa0b0bf732cad9b2c36b31b5cbf37b19d",
+    "pdf_pages": 83,
+    "printed_pages": 82,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints Promulgated July 2007 and a Page 1 of 83 through Page 82 of 83 sequence; the canonical fields preserve the printed date and 82 reliably numbered pages.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 18 Basic, 18 Common, and 120 Core hours; the canonical duration records the 156-hour arithmetic total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated July 2007 and a Page 1 of 83 through Page 82 of 83 sequence; the canonical fields preserve the printed date and 82 reliably numbered pages."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, and 120 Core hours; the canonical duration records the 156-hour arithmetic total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Heavy Equipment Operation (Motor Grader) NC II.pdf",
-    "pdf_pages": 83,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        27,
+        30
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "CON833301",
+      "source_unit_code": "CON833301",
+      "pdf_page_range": [
+        40,
+        50
+      ]
+    },
+    {
+      "unit_code": "CON833302",
+      "source_unit_code": "CON833302",
+      "pdf_page_range": [
+        51,
+        59
+      ]
+    },
+    {
+      "unit_code": "CON833306",
+      "source_unit_code": "CON833306",
+      "pdf_page_range": [
+        60,
+        65
+      ]
+    }
+  ]
 }
