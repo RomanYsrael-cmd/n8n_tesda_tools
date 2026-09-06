@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T11:59:36+08:00",
+  "last_updated": "2026-09-06T12:15:06+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 45,
-  "remaining_unaudited": 339,
+  "audited_count": 50,
+  "remaining_unaudited": 334,
   "blocked_count": 0,
   "documents": [
     {
@@ -593,6 +593,71 @@
       "validation_passed": true,
       "last_audit_commit": "e65fdbd8d197048271775fd003129cfd601965d3",
       "audit_notes": "Rebuilt 4/5/7 historical two-column groups; restored 55 curriculum rows, normalized the 143-hour arithmetic sum, preserved the singular/plural Assembly wording and printed internal code spacing, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Mechanical Assembly NC III",
+      "package_path": "resources/Training Regulations/indexed/Automotive Mechanical Assembly NC III",
+      "source_file": "resources/Training Regulations/Automotive Mechanical Assembly NC III.pdf",
+      "source_sha256": "eb5cbba8662857e8444984d5191e006affeae6c0ff6979a8946bb442b998a1f0",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:15:06+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "c3345ca60e719fdc2972e3ec7592948879969a97",
+      "audit_notes": "Rebuilt 6/5/5 historical two-column groups; restored 48 curriculum rows, normalized the 480-hour arithmetic sum, preserved the Section 1/header title variants and missing date, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Painting NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Painting NC II",
+      "source_file": "resources/Training Regulations/Automotive Painting NC II.pdf",
+      "source_sha256": "7610d887690b13b7df5202793df4edaa51ea4e14aaf0d4b722647700c8046a64",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:15:06+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c3345ca60e719fdc2972e3ec7592948879969a97",
+      "audit_notes": "Rebuilt 9/7/8 revised four-column groups; restored 118 curriculum rows and required knowledge/skills, preserved the 624-hour subtotal plus 475-hour SIL and 1,099 total, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Servicing (Chassis Repair) NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing (Chassis Repair) NC II",
+      "source_file": "resources/Training Regulations/Automotive Servicing (Chassis Repair) NC II.pdf",
+      "source_sha256": "a3be38756a9fb02d4db849c16f7174901162f0b867c7831cf6aaf1f0c38874da",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:15:06+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c3345ca60e719fdc2972e3ec7592948879969a97",
+      "audit_notes": "Rebuilt 9/7/7 revised four-column groups; restored 133 curriculum rows and required knowledge/skills, preserved the 369-hour subtotal plus 176-hour SIL and 545 total, recorded the Section 1 CHASSIS OPERATION title variant, and repaired assessment/fidelity metadata and selectors."
+    },
+    {
+      "package": "Automotive Servicing (Electrical Repair) NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing (Electrical Repair) NC II",
+      "source_file": "resources/Training Regulations/Automotive Servicing (Electrical Repair) NC II.pdf",
+      "source_sha256": "6936f4075f1eef3632ff1c43fa3ca8ef28cf92831163ac70cd7d017b7dae3c8f",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:15:06+08:00",
+      "issues_found": 12,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "c3345ca60e719fdc2972e3ec7592948879969a97",
+      "audit_notes": "Rebuilt 9/7/7 revised four-column groups; restored 97 curriculum rows and required knowledge/skills, repaired the omitted 3.x core curriculum numbering while preserving printed 4.x-8.x outcomes, preserved the 412-hour subtotal plus 176-hour SIL and 588 total, and recorded the MAGENTIC/MAGNETIC source typo."
+    },
+    {
+      "package": "Automotive Servicing (Engine Repair) NC II",
+      "package_path": "resources/Training Regulations/indexed/Automotive Servicing (Engine Repair) NC II",
+      "source_file": "resources/Training Regulations/Automotive Servicing (Engine Repair) NC II.pdf",
+      "source_sha256": "d867c8a338475f13dddb730654d7034c1251819c2803610ae66c1976396a7c6d",
+      "status": "audited",
+      "audited_at": "2026-09-06T12:15:06+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "c3345ca60e719fdc2972e3ec7592948879969a97",
+      "audit_notes": "Rebuilt 9/7/3 revised four-column groups; restored 88 curriculum rows and required knowledge/skills, preserved the 289-hour subtotal plus 176-hour SIL and 465 total, normalized the ALT23399 header-code parsing, and repaired assessment/fidelity metadata and selectors."
     }
   ]
 }
