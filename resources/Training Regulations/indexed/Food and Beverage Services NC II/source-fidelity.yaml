@@ -1,29 +1,187 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:food-and-beverage-services-nc-ii:2023-11-13",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:food-and-beverage-services-nc-ii:c60bb3f95e",
   "qualification": "FOOD AND BEVERAGE SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Food and Beverage Services NC II.pdf",
-    "sha256": "c60bb3f95e6f9651ade3d3306b712dc0566f8614158e4e221b03cf02664d22d0",
+    "source_sha256": "c60bb3f95e6f9651ade3d3306b712dc0566f8614158e4e221b03cf02664d22d0",
+    "pdf_pages": 128,
+    "printed_pages": 124,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints Promulgated November 13, 2023; the canonical promulgated field preserves the full date literal.",
+    "The source prints 37 Basic, 28 Common, and 164 Core hours as a 229-hour in-school subtotal, followed by 114.5 hours of Supervised Industry Learning (SIL); the canonical total of 343.5 hours records the arithmetic sum of the printed components.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and includes a 2026 document revision-history tail; source_text preserves the source terminology and page-preserved text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Promulgated November 13, 2023; the canonical promulgated field preserves the full date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 28 Common, and 164 Core hours as a 229-hour in-school subtotal, followed by 114.5 hours of Supervised Industry Learning (SIL); the canonical total of 343.5 hours records the arithmetic sum of the printed components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and includes a 2026 document revision-history tail; source_text preserves the source terminology and page-preserved text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Food and Beverage Services NC II.pdf",
-    "pdf_pages": 128,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "TRS311202",
+      "source_unit_code": "TRS311202",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        48,
+        53
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        54,
+        58
+      ]
+    },
+    {
+      "unit_code": "TRS311205",
+      "source_unit_code": "TRS311205",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    },
+    {
+      "unit_code": "TRS513310",
+      "source_unit_code": "TRS513310",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "TRS513311",
+      "source_unit_code": "TRS513311",
+      "pdf_page_range": [
+        69,
+        76
+      ]
+    },
+    {
+      "unit_code": "TRS513312",
+      "source_unit_code": "TRS513312",
+      "pdf_page_range": [
+        77,
+        80
+      ]
+    },
+    {
+      "unit_code": "TRS513313",
+      "source_unit_code": "TRS513313",
+      "pdf_page_range": [
+        81,
+        85
+      ]
+    }
+  ]
 }

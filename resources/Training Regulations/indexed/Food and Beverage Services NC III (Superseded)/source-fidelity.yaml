@@ -1,29 +1,147 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:food-and-beverage-services-nc-iii:2013-12",
-  "qualification": "FOOD AND BEVERAGE SERVICES NC III",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:food-and-beverage-services-nc-iii-superseded:15fe8a0c09",
+  "qualification": "FOOD AND BEVERAGE SERVICES NC III (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Food and Beverage Services NC III (Superseded).pdf",
-    "sha256": "15fe8a0c091c440e6bc537fa5f0a8d4bca086e9f821d48415144a89e83c906b6",
+    "authority": "TESDA",
+    "source_file": "Food and Beverage Services NC III (Superseded).pdf",
+    "source_sha256": "15fe8a0c091c440e6bc537fa5f0a8d4bca086e9f821d48415144a89e83c906b6",
+    "pdf_pages": 52,
+    "printed_pages": 49,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is classified as superseded and is promulgated December 2013; the canonical date field normalizes the printed month and year to 2013-12.",
+    "The source prints 20 Basic, 24 Common, and 186 Core hours; the canonical duration records the 230-hour arithmetic total.",
+    "The source prints TRS5311206 for the roster-staff header while Section 1 lists TRS311206, and prints RESTUARANT in a core title; the normalized inventory follows the Section 1 identifiers while source_codes/source_text preserve the variants. The source uses historical two-column competency tables."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is classified as superseded and is promulgated December 2013; the canonical date field normalizes the printed month and year to 2013-12."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 24 Common, and 186 Core hours; the canonical duration records the 230-hour arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints TRS5311206 for the roster-staff header while Section 1 lists TRS311206, and prints RESTUARANT in a core title; the normalized inventory follows the Section 1 identifiers while source_codes/source_text preserve the variants. The source uses historical two-column competency tables."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Food and Beverage Services NC III (Superseded).pdf",
-    "pdf_pages": 52,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        5
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        15,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "TRS311206",
+      "source_unit_code": "TRS5311206",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "TRS311207",
+      "source_unit_code": "TRS311207",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "TRS311208",
+      "source_unit_code": "TRS311208",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "TRS311209",
+      "source_unit_code": "TRS311209",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "TRS512393",
+      "source_unit_code": "TRS512393",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "TRS512394",
+      "source_unit_code": "TRS512394",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "TRS512395",
+      "source_unit_code": "TRS512395",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    }
+  ]
 }
