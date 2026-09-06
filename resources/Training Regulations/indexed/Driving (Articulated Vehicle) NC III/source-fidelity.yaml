@@ -1,29 +1,200 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:driving-articulated-vehicle-nc-iii:2011-01-14",
-  "qualification": "Driving (Articulated Vehicle) NC III",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:driving-articulated-vehicle-nc-iii:128b19ec70",
+  "qualification": "DRIVING (ARTICULATED VEHICLE) NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Driving (Articulated Vehicle) NC III.pdf",
-    "sha256": "128b19ec70cedf78aeba46243d251f8080c2cc9b3accd6a0c4f900d9818f2673",
+    "source_sha256": "128b19ec70cedf78aeba46243d251f8080c2cc9b3accd6a0c4f900d9818f2673",
+    "pdf_pages": 72,
+    "printed_pages": 65,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is promulgated January 14, 2011 and prints 20 Basic, 20 Common, and 68 Core hours; the canonical duration preserves the printed components and their 108-hour arithmetic sum.",
+    "The Section 1 list includes common unit ALT723203 Read, Interpret and Apply Specifications and Manuals, but the Section 2 standards pages contain no corresponding unit; its printed curriculum row is retained in source_text and excluded from normalized curriculum entries because no competency-standard record is present.",
+    "The source labels the shop-maintenance standard ALT723307 while Section 1 lists ALT723205, and labels Observe Road Health and Safety Practices ALT832308 while Section 1 lists ALT832309; canonical units use the qualification-list codes and retain the standard-page codes as source_unit_code.",
+    "The historical source uses the two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns; several unit headers wrap or omit the title label in extraction, with the printed source preserved in each unit source_text field."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is promulgated January 14, 2011 and prints 20 Basic, 20 Common, and 68 Core hours; the canonical duration preserves the printed components and their 108-hour arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 list includes common unit ALT723203 Read, Interpret and Apply Specifications and Manuals, but the Section 2 standards pages contain no corresponding unit; its printed curriculum row is retained in source_text and excluded from normalized curriculum entries because no competency-standard record is present."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source labels the shop-maintenance standard ALT723307 while Section 1 lists ALT723205, and labels Observe Road Health and Safety Practices ALT832308 while Section 1 lists ALT832309; canonical units use the qualification-list codes and retain the standard-page codes as source_unit_code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The historical source uses the two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns; several unit headers wrap or omit the title label in extraction, with the printed source preserved in each unit source_text field."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Driving (Articulated Vehicle) NC III.pdf",
-    "pdf_pages": 72,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        14,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        17,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "ALT311202",
+      "source_unit_code": "ALT311202",
+      "pdf_page_range": [
+        22,
+        26
+      ]
+    },
+    {
+      "unit_code": "ALT723202",
+      "source_unit_code": "ALT723202",
+      "pdf_page_range": [
+        27,
+        28
+      ]
+    },
+    {
+      "unit_code": "ALT723201",
+      "source_unit_code": "ALT723201",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "ALT723204",
+      "source_unit_code": "ALT723204",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "ALT723205",
+      "source_unit_code": "ALT723307",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "ALT311205",
+      "source_unit_code": "ALT311205",
+      "pdf_page_range": [
+        38,
+        39
+      ]
+    },
+    {
+      "unit_code": "ALT311204",
+      "source_unit_code": "ALT311204",
+      "pdf_page_range": [
+        40,
+        41
+      ]
+    },
+    {
+      "unit_code": "ALT723349",
+      "source_unit_code": "ALT723349",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "ALT832305",
+      "source_unit_code": "ALT832305",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "ALT832303",
+      "source_unit_code": "ALT832303",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "ALT832309",
+      "source_unit_code": "ALT832308",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "ALT832304",
+      "source_unit_code": "ALT832304",
+      "pdf_page_range": [
+        54,
+        55
+      ]
+    },
+    {
+      "unit_code": "ALT832308",
+      "source_unit_code": "ALT832308",
+      "pdf_page_range": [
+        56,
+        58
+      ]
+    }
+  ]
 }

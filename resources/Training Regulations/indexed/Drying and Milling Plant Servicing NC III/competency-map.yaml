@@ -1,66 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:drying-and-milling-plant-servicing-nc-iii:2017-02-03",
+  "document_id": "tesda:tr:drying-and-milling-plant-servicing-nc-iii:e38adff3e7",
   "qualification": "DRYING AND MILLING PLANT SERVICING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321203",
-        "title": "perform basic workplace calculations."
-      },
-      {
-        "unit_code": "AFF723301",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AFF321201",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321202",
-        "title": "use farm tools and equipment. It includes selection, operation"
-      },
-      {
-        "unit_code": "AFF723302",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF723303",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP FOR AGRICULTURE, FORESTY AND FISHERY SECTOR\n\nCORE UNITS OF COMPETENCY\n\nCOMMON UNITS OF COMPETENCY\n\nApply safety\nmeasures in farm\noperations\n\nUse farm tools and\nequipment\n\nPerform estimation and\ncalculations\n\nBASIC UNITS OF COMPETENCY\n\nLead workplace\ncommunication\n\nLead small teams\n\nDevelop and practice\nnegotiation skills\n\nSolve problems related\nto work activities\n\nUse mathematical\nconcepts and techniques\n\nUse relevant\ntechnologies\n\nService grains\ndrying plant\nfacilities\n\nService rice milling\nplant facility\n\n Service corn\nmilling plant facility\n\n--- PDF PAGE 105 ---\nTR Drying and Milling Plant Servicing NC III Promulgated February 3, 2017\n\n 106",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AFF321201",
+        "AFF321202",
+        "AFF321203"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use farm tools and equipment",
+        "Perform estimation and basic calculation"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AFF723301",
+        "AFF723302",
+        "AFF723303"
+      ],
+      "unit_titles": [
+        "Service grains drying plant facilities",
+        "Service rice milling plant facility",
+        "Service corn milling plant facility"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 QUALIFICATION DESCRIPTION\n\nThe DRYING AND MILLING PLANT SERVICING NC III Qualification consists of\ncompetencies that a Drying and Milling Plant Service Technician must have in order to\nservice grains drying plant facilities, service rice milling plant facility and service corn milling\nplant facility.\n\nIt also includes competencies of a person to use a wide range of tools and instrument\nand take responsibility for the reliability of servicing to ensure conformance with\nspecifications. He can perform any work within a quality improvement system in a drying and\nmilling plant environment.\n\nThis Qualification is packaged from the competency map of the Agriculture, Forestry\nand Fishery Sector as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\nA person who has achieved this Qualification is competent to be:\n\n Drying and Milling Plant Service Technician\n\nUNIT CODE\nBASIC COMPETENCIES\n500311109\nLead workplace communication\n500311110\nLead small teams\n500311111\nDevelop and practice negotiation skills\n500311112\nSolve problems related to work activities\n500311113\nUse mathematical concepts and techniques\n500311114\nUse relevant technologies\n\nUNIT CODE\nCOMMON COMPETENCIES\nAGR321201\nApply safety measures in farm operations\nAGR321202 Use farm tools and equipment\nAGR741203\nPerform estimation and calculations\n\nUNIT CODE\nCORE COMPETENCIES\nAFF723301\nService grains drying plant facilities\nAFF723302\nService rice milling plant facility\nAFF723303\nService corn milling plant facility\n\n--- PDF PAGE 5 ---\nTESDA-SOP-QSO-01-F08\n\n2 TR Drying and Milling Plant Servicing NCIII Promulgated February 3, 2017"
 }

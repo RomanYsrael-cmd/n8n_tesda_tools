@@ -1,102 +1,71 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:driving-passenger-bus-straight-truck-nc-iii:2011-01-14",
-  "qualification": "Driving (Passenger Bus Straight Truck) NC III",
+  "document_id": "tesda:tr:driving-passenger-bus-straight-truck-nc-iii:5a3e045986",
+  "qualification": "DRIVING (PASSENGER BUS STRAIGHT TRUCK) NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT832305",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT832303",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ALT723349",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723201",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723204",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT723307",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT311205",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT311204",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT832308",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT832304",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT832306",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT832307",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nDRIVING NC III\nPerform Mensuration\nand Calculation\nMove and Position Vehicle\nApply Appropriate Sealant/\nAdhesive\nUse and Apply\nLubricant/ Coolant\nRead, Interpret and Apply\nSpecifications and Manuals\nCarry Out Vehicle\nMaintenance and\nServicing\nDrive Light Vehicles\nImplement and Coordinate\nAccident-Emergency\nProcedures\nObey and Observe Traffic\nRules and Regulations\nPerform Pre-and Post\nOperation Procedures on\nVehicles Classified Under\nLTO Restriction Codes 3-5\nDrive Passenger Bus\nDrive Straight Truck\nPerform Minor Maintenance\nand Servicing on Vehicles\nClassified Under LTO\nRestriction Code 3-5\nUse and Apply\nLubricant/ Coolant\nInterpret/Draw Technical\nDrawing\nPerform Job Estimate\nLegend:\nDRIVING NC III\n(Passenger Bus/\nStraight Truck)\nDrive Articulated\nVehicles\nObserve road health\nand safety practices\n\n--- PDF PAGE 76 ---\nTR – DRIVING (Passenger Bus/Straight Truck) NC III\nPromulgated January 14, 2011\n72",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ALT311202",
+        "ALT723202",
+        "ALT723201",
+        "ALT723204",
+        "ALT723205",
+        "ALT311205",
+        "ALT311204"
+      ],
+      "unit_titles": [
+        "Perform mensuration and calculation",
+        "Move and position vehicle",
+        "Apply appropriate sealant/adhesive",
+        "Use and apply lubricant/coolant",
+        "Perform shop maintenance",
+        "Interpret/Draw technical drawing",
+        "Prepare job estimate/costing"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ALT723349",
+        "ALT832305",
+        "ALT832303",
+        "ALT832309",
+        "ALT832304",
+        "ALT832306",
+        "ALT832307"
+      ],
+      "unit_titles": [
+        "Perform minor maintenance and servicing on vehicles classified under LTO restriction codes 3 up to 5",
+        "Perform pre- and post operation procedures on vehicles classified under LTO restriction codes 3 up to 5",
+        "Obey and observe traffic rules and regulations",
+        "Observe road health and safety practices",
+        "Implement and coordinate accident-emergency procedures",
+        "Drive passenger bus",
+        "Drive straight truck"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National Certificate\nsigned by the TESDA Director General.\n\n4.2\nAssessment shall focus on the core units of competency. The basic and common units\nshall be integrated or assessed concurrently with the core units.\n\n4.3\nThe following are qualified to apply for assessment and certification:\n\n4.3.1\nGraduates of formal, non-formal and informal including enterprise-\nbased training programs.\n4.3.2\nExperienced workers (wage employed or self-employed)\n\n4.4\nThe guidelines on assessment and certification are discussed in detail in the Procedures\nManual on Assessment and Certification and Guidelines on the Implementation of the\nPhilippine TVET Qualification and Certification System (PTQCS).\n\n--- PDF PAGE 75 ---\nTR – DRIVING (Passenger Bus/Straight Truck) NC III\nPromulgated January 14, 2011\n71\n\nBASIC\nCOMPETENCIES\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety procedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCOMPETENCY MAP\nDRIVING NC III\nPerform Mensuration\nand Calculation\nMove and Position Vehicle\nApply Appropriate Sealant/\nAdhesive\nUse and Apply\nLubricant/ Coolant\nRead, Interpret and Apply\nSpecifications and Manuals\nCarry Out Vehicle\nMaintenance and\nServicing\nDrive Light Vehicles\nImplement and Coordinate\nAccident-Emergency\nProcedures\nObey and Observe Traffic\nRules and Regulations\nPerform Pre-and Post\nOperation Procedures on\nVehicles Classified Under\nLTO Restriction Codes 3-5\nDrive Passenger Bus\nDrive Straight Truck\nPerform Minor Maintenance\nand Servicing on Vehicles\nClassified Under LTO\nRestriction Code 3-5\nUse and Apply\nLubricant/ Coolant\nInterpret/Draw Technical\nDrawing\nPerform Job Estimate\nLegend:\nDRIVING NC III\n(Passenger Bus/\nStraight Truck)\nDrive Articulated\nVehicles\nObserve road health\nand safety practices\nBASIC\nCOMPETENCIES\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety procedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCOMPETENCY MAP\nDRIVING NC III\nPerform Mensuration\nand Calculation\nMove and Position Vehicle\nApply Appropriate Sealant/\nAdhesive\nUse and Apply\nLubricant/ Coolant\nRead, Interpret and Apply\nSpecifications and Manuals\nCarry Out Vehicle\nMaintenance and\nServicing\nDrive Light Vehicles\nImplement and Coordinate\nAccident-Emergency\nProcedures\nObey and Observe Traffic\nRules and Regulations\nPerform Pre-and Post\nOperation Procedures on\nVehicles Classified Under\nLTO Restriction Codes 3-5\nDrive Passenger Bus\nDrive Straight Truck\nPerform Minor Maintenance\nand Servicing on Vehicles\nClassified Under LTO\nRestriction Code 3-5\nUse and Apply\nLubricant/ Coolant\nInterpret/Draw Technical\nDrawing\nPerform Job Estimate\nLegend:\nDRIVING NC III\n(Passenger Bus/\nStraight Truck)\nDrive Articulated\nVehicles\nObserve road health\nand safety practices\n\n--- PDF PAGE 76 ---\nTR – DRIVING (Passenger Bus/Straight Truck) NC III\nPromulgated January 14, 2011\n72\nDEFINITION OF TERMS\n\n1.\nAbsolute speed limit\n-\nThe maximum or minimum legal speed at which one may\ndrive. This speed limit may or may not be posted.\n2.\nAccident, motor vehicle\n-\nAny mishap involving a moving vehicle and resulting in\ndeath, injury or property damage.\n3.\nArticulated vehicle\n-\nAny motor vehicle with a trailer having no front axle and\nso attached that part of the trailer rests upon the motor\nvehicle and a substantial part of the weight of the trailer\nand of its load is borne by the motor vehicle.\n4.\nBasic speed limit\n-\nAny speed below the absolute limit that is safe for\nexisting road, weather or traffic conditions.\n5.\nCollision\n-\nAny crash between motor vehicles or between a motor\nvehicle and another object.\n6.\nDriving license\n-\nA legal document in the form of plastic identification card\nand official receipt issued by LTO authorizing a person to\ndrive and operate a specified type of motor vehicle after\nsatisfactorily completing and passing the standard\nrequirement as categorized either non-professional or\nprofessional proficiency level.\n7.\nDefensive driving\n-\nBeing prepared to handle through any hazardous\nsituation caused by other users of the road.\n8.\nDirectional signals\n-\nLights on motor vehicle or hand signals used to indicate\nleft and right turns and stops.\n9.\nDriver\n-\nPerson with appropriate license to drive or operate motor\nvehicle and transport passengers and loads over\nspecified routes or destination.\n10.\nProfessional driver\n-\nA person with appropriate driving license restriction code\nwho is hired or paid for driving or operating a motor\nvehicle, whether for private use or for hire to the public.\n11.\nFare\n-\nRefers to the price charged to transport a passenger\n12.\nFranchised route\n-\nRefers to the designated travel route assigned by LTFRB\n(DOTC) to a specific public passenger motor vehicle\nindicating the particular main streets, roads and avenues\nto ply including its limitations and boundaries.\n13.\nGross weight\n-\nThe measured weight of a motor vehicle plus the\nmaximum allowable carrying capacity in merchandise,\nfreight and/or passengers, as determined by the\nCommission of Land Transportation\n14.\nHighways\n-\nEvery public thoroughfare, public boulevard, driveway,\navenue, park, alley and callejon, but does not include\nroadway upon grounds owned by private persons,\ncolleges, universities, or other similar institutions.\n15.\nMotor vehicle\n-\nAny vehicle propelled by any power other than muscular\npower using the public highways, but excepting road\nrollers, trolley cars, street sweepers, sprinklers, lawn\nmowers, bulldozers, graders, fork lifts, amphibian trucks\nand cranes if not used on public highways and vehicles\nrun only on rails or tracks and tractors, trailers and\ntraction engines of all kinds used exclusively for\nagricultural purposes.\n16.\nPassenger bus\n-\nA public utility vehicle driven on highways that\ncarry/transport passengers (usually from 30 above) and\nits cargoes.\n\n--- PDF PAGE 77 ---\nTR – DRIVING (Passenger Bus/Straight Truck) NC III\nPromulgated January 14, 2011\n73\n17.\nPeriodic Maintenance\nService\n-\nThe regular servicing prescribed by manufacturer to\nmaintain the vehicle’s top performance.\n18.\nRegulatory signs\n-\nTraffic signs that tell what a driver must or must not do\nunder penalty of the law.\n19.\nRestriction Codes\n1 and 2\n-\nDriving license restriction set by LTO for\ndriving/operating of the following classification of motor\nvehicles:\n20.\nRestriction Codes 1 and\n2\n-\nMotorcycle, motorized tricycles and vehicles up to 4,500\nkgs.GVW\n21.\nRestriction Code 3\n-\nVehicles above 4,500 kgs GVW\n22. Restriction Code 4\n-\nVehicles Automatic Clutch up to 4,500 kgs GVW\n23. Restriction Code 5\n-\nVehicles Automatic Clutch above to 4,500 kgs GVW\n24.\nRestriction Code 6\n-\nArticulated Vehicle 1,600kgs GVW and below\n25.\nRestriction Code 7\n-\nArticulated Vehicle 1,601 up to 4,500 kgs GVW\n26.\nRestriction Code 8\n-\nArticulated vehicle with 4,501 kilograms and above gross\nvehicle weight\n27.\nRoad Related Accident\nand Emergency\n-\nRefers to unforeseen and unanticipated road happenings\nusually resulted from by driver’s negligence/error,\nabnormal road condition and motor vehicle mechanical\nsafety breakdown resulting to grave vehicular accident,\npassenger body injury and damage to property.\n28.\nRoadway markings\n-\nMarkings on a pavement separating lanes of travel or\nindicating what a driver may do.\n29.\nSeat belt\n-\nA belt anchored to the vehicle frame. It prevents the\npassengers from being thrown against parts of the\ninterior of the vehicle or from the vehicle in the event of a\ncollision.\n30.\nStraight Truck\n-\nAny vehicle equipped with 6 up to 12 wheels with no\npivotal pin.\n31.\nTraffic\n-\nThe flow of all motor vehicles and pedestrians along the\nstreet and the highway\n32.\nTraffic signal lights\n-\nTraffic controls which usually located at intersections to\nregulate traffic flow\n33.\nWarning signs\n-\nTraffic signs that alert drivers to potential hazards ahead\n\n--- PDF PAGE 78 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies who rendered their time and expertise to the development and validation of\nthese Training Regulations.\n\n•\nTHE TESDA ADVISORY PANEL (TAP)\nMR. ALLEN RAYMUND A. RUFO\nTAP Chairman – Automotive Sector\nTOYOTA Motors Philippines, Corp.\nSta. Rosa, Laguna\nAutomotive Industry Board Foundation (AIBFI)\nSuite 1206, 12 th flr. Jollibee Center\nSan Miguel Avenue, Pasig city\nMS. MA. CLARISSA V. FUNESTO\nTAP Alternate Chairperson – Automotive Sector\nHONDA Phils. Inc.\nParañaque city\nAutomotive Industry Board Foundation (AIBFI)\nSuite 1206, 12 th flr. Jollibee Center\nSan Miguel Avenue, Pasig city\nMR. SIXTO D. CAYPUNO\nTAP Member – Academe\nSamson Technical College\nCubao, Quezon City\nMR. BENITO S. FELIX\nTAP Member – Academe\nTechnological University of the Philippines\nTagig, MM\nMR. ANGEL Y. DIMALANTA\nTAP Member – Labor\nTOYOTA Motors Philippines, Corp.\nBicutan, Parañaque, MM.\n\nTHE TECHNICAL AND INDUSTRY EXPERTS - BUS & ARTICULATED VEHICLE DRIVERS\nMR. ORLE F. BALDERAMA\nZahid Hassan Heavy Equipment\nTransport Ltd. (K.S.A.)\nJ. Luna St. Tondo, Manila\nMR. JEJOMAR A. DAS\nSimon Enterprise\nErmita, Manila\nMR. NONATO B. MARTIN\nCapulong St.Tondo Manila\n\nENG’R. SOLOMON A. PROVIDO\nCentury Trade Test Center\nA.\nFrancisco St..,Sta. Ana, Manila\nENG’R. EDGARDO R. RABADAM\nPhil-Asia Technical Consultant and General Services, Inc.\nTejeron St. Sta. Ana, Manila\nMR. FREDMAR C. SALVADOR\nAstra Farm Corp-Tabuc-K.S.A.\nFEJODAP\nMR. MANOLO J. VALDEHUEZA SR.\nPhil-Asia Technical Consultant and General Services, Inc.\nTejeron St. Sta. Ana, Manila\n\nThe PARTICIPANTS in the Review and Validation of these Training Regulations\nMS. ILONOR A. MADRID\nChief, License Section\nLTO, East Ave. Quezon City\nMS. EDNA R. GARVIDA\nChief, NLC\nLTO-NLC, East Ave. Quezon City\nMS. DAISY P.JACOBO\nChief, Traffic Safety Division\nLTO, East Ave. Quezon City\nMS. JUDITH B. CAMPOS\nEvaluation Unit/License Section\nLTO, East Ave. Quezon City\nMS. ROSARIO L. AMBOY\n\nMR. ALLAN A. MADRID\nCIII –Operation Division\nLTO, East Ave. Quezon City\nMR. ANTONIO A. GIMENEZ\nPhilippine Automotive Federation, Inc. (PAFI)\n\nThe Members of the TESDA Board\nThe EXECUTIVE COMMITTEE (EXCOM), TESDA Secretariat\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n--- PDF PAGE 79 ---\n\n--- PDF PAGE 80 ---"
 }

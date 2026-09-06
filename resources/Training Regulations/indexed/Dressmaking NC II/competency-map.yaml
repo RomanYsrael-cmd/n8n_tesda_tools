@@ -1,68 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:dressmaking-nc-ii:2005-03-18",
+  "document_id": "tesda:tr:dressmaking-nc-ii:021baaa890",
   "qualification": "DRESSMAKING NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "GRM743204",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743205",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743206",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743302",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "GRM743304",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "GRM743203",
-        "title": "This unit covers the knowledge and skills required in"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "GRM743301",
-        "title": "cutting basic/block patterns for casual apparel. It"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "GRM743303",
-        "title": "This unit covers the knowledge and skills required in"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nGarment (Dressmaking/Tailoring) Sector\nDRESSMAKING NC II\nDraft and\nCut Pattern of\nFormal Apparel\nApply Finishing\nTouches on\nFormal Apparel\nDraft and\nCut Pattern of\nHigh Fashion\nApparel\nPrepare and\nCut Materials of\nCasual Apparel\nApply\nquality\nstandard\nCarry out\nmeasurements\nand calculation\nPrepare and\nCut Materials of\nHigh Fashion\nApparel\nSet-up and\noperate machines\nDraft and\nCut Pattern of\nCasual Apparel\nCOR\nE\nCOMPETENCIE\nS\nCOMMO\nN\nCOMPETENCIE\nS\nPrepare and\nCut Materials of\nFormal Apparel\nSew\nHigh Fashion\nApparel\nApply Finishing\nTouches on High\nFashion Apparel\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\n\n--- PDF PAGE 58 ---\n________________________________________________________________________________________________\nTR Dressmaking NC II (Garment Sector) 03/14/05 Promulgated March 18, 2005\n\n56",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "GRM743203",
+        "GRM743204",
+        "GRM743205",
+        "GRM743206"
+      ],
+      "unit_titles": [
+        "Carry out measurements and calculation",
+        "Set up and operate machine/s",
+        "Perform basic maintenance",
+        "Apply quality standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "GRM743301",
+        "GRM743302",
+        "GRM743303",
+        "GRM743304"
+      ],
+      "unit_titles": [
+        "Draft and cut pattern of casual apparel",
+        "Prepare and cut materials for casual apparel",
+        "Sew casual apparel",
+        "Apply finishing touches on casual apparel"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded National\nCertificate signed by the TESDA Director General\n\n4.2\nThe qualification of Dressmaking NC II may be attained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in all of the\nfollowing areas:\n\n4.2.1.1\nDraft and Cut Pattern of Ladies' Casual Apparel\n4.2.1.1.1 Draft and Cut Pattern of Casual Apparel\n4.2.1.2\nCut and Sew Ladies' Casual Apparel\n4.2.1.2.1 Prepare and Cut Materials of Casual Apparel\n4.2.1.2.2 Sew Casual Apparel\n4.2.1.2.3 Apply Finishing Touches on Casual Apparel\nSuccessful candidates shall be awarded Certificates of\nCompetency (COC).\n\n4.2.2 Demonstration of competence through project-type assessment\ncovering all the required units of qualification.\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-\nbased training programs.\n\n4.4.2 Experienced workers (wage-employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on\nthe Implementation of the Philippine TVET Qualification and Certification\nSystem (PTQCS)”.\n\n--- PDF PAGE 57 ---\nTR Dressmaking NC II (Garment Sector) 03/18/2005 Promulgated March 18, 2005\n55\n\nPerform\nbasic\nmaintenance\nSew\nFormal\nApparel\nSew\nCasual\nApparel\nApply Finishing\nTouches on\nCasual Apparel\nCOMPETENCY MAP\nGarment (Dressmaking/Tailoring) Sector\nDRESSMAKING NC II\nDraft and\nCut Pattern of\nFormal Apparel\nApply Finishing\nTouches on\nFormal Apparel\nDraft and\nCut Pattern of\nHigh Fashion\nApparel\nPrepare and\nCut Materials of\nCasual Apparel\nApply\nquality\nstandard\nCarry out\nmeasurements\nand calculation\nPrepare and\nCut Materials of\nHigh Fashion\nApparel\nSet-up and\noperate machines\nDraft and\nCut Pattern of\nCasual Apparel\nCOR\nE\nCOMPETENCIE\nS\nCOMMO\nN\nCOMPETENCIE\nS\nPrepare and\nCut Materials of\nFormal Apparel\nSew\nHigh Fashion\nApparel\nApply Finishing\nTouches on High\nFashion Apparel\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\n\n--- PDF PAGE 58 ---\n________________________________________________________________________________________________\nTR Dressmaking NC II (Garment Sector) 03/14/05 Promulgated March 18, 2005\n\n56\n\nDEFINITION OF TERMS\n\nFabric grain\nrefers to woven fabric compose of two sets of yarns\n(threads) that run at right angle to each other.\n\nManipulation\nthe process of producing another pattern adapting existing\nblocks pattern.\n\nWarp\nthe lengthwise yarn (threads) that run vertically in a woven\nfabric\nWeft\nthe crosswise yarn (threads) that run horizontally in a\nwoven fabric\n\nSelvedge\nedge of woven fabric finished to prevent raveling.\nDesign\na combination of lines or shapes to form a decoration\n\nOn grain\na fabric is on grain when the lengthwise threads run\nexactly at right angles to each other.\nOff grain\nwhen the two sets of grain do not run at right angle to each\nother\n\nSpecification Sheet\nrefers to a data containing the final instructions regarding\nsizes, stitches, etc.\n\nStyle/Design\nrefers to a kind of outlook based on printed materials,\nshows, trends and market choice.\nAccents\nrefer to accessories/materials used to enhance and\nglamorize dress. Examples are beads, pearls, rhinestones,\nmetals, laces and bias.\nDesign\nInterpretation\nrefers to sketches of design either white or colored\ninterpreted into pattern.\nMannequin\na three dimensional model of human form used for fitting\nclothes. It may be made of either fiber glass, ivory,\nporcelain, wood or paper mache.\nFinishing Touches\nrefer to work done on a dress to enhance the total quality\nfeature of a product.\n\n--- PDF PAGE 59 ---\n________________________________________________________________________________________________\nTR Dressmaking NC II (Garment Sector) 03/14/05 Promulgated March 18, 2005\n\n57\n\nBlazer\nrefers to the kind of dress for women otherwise called as\novercoat.\nGown\nrefers to a long dress sometimes made of beads and\nexpensive materials.\n\nCasual Dress\nrefers to a dress used for everyday wear (vogue and\ncomfortable)\nWorkplace Quality\nStandards\nrefer to the expected characteristics of finished garment. The\nquality standard that applies in the candidate workplace is\nthe standard that is appropriate for assessment\n\n--- PDF PAGE 60 ---\n________________________________________________________________________________________________\nTR Dressmaking NC II (Garment Sector) 03/14/05 Promulgated March 18, 2005\n\n58\n\nACKNOWLEDGEMENT\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies who donated their time and\nexpertise to the development and validation of this Training Regulation\n\nTHE TESDA ADVISORY PANEL (TAP)\n\nMr. OSCAR R. PAPA\nTAP Chairman\nChairman of the Board, GBAP (Former)\n2004 Herrera Cityland Towers\nMakati City\nTel.# 8174127\nMr. LINO F. ACUNA\nKATAYAMA Textile Mla. Corp.\nSta. Ana Drive, Brgy. San Valley\nParanaque, Metro Manila\nTel. # 8214608\nMs. ELOISA FRANCISCO\nOwner\nGolden Hands Fashion and Arts School\n1913 3rd Floor, Luna-Orosa Bldg.\nTaft Avenue, Manila\nTel.# 5232347\nMs. VILLALINA MIRALO\nInstructor\nE.A.R.N. School, Illinois St.\nCubao, Quezon City\nTel. # 9124971\n\nTHE TECHNICAL EXPERT PANEL\n DRESSMAKING\n TAILORING\nMr. GERRY T. BENAMER\nPauline’s Enterprises\nAyala Alabang, Muntinlupa City\nTel. # 8093535\nMr. ROMEO D. DACLES\nBroad Street Apparel\nBanawe, Quezon City\nTel. # 7125944\nMs. PORTIA ATUTUBO\nTrainor\nCS Garments\nCEPZA, Rosario, Cavite\nTel. # (046) 4370418\nMs. IRENE J. TORRES\nSupervisor\nCS Garments\nCEPZA, Rosario, Cavite\nTel. # (046) 4370418\nMr. GASAT M. DAMASEN\nTrainor\nE.A.R.N. School, Illinois St.\nCubao, Quezon City\nTel. # 9124971\nMs. PERLITA DINGLASAN\nGelmart Industries Philippines\nParanaque, Metro Manila\nTel.# 8244971\n\nThe PARTICIPANTS in the National Validation of this Training Regulation\nTESDA III\nTESDA IV\nMembers of the TESDA Board\nThe MANAGEMENT and STAFF of the TESDA Secretariat\nTESDA EXCOM\nSSCO\nNITVET"
 }
