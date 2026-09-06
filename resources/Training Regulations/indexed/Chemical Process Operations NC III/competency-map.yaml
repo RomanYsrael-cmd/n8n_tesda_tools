@@ -1,92 +1,65 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:chemical-process-operations-nc-iii:2016-03",
+  "document_id": "tesda:tr:chemical-process-operations-nc-iii:e392af3693",
   "qualification": "CHEMICAL PROCESS OPERATIONS NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": ":"
-      },
-      {
-        "unit_code": "ISO170254",
-        "title": "ISO 17025"
-      },
-      {
-        "unit_code": "CPP313302",
-        "title": "CPP 313302"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CPP313201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CPP313301",
-        "title": ": This unit covers the knowledge, skills and attitudes in"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": ":"
-      },
-      {
-        "unit_code": "CPP313202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC724201",
-        "title": ": This unit covers the knowledge, skills and attitudes in preparing,"
-      },
-      {
-        "unit_code": "ELC311201",
-        "title": ": This unit covers the knowledge, skills, attitudes and values"
-      },
-      {
-        "unit_code": "CPP313203",
-        "title": "This unit covers the knowledge, skills, attitudes and values to"
-      },
-      {
-        "unit_code": "CPP313303",
-        "title": ": This unit covers the knowledge, skills and attitudes in conducting"
-      },
-      {
-        "unit_code": "CPP313304",
-        "title": ": This unit covers the knowledge, skills and attitudes in verifying"
-      },
-      {
-        "unit_code": "CPP313305",
-        "title": ": This unit covers the knowledge, skills and attitudes collecting"
-      },
-      {
-        "unit_code": "CPP313306",
-        "title": ": This unit covers the knowledge, skills and attitudes in preparing"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n\n115\nGLOSSARY OF TERMS\n\n116",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies (Apply technology effectively)"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CPP313201",
+        "CPP313202",
+        "ELC724201",
+        "ELC311201",
+        "CPP313203"
+      ],
+      "unit_titles": [
+        "Observe safe working practices",
+        "Comply with emergency procedures",
+        "Use hand and measuring tools",
+        "Perform mensuration and calculation",
+        "Apply quality standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CPP313301",
+        "CPP313302",
+        "CPP313303",
+        "CPP313304",
+        "CPP313305",
+        "CPP313306"
+      ],
+      "unit_titles": [
+        "Determine process requirements",
+        "Evaluate process data",
+        "Operate process equipment",
+        "Monitor process equipment",
+        "Qualify in-process and finished product samples",
+        "Perform shutdown activities"
+      ]
+    }
+  ],
+  "source_text": "Section 1. A successful\ncandidate shall be awarded a National Certificate by the TESDA\nDirector General.\n\n4.1.2\nAssessment shall focus on the core units of competency. The basic\nand common units are assessed concurrently with the core units.\n\n4.1.3\nRecognition of Prior Learning (RPL)/Recognition of Current\nCompetencies (RCC). Candidates who have gained competencies\nthrough education, informal training, and work or life experiences may\napply for recognition in a particular qualification through competency\nassessment\n\n4.1.4\nThe following are qualified to apply for assessment:\n\n4.1.4.1 Graduating students/trainees of WTR-registered programs,\ngraduates of NTR programs or graduates of formal/non-\nformal/informal including enterprise-based trainings related\nto chemical process operations.\n\n4.1.4.2 Industry workers in chemical process operations.\n\n4.1.5\nA candidate who fails the assessment for two (2) consecutive times\nshall be advised to go through a refresher course before taking\nanother assessment.\n\n--- PDF PAGE 117 ---\nTR – CHEMICAL PROCESS OPERATIONS NC III (NEW) Promulgated March 2016 113\n4.2 COMPETENCY ASSESSMENT REQUISITE\n\n4.2.1\nSelf-Assessment Guide. The self-assessment guide (SAG) is\naccomplished by the candidate prior to actual competency\nassessment. SAG is a pre-assessment tool to help the candidate\nand the assessor determine what evidence is available, where gaps\nexist, including readiness for assessment.\n\nThis document can:\na)\nIdentify the candidate’s skills and knowledge\nb)\nHighlight gaps in candidate’s skills and knowledge\nc)\nProvide critical guidance to the assessor and candidate on the\nevidence that need to be presented\nd)\nAssist the candidate to identify key areas in which practice is\nneeded or additional information or skills that should be gained\nprior to assessment.\n\n4.2.1\nAccredited Assessment Center. Only a TESDA accredited\nAssessment\nCenter\nis\nauthorized\nto\nconduct\ncompetency\nassessment. The center has to undergo a quality assured procedure\nfor accreditation before it is authorized by TESDA to manage the\nassessment for National Certification. It shall enter into a\nMemorandum of Agreement with a company that has chemical\nmanufacturing facility and other requirements that may be deemed\nnecessary in the conduct of assessment.\n\n4.2.2\nAccredited Competency Assessor. Only an accredited competency\nassessor is authorized to conduct assessment of competence. A\ncompetency assessor undergoes a quality assured system of\naccreditation procedure before being authorized by TESDA to assess\nthe competencies of candidates for National Certification.\n\n4.3 Qualification of Competency Assessors\n\nFor Trainer-Assessor\n• Holder of National TVET Trainer Certificate Level I (NTTC)\non Chemical Process Operations NC III with at least three (3)\nyears work experience in chemical manufacturing/chemical\nprocess operations.\n• Holder of Certificate of Training in Globally Harmonized\nSystem (GHS).\n• Have assisted in the actual conduct of assessment to at least\ntwo (2) candidates.\n\n--- PDF PAGE 118 ---\nTR – CHEMICAL PROCESS OPERATIONS NC III (NEW) Promulgated March 2016 114\nFor Industry-Assessor\n• Holder\nof\nNational\nCertificate\nin\nChemical\nProcess\nOperations NC III.\n• Holder of Certificate of Competency (COC) in Conduct\nCompetency Assessment under the Trainers Methodology\nLevel 1 (TM1) and\n• Have at least three (3) years work experience in chemical\nmanufacturing/chemical process operations.\n• Holder of Certificate of Training in Globally Harmonized\nSystem (GHS).\n• Have assisted in the actual conduct of assessment to at least\ntwo (2) candidates.\n\n--- PDF PAGE 119 ---\nTR – CHEMICAL PROCESS OPERATIONS NC III (NEW) Promulgated March 2016 115\nANNEX A - COMPETENCY MAP\nCHEMICAL PROCESS OPERATIONS NC III\n\nBASIC COMPETENCIES\n\nReceive and respond to\nworkplace communication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping procedures\nParticipate in workplace\ncommunication\nWork in a team\nenvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead workplace\ncommunication\nLead small team\nDevelop and practice\nnegotiation skills\nSolve problems related\nto work activities\nUse mathematical\nconcepts and\ntechniques\nUse relevant technologies\nUtilize specialist\ncommunication skills\nDevelop team and\nIndividuals\nApply problem solving\ntechniques in the\nworkplace\nCollect, analyze and\norganize information\nPlan and organize Work\nPromote environmental\nprotection\n\nCOMMON COMPETENCIES\n\nObserve safe working\npractices\nComply with emergency\nprocedures\nUse hand and\nmeasuring tools\nPerform mensuration and\ncalculation\nApply quality standards\n\nCORE COMPETENCIES\n\nDetermine process\nrequirements\nEvaluate process data\nOperate process\nequipment\nMonitor process\nequipment\nQualify in-process and\nfinished product samples\nPerform shutdown activities\n\n--- PDF PAGE 120 ---\nTR – CHEMICAL PROCESS OPERATIONS NC III (NEW) Promulgated March 2016 116\n\nGLOSSARY OF TERMS\n\n1. Process\nAn action or series of actions, changes, or functions that\nconverts input into output. A process may require many\nunit operations to obtain the desired product from the\nstarting materials, or feedstocks.\n2. Unit operation\nIs a basic step in a process. Unit operations involve a\nphysical change or chemical transformation such as\nseparation,\ncrystallization,\nevaporation,\nfiltration,\npolymerization, isomerization, and other reactions. For\nexample,\nin\nmilk\nprocessing, homogenization, pasteurization,\nchilling,\nand packaging are each unit operations which are\nconnected to create the overall process\n3. Process Control\nA mechanism for maintaining the output of a\nspecific process within a desired range.\n4. Requirements\nNeed or expectation that is stated, generally implied or\nobligatory\n5. In-process sample\nRefers to samples taken during chemical processing\nstages. Test Results or Data from in-process samples\nare used in order to prevent off-specs finished product.\n6. Final Sample\nRefers to samples taken from the desired product at the\nend of the process in order to identify defects in the\nfinished product.\n\n--- PDF PAGE 121 ---\nTR – CHEMICAL PROCESS OPERATIONS NC III (NEW) Promulgated March 2016 117\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA)\nwishes to extend thanks and appreciation to the many representatives of\nbusiness, industry, academe and government agencies who donated their time\nand expertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL AND INDUSTRY EXPERT AND REVIEW PANEL\n\nEngr. Jay Roy E. Espinas\nChemrez, Inc\nQuezon City\nMs. Abigail M. Marasigan\nJG Summit Petrochemicals Corp\nBatangas City\nMr. Ramon A. Abadilla\nDu Pont Far East-Philippines\nPasig City\nMs. Antonette C. Fallarme\nSPIK Secretariat\nMakati City\nMr. Oscar S. Melencio\nSPIK Executive Director\nMakati City\nEngr. Jeffrey G. Mijares\nProfessional Regulations Commission\nManila\nMr. Ramon Taniola\nD&L Industries, Inc\nQuezon City\nDr. Emmanuel L. Ferrer\nTUP\nTaguig City\nMr. Jhovan Herrera\nDon Bosco-Canlubang\nLaguna\nMr. Roberto F. Batungbacal\nSPIK 2013 President\nMakati City\nMr. Jonathan Pa-a\nSiliman University\nDumaguete\n\nThe PARTICIPANTS in the National Validation of this Training Regulation\n• Chemrez, Inc\n•\nD&L Industries, Inc\n•\nDOLE Occupational Safety and\nHealth Center\n•\nDu Pont Far East-Philippines\n•\nIntegrated Chemists of the\nPhilippines (ICP)\n• Jefcor Laboraties, Inc\n•\nJG Summit Petrochemical\nCorporation\n•\nSamahan sa Pilipinas ng mga\nIndustriyang Kimika (SPIK)\n\nThe Members of the TESDA Board and Secretariat\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n• Qualifications and Standards Office (QSO)\n\n TESDA – QSO Technical Facilitators\nMr. Julford Abasolo\nMr. Edwin Maglalang\nMs. Jennifer Caspe\n\n--- PDF PAGE 122 ---\nTR – CHEMICAL PROCESS OPERATIONS NC III (NEW) Promulgated March 2016 116"
 }

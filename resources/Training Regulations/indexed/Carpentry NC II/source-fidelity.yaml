@@ -1,29 +1,216 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:carpentry-nc-ii:96eb178f8a",
   "qualification": "CARPENTRY NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Carpentry NC II.pdf",
-    "sha256": "96eb178f8a277de7404d7baed2d0cb98f95cb12c2afef662da7fa65fe4d8f399",
+    "source_sha256": "96eb178f8a277de7404d7baed2d0cb98f95cb12c2afef662da7fa65fe4d8f399",
+    "pdf_pages": 161,
+    "printed_pages": 159,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Revision 01 and Promulgated (10/29/2018); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source.",
+    "The source prints 37 Basic, 24 Common, and 240 Core hours with a 301-hour total; the canonical duration preserves the printed components and total.",
+    "The source uses Training Arrangements in Section 3 and includes a page-preserved acknowledgement/revision tail after the regulatory sections; printed_pages follows the final numbered source page in the table of contents."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 01 and Promulgated (10/29/2018); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 24 Common, and 240 Core hours with a 301-hour total; the canonical duration preserves the printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses Training Arrangements in Section 3 and includes a page-preserved acknowledgement/revision tail after the regulatory sections; printed_pages follows the final numbered source page in the table of contents."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Carpentry NC II.pdf",
-    "pdf_pages": 161,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        43,
+        45
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        50,
+        54
+      ]
+    },
+    {
+      "unit_code": "CON711301",
+      "source_unit_code": "CON711301",
+      "pdf_page_range": [
+        55,
+        59
+      ]
+    },
+    {
+      "unit_code": "CON711302",
+      "source_unit_code": "CON711302",
+      "pdf_page_range": [
+        60,
+        67
+      ]
+    },
+    {
+      "unit_code": "CON711303",
+      "source_unit_code": "CON711303",
+      "pdf_page_range": [
+        68,
+        74
+      ]
+    },
+    {
+      "unit_code": "CON711304",
+      "source_unit_code": "CON711304",
+      "pdf_page_range": [
+        75,
+        82
+      ]
+    },
+    {
+      "unit_code": "CON711305",
+      "source_unit_code": "CON711305",
+      "pdf_page_range": [
+        83,
+        90
+      ]
+    },
+    {
+      "unit_code": "CON711306",
+      "source_unit_code": "CON711306",
+      "pdf_page_range": [
+        91,
+        98
+      ]
+    },
+    {
+      "unit_code": "CON711307",
+      "source_unit_code": "CON711307",
+      "pdf_page_range": [
+        99,
+        109
+      ]
+    },
+    {
+      "unit_code": "CON711308",
+      "source_unit_code": "CON711308",
+      "pdf_page_range": [
+        110,
+        116
+      ]
+    }
+  ]
 }

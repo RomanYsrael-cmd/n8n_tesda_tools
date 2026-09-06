@@ -1,72 +1,57 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:carpentry-nc-ii:e6642993e1",
-  "qualification": "CARPENTRY NC II",
+  "document_id": "tesda:tr:carpentry-nc-ii-superseded:e6642993e1",
+  "qualification": "CARPENTRY NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON712317",
-        "title": "This unit covers the knowledge, skills, and attitude"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      },
-      {
-        "unit_code": "CON712318",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "CON712319",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "CON712320",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "CON712321",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION - CIVIL WORKS SUB-SECTOR\n Perform Complex\nand Multi-Story\nPlumbing Installation\nand Assemblies\n\nInstall Hot and\nPotable Chilled\nWater Piping\nSystem\nDraft Plumbing\nDesign\nConduct Pipe\nLeak Testing\nPerform Single Unit\nPlumbing\nInstallation and\nAssemblies\n\nPerform Plumbing\nRepair and\nMaintenance\nWorks\n\nPrepare\nconstruction\nMaterials and\nTools\nObserve Procedures,\nSpecifications and\nManuals of Instructions\n\nMaintain Tools\nand Equipment\n\nPerform\nMensurations\nand Calculations\n Interpret\nTechnical\nDrawings and\nPlans\n\nPrepare Pipes\nfor Installation\nPerform Minor\nConstruction\nWorks\n Make Piping\nJoints and\nConnections\nANNEX A\n\nFabricate\nFormworks\nInstall stair\ncomponents and/\nor pre-fabricated\nstair assembly\nInstall architectural\nceiling, wall\nsheats/panels/\nboards and floor\n\nFabricate/Install\nDoor/Window\nJambs and\nPanels\n\nStrip\nFormwork\nComponents\n Install built-in\nand/or pre-\nfabricated\ncabinets\n\n Perform basic\nmasonry works\n\nLay brick/ block\nfor structures\n\nEstimate Paint\nRequirements\n\nPrepare tools,\npainting\nmaterials and\nequipment\nPerform\nMixing/Tinting\nof Color Paints\nPlaster concrete/\nmasonry\nsurfaces\nPerform\nPainting Works\nInstall pre-cast\nballusters and\nhandrails\nRepairs defective\nconcrete and\nmasonry surfaces\nApply special\ncement finishes to\nconcrete and\nmasonry surfaces\nPrepare\nmasonry\nmaterials\nPerform\nPainting Repair\nWork\nPrepare Surface\nfor Painting\nInstall\nFraming\nWorks\nInstall\nFormwork\nComponents\nPrepare/\nStake-out\nBuilding Lines\nCARPENTRY\nNC II\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice\nhousekeeping\nprocedures (5S)\n\n--- PDF PAGE 73 ---\n__________________________________________________________________________________________\nTR CARPENTRY NC II\n71",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instructions",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON712317",
+        "CON712318",
+        "CON712319",
+        "CON712320",
+        "CON712321"
+      ],
+      "unit_titles": [
+        "Prepare / stake-out building lines",
+        "Fabricate formworks",
+        "Install formwork components",
+        "Strip formworks components",
+        "Install framing works"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall\nbe awarded a National Certificate signed by the TESDA Director\nGeneral.\n\n4.2.\nThe qualification of Carpentry NC II maybe attained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.2.1.1 Prepare / stake-out building lines\n4.2.1.2 Fabricate form works\n4.2.1.3 Install form work components\n4.2.1.4 Strip form work components\n4.2.1.5 Install framing works\n\nSuccessful\ncandidates\nshall\nbe\nawarded\nCertificates\nof\nCompetency (COCs)\n\n4.2.2 Demonstration of competence through project-type assessment\ncovering all required units of the qualification\n\n4.3.\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n4.4.\nThe following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2. Experienced Workers (wage employed or self-employed)\n\n4.5.\nThe guidelines on assessment and certification are discussed in\ndetail in the Procedures Manual on Assessment and Certification and\nguidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 72 ---\n__________________________________________________________________________________________\nTR CARPENTRY NC II\n70\n\nCOMMON\nCOMPETENCIES\nCORE COMPETENCIES\nCOMPETENCY MAP\nCONSTRUCTION - CIVIL WORKS SUB-SECTOR\n Perform Complex\nand Multi-Story\nPlumbing Installation\nand Assemblies\n\nInstall Hot and\nPotable Chilled\nWater Piping\nSystem\nDraft Plumbing\nDesign\nConduct Pipe\nLeak Testing\nPerform Single Unit\nPlumbing\nInstallation and\nAssemblies\n\nPerform Plumbing\nRepair and\nMaintenance\nWorks\n\nPrepare\nconstruction\nMaterials and\nTools\nObserve Procedures,\nSpecifications and\nManuals of Instructions\n\nMaintain Tools\nand Equipment\n\nPerform\nMensurations\nand Calculations\n Interpret\nTechnical\nDrawings and\nPlans\n\nPrepare Pipes\nfor Installation\nPerform Minor\nConstruction\nWorks\n Make Piping\nJoints and\nConnections\nANNEX A\n\nFabricate\nFormworks\nInstall stair\ncomponents and/\nor pre-fabricated\nstair assembly\nInstall architectural\nceiling, wall\nsheats/panels/\nboards and floor\n\nFabricate/Install\nDoor/Window\nJambs and\nPanels\n\nStrip\nFormwork\nComponents\n Install built-in\nand/or pre-\nfabricated\ncabinets\n\n Perform basic\nmasonry works\n\nLay brick/ block\nfor structures\n\nEstimate Paint\nRequirements\n\nPrepare tools,\npainting\nmaterials and\nequipment\nPerform\nMixing/Tinting\nof Color Paints\nPlaster concrete/\nmasonry\nsurfaces\nPerform\nPainting Works\nInstall pre-cast\nballusters and\nhandrails\nRepairs defective\nconcrete and\nmasonry surfaces\nApply special\ncement finishes to\nconcrete and\nmasonry surfaces\nPrepare\nmasonry\nmaterials\nPerform\nPainting Repair\nWork\nPrepare Surface\nfor Painting\nInstall\nFraming\nWorks\nInstall\nFormwork\nComponents\nPrepare/\nStake-out\nBuilding Lines\nCARPENTRY\nNC II\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice\nhousekeeping\nprocedures (5S)\n\n--- PDF PAGE 73 ---\n__________________________________________________________________________________________\nTR CARPENTRY NC II\n71\nDEFINITION OF TERMS\n\n1. Batterboard\nA horizontal board nailed to corner posts located just outside the\ncorners of a proposed building to assist in the accurate lay-out of\nfoundation and excavation lines.\n\n2. Joist\nIs a steel or wood beam providing direct support for a floor.\n\n3. Certification\nRefers to the process of verifying and validating competencies of\na person through assessment.\n\n4. Competency\nIs the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace.\n\n5. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person who\nworks in a particular area of work is able to perform.\n\n6. Evidence Guide\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills, resource implications, context of assessment and\nassessment method.\n\n7. Level\nRefers to the category following the level of difficulty and\ncomplexity of skills and knowledge required to do the job.\n\n8. Philippine TVET\nQualification\nFramework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter\nfor the integration of learning and assessment in the middle skills\ndevelopment.\n\n9. Qualification\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person\nhas achieved competencies relevant to a trade or industry.\n\n10. Range of\nVariable\nIt describes the circumstances or context in which the work is to\nbe performed.\n\n11. Staking out\nRefers to the driving of stakes into the earth to indicate the\nfoundation location of a structure to be built.\n\n12. Shoring\nRefers to the provision of temporary support with shores to a\nbuilding or an excavation.\n\n--- PDF PAGE 74 ---\n__________________________________________________________________________________________\nTR CARPENTRY NC II\n72\n\n13. Stringer\nRefers to an inclined member supporting the treads and risers of\na staircase.\n\n14. Stiffiners\nRefers to a steel angle or plate attached to a slender beam to\nprevent its buckling by increasing its stiffness.\n\n15. Stock\nRefers to a product or material kept in storage until needed for\nuse or transferred to some ultimate point for use.\n\n16. Unit of\nCompetency\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n\n17. Wall\nRefers to a vertical structure or member forming an enclosure or\ndefining a space.\n\n--- PDF PAGE 75 ---\n__________________________________________________________________________________________\nTR CARPENTRY NC II\n73\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA)\nwishes to extend thanks and appreciation to the many representatives of\nbusiness, industry, academe and government agencies and who contributed\ntheir time and expertise to the development and validation of this Training\nRegulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nABELARDO E. AUREADA\nCMDF\nJOHN N. CALAMIONG, Ed.D.\nTUP - Taguig Campus\n\nARWIN VILLAMIL\nNUBCW\nEDUARDOP. CAÑETE\nEEI\n\nRANEZO GUARDA\nDMCI\nSHEM TABASA\nMDC\n\nHENRY A. PAGDATO\nBALIKATAN - NUBCW\nRICKY G. BANTILLO\nBMK - NUBCW\n\nMARIO S. PACSON\nDATEM\n\nThe Management and Staff of the TESDA Secretariat\n\n• Skills Standards and Certification\nOffice\n• National Institute for Technical-\nVocational Education and\nTraining\n\nThe Management and Staff of the Philippine Constructors Association (PCA)\n\nThe Management and Staff of the National Union of Building Construction\nWorkers (NUBCW)"
 }

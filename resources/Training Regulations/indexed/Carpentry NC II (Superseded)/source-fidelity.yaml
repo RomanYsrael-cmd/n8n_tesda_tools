@@ -1,29 +1,152 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:carpentry-nc-ii:e6642993e1",
-  "qualification": "CARPENTRY NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:carpentry-nc-ii-superseded:e6642993e1",
+  "qualification": "CARPENTRY NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Carpentry NC II (Superseded).pdf",
-    "sha256": "e6642993e199d89d6424d1a62c1447061d2f1f67f07f8a06f25bd4bf42458bd0",
+    "authority": "TESDA",
+    "source_file": "Carpentry NC II (Superseded).pdf",
+    "source_sha256": "e6642993e199d89d6424d1a62c1447061d2f1f67f07f8a06f25bd4bf42458bd0",
+    "pdf_pages": 75,
+    "printed_pages": 72,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source is classified as superseded; no promulgation date is printed in the page-preserved source header, so the canonical promulgated field is null.",
+    "The source splits the nominal duration across Section 3 curriculum pages: 18 Basic and 24 Common hours on one page and 120 Core hours on the next; the canonical total of 162 hours is the arithmetic sum of those printed components.",
+    "The legacy source uses Section 1/2/3/4 terminology and historical titles such as Prepare / Stake-out and Rough Carpenter; source_text preserves the original spelling, spacing, and punctuation."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is classified as superseded; no promulgation date is printed in the page-preserved source header, so the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source splits the nominal duration across Section 3 curriculum pages: 18 Basic and 24 Common hours on one page and 120 Core hours on the next; the canonical total of 162 hours is the arithmetic sum of those printed components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The legacy source uses Section 1/2/3/4 terminology and historical titles such as Prepare / Stake-out and Rough Carpenter; source_text preserves the original spelling, spacing, and punctuation."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Carpentry NC II (Superseded).pdf",
-    "pdf_pages": 75,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "CON712317",
+      "source_unit_code": "CON712317",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "CON712318",
+      "source_unit_code": "CON712318",
+      "pdf_page_range": [
+        35,
+        40
+      ]
+    },
+    {
+      "unit_code": "CON712319",
+      "source_unit_code": "CON712319",
+      "pdf_page_range": [
+        41,
+        46
+      ]
+    },
+    {
+      "unit_code": "CON712320",
+      "source_unit_code": "CON712320",
+      "pdf_page_range": [
+        47,
+        51
+      ]
+    },
+    {
+      "unit_code": "CON712321",
+      "source_unit_code": "CON712321",
+      "pdf_page_range": [
+        52,
+        58
+      ]
+    }
+  ]
 }
