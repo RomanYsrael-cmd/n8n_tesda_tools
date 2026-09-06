@@ -1,29 +1,139 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:line-construction-electric-power-distribution-nc-ii:64684811e2",
-  "qualification": "LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:line-construction-electric-power-distribution-nc-ii-superseded:64684811e2",
+  "qualification": "LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Line Construction (Electric Power Distribution) NC II (Superseded).pdf",
-    "sha256": "64684811e2d8bfc41bb70c480c458e10a83ba25ca0fb5f575c88d04c84dd00ee",
+    "authority": "TESDA",
+    "source_file": "Line Construction (Electric Power Distribution) NC II (Superseded).pdf",
+    "source_sha256": "64684811e2d8bfc41bb70c480c458e10a83ba25ca0fb5f575c88d04c84dd00ee",
+    "pdf_pages": 59,
+    "printed_pages": 57,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a superseded November 2010 regulation and uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields.",
+    "Section 1 lists UTL311203 for Apply quality standards, while the Section 2 header prints ICT315202; the indexed unit follows Section 1 and preserves the source header code.",
+    "The source prints 18 Basic, 48 Common, and 184 Core hours plus 56 hours (7 days) of OJT/Practicum, for 306 total hours; the canonical duration records the OJT component under the shared field."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a superseded November 2010 regulation and uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists UTL311203 for Apply quality standards, while the Section 2 header prints ICT315202; the indexed unit follows Section 1 and preserves the source header code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 48 Common, and 184 Core hours plus 56 hours (7 days) of OJT/Practicum, for 306 total hours; the canonical duration records the OJT component under the shared field."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Line Construction (Electric Power Distribution) NC II (Superseded).pdf",
-    "pdf_pages": 59,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "UTL311203",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "UTL311206",
+      "source_unit_code": "UTL311206",
+      "pdf_page_range": [
+        19,
+        22
+      ]
+    },
+    {
+      "unit_code": "UTL311201",
+      "source_unit_code": "UTL311201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "UTL311205",
+      "source_unit_code": "UTL311205",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "UTL724603",
+      "source_unit_code": "UTL724603",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "UTL723220",
+      "source_unit_code": "UTL723220",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "UTL724604",
+      "source_unit_code": "UTL724604",
+      "pdf_page_range": [
+        37,
+        40
+      ]
+    },
+    {
+      "unit_code": "UTL724605",
+      "source_unit_code": "UTL724605",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    }
+  ]
 }

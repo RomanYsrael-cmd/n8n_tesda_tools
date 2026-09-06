@@ -1,68 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:local-guiding-services-nc-ii:2013-12",
+  "document_id": "tesda:tr:local-guiding-services-nc-ii:1c2269cb67",
   "qualification": "LOCAL GUIDING SERVICES NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311204",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "TRS311201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "TRS5113116",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311205",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5113117",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5113118",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP 48",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311201",
+        "TRS311202",
+        "TRS311203",
+        "TRS311204",
+        "TRS311205"
+      ],
+      "unit_titles": [
+        "Develop and update industry knowledge",
+        "Observe workplace hygiene procedures",
+        "Perform computer operations",
+        "Perform workplace and safety practices",
+        "Provide effective customer service"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "TRS5113116",
+        "TRS5113117",
+        "TRS5113118"
+      ],
+      "unit_titles": [
+        "Research information relevant to locality and tour itinerary",
+        "Coordinate tour arrangements for clients",
+        "Accompany and guide clients in accordance with the tour itinerary"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n4.2 Assessment shall focus on the core units of competency. The basic and common\nunits shall be integrated or assessed concurrently with the core units.\n\n4.3 The following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs\n\n4.3.2 Experienced workers (wage employed or self employed)\n\n4.4\nThe guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS).\n\n--- PDF PAGE 50 ---\nTR – LOCAL GUIDING SERVICES NC II (Amended) Promulgated December 2013\n 48\n\n--- PDF PAGE 51 ---\nTR – LOCAL GUIDING SERVICES NC II (Amended) Promulgated December 2013\n 49\nDEFINITION OF TERMS\n\n OPERATIONS MANAGER\nrefers to the head of the operations department that\ncoordinates all activities pertaining to the services of\nall groups and individual.\n\n SUPPLIER\nrefers to hotels, restaurants, resorts, transportation\noperators and other entities that supplies and\naccommodates tourists.\n\n TOUR COORDINATOR\nis a person who assist the arrival and departure of\nlocal and foreign tourist, delivery with the tour guide\nthe schedule of tour programs and coordinate\ntransportation services, baggage at the airports,\nhotels and restaurants arrangements, and other\nmatters relating to the itinerary of the tourist.\n\n TOURIST GUIDE\nis a person who manages and accompanies local or\nforeign tourists or other visitors within the country in\norder to provide information and explanations on\nmatters relating to history, archaeology, culture and\nplaces of interests and in general, any matter which\nmay promote the country’s tourism.\n\nTOUR OPERATOR\n is an entity that assembles and is responsible for the\ndelivery of the various tour package components for\ncommercial or other purposes.\n\n--- PDF PAGE 52 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies who donated their time and expertise\nto the development and validation of these Training Regulations.\n\n REVIEW PANEL\n\nANABELLE O. MORENO\nChair\nTourism Industry Board Foundation, Inc.\nUniversity of the Philippines - Asian\n Institute of Tourism (UP-AIT)\nPast President, Association of Human\n Resources Managers for Hotels and\n Restaurants (AHRM)\nBIENVENIDO G. CLARAVALL\nTrainer and Tour Practitioner\nTIBFI – IWG Member\nUniversity of the Philippines - Asian\n Institute of Tourism (UP-AIT)\nU.P. Diliman, Quezon City\n\nThe Participants in the Validation of these Training Regulations\n\nJAIME C. BARRIENTOS\nPresident\nPhilippine Association of Accredited Tourist\nGuide and Lecturer, Inc.\n2F 2014 Paseo Bldg. cor (Vito Cruz) P.\nOcampo/Arellano St., Malate, Manila\nARLENE A. ALIPIO\nOfficer-in-Charge\nStandards Development Division\nOffice of Standards and Regulations\nDepartment of Tourism (DOT)\nRoom 203 DOT Building\nT.M. Kalaw St., Ermita Manila\n\nMILAGROS ALCUAZ-METHARAM\nVice-President – External\nGuides Inc.\nc/o 109 J. Abad Santos\nLittle Baguio, San Juan, Metro-Manila\nPHOEBE ZELIE C. AREÑO\nOfficer-in-Charge\nStandards Development Division\nOffice of Standards and Regulations\nDepartment of Tourism (DOT)\nRoom 203 DOT Building\nT.M. Kalaw St., Ermita Manila\nMEDEL S. BAYTAN\nTour Guiding\nGuides Inc.\nc/o Mananzan Handicrafts,\nIntramuros, Manila\nDANIEL L. EDRALIN\nBoard Director\nTourism Industry Board Foundation, Inc.\n (TIBFI)\nNational Union of Workers in Hotels and\n Restaurant and Allied Industries\n (NEWHRAIN-APL)\n\nThe TESDA Board Members and Secretariat\n\nThe MANAGEMENT and STAFF of the TESDA Secretariat\n\n• Qualifications and Standards Office (QSO)"
 }

@@ -1,68 +1,883 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:line-construction-electric-power-distribution-nc-ii:64684811e2",
-  "qualification": "LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II",
+  "document_id": "tesda:tr:line-construction-electric-power-distribution-nc-ii-superseded:64684811e2",
+  "qualification": "LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II (SUPERSEDED)",
   "content_status": "complete",
   "source": {
-    "source_file": "Superseded/Line Construction (Electric Power Distribution) NC II (Superseded).pdf",
-    "pdf_pages": 59
+    "authority": "TESDA",
+    "source_file": "Line Construction (Electric Power Distribution) NC II (Superseded).pdf",
+    "pdf_pages": 59,
+    "printed_pages": 57,
+    "promulgated": "November 2010"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 48,
+        "source_expression": "48 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 184,
+        "source_expression": "184 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [
+      {
+        "label": "On-the-Job Training",
+        "hours": 56,
+        "source_expression": "56 hrs. - OJT"
+      }
+    ],
+    "total_hours": 306,
+    "total_source_expression": "306 hrs.",
+    "source_expressions": [
+      "18 hrs. - Basic Competencies",
+      "48 hrs. - Common Competencies",
+      "184 hrs. - Core Competencies",
+      "56 hrs. - OJT"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 306,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nNominal Training Duration:\n 18 hrs – Basic Competencies\n\n 48 hrs – Common Competencies\n 184 hrs – Core Competencies\n+ 56 hrs (7 days OJT/Practicum)\n\n---------------\n\n 306 hrs\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\ndistribution line lineman, in accordance with industry standards. It covers the basic and\ncommon competencies in addition to the core competencies such as to erect distribution\nline poles, install pole assembly, conductors, line equipment and devices as well as to\ninstall consumer service connection facility. Line construction involves work on non-\nenergized lines, particularly construction/ extension of new electric power distribution lines.\n.\n.\n\nBASIC COMPETENCIES\n18 hrs\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey workplace\ninformation\n1.2 Participate in workplace\nmeetings and discussions\n1.3 Complete relevant work\nrelated documents\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team role\nand responsibility in a team\n2.2 Describe work as a team member\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice Career\nProfessionalism\n3.1 Integrate personal objectives\nwith organizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional growth\nand development\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and Safety\nProcedures\n4.1 Identify hazards and risks\n4.2 Evaluate hazards and risks\n4.3 Control hazards and risks\n4.4 Maintain occupational health\nand safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 45 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 43\nPromulgated – November 2010\n\nCOMMON COMPETENCIES\n48 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Check materials and replace\nfaulty ones in accordance\nwith workplace standards\nand requirements\n1.2 Carry out work assignments\nin accordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n2. Comply with\nenvironmental\nprotection\nprocedures\n2.1 Access information\nconcerning environmental\nprotection regulations and\nprocedures\n2.2 Implement and monitor\nprocedures concerning\nenvironmental hazards\n2.3 Implement and monitor\nenvironmental control\nprocedures\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n3. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n3.1 Identify and access\nspecification/ manuals\n3.2 Interpret and apply\ninformation in manuals\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n4. Maintain and\noperate line\ntools and\nequipment\n4.1 Plan and prepare for work to\noperate and maintain line\ntools and equipment\n4.2 Prepare line hardware, tools\nand equipment for operation\nand maintenance\n4.3 Operate line tools and\nequipment\n4.4 Check condition of line tools\nand equipment\n4.5 Perform basic preventive\nmaintenance\n4.6 Store tools and equipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n--- PDF PAGE 46 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 44\nPromulgated – November 2010\n\nCORE COMPETENCIES\n184 hrs + 56 hrs. (7 days On-the-job/Practicum)\n\n* Note: Training providers must include separate modules or learning outcomes on Basic Electricity\n(including basic power generation, transmission and distribution), Industrial Safety and First Aid.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Erect\ndistribution line\npoles\n\n1.1 Load/Haul and spot\ndistribution poles\n1.2 Perform pole digging and\ngrounding\n1.3 Set up/Erect distribution\npole\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n2. Climb pole and\ninstall pole\nassembly/\nconductors\n\n2.1 Climb pole\n2.2 Dress/Frame pole\n2.3 Install pole anchor and\nguy\n2.4 Perform conductor\nstringing, tensioning,\narmoring and tying\n2.5 Install conductor/ground\ntaps and jumper\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n3. Install\ndistribution line\nequipment and\ndevices\n\n3.1 Install line equipment\nand devices\n3.2 Tap/Connect line\nequipment and devices\nto distribution line\n3.3 Install grounding to\nequipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n4. Install\nconsumer\nservice\nconnection\nfacility\n4.1 Install service drop and\nKilowatt-Hour meter\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n--- PDF PAGE 47 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 45\nPromulgated – November 2010\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTechnical and Vocational Education and Training (TVET).\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 46\nPromulgated – November 2010\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the\nfollowing requirements:\n\n•\nAt least high school graduate\n•\nCan communicate in oral and written language\n•\nMust be physically and mentally fit to undergo training e.g. no\nfear of working in height\n•\nAt least 5’4” in height\n•\n18-25 years old\n\nThis list does not include specific institutional requirements, such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS (Institution-based)\n\nMinimum list of tools, equipment and materials required for a group of 25 trainees\nfor LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II:\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 units\nOrdinary shovel\n10\nsets\nPole climbing equipment\n6 pcs.\nCross arm, wood or steel,\n10 ft. or 8 ft.\n2 units\nSpoon shovel, 7 ft\n4 unit\nHole digger\n12 pcs.\nPin insulator\n2 units\nStraight shovel, 7 ft.\n1 unit\nTelescopic ladder\n12 pcs.\nSteel pin\n2 units\nDigging/tamping bar, 8’,\nforge steel\n1 pc.\nKWH meter, 1 10 (30)A,\nbottom connection\n12 sets\nArmor rod for # 1/0\nAWG, ACSR\n4 units\nPole pike, assorted size\n1 unit\nDX transformer, 10 KVA,\n(busted) double bushing\n30\nmeters\n# 1/0 AWG, ACSR\n2 sets\nPole Jenny (salagunting),\n14 ft.\n1 unit\neach\nBoom truck and a line\ntruck (only during actual\nline construction)\n50 pcs.\nStrand of # 1/0 ACSR\ntwo (2) meters length\n2 sets\nPole Jenny (salagunting),\n18 ft.\n1 unit\nBlock and tackle, single,\n5”, 3/8” MSL 227 kg.\n2 pcs.\nPole, wood (tanalized),\n40 ft., cl 2\n2 units\nButting board (1”x6”x7”\nwood or steel)\n1 unit\nDouble block, 5”, 3/8”,\nMSL 338 kg.\n1 pc.\nPole, wood (tanalized),\n35 ft., cl 2\n1 unit\nCant hook, 4”, wooden\nhandle\n1 unit\nStringing roller & block,\nbrass steel\n2 pcs.\nPole, wood (tanalized),\n30 ft., cl 3\n2 units\nBolt cutter, 24” & 36”,\nsteel handle\n\nPersonal Protective\nEquipment (PPE)\n1 pc.\nPole, wood (tanalized),\n25 ft., cl 3\n4 units\nAuger bit, ¾” & 5/8”\n\nHard hat\n8 pcs.\nCross-arm, 8 ft.\n2 units\nRachet, ½ ton\n\nGoggles/eye protector\n3 pcs.\nPin insulator\n2 units\nCum-a-long (wire group)\n\nWorking gloves\n38 pcs.\nSuspension insulator 6”\n1 unit\nConductor rack\n\nMaong jacket, long\nsleeve\n18 pcs.\nDead end strain clamp,\n1/0 ACSR\n1 unit\nTransformer gin\n\nRubber gloves\n2 pcs.\nPole top pin\n2 – 25\nmeters\nBull line (3/4” manila or\npolypropylene rope)\n\nSafety shoes, high cut\nwith heels boots\n12 pcs.\nDouble arming bolt\n5/8x22”\n\n--- PDF PAGE 49 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 47\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 – 60\nft.\nlength\nHand line (1/2” rope)\n\n14 pcs.\nEye nut, oval 5/8”\n 4 pcs.\nDead end loop clamp\n\n1 pc.\nSingle upset bolt 5/8x10”\n 8 pcs.\nHot line clamp for 1/0\nACSR\n\n1 pc.\nDouble upset bolt 5/8x10”\n2 units\nImpact tool, power\nactuated\n\n2 pcs.\nPipe spacer 5/8”\n2 units\nPruning saw, diff. sizes\n\n12 pcs.\nOrdinary brace, 28”\n\n13 pcs.\nLog screw\n\nHANDTOOLS\n\n5 pcs.\nMalleable guy attachment\n\nLinemen’s pliers, 9”,\ninsulated handle\n\n2 pcs.\nGuy hook\n\nAdjustable wrench, 12”\n\n2 pcs.\nGuy plate\n\nBallpen hammer, 10 lbs;\nforge steel\n\n10 pcs.\nThree bolt clamp\n\nScrew driver, 12”, flat\n\n2 pcs.\nGuy grip, 3/8guy wire\n\nAdjustable wrench, 12”,\nforge steel\n\n4 pcs.\nDead-end strain clamp,\n4/0”\n\nSkinning knife, 2 ¼”,\ninsulated\n\n2 pcs.\nAnchor log, 4 ft.\n\nCanvas bag\n\n2 pcs.\nAnchor expanding\n\n2 pcs.\nAnchor rod 5/8”,\nTwin eye\n\n2 pcs.\n Anchor rod 5/8”,\nSingle eye\n\n4 pcs.\nSpool insulator, 1 ¾”\n\n2 pcs.\nSpool insulator, 3”\n\n1 pc.\nGround rod 5/8x8’\n\n1 pc.\nGround rod clamp\n\n4 pcs.\nEye bolt 5/8x10”\n\n12 pcs.\nEye bolt 5/8x12”\n\n8 pcs.\nDead end loop clamp for\n1/0 ACSR\n\n80\nmeters\nConductor ACSR, #1/0\n\n20\nmeters\nConductor ACSR, #4/0\n\n40\nmeters\nConductor ACSR, #2\n\n60\nmeters\nGuy wire, 3/8”\n\n4 pcs.\nMachine bolt, 5/8”x12\n\n2 pcs.\nV-brace, 60” span\n\n4 pcs.\nMachine bolt, ½ x 6”\n\n10\nmeters\nGround wire, 3 strand\n\n30 pcs.\nStaple wire\n\n--- PDF PAGE 50 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 48\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n\n60 pcs.\nWasher square, 1 3/16”\nhole, 2 ¼ x 2 ¼ x 3/16\n\n60 pcs.\nLock nut 5/8”\n\n4 pcs.\nLock nut ½”\n\n2 pcs.\nSquare washer 4”x4”\n\n4 pcs.\nAnchor shackle\n\n15\nmeters\nDuplex Wire, #6\n\n2 pcs.\nService Grip, secondary\n\n6\nmeters\nInsulated copper, #2\nconnector\n\n1 pc.\nFuse cut-out with lighting\narrester combination\n\n3 pcs.\nCompression connector,\n#1/0 - #2 ACSR\n\n2 pc.\nCompression connector,\n#1/0 - #6 ACSR\n\n3.5 TRAINING FACILITIES\n\nRecommended space requirements for the various teaching/learning areas are\nas follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n8 x 10\n80\n1\n80\nLaboratory Area (field-based – 6\npoles minimum)\n 500\nLearning Resource Area\n5 x 6\n30\n1\n30\nClinic/Multi-purpose Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n3 x 5\n15\n1\n15\n Total\n645\nFacilities / Equipment / Circulation\n\n50\n Total Area\n\n695\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 49\nPromulgated – November 2010\n\n3.6 TRAINERS QUALIFICATIONS\n\nLINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nTrainer’s Qualification\n\n•\nMust be a holder of Line Construction (Electric Power Distribution) NCII or\nequivalent\n•\nMust have completed Training Methodology/Assessment Methodology (TM/AM)\ncourse or equivalent\n•\nMust have reached supervisory level in distribution line works, e.g. Line\nForeman/Leadman\n•\nMust have at least 3-years relevant supervisory experience\n•\nMust be physically & mentally fit\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 50\nPromulgated – November 2010"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Participate in workplace meetings and discussions",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team member",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal objectives with organizational goals",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Identify hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Plant tour"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Evaluate hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Plant tour",
+          "Symposium"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Symposium"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Maintain occupational health and safety awareness",
+        "learning_activities": [],
+        "methodology": [
+          "NC II"
+        ],
+        "assessment_approach": [
+          "Page 42"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311203",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Check materials and replace faulty ones in accordance with workplace standards and requirements",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪ ▪ Viewing ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311203",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Carry out work assignments in accordance with standard",
+        "learning_activities": [],
+        "methodology": [
+          "multimedia ▪ ▪ Hands on practice"
+        ],
+        "assessment_approach": [
+          "Third Party Report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311203",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Check completed work against standards and specifications",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪ ▪ Viewing ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311203",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Document and prepare a report on deviations from specific quality standards ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Third Party Report",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪ ▪ Viewing ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311206",
+        "unit_title": "Comply with environmental protection procedures",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Access information concerning environmental protection regulations and procedures",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪ ▪ Viewing ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311206",
+        "unit_title": "Comply with environmental protection procedures",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Implement and monitor procedures concerning environmental hazards",
+        "learning_activities": [],
+        "methodology": [
+          "multimedia ▪ ▪ Hands on practice"
+        ],
+        "assessment_approach": [
+          "Third Party Report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311206",
+        "unit_title": "Comply with environmental protection procedures",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Implement and monitor environmental control procedures ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Third Party Report",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪ ▪ Viewing ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311201",
+        "unit_title": "Observe procedures, specifications and manuals of instruction",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify and access specification/ manuals",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion"
+        ],
+        "assessment_approach": [
+          "Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311201",
+        "unit_title": "Observe procedures, specifications and manuals of instruction",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Interpret and apply information in manuals ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Third Party Report",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Demonstration ▪ ▪ Viewing ▪ multimedia ▪ ▪ Hands on practice"
+        ],
+        "assessment_approach": [
+          "Demonstration Oral questioning Third Party Report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311205",
+        "unit_title": "Operate and maintain hand/line tools and equipment",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Plan and prepare for work to",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311205",
+        "unit_title": "Operate and maintain hand/line tools and equipment",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Prepare line hardware, tools and equipment for operation and maintenance",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Viewing ▪ multimedia ▪ ▪ Hands on"
+        ],
+        "assessment_approach": [
+          "Oral questioning Third Party Report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311205",
+        "unit_title": "Operate and maintain hand/line tools and equipment",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Operate line tools and equipment",
+        "learning_activities": [],
+        "methodology": [
+          "practice"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311205",
+        "unit_title": "Operate and maintain hand/line tools and equipment",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Check condition of line tools and equipment",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311205",
+        "unit_title": "Operate and maintain hand/line tools and equipment",
+        "learning_outcome_number": "4.5",
+        "learning_outcome": "Perform basic preventive maintenance",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "UTL311205",
+        "unit_title": "Operate and maintain hand/line tools and equipment",
+        "learning_outcome_number": "4.6",
+        "learning_outcome": "Store tools and equipment ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Third Party Report",
+        "learning_activities": [],
+        "methodology": [
+          "NC II"
+        ],
+        "assessment_approach": [
+          "Page 43"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL724603",
+        "unit_title": "Erect distribution line poles",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Load/Haul and spot distribution poles",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL724603",
+        "unit_title": "Erect distribution line poles",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Perform pole digging and grounding",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL724603",
+        "unit_title": "Erect distribution line poles",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Set up/Erect distribution pole ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Written exam",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL723220",
+        "unit_title": "Climb pole and install pole assembly/conductors",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Climb pole",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL723220",
+        "unit_title": "Climb pole and install pole assembly/conductors",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Dress/Frame pole",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL723220",
+        "unit_title": "Climb pole and install pole assembly/conductors",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Install pole anchor and guy",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL723220",
+        "unit_title": "Climb pole and install pole assembly/conductors",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Perform conductor stringing, tensioning, armoring and tying",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL723220",
+        "unit_title": "Climb pole and install pole assembly/conductors",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Install conductor/ground taps and jumper ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Written exam",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL724604",
+        "unit_title": "Install distribution line equipment and devices",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Install line equipment and devices",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion"
+        ],
+        "assessment_approach": [
+          "Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL724604",
+        "unit_title": "Install distribution line equipment and devices",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Tap/Connect line equipment and devices to distribution line",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Demonstration ▪ ▪ Viewing ▪ multimedia ▪ ▪ Hands on practice"
+        ],
+        "assessment_approach": [
+          "Demonstration Oral questioning Third Party Report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL724604",
+        "unit_title": "Install distribution line equipment and devices",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Install grounding to equipment ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Written exam",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "UTL724605",
+        "unit_title": "Install consumer service connection facility",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Install service drop and Kilowatt-Hour meter ▪ Lecture ▪ Discussion ▪ Demonstration ▪ Viewing multimedia ▪ Hands on practice ▪ Observation in workplace ▪ Demonstration ▪ Oral questioning ▪ Written exam",
+        "learning_activities": [],
+        "methodology": [
+          "▪ Lecture ▪ ▪ Discussion ▪ Demonstration ▪"
+        ],
+        "assessment_approach": [
+          "Observation in workplace Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      }
+    ],
+    "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nNominal Training Duration:\n 18 hrs – Basic Competencies\n\n 48 hrs – Common Competencies\n 184 hrs – Core Competencies\n+ 56 hrs (7 days OJT/Practicum)\n\n---------------\n\n 306 hrs\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\ndistribution line lineman, in accordance with industry standards. It covers the basic and\ncommon competencies in addition to the core competencies such as to erect distribution\nline poles, install pole assembly, conductors, line equipment and devices as well as to\ninstall consumer service connection facility. Line construction involves work on non-\nenergized lines, particularly construction/ extension of new electric power distribution lines.\n.\n.\n\nBASIC COMPETENCIES\n18 hrs\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey workplace\ninformation\n1.2 Participate in workplace\nmeetings and discussions\n1.3 Complete relevant work\nrelated documents\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team role\nand responsibility in a team\n2.2 Describe work as a team member\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice Career\nProfessionalism\n3.1 Integrate personal objectives\nwith organizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional growth\nand development\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and Safety\nProcedures\n4.1 Identify hazards and risks\n4.2 Evaluate hazards and risks\n4.3 Control hazards and risks\n4.4 Maintain occupational health\nand safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 45 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 43\nPromulgated – November 2010\n\nCOMMON COMPETENCIES\n48 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Check materials and replace\nfaulty ones in accordance\nwith workplace standards\nand requirements\n1.2 Carry out work assignments\nin accordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n2. Comply with\nenvironmental\nprotection\nprocedures\n2.1 Access information\nconcerning environmental\nprotection regulations and\nprocedures\n2.2 Implement and monitor\nprocedures concerning\nenvironmental hazards\n2.3 Implement and monitor\nenvironmental control\nprocedures\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n3. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n3.1 Identify and access\nspecification/ manuals\n3.2 Interpret and apply\ninformation in manuals\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n4. Maintain and\noperate line\ntools and\nequipment\n4.1 Plan and prepare for work to\noperate and maintain line\ntools and equipment\n4.2 Prepare line hardware, tools\nand equipment for operation\nand maintenance\n4.3 Operate line tools and\nequipment\n4.4 Check condition of line tools\nand equipment\n4.5 Perform basic preventive\nmaintenance\n4.6 Store tools and equipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n--- PDF PAGE 46 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 44\nPromulgated – November 2010\n\nCORE COMPETENCIES\n184 hrs + 56 hrs. (7 days On-the-job/Practicum)\n\n* Note: Training providers must include separate modules or learning outcomes on Basic Electricity\n(including basic power generation, transmission and distribution), Industrial Safety and First Aid.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Erect\ndistribution line\npoles\n\n1.1 Load/Haul and spot\ndistribution poles\n1.2 Perform pole digging and\ngrounding\n1.3 Set up/Erect distribution\npole\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n2. Climb pole and\ninstall pole\nassembly/\nconductors\n\n2.1 Climb pole\n2.2 Dress/Frame pole\n2.3 Install pole anchor and\nguy\n2.4 Perform conductor\nstringing, tensioning,\narmoring and tying\n2.5 Install conductor/ground\ntaps and jumper\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n3. Install\ndistribution line\nequipment and\ndevices\n\n3.1 Install line equipment\nand devices\n3.2 Tap/Connect line\nequipment and devices\nto distribution line\n3.3 Install grounding to\nequipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n4. Install\nconsumer\nservice\nconnection\nfacility\n4.1 Install service drop and\nKilowatt-Hour meter\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n--- PDF PAGE 47 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 45\nPromulgated – November 2010"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nNominal Training Duration:\n 18 hrs – Basic Competencies\n\n 48 hrs – Common Competencies\n 184 hrs – Core Competencies\n+ 56 hrs (7 days OJT/Practicum)\n\n---------------\n\n 306 hrs\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\ndistribution line lineman, in accordance with industry standards. It covers the basic and\ncommon competencies in addition to the core competencies such as to erect distribution\nline poles, install pole assembly, conductors, line equipment and devices as well as to\ninstall consumer service connection facility. Line construction involves work on non-\nenergized lines, particularly construction/ extension of new electric power distribution lines.\n.\n.\n\nBASIC COMPETENCIES\n18 hrs\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey workplace\ninformation\n1.2 Participate in workplace\nmeetings and discussions\n1.3 Complete relevant work\nrelated documents\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team role\nand responsibility in a team\n2.2 Describe work as a team member\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice Career\nProfessionalism\n3.1 Integrate personal objectives\nwith organizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional growth\nand development\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and Safety\nProcedures\n4.1 Identify hazards and risks\n4.2 Evaluate hazards and risks\n4.3 Control hazards and risks\n4.4 Maintain occupational health\nand safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 45 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 43\nPromulgated – November 2010\n\nCOMMON COMPETENCIES\n48 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Check materials and replace\nfaulty ones in accordance\nwith workplace standards\nand requirements\n1.2 Carry out work assignments\nin accordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n2. Comply with\nenvironmental\nprotection\nprocedures\n2.1 Access information\nconcerning environmental\nprotection regulations and\nprocedures\n2.2 Implement and monitor\nprocedures concerning\nenvironmental hazards\n2.3 Implement and monitor\nenvironmental control\nprocedures\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n3. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n3.1 Identify and access\nspecification/ manuals\n3.2 Interpret and apply\ninformation in manuals\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n4. Maintain and\noperate line\ntools and\nequipment\n4.1 Plan and prepare for work to\noperate and maintain line\ntools and equipment\n4.2 Prepare line hardware, tools\nand equipment for operation\nand maintenance\n4.3 Operate line tools and\nequipment\n4.4 Check condition of line tools\nand equipment\n4.5 Perform basic preventive\nmaintenance\n4.6 Store tools and equipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n--- PDF PAGE 46 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 44\nPromulgated – November 2010\n\nCORE COMPETENCIES\n184 hrs + 56 hrs. (7 days On-the-job/Practicum)\n\n* Note: Training providers must include separate modules or learning outcomes on Basic Electricity\n(including basic power generation, transmission and distribution), Industrial Safety and First Aid.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Erect\ndistribution line\npoles\n\n1.1 Load/Haul and spot\ndistribution poles\n1.2 Perform pole digging and\ngrounding\n1.3 Set up/Erect distribution\npole\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n2. Climb pole and\ninstall pole\nassembly/\nconductors\n\n2.1 Climb pole\n2.2 Dress/Frame pole\n2.3 Install pole anchor and\nguy\n2.4 Perform conductor\nstringing, tensioning,\narmoring and tying\n2.5 Install conductor/ground\ntaps and jumper\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n3. Install\ndistribution line\nequipment and\ndevices\n\n3.1 Install line equipment\nand devices\n3.2 Tap/Connect line\nequipment and devices\nto distribution line\n3.3 Install grounding to\nequipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n4. Install\nconsumer\nservice\nconnection\nfacility\n4.1 Install service drop and\nKilowatt-Hour meter\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n--- PDF PAGE 47 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 45\nPromulgated – November 2010",
-      "pdf_pages": []
+      "pdf_pages": [
+        44
+      ],
+      "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nNominal Training Duration:\n 18 hrs – Basic Competencies\n\n 48 hrs – Common Competencies\n 184 hrs – Core Competencies\n+ 56 hrs (7 days OJT/Practicum)\n\n---------------\n\n 306 hrs\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\ndistribution line lineman, in accordance with industry standards. It covers the basic and\ncommon competencies in addition to the core competencies such as to erect distribution\nline poles, install pole assembly, conductors, line equipment and devices as well as to\ninstall consumer service connection facility. Line construction involves work on non-\nenergized lines, particularly construction/ extension of new electric power distribution lines.\n.\n.\n\nBASIC COMPETENCIES\n18 hrs\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey workplace\ninformation\n1.2 Participate in workplace\nmeetings and discussions\n1.3 Complete relevant work\nrelated documents\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team role\nand responsibility in a team\n2.2 Describe work as a team member\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice Career\nProfessionalism\n3.1 Integrate personal objectives\nwith organizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional growth\nand development\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and Safety\nProcedures\n4.1 Identify hazards and risks\n4.2 Evaluate hazards and risks\n4.3 Control hazards and risks\n4.4 Maintain occupational health\nand safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 45 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 43\nPromulgated – November 2010\n\nCOMMON COMPETENCIES\n48 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Check materials and replace\nfaulty ones in accordance\nwith workplace standards\nand requirements\n1.2 Carry out work assignments\nin accordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n2. Comply with\nenvironmental\nprotection\nprocedures\n2.1 Access information\nconcerning environmental\nprotection regulations and\nprocedures\n2.2 Implement and monitor\nprocedures concerning\nenvironmental hazards\n2.3 Implement and monitor\nenvironmental control\nprocedures\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n3. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n3.1 Identify and access\nspecification/ manuals\n3.2 Interpret and apply\ninformation in manuals\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n4. Maintain and\noperate line\ntools and\nequipment\n4.1 Plan and prepare for work to\noperate and maintain line\ntools and equipment\n4.2 Prepare line hardware, tools\nand equipment for operation\nand maintenance\n4.3 Operate line tools and\nequipment\n4.4 Check condition of line tools\nand equipment\n4.5 Perform basic preventive\nmaintenance\n4.6 Store tools and equipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n--- PDF PAGE 46 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 44\nPromulgated – November 2010\n\nCORE COMPETENCIES\n184 hrs + 56 hrs. (7 days On-the-job/Practicum)\n\n* Note: Training providers must include separate modules or learning outcomes on Basic Electricity\n(including basic power generation, transmission and distribution), Industrial Safety and First Aid.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Erect\ndistribution line\npoles\n\n1.1 Load/Haul and spot\ndistribution poles\n1.2 Perform pole digging and\ngrounding\n1.3 Set up/Erect distribution\npole\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n2. Climb pole and\ninstall pole\nassembly/\nconductors\n\n2.1 Climb pole\n2.2 Dress/Frame pole\n2.3 Install pole anchor and\nguy\n2.4 Perform conductor\nstringing, tensioning,\narmoring and tying\n2.5 Install conductor/ground\ntaps and jumper\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n3. Install\ndistribution line\nequipment and\ndevices\n\n3.1 Install line equipment\nand devices\n3.2 Tap/Connect line\nequipment and devices\nto distribution line\n3.3 Install grounding to\nequipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n4. Install\nconsumer\nservice\nconnection\nfacility\n4.1 Install service drop and\nKilowatt-Hour meter\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n--- PDF PAGE 47 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 45\nPromulgated – November 2010"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTechnical and Vocational Education and Training (TVET).\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 46\nPromulgated – November 2010",
-      "pdf_pages": []
+      "pdf_pages": [
+        47
+      ],
+      "source_text": "3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTechnical and Vocational Education and Training (TVET).\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 46\nPromulgated – November 2010"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "The trainees who wish to enter the course should possess the\nfollowing requirements:\n\n•\nAt least high school graduate\n•\nCan communicate in oral and written language\n•\nMust be physically and mentally fit to undergo training e.g. no\nfear of working in height\n•\nAt least 5’4” in height\n•\n18-25 years old\n\nThis list does not include specific institutional requirements, such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.",
-      "pdf_pages": []
+      "pdf_pages": [
+        48
+      ],
+      "source_text": "3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the\nfollowing requirements:\n\n•\nAt least high school graduate\n•\nCan communicate in oral and written language\n•\nMust be physically and mentally fit to undergo training e.g. no\nfear of working in height\n•\nAt least 5’4” in height\n•\n18-25 years old\n\nThis list does not include specific institutional requirements, such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram."
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS (Institution-based)\n\nMinimum list of tools, equipment and materials required for a group of 25 trainees\nfor LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II:\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 units\nOrdinary shovel\n10\nsets\nPole climbing equipment\n6 pcs.\nCross arm, wood or steel,\n10 ft. or 8 ft.\n2 units\nSpoon shovel, 7 ft\n4 unit\nHole digger\n12 pcs.\nPin insulator\n2 units\nStraight shovel, 7 ft.\n1 unit\nTelescopic ladder\n12 pcs.\nSteel pin\n2 units\nDigging/tamping bar, 8’,\nforge steel\n1 pc.\nKWH meter, 1 10 (30)A,\nbottom connection\n12 sets\nArmor rod for # 1/0\nAWG, ACSR\n4 units\nPole pike, assorted size\n1 unit\nDX transformer, 10 KVA,\n(busted) double bushing\n30\nmeters\n# 1/0 AWG, ACSR\n2 sets\nPole Jenny (salagunting),\n14 ft.\n1 unit\neach\nBoom truck and a line\ntruck (only during actual\nline construction)\n50 pcs.\nStrand of # 1/0 ACSR\ntwo (2) meters length\n2 sets\nPole Jenny (salagunting),\n18 ft.\n1 unit\nBlock and tackle, single,\n5”, 3/8” MSL 227 kg.\n2 pcs.\nPole, wood (tanalized),\n40 ft., cl 2\n2 units\nButting board (1”x6”x7”\nwood or steel)\n1 unit\nDouble block, 5”, 3/8”,\nMSL 338 kg.\n1 pc.\nPole, wood (tanalized),\n35 ft., cl 2\n1 unit\nCant hook, 4”, wooden\nhandle\n1 unit\nStringing roller & block,\nbrass steel\n2 pcs.\nPole, wood (tanalized),\n30 ft., cl 3\n2 units\nBolt cutter, 24” & 36”,\nsteel handle\n\nPersonal Protective\nEquipment (PPE)\n1 pc.\nPole, wood (tanalized),\n25 ft., cl 3\n4 units\nAuger bit, ¾” & 5/8”\n\nHard hat\n8 pcs.\nCross-arm, 8 ft.\n2 units\nRachet, ½ ton\n\nGoggles/eye protector\n3 pcs.\nPin insulator\n2 units\nCum-a-long (wire group)\n\nWorking gloves\n38 pcs.\nSuspension insulator 6”\n1 unit\nConductor rack\n\nMaong jacket, long\nsleeve\n18 pcs.\nDead end strain clamp,\n1/0 ACSR\n1 unit\nTransformer gin\n\nRubber gloves\n2 pcs.\nPole top pin\n2 – 25\nmeters\nBull line (3/4” manila or\npolypropylene rope)\n\nSafety shoes, high cut\nwith heels boots\n12 pcs.\nDouble arming bolt\n5/8x22”\n\n--- PDF PAGE 49 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 47\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 – 60\nft.\nlength\nHand line (1/2” rope)\n\n14 pcs.\nEye nut, oval 5/8”\n 4 pcs.\nDead end loop clamp\n\n1 pc.\nSingle upset bolt 5/8x10”\n 8 pcs.\nHot line clamp for 1/0\nACSR\n\n1 pc.\nDouble upset bolt 5/8x10”\n2 units\nImpact tool, power\nactuated\n\n2 pcs.\nPipe spacer 5/8”\n2 units\nPruning saw, diff. sizes\n\n12 pcs.\nOrdinary brace, 28”\n\n13 pcs.\nLog screw\n\nHANDTOOLS\n\n5 pcs.\nMalleable guy attachment\n\nLinemen’s pliers, 9”,\ninsulated handle\n\n2 pcs.\nGuy hook\n\nAdjustable wrench, 12”\n\n2 pcs.\nGuy plate\n\nBallpen hammer, 10 lbs;\nforge steel\n\n10 pcs.\nThree bolt clamp\n\nScrew driver, 12”, flat\n\n2 pcs.\nGuy grip, 3/8guy wire\n\nAdjustable wrench, 12”,\nforge steel\n\n4 pcs.\nDead-end strain clamp,\n4/0”\n\nSkinning knife, 2 ¼”,\ninsulated\n\n2 pcs.\nAnchor log, 4 ft.\n\nCanvas bag\n\n2 pcs.\nAnchor expanding\n\n2 pcs.\nAnchor rod 5/8”,\nTwin eye\n\n2 pcs.\n Anchor rod 5/8”,\nSingle eye\n\n4 pcs.\nSpool insulator, 1 ¾”\n\n2 pcs.\nSpool insulator, 3”\n\n1 pc.\nGround rod 5/8x8’\n\n1 pc.\nGround rod clamp\n\n4 pcs.\nEye bolt 5/8x10”\n\n12 pcs.\nEye bolt 5/8x12”\n\n8 pcs.\nDead end loop clamp for\n1/0 ACSR\n\n80\nmeters\nConductor ACSR, #1/0\n\n20\nmeters\nConductor ACSR, #4/0\n\n40\nmeters\nConductor ACSR, #2\n\n60\nmeters\nGuy wire, 3/8”\n\n4 pcs.\nMachine bolt, 5/8”x12\n\n2 pcs.\nV-brace, 60” span\n\n4 pcs.\nMachine bolt, ½ x 6”\n\n10\nmeters\nGround wire, 3 strand\n\n30 pcs.\nStaple wire\n\n--- PDF PAGE 50 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 48\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n\n60 pcs.\nWasher square, 1 3/16”\nhole, 2 ¼ x 2 ¼ x 3/16\n\n60 pcs.\nLock nut 5/8”\n\n4 pcs.\nLock nut ½”\n\n2 pcs.\nSquare washer 4”x4”\n\n4 pcs.\nAnchor shackle\n\n15\nmeters\nDuplex Wire, #6\n\n2 pcs.\nService Grip, secondary\n\n6\nmeters\nInsulated copper, #2\nconnector\n\n1 pc.\nFuse cut-out with lighting\narrester combination\n\n3 pcs.\nCompression connector,\n#1/0 - #2 ACSR\n\n2 pc.\nCompression connector,\n#1/0 - #6 ACSR",
-      "pdf_pages": []
+      "pdf_pages": [
+        48,
+        49,
+        50
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS (Institution-based)\n\nMinimum list of tools, equipment and materials required for a group of 25 trainees\nfor LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II:\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 units\nOrdinary shovel\n10\nsets\nPole climbing equipment\n6 pcs.\nCross arm, wood or steel,\n10 ft. or 8 ft.\n2 units\nSpoon shovel, 7 ft\n4 unit\nHole digger\n12 pcs.\nPin insulator\n2 units\nStraight shovel, 7 ft.\n1 unit\nTelescopic ladder\n12 pcs.\nSteel pin\n2 units\nDigging/tamping bar, 8’,\nforge steel\n1 pc.\nKWH meter, 1 10 (30)A,\nbottom connection\n12 sets\nArmor rod for # 1/0\nAWG, ACSR\n4 units\nPole pike, assorted size\n1 unit\nDX transformer, 10 KVA,\n(busted) double bushing\n30\nmeters\n# 1/0 AWG, ACSR\n2 sets\nPole Jenny (salagunting),\n14 ft.\n1 unit\neach\nBoom truck and a line\ntruck (only during actual\nline construction)\n50 pcs.\nStrand of # 1/0 ACSR\ntwo (2) meters length\n2 sets\nPole Jenny (salagunting),\n18 ft.\n1 unit\nBlock and tackle, single,\n5”, 3/8” MSL 227 kg.\n2 pcs.\nPole, wood (tanalized),\n40 ft., cl 2\n2 units\nButting board (1”x6”x7”\nwood or steel)\n1 unit\nDouble block, 5”, 3/8”,\nMSL 338 kg.\n1 pc.\nPole, wood (tanalized),\n35 ft., cl 2\n1 unit\nCant hook, 4”, wooden\nhandle\n1 unit\nStringing roller & block,\nbrass steel\n2 pcs.\nPole, wood (tanalized),\n30 ft., cl 3\n2 units\nBolt cutter, 24” & 36”,\nsteel handle\n\nPersonal Protective\nEquipment (PPE)\n1 pc.\nPole, wood (tanalized),\n25 ft., cl 3\n4 units\nAuger bit, ¾” & 5/8”\n\nHard hat\n8 pcs.\nCross-arm, 8 ft.\n2 units\nRachet, ½ ton\n\nGoggles/eye protector\n3 pcs.\nPin insulator\n2 units\nCum-a-long (wire group)\n\nWorking gloves\n38 pcs.\nSuspension insulator 6”\n1 unit\nConductor rack\n\nMaong jacket, long\nsleeve\n18 pcs.\nDead end strain clamp,\n1/0 ACSR\n1 unit\nTransformer gin\n\nRubber gloves\n2 pcs.\nPole top pin\n2 – 25\nmeters\nBull line (3/4” manila or\npolypropylene rope)\n\nSafety shoes, high cut\nwith heels boots\n12 pcs.\nDouble arming bolt\n5/8x22”\n\n--- PDF PAGE 49 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 47\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 – 60\nft.\nlength\nHand line (1/2” rope)\n\n14 pcs.\nEye nut, oval 5/8”\n 4 pcs.\nDead end loop clamp\n\n1 pc.\nSingle upset bolt 5/8x10”\n 8 pcs.\nHot line clamp for 1/0\nACSR\n\n1 pc.\nDouble upset bolt 5/8x10”\n2 units\nImpact tool, power\nactuated\n\n2 pcs.\nPipe spacer 5/8”\n2 units\nPruning saw, diff. sizes\n\n12 pcs.\nOrdinary brace, 28”\n\n13 pcs.\nLog screw\n\nHANDTOOLS\n\n5 pcs.\nMalleable guy attachment\n\nLinemen’s pliers, 9”,\ninsulated handle\n\n2 pcs.\nGuy hook\n\nAdjustable wrench, 12”\n\n2 pcs.\nGuy plate\n\nBallpen hammer, 10 lbs;\nforge steel\n\n10 pcs.\nThree bolt clamp\n\nScrew driver, 12”, flat\n\n2 pcs.\nGuy grip, 3/8guy wire\n\nAdjustable wrench, 12”,\nforge steel\n\n4 pcs.\nDead-end strain clamp,\n4/0”\n\nSkinning knife, 2 ¼”,\ninsulated\n\n2 pcs.\nAnchor log, 4 ft.\n\nCanvas bag\n\n2 pcs.\nAnchor expanding\n\n2 pcs.\nAnchor rod 5/8”,\nTwin eye\n\n2 pcs.\n Anchor rod 5/8”,\nSingle eye\n\n4 pcs.\nSpool insulator, 1 ¾”\n\n2 pcs.\nSpool insulator, 3”\n\n1 pc.\nGround rod 5/8x8’\n\n1 pc.\nGround rod clamp\n\n4 pcs.\nEye bolt 5/8x10”\n\n12 pcs.\nEye bolt 5/8x12”\n\n8 pcs.\nDead end loop clamp for\n1/0 ACSR\n\n80\nmeters\nConductor ACSR, #1/0\n\n20\nmeters\nConductor ACSR, #4/0\n\n40\nmeters\nConductor ACSR, #2\n\n60\nmeters\nGuy wire, 3/8”\n\n4 pcs.\nMachine bolt, 5/8”x12\n\n2 pcs.\nV-brace, 60” span\n\n4 pcs.\nMachine bolt, ½ x 6”\n\n10\nmeters\nGround wire, 3 strand\n\n30 pcs.\nStaple wire\n\n--- PDF PAGE 50 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 48\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n\n60 pcs.\nWasher square, 1 3/16”\nhole, 2 ¼ x 2 ¼ x 3/16\n\n60 pcs.\nLock nut 5/8”\n\n4 pcs.\nLock nut ½”\n\n2 pcs.\nSquare washer 4”x4”\n\n4 pcs.\nAnchor shackle\n\n15\nmeters\nDuplex Wire, #6\n\n2 pcs.\nService Grip, secondary\n\n6\nmeters\nInsulated copper, #2\nconnector\n\n1 pc.\nFuse cut-out with lighting\narrester combination\n\n3 pcs.\nCompression connector,\n#1/0 - #2 ACSR\n\n2 pc.\nCompression connector,\n#1/0 - #6 ACSR"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "Recommended space requirements for the various teaching/learning areas are\nas follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n8 x 10\n80\n1\n80\nLaboratory Area (field-based – 6\npoles minimum)\n 500\nLearning Resource Area\n5 x 6\n30\n1\n30\nClinic/Multi-purpose Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n3 x 5\n15\n1\n15\n Total\n645\nFacilities / Equipment / Circulation\n\n50\n Total Area\n\n695\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 49\nPromulgated – November 2010",
-      "pdf_pages": []
+      "pdf_pages": [
+        50
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nRecommended space requirements for the various teaching/learning areas are\nas follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n8 x 10\n80\n1\n80\nLaboratory Area (field-based – 6\npoles minimum)\n 500\nLearning Resource Area\n5 x 6\n30\n1\n30\nClinic/Multi-purpose Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n3 x 5\n15\n1\n15\n Total\n645\nFacilities / Equipment / Circulation\n\n50\n Total Area\n\n695\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 49\nPromulgated – November 2010"
     },
     "trainer_qualifications": {
       "present": true,
-      "source_text": "LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nTrainer’s Qualification\n\n•\nMust be a holder of Line Construction (Electric Power Distribution) NCII or\nequivalent\n•\nMust have completed Training Methodology/Assessment Methodology (TM/AM)\ncourse or equivalent\n•\nMust have reached supervisory level in distribution line works, e.g. Line\nForeman/Leadman\n•\nMust have at least 3-years relevant supervisory experience\n•\nMust be physically & mentally fit",
-      "pdf_pages": []
+      "pdf_pages": [
+        51
+      ],
+      "source_text": "3.6 TRAINERS QUALIFICATIONS\n\nLINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nTrainer’s Qualification\n\n•\nMust be a holder of Line Construction (Electric Power Distribution) NCII or\nequivalent\n•\nMust have completed Training Methodology/Assessment Methodology (TM/AM)\ncourse or equivalent\n•\nMust have reached supervisory level in distribution line works, e.g. Line\nForeman/Leadman\n•\nMust have at least 3-years relevant supervisory experience\n•\nMust be physically & mentally fit"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 50\nPromulgated – November 2010",
-      "pdf_pages": []
+      "pdf_pages": [
+        51
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 50\nPromulgated – November 2010"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "18 hrs",
-      "48 hrs",
-      "184 hrs",
-      "56 hrs",
-      "306 hrs",
-      "18 hrs",
-      "48 hrs",
-      "184 hrs + 56 hrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nNominal Training Duration:\n 18 hrs – Basic Competencies\n\n 48 hrs – Common Competencies\n 184 hrs – Core Competencies\n+ 56 hrs (7 days OJT/Practicum)\n\n---------------\n\n 306 hrs\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\ndistribution line lineman, in accordance with industry standards. It covers the basic and\ncommon competencies in addition to the core competencies such as to erect distribution\nline poles, install pole assembly, conductors, line equipment and devices as well as to\ninstall consumer service connection facility. Line construction involves work on non-\nenergized lines, particularly construction/ extension of new electric power distribution lines.\n.\n.\n\nBASIC COMPETENCIES\n18 hrs\n\nUnit of\nCompetency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey workplace\ninformation\n1.2 Participate in workplace\nmeetings and discussions\n1.3 Complete relevant work\nrelated documents\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team role\nand responsibility in a team\n2.2 Describe work as a team member\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice Career\nProfessionalism\n3.1 Integrate personal objectives\nwith organizational goals\n3.2 Set and meet work priorities\n3.3 Maintain professional growth\nand development\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and Safety\nProcedures\n4.1 Identify hazards and risks\n4.2 Evaluate hazards and risks\n4.3 Control hazards and risks\n4.4 Maintain occupational health\nand safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 45 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 43\nPromulgated – November 2010\n\nCOMMON COMPETENCIES\n48 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Check materials and replace\nfaulty ones in accordance\nwith workplace standards\nand requirements\n1.2 Carry out work assignments\nin accordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n2. Comply with\nenvironmental\nprotection\nprocedures\n2.1 Access information\nconcerning environmental\nprotection regulations and\nprocedures\n2.2 Implement and monitor\nprocedures concerning\nenvironmental hazards\n2.3 Implement and monitor\nenvironmental control\nprocedures\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n3. Observe\nprocedures,\nSpecifications\nand Manuals\nof Instructions\n3.1 Identify and access\nspecification/ manuals\n3.2 Interpret and apply\ninformation in manuals\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n4. Maintain and\noperate line\ntools and\nequipment\n4.1 Plan and prepare for work to\noperate and maintain line\ntools and equipment\n4.2 Prepare line hardware, tools\nand equipment for operation\nand maintenance\n4.3 Operate line tools and\nequipment\n4.4 Check condition of line tools\nand equipment\n4.5 Perform basic preventive\nmaintenance\n4.6 Store tools and equipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on\npractice\n\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral questioning\n▪ Third Party\nReport\n\n--- PDF PAGE 46 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 44\nPromulgated – November 2010\n\nCORE COMPETENCIES\n184 hrs + 56 hrs. (7 days On-the-job/Practicum)\n\n* Note: Training providers must include separate modules or learning outcomes on Basic Electricity\n(including basic power generation, transmission and distribution), Industrial Safety and First Aid.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Erect\ndistribution line\npoles\n\n1.1 Load/Haul and spot\ndistribution poles\n1.2 Perform pole digging and\ngrounding\n1.3 Set up/Erect distribution\npole\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n2. Climb pole and\ninstall pole\nassembly/\nconductors\n\n2.1 Climb pole\n2.2 Dress/Frame pole\n2.3 Install pole anchor and\nguy\n2.4 Perform conductor\nstringing, tensioning,\narmoring and tying\n2.5 Install conductor/ground\ntaps and jumper\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n3. Install\ndistribution line\nequipment and\ndevices\n\n3.1 Install line equipment\nand devices\n3.2 Tap/Connect line\nequipment and devices\nto distribution line\n3.3 Install grounding to\nequipment\n\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n4. Install\nconsumer\nservice\nconnection\nfacility\n4.1 Install service drop and\nKilowatt-Hour meter\n▪ Lecture\n▪ Discussion\n▪ Demonstration\n▪ Viewing\nmultimedia\n▪ Hands on practice\n▪ Observation in\nworkplace\n▪ Demonstration\n▪ Oral\nquestioning\n▪ Written exam\n\n--- PDF PAGE 47 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 45\nPromulgated – November 2010\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTechnical and Vocational Education and Training (TVET).\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 46\nPromulgated – November 2010\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the\nfollowing requirements:\n\n•\nAt least high school graduate\n•\nCan communicate in oral and written language\n•\nMust be physically and mentally fit to undergo training e.g. no\nfear of working in height\n•\nAt least 5’4” in height\n•\n18-25 years old\n\nThis list does not include specific institutional requirements, such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS (Institution-based)\n\nMinimum list of tools, equipment and materials required for a group of 25 trainees\nfor LINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II:\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 units\nOrdinary shovel\n10\nsets\nPole climbing equipment\n6 pcs.\nCross arm, wood or steel,\n10 ft. or 8 ft.\n2 units\nSpoon shovel, 7 ft\n4 unit\nHole digger\n12 pcs.\nPin insulator\n2 units\nStraight shovel, 7 ft.\n1 unit\nTelescopic ladder\n12 pcs.\nSteel pin\n2 units\nDigging/tamping bar, 8’,\nforge steel\n1 pc.\nKWH meter, 1 10 (30)A,\nbottom connection\n12 sets\nArmor rod for # 1/0\nAWG, ACSR\n4 units\nPole pike, assorted size\n1 unit\nDX transformer, 10 KVA,\n(busted) double bushing\n30\nmeters\n# 1/0 AWG, ACSR\n2 sets\nPole Jenny (salagunting),\n14 ft.\n1 unit\neach\nBoom truck and a line\ntruck (only during actual\nline construction)\n50 pcs.\nStrand of # 1/0 ACSR\ntwo (2) meters length\n2 sets\nPole Jenny (salagunting),\n18 ft.\n1 unit\nBlock and tackle, single,\n5”, 3/8” MSL 227 kg.\n2 pcs.\nPole, wood (tanalized),\n40 ft., cl 2\n2 units\nButting board (1”x6”x7”\nwood or steel)\n1 unit\nDouble block, 5”, 3/8”,\nMSL 338 kg.\n1 pc.\nPole, wood (tanalized),\n35 ft., cl 2\n1 unit\nCant hook, 4”, wooden\nhandle\n1 unit\nStringing roller & block,\nbrass steel\n2 pcs.\nPole, wood (tanalized),\n30 ft., cl 3\n2 units\nBolt cutter, 24” & 36”,\nsteel handle\n\nPersonal Protective\nEquipment (PPE)\n1 pc.\nPole, wood (tanalized),\n25 ft., cl 3\n4 units\nAuger bit, ¾” & 5/8”\n\nHard hat\n8 pcs.\nCross-arm, 8 ft.\n2 units\nRachet, ½ ton\n\nGoggles/eye protector\n3 pcs.\nPin insulator\n2 units\nCum-a-long (wire group)\n\nWorking gloves\n38 pcs.\nSuspension insulator 6”\n1 unit\nConductor rack\n\nMaong jacket, long\nsleeve\n18 pcs.\nDead end strain clamp,\n1/0 ACSR\n1 unit\nTransformer gin\n\nRubber gloves\n2 pcs.\nPole top pin\n2 – 25\nmeters\nBull line (3/4” manila or\npolypropylene rope)\n\nSafety shoes, high cut\nwith heels boots\n12 pcs.\nDouble arming bolt\n5/8x22”\n\n--- PDF PAGE 49 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 47\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n2 – 60\nft.\nlength\nHand line (1/2” rope)\n\n14 pcs.\nEye nut, oval 5/8”\n 4 pcs.\nDead end loop clamp\n\n1 pc.\nSingle upset bolt 5/8x10”\n 8 pcs.\nHot line clamp for 1/0\nACSR\n\n1 pc.\nDouble upset bolt 5/8x10”\n2 units\nImpact tool, power\nactuated\n\n2 pcs.\nPipe spacer 5/8”\n2 units\nPruning saw, diff. sizes\n\n12 pcs.\nOrdinary brace, 28”\n\n13 pcs.\nLog screw\n\nHANDTOOLS\n\n5 pcs.\nMalleable guy attachment\n\nLinemen’s pliers, 9”,\ninsulated handle\n\n2 pcs.\nGuy hook\n\nAdjustable wrench, 12”\n\n2 pcs.\nGuy plate\n\nBallpen hammer, 10 lbs;\nforge steel\n\n10 pcs.\nThree bolt clamp\n\nScrew driver, 12”, flat\n\n2 pcs.\nGuy grip, 3/8guy wire\n\nAdjustable wrench, 12”,\nforge steel\n\n4 pcs.\nDead-end strain clamp,\n4/0”\n\nSkinning knife, 2 ¼”,\ninsulated\n\n2 pcs.\nAnchor log, 4 ft.\n\nCanvas bag\n\n2 pcs.\nAnchor expanding\n\n2 pcs.\nAnchor rod 5/8”,\nTwin eye\n\n2 pcs.\n Anchor rod 5/8”,\nSingle eye\n\n4 pcs.\nSpool insulator, 1 ¾”\n\n2 pcs.\nSpool insulator, 3”\n\n1 pc.\nGround rod 5/8x8’\n\n1 pc.\nGround rod clamp\n\n4 pcs.\nEye bolt 5/8x10”\n\n12 pcs.\nEye bolt 5/8x12”\n\n8 pcs.\nDead end loop clamp for\n1/0 ACSR\n\n80\nmeters\nConductor ACSR, #1/0\n\n20\nmeters\nConductor ACSR, #4/0\n\n40\nmeters\nConductor ACSR, #2\n\n60\nmeters\nGuy wire, 3/8”\n\n4 pcs.\nMachine bolt, 5/8”x12\n\n2 pcs.\nV-brace, 60” span\n\n4 pcs.\nMachine bolt, ½ x 6”\n\n10\nmeters\nGround wire, 3 strand\n\n30 pcs.\nStaple wire\n\n--- PDF PAGE 50 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 48\nPromulgated – November 2010\n\nTOOLS\nEQUIPMENT\nHARDWARE/\nACCESSORIES\nQTY\nITEM\nQTY ITEM\nQTY\nITEM\n\n60 pcs.\nWasher square, 1 3/16”\nhole, 2 ¼ x 2 ¼ x 3/16\n\n60 pcs.\nLock nut 5/8”\n\n4 pcs.\nLock nut ½”\n\n2 pcs.\nSquare washer 4”x4”\n\n4 pcs.\nAnchor shackle\n\n15\nmeters\nDuplex Wire, #6\n\n2 pcs.\nService Grip, secondary\n\n6\nmeters\nInsulated copper, #2\nconnector\n\n1 pc.\nFuse cut-out with lighting\narrester combination\n\n3 pcs.\nCompression connector,\n#1/0 - #2 ACSR\n\n2 pc.\nCompression connector,\n#1/0 - #6 ACSR\n\n3.5 TRAINING FACILITIES\n\nRecommended space requirements for the various teaching/learning areas are\nas follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n8 x 10\n80\n1\n80\nLaboratory Area (field-based – 6\npoles minimum)\n 500\nLearning Resource Area\n5 x 6\n30\n1\n30\nClinic/Multi-purpose Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n3 x 5\n15\n1\n15\n Total\n645\nFacilities / Equipment / Circulation\n\n50\n Total Area\n\n695\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 49\nPromulgated – November 2010\n\n3.6 TRAINERS QUALIFICATIONS\n\nLINE CONSTRUCTION (ELECTRIC POWER DISTRIBUTION) NC II\n\nTrainer’s Qualification\n\n•\nMust be a holder of Line Construction (Electric Power Distribution) NCII or\nequivalent\n•\nMust have completed Training Methodology/Assessment Methodology (TM/AM)\ncourse or equivalent\n•\nMust have reached supervisory level in distribution line works, e.g. Line\nForeman/Leadman\n•\nMust have at least 3-years relevant supervisory experience\n•\nMust be physically & mentally fit\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – ELECTRIC POWER DISTRIBUTION LINE CONSTRUCTION NC II Page 50\nPromulgated – November 2010"
 }

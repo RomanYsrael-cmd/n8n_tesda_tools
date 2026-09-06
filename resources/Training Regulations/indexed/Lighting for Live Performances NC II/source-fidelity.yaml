@@ -1,29 +1,213 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:lighting-for-live-performances-nc-ii:6bc9f57274",
-  "qualification": "Lighting for Live Performances NC II",
+  "qualification": "LIGHTING FOR LIVE PERFORMANCES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Lighting for Live Performances NC II.pdf",
-    "sha256": "6bc9f57274a06f59ddbf1ec94d727fd6b438102e4c00f9637199d45dc46a42d4",
+    "source_sha256": "6bc9f57274a06f59ddbf1ec94d727fd6b438102e4c00f9637199d45dc46a42d4",
+    "pdf_pages": 112,
+    "printed_pages": 108,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Revision 00 and Promulgated (12/17/2019); the actual section openings are PDF pages 78 and 103, while the shared detector otherwise lands on later repeated references.",
+    "Section 1 lists CRE343302 for Set-up lighting equipment according to the lighting plan, while the Section 2 competency header prints CRE265202; the indexed unit follows Section 1 and preserves the source header code.",
+    "The source prints 37 Basic, 88 Common, and 70 Core hours (195 classroom hours) plus 80 hours of Supervised Industry Learning (SIL), for 275 total hours; the canonical duration records SIL under the shared OJT field.",
+    "A false HIGH200200 header is detected on a late training-arrangements page and is excluded from the competency inventory; the source page text remains preserved.",
+    "The assessment heading is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Revision 00 and Promulgated (12/17/2019); the actual section openings are PDF pages 78 and 103, while the shared detector otherwise lands on later repeated references."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists CRE343302 for Set-up lighting equipment according to the lighting plan, while the Section 2 competency header prints CRE265202; the indexed unit follows Section 1 and preserves the source header code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 88 Common, and 70 Core hours (195 classroom hours) plus 80 hours of Supervised Industry Learning (SIL), for 275 total hours; the canonical duration records SIL under the shared OJT field."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "A false HIGH200200 header is detected on a late training-arrangements page and is excluded from the competency inventory; the source page text remains preserved."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The assessment heading is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Lighting for Live Performances NC II.pdf",
-    "pdf_pages": 112,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "CRE265201",
+      "source_unit_code": "CRE265201",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    },
+    {
+      "unit_code": "CRE265202",
+      "source_unit_code": "CRE265202",
+      "pdf_page_range": [
+        43,
+        46
+      ]
+    },
+    {
+      "unit_code": "CRE265203",
+      "source_unit_code": "CRE265203",
+      "pdf_page_range": [
+        47,
+        48
+      ]
+    },
+    {
+      "unit_code": "CRE265204",
+      "source_unit_code": "CRE265204",
+      "pdf_page_range": [
+        49,
+        50
+      ]
+    },
+    {
+      "unit_code": "CRE265205",
+      "source_unit_code": "CRE265205",
+      "pdf_page_range": [
+        51,
+        52
+      ]
+    },
+    {
+      "unit_code": "CRE265206",
+      "source_unit_code": "CRE265206",
+      "pdf_page_range": [
+        53,
+        54
+      ]
+    },
+    {
+      "unit_code": "CRE265207",
+      "source_unit_code": "CRE265207",
+      "pdf_page_range": [
+        55,
+        59
+      ]
+    },
+    {
+      "unit_code": "CRE343301",
+      "source_unit_code": "CRE343301",
+      "pdf_page_range": [
+        60,
+        63
+      ]
+    },
+    {
+      "unit_code": "CRE343302",
+      "source_unit_code": "CRE265202",
+      "pdf_page_range": [
+        64,
+        67
+      ]
+    },
+    {
+      "unit_code": "CRE343303",
+      "source_unit_code": "CRE343303",
+      "pdf_page_range": [
+        68,
+        73
+      ]
+    },
+    {
+      "unit_code": "CRE343304",
+      "source_unit_code": "CRE343304",
+      "pdf_page_range": [
+        74,
+        77
+      ]
+    }
+  ]
 }

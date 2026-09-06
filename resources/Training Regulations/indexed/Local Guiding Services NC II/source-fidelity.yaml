@@ -1,29 +1,139 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:local-guiding-services-nc-ii:2013-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:local-guiding-services-nc-ii:1c2269cb67",
   "qualification": "LOCAL GUIDING SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Local Guiding Services NC II.pdf",
-    "sha256": "1c2269cb6701827a3af47c376161981634d819638486f2c701da542779bac4ef",
+    "source_sha256": "1c2269cb6701827a3af47c376161981634d819638486f2c701da542779bac4ef",
+    "pdf_pages": 52,
+    "printed_pages": 50,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Promulgated December 2013 and uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields.",
+    "The curriculum source places learning outcome 3.4 under the second Basic unit after 2.1; the source text is preserved and the curriculum row remains associated with the source unit rather than silently renumbered.",
+    "The source prints 18 Basic, 18 Common, and 160 Core hours for a 196-hour total; the canonical duration records the component arithmetic."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Promulgated December 2013 and uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The curriculum source places learning outcome 3.4 under the second Basic unit after 2.1; the source text is preserved and the curriculum row remains associated with the source unit rather than silently renumbered."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, and 160 Core hours for a 196-hour total; the canonical duration records the component arithmetic."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Local Guiding Services NC II.pdf",
-    "pdf_pages": 52,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "TRS311202",
+      "source_unit_code": "TRS311202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "TRS311205",
+      "source_unit_code": "TRS311205",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "TRS5113116",
+      "source_unit_code": "TRS5113116",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "TRS5113117",
+      "source_unit_code": "TRS5113117",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "TRS5113118",
+      "source_unit_code": "TRS5113118",
+      "pdf_page_range": [
+        38,
+        42
+      ]
+    }
+  ]
 }

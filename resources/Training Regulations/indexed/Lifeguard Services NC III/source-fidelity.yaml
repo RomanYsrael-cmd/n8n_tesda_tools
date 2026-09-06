@@ -1,29 +1,171 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:lifeguard-services-nc-iii:2015-12-16",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:lifeguard-services-nc-iii:112f98a753",
   "qualification": "LIFEGUARD SERVICES NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Lifeguard Services NC III.pdf",
-    "sha256": "112f98a75356192d11463668e3c89ff295fa89c1fc43ad8291d0ac55a07cb730",
+    "source_sha256": "112f98a75356192d11463668e3c89ff295fa89c1fc43ad8291d0ac55a07cb730",
+    "pdf_pages": 173,
+    "printed_pages": 168,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Promulgated December 16, 2015 and the running page sequence ends at printed page 168; the table of contents contains inconsistent later page numbers and labels Section 1 as Lifeguard Services NC II, while the document title and Section 3 identify NC III.",
+    "The source uses four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields.",
+    "The source prints 20 Basic, 240 Common, and 1520 Core hours for a 1780-hour total, with 800 hours of Supervised Lifeguard Industry Training (SLIT) included in the Core duration; the canonical duration records the three printed components without double-counting SLIT."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Promulgated December 16, 2015 and the running page sequence ends at printed page 168; the table of contents contains inconsistent later page numbers and labels Section 1 as Lifeguard Services NC II, while the document title and Section 3 identify NC III."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 240 Common, and 1520 Core hours for a 1780-hour total, with 800 hours of Supervised Lifeguard Industry Training (SLIT) included in the Core duration; the canonical duration records the three printed components without double-counting SLIT."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Lifeguard Services NC III.pdf",
-    "pdf_pages": 173,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        10,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        14,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        17,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "SOC541203",
+      "source_unit_code": "SOC541203",
+      "pdf_page_range": [
+        27,
+        42
+      ]
+    },
+    {
+      "unit_code": "SOC541204",
+      "source_unit_code": "SOC541204",
+      "pdf_page_range": [
+        43,
+        51
+      ]
+    },
+    {
+      "unit_code": "SOC541205",
+      "source_unit_code": "SOC541205",
+      "pdf_page_range": [
+        52,
+        58
+      ]
+    },
+    {
+      "unit_code": "SOC541206",
+      "source_unit_code": "SOC541206",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    },
+    {
+      "unit_code": "SOC541307",
+      "source_unit_code": "SOC541307",
+      "pdf_page_range": [
+        64,
+        70
+      ]
+    },
+    {
+      "unit_code": "SOC541308",
+      "source_unit_code": "SOC541308",
+      "pdf_page_range": [
+        71,
+        79
+      ]
+    },
+    {
+      "unit_code": "SOC541309",
+      "source_unit_code": "SOC541309",
+      "pdf_page_range": [
+        80,
+        92
+      ]
+    },
+    {
+      "unit_code": "SOC541310",
+      "source_unit_code": "SOC541310",
+      "pdf_page_range": [
+        93,
+        103
+      ]
+    },
+    {
+      "unit_code": "SOC541311",
+      "source_unit_code": "SOC541311",
+      "pdf_page_range": [
+        104,
+        112
+      ]
+    },
+    {
+      "unit_code": "SOC541312",
+      "source_unit_code": "SOC541312",
+      "pdf_page_range": [
+        113,
+        119
+      ]
+    }
+  ]
 }
