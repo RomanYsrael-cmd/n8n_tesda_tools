@@ -1,29 +1,123 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:electronics-front-of-line-operation-nc-ii:23cd3c7f6f",
-  "qualification": "Electronics Front-of-line Operation NC II",
+  "qualification": "ELECTRONICS FRONT-OF-LINE OPERATION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Electronics Front-of-line Operation NC II.pdf",
-    "sha256": "23cd3c7f6f2786b99a8e2bc7ee99d39f6a951c88074344f32420741b1fed7777",
+    "source_sha256": "23cd3c7f6f2786b99a8e2bc7ee99d39f6a951c88074344f32420741b1fed7777",
+    "pdf_pages": 71,
+    "printed_pages": 67,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is new and promulgated December 16, 2015; the canonical promulgated field retains the source date in numeric form.",
+    "The source prints 16 Basic, 16 Common, and 48 Core hours for an 80-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source uses the revised four-column competency layout including Required Knowledge and Required Skills, while source_text preserves front-of-line spelling, capitalization, and punctuation variants."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is new and promulgated December 16, 2015; the canonical promulgated field retains the source date in numeric form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 16 Basic, 16 Common, and 48 Core hours for an 80-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout including Required Knowledge and Required Skills, while source_text preserves front-of-line spelling, capitalization, and punctuation variants."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Electronics Front-of-line Operation NC II.pdf",
-    "pdf_pages": 71,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        17,
+        20
+      ]
+    },
+    {
+      "unit_code": "ELC311205",
+      "source_unit_code": "ELC311205",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "ELC311204",
+      "source_unit_code": "ELC311204",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "ELC311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "ELC313304",
+      "source_unit_code": "ELC313304",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "ELC313305",
+      "source_unit_code": "ELC313305",
+      "pdf_page_range": [
+        37,
+        40
+      ]
+    },
+    {
+      "unit_code": "ELC313306",
+      "source_unit_code": "ELC313306",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    }
+  ]
 }

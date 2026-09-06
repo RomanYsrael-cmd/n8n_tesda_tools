@@ -1,29 +1,235 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:emergency-medical-services-nc-ii:2013-12",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:emergency-medical-services-nc-ii:eef28aaf09",
   "qualification": "EMERGENCY MEDICAL SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Emergency Medical Services NC II.pdf",
-    "sha256": "eef28aaf090b39b75edcb5ff09c7124ea2bff327312dd83056dcaa17ba6ead82",
+    "source_sha256": "eef28aaf090b39b75edcb5ff09c7124ea2bff327312dd83056dcaa17ba6ead82",
+    "pdf_pages": 92,
+    "printed_pages": 88,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is an amended regulation promulgated in December 2013; the canonical promulgated field retains the source month and year in numeric form.",
+    "The source presents a single suggested nominal training-hours figure of 280 rather than separate Basic, Common, and Core duration components; the canonical duration preserves that printed form.",
+    "The source uses the historical two-column Element/Performance Criteria layout; source_text preserves the printed emergency medical services terminology and unit-title variants."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is an amended regulation promulgated in December 2013; the canonical promulgated field retains the source month and year in numeric form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source presents a single suggested nominal training-hours figure of 280 rather than separate Basic, Common, and Core duration components; the canonical duration preserves that printed form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria layout; source_text preserves the printed emergency medical services terminology and unit-title variants."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Emergency Medical Services NC II.pdf",
-    "pdf_pages": 92,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        14,
+        16
+      ]
+    },
+    {
+      "unit_code": "HCS323201",
+      "source_unit_code": "HCS323201",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "HCS323202",
+      "source_unit_code": "HCS323202",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "HCS323203",
+      "source_unit_code": "HCS323203",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "HCS323204",
+      "source_unit_code": "HCS323204",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "HCS322317",
+      "source_unit_code": "HCS322317",
+      "pdf_page_range": [
+        30,
+        34
+      ]
+    },
+    {
+      "unit_code": "HCS322302",
+      "source_unit_code": "HCS322302",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "HCS322303",
+      "source_unit_code": "HCS322303",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "HCS322318",
+      "source_unit_code": "HCS322318",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    },
+    {
+      "unit_code": "HCS322319",
+      "source_unit_code": "HCS322319",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    },
+    {
+      "unit_code": "HCS322320",
+      "source_unit_code": "HCS322320",
+      "pdf_page_range": [
+        47,
+        48
+      ]
+    },
+    {
+      "unit_code": "HCS322307",
+      "source_unit_code": "HCS322307",
+      "pdf_page_range": [
+        49,
+        51
+      ]
+    },
+    {
+      "unit_code": "HCS322321",
+      "source_unit_code": "HCS322321",
+      "pdf_page_range": [
+        52,
+        54
+      ]
+    },
+    {
+      "unit_code": "HCS322322",
+      "source_unit_code": "HCS322322",
+      "pdf_page_range": [
+        55,
+        57
+      ]
+    },
+    {
+      "unit_code": "HCS322323",
+      "source_unit_code": "HCS322323",
+      "pdf_page_range": [
+        58,
+        60
+      ]
+    },
+    {
+      "unit_code": "HCS322324",
+      "source_unit_code": "HCS322324",
+      "pdf_page_range": [
+        61,
+        62
+      ]
+    },
+    {
+      "unit_code": "HCS322325",
+      "source_unit_code": "HCS322325",
+      "pdf_page_range": [
+        63,
+        66
+      ]
+    },
+    {
+      "unit_code": "HCS322326",
+      "source_unit_code": "HCS322326",
+      "pdf_page_range": [
+        67,
+        69
+      ]
+    },
+    {
+      "unit_code": "HCS322327",
+      "source_unit_code": "HCS322327",
+      "pdf_page_range": [
+        70,
+        72
+      ]
+    },
+    {
+      "unit_code": "HCS322328",
+      "source_unit_code": "HCS322328",
+      "pdf_page_range": [
+        73,
+        75
+      ]
+    },
+    {
+      "unit_code": "HCS322316",
+      "source_unit_code": "HCS322316",
+      "pdf_page_range": [
+        76,
+        79
+      ]
+    }
+  ]
 }

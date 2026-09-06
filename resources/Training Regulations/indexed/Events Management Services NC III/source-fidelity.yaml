@@ -1,29 +1,187 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:events-management-services-nc-iii:2007-11",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:events-management-services-nc-iii:2f5f493d07",
   "qualification": "EVENTS MANAGEMENT SERVICES NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Events Management Services NC III.pdf",
-    "sha256": "2f5f493d07a23cb596ee66a9107f6a0162ce02f7b59ebdabbab93307f67b48f1",
+    "source_sha256": "2f5f493d07a23cb596ee66a9107f6a0162ce02f7b59ebdabbab93307f67b48f1",
+    "pdf_pages": 98,
+    "printed_pages": 94,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is promulgated November 2007; the canonical promulgated field retains the source month and year in numeric form.",
+    "The source prints 20 Basic, 24 Common, and 64 Core hours for a 108-hour total; the canonical duration preserves the printed components and arithmetic sum.",
+    "The source uses the historical two-column Element/Performance Criteria layout, prints TRS5311206 in the Roster Staff header while Section 1 lists TRS311206, and splits the Core curriculum across Event Planning Services and On-site Event Management Services headings; source_codes preserves the printed header code."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is promulgated November 2007; the canonical promulgated field retains the source month and year in numeric form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 20 Basic, 24 Common, and 64 Core hours for a 108-hour total; the canonical duration preserves the printed components and arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria layout, prints TRS5311206 in the Roster Staff header while Section 1 lists TRS311206, and splits the Core curriculum across Event Planning Services and On-site Event Management Services headings; source_codes preserves the printed header code."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Events Management Services NC III.pdf",
-    "pdf_pages": 98,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        8,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        17,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "TRS311206",
+      "source_unit_code": "TRS5311206",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "TRS311207",
+      "source_unit_code": "TRS311207",
+      "pdf_page_range": [
+        30,
+        34
+      ]
+    },
+    {
+      "unit_code": "TRS311208",
+      "source_unit_code": "TRS311208",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "TRS311209",
+      "source_unit_code": "TRS311209",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "TRS342315",
+      "source_unit_code": "TRS342315",
+      "pdf_page_range": [
+        44,
+        48
+      ]
+    },
+    {
+      "unit_code": "TRS342316",
+      "source_unit_code": "TRS342316",
+      "pdf_page_range": [
+        49,
+        53
+      ]
+    },
+    {
+      "unit_code": "TRS342317",
+      "source_unit_code": "TRS342317",
+      "pdf_page_range": [
+        54,
+        57
+      ]
+    },
+    {
+      "unit_code": "TRS342318",
+      "source_unit_code": "TRS342318",
+      "pdf_page_range": [
+        58,
+        63
+      ]
+    },
+    {
+      "unit_code": "TRS342319",
+      "source_unit_code": "TRS342319",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "TRS342320",
+      "source_unit_code": "TRS342320",
+      "pdf_page_range": [
+        69,
+        74
+      ]
+    },
+    {
+      "unit_code": "TRS342321",
+      "source_unit_code": "TRS342321",
+      "pdf_page_range": [
+        75,
+        80
+      ]
+    },
+    {
+      "unit_code": "TRS342322",
+      "source_unit_code": "TRS342322",
+      "pdf_page_range": [
+        81,
+        84
+      ]
+    }
+  ]
 }

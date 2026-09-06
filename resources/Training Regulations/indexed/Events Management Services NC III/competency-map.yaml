@@ -1,90 +1,67 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:events-management-services-nc-iii:2007-11",
+  "document_id": "tesda:tr:events-management-services-nc-iii:2f5f493d07",
   "qualification": "EVENTS MANAGEMENT SERVICES NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "required to lead in the dissemination and discussion of"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "TRS5311206",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "TRS342315",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "to lead small teams including setting and maintaining"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "to collect information in order to negotiate to a desired"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical concepts and"
-      },
-      {
-        "unit_code": "TRS311207",
-        "title": "motivations required to control and order stock in a"
-      },
-      {
-        "unit_code": "TRS311208",
-        "title": "and reviewing training provided for the purposes of"
-      },
-      {
-        "unit_code": "TRS311209",
-        "title": "manage business relationships with customers or"
-      },
-      {
-        "unit_code": "TRS342316",
-        "title": "motivations required to develop the overall concept, theme"
-      },
-      {
-        "unit_code": "TRS342317",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      },
-      {
-        "unit_code": "TRS342318",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      },
-      {
-        "unit_code": "TRS342319",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      },
-      {
-        "unit_code": "TRS342320",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      },
-      {
-        "unit_code": "TRS342321",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      },
-      {
-        "unit_code": "TRS342322",
-        "title": ": This unit covers the knowledge, skills, behavior and"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP - TOURISM Sector\nEVENTS MANAGEMENT SERVICES NC III\nANNEX A\nCollect,\nanalyze and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nUtilize\nspecialized\ncommunication\nskills\nDevelop teams\nand individuals\nApply problem-\nsolving\ntechniques in\nthe workplace\nUse\nmathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nLead small\nteams\nDevelop and\npractice\nnegotiation\nskills\nSolve\nproblems\nrelated to work\nactivities\nPractice career\nprofessionalism\nPractice\noccupational\nhealth and safety\npractices\nLead\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nWork in team\nenvironment\nRoster staff\nControl and\norder stock\nPerform\ncomputer\noperations\nPerform\nworkplace and\nsafety practices\nProvide\neffective\ncustomer\nservice\nDevelop and\nupdate\nindustry\nknowledge\nObserve\nworkplace\nhygiene\nprocedures\n\nBASIC\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nEstablish and\nconduct\nbusiness\nrelationships\nTrain small\ngroups\nConduct\nassessment\nManage\nworkplace\ndiversity\nManage\nfinances within\na budget\nManage\nquality\ncustomer\nservice\n\nDevelop an\nevent concept\nDevelop event\nprogram\nSelect event\nvenue and site\nProvide porter\nservices\nPlan and develop\nevent proposal\nand bid\nConduct night\naudit\nProvide club\nreception\nservices\nManage\ncontractors for\nindoor events\nDevelop and\nupdate\nknowledge on\nprotocol\nProvide on-site\nevent\nmanagement\nservices\nDevelop and\nupdate event\nindustry\nknowledge\n\nAccompany and\nguide visitors in\naccordance with\nthe tour itinerary\nReceive and\nprocess\nreservations\nOperate\ncomputerized\nreservations\nsystem\nIssue air sea\nland tickets and\nmulti-purpose\ndocuments\nResearch\ninformation\nrelevant to tour\nitinerary\nBook travel-\nrelated\nreservation\nAdminister\nbilling and\nsettlement\nplan\nProvide\naccommodation\nreception\nservices\nManage\narrangements for\nvisitors\n\n--- PDF PAGE 96 ---\n________________________________________________________________________________________________94\nEVENTS MANAGEMENT SERVICES NCIII Promulgated November 2007",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311206",
+        "TRS311207",
+        "TRS311208",
+        "TRS311209"
+      ],
+      "unit_titles": [
+        "Roster staff",
+        "Control and order stock",
+        "Train small groups",
+        "Establish and conduct business relationships"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "TRS342315",
+        "TRS342316",
+        "TRS342317",
+        "TRS342318",
+        "TRS342319",
+        "TRS342320",
+        "TRS342321",
+        "TRS342322"
+      ],
+      "unit_titles": [
+        "Plan and develop event proposal or bid",
+        "Develop an event concept",
+        "Develop event program",
+        "Select event venue and site",
+        "Develop and update event industry knowledge",
+        "Provide on-site event management services",
+        "Manage contractors for indoor events",
+        "Develop and update knowledge on protocol"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 EVENTS MANAGEMENT SERVICES NC III QUALIFICATION\n\nThe EVENTS MANAGEMENT SERVICES NC III Qualification consists of\ncompetencies that a person must achieve to coordinate events, functions and/or\nconferences which may be held in conference centers, hotels, motels, restaurants,\nclubs, resorts and luxury liners. It includes competencies on event planning such as\nplanning and developing an event proposal, concept, and program, selecting a venue\nand site, and updating event industry knowledge, as well as competencies on on-site\nevent management such as providing onsite management services, managing\ncontractors and updating knowledge on protocol.\n\nThis Qualification is packaged from the competency map of the Tourism Sector\nas shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\nCODE NO.\nBASIC COMPETENCIES\n\n500311109\nLead workplace communication\n500311110\n\nLead small teams\n500311111\n\nDevelop and practice negotiation skills\n500311112\n\nSolve problems related to work activities\n500311113\n\nUse mathematical concepts and techniques\n500311114\n\nUse relevant technologies\n\nCODE NO.\nCOMMON COMPETENCIES\n\nTRS311206\nRoster staff\nTRS311207\nControl and order stock\nTRS311208\nTrain small groups\nTRS311209\nEstablish and conduct business relationships\n\n--- PDF PAGE 4 ---\n________________________________________________________________________________________________2\nEVENTS MANAGEMENT SERVICES NCIII Promulgated November 2007\n\nCODE NO.\nCORE COMPETENCIES\n\nEVENT PLANNING SERVICES\n\nTRS342315\nPlan and develop event proposal or bid\nTRS342316\nDevelop an event concept\nTRS342317\nDevelop event program\nTRS342318\nSelect event venue and site\nTRS342319\nDevelop and update event industry knowledge\n\nON-SITE EVENT MANAGEMENT SERVICES\n\nTRS342320\nProvide on-site event management services\nTRS342321\nManage contractors for indoor events\nTRS342322\nDevelop and update knowledge on protocol\n\nA person who has achieved this Qualification is competent to be a:\n\n Events Coordinator\n Conference Coordinator\n Function Coordinator\n\n--- PDF PAGE 5 ---\n________________________________________________________________________________________________3\nEVENTS MANAGEMENT SERVICES NCIII Promulgated November 2007"
 }

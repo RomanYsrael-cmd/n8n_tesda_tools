@@ -1,96 +1,69 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:electronics-semiconductor-production-line-machine-servicing-nc-iii:2017-12-18",
-  "qualification": "Electronics Semiconductor Production Line Machine Servicing NC III",
+  "document_id": "tesda:tr:electronics-semiconductor-production-line-machine-servicing-nc-iii:dfd64da72e",
+  "qualification": "ELECTRONICS SEMICONDUCTOR PRODUCTION LINE MACHINE SERVICING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "to lead in the dissemination and discussion of ideas,"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "ELC724366",
-        "title": "performing machine troubleshooting and repair. This includes"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ELC724201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ELC724364",
-        "title": "performing machine setup/conversion. This includes preparing"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "small teams including setting and maintaining team and"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "collect information in order to negotiate to a desired outcome"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "in the application of mathematical concepts and techniques."
-      },
-      {
-        "unit_code": "500311142",
-        "title": "required to solve problems in the workplace including the"
-      },
-      {
-        "unit_code": "500311143",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311201",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC724202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC724205",
-        "title": "test electronic components. It includes competencies in"
-      },
-      {
-        "unit_code": "ELC724365",
-        "title": "and analyzing basic machine data and performing/"
-      },
-      {
-        "unit_code": "ELC724367",
-        "title": "in performing machine preventive maintenance (PM). This"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n\n 114\n\nDOCUMENT REVISION HISTORY\n\n115",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114",
+        "500311142",
+        "500311143"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies",
+        "Apply critical thinking and problem solving techniques in the workplace",
+        "Evaluate current sustainable development exercises in the workplace"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ELC311205",
+        "ELC311201",
+        "ELC311202",
+        "ELC311204",
+        "ELC311203",
+        "ELC311206",
+        "ELC311209"
+      ],
+      "unit_titles": [
+        "Use hand tools",
+        "Perform mensuration and calculation",
+        "Prepare and interpret technical drawing",
+        "Apply quality standards",
+        "Perform computer operations",
+        "Terminate and connect electrical wiring and electronic circuits",
+        "Test electronic components"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ELC311309",
+        "ELC311310",
+        "ELC311311",
+        "ELC311312"
+      ],
+      "unit_titles": [
+        "Perform machine setup/conversion",
+        "Monitor machine performance",
+        "Perform machine troubleshooting and repair",
+        "Perform machine preventive maintenance and calibration"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful\ncandidates shall be awarded a National Certificate III signed by the TESDA\nDirector General.\n\n4.1.2. The qualification of Electronics/Semiconductor Production Line Machine\nServicing NC III may be attained through demonstration of competence\nthrough project-type assessment covering all the units required in the\nqualification.\n\n4.1.3. Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.1.4. Individuals wanting to be certified will have to be assessed in accordance\nwith the requirements identified in the relevant unit/s of competency.\n\n4.1.5. Recognition of Prior Learning (RPL). Candidates who have gained\ncompetencies through informal training, previous work or life experiences\nmay apply for recognition in a particular qualification through a recognition/\nassessment process.\n\n4.1.6. The industry shall determine assessment and certification requirements for\neach qualification with promulgated Training Regulations. These include the\nfollowing:\na. entry requirements for candidates\nb. evidence gathering methods\nc. qualification requirements of competency assessors\nd. specific assessment and certification arrangements\n\n4.1.7. The guidelines on assessment and certification are discussed in detail in the\n“Operating Procedures on Assessment and Certification” and “Guidelines on\nthe Implementation of the Philippine TVET Competency Assessment and\nCertification System (PTCACS)”.\n\n--- PDF PAGE 113 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 109\n\n4.2\nCOMPETENCY ASSESSMENT REQUISITE\n\n4.2.1 Self-Assessment Guide. The Self-Assessment Guide (SAG) is\naccomplished by the candidate prior to actual competency assessment.\nSAG is a pre-assessment tool to help the candidate and the assessor\ndetermine what evidence is available, where gaps exist, including\nreadiness for assessment.\n\nThis document can:\na) Identify the candidate’s skills and knowledge\nb) Highlight gaps in candidate’s skills and knowledge\nc) Provide critical guidance to the assessor and candidate on the evidence\nthat need to be presented\nd) Assist the candidate to identify key areas in which practice is needed or\nadditional information or skills that should be gained prior\n\n4.2.2 Accredited Assessment Center. Only assessment center accredited by\nTESDA is authorized to manage the assessment activities of candidates\nfor national certification.\n\n4.2.3 Accredited\nCompetency\nAssessor.\nOnly\ncompetency\nassessor\naccredited by TESDA is authorized to assess the competencies of\ncandidates for national certification.\n\n--- PDF PAGE 114 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 110\n\nDEFINITION OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who\npass the assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and\nattitudes to perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgments on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be\nconducted or carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a\nparticular area of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by the\nindividual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\noutcome terms the functions that a person performs in the workplace.\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual. It\nprovides information on critical aspects of competency, underpinning knowledge,\nunderpinning skills, resource implications, assessment method and context of\nassessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when,\nevidence should be collected\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve all\nthe required units of competency for a national qualification defined under the\nTraining Regulations. NCs are aligned to specific levels within the PTQF\n\n--- PDF PAGE 115 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 111\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n17) Qualification - is a cluster of units of competencies that meets job roles and is\nsignificant in the workplace. It is also a certification awarded to a person on\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work is\nto be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s\nskills, knowledge and attitudes gained from life and work experiences outside\nregistered training programs\n\n19) Resource Implication - refer to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It includes\nwork environment and conditions, materials, tools and equipment\n\n20) Basic Competencies - are the skills and knowledge that everyone needs for work\n\n21) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serves as basis for\nestablishment of qualification and certification under the PTQF. It also serves as\nguide for development of competency-based curricula and instructional materials\nincluding registration of TVET programs offered by TVET providers\n\n22) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is\nessential to the performance of the competency\n\n23) Underpinning Skills - refers to the list of the skills needed to achieve the\nelements and performance criteria in the unit of competency. It includes generic\nand industry specific skills\n\n24) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\n--- PDF PAGE 116 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 112\n\nSECTOR SPECIFIC\n\n1) Cleanroom or clean room is an environment, typically used in manufacturing or\nscientific research, with a low level of environmental pollutants such as dust,\nairborne microbes, aerosol particles, and chemical vapors. More accurately, a\ncleanroom has a controlled level of contamination that is specified by the number\nof particles per cubic meter at a specified particle size.\n\n2) Electronic manufacturing services (EMS) is a term used for companies that\ndesign, test, manufacture, distribute, and provide return/repair services for\nelectronic components and assemblies for original equipment manufacturers\n(OEMs). The concept is also referred to as electronic contract manufacturing\n(ECM).\n\n3) Electrostatic discharge (ESD) is a swift discharge of electric current between two\nobjects with different charges and different numbers of electrons. This exchange of\nelectrons creates a large electromagnetic field buildup, resulting in ESD. Certain\nelectronic devices are vulnerable to low-voltage ESD. For example, a hard drive is\nsusceptible to just 10 volts. Integrated circuits (IC) are also prone to ESD and may\nbe permanently damaged by high-voltage currents.\n\n4) Front-end-of-line (FEOL) is the first portion of IC fabrication where the individual\ndevices (transistors, capacitors, resistors, etc.) are patterned in the semiconductor.\nFEOL generally covers everything up to (but not including) the deposition of metal\ninterconnect layers.\n\n5) Hard disk drive (HDD) is a data storage device used for storing and\nretrieving digital information using rapidly rotating disks (platters) coated with\nmagnetic material. An HDD retains its data even when powered off. Data is read in\na random-access manner, meaning individual blocks of data can be stored or\nretrieved in any order rather than sequentially. An HDD consists of one or more\nrigid (\"hard\") rapidly rotating disks (platters) with magnetic headsarranged on a\nmoving actuator arm to read and write data to the surfaces.\n\n6) A head-gimbal assembly of a hard disk drive includes a loadbeam connected to a\npivot arm, a slider on which a magnetic head is mounted, an elastic support\nmember having one end coupled to the loadbeam and the other free end portion at\nwhich the slider is supported, and a damper provided between the loadbeam and\nthe slider to attenuate vibration transferred between the loadbeam and the slider.\n\n7) IPC,\nthe Association\nConnecting\nElectronics\nIndustries,\nis\na trade\nassociation whose aim is to standardize the assembly and production\nrequirements of electronic equipment and assemblies. IPC is accredited by the\nAmerican National Standards Institute (ANSI) as a standards developing\norganization and is known globally for its standards. It publishes the most widely\nused acceptability standards in the electronics industry.\n\n8) In manufacturing, lot traceability is readily-available access to the complete history\nof all manufactured lots, batches and serialized units, spanning production in\nmultiple plants.\n\n--- PDF PAGE 117 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 113\n\n9) MSDS (an acronym for Material Safety Data Sheet) - is an important component\nof product stewardship and occupational safety and health. It is intended to provide\nworkers and emergency personnel with procedures for handling or working with\nthat substance in a safe manner, and includes information such as physical data\n(melting point, point, flash, etc.), toxicity, health effects, first aid, reactivity, storage,\ndisposal, protective equipment, and spill-handling procedures. It is a written\ndocument that outlines information and procedures for handling and working with\nchemicals.\nCurrent MSDS documents contain physical and chemical property information,\npotential hazard information, emergency procedures, and manufacturer contact\ninformation. MSDS formats can vary from source to source within a country\ndepending on national requirements.\n\n10) Out-of-control action plan (OCAP) - is a flowchart that guides employees'\nreactions to out-of-control situations. It consists of activators (which define out-of-\ncontrol conditions); checkpoints (which are likely causes for the conditions); and\nterminators (which contain the action that should resolve the conditions). OCAPs\nare dynamic. For example, Pareto analyses of OCAPs can identify commonly used\nterminators and suggests methods to eliminate frequent causes of problems or to\nmodify the OCAPs that react to common out-of-control situations. Benefits of\nOCAPs include the empowerment given to the operators to troubleshoot problems.\nOther benefits are increased process efficiency and standardization of problem\nsolving techniques.\n\n11) Personal Protective Equipment (PPE) - specialized clothing or equipment worn\nby employees for protection against health and safety hazards. Personal protective\nequipment is designed to protect many parts of the body, i.e., eyes, head, face,\nhands, feet, and ears.\n\n12) Production line - is a set of sequential operations established in a manufacturing\nestablishment whereby materials are put through a process to produce an end-\nproduct. The machines and peripheral equipment are in the order they are used.\nThe process is not stopped and restarted for each new product as the line is\ndedicated to producing a single or small group of products.\n\n13) Quality management system (QMS) - is a collection of business processes\nfocused on achieving your quality policy and quality objectives — i.e. what your\ncustomer wants and needs. It is expressed as the organizational structure, policies,\nprocedures, processes and resources needed to implement quality management.\n\n14) Statistical process control (SPC) - is a method of quality control which\nuses statistical methods. SPC is applied in\norder to monitor and control\na process. Monitoring and controlling the process ensures that it operates at its\nfull potential.\n\n--- PDF PAGE 118 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 114\n\nANNEX A - COMPETENCY MAP\nElectronics/Semiconductor Production Line Machine Servicing NC III\n\nBASIC COMPETENCIES\n\nReceive and Respond\nto Workplace\nCommunication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping\nprocedures\nParticipate in Workplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Team\nDevelop and practice\nnegotiation skills\nSolve Problems Related\nto Work Activities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize Specialist\nCommunication Skills\nDevelop Team and\nIndividuals\nApply Problem Solving\nTechniques in the\nWorkplace\nCollect, analyze and\norganize information\nPlan and Organize Work\nPromote environmental\nprotection\n\nCOMMON COMPETENCIES\n\nUse Hand Tools\nPerform Mensuration\nand Calculation\nPrepare and Interpret\nTechnical Drawing\nApply Quality\nStandards\nPerform Computer\nOperations\nTerminate & Connect\nElectrical Wiring and\nElectronic Circuits\nTest Electronic\nComponents\n\nCORE COMPETENCIES\n\nInstall Instrumentation and\nControl Devices\nCalibrate\nInstrumentation and\nControl Devices\nConfigure\nInstrumentation and\nControl Devices\nLoop Check\nInstrumentation and\nControl Devices\nMaintain and Repair\nInstrumentation &\nControl Devices\nStart-up Instrumentation\nand Control Systems\nDiagnose and Troubleshoot\nInstrumentation and Control\nSystems\nInstall Mechatronics\nDevices\nConfigure & Test\nMechatronics Devices\nMaintain and Repair\nMechatronics Devices\nDevelop Mechatronics\nControl Circuits & Software\nApplication Programs\nCommission\nMechatronics Systems\nDiagnose and\nTroubleshoot\nMechatronics Systems\nService and Repair Audio\nSystems and Products\nService and Repair\nVideo Systems and\nProducts\nService and Repair\nBusiness Machines\nAssemble and\nDisassemble Consumer\nElectronic Products\nMaintain and Repair\nElectronically\nControlled Domestic\nAppliances\nMaintain and Repair\nAudio-Video Products\nand Systems\nMaintain and Repair\nCellular Phones\nCommission Consumer\nElectronic Products and\nSystems\nDevelop Servicing\nSystems for Consumer\nElectronic Products\nTrain service\ntechnician\nManage Servicing Systems\nfor Consumer Electronics\nProducts and Systems\nTrain service\ntechnician supervisors\nSetup Backend Operation\nWorkplace for Electronics\nProduction Line\nPerform Backend\nOperation for Electronics\nProduction Line\nSetup Backend Operation\nWorkplace for\nSemiconductor Production\nLine\nPerform Backend Operation\nfor Semiconductor\nProduction Line\nCheck quality compliance\nof backend operation for\nSemiconductors\nproduction line\nCheck quality compliance\nof backend operation for\nelectronics production line\nSetup Front-of-Line (FOL)\nOperation Workplace for\nElectronics Production\nLine\nSetup Front-of-Line (FOL)\nOperation Workplace for\nSemiconductor Production\nLine\nPerform Front-of-Line (FOL)\nOperation for Semiconductor\nProduction Line\nCheck quality compliance\nof Front-of-Line (FOL)\noperation for\nSemiconductors\nproduction line\nPerform Front-of-Line\n(FOL) Operation for\nElectronics Production Line\nCheck quality compliance\nof Front-of-Line (FOL)\noperation for electronics\nproduction line\nSetup Backend Operation\nWorkplace for HDD\nProduction Line\nPerform Backend Operation\nfor Hard Disk Drives (HDD)\nProduction Line\nCheck quality compliance\nof backend operation for\nHDD production line\nPerform Machine\nSetup/Conversion\nPerform Machine\nTroubleshooting and\nRepair\nSetup Front-of-Line (FOL)\nOperation Workplace for\nHDD Production Line\nPerform Front-of-Line (FOL)\nOperation for HDD\nProduction Line\nCheck quality compliance\nof Front-of-Line (FOL)\noperation for HDD\nproduction line\nMonitor Machine\nPerformance\nPerform Machine\nPreventive Maintenance\nand Calibration\n\n--- PDF PAGE 119 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 115\n\n TRAINING REGULATIONS (TR)\n DOCUMENT REVISION HISTORY\n\nQualification Title : Electronics/Semiconductor Production Line Machine\nServicing NC III\nQualification Code: ELCESM317\n\nRevision\nNo.\n\nDocument\nDescription Types*\nReplaces Version\n(TESDA Board\nResolution No./\nDate)\nNew Version\n(TESDA Board\nResolution No./\nDate)\n\nDeployment\nCircular\n00\nDocument Created –\nElectronics/Semiconductor\nProduction Line Machine\nServicing NC III\n\nNot Applicable\n\nTB No. 2017-50/\nDecember 18, 2017\nTESDA Circular\nNo. __ s. 2018\n Legend: *Description Types\n- Document Created\n- Document Amended\n\n--- PDF PAGE 120 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 116\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL EXPERT COMMITTEE\n\nRUMELA G. GLORIANI\nTechnical Training Officer\nMaxim Integrated\nRONALD HILARIA\nHR Global Head, L&D\nIntegrated Microelectronics, Inc.\n\nEMMA JEAN M. ANCAJA\nHR Specialist\nSTMicroelectronics, Inc.\nNAPOLEON A. URBANO\nDepartment Manager\nRohm Electronics Philippines Inc.\n\nGLENN G. PANIBAWAN\nEquipment Engineer\nHGST\nRENAN I. FERRER\nAssistant Section Manager\nRohm Electronics Philippines Inc\n\nCATHERINE S. PINCA\nTraining Specialist\nIntegrated Microelectronics, Inc.\n REMIGIO C. ALMONTE JR.\nDepartment Manager\nRohm Electronics Philippines Inc.\n\nSALVADOR PASUQUIN\nMaxim Integrated\nJAY PAUL MEDRANO\nMaxim Integrated\n\nMARK ANTHONY E. BARBOSA\nEngineer Specialist 4\nRohm Electronics Philippines Inc\n\nRONALD C. GERVACIO\nSection Manager\nRohm Electronics Philippines Inc\n\n• SEMICONDUCTOR AND ELECTRONICS INDUSTRIES IN THE PHILIPPINES, INC.\n\nDR. DAN LACHICA\nPresident\nSEIPI\nKATRINA L. MAGCALAYO\nBusiness Lead, External Affairs\nSEIPI\nKATHERINE D. REYES\nIndustry Development Analyst\nSEIPI\n\nMABELLE F. DELA CRUZ\nBusiness Lead, Human Resources\nSEIPI\nREGGIELYNNE P. TIRONA\nIndustry Development Analyst\nSEIPI\n\nJANEL BAUTO\nIndustry Development Analyst\nSEIPI\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT\nCOMMITTEE\n\n--- PDF PAGE 121 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – Electronics/Semiconductor Production Line Machine Servicing NC III Promulgated December 18, 2017 117\n\n• THE MANAGEMENT AND STAFF OF TESDA SECRETARIAT\n\n•\nQualifications and Standards Office (QSO)\n\n Name\nCompany/industry\n Email Address\nImelda B. Taganas\nTESDA\nibtaganas@tesda.gov.ph\nJulford C. Abasolo\nTESDA\njcabasolo@tesda.gov.ph\nSamuel E. Calado Jr.\nTESDA\nsecaladojr@tesda.gov.ph\nVenzel Y. Concoles\nTESDA\nvyconcoles@tesda.gov.ph"
 }
