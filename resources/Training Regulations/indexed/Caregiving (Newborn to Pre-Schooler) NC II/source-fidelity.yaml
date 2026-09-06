@@ -1,29 +1,253 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:caregiving-newborn-to-pre-schooler-nc-ii:d6126a9ecb",
   "qualification": "CAREGIVING (NEWBORN TO PRE-SCHOOLER) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Caregiving (Newborn to Pre-Schooler) NC II.pdf",
-    "sha256": "d6126a9ecb792aa0a73161b6f63fc2c9e18dd93e20f592129436500af71d01cc",
+    "source_sha256": "d6126a9ecb792aa0a73161b6f63fc2c9e18dd93e20f592129436500af71d01cc",
+    "pdf_pages": 209,
+    "printed_pages": 204,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Revision 00 and Promulgated (06/09/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source.",
+    "The source prints 465 hours as the subtotal of 37 Basic, 112 Common, and 316 Core hours, followed by 160 hours of Supervised Industry Learning (SIL) and a 625-hour total; the canonical duration preserves all printed components and total.",
+    "The Section 3 and Section 4 source headings use Newborn to Pre-schooler, while some competency text uses newborn, infant, toddler, and pre-schooler variants; the canonical qualification follows the indexed package and Section 1 title while source_text preserves the variants.",
+    "The Section 4 heading is printed as ASSESSSMENT AND CERTIFICATION ARRANGEMENTS with a triple S; the source wording is preserved in source_text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 00 and Promulgated (06/09/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 465 hours as the subtotal of 37 Basic, 112 Common, and 316 Core hours, followed by 160 hours of Supervised Industry Learning (SIL) and a 625-hour total; the canonical duration preserves all printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 and Section 4 source headings use Newborn to Pre-schooler, while some competency text uses newborn, infant, toddler, and pre-schooler variants; the canonical qualification follows the indexed package and Section 1 title while source_text preserves the variants."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 4 heading is printed as ASSESSSMENT AND CERTIFICATION ARRANGEMENTS with a triple S; the source wording is preserved in source_text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Caregiving (Newborn to Pre-Schooler) NC II.pdf",
-    "pdf_pages": 209,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "HHC532201",
+      "source_unit_code": "HHC532201",
+      "pdf_page_range": [
+        40,
+        46
+      ]
+    },
+    {
+      "unit_code": "HHC532202",
+      "source_unit_code": "HHC532202",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "HHC532203",
+      "source_unit_code": "HHC532203",
+      "pdf_page_range": [
+        51,
+        57
+      ]
+    },
+    {
+      "unit_code": "HHC532204",
+      "source_unit_code": "HHC532204",
+      "pdf_page_range": [
+        58,
+        63
+      ]
+    },
+    {
+      "unit_code": "HHC532301",
+      "source_unit_code": "HHC532301",
+      "pdf_page_range": [
+        64,
+        67
+      ]
+    },
+    {
+      "unit_code": "HHC532302",
+      "source_unit_code": "HHC532302",
+      "pdf_page_range": [
+        68,
+        70
+      ]
+    },
+    {
+      "unit_code": "HHC532303",
+      "source_unit_code": "HHC532303",
+      "pdf_page_range": [
+        71,
+        78
+      ]
+    },
+    {
+      "unit_code": "HHC532304",
+      "source_unit_code": "HHC532304",
+      "pdf_page_range": [
+        79,
+        82
+      ]
+    },
+    {
+      "unit_code": "HHC532305",
+      "source_unit_code": "HHC532305",
+      "pdf_page_range": [
+        83,
+        91
+      ]
+    },
+    {
+      "unit_code": "HHC532306",
+      "source_unit_code": "HHC532306",
+      "pdf_page_range": [
+        92,
+        95
+      ]
+    },
+    {
+      "unit_code": "HHC532307",
+      "source_unit_code": "HHC532307",
+      "pdf_page_range": [
+        96,
+        99
+      ]
+    },
+    {
+      "unit_code": "HHC532308",
+      "source_unit_code": "HHC532308",
+      "pdf_page_range": [
+        100,
+        105
+      ]
+    },
+    {
+      "unit_code": "HHC532309",
+      "source_unit_code": "HHC532309",
+      "pdf_page_range": [
+        106,
+        114
+      ]
+    },
+    {
+      "unit_code": "HHC532310",
+      "source_unit_code": "HHC532310",
+      "pdf_page_range": [
+        115,
+        118
+      ]
+    },
+    {
+      "unit_code": "HHC532311",
+      "source_unit_code": "HHC532311",
+      "pdf_page_range": [
+        119,
+        122
+      ]
+    },
+    {
+      "unit_code": "HHC532312",
+      "source_unit_code": "HHC532312",
+      "pdf_page_range": [
+        123,
+        128
+      ]
+    }
+  ]
 }

@@ -1,29 +1,229 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:caregiving-clients-with-special-needs-nc-ii:4f103c1d93",
   "qualification": "CAREGIVING (CLIENTS WITH SPECIAL NEEDS) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Caregiving (Clients with Special Needs) NC II.pdf",
-    "sha256": "4f103c1d938f5f4fdb86528e7f38a20501b29f8c005ba30d19f6de3c84e3e4ef",
+    "source_sha256": "4f103c1d938f5f4fdb86528e7f38a20501b29f8c005ba30d19f6de3c84e3e4ef",
+    "pdf_pages": 254,
+    "printed_pages": 249,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills.",
+    "The source prints Revision 00 and Promulgated (06/09/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source.",
+    "The source prints 653 hours as the subtotal of 37 Basic, 112 Common, and 504 Core hours, followed by 160 hours of Supervised Industry Learning (SIL) and an 813-hour total; the canonical duration preserves all printed components and total.",
+    "Section 1 uses Maintain high standard of patient / client services, while the corresponding competency header uses Maintain high standards of client services; the canonical inventory follows Section 1 and source_text preserves the header variant.",
+    "The qualification is a specialized Caregiving pathway for children, adults, and elderly clients with special needs; the indexed package name and Section 1 qualification title are retained as canonical."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 00 and Promulgated (06/09/2020); the canonical date field preserves the printed date literal because its day/month ordering is not disambiguated in the source."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 653 hours as the subtotal of 37 Basic, 112 Common, and 504 Core hours, followed by 160 hours of Supervised Industry Learning (SIL) and an 813-hour total; the canonical duration preserves all printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 uses Maintain high standard of patient / client services, while the corresponding competency header uses Maintain high standards of client services; the canonical inventory follows Section 1 and source_text preserves the header variant."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The qualification is a specialized Caregiving pathway for children, adults, and elderly clients with special needs; the indexed package name and Section 1 qualification title are retained as canonical."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Caregiving (Clients with Special Needs) NC II.pdf",
-    "pdf_pages": 254,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "HHC532201",
+      "source_unit_code": "HHC532201",
+      "pdf_page_range": [
+        40,
+        46
+      ]
+    },
+    {
+      "unit_code": "HHC532202",
+      "source_unit_code": "HHC532202",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "HHC532203",
+      "source_unit_code": "HHC532203",
+      "pdf_page_range": [
+        51,
+        57
+      ]
+    },
+    {
+      "unit_code": "HHC532204",
+      "source_unit_code": "HHC532204",
+      "pdf_page_range": [
+        58,
+        63
+      ]
+    },
+    {
+      "unit_code": "HHC532325",
+      "source_unit_code": "HHC532325",
+      "pdf_page_range": [
+        64,
+        69
+      ]
+    },
+    {
+      "unit_code": "HHC532326",
+      "source_unit_code": "HHC532326",
+      "pdf_page_range": [
+        70,
+        77
+      ]
+    },
+    {
+      "unit_code": "HHC532327",
+      "source_unit_code": "HHC532327",
+      "pdf_page_range": [
+        78,
+        82
+      ]
+    },
+    {
+      "unit_code": "HHC532328",
+      "source_unit_code": "HHC532328",
+      "pdf_page_range": [
+        83,
+        102
+      ]
+    },
+    {
+      "unit_code": "HHC532329",
+      "source_unit_code": "HHC532329",
+      "pdf_page_range": [
+        103,
+        110
+      ]
+    },
+    {
+      "unit_code": "HHC532330",
+      "source_unit_code": "HHC532330",
+      "pdf_page_range": [
+        111,
+        119
+      ]
+    },
+    {
+      "unit_code": "HHC532331",
+      "source_unit_code": "HHC532331",
+      "pdf_page_range": [
+        120,
+        124
+      ]
+    },
+    {
+      "unit_code": "HHC532332",
+      "source_unit_code": "HHC532332",
+      "pdf_page_range": [
+        125,
+        134
+      ]
+    },
+    {
+      "unit_code": "HHC532333",
+      "source_unit_code": "HHC532333",
+      "pdf_page_range": [
+        135,
+        152
+      ]
+    }
+  ]
 }
