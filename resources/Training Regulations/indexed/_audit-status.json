@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T20:58:40+08:00",
+  "last_updated": "2026-09-06T21:09:47+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 180,
-  "remaining_unaudited": 204,
+  "audited_count": 185,
+  "remaining_unaudited": 199,
   "blocked_count": 0,
   "documents": [
     {
@@ -2348,6 +2348,71 @@
       "validation_passed": true,
       "last_audit_commit": "afd45aa112ef2f35f4f4fbe00ca9362047383dc3",
       "audit_notes": "Rebuilt 6/4/3 historical two-column groups; restored 48 curriculum rows, 6 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 20/20/68-hour components with 108-hour total, repaired malformed basic/common curriculum numbering by printed unit text while preserving the source layer, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Foundry Molding NC II",
+      "package_path": "resources/Training Regulations/indexed/Foundry Molding NC II",
+      "source_file": "resources/Training Regulations/Foundry Molding NC II.pdf",
+      "source_sha256": "d8a8ab48f1acce1fbe13fcbda0cbb9018d2fed81421980323000ab2f4810f0e1",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:09:47+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "9096c60bf72af7fcbdd1d5853def0baff1c50287",
+      "audit_notes": "Rebuilt 4/4/7 historical two-column groups; restored 53 curriculum rows, 6 assessment arrangements, and 6 definition-term entries, preserved the absent promulgation date and the 18/20/120-hour components with 158-hour total, normalized the misnumbered common specification-and-manuals curriculum rows by printed outcome text, recorded the source’s later Foundry Melting/Casting qualification reference, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Foundry Molding NC III",
+      "package_path": "resources/Training Regulations/indexed/Foundry Molding NC III",
+      "source_file": "resources/Training Regulations/Foundry Molding NC III.pdf",
+      "source_sha256": "9943d3de2c2d843531e52232b03fd533002c2a0137afd7e233cdf7943e88c4a3",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:09:47+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "9096c60bf72af7fcbdd1d5853def0baff1c50287",
+      "audit_notes": "Rebuilt 6/4/3 historical two-column groups; restored 42 curriculum rows, 5 assessment arrangements, and 6 definition-term entries, preserved the absent promulgation date and the 20/20/72-hour components with 112-hour total, normalized the final heavy-casting unit across its page-break table while preserving the source-layer wording and numbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Foundry Pattern Making NC II",
+      "package_path": "resources/Training Regulations/indexed/Foundry Pattern Making NC II",
+      "source_file": "resources/Training Regulations/Foundry Pattern Making NC II.pdf",
+      "source_sha256": "bcf8028149341ff900d21d5da38eee4f7246b6b1b042ddcbc03cdb8ad002d7ad",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:09:47+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "9096c60bf72af7fcbdd1d5853def0baff1c50287",
+      "audit_notes": "Rebuilt 4/4/6 historical two-column groups; restored 42 curriculum rows, 4 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 18/20/120-hour components with 158-hour total, normalized the misnumbered common specification-and-manuals curriculum rows by printed outcome text, repaired the production-pattern unit title mapping, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Foundry Pattern Making NC III",
+      "package_path": "resources/Training Regulations/indexed/Foundry Pattern Making NC III",
+      "source_file": "resources/Training Regulations/Foundry Pattern Making NC III.pdf",
+      "source_sha256": "14c4efed0df5c4800e6fbda81e96f4b10e2a6d84ab17a205a8fe74d551af2df6",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:09:47+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "9096c60bf72af7fcbdd1d5853def0baff1c50287",
+      "audit_notes": "Rebuilt 6/4/3 historical two-column groups; restored 45 curriculum rows, 5 assessment arrangements, and 4 definition-term entries, preserved the absent promulgation date and the 20/20/72-hour components with 112-hour total, and retained the source’s Foundry Patternmaking and Foundry-Patternmaking title variants, source terminology, and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Front Office Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Front Office Services NC II",
+      "source_file": "resources/Training Regulations/Front Office Services NC II.pdf",
+      "source_sha256": "35d20c8a32387df67fd48a02d07c563f10a143ee4425b47befac199f9e004ef0",
+      "status": "audited",
+      "audited_at": "2026-09-06T21:09:47+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "9096c60bf72af7fcbdd1d5853def0baff1c50287",
+      "audit_notes": "Rebuilt 4/5/7 historical two-column groups; restored 62 curriculum rows, 6 assessment arrangements, and 6 definition-term entries, preserved the Amended label and Promulgated December 2013 with the 18/24/400-hour components and 442-hour total, retained the source’s front-office qualification wording and footer, and preserved source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
