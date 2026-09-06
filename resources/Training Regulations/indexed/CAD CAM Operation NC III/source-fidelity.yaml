@@ -1,29 +1,213 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:cad-cam-operation-nc-iii:4ee6c8a912",
-  "qualification": "CAD/CAM OPERATION NC III",
+  "qualification": "CAD CAM OPERATION NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "CAD CAM Operation NC III.pdf",
-    "sha256": "4ee6c8a912f084ee8bee0e72e7d7f98d18d296c3131207a0a2e136c4d73be865",
+    "source_sha256": "4ee6c8a912f084ee8bee0e72e7d7f98d18d296c3131207a0a2e136c4d73be865",
+    "pdf_pages": 69,
+    "printed_pages": 67,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "No promulgation date is printed in the page-preserved source header; the canonical promulgated field is null and the missing date is disclosed here.",
+    "The source explicitly prints 24 Basic, 130 Common, and 80 Core hours followed by a 234-hour total; the canonical duration preserves the printed arithmetic.",
+    "The Section 1 code is printed as MEE 722209 with an embedded space, while the unit header uses the normalized MEE722209 form; the canonical code is normalized and the source spelling is preserved in source_unit_code/source_text.",
+    "The source course description contains the spelling CAD/CAM Operatin NC III; source_text preserves the typo while the canonical qualification follows the indexed package and Section 1 title."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "No promulgation date is printed in the page-preserved source header; the canonical promulgated field is null and the missing date is disclosed here."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source explicitly prints 24 Basic, 130 Common, and 80 Core hours followed by a 234-hour total; the canonical duration preserves the printed arithmetic."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 code is printed as MEE 722209 with an embedded space, while the unit header uses the normalized MEE722209 form; the canonical code is normalized and the source spelling is preserved in source_unit_code/source_text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source course description contains the spelling CAD/CAM Operatin NC III; source_text preserves the typo while the canonical qualification follows the indexed package and Section 1 title."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "CAD CAM Operation NC III.pdf",
-    "pdf_pages": 69,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        5
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        15,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "MEE722201",
+      "source_unit_code": "MEE722201",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "MEE722202",
+      "source_unit_code": "MEE722202",
+      "pdf_page_range": [
+        23,
+        24
+      ]
+    },
+    {
+      "unit_code": "MEE722203",
+      "source_unit_code": "MEE722203",
+      "pdf_page_range": [
+        25,
+        26
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        27,
+        28
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        29,
+        30
+      ]
+    },
+    {
+      "unit_code": "MEE722206",
+      "source_unit_code": "MEE722206",
+      "pdf_page_range": [
+        31,
+        32
+      ]
+    },
+    {
+      "unit_code": "MEE722207",
+      "source_unit_code": "MEE722207",
+      "pdf_page_range": [
+        33,
+        34
+      ]
+    },
+    {
+      "unit_code": "MEE722208",
+      "source_unit_code": "MEE722208",
+      "pdf_page_range": [
+        35,
+        36
+      ]
+    },
+    {
+      "unit_code": "MEE722209",
+      "source_unit_code": "MEE 722209",
+      "pdf_page_range": [
+        37,
+        38
+      ]
+    },
+    {
+      "unit_code": "MEE722210",
+      "source_unit_code": "MEE722210",
+      "pdf_page_range": [
+        39,
+        40
+      ]
+    },
+    {
+      "unit_code": "MEE722211",
+      "source_unit_code": "MEE722211",
+      "pdf_page_range": [
+        41,
+        42
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        43,
+        46
+      ]
+    },
+    {
+      "unit_code": "MEE312301",
+      "source_unit_code": "MEE312301",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "MEE821313",
+      "source_unit_code": "MEE821313",
+      "pdf_page_range": [
+        51,
+        55
+      ]
+    }
+  ]
 }

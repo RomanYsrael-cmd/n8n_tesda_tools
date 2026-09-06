@@ -1,94 +1,1195 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:cable-tv-operation-and-maintenance-nc-iii:2007-12",
-  "qualification": "Cable TV Operation and Maintenance NC III",
+  "document_id": "tesda:tr:cable-tv-operation-and-maintenance-nc-iii:286fb51d2d",
+  "qualification": "CABLE TV OPERATION AND MAINTENANCE NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Cable TV Operation and Maintenance NC III.pdf",
-    "pdf_pages": 69
+    "pdf_pages": 69,
+    "printed_pages": 67,
+    "promulgated": "2007-12"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 36,
+        "source_expression": "36 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 44,
+        "source_expression": "44 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 612,
+        "source_expression": "612 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 176,
+    "total_source_expression": "176 hrs.",
+    "source_expressions": [
+      "36 hrs. - Basic Competencies",
+      "44 hrs. - Common Competencies",
+      "612 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 692,
+      "matches_total": false
+    }
   },
   "curriculum_design": {
     "present": true,
     "entries": [
       {
-        "unit_code": "155311115",
-        "title": "1",
-        "learning_outcomes": [],
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes",
         "learning_activities": [],
-        "methodology": null,
-        "assessment_approach": null,
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "source_text": "1\n5\n5\n3\n1\n1\n1\n1\n5\n5\n1\n1\n2\n1\n2\n1 set"
+        "pdf_page": 55
       },
       {
-        "unit_code": "252525255",
-        "title": "2",
-        "learning_outcomes": [],
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions",
         "learning_activities": [],
-        "methodology": null,
-        "assessment_approach": null,
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "source_text": "2\n\n5\n25\n25\n25\n5\n• agile modulator\n• agile demodulator\n• fixed modulator\n• signal processor\n• signal combiner/mixer\n• audio equalizer\n• superheterodyne processor\n• power divider\n• splitter\n• directional couplers\n• power inserter\n• line equalizer\n• AVR\n• Spare power supply module\n• Yagi antenna\n• TVRO system equipment\n• Antenna preamps\n\nPPE\n• safety belt\n• rubber gloves\n• safety shoes\n• hard hat/helmet\n• safety goggles\n\n• RG-6 coaxial cable\n• connectors\n• hardwares,\nsupplies and spare\nparts\n• heat shrink\n• silicon gel\n• electrical tapes\n• fuses\n• technical manuals\n• Spare active and\npassive devices\n• Coaxial cables\n• Weatherproofing\nmaterials\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 59\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLaboratoty/Simulation Area\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n37\nTotal Area\n165\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINERS QUALIFICATIONS\n\nCATV Operation and Maintenance Technician NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Cable Television Operation & Maintenance NCIII or\nequivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 5-years minimum relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution.\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 60\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Identify and communicate issues arising in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities among members",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectation for team members",
+        "learning_activities": [],
+        "methodology": [
+          "(modular)"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervise team performance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "2007 Page 53"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 55
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify relevant information in planning negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Viewing multimedia"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document areas for agreement",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Explain the analytical techniques",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/  Written demonstration  examinations  Dualized  Direct"
+        ],
+        "assessment_approach": [
+          "/oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [
+          "training  observation  Distance  Project learning  interview"
+        ],
+        "assessment_approach": [
+          "method"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine the possible cause/s of the problem",
+        "learning_activities": [],
+        "methodology": [
+          "multimedia"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply mathematical procedures/solution",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Viewing multimedia"
+        ],
+        "assessment_approach": [
+          "Observation in workplace",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Identify appropriate technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain/enhance relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC724201",
+        "unit_title": "Use hand tools",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Check materials and replace faulty ones in accordance with workplace standards and requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC724201",
+        "unit_title": "Use hand tools",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Carry out work assignments in accordance with standard",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC724201",
+        "unit_title": "Use hand tools",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Check completed work against standards and specifications",
+        "learning_activities": [],
+        "methodology": [
+          "Viewing multimedia"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC724201",
+        "unit_title": "Use hand tools",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Document and prepare a report on deviations from specific quality standards",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC311201",
+        "unit_title": "Perform mensuration and calculation",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify tasks to be undertaken and the appropriate tools to perform the task",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture /  Written/Oral Demonstration examination  Distance  Practical learning demonstration"
+        ],
+        "assessment_approach": [
+          "and"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC311201",
+        "unit_title": "Perform mensuration and calculation",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Prepare and check the required hand tools and use them properly",
+        "learning_activities": [],
+        "methodology": [
+          "Film Showing  Observation questioning"
+        ],
+        "assessment_approach": [
+          "and"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC311201",
+        "unit_title": "Perform mensuration and calculation",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Use appropriate hand tools and test equipment in accordance with safety rules and procedure",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture /  Written/Oral Demonstration examination  Distance  Practical learning demonstration"
+        ],
+        "assessment_approach": [
+          "and"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC311201",
+        "unit_title": "Perform mensuration and calculation",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Perform basic maintenance procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture /  Written/Oral Demonstration examination  Distance  Practical learning demonstration"
+        ],
+        "assessment_approach": [
+          "and"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC311202",
+        "unit_title": "Prepare and interpret technical drawing",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify tasks to be performed and the appropriate measuring instruments required",
+        "learning_activities": [],
+        "methodology": [
+          "Self- paced/  Written/Oral modular examination  Lecture/  Practical Demonstration demonstration"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC311202",
+        "unit_title": "Prepare and interpret technical drawing",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Perform measurement and calculation tasks according to specifications and requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Small group discussion  Distance learning"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC311202",
+        "unit_title": "Prepare and interpret technical drawing",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Perform basic maintenance tasks on measuring instruments according to established rules and procedure",
+        "learning_activities": [],
+        "methodology": [
+          "Self- paced/  Written/Oral modular examination  Lecture/  Practical Demonstration demonstration"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Identify and select the appropriate technical drawing required",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/  Written demonstration  examinations  Dualized  Direct"
+        ],
+        "assessment_approach": [
+          "/oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify symbols and Interpret the technical drawing properly",
+        "learning_activities": [],
+        "methodology": [
+          "training  observation  Distance  Project learning  interview"
+        ],
+        "assessment_approach": [
+          "method"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Check and validate drawing requirements and prepare/make changes on electrical/electronic schematics and drawings",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/  Written demonstration  examinations  Dualized  Direct"
+        ],
+        "assessment_approach": [
+          "/oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "ELC315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Explain how to record and store technical drawings, equipment and instruments properly",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/  Written demonstration  examinations  Dualized  Direct"
+        ],
+        "assessment_approach": [
+          "2007 Page 55"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311301",
+        "unit_title": "Supervise installation of CATV system",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Plan and prepare CATV system installation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311301",
+        "unit_title": "Supervise installation of CATV system",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Oversee installation of CATV system",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Practicum"
+        ],
+        "assessment_approach": [
+          "Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311301",
+        "unit_title": "Supervise installation of CATV system",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Inspect and document completion of work",
+        "learning_activities": [],
+        "methodology": [
+          "Viewing multimedia"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311302",
+        "unit_title": "Commission CATV system",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify functions, uses and specifications of equipment, testing instruments, materials & tools and PPE needed for CATV system operation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum",
+          "Viewing"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311302",
+        "unit_title": "Commission CATV system",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Monitor signal quality and make adjustments as needed at headend",
+        "learning_activities": [],
+        "methodology": [
+          "multimedia"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311302",
+        "unit_title": "Commission CATV system",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Monitor end-of-line performance of outside plant",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum",
+          "Viewing"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311302",
+        "unit_title": "Commission CATV system",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Monitor CATV system performance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum",
+          "Viewing"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311302",
+        "unit_title": "Commission CATV system",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Provide quick response to subscribers’ complaints",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum",
+          "Viewing"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311303",
+        "unit_title": "Operate CATV system",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify the tools, equipment, test instruments, materials and PPE needed for maintenance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311303",
+        "unit_title": "Operate CATV system",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Perform preventive maintenance procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Viewing multimedia"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311303",
+        "unit_title": "Operate CATV system",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document PM activities",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration",
+          "Practicum"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311304",
+        "unit_title": "Implement preventive maintenance of CATV system",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Interpret/Analyze service requests and subscriber complaints",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311304",
+        "unit_title": "Implement preventive maintenance of CATV system",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Locate and rectify faults at headend",
+        "learning_activities": [],
+        "methodology": [
+          "Practicum",
+          "Viewing"
+        ],
+        "assessment_approach": [
+          "workplace",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311304",
+        "unit_title": "Implement preventive maintenance of CATV system",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Locate and rectify outside- plant faults",
+        "learning_activities": [],
+        "methodology": [
+          "multimedia"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311304",
+        "unit_title": "Implement preventive maintenance of CATV system",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Document repair work done",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam Observation in"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311305",
+        "unit_title": "Perform CATV system troubleshooting and repair",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Perform test run of headend equipment for each channel",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311305",
+        "unit_title": "Perform CATV system troubleshooting and repair",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Perform adjustments and alignments of headend system output",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Viewing multimedia"
+        ],
+        "assessment_approach": [
+          "Observation in workplace",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311305",
+        "unit_title": "Perform CATV system troubleshooting and repair",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Test-run auxiliary systems",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311305",
+        "unit_title": "Perform CATV system troubleshooting and repair",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Activate OSP power supplies",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Written exam",
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "core",
+        "unit_code": "MDA311305",
+        "unit_title": "Perform CATV system troubleshooting and repair",
+        "learning_outcome_number": "5.5",
+        "learning_outcome": "Energize OSP distribution system",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "2007 Page 56"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
       }
     ],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title:\nCATV Operation & Maintenance NC Level: NC III\n\nNominal Training Duration:\n36 hrs – Basic Competencies\n\n44 hrs – Common Competencies\n\n612 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nCATV Technician, in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as commissioning consumer\nelectronic products and systems, developing servicing system for consumer electronic\nproducts and training service technicians. The nominal duration of 176 hours covers the\nrequired units at Cable Television Operation & Maintenance NC III. TVET providers can\nhowever, offer a longer, ladderized course covering both NC II and NC III basic, common\nand core units.\n\nBASIC COMPETENCIES\n36 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 54\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n44 hrs\nNote:\nThose who have completed the course on CATV Installation NC II or have acquired the\nCATV Installation NC II qualification can skip this portion on common competencies\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Apply Quality\nStandards\n1.1 Check materials and\nreplace faulty ones in\naccordance with\nworkplace standards and\nrequirements\n1.2 Carry out work\nassignments in\naccordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n Field trip\n Symposium\n Film showing\n Simulation\n On-the-job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 55\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n2 Use Hand\nTools\n2.1 Identify tasks to be\nundertaken and the\nappropriate tools to\nperform the task\n2.2 Prepare and check the\nrequired hand tools and\nuse them properly\n2.3 Use appropriate hand\ntools and test equipment\nin accordance with safety\nrules and procedure\n2.4 Perform basic\nmaintenance procedures\non hand tools and test\nequipment\n Lecture /\nDemonstration\n Distance\nlearning\n Film Showing\n\n Written/Oral\nexamination\n Practical\ndemonstration\n Observation and\nquestioning\n\n3 Perform\nMensuration\nand\nCalculation\n3.1 Identify tasks to be\nperformed and the\nappropriate measuring\ninstruments required\n3.2 Perform measurement and\ncalculation tasks\naccording to specifications\nand requirements\n3.3 Perform basic\nmaintenance tasks on\nmeasuring instruments\naccording to established\nrules and procedure\n\n Self- paced/\nmodular\n Lecture/\nDemonstration\n Small group\ndiscussion\n Distance\nlearning\n Written/Oral\nexamination\n Practical\ndemonstration\n\n4 Prepare and\nInterpret\nTechnical\nDrawings\n4.1 Identify and select the\nappropriate technical\ndrawing required\n4.2 Identify symbols and\nInterpret the technical\ndrawing properly\n4.3 Check and validate\ndrawing requirements and\nprepare/make changes on\nelectrical/electronic\nschematics and drawings\n4.4 Explain how to record and\nstore technical drawings,\nequipment and\ninstruments properly\n\n Lecture/\ndemonstration\n Dualized\ntraining\n Distance\nlearning\n Written /oral\n examinations\n Direct\n observation\n Project method\n interview\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 56\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nCORE COMPETENCIES\n612 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Supervise\ninstallation of\nCATV systems\n\n1.1 Plan and prepare CATV\nsystem installation\n1.2 Oversee installation of CATV\nsystem\n1.3 Inspect and document\ncompletion of work\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2 Operate CATV\nSystem\n\n2.1 Identify functions, uses and\nspecifications of equipment,\ntesting instruments, materials\n& tools and PPE needed for\nCATV system operation\n2.2 Monitor signal quality and\nmake adjustments as\nneeded at headend\n2.3 Monitor end-of-line\nperformance of outside plant\n2.4 Monitor CATV system\nperformance\n2.5 Provide quick response to\nsubscribers’ complaints\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n3 Implement\npreventive\nmaintenance of\nCATV system\n\n3.1 Identify the tools, equipment,\ntest instruments, materials\nand PPE needed for\nmaintenance.\n3.2 Perform preventive\nmaintenance procedures\n3.3 Document PM activities\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n4 Perform CATV\nsystem\ntroubleshooting\nand repair\n\n4.1 Interpret/Analyze service\nrequests and subscriber\ncomplaints\n4.2 Locate and rectify faults at\nheadend\n4.3 Locate and rectify outside-\nplant faults\n4.4 Document repair work done\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n5 Commission\nCATV system\n\n5.1 Perform test run of headend\nequipment for each channel\n5.2 Perform adjustments and\nalignments of headend\nsystem output\n5.3 Test-run auxiliary systems\n5.4 Activate OSP power supplies\n5.5 Energize OSP distribution\nsystem\n• Lecture\n• Discussion\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 57\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 60 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 58\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nMust have completed Cable TV Installation NCII program or equivalent\n•\ncan communicate either oral or written;\n•\nmust be physically and mentally fit to undergo training\n•\nhigh school graduate or equivalent\n•\nwith basic computer skills; and\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be required\nfrom the trainees by the school or training center delivering the TVET program.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of\n\n25 trainees for Cable TV Operation & Maintenance NC III.\n\nTEST\nINSTRUMENTS/TOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\nunits\n\n5\n\n5\n1\n2\n5\n\n5\n5 pcs.\n5 pcs.\n2 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n\nTest Instruments\n• Signal-level meter\n(SLM)\n• digital VOM\n• spectrum analyzer\n• power meter\n• TV receiver/monitor\nTools\n• set of screw drivers\n• electrical pliers\n• set of wrenches\n• safety ladder\n• long nose plier\n• diagonal side cutter\n• cable cutter\n• crimping tools\n• cable prep tools\n• NT cutter\n\n1\n5\n5\n3\n1\n1\n1\n1\n5\n5\n1\n1\n2\n1\n2\n1 set\n2\n\n5\n25\n25\n25\n5\n• agile modulator\n• agile demodulator\n• fixed modulator\n• signal processor\n• signal combiner/mixer\n• audio equalizer\n• superheterodyne processor\n• power divider\n• splitter\n• directional couplers\n• power inserter\n• line equalizer\n• AVR\n• Spare power supply module\n• Yagi antenna\n• TVRO system equipment\n• Antenna preamps\n\nPPE\n• safety belt\n• rubber gloves\n• safety shoes\n• hard hat/helmet\n• safety goggles\n\n• RG-6 coaxial cable\n• connectors\n• hardwares,\nsupplies and spare\nparts\n• heat shrink\n• silicon gel\n• electrical tapes\n• fuses\n• technical manuals\n• Spare active and\npassive devices\n• Coaxial cables\n• Weatherproofing\nmaterials\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 59\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLaboratoty/Simulation Area\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n37\nTotal Area\n165\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINERS QUALIFICATIONS\n\nCATV Operation and Maintenance Technician NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Cable Television Operation & Maintenance NCIII or\nequivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 5-years minimum relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution.\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 60\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
+    "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title:\nCATV Operation & Maintenance NC Level: NC III\n\nNominal Training Duration:\n36 hrs – Basic Competencies\n\n44 hrs – Common Competencies\n\n612 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nCATV Technician, in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as commissioning consumer\nelectronic products and systems, developing servicing system for consumer electronic\nproducts and training service technicians. The nominal duration of 176 hours covers the\nrequired units at Cable Television Operation & Maintenance NC III. TVET providers can\nhowever, offer a longer, ladderized course covering both NC II and NC III basic, common\nand core units.\n\nBASIC COMPETENCIES\n36 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 54\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n44 hrs\nNote:\nThose who have completed the course on CATV Installation NC II or have acquired the\nCATV Installation NC II qualification can skip this portion on common competencies\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Apply Quality\nStandards\n1.1 Check materials and\nreplace faulty ones in\naccordance with\nworkplace standards and\nrequirements\n1.2 Carry out work\nassignments in\naccordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n Field trip\n Symposium\n Film showing\n Simulation\n On-the-job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 55\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n2 Use Hand\nTools\n2.1 Identify tasks to be\nundertaken and the\nappropriate tools to\nperform the task\n2.2 Prepare and check the\nrequired hand tools and\nuse them properly\n2.3 Use appropriate hand\ntools and test equipment\nin accordance with safety\nrules and procedure\n2.4 Perform basic\nmaintenance procedures\non hand tools and test\nequipment\n Lecture /\nDemonstration\n Distance\nlearning\n Film Showing\n\n Written/Oral\nexamination\n Practical\ndemonstration\n Observation and\nquestioning\n\n3 Perform\nMensuration\nand\nCalculation\n3.1 Identify tasks to be\nperformed and the\nappropriate measuring\ninstruments required\n3.2 Perform measurement and\ncalculation tasks\naccording to specifications\nand requirements\n3.3 Perform basic\nmaintenance tasks on\nmeasuring instruments\naccording to established\nrules and procedure\n\n Self- paced/\nmodular\n Lecture/\nDemonstration\n Small group\ndiscussion\n Distance\nlearning\n Written/Oral\nexamination\n Practical\ndemonstration\n\n4 Prepare and\nInterpret\nTechnical\nDrawings\n4.1 Identify and select the\nappropriate technical\ndrawing required\n4.2 Identify symbols and\nInterpret the technical\ndrawing properly\n4.3 Check and validate\ndrawing requirements and\nprepare/make changes on\nelectrical/electronic\nschematics and drawings\n4.4 Explain how to record and\nstore technical drawings,\nequipment and\ninstruments properly\n\n Lecture/\ndemonstration\n Dualized\ntraining\n Distance\nlearning\n Written /oral\n examinations\n Direct\n observation\n Project method\n interview\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 56\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nCORE COMPETENCIES\n612 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Supervise\ninstallation of\nCATV systems\n\n1.1 Plan and prepare CATV\nsystem installation\n1.2 Oversee installation of CATV\nsystem\n1.3 Inspect and document\ncompletion of work\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2 Operate CATV\nSystem\n\n2.1 Identify functions, uses and\nspecifications of equipment,\ntesting instruments, materials\n& tools and PPE needed for\nCATV system operation\n2.2 Monitor signal quality and\nmake adjustments as\nneeded at headend\n2.3 Monitor end-of-line\nperformance of outside plant\n2.4 Monitor CATV system\nperformance\n2.5 Provide quick response to\nsubscribers’ complaints\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n3 Implement\npreventive\nmaintenance of\nCATV system\n\n3.1 Identify the tools, equipment,\ntest instruments, materials\nand PPE needed for\nmaintenance.\n3.2 Perform preventive\nmaintenance procedures\n3.3 Document PM activities\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n4 Perform CATV\nsystem\ntroubleshooting\nand repair\n\n4.1 Interpret/Analyze service\nrequests and subscriber\ncomplaints\n4.2 Locate and rectify faults at\nheadend\n4.3 Locate and rectify outside-\nplant faults\n4.4 Document repair work done\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n5 Commission\nCATV system\n\n5.1 Perform test run of headend\nequipment for each channel\n5.2 Perform adjustments and\nalignments of headend\nsystem output\n5.3 Test-run auxiliary systems\n5.4 Activate OSP power supplies\n5.5 Energize OSP distribution\nsystem\n• Lecture\n• Discussion\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 57\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title:\nCATV Operation & Maintenance NC Level: NC III\n\nNominal Training Duration:\n36 hrs – Basic Competencies\n\n44 hrs – Common Competencies\n\n612 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nCATV Technician, in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as commissioning consumer\nelectronic products and systems, developing servicing system for consumer electronic\nproducts and training service technicians. The nominal duration of 176 hours covers the\nrequired units at Cable Television Operation & Maintenance NC III. TVET providers can\nhowever, offer a longer, ladderized course covering both NC II and NC III basic, common\nand core units.\n\nBASIC COMPETENCIES\n36 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 54\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n44 hrs\nNote:\nThose who have completed the course on CATV Installation NC II or have acquired the\nCATV Installation NC II qualification can skip this portion on common competencies\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Apply Quality\nStandards\n1.1 Check materials and\nreplace faulty ones in\naccordance with\nworkplace standards and\nrequirements\n1.2 Carry out work\nassignments in\naccordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n Field trip\n Symposium\n Film showing\n Simulation\n On-the-job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 55\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n2 Use Hand\nTools\n2.1 Identify tasks to be\nundertaken and the\nappropriate tools to\nperform the task\n2.2 Prepare and check the\nrequired hand tools and\nuse them properly\n2.3 Use appropriate hand\ntools and test equipment\nin accordance with safety\nrules and procedure\n2.4 Perform basic\nmaintenance procedures\non hand tools and test\nequipment\n Lecture /\nDemonstration\n Distance\nlearning\n Film Showing\n\n Written/Oral\nexamination\n Practical\ndemonstration\n Observation and\nquestioning\n\n3 Perform\nMensuration\nand\nCalculation\n3.1 Identify tasks to be\nperformed and the\nappropriate measuring\ninstruments required\n3.2 Perform measurement and\ncalculation tasks\naccording to specifications\nand requirements\n3.3 Perform basic\nmaintenance tasks on\nmeasuring instruments\naccording to established\nrules and procedure\n\n Self- paced/\nmodular\n Lecture/\nDemonstration\n Small group\ndiscussion\n Distance\nlearning\n Written/Oral\nexamination\n Practical\ndemonstration\n\n4 Prepare and\nInterpret\nTechnical\nDrawings\n4.1 Identify and select the\nappropriate technical\ndrawing required\n4.2 Identify symbols and\nInterpret the technical\ndrawing properly\n4.3 Check and validate\ndrawing requirements and\nprepare/make changes on\nelectrical/electronic\nschematics and drawings\n4.4 Explain how to record and\nstore technical drawings,\nequipment and\ninstruments properly\n\n Lecture/\ndemonstration\n Dualized\ntraining\n Distance\nlearning\n Written /oral\n examinations\n Direct\n observation\n Project method\n interview\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 56\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nCORE COMPETENCIES\n612 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Supervise\ninstallation of\nCATV systems\n\n1.1 Plan and prepare CATV\nsystem installation\n1.2 Oversee installation of CATV\nsystem\n1.3 Inspect and document\ncompletion of work\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2 Operate CATV\nSystem\n\n2.1 Identify functions, uses and\nspecifications of equipment,\ntesting instruments, materials\n& tools and PPE needed for\nCATV system operation\n2.2 Monitor signal quality and\nmake adjustments as\nneeded at headend\n2.3 Monitor end-of-line\nperformance of outside plant\n2.4 Monitor CATV system\nperformance\n2.5 Provide quick response to\nsubscribers’ complaints\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n3 Implement\npreventive\nmaintenance of\nCATV system\n\n3.1 Identify the tools, equipment,\ntest instruments, materials\nand PPE needed for\nmaintenance.\n3.2 Perform preventive\nmaintenance procedures\n3.3 Document PM activities\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n4 Perform CATV\nsystem\ntroubleshooting\nand repair\n\n4.1 Interpret/Analyze service\nrequests and subscriber\ncomplaints\n4.2 Locate and rectify faults at\nheadend\n4.3 Locate and rectify outside-\nplant faults\n4.4 Document repair work done\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n5 Commission\nCATV system\n\n5.1 Perform test run of headend\nequipment for each channel\n5.2 Perform adjustments and\nalignments of headend\nsystem output\n5.3 Test-run auxiliary systems\n5.4 Activate OSP power supplies\n5.5 Energize OSP distribution\nsystem\n• Lecture\n• Discussion\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 57\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr",
-      "pdf_pages": []
+      "pdf_pages": [
+        55
+      ],
+      "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title:\nCATV Operation & Maintenance NC Level: NC III\n\nNominal Training Duration:\n36 hrs – Basic Competencies\n\n44 hrs – Common Competencies\n\n612 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nCATV Technician, in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as commissioning consumer\nelectronic products and systems, developing servicing system for consumer electronic\nproducts and training service technicians. The nominal duration of 176 hours covers the\nrequired units at Cable Television Operation & Maintenance NC III. TVET providers can\nhowever, offer a longer, ladderized course covering both NC II and NC III basic, common\nand core units.\n\nBASIC COMPETENCIES\n36 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 54\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n44 hrs\nNote:\nThose who have completed the course on CATV Installation NC II or have acquired the\nCATV Installation NC II qualification can skip this portion on common competencies\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Apply Quality\nStandards\n1.1 Check materials and\nreplace faulty ones in\naccordance with\nworkplace standards and\nrequirements\n1.2 Carry out work\nassignments in\naccordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n Field trip\n Symposium\n Film showing\n Simulation\n On-the-job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 55\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n2 Use Hand\nTools\n2.1 Identify tasks to be\nundertaken and the\nappropriate tools to\nperform the task\n2.2 Prepare and check the\nrequired hand tools and\nuse them properly\n2.3 Use appropriate hand\ntools and test equipment\nin accordance with safety\nrules and procedure\n2.4 Perform basic\nmaintenance procedures\non hand tools and test\nequipment\n Lecture /\nDemonstration\n Distance\nlearning\n Film Showing\n\n Written/Oral\nexamination\n Practical\ndemonstration\n Observation and\nquestioning\n\n3 Perform\nMensuration\nand\nCalculation\n3.1 Identify tasks to be\nperformed and the\nappropriate measuring\ninstruments required\n3.2 Perform measurement and\ncalculation tasks\naccording to specifications\nand requirements\n3.3 Perform basic\nmaintenance tasks on\nmeasuring instruments\naccording to established\nrules and procedure\n\n Self- paced/\nmodular\n Lecture/\nDemonstration\n Small group\ndiscussion\n Distance\nlearning\n Written/Oral\nexamination\n Practical\ndemonstration\n\n4 Prepare and\nInterpret\nTechnical\nDrawings\n4.1 Identify and select the\nappropriate technical\ndrawing required\n4.2 Identify symbols and\nInterpret the technical\ndrawing properly\n4.3 Check and validate\ndrawing requirements and\nprepare/make changes on\nelectrical/electronic\nschematics and drawings\n4.4 Explain how to record and\nstore technical drawings,\nequipment and\ninstruments properly\n\n Lecture/\ndemonstration\n Dualized\ntraining\n Distance\nlearning\n Written /oral\n examinations\n Direct\n observation\n Project method\n interview\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 56\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nCORE COMPETENCIES\n612 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Supervise\ninstallation of\nCATV systems\n\n1.1 Plan and prepare CATV\nsystem installation\n1.2 Oversee installation of CATV\nsystem\n1.3 Inspect and document\ncompletion of work\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2 Operate CATV\nSystem\n\n2.1 Identify functions, uses and\nspecifications of equipment,\ntesting instruments, materials\n& tools and PPE needed for\nCATV system operation\n2.2 Monitor signal quality and\nmake adjustments as\nneeded at headend\n2.3 Monitor end-of-line\nperformance of outside plant\n2.4 Monitor CATV system\nperformance\n2.5 Provide quick response to\nsubscribers’ complaints\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n3 Implement\npreventive\nmaintenance of\nCATV system\n\n3.1 Identify the tools, equipment,\ntest instruments, materials\nand PPE needed for\nmaintenance.\n3.2 Perform preventive\nmaintenance procedures\n3.3 Document PM activities\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n4 Perform CATV\nsystem\ntroubleshooting\nand repair\n\n4.1 Interpret/Analyze service\nrequests and subscriber\ncomplaints\n4.2 Locate and rectify faults at\nheadend\n4.3 Locate and rectify outside-\nplant faults\n4.4 Document repair work done\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n5 Commission\nCATV system\n\n5.1 Perform test run of headend\nequipment for each channel\n5.2 Perform adjustments and\nalignments of headend\nsystem output\n5.3 Test-run auxiliary systems\n5.4 Activate OSP power supplies\n5.5 Energize OSP distribution\nsystem\n• Lecture\n• Discussion\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 57\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 60 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 58\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr",
-      "pdf_pages": []
+      "pdf_pages": [
+        59
+      ],
+      "source_text": "3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 60 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 58\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "The trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nMust have completed Cable TV Installation NCII program or equivalent\n•\ncan communicate either oral or written;\n•\nmust be physically and mentally fit to undergo training\n•\nhigh school graduate or equivalent\n•\nwith basic computer skills; and\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be required\nfrom the trainees by the school or training center delivering the TVET program.",
-      "pdf_pages": []
+      "pdf_pages": [
+        60
+      ],
+      "source_text": "3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nMust have completed Cable TV Installation NCII program or equivalent\n•\ncan communicate either oral or written;\n•\nmust be physically and mentally fit to undergo training\n•\nhigh school graduate or equivalent\n•\nwith basic computer skills; and\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be required\nfrom the trainees by the school or training center delivering the TVET program."
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of\n\n25 trainees for Cable TV Operation & Maintenance NC III.\n\nTEST\nINSTRUMENTS/TOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\nunits\n\n5\n\n5\n1\n2\n5\n\n5\n5 pcs.\n5 pcs.\n2 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n\nTest Instruments\n• Signal-level meter\n(SLM)\n• digital VOM\n• spectrum analyzer\n• power meter\n• TV receiver/monitor\nTools\n• set of screw drivers\n• electrical pliers\n• set of wrenches\n• safety ladder\n• long nose plier\n• diagonal side cutter\n• cable cutter\n• crimping tools\n• cable prep tools\n• NT cutter\n\n1\n5\n5\n3\n1\n1\n1\n1\n5\n5\n1\n1\n2\n1\n2\n1 set\n2\n\n5\n25\n25\n25\n5\n• agile modulator\n• agile demodulator\n• fixed modulator\n• signal processor\n• signal combiner/mixer\n• audio equalizer\n• superheterodyne processor\n• power divider\n• splitter\n• directional couplers\n• power inserter\n• line equalizer\n• AVR\n• Spare power supply module\n• Yagi antenna\n• TVRO system equipment\n• Antenna preamps\n\nPPE\n• safety belt\n• rubber gloves\n• safety shoes\n• hard hat/helmet\n• safety goggles\n\n• RG-6 coaxial cable\n• connectors\n• hardwares,\nsupplies and spare\nparts\n• heat shrink\n• silicon gel\n• electrical tapes\n• fuses\n• technical manuals\n• Spare active and\npassive devices\n• Coaxial cables\n• Weatherproofing\nmaterials\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 59\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr",
-      "pdf_pages": []
+      "pdf_pages": [
+        58,
+        60
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of\n\n25 trainees for Cable TV Operation & Maintenance NC III.\n\nTEST\nINSTRUMENTS/TOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\nunits\n\n5\n\n5\n1\n2\n5\n\n5\n5 pcs.\n5 pcs.\n2 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n\nTest Instruments\n• Signal-level meter\n(SLM)\n• digital VOM\n• spectrum analyzer\n• power meter\n• TV receiver/monitor\nTools\n• set of screw drivers\n• electrical pliers\n• set of wrenches\n• safety ladder\n• long nose plier\n• diagonal side cutter\n• cable cutter\n• crimping tools\n• cable prep tools\n• NT cutter\n\n1\n5\n5\n3\n1\n1\n1\n1\n5\n5\n1\n1\n2\n1\n2\n1 set\n2\n\n5\n25\n25\n25\n5\n• agile modulator\n• agile demodulator\n• fixed modulator\n• signal processor\n• signal combiner/mixer\n• audio equalizer\n• superheterodyne processor\n• power divider\n• splitter\n• directional couplers\n• power inserter\n• line equalizer\n• AVR\n• Spare power supply module\n• Yagi antenna\n• TVRO system equipment\n• Antenna preamps\n\nPPE\n• safety belt\n• rubber gloves\n• safety shoes\n• hard hat/helmet\n• safety goggles\n\n• RG-6 coaxial cable\n• connectors\n• hardwares,\nsupplies and spare\nparts\n• heat shrink\n• silicon gel\n• electrical tapes\n• fuses\n• technical manuals\n• Spare active and\npassive devices\n• Coaxial cables\n• Weatherproofing\nmaterials\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 59\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "Based on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLaboratoty/Simulation Area\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n37\nTotal Area\n165\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas",
-      "pdf_pages": []
+      "pdf_pages": [
+        61
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLaboratoty/Simulation Area\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n37\nTotal Area\n165\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas"
     },
     "trainer_qualifications": {
       "present": true,
-      "source_text": "CATV Operation and Maintenance Technician NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Cable Television Operation & Maintenance NCIII or\nequivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 5-years minimum relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution.",
-      "pdf_pages": []
+      "pdf_pages": [
+        61
+      ],
+      "source_text": "3.6 TRAINERS QUALIFICATIONS\n\nCATV Operation and Maintenance Technician NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Cable Television Operation & Maintenance NCIII or\nequivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 5-years minimum relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution."
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 60\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr",
-      "pdf_pages": []
+      "pdf_pages": [
+        61
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 60\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "36 hrs",
-      "44 hrs",
-      "612 hrs",
-      "176 hours",
-      "36 hrs",
-      "44 hrs",
-      "612 hrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title:\nCATV Operation & Maintenance NC Level: NC III\n\nNominal Training Duration:\n36 hrs – Basic Competencies\n\n44 hrs – Common Competencies\n\n612 hrs – Core Competencies\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nCATV Technician, in accordance with industry standards. It covers the basic & common\ncompetencies in addition to the core competencies such as commissioning consumer\nelectronic products and systems, developing servicing system for consumer electronic\nproducts and training service technicians. The nominal duration of 176 hours covers the\nrequired units at Cable Television Operation & Maintenance NC III. TVET providers can\nhowever, offer a longer, ladderized course covering both NC II and NC III basic, common\nand core units.\n\nBASIC COMPETENCIES\n36 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate information\nabout workplace\nprocesses.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 56 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 54\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in planning\nnegotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques to\nsolve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance\nrelevant technology\n\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n44 hrs\nNote:\nThose who have completed the course on CATV Installation NC II or have acquired the\nCATV Installation NC II qualification can skip this portion on common competencies\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Apply Quality\nStandards\n1.1 Check materials and\nreplace faulty ones in\naccordance with\nworkplace standards and\nrequirements\n1.2 Carry out work\nassignments in\naccordance with standard\noperating procedures\n1.3 Check completed work\nagainst standards and\nspecifications\n1.4 Document and prepare a\nreport on deviations from\nspecific quality standards\n Field trip\n Symposium\n Film showing\n Simulation\n On-the-job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n\n--- PDF PAGE 57 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 55\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n2 Use Hand\nTools\n2.1 Identify tasks to be\nundertaken and the\nappropriate tools to\nperform the task\n2.2 Prepare and check the\nrequired hand tools and\nuse them properly\n2.3 Use appropriate hand\ntools and test equipment\nin accordance with safety\nrules and procedure\n2.4 Perform basic\nmaintenance procedures\non hand tools and test\nequipment\n Lecture /\nDemonstration\n Distance\nlearning\n Film Showing\n\n Written/Oral\nexamination\n Practical\ndemonstration\n Observation and\nquestioning\n\n3 Perform\nMensuration\nand\nCalculation\n3.1 Identify tasks to be\nperformed and the\nappropriate measuring\ninstruments required\n3.2 Perform measurement and\ncalculation tasks\naccording to specifications\nand requirements\n3.3 Perform basic\nmaintenance tasks on\nmeasuring instruments\naccording to established\nrules and procedure\n\n Self- paced/\nmodular\n Lecture/\nDemonstration\n Small group\ndiscussion\n Distance\nlearning\n Written/Oral\nexamination\n Practical\ndemonstration\n\n4 Prepare and\nInterpret\nTechnical\nDrawings\n4.1 Identify and select the\nappropriate technical\ndrawing required\n4.2 Identify symbols and\nInterpret the technical\ndrawing properly\n4.3 Check and validate\ndrawing requirements and\nprepare/make changes on\nelectrical/electronic\nschematics and drawings\n4.4 Explain how to record and\nstore technical drawings,\nequipment and\ninstruments properly\n\n Lecture/\ndemonstration\n Dualized\ntraining\n Distance\nlearning\n Written /oral\n examinations\n Direct\n observation\n Project method\n interview\n\n--- PDF PAGE 58 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 56\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nCORE COMPETENCIES\n612 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1 Supervise\ninstallation of\nCATV systems\n\n1.1 Plan and prepare CATV\nsystem installation\n1.2 Oversee installation of CATV\nsystem\n1.3 Inspect and document\ncompletion of work\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n2 Operate CATV\nSystem\n\n2.1 Identify functions, uses and\nspecifications of equipment,\ntesting instruments, materials\n& tools and PPE needed for\nCATV system operation\n2.2 Monitor signal quality and\nmake adjustments as\nneeded at headend\n2.3 Monitor end-of-line\nperformance of outside plant\n2.4 Monitor CATV system\nperformance\n2.5 Provide quick response to\nsubscribers’ complaints\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n3 Implement\npreventive\nmaintenance of\nCATV system\n\n3.1 Identify the tools, equipment,\ntest instruments, materials\nand PPE needed for\nmaintenance.\n3.2 Perform preventive\nmaintenance procedures\n3.3 Document PM activities\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n4 Perform CATV\nsystem\ntroubleshooting\nand repair\n\n4.1 Interpret/Analyze service\nrequests and subscriber\ncomplaints\n4.2 Locate and rectify faults at\nheadend\n4.3 Locate and rectify outside-\nplant faults\n4.4 Document repair work done\n• Lecture\n• Discussion\n• Demonstration\n• Practicum\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n5 Commission\nCATV system\n\n5.1 Perform test run of headend\nequipment for each channel\n5.2 Perform adjustments and\nalignments of headend\nsystem output\n5.3 Test-run auxiliary systems\n5.4 Activate OSP power supplies\n5.5 Energize OSP distribution\nsystem\n• Lecture\n• Discussion\n• Demonstration\n• Viewing\nmultimedia\n• Written exam\n• Practical exam\nObservation in\nworkplace\n• Interviews/\nquestioning\n\n--- PDF PAGE 59 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 57\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 60 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 58\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nMust have completed Cable TV Installation NCII program or equivalent\n•\ncan communicate either oral or written;\n•\nmust be physically and mentally fit to undergo training\n•\nhigh school graduate or equivalent\n•\nwith basic computer skills; and\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be required\nfrom the trainees by the school or training center delivering the TVET program.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of\n\n25 trainees for Cable TV Operation & Maintenance NC III.\n\nTEST\nINSTRUMENTS/TOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\nunits\n\n5\n\n5\n1\n2\n5\n\n5\n5 pcs.\n5 pcs.\n2 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n5 pcs.\n\nTest Instruments\n• Signal-level meter\n(SLM)\n• digital VOM\n• spectrum analyzer\n• power meter\n• TV receiver/monitor\nTools\n• set of screw drivers\n• electrical pliers\n• set of wrenches\n• safety ladder\n• long nose plier\n• diagonal side cutter\n• cable cutter\n• crimping tools\n• cable prep tools\n• NT cutter\n\n1\n5\n5\n3\n1\n1\n1\n1\n5\n5\n1\n1\n2\n1\n2\n1 set\n2\n\n5\n25\n25\n25\n5\n• agile modulator\n• agile demodulator\n• fixed modulator\n• signal processor\n• signal combiner/mixer\n• audio equalizer\n• superheterodyne processor\n• power divider\n• splitter\n• directional couplers\n• power inserter\n• line equalizer\n• AVR\n• Spare power supply module\n• Yagi antenna\n• TVRO system equipment\n• Antenna preamps\n\nPPE\n• safety belt\n• rubber gloves\n• safety shoes\n• hard hat/helmet\n• safety goggles\n\n• RG-6 coaxial cable\n• connectors\n• hardwares,\nsupplies and spare\nparts\n• heat shrink\n• silicon gel\n• electrical tapes\n• fuses\n• technical manuals\n• Spare active and\npassive devices\n• Coaxial cables\n• Weatherproofing\nmaterials\n\n--- PDF PAGE 61 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 59\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for\n\nthe teaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA IN\nSQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nLaboratoty/Simulation Area\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n37\nTotal Area\n165\n\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINERS QUALIFICATIONS\n\nCATV Operation and Maintenance Technician NC III\n\nTrainer’s Qualification TQ III\n\n•\nMust be a holder of TESDA Cable Television Operation & Maintenance NCIII or\nequivalent\n•\nMust have completed Training Methodology III (TM III) course or equivalent\n•\n* Must have at least 5-years minimum relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional: Only when required by the hiring institution.\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 62 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 60\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr"
 }

@@ -1,76 +1,61 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:cable-tv-operation-and-maintenance-nc-iii:2007-12",
-  "qualification": "Cable TV Operation and Maintenance NC III",
+  "document_id": "tesda:tr:cable-tv-operation-and-maintenance-nc-iii:286fb51d2d",
+  "qualification": "CABLE TV OPERATION AND MAINTENANCE NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "to lead in the dissemination and discussion of ideas,"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude"
-      },
-      {
-        "unit_code": "ELC724201",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ELC311201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "MDA311301",
-        "title": "DESCRIPTOR : This unit covers the knowledge, skills and attitudes required"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "small teams including setting and maintaining team and"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "collect information in order to negotiate to a desired outcome"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "in the application of mathematical concepts and techniques."
-      },
-      {
-        "unit_code": "ELC311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "MDA311302",
-        "title": "DESCRIPTOR :"
-      },
-      {
-        "unit_code": "MDA311303",
-        "title": "DESCRIPTOR :"
-      },
-      {
-        "unit_code": "MDA311304",
-        "title": "DESCRIPTOR :"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n\n66",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ELC724201",
+        "ELC311201",
+        "ELC311202",
+        "ELC315202"
+      ],
+      "unit_titles": [
+        "Use hand tools",
+        "Perform mensuration and calculation",
+        "Prepare and interpret technical drawing",
+        "Apply quality standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "MDA311301",
+        "MDA311302",
+        "MDA311303",
+        "MDA311304",
+        "MDA311305"
+      ],
+      "unit_titles": [
+        "Supervise installation of CATV system",
+        "Commission CATV system",
+        "Operate CATV system",
+        "Implement preventive maintenance of CATV system",
+        "Perform CATV system troubleshooting and repair"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate III signed by\nthe TESDA Director General.\n\n4.2\nThe qualification of CATV Operation & Maintenance NC III may be attained\nthrough demonstration of competence through a single comprehensive project-\ntype assessment covering all required units of competency of the qualification.\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core units.\n\n4.4\nAccumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate.\n\n4.5\nThe following are qualified to apply for assessment and certification:\n\n4.5.1.\nGraduate of formal, non-formal, and informal including enterprise-\nbased training programs.\n\n4.5.2.\nExperienced workers (wage employed or self employed)\n\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)”.\n\n--- PDF PAGE 63 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 61\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nDEFINITION OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who\npass the assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and\nattitudes to perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgments on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be conducted\nor carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a particular\narea of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by the\nindividual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\noutcome terms the functions that a person performs in the workplace.\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual. It\nprovides information on critical aspects of competency, underpinning knowledge,\nunderpinning skills, resource implications, assessment method and context of\nassessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when,\nevidence should be collected\n\n--- PDF PAGE 64 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 62\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve all\nthe required units of competency for a national qualification defined under the\nTraining Regulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n17) Qualification - is a cluster of units of competencies that meets job roles and is\nsignificant in the workplace. It is also a certification awarded to a person on\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work is\nto be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s\nskills, knowledge and attitudes gained from life and work experiences outside\nregistered training programs\n\n20) Resource Implications - refers to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It includes\nwork environment and conditions, materials, tools and equipment\n\n21) Basic Competencies - are the skills and knowledge that everyone needs for work\n\n22) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serves as basis for\nestablishment of qualification and certification under the PTQF. It also serves as\nguide for development of competency-based curricula and instructional materials\nincluding registration of TVET programs offered by TVET providers\n\n23) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is\nessential to the performance of the competency\n\n24) Underpinning Skills - refers to the list of the skills needed to achieve the elements\nand performance criteria in the unit of competency. It includes generic and\nindustry specific skills\n\n25) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\n--- PDF PAGE 65 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 63\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nSECTOR SPECIFIC\n\n1. Amplifier – an electronic device used to increase the strength of a signal.\n\n2. Audio/visual equipment - includes televisions, radios, monitors, cameras, closed circuit\ntelevision, mono and stereo sound systems, gaming machines, electronic display\npanels, cassette recorders, video cassette recorders, CDROM players, sound and video\nduplication equipment, digital versatile discs, professional and domestic speaker\nsystems, mixer desks.\n\n3. Bridger amplifier – a device which extracts a portion of the signal from the trunk,\namplifies it to a higher level, and feeds it to the distribution system.\n\n4. Cable – is used for the distribution of television signals from the headend to the\nsubscribers. The nominal characteristic impedance used in CATV system must be 75-\nohms.\n\n5. CATV – any facility that, in whole or in part, receives directly or indirectly over the air,\nand amplifies or otherwise modifies (improves) the signals transmitting programs\nbroadcast by one or more television, satellite or radio stations and distributes such\nsignals by wire or cable to subscribing members of the public who pay for such service\nor services.\n\n6. Component - That portion of a unit of equipment, which has been designed as a\ndiscrete unit and that can be identified as such.\n\n7. Connectorization – proper preparation of cable for installation of appropriate type of\nconnectors.\n\n8. Directional couplers – is a device used to divide the power unequally into two paths.\n\n9. Drop cable – a small-diameter cable leading from the tap-off in the cable plant to the\nsubscribers’ TV receivers. A drop cable used by the CATV system should be either RG-\n59 or RG-6, 75-ohms coaxial cable (foam).\n\n10. Environment - The area surrounding the work site which can be directly or indirectly\naffected by occurrences at the work site. It includes the atmosphere, soils, drains,\nunderground water tables, and the ecosystem. Protection of the environment would\nrequire the proper disposal of waste materials, restriction of burning off, the correct\nhandling of toxic substances, the containment of CFCs and the like.\n\n11. Established procedures - Formal arrangements of an organization, enterprise or\nstatutory authority of how work is to be done.\n\n12. Hazardous materials - Flammable gases and vapors and combustible dusts.\n\n13. Headend – is the main site at which all the signals from the various program sources\nare received, assembled, processed and combined for transmission through the\ndistribution network. It is the originating point for all services carried on a cable television\nsystem\n\n14. Line extender amplifier – extends further the feederline from the trunk bridger.\n\n--- PDF PAGE 66 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 64\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n15. Modifications - To make changes to the physical parameters or operational function of\na device, component or piece of equipment or apparatus.\n\n16. Notification (notified) - Can include verbal, written, electronic or recorded information\nat completion of work which may be required to be completed in accordance with\nestablished procedures.\n\n17. OH&S policies and procedures - Arrangements of an organization or enterprise to\nmeet their legal and ethical obligations of ensuring the workplace is safe and without risk\nto health.\n\n18. Outside Plant (OSP) – is a part of CATV system that provides for the distribution of\ntelevision signals from the headend to the paying subscribers.\n\n19. Requirements - That to which equipment and procedures and their outcomes must\nconform and includes statutory obligations and regulations and standards called-up by\nlegislation or regulations.\n\n20. Servicing - Undertaking routine inspection, repair and maintenance of circuits, systems\nor apparatus. Maintaining, fault finding and repair of equipment, plant and machinery.\n\n21. Splitter – is a passive device used to divide the power equally into two path.\n\n22. Standards - Technical documents, which set out specifications and other criteria for\nequipment, materials, and methods to ensure them consistently, perform as intended.\n\n23. Subscriber – a person who pays a fee for cable services.\n\n24. Subscriber terminal – the cable television system terminal to which a subscriber’s\nequipment is connected.\n\n25. System - A group or combination of inter-related, inter-dependent or interlocking\nelements forming a collective entity. Includes circuits, apparatus, equipment and the like.\n\n26. Tap-off – is a device that extracts a small portion of the signal from the feeder cable and\nprovides signal to the subscriber’s TV set.\n\n27. Termination - The act by means of which an electrical connection to an apparatus is\nestablished; specifically a prepared joint or connection between a cable, cord or\nconductor and a point in an electrical circuit such as a terminal or connection point. Such\nterminations include soldering, crimping, clamping, wire wrapping, insulation\npiercing/compression.\n\n28. Testing devices - Devices and instruments used to ensure safety requirements and\noperational functions are met, and to diagnose faults in apparatus, circuits or systems.\n\n29. Trunk amplifier – a low distortion amplifier that amplifies RF signals for long distance\ntransport.\n\n--- PDF PAGE 67 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 65\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\n30. UHF – Ultrahigh frequency. The band of frequencies extending from 470 to 890 MHz as\ndesignated by the Federal Communications Commission.\n\n31. VHF – Very high frequency. The band extending from 30 to 300 MHz.\n\n32. Wiring systems - Permitted cables, enclosures, supports and accessories for power,\nmeasurement, control or communications purposes.\n\n--- PDF PAGE 68 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 66\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nANNEX A - ICT (BROADCAST MEDIA) COMPETENCY MAP\n\nCATV OPERATION AND MAINTENANCE NC III\n\nBASIC COMPETENCIES\n\nReceive and\nRespond to\nWorkplace\nCommunication\nWork with Others\nDemonstrate work\nvalues\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nWorkplace\nCommunication\nWork in a Team\nEnvironment\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\nprocedures\nLead Workplace\nCommunication\nLead Small Team\nDevelop and\npractice negotiation\nskills\nSolve Problems\nRelated to Work\nActivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize Specialist\nCommunication Skills\nDevelop Team and\nIndividuals\nApply Problem\nSolving Techniques\nin the Workplace\nCollect, analyze and\norganize information\nPlan and Organize\nWork\nPromote\nenvironmental\nprotection\n\nCOMMON COMPETENCIES\n\nUse Hand Tools\nPerform\nMensuration and\nCalculation\nPrepare and\nInterpret Technical\nDrawing\nApply Quality\nStandards\nPerform Computer\nOperations\nTerminate and\nConnect Electrical\nWiring and Electronic\nCircuits\n\nCORE COMPETENCIES\n\nInstall Pole Hardware\nand Accessories\nLay Out and Install\nFiber-Optic/ Coaxial\nCables\nInstall Active and\nPassive Devices and\nAccessories\nInstall Subscriber\nDrop Lines and CPE\nInstall Cables and\nDevices for MDU\nSupervise\ninstallation of CATV\nsystem\nCommission CATV\nsystem\nOperate CATV\nsystem\nImplement\npreventive\nmaintenance of\nCATV system\nPerform CATV\nsystem\ntroubleshooting and\nrepair\n\n--- PDF PAGE 69 ---\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAINING REGULATIONS – CATV OPERATION & MAINTENANCE NC III\n Promulgated December 2007 Page 67\nhttp://www.tesda.gov.ph/downloads/default.asp / secjr\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\n• THE TECHNICAL EXPERT COMMITTEE\n\nENGR. FERNANDO C. MORALES\nPresident\nVisayan CATV Network, Inc.\nOrmoc Cable Bldg., Bonifacio St.,\nOrmoc City\n\nMR. JULIAN Z. VENTURA\nPresident\nSinagtala Global Network, Inc.\nMangatarem, Pangasinan\n and\n\nMR. PACITO R. MANLANGIT\nPresident\nCable Television Network, Inc.\nUnit 1102 Cityland-Shaw Tower\nSt. Francis cor. EDSA, Mandaluyong City\nTechnical Committee Chairman\nPhilippine Cable Television Association\n\n• PHILIPPINE CABLE TELEVISION ASSOCIATION, INC. (PCTA)\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT\nCOMMITTEE\n\n• THE MANAGEMENT AND STAFF OF TESDA SECRETARIAT\n\nQualifications and Standards Office (QSO)\n• Competency Standards Division (CSD)\no\nMr. Zoilo C. Galang\no\nMr. Samuel E. Calado, Jr.\n•\nCurriculum and Training Aids Division (CTAD)\no\nMr. Arsenio A. Mateo, Jr."
 }

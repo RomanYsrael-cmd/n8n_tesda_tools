@@ -1,29 +1,133 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:broadband-installation-fixed-wireless-systems-nc-ii:5045185e8a",
   "qualification": "BROADBAND INSTALLATION (FIXED WIRELESS SYSTEMS) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Broadband Installation (Fixed Wireless Systems) NC II.pdf",
-    "sha256": "5045185e8a1f9ce9b555f4f94a3b2f01025547cab72c9b20ae2331b0142e0145",
+    "source_sha256": "5045185e8a1f9ce9b555f4f94a3b2f01025547cab72c9b20ae2331b0142e0145",
+    "pdf_pages": 47,
+    "printed_pages": 45,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "No promulgation date is printed in the page-preserved source header; the canonical promulgated field is null and the missing date is disclosed here.",
+    "The source provides explicit Basic, Common, and Core duration expressions of 18, 18, and 80 hours but no separate total-hours line; the canonical total of 116 hours is the arithmetic sum of those components.",
+    "The source uses nearby qualification title variants, including the singular Fixed Wireless System in running headers and Fixed Wireless Broadband Installation NC II in Section 4; the canonical qualification follows the indexed package and Section 1 title while source_text preserves the variants.",
+    "The core unit headers use the shortened DESCRIPTOR field rather than UNIT DESCRIPTOR; the canonical descriptor flag is normalized from that printed field while source_text preserves the original header."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "No promulgation date is printed in the page-preserved source header; the canonical promulgated field is null and the missing date is disclosed here."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source provides explicit Basic, Common, and Core duration expressions of 18, 18, and 80 hours but no separate total-hours line; the canonical total of 116 hours is the arithmetic sum of those components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses nearby qualification title variants, including the singular Fixed Wireless System in running headers and Fixed Wireless Broadband Installation NC II in Section 4; the canonical qualification follows the indexed package and Section 1 title while source_text preserves the variants."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The core unit headers use the shortened DESCRIPTOR field rather than UNIT DESCRIPTOR; the canonical descriptor flag is normalized from that printed field while source_text preserves the original header."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Broadband Installation (Fixed Wireless Systems) NC II.pdf",
-    "pdf_pages": 47,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "ICT315202",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "ICT311203",
+      "source_unit_code": "ICT311203",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "ICT724601",
+      "source_unit_code": "ICT724601",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "ICT724602",
+      "source_unit_code": "ICT724602",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "ICT724603",
+      "source_unit_code": "ICT724603",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "ICT724604",
+      "source_unit_code": "ICT724604",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    }
+  ]
 }

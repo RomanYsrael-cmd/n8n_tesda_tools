@@ -1,59 +1,1508 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:cad-cam-operation-nc-iii:4ee6c8a912",
-  "qualification": "CAD/CAM OPERATION NC III",
+  "qualification": "CAD CAM OPERATION NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "CAD CAM Operation NC III.pdf",
-    "pdf_pages": 69
+    "pdf_pages": 69,
+    "printed_pages": 67,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 24,
+        "source_expression": "24 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 130,
+        "source_expression": "130 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 80,
+        "source_expression": "80 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 234,
+    "total_source_expression": "234 hrs.",
+    "source_expressions": [
+      "24 hrs. - Basic Competencies",
+      "130 hrs. - Common Competencies",
+      "80 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 234,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for CAD/CAM OPERATION NC III.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: CAD/CAM OPERATION NC Level: NC III\n\nTraining Duration: 24 Hours (Basic)\n 130 Hours (Common)\n\n 80 Hours (Core)\n 234 Hours\n\nCourse Description:\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills\nin CAD/CAM Operatin NC III.\n It covers the competencies required to create drawing using CAD software and\napply CAD/CAM program.\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n\n1.1 Communicate\n information about\n workplace processes\n1.2 Lead workplace\n discussions\n Identify and\n communicate issues\n arising in the\n workplace\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervised team\nperformance\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n--- PDF PAGE 57 ---\nTR – CAD CAM Operation NC III\n\n55\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Plan negotiations\n3.2 Participate in\n negotiations\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n4. Solve\nproblems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine\n fundamental causes\n of the problem\n4.3 Determine corrective\n action\n4.4 Provide\n recommendation/s to\n manager\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n5. Use\nmathematical\nconcepts and\ntechniques\n\n5.1 Identify mathematical\n tools and techniques\n to solve problem\n5.2 Apply procedure /\n solution\n5.3 Analyze results\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n6. Use relevant\ntechnologies\n\n6.1 Study / select\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain / enhance\nrelevant technology\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n questioning\n\n--- PDF PAGE 58 ---\nTR – CAD CAM Operation NC III\n\n56\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\n practices\n\n1.1 Identify hazards\n1.2 Use protective clothing\nand devices\n1.3 Perform safe handling\nof tools, equipment\nand materials\n1.4 Perform first aid\n1.5\nUse fire extinguisher\n• Lecture\n• Group\n discussion\n• Interaction\n• Role playing /\n Simulation\n\n• Observation\n• Demonstration\n• Interview /\n Questioning\n\n2. Interpret\nworking\ndrawing and\nsketches\n\n2.1 Interpret technical\n drawing\n2.2 Prepare freehand\nsketch of parts\n2.3 Interpret details from\n freehand sketch\n• Lecture\n• Group\n discussion\n• Interaction\n\n• Observation\n• Interview /\n Questioning\n\n3. Select / cut\nworkshop\nmaterials\n\n3.1 Determine requirement\n3.2 Select and measure\n materials\n3.3 Cut materials\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n4. Perform shop\ncomputations\n(Basic)\n\n4.1 Perform four\nfundamentals\n operations\n4.2 Perform basic\ncalculations\n involving fractions and\n decimals\n4.3 Perform basic\ncalculations\n involving percentages\n4.4 Perform basic\ncalculation\n involving ration and\n proportion\n4.5 Perform calculations on\nalgebraic expressions\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n5. Measure\n workpiece\n (Basic)\n\n5.1 Select and use\nmeasuring tools\n5.2 Clean and store\nmeasuring tools\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\nQuestioning\n6. Perform\nroutine\nhousekeeping\n\n6.1 Organize work area\n6.2 Clean Work area\n\n• Lecture\n• Group\n discussion\n• Simulation\n• Practical\n exercise\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n--- PDF PAGE 59 ---\nTR – CAD CAM Operation NC III\n\n57\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Perform Shop\ncomputations\n(Intermediate)\n\n7.1 Perform calculations\n involving triangles\n7.2 Calculate taper\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n8. Measure\nworkpiece\nusing angular\nmeasuring\ninstruments\n\n8.1 Select and use angular\n measuring tools\n8.2 Maintain angular\nmeasuring tools\nClean and store\nmeasuring Tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n9. Perform shop\n Computation\n (Advanced)\n\n9.1 Calculate gear ratio\n9.2 Solve indexing\nproblems\n9.3 Solve gearing\nproblems\n9.4 Use geometrical\nprinciples in the\nsolution of problems\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n10. Measure\nworkpiece\n using gages\n and surface\n texture\n comparator\n10.1 Select and use fixed\nand adjustable gages\n10.2 Perform surface\ntexture measurements\n10.3 Clean and store\nmeasuring tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n11. Perform\npreventive\n and\n corrective\n maintenance\n11.1 Perform inspection of\n machine\n11.2 Perform cleaning and\n lubricating of machine\n11.3 Perform minor\n machine repair and\n adjustments\n11.4 Maintain hand tools\n• Lecture\n• Demonstration\n• Group\n discussion\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n12. Operate a\npersonal\ncomputer\n12.1 Start and shut down\n the computer\n12.2 Arrange and\n customize\n desktop display/\n Windows settings\n12.3 Work with files and\nfolders (or directories)\n12.4 Work with user\napplication programs\n12.5 Print information\n12.6 Shut down computer\n• Group\n Discussion\n• Interaction\n• Lecture\n• Demonstration\n• Observation\n• Interviews/\n• Questioning\n• Written Exams\n\n--- PDF PAGE 60 ---\nTR – CAD CAM Operation NC III\n\n58\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Create drawing\nusing CAD\nsoftware\n1.1 Prepare the CAD\n environment\n1.2 Produce basic drawing\n1.3 Modify existing CAD\n drawings\n1.4 Produce drawing output\n1.5 Save and print drawing\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning\n2. Apply\nCAD/CAM\nprogram\n2.1 Determine job\n requirements\n2.2 Create/ import CAD\n drawing\n2.3 Set CAM parameters\n2.4 Create/ edit CNC\n programs\n2.5 Load and run program\n at CNC Machine\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n•\nThe training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards and the\ncurriculum modules;\n•\nAssessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n\n--- PDF PAGE 61 ---\nTR – CAD CAM Operation NC III\n\n59\n•\nModular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n•\nDistance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same place.\nDistance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and their educational\nattainment. Other requirements like health and physical requirements are also\nstated. Passing entry written entrance examinations may also be indicated if\nnecessary.\n\n•\nMust be high school graduate\n•\nWith good moral character;\n•\nAble to communicate in writing\n•\nPhysically and mentally fit\n•\nPreferably with experience in drafting or related field; and\n•\nMust be a holder of CNC Lathe/Milling NC II\n\n--- PDF PAGE 62 ---\nTR – CAD CAM Operation NC III\n\n60\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\nCAD/CAM OPERATION NC III\n\nRecommended list of tools, equipment and materials for the training of 10\ntrainees for CAD/CAM Operation NC III\n\nEQUIPMENT\nQTY\nDescription\nQTY\nDescription\n1 unit\nCNC Lathe\n1 unit\nCNC Milling\n10 units\nCNC CAD CAM System,\nPentium PC with software\n1 unit\nOHP/LCD Projector\n1 unit\nPower hacksaw\n\nSUPPLIES AND MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n2 pcs.\nRound bar CRS\n38mm dia x 150mm\n2 pcs. Round bar CRS\n25.4mm dia x 150mm\n2 pcs.\nRound Bar CRS\n50mm dia. X\n150mm\n2 pcs.\nAluminum bar\n22mm dia x 150mm\n2 pcs.\nAluminum bar 30mm\ndia x 150mm\n2 pcs.\nAluminum bar\n45mm dia. X\n150mm\n2 pcs.\nAluminum bar\n50x50mm x 150mm\n2 pcs.\nAluminum\nbar\n50\nx100mm x 150mm\n2 pcs. Aluminum bar 120\nx120mm x 5m\n2 pcs.\nFlat bar 101.6 x\n100mm x 300mm\n16\npcs.\nPaint brush 2” width\n3\nboxes\nWhiteboard marker\nBlack, Blue and red\ncolor\n10\nreams\nBond paper sub. 20\nA4\n10\npcs.\n256 mb flash drive\n\nTRAINING MATERIALS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nTeachers Guide\n6 pcs.\nManuals\n10pcs.\nSimulation\nsoftware\n\nReference books\n\nCatalogs\n\nBrochures\n\nModules/ LEs\n\nCDs/ Video tapes\n\nHandouts\n\n--- PDF PAGE 63 ---\nTR – CAD CAM Operation NC III\n\n61\n\n TOOLS (Lathe)\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nDovetail cutter 60\ndeg., dia. 16mm\n8 pcs.\nStaggered tooth side\ncutter dia. 36mm x\n5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8 pcs.\nNC start drill 10mm\ndia.\n8 pcs.\nFace Mill, 16 x 20 x\n40mm dia.\n3\nsets\nHand Tap M6, M8,\nM10, M12\n16\npcs.\nCenter drill # 2\n6\nboxes\nDrill bit Φ1mm-\nto13mm at 0 .5\nincrement set\n8\npcs.\neach\nMachine tap M3-M6,\nM8, M10 set\n8 pcs.\nSlot cutter dia. 16\nmm\n8 sets\nEngraving Tool\n8\nsets\nNeedle File\n1 set\nLetter punch\n8 pcs.\nFlat File, 2nd cut, 150\nmm\n8\npcs.\nRubber mallet\n2 pcs.\nBall peen hammer,\n0.5 kgs\n\nTOOLS (Milling)\nTRAINING MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nStaggered tooth\nside cutter dia.\n36mm x 5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8\npcs.\neach\nBall nose endmill, 3,\n6, 8, 10, 12mm\n3 pcs.\neach\nFace Mill, 40, 50, 63\nmm dia.\n3 sets\nHand Tap M6, M8,\nM10, M12\n8\npcs.\nNC start drill 10mm\ndia.\n8 pcs.\nDovetail cutter, 16\nmm dia.\n6\nboxes\nDrill bit dia.1mm-\n13mm set\n8\npcs.\neach\nMachine tap M5,\nM6, M8, M10 , M12\n16\npcs.\nCenter drill # 2\n8 pcs.\nSlot cutter dia. 16 mm\n8\nsets\nEngraving Tool\n8 pcs.\nEdge finder\n2 sets\nNeedle File\n8\npcs.\nFlat File, 2nd cut,\n150 mm\n8 pcs.\nRubber mallet\n1 set\nLetter punch\n2\npcs.\nBall peen hammer,\n0.5 kgs\n\nMEASURING INSTRUMENTS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nVernier caliper\n(Digital) 150mm\n8 pcs.\nMicrometer (Digital)\n0- 25 mm\n8\npcs.\nDial indicator with\nmagnetic stand,\nlever-type, 0.01\nleast count\n1 pc.\nPrecision Bevel\nprotractor\n1 pc.\nThread pitch gage\n1\nset\nGage block\n(optional)\n1 pc.\nVernier height gage\nwith dial indicator\n(optional)\n8 pcs.\n Depth gage\nmicrometer\n\n--- PDF PAGE 64 ---\nTR – CAD CAM Operation NC III\n\n62\n3.5 TRAINING FACILITIES\nCAD/CAM OPERATION NC III\n\nThe CNC Machining workshop must be of concrete structure for 10 trainees. The\nspace requirements for the teaching/learning and circulation areas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n• Building\n (Permanent)\n\n79M x 25M\n\n1,975 sq. M\n• CNC Training System\n(CNC/CAD/CAM room)\n\n7.5M x 11.0M\n\n82.5 sq.M\n\n82.5 sq.M\n• CNC Basic Milling\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Basic Turning\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Intermediate and\nProduction workshop\n\n7.5M x 11.0M\n\n82.5 sq. M\n\n82.5 sq. M\n• Quality Control room\n\n10.0M x 11.0M\n\n110 sq. M\n\n110 sq. M\n• Learning Resource\nCenter\n\n5.0M x 5.0M\n\n25 sq. M\n\n25 sq. M\n• Audio Visual room\n\n5.0M x5.0M\n\n25 sq. M\n\n25 sq. M\n• Tool Room and\nStorage\n\n10.0M x 11.0M\n\n110 sq M\n\n110 sq M\n\n•Metrology room\n\n7.0M x 11.0M\n\n70 sq. M\n\n70 sq. M\n\n3.6 TRAINER’S QUALIFICATIONS FOR CAD/CAM OPERATION NC III\n\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of CAD/CAM Operation NC III or equivalent qualification\n• Must have undergone training on Training Methodology II (TM II) or equivalent\nin training experience\n• Must be physically and mentally fit\n• *Must have at least 2 years relevant job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each unit\nof competency.\n\n--- PDF PAGE 65 ---\nTR – CAD CAM Operation NC III\n\n63"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions Identify and communicate issues arising in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectations for team members",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervised team performance",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 56
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Plan negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Group"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews/ Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Group"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Determine fundamental causes",
+        "learning_activities": [],
+        "methodology": [
+          "discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews/ Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine corrective action",
+        "learning_activities": [],
+        "methodology": [
+          "Group"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Provide recommendation/s to manager",
+        "learning_activities": [],
+        "methodology": [
+          "Group"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply procedure / solution",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Study / select appropriate technology",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain / enhance relevant technology",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 57
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply safety practices",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Identify hazards",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply safety practices",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Use protective clothing and devices",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Interview /"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply safety practices",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Perform safe handling",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction",
+          "Role playing / Simulation"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply safety practices",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Perform first aid",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply safety practices",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Use fire extinguisher",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722202",
+        "unit_title": "Interpret working drawings and sketches",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Interpret technical drawing",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interview /"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722202",
+        "unit_title": "Interpret working drawings and sketches",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Prepare freehand sketch of parts",
+        "learning_activities": [],
+        "methodology": [
+          "discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722202",
+        "unit_title": "Interpret working drawings and sketches",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Interpret details from freehand sketch",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interview /"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722203",
+        "unit_title": "Select/cut workshop materials",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Determine requirement",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722203",
+        "unit_title": "Select/cut workshop materials",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Select and measure materials",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722203",
+        "unit_title": "Select/cut workshop materials",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Cut materials",
+        "learning_activities": [],
+        "methodology": [
+          "exercise"
+        ],
+        "assessment_approach": [
+          "test",
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Basic)",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Perform four fundamentals",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Basic)",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Perform basic calculations involving fractions and decimals",
+        "learning_activities": [],
+        "methodology": [
+          "exercise"
+        ],
+        "assessment_approach": [
+          "test",
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Basic)",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Perform basic calculations involving percentages",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Basic)",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Perform basic calculation involving ration and proportion",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Basic)",
+        "learning_outcome_number": "4.5",
+        "learning_outcome": "Perform calculations on algebraic expressions",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722205",
+        "unit_title": "Measure workpiece (Basic)",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Select and use measuring tools",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722205",
+        "unit_title": "Measure workpiece (Basic)",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Clean and store measuring tools",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Performance test",
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722206",
+        "unit_title": "Perform routine housekeeping",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Organize work area",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722206",
+        "unit_title": "Perform routine housekeeping",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Clean Work area",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Simulation",
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Performance test",
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 58
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722207",
+        "unit_title": "Perform shop computations (Intermediate)",
+        "learning_outcome_number": "7.1",
+        "learning_outcome": "Perform calculations involving triangles",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722207",
+        "unit_title": "Perform shop computations (Intermediate)",
+        "learning_outcome_number": "7.2",
+        "learning_outcome": "Calculate taper",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Performance test",
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722208",
+        "unit_title": "Measure workpiece using angular measuring instruments",
+        "learning_outcome_number": "8.1",
+        "learning_outcome": "Select and use angular measuring tools",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722208",
+        "unit_title": "Measure workpiece using angular measuring instruments",
+        "learning_outcome_number": "8.2",
+        "learning_outcome": "Maintain angular measuring tools Clean and store measuring Tools",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Performance test",
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722209",
+        "unit_title": "Perform shop computations (Advanced)",
+        "learning_outcome_number": "9.1",
+        "learning_outcome": "Calculate gear ratio",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722209",
+        "unit_title": "Perform shop computations (Advanced)",
+        "learning_outcome_number": "9.2",
+        "learning_outcome": "Solve indexing problems",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722209",
+        "unit_title": "Perform shop computations (Advanced)",
+        "learning_outcome_number": "9.3",
+        "learning_outcome": "Solve gearing problems",
+        "learning_activities": [],
+        "methodology": [
+          "exercise"
+        ],
+        "assessment_approach": [
+          "test",
+          "Interview /"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722209",
+        "unit_title": "Perform shop computations (Advanced)",
+        "learning_outcome_number": "9.4",
+        "learning_outcome": "Use geometrical principles in the solution of problems",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722210",
+        "unit_title": "Measure workpiece using gages and surface texture comparator",
+        "learning_outcome_number": "10.1",
+        "learning_outcome": "Select and use fixed and adjustable gages",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722210",
+        "unit_title": "Measure workpiece using gages and surface texture comparator",
+        "learning_outcome_number": "10.2",
+        "learning_outcome": "Perform surface texture measurements",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Performance test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722210",
+        "unit_title": "Measure workpiece using gages and surface texture comparator",
+        "learning_outcome_number": "10.3",
+        "learning_outcome": "Clean and store measuring tools",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722211",
+        "unit_title": "Perform preventive and corrective maintenance",
+        "learning_outcome_number": "11.1",
+        "learning_outcome": "Perform inspection of machine",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722211",
+        "unit_title": "Perform preventive and corrective maintenance",
+        "learning_outcome_number": "11.2",
+        "learning_outcome": "Perform cleaning and lubricating of machine",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Performance test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722211",
+        "unit_title": "Perform preventive and corrective maintenance",
+        "learning_outcome_number": "11.3",
+        "learning_outcome": "Perform minor machine repair and adjustments",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722211",
+        "unit_title": "Perform preventive and corrective maintenance",
+        "learning_outcome_number": "11.4",
+        "learning_outcome": "Maintain hand tools",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311201",
+        "unit_title": "Operate a personal computer",
+        "learning_outcome_number": "12.1",
+        "learning_outcome": "Start and shut down the computer",
+        "learning_activities": [],
+        "methodology": [
+          "Group Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311201",
+        "unit_title": "Operate a personal computer",
+        "learning_outcome_number": "12.2",
+        "learning_outcome": "Arrange and customize desktop display/ Windows settings",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction",
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Interviews/",
+          "Questioning",
+          "Written Exams"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311201",
+        "unit_title": "Operate a personal computer",
+        "learning_outcome_number": "12.3",
+        "learning_outcome": "Work with files and folders (or directories)",
+        "learning_activities": [],
+        "methodology": [
+          "Group Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311201",
+        "unit_title": "Operate a personal computer",
+        "learning_outcome_number": "12.4",
+        "learning_outcome": "Work with user application programs",
+        "learning_activities": [],
+        "methodology": [
+          "Group Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311201",
+        "unit_title": "Operate a personal computer",
+        "learning_outcome_number": "12.5",
+        "learning_outcome": "Print information",
+        "learning_activities": [],
+        "methodology": [
+          "Group Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311201",
+        "unit_title": "Operate a personal computer",
+        "learning_outcome_number": "12.6",
+        "learning_outcome": "Shut down computer",
+        "learning_activities": [],
+        "methodology": [
+          "Group Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 59
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE312301",
+        "unit_title": "Create drawing using CAD software",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Prepare the CAD environment",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE312301",
+        "unit_title": "Create drawing using CAD software",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Produce basic drawing",
+        "learning_activities": [],
+        "methodology": [
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Performance"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE312301",
+        "unit_title": "Create drawing using CAD software",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Modify existing CAD drawings",
+        "learning_activities": [],
+        "methodology": [
+          "exercise"
+        ],
+        "assessment_approach": [
+          "test",
+          "Interview/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE312301",
+        "unit_title": "Create drawing using CAD software",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Produce drawing output",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE312301",
+        "unit_title": "Create drawing using CAD software",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Save and print drawing",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE821313",
+        "unit_title": "Apply CAD/CAM program",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Determine job requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE821313",
+        "unit_title": "Apply CAD/CAM program",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Create/ import CAD drawing",
+        "learning_activities": [],
+        "methodology": [
+          "Practical exercise"
+        ],
+        "assessment_approach": [
+          "Performance test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE821313",
+        "unit_title": "Apply CAD/CAM program",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set CAM parameters",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Interview/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE821313",
+        "unit_title": "Apply CAD/CAM program",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Create/ edit CNC programs",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE821313",
+        "unit_title": "Apply CAD/CAM program",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Load and run program at CNC Machine",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 60
+      }
+    ],
+    "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: CAD/CAM OPERATION NC Level: NC III\n\nTraining Duration: 24 Hours (Basic)\n 130 Hours (Common)\n\n 80 Hours (Core)\n 234 Hours\n\nCourse Description:\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills\nin CAD/CAM Operatin NC III.\n It covers the competencies required to create drawing using CAD software and\napply CAD/CAM program.\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n\n1.1 Communicate\n information about\n workplace processes\n1.2 Lead workplace\n discussions\n Identify and\n communicate issues\n arising in the\n workplace\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervised team\nperformance\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n--- PDF PAGE 57 ---\nTR – CAD CAM Operation NC III\n\n55\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Plan negotiations\n3.2 Participate in\n negotiations\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n4. Solve\nproblems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine\n fundamental causes\n of the problem\n4.3 Determine corrective\n action\n4.4 Provide\n recommendation/s to\n manager\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n5. Use\nmathematical\nconcepts and\ntechniques\n\n5.1 Identify mathematical\n tools and techniques\n to solve problem\n5.2 Apply procedure /\n solution\n5.3 Analyze results\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n6. Use relevant\ntechnologies\n\n6.1 Study / select\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain / enhance\nrelevant technology\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n questioning\n\n--- PDF PAGE 58 ---\nTR – CAD CAM Operation NC III\n\n56\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\n practices\n\n1.1 Identify hazards\n1.2 Use protective clothing\nand devices\n1.3 Perform safe handling\nof tools, equipment\nand materials\n1.4 Perform first aid\n1.5\nUse fire extinguisher\n• Lecture\n• Group\n discussion\n• Interaction\n• Role playing /\n Simulation\n\n• Observation\n• Demonstration\n• Interview /\n Questioning\n\n2. Interpret\nworking\ndrawing and\nsketches\n\n2.1 Interpret technical\n drawing\n2.2 Prepare freehand\nsketch of parts\n2.3 Interpret details from\n freehand sketch\n• Lecture\n• Group\n discussion\n• Interaction\n\n• Observation\n• Interview /\n Questioning\n\n3. Select / cut\nworkshop\nmaterials\n\n3.1 Determine requirement\n3.2 Select and measure\n materials\n3.3 Cut materials\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n4. Perform shop\ncomputations\n(Basic)\n\n4.1 Perform four\nfundamentals\n operations\n4.2 Perform basic\ncalculations\n involving fractions and\n decimals\n4.3 Perform basic\ncalculations\n involving percentages\n4.4 Perform basic\ncalculation\n involving ration and\n proportion\n4.5 Perform calculations on\nalgebraic expressions\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n5. Measure\n workpiece\n (Basic)\n\n5.1 Select and use\nmeasuring tools\n5.2 Clean and store\nmeasuring tools\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\nQuestioning\n6. Perform\nroutine\nhousekeeping\n\n6.1 Organize work area\n6.2 Clean Work area\n\n• Lecture\n• Group\n discussion\n• Simulation\n• Practical\n exercise\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n--- PDF PAGE 59 ---\nTR – CAD CAM Operation NC III\n\n57\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Perform Shop\ncomputations\n(Intermediate)\n\n7.1 Perform calculations\n involving triangles\n7.2 Calculate taper\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n8. Measure\nworkpiece\nusing angular\nmeasuring\ninstruments\n\n8.1 Select and use angular\n measuring tools\n8.2 Maintain angular\nmeasuring tools\nClean and store\nmeasuring Tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n9. Perform shop\n Computation\n (Advanced)\n\n9.1 Calculate gear ratio\n9.2 Solve indexing\nproblems\n9.3 Solve gearing\nproblems\n9.4 Use geometrical\nprinciples in the\nsolution of problems\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n10. Measure\nworkpiece\n using gages\n and surface\n texture\n comparator\n10.1 Select and use fixed\nand adjustable gages\n10.2 Perform surface\ntexture measurements\n10.3 Clean and store\nmeasuring tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n11. Perform\npreventive\n and\n corrective\n maintenance\n11.1 Perform inspection of\n machine\n11.2 Perform cleaning and\n lubricating of machine\n11.3 Perform minor\n machine repair and\n adjustments\n11.4 Maintain hand tools\n• Lecture\n• Demonstration\n• Group\n discussion\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n12. Operate a\npersonal\ncomputer\n12.1 Start and shut down\n the computer\n12.2 Arrange and\n customize\n desktop display/\n Windows settings\n12.3 Work with files and\nfolders (or directories)\n12.4 Work with user\napplication programs\n12.5 Print information\n12.6 Shut down computer\n• Group\n Discussion\n• Interaction\n• Lecture\n• Demonstration\n• Observation\n• Interviews/\n• Questioning\n• Written Exams\n\n--- PDF PAGE 60 ---\nTR – CAD CAM Operation NC III\n\n58\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Create drawing\nusing CAD\nsoftware\n1.1 Prepare the CAD\n environment\n1.2 Produce basic drawing\n1.3 Modify existing CAD\n drawings\n1.4 Produce drawing output\n1.5 Save and print drawing\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning\n2. Apply\nCAD/CAM\nprogram\n2.1 Determine job\n requirements\n2.2 Create/ import CAD\n drawing\n2.3 Set CAM parameters\n2.4 Create/ edit CNC\n programs\n2.5 Load and run program\n at CNC Machine\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: CAD/CAM OPERATION NC Level: NC III\n\nTraining Duration: 24 Hours (Basic)\n 130 Hours (Common)\n\n 80 Hours (Core)\n 234 Hours\n\nCourse Description:\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills\nin CAD/CAM Operatin NC III.\n It covers the competencies required to create drawing using CAD software and\napply CAD/CAM program.\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n\n1.1 Communicate\n information about\n workplace processes\n1.2 Lead workplace\n discussions\n Identify and\n communicate issues\n arising in the\n workplace\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervised team\nperformance\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n--- PDF PAGE 57 ---\nTR – CAD CAM Operation NC III\n\n55\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Plan negotiations\n3.2 Participate in\n negotiations\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n4. Solve\nproblems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine\n fundamental causes\n of the problem\n4.3 Determine corrective\n action\n4.4 Provide\n recommendation/s to\n manager\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n5. Use\nmathematical\nconcepts and\ntechniques\n\n5.1 Identify mathematical\n tools and techniques\n to solve problem\n5.2 Apply procedure /\n solution\n5.3 Analyze results\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n6. Use relevant\ntechnologies\n\n6.1 Study / select\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain / enhance\nrelevant technology\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n questioning\n\n--- PDF PAGE 58 ---\nTR – CAD CAM Operation NC III\n\n56\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\n practices\n\n1.1 Identify hazards\n1.2 Use protective clothing\nand devices\n1.3 Perform safe handling\nof tools, equipment\nand materials\n1.4 Perform first aid\n1.5\nUse fire extinguisher\n• Lecture\n• Group\n discussion\n• Interaction\n• Role playing /\n Simulation\n\n• Observation\n• Demonstration\n• Interview /\n Questioning\n\n2. Interpret\nworking\ndrawing and\nsketches\n\n2.1 Interpret technical\n drawing\n2.2 Prepare freehand\nsketch of parts\n2.3 Interpret details from\n freehand sketch\n• Lecture\n• Group\n discussion\n• Interaction\n\n• Observation\n• Interview /\n Questioning\n\n3. Select / cut\nworkshop\nmaterials\n\n3.1 Determine requirement\n3.2 Select and measure\n materials\n3.3 Cut materials\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n4. Perform shop\ncomputations\n(Basic)\n\n4.1 Perform four\nfundamentals\n operations\n4.2 Perform basic\ncalculations\n involving fractions and\n decimals\n4.3 Perform basic\ncalculations\n involving percentages\n4.4 Perform basic\ncalculation\n involving ration and\n proportion\n4.5 Perform calculations on\nalgebraic expressions\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n5. Measure\n workpiece\n (Basic)\n\n5.1 Select and use\nmeasuring tools\n5.2 Clean and store\nmeasuring tools\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\nQuestioning\n6. Perform\nroutine\nhousekeeping\n\n6.1 Organize work area\n6.2 Clean Work area\n\n• Lecture\n• Group\n discussion\n• Simulation\n• Practical\n exercise\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n--- PDF PAGE 59 ---\nTR – CAD CAM Operation NC III\n\n57\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Perform Shop\ncomputations\n(Intermediate)\n\n7.1 Perform calculations\n involving triangles\n7.2 Calculate taper\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n8. Measure\nworkpiece\nusing angular\nmeasuring\ninstruments\n\n8.1 Select and use angular\n measuring tools\n8.2 Maintain angular\nmeasuring tools\nClean and store\nmeasuring Tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n9. Perform shop\n Computation\n (Advanced)\n\n9.1 Calculate gear ratio\n9.2 Solve indexing\nproblems\n9.3 Solve gearing\nproblems\n9.4 Use geometrical\nprinciples in the\nsolution of problems\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n10. Measure\nworkpiece\n using gages\n and surface\n texture\n comparator\n10.1 Select and use fixed\nand adjustable gages\n10.2 Perform surface\ntexture measurements\n10.3 Clean and store\nmeasuring tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n11. Perform\npreventive\n and\n corrective\n maintenance\n11.1 Perform inspection of\n machine\n11.2 Perform cleaning and\n lubricating of machine\n11.3 Perform minor\n machine repair and\n adjustments\n11.4 Maintain hand tools\n• Lecture\n• Demonstration\n• Group\n discussion\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n12. Operate a\npersonal\ncomputer\n12.1 Start and shut down\n the computer\n12.2 Arrange and\n customize\n desktop display/\n Windows settings\n12.3 Work with files and\nfolders (or directories)\n12.4 Work with user\napplication programs\n12.5 Print information\n12.6 Shut down computer\n• Group\n Discussion\n• Interaction\n• Lecture\n• Demonstration\n• Observation\n• Interviews/\n• Questioning\n• Written Exams\n\n--- PDF PAGE 60 ---\nTR – CAD CAM Operation NC III\n\n58\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Create drawing\nusing CAD\nsoftware\n1.1 Prepare the CAD\n environment\n1.2 Produce basic drawing\n1.3 Modify existing CAD\n drawings\n1.4 Produce drawing output\n1.5 Save and print drawing\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning\n2. Apply\nCAD/CAM\nprogram\n2.1 Determine job\n requirements\n2.2 Create/ import CAD\n drawing\n2.3 Set CAM parameters\n2.4 Create/ edit CNC\n programs\n2.5 Load and run program\n at CNC Machine\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning",
-      "pdf_pages": []
+      "pdf_pages": [
+        56
+      ],
+      "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: CAD/CAM OPERATION NC Level: NC III\n\nTraining Duration: 24 Hours (Basic)\n 130 Hours (Common)\n\n 80 Hours (Core)\n 234 Hours\n\nCourse Description:\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills\nin CAD/CAM Operatin NC III.\n It covers the competencies required to create drawing using CAD software and\napply CAD/CAM program.\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n\n1.1 Communicate\n information about\n workplace processes\n1.2 Lead workplace\n discussions\n Identify and\n communicate issues\n arising in the\n workplace\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervised team\nperformance\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n--- PDF PAGE 57 ---\nTR – CAD CAM Operation NC III\n\n55\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Plan negotiations\n3.2 Participate in\n negotiations\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n4. Solve\nproblems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine\n fundamental causes\n of the problem\n4.3 Determine corrective\n action\n4.4 Provide\n recommendation/s to\n manager\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n5. Use\nmathematical\nconcepts and\ntechniques\n\n5.1 Identify mathematical\n tools and techniques\n to solve problem\n5.2 Apply procedure /\n solution\n5.3 Analyze results\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n6. Use relevant\ntechnologies\n\n6.1 Study / select\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain / enhance\nrelevant technology\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n questioning\n\n--- PDF PAGE 58 ---\nTR – CAD CAM Operation NC III\n\n56\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\n practices\n\n1.1 Identify hazards\n1.2 Use protective clothing\nand devices\n1.3 Perform safe handling\nof tools, equipment\nand materials\n1.4 Perform first aid\n1.5\nUse fire extinguisher\n• Lecture\n• Group\n discussion\n• Interaction\n• Role playing /\n Simulation\n\n• Observation\n• Demonstration\n• Interview /\n Questioning\n\n2. Interpret\nworking\ndrawing and\nsketches\n\n2.1 Interpret technical\n drawing\n2.2 Prepare freehand\nsketch of parts\n2.3 Interpret details from\n freehand sketch\n• Lecture\n• Group\n discussion\n• Interaction\n\n• Observation\n• Interview /\n Questioning\n\n3. Select / cut\nworkshop\nmaterials\n\n3.1 Determine requirement\n3.2 Select and measure\n materials\n3.3 Cut materials\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n4. Perform shop\ncomputations\n(Basic)\n\n4.1 Perform four\nfundamentals\n operations\n4.2 Perform basic\ncalculations\n involving fractions and\n decimals\n4.3 Perform basic\ncalculations\n involving percentages\n4.4 Perform basic\ncalculation\n involving ration and\n proportion\n4.5 Perform calculations on\nalgebraic expressions\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n5. Measure\n workpiece\n (Basic)\n\n5.1 Select and use\nmeasuring tools\n5.2 Clean and store\nmeasuring tools\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\nQuestioning\n6. Perform\nroutine\nhousekeeping\n\n6.1 Organize work area\n6.2 Clean Work area\n\n• Lecture\n• Group\n discussion\n• Simulation\n• Practical\n exercise\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n--- PDF PAGE 59 ---\nTR – CAD CAM Operation NC III\n\n57\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Perform Shop\ncomputations\n(Intermediate)\n\n7.1 Perform calculations\n involving triangles\n7.2 Calculate taper\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n8. Measure\nworkpiece\nusing angular\nmeasuring\ninstruments\n\n8.1 Select and use angular\n measuring tools\n8.2 Maintain angular\nmeasuring tools\nClean and store\nmeasuring Tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n9. Perform shop\n Computation\n (Advanced)\n\n9.1 Calculate gear ratio\n9.2 Solve indexing\nproblems\n9.3 Solve gearing\nproblems\n9.4 Use geometrical\nprinciples in the\nsolution of problems\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n10. Measure\nworkpiece\n using gages\n and surface\n texture\n comparator\n10.1 Select and use fixed\nand adjustable gages\n10.2 Perform surface\ntexture measurements\n10.3 Clean and store\nmeasuring tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n11. Perform\npreventive\n and\n corrective\n maintenance\n11.1 Perform inspection of\n machine\n11.2 Perform cleaning and\n lubricating of machine\n11.3 Perform minor\n machine repair and\n adjustments\n11.4 Maintain hand tools\n• Lecture\n• Demonstration\n• Group\n discussion\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n12. Operate a\npersonal\ncomputer\n12.1 Start and shut down\n the computer\n12.2 Arrange and\n customize\n desktop display/\n Windows settings\n12.3 Work with files and\nfolders (or directories)\n12.4 Work with user\napplication programs\n12.5 Print information\n12.6 Shut down computer\n• Group\n Discussion\n• Interaction\n• Lecture\n• Demonstration\n• Observation\n• Interviews/\n• Questioning\n• Written Exams\n\n--- PDF PAGE 60 ---\nTR – CAD CAM Operation NC III\n\n58\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Create drawing\nusing CAD\nsoftware\n1.1 Prepare the CAD\n environment\n1.2 Produce basic drawing\n1.3 Modify existing CAD\n drawings\n1.4 Produce drawing output\n1.5 Save and print drawing\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning\n2. Apply\nCAD/CAM\nprogram\n2.1 Determine job\n requirements\n2.2 Create/ import CAD\n drawing\n2.3 Set CAM parameters\n2.4 Create/ edit CNC\n programs\n2.5 Load and run program\n at CNC Machine\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n•\nThe training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards and the\ncurriculum modules;\n•\nAssessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n\n--- PDF PAGE 61 ---\nTR – CAD CAM Operation NC III\n\n59\n•\nModular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n•\nDistance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same place.\nDistance learning may employ correspondence study, audio, video or\ncomputer technologies.",
-      "pdf_pages": []
+      "pdf_pages": [
+        60,
+        61
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n•\nThe training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards and the\ncurriculum modules;\n•\nAssessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n\n--- PDF PAGE 61 ---\nTR – CAD CAM Operation NC III\n\n59\n•\nModular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n•\nDistance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same place.\nDistance learning may employ correspondence study, audio, video or\ncomputer technologies."
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "This section specifies the qualifications of trainees and their educational\nattainment. Other requirements like health and physical requirements are also\nstated. Passing entry written entrance examinations may also be indicated if\nnecessary.\n\n•\nMust be high school graduate\n•\nWith good moral character;\n•\nAble to communicate in writing\n•\nPhysically and mentally fit\n•\nPreferably with experience in drafting or related field; and\n•\nMust be a holder of CNC Lathe/Milling NC II\n\n--- PDF PAGE 62 ---\nTR – CAD CAM Operation NC III\n\n60",
-      "pdf_pages": []
+      "pdf_pages": [
+        61
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and their educational\nattainment. Other requirements like health and physical requirements are also\nstated. Passing entry written entrance examinations may also be indicated if\nnecessary.\n\n•\nMust be high school graduate\n•\nWith good moral character;\n•\nAble to communicate in writing\n•\nPhysically and mentally fit\n•\nPreferably with experience in drafting or related field; and\n•\nMust be a holder of CNC Lathe/Milling NC II\n\n--- PDF PAGE 62 ---\nTR – CAD CAM Operation NC III\n\n60"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\nCAD/CAM OPERATION NC III\n\nRecommended list of tools, equipment and materials for the training of 10\ntrainees for CAD/CAM Operation NC III\n\nEQUIPMENT\nQTY\nDescription\nQTY\nDescription\n1 unit\nCNC Lathe\n1 unit\nCNC Milling\n10 units\nCNC CAD CAM System,\nPentium PC with software\n1 unit\nOHP/LCD Projector\n1 unit\nPower hacksaw\n\nSUPPLIES AND MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n2 pcs.\nRound bar CRS\n38mm dia x 150mm\n2 pcs. Round bar CRS\n25.4mm dia x 150mm\n2 pcs.\nRound Bar CRS\n50mm dia. X\n150mm\n2 pcs.\nAluminum bar\n22mm dia x 150mm\n2 pcs.\nAluminum bar 30mm\ndia x 150mm\n2 pcs.\nAluminum bar\n45mm dia. X\n150mm\n2 pcs.\nAluminum bar\n50x50mm x 150mm\n2 pcs.\nAluminum\nbar\n50\nx100mm x 150mm\n2 pcs. Aluminum bar 120\nx120mm x 5m\n2 pcs.\nFlat bar 101.6 x\n100mm x 300mm\n16\npcs.\nPaint brush 2” width\n3\nboxes\nWhiteboard marker\nBlack, Blue and red\ncolor\n10\nreams\nBond paper sub. 20\nA4\n10\npcs.\n256 mb flash drive\n\nTRAINING MATERIALS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nTeachers Guide\n6 pcs.\nManuals\n10pcs.\nSimulation\nsoftware\n\nReference books\n\nCatalogs\n\nBrochures\n\nModules/ LEs\n\nCDs/ Video tapes\n\nHandouts\n\n--- PDF PAGE 63 ---\nTR – CAD CAM Operation NC III\n\n61\n\n TOOLS (Lathe)\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nDovetail cutter 60\ndeg., dia. 16mm\n8 pcs.\nStaggered tooth side\ncutter dia. 36mm x\n5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8 pcs.\nNC start drill 10mm\ndia.\n8 pcs.\nFace Mill, 16 x 20 x\n40mm dia.\n3\nsets\nHand Tap M6, M8,\nM10, M12\n16\npcs.\nCenter drill # 2\n6\nboxes\nDrill bit Φ1mm-\nto13mm at 0 .5\nincrement set\n8\npcs.\neach\nMachine tap M3-M6,\nM8, M10 set\n8 pcs.\nSlot cutter dia. 16\nmm\n8 sets\nEngraving Tool\n8\nsets\nNeedle File\n1 set\nLetter punch\n8 pcs.\nFlat File, 2nd cut, 150\nmm\n8\npcs.\nRubber mallet\n2 pcs.\nBall peen hammer,\n0.5 kgs\n\nTOOLS (Milling)\nTRAINING MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nStaggered tooth\nside cutter dia.\n36mm x 5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8\npcs.\neach\nBall nose endmill, 3,\n6, 8, 10, 12mm\n3 pcs.\neach\nFace Mill, 40, 50, 63\nmm dia.\n3 sets\nHand Tap M6, M8,\nM10, M12\n8\npcs.\nNC start drill 10mm\ndia.\n8 pcs.\nDovetail cutter, 16\nmm dia.\n6\nboxes\nDrill bit dia.1mm-\n13mm set\n8\npcs.\neach\nMachine tap M5,\nM6, M8, M10 , M12\n16\npcs.\nCenter drill # 2\n8 pcs.\nSlot cutter dia. 16 mm\n8\nsets\nEngraving Tool\n8 pcs.\nEdge finder\n2 sets\nNeedle File\n8\npcs.\nFlat File, 2nd cut,\n150 mm\n8 pcs.\nRubber mallet\n1 set\nLetter punch\n2\npcs.\nBall peen hammer,\n0.5 kgs\n\nMEASURING INSTRUMENTS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nVernier caliper\n(Digital) 150mm\n8 pcs.\nMicrometer (Digital)\n0- 25 mm\n8\npcs.\nDial indicator with\nmagnetic stand,\nlever-type, 0.01\nleast count\n1 pc.\nPrecision Bevel\nprotractor\n1 pc.\nThread pitch gage\n1\nset\nGage block\n(optional)\n1 pc.\nVernier height gage\nwith dial indicator\n(optional)\n8 pcs.\n Depth gage\nmicrometer\n\n--- PDF PAGE 64 ---\nTR – CAD CAM Operation NC III\n\n62",
-      "pdf_pages": []
+      "pdf_pages": [
+        58,
+        62
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\nCAD/CAM OPERATION NC III\n\nRecommended list of tools, equipment and materials for the training of 10\ntrainees for CAD/CAM Operation NC III\n\nEQUIPMENT\nQTY\nDescription\nQTY\nDescription\n1 unit\nCNC Lathe\n1 unit\nCNC Milling\n10 units\nCNC CAD CAM System,\nPentium PC with software\n1 unit\nOHP/LCD Projector\n1 unit\nPower hacksaw\n\nSUPPLIES AND MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n2 pcs.\nRound bar CRS\n38mm dia x 150mm\n2 pcs. Round bar CRS\n25.4mm dia x 150mm\n2 pcs.\nRound Bar CRS\n50mm dia. X\n150mm\n2 pcs.\nAluminum bar\n22mm dia x 150mm\n2 pcs.\nAluminum bar 30mm\ndia x 150mm\n2 pcs.\nAluminum bar\n45mm dia. X\n150mm\n2 pcs.\nAluminum bar\n50x50mm x 150mm\n2 pcs.\nAluminum\nbar\n50\nx100mm x 150mm\n2 pcs. Aluminum bar 120\nx120mm x 5m\n2 pcs.\nFlat bar 101.6 x\n100mm x 300mm\n16\npcs.\nPaint brush 2” width\n3\nboxes\nWhiteboard marker\nBlack, Blue and red\ncolor\n10\nreams\nBond paper sub. 20\nA4\n10\npcs.\n256 mb flash drive\n\nTRAINING MATERIALS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nTeachers Guide\n6 pcs.\nManuals\n10pcs.\nSimulation\nsoftware\n\nReference books\n\nCatalogs\n\nBrochures\n\nModules/ LEs\n\nCDs/ Video tapes\n\nHandouts\n\n--- PDF PAGE 63 ---\nTR – CAD CAM Operation NC III\n\n61\n\n TOOLS (Lathe)\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nDovetail cutter 60\ndeg., dia. 16mm\n8 pcs.\nStaggered tooth side\ncutter dia. 36mm x\n5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8 pcs.\nNC start drill 10mm\ndia.\n8 pcs.\nFace Mill, 16 x 20 x\n40mm dia.\n3\nsets\nHand Tap M6, M8,\nM10, M12\n16\npcs.\nCenter drill # 2\n6\nboxes\nDrill bit Φ1mm-\nto13mm at 0 .5\nincrement set\n8\npcs.\neach\nMachine tap M3-M6,\nM8, M10 set\n8 pcs.\nSlot cutter dia. 16\nmm\n8 sets\nEngraving Tool\n8\nsets\nNeedle File\n1 set\nLetter punch\n8 pcs.\nFlat File, 2nd cut, 150\nmm\n8\npcs.\nRubber mallet\n2 pcs.\nBall peen hammer,\n0.5 kgs\n\nTOOLS (Milling)\nTRAINING MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nStaggered tooth\nside cutter dia.\n36mm x 5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8\npcs.\neach\nBall nose endmill, 3,\n6, 8, 10, 12mm\n3 pcs.\neach\nFace Mill, 40, 50, 63\nmm dia.\n3 sets\nHand Tap M6, M8,\nM10, M12\n8\npcs.\nNC start drill 10mm\ndia.\n8 pcs.\nDovetail cutter, 16\nmm dia.\n6\nboxes\nDrill bit dia.1mm-\n13mm set\n8\npcs.\neach\nMachine tap M5,\nM6, M8, M10 , M12\n16\npcs.\nCenter drill # 2\n8 pcs.\nSlot cutter dia. 16 mm\n8\nsets\nEngraving Tool\n8 pcs.\nEdge finder\n2 sets\nNeedle File\n8\npcs.\nFlat File, 2nd cut,\n150 mm\n8 pcs.\nRubber mallet\n1 set\nLetter punch\n2\npcs.\nBall peen hammer,\n0.5 kgs\n\nMEASURING INSTRUMENTS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nVernier caliper\n(Digital) 150mm\n8 pcs.\nMicrometer (Digital)\n0- 25 mm\n8\npcs.\nDial indicator with\nmagnetic stand,\nlever-type, 0.01\nleast count\n1 pc.\nPrecision Bevel\nprotractor\n1 pc.\nThread pitch gage\n1\nset\nGage block\n(optional)\n1 pc.\nVernier height gage\nwith dial indicator\n(optional)\n8 pcs.\n Depth gage\nmicrometer\n\n--- PDF PAGE 64 ---\nTR – CAD CAM Operation NC III\n\n62"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "CAD/CAM OPERATION NC III\n\nThe CNC Machining workshop must be of concrete structure for 10 trainees. The\nspace requirements for the teaching/learning and circulation areas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n• Building\n (Permanent)\n\n79M x 25M\n\n1,975 sq. M\n• CNC Training System\n(CNC/CAD/CAM room)\n\n7.5M x 11.0M\n\n82.5 sq.M\n\n82.5 sq.M\n• CNC Basic Milling\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Basic Turning\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Intermediate and\nProduction workshop\n\n7.5M x 11.0M\n\n82.5 sq. M\n\n82.5 sq. M\n• Quality Control room\n\n10.0M x 11.0M\n\n110 sq. M\n\n110 sq. M\n• Learning Resource\nCenter\n\n5.0M x 5.0M\n\n25 sq. M\n\n25 sq. M\n• Audio Visual room\n\n5.0M x5.0M\n\n25 sq. M\n\n25 sq. M\n• Tool Room and\nStorage\n\n10.0M x 11.0M\n\n110 sq M\n\n110 sq M\n\n•Metrology room\n\n7.0M x 11.0M\n\n70 sq. M\n\n70 sq. M\n\n3.6 TRAINER’S QUALIFICATIONS FOR CAD/CAM OPERATION NC III\n\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of CAD/CAM Operation NC III or equivalent qualification\n• Must have undergone training on Training Methodology II (TM II) or equivalent\nin training experience\n• Must be physically and mentally fit\n• *Must have at least 2 years relevant job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        64
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\nCAD/CAM OPERATION NC III\n\nThe CNC Machining workshop must be of concrete structure for 10 trainees. The\nspace requirements for the teaching/learning and circulation areas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n• Building\n (Permanent)\n\n79M x 25M\n\n1,975 sq. M\n• CNC Training System\n(CNC/CAD/CAM room)\n\n7.5M x 11.0M\n\n82.5 sq.M\n\n82.5 sq.M\n• CNC Basic Milling\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Basic Turning\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Intermediate and\nProduction workshop\n\n7.5M x 11.0M\n\n82.5 sq. M\n\n82.5 sq. M\n• Quality Control room\n\n10.0M x 11.0M\n\n110 sq. M\n\n110 sq. M\n• Learning Resource\nCenter\n\n5.0M x 5.0M\n\n25 sq. M\n\n25 sq. M\n• Audio Visual room\n\n5.0M x5.0M\n\n25 sq. M\n\n25 sq. M\n• Tool Room and\nStorage\n\n10.0M x 11.0M\n\n110 sq M\n\n110 sq M\n\n•Metrology room\n\n7.0M x 11.0M\n\n70 sq. M\n\n70 sq. M"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        64
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR CAD/CAM OPERATION NC III\n\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of CAD/CAM Operation NC III or equivalent qualification\n• Must have undergone training on Training Methodology II (TM II) or equivalent\nin training experience\n• Must be physically and mentally fit\n• *Must have at least 2 years relevant job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each unit\nof competency.\n\n--- PDF PAGE 65 ---\nTR – CAD CAM Operation NC III\n\n63",
-      "pdf_pages": []
+      "pdf_pages": [
+        64
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each unit\nof competency.\n\n--- PDF PAGE 65 ---\nTR – CAD CAM Operation NC III\n\n63"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "24 Hours",
-      "130 Hours",
-      "80 Hours",
-      "234 Hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for CAD/CAM OPERATION NC III.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: CAD/CAM OPERATION NC Level: NC III\n\nTraining Duration: 24 Hours (Basic)\n 130 Hours (Common)\n\n 80 Hours (Core)\n 234 Hours\n\nCourse Description:\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills\nin CAD/CAM Operatin NC III.\n It covers the competencies required to create drawing using CAD software and\napply CAD/CAM program.\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n\n1.1 Communicate\n information about\n workplace processes\n1.2 Lead workplace\n discussions\n Identify and\n communicate issues\n arising in the\n workplace\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n2. Lead small\nteams\n\n2.1 Provide team\nleadership\n2.2 Assign responsibilities\n2.3 Set performance\nexpectations for team\nmembers\n2.4 Supervised team\nperformance\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n--- PDF PAGE 57 ---\nTR – CAD CAM Operation NC III\n\n55\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Plan negotiations\n3.2 Participate in\n negotiations\n\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n4. Solve\nproblems\nrelated to work\nactivities\n\n4.1 Identify the problem\n4.2 Determine\n fundamental causes\n of the problem\n4.3 Determine corrective\n action\n4.4 Provide\n recommendation/s to\n manager\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n5. Use\nmathematical\nconcepts and\ntechniques\n\n5.1 Identify mathematical\n tools and techniques\n to solve problem\n5.2 Apply procedure /\n solution\n5.3 Analyze results\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n Questioning\n\n6. Use relevant\ntechnologies\n\n6.1 Study / select\nappropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain / enhance\nrelevant technology\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\n questioning\n\n--- PDF PAGE 58 ---\nTR – CAD CAM Operation NC III\n\n56\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Apply safety\n practices\n\n1.1 Identify hazards\n1.2 Use protective clothing\nand devices\n1.3 Perform safe handling\nof tools, equipment\nand materials\n1.4 Perform first aid\n1.5\nUse fire extinguisher\n• Lecture\n• Group\n discussion\n• Interaction\n• Role playing /\n Simulation\n\n• Observation\n• Demonstration\n• Interview /\n Questioning\n\n2. Interpret\nworking\ndrawing and\nsketches\n\n2.1 Interpret technical\n drawing\n2.2 Prepare freehand\nsketch of parts\n2.3 Interpret details from\n freehand sketch\n• Lecture\n• Group\n discussion\n• Interaction\n\n• Observation\n• Interview /\n Questioning\n\n3. Select / cut\nworkshop\nmaterials\n\n3.1 Determine requirement\n3.2 Select and measure\n materials\n3.3 Cut materials\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n4. Perform shop\ncomputations\n(Basic)\n\n4.1 Perform four\nfundamentals\n operations\n4.2 Perform basic\ncalculations\n involving fractions and\n decimals\n4.3 Perform basic\ncalculations\n involving percentages\n4.4 Perform basic\ncalculation\n involving ration and\n proportion\n4.5 Perform calculations on\nalgebraic expressions\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n5. Measure\n workpiece\n (Basic)\n\n5.1 Select and use\nmeasuring tools\n5.2 Clean and store\nmeasuring tools\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\nQuestioning\n6. Perform\nroutine\nhousekeeping\n\n6.1 Organize work area\n6.2 Clean Work area\n\n• Lecture\n• Group\n discussion\n• Simulation\n• Practical\n exercise\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n--- PDF PAGE 59 ---\nTR – CAD CAM Operation NC III\n\n57\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n7. Perform Shop\ncomputations\n(Intermediate)\n\n7.1 Perform calculations\n involving triangles\n7.2 Calculate taper\n\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n8. Measure\nworkpiece\nusing angular\nmeasuring\ninstruments\n\n8.1 Select and use angular\n measuring tools\n8.2 Maintain angular\nmeasuring tools\nClean and store\nmeasuring Tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n9. Perform shop\n Computation\n (Advanced)\n\n9.1 Calculate gear ratio\n9.2 Solve indexing\nproblems\n9.3 Solve gearing\nproblems\n9.4 Use geometrical\nprinciples in the\nsolution of problems\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n10. Measure\nworkpiece\n using gages\n and surface\n texture\n comparator\n10.1 Select and use fixed\nand adjustable gages\n10.2 Perform surface\ntexture measurements\n10.3 Clean and store\nmeasuring tools\n• Lecture\n• Demonstration\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n11. Perform\npreventive\n and\n corrective\n maintenance\n11.1 Perform inspection of\n machine\n11.2 Perform cleaning and\n lubricating of machine\n11.3 Perform minor\n machine repair and\n adjustments\n11.4 Maintain hand tools\n• Lecture\n• Demonstration\n• Group\n discussion\n• Practical\n exercise\n\n• Demonstration\n• Observation\n• Performance\n test\n• Interview /\n Questioning\n\n12. Operate a\npersonal\ncomputer\n12.1 Start and shut down\n the computer\n12.2 Arrange and\n customize\n desktop display/\n Windows settings\n12.3 Work with files and\nfolders (or directories)\n12.4 Work with user\napplication programs\n12.5 Print information\n12.6 Shut down computer\n• Group\n Discussion\n• Interaction\n• Lecture\n• Demonstration\n• Observation\n• Interviews/\n• Questioning\n• Written Exams\n\n--- PDF PAGE 60 ---\nTR – CAD CAM Operation NC III\n\n58\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Create drawing\nusing CAD\nsoftware\n1.1 Prepare the CAD\n environment\n1.2 Produce basic drawing\n1.3 Modify existing CAD\n drawings\n1.4 Produce drawing output\n1.5 Save and print drawing\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning\n2. Apply\nCAD/CAM\nprogram\n2.1 Determine job\n requirements\n2.2 Create/ import CAD\n drawing\n2.3 Set CAM parameters\n2.4 Create/ edit CNC\n programs\n2.5 Load and run program\n at CNC Machine\n• Lecture\n• Demonstration\n• Practical\nexercise\n• Demonstration\n• Observation\n• Performance\ntest\n• Interview/\nQuestioning\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n•\nThe training is based on curriculum developed from the competency\nstandards;\n•\nLearning is modular in its structure;\n•\nTraining delivery is individualized and self-paced;\n•\nTraining is based on work that must be performed;\n•\nTraining materials are directly related to the competency standards and the\ncurriculum modules;\n•\nAssessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n•\nTraining is based both on and off-the-job components;\n•\nAllows for recognition of prior learning (RPL) or current competencies;\n•\nTraining allows for multiple entry and exit; and\n•\nApproved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n\n•\nThe dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n\n--- PDF PAGE 61 ---\nTR – CAD CAM Operation NC III\n\n59\n•\nModular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n•\nPeer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n•\nSupervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n•\nDistance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same place.\nDistance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and their educational\nattainment. Other requirements like health and physical requirements are also\nstated. Passing entry written entrance examinations may also be indicated if\nnecessary.\n\n•\nMust be high school graduate\n•\nWith good moral character;\n•\nAble to communicate in writing\n•\nPhysically and mentally fit\n•\nPreferably with experience in drafting or related field; and\n•\nMust be a holder of CNC Lathe/Milling NC II\n\n--- PDF PAGE 62 ---\nTR – CAD CAM Operation NC III\n\n60\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\nCAD/CAM OPERATION NC III\n\nRecommended list of tools, equipment and materials for the training of 10\ntrainees for CAD/CAM Operation NC III\n\nEQUIPMENT\nQTY\nDescription\nQTY\nDescription\n1 unit\nCNC Lathe\n1 unit\nCNC Milling\n10 units\nCNC CAD CAM System,\nPentium PC with software\n1 unit\nOHP/LCD Projector\n1 unit\nPower hacksaw\n\nSUPPLIES AND MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n2 pcs.\nRound bar CRS\n38mm dia x 150mm\n2 pcs. Round bar CRS\n25.4mm dia x 150mm\n2 pcs.\nRound Bar CRS\n50mm dia. X\n150mm\n2 pcs.\nAluminum bar\n22mm dia x 150mm\n2 pcs.\nAluminum bar 30mm\ndia x 150mm\n2 pcs.\nAluminum bar\n45mm dia. X\n150mm\n2 pcs.\nAluminum bar\n50x50mm x 150mm\n2 pcs.\nAluminum\nbar\n50\nx100mm x 150mm\n2 pcs. Aluminum bar 120\nx120mm x 5m\n2 pcs.\nFlat bar 101.6 x\n100mm x 300mm\n16\npcs.\nPaint brush 2” width\n3\nboxes\nWhiteboard marker\nBlack, Blue and red\ncolor\n10\nreams\nBond paper sub. 20\nA4\n10\npcs.\n256 mb flash drive\n\nTRAINING MATERIALS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nTeachers Guide\n6 pcs.\nManuals\n10pcs.\nSimulation\nsoftware\n\nReference books\n\nCatalogs\n\nBrochures\n\nModules/ LEs\n\nCDs/ Video tapes\n\nHandouts\n\n--- PDF PAGE 63 ---\nTR – CAD CAM Operation NC III\n\n61\n\n TOOLS (Lathe)\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nDovetail cutter 60\ndeg., dia. 16mm\n8 pcs.\nStaggered tooth side\ncutter dia. 36mm x\n5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8 pcs.\nNC start drill 10mm\ndia.\n8 pcs.\nFace Mill, 16 x 20 x\n40mm dia.\n3\nsets\nHand Tap M6, M8,\nM10, M12\n16\npcs.\nCenter drill # 2\n6\nboxes\nDrill bit Φ1mm-\nto13mm at 0 .5\nincrement set\n8\npcs.\neach\nMachine tap M3-M6,\nM8, M10 set\n8 pcs.\nSlot cutter dia. 16\nmm\n8 sets\nEngraving Tool\n8\nsets\nNeedle File\n1 set\nLetter punch\n8 pcs.\nFlat File, 2nd cut, 150\nmm\n8\npcs.\nRubber mallet\n2 pcs.\nBall peen hammer,\n0.5 kgs\n\nTOOLS (Milling)\nTRAINING MATERIALS\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nStaggered tooth\nside cutter dia.\n36mm x 5mm\n32\npcs.\nEnd Mill 4, 6, 8, 10,\n12, 16 mm dia\n8\npcs.\neach\nBall nose endmill, 3,\n6, 8, 10, 12mm\n3 pcs.\neach\nFace Mill, 40, 50, 63\nmm dia.\n3 sets\nHand Tap M6, M8,\nM10, M12\n8\npcs.\nNC start drill 10mm\ndia.\n8 pcs.\nDovetail cutter, 16\nmm dia.\n6\nboxes\nDrill bit dia.1mm-\n13mm set\n8\npcs.\neach\nMachine tap M5,\nM6, M8, M10 , M12\n16\npcs.\nCenter drill # 2\n8 pcs.\nSlot cutter dia. 16 mm\n8\nsets\nEngraving Tool\n8 pcs.\nEdge finder\n2 sets\nNeedle File\n8\npcs.\nFlat File, 2nd cut,\n150 mm\n8 pcs.\nRubber mallet\n1 set\nLetter punch\n2\npcs.\nBall peen hammer,\n0.5 kgs\n\nMEASURING INSTRUMENTS\n\nQTY\nDescription\nQTY\nDescription\nQTY\nDESCRIPTION\n8 pcs.\nVernier caliper\n(Digital) 150mm\n8 pcs.\nMicrometer (Digital)\n0- 25 mm\n8\npcs.\nDial indicator with\nmagnetic stand,\nlever-type, 0.01\nleast count\n1 pc.\nPrecision Bevel\nprotractor\n1 pc.\nThread pitch gage\n1\nset\nGage block\n(optional)\n1 pc.\nVernier height gage\nwith dial indicator\n(optional)\n8 pcs.\n Depth gage\nmicrometer\n\n--- PDF PAGE 64 ---\nTR – CAD CAM Operation NC III\n\n62\n3.5 TRAINING FACILITIES\nCAD/CAM OPERATION NC III\n\nThe CNC Machining workshop must be of concrete structure for 10 trainees. The\nspace requirements for the teaching/learning and circulation areas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n• Building\n (Permanent)\n\n79M x 25M\n\n1,975 sq. M\n• CNC Training System\n(CNC/CAD/CAM room)\n\n7.5M x 11.0M\n\n82.5 sq.M\n\n82.5 sq.M\n• CNC Basic Milling\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Basic Turning\nworkshop\n\n10.0M x 5.5M\n\n55 sq. M\n\n55 sq. M\n• CNC Intermediate and\nProduction workshop\n\n7.5M x 11.0M\n\n82.5 sq. M\n\n82.5 sq. M\n• Quality Control room\n\n10.0M x 11.0M\n\n110 sq. M\n\n110 sq. M\n• Learning Resource\nCenter\n\n5.0M x 5.0M\n\n25 sq. M\n\n25 sq. M\n• Audio Visual room\n\n5.0M x5.0M\n\n25 sq. M\n\n25 sq. M\n• Tool Room and\nStorage\n\n10.0M x 11.0M\n\n110 sq M\n\n110 sq M\n\n•Metrology room\n\n7.0M x 11.0M\n\n70 sq. M\n\n70 sq. M\n\n3.6 TRAINER’S QUALIFICATIONS FOR CAD/CAM OPERATION NC III\n\nTRAINER QUALIFICATION (TQ II)\n• Must be a holder of CAD/CAM Operation NC III or equivalent qualification\n• Must have undergone training on Training Methodology II (TM II) or equivalent\nin training experience\n• Must be physically and mentally fit\n• *Must have at least 2 years relevant job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for each unit\nof competency.\n\n--- PDF PAGE 65 ---\nTR – CAD CAM Operation NC III\n\n63"
 }
