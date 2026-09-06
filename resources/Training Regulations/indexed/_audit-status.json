@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T03:02:49+08:00",
+  "last_updated": "2026-09-07T07:27:01+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 280,
-  "remaining_unaudited": 104,
+  "audited_count": 285,
+  "remaining_unaudited": 99,
   "blocked_count": 0,
   "documents": [
     {
@@ -3648,6 +3648,71 @@
       "validation_passed": true,
       "last_audit_commit": "58fdd3bd83322ae0d191a411aada3d8bfc604384",
       "audit_notes": "Rebuilt 6/2/3 revised four-column groups with required knowledge and skills; restored 53 curriculum rows, 2 assessment arrangements, and 25 definition-term entries, preserved Promulgated June 16, 2015, the 1 through 64 printed-page sequence, and the 32/18/160-hour components with 210-hour total, repaired the source-numbered Lead Small Teams criterion association, recorded the ICT-versus-ELC common-code discrepancy, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Medical Transcription NC II",
+      "package_path": "resources/Training Regulations/indexed/Medical Transcription NC II",
+      "source_file": "resources/Training Regulations/Medical Transcription NC II.pdf",
+      "source_sha256": "52cec5af697ca7b23fbfc7b86c8a491e6fabf064d19ea2dde3709d49349e0e65",
+      "status": "audited",
+      "audited_at": "2026-09-07T07:27:01+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "589708b950174f1786ddf04fd3bc93a0f7651c84",
+      "audit_notes": "Rebuilt 4/2/3 historical two-column groups; restored 29 curriculum rows, 5 assessment arrangements, and 24 glossary entries, preserved Promulgated February 2004, the 1 through 47 printed-page sequence, and the 18/18/360-hour components with 396-hour arithmetic total, recorded the Section 1 ICT-versus-506 common-code discrepancy, removed post-curriculum parser bleed, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Metal Stamping NC II",
+      "package_path": "resources/Training Regulations/indexed/Metal Stamping NC II",
+      "source_file": "resources/Training Regulations/Metal Stamping NC II.pdf",
+      "source_sha256": "26919bc07d74a19d0bf61e37ce8c560d8d5f34d4967c65a54479d605f6e17f01",
+      "status": "audited",
+      "audited_at": "2026-09-07T07:27:01+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "589708b950174f1786ddf04fd3bc93a0f7651c84",
+      "audit_notes": "Rebuilt 4/4/3 historical two-column groups; restored 36 curriculum rows, 6 assessment arrangements, and 12 definition-term entries, preserved Promulgated 2007, the 1 through 49 printed-page sequence, and the 18/20/256-hour components with 294-hour arithmetic total, normalized spaced ALT source-code presentation while preserving source text, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Microfinance Technology NC II",
+      "package_path": "resources/Training Regulations/indexed/Microfinance Technology NC II",
+      "source_file": "resources/Training Regulations/Microfinance Technology NC II.pdf",
+      "source_sha256": "9c6c3275d7de5a3c922a293c5a145be8e9e915468119810c7cfb2ad22f7ff99a",
+      "status": "audited",
+      "audited_at": "2026-09-07T07:27:01+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "589708b950174f1786ddf04fd3bc93a0f7651c84",
+      "audit_notes": "Rebuilt 4/3/7 historical two-column groups; restored 77 curriculum rows, 5 assessment arrangements, and 11 definition-term entries, preserved the Date Promulgated source wording, the 1 through 71 printed-page sequence, and the 18/74/311-hour components with 403-hour total, recovered the unnumbered customer-service criteria in source order, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Microfinance Technology NC IV",
+      "package_path": "resources/Training Regulations/indexed/Microfinance Technology NC IV",
+      "source_file": "resources/Training Regulations/Microfinance Technology NC IV.pdf",
+      "source_sha256": "6be858339c36e6b0138255c090e685e354057b5247975282a6c54dbe8cd6459a",
+      "status": "audited",
+      "audited_at": "2026-09-07T07:27:01+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "589708b950174f1786ddf04fd3bc93a0f7651c84",
+      "audit_notes": "Rebuilt 6/3/4 historical two-column groups; restored 55 curriculum rows, 5 assessment arrangements, and 13 definition-term entries, preserved the source Date Promulgated wording, the 1 through 77 printed-page sequence, and the 36/74/247/528-hour components with 885-hour total, repaired the duplicated 5.x curriculum numbering for the information-management unit, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Microinsurance Services (Mutual Benefit) NC II",
+      "package_path": "resources/Training Regulations/indexed/Microinsurance Services (Mutual Benefit) NC II",
+      "source_file": "resources/Training Regulations/Microinsurance Services (Mutual Benefit) NC II.pdf",
+      "source_sha256": "79ea06dd126e631912a888e9a03023b3b025881022d7a509d5316f40b658465c",
+      "status": "audited",
+      "audited_at": "2026-09-07T07:27:01+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "589708b950174f1786ddf04fd3bc93a0f7651c84",
+      "audit_notes": "Rebuilt 9/3/3 revised four-column groups with required knowledge and skills; restored 52 curriculum rows, 4 assessment arrangements, and 4 glossary entries, preserved Promulgated (12/17/2019), the 1 through 111 printed-page sequence, and the 37/20/200/200-hour components with 457-hour total, recorded the Section 1 line-break anomaly for 400311217, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
