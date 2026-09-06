@@ -4,83 +4,62 @@
   "document_id": "tesda:tr:construction-painting-nc-iii:8548fb54e8",
   "qualification": "CONSTRUCTION PAINTING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "This unit of competency covers the knowledge, skills,"
-      },
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON712329",
-        "title": "This unit deals with the knowledge, skills and"
-      },
-      {
-        "unit_code": "CON712330",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON712326",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "This unit covers the knowledge, skills and attitudes to"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "This unit covers the skills, knowledge and attitudes"
-      },
-      {
-        "unit_code": "500311112",
-        "title": "This unit of covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "analyzing and interpreting symbols, data and work plan"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      },
-      {
-        "unit_code": "CON712327",
-        "title": "This unit covers the outcomes required to prepare"
-      },
-      {
-        "unit_code": "CON712328",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "CON712331",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCIVIL WORKS SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nInstall architectural\nceiling, wall\nsheaths/panels/\nboards and floor\nFabricate/Install\ndoor/window\njambs and panels\nInstall stair\ncomponents and/or\npre-fabricated stair\nassembly\nInstall built-in\nand/or pre-\nfabricated cabinets\nPerform\nmixing/tinting of\ncolor paints\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater-piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nPrepare\nconstruction\nmaterials and\ntools\nObserve\nprocedures,\nspecifications and\nmanuals of\ninstructions\nMaintain tools\nand equipment\nPerform\nmensurations\nand\ncalculations\nInterpret\ntechnical\ndrawings and\nplans\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem\nsolving\ntechniques in the\nworkplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\n\n--- PDF PAGE 87 ---\n_____________________________________________________________________________________________\nTR CONSTRUCTION PAINTING NC III\n85",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON712326",
+        "CON712327",
+        "CON712328",
+        "CON712329",
+        "CON712330",
+        "CON712331"
+      ],
+      "unit_titles": [
+        "Prepare tools, painting materials and equipment",
+        "Prepare surface for painting",
+        "Perform painting work",
+        "Estimate painting requirements",
+        "Perform mixing/tinting of paints",
+        "Perform re-painting and/or re-touching works"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful\ncandidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n4.2.\nThe qualification of Construction Painting NC III maybe attained\nthrough:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in the\nfollowing areas:\n\n4.2.1.1 Prepare paint and painting materials\n4.2.1.2 Prepare surface for painting\n4.2.1.3 Perform painting work\n4.2.1.4 Estimate painting requirements\n4.2.1.5 Perform mixing / tinting of paints\n4.2.1.6 Perform re-painting / re-touching work\n\nSuccessful\ncandidates\nshall\nbe\nawarded\nCertificates\nof\nCompetency (COCs)\n\n4.2.2 Demonstration of competence through project-type assessment\ncovering all the required units of the qualification\n\n4.3.\nAssessment shall focus on the core units of competency. The basic\nand common units shall be integrated or assessed concurrently with\nthe core units.\n\n4.4.\nThe following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.3.2. Experienced Workers (wage employed or self-employed)\n\n4.5.\nThe guidelines on assessment and certification are discussed in\ndetail in the Procedures Manual on Assessment and Certification and\nguidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 86 ---\n_____________________________________________________________________________________________\nTR CONSTRUCTION PAINTING NC III\n84\n\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nANNEX A\nCONSTRUCTION PAINTING NC III\n\nCOMPETENCY MAP\nCIVIL WORKS SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nInstall architectural\nceiling, wall\nsheaths/panels/\nboards and floor\nFabricate/Install\ndoor/window\njambs and panels\nInstall stair\ncomponents and/or\npre-fabricated stair\nassembly\nInstall built-in\nand/or pre-\nfabricated cabinets\nPerform\nmixing/tinting of\ncolor paints\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater-piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nPrepare\nconstruction\nmaterials and\ntools\nObserve\nprocedures,\nspecifications and\nmanuals of\ninstructions\nMaintain tools\nand equipment\nPerform\nmensurations\nand\ncalculations\nInterpret\ntechnical\ndrawings and\nplans\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem\nsolving\ntechniques in the\nworkplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\n\n--- PDF PAGE 87 ---\n_____________________________________________________________________________________________\nTR CONSTRUCTION PAINTING NC III\n85\nDEFINITION OF TERMS\n\n1. Alkalinity\nRefers to the measurement of the concentration of base or\namount of free base present.\n2. Certification\nRefers to the process of verifying and validating competencies of\na person through assessment.\n3. Competency\nIs the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace.\n4. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person who\nworks in a particular area of work is able to perform.\n5. Evidence Guide\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills, resource implications, context of assessment and\nassessment method.\n6. Intermediate coat\nRefers the middle layer of coating system, bond between primer\nand topcoat.\n7. Level\nRefers to the category following the level of difficulty and\ncomplexity of skills and knowledge required to do the job.\n8. Neutralizer\nRefers to the substance that makes or reacts with a substrate\n(object to be coated) to render it neutral.\n9. Paint\nRefers in general to all types of protective coatings, and in\nparticular to a mixture containing a pigment and vehicle, which\ncan be spread to a thin film on interior or exterior surfaces.\n10. Philippine TVET\nQualification\nFramework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter\nfor the integration of learning and assessment in the middle skills\ndevelopment.\n11. Primer\nRefers to the first or primary coating.\n12. Primer\n surface /\n sealer\nRefers to the intermediate or middle coating used after\napplication of putty.\n13. Qualification\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person\nhas achieved competencies relevant to a trade or industry.\n14. Range of\nVariable\nIt describes the circumstances or context in which the work is to\nbe performed.\n\n--- PDF PAGE 88 ---\n_____________________________________________________________________________________________\nTR CONSTRUCTION PAINTING NC III\n86\n\n15. Solvent\nRefers to a product contained in thinner/reducer\n16. Solvent-based\nRefers to a coating that uses as its solvent\n17. Structural steep\n painting\nRefers to the application of paint on structural steel surfaces for\none or more several reasons: preservation, sanitation,\ndecoration, beauty, economy, and improved lighting effect,\nimproved heating effect, improved working conditions,\ndistribution, camouflage and identification.\n18. Substrait\nRefers to the type of surface to be painted.\n19. Topcoat\nRefers to the fast or outermost layer of a coating system.\n20. Stock\nRefers to a product or material kept in storage until needed for\nuse or transferred to some ultimate point for use.\n21. Unit of\nCompetency\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n22. Viscosity\nRefers to the density of paint before and after mixing thinner.\n23. Water-based\nRefers to a coating that uses water as its solvent.\n24. Wall\n\nRefers to a vertical structure or member forming an enclosure or\ndefining a space.\n\n--- PDF PAGE 89 ---\n_____________________________________________________________________________________________\nTR CONSTRUCTION PAINTING NC III\n87\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes\nto extend thanks and appreciation to the many representatives of business,\nindustry, academe and government agencies and who contributed their time and\nexpertise to the development and validation of this Training Regulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nAbelardo Aureada\nSenior Trade Industry\nDevelopment Specialist\nConstruction Manpower\nDevelopment Foundation\nMakati City\nJohn Calamiong\nProfessor II\nTechnological University of the\nPhilippines - Taguig Campus\n\nAlexander Esquilong\nPainter\nNational Union of building and\nConstruction Workers\nQuezon City\nEsmeraldo Valenzuela\nPainter (House and Building)\nNational\nUnion\nof\nbuilding\nand\nConstruction Workers\nQuezon City\n\nJose R. Abdon\nPainter (Duco Varnish)\nNational Union of building and\nConstruction Workers\nQuezon City\nArwin A. Villamil\nNational President\nNational Union of building and\nConstruction Workers\n\nThe Management and Staff of the TESDA Secretariat\n\n•\nSkills Standards and Certification Office\n•\nNational Institute for Technical-\nVocational Education and Training\n\nThe Management and Staff of the Philippine Constructors Association (PCA)\n\nThe Management and Staff of the National Union of Building Construction Workers\n(NUBCW)"
 }

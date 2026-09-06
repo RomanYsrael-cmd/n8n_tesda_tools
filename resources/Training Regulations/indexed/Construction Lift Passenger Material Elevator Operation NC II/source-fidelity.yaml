@@ -1,29 +1,128 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:construction-lift-passenger-material-elevator-operation-nc-ii:2c5170ef46",
-  "qualification": "Construction Lift Passenger/Material Elevator Operation NC II",
+  "qualification": "CONSTRUCTION LIFT PASSENGER MATERIAL ELEVATOR OPERATION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Construction Lift Passenger Material Elevator Operation NC II.pdf",
-    "sha256": "2c5170ef46e61b55a50f77ffbe71fb97865b81b045c293d9a6affe85466a0e56",
+    "source_sha256": "2c5170ef46e61b55a50f77ffbe71fb97865b81b045c293d9a6affe85466a0e56",
+    "pdf_pages": 43,
+    "printed_pages": 41,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "No promulgation date is printed in the page-preserved source; the canonical promulgated field is null.",
+    "The source prints 18 Basic, 18 Common, 24 Core, and 80 hours of On-the-Job Training with a 140-hour total; the canonical duration preserves all printed components and total.",
+    "The source uses passenger/material and passenger/ material spacing variants in the title and curriculum; the indexed title is normalized for retrieval while source_text preserves the source forms."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "No promulgation date is printed in the page-preserved source; the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, 24 Core, and 80 hours of On-the-Job Training with a 140-hour total; the canonical duration preserves all printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses passenger/material and passenger/ material spacing variants in the title and curriculum; the indexed title is normalized for retrieval while source_text preserves the source forms."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Construction Lift Passenger Material Elevator Operation NC II.pdf",
-    "pdf_pages": 43,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        19,
+        20
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "CON833301",
+      "source_unit_code": "CON833301",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    }
+  ]
 }

@@ -2,79 +2,60 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:computer-systems-servicing-nc-ii:42d85dad87",
-  "qualification": "Computer Systems Servicing NC II",
+  "qualification": "COMPUTER SYSTEMS SERVICING NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "to gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to identify"
-      },
-      {
-        "unit_code": "ELC311201",
-        "title": "This unit covers the knowledge, skills and attitudes and values"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ELC315202",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC724202",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ELC724331",
-        "title": "This unit covers the outcomes required in installing and"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "ELC311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ELC311202",
-        "title": "This unit covers the knowledge, skills and attitudes and values"
-      },
-      {
-        "unit_code": "ELC724201",
-        "title": "This unit covers the knowledge, skills and attitudes on the safe"
-      },
-      {
-        "unit_code": "ELC724205",
-        "title": "DESCRIPTON : This unit covers the knowledge, skills and attitudes required to"
-      },
-      {
-        "unit_code": "ELC724332",
-        "title": "This unit covers the outcomes required in setting-up computers"
-      },
-      {
-        "unit_code": "ELC724333",
-        "title": "This unit covers the knowledge, skills and attitudes needed to"
-      },
-      {
-        "unit_code": "ELC724334",
-        "title": "This unit covers the knowledge, skills and attitudes needed to"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n64\n\nGLOSSARY OF TERMS\n65 - 68",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ELC315202",
+        "ELC311203",
+        "ELC311201",
+        "ELC311202",
+        "ELC724201",
+        "ELC724202",
+        "ELC724205"
+      ],
+      "unit_titles": [
+        "Apply quality standards",
+        "Perform computer operations",
+        "Perform mensuration and calculation",
+        "Prepare and interpret technical drawing",
+        "Use hand tools",
+        "Terminate and connect electrical wiring and electronic circuits",
+        "Test electronic components"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ELC724331",
+        "ELC724332",
+        "ELC724333",
+        "ELC724334"
+      ],
+      "unit_titles": [
+        "Install and configure computer systems",
+        "Set-up computer networks",
+        "Set-up computer servers",
+        "Maintain and repair computer systems and networks"
+      ]
+    }
+  ],
+  "source_text": "Section 1.\nSuccessful candidates shall be awarded a National Certificate signed by the\nTESDA Director General.\n\n4.2\nThe qualification of Computer Systems Servicing NC II may be attained\nthrough:\n4.2.1\nAccumulation of Certificates of Competency (COCs) in all the\nfollowing units of competencies:\n\n4.2.1.1\nInstall and configure computer systems\n4.2.1.2\nSet-up computer networks\n4.2.1.3\nSet-up computer servers\n4.2.1.4\nMaintain and Repair Computer Systems and Networks\n\nSuccessful candidates shall be awarded a Certificate of\nCompetency (COC) in each of the core units.\n\nUpon accumulation and submission of all COCs acquired for the relevant units\nof competency comprising a qualification, an individual shall be issued the\ncorresponding National Certificate.\n\n4.3\nFor individuals, who already possess National Certificate (NC) or Certificate of\nCompetency (COC) along Computer Hardware Servicing NC II –\n4.3.1. Portfolio assessment is applicable for COC #1, COC #2 and COC #4,\nprovided the candidate is already employed and has related\nexperience for the past three (3) years or more along the qualification.\nHowever, if the assessor finds the evidences presented inadequate,\nhe may still require the candidate to undergo the practical\ndemonstration\nor\npresent\nother\nevidences\nin\nthe\nform\nof\nDemonstration, Third Party Report, etc. depending on the need for\nsupplementary evidences.\n4.3.2. Candidates are required to take assessment for COC #3 – “Set-up\ncomputer servers”.\n\n4.4\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.5\nThe following are qualified to apply for assessment and certification:\n\n4.5.1. Graduate of formal, non-formal, and informal including enterprise-\nbased training programs.\n\n4.5.2. Experienced workers (wage employed or self employed)\n\n4.6\nThe guidelines on assessment and certification are discussed in detail in the\nProcedures Manual on Assessment and Certification and Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS).\n\n--- PDF PAGE 66 ---\n___________________________________________________________________________________\nTR - COMPUTER SYSTEMS SERVICING NC II Amended - December 2013\n64\nANNEX A COMPETENCY MAP\nBASIC COMPETENCIES\nReceive and Respond to\nworkplace\ncommunication\nWork with Others\nDemonstrate Work\nValues\nParticipate in Workplace\nCommunication\nWork in a Team\nEnvironment\nPractice Career\nProfessionalism\nPractice occupational\nHealth and Safety\nProcedures\nPractice Housekeeping\nProcedures (5S)\nLead Workplace\nCommunication\nLead Small Team\nDevelop and Practice\nNegotiation Skills\nSolve Problems Related\nto Work Activities\nUse Mathematical\nConcepts and\nTechniques\nUse Relevant\nTechnologies\nUtilize Specialist\nCommunication skills\nDevelop Team and\nIndividual\nApply Problem Solving\nTechniques in the\nWorkplace\nCollect, Analyze and\nOrganize Information\nPlan and Organize Work\nPromote Environmental\nProtection\n\nCOMMON COMPETENCIES\n\nApply Quality Standards\nPerform Computer\nOperations\nPerform Mensuration\nand Calculation\nPrepare and Interpret\nTechnical Drawing\nUse Hand Tools\nTerminate and Connect\nElectrical Wiring and\nElectronic Circuits\nMaintain and Repair\nElectronic Systems and\nComponents\nTest Electronic /\nElectromechanical\nComponents and Devices\n\nCORE COMPETENCIES\nInstall Instrumentation\nand Control Devices\nCalibrate\nInstrumentation and\nControl Devices\nConfigure\nInstrumentation and\nControl Devices\nLoop Check\nInstrumentation and\nControl Devices\nMaintain and Repair\nInstrumentation and\nControl Devices\nStart-up and\nCommissioning\nInstrumentation and\nControl Devices\nDiagnose and\nTroubleshoot\nInstrumentation\nControl Systems\nInstall Mechatronic\nDevices\nCalibrate and\nConfigure Mechatronic\nDevices\nConfigure and Apply\nMechatronic Software\nPrograms\nDiagnose and\nTroubleshoot\nMechatronic (Industrial\nAutomation) Systems\nMaintain and Repair\nMechatronic (Industrial\nAutomation) Systems\nCommission\nMechatronic (Industrial\nAutomation) Systems\nService and Repair\nDomestic Appliances\nService and Repair\nAudio Systems and\nProducts\nService and Repair\nConsumer Video\nSystems and Products\nService and Repair\nBusiness Machines\nInstall Computer\nSystems and Networks\nConfigure Computer\nSystems and Networks\nDiagnose and\nTroubleshoot\nComputer Systems\nand Networks\nMaintain Computer\nSystems and Networks\nInstall and\nConfigure\nComputer Systems\nSet-up Computer\nNetworks\nSet-up Computer\nServers\nMaintain and\nRepair Computer\nSystems and\nNetworks\n\nQualification for CSS NC II\n\n--- PDF PAGE 67 ---\n___________________________________________________________________________________\nTR - COMPUTER SYSTEMS SERVICING NC II Amended - December 2013\n65\nDEFINITION OF TERMS\n\nGENERAL\n\n1) Certification - is the process of verifying and validating the competencies of a\nperson through assessment\n\n2) Certificate of Competency (COC) – is a certification issued to individuals who\npass the assessment for a single unit or cluster of units of competency\n\n3) Common Competencies - are the skills and knowledge needed by all people\nworking in a particular industry\n\n4) Competency - is the possession and application of knowledge, skills and\nattitudes to perform work activities to the standard expected in the workplace\n\n5) Competency Assessment - is the process of collecting evidence and making\njudgments on whether competency has been achieved\n\n6) Competency Standard (CS) - is the industry-determined specification of\ncompetencies required for effective work performance\n\n7) Context of Assessment - refers to the place where assessment is to be conducted\nor carried out\n\n8) Core Competencies - are the specific skills and knowledge needed in a particular\narea of work - industry sector/occupation/job role\n\n9) Critical aspects of competency - refers to the evidence that is essential for\nsuccessful performance of the unit of competency\n\n10) Elective Competencies - are the additional skills and knowledge required by the\nindividual or enterprise for work\n\n11) Elements - are the building blocks of a unit of competency. They describe in\noutcome terms the functions that a person performs in the workplace.\n\n12) Evidence Guide - is a component of the unit of competency that defines or\nidentifies the evidences required to determine the competence of the individual. It\nprovides information on critical aspects of competency, underpinning knowledge,\nunderpinning skills, resource implications, assessment method and context of\nassessment\n\n13) Level - refers to the category of skills and knowledge required to do a job\n\n14) Method of Assessment - refers to the ways of collecting evidence and when,\nevidence should be collected\n\n15) National Certificate (NC) – is a certification issued to individuals who achieve all\nthe required units of competency for a national qualification defined under the\nTraining Regulations. NCs are aligned to specific levels within the PTQF\n\n16) Performance Criteria - are evaluative statements that specify what is to be\nassessed and the required level of performance\n\n--- PDF PAGE 68 ---\n___________________________________________________________________________________\nTR - COMPUTER SYSTEMS SERVICING NC II Amended - December 2013\n66\n17) Qualification - is a cluster of units of competencies that meets job roles and is\nsignificant in the workplace. It is also a certification awarded to a person on\nsuccessful completion of a course in recognition of having demonstrated\ncompetencies in an industry sector\n\n18) Range of Variables - describes the circumstances or context in which the work is\nto be performed\n\n19) Recognition of Prior Learning (RPL) – is the acknowledgement of an individual’s\nskills, knowledge and attitudes gained from life and work experiences outside\nregistered training programs\n\n20) Resource Implications - refers to the resources needed for the successful\nperformance of the work activity described in the unit of competency. It includes\nwork environment and conditions, materials, tools and equipment\n\n21) Basic Competencies - are the skills and knowledge that everyone needs for work\n\n22) Training Regulations (TR) – refers to the document promulgated and issued by\nTESDA consisting of competency standards, national qualifications and training\nguidelines for specific sectors/occupations. The TR serves as basis for\nestablishment of qualification and certification under the PTQF. It also serves as\nguide for development of competency-based curricula and instructional materials\nincluding registration of TVET programs offered by TVET providers\n\n23) Underpinning Knowledge - refers to the competency that involves in applying\nknowledge to perform work activities. It includes specific knowledge that is\nessential to the performance of the competency\n\n24) Underpinning Skills - refers to the list of the skills needed to achieve the elements\nand performance criteria in the unit of competency. It includes generic and\nindustry specific skills\n\n25) Unit of Competency – is a component of the competency standards stating a\nspecific key function or role in a particular job or occupation; it is the smallest\ncomponent of achievement that can be assessed and certified under the PTQF\n\nSECTOR SPECIFIC\n\n1.\nComputer System - The complete computer made up of the CPU, memory and\nrelated electronics (main cabinet), all the peripheral devices connected to it and its\noperating system. Computer systems fall into two broad divisions: clients and\nservers. Client machines fall into three categories from low to high end: laptop,\ndesktop and workstation. Servers range from small to large: low-end servers,\nmidrange servers and mainframes.\n2.\nComputer Network, or simply a Network, is a collection of computers and other\nhardware interconnected by communication channels that allow sharing of resources\nand information. Where at least one process in one device is able to send/receive\ndata to/from at least one process residing in a remote device, then the two devices\nare said to be in a network. It is a group of devices connected to each other.\nNetworks may be classified into a wide variety of characteristics, such as the medium\n\n--- PDF PAGE 69 ---\n___________________________________________________________________________________\nTR - COMPUTER SYSTEMS SERVICING NC II Amended - December 2013\n67\nused to transport the data, communications protocol used, scale, topology, benefit,\nand organizational scope.\n3.\nConfiguration - The makeup of a system. To \"configure\" is to choose options in\norder to create a custom system. \"Configurability\" is a system's ability to be changed\nor customized.\n4.\nConnector - Any plug and socket that links two devices together. Although taken for\ngranted and rarely in the limelight, connectors are a huge industry, and the quality of\nthese components is more critical than most people would imagine. When not\ndesigned or constructed properly, they often become the weakest element in an\nelectronic system.\n5.\nDisplay Adapter - A plug-in card in a desktop computer that converts the images\ncreated in the computer to the electronic signals required by the monitor. It\ndetermines the maximum resolution, refresh rate and number of colors that can be\ndisplayed, which the monitor must also be able to support. On many PC\nmotherboards, the display adapter circuits are built into the chipset, and an AGP or\nPCI card is not required.\n6.\nExpansion Board - A printed circuit board that plugs into an expansion slot and\nextends the computer's capability to control a peripheral device. All the boards\n(cards) that plug into a computer's bus are expansion boards, such as display\nadapters, disk controllers, network adapters and sound cards.\n7.\nExpansion Bus - An input/output bus typically comprised of a series of slots on the\nmotherboard. Expansion boards (cards) are plugged into the bus. ISA and PCI are\nthe common expansion buses in a PC.\n8.\nGraphical User Interface - A graphics-based user interface that incorporates\nmovable windows, icons and a mouse. The ability to resize application windows and\nchange style and size of fonts are the significant advantages of a GUI vs. a\ncharacter-based interface. GUIs have become the standard way users interact with a\ncomputer, and the major GUIs are the Windows and Mac interfaces along with Motif\nfor Unix and the GNOME and KDE interfaces for Linux.\n9.\nLAN - a local area network (LAN) is a computer network that interconnects\ncomputers in a limited area such as a home, school, computer laboratory, or office\nbuilding using network media. The defining characteristics of LANs, in contrast to\nwide area networks (WANs), include their usually higher data-transfer rates, smaller\ngeographic area, and lack of a need for leased telecommunication lines.\n10. Motherboard - Also called the \"system board,\" it is the main printed circuit board in\nan electronic device, which contains sockets that accept additional boards. In a\ndesktop computer, the motherboard contains the CPU, chipset, PCI bus slots, AGP\nslot, memory sockets and controller circuits for the keyboard, mouse, disks and\nprinter. It may also have built-in controllers for modem, sound, display and network,\nobviating the need to plug in a card.\n11. Networks – see Computer Network.\n12. Operating System - The master control program that runs the computer. The first\nprogram loaded when the computer is turned on, its main part, the \"kernel,\" resides\nin memory at all times. The operating system sets the standards for all application\nprograms that run in the computer. The applications \"talk to\" the operating system for\nall user interfaces and file management operations.\n\n--- PDF PAGE 70 ---\n___________________________________________________________________________________\nTR - COMPUTER SYSTEMS SERVICING NC II Amended - December 2013\n68\n13. Peripheral -Any hardware device connected to a computer, such as a monitor,\nkeyboard, printer, disk, tape, graphics tablet, scanner, joy stick, paddle or mouse\n14. Server - A computer system in a network that is shared by multiple users. Servers\ncome in all sizes from x86-based PCs to IBM mainframes. A server may have a\nkeyboard, monitor and mouse directly attached, or one keyboard, monitor and mouse\nmay connect to any number of servers via a KVM switch. Servers may be also be\naccessed only through a network connection as well.\n15. Sound Card - Also called a \"sound board\" or \"audio adapter,\" it is a computer\nexpansion board that records and plays back sound, providing inputs from a\nmicrophone or other sound source and outputs to speakers or an external amplifier.\nThe de facto standard for sound card compatibility in PCs is Creative Labs' Sound\nBlaster.\n16. User Interface - All graphics based today, the user interface includes the windows,\nmenus and method of interaction between you and the computer. Prior to the Mac,\nWindows and Motif (UNIX) interfaces, all interaction was based on commands\nentered by the user. Operating systems may support optional interfaces and allow a\nnew shell, or skin, to be used instead.\n17. Virus - Software used to infect a computer. After the virus code is written, it is buried\nwithin an existing program. Once that program is executed, the virus code is\nactivated and attaches copies of itself to other programs in the system. Infected\nprograms copy the virus to other programs.\n18. WAN - a Wide Area Network (WAN) is a network that covers a broad area (i.e., any\ntelecommunications network that links across metropolitan, regional, or national\nboundaries) using private or public network transports. Business and government\nentities utilize WANs to relay data among employees, clients, buyers, and suppliers\nfrom various geographical locations. In essence, this mode of telecommunication\nallows a business to effectively carry out its daily function regardless of location\n19. WEEE Directives - the prevention of waste electrical and electronic equipment\n(WEEE), and in addition, the reuse, recycling and other forms of recovery of such\nwastes so as to reduce the disposal of waste. It also seeks to improve the\nenvironmental performance of all operators involved in the life cycle of electrical and\nelectronic equipment, e.g. producers, distributors and consumers and in particular\nthose operators directly involved in the treatment of waste electrical and electronic\nequipment.\n\n--- PDF PAGE 71 ---\n___________________________________________________________________________________\nTR - COMPUTER SYSTEMS SERVICING NC II Amended - December 2013\n69\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend gratitude and appreciation to the many representatives of business, industry,\nacademe and government agencies and labor groups who donated their time and\nexpertise to the development and validation of these Training Regulations.\n\nFOR THE REVIEW / REVISION STAGE\n\n• THE TECHNICAL EXPERT COMMITTEE ( 2012-2013)\n\nENGR. ALEX S.E. SY - Chairperson\nPresident, CATIA Foundation, Inc.\nPresident, Electronic Industries Association\nof the Philippines, Inc. (EIAPI)\n\nMR. VICTOR GRUET - Member\nProprietor, Symphony IT Consulting\nSecretary, Electronics Industries Association\nof the Philippines, Inc. (EIAPI)\n\nENGR. EMMANUEL G. GONZALES - Member\nAcademic Director\nINFOTECH\n\nMR. SEVERINO BURGOS - Member\nSupervising TESD Specialist\nTTCTCE\nMR. JULFORD ABASOLO – Member\n\nSupervising TESD Specialist\nTTCTCE\n\n• THE PANEL EXPERT ( VALIDATION)\n\nENGR. RONALDO B. RACELIS\nDeputy Program Director, Technology\nAsian College (formerly ACSAT)\n\nMR. JAY J. CRISOSTOMO\nTrainer, Computer Systems\nINFOTECH\nENGR. EMMANUEL G. GONZALES\nAcademic Director\nINFOTECH\n\nMS. LUZ D.G. GALANG\nTrainer\nTTCTCE\nMR. EDWIN MENDOZA\nCATIAFI / ATI\n\n• ELECTRONIC INDUSTRIES ASSOCIATION OF THE PHILIPPINES, INC.\n\n• THE TESDA BOARD - STANDARDS SETTING AND SYSTEMS DEVELOPMENT\nCOMMITTEE\n\n• THE MANAGEMENT AND STAFF OF TESDA SECRETARIAT\n\n•\nQualifications and Standards Office (QSO)\n•\nCompetency Assessment and Certification Office (CACO)"
 }

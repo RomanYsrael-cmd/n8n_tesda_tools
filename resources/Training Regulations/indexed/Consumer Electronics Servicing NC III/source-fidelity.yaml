@@ -1,29 +1,178 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:consumer-electronics-servicing-nc-iii:4c7af42039",
-  "qualification": "Consumer Electronics Servicing NC III",
+  "qualification": "CONSUMER ELECTRONICS SERVICING NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Consumer Electronics Servicing NC III.pdf",
-    "sha256": "4c7af42039ee435f41d6c9f02e5e929ca06d2344c391a42b1db1b039fefa2fbb",
+    "source_sha256": "4c7af42039ee435f41d6c9f02e5e929ca06d2344c391a42b1db1b039fefa2fbb",
+    "pdf_pages": 68,
+    "printed_pages": 66,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "No promulgation date is printed in the page-preserved source; the canonical promulgated field is null.",
+    "The source prints 36 Basic, 60 Common, and 80 Core hours; its course description explicitly states a 176-hour nominal duration, matching the arithmetic sum of those components.",
+    "Section 1 states All core units in NC II, plus and then lists the three NC III core units actually present in Section 2; the indexed inventory follows the explicit Section 2 unit tables and source_text preserves the source packaging language.",
+    "The source uses title variants including Consumer Electronics Equipment Servicing and singular electronics circuit in unit headers; the indexed title follows Section 1/2 retrieval normalization while source_text preserves the source forms.",
+    "The Section 3 curriculum table omits the Section 1/2 basic unit 500311114 Use relevant technologies; the omission is recorded explicitly rather than inventing a curriculum row."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "No promulgation date is printed in the page-preserved source; the canonical promulgated field is null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 36 Basic, 60 Common, and 80 Core hours; its course description explicitly states a 176-hour nominal duration, matching the arithmetic sum of those components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 states All core units in NC II, plus and then lists the three NC III core units actually present in Section 2; the indexed inventory follows the explicit Section 2 unit tables and source_text preserves the source packaging language."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses title variants including Consumer Electronics Equipment Servicing and singular electronics circuit in unit headers; the indexed title follows Section 1/2 retrieval normalization while source_text preserves the source forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 curriculum table omits the Section 1/2 basic unit 500311114 Use relevant technologies; the omission is recorded explicitly rather than inventing a curriculum row."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Consumer Electronics Servicing NC III.pdf",
-    "pdf_pages": 68,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "ELC724201",
+      "source_unit_code": "ELC724201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "ELC311201",
+      "source_unit_code": "ELC311201",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "ELC311202",
+      "source_unit_code": "ELC311202",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "ELC315202",
+      "source_unit_code": "ELC315202",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "ELC311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "ELC724202",
+      "source_unit_code": "ELC724202",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "ELC724326",
+      "source_unit_code": "ELC724326",
+      "pdf_page_range": [
+        41,
+        45
+      ]
+    },
+    {
+      "unit_code": "ELC724327",
+      "source_unit_code": "ELC724327",
+      "pdf_page_range": [
+        46,
+        50
+      ]
+    },
+    {
+      "unit_code": "ELC724328",
+      "source_unit_code": "ELC724328",
+      "pdf_page_range": [
+        51,
+        54
+      ]
+    }
+  ]
 }
