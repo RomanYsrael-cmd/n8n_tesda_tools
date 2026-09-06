@@ -1,29 +1,181 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:automotive-mechanical-assembly-nc-ii:befe8dd86c",
-  "qualification": "Automotive Mechanical Assembly NC II",
+  "qualification": "AUTOMOTIVE MECHANICAL ASSEMBLY NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Automotive Mechanical Assembly NC II.pdf",
-    "sha256": "befe8dd86c37efc89b0cf1592ee16f42a54ee305c924b8f6f3d035cc0a0c09a6",
+    "source_sha256": "befe8dd86c37efc89b0cf1592ee16f42a54ee305c924b8f6f3d035cc0a0c09a6",
+    "pdf_pages": 70,
+    "printed_pages": 67,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source uses 'AUTOMOTIVE MECHANICAL ASSEMBLIES NC II' in the Section 2 introductory sentence and running header while the qualification and Section 3 headings use singular 'ASSEMBLY'; the page-preserved source layer retains the variant.",
+    "Several printed source codes include an internal space (for example, ALT 723205, ALT 827307, and ALT827 312); semantic codes are normalized by removing layout spaces while source_text preserves the printed forms.",
+    "The source prints 18 Basic, 20 Common, and 105 Core hours without a separate total line; the canonical total of 143 hours is the arithmetic sum and is marked as normalized.",
+    "The source does not print a promulgation date in its page headers; the semantic date field remains null and the page-preserved source layer remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria competency layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses 'AUTOMOTIVE MECHANICAL ASSEMBLIES NC II' in the Section 2 introductory sentence and running header while the qualification and Section 3 headings use singular 'ASSEMBLY'; the page-preserved source layer retains the variant."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Several printed source codes include an internal space (for example, ALT 723205, ALT 827307, and ALT827 312); semantic codes are normalized by removing layout spaces while source_text preserves the printed forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 20 Common, and 105 Core hours without a separate total line; the canonical total of 143 hours is the arithmetic sum and is marked as normalized."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source does not print a promulgation date in its page headers; the semantic date field remains null and the page-preserved source layer remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Automotive Mechanical Assembly NC II.pdf",
-    "pdf_pages": 70,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "ALT311202",
+      "source_unit_code": "ALT311202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "ALT742201",
+      "source_unit_code": "ALT742201",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "ALT723202",
+      "source_unit_code": "ALT723202",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "ALT723201",
+      "source_unit_code": "ALT723201",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "ALT723205",
+      "source_unit_code": "ALT723205",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "ALT827307",
+      "source_unit_code": "ALT827307",
+      "pdf_page_range": [
+        34,
+        38
+      ]
+    },
+    {
+      "unit_code": "ALT827308",
+      "source_unit_code": "ALT827308",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "ALT827309",
+      "source_unit_code": "ALT827309",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "ALT827310",
+      "source_unit_code": "ALT827310",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "ALT827311",
+      "source_unit_code": "ALT827311",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "ALT827312",
+      "source_unit_code": "ALT827312",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "ALT827313",
+      "source_unit_code": "ALT827313",
+      "pdf_page_range": [
+        54,
+        56
+      ]
+    }
+  ]
 }
