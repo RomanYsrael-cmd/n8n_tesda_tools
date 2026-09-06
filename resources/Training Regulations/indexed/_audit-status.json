@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T21:51:21+08:00",
+  "last_updated": "2026-09-06T22:10:41+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 195,
-  "remaining_unaudited": 189,
+  "audited_count": 200,
+  "remaining_unaudited": 184,
   "blocked_count": 0,
   "documents": [
     {
@@ -2543,6 +2543,71 @@
       "validation_passed": true,
       "last_audit_commit": "ad476781b1c8ea311b4c0e893a1af4129703e4f4",
       "audit_notes": "Rebuilt 6/9/2 historical two-column groups; restored 68 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the absent promulgation date and the 56/56/182-hour components with 294-hour total, recorded the Section 1 500311117/500311118 versus unit-heading 50011117/50011118 code discrepancies, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Gas Welding NC I",
+      "package_path": "resources/Training Regulations/indexed/Gas Welding NC I",
+      "source_file": "resources/Training Regulations/Gas Welding NC I.pdf",
+      "source_sha256": "4c3cda2d4a1b555e6dba84e81ed694b321aa2f9d7d969d3def2aae52bd53c6f1",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:10:41+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "8e964d46e189861b2405a5171802573fc9f2ca0f",
+      "audit_notes": "Rebuilt 4/9/1 historical two-column groups; restored 49 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the 11/03/04 footer date and the 28/56/72-hour components with 156-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "GAS Welding NC II",
+      "package_path": "resources/Training Regulations/indexed/GAS Welding NC II",
+      "source_file": "resources/Training Regulations/GAS Welding NC II.pdf",
+      "source_sha256": "dea010e4b0e3abea713d2e827e660555a25e381ec45b30cf184bd65f93a159f9",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:10:41+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "8e964d46e189861b2405a5171802573fc9f2ca0f",
+      "audit_notes": "Rebuilt 4/9/1 historical two-column groups; restored 50 curriculum rows, 5 assessment arrangements, and 9 definition-term entries, preserved the absent promulgation date and the 18/56/238-hour components with 312-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Grains Production NC II",
+      "package_path": "resources/Training Regulations/indexed/Grains Production NC II",
+      "source_file": "resources/Training Regulations/Grains Production NC II.pdf",
+      "source_sha256": "6e7327c8e903954f7acc961decad03a9ec1f87d8318a393d0967a7dc4987745f",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:10:41+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "8e964d46e189861b2405a5171802573fc9f2ca0f",
+      "audit_notes": "Rebuilt 4/3/5 revised four-column groups with required knowledge and skills; restored 43 curriculum rows, 2 assessment arrangements, and 35 definition-term entries, preserved the New label and Promulgated December 16, 2015 with the 20/72/331-hour components and 423-hour total, recorded the Section 1 AGR321201-AGR321203 versus unit-heading AFF321201-AFF321203 code discrepancy, normalized the compact glossary format, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Hairdressing NC II",
+      "package_path": "resources/Training Regulations/indexed/Hairdressing NC II",
+      "source_file": "resources/Training Regulations/Hairdressing NC II.pdf",
+      "source_sha256": "b17ea87b18f1dbfd3141670f6a5bb5b47fdbc9175f480542ce0cf2859a09d41f",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:10:41+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "8e964d46e189861b2405a5171802573fc9f2ca0f",
+      "audit_notes": "Rebuilt 9/4/7 revised four-column groups with required knowledge and skills; restored 78 curriculum rows, 4 assessment arrangements, and 66 definition-term entries, preserved Revision 01 and Promulgated (06/09/2020) with the 37/24/480-hour in-school components plus 40-hour SIL and 581-hour total, restored the missing 400311212 unit title as Solve/address general workplace problems, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Hairdressing NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Hairdressing NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Hairdressing NC II (Superseded).pdf",
+      "source_sha256": "b79de59adc3904651050b724708bfdbbaf2f39f7888612215271841acaa093ae",
+      "status": "audited",
+      "audited_at": "2026-09-06T22:10:41+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "8e964d46e189861b2405a5171802573fc9f2ca0f",
+      "audit_notes": "Rebuilt 4/4/8 historical two-column groups; restored 51 curriculum rows, 7 assessment arrangements, and 72 definition-term entries, preserved the Amended November 2010 label and superseded lifecycle with the 18/18/620-hour components and 656-hour total, retained a null canonical promulgation date because the source only notes amendment of the August 2005 regulation, recorded the Section 1 HCS515201/HCS515202 versus unit-heading HCS516201/HCS516202 discrepancies, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
