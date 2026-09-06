@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T13:48:51+08:00",
+  "last_updated": "2026-09-06T14:12:57+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 70,
-  "remaining_unaudited": 314,
+  "audited_count": 75,
+  "remaining_unaudited": 309,
   "blocked_count": 0,
   "documents": [
     {
@@ -918,6 +918,71 @@
       "validation_passed": true,
       "last_audit_commit": "ae09183bfcd4036664b29c4e9667fb8861863673",
       "audit_notes": "Rebuilt 9/4/2 revised four-column groups; restored 54 curriculum rows and required knowledge/skills, corrected continuation-page unit starts, preserved the 2020-06-09 promulgation date and 341-hour subtotal plus 80-hour SIL/421-hour total, recorded the ASSESSSMENT typo, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Beauty Care (Nail Enhancement Technology) Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Beauty Care (Nail Enhancement Technology) Services NC III",
+      "source_file": "resources/Training Regulations/Beauty Care (Nail Enhancement Technology) Services NC III.pdf",
+      "source_sha256": "428a634d3091b2ec98848feb84e0e6305c6d3261834d5783b0320b7338d32e05",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:12:57+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "76483c5b1314992b2b997877d2ae309f00ff7667",
+      "audit_notes": "Rebuilt 9/4/4 revised four-column groups; restored 60 curriculum rows and required knowledge/skills, preserved the printed 06/09/2020 date and 184-hour subtotal plus 40-hour SIL/224-hour total, recorded the recurring ASSESSSMENT typo, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Beauty Care (Skin Care) Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Beauty Care (Skin Care) Services NC II",
+      "source_file": "resources/Training Regulations/Beauty Care (Skin Care) Services NC II.pdf",
+      "source_sha256": "06593c063ad6c175ec504210443d50ac6049cdfcfc81c06573d71cefcf81d",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:12:57+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "76483c5b1314992b2b997877d2ae309f00ff7667",
+      "audit_notes": "Rebuilt 9/4/3 revised four-column groups; restored 45 normalized curriculum rows and required knowledge/skills, preserved the printed 01/11/2019 date and 277-hour source total plus separate 30-hour SIT line, documented the resulting 307-hour arithmetic mismatch, and repaired assessment, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Beauty Care NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Beauty Care NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Beauty Care NC II (Superseded).pdf",
+      "source_sha256": "8dff4ce4413736ea3e07195dbe2bb11eb6f8112df52aad27548a8b8697fa7cd9",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:12:57+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "76483c5b1314992b2b997877d2ae309f00ff7667",
+      "audit_notes": "Rebuilt 4/4/8 superseded historical two-column groups; restored 48 curriculum rows, preserved the HCS516201/HCS516202 header variants against Section 1 codes, the August 2005 promulgation, and the 20 Basic/18 Common/1,060 Core-hour duration, and repaired assessment, glossary, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Beauty Care NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Beauty Care NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Beauty Care NC III (Superseded).pdf",
+      "source_sha256": "3251356658524c229d7da83489361c4c3168f34295c2e8349714beaa724cf3a2",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:12:57+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "76483c5b1314992b2b997877d2ae309f00ff7667",
+      "audit_notes": "Rebuilt 6/4/3 superseded historical two-column groups; restored 52 curriculum rows, preserved the August 2005 promulgation and 398-hour suggested duration, recorded the source's NC II qualification-heading and HAIRDRESSING course-title drift, and repaired assessment, glossary, fidelity metadata, and selectors; visual boundary QA passed."
+    },
+    {
+      "package": "Beauty Care Services (Nail Care) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Beauty Care Services (Nail Care) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Beauty Care Services (Nail Care) NC II (Superseded).pdf",
+      "source_sha256": "92542143f4a13754ca07cf0bf0f6d120582301f6c66d1d5fec11e1f547587a43",
+      "status": "audited",
+      "audited_at": "2026-09-06T14:12:57+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "76483c5b1314992b2b997877d2ae309f00ff7667",
+      "audit_notes": "Rebuilt 4/4/3 superseded historical two-column groups; restored 37 curriculum rows, preserved the missing promulgation date and the 18 Basic/18 Common/180 Core duration with 150 in-school plus 30 SIT and 216-hour total, repaired assessment, glossary, fidelity metadata, and selectors, and retained the source amendment note; visual boundary QA passed."
     }
   ]
 }
