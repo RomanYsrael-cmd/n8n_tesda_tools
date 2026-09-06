@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-06T15:22:26+08:00",
+  "last_updated": "2026-09-06T15:38:31+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 100,
-  "remaining_unaudited": 284,
+  "audited_count": 105,
+  "remaining_unaudited": 279,
   "blocked_count": 0,
   "documents": [
     {
@@ -1308,6 +1308,71 @@
       "validation_passed": true,
       "last_audit_commit": "c5e3d66e44b381c76b88d368d7605395d8923cd1",
       "audit_notes": "Rebuilt 6/12/3 historical two-column groups; restored 68 curriculum rows, preserved the absent promulgation date and 24/130/80-hour components with 234-hour total, recorded the blank source UNIT CODE for Prepare Cost Estimates using a non-regulatory canonical retrieval key while preserving source_unit_code as blank, recorded the CNC Basic Turning workshop/source-title variants, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Commercial Air-conditioning Installation and Servicing NC III",
+      "package_path": "resources/Training Regulations/indexed/Commercial Air-conditioning Installation and Servicing NC III",
+      "source_file": "resources/Training Regulations/Commercial Air-conditioning Installation and Servicing NC III.pdf",
+      "source_sha256": "19b93da68e0ebe0aaaf24cd826d2e0b8524dfb5c6f2c36a0f2b2ff00581f0a2a",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:38:31+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "bbe8d73a285c461c5bf5659f2feca6c6314a1f23",
+      "audit_notes": "Rebuilt 9/9/4 revised four-column groups; restored 122 curriculum rows, required knowledge/skills, and the 38-entry glossary, preserved the June 8, 2021 date, 40/40/240-hour components plus 400-hour SIL and 720-hour total, recorded duplicate/mismatched HVC source-header codes and source-title variants, repaired assessment/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Commercial Cooking NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Commercial Cooking NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Commercial Cooking NC III (Superseded).pdf",
+      "source_sha256": "de39fa03ac87ed03cfc02c8d93e442759b3a7e8a50654a87411f02cf8dd54205",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:38:31+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "bbe8d73a285c461c5bf5659f2feca6c6314a1f23",
+      "audit_notes": "Rebuilt 6/4/10 superseded historical two-column groups; restored 75 curriculum rows, preserved Promulgated April 2007 and 20/24/200-hour components with computed 244-hour total, recorded the TRS5311206 source-header variant for canonical TRS311206, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Commercial Cooking NC IV (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Commercial Cooking NC IV (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Commercial Cooking NC IV (Superseded).pdf",
+      "source_sha256": "27776746cfe1efd32712effbf5ff00bbfd6cfd0abd8e7c62b0bd70323c270db4",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:38:31+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "bbe8d73a285c461c5bf5659f2feca6c6314a1f23",
+      "audit_notes": "Rebuilt 6/4/9 superseded historical two-column groups; restored 72 curriculum rows, preserved Promulgated April 2007 and 56/24/180-hour components with computed 260-hour total, recorded historical cooking terminology and source capitalization, repaired assessment/glossary/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Commercial Refrigeration Installation and Servicing NC III",
+      "package_path": "resources/Training Regulations/indexed/Commercial Refrigeration Installation and Servicing NC III",
+      "source_file": "resources/Training Regulations/Commercial Refrigeration Installation and Servicing NC III.pdf",
+      "source_sha256": "afebad2265cd1fe48f48a02e0e6ceca7edd8ab334a6446c5d5b84a5bb2b94f5f",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:38:31+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "bbe8d73a285c461c5bf5659f2feca6c6314a1f23",
+      "audit_notes": "Rebuilt 9/9/4 revised four-column groups; restored 123 curriculum rows, required knowledge/skills, and the 9-entry glossary, preserved the June 8, 2021 date, 40/40/240-hour components plus 400-hour SIL and 720-hour total, recorded the May-versus-June header date and duplicate/mismatched HVC source-header codes, repaired assessment/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Community Nutrition Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Community Nutrition Services NC II",
+      "source_file": "resources/Training Regulations/Community Nutrition Services NC II.pdf",
+      "source_sha256": "a429753c32a793cfbc3cc4834d872262f858fbdc57a73e41c947def4e4fbe96c",
+      "status": "audited",
+      "audited_at": "2026-09-06T15:38:31+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "bbe8d73a285c461c5bf5659f2feca6c6314a1f23",
+      "audit_notes": "Rebuilt 9/4/5 revised four-column groups; restored 62 curriculum rows, required knowledge/skills, and the 47-entry glossary, preserved Promulgated (05/2022), 37/112/177-hour components plus 160-hour SIL and 486-hour total, normalized the KN1OWLEDGE source-heading typo for structured extraction while preserving source_text, repaired assessment/fidelity metadata and selectors; structural validation passed and visual boundary QA passed."
     }
   ]
 }
