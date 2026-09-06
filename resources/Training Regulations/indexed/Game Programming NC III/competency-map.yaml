@@ -4,61 +4,52 @@
   "document_id": "tesda:tr:game-programming-nc-iii:8482b4f387",
   "qualification": "GAME PROGRAMMING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude required in selecting, sourcing and applying"
-      },
-      {
-        "unit_code": "ICT315203",
-        "title": ":"
-      },
-      {
-        "unit_code": "ICT315202",
-        "title": "This unit covers the knowledge, skills, attitudes and values"
-      },
-      {
-        "unit_code": "ICT313352",
-        "title": "ICT 313352"
-      },
-      {
-        "unit_code": "ICT313354",
-        "title": "ICT 313354"
-      },
-      {
-        "unit_code": "ICT313353",
-        "title": "ICT 313353"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": "small teams including setting and maintaining team and"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "This unit covers the skills, knowledge and attitudes"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ": This unit of covers the knowledge, skills and attitudes"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "required in the application of mathematical concepts"
-      },
-      {
-        "unit_code": "ICT311203",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n55",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ICT315203",
+        "ICT315202",
+        "ICT311203"
+      ],
+      "unit_titles": [
+        "Apply critical thinking and thought organization",
+        "Apply quality standards",
+        "Perform computer operations"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ICT313352",
+        "ICT313354",
+        "ICT313353"
+      ],
+      "unit_titles": [
+        "Design game program logic",
+        "Apply object-oriented programming language skills",
+        "Apply programming skills for in-game application"
+      ]
+    }
+  ],
+  "source_text": "Section 1\nGAME PROGRAMMING NC III QUALIFICATIONS\n\nThe GAME PROGRAMMING NC III Qualification consists of competencies that\nare required for programming stand-alone computer game applications.\n\nThe units of competency comprising this qualification include the following:\n\nUNIT CODE\nBASIC COMPETENCIES\n\n5 00 311 1 09\nLead workplace communication\n5 00 311 1 10\nLead small teams\n5 00 311 1 11\nDevelop and practice negotiation skills\n5 00 311 1 12\nSolve problems related to work activities\n5 00 311 1 13\nUse mathematical concepts and techniques\n5 00 311 1 14\nUse relevant technologies\nCode\nCOMMON COMPETENCIES\n\nICT315203\nApply critical thinking and thought organization\nICT315202\nApply quality standards\nICT311201\nPerform computer operations\n\nCode\nCORE COMPETENCIES\n\nICT313352\nDesign game program logic\nICT313354\nApply object-oriented programming language skills\nICT313353\nApply programming skills for in-game application\n\nA person who has achieved this Qualification is competent to be:\n\n•\nGame Programmer\n•\nTechnical Game Designer\n•\nGame Tester\n•\nTools Programmer\n•\nGame Play Scripter\n\n--- PDF PAGE 4 ---\n_________________________________________________________________________________\nGame Programming NC III Promulgated __________________2012\n2"
 }

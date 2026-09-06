@@ -1,29 +1,203 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:front-office-services-nc-iii:b6076680df",
   "qualification": "FRONT OFFICE SERVICES NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Front Office Services NC III.pdf",
-    "sha256": "b6076680df7312cf983da245e0b8e57b9a623d946ca583d4154f280a9d6fb0c8",
+    "source_sha256": "b6076680df7312cf983da245e0b8e57b9a623d946ca583d4154f280a9d6fb0c8",
+    "pdf_pages": 148,
+    "printed_pages": 144,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints Revision 00 and Promulgated (12/17/2019); the canonical date field preserves the printed date literal.",
+    "The source prints 40 Basic, 96 Common, and 220 Core hours for a 356-hour in-school total, followed by 64 hours of Supervised Industry Learning (SIL); the canonical total records the 420-hour arithmetic sum.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and retains source terminology and page-preserved text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 00 and Promulgated (12/17/2019); the canonical date field preserves the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 40 Basic, 96 Common, and 220 Core hours for a 356-hour in-school total, followed by 64 hours of Supervised Industry Learning (SIL); the canonical total records the 420-hour arithmetic sum."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and retains source terminology and page-preserved text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Front Office Services NC III.pdf",
-    "pdf_pages": 148,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        9,
+        13
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        14,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        24,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        29,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "TRS141201",
+      "source_unit_code": "TRS141201",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "TRS141202",
+      "source_unit_code": "TRS141202",
+      "pdf_page_range": [
+        50,
+        56
+      ]
+    },
+    {
+      "unit_code": "TRS141203",
+      "source_unit_code": "TRS141203",
+      "pdf_page_range": [
+        57,
+        61
+      ]
+    },
+    {
+      "unit_code": "TRS141204",
+      "source_unit_code": "TRS141204",
+      "pdf_page_range": [
+        62,
+        64
+      ]
+    },
+    {
+      "unit_code": "TRS141205",
+      "source_unit_code": "TRS141205",
+      "pdf_page_range": [
+        65,
+        69
+      ]
+    },
+    {
+      "unit_code": "TRS141206",
+      "source_unit_code": "TRS141206",
+      "pdf_page_range": [
+        70,
+        79
+      ]
+    },
+    {
+      "unit_code": "TRS141207",
+      "source_unit_code": "TRS141207",
+      "pdf_page_range": [
+        80,
+        87
+      ]
+    },
+    {
+      "unit_code": "TRS122301",
+      "source_unit_code": "TRS122301",
+      "pdf_page_range": [
+        88,
+        92
+      ]
+    },
+    {
+      "unit_code": "TRS122302",
+      "source_unit_code": "TRS122302",
+      "pdf_page_range": [
+        93,
+        98
+      ]
+    },
+    {
+      "unit_code": "TRS122303",
+      "source_unit_code": "TRS122303",
+      "pdf_page_range": [
+        99,
+        102
+      ]
+    },
+    {
+      "unit_code": "TRS122304",
+      "source_unit_code": "TRS122304",
+      "pdf_page_range": [
+        103,
+        112
+      ]
+    }
+  ]
 }
