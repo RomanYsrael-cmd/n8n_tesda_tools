@@ -1,29 +1,139 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:heavy-equipment-operation-paver-nc-ii:ad75397546",
   "qualification": "HEAVY EQUIPMENT OPERATION (PAVER) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Heavy Equipment Operation (Paver) NC II.pdf",
-    "sha256": "ad753975461f2b7b8daedb4b4f8aeb2f10e184e55e339b03b4213ac38e16c22c",
+    "source_sha256": "ad753975461f2b7b8daedb4b4f8aeb2f10e184e55e339b03b4213ac38e16c22c",
+    "pdf_pages": 83,
+    "printed_pages": null,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source does not display a visible promulgation date or reliable printed-page sequence; the canonical promulgated and printed_pages fields remain null.",
+    "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "The source prints 18 Basic, 24 Common, and 80 Core hours; the canonical duration records the 122-hour arithmetic total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source does not display a visible promulgation date or reliable printed-page sequence; the canonical promulgated and printed_pages fields remain null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 24 Common, and 80 Core hours; the canonical duration records the 122-hour arithmetic total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Heavy Equipment Operation (Paver) NC II.pdf",
-    "pdf_pages": 83,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        14,
+        18
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        19,
+        22
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        33,
+        37
+      ]
+    },
+    {
+      "unit_code": "CON833321",
+      "source_unit_code": "CON833321",
+      "pdf_page_range": [
+        38,
+        52
+      ]
+    },
+    {
+      "unit_code": "CON833322",
+      "source_unit_code": "CON833322",
+      "pdf_page_range": [
+        53,
+        62
+      ]
+    },
+    {
+      "unit_code": "CON833325",
+      "source_unit_code": "CON833325",
+      "pdf_page_range": [
+        63,
+        67
+      ]
+    }
+  ]
 }

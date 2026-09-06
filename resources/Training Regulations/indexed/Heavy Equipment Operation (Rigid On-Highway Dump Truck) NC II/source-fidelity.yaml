@@ -1,29 +1,184 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:heavy-equipment-operation-rigid-on-highway-dump-truck-nc-ii:319096d620",
   "qualification": "HEAVY EQUIPMENT OPERATION (RIGID ON-HIGHWAY DUMP TRUCK) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II.pdf",
-    "sha256": "319096d620305facfb05e6bb621d5bec2dc9a32338346da38183be23c546d3f1",
+    "source_sha256": "319096d620305facfb05e6bb621d5bec2dc9a32338346da38183be23c546d3f1",
+    "pdf_pages": 105,
+    "printed_pages": 100,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source prints Revision 01 and Promulgated (11/07/2019), and its cover/table-of-contents pages identify the amended competency-standard format; the canonical date field preserves the printed date literal.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and preserves source terminology and page-preserved text.",
+    "The source prints 37 Basic, 24 Common, and 120 Core hours plus 40 hours of Supervised Industry Learning (SIL); the canonical duration records the printed 221-hour total and arithmetic total.",
+    "The source contains a stray 200200 extraction artifact after the final core unit and outside Section 2; it is excluded from the unit inventory while the source-fidelity record preserves the observation."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source prints Revision 01 and Promulgated (11/07/2019), and its cover/table-of-contents pages identify the amended competency-standard format; the canonical date field preserves the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills and preserves source terminology and page-preserved text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 24 Common, and 120 Core hours plus 40 hours of Supervised Industry Learning (SIL); the canonical duration records the printed 221-hour total and arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source contains a stray 200200 extraction artifact after the final core unit and outside Section 2; it is excluded from the unit inventory while the source-fidelity record preserves the observation."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Heavy Equipment Operation (Rigid On-Highway Dump Truck) NC II.pdf",
-    "pdf_pages": 105,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        40,
+        41
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        48,
+        51
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        52,
+        55
+      ]
+    },
+    {
+      "unit_code": "CON834222",
+      "source_unit_code": "CON834222",
+      "pdf_page_range": [
+        56,
+        63
+      ]
+    },
+    {
+      "unit_code": "CON834223",
+      "source_unit_code": "CON834223",
+      "pdf_page_range": [
+        64,
+        70
+      ]
+    },
+    {
+      "unit_code": "CON834224",
+      "source_unit_code": "CON834224",
+      "pdf_page_range": [
+        71,
+        76
+      ]
+    }
+  ]
 }
