@@ -1,29 +1,197 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:marine-electricity-nc-ii:2008-09",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:marine-electricity-nc-ii:71cb689589",
   "qualification": "MARINE ELECTRICITY NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Marine Electricity NC II.pdf",
-    "sha256": "71cb68958982eeea8c88631d3a3fa5960c6545eaecc2089aab59558955133dbc",
+    "source_sha256": "71cb68958982eeea8c88631d3a3fa5960c6545eaecc2089aab59558955133dbc",
+    "pdf_pages": 110,
+    "printed_pages": 108,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation marked Promulgated September 2008; the printed-page sequence ends at page 108 with the acknowledgements section.",
+    "The source labels the duration as Suggested Nominal Training Duration and notes that 342 hours is a minimum for trainees with equivalent industrial-electricity training or experience; the three printed components total 342 hours.",
+    "The source uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields.",
+    "The source prints 'NATIONAL ASSESSSMENT' in Section 4; the source extraction preserves the spelling while the canonical section label is normalized.",
+    "The source's competency map and glossary contain maritime-sector terminology and a historical 'life boats' / 'rescue boats / lifeboats' wording variation; both source forms are retained in the source layer."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation marked Promulgated September 2008; the printed-page sequence ends at page 108 with the acknowledgements section."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source labels the duration as Suggested Nominal Training Duration and notes that 342 hours is a minimum for trainees with equivalent industrial-electricity training or experience; the three printed components total 342 hours."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria competency tables without separate Required Knowledge and Required Skills fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 'NATIONAL ASSESSSMENT' in Section 4; the source extraction preserves the spelling while the canonical section label is normalized."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source's competency map and glossary contain maritime-sector terminology and a historical 'life boats' / 'rescue boats / lifeboats' wording variation; both source forms are retained in the source layer."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Marine Electricity NC II.pdf",
-    "pdf_pages": 110,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        19
+      ]
+    },
+    {
+      "unit_code": "MTM834201",
+      "source_unit_code": "MTM834201",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "MTM834202",
+      "source_unit_code": "MTM834202",
+      "pdf_page_range": [
+        24,
+        29
+      ]
+    },
+    {
+      "unit_code": "MTM834203",
+      "source_unit_code": "MTM834203",
+      "pdf_page_range": [
+        30,
+        34
+      ]
+    },
+    {
+      "unit_code": "MTM834204",
+      "source_unit_code": "MTM834204",
+      "pdf_page_range": [
+        35,
+        40
+      ]
+    },
+    {
+      "unit_code": "MTM834205",
+      "source_unit_code": "MTM834205",
+      "pdf_page_range": [
+        41,
+        44
+      ]
+    },
+    {
+      "unit_code": "MTM834206",
+      "source_unit_code": "MTM834206",
+      "pdf_page_range": [
+        45,
+        49
+      ]
+    },
+    {
+      "unit_code": "MTM834207",
+      "source_unit_code": "MTM834207",
+      "pdf_page_range": [
+        50,
+        53
+      ]
+    },
+    {
+      "unit_code": "MTM311301",
+      "source_unit_code": "MTM311301",
+      "pdf_page_range": [
+        54,
+        58
+      ]
+    },
+    {
+      "unit_code": "MTM311302",
+      "source_unit_code": "MTM311302",
+      "pdf_page_range": [
+        59,
+        65
+      ]
+    },
+    {
+      "unit_code": "MTM311303",
+      "source_unit_code": "MTM311303",
+      "pdf_page_range": [
+        66,
+        71
+      ]
+    },
+    {
+      "unit_code": "MTM311304",
+      "source_unit_code": "MTM311304",
+      "pdf_page_range": [
+        72,
+        75
+      ]
+    },
+    {
+      "unit_code": "MTM311305",
+      "source_unit_code": "MTM311305",
+      "pdf_page_range": [
+        76,
+        81
+      ]
+    },
+    {
+      "unit_code": "MTM311306",
+      "source_unit_code": "MTM311306",
+      "pdf_page_range": [
+        82,
+        86
+      ]
+    },
+    {
+      "unit_code": "MTM311307",
+      "source_unit_code": "MTM311307",
+      "pdf_page_range": [
+        87,
+        90
+      ]
+    }
+  ]
 }

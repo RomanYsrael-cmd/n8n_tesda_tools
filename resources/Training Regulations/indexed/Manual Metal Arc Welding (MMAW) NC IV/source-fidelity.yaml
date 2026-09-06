@@ -1,29 +1,189 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:manual-metal-arc-welding-mmaw-nc-iv:445b8f5120",
   "qualification": "MANUAL METAL ARC WELDING (MMAW) NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Manual Metal Arc Welding (MMAW) NC IV.pdf",
-    "sha256": "445b8f5120905e249d8d1d191754ae8ebc55169431f4450242ab45e4aa7521d3",
+    "source_sha256": "445b8f5120905e249d8d1d191754ae8ebc55169431f4450242ab45e4aa7521d3",
+    "pdf_pages": 123,
+    "printed_pages": 119,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is marked Revision 01 and Promulgated (9/14/2021); the printed-page sequence ends at page 119 with the TR document revision history.",
+    "The source uses revised four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields.",
+    "The source prints 47 Basic, 40 Common, and 56 Core hours (143 classroom hours) plus 80 hours of Supervised Industry Learning (SIL), for 223 total hours; the canonical duration records SIL under the shared OJT field.",
+    "The source retains Shielded Metal Arc Welding (SMAW) terminology in the qualification description, references, and revision history while the current qualification title is MMAW.",
+    "The assessment section is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is marked Revision 01 and Promulgated (9/14/2021); the printed-page sequence ends at page 119 with the TR document revision history."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses revised four-column competency tables with Required Knowledge and Required Skills; those columns are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 47 Basic, 40 Common, and 56 Core hours (143 classroom hours) plus 80 hours of Supervised Industry Learning (SIL), for 223 total hours; the canonical duration records SIL under the shared OJT field."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source retains Shielded Metal Arc Welding (SMAW) terminology in the qualification description, references, and revision history while the current qualification title is MMAW."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The assessment section is source-printed as 'ASSSSMENT'; the source extraction preserves that spelling while the canonical section label is normalized."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Manual Metal Arc Welding (MMAW) NC IV.pdf",
-    "pdf_pages": 123,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311401",
+      "source_unit_code": "500311401",
+      "pdf_page_range": [
+        7,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311402",
+      "source_unit_code": "500311402",
+      "pdf_page_range": [
+        13,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311403",
+      "source_unit_code": "500311403",
+      "pdf_page_range": [
+        19,
+        24
+      ]
+    },
+    {
+      "unit_code": "500311404",
+      "source_unit_code": "500311404",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "500311405",
+      "source_unit_code": "500311405",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "500311406",
+      "source_unit_code": "500311406",
+      "pdf_page_range": [
+        32,
+        35
+      ]
+    },
+    {
+      "unit_code": "500311407",
+      "source_unit_code": "500311407",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "500311408",
+      "source_unit_code": "500311408",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "500311409",
+      "source_unit_code": "500311409",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "MEE721202",
+      "source_unit_code": "MEE721202",
+      "pdf_page_range": [
+        48,
+        49
+      ]
+    },
+    {
+      "unit_code": "MEE721210",
+      "source_unit_code": "MEE721210",
+      "pdf_page_range": [
+        50,
+        52
+      ]
+    },
+    {
+      "unit_code": "MEE721211",
+      "source_unit_code": "MEE721211",
+      "pdf_page_range": [
+        53,
+        54
+      ]
+    },
+    {
+      "unit_code": "MEE721205",
+      "source_unit_code": "MEE721205",
+      "pdf_page_range": [
+        55,
+        57
+      ]
+    },
+    {
+      "unit_code": "MEE721212",
+      "source_unit_code": "MEE721212",
+      "pdf_page_range": [
+        58,
+        61
+      ]
+    },
+    {
+      "unit_code": "MEE721321",
+      "source_unit_code": "MEE721321",
+      "pdf_page_range": [
+        62,
+        65
+      ]
+    },
+    {
+      "unit_code": "MEE721322",
+      "source_unit_code": "MEE721322",
+      "pdf_page_range": [
+        66,
+        68
+      ]
+    },
+    {
+      "unit_code": "MEE721326",
+      "source_unit_code": "MEE721326",
+      "pdf_page_range": [
+        69,
+        73
+      ]
+    }
+  ]
 }

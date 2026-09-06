@@ -1,92 +1,67 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:marine-electricity-nc-ii:2008-09",
+  "document_id": "tesda:tr:marine-electricity-nc-ii:71cb689589",
   "qualification": "MARINE ELECTRICITY NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "identify role and responsibility as a member of a team."
-      },
-      {
-        "unit_code": "MTM311302",
-        "title": "performing"
-      },
-      {
-        "unit_code": "MTM311303",
-        "title": "performing preventive and corrective maintenance on"
-      },
-      {
-        "unit_code": "MTM311304",
-        "title": "performing routine checking, testing and maintaining of"
-      },
-      {
-        "unit_code": "MTM311305",
-        "title": "attitudes in performing basic maintenance procedures for"
-      },
-      {
-        "unit_code": "MTM311306",
-        "title": "attitudes in maintaining and repairing electrical appliances"
-      },
-      {
-        "unit_code": "MTM311307",
-        "title": "calibrating and repairing alarms system on board ship as"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "MTM834201",
-        "title": "launch and operate survival craft and life boats on a vessel"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "MTM311301",
-        "title": "required"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "in promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply"
-      },
-      {
-        "unit_code": "MTM834202",
-        "title": "and fight fires on board a vessel, including management of"
-      },
-      {
-        "unit_code": "MTM834203",
-        "title": "This unit identifies the competence required to"
-      },
-      {
-        "unit_code": "MTM834204",
-        "title": "first aid treatment to crew and / or passengers during a"
-      },
-      {
-        "unit_code": "MTM834205",
-        "title": "marine environment. It involves the development of"
-      },
-      {
-        "unit_code": "MTM834206",
-        "title": "take appropriate initial action on becoming aware of an"
-      },
-      {
-        "unit_code": "MTM834207",
-        "title": "checking visitors and all the personnel coming aboard a"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nfor Maritime Sector\nAssist in performing\ndeck maintenance\nPerform supervisory\nfunctions\nPerform\nengine room\nhousekeeping\nConduct of inventory\nof tools, equipment\nand facilities\nPerform\nhousekeeping\nservice\nPerform\nvictualing\nservice\nAssist in performing\nnavigational\nwatchkeeping duties\nPerform mooring/\nunmooring\noperations\nProvide assistance\nin bunkering\noperations\nInstall / reinstall/\nreplace piping\nsystem\nPerform\nlaundry service\nMaintain galley\nequipment and\nutensils\nAssist in performing\nsimple splicing\nand canvas work\nPerform marlinespike\nand canvas work\nUse and care for\nhand and power\ntools\nFabricate shipboard\ncomponents\nPerform beverage\nservice\nPrepare cold\nmeals\nPerform\nhousekeeping\nduties\nProvide support\nin cargo\noperations\nPerform engine\nwatchkeeping\nduties\nAssist in Engineer\nin the maintenance\nof main engine….\nPrepare mis en place\nin the galley\nPrepare hot\nmeals\n\nPerform\nNavigational\nWatchkeeping duties\nPerform deck\n maintenance\nMaintain / clean\nengine room,\nmachinery and spaces\nPerform messhall\nservice\nAssist in maintaining\ngalley equipment\nand facility\nAssist in storing\nprovision\nBASIC\nCOMPETENCIES\nParticipate in\nworkplace\ncommunication\nSolve problems related\nto work activities\nApply problem\nsolving technique in\nthe workplace\nPractice\noccupational\nhealth & safety\nprocedures\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nPlan and organize work\nPlan and organize\nwork\n Practice career\nprofessionalism\nDevelop team and\nindividual\nReceive and\nRespond to workplace\ncommunication\nWork with others\nCORE\nCOMPETENCIES\nPerform survival\ntechniques during\nship abandonment\nPerform first aid\ntreatment\non board\nLaunch survival\ncraft and rescue\nboats\nPrevent and\nfight fire\nProtect marine\nenvironment\nComply with\nemergency\nprocedures\nConduct shipboard\nsecurity check\nCOMMON\nCOMPETENCIES\nService marine\nelectric\ngenerators\nService marine\nelectric motors\nService &\nmaintain marine\nbatteries\nService marine\nlighting system\nService marine\nelectrical\nappliances\nMaintain basic\nalarm systems\non board ship\nService marine\nmotor controls\n& other basic\nelectronic\n\n--- PDF PAGE 107 ---\n_____________________________________________________________________\nTR- Marine Electricity NC II Promulgated September 2008\n105",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "MTM834201",
+        "MTM834202",
+        "MTM834203",
+        "MTM834204",
+        "MTM834205",
+        "MTM834206",
+        "MTM834207"
+      ],
+      "unit_titles": [
+        "Launch survival craft and rescue boats / lifeboats",
+        "Prevent and fight fire",
+        "Perform survival techniques during ship abandonment",
+        "Perform first aid treatment on board",
+        "Protect marine environment",
+        "Comply with emergency procedures",
+        "Conduct shipboard security checks"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "MTM311301",
+        "MTM311302",
+        "MTM311303",
+        "MTM311304",
+        "MTM311305",
+        "MTM311306",
+        "MTM311307"
+      ],
+      "unit_titles": [
+        "Service marine electric generators",
+        "Service marine electric motors",
+        "Service marine lighting system",
+        "Service and maintain marine batteries",
+        "Maintain marine motor controls and other basic electronic control systems",
+        "Service marine electrical appliances",
+        "Maintain basic alarm systems on board ship"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a\nNational Certificate signed by the TESDA Director General.\n\n4.2. The qualification of Marine Electricity NC II can be attained through\ndemonstration of competence in a project-type assessment covering the\nfollowing core units:\n\n 4.2.1 Service marine electric generators\n 4.2.2 Service marine electric motors\n 4.2.3 Service marine lighting system\n 4.2.4 Service and maintain marine batteries\n 4.4.5 Maintain marine motor controls and other basic electronic control\nsystems\n 4.2.6 Service marine electric appliances\n 4.2.7 Maintain basic alarm systems on board ship\n\n4.3 Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4. The following are qualified to apply for assessment and certification:\n\n 4.4.1 Graduates of formal, non-formal and informal including enterprise-\nbased training programs\n 4.4.2 Experienced Workers (wage employed or self-employed)\n\n4.5. The guidelines on assessment and certification are discussed in detail in the\nProcedures Manual on Assessment and Certification and guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n((PTQCS).\n\n--- PDF PAGE 106 ---\n_____________________________________________________________________\nTR- Marine Electricity NC II Promulgated September 2008\n104\n\nCOMPETENCY MAP\nfor Maritime Sector\nAssist in performing\ndeck maintenance\nPerform supervisory\nfunctions\nPerform\nengine room\nhousekeeping\nConduct of inventory\nof tools, equipment\nand facilities\nPerform\nhousekeeping\nservice\nPerform\nvictualing\nservice\nAssist in performing\nnavigational\nwatchkeeping duties\nPerform mooring/\nunmooring\noperations\nProvide assistance\nin bunkering\noperations\nInstall / reinstall/\nreplace piping\nsystem\nPerform\nlaundry service\nMaintain galley\nequipment and\nutensils\nAssist in performing\nsimple splicing\nand canvas work\nPerform marlinespike\nand canvas work\nUse and care for\nhand and power\ntools\nFabricate shipboard\ncomponents\nPerform beverage\nservice\nPrepare cold\nmeals\nPerform\nhousekeeping\nduties\nProvide support\nin cargo\noperations\nPerform engine\nwatchkeeping\nduties\nAssist in Engineer\nin the maintenance\nof main engine….\nPrepare mis en place\nin the galley\nPrepare hot\nmeals\n\nPerform\nNavigational\nWatchkeeping duties\nPerform deck\n maintenance\nMaintain / clean\nengine room,\nmachinery and spaces\nPerform messhall\nservice\nAssist in maintaining\ngalley equipment\nand facility\nAssist in storing\nprovision\nBASIC\nCOMPETENCIES\nParticipate in\nworkplace\ncommunication\nSolve problems related\nto work activities\nApply problem\nsolving technique in\nthe workplace\nPractice\noccupational\nhealth & safety\nprocedures\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nPlan and organize work\nPlan and organize\nwork\n Practice career\nprofessionalism\nDevelop team and\nindividual\nReceive and\nRespond to workplace\ncommunication\nWork with others\nCORE\nCOMPETENCIES\nPerform survival\ntechniques during\nship abandonment\nPerform first aid\ntreatment\non board\nLaunch survival\ncraft and rescue\nboats\nPrevent and\nfight fire\nProtect marine\nenvironment\nComply with\nemergency\nprocedures\nConduct shipboard\nsecurity check\nCOMMON\nCOMPETENCIES\nService marine\nelectric\ngenerators\nService marine\nelectric motors\nService &\nmaintain marine\nbatteries\nService marine\nlighting system\nService marine\nelectrical\nappliances\nMaintain basic\nalarm systems\non board ship\nService marine\nmotor controls\n& other basic\nelectronic\n\n--- PDF PAGE 107 ---\n_____________________________________________________________________\nTR- Marine Electricity NC II Promulgated September 2008\n105\nDEFINITION OF TERMS\n\n1. Battery\n\nTwo or more connected cells that produce a direct\ncurrent by converting chemical energy to electrical\nenergy.\n2. Calibration\n\nCalibration is the comparing of a measurement device\n(an unknown) against an equal or better standard. A\nstandard in a measurement is considered the reference;\nit is the one in the comparison taken to be the more\ncorrect of the two. One calibrates to find out how far the\nunknown is from the standard.\n3. Certification\n\nRefers to the process of giving recognition to the\nattainment of knowledge, skills and attitudes\n4. Clamp-on ammeter\nIs a type of ammeter which measures electrical current\nwithout the need to disconnect the wiring through which\nthe current is flowing.\n5. Competency\nIs the specification of knowledge, skills and attitudes\nrequired to perform work activity in a range of context or\nenvironment\n6. Electrical Switch\nA device for opening and closing electrical circuits\nunder\nnormal\nload\nconditions,\nusually\noperated\nmanually.\n7. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person\nwho works in particular area of work is able to perform\n8. Evidence Guide\nIt is a guide for assessment that provides information on\ncritical\naspects\nof\ncompetency,\nunderpinning\nknowledge, underpinning skills, resource implications,\ncontext of assessment and assessment method.\n9. Generator\nOne that generates, especially a machine that converts\nmechanical energy into electrical energy.\n10. Hydrometer\n\nAn instrument used to determine specific gravity,\nespecially a sealed, graduated tube, weighted at one\nend, that sinks in a fluid to a depth used as a measure\nof the fluid's specific gravity.\n\n--- PDF PAGE 108 ---\n_____________________________________________________________________\nTR- Marine Electricity NC II Promulgated September 2008\n106\n11. Lighting Ballast\nIn a fluorescent lighting system, the ballast regulates\nthe current to the lamps and provides sufficient voltage\nto start the lamps.\n12. Lubricant\nA substance, such as grease or oil, that reduces friction\nwhen applied as a surface coating to moving parts.\n13. Megger\n\nA megger (or sometimes meggar) is often used as an\nalternate term for an insulation tester - a circuit tester\nwhich puts a very high voltage at a very low current\nacross two conductors to make sure that they are\nproperly insulated. The word is short for megohm-\nmeter.\n14. Ohms\n\nAn ohm is the electrical resistance offered by a current-\ncarrying element that produces a voltage drop of one\nvolt when a current of one ampere is flowing through it.\n15. Open Circuit\nThe difference of electrical potential between two\nterminals of a device when there is no external load\nconnected.\n16. Philippine TVET\nQualification\nFramework\nRefers to a comprehensive, nationally consistent\nframework for qualifications in the TVET sector. It also\nprovides the parameter for the integration of learning\nand assessment in the middle skills development.\n17. Pneumatic\nReferring to the use of air box signal information and\ncontrol process.\n18. Preventive and\ncorrective\nmaintenance servicing\nfor electric generator\n\nThese are the two main types of maintenance work\nperformed\nby\nmarine\nelectricians.\nPreventive\nmaintenance in the context refers to maintenance\nperformed regularly intended to prevent problems in\nmachinery and systems and normally consisting of\ncleaning, oiling, minor adjustments and occasional\nreplacements. Corrective maintenance refers to work\nperformed when equipment/system malfunctions or\ntroubles occur and involves major and/or minor\nadjustments, repairs and replacements.\n19. Qualification\nRefers to the national certificate issued by the TESDA\nor its accredited industry organizations in recognition\nthat a person has achieved competencies relevant to a\ntrade or industry.\n\n--- PDF PAGE 109 ---\n_____________________________________________________________________\nTR- Marine Electricity NC II Promulgated September 2008\n107\n20. Range of Variable\nIt describes the circumstances or context in which the\nwork is to be performed.\n21. Short Circuit\nA low-resistance connection established by accident or\nintention between two points in an electric circuit. The\ncurrent tends to flow through the area of low resistance,\nbypassing the rest of the circuit.\n22. Spanner\n\nA wrench having a hook, hole, or pin at the end for\nmeshing with a related device on another object.\n23. Starter\nA device within a fluorescent lamp or other discharge\nlamp, for initiating high voltage across the electrodes.\n24. Terminal Connector\nA conductive device for joining electrical circuits\ntogether. The connection may be temporary, as for\nportable equipment, or may require a tool for assembly\nand removal, or may be a permanent electrical joint\nbetween two wires or devices.\n25. Unit of Competency\nRefers to a discrete aspect of work, which would\nnormally be performed by only one person.\n26. Voltmeter\n\nAn instrument for measuring potential differences in\nvolts.\n\n--- PDF PAGE 110 ---\n_____________________________________________________________________\nTR- Marine Electricity NC II Promulgated September 2008\n108\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies who donated their time and expertise to the development and\nvalidation of this Training Regulation.\n\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nENGR. AGAPITO H. MIAVE\nElectrical Engineer (Training Officer)\nNorwegian Training Center-Manila\nNTC-M Bldg., TESDA Complex\nEast Service Road, Taguig City\n\nENGR. NUMERIANO P. BAJETA, JR.\nElectrical Superintendent\nAboitiz Jebsen Bulk Trans. Corp.\n2/F Harbor Center II\nRailroad St., South Harbor\nPort Area, Manila\nMR. FERMIN L. ALBARRACIN\nInstructor (Electric Machines and Control)\nSouthfield Shipping Company\nManila\n\nMR. ROGELIO M. VELARDE\nTraining Officer\nNorwegian Training Center-Manila\nNTC-M Bldg., TESDA Complex\nEast Service Road, Taguig City\n\nENGR. EDWIN V. TABO\nSuperintendent\nAboitiz Jebsen Bulk Trans. Corp.\n2/F Harbor Center II\nRailroad St., South Harbor\nPort Area, Manila\nENGR. DOMER B. BELTRAN\nCareer Phils. Ship Management\nCebu\nENGR. JIMMY S. IMPAS\nAsiana Ship Management, Inc.\nCebu\nADOLFO M. ALCOSEBA, JR.\nTrainor\nCebu\nATTY. GERALDINE JORDA\nSulpicio lines, Inc.\nCebu\nENGR. LIZARDO B. MONTANO\nHydraform\nCebu\nAURELIO M. GALELA\nEvic Resource Management, Inc.\nCebu\n\nThe PARTICIPANTS in the National Validation of this Training Regulation\n•\nRegion VII\n\n Members of the TESDA Board\nThe MANAGEMENT and STAFF of the TESDA Secretariat\nTESDA EXCOM\n\n\nQSO\n\nTESDA Regional Offices"
 }
