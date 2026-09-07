@@ -1,29 +1,208 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:multimodal-transport-operations-and-logistics-seafreight-import-services-nc-iv:bedcecab6f",
-  "qualification": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC IV",
+  "qualification": "MULTIMODAL TRANSPORT OPERATIONS AND LOGISTICS (SEAFREIGHT IMPORT) SERVICES NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC IV.pdf",
-    "sha256": "bedcecab6f4e68e22fefcecec6946e2e56eb3872530047ab7178f136d4f37ffb",
+    "source_sha256": "bedcecab6f4e68e22fefcecec6946e2e56eb3872530047ab7178f136d4f37ffb",
+    "pdf_pages": 189,
+    "printed_pages": 185,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation promulgated (12/17/2019). On the core table pages the extracted header token is 'PERFORMANCECR'; it is normalized for table recognition while the source extraction preserves the printed layout/text.",
+    "The source footer repeatedly identifies the document as 'MTOL SERVICES NC III' even though the qualification and revision history identify NC IV; this source-level inconsistency is preserved.",
+    "Section 1 and the competency headers use minor title variants, including 'Contribute to quality system' and 'Control shipping documents'; canonical titles follow the Section 1 inventory while source_text preserves the competency headers.",
+    "The source prints 47 Basic, 48 Common, 58 Core, and 82 Supervised Industry Learning (SIL) hours for a 205-hour total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation promulgated (12/17/2019). On the core table pages the extracted header token is 'PERFORMANCECR'; it is normalized for table recognition while the source extraction preserves the printed layout/text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source footer repeatedly identifies the document as 'MTOL SERVICES NC III' even though the qualification and revision history identify NC IV; this source-level inconsistency is preserved."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 and the competency headers use minor title variants, including 'Contribute to quality system' and 'Control shipping documents'; canonical titles follow the Section 1 inventory while source_text preserves the competency headers."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 47 Basic, 48 Common, 58 Core, and 82 Supervised Industry Learning (SIL) hours for a 205-hour total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC IV.pdf",
-    "pdf_pages": 189,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311401",
+      "source_unit_code": "500311401",
+      "pdf_page_range": [
+        7,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311402",
+      "source_unit_code": "500311402",
+      "pdf_page_range": [
+        13,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311403",
+      "source_unit_code": "500311403",
+      "pdf_page_range": [
+        19,
+        24
+      ]
+    },
+    {
+      "unit_code": "500311404",
+      "source_unit_code": "500311404",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "500311405",
+      "source_unit_code": "500311405",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "500311406",
+      "source_unit_code": "500311406",
+      "pdf_page_range": [
+        32,
+        35
+      ]
+    },
+    {
+      "unit_code": "500311407",
+      "source_unit_code": "500311407",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "500311408",
+      "source_unit_code": "500311408",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "500311409",
+      "source_unit_code": "500311409",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "MTO432201",
+      "source_unit_code": "MTO432201",
+      "pdf_page_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "unit_code": "MTO432202",
+      "source_unit_code": "MTO432202",
+      "pdf_page_range": [
+        53,
+        57
+      ]
+    },
+    {
+      "unit_code": "MTO432203",
+      "source_unit_code": "MTO432203",
+      "pdf_page_range": [
+        58,
+        62
+      ]
+    },
+    {
+      "unit_code": "MTO432204",
+      "source_unit_code": "MTO432204",
+      "pdf_page_range": [
+        63,
+        65
+      ]
+    },
+    {
+      "unit_code": "MTO432205",
+      "source_unit_code": "MTO432205",
+      "pdf_page_range": [
+        66,
+        70
+      ]
+    },
+    {
+      "unit_code": "MTO132301",
+      "source_unit_code": "MTO132301",
+      "pdf_page_range": [
+        71,
+        78
+      ]
+    },
+    {
+      "unit_code": "MTO132302",
+      "source_unit_code": "MTO132302",
+      "pdf_page_range": [
+        79,
+        86
+      ]
+    },
+    {
+      "unit_code": "MTO132303",
+      "source_unit_code": "MTO132303",
+      "pdf_page_range": [
+        87,
+        93
+      ]
+    },
+    {
+      "unit_code": "MTO132304",
+      "source_unit_code": "MTO132304",
+      "pdf_page_range": [
+        94,
+        99
+      ]
+    },
+    {
+      "unit_code": "MTO132305",
+      "source_unit_code": "MTO132305",
+      "pdf_page_range": [
+        100,
+        105
+      ]
+    },
+    {
+      "unit_code": "MTO132306",
+      "source_unit_code": "MTO132306",
+      "pdf_page_range": [
+        106,
+        110
+      ]
+    }
+  ]
 }
