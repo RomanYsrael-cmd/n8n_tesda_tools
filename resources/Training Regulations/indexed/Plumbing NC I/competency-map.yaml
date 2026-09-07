@@ -1,66 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:plumbing-nc-i:2014-10",
+  "document_id": "tesda:tr:plumbing-nc-i:72b703c53b",
   "qualification": "PLUMBING NC I",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311101",
-        "title": ": This unit covers the knowledge, skills and attitudes required"
-      },
-      {
-        "unit_code": "CON931201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON712344",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311102",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311103",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311104",
-        "title": ":"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": ": This unit covers the knowledge, skills and attitudes on"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": ": This unit covers the knowledge, skills and attitudes on"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": ":"
-      },
-      {
-        "unit_code": "CON712345",
-        "title": ":"
-      },
-      {
-        "unit_code": "CON712346",
-        "title": ":"
-      },
-      {
-        "unit_code": "CON712347",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION\nPLUMBING SUB-SECTOR\nPrepare\nestimation of\nmaterials for\nsingle plumbing\nunit\nPerform\nComplex\nPlumbing\nInstallation and\nAssemblies\nInstall hot, chilled and\n/ or potable water\npiping system\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nInstall riser/ down\nfeed and\ndistribution water\nsupply system\nDraft plumbing\ndesign\nPrepare\nconstruction\nmaterials and\ntools\nObserve\nprocedures,\nspecifications and\nmanuals of\ninstructions\nMaintain tools\nand equipment\nPerform\nmensurations\nand\ncalculations\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\nParticipate in\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice career\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteams\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nBASIC\nCOMPETENCIES\nInstall and\nAssemble\nSingle\nPlumbing Unit\nPerform\nMinor\nConstruction\nWorks\nMake Piping\nJoints and\nConnections\nPrepare\nPlumbing\nLayout\nInstall\nand connect\npumps to\nplumbing system\nPerform finishing\nand trimming of\nplumbing fixtures\nand accessories\n\n--- PDF PAGE 77 ---\nTR- Plumbing NC I (Amended) Promulgated\nPage 74",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311101",
+        "500311102",
+        "500311103",
+        "500311104"
+      ],
+      "unit_titles": [
+        "Receive and respond to workplace communication",
+        "Work with others",
+        "Demonstrate work values",
+        "Practice housekeeping procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Perform mensuration and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON712344",
+        "CON712345",
+        "CON712346",
+        "CON712347"
+      ],
+      "unit_titles": [
+        "Prepare plumbing layout",
+        "Make piping joints and connections",
+        "Perform minor construction work",
+        "Install and assemble single plumbing unit"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 PLUMBING NC I QUALIFICATION\n\nThe PLUMBING NC I Qualification consists of competencies that a person must\nachieve in installing a single plumbing unit which includes one unit each of water meter,\nwater closet, lavatory, shower with single point water heater and kitchen sink. It also\nincludes installing floor drains and faucets.\n\nThis Qualification is packaged from the competency map of Construction – Civil\nWorks sub-sector as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\nCODE NO.\nBASIC COMPETENCIES\n\nUnits of Competency\n500311101\nReceive and respond to workplace communication\n500311102\nWork with others\n500311103\nDemonstrate work values\n500311104\nPractice housekeeping procedures\n\nCODE NO.\nCOMMON COMPETENCIES\n\nUnits of Competency\nCON931201\nPrepare construction materials and tools\nCON311201\nObserve procedures, specifications and manuals of instruction\nCON311203\nPerform mensuration and calculations\nCON311204\nMaintain tools and equipment\n\nCODE NO.\nCORE COMPETENCIES\n\nUnits of Competency\nCON712344\nPrepare Plumbing Layout\nCON712345\nMake Piping Joints and Connections\nCON712346\nCON712347\nPerform Minor Construction Work\nInstall and Assemble Single Plumbing Unit\n\nA person who has achieved this Qualification is competent to be a:\n\n Plumber I\n\n--- PDF PAGE 5 ---\nTESDA-SOP-QSO-01-F08\nTR- Plumbing NC I (Amended) Promulgated October 2014\n 2"
 }

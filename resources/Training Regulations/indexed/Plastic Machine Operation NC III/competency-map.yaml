@@ -4,71 +4,56 @@
   "document_id": "tesda:tr:plastic-machine-operation-nc-iii:0b9e61eb8e",
   "qualification": "PLASTIC MACHINE OPERATION NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "attitude"
-      },
-      {
-        "unit_code": "ALT742201",
-        "title": "specification from engineering blue prints or drawings that provides"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ALT823308",
-        "title": "preparation for production. It applies typically to the areas of"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ": This unit covers the knowledge, skills and attitudes to"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "collect information in order to negotiate to a desired outcome"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "the application of mathematical concepts and techniques."
-      },
-      {
-        "unit_code": "ALT311202",
-        "title": "maintaining measuring instruments."
-      },
-      {
-        "unit_code": "ALT723203",
-        "title": "specification manuals, maintenance procedure manuals and"
-      },
-      {
-        "unit_code": "ALT723205",
-        "title": ": This unit deals with inspecting and cleaning of work area"
-      },
-      {
-        "unit_code": "ALT823309",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT823310",
-        "title": "injection molding processes and the solving of non-routine"
-      },
-      {
-        "unit_code": "ALT823311",
-        "title": "molding processes and the solving of non-routine problems."
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP- AUTOMOTIVE SECTOR\nMANUFACTURING SUB-SECTOR\n(Parts Manufacturing)\n\nCOMMON\nCOMPETENCIES\nReceive and\nrespond workplace\ncommunication\nParticipate in\nworkplace\ncommunication\nLead in workplace\ncommunication\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team\n and individual\nSolve workplace\nproblems related\nto work activities\nWork with Other\nLead small Team\nApply problem\nsolving techniques\nin the workplace\nPlan and\norganize work\nBASIC\nCOMPETENCIES\n-\nLegend:\nCORE COMPETENCIES\nDemonstrate\nwork values\nPractice basic\n housekeeping\nprocedures\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\n procedures\nDevelop and\npractice negotiation\nskills\nUse mathematical\nconcepts and\n techniques\nUse relevant\n technologies\nRead & Interpret\nEngineering Drawings\nPerform Mensuration\nand Calculation\nRead, Interpret and\nApply Specifications\nand Manuals\nPerform Shop\nMaintenance\nDevelop and\nManufacture Wood\nPattern\nDevelop and\nManufacture Polymer\nPattern\nDevelop and\nManufacture Assembled\nPlated Pattern\nDevelop and\nManufacture Production\nPattern\nPerform General\nwoodworking Machine\nOperations\nUse and Maintain\nMeasuring Instrument\nPrepare & mix sand for\nmetal molding\nProduce Molds by Hand\nProduce Cores by Hand\nOperate Molding\nMachine\nOperate Core-Making\nMachine\nPour Molten Metal to\nMolds\nUse and Maintain\nMeasuring Instrument\nOperate melting\nfurnaces (non-electric)\nOperate Cupola Melting\nFurnace\nOperate Electric\nInduction Melting\nFurnace\nFettle & Trim Metal\nCastings/Forgings\nPerform Refractory\nInstallation & Repair\nUse & Maintain\nMeasuring Instrument\nANNEX A\nPerform Engineering\nMeasurement\nPerform Precision\nMechanical\nMeasurement\nCalibrate Measuring\nEquipment\nPLASTIC MACHINE OPERATION NC III\nPrepare Molds for\nComposites Production\nPrepare Materials for\nFormulae\nAssemble Materials and\nEquipment for\nProduction\nOperate Injection\nMolding Equipment\nOperate Blow\nMolding Equipment\nMonitor Process\nOperations\nFinish Products and\nComponents\nSelect and Control\nInspection Processes\nand Procedure\nPerform Product\nInspection\nPerform Basic\nStatistical Quality\nControl\nUse Improvement\nProcesses in Team\nActivities\nChange Equipment\nDies\nPrepare and Start\nEquipment for\nOperation\nProduce Injection\nMolded Products\nProduce Blow Molded\nProducts\n\n--- PDF PAGE 63 ---\nTR-PLASTIC INJECTION MOLDING NC III Promulgated\n59",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve workplace problem related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ALT742201",
+        "ALT311202",
+        "ALT723203",
+        "ALT723205"
+      ],
+      "unit_titles": [
+        "Read, interpret and apply engineering drawings",
+        "Perform mensuration and calculation",
+        "Read, interpret and apply specifications and manuals",
+        "Perform shop maintenance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ALT823308",
+        "ALT823309",
+        "ALT823310",
+        "ALT823311"
+      ],
+      "unit_titles": [
+        "Change equipment dies",
+        "Prepare and start equipment for production",
+        "Produce injection molded products",
+        "Produce blow molded products"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded a National\nCertificate signed by the TESDA Director General.\n\n4.2 Individual aspiring to be awarded the qualification of PLASTIC MACHINE\nOPERATION NC III must acquire Certificates of Competency (COC) in all the\nfollowing core units of the Qualification. Candidates may apply for assessment in any\naccredited assessment center.\n\n4.2.1 Change Equipment Dies\n4.2.2 Prepare and Start Equipment for Operation\n4.2.3 Perform Plastic Machine Operation\n\n4.3 Accumulation and submission of all COCs acquired for the relevant units of\ncompetency comprising a qualification, an individual shall be issued the corresponding\nNational Certificate.\n\n4.4 Assessment shall focus on the core units of competency. The basic and common\nunits shall be integrated or assessed concurrently with the core units.\n\n4.5 The following are qualified to apply for assessment and certification:\n\n4.5.1 Holder of PLASTIC MACHINE OPERATION NC II or equivalent\nqualification; or\n4.5.2 Graduates of formal, non-formal and informal including enterprise-\nbased training programs.\n4.5.3 Experienced workers (wage employed or self employed)\n\n4.5 The guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)”\n\n--- PDF PAGE 62 ---\nTR-PLASTIC MACHINE OPERATION NC III Promulgated\n\n58\nCOMPETENCY MAP- AUTOMOTIVE SECTOR\nMANUFACTURING SUB-SECTOR\n(Parts Manufacturing)\n\nCOMMON\nCOMPETENCIES\nReceive and\nrespond workplace\ncommunication\nParticipate in\nworkplace\ncommunication\nLead in workplace\ncommunication\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team\n and individual\nSolve workplace\nproblems related\nto work activities\nWork with Other\nLead small Team\nApply problem\nsolving techniques\nin the workplace\nPlan and\norganize work\nBASIC\nCOMPETENCIES\n-\nLegend:\nCORE COMPETENCIES\nDemonstrate\nwork values\nPractice basic\n housekeeping\nprocedures\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\n procedures\nDevelop and\npractice negotiation\nskills\nUse mathematical\nconcepts and\n techniques\nUse relevant\n technologies\nRead & Interpret\nEngineering Drawings\nPerform Mensuration\nand Calculation\nRead, Interpret and\nApply Specifications\nand Manuals\nPerform Shop\nMaintenance\nDevelop and\nManufacture Wood\nPattern\nDevelop and\nManufacture Polymer\nPattern\nDevelop and\nManufacture Assembled\nPlated Pattern\nDevelop and\nManufacture Production\nPattern\nPerform General\nwoodworking Machine\nOperations\nUse and Maintain\nMeasuring Instrument\nPrepare & mix sand for\nmetal molding\nProduce Molds by Hand\nProduce Cores by Hand\nOperate Molding\nMachine\nOperate Core-Making\nMachine\nPour Molten Metal to\nMolds\nUse and Maintain\nMeasuring Instrument\nOperate melting\nfurnaces (non-electric)\nOperate Cupola Melting\nFurnace\nOperate Electric\nInduction Melting\nFurnace\nFettle & Trim Metal\nCastings/Forgings\nPerform Refractory\nInstallation & Repair\nUse & Maintain\nMeasuring Instrument\nANNEX A\nPerform Engineering\nMeasurement\nPerform Precision\nMechanical\nMeasurement\nCalibrate Measuring\nEquipment\nPLASTIC MACHINE OPERATION NC III\nPrepare Molds for\nComposites Production\nPrepare Materials for\nFormulae\nAssemble Materials and\nEquipment for\nProduction\nOperate Injection\nMolding Equipment\nOperate Blow\nMolding Equipment\nMonitor Process\nOperations\nFinish Products and\nComponents\nSelect and Control\nInspection Processes\nand Procedure\nPerform Product\nInspection\nPerform Basic\nStatistical Quality\nControl\nUse Improvement\nProcesses in Team\nActivities\nChange Equipment\nDies\nPrepare and Start\nEquipment for\nOperation\nProduce Injection\nMolded Products\nProduce Blow Molded\nProducts\n\n--- PDF PAGE 63 ---\nTR-PLASTIC INJECTION MOLDING NC III Promulgated\n59\n\nDEFINITION OF TERMS\n\n1. Die\nA former used to give the required shape to the product and which is\nused under pressure. Dies are typically used in the extrusion, injection,\nblow moulding and general rubber sectors. Dies used which are not\nsubject to pressure are referred to as ‘moulds’ in this Training Package.\n2. PPE\nPersonal Protective Equipment – the last line of defense against\nworkplace hazards – includes things like safety boots, gloves, goggles,\near muffs.\n3. Routine\nProblems\nTo ‘rectify routine problems’ means ‘apply known solutions to a limited\nrange of predictable problems’.\n4. OH & S\nOccupational health and safety\n\n5. Composites\nProducts consisting of a polymer matrix and a continuous layered\nreinforcing media. The reinforcing media include fiber, filament and cloth.\nThe product is generally hand or machine fabricated.\n6. Calibration\n\nInstruments and other measuring equipment are calibrated to make sure\nthe readings they yield are correct.\nTo calibrate an instrument/item of equipment is a high level unit of\ncompetency.\nTo check the calibration of an instrument/item of equipment is a routine\npart of using it and may be as simple as checking the date the calibration\ncertificate expires.\n7. Engineering\nControl\nA subset of the hierarchy of control.\n8. Hierarchy of\nControl\nThe preferred order of risk control measures from most to least preferred,\nthat is:\n elimination\n substitution\n engineering controls\n administrative controls\n personal protective equipment.\n\n9. Integral\nEquipment which forms part of the operation of a main item of equipment\nis regarded as ‘integral’ to that main item.\nExamples include feed hoppers (and even blending feed hoppers) and\nheating and cooling devices.\nTypically equipment will be regarded as being ‘integral’ to the main item\nif:\n it is close/attached to the main item\n it has simultaneous operation with the main item\n it does not require significant additional knowledge or skills.\nEquipment is not integral if it has independent operation of its own.\n\n--- PDF PAGE 64 ---\nTR-PLASTIC INJECTION MOLDING NC III Promulgated\n60\n\nACKNOWLEDGEMENT\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend thanks\nand appreciation to the many representatives of business, industry, academe and government\nagencies who rendered their time and expertise to the development and validation of this Training\nRegulation.\n\nTHE TECHNICAL AND INDUSTRY EXPERT PANEL\nPLASTIC MACHINE NC II\nAntonio A. Gimenez\nPhilippine Automotive\nFederation, Inc. (PAFI)\n\nRodolfo T. Nunez-\nPlant Manager-Nissan Motors\nPhils. Inc.(NMPI)\nCATC/PAFI\n\nElmo N. Serbito\nPAFI (Samahan ng mga\nManggagawang Supercast)\n\nCarina J. Bondad\n(Administrative Staff)\nThe PARTICIPANTS in the National Validation of this Training Regulation\n• (Supercast Foundry &\nMachinery Corp.\nSFMC)\n\n• Philippine Aluminum Wheels\nInc. (PAWI)\n•\n• Toyota Auto Parts Phils. Inc.\n\nMembers of the TESDA Board\nThe MANAGEMENT and STAFF of the TESDA Secretariat\nTESDA EXCOM\nQualification and Standards Office\nFlorante P. Inoturan\nAgnes P. Panem\nAbel B. Elpedes"
 }

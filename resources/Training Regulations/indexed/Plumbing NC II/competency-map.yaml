@@ -1,68 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:plumbing-nc-ii:2014-10",
+  "document_id": "tesda:tr:plumbing-nc-ii:8d13c8bbe5",
   "qualification": "PLUMBING NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":This unit covers the knowledge, skills and attitudes required to"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "This unit covers the knowledge, skills and attitudes on identifying,"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON712348",
-        "title": "required materials for multiple plumbing units."
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to identify"
-      },
-      {
-        "unit_code": "500311107",
-        "title": "growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "and organizational requirements for occupational health and"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "interpreting, applying services to specifications and manuals and"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "standards."
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "condition, performing preventive maintenance and storing of"
-      },
-      {
-        "unit_code": "CON712349",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "CON712350",
-        "title": "pipe leak testing."
-      },
-      {
-        "unit_code": "CON712351",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION\nPLUMBING SUB-SECTOR\nANNEX A\nBASIC\nCOMPETENCIES\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice career\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteams\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nPrepare\nconstruction\nmaterials and\ntools\nObserve\nprocedures,\nspecifications and\nmanuals of\ninstruction\nMaintain tools\nand equipment\nPerform\nmensurations\nand\ncalculations\nPLUMBING NC II\nPrepare\nestimation of\nmaterials for\nmultiple\nplumbing unit\nPerform\nmultiple\nplumbing units\ninstallation and\nassemblies\nInstall hot, chilled and\n/ or potable water\npiping system\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nInstall riser/ down\nfeed and\ndistribution water\nsupply system\nDraft plumbing\ndesign\nInstall and\nAssemble\nSingle\nPlumbing Unit\nPerform\nMinor\nConstruction\nWorks\nMake Piping\nJoints and\nConnections\nPrepare\nPlumbing\nLayout\nInstall\nand connect\npumps to\nplumbing system\nPerform finishing\nand trimming of\nplumbing fixtures\nand accessories\n\n--- PDF PAGE 85 ---\nTR PLUMBING NC II (Amended) Promulgated October 2014\nPage 83",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Perform mensuration and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON712348",
+        "CON712349",
+        "CON712350",
+        "CON712351"
+      ],
+      "unit_titles": [
+        "Prepare estimation of materials for multiple plumbing units",
+        "Perform multiple plumbing units installation and assemblies",
+        "Conduct pipe leak testing",
+        "Perform plumbing repair and maintenance work"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 PLUMBING NC II QUALIFICATION\n\nThe PLUMBING NC II Qualification consists of competencies that a person must\nachieve in installing multiple units of plumbing system with multi-point hot- and cold-water\nlines for medium-rise buildings. It also includes plumbing repair and maintenance work.\n\nThis Qualification is packaged from the competency map of Construction – Civil\nWorks sub-sector as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\nCODE NO.\nBASIC COMPETENCIES\n\nUnits of Competency\n500311105\nParticipate in workplace communication\n500311106\nWork in a team environment\n500311107\nPractice career professionalism\n500311108\nPractice occupational health and safety procedures\n\nCODE NO.\nCOMMON COMPETENCIES\n\nUnits of Competency\nCON931201\nPrepare construction materials and tools\nCON311201\nObserve procedures, specifications and manuals of instruction\nCON311203\nPerform mensurations and calculations\nCON311204\nMaintain tools and equipment\n\nCODE NO.\nCORE COMPETENCIES\n\nUnits of Competency\nCON712348\nPrepare estimation of materials for multiple plumbing units\nCON712349\nPerform multiple plumbing units installation and assemblies\nCON712350\nConduct pipe leak testing\nCON712351\nPerform plumbing repair and maintenance work\n\nA person who has achieved this Qualification is competent to be:\n\n Plumber II\n\n--- PDF PAGE 4 ---\nTESDA-SOP-QSO-01-F08\n\nTR PLUMBING NC II (Amended) Promulgated October 2014\nPage 2"
 }
