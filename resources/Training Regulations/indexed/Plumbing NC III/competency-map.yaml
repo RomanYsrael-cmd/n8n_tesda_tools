@@ -1,84 +1,63 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:plumbing-nc-iii:2014-10",
+  "document_id": "tesda:tr:plumbing-nc-iii:c21090fcb8",
   "qualification": "PLUMBING NC III",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311109",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311114",
-        "title": "required in selecting, sourcing and applying appropriate and"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "requesting and receiving construction (plumbing) materials and"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON712352",
-        "title": "This unit covers the knowledge, skills and attitude in"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311110",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311111",
-        "title": "information in order to negotiate to a desired outcome and participate in"
-      },
-      {
-        "unit_code": "500311112",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311113",
-        "title": "mathematical concepts and techniques."
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications and"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "and interpreting symbols, data and work plan based on the"
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      },
-      {
-        "unit_code": "CON712353",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "CON712354",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "CON712355",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "CON712356",
-        "title": "oversight or supervision of the plumbing works."
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCONSTRUCTION\nPLUMBING SUB-SECTOR\nInstall centralized hot,\nchilled and/or potable\nwater piping system\nInstall\nriser/downfeed\nand distribution\nwater supply\nsystem\nPerform finishing\nand trimming of\nplumbing fixtures\nand accessories\nInstall and\nconnect pumps to\nplumbing system\nOversee\nplumbing works\nPrepare\nconstruction\nmaterials and\ntools\nObserve\nprocedures,\nspecifications and\nmanuals of\ninstruction\nMaintain tools\nand equipment\nPerform\nmensurations\nand\ncalculations\nInterpret\ntechnical\ndrawings and\nplans\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nBASIC\nCOMPETENCIES\nPrepare\nestimation of\nmaterials for\nsingle plumbing\nunit\nPerform\nComplex\nPlumbing\nInstallation and\nAssemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nInstall and\nAssemble\nSingle\nPlumbing Unit\nPerform\nMinor\nConstruction\nWorks\nMake Piping\nJoints and\nConnections\nPrepare\nPlumbing\nLayout\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nParticipate in\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice career\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\n\n--- PDF PAGE 104 ---\nTR – Plumbing NC III (Amended) Promulgated October 2014\nPage 102",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311109",
+        "500311110",
+        "500311111",
+        "500311112",
+        "500311113",
+        "500311114"
+      ],
+      "unit_titles": [
+        "Lead workplace communication",
+        "Lead small teams",
+        "Develop and practice negotiation skills",
+        "Solve problems related to work activities",
+        "Use mathematical concepts and techniques",
+        "Use relevant technologies"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON712352",
+        "CON712353",
+        "CON712354",
+        "CON712355",
+        "CON712356"
+      ],
+      "unit_titles": [
+        "Install centralized hot-, chilled- and / or potable-water piping system",
+        "Install riser/downfeed and distribution water supply system",
+        "Install and connect pumps to plumbing system",
+        "Perform finishing and trimming of plumbing fixtures and accessories",
+        "Oversee plumbing works"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 PLUMBING NC III QUALIFICATION\n\nThe Plumbing NC III Qualification consists of competencies that a person must\nachieve in installing simple and complex plumbing systems including centralized and\nstorage type of water heater system for high-rise buildings. He/she leads, supervises and\nworks with the team.\n\nThis Qualification is packaged from the competency map of Construction – Civil\nWorks sub-sector as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\nCODE NO.\nBASIC COMPETENCIES\n\nUnits of Competency\n500311109\nLead workplace communication\n500311110\nLead small teams\n500311111\nDevelop and practice negotiation skills\n500311112\nSolve problems related to work activities\n500311113\nUse Mathematical concepts and techniques\n500311114\nUse relevant technologies\n\nCODE NO.\nCOMMON COMPETENCIES\n\nUnits of Competency\nCON931201\nPrepare construction materials and tools\nCON311201\nObserve procedures, specifications and manuals of instruction\nCON311202\nInterpret technical drawings and plans\nCON311203\nPerform mensurations and calculations\nCON311204\nMaintain tools and equipment\n\nCODE NO.\nCORE COMPETENCIES\n\nUnits of Competency\nCON712352\nInstall centralized hot, chilled and /or potable water piping system\nCON712353\nInstall riser/downfeed and distribution water supply system\nCON712354\nCON712355\n\nCON712356\nInstall and connect pumps to plumbing system\nPerform finishing and trimming of plumbing fixtures and\naccessories\nOversee plumbing works\n\nA person who has achieved this Qualification is competent to be a:\n Plumber III\n\n--- PDF PAGE 4 ---\nTESDA-SOP-QSO-01-F08\nTR – Plumbing NC III (Amended) Promulgated October 2014 Page 2"
 }
