@@ -1,29 +1,178 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:organic-agriculture-production-nc-ii:6e3a1933dd",
   "qualification": "ORGANIC AGRICULTURE PRODUCTION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Organic Agriculture Production NC II.pdf",
-    "sha256": "6e3a1933dd64e21923c74b337f4a9101b70fcf223eb7650c9cbc11f9b353b552",
+    "source_sha256": "6e3a1933dd64e21923c74b337f4a9101b70fcf223eb7650c9cbc11f9b353b552",
+    "pdf_pages": 91,
+    "printed_pages": 89,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation with no promulgation date printed on the cover; the official PDF remains authoritative.",
+    "Section 1 lists 500311104 for Work in a team environment, while the competency header prints 500311106; the canonical inventory follows Section 1 and source_unit_code retains the header identifier.",
+    "Section 1 lists AGR612302 for Raise organic hogs and AGR611302 for Produce organic concoctions and extracts, while the competency headers print AGR611302 for the hog unit and AGR611301 for the concoctions unit; the canonical inventory follows Section 1 and source_unit_code retains the header identifiers.",
+    "The source uses minor wording variants, including Perform estimation and calculations versus the header's Perform estimation and basic calculation and Produce various concoctions versus the qualification inventory's Produce organic concoctions and extracts; source_text preserves the printed forms.",
+    "The Section 3 Record Keeping and Industry Knowledge outcomes are printed without outcome numbers; the canonical curriculum assigns local 4.x and 5.x identifiers for deterministic retrieval and preserves the unnumbered source text.",
+    "The source prints 18 Basic, 64 Common, 96 Core, and 54 Elective hours for a 232-hour total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation with no promulgation date printed on the cover; the official PDF remains authoritative."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 500311104 for Work in a team environment, while the competency header prints 500311106; the canonical inventory follows Section 1 and source_unit_code retains the header identifier."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists AGR612302 for Raise organic hogs and AGR611302 for Produce organic concoctions and extracts, while the competency headers print AGR611302 for the hog unit and AGR611301 for the concoctions unit; the canonical inventory follows Section 1 and source_unit_code retains the header identifiers."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses minor wording variants, including Perform estimation and calculations versus the header's Perform estimation and basic calculation and Produce various concoctions versus the qualification inventory's Produce organic concoctions and extracts; source_text preserves the printed forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 Record Keeping and Industry Knowledge outcomes are printed without outcome numbers; the canonical curriculum assigns local 4.x and 5.x identifiers for deterministic retrieval and preserves the unnumbered source text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 64 Common, 96 Core, and 54 Elective hours for a 232-hour total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Organic Agriculture Production NC II.pdf",
-    "pdf_pages": 91,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "AGR321201",
+      "source_unit_code": "AGR321201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "AGR321202",
+      "source_unit_code": "AGR321202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "AGR321203",
+      "source_unit_code": "AGR321203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "AGR321205",
+      "source_unit_code": "AGR321205",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "AGR612301",
+      "source_unit_code": "AGR612301",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "AGR611306",
+      "source_unit_code": "AGR611306",
+      "pdf_page_range": [
+        37,
+        42
+      ]
+    },
+    {
+      "unit_code": "AGR611301",
+      "source_unit_code": "AGR611301",
+      "pdf_page_range": [
+        43,
+        46
+      ]
+    },
+    {
+      "unit_code": "AGR611302",
+      "source_unit_code": "AGR611301",
+      "pdf_page_range": [
+        47,
+        51
+      ]
+    },
+    {
+      "unit_code": "AGR612302",
+      "source_unit_code": "AGR611302",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "AGR612303",
+      "source_unit_code": "AGR612303",
+      "pdf_page_range": [
+        57,
+        61
+      ]
+    }
+  ]
 }

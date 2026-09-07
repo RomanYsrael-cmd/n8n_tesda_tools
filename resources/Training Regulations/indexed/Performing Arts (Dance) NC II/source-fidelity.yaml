@@ -1,29 +1,123 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:performing-arts-dance-nc-ii:4091dda117",
   "qualification": "PERFORMING ARTS (DANCE) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Performing Arts (Dance) NC II.pdf",
-    "sha256": "4091dda1179119437b7b8983c37db958fd2ea2d35e5b8193850fe1b9ca36a670",
+    "source_sha256": "4091dda1179119437b7b8983c37db958fd2ea2d35e5b8193850fe1b9ca36a670",
+    "pdf_pages": 52,
+    "printed_pages": 30,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation with no promulgation date printed on the cover; its section pagination resets and the final numbered source footer is printed page 30, followed by unnumbered acknowledgement and published-regulations pages, despite the table of contents listing pages through 46.",
+    "Section 3 prints a single Nominal Training Duration of 271 hours rather than Basic/Common/Core subtotals; the canonical duration preserves that single source expression without inferred allocation.",
+    "The source uses minor wording and numbering variants in the curriculum tables, including repeated or skipped outcome numbers; page-preserved source_text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation with no promulgation date printed on the cover; its section pagination resets and the final numbered source footer is printed page 30, followed by unnumbered acknowledgement and published-regulations pages, despite the table of contents listing pages through 46."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints a single Nominal Training Duration of 271 hours rather than Basic/Common/Core subtotals; the canonical duration preserves that single source expression without inferred allocation."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses minor wording and numbering variants in the curriculum tables, including repeated or skipped outcome numbers; page-preserved source_text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Performing Arts (Dance) NC II.pdf",
-    "pdf_pages": 52,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "HCS245201",
+      "source_unit_code": "HCS245201",
+      "pdf_page_range": [
+        18,
+        21
+      ]
+    },
+    {
+      "unit_code": "HCS245202",
+      "source_unit_code": "HCS245202",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "HCS245301",
+      "source_unit_code": "HCS245301",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "HCS245302",
+      "source_unit_code": "HCS245302",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "HCS245303",
+      "source_unit_code": "HCS245303",
+      "pdf_page_range": [
+        32,
+        35
+      ]
+    },
+    {
+      "unit_code": "HCS245304",
+      "source_unit_code": "HCS245304",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    }
+  ]
 }
