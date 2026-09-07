@@ -1,92 +1,67 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:transport-rac-servicing-nc-ii:2005-03",
-  "qualification": "Transport RAC Servicing NC II",
+  "document_id": "tesda:tr:transport-rac-servicing-nc-ii-superseded:3418dc6aee",
+  "qualification": "TRANSPORT RAC SERVICING NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "attitudes required to gather, interpret and"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and"
-      },
-      {
-        "unit_code": "HVC311201",
-        "title": "identifying, interpreting, applying services to"
-      },
-      {
-        "unit_code": "HVC713202",
-        "title": "preparing materials, tools and equipment, lay-outing"
-      },
-      {
-        "unit_code": "HVC724201",
-        "title": "preparing materials, tools and equipment, testing"
-      },
-      {
-        "unit_code": "HVC311205",
-        "title": "checking condition, performing preventive maintenance"
-      },
-      {
-        "unit_code": "HVC723317",
-        "title": ":"
-      },
-      {
-        "unit_code": "HVC723318",
-        "title": "to identify, analyze and find remedy faults"
-      },
-      {
-        "unit_code": "HVC723320",
-        "title": "troubleshooting, repairing and retrofitting air-"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "HVC713201",
-        "title": "attitudes in identifying, requesting and receiving"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "HVC723316",
-        "title": "attitudes to safely install and test air-conditioning"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "attitudes in promoting career growth and"
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "HVC311202",
-        "title": "analyzing and interpreting symbols, data and work"
-      },
-      {
-        "unit_code": "HVC311203",
-        "title": "in identifying and measuring objects based on the"
-      },
-      {
-        "unit_code": "HVC7315201",
-        "title": "needed to work safely in the workplace including"
-      },
-      {
-        "unit_code": "HVC723319",
-        "title": "the recovery and recycling of refrigerants in air-"
-      },
-      {
-        "unit_code": "HVC723321",
-        "title": "performing testing and commissioning air-conditioning"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP - HVAC/R Sector\nTRANSPORT RAC SERVICING NC II\nPrepare\n materials\nand tools\nPerform\nmensurations\n &\ncalculations\nPerform\nbasic\nelectrical\nworks\n Maintains\ntools\nand\nequipment\nPerform\n Housekeeping\nand safety\npractices\nDocument\nwork\naccomplished\nObserve\nprocedures,\nspecifications\n & manuals of\ni\nt\nti\n\nPerform\nbasic\nbenchwork\nInterpret plans\nand\ntechnical\ndrawing\n\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nRepair & retrofit\nwindow-type\nAC/ domestic\nrefrigeration\n\n Service &\nmaintain\nwindow-type\nAC/\n\nTroubleshoot\nwindow-type\nAC/domestic\nrefrigeration\n\nRecover & recycle\nrefrigerant in\nwindow\ntype ac/domestic\nInstall window-\ntype AC/\ndomestic\nrefrigeration\n\nPerform testing\nand\ncommissioning\nfor window-\n\nInstall package-type\nair-conditioning\nunit (PACU )/\ncommercial\nrefrigeration\n\nService &\nmaintain\nPACU/CRE units\nSurvey site\nfor installation\nTroubleshoot\nPACU/CRE\nsystems\nRecover / recycle\nrefrigerant in\nPACU/CRE\nRepair & retrofit\nPACU/CRE\nrefrigeration\nsystems & its\nPerform start-\nup,\ntesting and\ncommissioning\n\nInstall transport\nair-conditioning\n& refrigeration\nTroubleshoot,\ntransport air-\nconditioning &\nrefrigeration\nPerform testing\n & commissioning\nfor transport AC &\nrefrigeration\nRepair & retrofit\ntransport ac &\nrefrigeration\nsystems\n& its accessories\n\nInstall\nPACU/CRE\nelectrical\n systems\nRecover & recycle\nrefrigerant in\ntransport AC &\nrefrigeration\nInstall\nPACU/CRE\npiping systems\nService &\nMaintain\ntransport AC\n& refrigeration\nANNEX A\n\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalis\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 117 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 115",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "HVC713201",
+        "HVC311201",
+        "HVC311203",
+        "HVC713202",
+        "HVC724201",
+        "HVC311204",
+        "HVC315201",
+        "HVC311205"
+      ],
+      "unit_titles": [
+        "Prepare materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Perform mensurations and calculations",
+        "Perform basic benchwork",
+        "Perform basic electrical works",
+        "Maintain tools and equipment",
+        "Perform housekeeping and safety practices",
+        "Document work accomplished"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "HVC723316",
+        "HVC723317",
+        "HVC723318",
+        "HVC723319",
+        "HVC723320",
+        "HVC723321"
+      ],
+      "unit_titles": [
+        "Install transport air-conditioning and refrigeration units",
+        "Service and maintain transport air-conditioning and refrigeration units",
+        "Troubleshoot transport air-conditioning and refrigeration systems",
+        "Recover and recycle refrigerant in transport refrigeration systems",
+        "Repair and retrofit transport air-conditioning and refrigeration systems and its accessories",
+        "Perform testing and commissioning for transport air-conditioning and refrigeration"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be\nawarded a National Certificate signed by the TESDA Director\nGeneral.\n\n4.2\nThe qualification of Transport RAC Servicing NC II may be\nattained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in all\nthe following areas:\n\n4.2.1.1\nInstall\ntransport\nair-conditioning\nand\nrefrigeration units\n\n4.2.1.1.1 Install transport air-conditioning and\nrefrigeration units\n4.2.1.1.2 Perform testing and commissioning\nfor\ntransport air-conditioning and\nrefrigeration units\n\n4.2.1.2\nService and maintain transport air-conditioning\nand refrigeration units\n\n4.2.1.3\nTroubleshoot transport air-conditioning and\n refrigeration systems\n\n4.2.1.4\nRecover and Recycle refrigerant in transport\nair-conditioning and refrigeration systems\n\n4.2.1.5\nRepair and retrofit transport air-conditioning\nand refrigeration systems and its accessories\n\n4.2.1.5.1 Repair and retrofit transport air-\nconditioning and refrigeration\nsystems and its accessories\n4.2.1.5.2 Perform testing and commissioning\nfor transport air-conditioning and\n\n--- PDF PAGE 115 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 113\n\nrefrigeration\n\nSuccessful candidates shall be awarded Certificates of\nCompetency (COCs).\n\n4.2.2 Demonstration of competence through project-type\nassessment covering all required units of the\nqualification.\n\n4.3\nAssessment shall focus on the core units of competency. The\nbasic and common units shall be integrated or assessed\nconcurrently with the core units.\n\nOne or two additional evidences in the form of Portfolio, Third\nParty Report, Written Test and Demonstration with Questioning\nmay be required by the assessor in addition to those specified in\nthe Methods of Assessment in the Competency Standards,\ndepending on the need for supplementary evidences.\n\n4.4\nThe following are qualified to apply for assessment and\ncertification:\n\n4.4.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2 Experienced Workers (wage employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in\ndetail in the \"Procedures Manual on Assessment and\nCertification\" and \"Guidelines on the Implementation of the\nPhilippine TVET Qualification and Certification System (PTQCS)\n.\n\n--- PDF PAGE 116 ---\n_____________________________________________________________________________________________________\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March 2005\n 114\n\nBASIC\nCOMPETENCIES\nCOMPETENCY MAP - HVAC/R Sector\nTRANSPORT RAC SERVICING NC II\nPrepare\n materials\nand tools\nPerform\nmensurations\n &\ncalculations\nPerform\nbasic\nelectrical\nworks\n Maintains\ntools\nand\nequipment\nPerform\n Housekeeping\nand safety\npractices\nDocument\nwork\naccomplished\nObserve\nprocedures,\nspecifications\n & manuals of\ni\nt\nti\n\nPerform\nbasic\nbenchwork\nInterpret plans\nand\ntechnical\ndrawing\n\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nRepair & retrofit\nwindow-type\nAC/ domestic\nrefrigeration\n\n Service &\nmaintain\nwindow-type\nAC/\n\nTroubleshoot\nwindow-type\nAC/domestic\nrefrigeration\n\nRecover & recycle\nrefrigerant in\nwindow\ntype ac/domestic\nInstall window-\ntype AC/\ndomestic\nrefrigeration\n\nPerform testing\nand\ncommissioning\nfor window-\n\nInstall package-type\nair-conditioning\nunit (PACU )/\ncommercial\nrefrigeration\n\nService &\nmaintain\nPACU/CRE units\nSurvey site\nfor installation\nTroubleshoot\nPACU/CRE\nsystems\nRecover / recycle\nrefrigerant in\nPACU/CRE\nRepair & retrofit\nPACU/CRE\nrefrigeration\nsystems & its\nPerform start-\nup,\ntesting and\ncommissioning\n\nInstall transport\nair-conditioning\n& refrigeration\nTroubleshoot,\ntransport air-\nconditioning &\nrefrigeration\nPerform testing\n & commissioning\nfor transport AC &\nrefrigeration\nRepair & retrofit\ntransport ac &\nrefrigeration\nsystems\n& its accessories\n\nInstall\nPACU/CRE\nelectrical\n systems\nRecover & recycle\nrefrigerant in\ntransport AC &\nrefrigeration\nInstall\nPACU/CRE\npiping systems\nService &\nMaintain\ntransport AC\n& refrigeration\nANNEX A\n\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalis\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\n\n--- PDF PAGE 117 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 115\n\nDEFINITION OF TERMS\n\n1) Air Cooled Condensing Unit (ACCU)/OUTDOOR UNIT – an\nequipment that condenses refrigerant vapor using air as the\ncondensing medium. It consist of compressor, condenser coil and fan\nmotor\n\n2) Air Cooled Condenser – an equipment that condenses refrigerant\nvapor using air as the condensing medium\n\n3) Air Handling Unit (AHU)/INDOOR UNIT – an air-conditioning\ncomponent that consists of a fan motor and an evaporator coil. It is\nthis equipment used in air-conditioning that absorbs heat from the\nspace\n\n4) Air Distribution – the process of distributing conditioned air into a\nconfined space\n\n5) Check – to verify, inspect, or test an HVAC/R component for\nsatisfactory condition with the use of an instrument or a device\n\n6) Commercial Refrigeration - covers water coolers/ display coolers,\nvendo machine, beverage machine icedrop/ice cream/ice cube vending\nmachines\n\n7) Dehydration – the process of removing moisture from a refrigeration\nsystem\n\n8) Electric Heat Defrost – use of electric resistance heating coils to melt\nice or frost from evaporators\n\n9) Evacuation – removal of air/any gas and moisture from a refrigeration\nsystem\n\n10) Evaporator – the component in a refrigeration system where liquid\nrefrigerant is\n changed into a vapor by the absorption of heat\n\n11) Fan – a mechanical device for moving air\n\n12) Fan Coil Unit (FCU) – an air-conditioning component that consists of\na fan\n motor and an evaporator coil\n\n13) Filter Drier – the component part used in air-conditioning or\nrefrigeration\n system to filter and dehydrates refrigerant in the system\n\n--- PDF PAGE 118 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 116\n\n14) Hot Gas Defrost – component part used to remove frosting on the\nevaporator\n coil using hot gas refrigerant from the compressor\n\n15) Idler Pulley – a pulley used to maintain proper belt tension\n\n16) Inspect – determine the actual condition of HVAC/R component\nwithout the use of instrument\n\n 17) Interlocking – it is the action of interconnecting electric control wires\nto achieve a sequential action\n\n 18) Leak Test – the procedure of determining/pin pointing leaks in a\npressurized system\n\n 19) Liquid Line Solenoid Valve – electrically operated valve that shuts-\noff the flow of the refrigerant to the evaporator\n\n 20) Metering Device – it is one of the major components in a\nrefrigeration system used to regulate the flow of refrigerant into the\nevaporator\n\n21) Package Air-conditioning Unit (PACU)/SPLIT-TYPE – an air-\nconditioning unit that contains the compressor, water-cooled\ncondenser, metering device and evaporator all of which is in one\ncasing\n\n 22) Pull-out – to remove from a place of installation\n\n 23) Pressure Test – a procedure whereby pressure is applied to the\npiping system, the purpose of which is to determine its soundness\nand stability\n\n 24) Pump down – a process of using the compressor to pump and\ncontain all the refrigerant charge into the condenser and/or receiver\n\n 25) Refrigerant Charging – the process of introducing into the system\nthe proper amount of refrigerant\n\n 26) Retrofitting – a process of upgrading existing equipment or system\nusing ozone depleting substances to environmental friendly\nrefrigerant\n\n 27) Service Mechanic – worker who possess basic skills related to\nHVAC/R system\n\n--- PDF PAGE 119 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 117\n\n 28) Sight Glass/Liquid Line Moisture Indicator – indicates refrigerant\nquality and charge\n\n 29) Thermostat Expansion Valve (TXV) – a refrigerant control valve\nconnected before an evaporator that regulates flow of refrigerant.\nOperated by temperature and pressure, and reacts to the degree of\ngas superheat at the evaporator outlet through a feeler bulb\n\n30) Transport Air-conditioning Unit – refers to an air-conditioning unit\ndriven directly from the turning axle of the vehicle when they are in\nmotion, or by the vehicle engine itself, or by a separate gasoline/diesel\nengine and/or electric motor mounted on the same vehicle. It covers\nthe land and marine/sea transports.\n\n31) Troubleshoot – the process of analyzing system defect or malfunction\n\n32) Vacuum – pressure lower than atmospheric pressure measured in\ninches of mercury. Complete vacuum is 29.92 in. mercury or at least\n500 microns\n\n 33) Water Treatment – the use of chemicals in water to prevent\ncorrosion, formation of scales, algae growth and formation of slime\n\n 34) Window Type Air-conditioning Unit – is a self-contained air-\nconditioning\nunit house in a single casing mounted in a wall or window opening\n\n 35) Workmanlike-manner – quality of work within the accepted industry\nstandard\n\n--- PDF PAGE 120 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 118\n\n--- PDF PAGE 121 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 119\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA)\nwishes to extend thanks and appreciation to the many representatives of\nbusiness, industry, academe and government agencies who donated their\ntime and expertise to the development and validation of these Training\nRegulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\nENGR. ROSENDO C. PEREZ, JR.\nMR. DANILO G. DUYA\nTAP Chairman\nVice-President\nPresident\nTDS Air-conditioning Industries, Inc.\nMECSYS Corporation\n#72 Kamias Road, Quezon City\n#2 Alondra St., Miranilla Homes\nTandang Sora, Congressional Ave.\nQuezon City\n•\nTHE TECHNICAL EXPERT PANEL (TEP)\n\nMR. SABAS B. BERGANTINOS\nMR. EDUARDO M. FERNANDEZ\nFormer Consultant\nInstructor\nR. N. Ferrer & Associates\nTechnological University of the Philippines\nc/o Philippine Society of Ventilating,\n (TUP)\nAir-conditioning and Refrigeration\nAyala Boulevard, Manila\n(PSVARE)\nUnit 924 Citiland Tower\nMR. EDILBERTO S. MACATANGAY\ncor. Shaw Blvd. and St. Francis Sts.\nOwner\nMandaluyong City\nTechnocycle Corporation\nUnit E and F\nMR. CAMILO N. GALINEA\nKm. 31 National Road\nOwner\nCorner Summit Circle, Bayanan\nG & L Electrical Contractors\nMuntinlupa City\n#38 Katalina Subdivision\nRosario, Pasig City\nMR. NELSON ZAPATA\n\nFormer Manager\nUnity Marketing\nBinondo, Manila\nc/o Philippine Society of Ventilating,\nAir-conditioning and Refrigeration\n(PSVARE)\nUnit 924 Citiland Tower\ncor. Shaw Blvd. and St. Francis Sts.\nMandaluyong City\n\nThe Participants in the national validation of this Training Regulation\n\n•\nTESDA I\n•\nTESDA X\n•\n TESDA IV\n•\nTESDA XI\n•\n TESDA VI\n•\n\nThe Management and Staff of the TESDA Secretariat\n\n--- PDF PAGE 122 ---\n______________________________________________________________________________________________\n_______\n TRANSPORT RAC SERVICING NC II\n\nPromulgated March\n2005\n 120\n\n•\nSSCO\n•\nNITVET"
 }

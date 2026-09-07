@@ -1,68 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:travel-services-nc-ii:2013-12",
-  "qualification": "Travel Services NC II",
+  "document_id": "tesda:tr:travel-services-nc-ii-superseded:550fce3359",
+  "qualification": "TRAVEL SERVICES NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311202",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311204",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "TRS311201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "TRS5113119",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311203",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS311205",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5113120",
-        "title": ":"
-      },
-      {
-        "unit_code": "TRS5113121",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP - TOURISM Sector\n(Travels and Tours)\nTRAVEL SERVICES NC II\nDevelop and\nupdate industry\nknowledge\nPerform computer\noperations\nProvide effective\ncustomer service\nObserve\nworkplace\nhygiene\nprocedures\nPerform\nworkplace\nsafety practices\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nReceive and\nprocess\nreservations\nOperate\nan authorized\ninformation\nsystem\nConstruct\npromotional\ninternational fares\nAdminister\nbilling and\nsettlement\nplan\nApply advanced\nAirfare rules and\nprocedures\nPlan\nand implement\nminimal impact\noperations\nSource and\nprovide destination\ninformation advice\nMaintain\na product\ninventory\nBook\nand coordinate\nsupplier\nservices\nPlan and develop\ninterpretive\nactivities\nAllocate\ntour resources\nPrepare and\npresent tour\ncommentaries\nor activities\nAccompany and\nguide visitors in\naccordance with\nthe tour itinerary\nOperate a\ncomputerized\nreservation system\nAccess\nand interpret\nproduct\ninformation\nConduct\npre-departure\nchecks\nProcess air\ndocumentation\nOffer\narrival and\ndeparture\nassistance\nSet-up\nand operate\na campsite\nSell tourism\nproducts\nand services\nResearch\ninformation\nrelevant to\ntour itinerary\nConstruct\ndomestic\nairfares\nIssues air/sea/\nland tickets and\nmulti-purpose\ndocuments\nProvide\ncampsite\ncatering\nInterpret\naspects of local\nindigenous\nFilipino culture\nDevelop and\nmaintain general\nknowledge required\nby guides\nProvide assistance\nIn travel\ndocumentation\npreparation\nPrepare specialized\ninterpretive content\n(cultural and heritage\nenvironments)\nConstruct\nnormal\ninternational fares\nCoordinate\nand operate a\ntour\nOperate\ntours in a\nremote area\nManage\nextended touring\nprograms\nManage\narrangements for\nvisitors in accordance\nwith tour inclusions\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety procedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nBook\ntravel related\nreservation\nCreate travel-\nrelated\nreservations and\ntransactions\nIssue IATA-BDP\ndocuments and\nother passage\ndocuments\n\n--- PDF PAGE 54 ---\nTR - TRAVEL SERVICES NC II (Amended) Promulgated December 2013\n52",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311201",
+        "TRS311202",
+        "TRS311203",
+        "TRS311204",
+        "TRS311205"
+      ],
+      "unit_titles": [
+        "Develop and update industry knowledge",
+        "Observe workplace hygiene procedures",
+        "Perform computer operations",
+        "Perform workplace and safety practices",
+        "Provide effective customer service"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "TRS5113119",
+        "TRS5113120",
+        "TRS5113121"
+      ],
+      "unit_titles": [
+        "Create travel-related reservations and transactions",
+        "Provide assistance in travel documentation preparation",
+        "Issue International Air Transport Association (IATA)-Billing Settlement Plan (BSP) documents and other passage documents"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall\nbe awarded a National Certificate signed by the TESDA Director General.\n\n4.2\nThe qualification of TRAVEL SERVICES NC II may be attained through\ndemonstration of competence covering all the required core units of qualification.\n\n4.3\nAssessment shall focus on the core units of competency. The basic and common\nunits shall be integrated or assessed concurrently with the core units.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs\n4.4.2 Experienced workers (wage employed or self employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the\n\"Procedures Manual on Assessment and Certification\" and \"Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)\"..\n\n--- PDF PAGE 53 ---\nTR - TRAVEL SERVICES NC II (Amended) Promulgated December 2013\n51\n\nBASIC\nCOMPETENCIES\nCOMPETENCY MAP - TOURISM Sector\n(Travels and Tours)\nTRAVEL SERVICES NC II\nDevelop and\nupdate industry\nknowledge\nPerform computer\noperations\nProvide effective\ncustomer service\nObserve\nworkplace\nhygiene\nprocedures\nPerform\nworkplace\nsafety practices\nCORE\nCOMPETENCIES\nCOMMON\nCOMPETENCIES\nReceive and\nprocess\nreservations\nOperate\nan authorized\ninformation\nsystem\nConstruct\npromotional\ninternational fares\nAdminister\nbilling and\nsettlement\nplan\nApply advanced\nAirfare rules and\nprocedures\nPlan\nand implement\nminimal impact\noperations\nSource and\nprovide destination\ninformation advice\nMaintain\na product\ninventory\nBook\nand coordinate\nsupplier\nservices\nPlan and develop\ninterpretive\nactivities\nAllocate\ntour resources\nPrepare and\npresent tour\ncommentaries\nor activities\nAccompany and\nguide visitors in\naccordance with\nthe tour itinerary\nOperate a\ncomputerized\nreservation system\nAccess\nand interpret\nproduct\ninformation\nConduct\npre-departure\nchecks\nProcess air\ndocumentation\nOffer\narrival and\ndeparture\nassistance\nSet-up\nand operate\na campsite\nSell tourism\nproducts\nand services\nResearch\ninformation\nrelevant to\ntour itinerary\nConstruct\ndomestic\nairfares\nIssues air/sea/\nland tickets and\nmulti-purpose\ndocuments\nProvide\ncampsite\ncatering\nInterpret\naspects of local\nindigenous\nFilipino culture\nDevelop and\nmaintain general\nknowledge required\nby guides\nProvide assistance\nIn travel\ndocumentation\npreparation\nPrepare specialized\ninterpretive content\n(cultural and heritage\nenvironments)\nConstruct\nnormal\ninternational fares\nCoordinate\nand operate a\ntour\nOperate\ntours in a\nremote area\nManage\nextended touring\nprograms\nManage\narrangements for\nvisitors in accordance\nwith tour inclusions\nDemonstrate\nwork values\nPractice\nhousekeeping\nprocedures\n(5S)\nParticipate\nin workplace\ncommunication\nWork\nin team\nenvironment\nPractice\ncareer\nprofessionalism\nWork\nwith others\nDevelop and\npractice\nnegotiation\nskills\nUse\nmathematical\nconcepts and\ntechniques\nUse\nrelevant\ntechnologies\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nDevelop\nteams and\nindividuals\nUtilize\nspecialized\ncommunication\nskills\nPractice\noccupational\nhealth and\nsafety procedures\nLead\nworkplace\ncommunication\nCollect,\nanalyze and\norganize\ninformation\nPlan\nand organize\nwork\nApply\nproblem-\nsolving\ntechniques in\nthe workplace\nLead\nsmall teams\nPromote\nenvironmental\nprotection\nBook\ntravel related\nreservation\nCreate travel-\nrelated\nreservations and\ntransactions\nIssue IATA-BDP\ndocuments and\nother passage\ndocuments\n\n--- PDF PAGE 54 ---\nTR - TRAVEL SERVICES NC II (Amended) Promulgated December 2013\n52\n\nDEFINITION OF TERMS\n\nAPT\nAirline Passenger Tariff\n\nBI\nBureau of Immigration\n\nBIR\nBureau of Internal Revenue\n\nCIQ\nCustom Immigration and Quarantine\n\nBOOKING CLASS\nrefers to the category according to difficulty and the\ncomplexity of skills and the knowledge required of the\njob. Also refers to the category of service in a\ntransportation\n\nCRS\nComputerized Reservation System\n\nCFO\nCommission on Filipinos Overseas\n\nDFA\nDepartment of Foreign Affairs\n\nDOCUMENTATION OFFICER\nrefers to the person employed by the travel agency to\nfacilitate the issuance of travel documents and visas,\nbirth certificates, immigration clearances, etc. clients\nwith\nthe\nright\ndocuments to the\ncorresponding\ngovernment agencies or embassies concerned.\n\nDTI\nDepartment of Trade and Industry\n\nE – BOOKING\nElectronic Request / Reservation\n\nEMBASSY / CONSULATE\nthe representative office of the sovereign state in\nanother country that recognize them.\n\nGATEWAY\nEntry / Exit point of a destination\n\nGDS\nGlobal Distribution System\n\nGMT\nGreenwich Meridian Time\n\nGSIS\nGovernment Service Insurance System\n\nIATA AREA CONFERENCES\nInternational\nAir\nTransport\nAssociation\ndefined\ngeography.\n\nIMMIGRATION DOCUMENTS\nrefers to the documents issued by the Bureau of\nImmigration to resident and non – resident alien based\non immigration status.\n\nINTERNET\nElectronic Information Distribution System\n\nLGU\nLocal Government Unit\n\nMIRG\nManila Interline Reservation Group that dictates the\nproper reservation procedures.\n\nOAG\nOfficial Airline Guide\n\n--- PDF PAGE 55 ---\nTR - TRAVEL SERVICES NC II (Amended) Promulgated December 2013\n53\n\nOHS\nOccupational Health and Safety\n\nOSG\nOffice of the Solicitor General\n\nOJT\nOn – the – job Training\n\nPASSPORT\nrefers to the travel document issued by government to\nits citizens for travel and identification purposes.\n\nPNR\nPassenger Name Record, where the history and\ninformation pertinent to the travel requirements of a\nclient is stored\n\nPOEA\nPhilippine Overseas Employment Agency\n\nPROCESSING\ninvolves submission /follow – up and release of\ndocuments to Bureau of Immigration, Department of\nForeign Affairs, Embassies and other government\nagencies and includes paying the necessary fees.\n\nPTQCS\nPhilippine TVET Quality Certification System\n\nRESERVATION\nrefers to an advance request for a product or service\n\nRESERVATION OFFICER\nrefers to the person assigned to make a reservation of\nairline seat, hotel car rental and other travel related\nservices with a supplier (air, sea or land).\n\nRETRIEVAL\nrefers to a summary of information pertinent to travel\nrequirements of the client.\n\nSEC\nSecurity and Exchange Commission\n\nSSS\nSocial Service System\n\nTICKETING OFFICER\nrefers to the person assigned to write Airline Tickets and\nMiscellaneous Charge Order of Airlines and other travel\nrelated services.\n\nTIM/TIMATIC\nTravel Information Manual/Travel Information Electronic\nversion\n\nTRAVEL DOCUMENTS\nrefers to a permit issued by a sovereign state to its\ncitizen in lieu of a passport.\n\nVISA\na permit issued by the embassy / consulate of a country\nallowing bearer the privilege of entry and exit to said\ncountry\n\n--- PDF PAGE 56 ---\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of these Training Regulations.\n\n REVIEW PANEL\n\nPAUL LIM SO\nManaging Director\nGreat Sights Travel and Tours Corporation\n19-RA Padre Faura Center\n472 Padre Faura cor. M.H. Del Pilar Sts.\nErmita, Manila\nANABELLE O. MORENO\nChair\nTourism Industry Board Foundation, Inc.\n (TIBFI)\nUniversity of the Philippines – Asian\n Institute of Tourism (UP-AIT)\nUP Diliman, Quezon City\nPast\nPresident,\nAssociation\nof\nHuman\nResources\nManagers\nfor\nHotels\nand\nRestaurants (AHRM)\n\nThe Participants in the Validation of these Training Regulations\n\nAILEEN C. CLEMENTE\nPresident\nRajah Travel Corporation\n3F Gercon Plaza\n7901 Makati Ave., Makati City/\nPast President\nPhilippine Travel Agencies Association\n (PTAA)\n\nFE ABLING YU\nGeneral Manager\nARFEL Travel and Tours\n28-I Galvez Bldg., Severina Ave.\nKm. 18, South Superhighway\nParañaque City\n\nDANIEL L. EDRALIN\nBoard of Director\nTourism Industry Board Foundation, Inc.\n (TIBFI)\nNational Union of Workers in Hotels and\n Restaurant and Allied Industries\n\n (NEWHRAIN-APL)\n\nThe TESDA Board Members and Secretariat\n\n The MANAGEMENT and STAFF of the TESDA Secretariat\n\n•\nQualifications and Standards Office (QSO)"
 }

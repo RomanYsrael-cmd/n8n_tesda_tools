@@ -1,29 +1,184 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:visual-graphic-design-nc-iii:8203027b92",
-  "qualification": "Visual Graphic Design NC III",
+  "qualification": "VISUAL GRAPHIC DESIGN NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Visual Graphic Design NC III.pdf",
-    "sha256": "8203027b927b7f570fa52fce28966f47379741cd9ec8d125d693a8175296813e",
+    "source_sha256": "8203027b927b7f570fa52fce28966f47379741cd9ec8d125d693a8175296813e",
+    "pdf_pages": 118,
+    "printed_pages": 114,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation marked Version 01 and Amended February 27, 2018; the canonical promulgated field normalizes the printed amendment date to 2018-02-27.",
+    "Section 1 lists ICT311203 for Perform computer operations, while the Section 2 header prints ELC311203; the canonical inventory follows Section 1 and retains ELC311203 as the source-header code variant.",
+    "Section 3 prints 68 Basic, 28 Common, and 405 Core hours for a 501-hour total; the canonical duration preserves the arithmetic and the separate core design competencies.",
+    "The source preserves visual-design terminology, the GLOSSARY OF TERMS block, revision-history text, and source capitalization/spelling variants; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation marked Version 01 and Amended February 27, 2018; the canonical promulgated field normalizes the printed amendment date to 2018-02-27."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists ICT311203 for Perform computer operations, while the Section 2 header prints ELC311203; the canonical inventory follows Section 1 and retains ELC311203 as the source-header code variant."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 68 Basic, 28 Common, and 405 Core hours for a 501-hour total; the canonical duration preserves the arithmetic and the separate core design competencies."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source preserves visual-design terminology, the GLOSSARY OF TERMS block, revision-history text, and source capitalization/spelling variants; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Visual Graphic Design NC III.pdf",
-    "pdf_pages": 118,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "500311142",
+      "source_unit_code": "500311142",
+      "pdf_page_range": [
+        27,
+        31
+      ]
+    },
+    {
+      "unit_code": "500311144",
+      "source_unit_code": "500311144",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "500311145",
+      "source_unit_code": "500311145",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "ICT315202",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "ICT311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "ICT216313",
+      "source_unit_code": "ICT216313",
+      "pdf_page_range": [
+        46,
+        51
+      ]
+    },
+    {
+      "unit_code": "ICT216314",
+      "source_unit_code": "ICT216314",
+      "pdf_page_range": [
+        52,
+        61
+      ]
+    },
+    {
+      "unit_code": "ICT216315",
+      "source_unit_code": "ICT216315",
+      "pdf_page_range": [
+        62,
+        67
+      ]
+    },
+    {
+      "unit_code": "ICT216316",
+      "source_unit_code": "ICT216316",
+      "pdf_page_range": [
+        68,
+        73
+      ]
+    },
+    {
+      "unit_code": "ICT216317",
+      "source_unit_code": "ICT216317",
+      "pdf_page_range": [
+        74,
+        78
+      ]
+    },
+    {
+      "unit_code": "ICT216318",
+      "source_unit_code": "ICT216318",
+      "pdf_page_range": [
+        79,
+        84
+      ]
+    }
+  ]
 }

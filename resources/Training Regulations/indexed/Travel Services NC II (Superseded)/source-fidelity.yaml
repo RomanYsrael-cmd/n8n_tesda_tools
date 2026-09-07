@@ -1,29 +1,144 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:travel-services-nc-ii:2013-12",
-  "qualification": "Travel Services NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:travel-services-nc-ii-superseded:550fce3359",
+  "qualification": "TRAVEL SERVICES NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Travel Services NC II (Superseded).pdf",
-    "sha256": "550fce3359ea896c70c4c28d71ddc90134cec595485e64f37bb7baa489885440",
+    "authority": "TESDA",
+    "source_file": "Travel Services NC II (Superseded).pdf",
+    "source_sha256": "550fce3359ea896c70c4c28d71ddc90134cec595485e64f37bb7baa489885440",
+    "pdf_pages": 56,
+    "printed_pages": 54,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The local source filename explicitly labels this historical Training Regulation as superseded; the canonical promulgated field normalizes the printed Promulgated December 2013 date to 2013-12.",
+    "The source uses historical two-column Element/Performance Criteria tables and does not provide separate Required Knowledge and Required Skills columns.",
+    "Section 3 prints 28 Basic, 28 Common, and 272 Core hours for a 328-hour arithmetic total; supervised industry training appears in the delivery and core methodology text but is not printed as a separate nominal-duration component.",
+    "The source preserves historical Travel Services terminology, IATA/BSP wording, and source typography variants such as UNIT OF COMPET ENCY; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The local source filename explicitly labels this historical Training Regulation as superseded; the canonical promulgated field normalizes the printed Promulgated December 2013 date to 2013-12."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses historical two-column Element/Performance Criteria tables and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 28 Basic, 28 Common, and 272 Core hours for a 328-hour arithmetic total; supervised industry training appears in the delivery and core methodology text but is not printed as a separate nominal-duration component."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source preserves historical Travel Services terminology, IATA/BSP wording, and source typography variants such as UNIT OF COMPET ENCY; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Travel Services NC II (Superseded).pdf",
-    "pdf_pages": 56,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "TRS311202",
+      "source_unit_code": "TRS311202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "TRS311205",
+      "source_unit_code": "TRS311205",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "TRS5113119",
+      "source_unit_code": "TRS5113119",
+      "pdf_page_range": [
+        31,
+        38
+      ]
+    },
+    {
+      "unit_code": "TRS5113120",
+      "source_unit_code": "TRS5113120",
+      "pdf_page_range": [
+        39,
+        42
+      ]
+    },
+    {
+      "unit_code": "TRS5113121",
+      "source_unit_code": "TRS5113121",
+      "pdf_page_range": [
+        43,
+        45
+      ]
+    }
+  ]
 }

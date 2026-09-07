@@ -1,29 +1,192 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:travel-services-nc-ii:2bf690268b",
-  "qualification": "Travel Services NC II",
+  "qualification": "TRAVEL SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Travel Services NC II.pdf",
-    "sha256": "2bf690268b96007000df8185dc5e822640ba7ef4a0c1b645c4cb0ec8052fa78e",
+    "source_sha256": "2bf690268b96007000df8185dc5e822640ba7ef4a0c1b645c4cb0ec8052fa78e",
+    "pdf_pages": 121,
+    "printed_pages": 117,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source uses the revised four-column competency layout with Required Knowledge and Required Skills; the cover, Section 3, assessment pages, and revision history retain the source Revision 01 and promulgation wording.",
+    "The cover and revision history print Promulgated (01/11/2019), while several running headers in the competency and training pages print (01/11/2016); the canonical date follows the latest 2019 source expression and the page-preserved source layer retains both.",
+    "Section 3 prints 37 Basic, 28 Common, and 72 Core hours, a 137-hour classroom subtotal, plus 200 hours of Supervised Industry Training (SIT); the canonical total is 337 hours and the separate SIT component is retained.",
+    "The source preserves historical tourism terminology and spelling/numbering variants including TRAINING ARRANGEMNTS, ASSESSSMENT, responses, and the 4.4 continuation numbering; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the revised four-column competency layout with Required Knowledge and Required Skills; the cover, Section 3, assessment pages, and revision history retain the source Revision 01 and promulgation wording."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The cover and revision history print Promulgated (01/11/2019), while several running headers in the competency and training pages print (01/11/2016); the canonical date follows the latest 2019 source expression and the page-preserved source layer retains both."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 37 Basic, 28 Common, and 72 Core hours, a 137-hour classroom subtotal, plus 200 hours of Supervised Industry Training (SIT); the canonical total is 337 hours and the separate SIT component is retained."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source preserves historical tourism terminology and spelling/numbering variants including TRAINING ARRANGEMNTS, ASSESSSMENT, responses, and the 4.4 continuation numbering; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Travel Services NC II.pdf",
-    "pdf_pages": 121,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "TRS311202",
+      "source_unit_code": "TRS311202",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        48,
+        53
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        54,
+        58
+      ]
+    },
+    {
+      "unit_code": "TRS311205",
+      "source_unit_code": "TRS311205",
+      "pdf_page_range": [
+        59,
+        64
+      ]
+    },
+    {
+      "unit_code": "TRS422301",
+      "source_unit_code": "TRS422301",
+      "pdf_page_range": [
+        65,
+        70
+      ]
+    },
+    {
+      "unit_code": "TRS422302",
+      "source_unit_code": "TRS422302",
+      "pdf_page_range": [
+        71,
+        75
+      ]
+    },
+    {
+      "unit_code": "TRS422303",
+      "source_unit_code": "TRS422303",
+      "pdf_page_range": [
+        76,
+        79
+      ]
+    },
+    {
+      "unit_code": "TRS422304",
+      "source_unit_code": "TRS422304",
+      "pdf_page_range": [
+        80,
+        84
+      ]
+    }
+  ]
 }
