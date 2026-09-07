@@ -1,29 +1,208 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:mobile-phones-and-handheld-gadgets-servicing-nc-iii:2021-02-09",
-  "qualification": "Mobile Phones and Handheld Gadgets Servicing NC III",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:mobile-phones-and-handheld-gadgets-servicing-nc-iii:3932fe5ee2",
+  "qualification": "MOBILE PHONES AND HANDHELD GADGETS SERVICING NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Mobile Phones and Handheld Gadgets Servicing NC III.pdf",
-    "sha256": "3932fe5ee21322a5c99c08367abd87553c7e87c05a784a946a8187010d0fa197",
+    "source_sha256": "3932fe5ee21322a5c99c08367abd87553c7e87c05a784a946a8187010d0fa197",
+    "pdf_pages": 135,
+    "printed_pages": 131,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation promulgated February 9, 2021; the final acknowledgement page carries printed page 131.",
+    "Section 1 lists common-unit codes ELC311205, ELC311204, ELC311206, and ELC311209, while Section 2 prints ELC724201, ELC315202, ELC724202, and ELC724205 for the corresponding headers; the canonical inventory follows Section 1 and source_unit_code/provenance retain the Section 2 identifiers.",
+    "The source expresses 40 Basic, 52 Common, and 280 Core hours for 372 in-school/in-center hours, plus 300 hours Supervised Industry Learning (SIL), for 672 total hours.",
+    "The source uses 'identity hardware and software related problems' in the core unit inventory/header; that wording is preserved in the canonical title and source_text."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation promulgated February 9, 2021; the final acknowledgement page carries printed page 131."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists common-unit codes ELC311205, ELC311204, ELC311206, and ELC311209, while Section 2 prints ELC724201, ELC315202, ELC724202, and ELC724205 for the corresponding headers; the canonical inventory follows Section 1 and source_unit_code/provenance retain the Section 2 identifiers."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source expresses 40 Basic, 52 Common, and 280 Core hours for 372 in-school/in-center hours, plus 300 hours Supervised Industry Learning (SIL), for 672 total hours."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses 'identity hardware and software related problems' in the core unit inventory/header; that wording is preserved in the canonical title and source_text."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Mobile Phones and Handheld Gadgets Servicing NC III.pdf",
-    "pdf_pages": 135,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        21,
+        24
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        25,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        35,
+        36
+      ]
+    },
+    {
+      "unit_code": "ELC311205",
+      "source_unit_code": "ELC724201",
+      "pdf_page_range": [
+        37,
+        38
+      ]
+    },
+    {
+      "unit_code": "ELC311201",
+      "source_unit_code": "ELC311201",
+      "pdf_page_range": [
+        39,
+        42
+      ]
+    },
+    {
+      "unit_code": "ELC311202",
+      "source_unit_code": "ELC311202",
+      "pdf_page_range": [
+        43,
+        46
+      ]
+    },
+    {
+      "unit_code": "ELC311204",
+      "source_unit_code": "ELC315202",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "ELC311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        51,
+        54
+      ]
+    },
+    {
+      "unit_code": "ELC311206",
+      "source_unit_code": "ELC724202",
+      "pdf_page_range": [
+        55,
+        58
+      ]
+    },
+    {
+      "unit_code": "ELC311209",
+      "source_unit_code": "ELC724205",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    },
+    {
+      "unit_code": "ELC742301",
+      "source_unit_code": "ELC742301",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "ELC742302",
+      "source_unit_code": "ELC742302",
+      "pdf_page_range": [
+        69,
+        72
+      ]
+    },
+    {
+      "unit_code": "ELC742303",
+      "source_unit_code": "ELC742303",
+      "pdf_page_range": [
+        73,
+        80
+      ]
+    },
+    {
+      "unit_code": "ELC742304",
+      "source_unit_code": "ELC742304",
+      "pdf_page_range": [
+        81,
+        85
+      ]
+    }
+  ]
 }

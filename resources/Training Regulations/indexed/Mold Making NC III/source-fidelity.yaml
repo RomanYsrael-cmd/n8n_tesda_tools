@@ -1,29 +1,235 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:mold-making-nc-iii:d705ec5fa4",
-  "qualification": "Mold Making NC III",
+  "qualification": "MOLD MAKING NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Mold Making NC III.pdf",
-    "sha256": "d705ec5fa4504b4bed588183de7444cea01bc904443268804608cc6e13689747",
+    "source_sha256": "d705ec5fa4504b4bed588183de7444cea01bc904443268804608cc6e13689747",
+    "pdf_pages": 148,
+    "printed_pages": 144,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation, Revision 00, promulgated 05/21/2019; the final acknowledgement page carries printed page 144.",
+    "Section 1 presents the basic, common, and core inventories with source-specific capitalization and punctuation variants; canonical titles follow the competency headers while source_text preserves the printed forms.",
+    "The source prints 40 Basic, 120 Common, and 452 Core hours for a 612-hour total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation, Revision 00, promulgated 05/21/2019; the final acknowledgement page carries printed page 144."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 presents the basic, common, and core inventories with source-specific capitalization and punctuation variants; canonical titles follow the competency headers while source_text preserves the printed forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 40 Basic, 120 Common, and 452 Core hours for a 612-hour total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Mold Making NC III.pdf",
-    "pdf_pages": 148,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        10,
+        13
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        14,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        24,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        29,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        38,
+        41
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "MEE722201",
+      "source_unit_code": "MEE722201",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "MEE722202",
+      "source_unit_code": "MEE722202",
+      "pdf_page_range": [
+        50,
+        53
+      ]
+    },
+    {
+      "unit_code": "MEE722203",
+      "source_unit_code": "MEE722203",
+      "pdf_page_range": [
+        54,
+        57
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        58,
+        59
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        60,
+        61
+      ]
+    },
+    {
+      "unit_code": "MEE722206",
+      "source_unit_code": "MEE722206",
+      "pdf_page_range": [
+        62,
+        64
+      ]
+    },
+    {
+      "unit_code": "MEE722207",
+      "source_unit_code": "MEE722207",
+      "pdf_page_range": [
+        65,
+        66
+      ]
+    },
+    {
+      "unit_code": "MEE722208",
+      "source_unit_code": "MEE722208",
+      "pdf_page_range": [
+        67,
+        68
+      ]
+    },
+    {
+      "unit_code": "MEE722210",
+      "source_unit_code": "MEE722210",
+      "pdf_page_range": [
+        69,
+        71
+      ]
+    },
+    {
+      "unit_code": "MEE722211",
+      "source_unit_code": "MEE722211",
+      "pdf_page_range": [
+        72,
+        74
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        75,
+        80
+      ]
+    },
+    {
+      "unit_code": "MEE722317",
+      "source_unit_code": "MEE722317",
+      "pdf_page_range": [
+        81,
+        89
+      ]
+    },
+    {
+      "unit_code": "MEE722318",
+      "source_unit_code": "MEE722318",
+      "pdf_page_range": [
+        90,
+        94
+      ]
+    },
+    {
+      "unit_code": "MEE722319",
+      "source_unit_code": "MEE722319",
+      "pdf_page_range": [
+        95,
+        98
+      ]
+    },
+    {
+      "unit_code": "MEE722320",
+      "source_unit_code": "MEE722320",
+      "pdf_page_range": [
+        99,
+        101
+      ]
+    }
+  ]
 }

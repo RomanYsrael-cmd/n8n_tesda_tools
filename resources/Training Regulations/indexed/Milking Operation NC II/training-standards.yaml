@@ -1,75 +1,1336 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:milking-operation-nc-ii:2017-02-03",
-  "qualification": "Milking Operation NC II",
+  "document_id": "tesda:tr:milking-operation-nc-ii:5d026bb3c0",
+  "qualification": "MILKING OPERATION NC II",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Milking Operation NC II.pdf",
-    "pdf_pages": 104
+    "pdf_pages": 104,
+    "printed_pages": 102,
+    "promulgated": "February 3, 2017"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 20,
+        "source_expression": "20 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 72,
+        "source_expression": "72 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 68,
+        "source_expression": "68 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 160,
+    "total_source_expression": "160 hrs.",
+    "source_expressions": [
+      "20 hrs. - Basic Competencies",
+      "72 hrs. - Common Competencies",
+      "68 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 160,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
+        "learning_activities": [
+          "Describe Organizational",
+          "Group policies discussion",
+          "Read:",
+          "Lecture",
+          "Effective communication",
+          "Written communication",
+          "Communication procedures and systems",
+          "Identify:",
+          "Different modes of communication",
+          "Medium of communication",
+          "Flow of communication",
+          "Available technology relevant to the enterprise and the individual’s work responsibilities",
+          "Prepare different Types of",
+          "Demonstration question",
+          "Gather different sources of information"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination",
+          "Observation"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 63
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [
+          "Describe Communication",
+          "Group procedures and systems discussion",
+          "Read:",
+          "Lecture",
+          "Meeting protocols",
+          "Nature of workplace",
+          "Lecture meetings",
+          "Workplace interactions",
+          "Barriers of communication",
+          "Complete work related",
+          "Demonstration documents",
+          "Read instructions on work",
+          "Lecture related forms/documents",
+          "Practice:",
+          "Estimate, calculate",
+          "Demonstration and record routine workplace measures",
+          "Basic mathematical processes of addition, subtraction, division and multiplication"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination",
+          "Written examination",
+          "Observation",
+          "Written examination",
+          "Observation"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 64
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meeting and discussion",
+        "learning_activities": [
+          "Identify:",
+          "Lecture",
+          "types of workplace documents and forms",
+          "kinds of workplace report",
+          "Available technology relevant to the enterprise and the"
+        ],
+        "methodology": [
+          "Written examination"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 65
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [
+          "Describe the team role and",
+          "Group scope discussion",
+          "Read",
+          "Lecture",
+          "Definition of Team",
+          "Difference between team and group",
+          "Objectives and goals of team",
+          "Identify different sources of information",
+          "Describe team goals and",
+          "Group"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination",
+          "Oral"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 66
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team",
+        "learning_activities": [
+          "Describe team goals and",
+          "Group objectives discussion",
+          "Perform in setting team goals and expectations",
+          "Role play scenario"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Oral evaluation",
+          "Observation"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 66
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal",
+        "learning_activities": [
+          "Describe performance",
+          "Group evaluation discussion",
+          "Read:",
+          "Lecture",
+          "Work values and ethics (Code of Conduct, Code of Ethics, etc.)",
+          "Understanding personal objectives",
+          "Understanding organizational goals"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination"
+        ],
+        "assessment_approach": [
+          "6 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 67
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [
+          "Describe company",
+          "Group policies, operations, discussion procedures and standards",
+          "Read:",
+          "Lecture",
+          "Time Management",
+          "Basic strategic planning concepts",
+          "Resource utilization and management",
+          "Apply managing goals and",
+          "Demonstration time",
+          "Practice:",
+          "Demonstration",
+          "economic use of resources and facilities",
+          "time management"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination",
+          "Observation",
+          "Observation"
+        ],
+        "assessment_approach": [
+          "6 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 68
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development",
+        "learning_activities": [
+          "Describe company",
+          "Group recognition and incentives discussion",
+          "Read:",
+          "Lecture"
+        ],
+        "methodology": [
+          "Oral evaluation"
+        ],
+        "assessment_approach": [
+          "6 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 68
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Identify hazard and risks",
+        "learning_activities": [
+          "Describe OHS procedures,",
+          "Group practices and regulations discussion •Read",
+          "Lecture",
+          "OHS indicators",
+          "Organizational contingency practices",
+          "Practice hazards/risks identification and control"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination"
+        ],
+        "assessment_approach": [
+          "6 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 69
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Evaluate hazard and risks",
+        "learning_activities": [
+          "Describe effects of safety",
+          "Group hazards discussion •Read",
+          "Lecture",
+          "Threshold Limit Value – TLV"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination"
+        ],
+        "assessment_approach": [
+          "6 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 69
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [
+          "Describe :",
+          "Group",
+          "Organization safety and discussion health protocol",
+          "Company emergency procedure practices •Practice personal hygiene",
+          "Demonstration",
+          "Practice drills on",
+          "Demonstration responding to emergency",
+          "Simulation"
+        ],
+        "methodology": [
+          "Oral evaluation •Observation",
+          "Observation"
+        ],
+        "assessment_approach": [
+          "6 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 70
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Maintain",
+        "learning_activities": [
+          "Identify emergency-related",
+          "Lecture drills information",
+          "Practice occupational",
+          "Role play safety and health standards on personal records in the workplace",
+          "Practice emergency",
+          "Demonstration related drills in the",
+          "Simulation workplace"
+        ],
+        "methodology": [
+          "Written examination",
+          "Observation",
+          "Observation"
+        ],
+        "assessment_approach": [
+          "6 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 70
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Determine areas of concern for safety measures",
+        "learning_activities": [
+          "Identify work tasks in farm",
+          "Lecture operations",
+          "Discussion",
+          "Incomplete worksheet",
+          "Power point presentation",
+          "Video presentation",
+          "Discuss safety measures",
+          "Lecture in a workplace during farm",
+          "Discussion operations",
+          "Incomplete worksheet",
+          "Power point presentation",
+          "Video presentation",
+          "Role playing",
+          "Explain farm operations",
+          "Lecture situations and period",
+          "Discussion when to observe safety",
+          "Incomplete worksheet",
+          "Power point presentation",
+          "Video presentation",
+          "Role playing"
+        ],
+        "methodology": [
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Demonstration",
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Demonstration",
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Demonstration"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 15,
+          "source_expression": "15 hours"
+        },
+        "pdf_page": 71
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Apply appropriate safety measures",
+        "learning_activities": [
+          "Enumerate uses and",
+          "Discussion functions of tools and",
+          "Power point materials presentation",
+          "Video presentation",
+          "Demonstration",
+          "Explain procedures of",
+          "Discussion wearing personal protective",
+          "Power point equipment presentation",
+          "Video presentation",
+          "Incomplete worksheet"
+        ],
+        "methodology": [
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Demonstration",
+          "Written examination",
+          "Interview",
+          "Oral questioning"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 72
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321201",
+        "unit_title": "Apply safety measures in farm operations",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Safekeep/ dispose of tools, materials and",
+        "learning_activities": [
+          "Discussion",
+          "Power point presentation",
+          "Explain cleaning and",
+          "Video presentation storing procedures of the",
+          "Incomplete used tools and outfit worksheet"
+        ],
+        "methodology": [
+          "Written examination",
+          "Interview",
+          "Oral questioning"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 74
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Select and use farm tools",
+        "learning_activities": [
+          "Describe the team role and",
+          "Group scope discussion",
+          "Read",
+          "Lecture",
+          "Definition of Team",
+          "Difference between team and group",
+          "Objectives and goals of team",
+          "Identify different sources of information",
+          "Describe team goals and",
+          "Group"
+        ],
+        "methodology": [
+          "Oral evaluation",
+          "Written examination",
+          "Oral"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 76
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Select and",
+        "learning_activities": [
+          "Identify farm equipment",
+          "Discussion",
+          "Power point presentation",
+          "Video presentation",
+          "Incomplete worksheet",
+          "Explain importance of",
+          "Discussion reading manufacturer’s",
+          "Power point manual presentation",
+          "Video presentation",
+          "Incomplete worksheet",
+          "Discuss pre-operation",
+          "Discussion check and its importance",
+          "Power point presentation",
+          "Video presentation",
+          "Incomplete worksheet",
+          "Identify different types of",
+          "Discussion faults in farm equipment",
+          "Power point presentation",
+          "Video presentation",
+          "Incomplete worksheet",
+          "Enumerate reporting",
+          "Discussion procedures",
+          "Power point presentation •Video presentation"
+        ],
+        "methodology": [
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Written examination",
+          "Interview",
+          "Oral questioning",
+          "Written examination",
+          "Interview •Oral questioning"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 78
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321202",
+        "unit_title": "Use farm tools and equipment",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Perform preventive maintenance",
+        "learning_activities": [
+          "Enumerate cleaning",
+          "Discussion procedures for tools and",
+          "Power point equipment presentation"
+        ],
+        "methodology": [
+          "Written examination",
+          "Interview"
+        ],
+        "assessment_approach": [
+          "4 Hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 80
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321203",
+        "unit_title": "Perform estimation and calculations",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Perform estimation",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP, GAHP and OSHS",
+          "Explain in teat dipping and spraying",
+          "Explain Animal Welfare Act •Explain MSDS"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 7.5,
+          "source_expression": "7.5 hours"
+        },
+        "pdf_page": 82
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321203",
+        "unit_title": "Perform estimation and calculations",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Perform basic workplace calculation",
+        "learning_activities": [
+          "Describe different types of",
+          "Lecture calculation",
+          "Discussion",
+          "Discuss different methods",
+          "Lecture of calculation •Discussion",
+          "Describe system and unit",
+          "Lecture of measurement •Discussion",
+          "Compute quantity of",
+          "Lecture feeds, amount of fertilizer",
+          "Discussion and amount of medicines",
+          "Demonstration using methods of calculation, system of measurement and units of measurement"
+        ],
+        "methodology": [
+          "Written exam",
+          "Oral questioning",
+          "Written exam •Oral questioning",
+          "Written exam •Oral questioning",
+          "Written exam",
+          "Oral questioning"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 83
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321206",
+        "unit_title": "Process farm wastes",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Collect farm wastes",
+        "learning_activities": [
+          "Identify tools and",
+          "Self- materials and its uses paced/modular",
+          "Discuss types of wastes",
+          "Lecture/Discussion",
+          "Explain waste collection",
+          "Interaction process",
+          "Practical",
+          "Discuss danger and Demonstration hazard of waste collection",
+          "Visit/tour",
+          "Discuss HAZMAT and OSHS",
+          "Explain proper wearing of PPEs",
+          "Collect farm wastes"
+        ],
+        "methodology": [
+          "Oral/Written Interviews",
+          "Direct Observation",
+          "Practical Demonstration"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 18,
+          "source_expression": "18 hours"
+        },
+        "pdf_page": 84
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321206",
+        "unit_title": "Process farm wastes",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify and segregate wastes",
+        "learning_activities": [
+          "Identify type of wastes",
+          "Self-",
+          "Discuss categories of paced/modular wastes",
+          "Lecture/Discussion",
+          "Discuss segregation",
+          "Interaction procedures",
+          "Practical",
+          "Explain information on Demonstration correct identification and",
+          "Visit/tour labelling of container",
+          "Discuss OSHS on waste segregation •Segregate wastes"
+        ],
+        "methodology": [
+          "Oral/Written Interviews",
+          "Direct Observation",
+          "Practical Demonstration"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 84
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321206",
+        "unit_title": "Process farm wastes",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Treat and process farm wastes",
+        "learning_activities": [
+          "Identify danger and",
+          "Self- hazards of wastes paced/modular",
+          "Discuss procedures of",
+          "Lecture/Discussion processing of wastes",
+          "Interaction",
+          "Explain 3Rs",
+          "Practical",
+          "Identify types of treatment Demonstration",
+          "Discuss treatment",
+          "Visit/tour procedure",
+          "Discuss disposal of farm wastes",
+          "Discuss OSHS",
+          "Treat and process farm wastes"
+        ],
+        "methodology": [
+          "Oral/Written Interviews",
+          "Direct Observation",
+          "Practical Demonstration"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 85
+      },
+      {
+        "group": "common",
+        "unit_code": "AFF321206",
+        "unit_title": "Process farm wastes",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Perform housekeeping",
+        "learning_activities": [
+          "Identify warning signs and",
+          "Self- labels paced/modular",
+          "Discuss cleaning",
+          "Lecture/Discussion procedures",
+          "Interaction",
+          "Identify materials to be",
+          "Practical stored Demonstration",
+          "Discuss storage",
+          "Visit/tour procedures",
+          "Explain record keeping",
+          "Discuss OSHS",
+          "Perform housekeeping"
+        ],
+        "methodology": [
+          "Oral/Written Interviews",
+          "Direct Observation",
+          "Practical Demonstration"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 85
+      },
+      {
+        "group": "common",
+        "unit_code": "SOC413206",
+        "unit_title": "Perform record-keeping",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Carry out inventory activities",
+        "learning_activities": [
+          "Discuss inventory",
+          "Self- procedures paced/modular",
+          "Discuss defects of tools",
+          "Lecture/Discussion and equipment",
+          "Interaction",
+          "Explain inspection",
+          "Practical procedures Demonstration",
+          "Carry out inventory",
+          "Visit/tour activities",
+          "Explain production plan",
+          "Self-"
+        ],
+        "methodology": [
+          "Oral/Written Interviews",
+          "Practical Demonstration",
+          "Oral/Written"
+        ],
+        "assessment_approach": [
+          "15 hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 86
+      },
+      {
+        "group": "common",
+        "unit_code": "SOC413206",
+        "unit_title": "Perform record-keeping",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Maintain production record",
+        "learning_activities": [
+          "Explain production plan",
+          "Self-",
+          "Discuss production plan paced/modular activities",
+          "Lecture/Discussion",
+          "Discuss production plan",
+          "Interaction report",
+          "Practical",
+          "Explain monitoring Demonstration procedures",
+          "Visit/tour •Maintain production record"
+        ],
+        "methodology": [
+          "Oral/Written Interviews",
+          "Practical Demonstration"
+        ],
+        "assessment_approach": [
+          "15 hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 86
+      },
+      {
+        "group": "common",
+        "unit_code": "SOC413206",
+        "unit_title": "Perform record-keeping",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Prepare financial records",
+        "learning_activities": [
+          "Discuss basic computation",
+          "Self-",
+          "Explain production cost paced/modular",
+          "Discuss revenue",
+          "Lecture/Discussion",
+          "Prepare financial records",
+          "Interaction",
+          "Practical Demonstration",
+          "Visit/tour"
+        ],
+        "methodology": [
+          "Oral/Written Interviews",
+          "Practical Demonstration"
+        ],
+        "assessment_approach": [
+          "15 hours"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 86
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751301",
+        "unit_title": "Conduct pre-milking activities",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Prepare milking parlor and machinery",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP and OSHS",
+          "Describe personal hygiene",
+          "Identify different cleaning solution",
+          "Explain procedure in preparing cleaning solution with reference to MSDS",
+          "Enumerate cleaning and disinfection procedures of milking parlor with reference to GMP",
+          "Describe parts of milking machine",
+          "Discuss cleaning and sanitation of milking machine using CIP",
+          "Explain cleaning procedures on herringbone and bucket type milking machine",
+          "Wear PPEs",
+          "Practice GMP and GMP",
+          "Employ personal hygiene",
+          "Compute for concentration of cleaning solution",
+          "Prepare cleaning solution",
+          "Clean and disinfect milking parlor •Clean and sanitize milking machine"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit",
+          "Lecture",
+          "Hands on"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 14,
+          "source_expression": "14 hours"
+        },
+        "pdf_page": 87
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751301",
+        "unit_title": "Conduct pre-milking activities",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Prepare tools, utensils, materials",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP and OSHS",
+          "Describe personal hygiene",
+          "Identify right cleaning solution",
+          "Explain procedure in preparing cleaning solution",
+          "Identify different materials, tools and utensils",
+          "Wear PPEs",
+          "Practice GMP and OSHS",
+          "Employ personal hygiene",
+          "Compute for concentration of cleaning solution",
+          "Prepare cleaning solution",
+          "Prepare materials, tools and utensils",
+          "Clean and sanitize tools, utensils and equipment"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit",
+          "Lecture",
+          "Hands on"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 8,
+          "source_expression": "8 hours"
+        },
+        "pdf_page": 88
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751301",
+        "unit_title": "Conduct pre-milking activities",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Prepare animal for milking",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP, GAHP and OSHS",
+          "Discuss the Animal Welfare Act",
+          "Discuss SOP relating to cleaning animal udders",
+          "Discuss SOP relating to foremilking",
+          "Describe personal hygiene",
+          "Explain workplace procedure",
+          "Enumerate the guidelines in positioning the animal for milking",
+          "Identify animals for milking & mastitic animals"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit",
+          "Lecture",
+          "Hands on"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 11,
+          "source_expression": "11 hours"
+        },
+        "pdf_page": 88
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751302",
+        "unit_title": "Perform milking operation",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Operate milking machine",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP, GAHP and OSHS",
+          "Explain procedure in operating milking machine",
+          "Explain procedure in milking operation",
+          "Wear PPEs",
+          "Practice GMP and GAHP",
+          "Employ personal hygiene",
+          "Perform in milking operation",
+          "Perform in teat dipping and spraying"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 5,
+          "source_expression": "5 hours"
+        },
+        "pdf_page": 89
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751302",
+        "unit_title": "Perform milking operation",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Monitor milking",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP and OSHS",
+          "Explain in teat dipping and spraying",
+          "Explain procedure in monitoring milking machine",
+          "Describe the milk quality",
+          "Identify the milk performance",
+          "Explain milk recording",
+          "Identify animals with good health condition",
+          "Wear PPEs",
+          "Practice GMP",
+          "Performing mathematical operation •Perform in milking operation"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 6,
+          "source_expression": "6 hours"
+        },
+        "pdf_page": 90
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751302",
+        "unit_title": "Perform milking operation",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Perform simple troubleshooting and repair",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP and OSHS",
+          "Explain procedure in monitoring milking machine",
+          "Identify the parts of malfunction milking machine",
+          "Perform simple troubleshooting & repair",
+          "Report malfunction milking machines",
+          "Interpersonal skills"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 3,
+          "source_expression": "3 hours"
+        },
+        "pdf_page": 90
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751303",
+        "unit_title": "Carry-out post-milking operation",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Shut down milking parlor",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP, GAHP and OSHS",
+          "Explain in teat dipping and spraying",
+          "Explain Animal Welfare Act •Explain MSDS"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 7.5,
+          "source_expression": "7.5 hours"
+        },
+        "pdf_page": 90
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751303",
+        "unit_title": "Carry-out post-milking operation",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Clean and store tools, utensils, materials and equipment",
+        "learning_activities": [
+          "Discuss and explain the different cleaning and sanitizing solutions",
+          "Discuss GMP relating to cleaning and sanitation"
+        ],
+        "methodology": [
+          "Lecture",
+          "Written",
+          "Hands on examination",
+          "Video ppt",
+          "Demonstration",
+          "Discussion",
+          "Oral questioning"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 1.5,
+          "source_expression": "1.5 hours"
+        },
+        "pdf_page": 91
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751301",
+        "unit_title": "Conduct pre-milking activities",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "hours",
+        "learning_activities": [
+          "Explain PPEs",
+          "Discuss GMP and OSHS",
+          "Describe personal hygiene",
+          "Identify different cleaning solution",
+          "Explain procedure in preparing cleaning solution with reference to MSDS",
+          "Enumerate cleaning and disinfection procedures of milking parlor with reference to GMP",
+          "Describe parts of milking machine",
+          "Discuss cleaning and sanitation of milking machine using CIP",
+          "Explain cleaning procedures on herringbone and bucket type milking machine",
+          "Wear PPEs",
+          "Practice GMP and GMP",
+          "Employ personal hygiene",
+          "Compute for concentration of cleaning solution",
+          "Prepare cleaning solution",
+          "Clean and disinfect milking parlor •Clean and sanitize milking machine"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit",
+          "Lecture",
+          "Hands on"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 91
+      },
+      {
+        "group": "core",
+        "unit_code": "AFF751303",
+        "unit_title": "Carry-out post-milking operation",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Complete post-milking",
+        "learning_activities": [
+          "Explain HACCP and GMP",
+          "Describe personal hygiene",
+          "Explain OSHS",
+          "Explain MSDS",
+          "Computing of total milk production",
+          "Discuss workplace procedure",
+          "Explain manual on milking operation",
+          "Explain EMS standard",
+          "Explain procedure in preparing cleaning solution",
+          "Discuss accomplishing of milk form",
+          "Preparation of report using Log book",
+          "Wear PPEs •Practice GMP"
+        ],
+        "methodology": [
+          "Discussion",
+          "Written",
+          "Power point examination presentation",
+          "Interview",
+          "Video",
+          "Oral presentation questioning",
+          "Incomplete",
+          "Demonstration worksheet",
+          "Demonstration",
+          "Field visit"
+        ],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": 12,
+          "source_expression": "12 hours"
+        },
+        "pdf_page": 91
+      }
+    ],
     "source_text": "SECTION 3. TRAINING ARRANGEMENTS\n\nThese standards are set to provide Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing and delivering inclusive training programs for MILKING OPERATION NC\nII.\n\nThey include information on curriculum design; training delivery; trainee entry\nrequirements; tools and equipment; training facilities; and trainer’s qualification.\n\n3.3 CURRICULUM DESIGN\nTESDA shall provide the training on the development of competency-based curricula\nto enable training providers develop their own curricula with the components mentioned\nbelow.\n\nDelivery of knowledge requirements for the basic, common and core units of\ncompetency\nspecifically\nin\nthe\nareas\nof\nmathematics,\nscience/technology,\ncommunication/language and other academic subjects shall be contextualized. To this\nend, TVET providers shall develop a Contextual Learning Matrix (CLM) to green\ntechnology, issues on health and drugs and cater person with disabilities (PWD’s).\n\nCourse Title: MILKING OPERATION NC Level NC II\n\nNominal Training Duration:\n\n20 hrs\nBasic Competencies\n72 hrs\nCommon Competencies\n68 hrs\nCore Competencies\n160 hrs\nTotal\n\nCourse Description:\n\nThis course is designed to provide the students/learner with knowledge,\ndesirable attitudes and skills required to perform the following competencies in\naccordance with industry standards: conduct pre-milking activities, perform milking\noperation and conduct post-milking operation.\n\n--- PDF PAGE 63 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n62\nBASIC COMPETENCIES\n20 HRS\n\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and\nconvey\nworkplace\ninformation\n• Describe Organizational\npolicies\n• Group\ndiscussion\n• Oral\nevaluation\n4 Hours\n• Read:\no Effective\ncommunication\n• Lecture\n• Written\nexamination\n\no Written communication\no Communication\nprocedures and\nsystems\n\n• Identify:\no Different modes of\ncommunication\n\no Medium of\ncommunication\n\no Flow of communication\no Available technology\nrelevant to the\nenterprise and the\nindividual’s work\nresponsibilities\n\n• Prepare different Types of\nquestion\n• Demonstration\n• Observation\n\n• Gather different sources\nof information\n\n--- PDF PAGE 64 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n63\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Apply storage system in\nestablishing workplace\ninformation\n\n• Demonstrate Telephone\ncourtesy\n\n1.2 Complete\nrelevant work\nrelated\ndocuments\n• Describe Communication\nprocedures and systems\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\no Meeting protocols\n• Lecture\n• Written\nexamination\n\no Nature of workplace\nmeetings\n• Lecture\n• Written\nexamination\n\no Workplace interactions\n\no Barriers of\ncommunication\n\n• Complete work related\ndocuments\n• Demonstration\n• Observation\n\n• Read instructions on work\nrelated forms/documents\n• Lecture\n• Written\nexamination\n\n• Practice:\n\no Estimate, calculate\nand record routine\nworkplace measures\n• Demonstration\n• Observation\n\no Basic mathematical\nprocesses of addition,\nsubtraction, division\nand multiplication\n\n--- PDF PAGE 65 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n64\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Demonstrate office\nactivities in:\no workplace meetings\nand discussions\nscenario\n• Role play\n• Oral\nevaluation\n• Observation\n\n• Perform workplace duties\nscenario following simple\nwritten notices\n\n• Role play\n• Oral\nevaluation\n• Observation\n\n• Follow simple spoken\nlanguage\n• Demonstration\n• Observation\n\n• Identify the different Non-\nverbal communication\n• Lecture\n• Written\nexamination\n\n• Demonstrate ability to\nrelate to people of social\nrange in the workplace\n• Demonstration\n• Observation\n\n• Gather and provide\ninformation in response to\nworkplace requirements\n\n1.3 Participate in\nworkplace\nmeeting and\ndiscussion\n• Identify:\no types of workplace\ndocuments and forms\n• Lecture\n• Written\nexamination\n\no kinds of workplace\nreport\n\no Available technology\nrelevant to the\nenterprise and the\n\n--- PDF PAGE 66 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n65\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\nindividual’s work\nresponsibilities\n• Read and follow\ninstructions in applying\nbasic mathematical\nconcepts\n\n• Follow simple spoken\nlanguage\n• Demonstration\n• Observation\n\n• Gather and provide\ninformation in response to\nworkplace requirements\n\n2. Work in a team\nenvironment\n2.1 Describe and\nidentify team\nrole and\nresponsibility\nin a team.\n• Describe the team role and\nscope\n• Group\ndiscussion\n• Oral\nevaluation\n4 Hours\n• Read\no Definition of Team\n• Lecture\n• Written\nexamination\n\no Difference between\nteam and group\n\no Objectives and goals of\nteam\n\n• Identify different sources of\ninformation\n\n2.2 Describe\nwork as a\nteam\n• Describe team goals and\nobjectives\n• Perform in setting team\ngoals and expectations\nscenario\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Role play\n• Oral\nevaluation\n• Observation\n\n--- PDF PAGE 67 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n66\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Identify\no individual role and\nresponsibility\n• Lecture\n• Written\nexamination\n\n• Practice Interacting\neffectively with others\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n• Written\nexamination\n\no Fundamental rights at\nwork including gender\nsensitivity\n\no Understanding\nindividual competencies\nrelative to teamwork\n\no Types of individuals\n\no Role of leaders\n\n3. Practice career\nprofessionalism\n3.1 Integrate\npersonal\nobjectives with\norganizational\ngoals\n• Describe performance\nevaluation\n• Group\ndiscussion\n• Oral\nevaluation\n6 Hours\n• Read:\n• Lecture\n• Written\nexamination\n\no Work values and ethics\n(Code of Conduct, Code\nof Ethics, etc.)\n\no Understanding personal\nobjectives\n\no Understanding\norganizational goals\n\n--- PDF PAGE 68 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n67\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Demonstrate Intra and\nInterpersonal skills at work\n• Demonstration\n• Observation\n\n• Demonstrate personal\ncommitment in work\n\n3.2 Set and\nmeet work\npriorities\n• Describe company\npolicies, operations,\nprocedures and standards\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n• Written\nexamination\n\no Time Management\n\no Basic strategic planning\nconcepts\n\no Resource utilization and\nmanagement\n\n• Apply managing goals and\ntime\n• Demonstration\n• Observation\n\n• Practice:\no economic use of\nresources and facilities\n• Demonstration\n• Observation\n\no time management\n\n3.3 Maintain\nprofessional\ngrowth and\ndevelopment\n• Describe company\nrecognition and incentives\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n\n--- PDF PAGE 69 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n68\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\no Career development\nopportunities\n• Written\nexamination\n\no Information on relevant\nlicenses and or\ncertifications\n\no personal career\ndevelopment needs\n\n• Determine personal career\ndevelopment needs\n• Group\ndiscussion\n• Oral\nevaluation\n\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Identify\nhazard and\nrisks\n• Describe OHS procedures,\npractices and regulations\n• Group\ndiscussion\n• Oral\nevaluation\n6 Hours\n\n•Read\n• Lecture\n• Written\nexamination\n\no OHS indicators\n\no Organizational\ncontingency practices\n\n• Practice hazards/risks\nidentification and control\n\n4.2 Evaluate\nhazard and\nrisks\n• Describe effects of safety\nhazards\n• Group\ndiscussion\n• Oral\nevaluation\n\n•Read\n• Lecture\n• Written\nexamination\n\no Threshold Limit Value –\nTLV\n\n--- PDF PAGE 70 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n69\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Practice reporting safety\nhazards\n• Role play\n• Observation\n\n• Demonstrate evaluating\nhazards and risks using\ncommunication equipment\n• Demonstration\n• Observation\n\n4.3 Control\nhazards and\nrisks\n• Describe :\no Organization safety and\nhealth protocol\n• Group\ndiscussion\n• Oral\nevaluation\n\no Company emergency\nprocedure practices\n\n•Practice personal hygiene\n•\nDemonstration\n•Observation\n\n• Practice drills on\nresponding to emergency\n• Demonstration\n•\nSimulation\n• Observation\n\n4.4 Maintain\noccupational\nhealth and\nsafety\nawareness\n• Identify emergency-related\ndrills information\n• Lecture\n• Written\nexamination\n\n• Practice occupational\nsafety and health\nstandards on personal\nrecords in the workplace\n• Role play\n• Observation\n\n• Practice emergency\nrelated drills in the\nworkplace\n• Demonstration\n• Simulation\n• Observation\n\n--- PDF PAGE 71 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n70\n COMMON COMPETENCIES\n72 HRS\n\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine\nareas of\nconcern for\nsafety\nmeasures\n• Identify work tasks in farm\noperations\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n15 hours\n\n• Discuss safety measures\nin a workplace during farm\noperations\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Role playing\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Explain farm operations\nsituations and period\nwhen to observe safety\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Role playing\n\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 72 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n71\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Identify appropriate tools,\nmaterials and outfits to be\nused\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Prepare tools, materials\nand outfits for the farm\noperation\n• Lecture\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n1.2 Apply\nappropriate\nsafety\nmeasures\n• Enumerate uses and\nfunctions of tools and\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Explain procedures of\nwearing personal protective\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n\n• Written\nexamination\n• Interview\n• Oral questioning\n\n--- PDF PAGE 73 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n72\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Discuss topics on\neffectivity, shelf life and\nexpirations of materials to\nbe used.\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify the emergency\nprocedures\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify hazards in a farm\nworkplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Use tools and materials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 74 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n73\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Wear personal protective\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Prepare report on hazards\nin the workplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Report on hazards in the\nworkplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Role playing\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n1.3 Safekeep/\ndispose of\ntools,\nmaterials and\noutfit\n• Explain cleaning and\nstoring procedures of the\nused tools and outfit\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n\n• Written\nexamination\n• Interview\n• Oral questioning\n\n--- PDF PAGE 75 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n74\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• State labelling and storing\nprocedures for unused\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Explain proper wastes\ndisposal\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Clean and store used tools\nand outfit\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Label and store unused\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 76 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n75\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Dispose waste materials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n2.Use farm tools\n2.1Select and use\nfarm tools\n• Identify farm tools\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n15 hours\n\n• Describe faults and\ndefective tools\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 77 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n76\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Discuss using of tools and\nequipment relating to\nmanufacturer’s manual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Check farm tools for faults\nand defects\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Use tools and equipment\nrelating to manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 78 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n77\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n2.2 Select and\noperate farm\nequipment\n• Identify farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Explain importance of\nreading manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Discuss pre-operation\ncheck and its importance\n• Discussion\n• Power point\npresentation\n• Video presentation\n\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify different types of\nfaults in farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Enumerate reporting\nprocedures\n• Discussion\n• Power point\npresentation\n•Video presentation\n• Written\nexamination\n• Interview\n•Oral questioning\n\n--- PDF PAGE 79 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n78\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Incomplete\nworksheet\n•Role playing\n• Demonstration\n• Enumerate procedures in\nusing farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Discuss safety procedures\nfor farm operation\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Read manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Conduct pre-operation\ncheck-up\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 80 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n79\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n•Hands-on\n• Report identified faults\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Operate farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Field visit\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Follow safety procedures\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n2.3 Perform\npreventive\nmaintenance\n• Enumerate cleaning\nprocedures for tools and\nequipment\n• Discussion\n• Power point\npresentation\n• Written\nexamination\n• Interview\n\n--- PDF PAGE 81 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n80\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Video presentation\n• Incomplete\nworksheet\n• Oral questioning\n• Demonstration\nDiscuss significance of\nroutine check-up and\nmaintenance\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\nExplain procedures in\nstoring tools and\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\nClean tools and equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 82 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n81\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\nPerform routine check –up\nand maintenance\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\nStore tools and equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n3. Perform\nestimation and\nbasic\ncalculation\n3.1Perform\nestimation\n• Identify job requirements\nand work task/activity\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n9 hours\n\n• Identify materials and\nresources of job\nrequirements\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n\n• Estimate time to complete\nwork task/activity\n• Lecture\n• Discussion\n• Demonstration\n• Video presentation\n• Written exam\n• Oral questioning\n\n--- PDF PAGE 83 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n82\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Estimate quantities of\nmaterials and resources\n• Lecture\n• Discussion\n•Demonstration\n• Written exam\n• Oral questioning\n\n• Prepare and submit bill of\nmaterials\n• Lecture\n• Discussion\n• Demonstration\n• Written exam\n• Oral questioning\n• Demonstration\n\n3.2 Perform basic\nworkplace\ncalculation\n• Describe different types of\ncalculation\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n\n• Discuss different methods\nof calculation\n• Lecture\n•Discussion\n• Written exam\n•Oral questioning\n\n• Describe system and unit\nof measurement\n• Lecture\n•Discussion\n• Written exam\n•Oral questioning\n\n• Compute quantity of\nfeeds, amount of fertilizer\nand amount of medicines\nusing methods of\ncalculation, system of\nmeasurement and units of\nmeasurement\n• Lecture\n• Discussion\n• Demonstration\n• Written exam\n• Oral questioning\n\n--- PDF PAGE 84 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n83\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n4.Process farm\nwastes\n4.1 Collect farm\nwastes\n\n• Identify tools and\nmaterials and its uses\n• Discuss types of wastes\n• Explain waste collection\nprocess\n• Discuss danger and\nhazard of waste collection\n• Discuss HAZMAT and\nOSHS\n• Explain proper wearing of\nPPEs\n• Collect farm wastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n18 hours\n\n4.2 Identify and\nsegregate\nwastes\n\n• Identify type of wastes\n• Discuss categories of\nwastes\n• Discuss segregation\nprocedures\n• Explain information on\ncorrect identification and\nlabelling of container\n• Discuss OSHS on waste\nsegregation\n•Segregate wastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 85 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n84\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n4.3 Treat and\nprocess farm\nwastes\n\n• Identify danger and\nhazards of wastes\n• Discuss procedures of\nprocessing of wastes\n• Explain 3Rs\n• Identify types of treatment\n• Discuss treatment\nprocedure\n• Discuss disposal of farm\nwastes\n• Discuss OSHS\n• Treat and process farm\nwastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n4.4 Perform\nhousekeeping\n\n• Identify warning signs and\nlabels\n• Discuss cleaning\nprocedures\n• Identify materials to be\nstored\n• Discuss storage\nprocedures\n• Explain record keeping\n• Discuss OSHS\n• Perform housekeeping\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 86 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n85\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n5. Perform\nrecord\nkeeping\n5.1 Carry out\ninventory\nactivities\n\n• Discuss inventory\nprocedures\n• Discuss defects of tools\nand equipment\n• Explain inspection\nprocedures\n• Carry out inventory\nactivities\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n15 hours\n\n5.2 Maintain\nproduction\nrecord\n\n• Explain production plan\n• Discuss production plan\nactivities\n• Discuss production plan\nreport\n• Explain monitoring\nprocedures\n•Maintain production record\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n\n5.3 Prepare\nfinancial\nrecords\n\n• Discuss basic computation\n• Explain production cost\n• Discuss revenue\n• Prepare financial records\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n\n--- PDF PAGE 87 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n86\n\nCORE COMPETENCIES\n68 hours\n\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n1. Conduct pre-\nmilking\nactivities\n1.1 Prepare\nmilking parlor\nand\nmachinery\n• Explain PPEs\n• Discuss GMP and OSHS\n• Describe personal hygiene\n• Identify different cleaning solution\n• Explain procedure in preparing\ncleaning solution with reference to\nMSDS\n• Enumerate cleaning and disinfection\nprocedures of milking parlor with\nreference to GMP\n• Describe parts of milking machine\n• Discuss cleaning and sanitation of\nmilking machine using CIP\n• Explain cleaning procedures on\nherringbone and bucket type milking\nmachine\n• Wear PPEs\n• Practice GMP and GMP\n• Employ personal hygiene\n• Compute for concentration of cleaning\nsolution\n• Prepare cleaning solution\n• Clean and disinfect milking parlor\n•Clean and sanitize milking machine\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n14 hours\n\n--- PDF PAGE 88 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n87\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n\n1.2 Prepare\ntools,\nutensils,\nmaterials\n• Explain PPEs\n• Discuss GMP and OSHS\n• Describe personal hygiene\n• Identify right cleaning solution\n• Explain procedure in preparing\ncleaning solution\n• Identify different materials, tools and\nutensils\n• Wear PPEs\n• Practice GMP and OSHS\n• Employ personal hygiene\n• Compute for concentration of cleaning\nsolution\n• Prepare cleaning solution\n• Prepare materials, tools and utensils\n• Clean and sanitize tools, utensils and\nequipment\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n8 hours\n\n1.3 Prepare\nanimal for\nmilking\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Discuss the Animal Welfare Act\n• Discuss SOP relating to cleaning\nanimal udders\n• Discuss SOP relating to foremilking\n• Describe personal hygiene\n• Explain workplace procedure\n• Enumerate the guidelines in\npositioning the animal for milking\n• Identify animals for milking & mastitic\nanimals\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n11 hours\n\n--- PDF PAGE 89 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n88\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Explain mastitis testing\n• Discuss the procedure in teats dipping\nand drying\n• Wear PPEs\n• Practice GMP and GAHP\n• Employ personal hygiene\n• Perform mastitis testing\n• Perform foremilking\n• Perform teats dipping\n• Handle animals according to Animal\nWelfare Act\n• Apply the guidelines in positioning the\nanimal for milking\n• Clean animal udders\n• Identify and separate animals infected\nwith mastitis\n2. Perform\nmilking\noperation\n2.1 Operate\nmilking\nmachine\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Explain procedure in operating milking\nmachine\n• Explain procedure in milking operation\n• Wear PPEs\n• Practice GMP and GAHP\n• Employ personal hygiene\n• Perform in milking operation\n• Perform in teat dipping and spraying\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n5 hours\n\n--- PDF PAGE 90 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n89\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n\n2.2 Monitor\nmilking\noperation\n• Explain PPEs\n• Discuss GMP and OSHS\n• Explain in teat dipping and spraying\n• Explain procedure in monitoring\nmilking machine\n• Describe the milk quality\n• Identify the milk performance\n• Explain milk recording\n• Identify animals with good health\ncondition\n• Wear PPEs\n• Practice GMP\n• Performing mathematical operation\n•Perform in milking operation\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n6 hours\n\n2.3 Perform simple\ntroubleshooting\nand repair\n• Explain PPEs\n• Discuss GMP and OSHS\n• Explain procedure in monitoring\nmilking machine\n• Identify the parts of malfunction\nmilking machine\n• Perform simple troubleshooting &\nrepair\n• Report malfunction milking machines\n• Interpersonal skills\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n3 hours\n3. Carry-out\npost-milking\noperation\n3.1 Shut down\nmilking parlor\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Explain in teat dipping and spraying\n• Explain Animal Welfare Act\n•Explain MSDS\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n7.5 hours\n\n--- PDF PAGE 91 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n90\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Describe personal hygiene\n• Identify right cleaning solution\n• Explain procedure in preparing\ncleaning and disinfectant solution\n• Discuss CIP\n• Performing post-dipping and spraying\n• Releasing animals\n• Preparing teat disinfectant\n• Cleaning and disinfecting of milking\nmachine\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Demonstration\n\n3.2 Clean and\nstore tools,\nutensils,\nmaterials and\nequipment\n• Discuss and explain the different\ncleaning and sanitizing solutions\n• Discuss GMP relating to cleaning and\nsanitation\n• Lecture\n• Hands on\n• Video ppt\n• Discussion\n• Written\nexamination\n• Demonstration\n• Oral\nquestioning\n1.5 hours\n\n3.3 Complete\npost-milking\noperations\n• Explain HACCP and GMP\n• Describe personal hygiene\n• Explain OSHS\n• Explain MSDS\n• Computing of total milk production\n• Discuss workplace procedure\n• Explain manual on milking operation\n• Explain EMS standard\n• Explain procedure in preparing\ncleaning solution\n• Discuss accomplishing of milk form\n• Preparation of report using Log book\n• Wear PPEs\n•Practice GMP\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n12 hours\n\n--- PDF PAGE 92 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n91\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Employ personal hygiene\n• Cleaning and sanitizing tools and\nutensils\n• Storing and inventorying of tools,\nutensils and materials\n• Managing of wastes\n• Practice EMS\n•Practice 7S of Good Housekeeping\n\n--- PDF PAGE 93 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n92\n3.2\nTRAINING DELIVERY\n\nThe delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology (Video\nConferencing, Webinar, etc).\n\nd. Assessment is based in the collection of evidence of the performance of\nwork to the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude\ninto account but requires evidence of actual performance of the\ncompetency as the primary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on-and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities and their\nvariations/components may be adopted singly or in combination with other modalities\nwhen designing and delivering training programs:\n\nInstitution- Based:\n\n• Dual Training System (DTS) / Dualized Training Program (DTP) which\ncontain both in-school and in-industry training or fieldwork components.\nDetails can be referred to the Implementing Rules and regulations of the\nDTS Law and the TESDA Guidelines on the DTP:\n\nEnterprise-Based:\n\nEnterprise-based training may also be taken to mean a school or training center\nwith one or more partner enterprise or an enterprise or group of enterprises\nsetting up a common training facility or partnering with a school or training\ncenter.\n\n--- PDF PAGE 94 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n93\n• Enterprise-based Training - where training is implemented within the\ncompany in accordance with the requirements of the specific company.\n\n• Apprenticeship – Training within employment involving a contract between\nan apprentice and an enterprise on an approved apprenticeable occupation.\n\nCommunity-Based –refers to a short program conducted or coordinated by\nNGOs, LGUs, training centers and other TVET providers which are intended to\naddress the specific needs of a community. Such programs are usually\nconducted in informal settings such as barangay hall, basketball courts and\nother available venues in a community.\n\n--- PDF PAGE 95 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n94\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students who want to enroll in this course should possess\nthe following requirements:\n\n• Able to read and write;\n• Able to communicate, both orally and in writing; and\n• Basic mathematical skills\n• No active pulmonary tuberculosis as certified by local physician\n\n3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n MILKING OPERATION NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Milking Operation NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\n\nQTY\n\nQTY.\n\n5 pcs\nMilk can\n(40 liters)\n2\nunits\nMilking machine\n(Bucket type)\n10 pcs\nCheesecloth\n5 pcs\nMilk can\n(20 liters)\n1 unit\n*Milking machine\n(Herringbone type)\n5 pcs\nFace towel\n5 pcs\nMilk can\n(10 liters)\n1 unit\nWeighing Scale\n5 rolls\nPaper towel\n5 pcs\nBucket (10 L)\n1 unit\nChilling tank\n2 L\nChlorine\n5 pcs\nMilking stool\n1 unit\nlaptop\n5 pcs\nScouring Pads\n5 pcs\nTeat dipper\n1 unit\nAudio-visual\nsystem\n5 pcs\nPush Brush\n5 units\ncalculator\n1 unit\nWashing machine\nwith dryer\n2 L\nMild liquid detergent\n5 units\nThermometer\n\n1 L\nTeat dip solution\n(iodine-10%)\n5 pcs\nHands spray\n\n2 L\nNitric Acid\n5 pcs\n“Teat dipper”\n\n5 pcs\nMastitis test kit\n\n25\nLogbook\n\n25\nBallpen\n5 sets\nMeasuring cup\n\n2 L\nSodium hypochlorite\n(chlorox)\n5 pcs\nStrip cup\n\n2 L\nPhosphoric acid\n\n500 g\nCaustic soda\n\n25 (or 50) for\nreplacement\nMIlkers Training\nClothes (cover all)\n\n25 pairs\nRubber Boots\n\n25 pcs\nHead Cap\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n--- PDF PAGE 96 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n95\n3.5\nTRAINING FACILITIES\n\nMILKING MACHINERY OPERATION NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN\nMETERS\nAREA IN\nSQ.\nMETERS\nTOTAL\nAREA IN\nSQ.\nMETERS\nGRAND TOTAL\nAREA IN SQ.\nMETERS\nA. Building (permanent)\n215.00\n• Student/Trainee\nWorking Space\n2.00 x 1.00 per\nstudent/trainee\n2.00 per\nstudent\n50.00\n\n• Comfort room\n\n12.00\n\n• Learning Resource\nCenter\n2x1\n2\n50\n\nB. Milking Parlor and\nfacilities\n Store room\n CR and shower\nroom\n Locker room\n Laundry room\n Milking area\n Waiting area\n\n3.00 x 4.00\n\n4.00 x 4.00\n3.00 x 4.00\n3.00 x 4.00\n10.00 x 7.00\n\n12.00\n\n16.00\n12.00\n12.00\n70.00\n\n2,550.00\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE, FORESTRY AND\nFISHERY SECTOR\n\nTrainers who will deliver the training on MILKING OPERATION NC II should\nhave the following:\n\n• Must be a holder of National TVET Trainer Certificate in Milking Operation\nNC II or preferably graduate of Animal Science and related areas or\ngraduate of Agricultural Engineering/Agricultural Biosystems Engineering\nwith TM I\n• Must have two (2) years industry experience for the last five (5) years\n\n--- PDF PAGE 97 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n96\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency . A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 98 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n97"
   },
   "subsections": {
+    "curriculum_design": {
+      "present": true,
+      "pdf_pages": [
+        62
+      ],
+      "source_text": "SECTION 3. TRAINING ARRANGEMENTS\n\nThese standards are set to provide Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing and delivering inclusive training programs for MILKING OPERATION NC\nII.\n\nThey include information on curriculum design; training delivery; trainee entry\nrequirements; tools and equipment; training facilities; and trainer’s qualification.\n\n3.3 CURRICULUM DESIGN\nTESDA shall provide the training on the development of competency-based curricula\nto enable training providers develop their own curricula with the components mentioned\nbelow.\n\nDelivery of knowledge requirements for the basic, common and core units of\ncompetency\nspecifically\nin\nthe\nareas\nof\nmathematics,\nscience/technology,\ncommunication/language and other academic subjects shall be contextualized. To this\nend, TVET providers shall develop a Contextual Learning Matrix (CLM) to green\ntechnology, issues on health and drugs and cater person with disabilities (PWD’s).\n\nCourse Title: MILKING OPERATION NC Level NC II\n\nNominal Training Duration:\n\n20 hrs\nBasic Competencies\n72 hrs\nCommon Competencies\n68 hrs\nCore Competencies\n160 hrs\nTotal\n\nCourse Description:\n\nThis course is designed to provide the students/learner with knowledge,\ndesirable attitudes and skills required to perform the following competencies in\naccordance with industry standards: conduct pre-milking activities, perform milking\noperation and conduct post-milking operation.\n\n--- PDF PAGE 63 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n62\nBASIC COMPETENCIES\n20 HRS\n\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and\nconvey\nworkplace\ninformation\n• Describe Organizational\npolicies\n• Group\ndiscussion\n• Oral\nevaluation\n4 Hours\n• Read:\no Effective\ncommunication\n• Lecture\n• Written\nexamination\n\no Written communication\no Communication\nprocedures and\nsystems\n\n• Identify:\no Different modes of\ncommunication\n\no Medium of\ncommunication\n\no Flow of communication\no Available technology\nrelevant to the\nenterprise and the\nindividual’s work\nresponsibilities\n\n• Prepare different Types of\nquestion\n• Demonstration\n• Observation\n\n• Gather different sources\nof information\n\n--- PDF PAGE 64 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n63\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Apply storage system in\nestablishing workplace\ninformation\n\n• Demonstrate Telephone\ncourtesy\n\n1.2 Complete\nrelevant work\nrelated\ndocuments\n• Describe Communication\nprocedures and systems\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\no Meeting protocols\n• Lecture\n• Written\nexamination\n\no Nature of workplace\nmeetings\n• Lecture\n• Written\nexamination\n\no Workplace interactions\n\no Barriers of\ncommunication\n\n• Complete work related\ndocuments\n• Demonstration\n• Observation\n\n• Read instructions on work\nrelated forms/documents\n• Lecture\n• Written\nexamination\n\n• Practice:\n\no Estimate, calculate\nand record routine\nworkplace measures\n• Demonstration\n• Observation\n\no Basic mathematical\nprocesses of addition,\nsubtraction, division\nand multiplication\n\n--- PDF PAGE 65 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n64\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Demonstrate office\nactivities in:\no workplace meetings\nand discussions\nscenario\n• Role play\n• Oral\nevaluation\n• Observation\n\n• Perform workplace duties\nscenario following simple\nwritten notices\n\n• Role play\n• Oral\nevaluation\n• Observation\n\n• Follow simple spoken\nlanguage\n• Demonstration\n• Observation\n\n• Identify the different Non-\nverbal communication\n• Lecture\n• Written\nexamination\n\n• Demonstrate ability to\nrelate to people of social\nrange in the workplace\n• Demonstration\n• Observation\n\n• Gather and provide\ninformation in response to\nworkplace requirements\n\n1.3 Participate in\nworkplace\nmeeting and\ndiscussion\n• Identify:\no types of workplace\ndocuments and forms\n• Lecture\n• Written\nexamination\n\no kinds of workplace\nreport\n\no Available technology\nrelevant to the\nenterprise and the\n\n--- PDF PAGE 66 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n65\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\nindividual’s work\nresponsibilities\n• Read and follow\ninstructions in applying\nbasic mathematical\nconcepts\n\n• Follow simple spoken\nlanguage\n• Demonstration\n• Observation\n\n• Gather and provide\ninformation in response to\nworkplace requirements\n\n2. Work in a team\nenvironment\n2.1 Describe and\nidentify team\nrole and\nresponsibility\nin a team.\n• Describe the team role and\nscope\n• Group\ndiscussion\n• Oral\nevaluation\n4 Hours\n• Read\no Definition of Team\n• Lecture\n• Written\nexamination\n\no Difference between\nteam and group\n\no Objectives and goals of\nteam\n\n• Identify different sources of\ninformation\n\n2.2 Describe\nwork as a\nteam\n• Describe team goals and\nobjectives\n• Perform in setting team\ngoals and expectations\nscenario\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Role play\n• Oral\nevaluation\n• Observation\n\n--- PDF PAGE 67 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n66\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Identify\no individual role and\nresponsibility\n• Lecture\n• Written\nexamination\n\n• Practice Interacting\neffectively with others\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n• Written\nexamination\n\no Fundamental rights at\nwork including gender\nsensitivity\n\no Understanding\nindividual competencies\nrelative to teamwork\n\no Types of individuals\n\no Role of leaders\n\n3. Practice career\nprofessionalism\n3.1 Integrate\npersonal\nobjectives with\norganizational\ngoals\n• Describe performance\nevaluation\n• Group\ndiscussion\n• Oral\nevaluation\n6 Hours\n• Read:\n• Lecture\n• Written\nexamination\n\no Work values and ethics\n(Code of Conduct, Code\nof Ethics, etc.)\n\no Understanding personal\nobjectives\n\no Understanding\norganizational goals\n\n--- PDF PAGE 68 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n67\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Demonstrate Intra and\nInterpersonal skills at work\n• Demonstration\n• Observation\n\n• Demonstrate personal\ncommitment in work\n\n3.2 Set and\nmeet work\npriorities\n• Describe company\npolicies, operations,\nprocedures and standards\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n• Written\nexamination\n\no Time Management\n\no Basic strategic planning\nconcepts\n\no Resource utilization and\nmanagement\n\n• Apply managing goals and\ntime\n• Demonstration\n• Observation\n\n• Practice:\no economic use of\nresources and facilities\n• Demonstration\n• Observation\n\no time management\n\n3.3 Maintain\nprofessional\ngrowth and\ndevelopment\n• Describe company\nrecognition and incentives\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n\n--- PDF PAGE 69 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n68\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\no Career development\nopportunities\n• Written\nexamination\n\no Information on relevant\nlicenses and or\ncertifications\n\no personal career\ndevelopment needs\n\n• Determine personal career\ndevelopment needs\n• Group\ndiscussion\n• Oral\nevaluation\n\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Identify\nhazard and\nrisks\n• Describe OHS procedures,\npractices and regulations\n• Group\ndiscussion\n• Oral\nevaluation\n6 Hours\n\n•Read\n• Lecture\n• Written\nexamination\n\no OHS indicators\n\no Organizational\ncontingency practices\n\n• Practice hazards/risks\nidentification and control\n\n4.2 Evaluate\nhazard and\nrisks\n• Describe effects of safety\nhazards\n• Group\ndiscussion\n• Oral\nevaluation\n\n•Read\n• Lecture\n• Written\nexamination\n\no Threshold Limit Value –\nTLV\n\n--- PDF PAGE 70 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n69\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Practice reporting safety\nhazards\n• Role play\n• Observation\n\n• Demonstrate evaluating\nhazards and risks using\ncommunication equipment\n• Demonstration\n• Observation\n\n4.3 Control\nhazards and\nrisks\n• Describe :\no Organization safety and\nhealth protocol\n• Group\ndiscussion\n• Oral\nevaluation\n\no Company emergency\nprocedure practices\n\n•Practice personal hygiene\n•\nDemonstration\n•Observation\n\n• Practice drills on\nresponding to emergency\n• Demonstration\n•\nSimulation\n• Observation\n\n4.4 Maintain\noccupational\nhealth and\nsafety\nawareness\n• Identify emergency-related\ndrills information\n• Lecture\n• Written\nexamination\n\n• Practice occupational\nsafety and health\nstandards on personal\nrecords in the workplace\n• Role play\n• Observation\n\n• Practice emergency\nrelated drills in the\nworkplace\n• Demonstration\n• Simulation\n• Observation\n\n--- PDF PAGE 71 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n70\n COMMON COMPETENCIES\n72 HRS\n\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine\nareas of\nconcern for\nsafety\nmeasures\n• Identify work tasks in farm\noperations\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n15 hours\n\n• Discuss safety measures\nin a workplace during farm\noperations\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Role playing\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Explain farm operations\nsituations and period\nwhen to observe safety\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Role playing\n\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 72 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n71\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Identify appropriate tools,\nmaterials and outfits to be\nused\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Prepare tools, materials\nand outfits for the farm\noperation\n• Lecture\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n1.2 Apply\nappropriate\nsafety\nmeasures\n• Enumerate uses and\nfunctions of tools and\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Explain procedures of\nwearing personal protective\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n\n• Written\nexamination\n• Interview\n• Oral questioning\n\n--- PDF PAGE 73 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n72\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Discuss topics on\neffectivity, shelf life and\nexpirations of materials to\nbe used.\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify the emergency\nprocedures\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify hazards in a farm\nworkplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Use tools and materials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 74 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n73\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Wear personal protective\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Prepare report on hazards\nin the workplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Report on hazards in the\nworkplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Role playing\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n1.3 Safekeep/\ndispose of\ntools,\nmaterials and\noutfit\n• Explain cleaning and\nstoring procedures of the\nused tools and outfit\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n\n• Written\nexamination\n• Interview\n• Oral questioning\n\n--- PDF PAGE 75 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n74\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• State labelling and storing\nprocedures for unused\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Explain proper wastes\ndisposal\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Clean and store used tools\nand outfit\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Label and store unused\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 76 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n75\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Dispose waste materials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n2.Use farm tools\n2.1Select and use\nfarm tools\n• Identify farm tools\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n15 hours\n\n• Describe faults and\ndefective tools\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 77 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n76\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Discuss using of tools and\nequipment relating to\nmanufacturer’s manual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Check farm tools for faults\nand defects\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Use tools and equipment\nrelating to manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 78 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n77\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n2.2 Select and\noperate farm\nequipment\n• Identify farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Explain importance of\nreading manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Discuss pre-operation\ncheck and its importance\n• Discussion\n• Power point\npresentation\n• Video presentation\n\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify different types of\nfaults in farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Enumerate reporting\nprocedures\n• Discussion\n• Power point\npresentation\n•Video presentation\n• Written\nexamination\n• Interview\n•Oral questioning\n\n--- PDF PAGE 79 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n78\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Incomplete\nworksheet\n•Role playing\n• Demonstration\n• Enumerate procedures in\nusing farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Discuss safety procedures\nfor farm operation\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Read manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Conduct pre-operation\ncheck-up\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 80 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n79\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n•Hands-on\n• Report identified faults\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Operate farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Field visit\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Follow safety procedures\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n2.3 Perform\npreventive\nmaintenance\n• Enumerate cleaning\nprocedures for tools and\nequipment\n• Discussion\n• Power point\npresentation\n• Written\nexamination\n• Interview\n\n--- PDF PAGE 81 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n80\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Video presentation\n• Incomplete\nworksheet\n• Oral questioning\n• Demonstration\nDiscuss significance of\nroutine check-up and\nmaintenance\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\nExplain procedures in\nstoring tools and\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\nClean tools and equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 82 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n81\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\nPerform routine check –up\nand maintenance\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\nStore tools and equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n3. Perform\nestimation and\nbasic\ncalculation\n3.1Perform\nestimation\n• Identify job requirements\nand work task/activity\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n9 hours\n\n• Identify materials and\nresources of job\nrequirements\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n\n• Estimate time to complete\nwork task/activity\n• Lecture\n• Discussion\n• Demonstration\n• Video presentation\n• Written exam\n• Oral questioning\n\n--- PDF PAGE 83 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n82\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Estimate quantities of\nmaterials and resources\n• Lecture\n• Discussion\n•Demonstration\n• Written exam\n• Oral questioning\n\n• Prepare and submit bill of\nmaterials\n• Lecture\n• Discussion\n• Demonstration\n• Written exam\n• Oral questioning\n• Demonstration\n\n3.2 Perform basic\nworkplace\ncalculation\n• Describe different types of\ncalculation\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n\n• Discuss different methods\nof calculation\n• Lecture\n•Discussion\n• Written exam\n•Oral questioning\n\n• Describe system and unit\nof measurement\n• Lecture\n•Discussion\n• Written exam\n•Oral questioning\n\n• Compute quantity of\nfeeds, amount of fertilizer\nand amount of medicines\nusing methods of\ncalculation, system of\nmeasurement and units of\nmeasurement\n• Lecture\n• Discussion\n• Demonstration\n• Written exam\n• Oral questioning\n\n--- PDF PAGE 84 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n83\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n4.Process farm\nwastes\n4.1 Collect farm\nwastes\n\n• Identify tools and\nmaterials and its uses\n• Discuss types of wastes\n• Explain waste collection\nprocess\n• Discuss danger and\nhazard of waste collection\n• Discuss HAZMAT and\nOSHS\n• Explain proper wearing of\nPPEs\n• Collect farm wastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n18 hours\n\n4.2 Identify and\nsegregate\nwastes\n\n• Identify type of wastes\n• Discuss categories of\nwastes\n• Discuss segregation\nprocedures\n• Explain information on\ncorrect identification and\nlabelling of container\n• Discuss OSHS on waste\nsegregation\n•Segregate wastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 85 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n84\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n4.3 Treat and\nprocess farm\nwastes\n\n• Identify danger and\nhazards of wastes\n• Discuss procedures of\nprocessing of wastes\n• Explain 3Rs\n• Identify types of treatment\n• Discuss treatment\nprocedure\n• Discuss disposal of farm\nwastes\n• Discuss OSHS\n• Treat and process farm\nwastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n4.4 Perform\nhousekeeping\n\n• Identify warning signs and\nlabels\n• Discuss cleaning\nprocedures\n• Identify materials to be\nstored\n• Discuss storage\nprocedures\n• Explain record keeping\n• Discuss OSHS\n• Perform housekeeping\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 86 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n85\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n5. Perform\nrecord\nkeeping\n5.1 Carry out\ninventory\nactivities\n\n• Discuss inventory\nprocedures\n• Discuss defects of tools\nand equipment\n• Explain inspection\nprocedures\n• Carry out inventory\nactivities\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n15 hours\n\n5.2 Maintain\nproduction\nrecord\n\n• Explain production plan\n• Discuss production plan\nactivities\n• Discuss production plan\nreport\n• Explain monitoring\nprocedures\n•Maintain production record\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n\n5.3 Prepare\nfinancial\nrecords\n\n• Discuss basic computation\n• Explain production cost\n• Discuss revenue\n• Prepare financial records\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n\n--- PDF PAGE 87 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n86\n\nCORE COMPETENCIES\n68 hours\n\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n1. Conduct pre-\nmilking\nactivities\n1.1 Prepare\nmilking parlor\nand\nmachinery\n• Explain PPEs\n• Discuss GMP and OSHS\n• Describe personal hygiene\n• Identify different cleaning solution\n• Explain procedure in preparing\ncleaning solution with reference to\nMSDS\n• Enumerate cleaning and disinfection\nprocedures of milking parlor with\nreference to GMP\n• Describe parts of milking machine\n• Discuss cleaning and sanitation of\nmilking machine using CIP\n• Explain cleaning procedures on\nherringbone and bucket type milking\nmachine\n• Wear PPEs\n• Practice GMP and GMP\n• Employ personal hygiene\n• Compute for concentration of cleaning\nsolution\n• Prepare cleaning solution\n• Clean and disinfect milking parlor\n•Clean and sanitize milking machine\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n14 hours\n\n--- PDF PAGE 88 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n87\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n\n1.2 Prepare\ntools,\nutensils,\nmaterials\n• Explain PPEs\n• Discuss GMP and OSHS\n• Describe personal hygiene\n• Identify right cleaning solution\n• Explain procedure in preparing\ncleaning solution\n• Identify different materials, tools and\nutensils\n• Wear PPEs\n• Practice GMP and OSHS\n• Employ personal hygiene\n• Compute for concentration of cleaning\nsolution\n• Prepare cleaning solution\n• Prepare materials, tools and utensils\n• Clean and sanitize tools, utensils and\nequipment\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n8 hours\n\n1.3 Prepare\nanimal for\nmilking\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Discuss the Animal Welfare Act\n• Discuss SOP relating to cleaning\nanimal udders\n• Discuss SOP relating to foremilking\n• Describe personal hygiene\n• Explain workplace procedure\n• Enumerate the guidelines in\npositioning the animal for milking\n• Identify animals for milking & mastitic\nanimals\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n11 hours\n\n--- PDF PAGE 89 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n88\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Explain mastitis testing\n• Discuss the procedure in teats dipping\nand drying\n• Wear PPEs\n• Practice GMP and GAHP\n• Employ personal hygiene\n• Perform mastitis testing\n• Perform foremilking\n• Perform teats dipping\n• Handle animals according to Animal\nWelfare Act\n• Apply the guidelines in positioning the\nanimal for milking\n• Clean animal udders\n• Identify and separate animals infected\nwith mastitis\n2. Perform\nmilking\noperation\n2.1 Operate\nmilking\nmachine\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Explain procedure in operating milking\nmachine\n• Explain procedure in milking operation\n• Wear PPEs\n• Practice GMP and GAHP\n• Employ personal hygiene\n• Perform in milking operation\n• Perform in teat dipping and spraying\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n5 hours\n\n--- PDF PAGE 90 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n89\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n\n2.2 Monitor\nmilking\noperation\n• Explain PPEs\n• Discuss GMP and OSHS\n• Explain in teat dipping and spraying\n• Explain procedure in monitoring\nmilking machine\n• Describe the milk quality\n• Identify the milk performance\n• Explain milk recording\n• Identify animals with good health\ncondition\n• Wear PPEs\n• Practice GMP\n• Performing mathematical operation\n•Perform in milking operation\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n6 hours\n\n2.3 Perform simple\ntroubleshooting\nand repair\n• Explain PPEs\n• Discuss GMP and OSHS\n• Explain procedure in monitoring\nmilking machine\n• Identify the parts of malfunction\nmilking machine\n• Perform simple troubleshooting &\nrepair\n• Report malfunction milking machines\n• Interpersonal skills\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n3 hours\n3. Carry-out\npost-milking\noperation\n3.1 Shut down\nmilking parlor\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Explain in teat dipping and spraying\n• Explain Animal Welfare Act\n•Explain MSDS\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n7.5 hours\n\n--- PDF PAGE 91 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n90\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Describe personal hygiene\n• Identify right cleaning solution\n• Explain procedure in preparing\ncleaning and disinfectant solution\n• Discuss CIP\n• Performing post-dipping and spraying\n• Releasing animals\n• Preparing teat disinfectant\n• Cleaning and disinfecting of milking\nmachine\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Demonstration\n\n3.2 Clean and\nstore tools,\nutensils,\nmaterials and\nequipment\n• Discuss and explain the different\ncleaning and sanitizing solutions\n• Discuss GMP relating to cleaning and\nsanitation\n• Lecture\n• Hands on\n• Video ppt\n• Discussion\n• Written\nexamination\n• Demonstration\n• Oral\nquestioning\n1.5 hours\n\n3.3 Complete\npost-milking\noperations\n• Explain HACCP and GMP\n• Describe personal hygiene\n• Explain OSHS\n• Explain MSDS\n• Computing of total milk production\n• Discuss workplace procedure\n• Explain manual on milking operation\n• Explain EMS standard\n• Explain procedure in preparing\ncleaning solution\n• Discuss accomplishing of milk form\n• Preparation of report using Log book\n• Wear PPEs\n•Practice GMP\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n12 hours\n\n--- PDF PAGE 92 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n91\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Employ personal hygiene\n• Cleaning and sanitizing tools and\nutensils\n• Storing and inventorying of tools,\nutensils and materials\n• Managing of wastes\n• Practice EMS\n•Practice 7S of Good Housekeeping\n\n--- PDF PAGE 93 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n92\n3.2\nTRAINING DELIVERY\n\nThe delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology (Video\nConferencing, Webinar, etc).\n\nd. Assessment is based in the collection of evidence of the performance of\nwork to the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude\ninto account but requires evidence of actual performance of the\ncompetency as the primary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on-and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities and their\nvariations/components may be adopted singly or in combination with other modalities\nwhen designing and delivering training programs:\n\nInstitution- Based:\n\n• Dual Training System (DTS) / Dualized Training Program (DTP) which\ncontain both in-school and in-industry training or fieldwork components.\nDetails can be referred to the Implementing Rules and regulations of the\nDTS Law and the TESDA Guidelines on the DTP:\n\nEnterprise-Based:\n\nEnterprise-based training may also be taken to mean a school or training center\nwith one or more partner enterprise or an enterprise or group of enterprises\nsetting up a common training facility or partnering with a school or training\ncenter.\n\n--- PDF PAGE 94 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n93\n• Enterprise-based Training - where training is implemented within the\ncompany in accordance with the requirements of the specific company.\n\n• Apprenticeship – Training within employment involving a contract between\nan apprentice and an enterprise on an approved apprenticeable occupation.\n\nCommunity-Based –refers to a short program conducted or coordinated by\nNGOs, LGUs, training centers and other TVET providers which are intended to\naddress the specific needs of a community. Such programs are usually\nconducted in informal settings such as barangay hall, basketball courts and\nother available venues in a community.\n\n--- PDF PAGE 95 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n94\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students who want to enroll in this course should possess\nthe following requirements:\n\n• Able to read and write;\n• Able to communicate, both orally and in writing; and\n• Basic mathematical skills\n• No active pulmonary tuberculosis as certified by local physician\n\n3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n MILKING OPERATION NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Milking Operation NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\n\nQTY\n\nQTY.\n\n5 pcs\nMilk can\n(40 liters)\n2\nunits\nMilking machine\n(Bucket type)\n10 pcs\nCheesecloth\n5 pcs\nMilk can\n(20 liters)\n1 unit\n*Milking machine\n(Herringbone type)\n5 pcs\nFace towel\n5 pcs\nMilk can\n(10 liters)\n1 unit\nWeighing Scale\n5 rolls\nPaper towel\n5 pcs\nBucket (10 L)\n1 unit\nChilling tank\n2 L\nChlorine\n5 pcs\nMilking stool\n1 unit\nlaptop\n5 pcs\nScouring Pads\n5 pcs\nTeat dipper\n1 unit\nAudio-visual\nsystem\n5 pcs\nPush Brush\n5 units\ncalculator\n1 unit\nWashing machine\nwith dryer\n2 L\nMild liquid detergent\n5 units\nThermometer\n\n1 L\nTeat dip solution\n(iodine-10%)\n5 pcs\nHands spray\n\n2 L\nNitric Acid\n5 pcs\n“Teat dipper”\n\n5 pcs\nMastitis test kit\n\n25\nLogbook\n\n25\nBallpen\n5 sets\nMeasuring cup\n\n2 L\nSodium hypochlorite\n(chlorox)\n5 pcs\nStrip cup\n\n2 L\nPhosphoric acid\n\n500 g\nCaustic soda\n\n25 (or 50) for\nreplacement\nMIlkers Training\nClothes (cover all)\n\n25 pairs\nRubber Boots\n\n25 pcs\nHead Cap\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n--- PDF PAGE 96 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n95\n3.5\nTRAINING FACILITIES\n\nMILKING MACHINERY OPERATION NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN\nMETERS\nAREA IN\nSQ.\nMETERS\nTOTAL\nAREA IN\nSQ.\nMETERS\nGRAND TOTAL\nAREA IN SQ.\nMETERS\nA. Building (permanent)\n215.00\n• Student/Trainee\nWorking Space\n2.00 x 1.00 per\nstudent/trainee\n2.00 per\nstudent\n50.00\n\n• Comfort room\n\n12.00\n\n• Learning Resource\nCenter\n2x1\n2\n50\n\nB. Milking Parlor and\nfacilities\n Store room\n CR and shower\nroom\n Locker room\n Laundry room\n Milking area\n Waiting area\n\n3.00 x 4.00\n\n4.00 x 4.00\n3.00 x 4.00\n3.00 x 4.00\n10.00 x 7.00\n\n12.00\n\n16.00\n12.00\n12.00\n70.00\n\n2,550.00\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE, FORESTRY AND\nFISHERY SECTOR\n\nTrainers who will deliver the training on MILKING OPERATION NC II should\nhave the following:\n\n• Must be a holder of National TVET Trainer Certificate in Milking Operation\nNC II or preferably graduate of Animal Science and related areas or\ngraduate of Agricultural Engineering/Agricultural Biosystems Engineering\nwith TM I\n• Must have two (2) years industry experience for the last five (5) years\n\n--- PDF PAGE 97 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n96\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency . A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 98 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n97"
+    },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology (Video\nConferencing, Webinar, etc).\n\nd. Assessment is based in the collection of evidence of the performance of\nwork to the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude\ninto account but requires evidence of actual performance of the\ncompetency as the primary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on-and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities and their\nvariations/components may be adopted singly or in combination with other modalities\nwhen designing and delivering training programs:\n\nInstitution- Based:\n\n• Dual Training System (DTS) / Dualized Training Program (DTP) which\ncontain both in-school and in-industry training or fieldwork components.\nDetails can be referred to the Implementing Rules and regulations of the\nDTS Law and the TESDA Guidelines on the DTP:\n\nEnterprise-Based:\n\nEnterprise-based training may also be taken to mean a school or training center\nwith one or more partner enterprise or an enterprise or group of enterprises\nsetting up a common training facility or partnering with a school or training\ncenter.\n\n--- PDF PAGE 94 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n93\n• Enterprise-based Training - where training is implemented within the\ncompany in accordance with the requirements of the specific company.\n\n• Apprenticeship – Training within employment involving a contract between\nan apprentice and an enterprise on an approved apprenticeable occupation.\n\nCommunity-Based –refers to a short program conducted or coordinated by\nNGOs, LGUs, training centers and other TVET providers which are intended to\naddress the specific needs of a community. Such programs are usually\nconducted in informal settings such as barangay hall, basketball courts and\nother available venues in a community.\n\n--- PDF PAGE 95 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n94",
-      "pdf_pages": []
+      "pdf_pages": [
+        62,
+        93
+      ],
+      "source_text": "3.2\nTRAINING DELIVERY\n\nThe delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology (Video\nConferencing, Webinar, etc).\n\nd. Assessment is based in the collection of evidence of the performance of\nwork to the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude\ninto account but requires evidence of actual performance of the\ncompetency as the primary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on-and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities and their\nvariations/components may be adopted singly or in combination with other modalities\nwhen designing and delivering training programs:\n\nInstitution- Based:\n\n• Dual Training System (DTS) / Dualized Training Program (DTP) which\ncontain both in-school and in-industry training or fieldwork components.\nDetails can be referred to the Implementing Rules and regulations of the\nDTS Law and the TESDA Guidelines on the DTP:\n\nEnterprise-Based:\n\nEnterprise-based training may also be taken to mean a school or training center\nwith one or more partner enterprise or an enterprise or group of enterprises\nsetting up a common training facility or partnering with a school or training\ncenter.\n\n--- PDF PAGE 94 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n93\n• Enterprise-based Training - where training is implemented within the\ncompany in accordance with the requirements of the specific company.\n\n• Apprenticeship – Training within employment involving a contract between\nan apprentice and an enterprise on an approved apprenticeable occupation.\n\nCommunity-Based –refers to a short program conducted or coordinated by\nNGOs, LGUs, training centers and other TVET providers which are intended to\naddress the specific needs of a community. Such programs are usually\nconducted in informal settings such as barangay hall, basketball courts and\nother available venues in a community.\n\n--- PDF PAGE 95 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n94"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "Trainees or students who want to enroll in this course should possess\nthe following requirements:\n\n• Able to read and write;\n• Able to communicate, both orally and in writing; and\n• Basic mathematical skills\n• No active pulmonary tuberculosis as certified by local physician",
-      "pdf_pages": []
+      "pdf_pages": [
+        62,
+        95
+      ],
+      "source_text": "3.3\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students who want to enroll in this course should possess\nthe following requirements:\n\n• Able to read and write;\n• Able to communicate, both orally and in writing; and\n• Basic mathematical skills\n• No active pulmonary tuberculosis as certified by local physician"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\n MILKING OPERATION NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Milking Operation NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\n\nQTY\n\nQTY.\n\n5 pcs\nMilk can\n(40 liters)\n2\nunits\nMilking machine\n(Bucket type)\n10 pcs\nCheesecloth\n5 pcs\nMilk can\n(20 liters)\n1 unit\n*Milking machine\n(Herringbone type)\n5 pcs\nFace towel\n5 pcs\nMilk can\n(10 liters)\n1 unit\nWeighing Scale\n5 rolls\nPaper towel\n5 pcs\nBucket (10 L)\n1 unit\nChilling tank\n2 L\nChlorine\n5 pcs\nMilking stool\n1 unit\nlaptop\n5 pcs\nScouring Pads\n5 pcs\nTeat dipper\n1 unit\nAudio-visual\nsystem\n5 pcs\nPush Brush\n5 units\ncalculator\n1 unit\nWashing machine\nwith dryer\n2 L\nMild liquid detergent\n5 units\nThermometer\n\n1 L\nTeat dip solution\n(iodine-10%)\n5 pcs\nHands spray\n\n2 L\nNitric Acid\n5 pcs\n“Teat dipper”\n\n5 pcs\nMastitis test kit\n\n25\nLogbook\n\n25\nBallpen\n5 sets\nMeasuring cup\n\n2 L\nSodium hypochlorite\n(chlorox)\n5 pcs\nStrip cup\n\n2 L\nPhosphoric acid\n\n500 g\nCaustic soda\n\n25 (or 50) for\nreplacement\nMIlkers Training\nClothes (cover all)\n\n25 pairs\nRubber Boots\n\n25 pcs\nHead Cap\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n--- PDF PAGE 96 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n95",
-      "pdf_pages": []
+      "pdf_pages": [
+        95
+      ],
+      "source_text": "3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n MILKING OPERATION NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Milking Operation NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\n\nQTY\n\nQTY.\n\n5 pcs\nMilk can\n(40 liters)\n2\nunits\nMilking machine\n(Bucket type)\n10 pcs\nCheesecloth\n5 pcs\nMilk can\n(20 liters)\n1 unit\n*Milking machine\n(Herringbone type)\n5 pcs\nFace towel\n5 pcs\nMilk can\n(10 liters)\n1 unit\nWeighing Scale\n5 rolls\nPaper towel\n5 pcs\nBucket (10 L)\n1 unit\nChilling tank\n2 L\nChlorine\n5 pcs\nMilking stool\n1 unit\nlaptop\n5 pcs\nScouring Pads\n5 pcs\nTeat dipper\n1 unit\nAudio-visual\nsystem\n5 pcs\nPush Brush\n5 units\ncalculator\n1 unit\nWashing machine\nwith dryer\n2 L\nMild liquid detergent\n5 units\nThermometer\n\n1 L\nTeat dip solution\n(iodine-10%)\n5 pcs\nHands spray\n\n2 L\nNitric Acid\n5 pcs\n“Teat dipper”\n\n5 pcs\nMastitis test kit\n\n25\nLogbook\n\n25\nBallpen\n5 sets\nMeasuring cup\n\n2 L\nSodium hypochlorite\n(chlorox)\n5 pcs\nStrip cup\n\n2 L\nPhosphoric acid\n\n500 g\nCaustic soda\n\n25 (or 50) for\nreplacement\nMIlkers Training\nClothes (cover all)\n\n25 pairs\nRubber Boots\n\n25 pcs\nHead Cap\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n--- PDF PAGE 96 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n95"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "MILKING MACHINERY OPERATION NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN\nMETERS\nAREA IN\nSQ.\nMETERS\nTOTAL\nAREA IN\nSQ.\nMETERS\nGRAND TOTAL\nAREA IN SQ.\nMETERS\nA. Building (permanent)\n215.00\n• Student/Trainee\nWorking Space\n2.00 x 1.00 per\nstudent/trainee\n2.00 per\nstudent\n50.00\n\n• Comfort room\n\n12.00\n\n• Learning Resource\nCenter\n2x1\n2\n50\n\nB. Milking Parlor and\nfacilities\n Store room\n CR and shower\nroom\n Locker room\n Laundry room\n Milking area\n Waiting area\n\n3.00 x 4.00\n\n4.00 x 4.00\n3.00 x 4.00\n3.00 x 4.00\n10.00 x 7.00\n\n12.00\n\n16.00\n12.00\n12.00\n70.00\n\n2,550.00\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE, FORESTRY AND\nFISHERY SECTOR\n\nTrainers who will deliver the training on MILKING OPERATION NC II should\nhave the following:\n\n• Must be a holder of National TVET Trainer Certificate in Milking Operation\nNC II or preferably graduate of Animal Science and related areas or\ngraduate of Agricultural Engineering/Agricultural Biosystems Engineering\nwith TM I\n• Must have two (2) years industry experience for the last five (5) years\n\n--- PDF PAGE 97 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n96",
-      "pdf_pages": []
+      "pdf_pages": [
+        62,
+        96
+      ],
+      "source_text": "3.5\nTRAINING FACILITIES\n\nMILKING MACHINERY OPERATION NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN\nMETERS\nAREA IN\nSQ.\nMETERS\nTOTAL\nAREA IN\nSQ.\nMETERS\nGRAND TOTAL\nAREA IN SQ.\nMETERS\nA. Building (permanent)\n215.00\n• Student/Trainee\nWorking Space\n2.00 x 1.00 per\nstudent/trainee\n2.00 per\nstudent\n50.00\n\n• Comfort room\n\n12.00\n\n• Learning Resource\nCenter\n2x1\n2\n50\n\nB. Milking Parlor and\nfacilities\n Store room\n CR and shower\nroom\n Locker room\n Laundry room\n Milking area\n Waiting area\n\n3.00 x 4.00\n\n4.00 x 4.00\n3.00 x 4.00\n3.00 x 4.00\n10.00 x 7.00\n\n12.00\n\n16.00\n12.00\n12.00\n70.00\n\n2,550.00\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies."
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        62,
+        96
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE, FORESTRY AND\nFISHERY SECTOR\n\nTrainers who will deliver the training on MILKING OPERATION NC II should\nhave the following:\n\n• Must be a holder of National TVET Trainer Certificate in Milking Operation\nNC II or preferably graduate of Animal Science and related areas or\ngraduate of Agricultural Engineering/Agricultural Biosystems Engineering\nwith TM I\n• Must have two (2) years industry experience for the last five (5) years\n\n--- PDF PAGE 97 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n96"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional assessment is undertaken by trainees to determine their\nachievement of units of competency . A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 98 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n97",
-      "pdf_pages": []
+      "pdf_pages": [
+        97
+      ],
+      "source_text": "3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency . A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 98 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n97"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "20 hrs",
-      "72 hrs",
-      "68 hrs",
-      "160 hrs",
-      "20 HRS",
-      "4 Hours",
-      "4 Hours",
-      "6 Hours",
-      "6 Hours",
-      "72 HRS",
-      "15 hours",
-      "15 hours",
-      "9 hours",
-      "18 hours",
-      "15 hours",
-      "68 hours",
-      "14 hours",
-      "8 hours",
-      "11 hours",
-      "5 hours",
-      "6 hours",
-      "3 hours",
-      "7.5 hours",
-      "1.5 hours",
-      "12 hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3. TRAINING ARRANGEMENTS\n\nThese standards are set to provide Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing and delivering inclusive training programs for MILKING OPERATION NC\nII.\n\nThey include information on curriculum design; training delivery; trainee entry\nrequirements; tools and equipment; training facilities; and trainer’s qualification.\n\n3.3 CURRICULUM DESIGN\nTESDA shall provide the training on the development of competency-based curricula\nto enable training providers develop their own curricula with the components mentioned\nbelow.\n\nDelivery of knowledge requirements for the basic, common and core units of\ncompetency\nspecifically\nin\nthe\nareas\nof\nmathematics,\nscience/technology,\ncommunication/language and other academic subjects shall be contextualized. To this\nend, TVET providers shall develop a Contextual Learning Matrix (CLM) to green\ntechnology, issues on health and drugs and cater person with disabilities (PWD’s).\n\nCourse Title: MILKING OPERATION NC Level NC II\n\nNominal Training Duration:\n\n20 hrs\nBasic Competencies\n72 hrs\nCommon Competencies\n68 hrs\nCore Competencies\n160 hrs\nTotal\n\nCourse Description:\n\nThis course is designed to provide the students/learner with knowledge,\ndesirable attitudes and skills required to perform the following competencies in\naccordance with industry standards: conduct pre-milking activities, perform milking\noperation and conduct post-milking operation.\n\n--- PDF PAGE 63 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n62\nBASIC COMPETENCIES\n20 HRS\n\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n1. Participate in\nworkplace\ncommunication\n1.1 Obtain and\nconvey\nworkplace\ninformation\n• Describe Organizational\npolicies\n• Group\ndiscussion\n• Oral\nevaluation\n4 Hours\n• Read:\no Effective\ncommunication\n• Lecture\n• Written\nexamination\n\no Written communication\no Communication\nprocedures and\nsystems\n\n• Identify:\no Different modes of\ncommunication\n\no Medium of\ncommunication\n\no Flow of communication\no Available technology\nrelevant to the\nenterprise and the\nindividual’s work\nresponsibilities\n\n• Prepare different Types of\nquestion\n• Demonstration\n• Observation\n\n• Gather different sources\nof information\n\n--- PDF PAGE 64 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n63\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Apply storage system in\nestablishing workplace\ninformation\n\n• Demonstrate Telephone\ncourtesy\n\n1.2 Complete\nrelevant work\nrelated\ndocuments\n• Describe Communication\nprocedures and systems\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\no Meeting protocols\n• Lecture\n• Written\nexamination\n\no Nature of workplace\nmeetings\n• Lecture\n• Written\nexamination\n\no Workplace interactions\n\no Barriers of\ncommunication\n\n• Complete work related\ndocuments\n• Demonstration\n• Observation\n\n• Read instructions on work\nrelated forms/documents\n• Lecture\n• Written\nexamination\n\n• Practice:\n\no Estimate, calculate\nand record routine\nworkplace measures\n• Demonstration\n• Observation\n\no Basic mathematical\nprocesses of addition,\nsubtraction, division\nand multiplication\n\n--- PDF PAGE 65 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n64\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Demonstrate office\nactivities in:\no workplace meetings\nand discussions\nscenario\n• Role play\n• Oral\nevaluation\n• Observation\n\n• Perform workplace duties\nscenario following simple\nwritten notices\n\n• Role play\n• Oral\nevaluation\n• Observation\n\n• Follow simple spoken\nlanguage\n• Demonstration\n• Observation\n\n• Identify the different Non-\nverbal communication\n• Lecture\n• Written\nexamination\n\n• Demonstrate ability to\nrelate to people of social\nrange in the workplace\n• Demonstration\n• Observation\n\n• Gather and provide\ninformation in response to\nworkplace requirements\n\n1.3 Participate in\nworkplace\nmeeting and\ndiscussion\n• Identify:\no types of workplace\ndocuments and forms\n• Lecture\n• Written\nexamination\n\no kinds of workplace\nreport\n\no Available technology\nrelevant to the\nenterprise and the\n\n--- PDF PAGE 66 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n65\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\nindividual’s work\nresponsibilities\n• Read and follow\ninstructions in applying\nbasic mathematical\nconcepts\n\n• Follow simple spoken\nlanguage\n• Demonstration\n• Observation\n\n• Gather and provide\ninformation in response to\nworkplace requirements\n\n2. Work in a team\nenvironment\n2.1 Describe and\nidentify team\nrole and\nresponsibility\nin a team.\n• Describe the team role and\nscope\n• Group\ndiscussion\n• Oral\nevaluation\n4 Hours\n• Read\no Definition of Team\n• Lecture\n• Written\nexamination\n\no Difference between\nteam and group\n\no Objectives and goals of\nteam\n\n• Identify different sources of\ninformation\n\n2.2 Describe\nwork as a\nteam\n• Describe team goals and\nobjectives\n• Perform in setting team\ngoals and expectations\nscenario\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Role play\n• Oral\nevaluation\n• Observation\n\n--- PDF PAGE 67 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n66\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Identify\no individual role and\nresponsibility\n• Lecture\n• Written\nexamination\n\n• Practice Interacting\neffectively with others\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n• Written\nexamination\n\no Fundamental rights at\nwork including gender\nsensitivity\n\no Understanding\nindividual competencies\nrelative to teamwork\n\no Types of individuals\n\no Role of leaders\n\n3. Practice career\nprofessionalism\n3.1 Integrate\npersonal\nobjectives with\norganizational\ngoals\n• Describe performance\nevaluation\n• Group\ndiscussion\n• Oral\nevaluation\n6 Hours\n• Read:\n• Lecture\n• Written\nexamination\n\no Work values and ethics\n(Code of Conduct, Code\nof Ethics, etc.)\n\no Understanding personal\nobjectives\n\no Understanding\norganizational goals\n\n--- PDF PAGE 68 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n67\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Demonstrate Intra and\nInterpersonal skills at work\n• Demonstration\n• Observation\n\n• Demonstrate personal\ncommitment in work\n\n3.2 Set and\nmeet work\npriorities\n• Describe company\npolicies, operations,\nprocedures and standards\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n• Written\nexamination\n\no Time Management\n\no Basic strategic planning\nconcepts\n\no Resource utilization and\nmanagement\n\n• Apply managing goals and\ntime\n• Demonstration\n• Observation\n\n• Practice:\no economic use of\nresources and facilities\n• Demonstration\n• Observation\n\no time management\n\n3.3 Maintain\nprofessional\ngrowth and\ndevelopment\n• Describe company\nrecognition and incentives\n• Group\ndiscussion\n• Oral\nevaluation\n\n• Read:\n• Lecture\n\n--- PDF PAGE 69 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n68\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\no Career development\nopportunities\n• Written\nexamination\n\no Information on relevant\nlicenses and or\ncertifications\n\no personal career\ndevelopment needs\n\n• Determine personal career\ndevelopment needs\n• Group\ndiscussion\n• Oral\nevaluation\n\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Identify\nhazard and\nrisks\n• Describe OHS procedures,\npractices and regulations\n• Group\ndiscussion\n• Oral\nevaluation\n6 Hours\n\n•Read\n• Lecture\n• Written\nexamination\n\no OHS indicators\n\no Organizational\ncontingency practices\n\n• Practice hazards/risks\nidentification and control\n\n4.2 Evaluate\nhazard and\nrisks\n• Describe effects of safety\nhazards\n• Group\ndiscussion\n• Oral\nevaluation\n\n•Read\n• Lecture\n• Written\nexamination\n\no Threshold Limit Value –\nTLV\n\n--- PDF PAGE 70 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n69\nUnit of\nCompetency\nLearning Outcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal Duration\n\n• Practice reporting safety\nhazards\n• Role play\n• Observation\n\n• Demonstrate evaluating\nhazards and risks using\ncommunication equipment\n• Demonstration\n• Observation\n\n4.3 Control\nhazards and\nrisks\n• Describe :\no Organization safety and\nhealth protocol\n• Group\ndiscussion\n• Oral\nevaluation\n\no Company emergency\nprocedure practices\n\n•Practice personal hygiene\n•\nDemonstration\n•Observation\n\n• Practice drills on\nresponding to emergency\n• Demonstration\n•\nSimulation\n• Observation\n\n4.4 Maintain\noccupational\nhealth and\nsafety\nawareness\n• Identify emergency-related\ndrills information\n• Lecture\n• Written\nexamination\n\n• Practice occupational\nsafety and health\nstandards on personal\nrecords in the workplace\n• Role play\n• Observation\n\n• Practice emergency\nrelated drills in the\nworkplace\n• Demonstration\n• Simulation\n• Observation\n\n--- PDF PAGE 71 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n70\n COMMON COMPETENCIES\n72 HRS\n\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n1. Apply safety\nmeasures in\nfarm\noperations\n1.1 Determine\nareas of\nconcern for\nsafety\nmeasures\n• Identify work tasks in farm\noperations\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n15 hours\n\n• Discuss safety measures\nin a workplace during farm\noperations\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Role playing\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Explain farm operations\nsituations and period\nwhen to observe safety\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Role playing\n\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 72 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n71\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Identify appropriate tools,\nmaterials and outfits to be\nused\n• Lecture\n• Discussion\n• Incomplete\nworksheet\n• Power point\npresentation\n• Video presentation\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Prepare tools, materials\nand outfits for the farm\noperation\n• Lecture\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n1.2 Apply\nappropriate\nsafety\nmeasures\n• Enumerate uses and\nfunctions of tools and\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Explain procedures of\nwearing personal protective\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n\n• Written\nexamination\n• Interview\n• Oral questioning\n\n--- PDF PAGE 73 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n72\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Discuss topics on\neffectivity, shelf life and\nexpirations of materials to\nbe used.\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify the emergency\nprocedures\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify hazards in a farm\nworkplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Use tools and materials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 74 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n73\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Wear personal protective\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Prepare report on hazards\nin the workplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Report on hazards in the\nworkplace\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Role playing\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n1.3 Safekeep/\ndispose of\ntools,\nmaterials and\noutfit\n• Explain cleaning and\nstoring procedures of the\nused tools and outfit\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n\n• Written\nexamination\n• Interview\n• Oral questioning\n\n--- PDF PAGE 75 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n74\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• State labelling and storing\nprocedures for unused\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Explain proper wastes\ndisposal\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Clean and store used tools\nand outfit\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Label and store unused\nmaterials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 76 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n75\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Dispose waste materials\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n2.Use farm tools\n2.1Select and use\nfarm tools\n• Identify farm tools\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n15 hours\n\n• Describe faults and\ndefective tools\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 77 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n76\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\n• Discuss using of tools and\nequipment relating to\nmanufacturer’s manual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Check farm tools for faults\nand defects\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Use tools and equipment\nrelating to manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 78 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n77\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n2.2 Select and\noperate farm\nequipment\n• Identify farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Explain importance of\nreading manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Discuss pre-operation\ncheck and its importance\n• Discussion\n• Power point\npresentation\n• Video presentation\n\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Identify different types of\nfaults in farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Enumerate reporting\nprocedures\n• Discussion\n• Power point\npresentation\n•Video presentation\n• Written\nexamination\n• Interview\n•Oral questioning\n\n--- PDF PAGE 79 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n78\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Incomplete\nworksheet\n•Role playing\n• Demonstration\n• Enumerate procedures in\nusing farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Discuss safety procedures\nfor farm operation\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\n• Read manufacturer’s\nmanual\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Conduct pre-operation\ncheck-up\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n•Demonstration\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 80 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n79\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n•Hands-on\n• Report identified faults\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Operate farm equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Field visit\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n• Follow safety procedures\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n2.3 Perform\npreventive\nmaintenance\n• Enumerate cleaning\nprocedures for tools and\nequipment\n• Discussion\n• Power point\npresentation\n• Written\nexamination\n• Interview\n\n--- PDF PAGE 81 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n80\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Video presentation\n• Incomplete\nworksheet\n• Oral questioning\n• Demonstration\nDiscuss significance of\nroutine check-up and\nmaintenance\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\nExplain procedures in\nstoring tools and\nequipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Written\nexamination\n• Interview\n• Oral questioning\n\nClean tools and equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n• Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n--- PDF PAGE 82 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n81\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n\nPerform routine check –up\nand maintenance\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\nStore tools and equipment\n• Discussion\n• Power point\npresentation\n• Video presentation\n• Incomplete\nworksheet\n• Demonstration\n•Hands-on\n• Written\nexamination\n• Interview\n• Oral questioning\n• Demonstration\n\n3. Perform\nestimation and\nbasic\ncalculation\n3.1Perform\nestimation\n• Identify job requirements\nand work task/activity\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n9 hours\n\n• Identify materials and\nresources of job\nrequirements\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n\n• Estimate time to complete\nwork task/activity\n• Lecture\n• Discussion\n• Demonstration\n• Video presentation\n• Written exam\n• Oral questioning\n\n--- PDF PAGE 83 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n82\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n• Estimate quantities of\nmaterials and resources\n• Lecture\n• Discussion\n•Demonstration\n• Written exam\n• Oral questioning\n\n• Prepare and submit bill of\nmaterials\n• Lecture\n• Discussion\n• Demonstration\n• Written exam\n• Oral questioning\n• Demonstration\n\n3.2 Perform basic\nworkplace\ncalculation\n• Describe different types of\ncalculation\n• Lecture\n• Discussion\n• Written exam\n• Oral questioning\n\n• Discuss different methods\nof calculation\n• Lecture\n•Discussion\n• Written exam\n•Oral questioning\n\n• Describe system and unit\nof measurement\n• Lecture\n•Discussion\n• Written exam\n•Oral questioning\n\n• Compute quantity of\nfeeds, amount of fertilizer\nand amount of medicines\nusing methods of\ncalculation, system of\nmeasurement and units of\nmeasurement\n• Lecture\n• Discussion\n• Demonstration\n• Written exam\n• Oral questioning\n\n--- PDF PAGE 84 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n83\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n4.Process farm\nwastes\n4.1 Collect farm\nwastes\n\n• Identify tools and\nmaterials and its uses\n• Discuss types of wastes\n• Explain waste collection\nprocess\n• Discuss danger and\nhazard of waste collection\n• Discuss HAZMAT and\nOSHS\n• Explain proper wearing of\nPPEs\n• Collect farm wastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n18 hours\n\n4.2 Identify and\nsegregate\nwastes\n\n• Identify type of wastes\n• Discuss categories of\nwastes\n• Discuss segregation\nprocedures\n• Explain information on\ncorrect identification and\nlabelling of container\n• Discuss OSHS on waste\nsegregation\n•Segregate wastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 85 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n84\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n4.3 Treat and\nprocess farm\nwastes\n\n• Identify danger and\nhazards of wastes\n• Discuss procedures of\nprocessing of wastes\n• Explain 3Rs\n• Identify types of treatment\n• Discuss treatment\nprocedure\n• Discuss disposal of farm\nwastes\n• Discuss OSHS\n• Treat and process farm\nwastes\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n4.4 Perform\nhousekeeping\n\n• Identify warning signs and\nlabels\n• Discuss cleaning\nprocedures\n• Identify materials to be\nstored\n• Discuss storage\nprocedures\n• Explain record keeping\n• Discuss OSHS\n• Perform housekeeping\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Direct\nObservation\n• Practical\nDemonstration\n\n--- PDF PAGE 86 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n85\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nMethod\nNominal Duration\n5. Perform\nrecord\nkeeping\n5.1 Carry out\ninventory\nactivities\n\n• Discuss inventory\nprocedures\n• Discuss defects of tools\nand equipment\n• Explain inspection\nprocedures\n• Carry out inventory\nactivities\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n15 hours\n\n5.2 Maintain\nproduction\nrecord\n\n• Explain production plan\n• Discuss production plan\nactivities\n• Discuss production plan\nreport\n• Explain monitoring\nprocedures\n•Maintain production record\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n\n5.3 Prepare\nfinancial\nrecords\n\n• Discuss basic computation\n• Explain production cost\n• Discuss revenue\n• Prepare financial records\n• Self-\npaced/modular\n• Lecture/Discussion\n• Interaction\n• Practical\nDemonstration\n• Visit/tour\n• Oral/Written\nInterviews\n• Practical\nDemonstration\n\n--- PDF PAGE 87 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n86\n\nCORE COMPETENCIES\n68 hours\n\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n1. Conduct pre-\nmilking\nactivities\n1.1 Prepare\nmilking parlor\nand\nmachinery\n• Explain PPEs\n• Discuss GMP and OSHS\n• Describe personal hygiene\n• Identify different cleaning solution\n• Explain procedure in preparing\ncleaning solution with reference to\nMSDS\n• Enumerate cleaning and disinfection\nprocedures of milking parlor with\nreference to GMP\n• Describe parts of milking machine\n• Discuss cleaning and sanitation of\nmilking machine using CIP\n• Explain cleaning procedures on\nherringbone and bucket type milking\nmachine\n• Wear PPEs\n• Practice GMP and GMP\n• Employ personal hygiene\n• Compute for concentration of cleaning\nsolution\n• Prepare cleaning solution\n• Clean and disinfect milking parlor\n•Clean and sanitize milking machine\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n14 hours\n\n--- PDF PAGE 88 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n87\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n\n1.2 Prepare\ntools,\nutensils,\nmaterials\n• Explain PPEs\n• Discuss GMP and OSHS\n• Describe personal hygiene\n• Identify right cleaning solution\n• Explain procedure in preparing\ncleaning solution\n• Identify different materials, tools and\nutensils\n• Wear PPEs\n• Practice GMP and OSHS\n• Employ personal hygiene\n• Compute for concentration of cleaning\nsolution\n• Prepare cleaning solution\n• Prepare materials, tools and utensils\n• Clean and sanitize tools, utensils and\nequipment\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n8 hours\n\n1.3 Prepare\nanimal for\nmilking\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Discuss the Animal Welfare Act\n• Discuss SOP relating to cleaning\nanimal udders\n• Discuss SOP relating to foremilking\n• Describe personal hygiene\n• Explain workplace procedure\n• Enumerate the guidelines in\npositioning the animal for milking\n• Identify animals for milking & mastitic\nanimals\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Lecture\n• Hands on\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n11 hours\n\n--- PDF PAGE 89 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n88\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Explain mastitis testing\n• Discuss the procedure in teats dipping\nand drying\n• Wear PPEs\n• Practice GMP and GAHP\n• Employ personal hygiene\n• Perform mastitis testing\n• Perform foremilking\n• Perform teats dipping\n• Handle animals according to Animal\nWelfare Act\n• Apply the guidelines in positioning the\nanimal for milking\n• Clean animal udders\n• Identify and separate animals infected\nwith mastitis\n2. Perform\nmilking\noperation\n2.1 Operate\nmilking\nmachine\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Explain procedure in operating milking\nmachine\n• Explain procedure in milking operation\n• Wear PPEs\n• Practice GMP and GAHP\n• Employ personal hygiene\n• Perform in milking operation\n• Perform in teat dipping and spraying\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n5 hours\n\n--- PDF PAGE 90 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n89\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n\n2.2 Monitor\nmilking\noperation\n• Explain PPEs\n• Discuss GMP and OSHS\n• Explain in teat dipping and spraying\n• Explain procedure in monitoring\nmilking machine\n• Describe the milk quality\n• Identify the milk performance\n• Explain milk recording\n• Identify animals with good health\ncondition\n• Wear PPEs\n• Practice GMP\n• Performing mathematical operation\n•Perform in milking operation\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n6 hours\n\n2.3 Perform simple\ntroubleshooting\nand repair\n• Explain PPEs\n• Discuss GMP and OSHS\n• Explain procedure in monitoring\nmilking machine\n• Identify the parts of malfunction\nmilking machine\n• Perform simple troubleshooting &\nrepair\n• Report malfunction milking machines\n• Interpersonal skills\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n3 hours\n3. Carry-out\npost-milking\noperation\n3.1 Shut down\nmilking parlor\n• Explain PPEs\n• Discuss GMP, GAHP and OSHS\n• Explain in teat dipping and spraying\n• Explain Animal Welfare Act\n•Explain MSDS\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n7.5 hours\n\n--- PDF PAGE 91 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n90\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Describe personal hygiene\n• Identify right cleaning solution\n• Explain procedure in preparing\ncleaning and disinfectant solution\n• Discuss CIP\n• Performing post-dipping and spraying\n• Releasing animals\n• Preparing teat disinfectant\n• Cleaning and disinfecting of milking\nmachine\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Demonstration\n\n3.2 Clean and\nstore tools,\nutensils,\nmaterials and\nequipment\n• Discuss and explain the different\ncleaning and sanitizing solutions\n• Discuss GMP relating to cleaning and\nsanitation\n• Lecture\n• Hands on\n• Video ppt\n• Discussion\n• Written\nexamination\n• Demonstration\n• Oral\nquestioning\n1.5 hours\n\n3.3 Complete\npost-milking\noperations\n• Explain HACCP and GMP\n• Describe personal hygiene\n• Explain OSHS\n• Explain MSDS\n• Computing of total milk production\n• Discuss workplace procedure\n• Explain manual on milking operation\n• Explain EMS standard\n• Explain procedure in preparing\ncleaning solution\n• Discuss accomplishing of milk form\n• Preparation of report using Log book\n• Wear PPEs\n•Practice GMP\n• Discussion\n• Power point\npresentation\n• Video\npresentation\n• Incomplete\nworksheet\n• Demonstration\n• Field visit\n• Written\nexamination\n• Interview\n• Oral\nquestioning\n• Demonstration\n12 hours\n\n--- PDF PAGE 92 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n91\nUnit of\nCompetency\nLearning\nOutcomes\nLearning Activities\nMethodology\nAssessment\nApproach\nNominal\nDuration\n• Employ personal hygiene\n• Cleaning and sanitizing tools and\nutensils\n• Storing and inventorying of tools,\nutensils and materials\n• Managing of wastes\n• Practice EMS\n•Practice 7S of Good Housekeeping\n\n--- PDF PAGE 93 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n92\n3.2\nTRAINING DELIVERY\n\nThe delivery of training shall adhere to the design of the curriculum. Delivery\nshall be guided by the principles of competency-based TVET.\n\na. Course design is based on competency standards set by the industry or\nrecognized industry sector; (Learning system is driven by competencies\nwritten to industry standards)\n\nb. Training delivery is learner-centered and should accommodate\nindividualized and self-paced learning strategies;\n\nc. Training can be done on an actual workplace setting, simulation of a\nworkplace and/or through adoption of modern technology (Video\nConferencing, Webinar, etc).\n\nd. Assessment is based in the collection of evidence of the performance of\nwork to the industry required standards;\n\ne. Assessment of competency takes the trainee’s knowledge and attitude\ninto account but requires evidence of actual performance of the\ncompetency as the primary source of evidence.\n\nf. Training program allows for recognition of prior learning (RPL) or current\ncompetencies;\n\ng. Training completion is based on satisfactory performance of all specified\ncompetencies.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on-and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities and their\nvariations/components may be adopted singly or in combination with other modalities\nwhen designing and delivering training programs:\n\nInstitution- Based:\n\n• Dual Training System (DTS) / Dualized Training Program (DTP) which\ncontain both in-school and in-industry training or fieldwork components.\nDetails can be referred to the Implementing Rules and regulations of the\nDTS Law and the TESDA Guidelines on the DTP:\n\nEnterprise-Based:\n\nEnterprise-based training may also be taken to mean a school or training center\nwith one or more partner enterprise or an enterprise or group of enterprises\nsetting up a common training facility or partnering with a school or training\ncenter.\n\n--- PDF PAGE 94 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n93\n• Enterprise-based Training - where training is implemented within the\ncompany in accordance with the requirements of the specific company.\n\n• Apprenticeship – Training within employment involving a contract between\nan apprentice and an enterprise on an approved apprenticeable occupation.\n\nCommunity-Based –refers to a short program conducted or coordinated by\nNGOs, LGUs, training centers and other TVET providers which are intended to\naddress the specific needs of a community. Such programs are usually\nconducted in informal settings such as barangay hall, basketball courts and\nother available venues in a community.\n\n--- PDF PAGE 95 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n94\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students who want to enroll in this course should possess\nthe following requirements:\n\n• Able to read and write;\n• Able to communicate, both orally and in writing; and\n• Basic mathematical skills\n• No active pulmonary tuberculosis as certified by local physician\n\n3.4\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\n MILKING OPERATION NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Milking Operation NC II\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\n\nQTY\n\nQTY.\n\n5 pcs\nMilk can\n(40 liters)\n2\nunits\nMilking machine\n(Bucket type)\n10 pcs\nCheesecloth\n5 pcs\nMilk can\n(20 liters)\n1 unit\n*Milking machine\n(Herringbone type)\n5 pcs\nFace towel\n5 pcs\nMilk can\n(10 liters)\n1 unit\nWeighing Scale\n5 rolls\nPaper towel\n5 pcs\nBucket (10 L)\n1 unit\nChilling tank\n2 L\nChlorine\n5 pcs\nMilking stool\n1 unit\nlaptop\n5 pcs\nScouring Pads\n5 pcs\nTeat dipper\n1 unit\nAudio-visual\nsystem\n5 pcs\nPush Brush\n5 units\ncalculator\n1 unit\nWashing machine\nwith dryer\n2 L\nMild liquid detergent\n5 units\nThermometer\n\n1 L\nTeat dip solution\n(iodine-10%)\n5 pcs\nHands spray\n\n2 L\nNitric Acid\n5 pcs\n“Teat dipper”\n\n5 pcs\nMastitis test kit\n\n25\nLogbook\n\n25\nBallpen\n5 sets\nMeasuring cup\n\n2 L\nSodium hypochlorite\n(chlorox)\n5 pcs\nStrip cup\n\n2 L\nPhosphoric acid\n\n500 g\nCaustic soda\n\n25 (or 50) for\nreplacement\nMIlkers Training\nClothes (cover all)\n\n25 pairs\nRubber Boots\n\n25 pcs\nHead Cap\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n--- PDF PAGE 96 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n95\n3.5\nTRAINING FACILITIES\n\nMILKING MACHINERY OPERATION NC II\n\nBased on a class size of 25 students/trainees\n\nSPACE REQUIREMENT\nSIZE IN\nMETERS\nAREA IN\nSQ.\nMETERS\nTOTAL\nAREA IN\nSQ.\nMETERS\nGRAND TOTAL\nAREA IN SQ.\nMETERS\nA. Building (permanent)\n215.00\n• Student/Trainee\nWorking Space\n2.00 x 1.00 per\nstudent/trainee\n2.00 per\nstudent\n50.00\n\n• Comfort room\n\n12.00\n\n• Learning Resource\nCenter\n2x1\n2\n50\n\nB. Milking Parlor and\nfacilities\n Store room\n CR and shower\nroom\n Locker room\n Laundry room\n Milking area\n Waiting area\n\n3.00 x 4.00\n\n4.00 x 4.00\n3.00 x 4.00\n3.00 x 4.00\n10.00 x 7.00\n\n12.00\n\n16.00\n12.00\n12.00\n70.00\n\n2,550.00\n\nNOTE: Access to and use of equipment /facilities can be provided through cooperative\narrangements or MOA with other partner-farms/companies.\n\n3.6 TRAINER’S QUALIFICATIONS FOR AGRICULTURE, FORESTRY AND\nFISHERY SECTOR\n\nTrainers who will deliver the training on MILKING OPERATION NC II should\nhave the following:\n\n• Must be a holder of National TVET Trainer Certificate in Milking Operation\nNC II or preferably graduate of Animal Science and related areas or\ngraduate of Agricultural Engineering/Agricultural Biosystems Engineering\nwith TM I\n• Must have two (2) years industry experience for the last five (5) years\n\n--- PDF PAGE 97 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n96\n3.7\nINSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\nachievement of units of competency . A certificate of achievement is issued for each\nunit of competency.\n\n--- PDF PAGE 98 ---\nTR-Milking Operation NCII Promulgated February 3, 2017\n\n97"
 }

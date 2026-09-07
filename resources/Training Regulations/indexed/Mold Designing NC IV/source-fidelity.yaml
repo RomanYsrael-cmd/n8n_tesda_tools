@@ -1,29 +1,248 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:mold-designing-nc-iv:17fcf333f3",
   "qualification": "MOLD DESIGNING NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Mold Designing NC IV.pdf",
-    "sha256": "17fcf333f392539fc4c20d7cde0d2042aef0eacfbb6a53db41fd84c12b32f270",
+    "source_sha256": "17fcf333f392539fc4c20d7cde0d2042aef0eacfbb6a53db41fd84c12b32f270",
+    "pdf_pages": 144,
+    "printed_pages": 140,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation, Revision 00, promulgated 05/21/2019; the final acknowledgement page carries printed page 140.",
+    "Section 1 prints 'Utilized specialized communication skills' for 500311401 while the competency header prints 'Utilize specialized communication skills'; the canonical title follows the competency header and source_text preserves both forms.",
+    "Section 1 presents common competencies before basic and core competencies; the canonical package groups units as basic, common, and core for deterministic retrieval.",
+    "The source prints 47 Basic, 120 Common, and 232 Core hours for a 399-hour total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation, Revision 00, promulgated 05/21/2019; the final acknowledgement page carries printed page 140."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints 'Utilized specialized communication skills' for 500311401 while the competency header prints 'Utilize specialized communication skills'; the canonical title follows the competency header and source_text preserves both forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 presents common competencies before basic and core competencies; the canonical package groups units as basic, common, and core for deterministic retrieval."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 47 Basic, 120 Common, and 232 Core hours for a 399-hour total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Mold Designing NC IV.pdf",
-    "pdf_pages": 144,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311401",
+      "source_unit_code": "500311401",
+      "pdf_page_range": [
+        6,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311402",
+      "source_unit_code": "500311402",
+      "pdf_page_range": [
+        12,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311403",
+      "source_unit_code": "500311403",
+      "pdf_page_range": [
+        18,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311404",
+      "source_unit_code": "500311404",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "500311405",
+      "source_unit_code": "500311405",
+      "pdf_page_range": [
+        27,
+        30
+      ]
+    },
+    {
+      "unit_code": "500311406",
+      "source_unit_code": "500311406",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "500311407",
+      "source_unit_code": "500311407",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "500311408",
+      "source_unit_code": "500311408",
+      "pdf_page_range": [
+        39,
+        42
+      ]
+    },
+    {
+      "unit_code": "500311409",
+      "source_unit_code": "500311409",
+      "pdf_page_range": [
+        43,
+        46
+      ]
+    },
+    {
+      "unit_code": "MEE722201",
+      "source_unit_code": "MEE722201",
+      "pdf_page_range": [
+        47,
+        50
+      ]
+    },
+    {
+      "unit_code": "MEE722202",
+      "source_unit_code": "MEE722202",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "MEE722203",
+      "source_unit_code": "MEE722203",
+      "pdf_page_range": [
+        54,
+        57
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        58,
+        59
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        60,
+        61
+      ]
+    },
+    {
+      "unit_code": "MEE722206",
+      "source_unit_code": "MEE722206",
+      "pdf_page_range": [
+        62,
+        64
+      ]
+    },
+    {
+      "unit_code": "MEE722207",
+      "source_unit_code": "MEE722207",
+      "pdf_page_range": [
+        65,
+        66
+      ]
+    },
+    {
+      "unit_code": "MEE722208",
+      "source_unit_code": "MEE722208",
+      "pdf_page_range": [
+        67,
+        68
+      ]
+    },
+    {
+      "unit_code": "MEE722210",
+      "source_unit_code": "MEE722210",
+      "pdf_page_range": [
+        69,
+        71
+      ]
+    },
+    {
+      "unit_code": "MEE722211",
+      "source_unit_code": "MEE722211",
+      "pdf_page_range": [
+        72,
+        74
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        75,
+        80
+      ]
+    },
+    {
+      "unit_code": "MEE722326",
+      "source_unit_code": "MEE722326",
+      "pdf_page_range": [
+        81,
+        84
+      ]
+    },
+    {
+      "unit_code": "MEE722327",
+      "source_unit_code": "MEE722327",
+      "pdf_page_range": [
+        85,
+        88
+      ]
+    },
+    {
+      "unit_code": "MEE722328",
+      "source_unit_code": "MEE722328",
+      "pdf_page_range": [
+        89,
+        92
+      ]
+    },
+    {
+      "unit_code": "MEE722329",
+      "source_unit_code": "MEE722329",
+      "pdf_page_range": [
+        93,
+        96
+      ]
+    },
+    {
+      "unit_code": "MEE722330",
+      "source_unit_code": "MEE722330",
+      "pdf_page_range": [
+        97,
+        101
+      ]
+    }
+  ]
 }
