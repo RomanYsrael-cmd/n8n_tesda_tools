@@ -4,53 +4,46 @@
   "document_id": "tesda:tr:sanitary-landfill-operations-nc-ii:7394322e90",
   "qualification": "SANITARY LANDFILL OPERATIONS NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "TRS311201",
-        "title": ":"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "UTL541301",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311107",
-        "title": ": This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ": This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "TRS311204",
-        "title": ": This unit of competency deals with the knowledge, skills and"
-      },
-      {
-        "unit_code": "UTL532201",
-        "title": ": This unit of competency deals with the knowledge, skills and"
-      },
-      {
-        "unit_code": "UTL541302",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP 67",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "TRS311201",
+        "TRS311204",
+        "UTL532201"
+      ],
+      "unit_titles": [
+        "Develop and update industry knowledge",
+        "Perform workplace security and safety practices",
+        "Maintain environmental health and awareness in the workplace"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "UTL541301",
+        "UTL541302"
+      ],
+      "unit_titles": [
+        "Direct dumping/disposal of in-coming waste in the active cell",
+        "Perform post-dumping activities"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1\nSANITARY LANDFILL OPERATIONS NC II QUALIFICATION\n\nThe SANITARY LANDFILL OPERATIONS NC II Qualification consists of\ncompetencies that a person must achieve to direct dumping/disposal of in-coming\nwaste in the active cell and perform post-dumping activities.\n\nThe Units of Competency comprising this Qualification include the following:\n\nUNIT CODE\nBASIC COMPETENCIES\n500311105\nParticipate in workplace communication\n500311106\nWork in team environment\n500311107\nPractice career professionalism\n500311108\nPractice occupational health and safety procedures\n\nUNIT CODE\nCOMMON COMPETENCIES\nTRS311201 Develop and update industry knowledge\nTRS311204 Perform workplace security and safety practices\nUTL532201 Maintain environmental health and awareness in the workplace\n\nUNIT CODE\nUTL541301\nCORE COMPETENCIES\n Direct dumping/disposal of in-coming waste in the active cell\nUTL541302\nPerform post-dumping activities\n\nA person who has achieved this Qualification is competent to be:\n\n Sanitary Landfill Facility (SLF) Spotter\n\n--- PDF PAGE 6 ---\nTESDA-SOP-QSO-01-F08\n\nTR- SANITARY LANDFILL OPERATIONS NC II (NEW) Promulgated Dec. 16, 2015 -2-"
 }

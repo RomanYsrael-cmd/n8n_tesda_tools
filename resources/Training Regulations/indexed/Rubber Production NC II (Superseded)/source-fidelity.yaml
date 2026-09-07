@@ -1,29 +1,141 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:rubber-production-nc-ii:d49fec8259",
-  "qualification": "RUBBER PRODUCTION NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:rubber-production-nc-ii-superseded:d49fec8259",
+  "qualification": "RUBBER PRODUCTION NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Rubber Production NC II (Superseded).pdf",
-    "sha256": "d49fec8259a6b43b61229fb475f505cd5e83c029893ee0f1ba5ec197a9352334",
+    "authority": "TESDA",
+    "source_file": "Rubber Production NC II (Superseded).pdf",
+    "source_sha256": "d49fec8259a6b43b61229fb475f505cd5e83c029893ee0f1ba5ec197a9352334",
+    "pdf_pages": 56,
+    "printed_pages": 54,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained.",
+    "The source is a historical two-column regulation with no visible Promulgated date; the canonical promulgated field remains null.",
+    "Section 1 lists 4 Basic, 3 Common, and 4 Core units for Rubber Production NC II, covering budwood/seedlings nursery, planting rubber trees or seedlings, budding operation, and latex harvesting.",
+    "The source prints 18 Basic, 14 Common, 290 Core, and 80 SIT/OJT hours but gives a 322-hour total that excludes the separate 80-hour SIT/OJT line; the canonical duration preserves the printed total and documents the arithmetic mismatch.",
+    "The source uses legacy rubber production terminology and source spellings such as 'collection latex' and 'routinary'; source_text preserves the historical wording."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation with no visible Promulgated date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 4 Basic, 3 Common, and 4 Core units for Rubber Production NC II, covering budwood/seedlings nursery, planting rubber trees or seedlings, budding operation, and latex harvesting."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 14 Common, 290 Core, and 80 SIT/OJT hours but gives a 322-hour total that excludes the separate 80-hour SIT/OJT line; the canonical duration preserves the printed total and documents the arithmetic mismatch."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses legacy rubber production terminology and source spellings such as 'collection latex' and 'routinary'; source_text preserves the historical wording."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Rubber Production NC II (Superseded).pdf",
-    "pdf_pages": 56,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "AGR321201",
+      "source_unit_code": "AGR321201",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "AGR321202",
+      "source_unit_code": "AGR321202",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "AGR321203",
+      "source_unit_code": "AGR321203",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "AGR612201",
+      "source_unit_code": "AGR612201",
+      "pdf_page_range": [
+        25,
+        30
+      ]
+    },
+    {
+      "unit_code": "AGR612202",
+      "source_unit_code": "AGR612202",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "AGR612203",
+      "source_unit_code": "AGR612203",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "AGR612204",
+      "source_unit_code": "AGR612204",
+      "pdf_page_range": [
+        39,
+        43
+      ]
+    }
+  ]
 }

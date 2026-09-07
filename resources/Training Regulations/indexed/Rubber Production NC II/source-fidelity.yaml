@@ -1,29 +1,184 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:rubber-production-nc-ii:7fcae6ec69",
   "qualification": "RUBBER PRODUCTION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Rubber Production NC II.pdf",
-    "sha256": "7fcae6ec6972d6399086e412d6ea65a6691bf020e757447711a20bd64086bb9d",
+    "source_sha256": "7fcae6ec6972d6399086e412d6ea65a6691bf020e757447711a20bd64086bb9d",
+    "pdf_pages": 140,
+    "printed_pages": 135,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation marked Revision 01 and Promulgated (02/09/2021); the canonical date field preserves the printed date literal.",
+    "Section 1 lists 9 Basic, 3 Common, and 5 Core units for Rubber Production NC II, with the occupational outcomes Plant propagator, Nursery caretaker, Nursery operator, Budder, Tapper, Rubber farmer, and Rubber farm worker.",
+    "The source prints 37 Basic, 72 Common, and 212 Core hours for a 321-hour total. It states that the applicable modality includes institution-, enterprise-, and community-based delivery, with at least 40 hours dedicated to actual workplace learning/industry training, but does not add a separate SIT/OJT line to the nominal total.",
+    "The amended source uses the AFF611314-AFF611318 core code series and preserves agriculture/forestry/rubber terminology, including the source's 'must be achieve' grammar and glossary definitions."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation marked Revision 01 and Promulgated (02/09/2021); the canonical date field preserves the printed date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 9 Basic, 3 Common, and 5 Core units for Rubber Production NC II, with the occupational outcomes Plant propagator, Nursery caretaker, Nursery operator, Budder, Tapper, Rubber farmer, and Rubber farm worker."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 72 Common, and 212 Core hours for a 321-hour total. It states that the applicable modality includes institution-, enterprise-, and community-based delivery, with at least 40 hours dedicated to actual workplace learning/industry training, but does not add a separate SIT/OJT line to the nominal total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The amended source uses the AFF611314-AFF611318 core code series and preserves agriculture/forestry/rubber terminology, including the source's 'must be achieve' grammar and glossary definitions."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Rubber Production NC II.pdf",
-    "pdf_pages": 140,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "AGR321201",
+      "source_unit_code": "AGR321201",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "AGR321202",
+      "source_unit_code": "AGR321202",
+      "pdf_page_range": [
+        46,
+        48
+      ]
+    },
+    {
+      "unit_code": "AGR321203",
+      "source_unit_code": "AGR321203",
+      "pdf_page_range": [
+        49,
+        51
+      ]
+    },
+    {
+      "unit_code": "AFF611314",
+      "source_unit_code": "AFF611314",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "AFF611315",
+      "source_unit_code": "AFF611315",
+      "pdf_page_range": [
+        57,
+        63
+      ]
+    },
+    {
+      "unit_code": "AFF611316",
+      "source_unit_code": "AFF611316",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "AFF611317",
+      "source_unit_code": "AFF611317",
+      "pdf_page_range": [
+        69,
+        77
+      ]
+    },
+    {
+      "unit_code": "AFF611318",
+      "source_unit_code": "AFF611318",
+      "pdf_page_range": [
+        78,
+        83
+      ]
+    }
+  ]
 }
