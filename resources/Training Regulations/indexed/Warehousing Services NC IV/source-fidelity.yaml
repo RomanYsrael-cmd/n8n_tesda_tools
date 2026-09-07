@@ -1,29 +1,208 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:warehousing-services-nc-iv:47c3d34d51",
   "qualification": "WAREHOUSING SERVICES NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Warehousing Services NC IV.pdf",
-    "sha256": "47c3d34d5160a21a5693e5f8171fe20ba0b0974c28bfc1bd246e31d9bcdeccb6",
+    "source_sha256": "47c3d34d5160a21a5693e5f8171fe20ba0b0974c28bfc1bd246e31d9bcdeccb6",
+    "pdf_pages": 128,
+    "printed_pages": 126,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation promulgated (12/17/2019); the canonical date field preserves the source date literal.",
+    "Section 1 lists LOG493201 and LOG493202 for the first two common competencies, while the Section 2 headers print LOG432201 and LOG432202; the canonical inventory follows Section 1 and the source header codes are retained in provenance.",
+    "Section 3 prints 47 Basic, 82 Common, and 168 Core hours, labels 297 hours as Total, and separately prints 240 hours SIL; the canonical record preserves the printed 297-hour total and the separate SIL component, documenting the resulting 537-hour arithmetic sum as a source-duration mismatch.",
+    "The source reuses the Warehousing NC III common-unit series and preserves source title, capitalization, and terminology variants in the page-preserved layer."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation promulgated (12/17/2019); the canonical date field preserves the source date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists LOG493201 and LOG493202 for the first two common competencies, while the Section 2 headers print LOG432201 and LOG432202; the canonical inventory follows Section 1 and the source header codes are retained in provenance."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 47 Basic, 82 Common, and 168 Core hours, labels 297 hours as Total, and separately prints 240 hours SIL; the canonical record preserves the printed 297-hour total and the separate SIL component, documenting the resulting 537-hour arithmetic sum as a source-duration mismatch."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source reuses the Warehousing NC III common-unit series and preserves source title, capitalization, and terminology variants in the page-preserved layer."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Warehousing Services NC IV.pdf",
-    "pdf_pages": 128,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311401",
+      "source_unit_code": "500311401",
+      "pdf_page_range": [
+        5,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311402",
+      "source_unit_code": "500311402",
+      "pdf_page_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311403",
+      "source_unit_code": "500311403",
+      "pdf_page_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311404",
+      "source_unit_code": "500311404",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311405",
+      "source_unit_code": "500311405",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "500311406",
+      "source_unit_code": "500311406",
+      "pdf_page_range": [
+        27,
+        30
+      ]
+    },
+    {
+      "unit_code": "500311407",
+      "source_unit_code": "500311407",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "500311408",
+      "source_unit_code": "500311408",
+      "pdf_page_range": [
+        35,
+        38
+      ]
+    },
+    {
+      "unit_code": "500311409",
+      "source_unit_code": "500311409",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "LOG493201",
+      "source_unit_code": "LOG432201",
+      "pdf_page_range": [
+        42,
+        45
+      ]
+    },
+    {
+      "unit_code": "LOG493202",
+      "source_unit_code": "LOG432202",
+      "pdf_page_range": [
+        46,
+        48
+      ]
+    },
+    {
+      "unit_code": "LOG493203",
+      "source_unit_code": "LOG493203",
+      "pdf_page_range": [
+        49,
+        52
+      ]
+    },
+    {
+      "unit_code": "LOG493204",
+      "source_unit_code": "LOG493204",
+      "pdf_page_range": [
+        53,
+        54
+      ]
+    },
+    {
+      "unit_code": "LOG493205",
+      "source_unit_code": "LOG493205",
+      "pdf_page_range": [
+        55,
+        56
+      ]
+    },
+    {
+      "unit_code": "LOG493206",
+      "source_unit_code": "LOG493206",
+      "pdf_page_range": [
+        57,
+        58
+      ]
+    },
+    {
+      "unit_code": "LOG493207",
+      "source_unit_code": "LOG493207",
+      "pdf_page_range": [
+        59,
+        60
+      ]
+    },
+    {
+      "unit_code": "LOG333312",
+      "source_unit_code": "LOG333312",
+      "pdf_page_range": [
+        61,
+        65
+      ]
+    },
+    {
+      "unit_code": "LOG333313",
+      "source_unit_code": "LOG333313",
+      "pdf_page_range": [
+        66,
+        69
+      ]
+    },
+    {
+      "unit_code": "LOG333314",
+      "source_unit_code": "LOG333314",
+      "pdf_page_range": [
+        70,
+        72
+      ]
+    },
+    {
+      "unit_code": "LOG333315",
+      "source_unit_code": "LOG333315",
+      "pdf_page_range": [
+        73,
+        75
+      ]
+    }
+  ]
 }
