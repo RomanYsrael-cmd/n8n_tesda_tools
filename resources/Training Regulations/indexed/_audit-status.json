@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T12:21:33+08:00",
+  "last_updated": "2026-09-07T12:42:36+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 335,
-  "remaining_unaudited": 49,
+  "audited_count": 340,
+  "remaining_unaudited": 44,
   "blocked_count": 0,
   "documents": [
     {
@@ -4363,6 +4363,71 @@
       "validation_passed": true,
       "last_audit_commit": "2b5a9f089980f63c9a9e7b8f916161a64b4087db",
       "audit_notes": "Rebuilt 4/4/3 historical two-column groups; restored 38 curriculum rows, 4 assessment arrangements, and 2 glossary entries, normalized the Heavy Equipment Operation - Rigging NC I source title to the Rigging NC I package label, mapped generic curriculum basic labels by source order, restored the Maintain tools and equipment curriculum rows, preserved the truncated 50031103 source code and legacy 4.1/5.1 and missing 2.6 numbering, and retained the 18/18/80-hour components with 116-hour total; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Rubber Processing NC II",
+      "package_path": "resources/Training Regulations/indexed/Rubber Processing NC II",
+      "source_file": "resources/Training Regulations/Rubber Processing NC II.pdf",
+      "source_sha256": "2ff7dcac167ff5033370b8deae1abe6ab203f5867aff63ca8a07582b4971c9a8",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:42:36+08:00",
+      "issues_found": 8,
+      "issues_fixed": 8,
+      "validation_passed": true,
+      "last_audit_commit": "02c92e01a6621f3f5c4f2643dc85d0c7b05496ef",
+      "audit_notes": "Rebuilt 4/3/3 historical two-column groups; restored 27 curriculum rows, 7 assessment arrangements, and 6 glossary entries, preserved the undated Promulgated context and 18/14/90/40 OJT-hour components with 162-hour total, retained the Latex receiver and Machine Operator outcomes, preserved the Perform estimation and calculations versus Perform estimation and basic calculation title variant, and retained rubber-processing terminology and OSHC/DOLE exposure-control wording; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Rubber Production NC II",
+      "package_path": "resources/Training Regulations/indexed/Rubber Production NC II",
+      "source_file": "resources/Training Regulations/Rubber Production NC II.pdf",
+      "source_sha256": "7fcae6ec6972d6399086e412d6ea65a6691bf020e757447711a20bd64086bb9d",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:42:36+08:00",
+      "issues_found": 6,
+      "issues_fixed": 6,
+      "validation_passed": true,
+      "last_audit_commit": "02c92e01a6621f3f5c4f2643dc85d0c7b05496ef",
+      "audit_notes": "Rebuilt 9/3/5 revised four-column groups; restored 84 curriculum rows, 2 assessment arrangements, and 35 glossary entries, preserved Revision 01 and Promulgated (02/09/2021), retained the 37/72/212-hour components with 321-hour total and the source statement requiring at least 40 hours of workplace learning/industry training, and preserved the AFF611314-AFF611318 rubber-production competency series and source terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Rubber Production NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Rubber Production NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Rubber Production NC II (Superseded).pdf",
+      "source_sha256": "d49fec8259a6b43b61229fb475f505cd5e83c029893ee0f1ba5ec197a9352334",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:42:36+08:00",
+      "issues_found": 8,
+      "issues_fixed": 8,
+      "validation_passed": true,
+      "last_audit_commit": "02c92e01a6621f3f5c4f2643dc85d0c7b05496ef",
+      "audit_notes": "Rebuilt 4/3/4 historical two-column groups; restored 37 curriculum rows, 7 assessment arrangements, and 9 glossary entries, retained the superseded lifecycle status, preserved the undated Promulgated context and 18/14/290/80 SIT-OJT-hour components with the source's 322-hour total, excluded Section 4 numbering and page-measurement bleed from curriculum rows, and retained legacy rubber-production terminology and source spellings; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Sanitary Landfill Operations NC II",
+      "package_path": "resources/Training Regulations/indexed/Sanitary Landfill Operations NC II",
+      "source_file": "resources/Training Regulations/Sanitary Landfill Operations NC II.pdf",
+      "source_sha256": "7394322e90350484a22535b1e37caf95f91f202e5a3e8f0d5c50ae7cd46bfa78",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:42:36+08:00",
+      "issues_found": 7,
+      "issues_fixed": 7,
+      "validation_passed": true,
+      "last_audit_commit": "02c92e01a6621f3f5c4f2643dc85d0c7b05496ef",
+      "audit_notes": "Rebuilt 4/3/2 revised four-column groups; restored 25 curriculum rows, 2 assessment arrangements, and 3 glossary entries, preserved the '(NEW)' and Promulgated Dec. 16, 2015 context and 18/44/40-hour components with 102-hour total, repaired the page-count-specific four-column parser classification, recognized DEFINITION OF COMMON TERMS for glossary extraction, and retained landfill, leachate, waste-manifest, environmental, and RA 9003/RA 6969/RA 9275/RA 8749 terminology and source spelling variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Sanitary Landfill Operations NC III",
+      "package_path": "resources/Training Regulations/indexed/Sanitary Landfill Operations NC III",
+      "source_file": "resources/Training Regulations/Sanitary Landfill Operations NC III.pdf",
+      "source_sha256": "572f38daf45852e92cd3416d3cf83e4005536dee4c629cf545448c7363365d6c",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:42:36+08:00",
+      "issues_found": 5,
+      "issues_fixed": 5,
+      "validation_passed": true,
+      "last_audit_commit": "02c92e01a6621f3f5c4f2643dc85d0c7b05496ef",
+      "audit_notes": "Rebuilt 6/3/2 amended four-column groups; restored 91 curriculum rows, 2 assessment arrangements, and 43 glossary entries, preserved the '(Amended)' and Promulgated June 16, 2015 context and 28/16/116-hour components with 160-hour total, retained the Sanitary Landfill Facility (SLF) Site Foreman outcome, and preserved landfill-supervision, closed-facility, environmental-management, and source spelling terminology; structural validation and visual boundary QA passed."
     }
   ]
 }
