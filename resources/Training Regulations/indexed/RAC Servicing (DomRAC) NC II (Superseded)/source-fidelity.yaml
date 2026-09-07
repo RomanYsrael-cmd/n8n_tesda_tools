@@ -1,29 +1,176 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:rac-servicing-domrac-nc-ii:583bdcfc22",
-  "qualification": "RAC SERVICING (DomRAC) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:rac-servicing-domrac-nc-ii-superseded:583bdcfc22",
+  "qualification": "RAC SERVICING (DOMRAC) NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/RAC Servicing (DomRAC) NC II (Superseded).pdf",
-    "sha256": "583bdcfc22356a1387b52dc77137b71e81a98def108ebf858f1d8b06265263e3",
+    "authority": "TESDA",
+    "source_file": "RAC Servicing (DomRAC) NC II (Superseded).pdf",
+    "source_sha256": "583bdcfc22356a1387b52dc77137b71e81a98def108ebf858f1d8b06265263e3",
+    "pdf_pages": 82,
+    "printed_pages": 80,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a superseded historical two-column regulation revised October 2011; no promulgation date is printed and the lifecycle is preserved as superseded.",
+    "Section 1 lists 4 Basic, 9 Common, and 3 Core units with the occupational outcome Domestic Refrigeration and Air-conditioning Technician.",
+    "The source describes 180 hours in-school plus 240 hours supervised-industry training within the 420-hour Core component; the canonical duration follows the printed 18/42/420 component table and 480-hour total without double-counting the breakdown.",
+    "Section 1 uses HVC311204 for Maintain tools and HVC315201 for housekeeping, while competency headers repeat HVC311205 and print HVC7315201; source_unit_code preserves the header sequence."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a superseded historical two-column regulation revised October 2011; no promulgation date is printed and the lifecycle is preserved as superseded."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 4 Basic, 9 Common, and 3 Core units with the occupational outcome Domestic Refrigeration and Air-conditioning Technician."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source describes 180 hours in-school plus 240 hours supervised-industry training within the 420-hour Core component; the canonical duration follows the printed 18/42/420 component table and 480-hour total without double-counting the breakdown."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 uses HVC311204 for Maintain tools and HVC315201 for housekeeping, while competency headers repeat HVC311205 and print HVC7315201; source_unit_code preserves the header sequence."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/RAC Servicing (DomRAC) NC II (Superseded).pdf",
-    "pdf_pages": 82,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        14,
+        18
+      ]
+    },
+    {
+      "unit_code": "HVC713201",
+      "source_unit_code": "HVC713201",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "HVC311202",
+      "source_unit_code": "HVC311202",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "HVC311201",
+      "source_unit_code": "HVC311201",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "HVC311203",
+      "source_unit_code": "HVC311203",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "HVC713202",
+      "source_unit_code": "HVC713202",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "HVC724201",
+      "source_unit_code": "HVC724201",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "HVC311204",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    },
+    {
+      "unit_code": "HVC315201",
+      "source_unit_code": "HVC7315201",
+      "pdf_page_range": [
+        43,
+        48
+      ]
+    },
+    {
+      "unit_code": "HVC311205",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        49,
+        51
+      ]
+    },
+    {
+      "unit_code": "HVC723337",
+      "source_unit_code": "HVC723337",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "HVC723338",
+      "source_unit_code": "HVC723338",
+      "pdf_page_range": [
+        57,
+        60
+      ]
+    },
+    {
+      "unit_code": "HVC723339",
+      "source_unit_code": "HVC723339",
+      "pdf_page_range": [
+        61,
+        65
+      ]
+    }
+  ]
 }

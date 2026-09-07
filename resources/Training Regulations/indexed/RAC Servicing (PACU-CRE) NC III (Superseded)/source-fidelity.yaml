@@ -1,29 +1,237 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:rac-servicing-pacu-cre-nc-iii:02b9ef35aa",
-  "qualification": "RAC SERVICING (PACU/CRE) NC III",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:rac-servicing-pacu-cre-nc-iii-superseded:02b9ef35aa",
+  "qualification": "RAC SERVICING (PACU-CRE) NC III (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/RAC Servicing (PACU-CRE) NC III (Superseded).pdf",
-    "sha256": "02b9ef35aaaf23055d079b697a20a00b04955338ba88cac2d2caa6fe8f9632e9",
+    "authority": "TESDA",
+    "source_file": "RAC Servicing (PACU-CRE) NC III (Superseded).pdf",
+    "source_sha256": "02b9ef35aaaf23055d079b697a20a00b04955338ba88cac2d2caa6fe8f9632e9",
+    "pdf_pages": 103,
+    "printed_pages": 101,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a superseded draft historical two-column regulation with a blank Promulgated field; the lifecycle is preserved as superseded and the canonical promulgated field remains null.",
+    "Section 1 lists 6 Basic, 7 Common, and 8 Core units, but Section 2 and the Section 3 curriculum also contain HVC311202 Interpret technical drawings and plans; the canonical package retains that competency and records the Section 1 omission.",
+    "The source uses RAC Servicing (PACU/CRE) terminology and draft-copy labels, with COC clusters for PACU and CRE installation, servicing, troubleshooting, and commissioning; source_text preserves the printed wording.",
+    "Section 1 uses HVC311204 for Maintain tools and HVC315201 for housekeeping, while competency headers print HVC311205 and HVC7315201; source_unit_code preserves the header sequence.",
+    "The source prints 18 Basic, 28 Common, and 180 Core hours for a 226-hour arithmetic total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a superseded draft historical two-column regulation with a blank Promulgated field; the lifecycle is preserved as superseded and the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 6 Basic, 7 Common, and 8 Core units, but Section 2 and the Section 3 curriculum also contain HVC311202 Interpret technical drawings and plans; the canonical package retains that competency and records the Section 1 omission."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses RAC Servicing (PACU/CRE) terminology and draft-copy labels, with COC clusters for PACU and CRE installation, servicing, troubleshooting, and commissioning; source_text preserves the printed wording."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 uses HVC311204 for Maintain tools and HVC315201 for housekeeping, while competency headers print HVC311205 and HVC7315201; source_unit_code preserves the header sequence."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 28 Common, and 180 Core hours for a 226-hour arithmetic total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/RAC Servicing (PACU-CRE) NC III (Superseded).pdf",
-    "pdf_pages": 103,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        5
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        16,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "HVC713201",
+      "source_unit_code": "HVC713201",
+      "pdf_page_range": [
+        21,
+        22
+      ]
+    },
+    {
+      "unit_code": "HVC311202",
+      "source_unit_code": "HVC311202",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "HVC311201",
+      "source_unit_code": "HVC311201",
+      "pdf_page_range": [
+        26,
+        27
+      ]
+    },
+    {
+      "unit_code": "HVC311203",
+      "source_unit_code": "HVC311203",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "HVC713202",
+      "source_unit_code": "HVC713202",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "HVC724201",
+      "source_unit_code": "HVC724201",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "HVC311204",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "HVC315201",
+      "source_unit_code": "HVC7315201",
+      "pdf_page_range": [
+        40,
+        45
+      ]
+    },
+    {
+      "unit_code": "HVC311205",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        46,
+        47
+      ]
+    },
+    {
+      "unit_code": "HVC723340",
+      "source_unit_code": "HVC723340",
+      "pdf_page_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "unit_code": "HVC723341",
+      "source_unit_code": "HVC723341",
+      "pdf_page_range": [
+        53,
+        57
+      ]
+    },
+    {
+      "unit_code": "HVC723342",
+      "source_unit_code": "HVC723342",
+      "pdf_page_range": [
+        58,
+        61
+      ]
+    },
+    {
+      "unit_code": "HVC723343",
+      "source_unit_code": "HVC723343",
+      "pdf_page_range": [
+        62,
+        66
+      ]
+    },
+    {
+      "unit_code": "HVC723344",
+      "source_unit_code": "HVC723344",
+      "pdf_page_range": [
+        67,
+        72
+      ]
+    },
+    {
+      "unit_code": "HVC723345",
+      "source_unit_code": "HVC723345",
+      "pdf_page_range": [
+        73,
+        78
+      ]
+    },
+    {
+      "unit_code": "HVC723346",
+      "source_unit_code": "HVC723346",
+      "pdf_page_range": [
+        79,
+        82
+      ]
+    },
+    {
+      "unit_code": "HVC723347",
+      "source_unit_code": "HVC723347",
+      "pdf_page_range": [
+        83,
+        86
+      ]
+    }
+  ]
 }

@@ -1,29 +1,221 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:rac-servicing-domrac-nc-ii:2021-06-08",
-  "qualification": "RAC SERVICING (DomRAC) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:rac-servicing-domrac-nc-ii:7b406c8d34",
+  "qualification": "RAC SERVICING (DOMRAC) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "RAC Servicing (DomRAC) NC II.pdf",
-    "sha256": "7b406c8d341940a1aff4564e58b1e687fc0c6b9ea328221ebbd25e491bd73fbc",
+    "source_sha256": "7b406c8d341940a1aff4564e58b1e687fc0c6b9ea328221ebbd25e491bd73fbc",
+    "pdf_pages": 113,
+    "printed_pages": 108,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation promulgated June 8, 2021; the canonical promulgated field preserves the source date literal.",
+    "Section 1 lists 9 Basic, 9 Common, and 3 Core units with the occupational outcome Domestic Refrigeration and Air-conditioning Technician; competency tables provide Required Knowledge and Required Skills.",
+    "Section 1 uses HVC311204 for Maintain tools and HVC315201 for housekeeping, while the competency headers print HVC311205 and HVC7315201 respectively; source_unit_code preserves the printed header codes.",
+    "The source prints 37 Basic, 35 Common, and 216 Core hours plus 240 hours of Supervised Industry Learning (SIL), for 528 hours total; the canonical duration stores SIL under the shared OJT field.",
+    "The source includes contextual-learning language, RA 11058 and Kigali Agreement references, and RAC Code of Practice material; source_text preserves the printed wording."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation promulgated June 8, 2021; the canonical promulgated field preserves the source date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 9 Basic, 9 Common, and 3 Core units with the occupational outcome Domestic Refrigeration and Air-conditioning Technician; competency tables provide Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 uses HVC311204 for Maintain tools and HVC315201 for housekeeping, while the competency headers print HVC311205 and HVC7315201 respectively; source_unit_code preserves the printed header codes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 35 Common, and 216 Core hours plus 240 hours of Supervised Industry Learning (SIL), for 528 hours total; the canonical duration stores SIL under the shared OJT field."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source includes contextual-learning language, RA 11058 and Kigali Agreement references, and RAC Code of Practice material; source_text preserves the printed wording."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "RAC Servicing (DomRAC) NC II.pdf",
-    "pdf_pages": 113,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        28,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        30,
+        31
+      ]
+    },
+    {
+      "unit_code": "HVC713201",
+      "source_unit_code": "HVC713201",
+      "pdf_page_range": [
+        32,
+        33
+      ]
+    },
+    {
+      "unit_code": "HVC311202",
+      "source_unit_code": "HVC311202",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "HVC311201",
+      "source_unit_code": "HVC311201",
+      "pdf_page_range": [
+        38,
+        39
+      ]
+    },
+    {
+      "unit_code": "HVC311203",
+      "source_unit_code": "HVC311203",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "HVC713202",
+      "source_unit_code": "HVC713202",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "HVC724201",
+      "source_unit_code": "HVC724201",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "HVC311204",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        51,
+        54
+      ]
+    },
+    {
+      "unit_code": "HVC315201",
+      "source_unit_code": "HVC7315201",
+      "pdf_page_range": [
+        55,
+        59
+      ]
+    },
+    {
+      "unit_code": "HVC311205",
+      "source_unit_code": "HVC311205",
+      "pdf_page_range": [
+        60,
+        61
+      ]
+    },
+    {
+      "unit_code": "HVC723337",
+      "source_unit_code": "HVC723337",
+      "pdf_page_range": [
+        62,
+        66
+      ]
+    },
+    {
+      "unit_code": "HVC723338",
+      "source_unit_code": "HVC723338",
+      "pdf_page_range": [
+        67,
+        70
+      ]
+    },
+    {
+      "unit_code": "HVC723339",
+      "source_unit_code": "HVC723339",
+      "pdf_page_range": [
+        71,
+        74
+      ]
+    }
+  ]
 }
