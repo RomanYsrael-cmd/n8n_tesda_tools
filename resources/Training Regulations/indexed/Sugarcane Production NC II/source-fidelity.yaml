@@ -1,29 +1,136 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:sugarcane-production-nc-ii:2015-12-16",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:sugarcane-production-nc-ii:20801504c7",
   "qualification": "SUGARCANE PRODUCTION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Sugarcane Production NC II.pdf",
-    "sha256": "20801504c784e42ba3ad886ffc5c4efd860c29b5797735c1eab594a7caa10778",
+    "source_sha256": "20801504c784e42ba3ad886ffc5c4efd860c29b5797735c1eab594a7caa10778",
+    "pdf_pages": 145,
+    "printed_pages": 140,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation marked (New) and promulgated December 16, 2015; Required Knowledge and Required Skills are retained as structured fields.",
+    "Section 3 prints 20 Basic, 72 Common, and 511 Core hours for a 603-hour total.",
+    "The source uses SUGARCANE PRODUCTION NC II, SUAGARCANE PRODUCTION NCII, and mixed singular/plural or hyphenation variants in section headings and unit titles; the page-preserved source remains authoritative.",
+    "Section 1 prints the final common/core code with spacing and title variants, including AFF 611313 and Carryout Harvest and Post-harvest Operation; normalized retrieval uses AFF611313 while source_text preserves the printed form."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation marked (New) and promulgated December 16, 2015; Required Knowledge and Required Skills are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 20 Basic, 72 Common, and 511 Core hours for a 603-hour total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses SUGARCANE PRODUCTION NC II, SUAGARCANE PRODUCTION NCII, and mixed singular/plural or hyphenation variants in section headings and unit titles; the page-preserved source remains authoritative."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints the final common/core code with spacing and title variants, including AFF 611313 and Carryout Harvest and Post-harvest Operation; normalized retrieval uses AFF611313 while source_text preserves the printed form."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Sugarcane Production NC II.pdf",
-    "pdf_pages": 145,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        7,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        19,
+        23
+      ]
+    },
+    {
+      "unit_code": "AGR321201",
+      "source_unit_code": "AGR321201",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "AGR321202",
+      "source_unit_code": "AGR321202",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "AGR321203",
+      "source_unit_code": "AGR321203",
+      "pdf_page_range": [
+        31,
+        32
+      ]
+    },
+    {
+      "unit_code": "AFF611310",
+      "source_unit_code": "AFF611310",
+      "pdf_page_range": [
+        33,
+        42
+      ]
+    },
+    {
+      "unit_code": "AFF611311",
+      "source_unit_code": "AFF611311",
+      "pdf_page_range": [
+        43,
+        51
+      ]
+    },
+    {
+      "unit_code": "AFF611312",
+      "source_unit_code": "AFF611312",
+      "pdf_page_range": [
+        52,
+        59
+      ]
+    },
+    {
+      "unit_code": "AFF611313",
+      "source_unit_code": "AFF611313",
+      "pdf_page_range": [
+        60,
+        64
+      ]
+    }
+  ]
 }

@@ -2,71 +2,65 @@
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
   "document_id": "tesda:tr:structural-erection-nc-ii:5984310e28",
-  "qualification": "Structural Erection NC II",
+  "qualification": "STRUCTURAL ERECTION NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "identify role and responsibility as a member of a team."
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      },
-      {
-        "unit_code": "CON713345",
-        "title": "fit-up structural members for permanent position."
-      },
-      {
-        "unit_code": "CON713346",
-        "title": "perform tack welding on structural members."
-      },
-      {
-        "unit_code": "CON713347",
-        "title": "build low spots or remove high spots"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON713344",
-        "title": "perform position procedure for structural members"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "regulatory and organizational requirements for occupational"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCIVIL SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\nPosition structural\nmembers\nFit-up structural\nframework\nPerform tack\nwelding\nLay-out structural\nmember\nBuild low spot or\nremove high spot\nPrepare construction materials\nand tools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and manual of\ninstructions\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nBASIC\nCOMPETENCIES\nELECTIVE\nCOMPETENCIES\n\n--- PDF PAGE 71 ---\nSTRUCTURAL ERECTION NC II 69",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON713344",
+        "CON713345",
+        "CON713346"
+      ],
+      "unit_titles": [
+        "Position structural member",
+        "Fit-up structural member",
+        "Perform tack welding"
+      ]
+    },
+    {
+      "group": "elective",
+      "unit_codes": [
+        "CON713346-ELECTIVE",
+        "CON713347"
+      ],
+      "unit_titles": [
+        "Lay-out structural member",
+        "Build low spot or remove high spot"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful\ncandidates shall be awarded a National Certificate signed by the TESDA\nDirector General.\n\n4.2 The qualification of Structural Erection NC II can be attained through\ndemonstration of competence in a project-type assessment covering the\nfollowing core units.\n\n4.1.1 Position structural members\n4.1.2 Fit-up structural framework\n4.1.3 Perform tack welding\n\n4.3. Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4. The following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2. Experienced Workers (wage employed or self-employed)\n\n4.5. The guidelines on assessment and certification are discussed in detail in\nthe Procedures Manual on Assessment and Certification and guidelines\non the Implementation of the Philippine TVET Qualification and\nCertification System (PTQCS).\n\n--- PDF PAGE 70 ---\nSTRUCTURAL ERECTION NC II 69\n\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nANNEX A\nSTRUCTURAL ERECTION NC II\n\nCOMPETENCY MAP\nCIVIL SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\nPosition structural\nmembers\nFit-up structural\nframework\nPerform tack\nwelding\nLay-out structural\nmember\nBuild low spot or\nremove high spot\nPrepare construction materials\nand tools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and manual of\ninstructions\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nBASIC\nCOMPETENCIES\nELECTIVE\nCOMPETENCIES\n\n--- PDF PAGE 71 ---\nSTRUCTURAL ERECTION NC II 69\n\nDEFINITION OF TERMS\n\n1. Competency\nIs the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace.\n2. Certification\nRefers to the process of verifying and validating competencies of\na person through assessment.\n3. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person who\nworks in a particular area of work is able to perform.\n4. Evidence Guide\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills, resource implications, context of assessment and\nassessment method.\n5. Philippine TVET\nQualification\nFramework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter\nfor the integration of learning and assessment in the middle skills\ndevelopment.\n6. Qualification\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person\nhas achieved competencies relevant to a trade or industry.\n7. Range of\n Variable\nIt describes the circumstances or context in which the work is to\nbe performed.\n8. Riveting\nRefers to the permanent joining of two or more machine parts or\nstructural members, usually plates by means of rivets\n9. Structural riveting\nRefers to riveting structural members by using punched holes\n10. Structural steel\nRefers to a steel used in engineering usually manufactured by\nelectric furnace process\n11. Unit of\n Competency\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n12. Columns\nIs a vertical shaft designed to bear axial loads in compression.\n13. Girders\nIs a large beam normally made of metal or concrete.\n14. Beams\nRefers to a body with one large dimension compared with other\ndimensions whose function is to carry lateral movement.\n15. Truss\nRefers to a frame generally of steel, timber, concrete or light\nalloy, built from members in tension and compression.\n16. Purlins\nRefers to a horizontal roof beam, perpendicular to the trusses or\nrafters; supports the roofing material or the common rafters.\n\n--- PDF PAGE 72 ---\nSTRUCTURAL ERECTION NC II 70\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies and who contributed their time and expertise to the development of this\nTraining Regulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nJILANY B. AUSTRIA\nTrainer\nAG&P\nBatangas\nBOBBY H. SEGUNDO\nTrainer\nAG&P\nBatangas\nPEDRO BULANGHAGUI\nSkills Trainor\nBatangas\nMOISES M. LACORTE\nSkills Trainor\nBatangas\nENGR. DANILO M. MONTANA\nAdministrator\nTraining Center\nCebu\nENGR. MARK ANTHONY N. YLANAN\nAdministrator\nTraining Center\nCebu\nCIRILO TOTING\nWTG Construction\nCebu\nEUGENIO B. PULVERA\nACGI / METAPHIL\nCebu\nCHRISTOPHER B. SEMILLA\nWTG Construction\nCebu\nEFREN B. IBANEZ\nWelding Engineer\nBechtel Construction Operations\nGREGORIO A. CORONEZ\nQA / AC Manager\nAG & P, Batangas\nKEN ALEXANDER\nWelding Manager\nCAPE East, Philippines\nERNESTO B. POLICARPIO\nPresident\nPhilippine Welding Society\nFERNANDO M. OPEDA\nExecutive Director\nPhilippine Welding society\n\nThe participants in the National Validation of this Training Regulation\n\nACGI / METAPHIL\nWTG CONSTRUCTION\nTESDA R-VII\n\nThe management and staff of the TESDA Secretariat"
 }

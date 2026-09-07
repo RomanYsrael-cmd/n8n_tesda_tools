@@ -1,58 +1,1043 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:submerged-arc-welding-saw-nc-ii:a248668e1a",
   "qualification": "SUBMERGED ARC WELDING (SAW) NC II",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Submerged Arc Welding (SAW) NC II.pdf",
-    "pdf_pages": 58
+    "pdf_pages": 58,
+    "printed_pages": 56,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 18,
+        "source_expression": "18 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 56,
+        "source_expression": "56 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 120,
+        "source_expression": "120 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 194,
+    "total_source_expression": "194 hrs.",
+    "source_expressions": [
+      "18 hrs. - Basic Competencies",
+      "56 hrs. - Common Competencies",
+      "120 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 194,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for SUBMERGED ARC WELDING (SAW).\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: SUBMERGED ARC WELDING\nNC Level II\n\nSuggested Nominal Training Duration: 18 hrs. ( Basic Competencies)\n\n 56 hrs. ( Common Competencies)\n\n 120 hrs. ( Core Competencies)\n\nCourse Description:\nThis qualification is designed to develop knowledge, desirable attitudes and\nskills in setting up and operating automatic welding equipment used in\nwelding carbon steel plates and pipes.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunicati\non\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\n related documents.\n1.3 Participate in workplace\n meeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a\nteam\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n2.2 Describe work as a team\n member.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice\ncareer\nprofessionali\nsm\n3.1 Integrate personal objectives\nwith organizational goals.\n3.2 Set and meet work priorities.\n3.3 Maintain professional growth\nand development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nWeldncii11-3\n\n47\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\n and safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform\nwork safely\n1.1 Identify hazardous areas and\nconditions\n1.2 Use protective clothing and\ndevices\n1.3 Perform safe handling of tools,\nequipment and materials\n1.4 Explain/perform first aid\nprocedure\n1.5 Use fire extinguisher\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n2. Contribute\nto quality\nsystem\n2.1 Inspect work done\n2.2 Apply quality standards to\nwork\n2.3 Protect company/ institution\nproperties\n2.4 Protect customer interest\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n3. Use hand\ntools\n3.1 Use different handtools\n3.2 Maintain handtools\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n•Demonstration\n4. Interpret\nBlueprints\n4.1 Interpret technical drawing.\n4.2 Interpret welding symbols\n\n• Lecturette\n• Practical\n application\n• Oral\nquestioning\n• Written test\n5. Perform\nindustry\ncalculations\n5.1 Solve mathematical problems\n5.2 Convert systems of\nmeasurement\n5.3 Measure workpiece\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n\n• Written test\n6. Prepare\nWeld\nMaterials\n6.1 Identify the different cutting\nequipment and accessories\n6.2 Identify types of mild steel\nelectrodes\n6.3 Identify types of joints and\nedge preparation\n6.4 Identify protective equipment\n6.5 Prepare welding\n• Lecturette\n• Practical\n application\n\n• Observation\n• Demonstration\nand oral\nquestioning\n• Written test\n\n--- PDF PAGE 50 ---\nWeldncii11-3\n\n48\nconsumables, tools and\naccessories\n6.6 Layout on materials\n6.7 Set-up cutting equipment\n6.8 Cut and prepare edge of\nmaterials\n7. Set-up\nWelding\nEquipment\n7.1 Explain welding principles and\nconcepts.\n7.2 Identify the parts of welding\nmachine\n7.3 Set up welding machine and\naccessories\n7.4 Set up welding positioners,\njigs and fixtures\n7.5 Set up pre-heating equipment\n(as required)\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\n8. Fit up Weld\nMaterials\n8.1 Explain the importance of\nbacking plate and stiffener.\n8.2 Explain the methods of\nstriking an arc\n8.3 Perform striking an arc\n8.4 Tack weld specimen, backing\nplate and stiffener.\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n9. Repair\n Welds\n9.1 Identify causes and prevention\nof the different weld defects\n9.2 Mark/locate weld defects\n9.3 Prepare tools and equipment\n9.4 Remove defects\n9.5 Perform re-welding\n\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\nCORE COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Weld pipes\nusing SAW\n1.1 Perform multiple pass groove\nweld in 1G position rotated\n\n• Demonstration\n• Discussion /\nLecturette\n\n• Actual\nperformance\n• Direct\nObservation\n• Written or oral\n\n--- PDF PAGE 51 ---\nWeldncii11-3\n\n49\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n The training is based on curriculum developed from the competency\nstandards;\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and the\ncurriculum modules;\n Assessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n Training is based both on and off-the-job components;\n Allows for recognition of prior learning (RPL) or current competencies;\n Training allows for multiple entry and exit; and\n Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 52 ---\nWeldncii11-3\n\n50\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n• completed training in SAW NC I or a holder of SAW NC I\n• Ability to communicate; and\n• Physically fit and mentally healthy as certified by a Public Health Officer\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nSUBMERGED ARC WELDING II\n\nRecommended list of tools and materials per trainee for SAW - NC II\n\nTOOLS\n(for 25 trainees)\nEQUIPMENT\n(for 25 trainees)\nMATERIALS\n(per trainee)\nQTY\nQTY\nQTY\n25 pcs.\nChipping\nHammer\n12\nunits\nSAW machine\nAC/DC and\naccessories\n16\npcs.\n(equi\nv to\n30\njts)\nCS pipe 6”Ø, 12mm\nthk (minimum Ø/thk)\nX 150~200mm.\n75 pcs.\nSteel brush\n12 pcs. Welding positioners\n1\ntube\nMetal marker\n25 pcs.\nFlash shield\n1 unit\nAutomatic gas\ncutting machine\n12\nkg\nFiller wire 2.4/3.2\nmm dia. EL8, EL12\nor equiv.\n25 sets\nWorking clothes/\noverall\n1 unit\nFlux oven\n1\nbag\nFlux F7A0\n(1:2 ratio, filler/flux)\n50 sets Leather gloves,\nlong\n12\nunits\nPortable disc grinder\n6 pcs\nLens clear glass\n12 pcs.\nSteel square\n300 mm. long\n1 unit\nExhaust fan\n1 pcs\nDark glass\n12 pcs. Files-half round\n2 units\nWork bench w/\nbench vice on 4\ncorners\n12\npcs.\n\nCutting disc 3/32” X\n5/8” X 4”\n\n5 pcs.\nFillet gauge\n5 pcs.\nTurning rolls\n6pcs\nGrinding disc 1/4” X\n5/8” X 4”\n5 pcs.\nManipulators\n\n--- PDF PAGE 53 ---\nWeldncii11-3\n\n51\n 3.5 TRAINING FACILITIES\n\nSUBMERGED ARC WELDING – NC II\n\nThe welding workshop must be of concrete structure. Based on class size of 25\nstudents/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN\nMETERS\nAREA IN SQ.\nM\n\nQTY.\n\nTOTAL AREA\nIN SQ. M\nWelding Area\n2 X 2\n4\n5\n20\nMaterials/Preparation\nArea*\n2 X 2\n4\n\n4\nBench work Area\n1.5 X 2.5\n4\n2\n8\nTool Room & S/M\nStorage Area\n4 X 5\n20\n\n20\nLearning Resource\nArea*\n5 X 9\n45\n\n45\nWash Area /Comfort\nRoom (male and\nfemale) *\n2.5 X 4\n10\n\n10\nTotal\n\n107\nCirculation Area**\n\n35\nTotal Workshop Area\n\n142\n\n* This area can also be used by other welding courses.\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n--- PDF PAGE 54 ---\nWeldncii11-3\n\n52\n3.6 TRAINER’S QUALIFICATIONS FOR WELDER\n\nSUBMERGED ARC WELDING – NC II\nTRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of SAW II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by trainees to determine their\nachievement of units of competency. A certificate is issued for each unit of\ncompetency.\n\n--- PDF PAGE 55 ---\nWeldncii11-3\n\n53"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work related documents",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meeting and discussion",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team member",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal objectives with organizational goals",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Evaluate hazard and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Practical application"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Maintain occupational health and safety awareness",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply Safety Practices",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Identify hazardous areas and conditions",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply Safety Practices",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Use protective clothing and devices",
+        "learning_activities": [],
+        "methodology": [
+          "application"
+        ],
+        "assessment_approach": [
+          "Written",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply Safety Practices",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Perform safe handling of tools, equipment and materials",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply Safety Practices",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Explain/perform first aid procedure",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722201",
+        "unit_title": "Apply Safety Practices",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Use fire extinguisher",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721204",
+        "unit_title": "Contribute to Quality System",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Inspect work done",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Interpret Drawings and Sketches"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721204",
+        "unit_title": "Contribute to Quality System",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Apply quality standards to work",
+        "learning_activities": [],
+        "methodology": [
+          "Practical application"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Written"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Interpret Drawings and Sketches"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721204",
+        "unit_title": "Contribute to Quality System",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Protect company/ institution properties",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Interpret Drawings and Sketches"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721204",
+        "unit_title": "Contribute to Quality System",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Protect customer interest",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Interpret Drawings and Sketches"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721205",
+        "unit_title": "Use Hand Tools",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Use different handtools",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Perform Industry Calculations"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721205",
+        "unit_title": "Use Hand Tools",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Maintain handtools",
+        "learning_activities": [],
+        "methodology": [
+          "Practical application"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Written •Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Perform Industry Calculations"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721202",
+        "unit_title": "Interpret Drawings and Sketches",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Interpret technical drawing",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Contribute to Quality System"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721202",
+        "unit_title": "Interpret Drawings and Sketches",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Interpret welding symbols",
+        "learning_activities": [],
+        "methodology": [
+          "Practical application"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Contribute to Quality System"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721203",
+        "unit_title": "Perform Industry Calculations",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Solve mathematical problems",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Use Hand Tools"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721203",
+        "unit_title": "Perform Industry Calculations",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Convert systems of measurement",
+        "learning_activities": [],
+        "methodology": [
+          "Practical application"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Use Hand Tools"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721203",
+        "unit_title": "Perform Industry Calculations",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Measure workpiece",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49,
+        "source_unit_title": "Use Hand Tools"
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Identify the different cutting equipment and accessories",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Identify types of mild steel electrodes",
+        "learning_activities": [],
+        "methodology": [
+          "application"
+        ],
+        "assessment_approach": [
+          "and oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Identify types of joints and edge preparation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.4",
+        "learning_outcome": "Identify protective equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.5",
+        "learning_outcome": "Prepare welding",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.6",
+        "learning_outcome": "Layout on materials",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.7",
+        "learning_outcome": "Set-up cutting equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721206",
+        "unit_title": "Prepare Weld Materials",
+        "learning_outcome_number": "6.8",
+        "learning_outcome": "Cut and prepare edge of materials",
+        "learning_activities": [],
+        "methodology": [
+          "Lecturette",
+          "Practical"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721207",
+        "unit_title": "Setup Welding Equipment",
+        "learning_outcome_number": "7.1",
+        "learning_outcome": "Explain welding principles and concepts",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721207",
+        "unit_title": "Setup Welding Equipment",
+        "learning_outcome_number": "7.2",
+        "learning_outcome": "Identify the parts of welding machine",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721207",
+        "unit_title": "Setup Welding Equipment",
+        "learning_outcome_number": "7.3",
+        "learning_outcome": "Set up welding machine and accessories",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721207",
+        "unit_title": "Setup Welding Equipment",
+        "learning_outcome_number": "7.4",
+        "learning_outcome": "Set up welding positioners, jigs and fixtures",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721207",
+        "unit_title": "Setup Welding Equipment",
+        "learning_outcome_number": "7.5",
+        "learning_outcome": "Set up pre-heating equipment (as required)",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721208",
+        "unit_title": "Fit up Weld Materials",
+        "learning_outcome_number": "8.1",
+        "learning_outcome": "Explain the importance of backing plate and stiffener",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721208",
+        "unit_title": "Fit up Weld Materials",
+        "learning_outcome_number": "8.2",
+        "learning_outcome": "Explain the methods of striking an arc",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721208",
+        "unit_title": "Fit up Weld Materials",
+        "learning_outcome_number": "8.3",
+        "learning_outcome": "Perform striking an arc",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721208",
+        "unit_title": "Fit up Weld Materials",
+        "learning_outcome_number": "8.4",
+        "learning_outcome": "Tack weld specimen, backing plate and stiffener",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721209",
+        "unit_title": "Repair Welds",
+        "learning_outcome_number": "9.1",
+        "learning_outcome": "Identify causes and prevention",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721209",
+        "unit_title": "Repair Welds",
+        "learning_outcome_number": "9.2",
+        "learning_outcome": "Mark/locate weld defects",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721209",
+        "unit_title": "Repair Welds",
+        "learning_outcome_number": "9.3",
+        "learning_outcome": "Prepare tools and equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721209",
+        "unit_title": "Repair Welds",
+        "learning_outcome_number": "9.4",
+        "learning_outcome": "Remove defects",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE721209",
+        "unit_title": "Repair Welds",
+        "learning_outcome_number": "9.5",
+        "learning_outcome": "Perform re-welding",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE721308",
+        "unit_title": "Weld Pipes Using SAW",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Perform multiple pass groove weld in 1G position rotated",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Discussion / Lecturette"
+        ],
+        "assessment_approach": [
+          "Actual performance",
+          "Direct Observation",
+          "Written or oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      }
+    ],
+    "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: SUBMERGED ARC WELDING\nNC Level II\n\nSuggested Nominal Training Duration: 18 hrs. ( Basic Competencies)\n\n 56 hrs. ( Common Competencies)\n\n 120 hrs. ( Core Competencies)\n\nCourse Description:\nThis qualification is designed to develop knowledge, desirable attitudes and\nskills in setting up and operating automatic welding equipment used in\nwelding carbon steel plates and pipes.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunicati\non\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\n related documents.\n1.3 Participate in workplace\n meeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a\nteam\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n2.2 Describe work as a team\n member.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice\ncareer\nprofessionali\nsm\n3.1 Integrate personal objectives\nwith organizational goals.\n3.2 Set and meet work priorities.\n3.3 Maintain professional growth\nand development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nWeldncii11-3\n\n47\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\n and safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform\nwork safely\n1.1 Identify hazardous areas and\nconditions\n1.2 Use protective clothing and\ndevices\n1.3 Perform safe handling of tools,\nequipment and materials\n1.4 Explain/perform first aid\nprocedure\n1.5 Use fire extinguisher\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n2. Contribute\nto quality\nsystem\n2.1 Inspect work done\n2.2 Apply quality standards to\nwork\n2.3 Protect company/ institution\nproperties\n2.4 Protect customer interest\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n3. Use hand\ntools\n3.1 Use different handtools\n3.2 Maintain handtools\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n•Demonstration\n4. Interpret\nBlueprints\n4.1 Interpret technical drawing.\n4.2 Interpret welding symbols\n\n• Lecturette\n• Practical\n application\n• Oral\nquestioning\n• Written test\n5. Perform\nindustry\ncalculations\n5.1 Solve mathematical problems\n5.2 Convert systems of\nmeasurement\n5.3 Measure workpiece\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n\n• Written test\n6. Prepare\nWeld\nMaterials\n6.1 Identify the different cutting\nequipment and accessories\n6.2 Identify types of mild steel\nelectrodes\n6.3 Identify types of joints and\nedge preparation\n6.4 Identify protective equipment\n6.5 Prepare welding\n• Lecturette\n• Practical\n application\n\n• Observation\n• Demonstration\nand oral\nquestioning\n• Written test\n\n--- PDF PAGE 50 ---\nWeldncii11-3\n\n48\nconsumables, tools and\naccessories\n6.6 Layout on materials\n6.7 Set-up cutting equipment\n6.8 Cut and prepare edge of\nmaterials\n7. Set-up\nWelding\nEquipment\n7.1 Explain welding principles and\nconcepts.\n7.2 Identify the parts of welding\nmachine\n7.3 Set up welding machine and\naccessories\n7.4 Set up welding positioners,\njigs and fixtures\n7.5 Set up pre-heating equipment\n(as required)\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\n8. Fit up Weld\nMaterials\n8.1 Explain the importance of\nbacking plate and stiffener.\n8.2 Explain the methods of\nstriking an arc\n8.3 Perform striking an arc\n8.4 Tack weld specimen, backing\nplate and stiffener.\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n9. Repair\n Welds\n9.1 Identify causes and prevention\nof the different weld defects\n9.2 Mark/locate weld defects\n9.3 Prepare tools and equipment\n9.4 Remove defects\n9.5 Perform re-welding\n\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\nCORE COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Weld pipes\nusing SAW\n1.1 Perform multiple pass groove\nweld in 1G position rotated\n\n• Demonstration\n• Discussion /\nLecturette\n\n• Actual\nperformance\n• Direct\nObservation\n• Written or oral\n\n--- PDF PAGE 51 ---\nWeldncii11-3\n\n49"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: SUBMERGED ARC WELDING\nNC Level II\n\nSuggested Nominal Training Duration: 18 hrs. ( Basic Competencies)\n\n 56 hrs. ( Common Competencies)\n\n 120 hrs. ( Core Competencies)\n\nCourse Description:\nThis qualification is designed to develop knowledge, desirable attitudes and\nskills in setting up and operating automatic welding equipment used in\nwelding carbon steel plates and pipes.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunicati\non\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\n related documents.\n1.3 Participate in workplace\n meeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a\nteam\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n2.2 Describe work as a team\n member.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice\ncareer\nprofessionali\nsm\n3.1 Integrate personal objectives\nwith organizational goals.\n3.2 Set and meet work priorities.\n3.3 Maintain professional growth\nand development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nWeldncii11-3\n\n47\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\n and safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform\nwork safely\n1.1 Identify hazardous areas and\nconditions\n1.2 Use protective clothing and\ndevices\n1.3 Perform safe handling of tools,\nequipment and materials\n1.4 Explain/perform first aid\nprocedure\n1.5 Use fire extinguisher\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n2. Contribute\nto quality\nsystem\n2.1 Inspect work done\n2.2 Apply quality standards to\nwork\n2.3 Protect company/ institution\nproperties\n2.4 Protect customer interest\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n3. Use hand\ntools\n3.1 Use different handtools\n3.2 Maintain handtools\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n•Demonstration\n4. Interpret\nBlueprints\n4.1 Interpret technical drawing.\n4.2 Interpret welding symbols\n\n• Lecturette\n• Practical\n application\n• Oral\nquestioning\n• Written test\n5. Perform\nindustry\ncalculations\n5.1 Solve mathematical problems\n5.2 Convert systems of\nmeasurement\n5.3 Measure workpiece\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n\n• Written test\n6. Prepare\nWeld\nMaterials\n6.1 Identify the different cutting\nequipment and accessories\n6.2 Identify types of mild steel\nelectrodes\n6.3 Identify types of joints and\nedge preparation\n6.4 Identify protective equipment\n6.5 Prepare welding\n• Lecturette\n• Practical\n application\n\n• Observation\n• Demonstration\nand oral\nquestioning\n• Written test\n\n--- PDF PAGE 50 ---\nWeldncii11-3\n\n48\nconsumables, tools and\naccessories\n6.6 Layout on materials\n6.7 Set-up cutting equipment\n6.8 Cut and prepare edge of\nmaterials\n7. Set-up\nWelding\nEquipment\n7.1 Explain welding principles and\nconcepts.\n7.2 Identify the parts of welding\nmachine\n7.3 Set up welding machine and\naccessories\n7.4 Set up welding positioners,\njigs and fixtures\n7.5 Set up pre-heating equipment\n(as required)\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\n8. Fit up Weld\nMaterials\n8.1 Explain the importance of\nbacking plate and stiffener.\n8.2 Explain the methods of\nstriking an arc\n8.3 Perform striking an arc\n8.4 Tack weld specimen, backing\nplate and stiffener.\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n9. Repair\n Welds\n9.1 Identify causes and prevention\nof the different weld defects\n9.2 Mark/locate weld defects\n9.3 Prepare tools and equipment\n9.4 Remove defects\n9.5 Perform re-welding\n\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\nCORE COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Weld pipes\nusing SAW\n1.1 Perform multiple pass groove\nweld in 1G position rotated\n\n• Demonstration\n• Discussion /\nLecturette\n\n• Actual\nperformance\n• Direct\nObservation\n• Written or oral\n\n--- PDF PAGE 51 ---\nWeldncii11-3\n\n49",
-      "pdf_pages": []
+      "pdf_pages": [
+        48
+      ],
+      "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: SUBMERGED ARC WELDING\nNC Level II\n\nSuggested Nominal Training Duration: 18 hrs. ( Basic Competencies)\n\n 56 hrs. ( Common Competencies)\n\n 120 hrs. ( Core Competencies)\n\nCourse Description:\nThis qualification is designed to develop knowledge, desirable attitudes and\nskills in setting up and operating automatic welding equipment used in\nwelding carbon steel plates and pipes.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunicati\non\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\n related documents.\n1.3 Participate in workplace\n meeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a\nteam\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n2.2 Describe work as a team\n member.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice\ncareer\nprofessionali\nsm\n3.1 Integrate personal objectives\nwith organizational goals.\n3.2 Set and meet work priorities.\n3.3 Maintain professional growth\nand development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nWeldncii11-3\n\n47\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\n and safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform\nwork safely\n1.1 Identify hazardous areas and\nconditions\n1.2 Use protective clothing and\ndevices\n1.3 Perform safe handling of tools,\nequipment and materials\n1.4 Explain/perform first aid\nprocedure\n1.5 Use fire extinguisher\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n2. Contribute\nto quality\nsystem\n2.1 Inspect work done\n2.2 Apply quality standards to\nwork\n2.3 Protect company/ institution\nproperties\n2.4 Protect customer interest\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n3. Use hand\ntools\n3.1 Use different handtools\n3.2 Maintain handtools\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n•Demonstration\n4. Interpret\nBlueprints\n4.1 Interpret technical drawing.\n4.2 Interpret welding symbols\n\n• Lecturette\n• Practical\n application\n• Oral\nquestioning\n• Written test\n5. Perform\nindustry\ncalculations\n5.1 Solve mathematical problems\n5.2 Convert systems of\nmeasurement\n5.3 Measure workpiece\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n\n• Written test\n6. Prepare\nWeld\nMaterials\n6.1 Identify the different cutting\nequipment and accessories\n6.2 Identify types of mild steel\nelectrodes\n6.3 Identify types of joints and\nedge preparation\n6.4 Identify protective equipment\n6.5 Prepare welding\n• Lecturette\n• Practical\n application\n\n• Observation\n• Demonstration\nand oral\nquestioning\n• Written test\n\n--- PDF PAGE 50 ---\nWeldncii11-3\n\n48\nconsumables, tools and\naccessories\n6.6 Layout on materials\n6.7 Set-up cutting equipment\n6.8 Cut and prepare edge of\nmaterials\n7. Set-up\nWelding\nEquipment\n7.1 Explain welding principles and\nconcepts.\n7.2 Identify the parts of welding\nmachine\n7.3 Set up welding machine and\naccessories\n7.4 Set up welding positioners,\njigs and fixtures\n7.5 Set up pre-heating equipment\n(as required)\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\n8. Fit up Weld\nMaterials\n8.1 Explain the importance of\nbacking plate and stiffener.\n8.2 Explain the methods of\nstriking an arc\n8.3 Perform striking an arc\n8.4 Tack weld specimen, backing\nplate and stiffener.\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n9. Repair\n Welds\n9.1 Identify causes and prevention\nof the different weld defects\n9.2 Mark/locate weld defects\n9.3 Prepare tools and equipment\n9.4 Remove defects\n9.5 Perform re-welding\n\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\nCORE COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Weld pipes\nusing SAW\n1.1 Perform multiple pass groove\nweld in 1G position rotated\n\n• Demonstration\n• Discussion /\nLecturette\n\n• Actual\nperformance\n• Direct\nObservation\n• Written or oral\n\n--- PDF PAGE 51 ---\nWeldncii11-3\n\n49"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n The training is based on curriculum developed from the competency\nstandards;\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and the\ncurriculum modules;\n Assessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n Training is based both on and off-the-job components;\n Allows for recognition of prior learning (RPL) or current competencies;\n Training allows for multiple entry and exit; and\n Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 52 ---\nWeldncii11-3\n\n50",
-      "pdf_pages": []
+      "pdf_pages": [
+        51
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n The training is based on curriculum developed from the competency\nstandards;\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and the\ncurriculum modules;\n Assessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n Training is based both on and off-the-job components;\n Allows for recognition of prior learning (RPL) or current competencies;\n Training allows for multiple entry and exit; and\n Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 52 ---\nWeldncii11-3\n\n50"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "This section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n• completed training in SAW NC I or a holder of SAW NC I\n• Ability to communicate; and\n• Physically fit and mentally healthy as certified by a Public Health Officer",
-      "pdf_pages": []
+      "pdf_pages": [
+        52
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n• completed training in SAW NC I or a holder of SAW NC I\n• Ability to communicate; and\n• Physically fit and mentally healthy as certified by a Public Health Officer"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\nSUBMERGED ARC WELDING II\n\nRecommended list of tools and materials per trainee for SAW - NC II\n\nTOOLS\n(for 25 trainees)\nEQUIPMENT\n(for 25 trainees)\nMATERIALS\n(per trainee)\nQTY\nQTY\nQTY\n25 pcs.\nChipping\nHammer\n12\nunits\nSAW machine\nAC/DC and\naccessories\n16\npcs.\n(equi\nv to\n30\njts)\nCS pipe 6”Ø, 12mm\nthk (minimum Ø/thk)\nX 150~200mm.\n75 pcs.\nSteel brush\n12 pcs. Welding positioners\n1\ntube\nMetal marker\n25 pcs.\nFlash shield\n1 unit\nAutomatic gas\ncutting machine\n12\nkg\nFiller wire 2.4/3.2\nmm dia. EL8, EL12\nor equiv.\n25 sets\nWorking clothes/\noverall\n1 unit\nFlux oven\n1\nbag\nFlux F7A0\n(1:2 ratio, filler/flux)\n50 sets Leather gloves,\nlong\n12\nunits\nPortable disc grinder\n6 pcs\nLens clear glass\n12 pcs.\nSteel square\n300 mm. long\n1 unit\nExhaust fan\n1 pcs\nDark glass\n12 pcs. Files-half round\n2 units\nWork bench w/\nbench vice on 4\ncorners\n12\npcs.\n\nCutting disc 3/32” X\n5/8” X 4”\n\n5 pcs.\nFillet gauge\n5 pcs.\nTurning rolls\n6pcs\nGrinding disc 1/4” X\n5/8” X 4”\n5 pcs.\nManipulators\n\n--- PDF PAGE 53 ---\nWeldncii11-3\n\n51",
-      "pdf_pages": []
+      "pdf_pages": [
+        49,
+        52
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nSUBMERGED ARC WELDING II\n\nRecommended list of tools and materials per trainee for SAW - NC II\n\nTOOLS\n(for 25 trainees)\nEQUIPMENT\n(for 25 trainees)\nMATERIALS\n(per trainee)\nQTY\nQTY\nQTY\n25 pcs.\nChipping\nHammer\n12\nunits\nSAW machine\nAC/DC and\naccessories\n16\npcs.\n(equi\nv to\n30\njts)\nCS pipe 6”Ø, 12mm\nthk (minimum Ø/thk)\nX 150~200mm.\n75 pcs.\nSteel brush\n12 pcs. Welding positioners\n1\ntube\nMetal marker\n25 pcs.\nFlash shield\n1 unit\nAutomatic gas\ncutting machine\n12\nkg\nFiller wire 2.4/3.2\nmm dia. EL8, EL12\nor equiv.\n25 sets\nWorking clothes/\noverall\n1 unit\nFlux oven\n1\nbag\nFlux F7A0\n(1:2 ratio, filler/flux)\n50 sets Leather gloves,\nlong\n12\nunits\nPortable disc grinder\n6 pcs\nLens clear glass\n12 pcs.\nSteel square\n300 mm. long\n1 unit\nExhaust fan\n1 pcs\nDark glass\n12 pcs. Files-half round\n2 units\nWork bench w/\nbench vice on 4\ncorners\n12\npcs.\n\nCutting disc 3/32” X\n5/8” X 4”\n\n5 pcs.\nFillet gauge\n5 pcs.\nTurning rolls\n6pcs\nGrinding disc 1/4” X\n5/8” X 4”\n5 pcs.\nManipulators\n\n--- PDF PAGE 53 ---\nWeldncii11-3\n\n51"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "SUBMERGED ARC WELDING – NC II\n\nThe welding workshop must be of concrete structure. Based on class size of 25\nstudents/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN\nMETERS\nAREA IN SQ.\nM\n\nQTY.\n\nTOTAL AREA\nIN SQ. M\nWelding Area\n2 X 2\n4\n5\n20\nMaterials/Preparation\nArea*\n2 X 2\n4\n\n4\nBench work Area\n1.5 X 2.5\n4\n2\n8\nTool Room & S/M\nStorage Area\n4 X 5\n20\n\n20\nLearning Resource\nArea*\n5 X 9\n45\n\n45\nWash Area /Comfort\nRoom (male and\nfemale) *\n2.5 X 4\n10\n\n10\nTotal\n\n107\nCirculation Area**\n\n35\nTotal Workshop Area\n\n142\n\n* This area can also be used by other welding courses.\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n--- PDF PAGE 54 ---\nWeldncii11-3\n\n52\n3.6 TRAINER’S QUALIFICATIONS FOR WELDER\n\nSUBMERGED ARC WELDING – NC II\nTRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of SAW II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        53
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nSUBMERGED ARC WELDING – NC II\n\nThe welding workshop must be of concrete structure. Based on class size of 25\nstudents/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN\nMETERS\nAREA IN SQ.\nM\n\nQTY.\n\nTOTAL AREA\nIN SQ. M\nWelding Area\n2 X 2\n4\n5\n20\nMaterials/Preparation\nArea*\n2 X 2\n4\n\n4\nBench work Area\n1.5 X 2.5\n4\n2\n8\nTool Room & S/M\nStorage Area\n4 X 5\n20\n\n20\nLearning Resource\nArea*\n5 X 9\n45\n\n45\nWash Area /Comfort\nRoom (male and\nfemale) *\n2.5 X 4\n10\n\n10\nTotal\n\n107\nCirculation Area**\n\n35\nTotal Workshop Area\n\n142\n\n* This area can also be used by other welding courses.\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n--- PDF PAGE 54 ---\nWeldncii11-3\n\n52"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        54
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR WELDER\n\nSUBMERGED ARC WELDING – NC II\nTRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of SAW II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional Assessment is to be undertaken by trainees to determine their\nachievement of units of competency. A certificate is issued for each unit of\ncompetency.\n\n--- PDF PAGE 55 ---\nWeldncii11-3\n\n53",
-      "pdf_pages": []
+      "pdf_pages": [
+        54
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by trainees to determine their\nachievement of units of competency. A certificate is issued for each unit of\ncompetency.\n\n--- PDF PAGE 55 ---\nWeldncii11-3\n\n53"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "18 hrs",
-      "56 hrs",
-      "120 hrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to\nconsider when designing training programs for SUBMERGED ARC WELDING (SAW).\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: SUBMERGED ARC WELDING\nNC Level II\n\nSuggested Nominal Training Duration: 18 hrs. ( Basic Competencies)\n\n 56 hrs. ( Common Competencies)\n\n 120 hrs. ( Core Competencies)\n\nCourse Description:\nThis qualification is designed to develop knowledge, desirable attitudes and\nskills in setting up and operating automatic welding equipment used in\nwelding carbon steel plates and pipes.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\nBASIC COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunicati\non\n1.1 Obtain and convey\n workplace information.\n1.2 Complete relevant work\n related documents.\n1.3 Participate in workplace\n meeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a\nteam\nenvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam.\n2.2 Describe work as a team\n member.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n3. Practice\ncareer\nprofessionali\nsm\n3.1 Integrate personal objectives\nwith organizational goals.\n3.2 Set and meet work priorities.\n3.3 Maintain professional growth\nand development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nWeldncii11-3\n\n47\n4. Practice\noccupational\nhealth and\nsafety\n4.1 Evaluate hazard and risks\n\n4.2 Control hazards and risks\n\n4.3 Maintain occupational health\n and safety awareness\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform\nwork safely\n1.1 Identify hazardous areas and\nconditions\n1.2 Use protective clothing and\ndevices\n1.3 Perform safe handling of tools,\nequipment and materials\n1.4 Explain/perform first aid\nprocedure\n1.5 Use fire extinguisher\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n2. Contribute\nto quality\nsystem\n2.1 Inspect work done\n2.2 Apply quality standards to\nwork\n2.3 Protect company/ institution\nproperties\n2.4 Protect customer interest\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n• Demonstration\n3. Use hand\ntools\n3.1 Use different handtools\n3.2 Maintain handtools\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n• Written\n•Demonstration\n4. Interpret\nBlueprints\n4.1 Interpret technical drawing.\n4.2 Interpret welding symbols\n\n• Lecturette\n• Practical\n application\n• Oral\nquestioning\n• Written test\n5. Perform\nindustry\ncalculations\n5.1 Solve mathematical problems\n5.2 Convert systems of\nmeasurement\n5.3 Measure workpiece\n• Lecturette\n• Practical\n application\n\n• Oral\nquestioning\n\n• Written test\n6. Prepare\nWeld\nMaterials\n6.1 Identify the different cutting\nequipment and accessories\n6.2 Identify types of mild steel\nelectrodes\n6.3 Identify types of joints and\nedge preparation\n6.4 Identify protective equipment\n6.5 Prepare welding\n• Lecturette\n• Practical\n application\n\n• Observation\n• Demonstration\nand oral\nquestioning\n• Written test\n\n--- PDF PAGE 50 ---\nWeldncii11-3\n\n48\nconsumables, tools and\naccessories\n6.6 Layout on materials\n6.7 Set-up cutting equipment\n6.8 Cut and prepare edge of\nmaterials\n7. Set-up\nWelding\nEquipment\n7.1 Explain welding principles and\nconcepts.\n7.2 Identify the parts of welding\nmachine\n7.3 Set up welding machine and\naccessories\n7.4 Set up welding positioners,\njigs and fixtures\n7.5 Set up pre-heating equipment\n(as required)\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\n8. Fit up Weld\nMaterials\n8.1 Explain the importance of\nbacking plate and stiffener.\n8.2 Explain the methods of\nstriking an arc\n8.3 Perform striking an arc\n8.4 Tack weld specimen, backing\nplate and stiffener.\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n9. Repair\n Welds\n9.1 Identify causes and prevention\nof the different weld defects\n9.2 Mark/locate weld defects\n9.3 Prepare tools and equipment\n9.4 Remove defects\n9.5 Perform re-welding\n\n• Lecturette\n• Demonstration\n\n• Observation\nand oral\nquestioning\n• Demonstration\nand oral\nquestioning\n• Written test\n\nCORE COMPETENCIES\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Weld pipes\nusing SAW\n1.1 Perform multiple pass groove\nweld in 1G position rotated\n\n• Demonstration\n• Discussion /\nLecturette\n\n• Actual\nperformance\n• Direct\nObservation\n• Written or oral\n\n--- PDF PAGE 51 ---\nWeldncii11-3\n\n49\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of competency-based TVET.\n\n The training is based on curriculum developed from the competency\nstandards;\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and the\ncurriculum modules;\n Assessment is based in the collection of evidence of the performance of work\nto the industry required standard;\n Training is based both on and off-the-job components;\n Allows for recognition of prior learning (RPL) or current competencies;\n Training allows for multiple entry and exit; and\n Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in-school and in-industry training or fieldwork\ncomponents. Details can be referred to the Dual Training System (DTS)\nImplementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein\nthe trainee is allowed to progress at his own pace. The trainer just facilitates\nthe training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given\nthe opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in\nthe training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructor are not in the same\nplace. Distance learning may employ correspondence study, audio, video or\ncomputer technologies.\n\n--- PDF PAGE 52 ---\nWeldncii11-3\n\n50\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n• completed training in SAW NC I or a holder of SAW NC I\n• Ability to communicate; and\n• Physically fit and mentally healthy as certified by a Public Health Officer\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nSUBMERGED ARC WELDING II\n\nRecommended list of tools and materials per trainee for SAW - NC II\n\nTOOLS\n(for 25 trainees)\nEQUIPMENT\n(for 25 trainees)\nMATERIALS\n(per trainee)\nQTY\nQTY\nQTY\n25 pcs.\nChipping\nHammer\n12\nunits\nSAW machine\nAC/DC and\naccessories\n16\npcs.\n(equi\nv to\n30\njts)\nCS pipe 6”Ø, 12mm\nthk (minimum Ø/thk)\nX 150~200mm.\n75 pcs.\nSteel brush\n12 pcs. Welding positioners\n1\ntube\nMetal marker\n25 pcs.\nFlash shield\n1 unit\nAutomatic gas\ncutting machine\n12\nkg\nFiller wire 2.4/3.2\nmm dia. EL8, EL12\nor equiv.\n25 sets\nWorking clothes/\noverall\n1 unit\nFlux oven\n1\nbag\nFlux F7A0\n(1:2 ratio, filler/flux)\n50 sets Leather gloves,\nlong\n12\nunits\nPortable disc grinder\n6 pcs\nLens clear glass\n12 pcs.\nSteel square\n300 mm. long\n1 unit\nExhaust fan\n1 pcs\nDark glass\n12 pcs. Files-half round\n2 units\nWork bench w/\nbench vice on 4\ncorners\n12\npcs.\n\nCutting disc 3/32” X\n5/8” X 4”\n\n5 pcs.\nFillet gauge\n5 pcs.\nTurning rolls\n6pcs\nGrinding disc 1/4” X\n5/8” X 4”\n5 pcs.\nManipulators\n\n--- PDF PAGE 53 ---\nWeldncii11-3\n\n51\n 3.5 TRAINING FACILITIES\n\nSUBMERGED ARC WELDING – NC II\n\nThe welding workshop must be of concrete structure. Based on class size of 25\nstudents/trainees the space requirements for the teaching/learning and circulation\nareas are as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN\nMETERS\nAREA IN SQ.\nM\n\nQTY.\n\nTOTAL AREA\nIN SQ. M\nWelding Area\n2 X 2\n4\n5\n20\nMaterials/Preparation\nArea*\n2 X 2\n4\n\n4\nBench work Area\n1.5 X 2.5\n4\n2\n8\nTool Room & S/M\nStorage Area\n4 X 5\n20\n\n20\nLearning Resource\nArea*\n5 X 9\n45\n\n45\nWash Area /Comfort\nRoom (male and\nfemale) *\n2.5 X 4\n10\n\n10\nTotal\n\n107\nCirculation Area**\n\n35\nTotal Workshop Area\n\n142\n\n* This area can also be used by other welding courses.\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n--- PDF PAGE 54 ---\nWeldncii11-3\n\n52\n3.6 TRAINER’S QUALIFICATIONS FOR WELDER\n\nSUBMERGED ARC WELDING – NC II\nTRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of SAW II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is to be undertaken by trainees to determine their\nachievement of units of competency. A certificate is issued for each unit of\ncompetency.\n\n--- PDF PAGE 55 ---\nWeldncii11-3\n\n53"
 }

@@ -1,29 +1,187 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:speed-limitation-device-servicing-nc-ii:e1b9e8668f",
-  "qualification": "Speed Limitation Device Servicing NC II",
+  "qualification": "SPEED LIMITATION DEVICE SERVICING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Speed Limitation Device Servicing NC II.pdf",
-    "sha256": "e1b9e8668f8d7eac213f06c57514fee537706bd1ef5fe7f7f0e98607834a467a",
+    "source_sha256": "e1b9e8668f8d7eac213f06c57514fee537706bd1ef5fe7f7f0e98607834a467a",
+    "pdf_pages": 130,
+    "printed_pages": 126,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation marked Revision 00 and promulgated 08/11/2020; Required Knowledge and Required Skills are retained as structured fields.",
+    "Section 3 prints 37 Basic, 122 Common, and 25 Core hours, followed by an 184-hour in-school figure, 93 hours of SIL, and 277 TOTAL HOURS; the canonical duration preserves the printed components and total.",
+    "The source uses Speed Limitation Device Servicing NC II, Speed Limitation Device NC II, SLD, and Road Speed Limiter Act of 2016 terminology, with source spelling and punctuation variants retained in the page-preserved layer."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation marked Revision 00 and promulgated 08/11/2020; Required Knowledge and Required Skills are retained as structured fields."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 37 Basic, 122 Common, and 25 Core hours, followed by an 184-hour in-school figure, 93 hours of SIL, and 277 TOTAL HOURS; the canonical duration preserves the printed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses Speed Limitation Device Servicing NC II, Speed Limitation Device NC II, SLD, and Road Speed Limiter Act of 2016 terminology, with source spelling and punctuation variants retained in the page-preserved layer."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Speed Limitation Device Servicing NC II.pdf",
-    "pdf_pages": 130,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "ALT723211",
+      "source_unit_code": "ALT723211",
+      "pdf_page_range": [
+        40,
+        45
+      ]
+    },
+    {
+      "unit_code": "ALT723214",
+      "source_unit_code": "ALT723214",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "ALT723215",
+      "source_unit_code": "ALT723215",
+      "pdf_page_range": [
+        50,
+        54
+      ]
+    },
+    {
+      "unit_code": "ALT723216",
+      "source_unit_code": "ALT723216",
+      "pdf_page_range": [
+        55,
+        58
+      ]
+    },
+    {
+      "unit_code": "ALT723217",
+      "source_unit_code": "ALT723217",
+      "pdf_page_range": [
+        59,
+        62
+      ]
+    },
+    {
+      "unit_code": "ALT723218",
+      "source_unit_code": "ALT723218",
+      "pdf_page_range": [
+        63,
+        66
+      ]
+    },
+    {
+      "unit_code": "ALT723382",
+      "source_unit_code": "ALT723382",
+      "pdf_page_range": [
+        67,
+        72
+      ]
+    },
+    {
+      "unit_code": "ALT723383",
+      "source_unit_code": "ALT723383",
+      "pdf_page_range": [
+        73,
+        78
+      ]
+    },
+    {
+      "unit_code": "ALT723384",
+      "source_unit_code": "ALT723384",
+      "pdf_page_range": [
+        79,
+        84
+      ]
+    }
+  ]
 }
