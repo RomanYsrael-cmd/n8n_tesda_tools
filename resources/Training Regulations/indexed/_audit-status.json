@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T07:27:01+08:00",
+  "last_updated": "2026-09-07T08:53:10+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 285,
-  "remaining_unaudited": 99,
+  "audited_count": 290,
+  "remaining_unaudited": 94,
   "blocked_count": 0,
   "documents": [
     {
@@ -3713,6 +3713,71 @@
       "validation_passed": true,
       "last_audit_commit": "589708b950174f1786ddf04fd3bc93a0f7651c84",
       "audit_notes": "Rebuilt 9/3/3 revised four-column groups with required knowledge and skills; restored 52 curriculum rows, 4 assessment arrangements, and 4 glossary entries, preserved Promulgated (12/17/2019), the 1 through 111 printed-page sequence, and the 37/20/200/200-hour components with 457-hour total, recorded the Section 1 line-break anomaly for 400311217, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Milking Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Milking Operation NC II",
+      "source_file": "resources/Training Regulations/Milking Operation NC II.pdf",
+      "source_sha256": "5d026bb3c00b45da6a88d7c2aaaadacf7e2472a2dba5a7d2c0ed3f6ed42fc79d",
+      "status": "audited",
+      "audited_at": "2026-09-07T08:53:10+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "862b4a2ba5e9d9d2387021ae4c47ac8e53861706",
+      "audit_notes": "Rebuilt 4/5/3 revised four-column groups; restored 37 curriculum rows, 4 assessment arrangements, and 1 glossary entry, preserved Promulgated February 3, 2017, the 1 through 102 printed-page sequence, and the 20/72/68-hour components with 160-hour total, recorded the source table-order extraction anomaly and spaced source codes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Mobile Phones and Handheld Gadgets Servicing NC III",
+      "package_path": "resources/Training Regulations/indexed/Mobile Phones and Handheld Gadgets Servicing NC III",
+      "source_file": "resources/Training Regulations/Mobile Phones and Handheld Gadgets Servicing NC III.pdf",
+      "source_sha256": "3932fe5ee21322a5c99c08367abd87553c7e87c05a784a946a8187010d0fa197",
+      "status": "audited",
+      "audited_at": "2026-09-07T08:53:10+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "862b4a2ba5e9d9d2387021ae4c47ac8e53861706",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups with required knowledge and skills; restored 71 curriculum rows, 2 assessment arrangements, and 79 glossary entries, preserved Promulgated February 9, 2021, the 1 through 131 printed-page sequence, and the 40/52/280/300-hour components with 672-hour total, recorded Section 1 versus Section 2 common-code discrepancies and the source 'identity' wording, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Mold Designing NC IV",
+      "package_path": "resources/Training Regulations/indexed/Mold Designing NC IV",
+      "source_file": "resources/Training Regulations/Mold Designing NC IV.pdf",
+      "source_sha256": "17fcf333f392539fc4c20d7cde0d2042aef0eacfbb6a53db41fd84c12b32f270",
+      "status": "audited",
+      "audited_at": "2026-09-07T08:53:10+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "862b4a2ba5e9d9d2387021ae4c47ac8e53861706",
+      "audit_notes": "Rebuilt 9/11/5 revised four-column groups with required knowledge and skills; restored 87 curriculum rows, 2 assessment arrangements, and 3 glossary entries, preserved Promulgated 05/21/2019, the 1 through 140 printed-page sequence, and the 47/120/232-hour components with 399-hour total, repaired the source 5.1-5.3 curriculum numbering association for Interpret working drawings and sketches, recorded the Section 1 'Utilized' versus competency-header 'Utilize' variation, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Mold Making NC III",
+      "package_path": "resources/Training Regulations/indexed/Mold Making NC III",
+      "source_file": "resources/Training Regulations/Mold Making NC III.pdf",
+      "source_sha256": "d705ec5fa4504b4bed588183de7444cea01bc904443268804608cc6e13689747",
+      "status": "audited",
+      "audited_at": "2026-09-07T08:53:10+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "862b4a2ba5e9d9d2387021ae4c47ac8e53861706",
+      "audit_notes": "Rebuilt 9/11/4 revised four-column groups with required knowledge and skills; restored 93 curriculum rows, 2 assessment arrangements, and 4 glossary entries, preserved Promulgated 05/21/2019, the 1 through 144 printed-page sequence, and the 40/120/452-hour components with 612-hour total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Moldmaking NC II",
+      "package_path": "resources/Training Regulations/indexed/Moldmaking NC II",
+      "source_file": "resources/Training Regulations/Moldmaking NC II.pdf",
+      "source_sha256": "978b011ee75d92ea461b3ac6d63b8d61e30eea366f777fcf5c43599d5895f37e",
+      "status": "audited",
+      "audited_at": "2026-09-07T08:53:10+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "862b4a2ba5e9d9d2387021ae4c47ac8e53861706",
+      "audit_notes": "Rebuilt 4/4/2 historical two-column groups; restored 30 curriculum rows, 7 assessment arrangements, and 3 definition-of-terms entries, preserved Promulgated 2004, the 1 through 47 printed-page sequence, and the 18/20/68-hour components with 106-hour total, and retained historical terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
