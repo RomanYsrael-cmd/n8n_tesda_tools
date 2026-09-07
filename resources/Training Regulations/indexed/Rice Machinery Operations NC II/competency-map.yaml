@@ -4,67 +4,54 @@
   "document_id": "tesda:tr:rice-machinery-operations-nc-ii:ea789b3f7b",
   "qualification": "RICE MACHINERY OPERATIONS NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "AGR321202",
-        "title": "required to use farm tools and equipment. It includes"
-      },
-      {
-        "unit_code": "AGR321203",
-        "title": "required to perform basic workplace calculations."
-      },
-      {
-        "unit_code": "AGR611361",
-        "title": "required to operate rice land preparation machinery and"
-      },
-      {
-        "unit_code": "AGR611365",
-        "title": "required in operating rice drying machinery and"
-      },
-      {
-        "unit_code": "AGR611366",
-        "title": "required to operate rice milling machinery and"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AGR321201",
-        "title": "required to perform safety measures effectively and"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "AGR611362",
-        "title": "required to operate rice crop establishment machinery"
-      },
-      {
-        "unit_code": "AGR611363",
-        "title": "required to operate rice crop care machinery and"
-      },
-      {
-        "unit_code": "AGR611364",
-        "title": "required to operate rice harvesting and threshing"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\n\n59",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR321201",
+        "AGR321202",
+        "AGR321203"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use farm tools and equipment",
+        "Perform estimation and calculations"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AGR611361",
+        "AGR611362",
+        "AGR611363",
+        "AGR611364",
+        "AGR611365",
+        "AGR611366"
+      ],
+      "unit_titles": [
+        "Operate rice land preparation machinery and equipment",
+        "Operate rice crop establishment machinery and equipment",
+        "Operate rice crop care machinery and equipment",
+        "Operate rice harvesting and threshing machinery and equipment",
+        "Operate rice drying machinery and equipment",
+        "Operate rice mill machinery and equipment"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1 RICE MACHINERY OPERATIONS NC II QUALIFICATION\n\nThe RICE MACHINERY OPERATIONS NC II Qualification consists of competencies\nthat a person must achieve in the operation and basic routine maintenance of rice\nmachinery for land preparation, crop establishment, crop care, harvesting and\nthreshing, drying and milling.\n\nThis Qualification is packaged from the competency map of the Agri-Fishery Sector\nas shown in Annex A.\n\nThe units of competency comprising this qualification includes the following:\n\nCode\nBASIC COMPETENCIES\n500311105\nParticipate in workplace communication\n500311106\nWork in a team environment\n500311107\nPractice career professionalism\n500311108\nPractice occupational health and safety procedures\n\nCode\nCOMMON COMPETENCIES\nAGR321201\nApply safety measures in farm operations\nAGR321202\nUse farm tools and equipment\nAGR321203\nPerform estimation and calculations\n\nCode\nCORE COMPETENCIES\nAGR611361\nOperate rice land preparation machinery and equipment\nAGR611362\nOperate rice crop establishment machinery and equipment\nAGR611363\nOperate rice crop care machinery and equipment\nAGR611364\nOperate rice harvesting and threshing machinery and equipment\nAGR611365\nOperate rice drying machinery and equipment\nAGR611366\nOperate rice mill machinery and equipment\n\nA person who has achieved this Qualification is competent to be:\n\n•\nRice Land Preparation Machinery Operator (Hand Tractor, 4-Wheel Tractor)\n•\nRice Crop Establishment Machinery Operator (Manual Seeder, Motorized Seeder,\nRice Transplanter)\n•\nRice Crop Care Machinery Operator (Irrigation Pump, Cultivator, Sprayer, Fertilizer\nApplicator)\n•\nRice Harvesting and Threshing Machinery Operator (Reaper, Stripper, Combine,\nThresher)\n•\nRice Drying Machinery Operator (Batch, Continuous Flow Dryer)\n•\nRice Mill Machinery Operator (Single-Pass, Multi-Pass)\n•\nRice Machinery Operator\n\nA person/candidate is granted a National Certificate under this qualification\nonce they achieve all the basic and common units plus any three (3) of the above\ncore units of competency on rice machinery operation.\n\n--- PDF PAGE 4 ---\nTR – Rice Machinery Operations NC II Promulgated\n\n2"
 }

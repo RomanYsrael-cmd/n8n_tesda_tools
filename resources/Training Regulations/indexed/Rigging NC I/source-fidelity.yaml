@@ -1,29 +1,141 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:rigging-nc-i:566e86cea6",
-  "qualification": "Rigging - NC I",
+  "qualification": "RIGGING NC I",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Rigging NC I.pdf",
-    "sha256": "566e86cea66edb94d1f4c4fd5a72033dd42a70d062f080adb338d479236d9283",
+    "source_sha256": "566e86cea66edb94d1f4c4fd5a72033dd42a70d062f080adb338d479236d9283",
+    "pdf_pages": 63,
+    "printed_pages": null,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation for Heavy Equipment Operation - Rigging NC I with no visible Promulgated date or consistent printed page numbering; the canonical qualification label is normalized to Rigging NC I while source_text preserves the Heavy Equipment Operation title.",
+    "Section 1 lists 4 Basic, 4 Common, and 3 Core units with the occupational outcome Rigger; the curriculum table reuses generic basic labels rather than the Section 1 unit titles, so curriculum rows are mapped by source order with source titles retained.",
+    "The competency header for Demonstrate work values prints the truncated source code 50031103, while Section 1 uses 500311103; source_unit_code preserves the source form.",
+    "The curriculum contains legacy numbering anomalies, including common outcomes beginning at 4.1 and 5.1 and an omitted 2.6 in Install Rigging Gears; the indexed curriculum preserves source outcome numbers and text.",
+    "The source prints 18 Basic, 18 Common, and 80 Core hours in separate curriculum blocks; the canonical duration records the 116-hour arithmetic total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation for Heavy Equipment Operation - Rigging NC I with no visible Promulgated date or consistent printed page numbering; the canonical qualification label is normalized to Rigging NC I while source_text preserves the Heavy Equipment Operation title."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 4 Basic, 4 Common, and 3 Core units with the occupational outcome Rigger; the curriculum table reuses generic basic labels rather than the Section 1 unit titles, so curriculum rows are mapped by source order with source titles retained."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The competency header for Demonstrate work values prints the truncated source code 50031103, while Section 1 uses 500311103; source_unit_code preserves the source form."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The curriculum contains legacy numbering anomalies, including common outcomes beginning at 4.1 and 5.1 and an omitted 2.6 in Install Rigging Gears; the indexed curriculum preserves source outcome numbers and text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 18 Common, and 80 Core hours in separate curriculum blocks; the canonical duration records the 116-hour arithmetic total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Rigging NC I.pdf",
-    "pdf_pages": 63,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311101",
+      "source_unit_code": "500311101",
+      "pdf_page_range": [
+        4,
+        5
+      ]
+    },
+    {
+      "unit_code": "500311102",
+      "source_unit_code": "500311102",
+      "pdf_page_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311103",
+      "source_unit_code": "50031103",
+      "pdf_page_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311104",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "CON721301",
+      "source_unit_code": "CON721301",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "CON721302",
+      "source_unit_code": "CON721302",
+      "pdf_page_range": [
+        37,
+        42
+      ]
+    },
+    {
+      "unit_code": "CON721303",
+      "source_unit_code": "CON721303",
+      "pdf_page_range": [
+        43,
+        45
+      ]
+    }
+  ]
 }
