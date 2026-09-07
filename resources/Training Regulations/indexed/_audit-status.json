@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T11:13:05+08:00",
+  "last_updated": "2026-09-07T11:30:19+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 320,
-  "remaining_unaudited": 64,
+  "audited_count": 325,
+  "remaining_unaudited": 59,
   "blocked_count": 0,
   "documents": [
     {
@@ -4168,6 +4168,71 @@
       "validation_passed": true,
       "last_audit_commit": "d948826cc6faa0d74fcc7b47866ef75a669d240b",
       "audit_notes": "Rebuilt 6/2/2 superseded historical two-column groups; restored 43 curriculum rows, 5 assessment arrangements, and 25 glossary entries, preserved the superseded lifecycle, Promulgated December 2013, and the 64/16/160-hour components with 240-hour total, recorded the ICT/506 source-code variants, Java Programming course-title variant, superseded Java SE 7 Programmer I/II certification route, Oracle Workforce Development material, and broader ICT competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Programming (Oracle Database) NC III",
+      "package_path": "resources/Training Regulations/indexed/Programming (Oracle Database) NC III",
+      "source_file": "resources/Training Regulations/Programming (Oracle Database) NC III.pdf",
+      "source_sha256": "d793494be448a7fdc8b3acc7a6d538d75d58cdbd7e87d7ee6521c2b02be7d4cd",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:30:19+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "11f3a7bed9537bbc3ca58cbd4cf4b24c13619311",
+      "audit_notes": "Rebuilt 6/2/3 historical two-column groups; restored 44 curriculum rows, 6 assessment arrangements, and 25 glossary entries, preserved Promulgated December 2013 and the 64/16/160-hour components with 240-hour total, repaired the 3.1 Training Delivery boundary bleed, recorded the ICT/506 common-code variants and shifted ICT313362/ICT313363 versus the printed ICT313363/ICT313364 headers, documented Oracle Workforce Development and certification requirements, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Public Employment Services NC IV",
+      "package_path": "resources/Training Regulations/indexed/Public Employment Services NC IV",
+      "source_file": "resources/Training Regulations/Public Employment Services NC IV.pdf",
+      "source_sha256": "aa3cc1e88c02833c718c2d46c1efc7ba3d9f7f103288fea5b861cdb03142782a",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:30:19+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "11f3a7bed9537bbc3ca58cbd4cf4b24c13619311",
+      "audit_notes": "Rebuilt 9/4/5 revised four-column groups with required knowledge and skills; restored 67 curriculum rows, 2 assessment arrangements, and 43 glossary entries, preserved Promulgated 12/17/2019 and the 47/37/785-hour components with 224-hour SIL and 1093-hour total, recorded the SOC341305 Section 1 versus SOC341306 competency-header discrepancy, contextual-learning and MLC-2006 material, and detailed PES assessment route, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "PV System Design NC III",
+      "package_path": "resources/Training Regulations/indexed/PV System Design NC III",
+      "source_file": "resources/Training Regulations/PV System Design NC III.pdf",
+      "source_sha256": "7719dc15e3a2ed279a83ae9432a7524a940f97fdd62937cea068b2be2d6bb4a6",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:30:19+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "11f3a7bed9537bbc3ca58cbd4cf4b24c13619311",
+      "audit_notes": "Rebuilt 6/5/4 historical two-column groups; restored 44 curriculum rows, 5 assessment arrangements, and 13 glossary entries, preserved the undated Promulgated label and the 20/72/56-hour components with 148-hour total, recorded the MANTAIN source spelling, singular/plural PV System(s) Design title variants, and PV designer occupational outcomes, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "PV Systems Installation NC II",
+      "package_path": "resources/Training Regulations/indexed/PV Systems Installation NC II",
+      "source_file": "resources/Training Regulations/PV Systems Installation NC II.pdf",
+      "source_sha256": "10ca0a6ded0b31b1f419773561710a677e795b62a3fd77e54a364d51cbe6d178",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:30:19+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "11f3a7bed9537bbc3ca58cbd4cf4b24c13619311",
+      "audit_notes": "Rebuilt 4/5/4 historical two-column groups; restored 47 curriculum rows, 5 assessment arrangements, and 12 glossary entries, preserved the undated Promulgated label and the 18/72/194-hour components with 284-hour total, recovered CON724325 from the split Perform Site Assessment header, recorded the singular PV System Installation Section 1 heading versus plural qualification title, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "PV Systems Servicing NC III",
+      "package_path": "resources/Training Regulations/indexed/PV Systems Servicing NC III",
+      "source_file": "resources/Training Regulations/PV Systems Servicing NC III.pdf",
+      "source_sha256": "6566dcc3a077cff5539d8eae03deba8e932d18884a48e28b9d763848d677d32a",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:30:19+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "11f3a7bed9537bbc3ca58cbd4cf4b24c13619311",
+      "audit_notes": "Rebuilt 6/5/3 historical two-column groups; restored 42 curriculum rows, 5 assessment arrangements, and 12 glossary entries, preserved the undated Promulgated label and the 20/72/66-hour components with 158-hour total, repaired the first common-unit learning-outcome numbering anomaly by preserving source 2.1–2.3 provenance while mapping it to CON724201 1.1–1.3, recorded the MANTAIN spelling and truncated Section 3 course title, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
