@@ -1,29 +1,165 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:shielded-metal-arc-welding-smaw-nc-ii:580b0316c1",
-  "qualification": "SHIELDED METAL ARC WELDING (SMAW) NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:shielded-metal-arc-welding-smaw-nc-ii-superseded:580b0316c1",
+  "qualification": "SHIELDED METAL ARC WELDING (SMAW) NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Shielded Metal Arc Welding (SMAW) NC II (Superseded).pdf",
-    "sha256": "580b0316c168195bc92306d81f7d5404193cfd883a1310ab4927b8ebf1e60792",
+    "authority": "TESDA",
+    "source_file": "Shielded Metal Arc Welding (SMAW) NC II (Superseded).pdf",
+    "source_sha256": "580b0316c168195bc92306d81f7d5404193cfd883a1310ab4927b8ebf1e60792",
+    "pdf_pages": 60,
+    "printed_pages": 58,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained.",
+    "The source is a historical two-column regulation with 4 Basic, 9 Common, and 1 Core unit. Section 3 prints 18 Basic, 56 Common, and 194 Core hours; no printed grand-total line is present, so the canonical total is the arithmetic sum of 268 hours.",
+    "Section 1 prints MEE722201 for Apply Safety Practices, but its unit header prints MEE721201; the canonical inventory follows Section 1 and source_codes preserves the header discrepancy.",
+    "The Section 3 curriculum uses a different common-unit order and includes both Weld Carbon Steel Plates Using SMAW and Weld Carbon Steel Plates and Pipes Using SMAW rows, while Section 1 lists only the latter core unit; curriculum rows are reassociated by their printed common-unit numbers and source titles remain available. The repeated /04/05 footer is excluded from the parsed competency element list as a page-header artifact.",
+    "Common unit headers for Prepare Weld Materials through Repair Welds print the shorter UNIT TITLE and DESCRIPTOR labels; Section 4 preserves the historical SMAW II naming and nine welding glossary terms."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation with 4 Basic, 9 Common, and 1 Core unit. Section 3 prints 18 Basic, 56 Common, and 194 Core hours; no printed grand-total line is present, so the canonical total is the arithmetic sum of 268 hours."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints MEE722201 for Apply Safety Practices, but its unit header prints MEE721201; the canonical inventory follows Section 1 and source_codes preserves the header discrepancy."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 curriculum uses a different common-unit order and includes both Weld Carbon Steel Plates Using SMAW and Weld Carbon Steel Plates and Pipes Using SMAW rows, while Section 1 lists only the latter core unit; curriculum rows are reassociated by their printed common-unit numbers and source titles remain available. The repeated /04/05 footer is excluded from the parsed competency element list as a page-header artifact."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Common unit headers for Prepare Weld Materials through Repair Welds print the shorter UNIT TITLE and DESCRIPTOR labels; Section 4 preserves the historical SMAW II naming and nine welding glossary terms."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Shielded Metal Arc Welding (SMAW) NC II (Superseded).pdf",
-    "pdf_pages": 60,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "MEE722201",
+      "source_unit_code": "MEE721201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "MEE721202",
+      "source_unit_code": "MEE721202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "MEE721203",
+      "source_unit_code": "MEE721203",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "MEE721204",
+      "source_unit_code": "MEE721204",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "MEE721205",
+      "source_unit_code": "MEE721205",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "MEE721206",
+      "source_unit_code": "MEE721206",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "MEE721207",
+      "source_unit_code": "MEE721207",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "MEE721208",
+      "source_unit_code": "MEE721208",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    },
+    {
+      "unit_code": "MEE721209",
+      "source_unit_code": "MEE721209",
+      "pdf_page_range": [
+        43,
+        45
+      ]
+    },
+    {
+      "unit_code": "MEE721306",
+      "source_unit_code": "MEE721306",
+      "pdf_page_range": [
+        46,
+        48
+      ]
+    }
+  ]
 }
