@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T13:06:35+08:00",
+  "last_updated": "2026-09-07T13:38:28+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 345,
-  "remaining_unaudited": 39,
+  "audited_count": 350,
+  "remaining_unaudited": 34,
   "blocked_count": 0,
   "documents": [
     {
@@ -4493,6 +4493,71 @@
       "validation_passed": true,
       "last_audit_commit": "980dd9feb6f847cf46d747d7c4ef18aa66efbd11",
       "audit_notes": "Rebuilt 4/2/5 historical two-column groups; restored 38 curriculum rows, 9 assessment arrangements, and 60 glossary/acronym entries, preserved the undated promulgation context and 18/40/165-hour components with 223-hour total, accepted the source's UNIT DESCRIPTION heading for Secure territorial jurisdiction, and retained the National Certificate II and historical PNP-SAGSD/RA 5487 wording; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Semiconductor Back-End Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Semiconductor Back-End Operation NC II",
+      "source_file": "resources/Training Regulations/Semiconductor Back-End Operation NC II.pdf",
+      "source_sha256": "862590a88af50680ec02f1074f517cab3d224c8778fdd770a30f1fa0cab894b1",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:38:28+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "3357aeb0ef63e986d88493e6401497ee98fe3c8b",
+      "audit_notes": "Rebuilt the revised four-column 4/3/3 unit inventory; restored 34 curriculum rows, 2 assessment arrangements, and 39 glossary entries, preserved the Dec. 16, 2015 New source, 16/16/48-hour components and 80-hour total, corrected the source-specific table-column geometry for required knowledge and skills, and retained back-end spelling/footer variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Semiconductor Front-of-Line Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Semiconductor Front-of-Line Operation NC II",
+      "source_file": "resources/Training Regulations/Semiconductor Front-of-Line Operation NC II.pdf",
+      "source_sha256": "70ac05246ea1ad99991d2ff5a4b65aae0b20bf4342197316c1936ae959882889",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:38:28+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "3357aeb0ef63e986d88493e6401497ee98fe3c8b",
+      "audit_notes": "Rebuilt the revised four-column 4/3/3 unit inventory; restored 34 curriculum rows, 4 assessment arrangements, and 39 glossary entries, preserved the Dec. 16, 2015 New source, 16/16/48-hour components and 80-hour total, mapped the source's 1.x/4.x/5.x common curriculum numbering, and retained the TR-SEMICONDACTOR and Setup/Set up variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Shielded Metal Arc Welding (SMAW) NC I (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Shielded Metal Arc Welding (SMAW) NC I (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Shielded Metal Arc Welding (SMAW) NC I (Superseded).pdf",
+      "source_sha256": "76b37ba96236dd5b4b4be277d6db80fba8e526a9388848fa332fde3812d4ea4e",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:38:28+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "3357aeb0ef63e986d88493e6401497ee98fe3c8b",
+      "audit_notes": "Rebuilt the historical two-column 4/9/1 unit inventory; restored 50 curriculum rows, 6 assessment arrangements, and 9 welding glossary entries, preserved the superseded lifecycle and 01/04/05 source context, retained the 28/56/184-hour components with arithmetic 268-hour total, and preserved historical UNIT TITLE/DESCRIPTOR and Welding NC I (SMAW) wording; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Shielded Metal Arc Welding (SMAW) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Shielded Metal Arc Welding (SMAW) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Shielded Metal Arc Welding (SMAW) NC II (Superseded).pdf",
+      "source_sha256": "580b0316c168195bc92306d81f7d5404193cfd883a1310ab4927b8ebf1e60792",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:38:28+08:00",
+      "issues_found": 5,
+      "issues_fixed": 5,
+      "validation_passed": true,
+      "last_audit_commit": "3357aeb0ef63e986d88493e6401497ee98fe3c8b",
+      "audit_notes": "Rebuilt the historical two-column 4/9/1 unit inventory; restored 58 curriculum rows, 5 assessment arrangements, and 9 welding glossary entries, preserved the superseded lifecycle and 01/04/05 source context, retained MEE722201 versus MEE721201 header provenance, reassociated the source's reordered common curriculum and extra core row, preserved the 18/56/194-hour components with arithmetic 268-hour total, and removed the repeated /04/05 footer artifact from competency elements; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Shielded Metal Arc Welding (SMAW) NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Shielded Metal Arc Welding (SMAW) NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Shielded Metal Arc Welding (SMAW) NC III (Superseded).pdf",
+      "source_sha256": "1185ec3adc5d4cde689f62c7bad1cc7e1cbb8e59aad857d4f5e809c5ee85aa7b",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:38:28+08:00",
+      "issues_found": 5,
+      "issues_fixed": 5,
+      "validation_passed": true,
+      "last_audit_commit": "3357aeb0ef63e986d88493e6401497ee98fe3c8b",
+      "audit_notes": "Rebuilt the historical two-column 6/9/1 unit inventory; restored 55 curriculum rows, 6 assessment arrangements, and 9 welding glossary entries, preserved the superseded lifecycle and 01/04/05 source context, retained MEE721313 versus MEE721113 and 3500311113 versus 500311113 source-code provenance, recovered the CORE COMETENCIES curriculum section, and preserved the 20/56/44-hour components with 120-hour total; structural validation and visual boundary QA passed."
     }
   ]
 }
