@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T14:00:55+08:00",
+  "last_updated": "2026-09-07T14:39:25+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 355,
-  "remaining_unaudited": 29,
+  "audited_count": 360,
+  "remaining_unaudited": 24,
   "blocked_count": 0,
   "documents": [
     {
@@ -4623,6 +4623,71 @@
       "validation_passed": true,
       "last_audit_commit": "5175dffa8bc241462320d510e9f3a7fad5e9e81f",
       "audit_notes": "Rebuilt the revised four-column 4/5/4 unit inventory; restored 48 curriculum rows, 2 assessment arrangements, and 30 glossary entries with split-number formatting handled, preserved the March 2016 amended source and 20/20/240-hour components with 280-hour total, retained PFB741xxx Section 1 versus PFB751xxx unit-header provenance and the visible ZZUse curriculum anomaly; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Speed Limitation Device Servicing NC II",
+      "package_path": "resources/Training Regulations/indexed/Speed Limitation Device Servicing NC II",
+      "source_file": "resources/Training Regulations/Speed Limitation Device Servicing NC II.pdf",
+      "source_sha256": "e1b9e8668f8d7eac213f06c57514fee537706bd1ef5fe7f7f0e98607834a467a",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:39:25+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "35f23dcf250b5bc0ecec78ca586a89fad46b05bb",
+      "audit_notes": "Audited 9/6/3 revised four-column groups; preserved 37/122/25-hour components plus 93-hour SIL and 277-hour total, repaired wrapped glossary entries and validated source fidelity/semantic selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Structural Erection NC II",
+      "package_path": "resources/Training Regulations/indexed/Structural Erection NC II",
+      "source_file": "resources/Training Regulations/Structural Erection NC II.pdf",
+      "source_sha256": "5984310e2802e0f144c6d37ebc138373ee3b4c836c0eeb7064f65ed41281d16d",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:39:25+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "35f23dcf250b5bc0ecec78ca586a89fad46b05bb",
+      "audit_notes": "Audited 4/5/3/2 historical two-column basic/common/core/elective groups; preserved 18/24/120/32-hour components and 194-hour total, disambiguated duplicate CON713346 with a non-regulatory elective retrieval key while retaining source code, repaired wrapped glossary entries and validated source fidelity/semantic selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Submerged Arc Welding (SAW) NC I",
+      "package_path": "resources/Training Regulations/indexed/Submerged Arc Welding (SAW) NC I",
+      "source_file": "resources/Training Regulations/Submerged Arc Welding (SAW) NC I.pdf",
+      "source_sha256": "043983491b58753422992915ad91dccdf08d5c7e12b946a82ce19971ba382b8e",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:39:25+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "35f23dcf250b5bc0ecec78ca586a89fad46b05bb",
+      "audit_notes": "Audited 4/9/1 historical two-column groups; preserved 28/56/40-hour components and 124-hour total, retained the MEE721103 core-header variant against Section 1 MEE721303, repaired singular range-heading extraction and validated source fidelity/semantic selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Submerged Arc Welding (SAW) NC II",
+      "package_path": "resources/Training Regulations/indexed/Submerged Arc Welding (SAW) NC II",
+      "source_file": "resources/Training Regulations/Submerged Arc Welding (SAW) NC II.pdf",
+      "source_sha256": "a248668e1a07f4ac66531af1f14a0757e0ec20d9df6aa44b3ecab0b61f5bb7ad",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:39:25+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "35f23dcf250b5bc0ecec78ca586a89fad46b05bb",
+      "audit_notes": "Audited 4/9/1 historical two-column groups; preserved 18/56/120-hour components and 194-hour total, retained MEE721201/MEE721108 header variants, remapped the reordered common curriculum, repaired singular range-heading extraction and validated source fidelity/semantic selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "Sugarcane Production NC II",
+      "package_path": "resources/Training Regulations/indexed/Sugarcane Production NC II",
+      "source_file": "resources/Training Regulations/Sugarcane Production NC II.pdf",
+      "source_sha256": "20801504c784e42ba3ad886ffc5c4efd860c29b5797735c1eab594a7caa10778",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:39:25+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "35f23dcf250b5bc0ecec78ca586a89fad46b05bb",
+      "audit_notes": "Audited 4/3/4 revised four-column groups; preserved 20/72/511-hour components and 603-hour total, restored required knowledge/skills across wrapped bullet columns, repaired 51-entry glossary extraction and validated source fidelity/semantic selectors; structural validation passed and visual boundary QA passed."
     }
   ]
 }
