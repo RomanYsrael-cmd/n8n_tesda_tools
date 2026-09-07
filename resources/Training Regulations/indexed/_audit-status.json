@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T10:09:06+08:00",
+  "last_updated": "2026-09-07T10:24:49+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 305,
-  "remaining_unaudited": 79,
+  "audited_count": 310,
+  "remaining_unaudited": 74,
   "blocked_count": 0,
   "documents": [
     {
@@ -3973,6 +3973,71 @@
       "validation_passed": true,
       "last_audit_commit": "fc1bb01173dac7e2f403031a1b3264bbb89565bd",
       "audit_notes": "Rebuilt 4/5/4 superseded historical two-column groups; restored 36 curriculum rows, 5 assessment arrangements, and 4 glossary entries, preserved the superseded lifecycle, missing promulgation date, 1 through 72 printed-page sequence, and the 18/24/160-hour components with normalized 202-hour arithmetic total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Plant Maintenance NC I",
+      "package_path": "resources/Training Regulations/indexed/Plant Maintenance NC I",
+      "source_file": "resources/Training Regulations/Plant Maintenance NC I.pdf",
+      "source_sha256": "0a54d4c2e85fda87921211f2935297cf059e9de7b6711fa1d3149d6183f40839",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:24:49+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "5a97afe936a83469002952231773cb38518c43cf",
+      "audit_notes": "Rebuilt 4/4/4 historical two-column groups; restored 62 curriculum rows, 4 assessment arrangements, and 20 glossary entries, preserved the single 358-hour nominal duration and Promulgated 12/02/07, recorded the NC I/NC II table-of-contents discrepancy, core numbering and spelling variants, and corrective-versus-planned-maintenance wording difference, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Plastic Machine Operation NC II",
+      "package_path": "resources/Training Regulations/indexed/Plastic Machine Operation NC II",
+      "source_file": "resources/Training Regulations/Plastic Machine Operation NC II.pdf",
+      "source_sha256": "66f7644395cf53114bf74dda382a117f3bd85a2326b1fcae29c043614538ba2c",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:24:49+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "5a97afe936a83469002952231773cb38518c43cf",
+      "audit_notes": "Rebuilt 4/4/7 historical two-column groups; restored 50 curriculum rows, 6 assessment arrangements, and 7 glossary entries, preserved the 18/20/105-hour components with normalized 143-hour total and the undated Promulgated label, recorded the common-curriculum 4.x numbering drift and composite/moulding terminology variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Plastic Machine Operation NC III",
+      "package_path": "resources/Training Regulations/indexed/Plastic Machine Operation NC III",
+      "source_file": "resources/Training Regulations/Plastic Machine Operation NC III.pdf",
+      "source_sha256": "0b9e61eb8e9eac9d725bd5a1049d99ce9bdafcc2e013fb86578359cefdc28566",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:24:49+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "5a97afe936a83469002952231773cb38518c43cf",
+      "audit_notes": "Rebuilt 6/4/4 historical two-column groups; restored 46 curriculum rows, 6 assessment arrangements, and 6 glossary entries, preserved the 20/20/105-hour components with normalized 145-hour total and the undated Promulgated label, recorded NC II labels in the cover/course title, negotiation and shop-maintenance numbering variants, and the summarized Section 4 COC wording, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Plumbing NC I",
+      "package_path": "resources/Training Regulations/indexed/Plumbing NC I",
+      "source_file": "resources/Training Regulations/Plumbing NC I.pdf",
+      "source_sha256": "72b703c53b45d0ee5083f2dd06ac8e1b4da78fdda032e5a361eb132bfb81b96d",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:24:49+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "5a97afe936a83469002952231773cb38518c43cf",
+      "audit_notes": "Rebuilt 4/4/4 amended revised four-column groups with required knowledge and skills; restored 37 curriculum rows, 2 assessment arrangements, and 11 glossary entries, preserved Promulgated October 2014 and the 28/20/120/168-hour duration, pinned the visible Section 3/4 boundaries past the table-of-contents offsets, recorded broader competency-map coverage and glossary numbering/spelling variants, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Plumbing NC II",
+      "package_path": "resources/Training Regulations/indexed/Plumbing NC II",
+      "source_file": "resources/Training Regulations/Plumbing NC II.pdf",
+      "source_sha256": "8d13c8bbe5af365b2f4ba83f8ae63233c6231a0e1de42861597ac284a29e2dd3",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:24:49+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "5a97afe936a83469002952231773cb38518c43cf",
+      "audit_notes": "Rebuilt 4/4/4 amended revised four-column groups with required knowledge and skills; restored 36 curriculum rows, 5 assessment arrangements, and 10 glossary entries, preserved Promulgated October 2014 and the 18/24/160/202-hour duration, recorded the broader competency map and Section 4 numbering variants including 4.12 and 4.13, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
