@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T10:56:05+08:00",
+  "last_updated": "2026-09-07T11:13:05+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 315,
-  "remaining_unaudited": 69,
+  "audited_count": 320,
+  "remaining_unaudited": 64,
   "blocked_count": 0,
   "documents": [
     {
@@ -4103,6 +4103,71 @@
       "validation_passed": true,
       "last_audit_commit": "b2812f4d9679fb8153ad385682647d19478cd20d",
       "audit_notes": "Rebuilt 9/4/5 revised four-column groups with required knowledge and skills; restored 56 curriculum rows, 2 assessment arrangements, and 48 glossary entries, preserved the 37/45/200/282-hour duration and December 2023 source date, recorded revision history, the qualification/title variant, the OCR-split knowledge header, and the SOC532310 source-code discrepancy remapped to SOC732310, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Process Inspection NC II",
+      "package_path": "resources/Training Regulations/indexed/Process Inspection NC II",
+      "source_file": "resources/Training Regulations/Process Inspection NC II.pdf",
+      "source_sha256": "ebdc6bf11af72dce76a2d2c6446d304c0fb35d0cebe7bb82de920aad7e222c8a",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:13:05+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "d948826cc6faa0d74fcc7b47866ef75a669d240b",
+      "audit_notes": "Rebuilt 4/4/4 historical two-column groups; restored 38 curriculum rows, 5 assessment arrangements, and 11 glossary entries, preserved the undated Promulgated label and the 18/20/60-hour components with normalized 98-hour arithmetic total, recorded the ALT723204/ALT723205 source-code discrepancy, core-heading and Process Inspection title variants, and the broader Automotive Manufacturing competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Process Inspection NC III",
+      "package_path": "resources/Training Regulations/indexed/Process Inspection NC III",
+      "source_file": "resources/Training Regulations/Process Inspection NC III.pdf",
+      "source_sha256": "7624e9773d432d8644f78036271a2add4665054f07ef2c1800ecfcc4495bfa1e",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:13:05+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "d948826cc6faa0d74fcc7b47866ef75a669d240b",
+      "audit_notes": "Rebuilt 6/4/3 historical two-column groups; restored 39 curriculum rows, 5 assessment arrangements, and 11 glossary entries, preserved the undated Promulgated label and the 20/20/45-hour components with normalized 85-hour arithmetic total, recorded the ALT723204/ALT723205 source-code discrepancy, truncated Section 3 course-title variant, Process Inspection Leader outcome, and broader Automotive Manufacturing competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Programming (.Net Technology) NC III",
+      "package_path": "resources/Training Regulations/indexed/Programming (.Net Technology) NC III",
+      "source_file": "resources/Training Regulations/Programming (.Net Technology) NC III.pdf",
+      "source_sha256": "24120134a1b2a2df9b7d8354acc2a06687a23838ae8006d2dd7cf0699b5cc2ca",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:13:05+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "d948826cc6faa0d74fcc7b47866ef75a669d240b",
+      "audit_notes": "Rebuilt 6/2/2 historical two-column groups; restored 44 curriculum rows, 5 assessment arrangements, and 25 glossary entries, preserved Promulgated December 2013 and the 64/16/120-hour components plus 352-hour S.I.T. with 552-hour total, recorded the ICT/506 source-code variants, .NET title variants, Microsoft-certification assessment route, and broader ICT competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Programming (JAVA) NC III",
+      "package_path": "resources/Training Regulations/indexed/Programming (JAVA) NC III",
+      "source_file": "resources/Training Regulations/Programming (JAVA) NC III.pdf",
+      "source_sha256": "672a225580065b7f452a4b8573d6c31db120ef391e4498425ee48e4ac575c5d8",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:13:05+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "d948826cc6faa0d74fcc7b47866ef75a669d240b",
+      "audit_notes": "Rebuilt 6/2/2 historical two-column groups; restored 43 curriculum rows, 7 assessment arrangements, and 25 glossary entries, preserved Promulgated June 8, 2021 and the 64/16/160-hour components with 240-hour total, recorded the ICT/506 source-code variants, Java Programming course-title variant, Oracle Java SE 8 certification requirements, repeated trainee-entry text, and broader ICT competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Programming (JAVA) NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Programming (JAVA) NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Programming (JAVA) NC III (Superseded).pdf",
+      "source_sha256": "722cedacfd2932a95a0b85f95fc5dd518925d3f07916800ab83fb454a508f261",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:13:05+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "d948826cc6faa0d74fcc7b47866ef75a669d240b",
+      "audit_notes": "Rebuilt 6/2/2 superseded historical two-column groups; restored 43 curriculum rows, 5 assessment arrangements, and 25 glossary entries, preserved the superseded lifecycle, Promulgated December 2013, and the 64/16/160-hour components with 240-hour total, recorded the ICT/506 source-code variants, Java Programming course-title variant, superseded Java SE 7 Programmer I/II certification route, Oracle Workforce Development material, and broader ICT competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
