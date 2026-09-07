@@ -1,62 +1,53 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:scaffold-erection-nc-ii:2007-07",
-  "qualification": "SCAFFOLD ERECTION NC II",
+  "document_id": "tesda:tr:scaffold-erection-nc-ii-superseded:927de0be4f",
+  "qualification": "SCAFFOLD ERECTION NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "to gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "identify role and responsibility as a member of a team."
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      },
-      {
-        "unit_code": "CON713339",
-        "title": "CON 713 339"
-      },
-      {
-        "unit_code": "CON713340",
-        "title": "CON 713 340"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "regulatory and organizational requirements for occupational"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "analyzing and interpreting symbols, data and work plan"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCIVIL WORKS SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nErect and dismantle\nscaffolding\nHandle\nscaffolding tools\nand equipment\nPerform\nmixing/tinting of\ncolor paints\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem-solving\ntechniques in the workplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\nPrepare construction materials\nand tools\nObserve procedures,\nspecifications and manual of\ninstructions\nInterpret technical\ndrawings and plans\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\n\n--- PDF PAGE 63 ---\nSCAFFOLD ERECTION NC II Promulgated July 2007 61",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON713339",
+        "CON713340"
+      ],
+      "unit_titles": [
+        "Erect and dismantle scaffolding",
+        "Handle scaffolding equipment and tools"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful\ncandidates shall be awarded National Certificates signed by the TESDA\nDirector General.\n\n4.2 The qualification of SCAFFOLD ERECTION NC II can be attained\nthrough demonstration of competence in a project-type assessment\ncovering the following core units.\n\n4.1.1 Erect and dismantle scaffolding\n4.1.2 Handle scaffolding equipment and tools\n\n4.3. Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4. The following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2. Experienced Workers (wage employed or self-employed)\n\n4.5. The guidelines on assessment and certification are discussed in detail in\nthe Procedures Manual on Assessment and Certification and the\nGuidelines on the Implementation of the Philippine TVET Qualification\nand Certification System (PTQCS).\n\n--- PDF PAGE 62 ---\nSCAFFOLD ERECTION NC II Promulgated July 2007 60\n\nANNEX A\n\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nSCAFFOLD ERECTION NC II\nCOMPETENCY MAP\nCIVIL WORKS SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nErect and dismantle\nscaffolding\nHandle\nscaffolding tools\nand equipment\nPerform\nmixing/tinting of\ncolor paints\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem-solving\ntechniques in the workplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\nPrepare construction materials\nand tools\nObserve procedures,\nspecifications and manual of\ninstructions\nInterpret technical\ndrawings and plans\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\n\n--- PDF PAGE 63 ---\nSCAFFOLD ERECTION NC II Promulgated July 2007 61\n\nDEFINITION OF TERMS\n\n1. Competency\nIs the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace.\n\n2. Certification\nRefers to the process of verifying and validating competencies of\na person through assessment.\n\n3. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person who\nworks in a particular area of work is able to perform.\n\n4. Evidence Guide\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills, resource implications, context of assessment and\nassessment method.\n\n5. Footing\nRefers to the widened base or substructure forming the\nfoundation for a wall or a column\n\n6. Philippine TVET\n Qualification\n Framework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter\nfor the integration of learning and assessment in the middle skills\ndevelopment.\n\n7. Qualification\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person\nhas achieved competencies relevant to a trade or industry.\n\n8. Range of\n Variable\nIt describes the circumstances or context in which the work is to\nbe performed.\n\n9. Scaffolding\nIt is a temporary or movable platform supported on the ground or\nsuspended; used for working at considerable heights above\nground.\n10. Static line\nIt is a line attached to parachute pack and to a strap or anchor\ncable in an aircraft so that when the load is dropped the\nparachute is deployed automatically.\n\n11. Transom\nIs a window above door that is flat, vertical aft end of a ship or\nboat as distinguished from a candle-shaped or cruiser stern\n\n12. Unit of\n Competency\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n\n--- PDF PAGE 64 ---\nSCAFFOLD ERECTION NC II Promulgated July 2007 62\n\nACKNOWLEDGMENTS\n\nThe Technical Education and Skills Development Authority (TESDA)\nwishes to extend thanks and appreciation to the many representatives of\nbusiness, industry, academe and government agencies who contributed their\ntime and expertise to the development of these Training Regulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nDANILO DIAZ\nTrainor / Assessor\nAssociation of Construction and Informal\nWorkers\n\nMEYNARDO PALARCA\nTrainor\nAssociation of Construction and Informal\nWorkers\nJOHN N. CALAMIONG, Ed.D.\nProfessor II\nTechnological University of the\nPhilippines - Taguig Campus\nDON ORIDO\nConstruction Safety Engineer\nAssociation of Construction and Informal\nWorkers\n\nJONATHAN PATENO\nFormworks Engineer\nDimensions-All Trading\nJOERY VILLEGAS\nStructural Planning Engineer\nEcoform System\n\nERNESTO YALUNG JR.\nFormworks engineer\nBetonval Ready Concrete\n\nJULIE ALANES\nFormworks Engineer\nDimensions-All Trading\nPETER LAMARROZA\nFormworks Engineer"
 }

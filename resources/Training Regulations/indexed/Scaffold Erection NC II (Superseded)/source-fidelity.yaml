@@ -1,29 +1,146 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:scaffold-erection-nc-ii:2007-07",
-  "qualification": "SCAFFOLD ERECTION NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:scaffold-erection-nc-ii-superseded:927de0be4f",
+  "qualification": "SCAFFOLD ERECTION NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Scaffold Erection NC II (Superseded).pdf",
-    "sha256": "927de0be4f1cb63131810d4c2fa8f70ed9016b6a59e9a331fc5ba18d2220c09a",
+    "authority": "TESDA",
+    "source_file": "Scaffold Erection NC II (Superseded).pdf",
+    "source_sha256": "927de0be4f1cb63131810d4c2fa8f70ed9016b6a59e9a331fc5ba18d2220c09a",
+    "pdf_pages": 64,
+    "printed_pages": 62,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained.",
+    "The source is a July 2007 historical two-column regulation with 4 Basic, 5 Common, and 2 Core units. The core competency headers print spaced codes CON 713 339 and CON 713 340; source_unit_code preserves those printed forms.",
+    "Section 3 prints 18 Basic, 24 Common, and 120 Core hours for a 162-hour total.",
+    "The Section 3 curriculum prints the common units in the order Prepare, Observe, Perform mensuration, Maintain, Interpret and the core units Handle first, Erect second; curriculum rows are reassociated to the Section 1/2 inventory while source titles and source text remain available.",
+    "Section 4 preserves historical wording and numbering quirks, including 'Scaffolding Erection NC II', 'National Certificate(s)', and the 4.1.1/4.1.2/4.3.1/4.4.2 sequence.",
+    "Source text preserves printed spelling and OCR-like variants such as 'IIdentify' and the alternative measuring-tools wording."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is a July 2007 historical two-column regulation with 4 Basic, 5 Common, and 2 Core units. The core competency headers print spaced codes CON 713 339 and CON 713 340; source_unit_code preserves those printed forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 18 Basic, 24 Common, and 120 Core hours for a 162-hour total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 3 curriculum prints the common units in the order Prepare, Observe, Perform mensuration, Maintain, Interpret and the core units Handle first, Erect second; curriculum rows are reassociated to the Section 1/2 inventory while source titles and source text remain available."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 4 preserves historical wording and numbering quirks, including 'Scaffolding Erection NC II', 'National Certificate(s)', and the 4.1.1/4.1.2/4.3.1/4.4.2 sequence."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Source text preserves printed spelling and OCR-like variants such as 'IIdentify' and the alternative measuring-tools wording."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Scaffold Erection NC II (Superseded).pdf",
-    "pdf_pages": 64,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        14,
+        19
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        26,
+        29
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        34,
+        38
+      ]
+    },
+    {
+      "unit_code": "CON713339",
+      "source_unit_code": "CON 713 339",
+      "pdf_page_range": [
+        39,
+        46
+      ]
+    },
+    {
+      "unit_code": "CON713340",
+      "source_unit_code": "CON 713 340",
+      "pdf_page_range": [
+        47,
+        51
+      ]
+    }
+  ]
 }

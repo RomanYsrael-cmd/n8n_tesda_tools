@@ -1,58 +1,899 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:security-services-nc-i:2005-05-31",
+  "document_id": "tesda:tr:security-services-nc-i:8b45027a4d",
   "qualification": "SECURITY SERVICES NC I",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Security Services NC I.pdf",
-    "pdf_pages": 60
+    "pdf_pages": 60,
+    "printed_pages": 32,
+    "promulgated": "May 31, 2005"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 28,
+        "source_expression": "28 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 36,
+        "source_expression": "36 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 106,
+        "source_expression": "106 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 170,
+    "total_source_expression": "170 hrs.",
+    "source_expressions": [
+      "28 hrs. - Basic Competencies",
+      "36 hrs. - Common Competencies",
+      "106 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 170,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\nThis set of standards provides Technical and Vocational Education and Training (TVET)\nproviders with information and other important requirements to consider when designing training\nprograms for certain Qualifications.\n\nThis includes information on curriculum design; training delivery; trainee entry requirements;\ntools and equipment; training facilities; and trainers qualification.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration : 28 Hrs. (Basic)\n36 Hrs. (Common)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and desirable work attitude in\nSecurity Services NC I. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and\nrespond to\nworkplace\ncommunication\n\n1.1 Explain routinary speaking &\nmessages in a workplace\n1.2 Follow routinary speaking &\nmessage\n1.3 Perform work duties following\nwritten notices\n• Group\ndiscussion\n• Interaction\n\n• Interviews/\nquestioning\n• Observation\n2. Work with\nothers\n2.1 Develop effective workplace\nrelationship\n2.2 Contribute to work group\nactivities\n• Group\ndiscussion\n• Interaction\n• Interviews/\nquestioning\n• Demonstration\n• Observation\n3. Demonstrate\nwork values\n\n3.1 Define the purpose of work\n3.2 Apply work values/ethics\n3.3 Deal with ethical problems\n3.4 Maintain integrity of conduct in\nthe workplace\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nhousekeeping\nprocedures\n4.1 Sort and remove unnecessary\nitems\n4.2 Arrange items\n4.3 Maintain work areas, tools and\nequipment\n4.4 Follow standardize work process\nand procedures\n4.5 Perform work spontaneously\n• Group\ndiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 48 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-23-\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/\ncustomers\n1.1 Maintain a professional image\n1.2 Build Credibility to meet\ncustomers/clients requirements\n\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n2. Manage own\nperformance\n2.1 Plan for completion of own\nworkload\n2.2 Maintain quality of own\nperformance\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n3. Practice\nprofessionalism\nin the security\nservice\n3.1 Comprehend and appreciate the\njob / roles and\nresponsibilities of a worker\n3.2 Maintain professional\nappearance, security uniforms,\nparaphernalia and equipment\n3.3 Maintain area of duty\n3.4 Demonstrate positive work\nethics and values\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-24-\n\nCORE COMPETENCIES\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration: 106 Hrs.\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of security guards in\naccordance with industry standards. It covers core competencies on performing control system in\nthe workplace, performing basic communication skills, responding to emergency situations,\ndemonstrating marksmanship skills, performing defensive techniques.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform control\nsystem in the\nworkplace\n1.1\nCheck persons entering and\nleaving the premises\n1.2\nCheck vehicle entering and\nleaving the premises\n1.3\nCheck properties entering and\nleaving the premises\n1.4\nCheck barriers\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n2. Perform basic\ncommunication\nskills\n2.1\nPrepare written reports\n2.2\nTransmit reports\n2.3\nDemonstrate and interpret\nhand signals\n2.4\nMaintain logbook recordings\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n3. Respond to\nemergency\nsituation\n3.1\nFollow emergency\npreparedness plan\n3.2\nCheck emergency equipment\n3.3\nReceive and record threats\n3.4\nApply first aid procedures\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n4. Demonstrate\nmarksmanship\n4.1\nCheck operational condition\nof firearms\n4.2\nDemonstrate marksmanship\nskills in different positions\n\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\nwith oral\nquestioning\n• Observation\nwith oral\nquestioning\n5. Perform\ndefensive\ntechniques\n5.1\nDemonstrate disarming\ntechniques\n5.2\nDemonstrate use of baton\n5.3\nDemonstrate use of handcuff\n5.4\nDemonstrate the use of stun\ndevices\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Practical\nExercises\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 50 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-25-\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery should be\nguided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency standards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the curriculum\nmodules;\n• Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery modes, both\non and off-the-job as long as the learning is driven by the competency standards specified by\nthe industry. The following training modalities may be adopted when designing training\nprograms:\n\n• The dualized mode of training delivery is preferred and recommended. Thus programs\nwould contain both in-school and in-industry training or fieldwork components. Details can\nbe referred to the Dual Training System (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein the trainee\nis allowed to progress at his own pace. The trainer just facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training designed to\nenhance the knowledge and skills of the trainee through actual experience in the\nworkplace to acquire specific competencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the instruction occurs\nwhen the students and instructor are not in the same place. Distance learning may\nemploy correspondence study, audio, video or computer technologies.\n• Project-Based Instruction is an authentic instructional model or strategy in which students\nplan, implement and evaluate projects that have real world applicants.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course qualifications should possess the\nfollowing requirements:\n\n-\nFilipino citizen;\n-\nHigh School Graduate;\n-\nPhysically and mentally fit;\n-\nNot less than eighteen (18) years of age nor more than fifty (50) years of age (for new\napplicants and SGs in non-supervisory position; and\n-\nHas undergone a pre-licensing training course or its equivalent\n\n--- PDF PAGE 51 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-26-\n\n3.4 TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of a maximum of 25\ntrainees for Security Services NC I are as follows:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\nITEM\nQTY.\nITEM\nQTY\nITEM\n1 pc.\nBinocular\n1 set\nPrescribed Basic\nUniform (security\nguard & lady guard) *\n1 ream Bond Paper\n6\nrounds\nAmmunitions - .38 &\n12 g. (For Demo)\n1 pc.\nNight Stick*\n1 pc.\nCalendar\n1 pc.\nBulletin Board\n1 pc.\nWhistle*\n1 pc.\nBlackboard/\nwhiteboard Eraser\n25 pcs. Armed Chairs\n1 pc.\nTimepiece\n(synchronized) *\n25 pcs. Folder\n1 pair\nDirectional Signage\n25 pcs. Writing pen*\n1 pc.\nLogbook\n1 pc.\nEmergency Light\n25\nNotepad and duty\nchecklist (electronic or\nnot) *\n1 pc.\nMeal Box\n1 pc.\nFire Extinguisher\n1 pcs.\nFlashlights*\n1 pc.\nMetal Polish\n6 pcs.\nHelmet/ Protective\nGear\n1 pcs.\nFirst aid kit*\n25 pcs. Pencil\n1 pc.\nHolster\n2 pcs.\nService firearms - .38\ncaliber and 12 g. shot\ngun (as required) *\n2 pcs.\nMarking pen\n1 pc.\nMirror with Stand\n2 pcs.\nHandcuffs*\n1 box\nChalk\n1 pc.\nShield\n1 pc.\nMetal detectors*\n25 pc.\nPocket Notebook\n1 pc.\nStretcher\n1 pc.\nCommunication radio*\n1 pc.\nShoe Brush\n3 pcs.\nOffice Table\n1 set\nStun devices*\n1 can\nShoe polish\n1 pc.\nInstructors Desk\n1 pc.\nArmor vests*\n25 pcs. Tickler\n1 set\nConference Table\n1 unit\nMace\n\n1 set\nComputer Table\n1 unit\nComputer\n1 unit\nWhite Board\n1 pc.\nTelephone\n1 unit\nTypewriter\n2 pcs.\nWhiteboard Marker\n1 pc.\nWall Clock\n1 unit\nElectric fan\n12 pcs. Transparency\nacetate\n1 set\nSearch light\n1 unit\nAir con\n1 pc.\nTarget board/sheet\n10 pcs. Traffic vests/ gloves\n1 unit\nOverhead Projector\n1 pc.\nTarget stand\n1unit\nMegaphone\n1 pc.\nProjector screen\n\n1 pc.\nRostrum\n1 unit\nCamera (still or video)\n\n1set\nColor post and\nstand\n1 unit\nMultimedia equipment\n\n1 pc.\nPhil. Flag\n1 unit\nSound system\n\n1 unit\nSteel cabinet with\nlock\n2 pcs.\nKicking pads\n\n--- PDF PAGE 52 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-27-\n\nTOOLS\nEQUIPMENT\nMATERIALS\n\n10 pcs. Dummy knife\nTraining Materials:\n\n10 pcs. Dummy hand guns\n6 pcs.\nRA 5487, as\namended\n\n6 pcs.\nProtective Gear\n(Head) – for martial\narts\n6 pcs.\n2003 Revised Rules\nand Regulations\nImplementing RA\n5487 as amended\n\n1 unit\nMatting or its\nequivalent (optional)\n25 pcs. Handouts/\npopsheets\n\n25 pcs. Martial Arts Kimono\n2 pcs/\ntitle\nTextbooks on\nSecurity\n1. Basic Security\nManual\n2. Physical Security\n3. Security\nSupervisory\n4. Security\nManagement\n5. Investigation\n6. Martial Arts\n7. First Aid\n8. Training Manual\nfor Security\n\n* Section 8 Rule VIII – Uniform, equipment, and paraphernalia (2003 Rules and Regulations Implementing\nRA 5487 as amended\n\n3.5 TRAINING FACILITIES\n\nBased on a class intake of 25 students/trainees\n\nSpace Requirement\nSize in\nMeters\nArea in Sq.\nMeters\nTotal Area in\nSq. Meters\nBuilding (permanent)\n\n104 sq. m.\nStudent/Trainee Working Space\n1 x 1 m.\n1 sq. m.\n25 sq. m\nLecture/Demo Room\n8 x 5 m.\n40 sq. m.\n40 sq. m.\nLearning Resource Center\n3 x 5 m.\n15 sq. m.\n15 sq. m.\nFacilities/Equipment/ Circulation Area\n6 x 4 m.\n24 sq. m.\n24 sq. m.\nFiring Range *1\n\nDrill area / Quadrangle (if not available) *2\n\n*1 – Enter into MOA with a Firing range duly licensed by PNP FED\n*2 – Enter into agreement with entities to use the ground\n\n--- PDF PAGE 53 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-28-\n\n3.6 TRAINER’S QUALIFICATIONS FOR SERVICE SECTOR\n\nSECURITY SERVICES – NC I\nTRAINER QUALIFICATION\n\n• Must have completed a Trainers Training Methodology Course (TTMC) or its equivalent\n• Must have a PNP-SAGSD Accreditation Certificate under Section 20 Rule XI of the 2003\nRevised Rules and regulations Implementing RA 5487 As Amended\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their achievement of units\nof competency. A certificate of achievement is issued for each unit of competency.\n\n--- PDF PAGE 54 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-29-"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311101",
+        "unit_title": "Receive and respond to workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Explain routinary speaking & messages in a workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311101",
+        "unit_title": "Receive and respond to workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Follow routinary speaking & message",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311101",
+        "unit_title": "Receive and respond to workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Perform work duties following written notices",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311102",
+        "unit_title": "Work with others",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Develop effective workplace relationship",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311102",
+        "unit_title": "Work with others",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Contribute to work group activities",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311103",
+        "unit_title": "Demonstrate work values",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Define the purpose of work",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311103",
+        "unit_title": "Demonstrate work values",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Apply work values/ethics",
+        "learning_activities": [],
+        "methodology": [
+          "discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311103",
+        "unit_title": "Demonstrate work values",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Deal with ethical problems",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311103",
+        "unit_title": "Demonstrate work values",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Maintain integrity of conduct in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311104",
+        "unit_title": "Practice basic housekeeping procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Sort and remove unnecessary items",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311104",
+        "unit_title": "Practice basic housekeeping procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Arrange items",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311104",
+        "unit_title": "Practice basic housekeeping procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Maintain work areas, tools and equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311104",
+        "unit_title": "Practice basic housekeeping procedures",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Follow standardize work process and procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311104",
+        "unit_title": "Practice basic housekeeping procedures",
+        "learning_outcome_number": "4.5",
+        "learning_outcome": "Perform work spontaneously",
+        "learning_activities": [],
+        "methodology": [
+          "31,"
+        ],
+        "assessment_approach": [
+          "-22-"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315201",
+        "unit_title": "Maintain an effective relationship with clients/customers",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Maintain a professional image",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315201",
+        "unit_title": "Maintain an effective relationship with clients/customers",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Build Credibility to meet customers/clients requirements",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Role Playing",
+          "Simulation"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315202",
+        "unit_title": "Manage own performance",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Plan for completion of own workload",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Written examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315202",
+        "unit_title": "Manage own performance",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Maintain quality of own performance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Role Playing",
+          "Simulation"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315203",
+        "unit_title": "Practice professionalism in the security service",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Comprehend and appreciate the job / roles and responsibilities of a worker",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315203",
+        "unit_title": "Practice professionalism in the security service",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Maintain professional appearance, security uniforms, paraphernalia and equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315203",
+        "unit_title": "Practice professionalism in the security service",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain area of duty",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "common",
+        "unit_code": "HCS315203",
+        "unit_title": "Practice professionalism in the security service",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Demonstrate positive work ethics and values",
+        "learning_activities": [],
+        "methodology": [
+          "31,"
+        ],
+        "assessment_approach": [
+          "-23-"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 48
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516301",
+        "unit_title": "Perform control system in the workplace",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Check persons entering and leaving the premises",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516301",
+        "unit_title": "Perform control system in the workplace",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Check vehicle entering and leaving the premises",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516301",
+        "unit_title": "Perform control system in the workplace",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Check properties entering and leaving the premises",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516301",
+        "unit_title": "Perform control system in the workplace",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Check barriers",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516302",
+        "unit_title": "Perform basic communication skills",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Prepare written reports",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516302",
+        "unit_title": "Perform basic communication skills",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Transmit reports",
+        "learning_activities": [],
+        "methodology": [
+          "Group Discussion"
+        ],
+        "assessment_approach": [
+          "Examination",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516302",
+        "unit_title": "Perform basic communication skills",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Demonstrate and interpret hand signals",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516302",
+        "unit_title": "Perform basic communication skills",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Maintain logbook recordings",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516303",
+        "unit_title": "Respond to emergency situation",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Follow emergency preparedness plan",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516303",
+        "unit_title": "Respond to emergency situation",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Check emergency equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516303",
+        "unit_title": "Respond to emergency situation",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Receive and record threats",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516303",
+        "unit_title": "Respond to emergency situation",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Apply first aid procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516304",
+        "unit_title": "Demonstrate marksmanship skills",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Check operational condition",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516304",
+        "unit_title": "Demonstrate marksmanship skills",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Demonstrate marksmanship skills in different positions",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration with oral questioning",
+          "Observation with oral questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516305",
+        "unit_title": "Perform defensive techniques",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Demonstrate disarming techniques",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written Examination"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516305",
+        "unit_title": "Perform defensive techniques",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Demonstrate use of baton",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516305",
+        "unit_title": "Perform defensive techniques",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Demonstrate use of handcuff",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      },
+      {
+        "group": "core",
+        "unit_code": "HCS516305",
+        "unit_title": "Perform defensive techniques",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Demonstrate the use of stun devices",
+        "learning_activities": [],
+        "methodology": [
+          "Practical Exercises May 31,"
+        ],
+        "assessment_approach": [
+          "-24-"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 49
+      }
+    ],
+    "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration : 28 Hrs. (Basic)\n36 Hrs. (Common)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and desirable work attitude in\nSecurity Services NC I. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and\nrespond to\nworkplace\ncommunication\n\n1.1 Explain routinary speaking &\nmessages in a workplace\n1.2 Follow routinary speaking &\nmessage\n1.3 Perform work duties following\nwritten notices\n• Group\ndiscussion\n• Interaction\n\n• Interviews/\nquestioning\n• Observation\n2. Work with\nothers\n2.1 Develop effective workplace\nrelationship\n2.2 Contribute to work group\nactivities\n• Group\ndiscussion\n• Interaction\n• Interviews/\nquestioning\n• Demonstration\n• Observation\n3. Demonstrate\nwork values\n\n3.1 Define the purpose of work\n3.2 Apply work values/ethics\n3.3 Deal with ethical problems\n3.4 Maintain integrity of conduct in\nthe workplace\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nhousekeeping\nprocedures\n4.1 Sort and remove unnecessary\nitems\n4.2 Arrange items\n4.3 Maintain work areas, tools and\nequipment\n4.4 Follow standardize work process\nand procedures\n4.5 Perform work spontaneously\n• Group\ndiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 48 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-23-\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/\ncustomers\n1.1 Maintain a professional image\n1.2 Build Credibility to meet\ncustomers/clients requirements\n\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n2. Manage own\nperformance\n2.1 Plan for completion of own\nworkload\n2.2 Maintain quality of own\nperformance\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n3. Practice\nprofessionalism\nin the security\nservice\n3.1 Comprehend and appreciate the\njob / roles and\nresponsibilities of a worker\n3.2 Maintain professional\nappearance, security uniforms,\nparaphernalia and equipment\n3.3 Maintain area of duty\n3.4 Demonstrate positive work\nethics and values\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-24-\n\nCORE COMPETENCIES\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration: 106 Hrs.\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of security guards in\naccordance with industry standards. It covers core competencies on performing control system in\nthe workplace, performing basic communication skills, responding to emergency situations,\ndemonstrating marksmanship skills, performing defensive techniques.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform control\nsystem in the\nworkplace\n1.1\nCheck persons entering and\nleaving the premises\n1.2\nCheck vehicle entering and\nleaving the premises\n1.3\nCheck properties entering and\nleaving the premises\n1.4\nCheck barriers\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n2. Perform basic\ncommunication\nskills\n2.1\nPrepare written reports\n2.2\nTransmit reports\n2.3\nDemonstrate and interpret\nhand signals\n2.4\nMaintain logbook recordings\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n3. Respond to\nemergency\nsituation\n3.1\nFollow emergency\npreparedness plan\n3.2\nCheck emergency equipment\n3.3\nReceive and record threats\n3.4\nApply first aid procedures\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n4. Demonstrate\nmarksmanship\n4.1\nCheck operational condition\nof firearms\n4.2\nDemonstrate marksmanship\nskills in different positions\n\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\nwith oral\nquestioning\n• Observation\nwith oral\nquestioning\n5. Perform\ndefensive\ntechniques\n5.1\nDemonstrate disarming\ntechniques\n5.2\nDemonstrate use of baton\n5.3\nDemonstrate use of handcuff\n5.4\nDemonstrate the use of stun\ndevices\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Practical\nExercises\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 50 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-25-"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration : 28 Hrs. (Basic)\n36 Hrs. (Common)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and desirable work attitude in\nSecurity Services NC I. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and\nrespond to\nworkplace\ncommunication\n\n1.1 Explain routinary speaking &\nmessages in a workplace\n1.2 Follow routinary speaking &\nmessage\n1.3 Perform work duties following\nwritten notices\n• Group\ndiscussion\n• Interaction\n\n• Interviews/\nquestioning\n• Observation\n2. Work with\nothers\n2.1 Develop effective workplace\nrelationship\n2.2 Contribute to work group\nactivities\n• Group\ndiscussion\n• Interaction\n• Interviews/\nquestioning\n• Demonstration\n• Observation\n3. Demonstrate\nwork values\n\n3.1 Define the purpose of work\n3.2 Apply work values/ethics\n3.3 Deal with ethical problems\n3.4 Maintain integrity of conduct in\nthe workplace\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nhousekeeping\nprocedures\n4.1 Sort and remove unnecessary\nitems\n4.2 Arrange items\n4.3 Maintain work areas, tools and\nequipment\n4.4 Follow standardize work process\nand procedures\n4.5 Perform work spontaneously\n• Group\ndiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 48 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-23-\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/\ncustomers\n1.1 Maintain a professional image\n1.2 Build Credibility to meet\ncustomers/clients requirements\n\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n2. Manage own\nperformance\n2.1 Plan for completion of own\nworkload\n2.2 Maintain quality of own\nperformance\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n3. Practice\nprofessionalism\nin the security\nservice\n3.1 Comprehend and appreciate the\njob / roles and\nresponsibilities of a worker\n3.2 Maintain professional\nappearance, security uniforms,\nparaphernalia and equipment\n3.3 Maintain area of duty\n3.4 Demonstrate positive work\nethics and values\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-24-\n\nCORE COMPETENCIES\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration: 106 Hrs.\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of security guards in\naccordance with industry standards. It covers core competencies on performing control system in\nthe workplace, performing basic communication skills, responding to emergency situations,\ndemonstrating marksmanship skills, performing defensive techniques.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform control\nsystem in the\nworkplace\n1.1\nCheck persons entering and\nleaving the premises\n1.2\nCheck vehicle entering and\nleaving the premises\n1.3\nCheck properties entering and\nleaving the premises\n1.4\nCheck barriers\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n2. Perform basic\ncommunication\nskills\n2.1\nPrepare written reports\n2.2\nTransmit reports\n2.3\nDemonstrate and interpret\nhand signals\n2.4\nMaintain logbook recordings\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n3. Respond to\nemergency\nsituation\n3.1\nFollow emergency\npreparedness plan\n3.2\nCheck emergency equipment\n3.3\nReceive and record threats\n3.4\nApply first aid procedures\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n4. Demonstrate\nmarksmanship\n4.1\nCheck operational condition\nof firearms\n4.2\nDemonstrate marksmanship\nskills in different positions\n\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\nwith oral\nquestioning\n• Observation\nwith oral\nquestioning\n5. Perform\ndefensive\ntechniques\n5.1\nDemonstrate disarming\ntechniques\n5.2\nDemonstrate use of baton\n5.3\nDemonstrate use of handcuff\n5.4\nDemonstrate the use of stun\ndevices\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Practical\nExercises\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 50 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-25-",
-      "pdf_pages": []
+      "pdf_pages": [
+        47
+      ],
+      "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration : 28 Hrs. (Basic)\n36 Hrs. (Common)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and desirable work attitude in\nSecurity Services NC I. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and\nrespond to\nworkplace\ncommunication\n\n1.1 Explain routinary speaking &\nmessages in a workplace\n1.2 Follow routinary speaking &\nmessage\n1.3 Perform work duties following\nwritten notices\n• Group\ndiscussion\n• Interaction\n\n• Interviews/\nquestioning\n• Observation\n2. Work with\nothers\n2.1 Develop effective workplace\nrelationship\n2.2 Contribute to work group\nactivities\n• Group\ndiscussion\n• Interaction\n• Interviews/\nquestioning\n• Demonstration\n• Observation\n3. Demonstrate\nwork values\n\n3.1 Define the purpose of work\n3.2 Apply work values/ethics\n3.3 Deal with ethical problems\n3.4 Maintain integrity of conduct in\nthe workplace\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nhousekeeping\nprocedures\n4.1 Sort and remove unnecessary\nitems\n4.2 Arrange items\n4.3 Maintain work areas, tools and\nequipment\n4.4 Follow standardize work process\nand procedures\n4.5 Perform work spontaneously\n• Group\ndiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 48 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-23-\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/\ncustomers\n1.1 Maintain a professional image\n1.2 Build Credibility to meet\ncustomers/clients requirements\n\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n2. Manage own\nperformance\n2.1 Plan for completion of own\nworkload\n2.2 Maintain quality of own\nperformance\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n3. Practice\nprofessionalism\nin the security\nservice\n3.1 Comprehend and appreciate the\njob / roles and\nresponsibilities of a worker\n3.2 Maintain professional\nappearance, security uniforms,\nparaphernalia and equipment\n3.3 Maintain area of duty\n3.4 Demonstrate positive work\nethics and values\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-24-\n\nCORE COMPETENCIES\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration: 106 Hrs.\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of security guards in\naccordance with industry standards. It covers core competencies on performing control system in\nthe workplace, performing basic communication skills, responding to emergency situations,\ndemonstrating marksmanship skills, performing defensive techniques.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform control\nsystem in the\nworkplace\n1.1\nCheck persons entering and\nleaving the premises\n1.2\nCheck vehicle entering and\nleaving the premises\n1.3\nCheck properties entering and\nleaving the premises\n1.4\nCheck barriers\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n2. Perform basic\ncommunication\nskills\n2.1\nPrepare written reports\n2.2\nTransmit reports\n2.3\nDemonstrate and interpret\nhand signals\n2.4\nMaintain logbook recordings\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n3. Respond to\nemergency\nsituation\n3.1\nFollow emergency\npreparedness plan\n3.2\nCheck emergency equipment\n3.3\nReceive and record threats\n3.4\nApply first aid procedures\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n4. Demonstrate\nmarksmanship\n4.1\nCheck operational condition\nof firearms\n4.2\nDemonstrate marksmanship\nskills in different positions\n\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\nwith oral\nquestioning\n• Observation\nwith oral\nquestioning\n5. Perform\ndefensive\ntechniques\n5.1\nDemonstrate disarming\ntechniques\n5.2\nDemonstrate use of baton\n5.3\nDemonstrate use of handcuff\n5.4\nDemonstrate the use of stun\ndevices\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Practical\nExercises\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 50 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-25-"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum. Delivery should be\nguided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency standards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the curriculum\nmodules;\n• Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery modes, both\non and off-the-job as long as the learning is driven by the competency standards specified by\nthe industry. The following training modalities may be adopted when designing training\nprograms:\n\n• The dualized mode of training delivery is preferred and recommended. Thus programs\nwould contain both in-school and in-industry training or fieldwork components. Details can\nbe referred to the Dual Training System (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein the trainee\nis allowed to progress at his own pace. The trainer just facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training designed to\nenhance the knowledge and skills of the trainee through actual experience in the\nworkplace to acquire specific competencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the instruction occurs\nwhen the students and instructor are not in the same place. Distance learning may\nemploy correspondence study, audio, video or computer technologies.\n• Project-Based Instruction is an authentic instructional model or strategy in which students\nplan, implement and evaluate projects that have real world applicants.",
-      "pdf_pages": []
+      "pdf_pages": [
+        47,
+        50
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery should be\nguided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency standards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the curriculum\nmodules;\n• Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery modes, both\non and off-the-job as long as the learning is driven by the competency standards specified by\nthe industry. The following training modalities may be adopted when designing training\nprograms:\n\n• The dualized mode of training delivery is preferred and recommended. Thus programs\nwould contain both in-school and in-industry training or fieldwork components. Details can\nbe referred to the Dual Training System (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein the trainee\nis allowed to progress at his own pace. The trainer just facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training designed to\nenhance the knowledge and skills of the trainee through actual experience in the\nworkplace to acquire specific competencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the instruction occurs\nwhen the students and instructor are not in the same place. Distance learning may\nemploy correspondence study, audio, video or computer technologies.\n• Project-Based Instruction is an authentic instructional model or strategy in which students\nplan, implement and evaluate projects that have real world applicants."
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "Trainees or students wishing to enroll in this course qualifications should possess the\nfollowing requirements:\n\n-\nFilipino citizen;\n-\nHigh School Graduate;\n-\nPhysically and mentally fit;\n-\nNot less than eighteen (18) years of age nor more than fifty (50) years of age (for new\napplicants and SGs in non-supervisory position; and\n-\nHas undergone a pre-licensing training course or its equivalent\n\n--- PDF PAGE 51 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-26-",
-      "pdf_pages": []
+      "pdf_pages": [
+        47,
+        50
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course qualifications should possess the\nfollowing requirements:\n\n-\nFilipino citizen;\n-\nHigh School Graduate;\n-\nPhysically and mentally fit;\n-\nNot less than eighteen (18) years of age nor more than fifty (50) years of age (for new\napplicants and SGs in non-supervisory position; and\n-\nHas undergone a pre-licensing training course or its equivalent\n\n--- PDF PAGE 51 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-26-"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of a maximum of 25\ntrainees for Security Services NC I are as follows:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\nITEM\nQTY.\nITEM\nQTY\nITEM\n1 pc.\nBinocular\n1 set\nPrescribed Basic\nUniform (security\nguard & lady guard) *\n1 ream Bond Paper\n6\nrounds\nAmmunitions - .38 &\n12 g. (For Demo)\n1 pc.\nNight Stick*\n1 pc.\nCalendar\n1 pc.\nBulletin Board\n1 pc.\nWhistle*\n1 pc.\nBlackboard/\nwhiteboard Eraser\n25 pcs. Armed Chairs\n1 pc.\nTimepiece\n(synchronized) *\n25 pcs. Folder\n1 pair\nDirectional Signage\n25 pcs. Writing pen*\n1 pc.\nLogbook\n1 pc.\nEmergency Light\n25\nNotepad and duty\nchecklist (electronic or\nnot) *\n1 pc.\nMeal Box\n1 pc.\nFire Extinguisher\n1 pcs.\nFlashlights*\n1 pc.\nMetal Polish\n6 pcs.\nHelmet/ Protective\nGear\n1 pcs.\nFirst aid kit*\n25 pcs. Pencil\n1 pc.\nHolster\n2 pcs.\nService firearms - .38\ncaliber and 12 g. shot\ngun (as required) *\n2 pcs.\nMarking pen\n1 pc.\nMirror with Stand\n2 pcs.\nHandcuffs*\n1 box\nChalk\n1 pc.\nShield\n1 pc.\nMetal detectors*\n25 pc.\nPocket Notebook\n1 pc.\nStretcher\n1 pc.\nCommunication radio*\n1 pc.\nShoe Brush\n3 pcs.\nOffice Table\n1 set\nStun devices*\n1 can\nShoe polish\n1 pc.\nInstructors Desk\n1 pc.\nArmor vests*\n25 pcs. Tickler\n1 set\nConference Table\n1 unit\nMace\n\n1 set\nComputer Table\n1 unit\nComputer\n1 unit\nWhite Board\n1 pc.\nTelephone\n1 unit\nTypewriter\n2 pcs.\nWhiteboard Marker\n1 pc.\nWall Clock\n1 unit\nElectric fan\n12 pcs. Transparency\nacetate\n1 set\nSearch light\n1 unit\nAir con\n1 pc.\nTarget board/sheet\n10 pcs. Traffic vests/ gloves\n1 unit\nOverhead Projector\n1 pc.\nTarget stand\n1unit\nMegaphone\n1 pc.\nProjector screen\n\n1 pc.\nRostrum\n1 unit\nCamera (still or video)\n\n1set\nColor post and\nstand\n1 unit\nMultimedia equipment\n\n1 pc.\nPhil. Flag\n1 unit\nSound system\n\n1 unit\nSteel cabinet with\nlock\n2 pcs.\nKicking pads\n\n--- PDF PAGE 52 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-27-\n\nTOOLS\nEQUIPMENT\nMATERIALS\n\n10 pcs. Dummy knife\nTraining Materials:\n\n10 pcs. Dummy hand guns\n6 pcs.\nRA 5487, as\namended\n\n6 pcs.\nProtective Gear\n(Head) – for martial\narts\n6 pcs.\n2003 Revised Rules\nand Regulations\nImplementing RA\n5487 as amended\n\n1 unit\nMatting or its\nequivalent (optional)\n25 pcs. Handouts/\npopsheets\n\n25 pcs. Martial Arts Kimono\n2 pcs/\ntitle\nTextbooks on\nSecurity\n1. Basic Security\nManual\n2. Physical Security\n3. Security\nSupervisory\n4. Security\nManagement\n5. Investigation\n6. Martial Arts\n7. First Aid\n8. Training Manual\nfor Security\n\n* Section 8 Rule VIII – Uniform, equipment, and paraphernalia (2003 Rules and Regulations Implementing\nRA 5487 as amended",
-      "pdf_pages": []
+      "pdf_pages": [
+        51,
+        52
+      ],
+      "source_text": "3.4 TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of a maximum of 25\ntrainees for Security Services NC I are as follows:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\nITEM\nQTY.\nITEM\nQTY\nITEM\n1 pc.\nBinocular\n1 set\nPrescribed Basic\nUniform (security\nguard & lady guard) *\n1 ream Bond Paper\n6\nrounds\nAmmunitions - .38 &\n12 g. (For Demo)\n1 pc.\nNight Stick*\n1 pc.\nCalendar\n1 pc.\nBulletin Board\n1 pc.\nWhistle*\n1 pc.\nBlackboard/\nwhiteboard Eraser\n25 pcs. Armed Chairs\n1 pc.\nTimepiece\n(synchronized) *\n25 pcs. Folder\n1 pair\nDirectional Signage\n25 pcs. Writing pen*\n1 pc.\nLogbook\n1 pc.\nEmergency Light\n25\nNotepad and duty\nchecklist (electronic or\nnot) *\n1 pc.\nMeal Box\n1 pc.\nFire Extinguisher\n1 pcs.\nFlashlights*\n1 pc.\nMetal Polish\n6 pcs.\nHelmet/ Protective\nGear\n1 pcs.\nFirst aid kit*\n25 pcs. Pencil\n1 pc.\nHolster\n2 pcs.\nService firearms - .38\ncaliber and 12 g. shot\ngun (as required) *\n2 pcs.\nMarking pen\n1 pc.\nMirror with Stand\n2 pcs.\nHandcuffs*\n1 box\nChalk\n1 pc.\nShield\n1 pc.\nMetal detectors*\n25 pc.\nPocket Notebook\n1 pc.\nStretcher\n1 pc.\nCommunication radio*\n1 pc.\nShoe Brush\n3 pcs.\nOffice Table\n1 set\nStun devices*\n1 can\nShoe polish\n1 pc.\nInstructors Desk\n1 pc.\nArmor vests*\n25 pcs. Tickler\n1 set\nConference Table\n1 unit\nMace\n\n1 set\nComputer Table\n1 unit\nComputer\n1 unit\nWhite Board\n1 pc.\nTelephone\n1 unit\nTypewriter\n2 pcs.\nWhiteboard Marker\n1 pc.\nWall Clock\n1 unit\nElectric fan\n12 pcs. Transparency\nacetate\n1 set\nSearch light\n1 unit\nAir con\n1 pc.\nTarget board/sheet\n10 pcs. Traffic vests/ gloves\n1 unit\nOverhead Projector\n1 pc.\nTarget stand\n1unit\nMegaphone\n1 pc.\nProjector screen\n\n1 pc.\nRostrum\n1 unit\nCamera (still or video)\n\n1set\nColor post and\nstand\n1 unit\nMultimedia equipment\n\n1 pc.\nPhil. Flag\n1 unit\nSound system\n\n1 unit\nSteel cabinet with\nlock\n2 pcs.\nKicking pads\n\n--- PDF PAGE 52 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-27-\n\nTOOLS\nEQUIPMENT\nMATERIALS\n\n10 pcs. Dummy knife\nTraining Materials:\n\n10 pcs. Dummy hand guns\n6 pcs.\nRA 5487, as\namended\n\n6 pcs.\nProtective Gear\n(Head) – for martial\narts\n6 pcs.\n2003 Revised Rules\nand Regulations\nImplementing RA\n5487 as amended\n\n1 unit\nMatting or its\nequivalent (optional)\n25 pcs. Handouts/\npopsheets\n\n25 pcs. Martial Arts Kimono\n2 pcs/\ntitle\nTextbooks on\nSecurity\n1. Basic Security\nManual\n2. Physical Security\n3. Security\nSupervisory\n4. Security\nManagement\n5. Investigation\n6. Martial Arts\n7. First Aid\n8. Training Manual\nfor Security\n\n* Section 8 Rule VIII – Uniform, equipment, and paraphernalia (2003 Rules and Regulations Implementing\nRA 5487 as amended"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "Based on a class intake of 25 students/trainees\n\nSpace Requirement\nSize in\nMeters\nArea in Sq.\nMeters\nTotal Area in\nSq. Meters\nBuilding (permanent)\n\n104 sq. m.\nStudent/Trainee Working Space\n1 x 1 m.\n1 sq. m.\n25 sq. m\nLecture/Demo Room\n8 x 5 m.\n40 sq. m.\n40 sq. m.\nLearning Resource Center\n3 x 5 m.\n15 sq. m.\n15 sq. m.\nFacilities/Equipment/ Circulation Area\n6 x 4 m.\n24 sq. m.\n24 sq. m.\nFiring Range *1\n\nDrill area / Quadrangle (if not available) *2\n\n*1 – Enter into MOA with a Firing range duly licensed by PNP FED\n*2 – Enter into agreement with entities to use the ground\n\n--- PDF PAGE 53 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-28-\n\n3.6 TRAINER’S QUALIFICATIONS FOR SERVICE SECTOR\n\nSECURITY SERVICES – NC I\nTRAINER QUALIFICATION\n\n• Must have completed a Trainers Training Methodology Course (TTMC) or its equivalent\n• Must have a PNP-SAGSD Accreditation Certificate under Section 20 Rule XI of the 2003\nRevised Rules and regulations Implementing RA 5487 As Amended",
-      "pdf_pages": []
+      "pdf_pages": [
+        47,
+        52
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nBased on a class intake of 25 students/trainees\n\nSpace Requirement\nSize in\nMeters\nArea in Sq.\nMeters\nTotal Area in\nSq. Meters\nBuilding (permanent)\n\n104 sq. m.\nStudent/Trainee Working Space\n1 x 1 m.\n1 sq. m.\n25 sq. m\nLecture/Demo Room\n8 x 5 m.\n40 sq. m.\n40 sq. m.\nLearning Resource Center\n3 x 5 m.\n15 sq. m.\n15 sq. m.\nFacilities/Equipment/ Circulation Area\n6 x 4 m.\n24 sq. m.\n24 sq. m.\nFiring Range *1\n\nDrill area / Quadrangle (if not available) *2\n\n*1 – Enter into MOA with a Firing range duly licensed by PNP FED\n*2 – Enter into agreement with entities to use the ground\n\n--- PDF PAGE 53 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-28-"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        47,
+        53
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR SERVICE SECTOR\n\nSECURITY SERVICES – NC I\nTRAINER QUALIFICATION\n\n• Must have completed a Trainers Training Methodology Course (TTMC) or its equivalent\n• Must have a PNP-SAGSD Accreditation Certificate under Section 20 Rule XI of the 2003\nRevised Rules and regulations Implementing RA 5487 As Amended"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional Assessment is undertaken by trainees to determine their achievement of units\nof competency. A certificate of achievement is issued for each unit of competency.\n\n--- PDF PAGE 54 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-29-",
-      "pdf_pages": []
+      "pdf_pages": [
+        53
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their achievement of units\nof competency. A certificate of achievement is issued for each unit of competency.\n\n--- PDF PAGE 54 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-29-"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "28 Hrs",
-      "36 Hrs",
-      "106 Hrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThis set of standards provides Technical and Vocational Education and Training (TVET)\nproviders with information and other important requirements to consider when designing training\nprograms for certain Qualifications.\n\nThis includes information on curriculum design; training delivery; trainee entry requirements;\ntools and equipment; training facilities; and trainers qualification.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration : 28 Hrs. (Basic)\n36 Hrs. (Common)\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and desirable work attitude in\nSecurity Services NC I. It covers the basic, common and core competencies.\n\nBASIC COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Receive and\nrespond to\nworkplace\ncommunication\n\n1.1 Explain routinary speaking &\nmessages in a workplace\n1.2 Follow routinary speaking &\nmessage\n1.3 Perform work duties following\nwritten notices\n• Group\ndiscussion\n• Interaction\n\n• Interviews/\nquestioning\n• Observation\n2. Work with\nothers\n2.1 Develop effective workplace\nrelationship\n2.2 Contribute to work group\nactivities\n• Group\ndiscussion\n• Interaction\n• Interviews/\nquestioning\n• Demonstration\n• Observation\n3. Demonstrate\nwork values\n\n3.1 Define the purpose of work\n3.2 Apply work values/ethics\n3.3 Deal with ethical problems\n3.4 Maintain integrity of conduct in\nthe workplace\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nhousekeeping\nprocedures\n4.1 Sort and remove unnecessary\nitems\n4.2 Arrange items\n4.3 Maintain work areas, tools and\nequipment\n4.4 Follow standardize work process\nand procedures\n4.5 Perform work spontaneously\n• Group\ndiscussion\n• Interaction\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 48 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-23-\n\nCOMMON COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Maintain an\neffective\nrelationship with\nclients/\ncustomers\n1.1 Maintain a professional image\n1.2 Build Credibility to meet\ncustomers/clients requirements\n\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n2. Manage own\nperformance\n2.1 Plan for completion of own\nworkload\n2.2 Maintain quality of own\nperformance\n• Group\ndiscussion\n• Lecture\n• Role Playing\n• Simulation\n• Written\nexamination\n• Demonstration\n• Observation\n3. Practice\nprofessionalism\nin the security\nservice\n3.1 Comprehend and appreciate the\njob / roles and\nresponsibilities of a worker\n3.2 Maintain professional\nappearance, security uniforms,\nparaphernalia and equipment\n3.3 Maintain area of duty\n3.4 Demonstrate positive work\nethics and values\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 49 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-24-\n\nCORE COMPETENCIES\n\nCourse Title: SECURITY SERVICES\nNC Level: NC I\n\nNominal Training Duration: 106 Hrs.\n\nCourse Description:\n\nThis course is designed to enhance the knowledge, skills and attitude of security guards in\naccordance with industry standards. It covers core competencies on performing control system in\nthe workplace, performing basic communication skills, responding to emergency situations,\ndemonstrating marksmanship skills, performing defensive techniques.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform control\nsystem in the\nworkplace\n1.1\nCheck persons entering and\nleaving the premises\n1.2\nCheck vehicle entering and\nleaving the premises\n1.3\nCheck properties entering and\nleaving the premises\n1.4\nCheck barriers\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n2. Perform basic\ncommunication\nskills\n2.1\nPrepare written reports\n2.2\nTransmit reports\n2.3\nDemonstrate and interpret\nhand signals\n2.4\nMaintain logbook recordings\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n3. Respond to\nemergency\nsituation\n3.1\nFollow emergency\npreparedness plan\n3.2\nCheck emergency equipment\n3.3\nReceive and record threats\n3.4\nApply first aid procedures\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\n• Observation\n4. Demonstrate\nmarksmanship\n4.1\nCheck operational condition\nof firearms\n4.2\nDemonstrate marksmanship\nskills in different positions\n\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Written\nExamination\n• Demonstration\nwith oral\nquestioning\n• Observation\nwith oral\nquestioning\n5. Perform\ndefensive\ntechniques\n5.1\nDemonstrate disarming\ntechniques\n5.2\nDemonstrate use of baton\n5.3\nDemonstrate use of handcuff\n5.4\nDemonstrate the use of stun\ndevices\n• Lecture\n• Group\nDiscussion\n• Demonstration\n• Practical\nExercises\n• Written\nExamination\n• Demonstration\n• Observation\n\n--- PDF PAGE 50 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-25-\n\n3.2 TRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery should be\nguided by the 10 basic principles of competency-based TVET.\n\n• The training is based on curriculum developed from the competency standards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the curriculum\nmodules;\n• Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are Nationally Accredited\n\nThe competency-based TVET system recognizes various types of delivery modes, both\non and off-the-job as long as the learning is driven by the competency standards specified by\nthe industry. The following training modalities may be adopted when designing training\nprograms:\n\n• The dualized mode of training delivery is preferred and recommended. Thus programs\nwould contain both in-school and in-industry training or fieldwork components. Details can\nbe referred to the Dual Training System (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality wherein the trainee\nis allowed to progress at his own pace. The trainer just facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training designed to\nenhance the knowledge and skills of the trainee through actual experience in the\nworkplace to acquire specific competencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the instruction occurs\nwhen the students and instructor are not in the same place. Distance learning may\nemploy correspondence study, audio, video or computer technologies.\n• Project-Based Instruction is an authentic instructional model or strategy in which students\nplan, implement and evaluate projects that have real world applicants.\n\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nTrainees or students wishing to enroll in this course qualifications should possess the\nfollowing requirements:\n\n-\nFilipino citizen;\n-\nHigh School Graduate;\n-\nPhysically and mentally fit;\n-\nNot less than eighteen (18) years of age nor more than fifty (50) years of age (for new\napplicants and SGs in non-supervisory position; and\n-\nHas undergone a pre-licensing training course or its equivalent\n\n--- PDF PAGE 51 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-26-\n\n3.4 TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the training of a maximum of 25\ntrainees for Security Services NC I are as follows:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQTY.\nITEM\nQTY.\nITEM\nQTY\nITEM\n1 pc.\nBinocular\n1 set\nPrescribed Basic\nUniform (security\nguard & lady guard) *\n1 ream Bond Paper\n6\nrounds\nAmmunitions - .38 &\n12 g. (For Demo)\n1 pc.\nNight Stick*\n1 pc.\nCalendar\n1 pc.\nBulletin Board\n1 pc.\nWhistle*\n1 pc.\nBlackboard/\nwhiteboard Eraser\n25 pcs. Armed Chairs\n1 pc.\nTimepiece\n(synchronized) *\n25 pcs. Folder\n1 pair\nDirectional Signage\n25 pcs. Writing pen*\n1 pc.\nLogbook\n1 pc.\nEmergency Light\n25\nNotepad and duty\nchecklist (electronic or\nnot) *\n1 pc.\nMeal Box\n1 pc.\nFire Extinguisher\n1 pcs.\nFlashlights*\n1 pc.\nMetal Polish\n6 pcs.\nHelmet/ Protective\nGear\n1 pcs.\nFirst aid kit*\n25 pcs. Pencil\n1 pc.\nHolster\n2 pcs.\nService firearms - .38\ncaliber and 12 g. shot\ngun (as required) *\n2 pcs.\nMarking pen\n1 pc.\nMirror with Stand\n2 pcs.\nHandcuffs*\n1 box\nChalk\n1 pc.\nShield\n1 pc.\nMetal detectors*\n25 pc.\nPocket Notebook\n1 pc.\nStretcher\n1 pc.\nCommunication radio*\n1 pc.\nShoe Brush\n3 pcs.\nOffice Table\n1 set\nStun devices*\n1 can\nShoe polish\n1 pc.\nInstructors Desk\n1 pc.\nArmor vests*\n25 pcs. Tickler\n1 set\nConference Table\n1 unit\nMace\n\n1 set\nComputer Table\n1 unit\nComputer\n1 unit\nWhite Board\n1 pc.\nTelephone\n1 unit\nTypewriter\n2 pcs.\nWhiteboard Marker\n1 pc.\nWall Clock\n1 unit\nElectric fan\n12 pcs. Transparency\nacetate\n1 set\nSearch light\n1 unit\nAir con\n1 pc.\nTarget board/sheet\n10 pcs. Traffic vests/ gloves\n1 unit\nOverhead Projector\n1 pc.\nTarget stand\n1unit\nMegaphone\n1 pc.\nProjector screen\n\n1 pc.\nRostrum\n1 unit\nCamera (still or video)\n\n1set\nColor post and\nstand\n1 unit\nMultimedia equipment\n\n1 pc.\nPhil. Flag\n1 unit\nSound system\n\n1 unit\nSteel cabinet with\nlock\n2 pcs.\nKicking pads\n\n--- PDF PAGE 52 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-27-\n\nTOOLS\nEQUIPMENT\nMATERIALS\n\n10 pcs. Dummy knife\nTraining Materials:\n\n10 pcs. Dummy hand guns\n6 pcs.\nRA 5487, as\namended\n\n6 pcs.\nProtective Gear\n(Head) – for martial\narts\n6 pcs.\n2003 Revised Rules\nand Regulations\nImplementing RA\n5487 as amended\n\n1 unit\nMatting or its\nequivalent (optional)\n25 pcs. Handouts/\npopsheets\n\n25 pcs. Martial Arts Kimono\n2 pcs/\ntitle\nTextbooks on\nSecurity\n1. Basic Security\nManual\n2. Physical Security\n3. Security\nSupervisory\n4. Security\nManagement\n5. Investigation\n6. Martial Arts\n7. First Aid\n8. Training Manual\nfor Security\n\n* Section 8 Rule VIII – Uniform, equipment, and paraphernalia (2003 Rules and Regulations Implementing\nRA 5487 as amended\n\n3.5 TRAINING FACILITIES\n\nBased on a class intake of 25 students/trainees\n\nSpace Requirement\nSize in\nMeters\nArea in Sq.\nMeters\nTotal Area in\nSq. Meters\nBuilding (permanent)\n\n104 sq. m.\nStudent/Trainee Working Space\n1 x 1 m.\n1 sq. m.\n25 sq. m\nLecture/Demo Room\n8 x 5 m.\n40 sq. m.\n40 sq. m.\nLearning Resource Center\n3 x 5 m.\n15 sq. m.\n15 sq. m.\nFacilities/Equipment/ Circulation Area\n6 x 4 m.\n24 sq. m.\n24 sq. m.\nFiring Range *1\n\nDrill area / Quadrangle (if not available) *2\n\n*1 – Enter into MOA with a Firing range duly licensed by PNP FED\n*2 – Enter into agreement with entities to use the ground\n\n--- PDF PAGE 53 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-28-\n\n3.6 TRAINER’S QUALIFICATIONS FOR SERVICE SECTOR\n\nSECURITY SERVICES – NC I\nTRAINER QUALIFICATION\n\n• Must have completed a Trainers Training Methodology Course (TTMC) or its equivalent\n• Must have a PNP-SAGSD Accreditation Certificate under Section 20 Rule XI of the 2003\nRevised Rules and regulations Implementing RA 5487 As Amended\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their achievement of units\nof competency. A certificate of achievement is issued for each unit of competency.\n\n--- PDF PAGE 54 ---\nTR Security Services NC I\nPromulgated May 31, 2005\n-29-"
 }

@@ -1,62 +1,53 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:seaweed-production-nc-ii:2015-12-16",
+  "document_id": "tesda:tr:seaweed-production-nc-ii:1874c165e8",
   "qualification": "SEAWEED PRODUCTION NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF622305",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "AFF321201",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ": This unit covers the outcomes required to comply with"
-      },
-      {
-        "unit_code": "AFF321202",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF321203",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF622306",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF622307",
-        "title": ":"
-      },
-      {
-        "unit_code": "AFF622308",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP FOR AGRICULTURE, FORESTRY AND FISHERY SECTOR\nSEAWEED PRODUCTION NC II\n\n--- PDF PAGE 119 ---\nTR – Seaweed Production NC II (New) Promulgated December 16, 2015\nPage 115\nRaise large\nRuminants\nService\nTractor’s\nElectrical\nSystem\nService\nTractor’s\nSteering\nSystem\nPerform Fish or\nShrimp Grow\nOut Operations\nPromote\nProducts &\nServices\nRaise swine\nOperate and\nMaintain Rice\nMill Equipment\nAssist in\nAquaculture\nOperations\nService, Repair\n& Maintain\nSmall Gasoline\nEngines\nService\nTractor’s\nElectrical\nSystem\nProduce Fuel\nByproducts\nPrepare and\nMaintain\nAquaculture\nFacilities\nMarket Agri\nProducts\nManage Farm\nAssist in\nHorticulture\nOperations\nGrow-out\nSeaweed\nOperate catfish\nHatchery\nProduce\nCompost\nProduce\nHandpaper\nProduce raw\ndried seaweed\nMarket\nseaweed\n\n--- PDF PAGE 120 ---\nTR – Seaweed Production NC II (New) Promulgated December 16, 2015\nPage 116\nGLOSSARY OF TERMS\n\nAGAR\na gelatinous substance derived from a polysaccharide that\naccumulates in the cell walls of agarophyte red algae. Used as\nan ingredient in desserts throughout Asia and also as a solid\nsubstrate to contain culture medium for microbiological work\n\nAQUACULTURE\nregulation and cultivation of water plants and animals for human\nuse or consumption\nBIENNIAL\nhaving a period of 2 years, or a lasting or living for 2 years\nBIFURCATE\nhaving two branches or peaks; forked\nBRACKISH\nsomewhat salty, as the water of some marshes near the sea\nCALCAREOUS\nof, like, or containing calcium carbonate, calcium, or lime\nDESSICATION\nbecoming completely dried out\nEURYHALINE\nspecies which can tolerate a wide range of salinity\nFILAMENTOUS\nslender and threadlike\nGALACTANS\na class of polysaccharides which includes agar and carrageenan\nINFRALITTORAL\nthe region of shallow water closest to the shore; in marine\nenvironments, usually excluding the intertidal zone; seaweeds\nhere might only be exposed at the lowest tides\nINFLORESCENCE\na group or cluster of flowers arranged on a stem that is composed\nof a main branch or a complicated arrangement of branches\nOFF-BOTTOM\nFARMING\nstake-and-line method, usually used for Spinosum and done on\ntidal flats.\nPREDATION\nfeeding on other animals\nSALINITY\nlevel of salt in water\nTHALLUS\nthe nonvascular plant body of a thallophyte, showing no clear\ndistinction of holdfast, stipe, or blade\n\n--- PDF PAGE 121 ---\nTR – Seaweed Production NC II (New) Promulgated December 16, 2015\nPage 117",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "AGR321201",
+        "AGR321202",
+        "AGR321203"
+      ],
+      "unit_titles": [
+        "Apply safety measures in farm operations",
+        "Use farm tools and equipment",
+        "Perform estimation and basic calculation"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "AFF622305",
+        "AFF622306",
+        "AFF622307",
+        "AFF622308"
+      ],
+      "unit_titles": [
+        "Operate seaweed nursery",
+        "Grow-out seaweed",
+        "Produce raw dried seaweed",
+        "Market seaweed"
+      ]
+    }
+  ],
+  "source_text": "SECTION 1\nSEAWEED PRODUCTION NC II QUALIFICATION\n\nThe SEAWEED PRODUCTION NC II Qualification consists of competencies that a\nperson must achieve to operate and maintain seaweed nursery, grow-out seaweed,\nproduce raw dried seaweed and market seaweed. These competencies are required to an\nindividual who will be engaged in seaweed production at economic scale, handling at least\none-fourth (1/4) to one (1) hectare of seaweed farm.\n\nThis Qualification is packaged from the competency` map of the Agriculture,\nForestry and Fishery Sector as shown in Annex A.\n\nThe Units of Competency comprising this Qualification include the following:\n\nCode\nBASIC COMPETENCIES\n500311105\nParticipate in workplace communication\n500311106\nWork in team environment\n500311107\nPractice career professionalism\n500311108\nPractice occupational health and safety procedures\nCode\nCOMMON COMPETENCIES\nAGR321201\nApply safety measures in farm operations\nAGR321202\nUse farm tools and equipment\nAGR321203\nPerform estimation and basic calculation\nCode\nCORE COMPETENCIES\nAFF622305\nOperate seaweed nursery\nAFF622306\nGrow-out seaweed\nAFF622307\nProduce raw dried seaweed\nAFF622308\nMarket seaweed\n\nA person who has achieved this Qualification is competent to be:\n\n• Seaweed nursery operator\n• Seaweed farmer/grower\n• Seaweed trader\n\n--- PDF PAGE 6 ---\nTR – Seaweed Production NC II (New) Promulgated December 16, 2015\nPage 2"
 }
