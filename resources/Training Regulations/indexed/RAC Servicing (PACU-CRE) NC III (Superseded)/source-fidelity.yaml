@@ -20,7 +20,7 @@
     "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
     "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
     "The source is a superseded draft historical two-column regulation with a blank Promulgated field; the lifecycle is preserved as superseded and the canonical promulgated field remains null.",
-    "Section 1 lists 6 Basic, 7 Common, and 8 Core units, but Section 2 and the Section 3 curriculum also contain HVC311202 Interpret technical drawings and plans; the canonical package retains that competency and records the Section 1 omission.",
+    "Section 1 lists 6 Basic, 7 Common, and 8 Core units, omitting HVC311201 Observe procedures and HVC311202 Interpret technical drawings; Section 2 contains both, while the Section 3 curriculum includes Observe but omits the Interpret curriculum row. The canonical package retains both competency standards and records the curriculum omission for HVC311202.",
     "The source uses RAC Servicing (PACU/CRE) terminology and draft-copy labels, with COC clusters for PACU and CRE installation, servicing, troubleshooting, and commissioning; source_text preserves the printed wording.",
     "Section 1 uses HVC311204 for Maintain tools and HVC315201 for housekeeping, while competency headers print HVC311205 and HVC7315201; source_unit_code preserves the header sequence.",
     "The source prints 18 Basic, 28 Common, and 180 Core hours for a 226-hour arithmetic total."
@@ -32,7 +32,7 @@
     },
     {
       "type": "source_anomaly",
-      "description": "Section 1 lists 6 Basic, 7 Common, and 8 Core units, but Section 2 and the Section 3 curriculum also contain HVC311202 Interpret technical drawings and plans; the canonical package retains that competency and records the Section 1 omission."
+      "description": "Section 1 lists 6 Basic, 7 Common, and 8 Core units, omitting HVC311201 Observe procedures and HVC311202 Interpret technical drawings; Section 2 contains both, while the Section 3 curriculum includes Observe but omits the Interpret curriculum row. The canonical package retains both competency standards and records the curriculum omission for HVC311202."
     },
     {
       "type": "source_anomaly",
