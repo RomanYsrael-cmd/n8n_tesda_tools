@@ -4,65 +4,52 @@
   "document_id": "tesda:tr:process-inspection-nc-ii:ebdc6bf11a",
   "qualification": "PROCESS INSPECTION NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311106",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT315303",
-        "title": ": This unit covers taking samples and applying a statistical"
-      },
-      {
-        "unit_code": "ALT315304",
-        "title": ":"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "ALT742201",
-        "title": "engineering blue prints or drawings that provides the measurements of the"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "ALT315301",
-        "title": ":"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": ":"
-      },
-      {
-        "unit_code": "500311108",
-        "title": ":"
-      },
-      {
-        "unit_code": "ALT311202",
-        "title": "This unit includes identifying, caring for, handling, using and"
-      },
-      {
-        "unit_code": "ALT723203",
-        "title": "specification manuals, maintenance procedure manuals and periodic"
-      },
-      {
-        "unit_code": "ALT723205",
-        "title": ": This unit deals with inspecting and cleaning of work area including"
-      },
-      {
-        "unit_code": "ALT315302",
-        "title": ":"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP- AUTOMOTIVE SECTOR\nMANUFACTURING SUB-SECTOR\n(Parts Manufacturing)\n\nPROCESS INSPECTION NC II\nCOMMON\nCOMPETENCIES\nReceive and\nrespond workplace\ncommunication\nParticipate in\nworkplace\ncommunication\nLead in workplace\ncommunication\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team\n and individual\nSolve workplace\nproblems related\nto work activities\nWork with Other\nLead small Team\nApply problem\nsolving techniques\nin the workplace\nPlan and\norganize work\nBASIC\nCOMPETENCIES\n-\nLegend:\nCORE COMPETENCIES\nDemonstrate\nwork values\nPractice basic\n housekeeping\nprocedures\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\n procedures\nDevelop and\npractice negotiation\nskills\nUse mathematical\nconcepts and\n techniques\nUse relevant\n technologies\nRead & Interpret\nEngineering Drawings\nPerform Mensuration\nand Calculation\nRead, Interpret and\nApply Specifications\nand Manuals\nPerform Shop\nMaintenance\nDevelop and\nManufacture Wood\nPattern\nDevelop and\nManufacture Polymer\nPattern\nDevelop and\nManufacture Assembled\nPlated Pattern\nDevelop and\nManufacture Production\nPattern\nPerform General\nwoodworking Machine\nOperations\nUse and Maintain\nMeasuring Instrument\nPrepare & mix sand for\nmetal molding\nProduce Molds by Hand\nProduce Cores by Hand\nOperate Molding\nMachine\nOperate Core-Making\nMachine\nPour Molten Metal to\nMolds\nUse and Maintain\nMeasuring Instrument\nOperate melting\nfurnaces (non-electric)\nOperate Cupola Melting\nFurnace\nOperate Electric\nInduction Melting\nFurnace\nFettle & Trim Metal\nCastings/Forgings\nPerform Refractory\nInstallation & Repair\nUse & Maintain\nMeasuring Instrument\nANNEX A\nPerform Engineering\nMeasurement\nPerform Precision\nMechanical\nMeasurement\nCalibrate Measuring\nEquipment\nPROCESS INSPECTION NC II\nPrepare Molds for\nComposites Production\nPrepare Materials for\nFormulae\nAssemble Materials and\nEquipment for\nProduction\nOperate Injection\nMolding Equipment\nOperate Blow\nMolding Equipment\nMonitor Process\nOperations\nFinish Products and\nComponents\nSelect and Control\nInspection Processes\nand Procedure\nPerform Product\nInspection\nPerform Basic\nStatistical Quality\nControl\nUse Improvement\nProcesses in Team\nActivities\n\n--- PDF PAGE 51 ---\nTR Process Inspection NC II\nPromulgated\n- 47 -",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "ALT742201",
+        "ALT311202",
+        "ALT723203",
+        "ALT723204"
+      ],
+      "unit_titles": [
+        "Read and interpret engineering drawings",
+        "Perform mensuration and calculation",
+        "Read, interpret and apply specifications and manuals",
+        "Perform shop maintenance"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "ALT315301",
+        "ALT315302",
+        "ALT315303",
+        "ALT315304"
+      ],
+      "unit_titles": [
+        "Select and control inspection processes and procedures",
+        "Perform inspection",
+        "Perform basic statistical quality control",
+        "Use improvement processes in team activities"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be\nawarded a National Certificate signed by the TESDA Director General.\n\n4.2\nThe qualification of PROCESS INSPECTION NC II may be attained through.\n\n4.2.1 Demonstration of competence through project-type assessment covering all required\nunits of competency of the qualification.\n\n4.3\nAssessment shall focus on the core units of competency. The basic and common units\nshall be integrated or assessed concurrently with the core units.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-based\ntraining programs.\n\n4.4.2 Experienced workers (wage employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the Procedures\nManual on Assessment and Certification and Guidelines on the Implementation of the\nPhilippine TVET Qualification and Certification System (PTQCS).\n\n--- PDF PAGE 50 ---\nTR Process Inspection NC II\nPromulgated\n- 46 -\nCOMPETENCY MAP- AUTOMOTIVE SECTOR\nMANUFACTURING SUB-SECTOR\n(Parts Manufacturing)\n\nPROCESS INSPECTION NC II\nCOMMON\nCOMPETENCIES\nReceive and\nrespond workplace\ncommunication\nParticipate in\nworkplace\ncommunication\nLead in workplace\ncommunication\nUtilize specialist\ncommunication skills\nWork in team\nenvironment\nDevelop team\n and individual\nSolve workplace\nproblems related\nto work activities\nWork with Other\nLead small Team\nApply problem\nsolving techniques\nin the workplace\nPlan and\norganize work\nBASIC\nCOMPETENCIES\n-\nLegend:\nCORE COMPETENCIES\nDemonstrate\nwork values\nPractice basic\n housekeeping\nprocedures\nPractice career\nprofessionalism\nPractice occupational\nhealth and safety\n procedures\nDevelop and\npractice negotiation\nskills\nUse mathematical\nconcepts and\n techniques\nUse relevant\n technologies\nRead & Interpret\nEngineering Drawings\nPerform Mensuration\nand Calculation\nRead, Interpret and\nApply Specifications\nand Manuals\nPerform Shop\nMaintenance\nDevelop and\nManufacture Wood\nPattern\nDevelop and\nManufacture Polymer\nPattern\nDevelop and\nManufacture Assembled\nPlated Pattern\nDevelop and\nManufacture Production\nPattern\nPerform General\nwoodworking Machine\nOperations\nUse and Maintain\nMeasuring Instrument\nPrepare & mix sand for\nmetal molding\nProduce Molds by Hand\nProduce Cores by Hand\nOperate Molding\nMachine\nOperate Core-Making\nMachine\nPour Molten Metal to\nMolds\nUse and Maintain\nMeasuring Instrument\nOperate melting\nfurnaces (non-electric)\nOperate Cupola Melting\nFurnace\nOperate Electric\nInduction Melting\nFurnace\nFettle & Trim Metal\nCastings/Forgings\nPerform Refractory\nInstallation & Repair\nUse & Maintain\nMeasuring Instrument\nANNEX A\nPerform Engineering\nMeasurement\nPerform Precision\nMechanical\nMeasurement\nCalibrate Measuring\nEquipment\nPROCESS INSPECTION NC II\nPrepare Molds for\nComposites Production\nPrepare Materials for\nFormulae\nAssemble Materials and\nEquipment for\nProduction\nOperate Injection\nMolding Equipment\nOperate Blow\nMolding Equipment\nMonitor Process\nOperations\nFinish Products and\nComponents\nSelect and Control\nInspection Processes\nand Procedure\nPerform Product\nInspection\nPerform Basic\nStatistical Quality\nControl\nUse Improvement\nProcesses in Team\nActivities\n\n--- PDF PAGE 51 ---\nTR Process Inspection NC II\nPromulgated\n- 47 -\nDEFINITION OF TERMS\n\n1.\nBore gauge\nBore gauge is a measuring tool used for measuring the internal\ndiameter of a cylindrical tube.\n2.\nData\nData is the information collected about a product, service, process,\nperson or machine.\n3.\nDomain\nDomain is the set of possible values specified for a given\nmathematical function.\n4.\nFlashing\nFlashing is a defect where resin flow out to the parting line of the\nmold and adheres to the part of the product, especially commonly\nseen in old mold.\n5.\nFlowchart\nFlowchart is a pictorial summary of the flows and decisions that\ncomprise a process. It is used for defining and documenting the\nprocess.\n6.\nGantt chart\nGantt chart is a scheduling chart in which horizontal lines show\nthe actual and projected amounts of time involved in completing a\nparticular task or reaching specific levels of production it is is a bar\nchart that plots tasks and subtask against time.\n7.\nHistogram\nHistogram is a statistical graph of frequency distribution in which\nvertical rectangles of different heights are proportionate to\ncorresponding frequencies.\n8.\nIshikawa diagram\nIshikawa diagram is a tool used to organize the possible causes of\na problem, select the most probable cause, and verify the cause\nand effect relationship between the most probable cause and the\nproblem under study.\n9.\nJetting\nJetting or sometimes called flow marks is a defect that shows\nvisible marks of movement as the materials enter the mold.\n10. Mean\nMean is a numerical representation of the arithmetic average it is\nthe sum of the numerical values of the measurement divided by the\nnumber of items examined.\n11. Median\nMedian is the middle value when the data are arranged in\nascending order. When there are an even number of observations,\nthe median value is the arithmetic average of the middle two\nvalues.\n12. Mode\nMode of a distribution is the value that occurs most frequently, or\nthe value corresponding to the highest point on a frequency\npolygon or histogram.\n13. Pareto analysis\nPareto analysis is the tool of analysis using the concept that\nfocuses attention on the vital few against the trivial many.\n14. Process\nProcess is a collection of interacting components that transform\ninputs into outputs toward a common aim.\n15. Short shot\nShort shot is a defect that occurs when the resin cools and\nsolidifies before the material fills the mold completely.\n16. Shrinkage\nShrinkage is a defect that forms a cavity in a casting caused by\ninsufficient amount of metal during solidification\n\n--- PDF PAGE 52 ---\nTR Process Inspection NC II\nPromulgated\n- 48 -\n\n17. The range\nThe range is the simplest measure of dispersion; for raw data from\nan enumerative or an analytic study, it is defined as the difference\nbetween the largest data point and the smallest.\n18. Tolerance\nTolerance is the allowable variance from a nominal value\nestablished by design engineers that is deemed non harmful to the\nfunctioning of the product.\n\n--- PDF PAGE 53 ---\nTR Process Inspection NC II\nPromulgated\n- 49 -\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend thanks\nand appreciation to the many representatives of business, industry, academe and government\nagencies who rendered their time and expertise to the development and validation of these\nTraining Regulations.\n\nTHE TECHNICAL AND INDUSTRY EXPERT PANEL\nPROCESS INSPECTION NC II\nAntonio A. Gimenez\nPhilippine Automotive\nFederation, Inc. (PAFI)\n\nRodolfo T. Nunez\nPlant Manager-Nissan Motors\nPhils. Inc.(NMPI)\nCATC/PAFI\nElmo N. Serbito\nPAFI (Samahan ng mga\nManggagawang Supercast)\n\nCarina J. Bondad\n(Administrative Staff)\nThe PARTICIPANTS in the National Validation of these Training Regulations\n• (Supercast Foundry &\nMachinery Corp.\nSFMC)\n\n• Philippine Phospate\n(PHILPHOS)\n• Philippine Aluminum Wheels\nInc. (PAWI)\n• Philippine Resin Sand (PRS)\n• Toyota Auto Parts Phils. Inc.\n\n• ASPEC Corp.\nMembers of the TESDA Board\nThe MANAGEMENT and STAFF of the TESDA Secretariat\nTESDA EXCOM\nQualification and Standards Office\nFlorante P. Inoturan\nAgnes P. Panem\nAbel B. Elpedes"
 }

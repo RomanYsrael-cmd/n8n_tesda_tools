@@ -1,29 +1,133 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:programming-java-nc-iii:2021-06-08",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:programming-java-nc-iii:672a225580",
   "qualification": "PROGRAMMING (JAVA) NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Programming (JAVA) NC III.pdf",
-    "sha256": "672a225580065b7f452a4b8573d6c31db120ef391e4498425ee48e4ac575c5d8",
+    "source_sha256": "672a225580065b7f452a4b8573d6c31db120ef391e4498425ee48e4ac575c5d8",
+    "pdf_pages": 56,
+    "printed_pages": 54,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised/current two-column regulation promulgated June 8, 2021; the canonical promulgated field preserves the full date literal.",
+    "Section 1 lists common codes ICT315202 and ICT311203, while competency headers use 506315202 and 506311203; the canonical codes follow Section 1 and source_unit_code preserves the header codes.",
+    "Section 3 uses Java Programming as the course title while the qualification and source file use Programming (Java) NC III; source_text preserves both labels.",
+    "The source includes Oracle Java SE 8 certification requirements, repeated trainee-entry text, and a broad ICT competency map; source_text preserves the printed material.",
+    "The source prints 64 Basic, 16 Common, and 160 Core hours for a 240-hour total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised/current two-column regulation promulgated June 8, 2021; the canonical promulgated field preserves the full date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists common codes ICT315202 and ICT311203, while competency headers use 506315202 and 506311203; the canonical codes follow Section 1 and source_unit_code preserves the header codes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 uses Java Programming as the course title while the qualification and source file use Programming (Java) NC III; source_text preserves both labels."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source includes Oracle Java SE 8 certification requirements, repeated trainee-entry text, and a broad ICT competency map; source_text preserves the printed material."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 64 Basic, 16 Common, and 160 Core hours for a 240-hour total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Programming (JAVA) NC III.pdf",
-    "pdf_pages": 56,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "ICT315202",
+      "source_unit_code": "506315202",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "ICT311203",
+      "source_unit_code": "506311203",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "ICT313359",
+      "source_unit_code": "ICT313359",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "ICT313360",
+      "source_unit_code": "ICT313360",
+      "pdf_page_range": [
+        37,
+        41
+      ]
+    }
+  ]
 }

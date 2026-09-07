@@ -1,29 +1,149 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:process-inspection-nc-ii:ebdc6bf11a",
   "qualification": "PROCESS INSPECTION NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Process Inspection NC II.pdf",
-    "sha256": "ebdc6bf11af72dce76a2d2c6446d304c0fb35d0cebe7bb82de920aad7e222c8a",
+    "source_sha256": "ebdc6bf11af72dce76a2d2c6446d304c0fb35d0cebe7bb82de920aad7e222c8a",
+    "pdf_pages": 53,
+    "printed_pages": 49,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation with an undated Promulgated footer; the canonical promulgated field remains null.",
+    "Section 1 lists 4 Basic, 4 Common, and 4 Core units and labels the core inventory heading as COMMON COMPETENCIES; the canonical groups follow the explicit unit inventory and source section context.",
+    "Section 1 lists common unit ALT723204 Perform Shop Maintenance, while the competency header uses ALT723205; the canonical code follows Section 1 and source_unit_code preserves ALT723205.",
+    "The source uses Process Inspection, product-inspection, and products-inspection title variants across Section 1, Section 3, curriculum, and competency headers; source_text preserves the printed forms.",
+    "The source prints 18 Basic, 20 Common, and 60 Core hours without a displayed total; the canonical duration records the 98-hour arithmetic sum."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation with an undated Promulgated footer; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 4 Basic, 4 Common, and 4 Core units and labels the core inventory heading as COMMON COMPETENCIES; the canonical groups follow the explicit unit inventory and source section context."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists common unit ALT723204 Perform Shop Maintenance, while the competency header uses ALT723205; the canonical code follows Section 1 and source_unit_code preserves ALT723205."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses Process Inspection, product-inspection, and products-inspection title variants across Section 1, Section 3, curriculum, and competency headers; source_text preserves the printed forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 20 Common, and 60 Core hours without a displayed total; the canonical duration records the 98-hour arithmetic sum."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Process Inspection NC II.pdf",
-    "pdf_pages": 53,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "ALT742201",
+      "source_unit_code": "ALT742201",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "ALT311202",
+      "source_unit_code": "ALT311202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "ALT723203",
+      "source_unit_code": "ALT723203",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "ALT723204",
+      "source_unit_code": "ALT723205",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "ALT315301",
+      "source_unit_code": "ALT315301",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "ALT315302",
+      "source_unit_code": "ALT315302",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "ALT315303",
+      "source_unit_code": "ALT315303",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "ALT315304",
+      "source_unit_code": "ALT315304",
+      "pdf_page_range": [
+        40,
+        42
+      ]
+    }
+  ]
 }
