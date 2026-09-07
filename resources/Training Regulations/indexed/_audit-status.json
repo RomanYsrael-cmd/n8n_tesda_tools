@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T10:24:49+08:00",
+  "last_updated": "2026-09-07T10:56:05+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 310,
-  "remaining_unaudited": 74,
+  "audited_count": 315,
+  "remaining_unaudited": 69,
   "blocked_count": 0,
   "documents": [
     {
@@ -4038,6 +4038,71 @@
       "validation_passed": true,
       "last_audit_commit": "5a97afe936a83469002952231773cb38518c43cf",
       "audit_notes": "Rebuilt 4/4/4 amended revised four-column groups with required knowledge and skills; restored 36 curriculum rows, 5 assessment arrangements, and 10 glossary entries, preserved Promulgated October 2014 and the 18/24/160/202-hour duration, recorded the broader competency map and Section 4 numbering variants including 4.12 and 4.13, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Plumbing NC III",
+      "package_path": "resources/Training Regulations/indexed/Plumbing NC III",
+      "source_file": "resources/Training Regulations/Plumbing NC III.pdf",
+      "source_sha256": "c21090fcb8b0931a5e7a9a71e0e301326ced0c80312c64cc49153e394454c1a9",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:56:05+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b2812f4d9679fb8153ad385682647d19478cd20d",
+      "audit_notes": "Rebuilt 6/5/5 amended revised four-column groups with required knowledge and skills; restored 46 curriculum rows, 5 assessment arrangements, and 10 glossary entries, preserved Promulgated October 2014 and the 24/24/200/248-hour duration, repaired the omitted common technical-drawings curriculum block and ordinal remapping, recorded source numbering and the broader competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Press Machine Operation NC I",
+      "package_path": "resources/Training Regulations/indexed/Press Machine Operation NC I",
+      "source_file": "resources/Training Regulations/Press Machine Operation NC I.pdf",
+      "source_sha256": "b40a1e456723a660501e364282a540111580d3e80b04b646b23d7a0eed29632b",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:56:05+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b2812f4d9679fb8153ad385682647d19478cd20d",
+      "audit_notes": "Rebuilt 4/6/2 historical two-column groups; restored 42 curriculum rows including six unnumbered core outcomes, 5 assessment arrangements, and 11 glossary entries, preserved the single 294-hour nominal duration and 11-19-07 source date, repaired footer and table-of-contents artifacts, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Pressurized Irrigation System Installation and Maintenance NC II",
+      "package_path": "resources/Training Regulations/indexed/Pressurized Irrigation System Installation and Maintenance NC II",
+      "source_file": "resources/Training Regulations/Pressurized Irrigation System Installation and Maintenance NC II.pdf",
+      "source_sha256": "ac661454a10a061fbd16aa4b68080a0cf0dcf263a7e200d0546e0e4f148bd117",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:56:05+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "b2812f4d9679fb8153ad385682647d19478cd20d",
+      "audit_notes": "Rebuilt 9/3/3 revised four-column groups with required knowledge and skills; restored 47 curriculum rows, 3 assessment arrangements, and 14 glossary entries, preserved the 37/72/70/179-hour duration and January 11, 2019 source date, recorded the Section 3 title variant and revision/contextual-learning material, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Printing Services (Prepress Technical Operations) NC I",
+      "package_path": "resources/Training Regulations/indexed/Printing Services (Prepress Technical Operations) NC I",
+      "source_file": "resources/Training Regulations/Printing Services (Prepress Technical Operations) NC I.pdf",
+      "source_sha256": "3f377ba42ef73becdde305124348797bbb813a26aff785e5d929cef48441fc5e",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:56:05+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b2812f4d9679fb8153ad385682647d19478cd20d",
+      "audit_notes": "Rebuilt 9/4/5 revised four-column groups with required knowledge and skills; restored 57 curriculum rows, 3 assessment arrangements, and 70 glossary entries, preserved the 47/45/308/400-hour duration and December 2023 source date, recorded revision history, the qualification/title variant, and the OCR-split knowledge header, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Printing Services (Prepress Technical Operations) NC II",
+      "package_path": "resources/Training Regulations/indexed/Printing Services (Prepress Technical Operations) NC II",
+      "source_file": "resources/Training Regulations/Printing Services (Prepress Technical Operations) NC II.pdf",
+      "source_sha256": "06d6858c5aa2d5f62678569dfa9ef5dffc0a4565b0407e02a1653b8b2aca98c7",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:56:05+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b2812f4d9679fb8153ad385682647d19478cd20d",
+      "audit_notes": "Rebuilt 9/4/5 revised four-column groups with required knowledge and skills; restored 56 curriculum rows, 2 assessment arrangements, and 48 glossary entries, preserved the 37/45/200/282-hour duration and December 2023 source date, recorded revision history, the qualification/title variant, the OCR-split knowledge header, and the SOC532310 source-code discrepancy remapped to SOC732310, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
