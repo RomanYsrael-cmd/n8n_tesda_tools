@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T15:52:04+08:00",
+  "last_updated": "2026-09-07T16:30:20+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 370,
-  "remaining_unaudited": 14,
+  "audited_count": 375,
+  "remaining_unaudited": 9,
   "blocked_count": 0,
   "documents": [
     {
@@ -4818,6 +4818,71 @@
       "validation_passed": true,
       "last_audit_commit": "82198bf699f174a7d466b77e58e651505962a790",
       "audit_notes": "Audited 9/4/3 revised four-column basic/common/core groups; preserved 40/45/156-hour components plus 40-hour SIL and 281-hour total, retained the Guide and Escort Visitors versus clients source-title variant, and recovered 24 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tour Packaging (Fit Ad Hoc Domestic) Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Tour Packaging (Fit Ad Hoc Domestic) Services NC II",
+      "source_file": "resources/Training Regulations/Tour Packaging (Fit Ad Hoc Domestic) Services NC II.pdf",
+      "source_sha256": "e49fdf0731da6303f0e4a48d815927ce99f6aa7fcd249a68cc47863580a33650",
+      "status": "audited",
+      "audited_at": "2026-09-07T16:30:20+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "1d670c00e79c3b9011cdbe4d889d4e07039bf611",
+      "audit_notes": "Audited 9/5/3 revised four-column basic/common/core groups; preserved 37/28/72-hour components plus 200-hour SIT and 337-hour canonical total, retained the Section 3 137-hour subtotal versus Section 4 120-lecture-hour source discrepancy, and recovered 22 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tourism Promotion Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Tourism Promotion Services NC II",
+      "source_file": "resources/Training Regulations/Tourism Promotion Services NC II.pdf",
+      "source_sha256": "a89adfdf02239ed82322c4d0b70fd264880bd3cb5f5c3142f4bd84c37fec7572",
+      "status": "audited",
+      "audited_at": "2026-09-07T16:30:20+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "1d670c00e79c3b9011cdbe4d889d4e07039bf611",
+      "audit_notes": "Audited 4/5/3 revised four-column basic/common/core groups; preserved 20/28/28-hour components and 76-hour total, retained the TRS5113123–TRS5113125 source-code series and TOURSIM/arrangement spelling variants, and recovered 5 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Trainers Methodology Level I (In-Company Trainer)",
+      "package_path": "resources/Training Regulations/indexed/Trainers Methodology Level I (In-Company Trainer)",
+      "source_file": "resources/Training Regulations/Trainers Methodology Level I (In-Company Trainer).pdf",
+      "source_sha256": "a17d1851df5b1234848db2648f61370d2e3b4a318a77c227b1db94ed6a1c7e4b",
+      "status": "audited",
+      "audited_at": "2026-09-07T16:30:20+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "1d670c00e79c3b9011cdbe4d889d4e07039bf611",
+      "audit_notes": "Audited 12/4 revised knowledge/attitude-and-skill basic/core groups; preserved 124/80-hour components and 204-hour total, repaired the continuation-row reassociation in the costs-and-benefits unit, and recovered 12 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Trainers Methodology Level I (Trainer Assessor)",
+      "package_path": "resources/Training Regulations/indexed/Trainers Methodology Level I (Trainer Assessor)",
+      "source_file": "resources/Training Regulations/Trainers Methodology Level I (Trainer Assessor).pdf",
+      "source_sha256": "cd8516d76a64891f6c212812c9784d6aaa353e5fa4e6b6feba8495c039ebe24",
+      "status": "audited",
+      "audited_at": "2026-09-07T16:30:20+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "1d670c00e79c3b9011cdbe4d889d4e07039bf611",
+      "audit_notes": "Audited 12/6 historical two-column basic/core groups; preserved 128/136-hour components and 264-hour total, retained the Re-titled May 2011 lifecycle wording and cluster-based TM assessment arrangements, and recovered 6 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Trainers Methodology Level II (Training Designer Developer)",
+      "package_path": "resources/Training Regulations/indexed/Trainers Methodology Level II (Training Designer Developer)",
+      "source_file": "resources/Training Regulations/Trainers Methodology Level II (Training Designer Developer).pdf",
+      "source_sha256": "7cae465de3ff4752b37339a2f2b20198d9b097e5360282f46425868c714920b0",
+      "status": "audited",
+      "audited_at": "2026-09-07T16:30:20+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "1d670c00e79c3b9011cdbe4d889d4e07039bf611",
+      "audit_notes": "Audited 12/6/1 historical two-column basic/core/elective groups; preserved 128 Basic and 400 mandatory Core hours for a 528-hour canonical total, retained the separate optional 40-hour elective, and recovered 6 glossary entries; structural validation and visual boundary QA passed."
     }
   ]
 }
