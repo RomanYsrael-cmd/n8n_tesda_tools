@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T11:59:07+08:00",
+  "last_updated": "2026-09-07T12:21:33+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 330,
-  "remaining_unaudited": 54,
+  "audited_count": 335,
+  "remaining_unaudited": 49,
   "blocked_count": 0,
   "documents": [
     {
@@ -4298,6 +4298,71 @@
       "validation_passed": true,
       "last_audit_commit": "7cf7e69fa4db3c4d8401a48b85ccfb60c091345a",
       "audit_notes": "Rebuilt 4/8/4 historical two-column groups; restored 38 curriculum rows, 7 assessment arrangements, and 2 glossary entries, preserved the undated Promulgated label, June 26, 2013 revision context, and the 18/60/30-hour components with 108-hour total, retained STCW II/4 maritime competency terminology and approved sea-service requirements, and preserved source assessment and certification details; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Rating Forming Part of an Engineering Watch NC II (III-4)",
+      "package_path": "resources/Training Regulations/indexed/Rating Forming Part of an Engineering Watch NC II (III-4)",
+      "source_file": "resources/Training Regulations/Rating Forming Part of an Engineering Watch NC II (III-4).pdf",
+      "source_sha256": "a77d1e98b3e5a85b85f8aa60999285400e30c5354fbf550ff342cc8f21d26032",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:21:33+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "2b5a9f089980f63c9a9e7b8f916161a64b4087db",
+      "audit_notes": "Rebuilt 4/8/3 historical two-column groups; restored 40 curriculum rows, 7 assessment arrangements, and 9 glossary entries, preserved the undated Promulgated label and June 26, 2013 revision context, retained the 18/60/30-hour components with 108-hour total, and preserved STCW Regulation III/4, Certificate of Proficiency, engine-room watchkeeping, boiler-watch, MARINA/TESDA, and approved sea-service requirements; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Real Estate Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Real Estate Services NC II",
+      "source_file": "resources/Training Regulations/Real Estate Services NC II.pdf",
+      "source_sha256": "6aeeaaf6a6f047a0ca2789fd2a340bd699e3453fb32eb9d63f4696d10747ea61",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:21:33+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "2b5a9f089980f63c9a9e7b8f916161a64b4087db",
+      "audit_notes": "Rebuilt 9/7/4 revised four-column groups; restored 66 curriculum rows, 2 assessment arrangements, and 77 glossary entries, preserved Revision 01 and Promulgated (01/11/2019), retained the 37/24/88-hour classroom components and separate 60-hour SIT line with the printed 149-hour total plus documented 209-hour arithmetic sum, repaired the Perform workplace security and safety curriculum association, and preserved real-estate brokerage, legal, tax, title, loan, and property-management terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Reinforcing Steel Works NC II",
+      "package_path": "resources/Training Regulations/indexed/Reinforcing Steel Works NC II",
+      "source_file": "resources/Training Regulations/Reinforcing Steel Works NC II.pdf",
+      "source_sha256": "97be71b5ee56115c8f8b11df0f012bcf46f6048e424d93be526e4a63fd339afc",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:21:33+08:00",
+      "issues_found": 9,
+      "issues_fixed": 9,
+      "validation_passed": true,
+      "last_audit_commit": "2b5a9f089980f63c9a9e7b8f916161a64b4087db",
+      "audit_notes": "Rebuilt 4/5/2 historical two-column groups; restored 35 curriculum rows, 5 assessment arrangements, and 20 glossary entries, preserved the amended December 2013 context and 18/24/120-hour components with 162-hour total, retained Steelman and Rebar Worker occupational outcomes, preserved RSB terminology and Install RSB material/materials variants, and retained the source assessment numbering and WOORKS spelling; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Rice Machinery Operations NC II",
+      "package_path": "resources/Training Regulations/indexed/Rice Machinery Operations NC II",
+      "source_file": "resources/Training Regulations/Rice Machinery Operations NC II.pdf",
+      "source_sha256": "ea789b3f7bc58ef224f4d94509a3cb01aeb653130dad9decabcf121f563aada5",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:21:33+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "2b5a9f089980f63c9a9e7b8f916161a64b4087db",
+      "audit_notes": "Rebuilt 4/3/6 historical two-column groups; restored 45 curriculum rows, 7 assessment arrangements, and 14 glossary entries, preserved the undated Promulgated label and the 18/14/200-hour components with 232-hour total, reconciled the Section 1 Perform estimation and calculations title with the curriculum's Perform estimation and basic calculation wording, retained the Rice Machinery Operation/Operations variants, and preserved the three-core-unit COC assessment pathway and agriculture/fishery terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Rigging NC I",
+      "package_path": "resources/Training Regulations/indexed/Rigging NC I",
+      "source_file": "resources/Training Regulations/Rigging NC I.pdf",
+      "source_sha256": "566e86cea66edb94d1f4c4fd5a72033dd42a70d062f080adb338d479236d9283",
+      "status": "audited",
+      "audited_at": "2026-09-07T12:21:33+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "2b5a9f089980f63c9a9e7b8f916161a64b4087db",
+      "audit_notes": "Rebuilt 4/4/3 historical two-column groups; restored 38 curriculum rows, 4 assessment arrangements, and 2 glossary entries, normalized the Heavy Equipment Operation - Rigging NC I source title to the Rigging NC I package label, mapped generic curriculum basic labels by source order, restored the Maintain tools and equipment curriculum rows, preserved the truncated 50031103 source code and legacy 4.1/5.1 and missing 2.6 numbering, and retained the 18/18/80-hour components with 116-hour total; structural validation and visual boundary QA passed."
     }
   ]
 }
