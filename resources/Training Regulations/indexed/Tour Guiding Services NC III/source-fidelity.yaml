@@ -1,29 +1,176 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:tour-guiding-services-nc-iii:dff9d9c7d4",
-  "qualification": "Tour Guiding Services NC III",
+  "qualification": "TOUR GUIDING SERVICES NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Tour Guiding Services NC III.pdf",
-    "sha256": "dff9d9c7d45853c548911c60adb53cf02c4bfdd3062bfa539702c4b739649c22",
+    "source_sha256": "dff9d9c7d45853c548911c60adb53cf02c4bfdd3062bfa539702c4b739649c22",
+    "pdf_pages": 135,
+    "printed_pages": 131,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is the revised four-column Tour Guiding Services regulation promulgated 09/14/2021 with 9 Basic, 4 Common, and 3 Core units; Required Knowledge and Required Skills are present in the competency tables.",
+    "Section 3 prints 40 Basic, 45 Common, and 156 Core hours, a 241-hour subtotal, plus 40 hours of Supervised Industry Learning (SIL), for TOTAL = 281 HOURS; the canonical duration preserves all listed components and total.",
+    "The third core competency header uses Guide and Escort Visitors in Accordance with the Regional Tour Itinerary while Section 1 lists Guide and Escort Clients in Accordance with the Tour Itinerary; canonical retrieval follows Section 1 and source_text preserves the header wording.",
+    "The source uses Tour Guiding Services/Tour Guiding and client/visitor wording variants, plus historical hospitality and tourism terminology; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is the revised four-column Tour Guiding Services regulation promulgated 09/14/2021 with 9 Basic, 4 Common, and 3 Core units; Required Knowledge and Required Skills are present in the competency tables."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 40 Basic, 45 Common, and 156 Core hours, a 241-hour subtotal, plus 40 hours of Supervised Industry Learning (SIL), for TOTAL = 281 HOURS; the canonical duration preserves all listed components and total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The third core competency header uses Guide and Escort Visitors in Accordance with the Regional Tour Itinerary while Section 1 lists Guide and Escort Clients in Accordance with the Tour Itinerary; canonical retrieval follows Section 1 and source_text preserves the header wording."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses Tour Guiding Services/Tour Guiding and client/visitor wording variants, plus historical hospitality and tourism terminology; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Tour Guiding Services NC III.pdf",
-    "pdf_pages": 135,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311319",
+      "source_unit_code": "400311319",
+      "pdf_page_range": [
+        7,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311320",
+      "source_unit_code": "400311320",
+      "pdf_page_range": [
+        11,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311321",
+      "source_unit_code": "400311321",
+      "pdf_page_range": [
+        16,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311322",
+      "source_unit_code": "400311322",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311323",
+      "source_unit_code": "400311323",
+      "pdf_page_range": [
+        26,
+        30
+      ]
+    },
+    {
+      "unit_code": "400311324",
+      "source_unit_code": "400311324",
+      "pdf_page_range": [
+        31,
+        35
+      ]
+    },
+    {
+      "unit_code": "400311325",
+      "source_unit_code": "400311325",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "400311326",
+      "source_unit_code": "400311326",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "400311327",
+      "source_unit_code": "400311327",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        48,
+        51
+      ]
+    },
+    {
+      "unit_code": "TRS141201",
+      "source_unit_code": "TRS141201",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "TRS141202",
+      "source_unit_code": "TRS141202",
+      "pdf_page_range": [
+        57,
+        63
+      ]
+    },
+    {
+      "unit_code": "TRS141203",
+      "source_unit_code": "TRS141203",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "TRS511307",
+      "source_unit_code": "TRS511307",
+      "pdf_page_range": [
+        69,
+        74
+      ]
+    },
+    {
+      "unit_code": "TRS511308",
+      "source_unit_code": "TRS511308",
+      "pdf_page_range": [
+        75,
+        82
+      ]
+    },
+    {
+      "unit_code": "TRS511309",
+      "source_unit_code": "TRS511309",
+      "pdf_page_range": [
+        83,
+        92
+      ]
+    }
+  ]
 }

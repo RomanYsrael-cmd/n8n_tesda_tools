@@ -1,68 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:tile-setting-nc-ii:1323690afc",
-  "qualification": "Tile-Setting NC II",
+  "document_id": "tesda:tr:tile-setting-nc-ii-superseded:1323690afc",
+  "qualification": "TILE SETTING NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "to gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "identify role and responsibility as a member of a team."
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "identifying and measuring objects based on the required"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "identifying, requesting and receiving construction materials"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON713332",
-        "title": "This unit covers the knowledge, skills and attitude"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "regulatory and organizational requirements for occupational"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "identifying, interpreting, applying services to specifications"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "analyzing and interpreting symbols, data and work plan"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "checking condition, performing preventive maintenance and"
-      },
-      {
-        "unit_code": "CON713333",
-        "title": "This unit covers the knowledge, skills and attitude"
-      },
-      {
-        "unit_code": "CON713334",
-        "title": "This unit specifies the knowledge, skills and attitude"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nCIVIL WORKS SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\n\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nLat and repair floor\nand wall tiles\nTile corners\nTile curved\nsurfaces\nPerform\nmixing/tinting of\ncolor paints\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nPrepare construction materials\nand tools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and manual of\ninstructions\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem\nsolving\ntechniques in the\nworkplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\n\n--- PDF PAGE 66 ---\nTILE SETTING NC II 75",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instruction",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON713332",
+        "CON713333",
+        "CON713334"
+      ],
+      "unit_titles": [
+        "Lay and repair floor and wall tiles",
+        "Tile corners",
+        "Tile curved surfaces"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be\nawarded a National Certificate signed by the TESDA Director General.\n\n4.2 The qualification of TILE SETTING NC II can be attained through\ndemonstration of competence in a project-type assessment covering the\nfollowing core units.\n\n4.1.1 Lay and repair floor and wall tiles\n4.1.2 Tile corners\n4.1.3 Tile curved surfaces\n\n4.3. Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4. The following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2. Experienced Workers (wage employed or self-employed)\n\n4.5. The guidelines on assessment and certification are discussed in detail in\nthe Procedures Manual on Assessment and Certification and guidelines\non the Implementation of the Philippine TVET Qualification and\nCertification System (PTQCS).\n\n--- PDF PAGE 65 ---\nTILE SETTING NC II 64\n\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nANNEX A\nTILE SETTING NC II\n\nCOMPETENCY MAP\nCIVIL WORKS SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\n\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nLat and repair floor\nand wall tiles\nTile corners\nTile curved\nsurfaces\nPerform\nmixing/tinting of\ncolor paints\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nPrepare construction materials\nand tools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and manual of\ninstructions\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem\nsolving\ntechniques in the\nworkplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\n\n--- PDF PAGE 66 ---\nTILE SETTING NC II 75\n\nDEFINITION OF TERMS\n\n1. Competency\nIs the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace.\n\n2. Certification\nRefers to the process of verifying and validating competencies of\na person through assessment.\n\n3. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person who\nworks in a particular area of work is able to perform.\n\n4. Evidence Guide\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills, resource implications, context of assessment and\nassessment method.\n\n5. Mosaic\nRefers to a texture in a crystalline sedimentary rock in which\ncontact at grain boundaries are more or less regular.\n\n6. Philippine TVET\nQualification\nFramework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter\nfor the integration of learning and assessment in the middle skills\ndevelopment.\n\n7. Qualification\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person\nhas achieved competencies relevant to a trade or industry.\n\n8. Range of\n Variable\nIt describes the circumstances or context in which the work is to\nbe performed.\n\n9. Tile\nIt is a piece of fired clay, stone, concrete or other material used\nornamentally to cover roofs, floor or wall\n\n10. Unit of\n Competency\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n\n--- PDF PAGE 67 ---\nTILE SETTING NC II 76\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies and who contributed their time and expertise to the development of this\nTraining Regulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nJOHN N. CALAMIONG, Ed.D.\nProfessor II\nTechnological University of the\nPhilippines - Taguig Campus\nDANILO DIAZ\nTrainor / Assessor\nAssociation of Construction and Informal\nWorkers\n\nVIRGIL ANTONIO\nOperations Manager\nMariwasa Manufacturing\n\nMEYNARDO PALARCA\nTrainor\nAssociation of Construction and Informal\nWorkers\n\nREY CAPISTRANO\nTile Setter\nSupercity Realty\n\nARMANDO CRUZ\nArchitect Superintendent\nEEI Corporation\nRUEL EUSEBIO\nEngineer\nRockford Development\n\nERLISPE LIBO-ON\nTile Setter\nSupercity Realty\nLITO RAMOS\nProject Engineer\nF.L. Ramos Construction\n\nTITO BASSIG\nProject Engineer\nRockford Development"
 }

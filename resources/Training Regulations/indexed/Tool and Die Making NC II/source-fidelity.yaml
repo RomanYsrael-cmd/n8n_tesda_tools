@@ -1,29 +1,128 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:tool-and-die-making-nc-ii:ec489a1f55",
   "qualification": "TOOL AND DIE MAKING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Tool and Die Making NC II.pdf",
-    "sha256": "ec489a1f5587aaa63642fc026416950af34345bd3fe73cd136457704e0e4823f",
+    "source_sha256": "ec489a1f5587aaa63642fc026416950af34345bd3fe73cd136457704e0e4823f",
+    "pdf_pages": 48,
+    "printed_pages": 47,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column Metals and Engineering regulation with 4 Basic, 3 Common, and 3 Core units; the source prints a single 598-hour nominal training duration.",
+    "Section 1 lists the basic codes 500311101–500311104, while the Section 2 headers use 500311105–500311108; source_codes/source_unit_code preserve the header identifiers while canonical retrieval follows the qualification inventory.",
+    "The source prints MEE722 303 in the Test and Try Die header while Section 1 lists MEE722303; this code-spacing variant is retained in source provenance.",
+    "The source uses Tool and DieMaking/Tool and Die Making, die maker/Tool Maker, and historical capitalization and spelling variants; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column Metals and Engineering regulation with 4 Basic, 3 Common, and 3 Core units; the source prints a single 598-hour nominal training duration."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists the basic codes 500311101–500311104, while the Section 2 headers use 500311105–500311108; source_codes/source_unit_code preserve the header identifiers while canonical retrieval follows the qualification inventory."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints MEE722 303 in the Test and Try Die header while Section 1 lists MEE722303; this code-spacing variant is retained in source provenance."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses Tool and DieMaking/Tool and Die Making, die maker/Tool Maker, and historical capitalization and spelling variants; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Tool and Die Making NC II.pdf",
-    "pdf_pages": 48,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        17
+      ]
+    },
+    {
+      "unit_code": "MEE722204",
+      "source_unit_code": "MEE722204",
+      "pdf_page_range": [
+        18,
+        19
+      ]
+    },
+    {
+      "unit_code": "MEE722205",
+      "source_unit_code": "MEE722205",
+      "pdf_page_range": [
+        20,
+        21
+      ]
+    },
+    {
+      "unit_code": "MEE722207",
+      "source_unit_code": "MEE722207",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "MEE722301",
+      "source_unit_code": "MEE722301",
+      "pdf_page_range": [
+        25,
+        27
+      ]
+    },
+    {
+      "unit_code": "MEE722302",
+      "source_unit_code": "MEE722302",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "MEE722303",
+      "source_unit_code": "MEE722 303",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    }
+  ]
 }

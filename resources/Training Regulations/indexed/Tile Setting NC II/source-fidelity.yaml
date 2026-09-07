@@ -1,29 +1,163 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:tile-setting-nc-ii:733b2f9228",
   "qualification": "TILE SETTING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Tile Setting NC II.pdf",
-    "sha256": "733b2f922811f76a0a1c3434459b410db7034e3ee39978bbde6082f540c9c10c",
+    "source_sha256": "733b2f922811f76a0a1c3434459b410db7034e3ee39978bbde6082f540c9c10c",
+    "pdf_pages": 103,
+    "printed_pages": 99,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is the revised Tile Setting regulation promulgated 10/29/2018 with 9 Basic, 4 Common, and 2 Core units; its competency standards use the revised four-column format with Required Knowledge and Required Skills.",
+    "Section 3 prints 37 Basic, 24 Common, and 56 Core hours for a 117-hour total; the canonical duration preserves the explicit components and arithmetic total.",
+    "The source prints TILE SETTIING and TILE-SETTING variants, includes a stray PIPEFITTING (METALLIC) NC II cover line, and preserves source wording such as application/repair of tiles and Tile Setter terminology; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is the revised Tile Setting regulation promulgated 10/29/2018 with 9 Basic, 4 Common, and 2 Core units; its competency standards use the revised four-column format with Required Knowledge and Required Skills."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 37 Basic, 24 Common, and 56 Core hours for a 117-hour total; the canonical duration preserves the explicit components and arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints TILE SETTIING and TILE-SETTING variants, includes a stray PIPEFITTING (METALLIC) NC II cover line, and preserves source wording such as application/repair of tiles and Tile Setter terminology; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Tile Setting NC II.pdf",
-    "pdf_pages": 103,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        49,
+        53
+      ]
+    },
+    {
+      "unit_code": "CON712305",
+      "source_unit_code": "CON712305",
+      "pdf_page_range": [
+        54,
+        62
+      ]
+    },
+    {
+      "unit_code": "CON712306",
+      "source_unit_code": "CON712306",
+      "pdf_page_range": [
+        63,
+        71
+      ]
+    }
+  ]
 }

@@ -1,83 +1,1374 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:tool-and-die-making-nc-ii:ec489a1f55",
   "qualification": "TOOL AND DIE MAKING NC II",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Tool and Die Making NC II.pdf",
-    "pdf_pages": 48
+    "pdf_pages": 48,
+    "printed_pages": 47,
+    "promulgated": "12/02/04"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Nominal Training Duration",
+        "hours": 598,
+        "source_expression": "598 hrs. - Nominal Training Duration"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 598,
+    "total_source_expression": "598 hrs.",
+    "source_expressions": [
+      "598 hrs. - Nominal Training Duration"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 598,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
     "entries": [
       {
-        "unit_code": "TOOLS111181663",
-        "title": "TOOLS",
-        "learning_outcomes": [],
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Explain routinary speaking & messages in a workplace",
         "learning_activities": [],
-        "methodology": null,
-        "assessment_approach": null,
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning",
+          "Observation"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "source_text": "TOOLS\n1\n1\n1\n1\n8\n1\n6\n6\n3\nSet of files\nSet Allen wrench\nScribers\nVise with soft jaws\nSpotting screws\nSet of counterbores\nMallets\nMachinist hammer\nAngle vise\n\n1\n2\n2\n8\n6\n1\n3\n6\n\nAssorted shims\nAngle plate\nVernier height gage\nCenter punch\nparallel clamps\nSet of reamers\nAnvil\nSet of screwdrivers,\nflat"
+        "pdf_page": 35
       },
       {
-        "unit_code": "111242666",
-        "title": "1",
-        "learning_outcomes": [],
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Follow routinary speaking & messages",
         "learning_activities": [],
-        "methodology": null,
-        "assessment_approach": null,
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning",
+          "Observation"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "source_text": "1\n1\n1\n2\n4\n2\n6\n6\n6\nSet drill bits\nSet hand taps\nSet counter bore\n Portable electric drill\nSet of parallel set\nSet reamers\nRose bits\nSet of open wrench\nSet of box wrench\n\nTraining Materials:\n\n Reference books\n Manuals\n\n Catalogs\n Brochures /\n\n CD s / Video tape\n\nHousekeeping materials:\n20\npcs\n Brooms\n10\npcs\n Mops\n2\npcs.\n Trash can\n10\npcs\n Scrapers\n2\nbars\n Soap\n\n\n10 k\n Clean rags\n5 pcs\n Dustpan\n\n--- PDF PAGE 43 ---\nTool and DieMaking NCII\n12/02/04\n\n42\n3.5 TRAINING FACILITIES\n TOOL AND DIE MAKING NC II\n\nThe die making workshop must be of concrete structure. Based on class size of 12\nstudents/trainees the space requirements for the teaching/learning and circulation areas\nare as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n•\nBuilding\n(permanent)\n\n 10 M X 30 M\n\n 300 Sq. M\n Trainee working\nspace\n\n 2 M X 2 M\n\n 4 Sq.M / trainee\n\n 100 sq. M.\n Lecture Room\n 8 M X 10 M\n 80 Sq. M.\n 80 Sq. M\n Learning\nResource Center\n\n 4 M X 8 M.\n\n 32 Sq. M\n\n 32 Sq. M\n Facilities/\nEquipment/\nCirculation Area\n\n 88 Sq. M.\n\n3.6 TRAINER’S QUALIFICATIONS FOR METALS AND ENGINEERING\n SECTOR\n\n TRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of Tool and Die Making NC II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their achievement\nof units of competency. A certificate of achievement is issued for each unit of\ncompetency.\n\n--- PDF PAGE 44 ---\nTool and DieMaking NCII\n12/02/04\n\n43"
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Perform work duties following written notices",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify the objective of the team, and his role in the team",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Contribute to work group activities",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.16",
+        "learning_outcome": "Practice career professionali sm",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identified key result areas of the job",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in job enhancement trainings",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Acquire trade certifications according to requirement of the job",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Acquire membership in trade associations",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Follow organization safety regulations",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify hazards in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Follow contingency measures during accidents, fire and other emergencies",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Use of personal protective equipment",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.5",
+        "learning_outcome": "Participate in emergency related drills",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.17",
+        "learning_outcome": "Practice personal hygiene in the work",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 35
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Intermediate)",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Leg length calculated es",
+        "learning_activities": [],
+        "methodology": [
+          "discussion"
+        ],
+        "assessment_approach": [
+          "test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Intermediate)",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Angle calculated Non-right triangle",
+        "learning_activities": [],
+        "methodology": [
+          "discussion"
+        ],
+        "assessment_approach": [
+          "Practical exercises"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Intermediate)",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Leg length calculated",
+        "learning_activities": [],
+        "methodology": [
+          "discussion"
+        ],
+        "assessment_approach": [
+          "test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722204",
+        "unit_title": "Perform shop computations (Intermediate)",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Angle of taper found",
+        "learning_activities": [],
+        "methodology": [
+          "discussion"
+        ],
+        "assessment_approach": [
+          "test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722205",
+        "unit_title": "Measure workpiece (Intermediate)",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Select and use measuring tools",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722205",
+        "unit_title": "Measure workpiece (Intermediate)",
+        "learning_outcome_number": "2.18",
+        "learning_outcome": "Clean and store measuring tools",
+        "learning_activities": [],
+        "methodology": [
+          "discussion"
+        ],
+        "assessment_approach": [
+          "Practical exercises"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722205",
+        "unit_title": "Measure workpiece (Intermediate)",
+        "learning_outcome_number": "2.19",
+        "learning_outcome": "Perform preventive and corrective maintenance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722207",
+        "unit_title": "Perform preventive and corrective maintenance",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Perform inspection of machine",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722207",
+        "unit_title": "Perform preventive and corrective maintenance",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Perform cleaning and lubricating of machine",
+        "learning_activities": [],
+        "methodology": [
+          "discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interview / Questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722207",
+        "unit_title": "Perform preventive and corrective maintenance",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Perform minor machine repair and adjustments",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "common",
+        "unit_code": "MEE722205",
+        "unit_title": "Measure workpiece (Intermediate)",
+        "learning_outcome_number": "2.20",
+        "learning_outcome": "Maintain hand tools",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Group"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 36
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Clarify job instructions as to extent of job and work deadline",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Discuss with die designer or supervisor the die design, parts drawing, parts for machining, for purchase, for jobbing out",
+        "learning_activities": [],
+        "methodology": [
+          "instructions",
+          "Workshop project",
+          "On-the-job training"
+        ],
+        "assessment_approach": [
+          "Written or oral",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Gather all materials and check for right specifications and sufficient machining allowances",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Plan sequence of operation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Machine all plate parts square and flat",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.6",
+        "learning_outcome": "Mark hole locations, die",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.7",
+        "learning_outcome": "Turn all die parts of circular shapes with allowances for grinding and die clearances",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.8",
+        "learning_outcome": "Mill all regular- or irregular- shaped parts according to drawing",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.9",
+        "learning_outcome": "Mill die openings slightly undersized to allow for final fitting operation. (or arrange for EDMing of die hole)",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.10",
+        "learning_outcome": "Mill holes on stripper for the punch to pass through",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.11",
+        "learning_outcome": "Mill back gage and front spacer if required",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.12",
+        "learning_outcome": "Machine template of the product with applied tolerance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.13",
+        "learning_outcome": "Arrange for heat treatment",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722301",
+        "unit_title": "Machine die components",
+        "learning_outcome_number": "1.14",
+        "learning_outcome": "Grind die",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 37
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "File die block opening to the template",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Determine which part to be fitted another part",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced instructions"
+        ],
+        "assessment_approach": [
+          "over time",
+          "Written or oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Drill holes to assemble die block with die holder",
+        "learning_activities": [],
+        "methodology": [
+          "Workshop project",
+          "On-the-job"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.21",
+        "learning_outcome": "Position the punch on the die",
+        "learning_activities": [],
+        "methodology": [
+          "training"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.22",
+        "learning_outcome": "Drill holes simultaneously on the fixed stripper plate, back gage, front spacer and die block",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.23",
+        "learning_outcome": "In case of movable stripper, drill holes on stripper plate and punch holder to accommodate springs and stripper bolts",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.24",
+        "learning_outcome": "Fabricate front stop and automatic stop for fitting with the die block",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.8",
+        "learning_outcome": "Assemble die to the die holder",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.25",
+        "learning_outcome": "Assemble the punch to the punch holder",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.26",
+        "learning_outcome": "Assemble fixed stripper, Back gage, and front spacer with the die block",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.27",
+        "learning_outcome": "In case of movable stripper, assemble stripper with the punch holder with springs and stripper bolts",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722302",
+        "unit_title": "Fit and assemble dies",
+        "learning_outcome_number": "2.28",
+        "learning_outcome": "Try the die using paper as the workpiece and examine the results",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 38
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Prepare the press for testing",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Mount the press on the die Insert punch shank to the ram hole",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced instructions",
+          "Workshop project"
+        ],
+        "assessment_approach": [
+          "Written or oral",
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Adjust ram to the bottom dead center and adjust punch end to position a little below the thickness of material",
+        "learning_activities": [],
+        "methodology": [
+          "On-the-job training"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Clamp die and tightened using the correct tightening sequence",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Turn press manually to test the alignment of the die",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.5",
+        "learning_outcome": "Prepare material by shearing",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.6",
+        "learning_outcome": "Perform the pre-start checks",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.7",
+        "learning_outcome": "Start the press safely",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.8",
+        "learning_outcome": "Load the material and trip the switch",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.9",
+        "learning_outcome": "Examine the product and check against the drawing",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.10",
+        "learning_outcome": "Make the necessary rectification",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
+      },
+      {
+        "group": "core",
+        "unit_code": "MEE722303",
+        "unit_title": "Test and try die",
+        "learning_outcome_number": "3.12",
+        "learning_outcome": "Observe necessary safety precautions in operating the press",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ discussion"
+        ],
+        "assessment_approach": [
+          "Observation over time"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 39
       }
     ],
-    "source_text": "SECTION 3. TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for TOOL AND DIE MAKING NC II.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title\n\n:\nTOOL AND DIE MAKING NC Level: NC II\n\nNominal Training Duration :\n 598 Hours\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills in\nTool and Die Making NC II\n\n It covers the competencies required to Machine Die Components, Fit and\nAssemble Dies and Test and Try Dies.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\n--- PDF PAGE 35 ---\nTool and DieMaking NCII\n12/02/04\n\n34\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Explain routinary\nspeaking & messages\n in a workplace\n1.2 Follow routinary\nspeaking & messages\n1.3 Perform work duties\nfollowing written notices\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nObservation\n2. Work in team\nenvironment\n2.1 Identify the objective of\n the team, and his role\n in the team\n2.2 Contribute to work\n group activities\n\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nDemonstration\n•\nObservation\n2.16 Practice\ncareer\nprofessionali\nsm\n\n3.1 Identified key result\nareas of the job\n3.2 Participate in job\nenhancement trainings\n3.3 Acquire trade\ncertifications according\nto requirement of the job\n3.4 Acquire membership in\ntrade associations\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice occu-\npational health\nand safety\nprocedures\n4.1 Follow organization\nsafety regulations\n4.2 Identify hazards in the\n workplace\n4.3 Follow contingency\nmeasures during\naccidents, fire and other\nemergencies\n4.4 Use of personal\nprotective equipment\n4.5 Participate in\n emergency related\n drills\n2.17 Practice personal\nhygiene in the work\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n\n--- PDF PAGE 36 ---\nTool and DieMaking NCII\n12/02/04\n\n35\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform shop\ncomputations\nRight triangle\n1.1 Leg length calculated es\n1.2 Angle calculated\nNon-right triangle\n1.3 Leg length calculated\n1.4 Angle of taper found\n• Lecture\n• Group\ndiscussion\n\n• Written\ntest\n• Practical\nexercises\n2. Measure\nworkpiece\n2.1 Select and use\nmeasuring tools\n2.18 Clean and store\nmeasuring tools\n\n• Lecture\n• Group\ndiscussion\n• Written\ntest\n• Practical\nexercises\n2.19 Perform\npreventive\nand\ncorrective\nmaintenance\n\n3.1 Perform inspection of\n machine\n3.2 Perform cleaning and\n lubricating of machine\n3.3 Perform minor machine\n repair and adjustments\n2.20 Maintain hand tools\n\n• Lecture\n• Group\ndiscussion\n• Interaction\n• Observation\n• Demonstration\n• Interview /\nQuestioning\n\n--- PDF PAGE 37 ---\nTool and DieMaking NCII\n12/02/04\n\n36\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Machine Die\nComponents\n1.1 Clarify job instructions as to\nextent of job and work\ndeadline.\n1.2 Discuss with die designer or\nsupervisor the die design,\nparts drawing, parts for\nmachining, for purchase, for\njobbing out.\n1.3 Gather all materials and\ncheck for right specifications\nand sufficient machining\nallowances.\n1.4 Plan sequence of operation\nof each part specifying\nequipment, tools, speeds and\nfeeds..\n1.5 Machine all plate parts\nsquare and flat.\n1.6 Mark hole locations, die\nopenings and punch contours\naccording to drawing.\n1.7 Turn all die parts of circular\nshapes with allowances for\ngrinding and die clearances.\n1.8 Mill all regular- or irregular-\nshaped parts according to\ndrawing.\n1.9 Mill die openings slightly\nundersized to allow for final\nfitting operation. (or arrange\nfor EDMing of die hole)\n\n1.10 Mill holes on stripper for the\npunch to pass through.\n\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n1.11 Mill back gage and front\n spacer if required.\n1.12 Machine template of the\n product with applied\n tolerance.\n1.13 Arrange for heat treatment\nof parts to be hardened\n except die block which is still\n to be finished manually..\n1.14 Grind die\n\n--- PDF PAGE 38 ---\nTool and DieMaking NCII\n12/02/04\n\n37\n2. Fit and\nassemble die\n\n2.1 File die block opening to the\ntemplate..\n2.2 Determine which part to be\nfitted another part.\n2.3 Drill holes to assemble die\n block with die holder\n\n2.21 Position the punch on the die\n opening with shim all around\n representing the die\n clearance. Drill holes to\n assemble the punch with the\n punch holder.\n\n2.22 Drill holes simultaneously on\n the fixed stripper plate, back\n gage, front spacer and die\n block\n\n2.23 In case of movable stripper,\n drill holes on stripper plate\n and punch holder to\n accommodate springs and\n stripper bolts.\n\n2.24 Fabricate front stop and\n automatic stop for fitting with\n the die block.\n\n2.8 Assemble die to the die\n holder\n\n2.25 Assemble the punch to the\n punch holder\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n2.26 Assemble fixed stripper,\nBack gage, and front spacer\nwith the die block.\n\n2.27 In case of movable stripper,\n assemble stripper with the\n punch holder with springs\n and stripper bolts.\n\n2.28 Try the die using paper as\n the workpiece and examine\n the results.\n\n--- PDF PAGE 39 ---\nTool and DieMaking NCII\n12/02/04\n\n38\n3. Test and try Die\n\n3.1 Prepare the press for testing\n\n3.1 Mount the press on the die.\nInsert punch shank to the ram\nhole.\n3.2 Adjust ram to the bottom\ndead center and adjust punch\nend to position a little below\nthe thickness of material.\n3.3 Clamp die and tightened\nusing the correct tightening\nsequence.\n3.4 Turn press manually to test\nthe alignment of the die.\n3.5 Prepare material by shearing\nof strips, or by individual\nblank, or by coil strip as\nrequired.\n3.6 Perform the pre-start checks\nof the press.\n3.7 Start the press safely.\n3.8 Load the material and trip the\nswitch.\n3.9 Examine the product and\n check against the drawing.\n3.10 Make the necessary\n rectification.\n3.12. Observe necessary safety\n precautions in operating\n the press.\n• Lecture/\n discussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n--- PDF PAGE 40 ---\nTool and DieMaking NCII\n12/02/04\n\n39\n3.2 TRAINING DELIVERY\n\n The delivery of training should adhere to the design of the curriculum.\n\nDelivery should be guided by the 10 basic principles of Competency-Based TVET.\n\nThe training is based on curriculum developed from the competency standards;\n\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and curriculum\nmodules;\n Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n Training is based both on and off-the –job component;\n Allows for the recognition of prior learning ( RPL ) or current competencies;\n Training allows for multiple entry and exit ; and\n Approved training programs are nationally accredited.\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the–job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in school and in-industry training of fieldwork\ncomponents. Details can be referred to the Dual Training System ( DTS )\nImplementing Rules and Regulations\n Modular / self-paced learning is a competency- based training modality wherein the\ntrainee is allowed to progress at his own pace. The trainer facilitates the training\ndelivery\n Peer teaching / mentoring is training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n\n Supervised industry training or on-the-hob training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n\n Distance learning is formal education process in which majority of the instruction\noccurs when the students and instructor are not in the same place. Distance\nlearning may employ correspondence study, or audio, video or computer\ntechnologies.\n\n--- PDF PAGE 41 ---\nTool and DieMaking NCII\n12/02/04\n\n40\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n•\nMust be a holder of Machining NC I or COC in BW, Turning, and Milling\n•\nWith good moral character\n•\nAbility to communicate\n•\nPhysically and mentally fit\n\n 3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nTOOL AND DIE MAKING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Tool and Die Making NC II\n\n TOOLS\nQTY\nQTY\nQTY\n\n Drawing Equipment\n4\n• Working Bench\n12\n• Protractor\n12\n• Compass\n12\n• T-squares\n12\n• Ruler\n12\n• Drawing pencil\n12\n• Triangles\n12\n• Scale Ruler 12 “\n12\n• Triangular scale\n\n Measuring Tools:\n12\n• Vernier caliper, 150\n6 .\n• Vernier caliper\n200mm\n6\n• Micrometer 25-\n50 mm\n12 .\n• Protractor\n6.\n• Outside caliper\n6 .\n• Micrometer 50-\n75 mm\n6\n• Inside caliper\n\n• Dial indicator,\nplunger type\n\n• Micrometer, 0-25\nmm\n6\n• Dial indicator, lever\ntype\n3\n• Bevel vernier\nprotractor\n1\n• Gage block &\naccessories,\nworkshop grade\n1\n• Vernier Height\ngage\n1\n• Cylindrical\nsquare\n1\n• Surface plate\n2\n• Angle plate\n6\n• Steel rule\n\n• Dial indicator,\nplunger type\n\n--- PDF PAGE 42 ---\nTool and DieMaking NCII\n12/02/04\n\n41\nEQUIPMENT\nQTY\nQTY\n2\n2\n.2\n1\n1\n1\nLathe\nHorizontal Milling machine w/ DRO\nVertical Milling machine w/ DRO\nSurface Grinder\nBandsaw\nPower Hacksaw\n1\n1\n1\n\nMechanical Press\nDrill press\nPower hacksaw\n\nTOOLS\n1\n1\n1\n1\n8\n1\n6\n6\n3\nSet of files\nSet Allen wrench\nScribers\nVise with soft jaws\nSpotting screws\nSet of counterbores\nMallets\nMachinist hammer\nAngle vise\n\n1\n2\n2\n8\n6\n1\n3\n6\n\nAssorted shims\nAngle plate\nVernier height gage\nCenter punch\nparallel clamps\nSet of reamers\nAnvil\nSet of screwdrivers,\nflat\n\n1\n1\n1\n2\n4\n2\n6\n6\n6\nSet drill bits\nSet hand taps\nSet counter bore\n Portable electric drill\nSet of parallel set\nSet reamers\nRose bits\nSet of open wrench\nSet of box wrench\n\nTraining Materials:\n\n Reference books\n Manuals\n\n Catalogs\n Brochures /\n\n CD s / Video tape\n\nHousekeeping materials:\n20\npcs\n Brooms\n10\npcs\n Mops\n2\npcs.\n Trash can\n10\npcs\n Scrapers\n2\nbars\n Soap\n\n\n10 k\n Clean rags\n5 pcs\n Dustpan\n\n--- PDF PAGE 43 ---\nTool and DieMaking NCII\n12/02/04\n\n42\n3.5 TRAINING FACILITIES\n TOOL AND DIE MAKING NC II\n\nThe die making workshop must be of concrete structure. Based on class size of 12\nstudents/trainees the space requirements for the teaching/learning and circulation areas\nare as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n•\nBuilding\n(permanent)\n\n 10 M X 30 M\n\n 300 Sq. M\n Trainee working\nspace\n\n 2 M X 2 M\n\n 4 Sq.M / trainee\n\n 100 sq. M.\n Lecture Room\n 8 M X 10 M\n 80 Sq. M.\n 80 Sq. M\n Learning\nResource Center\n\n 4 M X 8 M.\n\n 32 Sq. M\n\n 32 Sq. M\n Facilities/\nEquipment/\nCirculation Area\n\n 88 Sq. M.\n\n3.6 TRAINER’S QUALIFICATIONS FOR METALS AND ENGINEERING\n SECTOR\n\n TRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of Tool and Die Making NC II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their achievement\nof units of competency. A certificate of achievement is issued for each unit of\ncompetency.\n\n--- PDF PAGE 44 ---\nTool and DieMaking NCII\n12/02/04\n\n43"
+    "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title\n\n:\nTOOL AND DIE MAKING NC Level: NC II\n\nNominal Training Duration :\n 598 Hours\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills in\nTool and Die Making NC II\n\n It covers the competencies required to Machine Die Components, Fit and\nAssemble Dies and Test and Try Dies.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\n--- PDF PAGE 35 ---\nTool and DieMaking NCII\n12/02/04\n\n34\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Explain routinary\nspeaking & messages\n in a workplace\n1.2 Follow routinary\nspeaking & messages\n1.3 Perform work duties\nfollowing written notices\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nObservation\n2. Work in team\nenvironment\n2.1 Identify the objective of\n the team, and his role\n in the team\n2.2 Contribute to work\n group activities\n\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nDemonstration\n•\nObservation\n2.16 Practice\ncareer\nprofessionali\nsm\n\n3.1 Identified key result\nareas of the job\n3.2 Participate in job\nenhancement trainings\n3.3 Acquire trade\ncertifications according\nto requirement of the job\n3.4 Acquire membership in\ntrade associations\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice occu-\npational health\nand safety\nprocedures\n4.1 Follow organization\nsafety regulations\n4.2 Identify hazards in the\n workplace\n4.3 Follow contingency\nmeasures during\naccidents, fire and other\nemergencies\n4.4 Use of personal\nprotective equipment\n4.5 Participate in\n emergency related\n drills\n2.17 Practice personal\nhygiene in the work\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n\n--- PDF PAGE 36 ---\nTool and DieMaking NCII\n12/02/04\n\n35\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform shop\ncomputations\nRight triangle\n1.1 Leg length calculated es\n1.2 Angle calculated\nNon-right triangle\n1.3 Leg length calculated\n1.4 Angle of taper found\n• Lecture\n• Group\ndiscussion\n\n• Written\ntest\n• Practical\nexercises\n2. Measure\nworkpiece\n2.1 Select and use\nmeasuring tools\n2.18 Clean and store\nmeasuring tools\n\n• Lecture\n• Group\ndiscussion\n• Written\ntest\n• Practical\nexercises\n2.19 Perform\npreventive\nand\ncorrective\nmaintenance\n\n3.1 Perform inspection of\n machine\n3.2 Perform cleaning and\n lubricating of machine\n3.3 Perform minor machine\n repair and adjustments\n2.20 Maintain hand tools\n\n• Lecture\n• Group\ndiscussion\n• Interaction\n• Observation\n• Demonstration\n• Interview /\nQuestioning\n\n--- PDF PAGE 37 ---\nTool and DieMaking NCII\n12/02/04\n\n36\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Machine Die\nComponents\n1.1 Clarify job instructions as to\nextent of job and work\ndeadline.\n1.2 Discuss with die designer or\nsupervisor the die design,\nparts drawing, parts for\nmachining, for purchase, for\njobbing out.\n1.3 Gather all materials and\ncheck for right specifications\nand sufficient machining\nallowances.\n1.4 Plan sequence of operation\nof each part specifying\nequipment, tools, speeds and\nfeeds..\n1.5 Machine all plate parts\nsquare and flat.\n1.6 Mark hole locations, die\nopenings and punch contours\naccording to drawing.\n1.7 Turn all die parts of circular\nshapes with allowances for\ngrinding and die clearances.\n1.8 Mill all regular- or irregular-\nshaped parts according to\ndrawing.\n1.9 Mill die openings slightly\nundersized to allow for final\nfitting operation. (or arrange\nfor EDMing of die hole)\n\n1.10 Mill holes on stripper for the\npunch to pass through.\n\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n1.11 Mill back gage and front\n spacer if required.\n1.12 Machine template of the\n product with applied\n tolerance.\n1.13 Arrange for heat treatment\nof parts to be hardened\n except die block which is still\n to be finished manually..\n1.14 Grind die\n\n--- PDF PAGE 38 ---\nTool and DieMaking NCII\n12/02/04\n\n37\n2. Fit and\nassemble die\n\n2.1 File die block opening to the\ntemplate..\n2.2 Determine which part to be\nfitted another part.\n2.3 Drill holes to assemble die\n block with die holder\n\n2.21 Position the punch on the die\n opening with shim all around\n representing the die\n clearance. Drill holes to\n assemble the punch with the\n punch holder.\n\n2.22 Drill holes simultaneously on\n the fixed stripper plate, back\n gage, front spacer and die\n block\n\n2.23 In case of movable stripper,\n drill holes on stripper plate\n and punch holder to\n accommodate springs and\n stripper bolts.\n\n2.24 Fabricate front stop and\n automatic stop for fitting with\n the die block.\n\n2.8 Assemble die to the die\n holder\n\n2.25 Assemble the punch to the\n punch holder\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n2.26 Assemble fixed stripper,\nBack gage, and front spacer\nwith the die block.\n\n2.27 In case of movable stripper,\n assemble stripper with the\n punch holder with springs\n and stripper bolts.\n\n2.28 Try the die using paper as\n the workpiece and examine\n the results.\n\n--- PDF PAGE 39 ---\nTool and DieMaking NCII\n12/02/04\n\n38\n3. Test and try Die\n\n3.1 Prepare the press for testing\n\n3.1 Mount the press on the die.\nInsert punch shank to the ram\nhole.\n3.2 Adjust ram to the bottom\ndead center and adjust punch\nend to position a little below\nthe thickness of material.\n3.3 Clamp die and tightened\nusing the correct tightening\nsequence.\n3.4 Turn press manually to test\nthe alignment of the die.\n3.5 Prepare material by shearing\nof strips, or by individual\nblank, or by coil strip as\nrequired.\n3.6 Perform the pre-start checks\nof the press.\n3.7 Start the press safely.\n3.8 Load the material and trip the\nswitch.\n3.9 Examine the product and\n check against the drawing.\n3.10 Make the necessary\n rectification.\n3.12. Observe necessary safety\n precautions in operating\n the press.\n• Lecture/\n discussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n--- PDF PAGE 40 ---\nTool and DieMaking NCII\n12/02/04\n\n39"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title\n\n:\nTOOL AND DIE MAKING NC Level: NC II\n\nNominal Training Duration :\n 598 Hours\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills in\nTool and Die Making NC II\n\n It covers the competencies required to Machine Die Components, Fit and\nAssemble Dies and Test and Try Dies.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\n--- PDF PAGE 35 ---\nTool and DieMaking NCII\n12/02/04\n\n34\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Explain routinary\nspeaking & messages\n in a workplace\n1.2 Follow routinary\nspeaking & messages\n1.3 Perform work duties\nfollowing written notices\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nObservation\n2. Work in team\nenvironment\n2.1 Identify the objective of\n the team, and his role\n in the team\n2.2 Contribute to work\n group activities\n\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nDemonstration\n•\nObservation\n2.16 Practice\ncareer\nprofessionali\nsm\n\n3.1 Identified key result\nareas of the job\n3.2 Participate in job\nenhancement trainings\n3.3 Acquire trade\ncertifications according\nto requirement of the job\n3.4 Acquire membership in\ntrade associations\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice occu-\npational health\nand safety\nprocedures\n4.1 Follow organization\nsafety regulations\n4.2 Identify hazards in the\n workplace\n4.3 Follow contingency\nmeasures during\naccidents, fire and other\nemergencies\n4.4 Use of personal\nprotective equipment\n4.5 Participate in\n emergency related\n drills\n2.17 Practice personal\nhygiene in the work\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n\n--- PDF PAGE 36 ---\nTool and DieMaking NCII\n12/02/04\n\n35\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform shop\ncomputations\nRight triangle\n1.1 Leg length calculated es\n1.2 Angle calculated\nNon-right triangle\n1.3 Leg length calculated\n1.4 Angle of taper found\n• Lecture\n• Group\ndiscussion\n\n• Written\ntest\n• Practical\nexercises\n2. Measure\nworkpiece\n2.1 Select and use\nmeasuring tools\n2.18 Clean and store\nmeasuring tools\n\n• Lecture\n• Group\ndiscussion\n• Written\ntest\n• Practical\nexercises\n2.19 Perform\npreventive\nand\ncorrective\nmaintenance\n\n3.1 Perform inspection of\n machine\n3.2 Perform cleaning and\n lubricating of machine\n3.3 Perform minor machine\n repair and adjustments\n2.20 Maintain hand tools\n\n• Lecture\n• Group\ndiscussion\n• Interaction\n• Observation\n• Demonstration\n• Interview /\nQuestioning\n\n--- PDF PAGE 37 ---\nTool and DieMaking NCII\n12/02/04\n\n36\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Machine Die\nComponents\n1.1 Clarify job instructions as to\nextent of job and work\ndeadline.\n1.2 Discuss with die designer or\nsupervisor the die design,\nparts drawing, parts for\nmachining, for purchase, for\njobbing out.\n1.3 Gather all materials and\ncheck for right specifications\nand sufficient machining\nallowances.\n1.4 Plan sequence of operation\nof each part specifying\nequipment, tools, speeds and\nfeeds..\n1.5 Machine all plate parts\nsquare and flat.\n1.6 Mark hole locations, die\nopenings and punch contours\naccording to drawing.\n1.7 Turn all die parts of circular\nshapes with allowances for\ngrinding and die clearances.\n1.8 Mill all regular- or irregular-\nshaped parts according to\ndrawing.\n1.9 Mill die openings slightly\nundersized to allow for final\nfitting operation. (or arrange\nfor EDMing of die hole)\n\n1.10 Mill holes on stripper for the\npunch to pass through.\n\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n1.11 Mill back gage and front\n spacer if required.\n1.12 Machine template of the\n product with applied\n tolerance.\n1.13 Arrange for heat treatment\nof parts to be hardened\n except die block which is still\n to be finished manually..\n1.14 Grind die\n\n--- PDF PAGE 38 ---\nTool and DieMaking NCII\n12/02/04\n\n37\n2. Fit and\nassemble die\n\n2.1 File die block opening to the\ntemplate..\n2.2 Determine which part to be\nfitted another part.\n2.3 Drill holes to assemble die\n block with die holder\n\n2.21 Position the punch on the die\n opening with shim all around\n representing the die\n clearance. Drill holes to\n assemble the punch with the\n punch holder.\n\n2.22 Drill holes simultaneously on\n the fixed stripper plate, back\n gage, front spacer and die\n block\n\n2.23 In case of movable stripper,\n drill holes on stripper plate\n and punch holder to\n accommodate springs and\n stripper bolts.\n\n2.24 Fabricate front stop and\n automatic stop for fitting with\n the die block.\n\n2.8 Assemble die to the die\n holder\n\n2.25 Assemble the punch to the\n punch holder\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n2.26 Assemble fixed stripper,\nBack gage, and front spacer\nwith the die block.\n\n2.27 In case of movable stripper,\n assemble stripper with the\n punch holder with springs\n and stripper bolts.\n\n2.28 Try the die using paper as\n the workpiece and examine\n the results.\n\n--- PDF PAGE 39 ---\nTool and DieMaking NCII\n12/02/04\n\n38\n3. Test and try Die\n\n3.1 Prepare the press for testing\n\n3.1 Mount the press on the die.\nInsert punch shank to the ram\nhole.\n3.2 Adjust ram to the bottom\ndead center and adjust punch\nend to position a little below\nthe thickness of material.\n3.3 Clamp die and tightened\nusing the correct tightening\nsequence.\n3.4 Turn press manually to test\nthe alignment of the die.\n3.5 Prepare material by shearing\nof strips, or by individual\nblank, or by coil strip as\nrequired.\n3.6 Perform the pre-start checks\nof the press.\n3.7 Start the press safely.\n3.8 Load the material and trip the\nswitch.\n3.9 Examine the product and\n check against the drawing.\n3.10 Make the necessary\n rectification.\n3.12. Observe necessary safety\n precautions in operating\n the press.\n• Lecture/\n discussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n--- PDF PAGE 40 ---\nTool and DieMaking NCII\n12/02/04\n\n39",
-      "pdf_pages": []
+      "pdf_pages": [
+        34
+      ],
+      "source_text": "3.1 CURRICULUM DESIGN\n\nCourse Title\n\n:\nTOOL AND DIE MAKING NC Level: NC II\n\nNominal Training Duration :\n 598 Hours\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills in\nTool and Die Making NC II\n\n It covers the competencies required to Machine Die Components, Fit and\nAssemble Dies and Test and Try Dies.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\n--- PDF PAGE 35 ---\nTool and DieMaking NCII\n12/02/04\n\n34\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Explain routinary\nspeaking & messages\n in a workplace\n1.2 Follow routinary\nspeaking & messages\n1.3 Perform work duties\nfollowing written notices\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nObservation\n2. Work in team\nenvironment\n2.1 Identify the objective of\n the team, and his role\n in the team\n2.2 Contribute to work\n group activities\n\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nDemonstration\n•\nObservation\n2.16 Practice\ncareer\nprofessionali\nsm\n\n3.1 Identified key result\nareas of the job\n3.2 Participate in job\nenhancement trainings\n3.3 Acquire trade\ncertifications according\nto requirement of the job\n3.4 Acquire membership in\ntrade associations\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice occu-\npational health\nand safety\nprocedures\n4.1 Follow organization\nsafety regulations\n4.2 Identify hazards in the\n workplace\n4.3 Follow contingency\nmeasures during\naccidents, fire and other\nemergencies\n4.4 Use of personal\nprotective equipment\n4.5 Participate in\n emergency related\n drills\n2.17 Practice personal\nhygiene in the work\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n\n--- PDF PAGE 36 ---\nTool and DieMaking NCII\n12/02/04\n\n35\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform shop\ncomputations\nRight triangle\n1.1 Leg length calculated es\n1.2 Angle calculated\nNon-right triangle\n1.3 Leg length calculated\n1.4 Angle of taper found\n• Lecture\n• Group\ndiscussion\n\n• Written\ntest\n• Practical\nexercises\n2. Measure\nworkpiece\n2.1 Select and use\nmeasuring tools\n2.18 Clean and store\nmeasuring tools\n\n• Lecture\n• Group\ndiscussion\n• Written\ntest\n• Practical\nexercises\n2.19 Perform\npreventive\nand\ncorrective\nmaintenance\n\n3.1 Perform inspection of\n machine\n3.2 Perform cleaning and\n lubricating of machine\n3.3 Perform minor machine\n repair and adjustments\n2.20 Maintain hand tools\n\n• Lecture\n• Group\ndiscussion\n• Interaction\n• Observation\n• Demonstration\n• Interview /\nQuestioning\n\n--- PDF PAGE 37 ---\nTool and DieMaking NCII\n12/02/04\n\n36\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Machine Die\nComponents\n1.1 Clarify job instructions as to\nextent of job and work\ndeadline.\n1.2 Discuss with die designer or\nsupervisor the die design,\nparts drawing, parts for\nmachining, for purchase, for\njobbing out.\n1.3 Gather all materials and\ncheck for right specifications\nand sufficient machining\nallowances.\n1.4 Plan sequence of operation\nof each part specifying\nequipment, tools, speeds and\nfeeds..\n1.5 Machine all plate parts\nsquare and flat.\n1.6 Mark hole locations, die\nopenings and punch contours\naccording to drawing.\n1.7 Turn all die parts of circular\nshapes with allowances for\ngrinding and die clearances.\n1.8 Mill all regular- or irregular-\nshaped parts according to\ndrawing.\n1.9 Mill die openings slightly\nundersized to allow for final\nfitting operation. (or arrange\nfor EDMing of die hole)\n\n1.10 Mill holes on stripper for the\npunch to pass through.\n\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n1.11 Mill back gage and front\n spacer if required.\n1.12 Machine template of the\n product with applied\n tolerance.\n1.13 Arrange for heat treatment\nof parts to be hardened\n except die block which is still\n to be finished manually..\n1.14 Grind die\n\n--- PDF PAGE 38 ---\nTool and DieMaking NCII\n12/02/04\n\n37\n2. Fit and\nassemble die\n\n2.1 File die block opening to the\ntemplate..\n2.2 Determine which part to be\nfitted another part.\n2.3 Drill holes to assemble die\n block with die holder\n\n2.21 Position the punch on the die\n opening with shim all around\n representing the die\n clearance. Drill holes to\n assemble the punch with the\n punch holder.\n\n2.22 Drill holes simultaneously on\n the fixed stripper plate, back\n gage, front spacer and die\n block\n\n2.23 In case of movable stripper,\n drill holes on stripper plate\n and punch holder to\n accommodate springs and\n stripper bolts.\n\n2.24 Fabricate front stop and\n automatic stop for fitting with\n the die block.\n\n2.8 Assemble die to the die\n holder\n\n2.25 Assemble the punch to the\n punch holder\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n2.26 Assemble fixed stripper,\nBack gage, and front spacer\nwith the die block.\n\n2.27 In case of movable stripper,\n assemble stripper with the\n punch holder with springs\n and stripper bolts.\n\n2.28 Try the die using paper as\n the workpiece and examine\n the results.\n\n--- PDF PAGE 39 ---\nTool and DieMaking NCII\n12/02/04\n\n38\n3. Test and try Die\n\n3.1 Prepare the press for testing\n\n3.1 Mount the press on the die.\nInsert punch shank to the ram\nhole.\n3.2 Adjust ram to the bottom\ndead center and adjust punch\nend to position a little below\nthe thickness of material.\n3.3 Clamp die and tightened\nusing the correct tightening\nsequence.\n3.4 Turn press manually to test\nthe alignment of the die.\n3.5 Prepare material by shearing\nof strips, or by individual\nblank, or by coil strip as\nrequired.\n3.6 Perform the pre-start checks\nof the press.\n3.7 Start the press safely.\n3.8 Load the material and trip the\nswitch.\n3.9 Examine the product and\n check against the drawing.\n3.10 Make the necessary\n rectification.\n3.12. Observe necessary safety\n precautions in operating\n the press.\n• Lecture/\n discussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n--- PDF PAGE 40 ---\nTool and DieMaking NCII\n12/02/04\n\n39"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\n\nDelivery should be guided by the 10 basic principles of Competency-Based TVET.\n\nThe training is based on curriculum developed from the competency standards;\n\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and curriculum\nmodules;\n Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n Training is based both on and off-the –job component;\n Allows for the recognition of prior learning ( RPL ) or current competencies;\n Training allows for multiple entry and exit ; and\n Approved training programs are nationally accredited.\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the–job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in school and in-industry training of fieldwork\ncomponents. Details can be referred to the Dual Training System ( DTS )\nImplementing Rules and Regulations\n Modular / self-paced learning is a competency- based training modality wherein the\ntrainee is allowed to progress at his own pace. The trainer facilitates the training\ndelivery\n Peer teaching / mentoring is training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n\n Supervised industry training or on-the-hob training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n\n Distance learning is formal education process in which majority of the instruction\noccurs when the students and instructor are not in the same place. Distance\nlearning may employ correspondence study, or audio, video or computer\ntechnologies.\n\n--- PDF PAGE 41 ---\nTool and DieMaking NCII\n12/02/04\n\n40",
-      "pdf_pages": []
+      "pdf_pages": [
+        40
+      ],
+      "source_text": "3.2 TRAINING DELIVERY\n\n The delivery of training should adhere to the design of the curriculum.\n\nDelivery should be guided by the 10 basic principles of Competency-Based TVET.\n\nThe training is based on curriculum developed from the competency standards;\n\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and curriculum\nmodules;\n Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n Training is based both on and off-the –job component;\n Allows for the recognition of prior learning ( RPL ) or current competencies;\n Training allows for multiple entry and exit ; and\n Approved training programs are nationally accredited.\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the–job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in school and in-industry training of fieldwork\ncomponents. Details can be referred to the Dual Training System ( DTS )\nImplementing Rules and Regulations\n Modular / self-paced learning is a competency- based training modality wherein the\ntrainee is allowed to progress at his own pace. The trainer facilitates the training\ndelivery\n Peer teaching / mentoring is training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n\n Supervised industry training or on-the-hob training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n\n Distance learning is formal education process in which majority of the instruction\noccurs when the students and instructor are not in the same place. Distance\nlearning may employ correspondence study, or audio, video or computer\ntechnologies.\n\n--- PDF PAGE 41 ---\nTool and DieMaking NCII\n12/02/04\n\n40"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "This section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n•\nMust be a holder of Machining NC I or COC in BW, Turning, and Milling\n•\nWith good moral character\n•\nAbility to communicate\n•\nPhysically and mentally fit",
-      "pdf_pages": []
+      "pdf_pages": [
+        41
+      ],
+      "source_text": "3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n•\nMust be a holder of Machining NC I or COC in BW, Turning, and Milling\n•\nWith good moral character\n•\nAbility to communicate\n•\nPhysically and mentally fit"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS\n\nTOOL AND DIE MAKING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Tool and Die Making NC II\n\n TOOLS\nQTY\nQTY\nQTY\n\n Drawing Equipment\n4\n• Working Bench\n12\n• Protractor\n12\n• Compass\n12\n• T-squares\n12\n• Ruler\n12\n• Drawing pencil\n12\n• Triangles\n12\n• Scale Ruler 12 “\n12\n• Triangular scale\n\n Measuring Tools:\n12\n• Vernier caliper, 150\n6 .\n• Vernier caliper\n200mm\n6\n• Micrometer 25-\n50 mm\n12 .\n• Protractor\n6.\n• Outside caliper\n6 .\n• Micrometer 50-\n75 mm\n6\n• Inside caliper\n\n• Dial indicator,\nplunger type\n\n• Micrometer, 0-25\nmm\n6\n• Dial indicator, lever\ntype\n3\n• Bevel vernier\nprotractor\n1\n• Gage block &\naccessories,\nworkshop grade\n1\n• Vernier Height\ngage\n1\n• Cylindrical\nsquare\n1\n• Surface plate\n2\n• Angle plate\n6\n• Steel rule\n\n• Dial indicator,\nplunger type\n\n--- PDF PAGE 42 ---\nTool and DieMaking NCII\n12/02/04\n\n41\nEQUIPMENT\nQTY\nQTY\n2\n2\n.2\n1\n1\n1\nLathe\nHorizontal Milling machine w/ DRO\nVertical Milling machine w/ DRO\nSurface Grinder\nBandsaw\nPower Hacksaw\n1\n1\n1\n\nMechanical Press\nDrill press\nPower hacksaw\n\nTOOLS\n1\n1\n1\n1\n8\n1\n6\n6\n3\nSet of files\nSet Allen wrench\nScribers\nVise with soft jaws\nSpotting screws\nSet of counterbores\nMallets\nMachinist hammer\nAngle vise\n\n1\n2\n2\n8\n6\n1\n3\n6\n\nAssorted shims\nAngle plate\nVernier height gage\nCenter punch\nparallel clamps\nSet of reamers\nAnvil\nSet of screwdrivers,\nflat\n\n1\n1\n1\n2\n4\n2\n6\n6\n6\nSet drill bits\nSet hand taps\nSet counter bore\n Portable electric drill\nSet of parallel set\nSet reamers\nRose bits\nSet of open wrench\nSet of box wrench\n\nTraining Materials:\n\n Reference books\n Manuals\n\n Catalogs\n Brochures /\n\n CD s / Video tape\n\nHousekeeping materials:\n20\npcs\n Brooms\n10\npcs\n Mops\n2\npcs.\n Trash can\n10\npcs\n Scrapers\n2\nbars\n Soap\n\n\n10 k\n Clean rags\n5 pcs\n Dustpan\n\n--- PDF PAGE 43 ---\nTool and DieMaking NCII\n12/02/04\n\n42",
-      "pdf_pages": []
+      "pdf_pages": [
+        41
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nTOOL AND DIE MAKING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Tool and Die Making NC II\n\n TOOLS\nQTY\nQTY\nQTY\n\n Drawing Equipment\n4\n• Working Bench\n12\n• Protractor\n12\n• Compass\n12\n• T-squares\n12\n• Ruler\n12\n• Drawing pencil\n12\n• Triangles\n12\n• Scale Ruler 12 “\n12\n• Triangular scale\n\n Measuring Tools:\n12\n• Vernier caliper, 150\n6 .\n• Vernier caliper\n200mm\n6\n• Micrometer 25-\n50 mm\n12 .\n• Protractor\n6.\n• Outside caliper\n6 .\n• Micrometer 50-\n75 mm\n6\n• Inside caliper\n\n• Dial indicator,\nplunger type\n\n• Micrometer, 0-25\nmm\n6\n• Dial indicator, lever\ntype\n3\n• Bevel vernier\nprotractor\n1\n• Gage block &\naccessories,\nworkshop grade\n1\n• Vernier Height\ngage\n1\n• Cylindrical\nsquare\n1\n• Surface plate\n2\n• Angle plate\n6\n• Steel rule\n\n• Dial indicator,\nplunger type\n\n--- PDF PAGE 42 ---\nTool and DieMaking NCII\n12/02/04\n\n41\nEQUIPMENT\nQTY\nQTY\n2\n2\n.2\n1\n1\n1\nLathe\nHorizontal Milling machine w/ DRO\nVertical Milling machine w/ DRO\nSurface Grinder\nBandsaw\nPower Hacksaw\n1\n1\n1\n\nMechanical Press\nDrill press\nPower hacksaw\n\nTOOLS\n1\n1\n1\n1\n8\n1\n6\n6\n3\nSet of files\nSet Allen wrench\nScribers\nVise with soft jaws\nSpotting screws\nSet of counterbores\nMallets\nMachinist hammer\nAngle vise\n\n1\n2\n2\n8\n6\n1\n3\n6\n\nAssorted shims\nAngle plate\nVernier height gage\nCenter punch\nparallel clamps\nSet of reamers\nAnvil\nSet of screwdrivers,\nflat\n\n1\n1\n1\n2\n4\n2\n6\n6\n6\nSet drill bits\nSet hand taps\nSet counter bore\n Portable electric drill\nSet of parallel set\nSet reamers\nRose bits\nSet of open wrench\nSet of box wrench\n\nTraining Materials:\n\n Reference books\n Manuals\n\n Catalogs\n Brochures /\n\n CD s / Video tape\n\nHousekeeping materials:\n20\npcs\n Brooms\n10\npcs\n Mops\n2\npcs.\n Trash can\n10\npcs\n Scrapers\n2\nbars\n Soap\n\n\n10 k\n Clean rags\n5 pcs\n Dustpan\n\n--- PDF PAGE 43 ---\nTool and DieMaking NCII\n12/02/04\n\n42"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "TOOL AND DIE MAKING NC II\n\nThe die making workshop must be of concrete structure. Based on class size of 12\nstudents/trainees the space requirements for the teaching/learning and circulation areas\nare as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n•\nBuilding\n(permanent)\n\n 10 M X 30 M\n\n 300 Sq. M\n Trainee working\nspace\n\n 2 M X 2 M\n\n 4 Sq.M / trainee\n\n 100 sq. M.\n Lecture Room\n 8 M X 10 M\n 80 Sq. M.\n 80 Sq. M\n Learning\nResource Center\n\n 4 M X 8 M.\n\n 32 Sq. M\n\n 32 Sq. M\n Facilities/\nEquipment/\nCirculation Area\n\n 88 Sq. M.\n\n3.6 TRAINER’S QUALIFICATIONS FOR METALS AND ENGINEERING\n SECTOR\n\n TRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of Tool and Die Making NC II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        43
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n TOOL AND DIE MAKING NC II\n\nThe die making workshop must be of concrete structure. Based on class size of 12\nstudents/trainees the space requirements for the teaching/learning and circulation areas\nare as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n•\nBuilding\n(permanent)\n\n 10 M X 30 M\n\n 300 Sq. M\n Trainee working\nspace\n\n 2 M X 2 M\n\n 4 Sq.M / trainee\n\n 100 sq. M.\n Lecture Room\n 8 M X 10 M\n 80 Sq. M.\n 80 Sq. M\n Learning\nResource Center\n\n 4 M X 8 M.\n\n 32 Sq. M\n\n 32 Sq. M\n Facilities/\nEquipment/\nCirculation Area\n\n 88 Sq. M."
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        43
+      ],
+      "source_text": "3.6 TRAINER’S QUALIFICATIONS FOR METALS AND ENGINEERING\n SECTOR\n\n TRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of Tool and Die Making NC II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional assessment is undertaken by trainees to determine their achievement\nof units of competency. A certificate of achievement is issued for each unit of\ncompetency.\n\n--- PDF PAGE 44 ---\nTool and DieMaking NCII\n12/02/04\n\n43",
-      "pdf_pages": []
+      "pdf_pages": [
+        43
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their achievement\nof units of competency. A certificate of achievement is issued for each unit of\ncompetency.\n\n--- PDF PAGE 44 ---\nTool and DieMaking NCII\n12/02/04\n\n43"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "598 Hours"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3. TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for TOOL AND DIE MAKING NC II.\n\n3.1 CURRICULUM DESIGN\n\nCourse Title\n\n:\nTOOL AND DIE MAKING NC Level: NC II\n\nNominal Training Duration :\n 598 Hours\n\nThis qualification is designed to develop knowledge, desirable attitudes and skills in\nTool and Die Making NC II\n\n It covers the competencies required to Machine Die Components, Fit and\nAssemble Dies and Test and Try Dies.\n\n To obtain this, all units of competency prescribed for this qualification must be\nachieved.\n\n--- PDF PAGE 35 ---\nTool and DieMaking NCII\n12/02/04\n\n34\nBASIC COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Participate in\nworkplace\ncommunication\n1.1 Explain routinary\nspeaking & messages\n in a workplace\n1.2 Follow routinary\nspeaking & messages\n1.3 Perform work duties\nfollowing written notices\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nObservation\n2. Work in team\nenvironment\n2.1 Identify the objective of\n the team, and his role\n in the team\n2.2 Contribute to work\n group activities\n\n• Group\ndiscussion\n• Interaction\n\n•\nInterviews/\nquestioning\n•\nDemonstration\n•\nObservation\n2.16 Practice\ncareer\nprofessionali\nsm\n\n3.1 Identified key result\nareas of the job\n3.2 Participate in job\nenhancement trainings\n3.3 Acquire trade\ncertifications according\nto requirement of the job\n3.4 Acquire membership in\ntrade associations\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n4. Practice occu-\npational health\nand safety\nprocedures\n4.1 Follow organization\nsafety regulations\n4.2 Identify hazards in the\n workplace\n4.3 Follow contingency\nmeasures during\naccidents, fire and other\nemergencies\n4.4 Use of personal\nprotective equipment\n4.5 Participate in\n emergency related\n drills\n2.17 Practice personal\nhygiene in the work\n• Group\ndiscussion\n• Interaction\n\n•\nDemonstration\n•\nObservation\n•\nInterviews/\nquestioning\n\n--- PDF PAGE 36 ---\nTool and DieMaking NCII\n12/02/04\n\n35\nCOMMON COMPETENCIES\n\nUnit of Competency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Perform shop\ncomputations\nRight triangle\n1.1 Leg length calculated es\n1.2 Angle calculated\nNon-right triangle\n1.3 Leg length calculated\n1.4 Angle of taper found\n• Lecture\n• Group\ndiscussion\n\n• Written\ntest\n• Practical\nexercises\n2. Measure\nworkpiece\n2.1 Select and use\nmeasuring tools\n2.18 Clean and store\nmeasuring tools\n\n• Lecture\n• Group\ndiscussion\n• Written\ntest\n• Practical\nexercises\n2.19 Perform\npreventive\nand\ncorrective\nmaintenance\n\n3.1 Perform inspection of\n machine\n3.2 Perform cleaning and\n lubricating of machine\n3.3 Perform minor machine\n repair and adjustments\n2.20 Maintain hand tools\n\n• Lecture\n• Group\ndiscussion\n• Interaction\n• Observation\n• Demonstration\n• Interview /\nQuestioning\n\n--- PDF PAGE 37 ---\nTool and DieMaking NCII\n12/02/04\n\n36\nCORE COMPETENCIES\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Machine Die\nComponents\n1.1 Clarify job instructions as to\nextent of job and work\ndeadline.\n1.2 Discuss with die designer or\nsupervisor the die design,\nparts drawing, parts for\nmachining, for purchase, for\njobbing out.\n1.3 Gather all materials and\ncheck for right specifications\nand sufficient machining\nallowances.\n1.4 Plan sequence of operation\nof each part specifying\nequipment, tools, speeds and\nfeeds..\n1.5 Machine all plate parts\nsquare and flat.\n1.6 Mark hole locations, die\nopenings and punch contours\naccording to drawing.\n1.7 Turn all die parts of circular\nshapes with allowances for\ngrinding and die clearances.\n1.8 Mill all regular- or irregular-\nshaped parts according to\ndrawing.\n1.9 Mill die openings slightly\nundersized to allow for final\nfitting operation. (or arrange\nfor EDMing of die hole)\n\n1.10 Mill holes on stripper for the\npunch to pass through.\n\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n1.11 Mill back gage and front\n spacer if required.\n1.12 Machine template of the\n product with applied\n tolerance.\n1.13 Arrange for heat treatment\nof parts to be hardened\n except die block which is still\n to be finished manually..\n1.14 Grind die\n\n--- PDF PAGE 38 ---\nTool and DieMaking NCII\n12/02/04\n\n37\n2. Fit and\nassemble die\n\n2.1 File die block opening to the\ntemplate..\n2.2 Determine which part to be\nfitted another part.\n2.3 Drill holes to assemble die\n block with die holder\n\n2.21 Position the punch on the die\n opening with shim all around\n representing the die\n clearance. Drill holes to\n assemble the punch with the\n punch holder.\n\n2.22 Drill holes simultaneously on\n the fixed stripper plate, back\n gage, front spacer and die\n block\n\n2.23 In case of movable stripper,\n drill holes on stripper plate\n and punch holder to\n accommodate springs and\n stripper bolts.\n\n2.24 Fabricate front stop and\n automatic stop for fitting with\n the die block.\n\n2.8 Assemble die to the die\n holder\n\n2.25 Assemble the punch to the\n punch holder\n• Lecture/\ndiscussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n2.26 Assemble fixed stripper,\nBack gage, and front spacer\nwith the die block.\n\n2.27 In case of movable stripper,\n assemble stripper with the\n punch holder with springs\n and stripper bolts.\n\n2.28 Try the die using paper as\n the workpiece and examine\n the results.\n\n--- PDF PAGE 39 ---\nTool and DieMaking NCII\n12/02/04\n\n38\n3. Test and try Die\n\n3.1 Prepare the press for testing\n\n3.1 Mount the press on the die.\nInsert punch shank to the ram\nhole.\n3.2 Adjust ram to the bottom\ndead center and adjust punch\nend to position a little below\nthe thickness of material.\n3.3 Clamp die and tightened\nusing the correct tightening\nsequence.\n3.4 Turn press manually to test\nthe alignment of the die.\n3.5 Prepare material by shearing\nof strips, or by individual\nblank, or by coil strip as\nrequired.\n3.6 Perform the pre-start checks\nof the press.\n3.7 Start the press safely.\n3.8 Load the material and trip the\nswitch.\n3.9 Examine the product and\n check against the drawing.\n3.10 Make the necessary\n rectification.\n3.12. Observe necessary safety\n precautions in operating\n the press.\n• Lecture/\n discussion\n• Self-paced\ninstructions\n• Workshop project\n• On-the-job\ntraining\n\n• Observation\nover time\n• Written or oral\n\n• Demonstration\n\n--- PDF PAGE 40 ---\nTool and DieMaking NCII\n12/02/04\n\n39\n3.2 TRAINING DELIVERY\n\n The delivery of training should adhere to the design of the curriculum.\n\nDelivery should be guided by the 10 basic principles of Competency-Based TVET.\n\nThe training is based on curriculum developed from the competency standards;\n\n Learning is modular in its structure;\n Training delivery is individualized and self-paced;\n Training is based on work that must be performed;\n Training materials are directly related to the competency standards and curriculum\nmodules;\n Assessment is based in the collection of evidence of the performance of work to the\nindustry required standard;\n Training is based both on and off-the –job component;\n Allows for the recognition of prior learning ( RPL ) or current competencies;\n Training allows for multiple entry and exit ; and\n Approved training programs are nationally accredited.\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the–job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n The dualized mode of training delivery is preferred and recommended. Thus\nprograms would contain both in school and in-industry training of fieldwork\ncomponents. Details can be referred to the Dual Training System ( DTS )\nImplementing Rules and Regulations\n Modular / self-paced learning is a competency- based training modality wherein the\ntrainee is allowed to progress at his own pace. The trainer facilitates the training\ndelivery\n Peer teaching / mentoring is training modality wherein fast learners are given the\nopportunity to assist the slow learners.\n\n Supervised industry training or on-the-hob training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire specific competencies prescribed in the\ntraining regulations.\n\n Distance learning is formal education process in which majority of the instruction\noccurs when the students and instructor are not in the same place. Distance\nlearning may employ correspondence study, or audio, video or computer\ntechnologies.\n\n--- PDF PAGE 41 ---\nTool and DieMaking NCII\n12/02/04\n\n40\n3.3 TRAINEE ENTRY REQUIREMENTS\n\nThis section specifies the qualifications of trainees and educational\nexperience. Other requirements like health and physical requirements are also\nstated. Passing entry written examinations may also be indicated if necessary.\n\n•\nMust be a holder of Machining NC I or COC in BW, Turning, and Milling\n•\nWith good moral character\n•\nAbility to communicate\n•\nPhysically and mentally fit\n\n 3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nTOOL AND DIE MAKING NC II\n\nRecommended list of tools, equipment and materials for the training of 25\ntrainees for Tool and Die Making NC II\n\n TOOLS\nQTY\nQTY\nQTY\n\n Drawing Equipment\n4\n• Working Bench\n12\n• Protractor\n12\n• Compass\n12\n• T-squares\n12\n• Ruler\n12\n• Drawing pencil\n12\n• Triangles\n12\n• Scale Ruler 12 “\n12\n• Triangular scale\n\n Measuring Tools:\n12\n• Vernier caliper, 150\n6 .\n• Vernier caliper\n200mm\n6\n• Micrometer 25-\n50 mm\n12 .\n• Protractor\n6.\n• Outside caliper\n6 .\n• Micrometer 50-\n75 mm\n6\n• Inside caliper\n\n• Dial indicator,\nplunger type\n\n• Micrometer, 0-25\nmm\n6\n• Dial indicator, lever\ntype\n3\n• Bevel vernier\nprotractor\n1\n• Gage block &\naccessories,\nworkshop grade\n1\n• Vernier Height\ngage\n1\n• Cylindrical\nsquare\n1\n• Surface plate\n2\n• Angle plate\n6\n• Steel rule\n\n• Dial indicator,\nplunger type\n\n--- PDF PAGE 42 ---\nTool and DieMaking NCII\n12/02/04\n\n41\nEQUIPMENT\nQTY\nQTY\n2\n2\n.2\n1\n1\n1\nLathe\nHorizontal Milling machine w/ DRO\nVertical Milling machine w/ DRO\nSurface Grinder\nBandsaw\nPower Hacksaw\n1\n1\n1\n\nMechanical Press\nDrill press\nPower hacksaw\n\nTOOLS\n1\n1\n1\n1\n8\n1\n6\n6\n3\nSet of files\nSet Allen wrench\nScribers\nVise with soft jaws\nSpotting screws\nSet of counterbores\nMallets\nMachinist hammer\nAngle vise\n\n1\n2\n2\n8\n6\n1\n3\n6\n\nAssorted shims\nAngle plate\nVernier height gage\nCenter punch\nparallel clamps\nSet of reamers\nAnvil\nSet of screwdrivers,\nflat\n\n1\n1\n1\n2\n4\n2\n6\n6\n6\nSet drill bits\nSet hand taps\nSet counter bore\n Portable electric drill\nSet of parallel set\nSet reamers\nRose bits\nSet of open wrench\nSet of box wrench\n\nTraining Materials:\n\n Reference books\n Manuals\n\n Catalogs\n Brochures /\n\n CD s / Video tape\n\nHousekeeping materials:\n20\npcs\n Brooms\n10\npcs\n Mops\n2\npcs.\n Trash can\n10\npcs\n Scrapers\n2\nbars\n Soap\n\n\n10 k\n Clean rags\n5 pcs\n Dustpan\n\n--- PDF PAGE 43 ---\nTool and DieMaking NCII\n12/02/04\n\n42\n3.5 TRAINING FACILITIES\n TOOL AND DIE MAKING NC II\n\nThe die making workshop must be of concrete structure. Based on class size of 12\nstudents/trainees the space requirements for the teaching/learning and circulation areas\nare as follows:\n\nSPACE\nREQUIREMENT\nSIZE IN METERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\n•\nBuilding\n(permanent)\n\n 10 M X 30 M\n\n 300 Sq. M\n Trainee working\nspace\n\n 2 M X 2 M\n\n 4 Sq.M / trainee\n\n 100 sq. M.\n Lecture Room\n 8 M X 10 M\n 80 Sq. M.\n 80 Sq. M\n Learning\nResource Center\n\n 4 M X 8 M.\n\n 32 Sq. M\n\n 32 Sq. M\n Facilities/\nEquipment/\nCirculation Area\n\n 88 Sq. M.\n\n3.6 TRAINER’S QUALIFICATIONS FOR METALS AND ENGINEERING\n SECTOR\n\n TRAINER QUALIFICATION (TQ II)\n\n• Must be a holder of Tool and Die Making NC II\n• Must have undergone training on Training Methodology II (TM II)\n• Must be computer literate\n• Must be physically and mentally fit\n• *Must have at least 2 years job/industry experience\n• Must be a civil service eligible (for government position or appropriate\nprofessional license issued by the Professional Regulatory Commission)\n\n* Optional. Only when required by the hiring institution.\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their achievement\nof units of competency. A certificate of achievement is issued for each unit of\ncompetency.\n\n--- PDF PAGE 44 ---\nTool and DieMaking NCII\n12/02/04\n\n43"
 }
