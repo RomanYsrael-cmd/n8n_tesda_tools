@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T15:11:18+08:00",
+  "last_updated": "2026-09-07T15:52:04+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 365,
-  "remaining_unaudited": 19,
+  "audited_count": 370,
+  "remaining_unaudited": 14,
   "blocked_count": 0,
   "documents": [
     {
@@ -4753,6 +4753,71 @@
       "validation_passed": true,
       "last_audit_commit": "b1804d33644ad1c3d8d8f3952ec090e9deba8f4d",
       "audit_notes": "Audited 4/2/2 historical two-column groups; preserved 16/16/288-hour components with 320-hour total including 104 in-school plus 184 SIT within Core, retained spaced fiber-code/source terminology, and recovered 31 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tile Setting NC II",
+      "package_path": "resources/Training Regulations/indexed/Tile Setting NC II",
+      "source_file": "resources/Training Regulations/Tile Setting NC II.pdf",
+      "source_sha256": "733b2f922811f76a0a1c3434459b410db7034e3ee39978bbde6082f540c9c10c",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:52:04+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "82198bf699f174a7d466b77e58e651505962a790",
+      "audit_notes": "Audited 9/4/2 revised four-column basic/common/core groups; preserved 37/24/56-hour components and 117-hour total, retained the source's TILE SETTIING/Tile-Setting variants and stray cover-line provenance, and recovered 17 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tile Setting NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Tile Setting NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Tile Setting NC II (Superseded).pdf",
+      "source_sha256": "1323690afccabe4058f21a68a993ed46fcfee0d45b37ef92dc51e2a46557d958",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:52:04+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "82198bf699f174a7d466b77e58e651505962a790",
+      "audit_notes": "Audited 4/5/3 historical two-column groups; preserved 18/24/40-hour components and 82-hour total, retained the superseded lifecycle classification and historical Tile-Setting wording/numbering variants, and recovered 10 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tinsmithing (Automotive Manufacturing) NC II",
+      "package_path": "resources/Training Regulations/indexed/Tinsmithing (Automotive Manufacturing) NC II",
+      "source_file": "resources/Training Regulations/Tinsmithing (Automotive Manufacturing) NC II.pdf",
+      "source_sha256": "e651ccedc8960086999e0f5c84c5e5ac23d874564565aed418cdf2437060258e",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:52:04+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "82198bf699f174a7d466b77e58e651505962a790",
+      "audit_notes": "Audited 4/5/2 historical two-column groups; preserved 18/20/88-hour components and the 126-hour arithmetic total, retained TINSMITHING OPERATION versus qualification-title wording and the duplicate ALT827314 core-header variant, and recovered 12 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tool and Die Making NC II",
+      "package_path": "resources/Training Regulations/indexed/Tool and Die Making NC II",
+      "source_file": "resources/Training Regulations/Tool and Die Making NC II.pdf",
+      "source_sha256": "ec489a1f5587aaa63642fc026416950af34345bd3fe73cd136457704e0e4823f",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:52:04+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "82198bf699f174a7d466b77e58e651505962a790",
+      "audit_notes": "Audited 4/3/3 historical two-column groups; preserved the single 598-hour nominal duration, reconciled Section 1 basic codes with Section 2 header codes, retained the spaced MEE722 303 source variant, repaired the footer-induced element-number gap, and recovered 29 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tour Guiding Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Tour Guiding Services NC III",
+      "source_file": "resources/Training Regulations/Tour Guiding Services NC III.pdf",
+      "source_sha256": "dff9d9c7d45853c548911c60adb53cf02c4bfdd3062bfa539702c4b739649c22",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:52:04+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "82198bf699f174a7d466b77e58e651505962a790",
+      "audit_notes": "Audited 9/4/3 revised four-column basic/common/core groups; preserved 40/45/156-hour components plus 40-hour SIL and 281-hour total, retained the Guide and Escort Visitors versus clients source-title variant, and recovered 24 glossary entries; structural validation and visual boundary QA passed."
     }
   ]
 }
