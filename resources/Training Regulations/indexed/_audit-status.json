@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T14:39:25+08:00",
+  "last_updated": "2026-09-07T15:11:18+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 360,
-  "remaining_unaudited": 24,
+  "audited_count": 365,
+  "remaining_unaudited": 19,
   "blocked_count": 0,
   "documents": [
     {
@@ -4688,6 +4688,71 @@
       "validation_passed": true,
       "last_audit_commit": "35f23dcf250b5bc0ecec78ca586a89fad46b05bb",
       "audit_notes": "Audited 4/3/4 revised four-column groups; preserved 20/72/511-hour components and 603-hour total, restored required knowledge/skills across wrapped bullet columns, repaired 51-entry glossary extraction and validated source fidelity/semantic selectors; structural validation passed and visual boundary QA passed."
+    },
+    {
+      "package": "System Formworks Installation NC II",
+      "package_path": "resources/Training Regulations/indexed/System Formworks Installation NC II",
+      "source_file": "resources/Training Regulations/System Formworks Installation NC II.pdf",
+      "source_sha256": "49025e6b0f60b09487ae1a4535d912e4a890c92367f381d77c73d16e4e4f1dc3",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:11:18+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "b1804d33644ad1c3d8d8f3952ec090e9deba8f4d",
+      "audit_notes": "Audited 4/5/3 historical two-column basic/common/core groups; preserved 18/18/80-hour components plus 40-hour OJT and 156-hour total, recovered the 21-entry glossary and retained spaced construction-code/source terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Tailoring NC II",
+      "package_path": "resources/Training Regulations/indexed/Tailoring NC II",
+      "source_file": "resources/Training Regulations/Tailoring NC II.pdf",
+      "source_sha256": "509dcd1c3d5dd54318548af30c76b9f3474db02b7447634c46bd0fd0391dc0f4",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:11:18+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "b1804d33644ad1c3d8d8f3952ec090e9deba8f4d",
+      "audit_notes": "Audited 4/4/4 historical two-column groups; preserved 18/17/240-hour components and 275-hour total, reassociated the reversed common curriculum order, recovered 18 glossary entries, and retained March 2005 garment terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Technical Drafting NC II",
+      "package_path": "resources/Training Regulations/indexed/Technical Drafting NC II",
+      "source_file": "resources/Training Regulations/Technical Drafting NC II.pdf",
+      "source_sha256": "bd1be247c18edc9227c7e45af46a64b53032fcac91686ccd5fe6db9a7486f111",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:11:18+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "b1804d33644ad1c3d8d8f3952ec090e9deba8f4d",
+      "audit_notes": "Audited 4/4/2/4 historical two-column basic/common/core/elective groups; preserved the single 148-hour nominal duration, reconciled Section 1's six-unit Core label with the TOC/Sections 2–3 Core/Elective split, retained the split-page CON311302 source boundary, and recovered 11 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Telecom OSP and Subscriber Line Installation (Copper Cable POTS and DSL) NC II",
+      "package_path": "resources/Training Regulations/indexed/Telecom OSP and Subscriber Line Installation (Copper Cable POTS and DSL) NC II",
+      "source_file": "resources/Training Regulations/Telecom OSP and Subscriber Line Installation (Copper Cable POTS and DSL) NC II.pdf",
+      "source_sha256": "0c0033bc76e2a49bc7717cb6fd480532454762bdc6446e2957d815f6ec64648e",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:11:18+08:00",
+      "issues_found": 2,
+      "issues_fixed": 2,
+      "validation_passed": true,
+      "last_audit_commit": "b1804d33644ad1c3d8d8f3952ec090e9deba8f4d",
+      "audit_notes": "Audited 4/2/6 historical two-column groups; preserved 16/16/448-hour components with 480-hour total including 160 in-school plus 288 SIT within Core, retained the ELC315202 versus ICT315202 source-code variant, and recovered 34 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Telecom OSP Installation (Fiber Optic Cable) NC II",
+      "package_path": "resources/Training Regulations/indexed/Telecom OSP Installation (Fiber Optic Cable) NC II",
+      "source_file": "resources/Training Regulations/Telecom OSP Installation (Fiber Optic Cable) NC II.pdf",
+      "source_sha256": "04b0bd17d14503b1d749a9019e446579ff211d605cb636e6f1b77f37e01f0916",
+      "status": "audited",
+      "audited_at": "2026-09-07T15:11:18+08:00",
+      "issues_found": 2,
+      "issues_fixed": 2,
+      "validation_passed": true,
+      "last_audit_commit": "b1804d33644ad1c3d8d8f3952ec090e9deba8f4d",
+      "audit_notes": "Audited 4/2/2 historical two-column groups; preserved 16/16/288-hour components with 320-hour total including 104 in-school plus 184 SIT within Core, retained spaced fiber-code/source terminology, and recovered 31 glossary entries; structural validation and visual boundary QA passed."
     }
   ]
 }
