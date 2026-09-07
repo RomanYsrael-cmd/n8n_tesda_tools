@@ -1,29 +1,213 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:pharmacy-services-nc-iii:74e2984496",
   "qualification": "PHARMACY SERVICES NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Pharmacy Services NC III.pdf",
-    "sha256": "74e2984496161014b20fb0802c316e2c2ffa6fa605be009e1674c24d3a432ad4",
+    "source_sha256": "74e2984496161014b20fb0802c316e2c2ffa6fa605be009e1674c24d3a432ad4",
+    "pdf_pages": 135,
+    "printed_pages": 131,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation promulgated Dec. 16, 2015.",
+    "The Dispense Pharmaceutical Products table begins with the printed label UNIT COMPETENCY rather than UNIT OF COMPETENCY; parser input is repaired while source_text preserves the source wording.",
+    "The competency pages contain spacing and spelling variants including MONITORSUPPLY/INVENTORY, ADHERETO, and TECHIQUES; the canonical inventory follows Section 1 while source_text preserves the printed forms.",
+    "The source competency map labels the first core unit Perform general housekeeping, while the Section 1 unit and competency table use Practice good housekeeping; the canonical inventory follows the explicit unit table.",
+    "The source prints 22 Basic, 24 Common, 802 Core, 200 Industry Exposure, and 1048 Total hours."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation promulgated Dec. 16, 2015."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Dispense Pharmaceutical Products table begins with the printed label UNIT COMPETENCY rather than UNIT OF COMPETENCY; parser input is repaired while source_text preserves the source wording."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The competency pages contain spacing and spelling variants including MONITORSUPPLY/INVENTORY, ADHERETO, and TECHIQUES; the canonical inventory follows Section 1 while source_text preserves the printed forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source competency map labels the first core unit Perform general housekeeping, while the Section 1 unit and competency table use Practice good housekeeping; the canonical inventory follows the explicit unit table."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 22 Basic, 24 Common, 802 Core, 200 Industry Exposure, and 1048 Total hours."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Pharmacy Services NC III.pdf",
-    "pdf_pages": 135,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        9,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        17,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "HCS245201",
+      "source_unit_code": "HCS245201",
+      "pdf_page_range": [
+        27,
+        31
+      ]
+    },
+    {
+      "unit_code": "HHC532201",
+      "source_unit_code": "HHC532201",
+      "pdf_page_range": [
+        32,
+        35
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        36,
+        40
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        41,
+        49
+      ]
+    },
+    {
+      "unit_code": "HHC532202",
+      "source_unit_code": "HHC532202",
+      "pdf_page_range": [
+        50,
+        52
+      ]
+    },
+    {
+      "unit_code": "HHC532301",
+      "source_unit_code": "HHC532301",
+      "pdf_page_range": [
+        53,
+        57
+      ]
+    },
+    {
+      "unit_code": "HHC532302",
+      "source_unit_code": "HHC532302",
+      "pdf_page_range": [
+        58,
+        64
+      ]
+    },
+    {
+      "unit_code": "HHC532303",
+      "source_unit_code": "HHC532303",
+      "pdf_page_range": [
+        65,
+        69
+      ]
+    },
+    {
+      "unit_code": "HHC532304",
+      "source_unit_code": "HHC532304",
+      "pdf_page_range": [
+        70,
+        73
+      ]
+    },
+    {
+      "unit_code": "HHC532305",
+      "source_unit_code": "HHC532305",
+      "pdf_page_range": [
+        74,
+        79
+      ]
+    },
+    {
+      "unit_code": "HHC532306",
+      "source_unit_code": "HHC532306",
+      "pdf_page_range": [
+        80,
+        85
+      ]
+    },
+    {
+      "unit_code": "HHC532307",
+      "source_unit_code": "HHC532307",
+      "pdf_page_range": [
+        86,
+        90
+      ]
+    },
+    {
+      "unit_code": "HHC532308",
+      "source_unit_code": "HHC532308",
+      "pdf_page_range": [
+        91,
+        98
+      ]
+    },
+    {
+      "unit_code": "HHC532309",
+      "source_unit_code": "HHC532309",
+      "pdf_page_range": [
+        99,
+        104
+      ]
+    }
+  ]
 }

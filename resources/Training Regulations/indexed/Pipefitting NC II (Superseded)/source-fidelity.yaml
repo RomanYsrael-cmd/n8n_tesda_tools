@@ -1,29 +1,152 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:pipefitting-nc-ii:695a0b7c56",
-  "qualification": "Pipefitting NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:pipefitting-nc-ii-superseded:695a0b7c56",
+  "qualification": "PIPEFITTING NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Pipefitting NC II (Superseded).pdf",
-    "sha256": "695a0b7c56bce21874d5e23e224c2bf59d1f3abda4a10a1f80df07f0897bb2c6",
+    "authority": "TESDA",
+    "source_file": "Pipefitting NC II (Superseded).pdf",
+    "source_sha256": "695a0b7c56bce21874d5e23e224c2bf59d1f3abda4a10a1f80df07f0897bb2c6",
+    "pdf_pages": 75,
+    "printed_pages": 72,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is explicitly classified as superseded and is a historical two-column regulation.",
+    "The source prints 18 Basic and 24 Common hours on the curriculum page and 160 Core hours on a later page; it does not print a combined total, so 202 hours is the normalized arithmetic total.",
+    "The source has no visible promulgation date; the canonical promulgated field remains null.",
+    "Section 4 uses inconsistent numbering for the core assessment items; source_text preserves the printed assessment language."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is explicitly classified as superseded and is a historical two-column regulation."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic and 24 Common hours on the curriculum page and 160 Core hours on a later page; it does not print a combined total, so 202 hours is the normalized arithmetic total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source has no visible promulgation date; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 4 uses inconsistent numbering for the core assessment items; source_text preserves the printed assessment language."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Pipefitting NC II (Superseded).pdf",
-    "pdf_pages": 75,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        11,
+        13
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        14,
+        19
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        26,
+        30
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        31,
+        34
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        35,
+        39
+      ]
+    },
+    {
+      "unit_code": "CON713340",
+      "source_unit_code": "CON713340",
+      "pdf_page_range": [
+        40,
+        45
+      ]
+    },
+    {
+      "unit_code": "CON713342",
+      "source_unit_code": "CON713342",
+      "pdf_page_range": [
+        46,
+        51
+      ]
+    },
+    {
+      "unit_code": "CON713341",
+      "source_unit_code": "CON713341",
+      "pdf_page_range": [
+        52,
+        56
+      ]
+    },
+    {
+      "unit_code": "CON713343",
+      "source_unit_code": "CON713343",
+      "pdf_page_range": [
+        57,
+        60
+      ]
+    }
+  ]
 }

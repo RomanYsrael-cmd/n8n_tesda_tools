@@ -1,29 +1,157 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:pest-management-vegetables-nc-ii:2007-07",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:pest-management-vegetables-nc-ii:d930a788c7",
   "qualification": "PEST MANAGEMENT (VEGETABLES) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Pest Management (Vegetables) NC II.pdf",
-    "sha256": "d930a788c70af5d9656155678184a77fc9acb25bf1715e1f947e25cd6682ab54",
+    "source_sha256": "d930a788c70af5d9656155678184a77fc9acb25bf1715e1f947e25cd6682ab54",
+    "pdf_pages": 79,
+    "printed_pages": 77,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation; the official PDF remains authoritative.",
+    "The fourth basic competency header prints source code 500311107, while Section 1 lists 500311108 for Practice occupational health and safety procedures; the canonical inventory follows Section 1 and source_unit_code preserves the header code.",
+    "The curriculum prints the cultural-management unit heading as 4. while its learning outcomes are numbered 3.1–3.4; the canonical curriculum keeps the source outcome numbering and maps the rows to AGR321322.",
+    "Section 4 calls the final COC Monitor results of control activities and provide feedback, while Section 1 and the competency header use pest-management activities; source_text preserves both forms.",
+    "The source prints 18 Basic, 14 Common, 280 Core, and 312 Total Hours."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation; the official PDF remains authoritative."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The fourth basic competency header prints source code 500311107, while Section 1 lists 500311108 for Practice occupational health and safety procedures; the canonical inventory follows Section 1 and source_unit_code preserves the header code."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The curriculum prints the cultural-management unit heading as 4. while its learning outcomes are numbered 3.1–3.4; the canonical curriculum keeps the source outcome numbering and maps the rows to AGR321322."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 4 calls the final COC Monitor results of control activities and provide feedback, while Section 1 and the competency header use pest-management activities; source_text preserves both forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 18 Basic, 14 Common, 280 Core, and 312 Total Hours."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Pest Management (Vegetables) NC II.pdf",
-    "pdf_pages": 79,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "AGR321201",
+      "source_unit_code": "AGR321201",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "AGR321202",
+      "source_unit_code": "AGR321202",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "AGR321203",
+      "source_unit_code": "AGR321203",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "AGR321320",
+      "source_unit_code": "AGR321320",
+      "pdf_page_range": [
+        26,
+        31
+      ]
+    },
+    {
+      "unit_code": "AGR321321",
+      "source_unit_code": "AGR321321",
+      "pdf_page_range": [
+        32,
+        38
+      ]
+    },
+    {
+      "unit_code": "AGR321322",
+      "source_unit_code": "AGR321322",
+      "pdf_page_range": [
+        39,
+        45
+      ]
+    },
+    {
+      "unit_code": "AGR321323",
+      "source_unit_code": "AGR321323",
+      "pdf_page_range": [
+        46,
+        52
+      ]
+    },
+    {
+      "unit_code": "AGR321324",
+      "source_unit_code": "AGR321324",
+      "pdf_page_range": [
+        53,
+        62
+      ]
+    },
+    {
+      "unit_code": "AGR321325",
+      "source_unit_code": "AGR321325",
+      "pdf_page_range": [
+        63,
+        66
+      ]
+    }
+  ]
 }

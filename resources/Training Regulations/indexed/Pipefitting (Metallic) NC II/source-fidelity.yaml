@@ -1,29 +1,189 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:pipefitting-metallic-nc-ii:6b5bd4b76f",
   "qualification": "PIPEFITTING (METALLIC) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Pipefitting (Metallic) NC II.pdf",
-    "sha256": "6b5bd4b76f3b75045193080d49d271d3341e17bd2ab4477e4533685fc7f517f0",
+    "source_sha256": "6b5bd4b76f3b75045193080d49d271d3341e17bd2ab4477e4533685fc7f517f0",
+    "pdf_pages": 124,
+    "printed_pages": 121,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation (Revision 01) promulgated (10/29/2018).",
+    "The curriculum and competency standards include the nine modern basic competencies, including 400311217 Exercise efficient and effective sustainable practices in the workplace; the canonical inventory follows the complete Section 1 and Section 2 unit set.",
+    "The competency map includes broader construction/plumbing-sector competencies beyond the four core units packaged for this qualification; the canonical inventory follows Section 1.",
+    "The source heading contains spelling/grammar variants such as ASSESSSMENT and ARRANGEMENT and source_text preserves them.",
+    "The source prints 37 Basic, 24 Common, 160 Core, and 221 Total hours."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation (Revision 01) promulgated (10/29/2018)."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The curriculum and competency standards include the nine modern basic competencies, including 400311217 Exercise efficient and effective sustainable practices in the workplace; the canonical inventory follows the complete Section 1 and Section 2 unit set."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The competency map includes broader construction/plumbing-sector competencies beyond the four core units packaged for this qualification; the canonical inventory follows Section 1."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source heading contains spelling/grammar variants such as ASSESSSMENT and ARRANGEMENT and source_text preserves them."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 37 Basic, 24 Common, 160 Core, and 221 Total hours."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Pipefitting (Metallic) NC II.pdf",
-    "pdf_pages": 124,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        22,
+        25
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        33,
+        35
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        36,
+        38
+      ]
+    },
+    {
+      "unit_code": "CON931201",
+      "source_unit_code": "CON931201",
+      "pdf_page_range": [
+        39,
+        41
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        49,
+        53
+      ]
+    },
+    {
+      "unit_code": "CON712301",
+      "source_unit_code": "CON712301",
+      "pdf_page_range": [
+        54,
+        60
+      ]
+    },
+    {
+      "unit_code": "CON712302",
+      "source_unit_code": "CON712302",
+      "pdf_page_range": [
+        61,
+        69
+      ]
+    },
+    {
+      "unit_code": "CON712303",
+      "source_unit_code": "CON712303",
+      "pdf_page_range": [
+        70,
+        78
+      ]
+    },
+    {
+      "unit_code": "CON712304",
+      "source_unit_code": "CON712304",
+      "pdf_page_range": [
+        79,
+        86
+      ]
+    }
+  ]
 }

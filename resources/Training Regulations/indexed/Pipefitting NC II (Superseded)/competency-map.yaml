@@ -1,72 +1,57 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:pipefitting-nc-ii:695a0b7c56",
-  "qualification": "Pipefitting NC II",
+  "document_id": "tesda:tr:pipefitting-nc-ii-superseded:695a0b7c56",
+  "qualification": "PIPEFITTING NC II (SUPERSEDED)",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "gather, interpret and convey information in response to"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "identify role and responsibility as a member of a team."
-      },
-      {
-        "unit_code": "CON311203",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "CON931201",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "CON713340",
-        "title": "cut and bevel pipes"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "regulatory and organizational requirements for occupational"
-      },
-      {
-        "unit_code": "CON311201",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      },
-      {
-        "unit_code": "CON311202",
-        "title": "This unit covers the knowledge, skills and attitudes in"
-      },
-      {
-        "unit_code": "CON311204",
-        "title": "This unit covers the knowledge, skills and attitudes on"
-      },
-      {
-        "unit_code": "CON713342",
-        "title": "install and fit-up underground piping system"
-      },
-      {
-        "unit_code": "CON713341",
-        "title": "install and fit-up overhead piping system."
-      },
-      {
-        "unit_code": "CON713343",
-        "title": "perform tack welding."
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nPLUMBING SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\n\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nCut, bevel and / or\nthread pipes\nInstall overhead\npiping system\nInstall underground\npiping system\nPerform tack\nwelding\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nPrepare construction materials\nand tools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and manual of\ninstructions\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem\nsolving\ntechniques in the\nworkplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\n\n--- PDF PAGE 73 ---\nPIPEFITTING NC II 71",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "CON931201",
+        "CON311201",
+        "CON311202",
+        "CON311203",
+        "CON311204"
+      ],
+      "unit_titles": [
+        "Prepare construction materials and tools",
+        "Observe procedures, specifications and manuals of instructions",
+        "Interpret technical drawings and plans",
+        "Perform mensurations and calculations",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "CON713340",
+        "CON713342",
+        "CON713341",
+        "CON713343"
+      ],
+      "unit_titles": [
+        "Cut, bevel and/or thread pipes",
+        "Install and fit-up underground piping system",
+        "Install and fit-up overhead piping system",
+        "Perform tack welding"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be\nawarded a National Certificate signed by the TESDA Director General.\n\n4.2 The qualification of PIPEFITTING NC II can be attained through\ndemonstration of competence in a project-type assessment covering the\nfollowing core units.\n\n4.1.1 Cut, bevel and / or thread pipes\n4.1.2 Install and fit-up overhead piping system\n4.1.3 Install and fit-up underground piping system\n4.1.4 Perform tack welding\n\n4.3. Assessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4. The following are qualified to apply for assessment and certification:\n\n4.3.1 Graduates of formal, non-formal and informal including\n enterprise-based training programs\n\n4.4.2. Experienced Workers (wage employed or self-employed)\n\n4.5. The guidelines on assessment and certification are discussed in detail in\nthe Procedures Manual on Assessment and Certification and guidelines\non the Implementation of the Philippine TVET Qualification and\nCertification System (PTQCS).\n\n--- PDF PAGE 72 ---\nPIPEFITTING NC II 71\n\nCOMMON\nCOMPETENCIES\nCORE\nCOMPETENCIES\nANNEX A\nPIPEFITTING NC II\n\nCOMPETENCY MAP\nPLUMBING SUB-SECTOR\nRepair defective\nconcrete and\nmasonry surfaces\nPerform basic\nmasonry\nworks\nLay brick/ block\nfor structures\nPlaster\nconcrete/\nmasonry\nInstall pre-cast\nbalusters and\nhandrails\nPrepare\nmasonry\nmaterials\nPrepare tools,\npainting\nmaterials and\nPrepare surface\nfor painting\n\nApply special\ncement finishes\nto concrete and\nmasonry surfaces\nEstimate\npaint\nrequirements\nPerform\npainting works\n\nStakeout\nbuilding lines\nFabricate form\nworks\nInstall form work\ncomponents\nStrip form work\ncomponents\nInstall\nFraming\n works\n\nPerform single unit\nplumbing\ninstallation and\nassemblies\nPerform minor\nconstruction\nworks\nCut, bevel and / or\nthread pipes\nInstall overhead\npiping system\nInstall underground\npiping system\nPerform tack\nwelding\nPerform painting\nrepair work\nPerform complex and\nmulti-story plumbing\ninstallation and\nassemblies\nPerform plumbing\nrepair and\nmaintenance\nworks\nConduct pipe\nleak testing\nMake piping\njoints and\nconnections\nInstall hot and\npotable chilled\nwater piping\nsystem\nPrepare pipes\nfor installation\nDraft plumbing\ndesign\nPrepare construction materials\nand tools\nInterpret technical\ndrawings and plans\nObserve procedures,\nspecifications and manual of\ninstructions\nPerform mensuration\nand calculations\nMaintain tools\nand equipment\nReceive and\nrespond to\nworkplace\ncommunication\nWork with\nothers\nDemonstrate\nwork values\nPractice basic\nhousekeeping\nprocedures\nPractice\nworkplace\ncommunication\nWork in a team\nenvironment\nPractice\nprofessionalism\nPractice\noccupational health\nand safety\nprocedures\nLead workplace\ncommunication\nLead small\nteam\nDevelop and\npractice\nnegotiation skills\nSolve problems\nrelated to work\nactivities\nUse mathematical\nconcepts and\ntechniques\nUse relevant\ntechnologies\nUtilize specialist\ncommunication\nskills\nDevelop team\nand individual\nApply problem\nsolving\ntechniques in the\nworkplace\nCollect and\norganize\ninformation\nPlan and\norganize work\nPromote\nenvironmental\nprotection\nBASIC\nCOMPETENCIES\n\n--- PDF PAGE 73 ---\nPIPEFITTING NC II 71\n\nDEFINITION OF TERMS\n\n1. Bevel\nRefers to an angle between one line or surface another line on\nsurface or the horizontal, when the angle is not a right angle\n\n2. Competency\nIs the application of knowledge, skills and attitudes to perform\nwork activities to the standard expected in the workplace\n\n3. Certification\nRefers to the process of verifying and validating competencies of\na person through assessment.\n\n4. Element\nRefers to the building blocks of a unit of competency. It\ndescribes in outcome terms the functions that a person who\nworks in a particular area of work is able to perform.\n\n5. Evidence Guide\nIt is a guide for assessment that provides information on critical\naspects of competency, underpinning knowledge, underpinning\nskills, resource implications, context of assessment and\nassessment method.\n\n6. Flanged pipe\nIs a pipe with flanges at the ends; can be bolted end-to-end to\nanother pipe\n\n7. Philippine TVET\nQualification\nFramework\nRefers to a comprehensive, nationally consistent framework for\nqualifications in the TVET sector. It also provides the parameter\nfor the integration of learning and assessment in the middle skills\ndevelopment.\n\n8. Pipe\nIs a tube made of metal clay, plastic or wood or concrete and\nused to conduct a fluid gas or finely divided solid\n\n9. Pipelaying\nRefers to the placing of pipe into position in a trench as with\nburied pipelines for oil, water or chemicals\n\n10. Qualification\nRefers to the national certificate issued by the TESDA or its\naccredited industry organizations in recognition that a person\nhas achieved competencies relevant to a trade or industry.\n\n11. Range of\n Variable\nIt describes the circumstances or context in which the work is to\nbe performed.\n\n12. Unit of\n Competency\nRefers to a discrete aspect of work, which would normally be\nperformed by only one person.\n\n--- PDF PAGE 74 ---\nPIPEFITTING NC II 72\n\nACKNOWLEDGEMENTS\n\nThe Technical Education and Skills Development Authority (TESDA) wishes to extend\nthanks and appreciation to the many representatives of business, industry, academe and\ngovernment agencies and who contributed their time and expertise to the development of this\nTraining Regulations.\n\n•\nTHE TECHNICAL/INDUSTRY EXPERTS\n\nVITALIANO M. MAGPANTAY\nPiping Supervisor\nConcept Institute\nBatangas\n\nPEDRO BULANGHAGUI\nSkills Trainor\nBatangas\nJILANY B. AUSTRIA\nTrainer\nAG&P\nBatangas\n\nMOISES M. LACORTE\nSkills Trainor\nBatangas\nJOSE P. MAGALLANES\nACGI / METAPHIL\nCebu\nENGR. MARK ANTHONY N. YLANAN\nAdministrator\nTraining Center\nCebu\n\nENGR. DANILO M. MONTANA\nAdministrator\nTraining Center\nCebu\n\nJOSEPHUS D. BAYO\nACGI / METAPHIL\nCebu\nLAURO T. BAGUIO\nACGI / METAPHIL\nCebu\n\nEFREN B. IBANEZ\nWelding Engineer\nBechtel Construction Operations\nGREGORIO A. CORONEZ\nQA / QC Manager\nAG&P, Batangas\n\nKEN ALEXANDER\nWelding Manager\nCAPE East, Philippines\nERNESTO B. POLICARPIO\nPresident\nPhilippine Welding Society\nFERNANDO M. OPEDA\nExecutive Director\nPhilippine Welding Society\n\nThe participants in the National Validation of this Training Regulation\n\nACGI / METAPHIL\nTESDA R-VII\n\nThe management and staff of the TESDA Secretariat\n\n--- PDF PAGE 75 ---\nPIPEFITTING NC II 73"
 }
