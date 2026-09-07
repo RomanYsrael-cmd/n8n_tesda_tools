@@ -1,29 +1,139 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-ii:b869d5cb46",
-  "qualification": "Transmission Line Installation and Maintenance NC II",
+  "qualification": "TRANSMISSION LINE INSTALLATION AND MAINTENANCE NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Transmission Line Installation and Maintenance NC II.pdf",
-    "sha256": "b869d5cb46a1c7ddc158922027fa6612ce4dca1f3a6b00f426119d81a2d68eeb",
+    "source_sha256": "b869d5cb46a1c7ddc158922027fa6612ce4dca1f3a6b00f426119d81a2d68eeb",
+    "pdf_pages": 86,
+    "printed_pages": 82,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is an amended revised four-column regulation dated Amended December 18, 2017; no separate promulgation date is printed, so the canonical promulgated field remains null.",
+    "Section 1 lists Operate and maintain line tools and equipment before Observe procedures, while the Section 2 and Section 3 sequence places Observe before Operate; canonical unit records follow the source standard-page sequence.",
+    "The source preserves transmission-line terminology, spaced basic-code presentation, and source spelling/capitalization variants; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is an amended revised four-column regulation dated Amended December 18, 2017; no separate promulgation date is printed, so the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists Operate and maintain line tools and equipment before Observe procedures, while the Section 2 and Section 3 sequence places Observe before Operate; canonical unit records follow the source standard-page sequence."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source preserves transmission-line terminology, spaced basic-code presentation, and source spelling/capitalization variants; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Transmission Line Installation and Maintenance NC II.pdf",
-    "pdf_pages": 86,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        19
+      ]
+    },
+    {
+      "unit_code": "UTL311203",
+      "source_unit_code": "UTL311203",
+      "pdf_page_range": [
+        20,
+        23
+      ]
+    },
+    {
+      "unit_code": "UTL311206",
+      "source_unit_code": "UTL311206",
+      "pdf_page_range": [
+        24,
+        28
+      ]
+    },
+    {
+      "unit_code": "UTL311201",
+      "source_unit_code": "UTL311201",
+      "pdf_page_range": [
+        29,
+        30
+      ]
+    },
+    {
+      "unit_code": "UTL311205",
+      "source_unit_code": "UTL311205",
+      "pdf_page_range": [
+        31,
+        35
+      ]
+    },
+    {
+      "unit_code": "UTL311207",
+      "source_unit_code": "UTL311207",
+      "pdf_page_range": [
+        36,
+        39
+      ]
+    },
+    {
+      "unit_code": "UTL741301",
+      "source_unit_code": "UTL741301",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "UTL741302",
+      "source_unit_code": "UTL741302",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "UTL741303",
+      "source_unit_code": "UTL741303",
+      "pdf_page_range": [
+        48,
+        52
+      ]
+    }
+  ]
 }

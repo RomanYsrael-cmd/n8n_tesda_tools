@@ -1,29 +1,171 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-iii:545bb82ade",
-  "qualification": "Transmission Line Installation and Maintenance NC III",
+  "qualification": "TRANSMISSION LINE INSTALLATION AND MAINTENANCE NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Transmission Line Installation and Maintenance NC III.pdf",
-    "sha256": "545bb82ade0b76e96c65d2cb8ccc30e05b54d05fbceffe7717a2a781c7b42f60",
+    "source_sha256": "545bb82ade0b76e96c65d2cb8ccc30e05b54d05fbceffe7717a2a781c7b42f60",
+    "pdf_pages": 113,
+    "printed_pages": 109,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is an amended revised four-column regulation dated Amended December 18, 2017; no separate promulgation date is printed, so the canonical promulgated field remains null.",
+    "The source prints 32 Basic, 60 Common, and 116 Core hours for a 208-hour mandatory total and separately prints Nominal Training Duration (Elective): 150 hours; the elective is retained as an additional competency and is excluded from the mandatory total arithmetic.",
+    "The source uses transmission-line code/title, capitalization, and terminology variants including Perform Computer Operations and Install/construct; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is an amended revised four-column regulation dated Amended December 18, 2017; no separate promulgation date is printed, so the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 32 Basic, 60 Common, and 116 Core hours for a 208-hour mandatory total and separately prints Nominal Training Duration (Elective): 150 hours; the elective is retained as an additional competency and is excluded from the mandatory total arithmetic."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses transmission-line code/title, capitalization, and terminology variants including Perform Computer Operations and Install/construct; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Transmission Line Installation and Maintenance NC III.pdf",
-    "pdf_pages": 113,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        18,
+        21
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        22,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        24,
+        26
+      ]
+    },
+    {
+      "unit_code": "UTL311203",
+      "source_unit_code": "UTL311203",
+      "pdf_page_range": [
+        27,
+        30
+      ]
+    },
+    {
+      "unit_code": "UTL311206",
+      "source_unit_code": "UTL311206",
+      "pdf_page_range": [
+        31,
+        35
+      ]
+    },
+    {
+      "unit_code": "UTL311201",
+      "source_unit_code": "UTL311201",
+      "pdf_page_range": [
+        36,
+        37
+      ]
+    },
+    {
+      "unit_code": "UTL311205",
+      "source_unit_code": "UTL311205",
+      "pdf_page_range": [
+        38,
+        42
+      ]
+    },
+    {
+      "unit_code": "UTL311207",
+      "source_unit_code": "UTL311207",
+      "pdf_page_range": [
+        43,
+        46
+      ]
+    },
+    {
+      "unit_code": "UTL741304",
+      "source_unit_code": "UTL741304",
+      "pdf_page_range": [
+        47,
+        53
+      ]
+    },
+    {
+      "unit_code": "UTL741305",
+      "source_unit_code": "UTL741305",
+      "pdf_page_range": [
+        54,
+        58
+      ]
+    },
+    {
+      "unit_code": "UTL741306",
+      "source_unit_code": "UTL741306",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    },
+    {
+      "unit_code": "UTL741307",
+      "source_unit_code": "UTL741307",
+      "pdf_page_range": [
+        64,
+        65
+      ]
+    },
+    {
+      "unit_code": "UTL741308",
+      "source_unit_code": "UTL741308",
+      "pdf_page_range": [
+        66,
+        73
+      ]
+    }
+  ]
 }

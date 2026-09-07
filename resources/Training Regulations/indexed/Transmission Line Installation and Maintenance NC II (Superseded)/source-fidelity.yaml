@@ -1,29 +1,160 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-ii:37b58f5bef",
-  "qualification": "Transmission Line Installation and Maintenance NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-ii-superseded:37b58f5bef",
+  "qualification": "TRANSMISSION LINE INSTALLATION AND MAINTENANCE NC II (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Transmission Line Installation and Maintenance NC II (Superseded).pdf",
-    "sha256": "37b58f5bef3f6d69887c630caf08f5f4c9c356214510ce9206a953da0c29034a",
+    "authority": "TESDA",
+    "source_file": "Transmission Line Installation and Maintenance NC II (Superseded).pdf",
+    "source_sha256": "37b58f5bef3f6d69887c630caf08f5f4c9c356214510ce9206a953da0c29034a",
+    "pdf_pages": 64,
+    "printed_pages": 62,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained, and no promulgation date is visible in the source.",
+    "The source uses the historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The first common Section 2 header prints ICT315202 while Section 1 identifies UTL311203; canonical retrieval follows the Section 1 code and preserves the header variant through source_unit_code and source-fidelity notes.",
+    "Section 3 prints 18 Basic, 48 Common, and 580 Core hours for a 646-hour arithmetic total; source terminology includes T/L, cold-/live-/ground-line, and source spelling variants such as PERFOM and EMEREGENCY."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained, and no promulgation date is visible in the source."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The first common Section 2 header prints ICT315202 while Section 1 identifies UTL311203; canonical retrieval follows the Section 1 code and preserves the header variant through source_unit_code and source-fidelity notes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 18 Basic, 48 Common, and 580 Core hours for a 646-hour arithmetic total; source terminology includes T/L, cold-/live-/ground-line, and source spelling variants such as PERFOM and EMEREGENCY."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Transmission Line Installation and Maintenance NC II (Superseded).pdf",
-    "pdf_pages": 64,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "UTL311203",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "UTL311206",
+      "source_unit_code": "UTL311206",
+      "pdf_page_range": [
+        19,
+        22
+      ]
+    },
+    {
+      "unit_code": "UTL311201",
+      "source_unit_code": "UTL311201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "UTL311205",
+      "source_unit_code": "UTL311205",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "UTL724601",
+      "source_unit_code": "UTL724601",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "UTL723213",
+      "source_unit_code": "UTL723213",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "UTL723214",
+      "source_unit_code": "UTL723214",
+      "pdf_page_range": [
+        37,
+        40
+      ]
+    },
+    {
+      "unit_code": "UTL723215",
+      "source_unit_code": "UTL723215",
+      "pdf_page_range": [
+        41,
+        43
+      ]
+    },
+    {
+      "unit_code": "UTL723216",
+      "source_unit_code": "UTL723216",
+      "pdf_page_range": [
+        44,
+        46
+      ]
+    },
+    {
+      "unit_code": "UTL724602",
+      "source_unit_code": "UTL724602",
+      "pdf_page_range": [
+        47,
+        49
+      ]
+    }
+  ]
 }

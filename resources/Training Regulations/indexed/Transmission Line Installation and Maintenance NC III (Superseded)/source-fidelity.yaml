@@ -1,29 +1,157 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-iii:c8db2f5ea2",
-  "qualification": "Transmission Line Installation and Maintenance NC III",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:transmission-line-installation-and-maintenance-nc-iii-superseded:c8db2f5ea2",
+  "qualification": "TRANSMISSION LINE INSTALLATION AND MAINTENANCE NC III (SUPERSEDED)",
   "official_source": {
-    "source_file": "Superseded/Transmission Line Installation and Maintenance NC III (Superseded).pdf",
-    "sha256": "c8db2f5ea275b85904fdb4d798c94bfacf0944c3d499a9294882ffc239284487",
+    "authority": "TESDA",
+    "source_file": "Transmission Line Installation and Maintenance NC III (Superseded).pdf",
+    "source_sha256": "c8db2f5ea275b85904fdb4d798c94bfacf0944c3d499a9294882ffc239284487",
+    "pdf_pages": 66,
+    "printed_pages": 64,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained, and no promulgation date is visible in the source.",
+    "The source uses the historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns.",
+    "The Section 1 and Section 3 lists include 500311111 Develop and practice negotiation skills, but the Section 2 standards pages contain no corresponding unit; the printed curriculum row is preserved in tr.md and source_text while normalized competency and curriculum selectors follow the available standards.",
+    "The first common Section 2 header prints ICT315202 while Section 1 identifies UTL311203, and the personal-computer header prints UTL 311202; canonical retrieval preserves these source-code variants through source_unit_code and source-fidelity notes.",
+    "Section 3 prints 30 Basic, 60 Common, and 120 Core hours for a 210-hour arithmetic total; source terminology includes T/L and historical maintenance wording."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The local source filename explicitly labels this historical Training Regulation as superseded; the superseded lifecycle status is retained, and no promulgation date is visible in the source."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the historical two-column Element/Performance Criteria layout and does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The Section 1 and Section 3 lists include 500311111 Develop and practice negotiation skills, but the Section 2 standards pages contain no corresponding unit; the printed curriculum row is preserved in tr.md and source_text while normalized competency and curriculum selectors follow the available standards."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The first common Section 2 header prints ICT315202 while Section 1 identifies UTL311203, and the personal-computer header prints UTL 311202; canonical retrieval preserves these source-code variants through source_unit_code and source-fidelity notes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 30 Basic, 60 Common, and 120 Core hours for a 210-hour arithmetic total; source terminology includes T/L and historical maintenance wording."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Superseded/Transmission Line Installation and Maintenance NC III (Superseded).pdf",
-    "pdf_pages": 66,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "UTL311203",
+      "source_unit_code": "ICT315202",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "UTL311206",
+      "source_unit_code": "UTL311206",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "UTL311201",
+      "source_unit_code": "UTL311201",
+      "pdf_page_range": [
+        28,
+        30
+      ]
+    },
+    {
+      "unit_code": "UTL311205",
+      "source_unit_code": "UTL311205",
+      "pdf_page_range": [
+        31,
+        33
+      ]
+    },
+    {
+      "unit_code": "UTL311202",
+      "source_unit_code": "UTL 311202",
+      "pdf_page_range": [
+        34,
+        37
+      ]
+    },
+    {
+      "unit_code": "UTL723217",
+      "source_unit_code": "UTL723217",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    },
+    {
+      "unit_code": "UTL723218",
+      "source_unit_code": "UTL723218",
+      "pdf_page_range": [
+        41,
+        45
+      ]
+    },
+    {
+      "unit_code": "UTL723219",
+      "source_unit_code": "UTL723219",
+      "pdf_page_range": [
+        46,
+        50
+      ]
+    }
+  ]
 }
