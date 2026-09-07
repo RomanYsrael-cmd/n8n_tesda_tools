@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T08:53:10+08:00",
+  "last_updated": "2026-09-07T09:22:06+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 290,
-  "remaining_unaudited": 94,
+  "audited_count": 295,
+  "remaining_unaudited": 89,
   "blocked_count": 0,
   "documents": [
     {
@@ -3778,6 +3778,71 @@
       "validation_passed": true,
       "last_audit_commit": "862b4a2ba5e9d9d2387021ae4c47ac8e53861706",
       "audit_notes": "Rebuilt 4/4/2 historical two-column groups; restored 30 curriculum rows, 7 assessment arrangements, and 3 definition-of-terms entries, preserved Promulgated 2004, the 1 through 47 printed-page sequence, and the 18/20/68-hour components with 106-hour total, and retained historical terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Motorcycle Small Engine Servicing NC II",
+      "package_path": "resources/Training Regulations/indexed/Motorcycle Small Engine Servicing NC II",
+      "source_file": "resources/Training Regulations/Motorcycle Small Engine Servicing NC II.pdf",
+      "source_sha256": "8f0aba5f5258364208594eacef9b90eba9bd8cad8a6218fb5247a3071ba6a0c5",
+      "status": "audited",
+      "audited_at": "2026-09-07T09:22:06+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b3a14020b083659a07c8f2bb6eb6e32f2911df1c",
+      "audit_notes": "Rebuilt 4/9/4 amended revised four-column groups; restored 65 curriculum rows, 3 assessment arrangements, and 6 glossary entries, preserved the 1 through 158 printed-page sequence and 18/88/544-hour components with 650-hour total, recorded the MOTOCYCLE footer typo and the Small Engine Mechanic COC wording, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Multimodal Transport Operations and Logistics (Seafreight Import) Services NC II",
+      "source_file": "resources/Training Regulations/Multimodal Transport Operations and Logistics (Seafreight Import) Services NC II.pdf",
+      "source_sha256": "a104c009dd5528c43531308b192c5db7cb33179659774fffd33caa67dad01096",
+      "status": "audited",
+      "audited_at": "2026-09-07T09:22:06+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b3a14020b083659a07c8f2bb6eb6e32f2911df1c",
+      "audit_notes": "Rebuilt 9/5/7 revised four-column groups; restored 62 curriculum rows, 3 assessment arrangements, and 78 glossary entries, preserved the 1 through 139 printed-page sequence and 37/48/62/126-hour components with 273-hour total, recorded the MTO432303/MTOG432303 source-code variation, and recorded the omitted Process Shipping Documents curriculum block while reassigning the visible Liaise and Address rows; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Multimodal Transport Operations and Logistics (Seafreight Import) Services NC III",
+      "source_file": "resources/Training Regulations/Multimodal Transport Operations and Logistics (Seafreight Import) Services NC III.pdf",
+      "source_sha256": "37ca41d2a81ef255b54c873d955b41a2de3b11d04f2504cb27d39b1ee610f934",
+      "status": "audited",
+      "audited_at": "2026-09-07T09:22:06+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b3a14020b083659a07c8f2bb6eb6e32f2911df1c",
+      "audit_notes": "Rebuilt 9/5/4 revised four-column groups; restored 60 curriculum rows, 2 assessment arrangements, and 93 glossary entries, preserved the 1 through 142 printed-page sequence and 40/48/65/108-hour components with 261-hour total, recorded the Section 1 MTO49120x versus competency-header MTO43220x codes, repaired the source DESCRIPTO header typo, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Multimodal Transport Operations and Logistics (Seafreight Import) Services NC IV",
+      "package_path": "resources/Training Regulations/indexed/Multimodal Transport Operations and Logistics (Seafreight Import) Services NC IV",
+      "source_file": "resources/Training Regulations/Multimodal Transport Operations and Logistics (Seafreight Import) Services NC IV.pdf",
+      "source_sha256": "bedcecab6f4e68e22fefcecec6946e2e56eb3872530047ab7178f136d4f37ffb",
+      "status": "audited",
+      "audited_at": "2026-09-07T09:22:06+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "b3a14020b083659a07c8f2bb6eb6e32f2911df1c",
+      "audit_notes": "Rebuilt 9/5/6 revised four-column groups; restored 188 curriculum rows, 2 assessment arrangements, and 55 glossary entries, preserved the 1 through 185 printed-page sequence and 47/48/58/82-hour components with the source-printed 205-hour total, recorded the 235-hour arithmetic mismatch, normalized the broken PERFORMANCECR header for extraction, and preserved the NC III footer anomaly; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Ophthalmic Lens Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Ophthalmic Lens Services NC II",
+      "source_file": "resources/Training Regulations/Ophthalmic Lens Services NC II.pdf",
+      "source_sha256": "c70fea48621a0ae351ba88fbaa6aa0cacf799d24dccb69484512adafc46afef",
+      "status": "audited",
+      "audited_at": "2026-09-07T09:22:06+08:00",
+      "issues_found": 11,
+      "issues_fixed": 11,
+      "validation_passed": true,
+      "last_audit_commit": "b3a14020b083659a07c8f2bb6eb6e32f2911df1c",
+      "audit_notes": "Rebuilt 4/5/3 historical two-column groups; restored 42 curriculum rows, 4 assessment arrangements, and 21 glossary entries, preserved the 1 through 55 printed-page sequence and 18/28/208-hour components with 254-hour total, recorded the Section 1 versus competency-header code families and the false-positive four-column detection, and retained historical terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
