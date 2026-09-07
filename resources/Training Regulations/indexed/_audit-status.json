@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T17:54:43+08:00",
+  "last_updated": "2026-09-07T18:43:30+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 380,
-  "remaining_unaudited": 4,
+  "audited_count": 384,
+  "remaining_unaudited": 0,
   "blocked_count": 0,
   "documents": [
     {
@@ -4948,6 +4948,58 @@
       "validation_passed": true,
       "last_audit_commit": "2d06aa8b4acdc1fefade6e548f7aa666cbecb421",
       "audit_notes": "Audited 9/2/6 revised four-column basic/common/core groups; preserved 68/28/405-hour components and 501-hour total, retained the superseded lifecycle, February 27, 2018 amendment wording, and ICT311203 versus ELC311203 code variant, and recovered 60 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Warehousing Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Warehousing Services NC II",
+      "source_file": "resources/Training Regulations/Warehousing Services NC II.pdf",
+      "source_sha256": "e647e22e6061d00eadb0bd61e85e6e66cf3d77157f68d47396095139244d31f0",
+      "status": "audited",
+      "audited_at": "2026-09-07T18:43:30+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "b0d9629c4f3951902d8d3331c9533f0db642b39f",
+      "audit_notes": "Audited 4/8/6 revised four-column basic/common/core groups; preserved 16/98/88-hour components and 202-hour total, retained the New December 16, 2015 source date and the Section 1/Section 2 LOG432301 versus LOG432201 code anomaly, and recovered 60 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Warehousing Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Warehousing Services NC III",
+      "source_file": "resources/Training Regulations/Warehousing Services NC III.pdf",
+      "source_sha256": "7bff060249354a2b7e2479f6c0fbd25f8ed739d913fe79100b5dea4130372e47",
+      "status": "audited",
+      "audited_at": "2026-09-07T18:43:30+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "b0d9629c4f3951902d8d3331c9533f0db642b39f",
+      "audit_notes": "Audited 9/7/5 revised four-column basic/common/core groups; preserved 40/82/86-hour components, separate 40-hour SIL, and printed 208-hour total (248-hour component arithmetic mismatch documented), retained the UN IT DESCRIPTOR source typo, recovered 37 glossary headings, and recorded the missing standalone Shelf Life definition in provenance; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Warehousing Services NC IV",
+      "package_path": "resources/Training Regulations/indexed/Warehousing Services NC IV",
+      "source_file": "resources/Training Regulations/Warehousing Services NC IV.pdf",
+      "source_sha256": "47c3d34d5160a21a5693e5f8171fe20ba0b0974c28bfc1bd246e31d9bcdeccb6",
+      "status": "audited",
+      "audited_at": "2026-09-07T18:43:30+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "b0d9629c4f3951902d8d3331c9533f0db642b39f",
+      "audit_notes": "Audited 9/7/4 revised four-column basic/common/core groups; preserved 47/82/168-hour components, separate 240-hour SIL, and printed 297-hour total (537-hour component arithmetic mismatch documented), retained the LOG493201/LOG493202 versus LOG432201/LOG432202 code variants, and recovered 75 glossary entries; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Web Development NC III",
+      "package_path": "resources/Training Regulations/indexed/Web Development NC III",
+      "source_file": "resources/Training Regulations/Web Development NC III.pdf",
+      "source_sha256": "32a740e78b4d52a290c6af693a755ffbabc692224a023ceb9f3337bdc36551f5",
+      "status": "audited",
+      "audited_at": "2026-09-07T18:43:30+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "b0d9629c4f3951902d8d3331c9533f0db642b39f",
+      "audit_notes": "Audited 9/2/4 revised four-column basic/common/core groups; preserved 68/28/1,092-hour components and 1,188-hour total, retained the ICT311203 versus ELC311203 and spaced ICT 251301-ICT 251304 source-header variants, recovered 82 glossary entries, and repaired continued-table extraction for the source’s problem-solving and code-versioning units; structural validation and visual boundary QA passed."
     }
   ]
 }
