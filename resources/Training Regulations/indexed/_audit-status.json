@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T09:42:02+08:00",
+  "last_updated": "2026-09-07T10:09:06+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 300,
-  "remaining_unaudited": 84,
+  "audited_count": 305,
+  "remaining_unaudited": 79,
   "blocked_count": 0,
   "documents": [
     {
@@ -3908,6 +3908,71 @@
       "validation_passed": true,
       "last_audit_commit": "dd0230e93c28863a536e8df3f6db8489f1ca4e6a",
       "audit_notes": "Rebuilt 4/2/4 historical two-column groups; restored 51 curriculum rows, 8 assessment arrangements, and 12 glossary entries, preserved the single 271-hour nominal duration and the source pagination reset, recorded the broader six-competency course description versus four explicit core units and legacy common-table numbering, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Pest Management (Vegetables) NC II",
+      "package_path": "resources/Training Regulations/indexed/Pest Management (Vegetables) NC II",
+      "source_file": "resources/Training Regulations/Pest Management (Vegetables) NC II.pdf",
+      "source_sha256": "d930a788c70af5d9656155678184a77fc9acb25bf1715e1f947e25cd6682ab54",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:09:06+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "fc1bb01173dac7e2f403031a1b3264bbb89565bd",
+      "audit_notes": "Rebuilt 4/3/6 historical two-column groups; restored 45 curriculum rows, 6 assessment arrangements, and 41 glossary entries, preserved Promulgated July 2007, the 1 through 77 printed-page sequence, and the 18/14/280-hour components with 312-hour total, recorded the basic-unit source-code discrepancy and cultural-management curriculum numbering anomaly, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Pharmacy Services NC III",
+      "package_path": "resources/Training Regulations/indexed/Pharmacy Services NC III",
+      "source_file": "resources/Training Regulations/Pharmacy Services NC III.pdf",
+      "source_sha256": "74e2984496161014b20fb0802c316e2c2ffa6fa605be009e1674c24d3a432ad4",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:09:06+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "fc1bb01173dac7e2f403031a1b3264bbb89565bd",
+      "audit_notes": "Rebuilt 6/5/9 revised four-column groups with required knowledge and skills; restored 72 curriculum rows, 11 assessment arrangements, and 26 definition-of-terms entries, preserved Promulgated Dec. 16, 2015, the 1 through 131 printed-page sequence, and the 22/24/802/200-hour components with 1048-hour total, repaired the missing UNIT OF COMPETENCY label and misnumbered negotiation curriculum block, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Photography NC II",
+      "package_path": "resources/Training Regulations/indexed/Photography NC II",
+      "source_file": "resources/Training Regulations/Photography NC II.pdf",
+      "source_sha256": "2292d15af7e1fc0b0ab7615dbb438749448264e26f512d319a1ac234831a4f6d",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:09:06+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "fc1bb01173dac7e2f403031a1b3264bbb89565bd",
+      "audit_notes": "Rebuilt 4/5/4 historical two-column groups; restored 44 curriculum rows, 6 assessment arrangements, and source glossary/acknowledgement coverage, preserved the source pagination through printed page 65 and the 18/18/96-hour components with 132-hour total, recorded the PHOTOGRPAHY spelling and assessment-numbering variants plus the broader Visual Arts competency map, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Pipefitting (Metallic) NC II",
+      "package_path": "resources/Training Regulations/indexed/Pipefitting (Metallic) NC II",
+      "source_file": "resources/Training Regulations/Pipefitting (Metallic) NC II.pdf",
+      "source_sha256": "6b5bd4b76f3b75045193080d49d271d3341e17bd2ab4477e4533685fc7f517f0",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:09:06+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "fc1bb01173dac7e2f403031a1b3264bbb89565bd",
+      "audit_notes": "Rebuilt 9/4/4 revised four-column groups with required knowledge and skills; restored 57 curriculum rows, 2 assessment arrangements, and 3 glossary entries, preserved Revision 01 Promulgated (10/29/2018), the 1 through 121 printed-page sequence, and the 37/24/160-hour components with 221-hour total, recorded the broader construction/plumbing competency map and source heading typos, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Pipefitting NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Pipefitting NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Pipefitting NC II (Superseded).pdf",
+      "source_sha256": "695a0b7c56bce21874d5e23e224c2bf59d1f3abda4a10a1f80df07f0897bb2c6",
+      "status": "audited",
+      "audited_at": "2026-09-07T10:09:06+08:00",
+      "issues_found": 9,
+      "issues_fixed": 9,
+      "validation_passed": true,
+      "last_audit_commit": "fc1bb01173dac7e2f403031a1b3264bbb89565bd",
+      "audit_notes": "Rebuilt 4/5/4 superseded historical two-column groups; restored 36 curriculum rows, 5 assessment arrangements, and 4 glossary entries, preserved the superseded lifecycle, missing promulgation date, 1 through 72 printed-page sequence, and the 18/24/160-hour components with normalized 202-hour arithmetic total, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
     }
   ]
 }
