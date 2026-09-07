@@ -1,38 +1,940 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:programming-oracle-database-nc-iii:2013-12",
+  "document_id": "tesda:tr:programming-oracle-database-nc-iii:d793494be4",
   "qualification": "PROGRAMMING (ORACLE DATABASE) NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Programming (Oracle Database) NC III.pdf",
-    "pdf_pages": 58
+    "pdf_pages": 58,
+    "printed_pages": 56,
+    "promulgated": "December 2013"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 64,
+        "source_expression": "64 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 16,
+        "source_expression": "16 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 160,
+        "source_expression": "160 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 240,
+    "total_source_expression": "240 hrs.",
+    "source_expressions": [
+      "64 hrs. - Basic Competencies",
+      "16 hrs. - Common Competencies",
+      "160 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 240,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Identify and communicate issues arising in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play",
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities among members",
+        "learning_activities": [],
+        "methodology": [
+          "Self-paced (modular)"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectation for team members",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Case studies"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Supervise team performance",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "2013"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify relevant information in planning negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Hands on"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document areas for agreement",
+        "learning_activities": [],
+        "methodology": [
+          "Exercises",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Explain the analytical techniques",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine the possible cause/s of the problem",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply mathematical procedures/solution",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Identify appropriate technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain/enhance relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Asses quality of received materials",
+        "learning_activities": [],
+        "methodology": [
+          "Field trip  Symposium"
+        ],
+        "assessment_approach": [
+          "Demonstration & questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Assess own work",
+        "learning_activities": [],
+        "methodology": [
+          "Film showing"
+        ],
+        "assessment_approach": [
+          "Observation &"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply quality standards",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Engage in quality improvement",
+        "learning_activities": [],
+        "methodology": [
+          "Simulation  On the job training"
+        ],
+        "assessment_approach": [
+          "questioning  Third party report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Plan and prepare for task to be undertaken",
+        "learning_activities": [],
+        "methodology": [
+          "Modular",
+          "Film showing"
+        ],
+        "assessment_approach": [
+          "Demonstration & questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Input data into computer",
+        "learning_activities": [],
+        "methodology": [
+          "Computer based"
+        ],
+        "assessment_approach": [
+          "Observation &"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Access information using computer",
+        "learning_activities": [],
+        "methodology": [
+          "training (e- learning)"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Third party report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Produce output/data using computer system",
+        "learning_activities": [],
+        "methodology": [
+          "Project method",
+          "On the job"
+        ],
+        "assessment_approach": [
+          "Assessment of output product"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Use basic functions of a web browser to locate information",
+        "learning_activities": [],
+        "methodology": [
+          "On the job training"
+        ],
+        "assessment_approach": [
+          "Portfolio",
+          "Computer- based assessment"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Perform computer operations",
+        "learning_outcome_number": "2.6",
+        "learning_outcome": "Maintain computer equipment and systems",
+        "learning_activities": [],
+        "methodology": [
+          "Modular",
+          "Film showing"
+        ],
+        "assessment_approach": [
+          "December"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Retrieve Data Using the SQL SELECT Statement",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Use Single-Row Functions to Customize Output",
+        "learning_activities": [],
+        "methodology": [
+          "Hands on",
+          "Exercises",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Display Data From Multiple Tables Using Joins",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.4",
+        "learning_outcome": "Manipulate Data",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.5",
+        "learning_outcome": "Control User Access",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.6",
+        "learning_outcome": "Manipulate Large Data Sets",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.7",
+        "learning_outcome": "Manage Data in Different Time Zones",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313361",
+        "unit_title": "Perform relational database management in Oracle database technology",
+        "learning_outcome_number": "1.8",
+        "learning_outcome": "Retrieve Data Using Sub-queries",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313362",
+        "unit_title": "Use and apply PL/SQL programming language",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Declare PL/SQL Identifiers",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313362",
+        "unit_title": "Use and apply PL/SQL programming language",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Apply Interaction with the Oracle Server",
+        "learning_activities": [],
+        "methodology": [
+          "Hands on",
+          "Exercises"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313362",
+        "unit_title": "Use and apply PL/SQL programming language",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Apply Exception Handling",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313362",
+        "unit_title": "Use and apply PL/SQL programming language",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Store Procedures",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/ Discussion"
+        ],
+        "assessment_approach": [
+          "Practical exam",
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313363",
+        "unit_title": "Design and tune PL/SQL language",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Design PL/SQL Code",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313363",
+        "unit_title": "Design and tune PL/SQL language",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Use advanced interface methods",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Hands on"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313363",
+        "unit_title": "Design and tune PL/SQL language",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Apply performance and tuning to PL/SQL code",
+        "learning_activities": [],
+        "methodology": [
+          "Exercises",
+          "Demonstration"
+        ],
+        "assessment_approach": [
+          "Practical exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT313363",
+        "unit_title": "Design and tune PL/SQL language",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Implement virtual private database with fine- gained access control",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture/"
+        ],
+        "assessment_approach": [
+          "2013"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      }
+    ],
+    "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48",
-      "pdf_pages": []
+      "pdf_pages": [
+        44
+      ],
+      "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
+    },
+    "training_delivery": {
+      "present": true,
+      "pdf_pages": [
+        47
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
+    },
+    "trainee_entry_requirements": {
+      "present": true,
+      "pdf_pages": [
+        48
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
+    },
+    "tools_equipment_materials": {
+      "present": true,
+      "pdf_pages": [
+        48
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
+    },
+    "training_facilities": {
+      "present": true,
+      "pdf_pages": [
+        49
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
+    },
+    "trainer_qualifications": {
+      "present": true,
+      "pdf_pages": [
+        49
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
+    },
+    "institutional_assessment": {
+      "present": true,
+      "pdf_pages": [
+        49
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "64 hrs",
-      "16 hrs",
-      "160 hrs",
-      "240 hours",
-      "240 hours",
-      "64 hrs",
-      "16 hrs",
-      "160 hrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\nThese guidelines are set to provide the Technical and Vocational Education and\nTraining (TVET) providers with information and other important requirements to consider\nwhen designing training programs for Programming (Oracle Database) NC III.\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Programming (Oracle Database)\nNC Level:\nNC III\n\nNominal Training Duration:\n 64 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 160 hrs – Core Competencies\n\n ---------------------\n\n240 hours\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes of a\nprogrammer in accordance with industry standards. It covers the basic, common & core\ncompetencies on programming language, specifically Oracle Database. The nominal\nduration of 240 hours covers the required units at Programming (Oracle Database) NC\nIII. TVET providers can however, offer a longer, ladderized course covering the basic,\ncommon and core plus specialized competency unit/s.\n\nBASIC COMPETENCIES\n64 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead workplace\ncommunication\n1.1 Communicate\ninformation about\nworkplace processes.\n1.2 Lead workplace\ndiscussions.\n1.3 Identify and\ncommunicate issues\narising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team\nleadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance\nexpectation for team\nmembers.\n\n2.4 Supervise team\nperformance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Demonstration\n• Case studies\n\n--- PDF PAGE 45 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n43\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant\ninformation in\nplanning negotiations\n3.2 Participate in\nnegotiations\n3.3 Document areas for\nagreement\n• Direct\nobservation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the\npossible cause/s of the\nproblem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical\ntools and techniques\nto solve problem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n6. Use relevant\ntechnologies\n6.1 Identify appropriate\ntechnology\n6.2 Apply relevant\ntechnology\n6.3 Maintain/enhance\nrelevant technology\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n\nCOMMON COMPETENCIES\n16 hrs.\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n\n1. Apply\nQuality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Plan and prepare for task\nto be undertaken\n2.2 Input data into computer\n2.3 Access information using\ncomputer\n2.4 Produce output/data using\ncomputer system\n2.5 Use basic functions of a\nweb browser to locate\ninformation\n2.6 Maintain computer\nequipment and systems\n• Modular\n• Film showing\n• Computer based\ntraining (e-\nlearning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party report\n• Assessment of\noutput product\n• Portfolio\n• Computer- based\nassessment\n\n--- PDF PAGE 46 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n44\nCORE COMPETENCIES\n160 hrs.\n\nUnit of Competency\nLearning Outcome\nMethodology\nAssessment\nApproach\n1. Perform relational\ndatabase\nmanagement in\nOracle database\ntechnology\n\n1.1 Retrieve Data Using the\nSQL SELECT Statement\n1.2 Use Single-Row\nFunctions to Customize\nOutput\n1.3 Display Data From\nMultiple Tables Using\nJoins\n1.4 Manipulate Data\n1.5 Control User Access\n1.6 Manipulate Large Data\nSets\n1.7 Manage Data in Different\nTime Zones\n1.8 Retrieve Data Using\nSub-queries\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n2. Use and apply\nPL/SQL\nProgramming\nLanguage\n2.1 Declare PL/SQL\nIdentifiers\n2.2 Apply Interaction with\nthe Oracle Server\n2.3 Apply Exception\nHandling\n2.4 Store Procedures\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n3. Design and tune\nPL/SQL Language\n\n3.1 Design PL/SQL Code\n3.2 Use advanced interface\nmethods\n3.3 Apply performance and\ntuning to PL/SQL code\n3.4 Implement virtual private\ndatabase with fine-\ngained access control\n• Lecture/\nDiscussion\n• Hands on\n• Exercises\n• Demonstration\n\n• Practical exam\n• Interviews/\nquestioning\n\n--- PDF PAGE 47 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n45\n3.1.\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum. Delivery\nshould be guided by the 10 basic principles of the competency-based TVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and the\ncurriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training modalities\nmay be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training System\n(DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nfacilities the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in training\ndesigned to enhance the knowledge and skills of the trainee through actual\nexperience in the workplace to acquire a specific competencies prescribed\nin the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 48 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n46\n3.2.\nTRAINEE ENTRY REQUIREMENTS\n\nTrainees or students should possess the following requirements:\n• Must have completed at least 10 yrs. basic education or an ALS grade\n10 certificate of rating holder Must have completed at least 10 yrs. basic\neducation or an ALS grade 10 certificate of rating holder\n• can communicate either oral or written;\n• with basic computer skills\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience, and others that may be\nrequired of the trainees by the school or training center delivering the TVET\nprogram.\n\n3.3.\nLIST OF TOOLS, EQUIPMENT AND MATERIALS\n\nRecommended list of tools, equipment and materials for the conduct of training in\nProgramming (Oracle Database) NC III\nTOOLS\nEQUIPMENT\nMATERIALS\nQty\nDescription\nQty\nDescription\nQty\nDescription\n\nComputer Software\ne.g.\n - IDE\n - Libraries\n\nNetwork Computer with\nperipherals\n\nLearning materials/\nguide\n\nServer\n\nPractice materials\n\nPrinter\n\nHand-outs\n\nWhite board\n\nReference books\n\nInternet access\n\nLCD Projector and screen\n\nApplication servers\ne.g. - database\n - web\n\nErgonomic computer\ntables and chairs\n\nThe quantity of tools and equipment to be used for the conduct of training for this\nqualification shall depend on the number of students, size of the class, and/or modality of\ntraining. The most important consideration is to make sure that tools and equipment are\nadequately provided to all trainees when needed. The actual list of tools, equipment,\nmachines, supplies and other materials to be used shall be identified and detailed in the\nCompetency Based Curriculum (CBC) to be submitted by the TVET provider when\nregistering a course or training program with TESDA.\n\nDue to the fast-changing nature of the Information and Communications\nTechnology (ICT) sector, TVET providers are reminded to use and provide their trainees\nwith the latest technology tools, equipment and materials where appropriate and\napplicable.\n\nIn cases where there are specialized tools, equipment and facilities that are\nnot generally considered standard requirements or not absolute requisites for training,\nthe industry working group or TESDA may provide guidelines or specific advice on such\nmatters.\n\n--- PDF PAGE 49 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n47\n3.4.\nTRAINING FACILITIES\n\nThe Programming workshop must be of concrete structure. Based on class size of\n25 student/trainees the space requirements for the teaching/learning and\ncirculation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nQTY\nTOTAL AREA\nIN SQ. METERS\nLecture Area\n5 x 8\n40\n1\n40\nComputer laboratory\n6 x 8\n48\n1\n48\nLearning Resource Area\n4 x 5\n20\n1\n20\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n128\nFacilities / Equipment /\nCirculation**\n\n38\nTotal Area\n166\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\nNote: The training center must be accredited by Oracle Philippines and must be a\nmember of the Workforce Development Program.\n\n3.5.\nTRAINERS QUALIFICATION\n\nProgramming (Oracle Database) NC III\n\n•\nMust be Oracle Certified Professional PL/SQL Programmer\n•\nMust be certified and approved by Oracle University Philippines\n•\nMust be a holder of National TVET Trainer’s Certificate (NTTC) Level 1\n\n3.6.\nINSTITUTIONAL ASSESSMENT\n\nInstitutional Assessment is undertaken by trainees to determine their\nachievement of units of competency. A certificate of achievement is issued for\neach unit of competency. The institutional assessment is administered by the\ntrainer/assessor.\n\nThe result of the institutional assessment may be considered as an\nevidence for national assessment.\n\n--- PDF PAGE 50 ---\n_________________________________________________________________________________\nTR – Programming (Oracle Database) NC III Promulgated – December 2013\n\n48"
 }

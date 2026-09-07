@@ -1,67 +1,906 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
   "document_id": "tesda:tr:pv-system-design-nc-iii:7719dc15e3",
   "qualification": "PV SYSTEM DESIGN NC III",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "PV System Design NC III.pdf",
-    "pdf_pages": 63
+    "pdf_pages": 63,
+    "printed_pages": 60,
+    "promulgated": null
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 20,
+        "source_expression": "20 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 72,
+        "source_expression": "72 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 56,
+        "source_expression": "56 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 148,
+    "total_source_expression": "148 hrs.",
+    "source_expressions": [
+      "20 hrs. - Basic Competencies",
+      "72 hrs. - Common Competencies",
+      "56 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 148,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
-    "entries": [],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: PV System Design\n\nNC Level: NC III\n\nNominal Training Duration:\n148 hours\n\n20 hrs – Basic Competencies\n\n72 hrs – Common Competencies\n\n56 hrs – Core Competencies\n\nCourse Description:\n\nThe course is designed to enhance the knowledge, skills and desirable attitudes of\na PV System Design Technician in accordance with industry standards. It covers core\ncompetencies such as: Determine customer requirement; Calculate PV system\ncomponents (system sizing) of small solar home systems up to 1kWp. It also include\ncompetency to prepare and specify components in Bill of Materials and prepare\nInstallation drawing.\nBasic competencies such as: Lead workplace communication; Lead small teams;\nDevelop and practice negotiation skills; Solve problems related to work activities; Use\nmathematical concepts and techniques and Use relevant technologies are included.\nIt also include common competencies such as; Prepare construction materials and\ntools; Perform mensuration and calculation; Maintain tools and equipment; Observe\nprocedures, specifications and manuals of instructions and Interpret technical drawings\nand plans.\n\nBASIC COMPETENCIES\n20 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate information\nabout workplace processes.\n1.2 Lead workplace discussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance expectation\nfor team members.\n\n2.4Supervise team performance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Case studies\n• Demonstration\n• Written exam\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 49\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant information\nin planning negotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Lecturette\n• Role playing\n• Practical\nexercises\n• Written test\n• Demonstration\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical tools\nand techniques to solve\nproblem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Lecturette\n• Self-pace\n• Group discussion\n• Practical Work\nApproach\n•Research study\n• Written test\n• Demonstration\n• Oral Interview\n6. Use relevant\ntechnologies\n6.1 Study/ select appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance relevant\ntechnology\n• Lecturette\n• Self-pace\n• Group discussion\n• Film showing\n• Written test\n• Interview\n\nCOMMON COMPETENCIES\n72 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment Approach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify materials and\ntools applicable to a\nspecific construction\njob\n1.2 Request appropriate\nmaterials and tools\n1.3 Receive and inspect\nmaterials\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Power Point\npresentation\n Oral questioning\n Direct observation\n Written / Oral Test\n\n2. Observe\nprocedures,\nSpecifications\nand Manuals of\nInstructions\n2.1 Identify, access, and\ninterpret\nspecification/manual\ns.\n2.2 Apply information in\nmanual.\n2.3 Store manuals.\n\n Classroom\ndiscussion\n Lecture\n Self-paced\ninstruction\n Demonstration\n Practical exam\n Oral exam\n Written\ntest/questioning\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 50\n\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols and data\n3.2 Interpret technical\ndrawing and plans\n3.3 Apply freehand\nsketching\n Demonstration\n Classroom\ndiscussions\n Self-paced\n Practical exam\n Direct observation\n Written\ntest/questioning\n4. Perform\nmensurations\nand calculation\n4.1 Select measuring\nInstruments\n4.2 Carry out\nmeasurements and\ncalculations\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Actual\ndemonstration\n Direct observation\n Oral questioning\n Written test or\nexamination\n Actual demonstration\n\n5. Maintain tools\nand equipment\n5.1 Check condition of\ntools and equipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge and\ntooth cutting tools\n5.4 Store tools and\nequipment\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Direct observation of\napplication of tasks.\n Oral questioning\n Written test or\nexamination\n Practical exam\n\nCORE COMPETENCIES\n56 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Determine\ncustomer\nrequirements\n1.1 Assess current and future\nelectrical needs of\ncustomer and site\ncharacteristics\n1.2 Recommend options\n\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Observation with\nquestioning\n Demonstration\nwith questioning\n Written/oral\nexamination\n2. Calculate\nSystem\nComponents\nRequirements\n(System Sizing)\n2.1 Calculate Energy Demand\n2.2 Determine Battery\nCapacity\n2.3 Calculate Array Size\n2.4 Determine Peak AC load\nand inverter size (if\napplicable)\n2.5 Calculate the minimum\npower specification (size)\nof the controller\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Written exam\n\n--- PDF PAGE 53 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 51\n\n3. Specify\nComponents in\nBill of Materials\n3.1 Select Components\n3.2 Prepare Bill of Materials\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n4. Prepare\ninstallation\ndrawing\n4.1 Prepare Electrical Diagram\n4.2 Prepare Mechanical\nDrawing\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n--- PDF PAGE 54 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 52\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 55 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 53\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nHave undergone training on PV Systems Installation National\nCertificate Level II\n•\nCan communicate both orally and in writing\n•\nMust be physically and mentally fit to undergo training\n•\nAt least 18 yrs old\n\n3.4 LIST OF TOOLS, EQUIPMENT, AND MATERIALS\n\nRecommended list of tools, equipment, and materials for the training of\n\n25 trainees for PV System Design NC III:\n\nTOOLS\nEQUIPMENT\nMATERIAL\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n25\nunits\nMagnetic\nCompass\n25 pcs\nCalculator\n5 vol.\nPhilippine\nElectrical Code\n\n25 units\nDrawing table\n25 each\nDrawing\nsupplies and\naccessories\n\n10 units\nComputers with\nappropriate\napplication\nsoftware\n25 each\nDrawing\ninstrument\n\n5 vol.\nReference books\n(weather data)\n25 each\nPen & paper\n\n5\ncatalogs\nManufacturer’s\nspecification and\nmanuals\n\n5 lot\nForms (job\norder, system\nsizing forms, site\nassessment\nforms)\n\n25 each\nSystem sizing\nforms\n\n--- PDF PAGE 56 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 54\n\n3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for the\nteaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nLecture/Demo Area\n6 x 5\n30\n30\nLaboratory Area\n8 x 8\n64\n64\nLearning Resource Area\n3 x 5\n15\n15\nWash, Toilet, & Locker Room\n3 x 5\n15\n15\nCirculation**\n\n33\n Total Area\n\n157\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINER QUALIFICATIONS (TQ)\n\nPV System Design NC III\n•\nMust be a holder of PV System Design NC III\n•\nMust have undergone Training Methodology (TM II) 1\n•\nMust be computer literate\n•\nMust be physically and mentally fit\n•\nHave at least 2 years job/ industry experience2\n•\nMust be a civil-service eligible or holder of appropriate professional license issued\nby the Professional Regulatory Commission (for government positions only)\n\n1\nThis shall be changed to “:Must be a holder of Trainer Qualification Level II (TQII) or\nequivalent” upon promulgation by the TESDA Board of the TQ/AQ training regulations\n2\nOptional. Only when required by the hiring institution\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional\nassessment\nis\nundertaken\nby\ntrainees\nto\ndetermine\ntheir\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 57 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 55"
+    "entries": [
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Communicate information about workplace processes",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Lead workplace discussions",
+        "learning_activities": [],
+        "methodology": [
+          "Brainstorming"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311109",
+        "unit_title": "Lead workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Identify and communicate issues arising in the workplace",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion",
+          "Role Play"
+        ],
+        "assessment_approach": [
+          "Observation",
+          "Interviews"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Provide team leadership",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Assign responsibilities among members",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration",
+          "Self-paced"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311110",
+        "unit_title": "Lead small teams",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Set performance expectation for team members. 2.4Supervise team performance",
+        "learning_activities": [],
+        "methodology": [
+          "(modular)",
+          "Case studies"
+        ],
+        "assessment_approach": [
+          "Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 50
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Identify relevant information in planning negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Participate in negotiations",
+        "learning_activities": [],
+        "methodology": [
+          "demonstration Self-paced instruction Group discussion"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311111",
+        "unit_title": "Develop and practice negotiation skills",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Document areas for agreement",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Explain the analytical techniques",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Identify the problem",
+        "learning_activities": [],
+        "methodology": [
+          "demonstration Self-paced instruction Group discussion"
+        ],
+        "assessment_approach": [
+          "Page 51"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311112",
+        "unit_title": "Solve problems related to work activities",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Determine the possible cause/s of the problem",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Identify mathematical tools and techniques to solve problem",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Apply mathematical procedures/solution",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311113",
+        "unit_title": "Use mathematical concepts and techniques",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Analyze results",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Study/ select appropriate technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Apply relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311114",
+        "unit_title": "Use relevant technologies",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Maintain/enhance relevant technology",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "common",
+        "unit_code": "CON724201",
+        "unit_title": "Prepare construction materials and tools",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Identify materials and tools applicable to a specific construction job",
+        "learning_activities": [],
+        "methodology": [
+          "Oral  Direct  Written"
+        ],
+        "assessment_approach": [
+          "questioning observation / Oral Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "common",
+        "unit_code": "CON724201",
+        "unit_title": "Prepare construction materials and tools",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Request appropriate materials and tools",
+        "learning_activities": [],
+        "methodology": [
+          "discussion Point"
+        ],
+        "assessment_approach": [
+          "questioning observation / Oral Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "common",
+        "unit_code": "CON724201",
+        "unit_title": "Prepare construction materials and tools",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Receive and inspect materials",
+        "learning_activities": [],
+        "methodology": [
+          "Oral  Direct  Written"
+        ],
+        "assessment_approach": [
+          "questioning observation / Oral Test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Observe procedures, specifications and manuals of instructions",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Identify, access, and interpret specification/manual s",
+        "learning_activities": [],
+        "methodology": [
+          "Practical  Oral  Written test/questioning"
+        ],
+        "assessment_approach": [
+          "exam exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Observe procedures, specifications and manuals of instructions",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Apply information in manual",
+        "learning_activities": [],
+        "methodology": [
+          "Practical  Oral  Written test/questioning"
+        ],
+        "assessment_approach": [
+          "exam exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311201",
+        "unit_title": "Observe procedures, specifications and manuals of instructions",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Store manuals",
+        "learning_activities": [],
+        "methodology": [
+          "Practical  Oral  Written test/questioning"
+        ],
+        "assessment_approach": [
+          "Page 49"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 51
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret technical drawings and plans",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Analyze sign, symbols and data",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret technical drawings and plans",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Interpret technical drawing and plans",
+        "learning_activities": [],
+        "methodology": [
+          "demonstration Self-paced instruction Group discussion"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311202",
+        "unit_title": "Interpret technical drawings and plans",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Apply freehand sketching",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311203",
+        "unit_title": "Perform mensurations and calculations",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Select measuring Instruments",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311203",
+        "unit_title": "Perform mensurations and calculations",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Carry out measurements and calculations",
+        "learning_activities": [],
+        "methodology": [
+          "demonstration Self-paced instruction Group discussion"
+        ],
+        "assessment_approach": [
+          "Page 51"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Maintain tools and equipment",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Check condition of tools and equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Maintain tools and equipment",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Perform basic preventive maintenance",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Maintain tools and equipment",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Sharpen edge and tooth cutting tools",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "common",
+        "unit_code": "CON311204",
+        "unit_title": "Maintain tools and equipment",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Store tools and equipment",
+        "learning_activities": [],
+        "methodology": [],
+        "assessment_approach": [],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311301",
+        "unit_title": "Determine customer requirements",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Assess current and future electrical needs of customer and site characteristics",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-  Observation demonstration questioning Self-paced  Demonstration instruction with"
+        ],
+        "assessment_approach": [
+          "with questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311301",
+        "unit_title": "Determine customer requirements",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Recommend options",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion  Written/oral examination"
+        ],
+        "assessment_approach": [
+          "with questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311302",
+        "unit_title": "Calculate system components requirements (System Sizing)",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Calculate Energy Demand",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311302",
+        "unit_title": "Calculate system components requirements (System Sizing)",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Determine Battery Capacity",
+        "learning_activities": [],
+        "methodology": [
+          "demonstration Self-paced"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311302",
+        "unit_title": "Calculate system components requirements (System Sizing)",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Calculate Array Size",
+        "learning_activities": [],
+        "methodology": [
+          "instruction"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311302",
+        "unit_title": "Calculate system components requirements (System Sizing)",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Determine Peak AC load and inverter size (if applicable)",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311302",
+        "unit_title": "Calculate system components requirements (System Sizing)",
+        "learning_outcome_number": "2.5",
+        "learning_outcome": "Calculate the minimum power specification (size)",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Page 50"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 52
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311303",
+        "unit_title": "Specify components in Bill of Materials",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Select Components",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 53
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311303",
+        "unit_title": "Specify components in Bill of Materials",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Prepare Bill of Materials",
+        "learning_activities": [],
+        "methodology": [
+          "demonstration Self-paced instruction Group discussion"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 53
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311304",
+        "unit_title": "Prepare installation drawing",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Prepare Electrical Diagram",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture-"
+        ],
+        "assessment_approach": [
+          "Written exam"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 53
+      },
+      {
+        "group": "core",
+        "unit_code": "CON311304",
+        "unit_title": "Prepare installation drawing",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Prepare Mechanical Drawing",
+        "learning_activities": [],
+        "methodology": [
+          "demonstration Self-paced instruction Group discussion"
+        ],
+        "assessment_approach": [
+          "Page 51"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 53
+      }
+    ],
+    "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: PV System Design\n\nNC Level: NC III\n\nNominal Training Duration:\n148 hours\n\n20 hrs – Basic Competencies\n\n72 hrs – Common Competencies\n\n56 hrs – Core Competencies\n\nCourse Description:\n\nThe course is designed to enhance the knowledge, skills and desirable attitudes of\na PV System Design Technician in accordance with industry standards. It covers core\ncompetencies such as: Determine customer requirement; Calculate PV system\ncomponents (system sizing) of small solar home systems up to 1kWp. It also include\ncompetency to prepare and specify components in Bill of Materials and prepare\nInstallation drawing.\nBasic competencies such as: Lead workplace communication; Lead small teams;\nDevelop and practice negotiation skills; Solve problems related to work activities; Use\nmathematical concepts and techniques and Use relevant technologies are included.\nIt also include common competencies such as; Prepare construction materials and\ntools; Perform mensuration and calculation; Maintain tools and equipment; Observe\nprocedures, specifications and manuals of instructions and Interpret technical drawings\nand plans.\n\nBASIC COMPETENCIES\n20 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate information\nabout workplace processes.\n1.2 Lead workplace discussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance expectation\nfor team members.\n\n2.4Supervise team performance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Case studies\n• Demonstration\n• Written exam\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 49\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant information\nin planning negotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Lecturette\n• Role playing\n• Practical\nexercises\n• Written test\n• Demonstration\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical tools\nand techniques to solve\nproblem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Lecturette\n• Self-pace\n• Group discussion\n• Practical Work\nApproach\n•Research study\n• Written test\n• Demonstration\n• Oral Interview\n6. Use relevant\ntechnologies\n6.1 Study/ select appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance relevant\ntechnology\n• Lecturette\n• Self-pace\n• Group discussion\n• Film showing\n• Written test\n• Interview\n\nCOMMON COMPETENCIES\n72 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment Approach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify materials and\ntools applicable to a\nspecific construction\njob\n1.2 Request appropriate\nmaterials and tools\n1.3 Receive and inspect\nmaterials\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Power Point\npresentation\n Oral questioning\n Direct observation\n Written / Oral Test\n\n2. Observe\nprocedures,\nSpecifications\nand Manuals of\nInstructions\n2.1 Identify, access, and\ninterpret\nspecification/manual\ns.\n2.2 Apply information in\nmanual.\n2.3 Store manuals.\n\n Classroom\ndiscussion\n Lecture\n Self-paced\ninstruction\n Demonstration\n Practical exam\n Oral exam\n Written\ntest/questioning\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 50\n\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols and data\n3.2 Interpret technical\ndrawing and plans\n3.3 Apply freehand\nsketching\n Demonstration\n Classroom\ndiscussions\n Self-paced\n Practical exam\n Direct observation\n Written\ntest/questioning\n4. Perform\nmensurations\nand calculation\n4.1 Select measuring\nInstruments\n4.2 Carry out\nmeasurements and\ncalculations\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Actual\ndemonstration\n Direct observation\n Oral questioning\n Written test or\nexamination\n Actual demonstration\n\n5. Maintain tools\nand equipment\n5.1 Check condition of\ntools and equipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge and\ntooth cutting tools\n5.4 Store tools and\nequipment\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Direct observation of\napplication of tasks.\n Oral questioning\n Written test or\nexamination\n Practical exam\n\nCORE COMPETENCIES\n56 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Determine\ncustomer\nrequirements\n1.1 Assess current and future\nelectrical needs of\ncustomer and site\ncharacteristics\n1.2 Recommend options\n\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Observation with\nquestioning\n Demonstration\nwith questioning\n Written/oral\nexamination\n2. Calculate\nSystem\nComponents\nRequirements\n(System Sizing)\n2.1 Calculate Energy Demand\n2.2 Determine Battery\nCapacity\n2.3 Calculate Array Size\n2.4 Determine Peak AC load\nand inverter size (if\napplicable)\n2.5 Calculate the minimum\npower specification (size)\nof the controller\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Written exam\n\n--- PDF PAGE 53 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 51\n\n3. Specify\nComponents in\nBill of Materials\n3.1 Select Components\n3.2 Prepare Bill of Materials\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n4. Prepare\ninstallation\ndrawing\n4.1 Prepare Electrical Diagram\n4.2 Prepare Mechanical\nDrawing\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n--- PDF PAGE 54 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 52"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: PV System Design\n\nNC Level: NC III\n\nNominal Training Duration:\n148 hours\n\n20 hrs – Basic Competencies\n\n72 hrs – Common Competencies\n\n56 hrs – Core Competencies\n\nCourse Description:\n\nThe course is designed to enhance the knowledge, skills and desirable attitudes of\na PV System Design Technician in accordance with industry standards. It covers core\ncompetencies such as: Determine customer requirement; Calculate PV system\ncomponents (system sizing) of small solar home systems up to 1kWp. It also include\ncompetency to prepare and specify components in Bill of Materials and prepare\nInstallation drawing.\nBasic competencies such as: Lead workplace communication; Lead small teams;\nDevelop and practice negotiation skills; Solve problems related to work activities; Use\nmathematical concepts and techniques and Use relevant technologies are included.\nIt also include common competencies such as; Prepare construction materials and\ntools; Perform mensuration and calculation; Maintain tools and equipment; Observe\nprocedures, specifications and manuals of instructions and Interpret technical drawings\nand plans.\n\nBASIC COMPETENCIES\n20 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate information\nabout workplace processes.\n1.2 Lead workplace discussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance expectation\nfor team members.\n\n2.4Supervise team performance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Case studies\n• Demonstration\n• Written exam\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 49\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant information\nin planning negotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Lecturette\n• Role playing\n• Practical\nexercises\n• Written test\n• Demonstration\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical tools\nand techniques to solve\nproblem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Lecturette\n• Self-pace\n• Group discussion\n• Practical Work\nApproach\n•Research study\n• Written test\n• Demonstration\n• Oral Interview\n6. Use relevant\ntechnologies\n6.1 Study/ select appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance relevant\ntechnology\n• Lecturette\n• Self-pace\n• Group discussion\n• Film showing\n• Written test\n• Interview\n\nCOMMON COMPETENCIES\n72 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment Approach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify materials and\ntools applicable to a\nspecific construction\njob\n1.2 Request appropriate\nmaterials and tools\n1.3 Receive and inspect\nmaterials\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Power Point\npresentation\n Oral questioning\n Direct observation\n Written / Oral Test\n\n2. Observe\nprocedures,\nSpecifications\nand Manuals of\nInstructions\n2.1 Identify, access, and\ninterpret\nspecification/manual\ns.\n2.2 Apply information in\nmanual.\n2.3 Store manuals.\n\n Classroom\ndiscussion\n Lecture\n Self-paced\ninstruction\n Demonstration\n Practical exam\n Oral exam\n Written\ntest/questioning\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 50\n\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols and data\n3.2 Interpret technical\ndrawing and plans\n3.3 Apply freehand\nsketching\n Demonstration\n Classroom\ndiscussions\n Self-paced\n Practical exam\n Direct observation\n Written\ntest/questioning\n4. Perform\nmensurations\nand calculation\n4.1 Select measuring\nInstruments\n4.2 Carry out\nmeasurements and\ncalculations\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Actual\ndemonstration\n Direct observation\n Oral questioning\n Written test or\nexamination\n Actual demonstration\n\n5. Maintain tools\nand equipment\n5.1 Check condition of\ntools and equipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge and\ntooth cutting tools\n5.4 Store tools and\nequipment\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Direct observation of\napplication of tasks.\n Oral questioning\n Written test or\nexamination\n Practical exam\n\nCORE COMPETENCIES\n56 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Determine\ncustomer\nrequirements\n1.1 Assess current and future\nelectrical needs of\ncustomer and site\ncharacteristics\n1.2 Recommend options\n\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Observation with\nquestioning\n Demonstration\nwith questioning\n Written/oral\nexamination\n2. Calculate\nSystem\nComponents\nRequirements\n(System Sizing)\n2.1 Calculate Energy Demand\n2.2 Determine Battery\nCapacity\n2.3 Calculate Array Size\n2.4 Determine Peak AC load\nand inverter size (if\napplicable)\n2.5 Calculate the minimum\npower specification (size)\nof the controller\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Written exam\n\n--- PDF PAGE 53 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 51\n\n3. Specify\nComponents in\nBill of Materials\n3.1 Select Components\n3.2 Prepare Bill of Materials\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n4. Prepare\ninstallation\ndrawing\n4.1 Prepare Electrical Diagram\n4.2 Prepare Mechanical\nDrawing\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n--- PDF PAGE 54 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 52",
-      "pdf_pages": []
+      "pdf_pages": [
+        50
+      ],
+      "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: PV System Design\n\nNC Level: NC III\n\nNominal Training Duration:\n148 hours\n\n20 hrs – Basic Competencies\n\n72 hrs – Common Competencies\n\n56 hrs – Core Competencies\n\nCourse Description:\n\nThe course is designed to enhance the knowledge, skills and desirable attitudes of\na PV System Design Technician in accordance with industry standards. It covers core\ncompetencies such as: Determine customer requirement; Calculate PV system\ncomponents (system sizing) of small solar home systems up to 1kWp. It also include\ncompetency to prepare and specify components in Bill of Materials and prepare\nInstallation drawing.\nBasic competencies such as: Lead workplace communication; Lead small teams;\nDevelop and practice negotiation skills; Solve problems related to work activities; Use\nmathematical concepts and techniques and Use relevant technologies are included.\nIt also include common competencies such as; Prepare construction materials and\ntools; Perform mensuration and calculation; Maintain tools and equipment; Observe\nprocedures, specifications and manuals of instructions and Interpret technical drawings\nand plans.\n\nBASIC COMPETENCIES\n20 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate information\nabout workplace processes.\n1.2 Lead workplace discussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance expectation\nfor team members.\n\n2.4Supervise team performance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Case studies\n• Demonstration\n• Written exam\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 49\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant information\nin planning negotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Lecturette\n• Role playing\n• Practical\nexercises\n• Written test\n• Demonstration\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical tools\nand techniques to solve\nproblem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Lecturette\n• Self-pace\n• Group discussion\n• Practical Work\nApproach\n•Research study\n• Written test\n• Demonstration\n• Oral Interview\n6. Use relevant\ntechnologies\n6.1 Study/ select appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance relevant\ntechnology\n• Lecturette\n• Self-pace\n• Group discussion\n• Film showing\n• Written test\n• Interview\n\nCOMMON COMPETENCIES\n72 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment Approach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify materials and\ntools applicable to a\nspecific construction\njob\n1.2 Request appropriate\nmaterials and tools\n1.3 Receive and inspect\nmaterials\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Power Point\npresentation\n Oral questioning\n Direct observation\n Written / Oral Test\n\n2. Observe\nprocedures,\nSpecifications\nand Manuals of\nInstructions\n2.1 Identify, access, and\ninterpret\nspecification/manual\ns.\n2.2 Apply information in\nmanual.\n2.3 Store manuals.\n\n Classroom\ndiscussion\n Lecture\n Self-paced\ninstruction\n Demonstration\n Practical exam\n Oral exam\n Written\ntest/questioning\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 50\n\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols and data\n3.2 Interpret technical\ndrawing and plans\n3.3 Apply freehand\nsketching\n Demonstration\n Classroom\ndiscussions\n Self-paced\n Practical exam\n Direct observation\n Written\ntest/questioning\n4. Perform\nmensurations\nand calculation\n4.1 Select measuring\nInstruments\n4.2 Carry out\nmeasurements and\ncalculations\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Actual\ndemonstration\n Direct observation\n Oral questioning\n Written test or\nexamination\n Actual demonstration\n\n5. Maintain tools\nand equipment\n5.1 Check condition of\ntools and equipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge and\ntooth cutting tools\n5.4 Store tools and\nequipment\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Direct observation of\napplication of tasks.\n Oral questioning\n Written test or\nexamination\n Practical exam\n\nCORE COMPETENCIES\n56 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Determine\ncustomer\nrequirements\n1.1 Assess current and future\nelectrical needs of\ncustomer and site\ncharacteristics\n1.2 Recommend options\n\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Observation with\nquestioning\n Demonstration\nwith questioning\n Written/oral\nexamination\n2. Calculate\nSystem\nComponents\nRequirements\n(System Sizing)\n2.1 Calculate Energy Demand\n2.2 Determine Battery\nCapacity\n2.3 Calculate Array Size\n2.4 Determine Peak AC load\nand inverter size (if\napplicable)\n2.5 Calculate the minimum\npower specification (size)\nof the controller\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Written exam\n\n--- PDF PAGE 53 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 51\n\n3. Specify\nComponents in\nBill of Materials\n3.1 Select Components\n3.2 Prepare Bill of Materials\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n4. Prepare\ninstallation\ndrawing\n4.1 Prepare Electrical Diagram\n4.2 Prepare Mechanical\nDrawing\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n--- PDF PAGE 54 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 52"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 55 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 53",
-      "pdf_pages": []
+      "pdf_pages": [
+        54
+      ],
+      "source_text": "3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 55 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 53"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "The trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nHave undergone training on PV Systems Installation National\nCertificate Level II\n•\nCan communicate both orally and in writing\n•\nMust be physically and mentally fit to undergo training\n•\nAt least 18 yrs old",
-      "pdf_pages": []
+      "pdf_pages": [
+        55
+      ],
+      "source_text": "3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nHave undergone training on PV Systems Installation National\nCertificate Level II\n•\nCan communicate both orally and in writing\n•\nMust be physically and mentally fit to undergo training\n•\nAt least 18 yrs old"
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT, AND MATERIALS\n\nRecommended list of tools, equipment, and materials for the training of\n\n25 trainees for PV System Design NC III:\n\nTOOLS\nEQUIPMENT\nMATERIAL\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n25\nunits\nMagnetic\nCompass\n25 pcs\nCalculator\n5 vol.\nPhilippine\nElectrical Code\n\n25 units\nDrawing table\n25 each\nDrawing\nsupplies and\naccessories\n\n10 units\nComputers with\nappropriate\napplication\nsoftware\n25 each\nDrawing\ninstrument\n\n5 vol.\nReference books\n(weather data)\n25 each\nPen & paper\n\n5\ncatalogs\nManufacturer’s\nspecification and\nmanuals\n\n5 lot\nForms (job\norder, system\nsizing forms, site\nassessment\nforms)\n\n25 each\nSystem sizing\nforms\n\n--- PDF PAGE 56 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 54",
-      "pdf_pages": []
+      "pdf_pages": [
+        55
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT, AND MATERIALS\n\nRecommended list of tools, equipment, and materials for the training of\n\n25 trainees for PV System Design NC III:\n\nTOOLS\nEQUIPMENT\nMATERIAL\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n25\nunits\nMagnetic\nCompass\n25 pcs\nCalculator\n5 vol.\nPhilippine\nElectrical Code\n\n25 units\nDrawing table\n25 each\nDrawing\nsupplies and\naccessories\n\n10 units\nComputers with\nappropriate\napplication\nsoftware\n25 each\nDrawing\ninstrument\n\n5 vol.\nReference books\n(weather data)\n25 each\nPen & paper\n\n5\ncatalogs\nManufacturer’s\nspecification and\nmanuals\n\n5 lot\nForms (job\norder, system\nsizing forms, site\nassessment\nforms)\n\n25 each\nSystem sizing\nforms\n\n--- PDF PAGE 56 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 54"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "Based on class size of 25 students/trainees the space requirements for the\nteaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nLecture/Demo Area\n6 x 5\n30\n30\nLaboratory Area\n8 x 8\n64\n64\nLearning Resource Area\n3 x 5\n15\n15\nWash, Toilet, & Locker Room\n3 x 5\n15\n15\nCirculation**\n\n33\n Total Area\n\n157\n** Area requirement is equivalent to 30% of the total teaching/learning areas",
-      "pdf_pages": []
+      "pdf_pages": [
+        56
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for the\nteaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nLecture/Demo Area\n6 x 5\n30\n30\nLaboratory Area\n8 x 8\n64\n64\nLearning Resource Area\n3 x 5\n15\n15\nWash, Toilet, & Locker Room\n3 x 5\n15\n15\nCirculation**\n\n33\n Total Area\n\n157\n** Area requirement is equivalent to 30% of the total teaching/learning areas"
     },
     "trainer_qualifications": {
       "present": true,
-      "source_text": "(TQ)\n\nPV System Design NC III\n•\nMust be a holder of PV System Design NC III\n•\nMust have undergone Training Methodology (TM II) 1\n•\nMust be computer literate\n•\nMust be physically and mentally fit\n•\nHave at least 2 years job/ industry experience2\n•\nMust be a civil-service eligible or holder of appropriate professional license issued\nby the Professional Regulatory Commission (for government positions only)\n\n1\nThis shall be changed to “:Must be a holder of Trainer Qualification Level II (TQII) or\nequivalent” upon promulgation by the TESDA Board of the TQ/AQ training regulations\n2\nOptional. Only when required by the hiring institution\n\nReference: TESDA Board Resolution No. 2004 03",
-      "pdf_pages": []
+      "pdf_pages": [
+        56
+      ],
+      "source_text": "3.6 TRAINER QUALIFICATIONS (TQ)\n\nPV System Design NC III\n•\nMust be a holder of PV System Design NC III\n•\nMust have undergone Training Methodology (TM II) 1\n•\nMust be computer literate\n•\nMust be physically and mentally fit\n•\nHave at least 2 years job/ industry experience2\n•\nMust be a civil-service eligible or holder of appropriate professional license issued\nby the Professional Regulatory Commission (for government positions only)\n\n1\nThis shall be changed to “:Must be a holder of Trainer Qualification Level II (TQII) or\nequivalent” upon promulgation by the TESDA Board of the TQ/AQ training regulations\n2\nOptional. Only when required by the hiring institution\n\nReference: TESDA Board Resolution No. 2004 03"
     },
     "institutional_assessment": {
       "present": true,
-      "source_text": "Institutional\nassessment\nis\nundertaken\nby\ntrainees\nto\ndetermine\ntheir\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 57 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 55",
-      "pdf_pages": []
+      "pdf_pages": [
+        56
+      ],
+      "source_text": "3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional\nassessment\nis\nundertaken\nby\ntrainees\nto\ndetermine\ntheir\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 57 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 55"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "148 hours",
-      "20 hrs",
-      "72 hrs",
-      "56 hrs",
-      "20 hrs",
-      "72 hrs",
-      "56 hrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: PV System Design\n\nNC Level: NC III\n\nNominal Training Duration:\n148 hours\n\n20 hrs – Basic Competencies\n\n72 hrs – Common Competencies\n\n56 hrs – Core Competencies\n\nCourse Description:\n\nThe course is designed to enhance the knowledge, skills and desirable attitudes of\na PV System Design Technician in accordance with industry standards. It covers core\ncompetencies such as: Determine customer requirement; Calculate PV system\ncomponents (system sizing) of small solar home systems up to 1kWp. It also include\ncompetency to prepare and specify components in Bill of Materials and prepare\nInstallation drawing.\nBasic competencies such as: Lead workplace communication; Lead small teams;\nDevelop and practice negotiation skills; Solve problems related to work activities; Use\nmathematical concepts and techniques and Use relevant technologies are included.\nIt also include common competencies such as; Prepare construction materials and\ntools; Perform mensuration and calculation; Maintain tools and equipment; Observe\nprocedures, specifications and manuals of instructions and Interpret technical drawings\nand plans.\n\nBASIC COMPETENCIES\n20 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Lead\nworkplace\ncommunication\n1.1 Communicate information\nabout workplace processes.\n1.2 Lead workplace discussions.\n1.3 Identify and communicate\nissues arising in the\nworkplace\n• Group discussion\n• Role Play\n• Brainstorming\n\n• Observation\n• Interviews\n2. Lead small\nteams\n2.1 Provide team leadership.\n2.2 Assign responsibilities\namong members.\n2.3 Set performance expectation\nfor team members.\n\n2.4Supervise team performance\n• Lecture\n• Demonstration\n• Self-paced\n(modular)\n• Case studies\n• Demonstration\n• Written exam\n\n--- PDF PAGE 51 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 49\n\n3. Develop and\npractice\nnegotiation\nskills\n3.1 Identify relevant information\nin planning negotiations\n3.2 Participate in negotiations\n3.3 Document areas for\nagreement\n• Lecturette\n• Role playing\n• Practical\nexercises\n• Written test\n• Demonstration\n4. Solve\nworkplace\nproblem related\nto work\nactivities\n4.1 Explain the analytical\ntechniques.\n4.2 Identify the problem.\n4.3 Determine the possible\ncause/s of the problem.\n• Direct observation\n• Simulation/role\nplaying\n• Case studies\n• Written test\n• Practical/\nperformance\ntest\n5. Use\nmathematical\nconcepts and\ntechniques\n5.1 Identify mathematical tools\nand techniques to solve\nproblem\n5.2 Apply mathematical\nprocedures/solution\n5.3 Analyze results\n• Lecturette\n• Self-pace\n• Group discussion\n• Practical Work\nApproach\n•Research study\n• Written test\n• Demonstration\n• Oral Interview\n6. Use relevant\ntechnologies\n6.1 Study/ select appropriate\ntechnology\n6.2 Apply relevant technology\n6.3 Maintain/enhance relevant\ntechnology\n• Lecturette\n• Self-pace\n• Group discussion\n• Film showing\n• Written test\n• Interview\n\nCOMMON COMPETENCIES\n72 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment Approach\n1. Prepare\nconstruction\nmaterials and\ntools\n1.1 Identify materials and\ntools applicable to a\nspecific construction\njob\n1.2 Request appropriate\nmaterials and tools\n1.3 Receive and inspect\nmaterials\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Power Point\npresentation\n Oral questioning\n Direct observation\n Written / Oral Test\n\n2. Observe\nprocedures,\nSpecifications\nand Manuals of\nInstructions\n2.1 Identify, access, and\ninterpret\nspecification/manual\ns.\n2.2 Apply information in\nmanual.\n2.3 Store manuals.\n\n Classroom\ndiscussion\n Lecture\n Self-paced\ninstruction\n Demonstration\n Practical exam\n Oral exam\n Written\ntest/questioning\n\n--- PDF PAGE 52 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 50\n\n3. Interpret\nTechnical\nDrawing\n3.1 Analyze sign,\nsymbols and data\n3.2 Interpret technical\ndrawing and plans\n3.3 Apply freehand\nsketching\n Demonstration\n Classroom\ndiscussions\n Self-paced\n Practical exam\n Direct observation\n Written\ntest/questioning\n4. Perform\nmensurations\nand calculation\n4.1 Select measuring\nInstruments\n4.2 Carry out\nmeasurements and\ncalculations\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Actual\ndemonstration\n Direct observation\n Oral questioning\n Written test or\nexamination\n Actual demonstration\n\n5. Maintain tools\nand equipment\n5.1 Check condition of\ntools and equipment\n5.2 Perform basic\npreventive\nmaintenance\n5.3 Sharpen edge and\ntooth cutting tools\n5.4 Store tools and\nequipment\n Lecture-\nDemonstration\n Self-paced\ninstruction\n Group discussion\n Classroom\ndiscussion\n Direct observation of\napplication of tasks.\n Oral questioning\n Written test or\nexamination\n Practical exam\n\nCORE COMPETENCIES\n56 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nMethodology\nAssessment\nApproach\n1. Determine\ncustomer\nrequirements\n1.1 Assess current and future\nelectrical needs of\ncustomer and site\ncharacteristics\n1.2 Recommend options\n\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Observation with\nquestioning\n Demonstration\nwith questioning\n Written/oral\nexamination\n2. Calculate\nSystem\nComponents\nRequirements\n(System Sizing)\n2.1 Calculate Energy Demand\n2.2 Determine Battery\nCapacity\n2.3 Calculate Array Size\n2.4 Determine Peak AC load\nand inverter size (if\napplicable)\n2.5 Calculate the minimum\npower specification (size)\nof the controller\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n\n Written exam\n\n--- PDF PAGE 53 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 51\n\n3. Specify\nComponents in\nBill of Materials\n3.1 Select Components\n3.2 Prepare Bill of Materials\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n4. Prepare\ninstallation\ndrawing\n4.1 Prepare Electrical Diagram\n4.2 Prepare Mechanical\nDrawing\n Lecture-\ndemonstration\n Self-paced\ninstruction\n Group discussion\n Written exam\n\n--- PDF PAGE 54 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 52\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is individualized and self-paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards and\nthe curriculum modules;\n• Assessment is based in the collection of evidence of the performance of\nwork to the industry required standard;\n• Training is based both on and off-the-job components;\n• Allows for recognition of prior learning (RPL) or current competencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of delivery\nmodes, both on and off-the-job as long as the learning is driven by the competency\nstandards specified by the industry. The following training modalities may be\nadopted when designing training programs:\n• The dualized mode of training delivery is preferred and recommended.\nThus programs would contain both in-school and in-industry training or\nfieldwork components. Details can be referred to the Dual Training\nSystem (DTS) Implementing Rules and Regulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The trainer\nonly facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners are\ngiven the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of the\ninstruction occurs when the students and instructors are not in the same\nplace. Distance learning may employ correspondence study, or audio,\nvideo or computer technologies.\n\n--- PDF PAGE 55 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 53\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nHave undergone training on PV Systems Installation National\nCertificate Level II\n•\nCan communicate both orally and in writing\n•\nMust be physically and mentally fit to undergo training\n•\nAt least 18 yrs old\n\n3.4 LIST OF TOOLS, EQUIPMENT, AND MATERIALS\n\nRecommended list of tools, equipment, and materials for the training of\n\n25 trainees for PV System Design NC III:\n\nTOOLS\nEQUIPMENT\nMATERIAL\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n25\nunits\nMagnetic\nCompass\n25 pcs\nCalculator\n5 vol.\nPhilippine\nElectrical Code\n\n25 units\nDrawing table\n25 each\nDrawing\nsupplies and\naccessories\n\n10 units\nComputers with\nappropriate\napplication\nsoftware\n25 each\nDrawing\ninstrument\n\n5 vol.\nReference books\n(weather data)\n25 each\nPen & paper\n\n5\ncatalogs\nManufacturer’s\nspecification and\nmanuals\n\n5 lot\nForms (job\norder, system\nsizing forms, site\nassessment\nforms)\n\n25 each\nSystem sizing\nforms\n\n--- PDF PAGE 56 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 54\n\n3.5 TRAINING FACILITIES\n\nBased on class size of 25 students/trainees the space requirements for the\nteaching/learning and circulation areas are as follows:\n\nTEACHING/LEARNING\nAREAS\nSIZE IN\nMETERS\nAREA IN SQ.\nMETERS\nTOTAL AREA IN\nSQ. METERS\nLecture/Demo Area\n6 x 5\n30\n30\nLaboratory Area\n8 x 8\n64\n64\nLearning Resource Area\n3 x 5\n15\n15\nWash, Toilet, & Locker Room\n3 x 5\n15\n15\nCirculation**\n\n33\n Total Area\n\n157\n** Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINER QUALIFICATIONS (TQ)\n\nPV System Design NC III\n•\nMust be a holder of PV System Design NC III\n•\nMust have undergone Training Methodology (TM II) 1\n•\nMust be computer literate\n•\nMust be physically and mentally fit\n•\nHave at least 2 years job/ industry experience2\n•\nMust be a civil-service eligible or holder of appropriate professional license issued\nby the Professional Regulatory Commission (for government positions only)\n\n1\nThis shall be changed to “:Must be a holder of Trainer Qualification Level II (TQII) or\nequivalent” upon promulgation by the TESDA Board of the TQ/AQ training regulations\n2\nOptional. Only when required by the hiring institution\n\nReference: TESDA Board Resolution No. 2004 03\n\n3.7 INSTITUTIONAL ASSESSMENT\n\nInstitutional\nassessment\nis\nundertaken\nby\ntrainees\nto\ndetermine\ntheir\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\n--- PDF PAGE 57 ---\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nTR – PV SYSTEM DESIGN NC III\n\n Page 55"
 }

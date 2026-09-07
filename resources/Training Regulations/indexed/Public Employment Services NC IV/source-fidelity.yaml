@@ -1,29 +1,197 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:public-employment-services-nc-iv:aa3cc1e88c",
   "qualification": "PUBLIC EMPLOYMENT SERVICES NC IV",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Public Employment Services NC IV.pdf",
-    "sha256": "aa3cc1e88c02833c718c2d46c1efc7ba3d9f7f103288fea5b861cdb03142782a",
+    "source_sha256": "aa3cc1e88c02833c718c2d46c1efc7ba3d9f7f103288fea5b861cdb03142782a",
+    "pdf_pages": 134,
+    "printed_pages": 130,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation promulgated 12/17/2019; the canonical promulgated field preserves the source date literal.",
+    "Section 1 lists 9 Basic, 4 Common, and 5 Core units with the occupational outcome PESO Manager; the source competency headers use Required Knowledge and Required Skills columns.",
+    "Section 1 lists core code SOC341305 Supervise PES office, while the competency header uses SOC341306; the canonical code follows Section 1 and source_unit_code preserves SOC341306.",
+    "The source prints 47 Basic, 37 Common, 785 Core, and 224 hours of SIL for a 1093-hour total; the canonical duration stores SIL in the shared On-the-Job Training field without double-counting.",
+    "The source includes revised Section 3 learning-activity columns, MLC-2006/contextual-learning language, and detailed PES assessment requirements; source_text preserves the printed material."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation promulgated 12/17/2019; the canonical promulgated field preserves the source date literal."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 9 Basic, 4 Common, and 5 Core units with the occupational outcome PESO Manager; the source competency headers use Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists core code SOC341305 Supervise PES office, while the competency header uses SOC341306; the canonical code follows Section 1 and source_unit_code preserves SOC341306."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints 47 Basic, 37 Common, 785 Core, and 224 hours of SIL for a 1093-hour total; the canonical duration stores SIL in the shared On-the-Job Training field without double-counting."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source includes revised Section 3 learning-activity columns, MLC-2006/contextual-learning language, and detailed PES assessment requirements; source_text preserves the printed material."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Public Employment Services NC IV.pdf",
-    "pdf_pages": 134,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311401",
+      "source_unit_code": "500311401",
+      "pdf_page_range": [
+        6,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311402",
+      "source_unit_code": "500311402",
+      "pdf_page_range": [
+        12,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311403",
+      "source_unit_code": "500311403",
+      "pdf_page_range": [
+        17,
+        22
+      ]
+    },
+    {
+      "unit_code": "500311404",
+      "source_unit_code": "500311404",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "500311405",
+      "source_unit_code": "500311405",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "500311406",
+      "source_unit_code": "500311406",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "500311407",
+      "source_unit_code": "500311407",
+      "pdf_page_range": [
+        33,
+        36
+      ]
+    },
+    {
+      "unit_code": "500311408",
+      "source_unit_code": "500311408",
+      "pdf_page_range": [
+        37,
+        40
+      ]
+    },
+    {
+      "unit_code": "500311409",
+      "source_unit_code": "500311409",
+      "pdf_page_range": [
+        41,
+        44
+      ]
+    },
+    {
+      "unit_code": "ELC311203",
+      "source_unit_code": "ELC311203",
+      "pdf_page_range": [
+        45,
+        48
+      ]
+    },
+    {
+      "unit_code": "SOC323201",
+      "source_unit_code": "SOC323201",
+      "pdf_page_range": [
+        49,
+        53
+      ]
+    },
+    {
+      "unit_code": "SOC323202",
+      "source_unit_code": "SOC323202",
+      "pdf_page_range": [
+        54,
+        56
+      ]
+    },
+    {
+      "unit_code": "SOC323203",
+      "source_unit_code": "SOC323203",
+      "pdf_page_range": [
+        57,
+        59
+      ]
+    },
+    {
+      "unit_code": "SOC341301",
+      "source_unit_code": "SOC341301",
+      "pdf_page_range": [
+        60,
+        62
+      ]
+    },
+    {
+      "unit_code": "SOC341302",
+      "source_unit_code": "SOC341302",
+      "pdf_page_range": [
+        63,
+        65
+      ]
+    },
+    {
+      "unit_code": "SOC341303",
+      "source_unit_code": "SOC341303",
+      "pdf_page_range": [
+        66,
+        68
+      ]
+    },
+    {
+      "unit_code": "SOC341304",
+      "source_unit_code": "SOC341304",
+      "pdf_page_range": [
+        69,
+        72
+      ]
+    },
+    {
+      "unit_code": "SOC341305",
+      "source_unit_code": "SOC341306",
+      "pdf_page_range": [
+        73,
+        77
+      ]
+    }
+  ]
 }

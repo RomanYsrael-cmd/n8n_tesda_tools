@@ -1,29 +1,165 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:pv-systems-servicing-nc-iii:6566dcc3a0",
   "qualification": "PV SYSTEMS SERVICING NC III",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "PV Systems Servicing NC III.pdf",
-    "sha256": "6566dcc3a077cff5539d8eae03deba8e932d18884a48e28b9d763848d677d32a",
+    "source_sha256": "6566dcc3a077cff5539d8eae03deba8e932d18884a48e28b9d763848d677d32a",
+    "pdf_pages": 63,
+    "printed_pages": 60,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation with no date in the Promulgated/footer fields; the canonical promulgated field remains null.",
+    "Section 1 lists 6 Basic, 5 Common, and 3 Core units with occupational outcomes PV Systems Service Technician, PV Systems Maintenance Technician, or PV Systems Repair Technician.",
+    "The competency header for CON311204 prints MANTAIN TOOLS AND EQUIPMENT, while Section 1 uses Maintain; the canonical title follows Section 1 and source_text preserves the spelling.",
+    "The first common curriculum unit carries source learning-outcome numbers 2.1-2.3 instead of 1.1-1.3; the canonical curriculum re-associates and normalizes those rows while retaining the source page text.",
+    "Section 3 uses the truncated Course Title PV Systems Servicing NC; source_text preserves the source title variant and the 20/72/66-hour components with 158-hour total."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation with no date in the Promulgated/footer fields; the canonical promulgated field remains null."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 6 Basic, 5 Common, and 3 Core units with occupational outcomes PV Systems Service Technician, PV Systems Maintenance Technician, or PV Systems Repair Technician."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The competency header for CON311204 prints MANTAIN TOOLS AND EQUIPMENT, while Section 1 uses Maintain; the canonical title follows Section 1 and source_text preserves the spelling."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The first common curriculum unit carries source learning-outcome numbers 2.1-2.3 instead of 1.1-1.3; the canonical curriculum re-associates and normalizes those rows while retaining the source page text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 uses the truncated Course Title PV Systems Servicing NC; source_text preserves the source title variant and the 20/72/66-hour components with 158-hour total."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "PV Systems Servicing NC III.pdf",
-    "pdf_pages": 63,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        13,
+        16
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "CON724201",
+      "source_unit_code": "CON724201",
+      "pdf_page_range": [
+        23,
+        25
+      ]
+    },
+    {
+      "unit_code": "CON311201",
+      "source_unit_code": "CON311201",
+      "pdf_page_range": [
+        26,
+        28
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "CON311204",
+      "source_unit_code": "CON311204",
+      "pdf_page_range": [
+        35,
+        37
+      ]
+    },
+    {
+      "unit_code": "CON724329",
+      "source_unit_code": "CON724329",
+      "pdf_page_range": [
+        38,
+        42
+      ]
+    },
+    {
+      "unit_code": "CON724330",
+      "source_unit_code": "CON724330",
+      "pdf_page_range": [
+        43,
+        47
+      ]
+    },
+    {
+      "unit_code": "CON724331",
+      "source_unit_code": "CON724331",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    }
+  ]
 }
