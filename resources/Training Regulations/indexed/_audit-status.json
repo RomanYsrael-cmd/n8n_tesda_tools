@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T12:42:36+08:00",
+  "last_updated": "2026-09-07T13:06:35+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 340,
-  "remaining_unaudited": 44,
+  "audited_count": 345,
+  "remaining_unaudited": 39,
   "blocked_count": 0,
   "documents": [
     {
@@ -4428,6 +4428,71 @@
       "validation_passed": true,
       "last_audit_commit": "02c92e01a6621f3f5c4f2643dc85d0c7b05496ef",
       "audit_notes": "Rebuilt 6/3/2 amended four-column groups; restored 91 curriculum rows, 2 assessment arrangements, and 43 glossary entries, preserved the '(Amended)' and Promulgated June 16, 2015 context and 28/16/116-hour components with 160-hour total, retained the Sanitary Landfill Facility (SLF) Site Foreman outcome, and preserved landfill-supervision, closed-facility, environmental-management, and source spelling terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Scaffold Erection NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Scaffold Erection NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Scaffold Erection NC II (Superseded).pdf",
+      "source_sha256": "927de0be4f1cb63131810d4c2fa8f70ed9016b6a59e9a331fc5ba18d2220c09a",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:06:35+08:00",
+      "issues_found": 8,
+      "issues_fixed": 8,
+      "validation_passed": true,
+      "last_audit_commit": "980dd9feb6f847cf46d747d7c4ef18aa66efbd11",
+      "audit_notes": "Rebuilt 4/5/2 historical two-column groups; restored 30 curriculum rows, 5 assessment arrangements, and 12 glossary entries, retained the superseded lifecycle status, preserved the July 2007 context and 18/24/120-hour components with 162-hour total, remapped the legacy curriculum's common/core order, and preserved spaced CON 713 339/340 source codes plus historical assessment numbering; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Scaffolding Works NC II (Supported Type Scaffold)",
+      "package_path": "resources/Training Regulations/indexed/Scaffolding Works NC II (Supported Type Scaffold)",
+      "source_file": "resources/Training Regulations/Scaffolding Works NC II (Supported Type Scaffold).pdf",
+      "source_sha256": "9cc7d3bcecc1dfaa80f314648357d45707a3c10754df982d24b73dd4c8b2ae15",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:06:35+08:00",
+      "issues_found": 7,
+      "issues_fixed": 7,
+      "validation_passed": true,
+      "last_audit_commit": "980dd9feb6f847cf46d747d7c4ef18aa66efbd11",
+      "audit_notes": "Rebuilt 9/5/2 revised four-column groups; restored 47 curriculum rows, 2 assessment arrangements, and 7 glossary entries, preserved Revision 01 and Promulgated (10/29/2018), retained the 37/24/120-hour components with 181-hour total, routed the 101-page source through the revised parser, and preserved the amended Scaffold Erection conversion note and source headings; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Seaweed Production NC II",
+      "package_path": "resources/Training Regulations/indexed/Seaweed Production NC II",
+      "source_file": "resources/Training Regulations/Seaweed Production NC II.pdf",
+      "source_sha256": "1874c165e8713e9ebb15342b9748c95bbf687f6fdc580403daf14a4af34bfdf4",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:06:35+08:00",
+      "issues_found": 6,
+      "issues_fixed": 6,
+      "validation_passed": true,
+      "last_audit_commit": "980dd9feb6f847cf46d747d7c4ef18aa66efbd11",
+      "audit_notes": "Rebuilt 4/3/4 revised four-column groups; restored 41 curriculum rows, 2 assessment arrangements, and 16 glossary entries, preserved the (New) and Promulgated December 16, 2015 context and 20/72/560-hour components with 652-hour total, retained the AGR Section 1 versus AFF unit-header code variants, and preserved seaweed nursery, grow-out, raw-drying, marketing, BFAR, PNS, and source glossary terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Security Services NC I",
+      "package_path": "resources/Training Regulations/indexed/Security Services NC I",
+      "source_file": "resources/Training Regulations/Security Services NC I.pdf",
+      "source_sha256": "8b45027a4dbf802ae0913cfc6dfa0fdf9012d51e844b4ef73531fe31ac4ffe3f",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:06:35+08:00",
+      "issues_found": 7,
+      "issues_fixed": 7,
+      "validation_passed": true,
+      "last_audit_commit": "980dd9feb6f847cf46d747d7c4ef18aa66efbd11",
+      "audit_notes": "Rebuilt 4/3/5 historical two-column groups; restored 40 curriculum rows, 9 assessment arrangements, and 60 glossary/acronym entries, preserved the May 31, 2005 context and 28/36/106-hour components with 170-hour total, retained HCS315 common-unit headers and the source HCS516303 duplicate code through source_unit_code, and recorded the source's National Certificate II wording under Security Service NC I; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Security Services NC II",
+      "package_path": "resources/Training Regulations/indexed/Security Services NC II",
+      "source_file": "resources/Training Regulations/Security Services NC II.pdf",
+      "source_sha256": "94d268740f67ac773bc6496c20dece42c048639b17ffe21b16d590afa91557a8",
+      "status": "audited",
+      "audited_at": "2026-09-07T13:06:35+08:00",
+      "issues_found": 6,
+      "issues_fixed": 6,
+      "validation_passed": true,
+      "last_audit_commit": "980dd9feb6f847cf46d747d7c4ef18aa66efbd11",
+      "audit_notes": "Rebuilt 4/2/5 historical two-column groups; restored 38 curriculum rows, 9 assessment arrangements, and 60 glossary/acronym entries, preserved the undated promulgation context and 18/40/165-hour components with 223-hour total, accepted the source's UNIT DESCRIPTION heading for Secure territorial jurisdiction, and retained the National Certificate II and historical PNP-SAGSD/RA 5487 wording; structural validation and visual boundary QA passed."
     }
   ]
 }
