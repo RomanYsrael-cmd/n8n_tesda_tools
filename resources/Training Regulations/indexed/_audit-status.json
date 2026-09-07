@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T11:30:19+08:00",
+  "last_updated": "2026-09-07T11:59:07+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 325,
-  "remaining_unaudited": 59,
+  "audited_count": 330,
+  "remaining_unaudited": 54,
   "blocked_count": 0,
   "documents": [
     {
@@ -4233,6 +4233,71 @@
       "validation_passed": true,
       "last_audit_commit": "11f3a7bed9537bbc3ca58cbd4cf4b24c13619311",
       "audit_notes": "Rebuilt 6/5/3 historical two-column groups; restored 42 curriculum rows, 5 assessment arrangements, and 12 glossary entries, preserved the undated Promulgated label and the 20/72/66-hour components with 158-hour total, repaired the first common-unit learning-outcome numbering anomaly by preserving source 2.1–2.3 provenance while mapping it to CON724201 1.1–1.3, recorded the MANTAIN spelling and truncated Section 3 course title, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Pyrotechnics NC II",
+      "package_path": "resources/Training Regulations/indexed/Pyrotechnics NC II",
+      "source_file": "resources/Training Regulations/Pyrotechnics NC II.pdf",
+      "source_sha256": "356b96d79ec3196cdc1455e93416292dec10b2bb851a695d21dae765306813a8",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:59:07+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "7cf7e69fa4db3c4d8401a48b85ccfb60c091345a",
+      "audit_notes": "Rebuilt 4/5/6 historical two-column groups; restored 45 curriculum rows, 6 assessment arrangements, and 46 glossary entries, preserved the undated Promulgated label and the 18/24/200-hour components with 242-hour total, retained pyrotechnics safety terminology and Assistant Pyrotechnician/Pyrotechnician occupational outcomes, and preserved the COC accumulation and project-type assessment structure; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "RAC Servicing (DomRAC) NC II",
+      "package_path": "resources/Training Regulations/indexed/RAC Servicing (DomRAC) NC II",
+      "source_file": "resources/Training Regulations/RAC Servicing (DomRAC) NC II.pdf",
+      "source_sha256": "7b406c8d341940a1aff4564e58b1e687fc0c6b9ea328221ebbd25e491bd73fbc",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:59:07+08:00",
+      "issues_found": 13,
+      "issues_fixed": 13,
+      "validation_passed": true,
+      "last_audit_commit": "7cf7e69fa4db3c4d8401a48b85ccfb60c091345a",
+      "audit_notes": "Rebuilt 9/9/3 revised four-column groups; restored 113 curriculum rows, 2 assessment arrangements, and 36 glossary entries, preserved the 37/35/216-hour components plus 240-hour on-the-job training with 528-hour canonical total, reconciled HVC311204/HVC311205 and HVC315201/HVC7315201 source-code variants, repaired the repeated Training Delivery 3.2 header bleed, recorded Promulgated June 8, 2021, and retained source terminology and page-preserved text; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "RAC Servicing (DomRAC) NC II (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/RAC Servicing (DomRAC) NC II (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/RAC Servicing (DomRAC) NC II (Superseded).pdf",
+      "source_sha256": "583bdcfc22356a1387b52dc77137b71e81a98def108ebf858f1d8b06265263e3",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:59:07+08:00",
+      "issues_found": 12,
+      "issues_fixed": 12,
+      "validation_passed": true,
+      "last_audit_commit": "7cf7e69fa4db3c4d8401a48b85ccfb60c091345a",
+      "audit_notes": "Rebuilt 4/9/3 historical two-column groups; restored 58 curriculum rows, 6 assessment arrangements, and 38 glossary entries, preserved the superseded/revised October 2011 lifecycle context and the 18/42/420-hour components with 480-hour canonical total, recorded the source 180-hour in-school plus 240-hour supervised-industry-training breakdown without double-counting it, repaired the duplicated common-unit 2.1–2.3 numbering, and retained source code variants and terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "RAC Servicing (PACU-CRE) NC III (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/RAC Servicing (PACU-CRE) NC III (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/RAC Servicing (PACU-CRE) NC III (Superseded).pdf",
+      "source_sha256": "02b9ef35aaaf23055d079b697a20a00b04955338ba88cac2d2caa6fe8f9632e9",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:59:07+08:00",
+      "issues_found": 14,
+      "issues_fixed": 14,
+      "validation_passed": true,
+      "last_audit_commit": "7cf7e69fa4db3c4d8401a48b85ccfb60c091345a",
+      "audit_notes": "Rebuilt 6/9/8 historical two-column groups; restored 81 curriculum rows, 5 assessment arrangements, and 37 glossary entries, preserved the superseded draft-copy context and the 18/28/180-hour components with 226-hour total, reconciled the Section 1 omission of both HVC311201 and HVC311202 against Section 2 while preserving the Section 3 curriculum omission of HVC311202, repaired the common-unit mapping, and retained COC clusters and source terminology; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Rating Forming Part of a Navigational Watch NC II (II-4)",
+      "package_path": "resources/Training Regulations/indexed/Rating Forming Part of a Navigational Watch NC II (II-4)",
+      "source_file": "resources/Training Regulations/Rating Forming Part of a Navigational Watch NC II (II-4).pdf",
+      "source_sha256": "89e661630a36c3d93dee72b6f67c69f7185b98a0f313b7a94f7bd72787b4cbb4",
+      "status": "audited",
+      "audited_at": "2026-09-07T11:59:07+08:00",
+      "issues_found": 10,
+      "issues_fixed": 10,
+      "validation_passed": true,
+      "last_audit_commit": "7cf7e69fa4db3c4d8401a48b85ccfb60c091345a",
+      "audit_notes": "Rebuilt 4/8/4 historical two-column groups; restored 38 curriculum rows, 7 assessment arrangements, and 2 glossary entries, preserved the undated Promulgated label, June 26, 2013 revision context, and the 18/60/30-hour components with 108-hour total, retained STCW II/4 maritime competency terminology and approved sea-service requirements, and preserved source assessment and certification details; structural validation and visual boundary QA passed."
     }
   ]
 }
