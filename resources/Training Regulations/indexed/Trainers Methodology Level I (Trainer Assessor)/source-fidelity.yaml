@@ -1,29 +1,187 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:trainers-methodology-level-i-trainer-assessor:cd8516d76a",
-  "qualification": "Trainers Methodology Level I (Trainer Assessor)",
+  "qualification": "TRAINERS METHODOLOGY LEVEL I (TRAINER ASSESSOR)",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Trainers Methodology Level I (Trainer Assessor).pdf",
-    "sha256": "cd8516d76a64891f6c212812c9784d6aaa353e5fa4e6b6feba8495c039ebe24a",
+    "source_sha256": "cd8516d76a64891f6c212812c9784d6aaa353e5fa4e6b6feba8495c039ebe24a",
+    "pdf_pages": 88,
+    "printed_pages": 82,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is the historical two-column Trainers Methodology Level I regulation marked Re-titled May 2011; it does not provide separate Required Knowledge and Required Skills columns.",
+    "Section 3 prints 128 Basic and 136 Core hours for a 264-hour total; the canonical duration preserves the explicit components.",
+    "The source uses the TM I qualification label, cluster-based assessment arrangements, and historical spelling/capitalization variants; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is the historical two-column Trainers Methodology Level I regulation marked Re-titled May 2011; it does not provide separate Required Knowledge and Required Skills columns."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 128 Basic and 136 Core hours for a 264-hour total; the canonical duration preserves the explicit components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses the TM I qualification label, cluster-based assessment arrangements, and historical spelling/capitalization variants; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Trainers Methodology Level I (Trainer Assessor).pdf",
-    "pdf_pages": 88,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        6,
+        7
+      ]
+    },
+    {
+      "unit_code": "500232101",
+      "source_unit_code": "500232101",
+      "pdf_page_range": [
+        8,
+        10
+      ]
+    },
+    {
+      "unit_code": "500232102",
+      "source_unit_code": "500232102",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "500232103",
+      "source_unit_code": "500232103",
+      "pdf_page_range": [
+        15,
+        17
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        18,
+        20
+      ]
+    },
+    {
+      "unit_code": "500232104",
+      "source_unit_code": "500232104",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500232105",
+      "source_unit_code": "500232105",
+      "pdf_page_range": [
+        24,
+        32
+      ]
+    },
+    {
+      "unit_code": "500232106",
+      "source_unit_code": "500232106",
+      "pdf_page_range": [
+        33,
+        38
+      ]
+    },
+    {
+      "unit_code": "500232107",
+      "source_unit_code": "500232107",
+      "pdf_page_range": [
+        39,
+        44
+      ]
+    },
+    {
+      "unit_code": "500232108",
+      "source_unit_code": "500232108",
+      "pdf_page_range": [
+        45,
+        50
+      ]
+    },
+    {
+      "unit_code": "500232109",
+      "source_unit_code": "500232109",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "500232110",
+      "source_unit_code": "500232110",
+      "pdf_page_range": [
+        54,
+        56
+      ]
+    },
+    {
+      "unit_code": "TVT232301",
+      "source_unit_code": "TVT232301",
+      "pdf_page_range": [
+        57,
+        59
+      ]
+    },
+    {
+      "unit_code": "TVT232302",
+      "source_unit_code": "TVT232302",
+      "pdf_page_range": [
+        60,
+        62
+      ]
+    },
+    {
+      "unit_code": "TVT232303",
+      "source_unit_code": "TVT232303",
+      "pdf_page_range": [
+        63,
+        65
+      ]
+    },
+    {
+      "unit_code": "TVT232304",
+      "source_unit_code": "TVT232304",
+      "pdf_page_range": [
+        66,
+        69
+      ]
+    },
+    {
+      "unit_code": "TVT232305",
+      "source_unit_code": "TVT232305",
+      "pdf_page_range": [
+        70,
+        72
+      ]
+    },
+    {
+      "unit_code": "TVT232306",
+      "source_unit_code": "TVT232306",
+      "pdf_page_range": [
+        73,
+        75
+      ]
+    }
+  ]
 }

@@ -1,29 +1,171 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:trainers-methodology-level-i-in-company-trainer:a17d1851df",
-  "qualification": "Trainers Methodology Level I (In-Company Trainer)",
+  "qualification": "TRAINERS METHODOLOGY LEVEL I (IN-COMPANY TRAINER)",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Trainers Methodology Level I (In-Company Trainer).pdf",
-    "sha256": "a17d1851df5b1234848db2648f61370d2e3b4a318a77c227b1db94ed6a1c7e4b",
+    "source_sha256": "a17d1851df5b1234848db2648f61370d2e3b4a318a77c227b1db94ed6a1c7e4b",
+    "pdf_pages": 155,
+    "printed_pages": 158,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised knowledge/attitude-and-skill competency layout with 12 Basic and 4 Core units; its column labels differ from the usual Required Knowledge/Required Skills wording and are retained through source text.",
+    "Section 3 prints 124 Basic and 80 Core hours for a 204-hour total; the canonical duration preserves those explicit components.",
+    "The source is dated February 27, 2018 and has non-linear printed-page transitions around the training standards and assessment sections; physical PDF boundaries remain authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised knowledge/attitude-and-skill competency layout with 12 Basic and 4 Core units; its column labels differ from the usual Required Knowledge/Required Skills wording and are retained through source text."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 124 Basic and 80 Core hours for a 204-hour total; the canonical duration preserves those explicit components."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source is dated February 27, 2018 and has non-linear printed-page transitions around the training standards and assessment sections; physical PDF boundaries remain authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Trainers Methodology Level I (In-Company Trainer).pdf",
-    "pdf_pages": 155,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500232101",
+      "source_unit_code": "500232101",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "500232102",
+      "source_unit_code": "500232102",
+      "pdf_page_range": [
+        12,
+        19
+      ]
+    },
+    {
+      "unit_code": "500232103",
+      "source_unit_code": "500232103",
+      "pdf_page_range": [
+        20,
+        24
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        25,
+        29
+      ]
+    },
+    {
+      "unit_code": "500232104",
+      "source_unit_code": "500232104",
+      "pdf_page_range": [
+        30,
+        32
+      ]
+    },
+    {
+      "unit_code": "500232105",
+      "source_unit_code": "500232105",
+      "pdf_page_range": [
+        33,
+        47
+      ]
+    },
+    {
+      "unit_code": "500232106",
+      "source_unit_code": "500232106",
+      "pdf_page_range": [
+        48,
+        56
+      ]
+    },
+    {
+      "unit_code": "500232107",
+      "source_unit_code": "500232107",
+      "pdf_page_range": [
+        57,
+        67
+      ]
+    },
+    {
+      "unit_code": "500232108",
+      "source_unit_code": "500232108",
+      "pdf_page_range": [
+        68,
+        75
+      ]
+    },
+    {
+      "unit_code": "500232109",
+      "source_unit_code": "500232109",
+      "pdf_page_range": [
+        76,
+        83
+      ]
+    },
+    {
+      "unit_code": "500232110",
+      "source_unit_code": "500232110",
+      "pdf_page_range": [
+        84,
+        89
+      ]
+    },
+    {
+      "unit_code": "TVT232314",
+      "source_unit_code": "TVT232314",
+      "pdf_page_range": [
+        90,
+        92
+      ]
+    },
+    {
+      "unit_code": "TVT232315",
+      "source_unit_code": "TVT232315",
+      "pdf_page_range": [
+        93,
+        97
+      ]
+    },
+    {
+      "unit_code": "TVT232316",
+      "source_unit_code": "TVT232316",
+      "pdf_page_range": [
+        98,
+        100
+      ]
+    },
+    {
+      "unit_code": "TVT232317",
+      "source_unit_code": "TVT232317",
+      "pdf_page_range": [
+        101,
+        106
+      ]
+    }
+  ]
 }

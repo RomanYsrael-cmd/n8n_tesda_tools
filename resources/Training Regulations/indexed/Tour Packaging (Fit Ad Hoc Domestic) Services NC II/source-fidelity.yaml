@@ -1,29 +1,179 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "document_id": "tesda:tr:tour-packaging-fit-ad-hoc-domestic-services-nc-ii:e49fdf0731",
   "qualification": "TOUR PACKAGING (FIT AD HOC DOMESTIC) SERVICES NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Tour Packaging (Fit Ad Hoc Domestic) Services NC II.pdf",
-    "sha256": "e49fdf0731da6303f0e4a48d815927ce99f6aa7fcd249a68cc47863580a33650",
+    "source_sha256": "e49fdf0731da6303f0e4a48d815927ce99f6aa7fcd249a68cc47863580a33650",
+    "pdf_pages": 109,
+    "printed_pages": 105,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is the revised four-column Tour Packaging regulation promulgated 01/11/2019 with 9 Basic, 5 Common, and 3 Core units; Required Knowledge and Required Skills are present in the competency tables.",
+    "Section 3 prints 37 Basic, 28 Common, and 72 Core hours, a 137-hour subtotal, plus 200 hours of Supervised Industry Training (SIT); the canonical total is 337 hours. Section 4 separately describes 120 lecture hours plus 200 hours of supervised industry training, and both source expressions are preserved.",
+    "The source uses FIT/Free Individual-Independent Traveler terminology, TRAINING ARRANGEMNTS and ASSESSSMENT spelling variants, and historical tourism wording; page-preserved source text remains authoritative."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is the revised four-column Tour Packaging regulation promulgated 01/11/2019 with 9 Basic, 5 Common, and 3 Core units; Required Knowledge and Required Skills are present in the competency tables."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints 37 Basic, 28 Common, and 72 Core hours, a 137-hour subtotal, plus 200 hours of Supervised Industry Training (SIT); the canonical total is 337 hours. Section 4 separately describes 120 lecture hours plus 200 hours of supervised industry training, and both source expressions are preserved."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses FIT/Free Individual-Independent Traveler terminology, TRAINING ARRANGEMNTS and ASSESSSMENT spelling variants, and historical tourism wording; page-preserved source text remains authoritative."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Tour Packaging (Fit Ad Hoc Domestic) Services NC II.pdf",
-    "pdf_pages": 109,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "400311210",
+      "source_unit_code": "400311210",
+      "pdf_page_range": [
+        7,
+        11
+      ]
+    },
+    {
+      "unit_code": "400311211",
+      "source_unit_code": "400311211",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "400311212",
+      "source_unit_code": "400311212",
+      "pdf_page_range": [
+        16,
+        19
+      ]
+    },
+    {
+      "unit_code": "400311213",
+      "source_unit_code": "400311213",
+      "pdf_page_range": [
+        20,
+        22
+      ]
+    },
+    {
+      "unit_code": "400311214",
+      "source_unit_code": "400311214",
+      "pdf_page_range": [
+        23,
+        26
+      ]
+    },
+    {
+      "unit_code": "400311215",
+      "source_unit_code": "400311215",
+      "pdf_page_range": [
+        27,
+        29
+      ]
+    },
+    {
+      "unit_code": "400311216",
+      "source_unit_code": "400311216",
+      "pdf_page_range": [
+        30,
+        33
+      ]
+    },
+    {
+      "unit_code": "400311217",
+      "source_unit_code": "400311217",
+      "pdf_page_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "unit_code": "400311218",
+      "source_unit_code": "400311218",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "TRS311201",
+      "source_unit_code": "TRS311201",
+      "pdf_page_range": [
+        40,
+        43
+      ]
+    },
+    {
+      "unit_code": "TRS311202",
+      "source_unit_code": "TRS311202",
+      "pdf_page_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "unit_code": "TRS311203",
+      "source_unit_code": "TRS311203",
+      "pdf_page_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "unit_code": "TRS311204",
+      "source_unit_code": "TRS311204",
+      "pdf_page_range": [
+        53,
+        57
+      ]
+    },
+    {
+      "unit_code": "TRS311205",
+      "source_unit_code": "TRS311205",
+      "pdf_page_range": [
+        58,
+        62
+      ]
+    },
+    {
+      "unit_code": "TRS422305",
+      "source_unit_code": "TRS422305",
+      "pdf_page_range": [
+        63,
+        67
+      ]
+    },
+    {
+      "unit_code": "TRS422306",
+      "source_unit_code": "TRS422306",
+      "pdf_page_range": [
+        68,
+        71
+      ]
+    },
+    {
+      "unit_code": "TRS422307",
+      "source_unit_code": "TRS422307",
+      "pdf_page_range": [
+        72,
+        75
+      ]
+    }
+  ]
 }
