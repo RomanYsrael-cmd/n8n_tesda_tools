@@ -1,29 +1,155 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:technical-drafting-nc-ii:2008-05",
-  "qualification": "Technical Drafting NC II",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:technical-drafting-nc-ii:bd1be247c1",
+  "qualification": "TECHNICAL DRAFTING NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Technical Drafting NC II.pdf",
-    "sha256": "bd1be247c18edc9227c7e45af46a64b53032fcac91686ccd5fe6db9a7486f111",
+    "source_sha256": "bd1be247c18edc9227c7e45af46a64b53032fcac91686ccd5fe6db9a7486f111",
+    "pdf_pages": 71,
+    "printed_pages": 70,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source was promulgated May 2008 and amended April 2010; Section 1 lists six specialized units under Core Competencies, while the TOC and Sections 2–3 separate the first 2 as Core and the remaining 4 as Elective; all six are retained in the canonical inventory.",
+    "Section 3 prints a single 148-hour nominal training duration; the canonical duration preserves that source expression rather than inventing category allocations.",
+    "The source prints mensuration and calculation versus mensurations and calculations, Perform computer operations versus Operate personal computer, and layout/lay-out variants; the Prepare Computer-Aided Drawings title begins on the preceding page while its code and descriptor begin on the next, so the code-bearing page is the canonical unit start; source_text preserves the printed forms."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source was promulgated May 2008 and amended April 2010; Section 1 lists six specialized units under Core Competencies, while the TOC and Sections 2–3 separate the first 2 as Core and the remaining 4 as Elective; all six are retained in the canonical inventory."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 3 prints a single 148-hour nominal training duration; the canonical duration preserves that source expression rather than inventing category allocations."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source prints mensuration and calculation versus mensurations and calculations, Perform computer operations versus Operate personal computer, and layout/lay-out variants; the Prepare Computer-Aided Drawings title begins on the preceding page while its code and descriptor begin on the next, so the code-bearing page is the canonical unit start; source_text preserves the printed forms."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Technical Drafting NC II.pdf",
-    "pdf_pages": 71,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        5,
+        8
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        9,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        12,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "unit_code": "CON311203",
+      "source_unit_code": "CON311203",
+      "pdf_page_range": [
+        21,
+        24
+      ]
+    },
+    {
+      "unit_code": "CON311202",
+      "source_unit_code": "CON311202",
+      "pdf_page_range": [
+        25,
+        28
+      ]
+    },
+    {
+      "unit_code": "FUR714202",
+      "source_unit_code": "FUR714202",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "ICT311201",
+      "source_unit_code": "ICT311201",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "CON311301",
+      "source_unit_code": "CON311301",
+      "pdf_page_range": [
+        37,
+        39
+      ]
+    },
+    {
+      "unit_code": "CON311302",
+      "source_unit_code": "CON311302",
+      "pdf_page_range": [
+        40,
+        44
+      ]
+    },
+    {
+      "unit_code": "CON311303",
+      "source_unit_code": "CON311303",
+      "pdf_page_range": [
+        45,
+        47
+      ]
+    },
+    {
+      "unit_code": "CON311304",
+      "source_unit_code": "CON311304",
+      "pdf_page_range": [
+        48,
+        50
+      ]
+    },
+    {
+      "unit_code": "CON311305",
+      "source_unit_code": "CON311305",
+      "pdf_page_range": [
+        51,
+        53
+      ]
+    },
+    {
+      "unit_code": "CON311306",
+      "source_unit_code": "CON311306",
+      "pdf_page_range": [
+        54,
+        56
+      ]
+    }
+  ]
 }

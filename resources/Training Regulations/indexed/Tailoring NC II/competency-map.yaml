@@ -1,68 +1,55 @@
 {
   "schema": "tesda-competency-map",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:tailoring-nc-ii:2005-03",
+  "document_id": "tesda:tr:tailoring-nc-ii:509dcd1c3d",
   "qualification": "TAILORING NC II",
   "content_status": "complete",
-  "groups": {
-    "basic": [
-      {
-        "unit_code": "500311105",
-        "title": "required to gather, interpret and convey information in"
-      },
-      {
-        "unit_code": "500311106",
-        "title": "This unit covers the skills, knowledge and attitudes to"
-      },
-      {
-        "unit_code": "GRM743204",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743205",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743206",
-        "title": "This unit covers the knowledge and skills required in"
-      },
-      {
-        "unit_code": "GRM743314",
-        "title": "required in preparing and cutting of materials and"
-      },
-      {
-        "unit_code": "GRM743316",
-        "title": "required in applying finishing touches and detailing on"
-      }
-    ],
-    "common": [
-      {
-        "unit_code": "GRM743203",
-        "title": "This unit covers the knowledge and skills required in"
-      }
-    ],
-    "core": [
-      {
-        "unit_code": "GRM743313",
-        "title": "required in drafting and cutting basic/block pattern for"
-      }
-    ],
-    "other": [
-      {
-        "unit_code": "500311107",
-        "title": "promoting career growth and advancement."
-      },
-      {
-        "unit_code": "500311108",
-        "title": "This unit covers the outcomes required to comply"
-      },
-      {
-        "unit_code": "GRM743315",
-        "title": "This unit covers the knowledge, skills and attitudes"
-      }
-    ]
-  },
-  "relationships": [],
-  "source_text": "COMPETENCY MAP\nGarment (Dressmaking/Tailoring) Sector\nTAILORING NC II\nDraft and\nCut Pattern of\n Formal Apparel\nApply Finishing\nTouches on\nFormal Apparel\nDraft and\nCut Pattern of\nHigh Fashion\nApparel\nPrepare and\nCut Materials of\nCasual Apparel\nApply\nquality\nstandard\nCarry out\nmeasurements\nand calculation\nPrepare and\nCut Materials of\nHigh Fashion\nApparel\nSet-up and\n operate machines\nDraft and\nCut Pattern of\nCasual Apparel\nCOR\nE\nCOMPETENCIE\nS\nCOMMO\nN\nCOMPETENCIE\nS\nPrepare and\nCut Materials of\nFormal Apparel\nSew\nHigh Fashion\nApparel\nApply Finishing\nTouches on High\nFashion Apparel\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\n\n--- PDF PAGE 55 ---\n________________________________________________________________________________________________\nTR Tailoring NC II (Garment Sector)\n\nPromulgated March 18, 2005\n\n53",
-  "normalization_note": "Relationships are represented semantically where explicit in extracted source text; the complete extracted map remains in source_text."
+  "groups": [
+    {
+      "group": "basic",
+      "unit_codes": [
+        "500311105",
+        "500311106",
+        "500311107",
+        "500311108"
+      ],
+      "unit_titles": [
+        "Participate in workplace communication",
+        "Work in a team environment",
+        "Practice career professionalism",
+        "Practice occupational health and safety procedures"
+      ]
+    },
+    {
+      "group": "common",
+      "unit_codes": [
+        "GRM743203",
+        "GRM743204",
+        "GRM743205",
+        "GRM743206"
+      ],
+      "unit_titles": [
+        "Carry out measurements and calculation",
+        "Set up and operate machine/s",
+        "Perform basic maintenance",
+        "Apply quality standards"
+      ]
+    },
+    {
+      "group": "core",
+      "unit_codes": [
+        "GRM743313",
+        "GRM743314",
+        "GRM743315",
+        "GRM743316"
+      ],
+      "unit_titles": [
+        "Draft and cut pattern of casual apparel",
+        "Prepare and cut materials of casual apparel",
+        "Sew casual apparel",
+        "Apply finishing touches on casual apparel"
+      ]
+    }
+  ],
+  "source_text": "Section 1. Successful candidates shall be awarded National\nCertificate signed by the TESDA Director General\n\n4.2\nThe qualification of Tailoring NC II may be attained through:\n\n4.2.1 Accumulation of Certificates of Competency (COCs) in all the following\nareas:\n\n4.2.1.1\nDraft and Cut Pattern of Men's Casual Apparel\n4.2.1.1.1 Draft and Cut Pattern of Casual Apparel\n4.2.1.2\nCut and Sew Men's Casual Apparel\n4.2.1.2.1 Prepare and Cut Materials of Casual Apparel\n4.2.1.2.2 Sew Casual Apparel\n4.2.1.2.3 Apply Finishing Touches on Casual Apparel\nSuccessful candidates shall be awarded Certificates of Competency\n(COC.\n\n4.2.2 Demonstration of competence through project-type assessment\ncovering all the required units of the qualification.\n\n4.3\nAssessment shall focus on the core units of competency. The basic and\ncommon units shall be integrated or assessed concurrently with the core\nunits.\n\n4.4\nThe following are qualified to apply for assessment and certification:\n\n4.4.1 Graduates of formal, non-formal and informal including enterprise-\nbased training programs.\n\n4.4.2 Experienced workers (wage-employed or self-employed)\n\n4.5\nThe guidelines on assessment and certification are discussed in detail in the\n“Procedures Manual on Assessment and Certification” and “Guidelines on the\nImplementation of the Philippine TVET Qualification and Certification System\n(PTQCS)”.\n\n--- PDF PAGE 54 ---\n_____________________________________________________________________________________\nTR Tailoring NC II (Garment Sector) Promulgated March 2005\n52\n\nPerform\nbasic\nmaintenance\nSew\nFormal\nApparel\nSew\nCasual\nApparel\nApply Finishing\nTouches on\nCasual Apparel\nCOMPETENCY MAP\nGarment (Dressmaking/Tailoring) Sector\nTAILORING NC II\nDraft and\nCut Pattern of\n Formal Apparel\nApply Finishing\nTouches on\nFormal Apparel\nDraft and\nCut Pattern of\nHigh Fashion\nApparel\nPrepare and\nCut Materials of\nCasual Apparel\nApply\nquality\nstandard\nCarry out\nmeasurements\nand calculation\nPrepare and\nCut Materials of\nHigh Fashion\nApparel\nSet-up and\n operate machines\nDraft and\nCut Pattern of\nCasual Apparel\nCOR\nE\nCOMPETENCIE\nS\nCOMMO\nN\nCOMPETENCIE\nS\nPrepare and\nCut Materials of\nFormal Apparel\nSew\nHigh Fashion\nApparel\nApply Finishing\nTouches on High\nFashion Apparel\nLead workplace\ncommunication\nWork with\nothers\nWork in team\nenvironment\nLead small\nteams\nSolve problems\nrelated to work\nactivities\nReceive and\nrespond to\nworkplace\ncommunication\nParticipate in\nworkplace\ncommunication\nBASI\nC\nCOMPETENCIE\nS\nApply problem\nsolving\ntechniques to\nworkplace\nPlan and organize\nwork\nPractice career\nprofessionalism\nDemonstrate\nwork values\nPractice\noccupational health\nand safety\nprocedures\nDevelop and\npractice\nnegotiation skills\nUse\nmathematical\nmethod\nUse relevant\ntechnologies\nUtilize\nspecialized\ncommunication\nskills\nDevelop team\nand individual\nCollect, analyze\nand organize\ninformation\nPromote\nenvironmental\nprotection\nPractice basic\nhousekeeping\nprocedures\n\n--- PDF PAGE 55 ---\n________________________________________________________________________________________________\nTR Tailoring NC II (Garment Sector)\n\nPromulgated March 18, 2005\n\n53\n\nDEFINITION OF TERMS\n\nFabric grain\nrefers to woven fabrics that compose of two sets of yarns\n(threads) that run at right angle to each other.\nManipulation\nis the process of producing another pattern adapting\nexisting blocks pattern.\nWarp\nare the lengthwise yarns (threads) that run vertically in a\nwoven fabric\nWeft\nthe crosswise yarns (threads) that run horizontally in a\nwoven fabric\nSelvedge\nis edge of woven fabric finished to prevent raveling.\nDesign\na combination of lines or shapes to form a decoration\nOn grain\na fabric is on grain when the lengthwise threads run\nexactly at right angles to each other.\nOff grain\nwhen the two sets of grain do not run at right angle to each\nother\nSpecification Sheet\nrefers to a data containing the final instructions regarding\nsizes, stitches, etc.\nStyle/Design\nrefers to a kind of outlook based on printed materials,\nshows, trends and market choice.\nAccents\nrefer to accessories/materials that are used to enhance\nand glamorize dress such as beads, pearls, rhinestones,\nmetals, laces and bias.\nDesign\nInterpretation\nrefers to sketches of design either white or colored\ninterpreted into pattern.\nMannequin\na three dimensional model of human form used for fitting\nclothes and made of either fiber glass, ivory, porcelain,\nwood or paper mache.\n\n--- PDF PAGE 56 ---\n________________________________________________________________________________________________\nTR Tailoring NC II (Garment Sector)\n\nPromulgated March 18, 2005\n\n54\n\nFinishing Touches\nrefer to work done on a dress to enhance the total quality\nfeature of a product.\nBlazer\nrefers to the kind of dress for women which is otherwise\ncalled as overcoat.\nGown\nrefers to a long dress sometimes made of beads and\nexpensive materials.\nCasual Dress\nrefers to the kind of dress used for everyday wear which is\nvogue and comfortable.\nWorkplace Quality\nStandards\nrefer to the expected characteristics of finished garment.\nThe quality standard that applies in the candidate\nworkplace is the standard that is appropriate for\nassessment purposes\n\n--- PDF PAGE 57 ---\n________________________________________________________________________________________________\nTR Tailoring NC II (Garment Sector)\n\nPromulgated March 18, 2005\n\n55\nACKNOWLEDGEMENT\n\nThe Technical Education and skills Development Authority (TESDA) wishes to\nextend thanks and appreciation to the many representatives of business, industry,\nacademe and government agencies who donated their time and expertise to the\ndevelopment and validation of this Training Regulations.\n\n• THE TECHNICAL ADVISORY PANEL (TAP)\n\nMRS. ELOISA FRANCISCO\nTAP Member\nGolden Hands Fashion and Arts School\n1913 3rd Floor, Luna-Orosa Bldg.\nTaft Avenue, Manila\n\n• THE TECHNICAL EXPERT PANEL (TEP)\n\n• DRESSMAKING\n• TAILORING\nMr. GERRY T. BENAMER\nPauline’s Enterprises\n Ayala Alabang, Muntinlupa City\nMr. ROMEO D. DACLES\nBroad Street Apparel\nBanawe, Quezon City\nMs. PORTIA ATUTUBO\nCS Garments\nCEPZA, Rosario, Cavite\nMs. IRENE J. TORRES\nCS Garment\n CEPZA, Rosario, Cavite\nMr. GASAT M. DAMASEN\nEARN School\nIllinois St., Cubao, Quezon City\nMs. PERLITA DINGLASAN\nGelmart Industries Philippines\n Paranaque, Metro Manila\n\nMr. ANDRES AUSTRIA\nMeriam College\nQuezon City\n\nThe Participants in the national validation of this Training Regulation\n\n• TESDA III\n• TESDA IV\n\nThe Management and Staff of the TESDA Secretariat\n\n• SSCO\n• NITVET\n• TWC"
 }

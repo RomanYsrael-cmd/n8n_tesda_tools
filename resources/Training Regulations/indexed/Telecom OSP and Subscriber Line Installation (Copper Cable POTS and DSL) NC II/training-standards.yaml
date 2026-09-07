@@ -1,80 +1,824 @@
 {
-  "schema": "tesda-training-arrangements",
+  "schema": "tesda-training-standards",
   "schema_version": "2.0",
-  "document_id": "tesda:tr:telecom-osp-and-subscriber-line-installation-copper-cable-pots-and-dsl-nc-ii:2011-10",
-  "qualification": "Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II",
+  "document_id": "tesda:tr:telecom-osp-and-subscriber-line-installation-copper-cable-pots-and-dsl-nc-ii:0c0033bc76",
+  "qualification": "TELECOM OSP AND SUBSCRIBER LINE INSTALLATION (COPPER CABLE POTS AND DSL) NC II",
   "content_status": "complete",
   "source": {
+    "authority": "TESDA",
     "source_file": "Telecom OSP and Subscriber Line Installation (Copper Cable POTS and DSL) NC II.pdf",
-    "pdf_pages": 59
+    "pdf_pages": 59,
+    "printed_pages": 57,
+    "promulgated": "October 2011"
+  },
+  "nominal_duration": {
+    "components": [
+      {
+        "label": "Basic Competencies",
+        "hours": 16,
+        "source_expression": "16 hrs. - Basic Competencies"
+      },
+      {
+        "label": "Common Competencies",
+        "hours": 16,
+        "source_expression": "16 hrs. - Common Competencies"
+      },
+      {
+        "label": "Core Competencies",
+        "hours": 448,
+        "source_expression": "448 hrs. - Core Competencies"
+      }
+    ],
+    "other_components": [],
+    "total_hours": 480,
+    "total_source_expression": "480 hrs.",
+    "source_expressions": [
+      "16 hrs. - Basic Competencies",
+      "16 hrs. - Common Competencies",
+      "448 hrs. - Core Competencies"
+    ],
+    "arithmetic_check": {
+      "sum_hours": 480,
+      "matches_total": true
+    }
   },
   "curriculum_design": {
     "present": true,
     "entries": [
       {
-        "unit_code": "101001100",
-        "title": "10 X 10",
-        "learning_outcomes": [],
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Obtain and convey workplace information",
         "learning_activities": [],
-        "methodology": null,
-        "assessment_approach": null,
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
         "nominal_duration": {
           "hours": null,
           "source_expression": null
         },
-        "source_text": "10\n100\n1\n100\nLearning Resource Area\n6 x 7\n42\n1\n42\nTool Room/Storage Area\n5 x 5\n25\n1\n25\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n159\nFacilities / Equipment / Circulation*\n\n60\n Total Area\n\n219\n\n*Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINERS QUALIFICATIONS\n\n•\nMust be a holder of Telecom OSP and Subscriber line Installation (Copper\nCable/POTS and DSL) NC II or equivalent\n•\nHolder of National TVET Trainers Certificate Level I\n•\n* Must have at least 5-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional:\nOnly when required by the hiring institution.\n\n3.7 ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\nAs a matter of policy, graduates of programs registered with TESDA\nunder these training regulations are required to undergo mandatory national\ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 52 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 50\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Complete relevant work- related document",
+        "learning_activities": [],
+        "methodology": [
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311105",
+        "unit_title": "Participate in workplace communication",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Participate in workplace meeting and discussion",
+        "learning_activities": [],
+        "methodology": [
+          "Group discussion"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Describe and identify team role and responsibility in a team",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311106",
+        "unit_title": "Work in a team environment",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Describe work as a team member",
+        "learning_activities": [],
+        "methodology": [
+          "Cable/POTS and DSL) NC"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning Page 42 II"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 44
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Integrate personal",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Set and meet work priorities",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Interviews/ questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311107",
+        "unit_title": "Practice career professionalism",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Maintain professional growth and development",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion",
+          "Interaction"
+        ],
+        "assessment_approach": [
+          "Demonstration",
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Identify hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Evaluate hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Plant tour"
+        ],
+        "assessment_approach": [
+          "Interview"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Control hazards and risks",
+        "learning_activities": [],
+        "methodology": [
+          "Symposium"
+        ],
+        "assessment_approach": [
+          "Observation"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "basic",
+        "unit_code": "500311108",
+        "unit_title": "Practice occupational health and safety procedures",
+        "learning_outcome_number": "4.4",
+        "learning_outcome": "Maintain occupational health and safety awareness",
+        "learning_activities": [],
+        "methodology": [
+          "Cable/POTS and DSL) NC"
+        ],
+        "assessment_approach": [
+          "Page 43 II"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 45
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply Quality Standards",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Asses quality of received materials",
+        "learning_activities": [],
+        "methodology": [
+          "Field trip  Symposium"
+        ],
+        "assessment_approach": [
+          "Demonstration & questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply Quality Standards",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Assess own work",
+        "learning_activities": [],
+        "methodology": [
+          "Film showing"
+        ],
+        "assessment_approach": [
+          "Observation &"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT315202",
+        "unit_title": "Apply Quality Standards",
+        "learning_outcome_number": "1.3",
+        "learning_outcome": "Engage in quality improvement",
+        "learning_activities": [],
+        "methodology": [
+          "Simulation  On the job training"
+        ],
+        "assessment_approach": [
+          "questioning  Third party report"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a Personal Computer",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Start and shutdown computer",
+        "learning_activities": [],
+        "methodology": [
+          "Modular",
+          "Film showing"
+        ],
+        "assessment_approach": [
+          "Demonstration & questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a Personal Computer",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Work with files and folders",
+        "learning_activities": [],
+        "methodology": [
+          "Computer"
+        ],
+        "assessment_approach": [
+          "Observation &"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a Personal Computer",
+        "learning_outcome_number": "2.3",
+        "learning_outcome": "Arrange and customize desktop display",
+        "learning_activities": [],
+        "methodology": [
+          "based training (e-learning)"
+        ],
+        "assessment_approach": [
+          "questioning",
+          "Third party"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "common",
+        "unit_code": "ICT311203",
+        "unit_title": "Operate a Personal Computer",
+        "learning_outcome_number": "2.4",
+        "learning_outcome": "Utilize OS bundled application",
+        "learning_activities": [],
+        "methodology": [
+          "Project method",
+          "On the job training Cable/POTS and DSL)"
+        ],
+        "assessment_approach": [
+          "report",
+          "Assessment of output product",
+          "Portfolio",
+          "Computer- based assessment Page 44"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 46
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724605",
+        "unit_title": "Install pole hardware, cable terminal, line wire and accessories",
+        "learning_outcome_number": "1.1",
+        "learning_outcome": "Prepare for pole hardware, cable terminal and line wire installation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture  Discussion"
+        ],
+        "assessment_approach": [
+          "Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724605",
+        "unit_title": "Install pole hardware, cable terminal, line wire and accessories",
+        "learning_outcome_number": "1.2",
+        "learning_outcome": "Perform pole hardware, cable terminal, line wire and accessories installation",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration  Hands on practice / SIT"
+        ],
+        "assessment_approach": [
+          "Demonstration  Oral questioning  Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724606",
+        "unit_title": "Perform main cable installation",
+        "learning_outcome_number": "2.1",
+        "learning_outcome": "Prepare for copper cable jointing and installation",
+        "learning_activities": [],
+        "methodology": [
+          "and  Lecture  Discussion"
+        ],
+        "assessment_approach": [
+          "Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724606",
+        "unit_title": "Perform main cable installation",
+        "learning_outcome_number": "2.2",
+        "learning_outcome": "Install main copper cable",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration  Hands on practice / SIT"
+        ],
+        "assessment_approach": [
+          "Demonstration  Oral questioning  Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724607",
+        "unit_title": "Splice/Joint cable terminal to main aerial and/or underground copper cable splice",
+        "learning_outcome_number": "3.1",
+        "learning_outcome": "Splice and join cable terminal and main cable pairs for aerial copper cable works",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture  Discussion  Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation in workplace  Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724607",
+        "unit_title": "Splice/Joint cable terminal to main aerial and/or underground copper cable splice",
+        "learning_outcome_number": "3.2",
+        "learning_outcome": "Splice and join straight and branch cable pairs for underground copper cable works",
+        "learning_activities": [],
+        "methodology": [
+          "Viewing multimedia  Hands on"
+        ],
+        "assessment_approach": [
+          "Oral questioning  Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724607",
+        "unit_title": "Splice/Joint cable terminal to main aerial and/or underground copper cable splice",
+        "learning_outcome_number": "3.3",
+        "learning_outcome": "Install Cable Closure",
+        "learning_activities": [],
+        "methodology": [
+          "practice/ SIT"
+        ],
+        "assessment_approach": [
+          "Observation in workplace  Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724607",
+        "unit_title": "Splice/Joint cable terminal to main aerial and/or underground copper cable splice",
+        "learning_outcome_number": "3.4",
+        "learning_outcome": "Install Cable Support",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture  Discussion  Demonstration"
+        ],
+        "assessment_approach": [
+          "Observation in workplace  Demonstration"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724608",
+        "unit_title": "Perform basic troubleshooting and correction of cable fault and error",
+        "learning_outcome_number": "4.1",
+        "learning_outcome": "Prepare for cable fault and error troubleshooting",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture  Discussion"
+        ],
+        "assessment_approach": [
+          "Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724608",
+        "unit_title": "Perform basic troubleshooting and correction of cable fault and error",
+        "learning_outcome_number": "4.2",
+        "learning_outcome": "Test and correct cable faults and errors",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration  Viewing"
+        ],
+        "assessment_approach": [
+          "Demonstration  Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724608",
+        "unit_title": "Perform basic troubleshooting and correction of cable fault and error",
+        "learning_outcome_number": "4.3",
+        "learning_outcome": "Wrap up job",
+        "learning_activities": [],
+        "methodology": [
+          "multimedia  Hands on practice/ SIT"
+        ],
+        "assessment_approach": [
+          "questioning  Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724609",
+        "unit_title": "Install POTS subscriber line",
+        "learning_outcome_number": "5.1",
+        "learning_outcome": "Prepare distribution joint to customer premises installation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture  Discussion"
+        ],
+        "assessment_approach": [
+          "Observation in workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724609",
+        "unit_title": "Install POTS subscriber line",
+        "learning_outcome_number": "5.2",
+        "learning_outcome": "Layout and install drop wire and house attachment",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration  Viewing"
+        ],
+        "assessment_approach": [
+          "Demonstration  Oral"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724609",
+        "unit_title": "Install POTS subscriber line",
+        "learning_outcome_number": "5.3",
+        "learning_outcome": "Install telephone set and accessories",
+        "learning_activities": [],
+        "methodology": [
+          "multimedia"
+        ],
+        "assessment_approach": [
+          "questioning"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724609",
+        "unit_title": "Install POTS subscriber line",
+        "learning_outcome_number": "5.4",
+        "learning_outcome": "Wrap up job",
+        "learning_activities": [],
+        "methodology": [
+          "Hands on practice/ SIT"
+        ],
+        "assessment_approach": [
+          "Written test"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724610",
+        "unit_title": "Install Digital Subscriber Line (DSL)",
+        "learning_outcome_number": "6.1",
+        "learning_outcome": "Prepare for DSL Modem Installation",
+        "learning_activities": [],
+        "methodology": [
+          "Lecture"
+        ],
+        "assessment_approach": [
+          "Observation in"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724610",
+        "unit_title": "Install Digital Subscriber Line (DSL)",
+        "learning_outcome_number": "6.2",
+        "learning_outcome": "Perform Installation of DSL Modem",
+        "learning_activities": [],
+        "methodology": [
+          "Discussion"
+        ],
+        "assessment_approach": [
+          "workplace"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
+      },
+      {
+        "group": "core",
+        "unit_code": "ICT724610",
+        "unit_title": "Install Digital Subscriber Line (DSL)",
+        "learning_outcome_number": "6.3",
+        "learning_outcome": "Wrap up job",
+        "learning_activities": [],
+        "methodology": [
+          "Demonstration  Viewing multimedia  Hands on practice/ SIT is included in the training Cable/POTS and DSL)"
+        ],
+        "assessment_approach": [
+          "Demonstration  Oral questioning  Written test duration. Page 45"
+        ],
+        "nominal_duration": {
+          "hours": null,
+          "source_expression": null
+        },
+        "pdf_page": 47
       }
     ],
-    "source_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Telecom Installation (Copper Cable and DSL) NC Level: NC II\n\nNominal Training Duration: 16 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 448 hrs – Core Competencies\n 160 hrs in-school +\n\n288 hrs Supervised-Industry Training (SIT) in\n\n__________\n actual work environment\n\n 480 hrs. – Total training duration\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes\nof a Copper Cable Splicer/Jointer and Telephone and Broadband Installer, in\naccordance with industry standards. It covers the basic and common competencies in\naddition to the core competencies such as installing pole hardware, cable terminal,\nline wire and accessories; installing main copper cable; splicing/jointing cable terminal\nto main aerial/underground copper cable splices; performing basic troubleshooting on\ncable fault and errors; installing/connecting parallel wires; installing jacketed wire, CBK\nand telephone instrument; and installing digital subscriber lines.\n\nBASIC COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcome\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work-\nrelated document\n1.3 Participate in workplace\nmeeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 45 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 43\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3. Practice Career\nProfessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and\nSafety\nProcedures\n4.1 Identify hazards and risks.\n4.2 Evaluate hazards and\nrisks.\n4.3 Control hazards and risks.\n4.4 Maintain occupational\nhealth and safety\nawareness.\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 46 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 44\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Start and shutdown\ncomputer\n2.2 Work with files and folders\n2.3 Arrange and customize\ndesktop display\n2.4 Utilize OS bundled\napplication\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 47 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 45\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCORE COMPETENCIES\n480 hrs. (160 hrs in-school + 288 hrs. SIT*)\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Install Pole\nHardware,\nCable Terminal,\nLine Wire and\nAccessories\n\n1.1\nPrepare for pole hardware, cable\nterminal and line wire installation\n1.2 Perform pole hardware, cable\nterminal, line wire and accessories\ninstallation\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n2. Perform Main\nCable\nInstallation\n\n2.1 Prepare for copper cable jointing and\ninstallation\n2.2 Install main copper cable\n\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n3. Splice/Joint\ncable terminal\nto main aerial\ncable and/or\nunderground\ncable splice\n\n3.1 Splice and join cable terminal and\nmain cable pairs for aerial copper\ncable works\n3.2 Splice and join straight and branch\ncable pairs for underground copper\ncable works\n3.3 Install Cable Closure\n3.4 Install Cable Support\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n4. Perform basic\ntroubleshooting\nand correction\nof cable faults\nand errors\n4.1 Prepare for cable fault and error\ntroubleshooting\n4.2 Test and correct cable faults and\nerrors\n4.3 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n5. Install POTS\nsubscriber line\n5.1 Prepare distribution joint to customer\npremises installation\n5.2 Layout and install drop wire and\nhouse attachment\n5.3 Install telephone set and accessories\n5.4 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n6. Install digital\nsubscriber lines\n(DSL)\n6.1 Prepare for DSL Modem Installation\n6.2 Perform Installation of DSL Modem\n6.3 Wrap up job\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n\n*Note: Supervised-Industry Training (SIT) in actual work environment is included in the training duration.\n\n--- PDF PAGE 48 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 46\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is by group/individualized and self paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job requirements;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and in-\nindustry training or fieldwork components. Details can be referred to\nthe Dual Training System (DTS) Implementing Rules and\nRegulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer conducts and facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners\nare given the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study,\nor audio, video or computer technologies.\n\n--- PDF PAGE 49 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 47\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nCan communicate in oral and written language\n•\nCan perform basic mathematical computations\n•\nMust be physically and mentally fit to undergo training\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS (Institution-based)\n\nRecommended list of tools, equipment and materials required for a class size\nof 15 trainees for Copper Cable Splicing and Installation NC II:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n5\nset of wrenches\n\nLine extender*\n1 roll\nmessengered cable\n10\nSet of screwdrivers\n\nService vehicle*\n3\nset of suspension clamps\n10\ntorque wrench\n1\nlineman boom truck*\n3\npole extension arm\n10\nF-open wrench\n1\ncable trailer*\n5\nPressure testing valve\n3\nbolt cutter\n1\nreel stand*\n5\npole insulator\n5\ncable slitter\n1\nlashing machine*\n5\nground/guying insulator\n5\nElectrician scissors\n1\nManhole pump\n5\npole tag\n3\nStaple gun\n1\nPower supply\n5\ncable tag\n3\nTechnician’s knife\n1\nTrunk amplifier\n10\nsets of washer, bolts and\nnuts, machine bolts\n5\nCable prep tool\n1\nTV set\n1\nmachine bolts – straight,\nthimble-eye and bent types\n2\nset of hammer\n1\nLCD\n1 rl\nstainless lashing wire\n10\nset of pliers\n1\nKaraoke\n60\nlashing wire clamps\n5\nBoring tools\n1\nmicrophone\n\n5\nBlow torch\n1\nDVD /VCD /MP3 players\n\n10\nPoly knife\n1\nPersonal computers/\ninternet\n\n5\nhacksaw\n5\ncable tensioner/\nrachet/ coping jack\n\n10\nCrimping/\ncompression tool\n\n5\ncable guide\n10\naerial handline\n5\nset of ropes\n10\ntape linen/steel tape\n\n5\nManhole hook\n\n5\nManhole Ladder 10 ft\n\n5\nExtension Ladder 20ft\n\n--- PDF PAGE 50 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 48\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\n5\nfixing brackets/ clamps\n\nPPE:\n5\nstandard rope\n5\ncolor coded marked tape\n5\nlay-up stick / cable lifter\n5\nSafety shoes\n2\nextension arm\n5\nadjustable wrench\n5\nbody belt & strap\n5\nClosure kits\n5\nextension ladders (24\nft. length)\n5\nSafety goggles\ntool pouch/holster\n1 rl\ngrounding wire (gauge 12,\nstranded)\n5\ndrill/electric drill (w/ bits\nof various sizes)\n3\nsafety cones/other\ncollapsible signs\n5\ngrounding rod (1/4’ by 4’\nwith clamp)\n10\ngimlet\n10\nset gloves\n5\nCable clamps\n\nhard hat/ helmet\n5\nsets\nscrew hooks\n5\nlag screws\n\n5\nRain coat\n5000\nUY-Connetors\n\n2\nsidewalk guy fixture\n\n5\nbonding clamp\n\n2\nanchor and grounding rods\n\n10\ncable support\n\n10\ncable spacer\n\n10\nadhesive tape\n\n10\nstrand clamps\n\n1\nsoap\n\n60\ncable tie\n\n5\nrubber boots\n\n* optional\n\n--- PDF PAGE 51 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 49\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.5 TRAINING FACILITIES\n\nEstimated for maximum of 15 pax\nRecommended space requirements for the various teaching/learning areas\nare as follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n6 x 5\n30\n1\n30\nLaboratory Area\n10 X 10\n100\n1\n100\nLearning Resource Area\n6 x 7\n42\n1\n42\nTool Room/Storage Area\n5 x 5\n25\n1\n25\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n159\nFacilities / Equipment / Circulation*\n\n60\n Total Area\n\n219\n\n*Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINERS QUALIFICATIONS\n\n•\nMust be a holder of Telecom OSP and Subscriber line Installation (Copper\nCable/POTS and DSL) NC II or equivalent\n•\nHolder of National TVET Trainers Certificate Level I\n•\n* Must have at least 5-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional:\nOnly when required by the hiring institution.\n\n3.7 ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\nAs a matter of policy, graduates of programs registered with TESDA\nunder these training regulations are required to undergo mandatory national\ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 52 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 50\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
+    "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: Telecom Installation (Copper Cable and DSL) NC Level: NC II\n\nNominal Training Duration: 16 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 448 hrs – Core Competencies\n 160 hrs in-school +\n\n288 hrs Supervised-Industry Training (SIT) in\n\n__________\n actual work environment\n\n 480 hrs. – Total training duration\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes\nof a Copper Cable Splicer/Jointer and Telephone and Broadband Installer, in\naccordance with industry standards. It covers the basic and common competencies in\naddition to the core competencies such as installing pole hardware, cable terminal,\nline wire and accessories; installing main copper cable; splicing/jointing cable terminal\nto main aerial/underground copper cable splices; performing basic troubleshooting on\ncable fault and errors; installing/connecting parallel wires; installing jacketed wire, CBK\nand telephone instrument; and installing digital subscriber lines.\n\nBASIC COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcome\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work-\nrelated document\n1.3 Participate in workplace\nmeeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 45 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 43\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3. Practice Career\nProfessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and\nSafety\nProcedures\n4.1 Identify hazards and risks.\n4.2 Evaluate hazards and\nrisks.\n4.3 Control hazards and risks.\n4.4 Maintain occupational\nhealth and safety\nawareness.\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 46 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 44\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Start and shutdown\ncomputer\n2.2 Work with files and folders\n2.3 Arrange and customize\ndesktop display\n2.4 Utilize OS bundled\napplication\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 47 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 45\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCORE COMPETENCIES\n480 hrs. (160 hrs in-school + 288 hrs. SIT*)\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Install Pole\nHardware,\nCable Terminal,\nLine Wire and\nAccessories\n\n1.1\nPrepare for pole hardware, cable\nterminal and line wire installation\n1.2 Perform pole hardware, cable\nterminal, line wire and accessories\ninstallation\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n2. Perform Main\nCable\nInstallation\n\n2.1 Prepare for copper cable jointing and\ninstallation\n2.2 Install main copper cable\n\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n3. Splice/Joint\ncable terminal\nto main aerial\ncable and/or\nunderground\ncable splice\n\n3.1 Splice and join cable terminal and\nmain cable pairs for aerial copper\ncable works\n3.2 Splice and join straight and branch\ncable pairs for underground copper\ncable works\n3.3 Install Cable Closure\n3.4 Install Cable Support\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n4. Perform basic\ntroubleshooting\nand correction\nof cable faults\nand errors\n4.1 Prepare for cable fault and error\ntroubleshooting\n4.2 Test and correct cable faults and\nerrors\n4.3 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n5. Install POTS\nsubscriber line\n5.1 Prepare distribution joint to customer\npremises installation\n5.2 Layout and install drop wire and\nhouse attachment\n5.3 Install telephone set and accessories\n5.4 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n6. Install digital\nsubscriber lines\n(DSL)\n6.1 Prepare for DSL Modem Installation\n6.2 Perform Installation of DSL Modem\n6.3 Wrap up job\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n\n*Note: Supervised-Industry Training (SIT) in actual work environment is included in the training duration.\n\n--- PDF PAGE 48 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 46\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
   },
   "subsections": {
     "curriculum_design": {
       "present": true,
-      "source_text": "Course Title: Telecom Installation (Copper Cable and DSL) NC Level: NC II\n\nNominal Training Duration: 16 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 448 hrs – Core Competencies\n 160 hrs in-school +\n\n288 hrs Supervised-Industry Training (SIT) in\n\n__________\n actual work environment\n\n 480 hrs. – Total training duration\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes\nof a Copper Cable Splicer/Jointer and Telephone and Broadband Installer, in\naccordance with industry standards. It covers the basic and common competencies in\naddition to the core competencies such as installing pole hardware, cable terminal,\nline wire and accessories; installing main copper cable; splicing/jointing cable terminal\nto main aerial/underground copper cable splices; performing basic troubleshooting on\ncable fault and errors; installing/connecting parallel wires; installing jacketed wire, CBK\nand telephone instrument; and installing digital subscriber lines.\n\nBASIC COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcome\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work-\nrelated document\n1.3 Participate in workplace\nmeeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 45 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 43\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3. Practice Career\nProfessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and\nSafety\nProcedures\n4.1 Identify hazards and risks.\n4.2 Evaluate hazards and\nrisks.\n4.3 Control hazards and risks.\n4.4 Maintain occupational\nhealth and safety\nawareness.\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 46 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 44\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Start and shutdown\ncomputer\n2.2 Work with files and folders\n2.3 Arrange and customize\ndesktop display\n2.4 Utilize OS bundled\napplication\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 47 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 45\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCORE COMPETENCIES\n480 hrs. (160 hrs in-school + 288 hrs. SIT*)\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Install Pole\nHardware,\nCable Terminal,\nLine Wire and\nAccessories\n\n1.1\nPrepare for pole hardware, cable\nterminal and line wire installation\n1.2 Perform pole hardware, cable\nterminal, line wire and accessories\ninstallation\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n2. Perform Main\nCable\nInstallation\n\n2.1 Prepare for copper cable jointing and\ninstallation\n2.2 Install main copper cable\n\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n3. Splice/Joint\ncable terminal\nto main aerial\ncable and/or\nunderground\ncable splice\n\n3.1 Splice and join cable terminal and\nmain cable pairs for aerial copper\ncable works\n3.2 Splice and join straight and branch\ncable pairs for underground copper\ncable works\n3.3 Install Cable Closure\n3.4 Install Cable Support\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n4. Perform basic\ntroubleshooting\nand correction\nof cable faults\nand errors\n4.1 Prepare for cable fault and error\ntroubleshooting\n4.2 Test and correct cable faults and\nerrors\n4.3 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n5. Install POTS\nsubscriber line\n5.1 Prepare distribution joint to customer\npremises installation\n5.2 Layout and install drop wire and\nhouse attachment\n5.3 Install telephone set and accessories\n5.4 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n6. Install digital\nsubscriber lines\n(DSL)\n6.1 Prepare for DSL Modem Installation\n6.2 Perform Installation of DSL Modem\n6.3 Wrap up job\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n\n*Note: Supervised-Industry Training (SIT) in actual work environment is included in the training duration.\n\n--- PDF PAGE 48 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 46\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011",
-      "pdf_pages": []
+      "pdf_pages": [
+        44
+      ],
+      "source_text": "3.1\nCURRICULUM DESIGN\n\nCourse Title: Telecom Installation (Copper Cable and DSL) NC Level: NC II\n\nNominal Training Duration: 16 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 448 hrs – Core Competencies\n 160 hrs in-school +\n\n288 hrs Supervised-Industry Training (SIT) in\n\n__________\n actual work environment\n\n 480 hrs. – Total training duration\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes\nof a Copper Cable Splicer/Jointer and Telephone and Broadband Installer, in\naccordance with industry standards. It covers the basic and common competencies in\naddition to the core competencies such as installing pole hardware, cable terminal,\nline wire and accessories; installing main copper cable; splicing/jointing cable terminal\nto main aerial/underground copper cable splices; performing basic troubleshooting on\ncable fault and errors; installing/connecting parallel wires; installing jacketed wire, CBK\nand telephone instrument; and installing digital subscriber lines.\n\nBASIC COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcome\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work-\nrelated document\n1.3 Participate in workplace\nmeeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 45 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 43\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3. Practice Career\nProfessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and\nSafety\nProcedures\n4.1 Identify hazards and risks.\n4.2 Evaluate hazards and\nrisks.\n4.3 Control hazards and risks.\n4.4 Maintain occupational\nhealth and safety\nawareness.\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 46 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 44\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Start and shutdown\ncomputer\n2.2 Work with files and folders\n2.3 Arrange and customize\ndesktop display\n2.4 Utilize OS bundled\napplication\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 47 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 45\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCORE COMPETENCIES\n480 hrs. (160 hrs in-school + 288 hrs. SIT*)\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Install Pole\nHardware,\nCable Terminal,\nLine Wire and\nAccessories\n\n1.1\nPrepare for pole hardware, cable\nterminal and line wire installation\n1.2 Perform pole hardware, cable\nterminal, line wire and accessories\ninstallation\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n2. Perform Main\nCable\nInstallation\n\n2.1 Prepare for copper cable jointing and\ninstallation\n2.2 Install main copper cable\n\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n3. Splice/Joint\ncable terminal\nto main aerial\ncable and/or\nunderground\ncable splice\n\n3.1 Splice and join cable terminal and\nmain cable pairs for aerial copper\ncable works\n3.2 Splice and join straight and branch\ncable pairs for underground copper\ncable works\n3.3 Install Cable Closure\n3.4 Install Cable Support\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n4. Perform basic\ntroubleshooting\nand correction\nof cable faults\nand errors\n4.1 Prepare for cable fault and error\ntroubleshooting\n4.2 Test and correct cable faults and\nerrors\n4.3 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n5. Install POTS\nsubscriber line\n5.1 Prepare distribution joint to customer\npremises installation\n5.2 Layout and install drop wire and\nhouse attachment\n5.3 Install telephone set and accessories\n5.4 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n6. Install digital\nsubscriber lines\n(DSL)\n6.1 Prepare for DSL Modem Installation\n6.2 Perform Installation of DSL Modem\n6.3 Wrap up job\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n\n*Note: Supervised-Industry Training (SIT) in actual work environment is included in the training duration.\n\n--- PDF PAGE 48 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 46\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
     },
     "training_delivery": {
       "present": true,
-      "source_text": "The delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is by group/individualized and self paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job requirements;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and in-\nindustry training or fieldwork components. Details can be referred to\nthe Dual Training System (DTS) Implementing Rules and\nRegulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer conducts and facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners\nare given the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study,\nor audio, video or computer technologies.\n\n--- PDF PAGE 49 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 47\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011",
-      "pdf_pages": []
+      "pdf_pages": [
+        48
+      ],
+      "source_text": "3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is by group/individualized and self paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job requirements;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and in-\nindustry training or fieldwork components. Details can be referred to\nthe Dual Training System (DTS) Implementing Rules and\nRegulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer conducts and facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners\nare given the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study,\nor audio, video or computer technologies.\n\n--- PDF PAGE 49 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 47\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
     },
     "trainee_entry_requirements": {
       "present": true,
-      "source_text": "The trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nCan communicate in oral and written language\n•\nCan perform basic mathematical computations\n•\nMust be physically and mentally fit to undergo training\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.",
-      "pdf_pages": []
+      "pdf_pages": [
+        49
+      ],
+      "source_text": "3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nCan communicate in oral and written language\n•\nCan perform basic mathematical computations\n•\nMust be physically and mentally fit to undergo training\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram."
     },
     "tools_equipment_materials": {
       "present": true,
-      "source_text": ", EQUIPMENT AND MATERIALS (Institution-based)\n\nRecommended list of tools, equipment and materials required for a class size\nof 15 trainees for Copper Cable Splicing and Installation NC II:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n5\nset of wrenches\n\nLine extender*\n1 roll\nmessengered cable\n10\nSet of screwdrivers\n\nService vehicle*\n3\nset of suspension clamps\n10\ntorque wrench\n1\nlineman boom truck*\n3\npole extension arm\n10\nF-open wrench\n1\ncable trailer*\n5\nPressure testing valve\n3\nbolt cutter\n1\nreel stand*\n5\npole insulator\n5\ncable slitter\n1\nlashing machine*\n5\nground/guying insulator\n5\nElectrician scissors\n1\nManhole pump\n5\npole tag\n3\nStaple gun\n1\nPower supply\n5\ncable tag\n3\nTechnician’s knife\n1\nTrunk amplifier\n10\nsets of washer, bolts and\nnuts, machine bolts\n5\nCable prep tool\n1\nTV set\n1\nmachine bolts – straight,\nthimble-eye and bent types\n2\nset of hammer\n1\nLCD\n1 rl\nstainless lashing wire\n10\nset of pliers\n1\nKaraoke\n60\nlashing wire clamps\n5\nBoring tools\n1\nmicrophone\n\n5\nBlow torch\n1\nDVD /VCD /MP3 players\n\n10\nPoly knife\n1\nPersonal computers/\ninternet\n\n5\nhacksaw\n5\ncable tensioner/\nrachet/ coping jack\n\n10\nCrimping/\ncompression tool\n\n5\ncable guide\n10\naerial handline\n5\nset of ropes\n10\ntape linen/steel tape\n\n5\nManhole hook\n\n5\nManhole Ladder 10 ft\n\n5\nExtension Ladder 20ft\n\n--- PDF PAGE 50 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 48\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\n5\nfixing brackets/ clamps\n\nPPE:\n5\nstandard rope\n5\ncolor coded marked tape\n5\nlay-up stick / cable lifter\n5\nSafety shoes\n2\nextension arm\n5\nadjustable wrench\n5\nbody belt & strap\n5\nClosure kits\n5\nextension ladders (24\nft. length)\n5\nSafety goggles\ntool pouch/holster\n1 rl\ngrounding wire (gauge 12,\nstranded)\n5\ndrill/electric drill (w/ bits\nof various sizes)\n3\nsafety cones/other\ncollapsible signs\n5\ngrounding rod (1/4’ by 4’\nwith clamp)\n10\ngimlet\n10\nset gloves\n5\nCable clamps\n\nhard hat/ helmet\n5\nsets\nscrew hooks\n5\nlag screws\n\n5\nRain coat\n5000\nUY-Connetors\n\n2\nsidewalk guy fixture\n\n5\nbonding clamp\n\n2\nanchor and grounding rods\n\n10\ncable support\n\n10\ncable spacer\n\n10\nadhesive tape\n\n10\nstrand clamps\n\n1\nsoap\n\n60\ncable tie\n\n5\nrubber boots\n\n* optional\n\n--- PDF PAGE 51 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 49\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011",
-      "pdf_pages": []
+      "pdf_pages": [
+        49,
+        50
+      ],
+      "source_text": "3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS (Institution-based)\n\nRecommended list of tools, equipment and materials required for a class size\nof 15 trainees for Copper Cable Splicing and Installation NC II:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n5\nset of wrenches\n\nLine extender*\n1 roll\nmessengered cable\n10\nSet of screwdrivers\n\nService vehicle*\n3\nset of suspension clamps\n10\ntorque wrench\n1\nlineman boom truck*\n3\npole extension arm\n10\nF-open wrench\n1\ncable trailer*\n5\nPressure testing valve\n3\nbolt cutter\n1\nreel stand*\n5\npole insulator\n5\ncable slitter\n1\nlashing machine*\n5\nground/guying insulator\n5\nElectrician scissors\n1\nManhole pump\n5\npole tag\n3\nStaple gun\n1\nPower supply\n5\ncable tag\n3\nTechnician’s knife\n1\nTrunk amplifier\n10\nsets of washer, bolts and\nnuts, machine bolts\n5\nCable prep tool\n1\nTV set\n1\nmachine bolts – straight,\nthimble-eye and bent types\n2\nset of hammer\n1\nLCD\n1 rl\nstainless lashing wire\n10\nset of pliers\n1\nKaraoke\n60\nlashing wire clamps\n5\nBoring tools\n1\nmicrophone\n\n5\nBlow torch\n1\nDVD /VCD /MP3 players\n\n10\nPoly knife\n1\nPersonal computers/\ninternet\n\n5\nhacksaw\n5\ncable tensioner/\nrachet/ coping jack\n\n10\nCrimping/\ncompression tool\n\n5\ncable guide\n10\naerial handline\n5\nset of ropes\n10\ntape linen/steel tape\n\n5\nManhole hook\n\n5\nManhole Ladder 10 ft\n\n5\nExtension Ladder 20ft\n\n--- PDF PAGE 50 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 48\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\n5\nfixing brackets/ clamps\n\nPPE:\n5\nstandard rope\n5\ncolor coded marked tape\n5\nlay-up stick / cable lifter\n5\nSafety shoes\n2\nextension arm\n5\nadjustable wrench\n5\nbody belt & strap\n5\nClosure kits\n5\nextension ladders (24\nft. length)\n5\nSafety goggles\ntool pouch/holster\n1 rl\ngrounding wire (gauge 12,\nstranded)\n5\ndrill/electric drill (w/ bits\nof various sizes)\n3\nsafety cones/other\ncollapsible signs\n5\ngrounding rod (1/4’ by 4’\nwith clamp)\n10\ngimlet\n10\nset gloves\n5\nCable clamps\n\nhard hat/ helmet\n5\nsets\nscrew hooks\n5\nlag screws\n\n5\nRain coat\n5000\nUY-Connetors\n\n2\nsidewalk guy fixture\n\n5\nbonding clamp\n\n2\nanchor and grounding rods\n\n10\ncable support\n\n10\ncable spacer\n\n10\nadhesive tape\n\n10\nstrand clamps\n\n1\nsoap\n\n60\ncable tie\n\n5\nrubber boots\n\n* optional\n\n--- PDF PAGE 51 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 49\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
     },
     "training_facilities": {
       "present": true,
-      "source_text": "Estimated for maximum of 15 pax\nRecommended space requirements for the various teaching/learning areas\nare as follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n6 x 5\n30\n1\n30\nLaboratory Area\n10 X 10\n100\n1\n100\nLearning Resource Area\n6 x 7\n42\n1\n42\nTool Room/Storage Area\n5 x 5\n25\n1\n25\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n159\nFacilities / Equipment / Circulation*\n\n60\n Total Area\n\n219\n\n*Area requirement is equivalent to 30% of the total teaching/learning areas",
-      "pdf_pages": []
+      "pdf_pages": [
+        51
+      ],
+      "source_text": "3.5 TRAINING FACILITIES\n\nEstimated for maximum of 15 pax\nRecommended space requirements for the various teaching/learning areas\nare as follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n6 x 5\n30\n1\n30\nLaboratory Area\n10 X 10\n100\n1\n100\nLearning Resource Area\n6 x 7\n42\n1\n42\nTool Room/Storage Area\n5 x 5\n25\n1\n25\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n159\nFacilities / Equipment / Circulation*\n\n60\n Total Area\n\n219\n\n*Area requirement is equivalent to 30% of the total teaching/learning areas"
     },
     "trainer_qualifications": {
       "present": true,
-      "source_text": "•\nMust be a holder of Telecom OSP and Subscriber line Installation (Copper\nCable/POTS and DSL) NC II or equivalent\n•\nHolder of National TVET Trainers Certificate Level I\n•\n* Must have at least 5-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional:\nOnly when required by the hiring institution.\n\n3.7 ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\nAs a matter of policy, graduates of programs registered with TESDA\nunder these training regulations are required to undergo mandatory national\ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 52 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 50\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011",
-      "pdf_pages": []
+      "pdf_pages": [
+        51
+      ],
+      "source_text": "3.6 TRAINERS QUALIFICATIONS\n\n•\nMust be a holder of Telecom OSP and Subscriber line Installation (Copper\nCable/POTS and DSL) NC II or equivalent\n•\nHolder of National TVET Trainers Certificate Level I\n•\n* Must have at least 5-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional:\nOnly when required by the hiring institution.\n\n3.7 ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\nAs a matter of policy, graduates of programs registered with TESDA\nunder these training regulations are required to undergo mandatory national\ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 52 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 50\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
+    },
+    "institutional_assessment": {
+      "present": true,
+      "pdf_pages": [
+        44,
+        46,
+        47,
+        51
+      ],
+      "source_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Telecom Installation (Copper Cable and DSL) NC Level: NC II\n\nNominal Training Duration: 16 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 448 hrs – Core Competencies\n 160 hrs in-school +\n\n288 hrs Supervised-Industry Training (SIT) in\n\n__________\n actual work environment\n\n 480 hrs. – Total training duration\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes\nof a Copper Cable Splicer/Jointer and Telephone and Broadband Installer, in\naccordance with industry standards. It covers the basic and common competencies in\naddition to the core competencies such as installing pole hardware, cable terminal,\nline wire and accessories; installing main copper cable; splicing/jointing cable terminal\nto main aerial/underground copper cable splices; performing basic troubleshooting on\ncable fault and errors; installing/connecting parallel wires; installing jacketed wire, CBK\nand telephone instrument; and installing digital subscriber lines.\n\nBASIC COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcome\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work-\nrelated document\n1.3 Participate in workplace\nmeeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 45 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 43\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3. Practice Career\nProfessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and\nSafety\nProcedures\n4.1 Identify hazards and risks.\n4.2 Evaluate hazards and\nrisks.\n4.3 Control hazards and risks.\n4.4 Maintain occupational\nhealth and safety\nawareness.\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 46 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 44\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Start and shutdown\ncomputer\n2.2 Work with files and folders\n2.3 Arrange and customize\ndesktop display\n2.4 Utilize OS bundled\napplication\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 47 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 45\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCORE COMPETENCIES\n480 hrs. (160 hrs in-school + 288 hrs. SIT*)\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Install Pole\nHardware,\nCable Terminal,\nLine Wire and\nAccessories\n\n1.1\nPrepare for pole hardware, cable\nterminal and line wire installation\n1.2 Perform pole hardware, cable\nterminal, line wire and accessories\ninstallation\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n2. Perform Main\nCable\nInstallation\n\n2.1 Prepare for copper cable jointing and\ninstallation\n2.2 Install main copper cable\n\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n3. Splice/Joint\ncable terminal\nto main aerial\ncable and/or\nunderground\ncable splice\n\n3.1 Splice and join cable terminal and\nmain cable pairs for aerial copper\ncable works\n3.2 Splice and join straight and branch\ncable pairs for underground copper\ncable works\n3.3 Install Cable Closure\n3.4 Install Cable Support\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n4. Perform basic\ntroubleshooting\nand correction\nof cable faults\nand errors\n4.1 Prepare for cable fault and error\ntroubleshooting\n4.2 Test and correct cable faults and\nerrors\n4.3 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n5. Install POTS\nsubscriber line\n5.1 Prepare distribution joint to customer\npremises installation\n5.2 Layout and install drop wire and\nhouse attachment\n5.3 Install telephone set and accessories\n5.4 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n6. Install digital\nsubscriber lines\n(DSL)\n6.1 Prepare for DSL Modem Installation\n6.2 Perform Installation of DSL Modem\n6.3 Wrap up job\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n\n*Note: Supervised-Industry Training (SIT) in actual work environment is included in the training duration.\n\n--- PDF PAGE 48 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 46\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is by group/individualized and self paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job requirements;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and in-\nindustry training or fieldwork components. Details can be referred to\nthe Dual Training System (DTS) Implementing Rules and\nRegulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer conducts and facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners\nare given the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study,\nor audio, video or computer technologies.\n\n--- PDF PAGE 49 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 47\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nCan communicate in oral and written language\n•\nCan perform basic mathematical computations\n•\nMust be physically and mentally fit to undergo training\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS (Institution-based)\n\nRecommended list of tools, equipment and materials required for a class size\nof 15 trainees for Copper Cable Splicing and Installation NC II:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n5\nset of wrenches\n\nLine extender*\n1 roll\nmessengered cable\n10\nSet of screwdrivers\n\nService vehicle*\n3\nset of suspension clamps\n10\ntorque wrench\n1\nlineman boom truck*\n3\npole extension arm\n10\nF-open wrench\n1\ncable trailer*\n5\nPressure testing valve\n3\nbolt cutter\n1\nreel stand*\n5\npole insulator\n5\ncable slitter\n1\nlashing machine*\n5\nground/guying insulator\n5\nElectrician scissors\n1\nManhole pump\n5\npole tag\n3\nStaple gun\n1\nPower supply\n5\ncable tag\n3\nTechnician’s knife\n1\nTrunk amplifier\n10\nsets of washer, bolts and\nnuts, machine bolts\n5\nCable prep tool\n1\nTV set\n1\nmachine bolts – straight,\nthimble-eye and bent types\n2\nset of hammer\n1\nLCD\n1 rl\nstainless lashing wire\n10\nset of pliers\n1\nKaraoke\n60\nlashing wire clamps\n5\nBoring tools\n1\nmicrophone\n\n5\nBlow torch\n1\nDVD /VCD /MP3 players\n\n10\nPoly knife\n1\nPersonal computers/\ninternet\n\n5\nhacksaw\n5\ncable tensioner/\nrachet/ coping jack\n\n10\nCrimping/\ncompression tool\n\n5\ncable guide\n10\naerial handline\n5\nset of ropes\n10\ntape linen/steel tape\n\n5\nManhole hook\n\n5\nManhole Ladder 10 ft\n\n5\nExtension Ladder 20ft\n\n--- PDF PAGE 50 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 48\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\n5\nfixing brackets/ clamps\n\nPPE:\n5\nstandard rope\n5\ncolor coded marked tape\n5\nlay-up stick / cable lifter\n5\nSafety shoes\n2\nextension arm\n5\nadjustable wrench\n5\nbody belt & strap\n5\nClosure kits\n5\nextension ladders (24\nft. length)\n5\nSafety goggles\ntool pouch/holster\n1 rl\ngrounding wire (gauge 12,\nstranded)\n5\ndrill/electric drill (w/ bits\nof various sizes)\n3\nsafety cones/other\ncollapsible signs\n5\ngrounding rod (1/4’ by 4’\nwith clamp)\n10\ngimlet\n10\nset gloves\n5\nCable clamps\n\nhard hat/ helmet\n5\nsets\nscrew hooks\n5\nlag screws\n\n5\nRain coat\n5000\nUY-Connetors\n\n2\nsidewalk guy fixture\n\n5\nbonding clamp\n\n2\nanchor and grounding rods\n\n10\ncable support\n\n10\ncable spacer\n\n10\nadhesive tape\n\n10\nstrand clamps\n\n1\nsoap\n\n60\ncable tie\n\n5\nrubber boots\n\n* optional\n\n--- PDF PAGE 51 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 49\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.5 TRAINING FACILITIES\n\nEstimated for maximum of 15 pax\nRecommended space requirements for the various teaching/learning areas\nare as follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n6 x 5\n30\n1\n30\nLaboratory Area\n10 X 10\n100\n1\n100\nLearning Resource Area\n6 x 7\n42\n1\n42\nTool Room/Storage Area\n5 x 5\n25\n1\n25\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n159\nFacilities / Equipment / Circulation*\n\n60\n Total Area\n\n219\n\n*Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINERS QUALIFICATIONS\n\n•\nMust be a holder of Telecom OSP and Subscriber line Installation (Copper\nCable/POTS and DSL) NC II or equivalent\n•\nHolder of National TVET Trainers Certificate Level I\n•\n* Must have at least 5-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional:\nOnly when required by the hiring institution.\n\n3.7 ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\nAs a matter of policy, graduates of programs registered with TESDA\nunder these training regulations are required to undergo mandatory national\ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 52 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 50\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
     }
-  },
-  "nominal_duration": {
-    "source_expressions": [
-      "16 hrs",
-      "16 hrs",
-      "448 hrs",
-      "160 hrs",
-      "288 hrs",
-      "480 hrs",
-      "16 hrs",
-      "16 hrs",
-      "480 hrs",
-      "160 hrs",
-      "288 hrs"
-    ],
-    "explicit_total_hours": [],
-    "arithmetic_note": "Only explicit source expressions are retained; ambiguous or missing values are null rather than inferred."
   },
   "source_section_text": "SECTION 3 TRAINING STANDARDS\n\n3.1\nCURRICULUM DESIGN\n\nCourse Title: Telecom Installation (Copper Cable and DSL) NC Level: NC II\n\nNominal Training Duration: 16 hrs – Basic Competencies\n\n 16 hrs – Common Competencies\n\n 448 hrs – Core Competencies\n 160 hrs in-school +\n\n288 hrs Supervised-Industry Training (SIT) in\n\n__________\n actual work environment\n\n 480 hrs. – Total training duration\n\nCourse Description:\n\nThis course is designed to develop & enhance the knowledge, skills, & attitudes\nof a Copper Cable Splicer/Jointer and Telephone and Broadband Installer, in\naccordance with industry standards. It covers the basic and common competencies in\naddition to the core competencies such as installing pole hardware, cable terminal,\nline wire and accessories; installing main copper cable; splicing/jointing cable terminal\nto main aerial/underground copper cable splices; performing basic troubleshooting on\ncable fault and errors; installing/connecting parallel wires; installing jacketed wire, CBK\nand telephone instrument; and installing digital subscriber lines.\n\nBASIC COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcome\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Participate in\nWorkplace\nCommunication\n1.1 Obtain and convey\nworkplace information\n1.2 Complete relevant work-\nrelated document\n1.3 Participate in workplace\nmeeting and discussion\n• Group\ndiscussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n2. Work in a Team\nEnvironment\n2.1 Describe and identify team\nrole and responsibility in a\nteam\n2.2 Describe work as a team\nmember\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n\n--- PDF PAGE 45 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 43\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3. Practice Career\nProfessionalism\n3.1 Integrate personal\nobjectives with\norganizational goals.\n3.2 Set and meet work\npriorities.\n3.3 Maintain professional\ngrowth and development.\n• Discussion\n• Interaction\n\n• Demonstration\n• Observation\n• Interviews/\nquestioning\n4. Practice\nOccupational\nHealth and\nSafety\nProcedures\n4.1 Identify hazards and risks.\n4.2 Evaluate hazards and\nrisks.\n4.3 Control hazards and risks.\n4.4 Maintain occupational\nhealth and safety\nawareness.\n• Discussion\n• Plant tour\n• Symposium\n• Observation\n• Interview\n\n--- PDF PAGE 46 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 44\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCOMMON COMPETENCIES\n16 hrs\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Apply Quality\nStandards\n1.1 Asses quality of received\nmaterials\n1.2 Assess own work\n1.3 Engage in quality\nimprovement\n Field trip\n Symposium\n Film showing\n Simulation\n On the job\ntraining\n Demonstration &\nquestioning\n Observation &\nquestioning\n Third party\nreport\n2. Operate a\nPersonal\nComputer\n2.1 Start and shutdown\ncomputer\n2.2 Work with files and folders\n2.3 Arrange and customize\ndesktop display\n2.4 Utilize OS bundled\napplication\n• Modular\n• Film showing\n• Computer\nbased training\n(e-learning)\n• Project method\n• On the job\ntraining\n\n• Demonstration &\nquestioning\n• Observation &\nquestioning\n• Third party\nreport\n• Assessment of\noutput product\n• Portfolio\n• Computer-\nbased\nassessment\n\n--- PDF PAGE 47 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 45\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nCORE COMPETENCIES\n480 hrs. (160 hrs in-school + 288 hrs. SIT*)\n\nUnit of\nCompetency\nLearning Outcomes\nTraining\nMethodology\nInstitutional\nAssessment\nApproach\n1. Install Pole\nHardware,\nCable Terminal,\nLine Wire and\nAccessories\n\n1.1\nPrepare for pole hardware, cable\nterminal and line wire installation\n1.2 Perform pole hardware, cable\nterminal, line wire and accessories\ninstallation\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n2. Perform Main\nCable\nInstallation\n\n2.1 Prepare for copper cable jointing and\ninstallation\n2.2 Install main copper cable\n\n Lecture\n Discussion\n Demonstration\n Hands on\npractice / SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n3. Splice/Joint\ncable terminal\nto main aerial\ncable and/or\nunderground\ncable splice\n\n3.1 Splice and join cable terminal and\nmain cable pairs for aerial copper\ncable works\n3.2 Splice and join straight and branch\ncable pairs for underground copper\ncable works\n3.3 Install Cable Closure\n3.4 Install Cable Support\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n4. Perform basic\ntroubleshooting\nand correction\nof cable faults\nand errors\n4.1 Prepare for cable fault and error\ntroubleshooting\n4.2 Test and correct cable faults and\nerrors\n4.3 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n5. Install POTS\nsubscriber line\n5.1 Prepare distribution joint to customer\npremises installation\n5.2 Layout and install drop wire and\nhouse attachment\n5.3 Install telephone set and accessories\n5.4 Wrap up job\n\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n6. Install digital\nsubscriber lines\n(DSL)\n6.1 Prepare for DSL Modem Installation\n6.2 Perform Installation of DSL Modem\n6.3 Wrap up job\n Lecture\n Discussion\n Demonstration\n Viewing\nmultimedia\n Hands on\npractice/ SIT\n Observation in\nworkplace\n Demonstration\n Oral\nquestioning\n Written test\n\n*Note: Supervised-Industry Training (SIT) in actual work environment is included in the training duration.\n\n--- PDF PAGE 48 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 46\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.2\nTRAINING DELIVERY\n\nThe delivery of training should adhere to the design of the curriculum.\nDelivery should be guided by the 10 basic principles of the competency-based\nTVET.\n• The training is based on curriculum developed from the competency\nstandards;\n• Learning is modular in its structure;\n• Training delivery is by group/individualized and self paced;\n• Training is based on work that must be performed;\n• Training materials are directly related to the competency standards\nand the curriculum modules;\n• Assessment is based in the collection of evidence of the performance\nof work to the industry required standard;\n• Training is based both on and off-the-job requirements;\n• Allows for recognition of prior learning (RPL) or current\ncompetencies;\n• Training allows for multiple entry and exit; and\n• Approved training programs are nationally accredited.\n\nThe competency-based TVET system recognizes various types of\ndelivery modes, both on and off-the-job as long as the learning is driven by the\ncompetency standards specified by the industry. The following training\nmodalities may be adopted when designing training programs:\n• The dualized mode of training delivery is preferred and\nrecommended. Thus programs would contain both in-school and in-\nindustry training or fieldwork components. Details can be referred to\nthe Dual Training System (DTS) Implementing Rules and\nRegulations.\n• Modular/self-paced learning is a competency-based training modality\nwherein the trainee is allowed to progress at his own pace. The\ntrainer conducts and facilitates the training delivery.\n• Peer teaching/mentoring is a training modality wherein fast learners\nare given the opportunity to assist the slow learners.\n• Supervised industry training or on-the-job training is an approach in\ntraining designed to enhance the knowledge and skills of the trainee\nthrough actual experience in the workplace to acquire a specific\ncompetencies prescribed in the training regulations.\n• Distance learning is a formal education process in which majority of\nthe instruction occurs when the students and instructors are not in the\nsame place. Distance learning may employ correspondence study,\nor audio, video or computer technologies.\n\n--- PDF PAGE 49 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 47\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.3\nTRAINEE ENTRY REQUIREMENTS\n\nThe trainees who wish to enter the course should possess the following\nrequirements:\n\n•\nCan communicate in oral and written language\n•\nCan perform basic mathematical computations\n•\nMust be physically and mentally fit to undergo training\n\nThis list does not include specific institutional requirements such as\neducational attainment, appropriate work experience and others that may be\nrequired from the trainees by the school or training center delivering the TVET\nprogram.\n\n3.4 LIST OF TOOLS, EQUIPMENT AND MATERIALS (Institution-based)\n\nRecommended list of tools, equipment and materials required for a class size\nof 15 trainees for Copper Cable Splicing and Installation NC II:\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n5\nset of wrenches\n\nLine extender*\n1 roll\nmessengered cable\n10\nSet of screwdrivers\n\nService vehicle*\n3\nset of suspension clamps\n10\ntorque wrench\n1\nlineman boom truck*\n3\npole extension arm\n10\nF-open wrench\n1\ncable trailer*\n5\nPressure testing valve\n3\nbolt cutter\n1\nreel stand*\n5\npole insulator\n5\ncable slitter\n1\nlashing machine*\n5\nground/guying insulator\n5\nElectrician scissors\n1\nManhole pump\n5\npole tag\n3\nStaple gun\n1\nPower supply\n5\ncable tag\n3\nTechnician’s knife\n1\nTrunk amplifier\n10\nsets of washer, bolts and\nnuts, machine bolts\n5\nCable prep tool\n1\nTV set\n1\nmachine bolts – straight,\nthimble-eye and bent types\n2\nset of hammer\n1\nLCD\n1 rl\nstainless lashing wire\n10\nset of pliers\n1\nKaraoke\n60\nlashing wire clamps\n5\nBoring tools\n1\nmicrophone\n\n5\nBlow torch\n1\nDVD /VCD /MP3 players\n\n10\nPoly knife\n1\nPersonal computers/\ninternet\n\n5\nhacksaw\n5\ncable tensioner/\nrachet/ coping jack\n\n10\nCrimping/\ncompression tool\n\n5\ncable guide\n10\naerial handline\n5\nset of ropes\n10\ntape linen/steel tape\n\n5\nManhole hook\n\n5\nManhole Ladder 10 ft\n\n5\nExtension Ladder 20ft\n\n--- PDF PAGE 50 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 48\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\nTOOLS\nEQUIPMENT\nMATERIALS\nQty.\nDescription\nQty.\nDescription\nQty.\nDescription\n\n5\nfixing brackets/ clamps\n\nPPE:\n5\nstandard rope\n5\ncolor coded marked tape\n5\nlay-up stick / cable lifter\n5\nSafety shoes\n2\nextension arm\n5\nadjustable wrench\n5\nbody belt & strap\n5\nClosure kits\n5\nextension ladders (24\nft. length)\n5\nSafety goggles\ntool pouch/holster\n1 rl\ngrounding wire (gauge 12,\nstranded)\n5\ndrill/electric drill (w/ bits\nof various sizes)\n3\nsafety cones/other\ncollapsible signs\n5\ngrounding rod (1/4’ by 4’\nwith clamp)\n10\ngimlet\n10\nset gloves\n5\nCable clamps\n\nhard hat/ helmet\n5\nsets\nscrew hooks\n5\nlag screws\n\n5\nRain coat\n5000\nUY-Connetors\n\n2\nsidewalk guy fixture\n\n5\nbonding clamp\n\n2\nanchor and grounding rods\n\n10\ncable support\n\n10\ncable spacer\n\n10\nadhesive tape\n\n10\nstrand clamps\n\n1\nsoap\n\n60\ncable tie\n\n5\nrubber boots\n\n* optional\n\n--- PDF PAGE 51 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 49\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011\n\n3.5 TRAINING FACILITIES\n\nEstimated for maximum of 15 pax\nRecommended space requirements for the various teaching/learning areas\nare as follows:\n\nTEACHING/LEARNING AREAS\nSIZE IN\nMETERS (M)\nAREA IN\nSQ. M\nQTY\nTOTAL AREA\nIN SQ. M\nLecture Area\n6 x 5\n30\n1\n30\nLaboratory Area\n10 X 10\n100\n1\n100\nLearning Resource Area\n6 x 7\n42\n1\n42\nTool Room/Storage Area\n5 x 5\n25\n1\n25\nWash ,Toilet & Locker Room\n2 x 5\n10\n2\n20\n Total\n159\nFacilities / Equipment / Circulation*\n\n60\n Total Area\n\n219\n\n*Area requirement is equivalent to 30% of the total teaching/learning areas\n\n3.6 TRAINERS QUALIFICATIONS\n\n•\nMust be a holder of Telecom OSP and Subscriber line Installation (Copper\nCable/POTS and DSL) NC II or equivalent\n•\nHolder of National TVET Trainers Certificate Level I\n•\n* Must have at least 5-years relevant industry experience.\n•\nMust be physically & mentally fit.\n\n* Optional:\nOnly when required by the hiring institution.\n\n3.7 ASSESSMENT\n\nInstitutional assessment is undertaken by trainees to determine their\n\nachievement of units of competency. A certificate of achievement is issued for\n\neach unit of competency.\n\nAs a matter of policy, graduates of programs registered with TESDA\nunder these training regulations are required to undergo mandatory national\ncompetency assessment upon completion of the program.\n\n--- PDF PAGE 52 ---\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Page 50\nTRAINING REGULATIONS – Telecom OSP and Subscriber Line Installation (Copper Cable/POTS and DSL) NC II\nPromulgated: October 2011"
 }
