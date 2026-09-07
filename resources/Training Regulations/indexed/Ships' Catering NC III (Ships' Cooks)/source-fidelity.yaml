@@ -1,29 +1,208 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:ships-catering-nc-iii-ships-cooks:2014-10",
-  "qualification": "SHIPS’ CATERING NC III (SHIPS’ COOKS)",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:ships-catering-nc-iii-ships-cooks:0f0177e86d",
+  "qualification": "SHIPS' CATERING NC III (SHIPS' COOKS)",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Ships' Catering NC III (Ships' Cooks).pdf",
-    "sha256": "0f0177e86d0f8bf7f803697f202f0a4d817f5d569883fdbe4804fa6fc9f26d7a",
+    "source_sha256": "0f0177e86d0f8bf7f803697f202f0a4d817f5d569883fdbe4804fa6fc9f26d7a",
+    "pdf_pages": 145,
+    "printed_pages": 141,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a revised four-column regulation promulgated October 2014 with 6 Basic, 8 Common, and 6 Core units; Section 3 prints 20, 60, and 80 hours for a 160-hour total.",
+    "Source headings alternate SHIPS’ CATERING NC III (SHIPS’ COOKS) and SHIPS’ CATERING (SHIPS’ COOKS) NC III; the source also prints 'TECHIQUES' for the mathematical unit, spacing variants in MTM 834xxx codes, and 'SAFETYPRACTICES' in one unit heading.",
+    "The common curriculum includes a note that trainees who already hold relevant Basic Training and Ship Security Awareness/SSA-SDSD certificates are not required to undergo common-competency training; this conditional source rule is preserved in the page source and curriculum records.",
+    "Section 4 prints 'ASSESSSMENT' and 'ARRANGEMENT' variants and provides multiple assessment routes; the official PDF remains authoritative for these historical maritime certification requirements."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a revised four-column regulation promulgated October 2014 with 6 Basic, 8 Common, and 6 Core units; Section 3 prints 20, 60, and 80 hours for a 160-hour total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Source headings alternate SHIPS’ CATERING NC III (SHIPS’ COOKS) and SHIPS’ CATERING (SHIPS’ COOKS) NC III; the source also prints 'TECHIQUES' for the mathematical unit, spacing variants in MTM 834xxx codes, and 'SAFETYPRACTICES' in one unit heading."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The common curriculum includes a note that trainees who already hold relevant Basic Training and Ship Security Awareness/SSA-SDSD certificates are not required to undergo common-competency training; this conditional source rule is preserved in the page source and curriculum records."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 4 prints 'ASSESSSMENT' and 'ARRANGEMENT' variants and provides multiple assessment routes; the official PDF remains authoritative for these historical maritime certification requirements."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Ships' Catering NC III (Ships' Cooks).pdf",
-    "pdf_pages": 145,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311109",
+      "source_unit_code": "500311109",
+      "pdf_page_range": [
+        5,
+        7
+      ]
+    },
+    {
+      "unit_code": "500311110",
+      "source_unit_code": "500311110",
+      "pdf_page_range": [
+        8,
+        11
+      ]
+    },
+    {
+      "unit_code": "500311111",
+      "source_unit_code": "500311111",
+      "pdf_page_range": [
+        12,
+        15
+      ]
+    },
+    {
+      "unit_code": "500311112",
+      "source_unit_code": "500311112",
+      "pdf_page_range": [
+        16,
+        20
+      ]
+    },
+    {
+      "unit_code": "500311113",
+      "source_unit_code": "500311113",
+      "pdf_page_range": [
+        21,
+        23
+      ]
+    },
+    {
+      "unit_code": "500311114",
+      "source_unit_code": "500311114",
+      "pdf_page_range": [
+        24,
+        27
+      ]
+    },
+    {
+      "unit_code": "MTM834208",
+      "source_unit_code": "MTM834208",
+      "pdf_page_range": [
+        28,
+        31
+      ]
+    },
+    {
+      "unit_code": "MTM834209",
+      "source_unit_code": "MTM834209",
+      "pdf_page_range": [
+        32,
+        36
+      ]
+    },
+    {
+      "unit_code": "MTM834210",
+      "source_unit_code": "MTM834210",
+      "pdf_page_range": [
+        37,
+        41
+      ]
+    },
+    {
+      "unit_code": "MTM834211",
+      "source_unit_code": "MTM834211",
+      "pdf_page_range": [
+        42,
+        44
+      ]
+    },
+    {
+      "unit_code": "MTM834212",
+      "source_unit_code": "MTM834212",
+      "pdf_page_range": [
+        45,
+        49
+      ]
+    },
+    {
+      "unit_code": "MTM834213",
+      "source_unit_code": "MTM834213",
+      "pdf_page_range": [
+        50,
+        53
+      ]
+    },
+    {
+      "unit_code": "MTM834214",
+      "source_unit_code": "MTM834214",
+      "pdf_page_range": [
+        54,
+        58
+      ]
+    },
+    {
+      "unit_code": "MTM834215",
+      "source_unit_code": "MTM834215",
+      "pdf_page_range": [
+        59,
+        63
+      ]
+    },
+    {
+      "unit_code": "MTM512329",
+      "source_unit_code": "MTM512329",
+      "pdf_page_range": [
+        64,
+        68
+      ]
+    },
+    {
+      "unit_code": "MTM512330",
+      "source_unit_code": "MTM512330",
+      "pdf_page_range": [
+        69,
+        77
+      ]
+    },
+    {
+      "unit_code": "MTM512331",
+      "source_unit_code": "MTM512331",
+      "pdf_page_range": [
+        78,
+        85
+      ]
+    },
+    {
+      "unit_code": "MTM512332",
+      "source_unit_code": "MTM512332",
+      "pdf_page_range": [
+        86,
+        88
+      ]
+    },
+    {
+      "unit_code": "MTM512333",
+      "source_unit_code": "MTM512333",
+      "pdf_page_range": [
+        89,
+        91
+      ]
+    },
+    {
+      "unit_code": "MTM512334",
+      "source_unit_code": "MTM512334",
+      "pdf_page_range": [
+        92,
+        97
+      ]
+    }
+  ]
 }

@@ -1,29 +1,139 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:ship-s-catering-services-nc-i:2013-05",
-  "qualification": "SHIP’S CATERING SERVICES NC I",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:ship-s-catering-services-nc-i:136ed0c86b",
+  "qualification": "SHIP'S CATERING SERVICES NC I",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Ship's Catering Services NC I.pdf",
-    "sha256": "136ed0c86b62fcb55c6f52abf9ce175d0ec6dddbb118de6ae6d73bc7c2ccf1de",
+    "source_sha256": "136ed0c86b62fcb55c6f52abf9ce175d0ec6dddbb118de6ae6d73bc7c2ccf1de",
+    "pdf_pages": 51,
+    "printed_pages": 49,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is a historical two-column regulation promulgated May 2013 with 4 Basic, 5 Common, and 3 Core units; no explicit grand-total line is printed, so the canonical total is the arithmetic sum of 50 hours.",
+    "Section 1 lists 'Practice basic housekeeping procedures', while the Section 2 and curriculum headings shorten this to 'Practice housekeeping procedures'; the canonical unit title follows Section 1 and source_text preserves both forms.",
+    "The source uses Ship’s Catering Services NC I, Stewarding, and maritime MLC 2006 terminology, with historical spelling/capitalization variants and a source heading 'SECTION1' without a space."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is a historical two-column regulation promulgated May 2013 with 4 Basic, 5 Common, and 3 Core units; no explicit grand-total line is printed, so the canonical total is the arithmetic sum of 50 hours."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 lists 'Practice basic housekeeping procedures', while the Section 2 and curriculum headings shorten this to 'Practice housekeeping procedures'; the canonical unit title follows Section 1 and source_text preserves both forms."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source uses Ship’s Catering Services NC I, Stewarding, and maritime MLC 2006 terminology, with historical spelling/capitalization variants and a source heading 'SECTION1' without a space."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Ship's Catering Services NC I.pdf",
-    "pdf_pages": 51,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311101",
+      "source_unit_code": "500311101",
+      "pdf_page_range": [
+        4,
+        6
+      ]
+    },
+    {
+      "unit_code": "500311102",
+      "source_unit_code": "500311102",
+      "pdf_page_range": [
+        7,
+        9
+      ]
+    },
+    {
+      "unit_code": "500311103",
+      "source_unit_code": "500311103",
+      "pdf_page_range": [
+        10,
+        12
+      ]
+    },
+    {
+      "unit_code": "500311104",
+      "source_unit_code": "500311104",
+      "pdf_page_range": [
+        13,
+        15
+      ]
+    },
+    {
+      "unit_code": "MTM512208",
+      "source_unit_code": "MTM512208",
+      "pdf_page_range": [
+        16,
+        18
+      ]
+    },
+    {
+      "unit_code": "MTM512209",
+      "source_unit_code": "MTM512209",
+      "pdf_page_range": [
+        19,
+        21
+      ]
+    },
+    {
+      "unit_code": "MTM512210",
+      "source_unit_code": "MTM512210",
+      "pdf_page_range": [
+        22,
+        24
+      ]
+    },
+    {
+      "unit_code": "MTM512211",
+      "source_unit_code": "MTM512211",
+      "pdf_page_range": [
+        25,
+        26
+      ]
+    },
+    {
+      "unit_code": "MTM512212",
+      "source_unit_code": "MTM512212",
+      "pdf_page_range": [
+        27,
+        28
+      ]
+    },
+    {
+      "unit_code": "MTM512313",
+      "source_unit_code": "MTM512313",
+      "pdf_page_range": [
+        29,
+        32
+      ]
+    },
+    {
+      "unit_code": "MTM512314",
+      "source_unit_code": "MTM512314",
+      "pdf_page_range": [
+        33,
+        37
+      ]
+    },
+    {
+      "unit_code": "MTM512315",
+      "source_unit_code": "MTM512315",
+      "pdf_page_range": [
+        38,
+        40
+      ]
+    }
+  ]
 }

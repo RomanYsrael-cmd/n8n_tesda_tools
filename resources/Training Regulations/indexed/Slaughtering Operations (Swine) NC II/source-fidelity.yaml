@@ -1,29 +1,147 @@
 {
   "schema": "tesda-source-fidelity",
-  "schema_version": "2.0",
-  "document_id": "tesda:tr:slaughtering-operations-swine-nc-ii:2016-03",
+  "schema_version": "1.0",
+  "document_id": "tesda:tr:slaughtering-operations-swine-nc-ii:59b815f49e",
   "qualification": "SLAUGHTERING OPERATIONS (SWINE) NC II",
   "official_source": {
+    "authority": "TESDA",
     "source_file": "Slaughtering Operations (Swine) NC II.pdf",
-    "sha256": "59b815f49eee06ea7eab7a12df02fec8fe0bba804671343d31c8e5280872aeec",
+    "source_sha256": "59b815f49eee06ea7eab7a12df02fec8fe0bba804671343d31c8e5280872aeec",
+    "pdf_pages": 101,
+    "printed_pages": 97,
     "authoritative": true
   },
   "representation": {
-    "source_pdf_authoritative": true,
-    "normalized_semantic_files": true,
+    "type": "semantic_normalized",
     "verbatim_transcription": false,
-    "page_preserved_source": "tr.md"
+    "source_text_preserved_in": "tr.md and unit source_text fields"
   },
   "normalization_notes": [
-    "Competency fields are normalized from the extracted PDF while the complete page-separated extraction is retained in tr.md and canonical source_text fields.",
-    "Source wording, historical terminology, apparent errors, and unresolved ambiguities are not silently modernized.",
-    "Null values indicate a genuinely absent or unreadable source value; they are not inferred placeholders."
+    "Semantic unit codes and group labels are normalized for deterministic retrieval; source header codes are retained as source_unit_code when they differ.",
+    "The official PDF remains authoritative for regulatory verification; tr.md and source_text preserve the page-extracted source layer.",
+    "The source is an amended revised four-column regulation promulgated March 2016 with 4 Basic, 5 Common, and 4 Core units; Section 3 prints 20, 20, and 240 hours for a 280-hour total.",
+    "Section 1 prints the common-unit codes PFB741210, PFB741211, PFB741213, PFB741214, and PFB741215, while the Section 2 headers print the PFB751xxx variants; canonical units follow Section 1 and source_codes preserve the header codes.",
+    "The source includes visible wording/spacing anomalies such as 'ZZUse' in the common curriculum and alternating singular/plural or slash-separated unit headings; the source extraction retains them for verification."
   ],
-  "observations": [],
+  "observations": [
+    {
+      "type": "source_anomaly",
+      "description": "The source is an amended revised four-column regulation promulgated March 2016 with 4 Basic, 5 Common, and 4 Core units; Section 3 prints 20, 20, and 240 hours for a 280-hour total."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "Section 1 prints the common-unit codes PFB741210, PFB741211, PFB741213, PFB741214, and PFB741215, while the Section 2 headers print the PFB751xxx variants; canonical units follow Section 1 and source_codes preserve the header codes."
+    },
+    {
+      "type": "source_anomaly",
+      "description": "The source includes visible wording/spacing anomalies such as 'ZZUse' in the common curriculum and alternating singular/plural or slash-separated unit headings; the source extraction retains them for verification."
+    }
+  ],
   "fidelity_overrides": [],
-  "provenance": {
-    "source_path": "Slaughtering Operations (Swine) NC II.pdf",
-    "pdf_pages": 101,
-    "printed_pages": null
-  }
+  "unit_provenance": [
+    {
+      "unit_code": "500311105",
+      "source_unit_code": "500311105",
+      "pdf_page_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "unit_code": "500311106",
+      "source_unit_code": "500311106",
+      "pdf_page_range": [
+        11,
+        14
+      ]
+    },
+    {
+      "unit_code": "500311107",
+      "source_unit_code": "500311107",
+      "pdf_page_range": [
+        15,
+        18
+      ]
+    },
+    {
+      "unit_code": "500311108",
+      "source_unit_code": "500311108",
+      "pdf_page_range": [
+        19,
+        24
+      ]
+    },
+    {
+      "unit_code": "PFB741210",
+      "source_unit_code": "PFB751210",
+      "pdf_page_range": [
+        25,
+        28
+      ]
+    },
+    {
+      "unit_code": "PFB741211",
+      "source_unit_code": "PFB751211",
+      "pdf_page_range": [
+        29,
+        31
+      ]
+    },
+    {
+      "unit_code": "PFB741213",
+      "source_unit_code": "PFB751213",
+      "pdf_page_range": [
+        32,
+        34
+      ]
+    },
+    {
+      "unit_code": "PFB741214",
+      "source_unit_code": "PFB751214",
+      "pdf_page_range": [
+        35,
+        40
+      ]
+    },
+    {
+      "unit_code": "PFB741215",
+      "source_unit_code": "PFB751215",
+      "pdf_page_range": [
+        41,
+        45
+      ]
+    },
+    {
+      "unit_code": "PFB751335",
+      "source_unit_code": "PFB751335",
+      "pdf_page_range": [
+        46,
+        49
+      ]
+    },
+    {
+      "unit_code": "PFB751339",
+      "source_unit_code": "PFB751339",
+      "pdf_page_range": [
+        50,
+        55
+      ]
+    },
+    {
+      "unit_code": "PFB751340",
+      "source_unit_code": "PFB751340",
+      "pdf_page_range": [
+        56,
+        62
+      ]
+    },
+    {
+      "unit_code": "PFB751341",
+      "source_unit_code": "PFB751341",
+      "pdf_page_range": [
+        63,
+        66
+      ]
+    }
+  ]
 }
