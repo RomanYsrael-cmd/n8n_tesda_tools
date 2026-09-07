@@ -3,10 +3,10 @@
   "schema_version": "1.0",
   "batch_size": 5,
   "selection_order": "indexed package directory name, case-insensitive, ignoring underscore-prefixed control files",
-  "last_updated": "2026-09-07T13:38:28+08:00",
+  "last_updated": "2026-09-07T14:00:55+08:00",
   "total_indexed_packages": 384,
-  "audited_count": 350,
-  "remaining_unaudited": 34,
+  "audited_count": 355,
+  "remaining_unaudited": 29,
   "blocked_count": 0,
   "documents": [
     {
@@ -4558,6 +4558,71 @@
       "validation_passed": true,
       "last_audit_commit": "3357aeb0ef63e986d88493e6401497ee98fe3c8b",
       "audit_notes": "Rebuilt the historical two-column 6/9/1 unit inventory; restored 55 curriculum rows, 6 assessment arrangements, and 9 welding glossary entries, preserved the superseded lifecycle and 01/04/05 source context, retained MEE721313 versus MEE721113 and 3500311113 versus 500311113 source-code provenance, recovered the CORE COMETENCIES curriculum section, and preserved the 20/56/44-hour components with 120-hour total; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Shielded Metal Arc Welding (SMAW) NC IV (Superseded)",
+      "package_path": "resources/Training Regulations/indexed/Shielded Metal Arc Welding (SMAW) NC IV (Superseded)",
+      "source_file": "resources/Training Regulations/Superseded/Shielded Metal Arc Welding (SMAW) NC IV (Superseded).pdf",
+      "source_sha256": "cc7a87cb3befb243c10ffe9499442d33a1c181baf4b976df61a55c2ae17e9f39",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:00:55+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "5175dffa8bc241462320d510e9f3a7fad5e9e81f",
+      "audit_notes": "Rebuilt the historical two-column 6/9/1 unit inventory; restored 62 curriculum rows, 6 assessment arrangements, and 9 welding glossary entries, preserved the superseded lifecycle and source 56/56/56-hour components with 168-hour total, retained 50011117/50011118 header-code provenance, and preserved historical SMAW IV/Welding NC IV naming variants; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Ship's Catering Services NC I",
+      "package_path": "resources/Training Regulations/indexed/Ship's Catering Services NC I",
+      "source_file": "resources/Training Regulations/Ship's Catering Services NC I.pdf",
+      "source_sha256": "136ed0c86b62fcb55c6f52abf9ce175d0ec6dddbb118de6ae6d73bc7c2ccf1de",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:00:55+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "5175dffa8bc241462320d510e9f3a7fad5e9e81f",
+      "audit_notes": "Rebuilt the historical two-column 4/5/3 unit inventory; restored 39 curriculum rows, including the five bare-numbered core outcomes, 6 assessment arrangements, and 5 glossary entries, preserved the May 2013 source and 18/12/20-hour components with arithmetic 50-hour total, and retained the Section 1 versus Section 2 housekeeping-title variant; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Ships' Catering NC III (Ships' Cooks)",
+      "package_path": "resources/Training Regulations/indexed/Ships' Catering NC III (Ships' Cooks)",
+      "source_file": "resources/Training Regulations/Ships' Catering NC III (Ships' Cooks).pdf",
+      "source_sha256": "0f0177e86d0f8bf7f803697f202f0a4d817f5d569883fdbe4804fa6fc9f26d7a",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:00:55+08:00",
+      "issues_found": 4,
+      "issues_fixed": 4,
+      "validation_passed": true,
+      "last_audit_commit": "5175dffa8bc241462320d510e9f3a7fad5e9e81f",
+      "audit_notes": "Rebuilt the revised four-column 6/8/6 unit inventory; restored 63 curriculum rows, 2 assessment arrangements, and all 28 glossary entries, preserved the October 2014 source and 20/60/80-hour components with 160-hour total, retained the conditional common-competency exemption note and maritime source headings/code-spacing variants, and corrected the glossary extraction coverage; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Slaughtering Operations (Large Animal) NC II",
+      "package_path": "resources/Training Regulations/indexed/Slaughtering Operations (Large Animal) NC II",
+      "source_file": "resources/Training Regulations/Slaughtering Operations (Large Animal) NC II.pdf",
+      "source_sha256": "4e7aed46fc0aa2c85d8f77586d0d81a227a1c03042c202485f8d8f61b5edb806",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:00:55+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "5175dffa8bc241462320d510e9f3a7fad5e9e81f",
+      "audit_notes": "Rebuilt the revised four-column 4/5/4 unit inventory; restored 47 curriculum rows, 2 assessment arrangements, and 28 glossary entries with split-number formatting handled, preserved the March 2016 amended source and 20/20/320-hour components with 360-hour total, retained PFB741xxx Section 1 versus PFB751xxx unit-header provenance and Large Animal/Large Animals wording; structural validation and visual boundary QA passed."
+    },
+    {
+      "package": "Slaughtering Operations (Swine) NC II",
+      "package_path": "resources/Training Regulations/indexed/Slaughtering Operations (Swine) NC II",
+      "source_file": "resources/Training Regulations/Slaughtering Operations (Swine) NC II.pdf",
+      "source_sha256": "59b815f49eee06ea7eab7a12df02fec8fe0bba804671343d31c8e5280872aeec",
+      "status": "audited",
+      "audited_at": "2026-09-07T14:00:55+08:00",
+      "issues_found": 3,
+      "issues_fixed": 3,
+      "validation_passed": true,
+      "last_audit_commit": "5175dffa8bc241462320d510e9f3a7fad5e9e81f",
+      "audit_notes": "Rebuilt the revised four-column 4/5/4 unit inventory; restored 48 curriculum rows, 2 assessment arrangements, and 30 glossary entries with split-number formatting handled, preserved the March 2016 amended source and 20/20/240-hour components with 280-hour total, retained PFB741xxx Section 1 versus PFB751xxx unit-header provenance and the visible ZZUse curriculum anomaly; structural validation and visual boundary QA passed."
     }
   ]
 }
