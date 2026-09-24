@@ -29,19 +29,14 @@ Do not commit any of these secret files.
 
 The repository workflow runs CI for pull requests and pushes. A push to
 `main` publishes an immutable commit-tagged image to GHCR and deploys that
-exact image to production over SSH. Add these GitHub Actions repository
-secrets:
+exact image to production. Because this server is reachable through a private
+Tailscale network, the deployment job runs on a repository-scoped self-hosted
+runner installed at `/opt/actions-runner` on the server (label: `tesda-saas`).
+No SSH private key is needed in GitHub Actions for this setup.
 
-- `TESDA_DEPLOY_HOST`: a public DNS name or IP reachable from GitHub Actions
-  (a local SSH alias such as `romanserver-remote` is not sufficient).
-- `TESDA_DEPLOY_USER`: the Linux account used for deployment.
-- `TESDA_DEPLOY_SSH_KEY`: the private key whose public key is in that account's
-  `~/.ssh/authorized_keys`.
-- `TESDA_DEPLOY_PORT`: optional SSH port; defaults to `22`.
-
-The deployment account must be able to run `sudo -n docker` without an
-interactive password and must have the production files and secret files
-listed above. If the GHCR package is private, the server must already be
-logged in to GHCR with permission to pull it. The action then runs the same
-checked deployment script used for a manual update and verifies
+The runner account must be able to run `sudo -n docker` without an interactive
+password and the server must have the production files and secret files listed
+above. If the GHCR package is private, the server must already be logged in to
+GHCR with permission to pull it. The action runs the same checked deployment
+script used for a manual update and verifies both containers plus
 `/health/saas` before succeeding.
